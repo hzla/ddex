@@ -959,7 +959,7 @@ var Dex = new ((function () {
     }
     return (
       '<img src="' +
-      "./theme/" +
+      "/theme/" +
       sanitizedCategory +
       '.png" alt="' +
       sanitizedCategory +
