@@ -200,6 +200,7 @@ table.stats td,
 table.stats th {
 	text-align: right;
 }
+
 table.stats th {
 	font-size: 9pt;
 	font-weight: normal;
@@ -222,10 +223,15 @@ table.stats .bst {
 }
 table.stats td.bst {
 	font-weight: normal;
+	display: flex;
+	justify-content: space-between;
 }
+
 table.stats .stat {
 	width: 74px;
 	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
 }
 .statbar span {
 	display: block;

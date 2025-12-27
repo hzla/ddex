@@ -285,8 +285,16 @@ ul {
 }
 
 .vnl {
-	text-decoration: line-through;
-	opacity: 0.5;
+	font-size: 12px;
+	line-height: 22px
+}
+
+.vnl.pos {
+	color: green;
+}
+
+.vnl.neg {
+	color: #FF5555;
 }
 
 .utilichart .itemdesccol,

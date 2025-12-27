@@ -121,12 +121,12 @@ function getItem(collection, str) {
 		}
 	}
 	for (const id in Pokedex) {
-		const name = Pokedex[id].name;
+		const name = id;
 		if (Pokedex[id].isCosmeticForme) continue;
 		generateAlias(id, name, 'pokemon');
 	}
 	for (const id in Moves) {
-		const name = Moves[id].name;
+		const name = id;
 		generateAlias(id, name, 'move');
 	}
 	for (const id in Items) {

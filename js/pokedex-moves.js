@@ -586,7 +586,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
     if (this.results) return this.results;
     var results = [];
     for (var pokemonid in BattleLearnsets) {
-      if (!BattlePokedex[pokemonid] || !BattleLearnsets[pokemonid]) continue;
+      if (!BattlePokedex[pokemonid] || !BattleLearnsets[pokemonid] || !overrides.poks[BattlePokedex[pokemonid].name]) continue;
       if (
         BattlePokedex[pokemonid].isNonstandard ||
         !BattleLearnsets[pokemonid].learnset
@@ -677,6 +677,9 @@ var PokedexMovePanel = PokedexResultPanel.extend({
     var results = this.results;
     var id = results[i].substr(5);
     var template = id ? BattlePokedex[id] : undefined;
+
+    // console.log(BattlePokedex[id].name)
+
     if (!template) {
       switch (results[i].charAt(0)) {
         case "A": // level-up move

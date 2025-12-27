@@ -24,7 +24,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
     if (fragment === "encounters") fragment = "encounters/";
     if (questionIndex >= 0) fragment = fragment.slice(0, questionIndex);
     var buf = '<div class="pfx-body"><form class="pokedex">';
-    buf += '<h1><a href="/" data-target="replace">Pok&eacute;dex</a></h1>';
+    buf += `<h1 id="dex-title"><a href="/" data-target="replace">Pok&eacute;dex</a></h1>`;
     buf +=
       '<div class="searchboxwrapper"><input class="textbox searchbox" type="search" name="q" value="' +
       Dex.escapeHTML(this.$(".searchbox").val() || "") +

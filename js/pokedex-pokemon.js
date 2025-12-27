@@ -89,8 +89,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
     buf += '<dl class="abilityentry">';
     buf += '<dt>Abilities:</dt> <dd class="imgentry">';
+    var vanillaAbilities = [vanillaPokemon.abilities[0], vanillaPokemon.abilities[1], vanillaPokemon.abilities["H"]]
     for (var i in pokemon.abilities) {
       var ability = pokemon.abilities[i];
+      var isNew = !vanillaAbilities.includes(ability)
+
       if (!ability) continue;
 
       if (i !== "0") buf += " | ";
@@ -100,7 +103,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         toID(pokemon.abilities[i]) +
         '" data-target="push">' +
         ability +
-        "</a>";
+        "</a>" + `${isNew ? " (New)" : ""}`;
       if (i === "H") buf += "<small> (H)</small>";
       if (i === "S") buf += "<small> (special)</small>";
     }
@@ -146,14 +149,22 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         "<tr><th>" +
         StatTitles[stat] +
         ':</th><td class="stat">' +
-        baseStat +
+        `<span class="vnl"></span> ${baseStat}` +
         "</td>";
       } else {
+        var delta = baseStat - vanillaBaseStat
+        var statLine = ""
+        if (delta > 0) {
+          statLine = `<span class="vnl pos">+${delta}</span> ${baseStat}`
+        } else {
+          statLine = `<span class="vnl neg">${delta}</span> ${baseStat}`
+        }
+
         buf +=
         "<tr><th>" +
         StatTitles[stat] +
         ':</th><td class="stat">' +
-        `<span class="vnl">${vanillaBaseStat}</span> ${baseStat}` +
+        statLine +
         "</td>";
       }
 
@@ -189,9 +200,18 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       bst +
       '</td><td></td><td class="ministat" colspan="4">at level <input type="text" class="textbox" name="level" placeholder="100" size="5" /></td>';
     } else {
+      var delta = bst - vanillaBst
+      var statLine = ""
+
+      if (delta > 0) {
+        statLine = `<span class="vnl pos">+${delta}</span> ${bst}`
+      } else {
+        statLine = `<span class="vnl neg">${delta}</span> ${bst}`
+      }
+      
       buf +=
       '<tr><th class="bst">Total:</th><td class="bst">' +
-      `<span class="vnl">${vanillaBst}</span> ${bst}` +
+      statLine +
       '</td><td></td><td class="ministat" colspan="4">at level <input type="text" class="textbox" name="level" placeholder="100" size="5" /></td>';
     }
 

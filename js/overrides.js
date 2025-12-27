@@ -1,19 +1,28 @@
 params = new URLSearchParams(window.location.search);
-game = params.get('game') 
+game = params.get('game') || localStorage.game
+gameTitles = {
+	"vintagewhiteplus": "Vintage White+",
+	"blazeblack2redux": "Blaze Black/Volt White 2 Redux"
+}
 
 $(document).ready(function() {
 	if (game) {
+		localStorage.game = game
+		$('#dex-title').text(`${gameTitles[game]} Dex`)
 	 	checkAndLoadScript(`./data/overrides/${game}.js`, {
             onLoad: (src) => {
                 overrideDexData(overrides)
             },
             onNotFound: (src) => console.log(`Not found: ${src}`)
-    	});    
+    	});
+    	checkAndLoadScript(`./data/overrides/${game}_searchindex.js`, {
+            onLoad: (src) => {
+                console.log(`search index loaded for ${game}`)
+            },
+            onNotFound: (src) => console.log(`Not found: ${src}`)
+    	});       
 	}
 })
-
-
-
 
 function overrideDexData(dexOverides) {
 	monOverrides = dexOverides.poks
@@ -33,7 +42,6 @@ function overrideDexData(dexOverides) {
 	console.log("Overriding move data...")
 	overrideMoveData(moveOverrides)
 
-	
 	console.log("Overriding enc data...")
 	BattleLocationdex = dexOverides.encs
 
@@ -95,6 +103,7 @@ function overrideMonData(monOverrides) {
 
 		if (typeof BattlePokedex[speciesId] != "undefined") {
 			BattlePokedex[speciesId].types = monData.types
+			BattlePokedex[speciesId].tier = "obtainable"
 			BattlePokedex[speciesId].baseStats = {
 				hp: monData.bs.hp,
 				atk: monData.bs.at,
@@ -108,6 +117,7 @@ function overrideMonData(monOverrides) {
 			let lvlUpMoves = monData.learnset_info.learnset
 			let tms = monData.learnset_info.tms
 			let tutors = monData.learnset_info.tutors
+
 
 			BattleLearnsets[speciesId].learnset = {}
 
@@ -127,12 +137,16 @@ function overrideMonData(monOverrides) {
 				BattleLearnsets[speciesId].learnset[mvId].push(`M`)
 			}
 
-			for (let mv of tutors) {
-				let mvId = cleanString(mv)
-	
-				BattleLearnsets[speciesId].learnset[mvId] ||= []
-				BattleLearnsets[speciesId].learnset[mvId].push(`T`)
+			if (tutors) {
+				for (let mv of tutors) {
+					let mvId = cleanString(mv)
+		
+					BattleLearnsets[speciesId].learnset[mvId] ||= []
+					BattleLearnsets[speciesId].learnset[mvId].push(`T`)
+				}
+
 			}
+			
 
 			// console.log(BattleLearnsets[speciesId].learnset)
 
