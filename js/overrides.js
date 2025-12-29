@@ -5,17 +5,24 @@ gameTitles = {
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux"
 }
 
+if (localStorage.overrides) {
+	overrideDexData(JSON.parse(localStorage.overrides))
+}
+
 $(document).ready(function() {
 	if (game) {
-		localStorage.game = game
 		$('#dex-title').text(`${gameTitles[game]} Dex`)
-	 	checkAndLoadScript(`./data/overrides/${game}.js`, {
+	 	checkAndLoadScript(`/data/overrides/${game}.js`, {
             onLoad: (src) => {
                 overrideDexData(overrides)
+                if (localStorage.game != game) {
+                	localStorage.overrides = JSON.stringify(overrides)
+                	localStorage.game = game
+                }                
             },
             onNotFound: (src) => console.log(`Not found: ${src}`)
     	});
-    	checkAndLoadScript(`./data/overrides/${game}_searchindex.js`, {
+    	checkAndLoadScript(`/data/overrides/${game}_searchindex.js`, {
             onLoad: (src) => {
                 console.log(`search index loaded for ${game}`)
             },
@@ -103,6 +110,9 @@ function overrideMonData(monOverrides) {
 
 		if (typeof BattlePokedex[speciesId] != "undefined") {
 			BattlePokedex[speciesId].types = monData.types
+			BattlePokedex[speciesId].abilities[0] = monData.abs[0]
+			BattlePokedex[speciesId].abilities[1] = monData.abs[1]
+			BattlePokedex[speciesId].abilities["H"] = monData.abs[2]
 			BattlePokedex[speciesId].tier = "obtainable"
 			BattlePokedex[speciesId].baseStats = {
 				hp: monData.bs.hp,

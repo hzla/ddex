@@ -1,5 +1,5 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "rewrites": [{ "source": "/((?!.*\\.js$).*)", "destination": "/index.html" }],
   "headers": [
     {
       "source": "/(.*)",
