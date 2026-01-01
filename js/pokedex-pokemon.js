@@ -646,6 +646,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     for (var i = 0, len = moves.length; i < len; i++) {
       var move = BattleMovedex[moves[i].substr(5)];
       if (!move) {
+
         buf += '<li><pre>error: "' + moves[i] + '"</pre></li>';
       } else {
         if ((lastChanged = moves[i].substr(0, 1) !== last)) {

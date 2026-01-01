@@ -2,7 +2,8 @@ params = new URLSearchParams(window.location.search);
 game = params.get('game') || localStorage.game
 gameTitles = {
 	"vintagewhiteplus": "Vintage White+",
-	"blazeblack2redux": "Blaze Black/Volt White 2 Redux"
+	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
+	"blindwhite2": "Blinding White 2"
 }
 
 if (localStorage.overrides) {
@@ -240,6 +241,15 @@ function checkAndLoadScript(src, options = {}) {
         // Add script to document head
         document.head.appendChild(script);
     });
+}
+
+function moveSubs() {
+	return {
+	    "faintattack": "feintattack",
+	    "smellingsalt": "smellingsalts",
+	    "vicegrip": "visegrip",
+	    "hijumpkick": "highjumpkick",
+	}
 }
 
 function snakeToTitleCase(str) {
