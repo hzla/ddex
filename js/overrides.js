@@ -3,7 +3,7 @@ game = params.get('game') || localStorage.game
 gameTitles = {
 	"vintagewhiteplus": "Vintage White+",
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
-	"blindwhite2": "Blinding White 2"
+	"blindingwhite2": "Blinding White 2"
 }
 
 if (localStorage.overrides) {
