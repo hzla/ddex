@@ -2862,7 +2862,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
+        "Volt Absorb",
         "Static",
         "Lightning Rod"
       ],
@@ -2992,7 +2992,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
+        "Volt Absorb",
         "Static",
         "Lightning Rod"
       ],
@@ -6562,6 +6562,10 @@ overrides = {
             "Power Gem"
           ],
           [
+            26,
+            "Screech"
+          ],
+          [
             28,
             "Soak"
           ],
@@ -6692,6 +6696,10 @@ overrides = {
           [
             24,
             "Power Gem"
+          ],
+          [
+            26,
+            "Screech"
           ],
           [
             28,
@@ -7111,15 +7119,19 @@ overrides = {
           ],
           [
             20,
-            "Reversal"
+            "Take Down"
           ],
           [
             24,
-            "Take Down"
+            "Submission"
           ],
           [
             28,
             "Flamethrower"
+          ],
+          [
+            29,
+            "Reversal"
           ],
           [
             32,
@@ -7253,15 +7265,19 @@ overrides = {
           ],
           [
             20,
-            "Reversal"
+            "Take Down"
           ],
           [
             24,
-            "Take Down"
+            "Submission"
           ],
           [
             28,
             "Flamethrower"
+          ],
+          [
+            29,
+            "Reversal"
           ],
           [
             32,
@@ -12622,9 +12638,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
+        "Volt Absorb",
         "Soundproof",
-        "Aftermath"
+        "Lightning Rod"
       ],
       "evos": [
         "Electrode"
@@ -12754,9 +12770,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
+        "Volt Absorb",
         "Soundproof",
-        "Aftermath"
+        "Lightning Rod"
       ],
       "evoType": "level",
       "evoLevel": 30
@@ -14091,8 +14107,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
         "Rock Head",
+        "Solid Rock",
         "Reckless"
       ],
       "evos": [
@@ -14234,8 +14250,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
         "Rock Head",
+        "Solid Rock",
         "Reckless"
       ],
       "evoType": "level",
@@ -15005,7 +15021,7 @@ overrides = {
       },
       "abs": [
         "Swift Swim",
-        "Lightning Rod",
+        "Volt Absorb",
         "Lightning Rod"
       ],
       "evos": [
@@ -15125,7 +15141,7 @@ overrides = {
       },
       "abs": [
         "Swift Swim",
-        "Lightning Rod",
+        "Volt Absorb",
         "Lightning Rod"
       ],
       "evoType": "level",
@@ -15911,9 +15927,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
         "Motor Drive",
-        "Vital Spirit"
+        "Motor Drive",
+        "Lightning Rod"
       ],
       "evos": [
         "Electivire"
@@ -16174,7 +16190,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Moxie",
+        "Intimidate",
         "Mold Breaker",
         "Moxie"
       ]
@@ -21939,7 +21955,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
+        "Volt Absorb",
         "Static",
         "Lightning Rod"
       ],
@@ -30462,9 +30478,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
         "Motor Drive",
-        "Vital Spirit"
+        "Motor Drive",
+        "Lightning Rod"
       ],
       "evos": [
         "Electabuzz"
@@ -32139,14 +32155,18 @@ overrides = {
           ],
           [
             52,
-            "Dual Chop"
+            "U-turn"
           ],
           [
-            56,
+            58,
             "Bullet Seed"
           ],
           [
             60,
+            "Dual Chop"
+          ],
+          [
+            70,
             "Leaf Storm"
           ],
           [
@@ -32272,10 +32292,14 @@ overrides = {
           ],
           [
             56,
-            "Bullet Seed"
+            "U-turn"
           ],
           [
             60,
+            "Bullet Seed"
+          ],
+          [
+            70,
             "Leaf Storm"
           ],
           [
@@ -32415,10 +32439,14 @@ overrides = {
           ],
           [
             56,
-            "Bullet Seed"
+            "U-turn"
           ],
           [
             60,
+            "Bullet Seed"
+          ],
+          [
+            70,
             "Leaf Storm"
           ],
           [
@@ -32940,12 +32968,16 @@ overrides = {
             "Mud Shot"
           ],
           [
+            22,
+            "Rest"
+          ],
+          [
             24,
             "Waterfall"
           ],
           [
             28,
-            "Take Down"
+            "Protect"
           ],
           [
             32,
@@ -32957,7 +32989,7 @@ overrides = {
           ],
           [
             40,
-            "Protect"
+            "Slack Off"
           ],
           [
             44,
@@ -33061,7 +33093,11 @@ overrides = {
           ],
           [
             20,
-            "Mud Shot"
+            "Bulldoze"
+          ],
+          [
+            22,
+            "Rest"
           ],
           [
             24,
@@ -33069,7 +33105,7 @@ overrides = {
           ],
           [
             28,
-            "Take Down"
+            "Protect"
           ],
           [
             32,
@@ -33081,7 +33117,7 @@ overrides = {
           ],
           [
             40,
-            "Protect"
+            "Slack Off"
           ],
           [
             44,
@@ -33203,7 +33239,11 @@ overrides = {
           ],
           [
             20,
-            "Mud Shot"
+            "Bulldoze"
+          ],
+          [
+            22,
+            "Rest"
           ],
           [
             24,
@@ -33211,7 +33251,7 @@ overrides = {
           ],
           [
             28,
-            "Take Down"
+            "Protect"
           ],
           [
             32,
@@ -33223,7 +33263,7 @@ overrides = {
           ],
           [
             40,
-            "Protect"
+            "Slack Off"
           ],
           [
             44,
@@ -39572,8 +39612,8 @@ overrides = {
       },
       "abs": [
         "Static",
-        "Lightning Rod",
-        "Minus"
+        "Motor Drive",
+        "Lightning Rod"
       ],
       "evos": [
         "Manectric"
@@ -39702,8 +39742,8 @@ overrides = {
       },
       "abs": [
         "Intimidate",
-        "Lightning Rod",
-        "Minus"
+        "Motor Drive",
+        "Lightning Rod"
       ],
       "evoType": "level",
       "evoLevel": 26
@@ -44304,7 +44344,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Storm Drain",
+        "Suction Cups",
         "Suction Cups",
         "Storm Drain"
       ],
@@ -44441,8 +44481,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Storm Drain",
-        "Suction Cups",
+        "Water Absorb",
+        "Water Absorb",
         "Storm Drain"
       ],
       "evoType": "level",
@@ -58924,9 +58964,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
         "Motor Drive",
-        "Vital Spirit"
+        "Motor Drive",
+        "Lightning Rod"
       ],
       "evoType": "level",
       "evoLevel": 36
@@ -59057,9 +59097,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Solar Power",
         "Flash Fire",
-        "Vital Spirit"
+        "Flash Fire",
+        "Solar Power"
       ],
       "evoType": "useItem",
       "evoItem": "Fire Stone"
@@ -92962,13 +93002,13 @@ overrides = {
         "encs": [
           {
             "s": "Trapinch",
-            "mn": 19,
-            "mx": 19
+            "mn": 20,
+            "mx": 20
           },
           {
             "s": "Nosepass",
-            "mn": 19,
-            "mx": 19
+            "mn": 20,
+            "mx": 20
           },
           {
             "s": "Cacnea",
@@ -92986,39 +93026,39 @@ overrides = {
             "mx": 20
           },
           {
-            "s": "Baltoy",
+            "s": "Skarmory",
             "mn": 20,
             "mx": 20
           },
           {
-            "s": "Ekans",
-            "mn": 21,
-            "mx": 21
-          },
-          {
-            "s": "Ekans",
+            "s": "Scizor",
             "mn": 20,
             "mx": 20
           },
           {
-            "s": "Larvitar",
-            "mn": 22,
-            "mx": 22
+            "s": "Scizor",
+            "mn": 20,
+            "mx": 20
           },
           {
-            "s": "Skarmory",
-            "mn": 22,
-            "mx": 22
+            "s": "Beldum",
+            "mn": 20,
+            "mx": 20
           },
           {
-            "s": "Skarmory",
-            "mn": 22,
-            "mx": 22
+            "s": "Beldum",
+            "mn": 20,
+            "mx": 20
           },
           {
-            "s": "Skarmory",
-            "mn": 22,
-            "mx": 22
+            "s": "Voltorb",
+            "mn": 20,
+            "mx": 20
+          },
+          {
+            "s": "Voltorb",
+            "mn": 20,
+            "mx": 20
           }
         ]
       },
@@ -93047,16 +93087,16 @@ overrides = {
         "encs": [
           {
             "s": "Rhyhorn",
-            "mn": 19,
-            "mx": 19
+            "mn": 20,
+            "mx": 20
           },
           {
-            "s": "Baltoy",
-            "mn": 19,
-            "mx": 19
+            "s": "Phanpy",
+            "mn": 20,
+            "mx": 20
           },
           {
-            "s": "Cacnea",
+            "s": "Gligar",
             "mn": 20,
             "mx": 20
           },
@@ -93071,39 +93111,39 @@ overrides = {
             "mx": 20
           },
           {
-            "s": "Skarmory",
+            "s": "Cubone",
             "mn": 20,
             "mx": 20
           },
           {
-            "s": "Beldum",
-            "mn": 21,
-            "mx": 21
-          },
-          {
-            "s": "Mawile",
+            "s": "Cacnea",
             "mn": 20,
             "mx": 20
           },
           {
-            "s": "Phanpy",
-            "mn": 22,
-            "mx": 22
+            "s": "Cacnea",
+            "mn": 20,
+            "mx": 20
           },
           {
-            "s": "Scizor",
-            "mn": 22,
-            "mx": 22
+            "s": "Pinsir",
+            "mn": 20,
+            "mx": 20
           },
           {
-            "s": "Beldum",
-            "mn": 22,
-            "mx": 22
+            "s": "Pinsir",
+            "mn": 20,
+            "mx": 20
           },
           {
-            "s": "Phanpy",
-            "mn": 22,
-            "mx": 22
+            "s": "Pinsir",
+            "mn": 20,
+            "mx": 20
+          },
+          {
+            "s": "Pinsir",
+            "mn": 20,
+            "mx": 20
           }
         ]
       },
@@ -93133,62 +93173,62 @@ overrides = {
           {
             "s": "Lileep",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Anorith",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Omanyte",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Omanyte",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Kabuto",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Kabuto",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Lileep",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Anorith",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Omanyte",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Kabuto",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Omanyte",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           },
           {
             "s": "Kabuto",
             "mn": 30,
-            "mx": 35
+            "mx": 32
           }
         ]
       },
@@ -93301,62 +93341,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -93386,62 +93426,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -93471,62 +93511,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -93556,62 +93596,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -93641,62 +93681,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -93726,62 +93766,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -93811,62 +93851,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -93896,62 +93936,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -93981,62 +94021,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94066,62 +94106,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94151,62 +94191,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94236,62 +94276,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94321,62 +94361,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94406,62 +94446,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94491,62 +94531,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94576,62 +94616,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94661,62 +94701,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94746,62 +94786,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94831,62 +94871,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -94916,62 +94956,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -95001,63 +95041,63 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Claydol",
+            "s": "Solrock",
             "mn": 47,
-            "mx": 47
+            "mx": 50
           },
           {
-            "s": "Claydol",
+            "s": "Solrock",
             "mn": 47,
-            "mx": 47
-          },
-          {
-            "s": "Claydol",
-            "mn": 48,
-            "mx": 48
-          },
-          {
-            "s": "Claydol",
-            "mn": 48,
-            "mx": 48
-          },
-          {
-            "s": "Claydol",
-            "mn": 49,
-            "mx": 49
-          },
-          {
-            "s": "Claydol",
-            "mn": 49,
-            "mx": 49
-          },
-          {
-            "s": "Claydol",
-            "mn": 50,
             "mx": 50
           },
           {
-            "s": "Claydol",
-            "mn": 50,
+            "s": "Solrock",
+            "mn": 47,
             "mx": 50
           },
           {
-            "s": "Claydol",
-            "mn": 50,
+            "s": "Lunatone",
+            "mn": 47,
             "mx": 50
           },
           {
-            "s": "Claydol",
-            "mn": 50,
+            "s": "Lunatone",
+            "mn": 47,
             "mx": 50
           },
           {
-            "s": "Claydol",
-            "mn": 50,
+            "s": "Lunatone",
+            "mn": 47,
             "mx": 50
           },
           {
-            "s": "Claydol",
-            "mn": 50,
+            "s": "Lunatone",
+            "mn": 47,
+            "mx": 50
+          },
+          {
+            "s": "Lunatone",
+            "mn": 47,
+            "mx": 50
+          },
+          {
+            "s": "Lunatone",
+            "mn": 47,
+            "mx": 50
+          },
+          {
+            "s": "Lunatone",
+            "mn": 47,
+            "mx": 50
+          },
+          {
+            "s": "Lunatone",
+            "mn": 47,
+            "mx": 50
+          },
+          {
+            "s": "Lunatone",
+            "mn": 47,
             "mx": 50
           }
         ]
@@ -95086,62 +95126,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -95171,62 +95211,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -95256,62 +95296,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -95341,62 +95381,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -95426,62 +95466,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -95511,62 +95551,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -95596,62 +95636,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lunatone",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Beldum",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lunatone",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Solrock",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -95681,62 +95721,62 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Lileep",
+            "s": "Houndour",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Magmar",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Omanyte",
+            "s": "Slugma",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Omanyte",
+            "s": "Growlithe",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Kabuto",
+            "s": "Vulpix",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Kabuto",
+            "s": "Charmander",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Lileep",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Anorith",
+            "s": "Cyndaquil",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Omanyte",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Kabuto",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Omanyte",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Kabuto",
+            "s": "Torkoal",
             "mn": 30,
             "mx": 35
           }
@@ -95796,7 +95836,7 @@ overrides = {
             "mx": 42
           },
           {
-            "s": "Gastly",
+            "s": "Delibird",
             "mn": 37,
             "mx": 42
           },
@@ -95860,7 +95900,7 @@ overrides = {
             "mx": 42
           },
           {
-            "s": "Haunter",
+            "s": "Delibird",
             "mn": 37,
             "mx": 42
           },
@@ -96129,12 +96169,12 @@ overrides = {
             "mx": 58
           },
           {
-            "s": "Plusle",
+            "s": "Elekid",
             "mn": 53,
             "mx": 58
           },
           {
-            "s": "Minun",
+            "s": "Aron",
             "mn": 53,
             "mx": 58
           },
@@ -96280,16 +96320,6 @@ overrides = {
             "mx": 58
           },
           {
-            "s": "Porygon",
-            "mn": 53,
-            "mx": 58
-          },
-          {
-            "s": "Chimecho",
-            "mn": 53,
-            "mx": 58
-          },
-          {
             "s": "Beldum",
             "mn": 53,
             "mx": 58
@@ -96300,7 +96330,7 @@ overrides = {
             "mx": 58
           },
           {
-            "s": "Geodude",
+            "s": "Magnemite",
             "mn": 53,
             "mx": 58
           },
@@ -96310,12 +96340,22 @@ overrides = {
             "mx": 58
           },
           {
-            "s": "Mawile",
+            "s": "Zubat",
+            "mn": 53,
+            "mx": 58
+          },
+          {
+            "s": "Sableye",
             "mn": 53,
             "mx": 58
           },
           {
             "s": "Mawile",
+            "mn": 53,
+            "mx": 58
+          },
+          {
+            "s": "Sableye",
             "mn": 53,
             "mx": 58
           },
@@ -97537,16 +97577,6 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Treecko",
-            "mn": 60,
-            "mx": 65
-          },
-          {
-            "s": "Horsea",
-            "mn": 60,
-            "mx": 65
-          },
-          {
             "s": "Bagon",
             "mn": 60,
             "mx": 65
@@ -97567,32 +97597,42 @@ overrides = {
             "mx": 65
           },
           {
-            "s": "Bagon",
+            "s": "Larvitar",
             "mn": 60,
             "mx": 65
           },
           {
-            "s": "Dratini",
+            "s": "Larvitar",
             "mn": 60,
             "mx": 65
           },
           {
-            "s": "Bagon",
+            "s": "Tropius",
             "mn": 60,
             "mx": 65
           },
           {
-            "s": "Dratini",
+            "s": "Tropius",
             "mn": 60,
             "mx": 65
           },
           {
-            "s": "Bagon",
+            "s": "Kangaskhan",
             "mn": 60,
             "mx": 65
           },
           {
-            "s": "Dratini",
+            "s": "Kangaskhan",
+            "mn": 60,
+            "mx": 65
+          },
+          {
+            "s": "Kangaskhan",
+            "mn": 60,
+            "mx": 65
+          },
+          {
+            "s": "Kangaskhan",
             "mn": 60,
             "mx": 65
           }
@@ -97632,7 +97672,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Arbok",
+            "s": "Diglett",
             "mn": 88,
             "mx": 93
           },
@@ -97707,7 +97747,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -97747,6 +97787,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -97757,12 +97802,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -97773,6 +97813,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -97804,6 +97849,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -97814,22 +97869,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -97957,7 +97997,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -97997,6 +98037,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -98007,12 +98052,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -98023,6 +98063,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -98054,6 +98099,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -98064,22 +98119,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -98103,7 +98143,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -98143,6 +98183,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -98153,12 +98198,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -98169,6 +98209,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -98200,6 +98245,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -98210,22 +98265,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -98249,7 +98289,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -98289,6 +98329,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -98299,12 +98344,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -98315,6 +98355,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -98346,6 +98391,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -98356,22 +98411,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -98395,7 +98435,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -98435,6 +98475,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -98445,12 +98490,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -98461,6 +98501,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -98492,6 +98537,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -98502,22 +98557,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -98541,7 +98581,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -98581,6 +98621,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -98591,12 +98636,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -98607,6 +98647,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -98638,6 +98683,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -98648,22 +98703,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -98791,7 +98831,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -98831,6 +98871,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -98841,12 +98886,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -98857,6 +98897,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -98888,6 +98933,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -98898,22 +98953,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -98937,7 +98977,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -98977,6 +99017,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -98987,12 +99032,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -99003,6 +99043,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -99034,6 +99079,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -99044,22 +99099,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -99083,7 +99123,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -99123,6 +99163,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -99133,12 +99178,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -99149,6 +99189,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -99180,6 +99225,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -99190,22 +99245,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -99229,7 +99269,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -99269,6 +99309,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -99279,12 +99324,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -99295,6 +99335,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -99326,6 +99371,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -99336,22 +99391,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -99375,7 +99415,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -99415,6 +99455,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -99425,12 +99470,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -99441,6 +99481,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -99472,6 +99517,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -99482,22 +99537,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -99521,7 +99561,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -99561,6 +99601,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -99571,12 +99616,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -99587,6 +99627,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -99618,6 +99663,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -99628,22 +99683,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -99667,7 +99707,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -99707,6 +99747,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -99717,12 +99762,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -99733,6 +99773,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -99764,6 +99809,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -99774,22 +99829,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -99813,7 +99853,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Loudred",
+            "s": "Ursaring",
             "mn": 88,
             "mx": 93
           },
@@ -99853,6 +99893,11 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Kangaskhan",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Steelix",
             "mn": 88,
             "mx": 93
@@ -99863,12 +99908,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Loudred",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Loudred",
+            "s": "Kangaskhan",
             "mn": 88,
             "mx": 93
           }
@@ -99879,6 +99919,11 @@ overrides = {
       },
       "grass_special": {
         "encs": [
+          {
+            "s": "Mawile",
+            "mn": 88,
+            "mx": 93
+          },
           {
             "s": "Nosepass",
             "mn": 88,
@@ -99910,6 +99955,16 @@ overrides = {
             "mx": 93
           },
           {
+            "s": "Magneton",
+            "mn": 88,
+            "mx": 93
+          },
+          {
+            "s": "Swinub",
+            "mn": 88,
+            "mx": 93
+          },
+          {
             "s": "Swinub",
             "mn": 88,
             "mx": 93
@@ -99920,22 +99975,7 @@ overrides = {
             "mx": 93
           },
           {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
-            "mn": 88,
-            "mx": 93
-          },
-          {
-            "s": "Mawile",
+            "s": "Swinub",
             "mn": 88,
             "mx": 93
           }
@@ -102718,7 +102758,7 @@ overrides = {
             "mx": 13
           },
           {
-            "s": "Teddiursa",
+            "s": "Aron",
             "mn": 10,
             "mx": 100
           },
@@ -102728,21 +102768,21 @@ overrides = {
             "mx": 13
           },
           {
+            "s": "Makuhita",
+            "mn": 10,
+            "mx": 13
+          },
+          {
+            "s": "Onix",
+            "mn": 10,
+            "mx": 13
+          },
+          {
             "s": "Machop",
             "mn": 10,
             "mx": 13
           },
           {
-            "s": "Meditite",
-            "mn": 10,
-            "mx": 13
-          },
-          {
-            "s": "Diglett",
-            "mn": 10,
-            "mx": 13
-          },
-          {
             "s": "Paras",
             "mn": 10,
             "mx": 13
@@ -102753,7 +102793,7 @@ overrides = {
             "mx": 13
           },
           {
-            "s": "Slugma",
+            "s": "Beldum",
             "mn": 10,
             "mx": 13
           },
@@ -102763,12 +102803,12 @@ overrides = {
             "mx": 13
           },
           {
-            "s": "Voltorb",
+            "s": "Beldum",
             "mn": 10,
             "mx": 13
           },
           {
-            "s": "Voltorb",
+            "s": "Larvitar",
             "mn": 10,
             "mx": 13
           }
@@ -102835,22 +102875,22 @@ overrides = {
       "super_rod": {
         "encs": [
           {
-            "s": "Poliwag",
+            "s": "Kabuto",
             "mn": 10,
             "mx": 13
           },
           {
-            "s": "Slowpoke",
+            "s": "Omanyte",
             "mn": 10,
             "mx": 13
           },
           {
-            "s": "Shellder",
+            "s": "Anorith",
             "mn": 10,
             "mx": 13
           },
           {
-            "s": "Poliwag",
+            "s": "Lileep",
             "mn": 10,
             "mx": 13
           },
@@ -103176,17 +103216,12 @@ overrides = {
             "mx": 32
           },
           {
-            "s": "Cacnea",
+            "s": "Phanpy",
             "mn": 28,
             "mx": 32
           },
           {
-            "s": "Voltorb",
-            "mn": 28,
-            "mx": 32
-          },
-          {
-            "s": "Gligar",
+            "s": "Phanpy",
             "mn": 28,
             "mx": 32
           },
@@ -103201,7 +103236,12 @@ overrides = {
             "mx": 32
           },
           {
-            "s": "Shedinja",
+            "s": "Gligar",
+            "mn": 28,
+            "mx": 32
+          },
+          {
+            "s": "Gligar",
             "mn": 28,
             "mx": 32
           }
@@ -103853,7 +103893,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Sudowoodo",
+            "s": "Golbat",
             "mn": 40,
             "mx": 45
           },
@@ -103888,27 +103928,27 @@ overrides = {
             "mx": 45
           },
           {
-            "s": "Graveler",
-            "mn": 40,
-            "mx": 45
-          },
-          {
             "s": "Bagon",
             "mn": 40,
             "mx": 45
           },
           {
-            "s": "Golbat",
+            "s": "Graveler",
             "mn": 40,
             "mx": 45
           },
           {
-            "s": "Golbat",
+            "s": "Larvitar",
             "mn": 40,
             "mx": 45
           },
           {
-            "s": "Crobat",
+            "s": "Graveler",
+            "mn": 40,
+            "mx": 45
+          },
+          {
+            "s": "Larvitar",
             "mn": 40,
             "mx": 45
           }
@@ -104000,63 +104040,63 @@ overrides = {
         "encs": [
           {
             "s": "Tyrogue",
-            "mn": 28,
-            "mx": 28
+            "mn": 40,
+            "mx": 45
           },
           {
             "s": "Onix",
-            "mn": 28,
-            "mx": 28
+            "mn": 40,
+            "mx": 45
           },
           {
             "s": "Sudowoodo",
-            "mn": 29,
-            "mx": 29
+            "mn": 40,
+            "mx": 45
           },
           {
             "s": "Rhydon",
-            "mn": 30,
-            "mx": 30
+            "mn": 40,
+            "mx": 45
           },
           {
             "s": "Meditite",
-            "mn": 30,
-            "mx": 30
+            "mn": 40,
+            "mx": 45
           },
           {
             "s": "Makuhita",
-            "mn": 30,
-            "mx": 30
+            "mn": 40,
+            "mx": 45
           },
           {
             "s": "Bagon",
-            "mn": 30,
-            "mx": 30
+            "mn": 40,
+            "mx": 45
+          },
+          {
+            "s": "Bagon",
+            "mn": 40,
+            "mx": 45
           },
           {
             "s": "Graveler",
-            "mn": 31,
-            "mx": 31
+            "mn": 40,
+            "mx": 45
           },
           {
-            "s": "Bagon",
-            "mn": 31,
-            "mx": 31
+            "s": "Larvitar",
+            "mn": 40,
+            "mx": 45
           },
           {
-            "s": "Golbat",
-            "mn": 31,
-            "mx": 31
+            "s": "Graveler",
+            "mn": 40,
+            "mx": 45
           },
           {
-            "s": "Golbat",
-            "mn": 31,
-            "mx": 31
-          },
-          {
-            "s": "Crobat",
-            "mn": 31,
-            "mx": 31
+            "s": "Larvitar",
+            "mn": 40,
+            "mx": 45
           }
         ]
       },
@@ -104078,12 +104118,12 @@ overrides = {
           {
             "s": "Sandshrew",
             "mn": 29,
-            "mx": 29
+            "mx": 31
           },
           {
             "s": "Sandshrew",
             "mn": 29,
-            "mx": 29
+            "mx": 31
           },
           {
             "s": "Haunter",
@@ -104097,7 +104137,7 @@ overrides = {
           },
           {
             "s": "Sandshrew",
-            "mn": 31,
+            "mn": 29,
             "mx": 31
           },
           {
@@ -104165,7 +104205,7 @@ overrides = {
             "mx": 45
           },
           {
-            "s": "Machop",
+            "s": "Diglett",
             "mn": 40,
             "mx": 45
           },
@@ -104185,22 +104225,22 @@ overrides = {
             "mx": 45
           },
           {
-            "s": "Graveler",
+            "s": "Larvitar",
             "mn": 40,
             "mx": 45
           },
           {
-            "s": "Bagon",
+            "s": "Larvitar",
             "mn": 40,
             "mx": 45
           },
           {
-            "s": "Shelgon",
+            "s": "Larvitar",
             "mn": 40,
             "mx": 45
           },
           {
-            "s": "Shelgon",
+            "s": "Larvitar",
             "mn": 40,
             "mx": 45
           }
@@ -104222,6 +104262,11 @@ overrides = {
             "mx": 45
           },
           {
+            "s": "Whismur",
+            "mn": 40,
+            "mx": 45
+          },
+          {
             "s": "Onix",
             "mn": 40,
             "mx": 45
@@ -104233,11 +104278,6 @@ overrides = {
           },
           {
             "s": "Sudowoodo",
-            "mn": 40,
-            "mx": 45
-          },
-          {
-            "s": "Whismur",
             "mn": 40,
             "mx": 45
           },
@@ -105995,6 +106035,16 @@ overrides = {
             "mx": 77
           },
           {
+            "s": "Delibird",
+            "mn": 72,
+            "mx": 77
+          },
+          {
+            "s": "Delibird",
+            "mn": 72,
+            "mx": 77
+          },
+          {
             "s": "Chimecho",
             "mn": 72,
             "mx": 77
@@ -106005,22 +106055,12 @@ overrides = {
             "mx": 77
           },
           {
-            "s": "Skarmory",
+            "s": "Chimecho",
             "mn": 72,
             "mx": 77
           },
           {
-            "s": "Skarmory",
-            "mn": 72,
-            "mx": 77
-          },
-          {
-            "s": "Delibird",
-            "mn": 72,
-            "mx": 77
-          },
-          {
-            "s": "Delibird",
+            "s": "Raichu",
             "mn": 72,
             "mx": 77
           }
@@ -108313,12 +108353,12 @@ overrides = {
             "mx": 35
           },
           {
-            "s": "Murkrow",
+            "s": "Teddiursa",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Primeape",
+            "s": "Murkrow",
             "mn": 30,
             "mx": 35
           },
@@ -108338,32 +108378,32 @@ overrides = {
             "mx": 35
           },
           {
-            "s": "Miltank",
+            "s": "Heracross",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Miltank",
+            "s": "Pinsir",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Gligar",
+            "s": "Tropius",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Gligar",
+            "s": "Tropius",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Chansey",
+            "s": "Kangaskhan",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Chansey",
+            "s": "Kangaskhan",
             "mn": 30,
             "mx": 35
           }
@@ -108494,12 +108534,12 @@ overrides = {
       "super_rod": {
         "encs": [
           {
-            "s": "Qwilfish",
+            "s": "Magikarp",
             "mn": 30,
             "mx": 35
           },
           {
-            "s": "Magikarp",
+            "s": "Qwilfish",
             "mn": 30,
             "mx": 35
           },
@@ -109204,13 +109244,13 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a Great Ball.",
-      "location": "Driftveil City, Twist Mountain, Village Bridge, Route 8, Moor of Icirrus, Route 14, Driftveil City",
+      "location": "Driftveil City, Twist Mountain, Village Bridge, Route 8, Moor of Icirrus, Route 14",
       "rewards": "Rewarded after beating Youngster Kevin, Rewarded after beating Lass Dana"
     },
     "greatball": {
       "name": "Great Ball",
       "desc": "A good, high-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a standard Poké Ball.",
-      "location": "Striaton City, Not Pinwheel Forest, Route 2, Route 3, Route 5, Striaton City"
+      "location": "Striaton City, Not Pinwheel Forest, Route 2, Route 3, Route 5"
     },
     "pokéball": {
       "name": "Poké Ball",
@@ -109310,7 +109350,7 @@ overrides = {
     "fullrestore": {
       "name": "Full Restore",
       "desc": "A medicine that fully restores the HP\\nand heals any status problems of a\\nsingle Pokémon.",
-      "location": "Victory Road, N's Castle, Route 9, Route 10",
+      "location": "N's Castle, Route 9, Route 10",
       "rewards": "Rewarded after beating Nurse Kirsten"
     },
     "maxpotion": {
@@ -109321,7 +109361,7 @@ overrides = {
     "hyperpotion": {
       "name": "Hyper Potion",
       "desc": "A spray-type medicine for wounds.\\nIt restores the HP of one Pokémon by\\n200 points.",
-      "location": "Castelia City, Dreamyard, Pinwheel Forest, Cold Storage, Cold Storage, Chargestone Cave, Chargestone Cave, Dragonspiral Tower, Route 4, Mistralton Cave, Celestial Tower, Route 10, Route 11, Abundant Shrine, Castelia City"
+      "location": "Castelia City, Dreamyard, Pinwheel Forest, Cold Storage, Cold Storage, Chargestone Cave, Chargestone Cave, Dragonspiral Tower, Route 4, Mistralton Cave, Celestial Tower, Route 10, Route 11, Abundant Shrine"
     },
     "superpotion": {
       "name": "Super Potion",
@@ -109336,7 +109376,7 @@ overrides = {
     "revive": {
       "name": "Revive",
       "desc": "A medicine that revives a fainted\\nPokémon. It restores half the\\nPokémon's maximum HP.",
-      "location": "Castelia City, Dreamyard, Relic Castle, Chargestone Cave, Twist Mountain, Dragonspiral Tower, Giant Chasm, Route 5, Guidance Chamber, Route 12, Castelia City"
+      "location": "Castelia City, Dreamyard, Relic Castle, Chargestone Cave, Twist Mountain, Dragonspiral Tower, Giant Chasm, Route 5, Guidance Chamber, Route 12"
     },
     "maxrevive": {
       "name": "Max Revive",
@@ -109450,7 +109490,7 @@ overrides = {
     "rarecandy": {
       "name": "Rare Candy",
       "desc": "A candy that is packed with energy.\\nIt raises the level of a single Pokémon\\nby one.",
-      "location": "Icirrus City, Chargestone Cave, N's Castle, Route 2, Guidance Chamber, Abundant Shrine, Lostlorn Forest, Route 17, Icirrus City",
+      "location": "Icirrus City, Chargestone Cave, N's Castle, Route 2, Guidance Chamber, Abundant Shrine, Lostlorn Forest, Route 17",
       "rewards": "Rewarded after beating Nursery Aide Leah"
     },
     "ppup": {
@@ -109488,7 +109528,7 @@ overrides = {
     "xattack": {
       "name": "X Attack",
       "desc": "An item that raises the Attack stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
-      "location": "Nimbasa City, Nimbasa City"
+      "location": "Nimbasa City"
     },
     "xdefend": {
       "name": "X Defend",
@@ -109498,7 +109538,7 @@ overrides = {
     "xspeed": {
       "name": "X Speed",
       "desc": "An item that raises the Speed stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
-      "location": "Striaton City, Striaton City"
+      "location": "Striaton City"
     },
     "xaccuracy": {
       "name": "X Accuracy",
@@ -109624,7 +109664,7 @@ overrides = {
     "waterstone": {
       "name": "Water Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is a clear, light blue.",
-      "location": "Driftveil City, Driftveil City"
+      "location": "Driftveil City"
     },
     "leafstone": {
       "name": "Leaf Stone",
@@ -109649,7 +109689,7 @@ overrides = {
     "bigpearl": {
       "name": "Big Pearl",
       "desc": "A quite-large pearl that sparkles in a\\npretty silver color. It can be sold at\\na high price to shops.",
-      "location": "Driftveil City, Driftveil City",
+      "location": "Driftveil City",
       "rewards": "Rewarded after beating Socialite Emilia"
     },
     "stardust": {
@@ -109721,7 +109761,7 @@ overrides = {
     "oldamber": {
       "name": "Old Amber",
       "desc": "A piece of amber that contains the\\ngenetic material of an ancient Pokémon.\\nIt is clear with a reddish tint.",
-      "location": ""
+      "location": "Victory Road"
     },
     "armorfossil": {
       "name": "Armor Fossil",
@@ -110366,7 +110406,7 @@ overrides = {
     "nevermeltice": {
       "name": "NeverMeltIce",
       "desc": "An item to be held by a Pokémon.\\nIt is a piece of ice that repels heat\\nand boosts Ice-type moves.",
-      "location": "Cold Storage"
+      "location": ""
     },
     "spelltag": {
       "name": "Spell Tag",
@@ -110611,7 +110651,7 @@ overrides = {
     "shedshell": {
       "name": "Shed Shell",
       "desc": "A tough, discarded carapace to be held\\nby a Pokémon. It enables the holder to\\nswitch with a waiting Pokémon in battle.",
-      "location": ""
+      "location": "Cold Storage"
     },
     "bigroot": {
       "name": "Big Root",
@@ -111061,12 +111101,12 @@ overrides = {
     "tm58": {
       "name": "TM58",
       "desc": "The user hurls the target into the air,\\nthen drops it on the second turn. The\\ntarget cannot attack while in the air.",
-      "location": "Mistralton City, Mistralton City"
+      "location": "Mistralton City"
     },
     "tm59": {
       "name": "TM59",
       "desc": "The user attacks the target with fire.\\nIf the target is holding a Berry, the\\nBerry becomes burnt up and unusable.",
-      "location": "Dreamyard, Dreamyard"
+      "location": "Dreamyard"
     },
     "tm60": {
       "name": "TM60",
@@ -111186,7 +111226,7 @@ overrides = {
     "tm83": {
       "name": "TM83",
       "desc": "The user is roused, and its Attack\\nand Sp. Atk stats increase.",
-      "location": "Dreamyard, Dreamyard"
+      "location": "Dreamyard"
     },
     "tm84": {
       "name": "TM84",
