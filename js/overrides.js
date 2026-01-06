@@ -114,6 +114,7 @@ function overrideMonData(monOverrides) {
 			BattlePokedex[speciesId].abilities[0] = monData.abs[0]
 			BattlePokedex[speciesId].abilities[1] = monData.abs[1]
 			BattlePokedex[speciesId].abilities["H"] = monData.abs[2]
+			BattlePokedex[speciesId].wildItems = monData.items
 			BattlePokedex[speciesId].tier = "obtainable"
 			BattlePokedex[speciesId].baseStats = {
 				hp: monData.bs.hp,

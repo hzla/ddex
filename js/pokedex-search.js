@@ -24,7 +24,16 @@ var PokedexSearchPanel = Panels.Panel.extend({
     if (fragment === "encounters") fragment = "encounters/";
     if (questionIndex >= 0) fragment = fragment.slice(0, questionIndex);
     var buf = '<div class="pfx-body"><form class="pokedex">';
+
+
+
     buf += `<h1 id="dex-title"><a href="/" data-target="replace">Pok&eacute;dex</a></h1>`;
+
+    buf += '<ul class="tabbar centered" style="margin-bottom: 7px"><li><button class="button nav-first' + (fragment === '' ? ' cur' : '') + '" value="">Search</button></li>';
+    buf += '<li><button class="button' + (fragment === 'pokemon/' ? ' cur' : '') + '" value="pokemon/">Pok&eacute;mon</button></li>';
+    buf += '<li><button class="button' + (fragment === 'encounters/' ? ' cur' : '') + '" value="encounters/">Encounters</button></li>';
+    buf += '<li><button class="button nav-last' + (fragment === 'moves/' ? ' cur' : '') + '" value="moves/">Moves</button></li></ul>';
+
     buf +=
       '<div class="searchboxwrapper"><input class="textbox searchbox" type="search" name="q" value="' +
       Dex.escapeHTML(this.$(".searchbox").val() || "") +
@@ -90,7 +99,6 @@ var PokedexSearchPanel = Panels.Panel.extend({
       buf = '<button class="filter noclear" value=":">Moves</button> ';
     } else {
       this.$(".searchbox-filters").remove();
-      this.$searchbox.css("padding", "2px");
       return;
     }
     if (this.search.filters) {

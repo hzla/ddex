@@ -6,6 +6,10 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     this.shortTitle = pokemon.baseSpecies;
 
     vanillaPokemon = vanillaSpecies[id]
+    let overrideData = JSON.parse(localStorage.overrides).poks[pokemon.name]
+    let itemData = overrideData.items
+
+    console.log(overrideData)
 
     if (typeof vanillaPokemon == "undefined") {
       vanillaPokemon = pokemon
@@ -86,6 +90,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       "</small>";
     buf += "</dd>";
     buf += "</dl>";
+
 
     buf += '<dl class="abilityentry">';
     buf += '<dt>Abilities:</dt> <dd class="imgentry">';
@@ -218,6 +223,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     
 
     buf += "</table></dd>";
+
+    if (itemData) {
+        buf += '<dl class="itementry">';
+        buf += "<dt>Wild Items:</dt> <dd>";
+        if (itemData[0] != "None") {
+          buf += `50% <a href="/items/${cleanString(itemData[0])}">${itemData[0]}</a> `           
+        }
+        if (itemData[1] != "None") {
+          buf += `5% <a href="/items/${cleanString(itemData[1])}">${itemData[1]}</a> `           
+        }
+        if (itemData[2] != "None") {
+          buf += `1% <a href="/items/${cleanString(itemData[0])}">${itemData[2]}</a>`           
+        }
+
+        buf += "</dd>";
+        buf += "</dl>";
+    }
+
+
 
     buf += "<dt>Evolution:</dt> <dd>";
     var template = pokemon;

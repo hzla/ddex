@@ -7,6 +7,11 @@ overrides = {
         "Grass",
         "Poison"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 49,
@@ -129,6 +134,11 @@ overrides = {
       "types": [
         "Grass",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -254,6 +264,11 @@ overrides = {
       "types": [
         "Grass",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -386,6 +401,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 39,
         "at": 52,
@@ -514,6 +534,11 @@ overrides = {
       "num": 5,
       "types": [
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 58,
@@ -646,6 +671,11 @@ overrides = {
       "types": [
         "Fire",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 78,
@@ -793,6 +823,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 44,
         "at": 48,
@@ -915,6 +950,11 @@ overrides = {
       "num": 8,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 59,
@@ -1041,6 +1081,11 @@ overrides = {
       "types": [
         "Water",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 84,
@@ -1178,6 +1223,11 @@ overrides = {
       "types": [
         "Bug"
       ],
+      "items": [
+        "Occa Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 30,
@@ -1217,6 +1267,11 @@ overrides = {
       "num": 11,
       "types": [
         "Bug"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -1264,6 +1319,11 @@ overrides = {
       "types": [
         "Bug",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "SilverPowder",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -1401,6 +1461,11 @@ overrides = {
         "Bug",
         "Poison"
       ],
+      "items": [
+        "Payapa Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 35,
@@ -1441,6 +1506,11 @@ overrides = {
       "types": [
         "Bug",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 45,
@@ -1488,6 +1558,11 @@ overrides = {
       "types": [
         "Bug",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -1605,7 +1680,7 @@ overrides = {
       },
       "abs": [
         "Adaptability",
-        "Swarm",
+        "Shield Dust",
         "Sniper"
       ],
       "evoType": "level",
@@ -1617,6 +1692,11 @@ overrides = {
       "types": [
         "Electric",
         "Flying"
+      ],
+      "items": [
+        "Shuca Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -1740,6 +1820,11 @@ overrides = {
       "types": [
         "Electric",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 63,
@@ -1866,6 +1951,11 @@ overrides = {
         "Electric",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 83,
         "at": 60,
@@ -1988,6 +2078,11 @@ overrides = {
       "num": 19,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "Chilan Berry",
+        "Persim Berry",
+        "None"
       ],
       "bs": {
         "hp": 30,
@@ -2117,6 +2212,11 @@ overrides = {
       "types": [
         "Normal",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "Chilan Berry",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -2251,6 +2351,11 @@ overrides = {
         "Dark",
         "Flying"
       ],
+      "items": [
+        "Kasib Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 60,
@@ -2370,6 +2475,11 @@ overrides = {
         "Dark",
         "Flying"
       ],
+      "items": [
+        "None",
+        "Sharp Beak",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 110,
@@ -2488,6 +2598,11 @@ overrides = {
       "num": 23,
       "types": [
         "Poison"
+      ],
+      "items": [
+        "Haban Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 35,
@@ -2613,6 +2728,11 @@ overrides = {
       "types": [
         "Poison",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -2751,6 +2871,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "Oran Berry",
+        "None",
+        "Light Ball"
+      ],
       "bs": {
         "hp": 35,
         "at": 55,
@@ -2876,6 +3001,11 @@ overrides = {
       "num": 26,
       "types": [
         "Electric"
+      ],
+      "items": [
+        "Oran Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -3005,6 +3135,11 @@ overrides = {
       "types": [
         "Ground"
       ],
+      "items": [
+        "None",
+        "Quick Claw",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 75,
@@ -3133,6 +3268,11 @@ overrides = {
       "num": 28,
       "types": [
         "Ground"
+      ],
+      "items": [
+        "None",
+        "Quick Claw",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -3266,6 +3406,11 @@ overrides = {
       "types": [
         "Poison"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 47,
@@ -3390,6 +3535,11 @@ overrides = {
       "num": 30,
       "types": [
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -3519,6 +3669,11 @@ overrides = {
       "types": [
         "Poison",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -3668,6 +3823,11 @@ overrides = {
       "types": [
         "Poison"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 46,
         "at": 57,
@@ -3792,6 +3952,11 @@ overrides = {
       "num": 33,
       "types": [
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 61,
@@ -3920,6 +4085,11 @@ overrides = {
       "types": [
         "Poison",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 81,
@@ -4068,6 +4238,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Leppa Berry",
+        "Moon Stone",
+        "Comet Shard"
+      ],
       "bs": {
         "hp": 70,
         "at": 45,
@@ -4212,6 +4387,11 @@ overrides = {
       "num": 36,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "Leppa Berry",
+        "Moon Stone",
+        "Comet Shard"
       ],
       "bs": {
         "hp": 95,
@@ -4359,6 +4539,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "Rawst Berry",
+        "Rawst Berry",
+        "None"
+      ],
       "bs": {
         "hp": 38,
         "at": 41,
@@ -4480,6 +4665,11 @@ overrides = {
       "types": [
         "Fire",
         "Psychic"
+      ],
+      "items": [
+        "Rawst Berry",
+        "Rawst Berry",
+        "None"
       ],
       "bs": {
         "hp": 73,
@@ -4608,6 +4798,11 @@ overrides = {
       "num": 39,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 115,
@@ -4747,6 +4942,11 @@ overrides = {
       "num": 40,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 140,
@@ -4889,6 +5089,11 @@ overrides = {
         "Poison",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 45,
@@ -5011,6 +5216,11 @@ overrides = {
       "types": [
         "Poison",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -5139,6 +5349,11 @@ overrides = {
         "Grass",
         "Poison"
       ],
+      "items": [
+        "Kebia Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 50,
@@ -5256,6 +5471,11 @@ overrides = {
       "types": [
         "Grass",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -5379,6 +5599,11 @@ overrides = {
         "Grass",
         "Poison"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 80,
@@ -5499,6 +5724,11 @@ overrides = {
       "types": [
         "Bug",
         "Grass"
+      ],
+      "items": [
+        "TinyMushroom",
+        "Big Mushroom",
+        "BalmMushroom"
       ],
       "bs": {
         "hp": 35,
@@ -5628,6 +5858,11 @@ overrides = {
       "types": [
         "Bug",
         "Grass"
+      ],
+      "items": [
+        "TinyMushroom",
+        "Big Mushroom",
+        "BalmMushroom"
       ],
       "bs": {
         "hp": 70,
@@ -5759,6 +5994,11 @@ overrides = {
         "Bug",
         "Poison"
       ],
+      "items": [
+        "Babiri Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 55,
@@ -5876,6 +6116,11 @@ overrides = {
       "types": [
         "Bug",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -6000,6 +6245,11 @@ overrides = {
       "types": [
         "Ground"
       ],
+      "items": [
+        "None",
+        "Soft Sand",
+        "None"
+      ],
       "bs": {
         "hp": 10,
         "at": 55,
@@ -6123,6 +6373,11 @@ overrides = {
       "types": [
         "Ground",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "Soft Sand",
+        "None"
       ],
       "bs": {
         "hp": 35,
@@ -6253,6 +6508,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "Quick Claw",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 45,
@@ -6381,6 +6641,11 @@ overrides = {
       "num": 53,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "Quick Claw",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -6519,6 +6784,11 @@ overrides = {
         "Water",
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 52,
@@ -6654,6 +6924,11 @@ overrides = {
       "types": [
         "Water",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -6793,6 +7068,11 @@ overrides = {
       "types": [
         "Fighting"
       ],
+      "items": [
+        "None",
+        "Payapa Berry",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 80,
@@ -6928,6 +7208,11 @@ overrides = {
       "num": 57,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "Payapa Berry",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -7083,6 +7368,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "Babiri Berry",
+        "Rawst Berry",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 70,
@@ -7212,6 +7502,11 @@ overrides = {
       "types": [
         "Fire",
         "Fighting"
+      ],
+      "items": [
+        "Rawst Berry",
+        "Rawst Berry",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -7361,6 +7656,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 50,
@@ -7479,6 +7779,11 @@ overrides = {
       "num": 61,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "King's Rock",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -7608,6 +7913,11 @@ overrides = {
       "types": [
         "Water",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "King's Rock",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -7751,6 +8061,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "TwistedSpoon",
+        "None"
+      ],
       "bs": {
         "hp": 25,
         "at": 20,
@@ -7822,6 +8137,11 @@ overrides = {
       "num": 64,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "TwistedSpoon",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -7956,6 +8276,11 @@ overrides = {
       "num": 65,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "TwistedSpoon",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -8095,6 +8420,11 @@ overrides = {
       "types": [
         "Fighting"
       ],
+      "items": [
+        "Black Belt",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 80,
@@ -8226,6 +8556,11 @@ overrides = {
       "num": 67,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -8360,6 +8695,11 @@ overrides = {
       "num": 68,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -8508,6 +8848,11 @@ overrides = {
         "Grass",
         "Poison"
       ],
+      "items": [
+        "Colbur Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 75,
@@ -8631,6 +8976,11 @@ overrides = {
       "types": [
         "Grass",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -8758,6 +9108,11 @@ overrides = {
         "Grass",
         "Poison"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 80,
         "at": 105,
@@ -8882,6 +9237,11 @@ overrides = {
       "types": [
         "Water",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -9010,6 +9370,11 @@ overrides = {
       "types": [
         "Water",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -9140,6 +9505,11 @@ overrides = {
         "Rock",
         "Ground"
       ],
+      "items": [
+        "None",
+        "Everstone",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 80,
@@ -9267,6 +9637,11 @@ overrides = {
       "types": [
         "Rock",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "Everstone",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -9397,6 +9772,11 @@ overrides = {
       "types": [
         "Rock",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "Everstone",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -9529,6 +9909,11 @@ overrides = {
         "Fire",
         "Normal"
       ],
+      "items": [
+        "None",
+        "Shuca Berry",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 85,
@@ -9569,7 +9954,7 @@ overrides = {
           ],
           [
             24,
-            "Fire Spin"
+            "Bounce"
           ],
           [
             28,
@@ -9577,15 +9962,15 @@ overrides = {
           ],
           [
             32,
-            "Bounce"
-          ],
-          [
-            36,
             "Drill Run"
           ],
           [
-            40,
+            36,
             "Double-Edge"
+          ],
+          [
+            40,
+            "Blaze Kick"
           ],
           [
             44,
@@ -9649,6 +10034,11 @@ overrides = {
         "Fire",
         "Normal"
       ],
+      "items": [
+        "None",
+        "Shuca Berry",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 120,
@@ -9689,7 +10079,7 @@ overrides = {
           ],
           [
             24,
-            "Fire Spin"
+            "Bounce"
           ],
           [
             28,
@@ -9697,15 +10087,15 @@ overrides = {
           ],
           [
             32,
-            "Bounce"
-          ],
-          [
-            36,
             "Drill Run"
           ],
           [
-            40,
+            36,
             "Double-Edge"
+          ],
+          [
+            40,
+            "Blaze Kick"
           ],
           [
             44,
@@ -9762,7 +10152,7 @@ overrides = {
         "Flame Body"
       ],
       "evoType": "level",
-      "evoLevel": 35
+      "evoLevel": 30
     },
     "Slowpoke": {
       "name": "Slowpoke",
@@ -9770,6 +10160,11 @@ overrides = {
       "types": [
         "Water",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "Lagging Tail",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -9911,6 +10306,11 @@ overrides = {
       "types": [
         "Water",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "King's Rock",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -10057,6 +10457,11 @@ overrides = {
         "Electric",
         "Steel"
       ],
+      "items": [
+        "None",
+        "Metal Coat",
+        "None"
+      ],
       "bs": {
         "hp": 25,
         "at": 35,
@@ -10181,6 +10586,11 @@ overrides = {
       "types": [
         "Electric",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "Metal Coat",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -10311,6 +10721,11 @@ overrides = {
         "Fighting",
         "Flying"
       ],
+      "items": [
+        "None",
+        "Stick",
+        "None"
+      ],
       "bs": {
         "hp": 80,
         "at": 110,
@@ -10433,6 +10848,11 @@ overrides = {
         "Normal",
         "Flying"
       ],
+      "items": [
+        "None",
+        "Sharp Beak",
+        "None"
+      ],
       "bs": {
         "hp": 35,
         "at": 85,
@@ -10548,6 +10968,11 @@ overrides = {
       "types": [
         "Normal",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "Sharp Beak",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -10672,6 +11097,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 45,
@@ -10792,6 +11222,11 @@ overrides = {
       "types": [
         "Water",
         "Ice"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -10924,6 +11359,11 @@ overrides = {
         "Poison",
         "Dark"
       ],
+      "items": [
+        "Black Sludge",
+        "Nugget",
+        "None"
+      ],
       "bs": {
         "hp": 80,
         "at": 80,
@@ -11054,6 +11494,11 @@ overrides = {
       "types": [
         "Poison",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "Nugget",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -11197,6 +11642,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "Pearl",
+        "Big Pearl",
+        "None"
+      ],
       "bs": {
         "hp": 30,
         "at": 65,
@@ -11314,6 +11764,11 @@ overrides = {
       "types": [
         "Water",
         "Ice"
+      ],
+      "items": [
+        "Pearl",
+        "Big Pearl",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -11436,6 +11891,11 @@ overrides = {
       "types": [
         "Ghost",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 30,
@@ -11564,6 +12024,11 @@ overrides = {
       "types": [
         "Ghost",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 45,
@@ -11697,6 +12162,11 @@ overrides = {
       "types": [
         "Ghost",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -11839,6 +12309,11 @@ overrides = {
         "Rock",
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 35,
         "at": 75,
@@ -11967,6 +12442,11 @@ overrides = {
       "num": 96,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -12097,6 +12577,11 @@ overrides = {
       "num": 97,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -12250,6 +12735,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 30,
         "at": 105,
@@ -12381,6 +12871,11 @@ overrides = {
       "types": [
         "Water",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -12524,6 +13019,11 @@ overrides = {
         "Electric",
         "Steel"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 90,
@@ -12652,6 +13152,11 @@ overrides = {
       "types": [
         "Electric",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -12783,6 +13288,11 @@ overrides = {
       "types": [
         "Grass",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -12917,6 +13427,11 @@ overrides = {
       "types": [
         "Grass",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -13057,6 +13572,11 @@ overrides = {
       "types": [
         "Ground"
       ],
+      "items": [
+        "None",
+        "Thick Club",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 50,
@@ -13069,67 +13589,71 @@ overrides = {
         "learnset": [
           [
             1,
-            "Growl"
-          ],
-          [
-            3,
-            "Tail Whip"
-          ],
-          [
-            7,
-            "Bone Club"
-          ],
-          [
-            11,
             "Headbutt"
           ],
           [
-            13,
-            "Leer"
+            4,
+            "Tail Whip"
           ],
           [
-            17,
-            "Focus Energy"
+            4,
+            "Bone Club"
           ],
           [
-            21,
-            "Bonemerang"
+            8,
+            "Growl"
           ],
           [
-            23,
+            12,
             "Rage"
           ],
           [
-            27,
-            "False Swipe"
+            16,
+            "Bonemerang"
           ],
           [
-            30,
-            "Bone Rush"
-          ],
-          [
-            31,
-            "Thrash"
-          ],
-          [
-            33,
+            20,
             "Fling"
           ],
           [
-            37,
+            24,
+            "Rock Slide"
+          ],
+          [
+            28,
+            "Thrash"
+          ],
+          [
+            32,
             "Earthquake"
           ],
           [
-            41,
+            36,
             "Endeavor"
           ],
           [
-            43,
+            40,
             "Double-Edge"
           ],
           [
-            47,
+            44,
+            "Outrage"
+          ],
+          [
+            48,
             "Retaliate"
+          ],
+          [
+            52,
+            "Superpower"
+          ],
+          [
+            56,
+            "Iron Tail"
+          ],
+          [
+            60,
+            "Head Smash"
           ]
         ],
         "tms": [
@@ -13183,6 +13707,11 @@ overrides = {
       "num": 105,
       "types": [
         "Ground"
+      ],
+      "items": [
+        "None",
+        "Thick Club",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -13322,6 +13851,11 @@ overrides = {
       "types": [
         "Fighting"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 120,
@@ -13450,6 +13984,11 @@ overrides = {
       "num": 107,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -13595,6 +14134,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "Lagging Tail",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 75,
@@ -13735,6 +14279,11 @@ overrides = {
       "types": [
         "Poison"
       ],
+      "items": [
+        "Eviolite",
+        "Smoke Ball",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 65,
@@ -13860,6 +14409,11 @@ overrides = {
       "num": 110,
       "types": [
         "Poison"
+      ],
+      "items": [
+        "None",
+        "Smoke Ball",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -13988,6 +14542,11 @@ overrides = {
       "types": [
         "Ground",
         "Rock"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -14121,6 +14680,11 @@ overrides = {
       "types": [
         "Ground",
         "Rock"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -14265,6 +14829,11 @@ overrides = {
       "num": 113,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "Lucky Punch",
+        "Lucky Egg",
+        "None"
       ],
       "bs": {
         "hp": 250,
@@ -14412,6 +14981,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 55,
@@ -14534,6 +15108,11 @@ overrides = {
       "types": [
         "Normal",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -14678,6 +15257,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "Dragon Scale",
+        "None"
+      ],
       "bs": {
         "hp": 30,
         "at": 40,
@@ -14794,6 +15378,11 @@ overrides = {
       "num": 117,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "Dragon Scale",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -14916,6 +15505,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 67,
@@ -15033,6 +15627,11 @@ overrides = {
       "num": 119,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -15152,6 +15751,11 @@ overrides = {
       "num": 120,
       "types": [
         "Water"
+      ],
+      "items": [
+        "Stardust",
+        "Star Piece",
+        "None"
       ],
       "bs": {
         "hp": 30,
@@ -15278,6 +15882,11 @@ overrides = {
       "types": [
         "Water",
         "Psychic"
+      ],
+      "items": [
+        "Stardust",
+        "Star Piece",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -15409,6 +16018,11 @@ overrides = {
       "num": 122,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "Leppa Berry",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -15553,6 +16167,11 @@ overrides = {
         "Bug",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 110,
@@ -15678,6 +16297,11 @@ overrides = {
       "types": [
         "Ice",
         "Psychic"
+      ],
+      "items": [
+        "Aspear Berry",
+        "Aspear Berry",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -15814,6 +16438,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 83,
@@ -15942,6 +16571,11 @@ overrides = {
       "num": 126,
       "types": [
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -16072,6 +16706,11 @@ overrides = {
         "Bug",
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 125,
@@ -16200,6 +16839,11 @@ overrides = {
       "num": 128,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -16331,6 +16975,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 20,
         "at": 10,
@@ -16375,6 +17024,11 @@ overrides = {
       "types": [
         "Water",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -16512,6 +17166,11 @@ overrides = {
         "Water",
         "Dragon"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 130,
         "at": 75,
@@ -16646,6 +17305,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Quick Powder",
+        "Metal Powder",
+        "None"
+      ],
       "bs": {
         "hp": 48,
         "at": 48,
@@ -16674,6 +17338,11 @@ overrides = {
       "num": 133,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -16795,6 +17464,11 @@ overrides = {
       "num": 134,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 130,
@@ -16925,6 +17599,11 @@ overrides = {
       "num": 135,
       "types": [
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -17058,6 +17737,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 130,
@@ -17184,6 +17868,11 @@ overrides = {
       "num": 137,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "Exp. Share",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -17313,6 +18002,11 @@ overrides = {
         "Rock",
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 35,
         "at": 40,
@@ -17437,6 +18131,11 @@ overrides = {
       "types": [
         "Rock",
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -17565,6 +18264,11 @@ overrides = {
         "Rock",
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 30,
         "at": 80,
@@ -17690,6 +18394,11 @@ overrides = {
       "types": [
         "Rock",
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -17824,6 +18533,11 @@ overrides = {
       "types": [
         "Rock",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -17977,6 +18691,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 160,
         "at": 110,
@@ -18125,6 +18844,11 @@ overrides = {
         "Ice",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 85,
@@ -18246,6 +18970,11 @@ overrides = {
       "types": [
         "Electric",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -18372,6 +19101,11 @@ overrides = {
         "Fire",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 100,
@@ -18495,6 +19229,11 @@ overrides = {
       "num": 147,
       "types": [
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "Dragon Scale",
+        "None"
       ],
       "bs": {
         "hp": 41,
@@ -18620,6 +19359,11 @@ overrides = {
       "num": 148,
       "types": [
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "Dragon Scale",
+        "None"
       ],
       "bs": {
         "hp": 61,
@@ -18748,6 +19492,11 @@ overrides = {
       "types": [
         "Dragon",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "Dragon Scale",
+        "None"
       ],
       "bs": {
         "hp": 91,
@@ -18905,6 +19654,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 106,
         "at": 110,
@@ -19060,6 +19814,11 @@ overrides = {
       "num": 151,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "Lum Berry",
+        "Lum Berry",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -19240,6 +19999,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 49,
@@ -19364,6 +20128,11 @@ overrides = {
       "num": 153,
       "types": [
         "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -19493,6 +20262,11 @@ overrides = {
       "types": [
         "Grass",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -19637,6 +20411,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 39,
         "at": 52,
@@ -19760,6 +20539,11 @@ overrides = {
       "num": 156,
       "types": [
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 58,
@@ -19890,6 +20674,11 @@ overrides = {
       "num": 157,
       "types": [
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 78,
@@ -20028,6 +20817,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 65,
@@ -20154,6 +20948,11 @@ overrides = {
       "num": 159,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -20291,6 +21090,11 @@ overrides = {
       "types": [
         "Water",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -20435,6 +21239,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Master Ball",
+        "Oran Berry",
+        "None"
+      ],
       "bs": {
         "hp": 35,
         "at": 46,
@@ -20563,6 +21372,11 @@ overrides = {
       "num": 162,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "Oran Berry",
+        "Sitrus Berry",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -20700,6 +21514,11 @@ overrides = {
         "Psychic",
         "Flying"
       ],
+      "items": [
+        "Wacan Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 30,
@@ -20822,6 +21641,11 @@ overrides = {
       "types": [
         "Psychic",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -20949,6 +21773,11 @@ overrides = {
       "types": [
         "Bug",
         "Flying"
+      ],
+      "items": [
+        "Yache Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -21082,6 +21911,11 @@ overrides = {
       "types": [
         "Bug",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -21221,6 +22055,11 @@ overrides = {
         "Bug",
         "Poison"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 60,
@@ -21341,6 +22180,11 @@ overrides = {
       "types": [
         "Bug",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -21467,6 +22311,11 @@ overrides = {
       "types": [
         "Poison",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -21600,6 +22449,11 @@ overrides = {
         "Water",
         "Electric"
       ],
+      "items": [
+        "None",
+        "DeepSeaScale",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 38,
@@ -21723,6 +22577,11 @@ overrides = {
       "types": [
         "Water",
         "Electric"
+      ],
+      "items": [
+        "None",
+        "DeepSeaScale",
+        "None"
       ],
       "bs": {
         "hp": 125,
@@ -21848,6 +22707,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "Oran Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 20,
         "at": 40,
@@ -21968,6 +22832,11 @@ overrides = {
       "num": 173,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "Leppa Berry",
+        "Moon Stone",
+        "Comet Shard"
       ],
       "bs": {
         "hp": 50,
@@ -22103,6 +22972,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 30,
@@ -22231,6 +23105,11 @@ overrides = {
       "num": 175,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 35,
@@ -22362,6 +23241,11 @@ overrides = {
       "types": [
         "Normal",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -22501,6 +23385,11 @@ overrides = {
         "Psychic",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 50,
@@ -22634,6 +23523,11 @@ overrides = {
       "types": [
         "Psychic",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -22770,6 +23664,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 40,
@@ -22891,6 +23790,11 @@ overrides = {
       "num": 180,
       "types": [
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -23021,6 +23925,11 @@ overrides = {
       "types": [
         "Electric",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -23165,6 +24074,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 80,
@@ -23284,6 +24198,11 @@ overrides = {
       "num": 183,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -23409,6 +24328,11 @@ overrides = {
       "num": 184,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 110,
@@ -23538,6 +24462,11 @@ overrides = {
         "Rock",
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 115,
@@ -23664,6 +24593,11 @@ overrides = {
       "num": 186,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "King's Rock",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -23795,6 +24729,11 @@ overrides = {
         "Grass",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 35,
         "at": 35,
@@ -23918,6 +24857,11 @@ overrides = {
       "types": [
         "Grass",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -24045,6 +24989,11 @@ overrides = {
         "Grass",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 55,
@@ -24169,6 +25118,11 @@ overrides = {
       "num": 190,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -24304,6 +25258,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "Coba Berry",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 60,
@@ -24422,6 +25381,11 @@ overrides = {
       "types": [
         "Grass",
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -24561,6 +25525,11 @@ overrides = {
         "Bug",
         "Flying"
       ],
+      "items": [
+        "None",
+        "Wide Lens",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 65,
@@ -24678,6 +25647,11 @@ overrides = {
       "types": [
         "Water",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -24804,6 +25778,11 @@ overrides = {
       "types": [
         "Water",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -24939,6 +25918,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 55,
@@ -25071,6 +26055,11 @@ overrides = {
       "types": [
         "Dark"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 95,
         "at": 70,
@@ -25202,6 +26191,11 @@ overrides = {
         "Dark",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 85,
@@ -25330,6 +26324,11 @@ overrides = {
       "types": [
         "Water",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "King's Rock",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -25480,6 +26479,11 @@ overrides = {
       "types": [
         "Ghost"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 65,
@@ -25610,6 +26614,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 90,
@@ -25667,6 +26676,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 200,
         "at": 1,
@@ -25718,6 +26732,11 @@ overrides = {
       "types": [
         "Normal",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "Persim Berry",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -25865,6 +26884,11 @@ overrides = {
       "types": [
         "Bug"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 65,
@@ -25991,6 +27015,11 @@ overrides = {
       "types": [
         "Bug",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -26134,6 +27163,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 70,
@@ -26271,6 +27305,11 @@ overrides = {
       "types": [
         "Ground",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -26411,6 +27450,11 @@ overrides = {
       "types": [
         "Steel",
         "Ground"
+      ],
+      "items": [
+        "PP Max",
+        "Metal Coat",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -26555,6 +27599,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 80,
@@ -26693,6 +27742,11 @@ overrides = {
       "types": [
         "Normal",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -26850,6 +27904,11 @@ overrides = {
         "Water",
         "Poison"
       ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 100,
@@ -26977,6 +28036,11 @@ overrides = {
       "types": [
         "Bug",
         "Steel"
+      ],
+      "items": [
+        "Life Orb",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -27113,6 +28177,11 @@ overrides = {
         "Bug",
         "Rock"
       ],
+      "items": [
+        "Berry Juice",
+        "Berry Juice",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 10,
@@ -27242,6 +28311,11 @@ overrides = {
       "types": [
         "Bug",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -27388,6 +28462,11 @@ overrides = {
         "Dark",
         "Ice"
       ],
+      "items": [
+        "Grip Claw",
+        "Quick Claw",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 95,
@@ -27519,6 +28598,11 @@ overrides = {
       "num": 216,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -27656,6 +28740,11 @@ overrides = {
       "types": [
         "Normal",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -27797,6 +28886,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 20,
@@ -27929,6 +29023,11 @@ overrides = {
       "types": [
         "Fire",
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -28080,6 +29179,11 @@ overrides = {
         "Ice",
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 50,
@@ -28203,6 +29307,11 @@ overrides = {
       "types": [
         "Ice",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -28332,6 +29441,11 @@ overrides = {
       "types": [
         "Water",
         "Rock"
+      ],
+      "items": [
+        "None",
+        "Hard Stone",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -28466,6 +29580,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 35,
         "at": 65,
@@ -28595,6 +29714,11 @@ overrides = {
       "types": [
         "Water",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -28739,6 +29863,11 @@ overrides = {
         "Ice",
         "Flying"
       ],
+      "items": [
+        "None",
+        "NeverMeltIce",
+        "None"
+      ],
       "bs": {
         "hp": 110,
         "at": 96,
@@ -28855,6 +29984,11 @@ overrides = {
       "types": [
         "Water",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -28981,6 +30115,11 @@ overrides = {
         "Steel",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 40,
@@ -29105,6 +30244,11 @@ overrides = {
       "types": [
         "Dark",
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 45,
@@ -29234,6 +30378,11 @@ overrides = {
       "types": [
         "Dark",
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -29371,6 +30520,11 @@ overrides = {
         "Water",
         "Dragon"
       ],
+      "items": [
+        "None",
+        "Dragon Scale",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 85,
@@ -29494,6 +30648,11 @@ overrides = {
       "types": [
         "Ground"
       ],
+      "items": [
+        "None",
+        "Passho Berry",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 60,
@@ -29611,6 +30770,11 @@ overrides = {
       "num": 232,
       "types": [
         "Ground"
+      ],
+      "items": [
+        "None",
+        "Passho Berry",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -29743,6 +30907,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 85,
         "at": 80,
@@ -29872,6 +31041,11 @@ overrides = {
       "types": [
         "Normal",
         "Grass"
+      ],
+      "items": [
+        "Light Clay",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 73,
@@ -30004,6 +31178,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 1,
         "at": 1,
@@ -30032,6 +31211,11 @@ overrides = {
       "num": 236,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -30103,6 +31287,11 @@ overrides = {
       "num": 237,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -30242,6 +31431,11 @@ overrides = {
         "Ice",
         "Psychic"
       ],
+      "items": [
+        "Aspear Berry",
+        "Aspear Berry",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 30,
@@ -30370,6 +31564,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 63,
@@ -30492,6 +31691,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 75,
@@ -30611,6 +31815,11 @@ overrides = {
       "num": 241,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "Moomoo Milk",
+        "Moomoo Milk",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -30743,6 +31952,11 @@ overrides = {
       "num": 242,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "Lucky Egg",
+        "Lucky Egg",
+        "None"
       ],
       "bs": {
         "hp": 255,
@@ -30888,6 +32102,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 85,
@@ -31016,6 +32235,11 @@ overrides = {
       "num": 244,
       "types": [
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 115,
@@ -31147,6 +32371,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 75,
@@ -31275,6 +32504,11 @@ overrides = {
         "Rock",
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 64,
@@ -31402,6 +32636,11 @@ overrides = {
       "types": [
         "Rock",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -31532,6 +32771,11 @@ overrides = {
       "types": [
         "Rock",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -31696,6 +32940,11 @@ overrides = {
         "Psychic",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 106,
         "at": 90,
@@ -31833,6 +33082,11 @@ overrides = {
         "Fire",
         "Flying"
       ],
+      "items": [
+        "Sacred Ash",
+        "Sacred Ash",
+        "None"
+      ],
       "bs": {
         "hp": 106,
         "at": 130,
@@ -31969,6 +33223,11 @@ overrides = {
         "Psychic",
         "Grass"
       ],
+      "items": [
+        "Lum Berry",
+        "Lum Berry",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 100,
@@ -32086,6 +33345,11 @@ overrides = {
       "num": 252,
       "types": [
         "Grass"
+      ],
+      "items": [
+        "Rare Candy",
+        "Miracle Seed",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -32219,6 +33483,11 @@ overrides = {
       "num": 253,
       "types": [
         "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -32362,6 +33631,11 @@ overrides = {
       "types": [
         "Grass",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -32515,6 +33789,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "Rare Candy",
+        "Charcoal",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 60,
@@ -32642,6 +33921,11 @@ overrides = {
       "types": [
         "Fire",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -32779,6 +34063,11 @@ overrides = {
       "types": [
         "Fire",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -32929,6 +34218,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "Rare Candy",
+        "Mystic Water",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 70,
@@ -33056,6 +34350,11 @@ overrides = {
       "types": [
         "Water",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -33194,6 +34493,11 @@ overrides = {
       "types": [
         "Water",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -33342,6 +34646,11 @@ overrides = {
       "types": [
         "Dark"
       ],
+      "items": [
+        "Chople Berry",
+        "Pecha Berry",
+        "None"
+      ],
       "bs": {
         "hp": 35,
         "at": 75,
@@ -33471,6 +34780,11 @@ overrides = {
       "num": 262,
       "types": [
         "Dark"
+      ],
+      "items": [
+        "None",
+        "Pecha Berry",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -33604,6 +34918,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Oran Berry",
+        "Sitrus Berry",
+        "None"
+      ],
       "bs": {
         "hp": 38,
         "at": 30,
@@ -33731,6 +35050,11 @@ overrides = {
       "num": 264,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "Leppa Berry",
+        "Sitrus Berry",
+        "None"
       ],
       "bs": {
         "hp": 78,
@@ -33876,6 +35200,11 @@ overrides = {
       "types": [
         "Bug"
       ],
+      "items": [
+        "Coba Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 45,
@@ -33920,6 +35249,11 @@ overrides = {
       "num": 266,
       "types": [
         "Bug"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -33971,6 +35305,11 @@ overrides = {
       "types": [
         "Bug",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -34103,6 +35442,11 @@ overrides = {
       "types": [
         "Bug"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 35,
@@ -34153,6 +35497,11 @@ overrides = {
       "types": [
         "Bug",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -34283,6 +35632,11 @@ overrides = {
         "Water",
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 40,
@@ -34405,6 +35759,11 @@ overrides = {
       "types": [
         "Water",
         "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -34537,6 +35896,11 @@ overrides = {
       "types": [
         "Water",
         "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -34681,6 +36045,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 40,
@@ -34801,6 +36170,11 @@ overrides = {
       "types": [
         "Grass",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -34938,6 +36312,11 @@ overrides = {
       "types": [
         "Grass",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -35085,6 +36464,11 @@ overrides = {
         "Normal",
         "Flying"
       ],
+      "items": [
+        "Charti Berry",
+        "Cheri Berry",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 55,
@@ -35202,6 +36586,11 @@ overrides = {
       "types": [
         "Normal",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "Charti Berry",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -35321,6 +36710,11 @@ overrides = {
       "types": [
         "Water",
         "Flying"
+      ],
+      "items": [
+        "Passho Berry",
+        "Lucky Egg",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -35449,6 +36843,11 @@ overrides = {
       "types": [
         "Water",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -35582,6 +36981,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "Tanga Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 28,
         "at": 25,
@@ -35714,6 +37118,11 @@ overrides = {
       "num": 281,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -35850,6 +37259,11 @@ overrides = {
       "num": 282,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 68,
@@ -35992,6 +37406,11 @@ overrides = {
         "Bug",
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 30,
@@ -36115,6 +37534,11 @@ overrides = {
       "types": [
         "Bug",
         "Water"
+      ],
+      "items": [
+        "None",
+        "SilverPowder",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -36248,6 +37672,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "Kebia Berry",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 40,
@@ -36366,6 +37795,11 @@ overrides = {
       "types": [
         "Grass",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "Kebia Berry",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -36511,6 +37945,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Lum Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 60,
@@ -36642,6 +38081,11 @@ overrides = {
       "num": 288,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -36782,6 +38226,11 @@ overrides = {
       "num": 289,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 150,
@@ -36925,6 +38374,11 @@ overrides = {
         "Bug",
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 31,
         "at": 55,
@@ -37047,6 +38501,11 @@ overrides = {
         "Bug",
         "Fighting"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 61,
         "at": 125,
@@ -37162,9 +38621,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Speed Boost",
+        "Levitate",
         "",
-        "Infiltrator"
+        "Speed Boost"
       ],
       "evoType": "level",
       "evoLevel": 20
@@ -37175,6 +38634,11 @@ overrides = {
       "types": [
         "Bug",
         "Ghost"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 1,
@@ -37306,6 +38770,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Chesto Berry",
+        "Chesto Berry",
+        "None"
+      ],
       "bs": {
         "hp": 64,
         "at": 51,
@@ -37429,6 +38898,11 @@ overrides = {
       "num": 294,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "Chesto Berry",
+        "None"
       ],
       "bs": {
         "hp": 84,
@@ -37566,6 +39040,11 @@ overrides = {
       "num": 295,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "Chesto Berry",
+        "None"
       ],
       "bs": {
         "hp": 104,
@@ -37717,6 +39196,11 @@ overrides = {
       "types": [
         "Fighting"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 72,
         "at": 60,
@@ -37843,6 +39327,11 @@ overrides = {
       "num": 297,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "King's Rock",
+        "None"
       ],
       "bs": {
         "hp": 144,
@@ -37990,6 +39479,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 40,
@@ -38106,6 +39600,11 @@ overrides = {
       "num": 299,
       "types": [
         "Rock"
+      ],
+      "items": [
+        "None",
+        "Hard Stone",
+        "None"
       ],
       "bs": {
         "hp": 30,
@@ -38232,6 +39731,11 @@ overrides = {
       "num": 300,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "Leppa Berry",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -38362,6 +39866,11 @@ overrides = {
       "num": 301,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "Leppa Berry",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -38509,6 +40018,11 @@ overrides = {
         "Dark",
         "Ghost"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 80,
         "at": 75,
@@ -38646,6 +40160,11 @@ overrides = {
       "num": 303,
       "types": [
         "Steel"
+      ],
+      "items": [
+        "None",
+        "Occa Berry",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -38807,6 +40326,11 @@ overrides = {
         "Steel",
         "Rock"
       ],
+      "items": [
+        "None",
+        "Hard Stone",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 70,
@@ -38931,6 +40455,11 @@ overrides = {
       "types": [
         "Steel",
         "Rock"
+      ],
+      "items": [
+        "None",
+        "Hard Stone",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -39059,6 +40588,11 @@ overrides = {
       "types": [
         "Steel",
         "Rock"
+      ],
+      "items": [
+        "None",
+        "Hard Stone",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -39210,6 +40744,11 @@ overrides = {
         "Fighting",
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 30,
         "at": 40,
@@ -39347,6 +40886,11 @@ overrides = {
       "types": [
         "Fighting",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -39503,6 +41047,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 55,
@@ -39624,6 +41173,11 @@ overrides = {
       "num": 310,
       "types": [
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -39754,6 +41308,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 85,
         "at": 50,
@@ -39870,6 +41429,11 @@ overrides = {
       "num": 312,
       "types": [
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -39988,6 +41552,11 @@ overrides = {
       "types": [
         "Bug",
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -40115,6 +41684,11 @@ overrides = {
         "Bug",
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 85,
@@ -40240,6 +41814,11 @@ overrides = {
         "Grass",
         "Poison"
       ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 60,
@@ -40361,6 +41940,11 @@ overrides = {
       "num": 316,
       "types": [
         "Poison"
+      ],
+      "items": [
+        "None",
+        "Big Pearl",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -40489,6 +42073,11 @@ overrides = {
       "num": 317,
       "types": [
         "Poison"
+      ],
+      "items": [
+        "None",
+        "Big Pearl",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -40622,6 +42211,11 @@ overrides = {
         "Water",
         "Dark"
       ],
+      "items": [
+        "Rindo Berry",
+        "DeepSeaTooth",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 90,
@@ -40744,6 +42338,11 @@ overrides = {
       "types": [
         "Water",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "DeepSeaTooth",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -40887,6 +42486,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 130,
         "at": 70,
@@ -41013,6 +42617,11 @@ overrides = {
       "num": 321,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 170,
@@ -41143,6 +42752,11 @@ overrides = {
         "Fire",
         "Ground"
       ],
+      "items": [
+        "Rawst Berry",
+        "Rawst Berry",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 60,
@@ -41267,6 +42881,11 @@ overrides = {
       "types": [
         "Fire",
         "Ground"
+      ],
+      "items": [
+        "Rawst Berry",
+        "Rawst Berry",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -41402,6 +43021,11 @@ overrides = {
       "num": 324,
       "types": [
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -41541,6 +43165,11 @@ overrides = {
         "Psychic",
         "Dark"
       ],
+      "items": [
+        "None",
+        "Tanga Berry",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 25,
@@ -41678,6 +43307,11 @@ overrides = {
       "types": [
         "Psychic",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "Tanga Berry",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -41830,6 +43464,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "Chesto Berry",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 100,
@@ -41956,6 +43595,11 @@ overrides = {
       "types": [
         "Ground"
       ],
+      "items": [
+        "None",
+        "Soft Sand",
+        "None"
+      ],
       "bs": {
         "hp": 25,
         "at": 150,
@@ -42077,6 +43721,11 @@ overrides = {
       "types": [
         "Ground",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -42207,6 +43856,11 @@ overrides = {
       "types": [
         "Ground",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -42359,6 +44013,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "Sticky Barb",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 85,
@@ -42480,6 +44139,11 @@ overrides = {
       "types": [
         "Grass",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "Sticky Barb",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -42617,6 +44281,11 @@ overrides = {
         "Normal",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 50,
@@ -42737,6 +44406,11 @@ overrides = {
       "types": [
         "Dragon",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -42880,6 +44554,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "Quick Claw",
+        "None"
+      ],
       "bs": {
         "hp": 73,
         "at": 115,
@@ -43019,6 +44698,11 @@ overrides = {
         "Poison",
         "Dark"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 73,
         "at": 110,
@@ -43155,6 +44839,11 @@ overrides = {
         "Rock",
         "Ghost"
       ],
+      "items": [
+        "None",
+        "Moon Stone",
+        "Comet Shard"
+      ],
       "bs": {
         "hp": 90,
         "at": 55,
@@ -43290,6 +44979,11 @@ overrides = {
       "types": [
         "Rock",
         "Fire"
+      ],
+      "items": [
+        "None",
+        "Sun Stone",
+        "Comet Shard"
       ],
       "bs": {
         "hp": 70,
@@ -43431,6 +45125,11 @@ overrides = {
         "Water",
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 48,
@@ -43551,6 +45250,11 @@ overrides = {
       "types": [
         "Water",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 115,
@@ -43676,6 +45380,11 @@ overrides = {
       "num": 341,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 83,
@@ -43808,6 +45517,11 @@ overrides = {
       "types": [
         "Water",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 83,
@@ -43950,6 +45664,11 @@ overrides = {
         "Ground",
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 40,
@@ -44087,6 +45806,11 @@ overrides = {
       "types": [
         "Ground",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -44230,6 +45954,11 @@ overrides = {
         "Rock",
         "Grass"
       ],
+      "items": [
+        "None",
+        "Big Root",
+        "None"
+      ],
       "bs": {
         "hp": 66,
         "at": 41,
@@ -44358,6 +46087,11 @@ overrides = {
       "types": [
         "Rock",
         "Grass"
+      ],
+      "items": [
+        "None",
+        "Big Root",
+        "None"
       ],
       "bs": {
         "hp": 111,
@@ -44495,6 +46229,11 @@ overrides = {
         "Rock",
         "Bug"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 95,
@@ -44620,6 +46359,11 @@ overrides = {
       "types": [
         "Rock",
         "Bug"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -44752,6 +46496,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 20,
         "at": 15,
@@ -44821,6 +46570,11 @@ overrides = {
       "num": 350,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -44944,6 +46698,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 100,
@@ -45062,6 +46821,11 @@ overrides = {
       "types": [
         "Normal",
         "Ghost"
+      ],
+      "items": [
+        "None",
+        "Persim Berry",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -45200,6 +46964,11 @@ overrides = {
         "Ghost",
         "Dark"
       ],
+      "items": [
+        "None",
+        "Spell Tag",
+        "None"
+      ],
       "bs": {
         "hp": 44,
         "at": 75,
@@ -45333,6 +47102,11 @@ overrides = {
       "types": [
         "Ghost",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "Spell Tag",
+        "None"
       ],
       "bs": {
         "hp": 84,
@@ -45471,6 +47245,11 @@ overrides = {
       "types": [
         "Ghost"
       ],
+      "items": [
+        "None",
+        "Kasib Berry",
+        "None"
+      ],
       "bs": {
         "hp": 20,
         "at": 40,
@@ -45598,6 +47377,11 @@ overrides = {
       "num": 356,
       "types": [
         "Ghost"
+      ],
+      "items": [
+        "None",
+        "Kasib Berry",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -45763,6 +47547,11 @@ overrides = {
         "Grass",
         "Dragon"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 109,
         "at": 68,
@@ -45900,6 +47689,11 @@ overrides = {
         "Psychic",
         "Steel"
       ],
+      "items": [
+        "None",
+        "Colbur Berry",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 50,
@@ -46030,6 +47824,11 @@ overrides = {
       "num": 359,
       "types": [
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -46180,6 +47979,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 95,
         "at": 23,
@@ -46231,6 +48035,11 @@ overrides = {
       "num": 361,
       "types": [
         "Ice"
+      ],
+      "items": [
+        "None",
+        "Babiri Berry",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -46350,6 +48159,11 @@ overrides = {
       "types": [
         "Ice",
         "Rock"
+      ],
+      "items": [
+        "None",
+        "Babiri Berry",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -46486,6 +48300,11 @@ overrides = {
         "Ice",
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 40,
@@ -46614,6 +48433,11 @@ overrides = {
       "types": [
         "Ice",
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -46746,6 +48570,11 @@ overrides = {
       "types": [
         "Ice",
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 110,
@@ -46885,6 +48714,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "Big Pearl",
+        "None"
+      ],
       "bs": {
         "hp": 35,
         "at": 64,
@@ -46954,6 +48788,11 @@ overrides = {
       "types": [
         "Water",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "DeepSeaTooth",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -47081,6 +48920,11 @@ overrides = {
       "types": [
         "Water",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "DeepSeaScale",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -47212,6 +49056,11 @@ overrides = {
         "Water",
         "Rock"
       ],
+      "items": [
+        "None",
+        "DeepSeaScale",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 105,
@@ -47339,6 +49188,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "Heart Scale",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 30,
@@ -47453,6 +49307,11 @@ overrides = {
       "num": 371,
       "types": [
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "Dragon Fang",
+        "None"
       ],
       "bs": {
         "hp": 45,
@@ -47577,6 +49436,11 @@ overrides = {
       "num": 372,
       "types": [
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "Dragon Fang",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -47705,6 +49569,11 @@ overrides = {
       "types": [
         "Dragon",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "Dragon Fang",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -47853,6 +49722,11 @@ overrides = {
         "Steel",
         "Psychic"
       ],
+      "items": [
+        "None",
+        "Metal Coat",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 55,
@@ -47893,6 +49767,11 @@ overrides = {
       "types": [
         "Steel",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "Metal Coat",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -48032,6 +49911,11 @@ overrides = {
       "types": [
         "Steel",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "Metal Coat",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -48185,6 +50069,11 @@ overrides = {
       "types": [
         "Rock"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 80,
         "at": 100,
@@ -48300,6 +50189,11 @@ overrides = {
       "num": 378,
       "types": [
         "Ice"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -48417,6 +50311,11 @@ overrides = {
       "num": 379,
       "types": [
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -48548,6 +50447,11 @@ overrides = {
       "types": [
         "Dragon",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -48704,6 +50608,11 @@ overrides = {
         "Dragon",
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 80,
         "at": 90,
@@ -48858,6 +50767,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 100,
@@ -48977,6 +50891,11 @@ overrides = {
       "num": 383,
       "types": [
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -49114,6 +51033,11 @@ overrides = {
       "types": [
         "Dragon",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -49266,6 +51190,11 @@ overrides = {
         "Steel",
         "Psychic"
       ],
+      "items": [
+        "Star Piece",
+        "Star Piece",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 100,
@@ -49392,6 +51321,11 @@ overrides = {
       "num": 386,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -49524,6 +51458,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 68,
@@ -49623,6 +51562,11 @@ overrides = {
       "num": 388,
       "types": [
         "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -49730,6 +51674,11 @@ overrides = {
       "types": [
         "Grass",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -49860,6 +51809,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 44,
         "at": 58,
@@ -49976,6 +51930,11 @@ overrides = {
       "types": [
         "Fire",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 64,
@@ -50109,6 +52068,11 @@ overrides = {
       "types": [
         "Fire",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 76,
@@ -50251,6 +52215,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 53,
         "at": 51,
@@ -50360,6 +52329,11 @@ overrides = {
       "num": 394,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 64,
@@ -50485,6 +52459,11 @@ overrides = {
       "types": [
         "Water",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 84,
@@ -50624,6 +52603,11 @@ overrides = {
         "Normal",
         "Flying"
       ],
+      "items": [
+        "None",
+        "Yache Berry",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 55,
@@ -50721,6 +52705,11 @@ overrides = {
       "types": [
         "Normal",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "Yache Berry",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -50826,6 +52815,11 @@ overrides = {
       "types": [
         "Normal",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "Yache Berry",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -50942,6 +52936,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 59,
         "at": 45,
@@ -51049,6 +53048,11 @@ overrides = {
       "types": [
         "Normal",
         "Water"
+      ],
+      "items": [
+        "Oran Berry",
+        "Sitrus Berry",
+        "None"
       ],
       "bs": {
         "hp": 79,
@@ -51173,6 +53177,11 @@ overrides = {
       "types": [
         "Bug"
       ],
+      "items": [
+        "None",
+        "Metronome",
+        "None"
+      ],
       "bs": {
         "hp": 37,
         "at": 25,
@@ -51216,6 +53225,11 @@ overrides = {
       "num": 402,
       "types": [
         "Bug"
+      ],
+      "items": [
+        "None",
+        "Metronome",
+        "None"
       ],
       "bs": {
         "hp": 77,
@@ -51326,6 +53340,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 65,
@@ -51426,6 +53445,11 @@ overrides = {
       "num": 404,
       "types": [
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -51534,6 +53558,11 @@ overrides = {
       "types": [
         "Electric",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -51645,6 +53674,11 @@ overrides = {
       "types": [
         "Grass",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -51766,6 +53800,11 @@ overrides = {
       "types": [
         "Grass",
         "Poison"
+      ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -51889,6 +53928,11 @@ overrides = {
       "types": [
         "Rock"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 67,
         "at": 125,
@@ -52002,6 +54046,11 @@ overrides = {
       "types": [
         "Rock",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 97,
@@ -52136,6 +54185,11 @@ overrides = {
         "Rock",
         "Steel"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 30,
         "at": 42,
@@ -52248,6 +54302,11 @@ overrides = {
       "types": [
         "Rock",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -52374,6 +54433,11 @@ overrides = {
       "types": [
         "Bug"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 29,
@@ -52419,6 +54483,11 @@ overrides = {
       "types": [
         "Bug",
         "Grass"
+      ],
+      "items": [
+        "None",
+        "SilverPowder",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -52528,6 +54597,11 @@ overrides = {
       "types": [
         "Bug",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "SilverPowder",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -52644,6 +54718,11 @@ overrides = {
         "Bug",
         "Flying"
       ],
+      "items": [
+        "Honey",
+        "Honey",
+        "None"
+      ],
       "bs": {
         "hp": 30,
         "at": 30,
@@ -52684,6 +54763,11 @@ overrides = {
       "types": [
         "Bug",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -52806,6 +54890,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 45,
@@ -52913,6 +55002,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "Wacan Berry",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 65,
@@ -53016,6 +55110,11 @@ overrides = {
       "types": [
         "Water",
         "Electric"
+      ],
+      "items": [
+        "None",
+        "Wacan Berry",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -53153,6 +55252,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "Miracle Seed",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 35,
@@ -53243,6 +55347,11 @@ overrides = {
       "num": 421,
       "types": [
         "Grass"
+      ],
+      "items": [
+        "None",
+        "Miracle Seed",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -53344,6 +55453,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 76,
         "at": 48,
@@ -53431,6 +55545,11 @@ overrides = {
       "types": [
         "Water",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 111,
@@ -53548,6 +55667,11 @@ overrides = {
       "num": 424,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -53693,6 +55817,11 @@ overrides = {
         "Ghost",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 50,
@@ -53814,6 +55943,11 @@ overrides = {
       "types": [
         "Ghost",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 150,
@@ -53946,6 +56080,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "Chople Berry",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 66,
@@ -54065,6 +56204,11 @@ overrides = {
       "types": [
         "Normal",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "Chople Berry",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -54199,6 +56343,11 @@ overrides = {
       "num": 429,
       "types": [
         "Ghost"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -54337,6 +56486,11 @@ overrides = {
         "Dark",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 125,
@@ -54474,6 +56628,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "Cheri Berry",
+        "None"
+      ],
       "bs": {
         "hp": 49,
         "at": 55,
@@ -54586,6 +56745,11 @@ overrides = {
       "num": 432,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "Cheri Berry",
+        "None"
       ],
       "bs": {
         "hp": 71,
@@ -54714,6 +56878,11 @@ overrides = {
       "num": 433,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "Colbur Berry",
+        "None"
       ],
       "bs": {
         "hp": 45,
@@ -54844,6 +57013,11 @@ overrides = {
         "Poison",
         "Dark"
       ],
+      "items": [
+        "None",
+        "Pecha Berry",
+        "None"
+      ],
       "bs": {
         "hp": 63,
         "at": 63,
@@ -54956,6 +57130,11 @@ overrides = {
       "types": [
         "Poison",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "Pecha Berry",
+        "None"
       ],
       "bs": {
         "hp": 103,
@@ -55085,6 +57264,11 @@ overrides = {
         "Steel",
         "Psychic"
       ],
+      "items": [
+        "None",
+        "Metal Coat",
+        "None"
+      ],
       "bs": {
         "hp": 57,
         "at": 24,
@@ -55206,6 +57390,11 @@ overrides = {
       "types": [
         "Steel",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "Metal Coat",
+        "None"
       ],
       "bs": {
         "hp": 67,
@@ -55352,6 +57541,11 @@ overrides = {
       "types": [
         "Rock"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 80,
@@ -55471,6 +57665,11 @@ overrides = {
       "num": 439,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "Leppa Berry",
+        "None"
       ],
       "bs": {
         "hp": 20,
@@ -55610,6 +57809,11 @@ overrides = {
         "Fighting",
         "Normal"
       ],
+      "items": [
+        "Oval Stone",
+        "Lucky Egg",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 5,
@@ -55738,6 +57942,11 @@ overrides = {
         "Normal",
         "Flying"
       ],
+      "items": [
+        "None",
+        "Metronome",
+        "None"
+      ],
       "bs": {
         "hp": 76,
         "at": 65,
@@ -55850,6 +58059,11 @@ overrides = {
       "types": [
         "Ghost",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -55965,6 +58179,11 @@ overrides = {
         "Dragon",
         "Ground"
       ],
+      "items": [
+        "None",
+        "Haban Berry",
+        "None"
+      ],
       "bs": {
         "hp": 58,
         "at": 70,
@@ -56065,6 +58284,11 @@ overrides = {
       "types": [
         "Dragon",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "Haban Berry",
+        "None"
       ],
       "bs": {
         "hp": 68,
@@ -56176,6 +58400,11 @@ overrides = {
       "types": [
         "Dragon",
         "Ground"
+      ],
+      "items": [
+        "None",
+        "Haban Berry",
+        "None"
       ],
       "bs": {
         "hp": 108,
@@ -56308,6 +58537,11 @@ overrides = {
       "num": 446,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "Eviolite",
+        "None"
       ],
       "bs": {
         "hp": 135,
@@ -56453,6 +58687,11 @@ overrides = {
       "types": [
         "Fighting"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 70,
@@ -56558,6 +58797,11 @@ overrides = {
       "types": [
         "Fighting",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -56702,6 +58946,11 @@ overrides = {
       "types": [
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 68,
         "at": 72,
@@ -56795,6 +59044,11 @@ overrides = {
       "num": 450,
       "types": [
         "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 108,
@@ -56912,6 +59166,11 @@ overrides = {
       "types": [
         "Poison",
         "Bug"
+      ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -57034,6 +59293,11 @@ overrides = {
       "types": [
         "Poison",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -57180,6 +59444,11 @@ overrides = {
         "Poison",
         "Fighting"
       ],
+      "items": [
+        "None",
+        "Black Sludge",
+        "None"
+      ],
       "bs": {
         "hp": 48,
         "at": 61,
@@ -57307,6 +59576,11 @@ overrides = {
       "types": [
         "Poison",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "Black Sludge",
+        "None"
       ],
       "bs": {
         "hp": 83,
@@ -57448,6 +59722,11 @@ overrides = {
         "Grass",
         "Poison"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 74,
         "at": 120,
@@ -57557,6 +59836,11 @@ overrides = {
       "num": 456,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "Rindo Berry",
+        "None"
       ],
       "bs": {
         "hp": 49,
@@ -57671,6 +59955,11 @@ overrides = {
       "num": 457,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "Rindo Berry",
+        "None"
       ],
       "bs": {
         "hp": 69,
@@ -57796,6 +60085,11 @@ overrides = {
         "Water",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 20,
@@ -57918,6 +60212,11 @@ overrides = {
         "Grass",
         "Ice"
       ],
+      "items": [
+        "None",
+        "NeverMeltIce",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 62,
@@ -58019,6 +60318,11 @@ overrides = {
       "types": [
         "Grass",
         "Ice"
+      ],
+      "items": [
+        "None",
+        "NeverMeltIce",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -58147,6 +60451,11 @@ overrides = {
       "types": [
         "Dark",
         "Ice"
+      ],
+      "items": [
+        "Grip Claw",
+        "Quick Claw",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -58291,6 +60600,11 @@ overrides = {
         "Electric",
         "Steel"
       ],
+      "items": [
+        "None",
+        "Metal Coat",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 70,
@@ -58416,6 +60730,11 @@ overrides = {
       "num": 463,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "Lagging Tail",
+        "None"
       ],
       "bs": {
         "hp": 110,
@@ -58559,6 +60878,11 @@ overrides = {
       "types": [
         "Ground",
         "Rock"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 115,
@@ -58706,6 +61030,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 100,
@@ -58838,6 +61167,11 @@ overrides = {
       "types": [
         "Electric",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "Electirizer",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -58977,6 +61311,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "None",
+        "Magmarizer",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 95,
@@ -59110,6 +61449,11 @@ overrides = {
       "types": [
         "Normal",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -59264,6 +61608,11 @@ overrides = {
         "Bug",
         "Flying"
       ],
+      "items": [
+        "None",
+        "Wide Lens",
+        "None"
+      ],
       "bs": {
         "hp": 86,
         "at": 76,
@@ -59388,6 +61737,11 @@ overrides = {
       "num": 470,
       "types": [
         "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -59521,6 +61875,11 @@ overrides = {
       "types": [
         "Ice"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 90,
         "at": 60,
@@ -59648,6 +62007,11 @@ overrides = {
       "types": [
         "Ground",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -59803,6 +62167,11 @@ overrides = {
         "Ice",
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 110,
         "at": 130,
@@ -59932,6 +62301,11 @@ overrides = {
       "num": 474,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -60068,6 +62442,11 @@ overrides = {
       "types": [
         "Psychic",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 68,
@@ -60235,6 +62614,11 @@ overrides = {
         "Rock",
         "Steel"
       ],
+      "items": [
+        "None",
+        "Hard Stone",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 55,
@@ -60375,6 +62759,11 @@ overrides = {
       "types": [
         "Ghost",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "Kasib Berry",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -60538,6 +62927,11 @@ overrides = {
         "Ice",
         "Ghost"
       ],
+      "items": [
+        "None",
+        "Babiri Berry",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 60,
@@ -60673,6 +63067,11 @@ overrides = {
         "Electric",
         "Ghost"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 50,
@@ -60780,6 +63179,11 @@ overrides = {
       "num": 480,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -60892,6 +63296,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 80,
         "at": 105,
@@ -61003,6 +63412,11 @@ overrides = {
       "num": 482,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -61121,6 +63535,11 @@ overrides = {
       "types": [
         "Steel",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -61246,6 +63665,11 @@ overrides = {
       "types": [
         "Water",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -61374,6 +63798,11 @@ overrides = {
         "Fire",
         "Steel"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 91,
         "at": 90,
@@ -61486,6 +63915,11 @@ overrides = {
       "num": 486,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 110,
@@ -61610,6 +64044,11 @@ overrides = {
         "Ghost",
         "Dragon"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 150,
         "at": 100,
@@ -61730,6 +64169,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 120,
         "at": 70,
@@ -61837,6 +64281,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 80,
         "at": 80,
@@ -61929,6 +64378,11 @@ overrides = {
       "num": 490,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -62039,6 +64493,11 @@ overrides = {
       "num": 491,
       "types": [
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -62163,6 +64622,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "Lum Berry",
+        "Lum Berry",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 100,
@@ -62257,6 +64721,11 @@ overrides = {
       "num": 493,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 120,
@@ -62412,6 +64881,11 @@ overrides = {
         "Psychic",
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 100,
@@ -62550,6 +65024,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 45,
@@ -62663,6 +65142,11 @@ overrides = {
       "num": 496,
       "types": [
         "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -62792,6 +65276,11 @@ overrides = {
       "types": [
         "Grass",
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -62929,6 +65418,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 65,
         "at": 63,
@@ -63046,6 +65540,11 @@ overrides = {
       "types": [
         "Fire",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -63191,6 +65690,11 @@ overrides = {
       "types": [
         "Fire",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 110,
@@ -63343,6 +65847,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 55,
@@ -63462,6 +65971,11 @@ overrides = {
       "types": [
         "Water",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -63596,6 +66110,11 @@ overrides = {
       "types": [
         "Water",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -63739,6 +66258,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 55,
@@ -63850,6 +66374,11 @@ overrides = {
       "types": [
         "Normal",
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -63989,6 +66518,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 60,
@@ -64095,6 +66629,11 @@ overrides = {
       "num": 507,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -64215,6 +66754,11 @@ overrides = {
       "num": 508,
       "types": [
         "Normal"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -64347,6 +66891,11 @@ overrides = {
       "types": [
         "Dark"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 41,
         "at": 50,
@@ -64468,6 +67017,11 @@ overrides = {
       "num": 510,
       "types": [
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 64,
@@ -64605,6 +67159,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "Oran Berry",
+        "Occa Berry",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 53,
@@ -64724,6 +67283,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "Oran Berry",
+        "Occa Berry",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 98,
@@ -64810,6 +67374,11 @@ overrides = {
       "num": 513,
       "types": [
         "Fire"
+      ],
+      "items": [
+        "Oran Berry",
+        "Passho Berry",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -64934,6 +67503,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "Oran Berry",
+        "Passho Berry",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 98,
@@ -65028,6 +67602,11 @@ overrides = {
       "num": 515,
       "types": [
         "Water"
+      ],
+      "items": [
+        "Oran Berry",
+        "Rindo Berry",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -65152,6 +67731,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "Oran Berry",
+        "Rindo Berry",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 98,
@@ -65242,6 +67826,11 @@ overrides = {
       "num": 517,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 76,
@@ -65371,6 +67960,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 116,
         "at": 55,
@@ -65456,6 +68050,11 @@ overrides = {
       "types": [
         "Fighting",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -65569,6 +68168,11 @@ overrides = {
       "types": [
         "Fighting",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 62,
@@ -65697,6 +68301,11 @@ overrides = {
         "Fighting",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 80,
         "at": 65,
@@ -65824,6 +68433,11 @@ overrides = {
       "types": [
         "Electric"
       ],
+      "items": [
+        "Cheri Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 60,
@@ -65925,6 +68539,11 @@ overrides = {
       "num": 523,
       "types": [
         "Electric"
+      ],
+      "items": [
+        "Cheri Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -66047,6 +68666,11 @@ overrides = {
       "types": [
         "Rock"
       ],
+      "items": [
+        "Everstone",
+        "Hard Stone",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 75,
@@ -66150,6 +68774,11 @@ overrides = {
       "num": 525,
       "types": [
         "Rock"
+      ],
+      "items": [
+        "Everstone",
+        "Hard Stone",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -66273,6 +68902,11 @@ overrides = {
       "types": [
         "Rock"
       ],
+      "items": [
+        "Everstone",
+        "Hard Stone",
+        "None"
+      ],
       "bs": {
         "hp": 85,
         "at": 135,
@@ -66395,6 +69029,11 @@ overrides = {
       "types": [
         "Psychic",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -66522,6 +69161,11 @@ overrides = {
       "types": [
         "Psychic",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 67,
@@ -66661,6 +69305,11 @@ overrides = {
       "types": [
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 85,
@@ -66779,6 +69428,11 @@ overrides = {
       "types": [
         "Ground",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 110,
@@ -66912,6 +69566,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Oran Berry",
+        "Sitrus Berry",
+        "None"
+      ],
       "bs": {
         "hp": 103,
         "at": 60,
@@ -67042,6 +69701,11 @@ overrides = {
       "types": [
         "Fighting"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 80,
@@ -67165,6 +69829,11 @@ overrides = {
       "num": 533,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -67299,6 +69968,11 @@ overrides = {
       "num": 534,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -67435,6 +70109,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "Persim Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 50,
@@ -67538,6 +70217,11 @@ overrides = {
       "types": [
         "Water",
         "Ground"
+      ],
+      "items": [
+        "Persim Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -67654,6 +70338,11 @@ overrides = {
       "types": [
         "Water",
         "Ground"
+      ],
+      "items": [
+        "Persim Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -67789,6 +70478,11 @@ overrides = {
       "types": [
         "Fighting"
       ],
+      "items": [
+        "None",
+        "Black Belt",
+        "Expert Belt"
+      ],
       "bs": {
         "hp": 120,
         "at": 100,
@@ -67907,6 +70601,11 @@ overrides = {
       "num": 539,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "Black Belt",
+        "Expert Belt"
       ],
       "bs": {
         "hp": 75,
@@ -68040,6 +70739,11 @@ overrides = {
         "Bug",
         "Grass"
       ],
+      "items": [
+        "None",
+        "Mental Herb",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 53,
@@ -68126,6 +70830,11 @@ overrides = {
         "Bug",
         "Grass"
       ],
+      "items": [
+        "None",
+        "Mental Herb",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 63,
@@ -68205,6 +70914,11 @@ overrides = {
       "types": [
         "Bug",
         "Grass"
+      ],
+      "items": [
+        "None",
+        "Mental Herb",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -68329,6 +71043,11 @@ overrides = {
         "Bug",
         "Poison"
       ],
+      "items": [
+        "Pecha Berry",
+        "Poison Barb",
+        "None"
+      ],
       "bs": {
         "hp": 30,
         "at": 45,
@@ -68439,6 +71158,11 @@ overrides = {
       "types": [
         "Bug",
         "Poison"
+      ],
+      "items": [
+        "Pecha Berry",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 40,
@@ -68564,6 +71288,11 @@ overrides = {
       "types": [
         "Bug",
         "Poison"
+      ],
+      "items": [
+        "Pecha Berry",
+        "Poison Barb",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -68701,6 +71430,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 27,
@@ -68813,6 +71547,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 67,
@@ -68908,6 +71647,11 @@ overrides = {
       "num": 548,
       "types": [
         "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 45,
@@ -69021,6 +71765,11 @@ overrides = {
       "types": [
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 60,
@@ -69115,6 +71864,11 @@ overrides = {
       "num": 550,
       "types": [
         "Water"
+      ],
+      "items": [
+        "None",
+        "DeepSeaTooth",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -69226,6 +71980,11 @@ overrides = {
       "types": [
         "Ground",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -69354,6 +72113,11 @@ overrides = {
       "types": [
         "Ground",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -69499,6 +72263,11 @@ overrides = {
       "types": [
         "Ground",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -69649,6 +72418,11 @@ overrides = {
       "types": [
         "Fire"
       ],
+      "items": [
+        "Rawst Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 90,
@@ -69775,6 +72549,11 @@ overrides = {
       "types": [
         "Fire",
         "Fighting"
+      ],
+      "items": [
+        "Rawst Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -69929,6 +72708,11 @@ overrides = {
         "Grass",
         "Water"
       ],
+      "items": [
+        "None",
+        "Miracle Seed",
+        "None"
+      ],
       "bs": {
         "hp": 85,
         "at": 86,
@@ -70057,6 +72841,11 @@ overrides = {
         "Bug",
         "Rock"
       ],
+      "items": [
+        "None",
+        "Hard Stone",
+        "Rare Bone"
+      ],
       "bs": {
         "hp": 50,
         "at": 65,
@@ -70178,6 +72967,11 @@ overrides = {
       "types": [
         "Bug",
         "Rock"
+      ],
+      "items": [
+        "None",
+        "Hard Stone",
+        "Rare Bone"
       ],
       "bs": {
         "hp": 70,
@@ -70314,6 +73108,11 @@ overrides = {
         "Dark",
         "Fighting"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 75,
@@ -70445,6 +73244,11 @@ overrides = {
       "types": [
         "Dark",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -70588,6 +73392,11 @@ overrides = {
         "Psychic",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 72,
         "at": 58,
@@ -70722,6 +73531,11 @@ overrides = {
       "types": [
         "Ghost"
       ],
+      "items": [
+        "None",
+        "Spell Tag",
+        "None"
+      ],
       "bs": {
         "hp": 38,
         "at": 30,
@@ -70837,6 +73651,11 @@ overrides = {
       "types": [
         "Ghost",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "Spell Tag",
+        "None"
       ],
       "bs": {
         "hp": 58,
@@ -70968,6 +73787,11 @@ overrides = {
         "Water",
         "Rock"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 54,
         "at": 78,
@@ -71098,6 +73922,11 @@ overrides = {
       "types": [
         "Water",
         "Rock"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 74,
@@ -71236,6 +74065,11 @@ overrides = {
         "Rock",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 112,
@@ -71369,6 +74203,11 @@ overrides = {
       "types": [
         "Rock",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -71519,6 +74358,11 @@ overrides = {
       "types": [
         "Poison"
       ],
+      "items": [
+        "None",
+        "Black Sludge",
+        "Nugget"
+      ],
       "bs": {
         "hp": 50,
         "at": 50,
@@ -71630,6 +74474,11 @@ overrides = {
       "num": 569,
       "types": [
         "Poison"
+      ],
+      "items": [
+        "Black Sludge",
+        "Nugget",
+        "Big Nugget"
       ],
       "bs": {
         "hp": 80,
@@ -71760,6 +74609,11 @@ overrides = {
       "types": [
         "Dark"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 65,
@@ -71885,6 +74739,11 @@ overrides = {
       "num": 571,
       "types": [
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -72042,6 +74901,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Chesto Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 50,
@@ -72164,6 +75028,11 @@ overrides = {
       "types": [
         "Normal"
       ],
+      "items": [
+        "Chesto Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 75,
         "at": 95,
@@ -72249,6 +75118,11 @@ overrides = {
       "types": [
         "Psychic",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 45,
@@ -72380,6 +75254,11 @@ overrides = {
       "types": [
         "Psychic",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -72525,6 +75404,11 @@ overrides = {
       "types": [
         "Psychic",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -72675,6 +75559,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 30,
@@ -72800,6 +75689,11 @@ overrides = {
       "num": 578,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -72940,6 +75834,11 @@ overrides = {
       "num": 579,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 110,
@@ -73094,6 +75993,11 @@ overrides = {
         "Water",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 62,
         "at": 44,
@@ -73203,6 +76107,11 @@ overrides = {
       "types": [
         "Water",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -73326,6 +76235,11 @@ overrides = {
       "types": [
         "Ice"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 36,
         "at": 50,
@@ -73434,6 +76348,11 @@ overrides = {
       "num": 583,
       "types": [
         "Ice"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 51,
@@ -73557,6 +76476,11 @@ overrides = {
       "num": 584,
       "types": [
         "Ice"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 71,
@@ -73685,6 +76609,11 @@ overrides = {
         "Normal",
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 60,
@@ -73803,6 +76732,11 @@ overrides = {
       "types": [
         "Fighting",
         "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -73954,6 +76888,11 @@ overrides = {
         "Electric",
         "Flying"
       ],
+      "items": [
+        "Cheri Berry",
+        "Cheri Berry",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 95,
@@ -74066,6 +77005,11 @@ overrides = {
       "types": [
         "Bug"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 75,
@@ -74176,6 +77120,11 @@ overrides = {
       "types": [
         "Bug",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -74307,6 +77256,11 @@ overrides = {
         "Grass",
         "Poison"
       ],
+      "items": [
+        "TinyMushroom",
+        "Big Mushroom",
+        "BalmMushroom"
+      ],
       "bs": {
         "hp": 69,
         "at": 55,
@@ -74416,6 +77370,11 @@ overrides = {
       "types": [
         "Grass",
         "Poison"
+      ],
+      "items": [
+        "TinyMushroom",
+        "Big Mushroom",
+        "BalmMushroom"
       ],
       "bs": {
         "hp": 114,
@@ -74540,6 +77499,11 @@ overrides = {
         "Water",
         "Ghost"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 40,
@@ -74656,6 +77620,11 @@ overrides = {
       "types": [
         "Water",
         "Ghost"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -74786,6 +77755,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 165,
         "at": 75,
@@ -74906,6 +77880,11 @@ overrides = {
         "Bug",
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 47,
@@ -75025,6 +78004,11 @@ overrides = {
       "types": [
         "Bug",
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -75152,6 +78136,11 @@ overrides = {
         "Grass",
         "Steel"
       ],
+      "items": [
+        "None",
+        "Sticky Barb",
+        "None"
+      ],
       "bs": {
         "hp": 44,
         "at": 50,
@@ -75265,6 +78254,11 @@ overrides = {
       "types": [
         "Grass",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "Sticky Barb",
+        "None"
       ],
       "bs": {
         "hp": 74,
@@ -75406,6 +78400,11 @@ overrides = {
         "Steel",
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 40,
         "at": 55,
@@ -75515,6 +78514,11 @@ overrides = {
       "types": [
         "Steel",
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -75640,6 +78644,11 @@ overrides = {
         "Steel",
         "Electric"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 110,
@@ -75764,6 +78773,11 @@ overrides = {
         "Electric",
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 35,
         "at": 55,
@@ -75812,6 +78826,11 @@ overrides = {
       "types": [
         "Electric",
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -75932,6 +78951,11 @@ overrides = {
         "Electric",
         "Water"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 95,
         "at": 115,
@@ -76037,6 +79061,11 @@ overrides = {
       "types": [
         "Psychic",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -76177,6 +79206,11 @@ overrides = {
       "types": [
         "Psychic",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -76331,6 +79365,11 @@ overrides = {
         "Ghost",
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 30,
@@ -76461,6 +79500,11 @@ overrides = {
       "types": [
         "Ghost",
         "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -76603,6 +79647,11 @@ overrides = {
         "Ghost",
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 60,
         "at": 55,
@@ -76693,6 +79742,11 @@ overrides = {
       "num": 610,
       "types": [
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 46,
@@ -76817,6 +79871,11 @@ overrides = {
       "num": 611,
       "types": [
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 66,
@@ -76958,6 +80017,11 @@ overrides = {
       "types": [
         "Dragon",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 76,
@@ -77108,6 +80172,11 @@ overrides = {
       "types": [
         "Ice"
       ],
+      "items": [
+        "Aspear Berry",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 70,
@@ -77225,6 +80294,11 @@ overrides = {
       "types": [
         "Ice",
         "Fighting"
+      ],
+      "items": [
+        "Aspear Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -77376,6 +80450,11 @@ overrides = {
         "Ice",
         "Ghost"
       ],
+      "items": [
+        "None",
+        "NeverMeltIce",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 50,
@@ -77498,6 +80577,11 @@ overrides = {
       "types": [
         "Bug"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 40,
@@ -77604,6 +80688,11 @@ overrides = {
       "types": [
         "Bug",
         "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -77730,6 +80819,11 @@ overrides = {
         "Ground",
         "Electric"
       ],
+      "items": [
+        "None",
+        "Soft Sand",
+        "None"
+      ],
       "bs": {
         "hp": 109,
         "at": 66,
@@ -77843,6 +80937,11 @@ overrides = {
       "num": 619,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 45,
@@ -77973,6 +81072,11 @@ overrides = {
       "num": 620,
       "types": [
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -78122,6 +81226,11 @@ overrides = {
         "Dragon",
         "Rock"
       ],
+      "items": [
+        "None",
+        "Dragon Fang",
+        "None"
+      ],
       "bs": {
         "hp": 87,
         "at": 120,
@@ -78260,6 +81369,11 @@ overrides = {
         "Ground",
         "Ghost"
       ],
+      "items": [
+        "None",
+        "Light Clay",
+        "None"
+      ],
       "bs": {
         "hp": 59,
         "at": 74,
@@ -78380,6 +81494,11 @@ overrides = {
       "types": [
         "Ground",
         "Ghost"
+      ],
+      "items": [
+        "None",
+        "Light Clay",
+        "None"
       ],
       "bs": {
         "hp": 89,
@@ -78517,6 +81636,11 @@ overrides = {
         "Dark",
         "Steel"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 45,
         "at": 85,
@@ -78647,6 +81771,11 @@ overrides = {
       "types": [
         "Dark",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -78798,6 +81927,11 @@ overrides = {
         "Normal",
         "Ground"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 95,
         "at": 110,
@@ -78915,6 +82049,11 @@ overrides = {
       "types": [
         "Normal",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -79037,6 +82176,11 @@ overrides = {
       "types": [
         "Normal",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -79173,6 +82317,11 @@ overrides = {
         "Dark",
         "Flying"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 55,
@@ -79296,6 +82445,11 @@ overrides = {
       "types": [
         "Dark",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 110,
@@ -79434,6 +82588,11 @@ overrides = {
         "Fire",
         "Dragon"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 77,
@@ -79566,6 +82725,11 @@ overrides = {
         "Bug",
         "Steel"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 58,
         "at": 119,
@@ -79684,6 +82848,11 @@ overrides = {
         "Dark",
         "Dragon"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 52,
         "at": 65,
@@ -79801,6 +82970,11 @@ overrides = {
       "types": [
         "Dark",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 72,
@@ -79929,6 +83103,11 @@ overrides = {
       "types": [
         "Dark",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 92,
@@ -80078,6 +83257,11 @@ overrides = {
         "Bug",
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 55,
         "at": 85,
@@ -80182,6 +83366,11 @@ overrides = {
       "types": [
         "Bug",
         "Fire"
+      ],
+      "items": [
+        "SilverPowder",
+        "SilverPowder",
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -80304,6 +83493,11 @@ overrides = {
         "Steel",
         "Fighting"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 91,
         "at": 90,
@@ -80422,6 +83616,11 @@ overrides = {
       "types": [
         "Rock",
         "Fighting"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 91,
@@ -80543,6 +83742,11 @@ overrides = {
         "Grass",
         "Fighting"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 91,
         "at": 90,
@@ -80659,6 +83863,11 @@ overrides = {
       "num": 641,
       "types": [
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 79,
@@ -80790,6 +83999,11 @@ overrides = {
       "types": [
         "Electric",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 79,
@@ -80927,6 +84141,11 @@ overrides = {
         "Dragon",
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 120,
@@ -81057,6 +84276,11 @@ overrides = {
       "types": [
         "Dragon",
         "Electric"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -81189,6 +84413,11 @@ overrides = {
       "types": [
         "Ground",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 89,
@@ -81323,6 +84552,11 @@ overrides = {
         "Dragon",
         "Ice"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 125,
         "at": 130,
@@ -81448,6 +84682,11 @@ overrides = {
         "Water",
         "Fighting"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 91,
         "at": 72,
@@ -81564,6 +84803,11 @@ overrides = {
       "types": [
         "Normal",
         "Psychic"
+      ],
+      "items": [
+        "Star Piece",
+        "Star Piece",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -81698,6 +84942,11 @@ overrides = {
       "types": [
         "Bug",
         "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 71,
@@ -81838,6 +85087,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 180,
@@ -81968,6 +85222,11 @@ overrides = {
       "num": 651,
       "types": [
         "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -82108,6 +85367,11 @@ overrides = {
       "types": [
         "Psychic"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 95,
@@ -82240,6 +85504,11 @@ overrides = {
         "Bug",
         "Steel"
       ],
+      "items": [
+        "None",
+        "SilverPowder",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 69,
@@ -82346,6 +85615,11 @@ overrides = {
         "Grass",
         "Flying"
       ],
+      "items": [
+        "Lum Berry",
+        "Lum Berry",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 103,
@@ -82441,6 +85715,11 @@ overrides = {
       "types": [
         "Ghost",
         "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 150,
@@ -82563,6 +85842,11 @@ overrides = {
         "Electric",
         "Fire"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 65,
@@ -82671,6 +85955,11 @@ overrides = {
       "types": [
         "Electric",
         "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -82781,6 +86070,11 @@ overrides = {
         "Electric",
         "Ice"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 65,
@@ -82889,6 +86183,11 @@ overrides = {
       "types": [
         "Electric",
         "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -82999,6 +86298,11 @@ overrides = {
         "Electric",
         "Grass"
       ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
       "bs": {
         "hp": 50,
         "at": 65,
@@ -83106,6 +86410,11 @@ overrides = {
       "num": 662,
       "types": [
         "Fire"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -83225,6 +86534,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
       "bs": {
         "hp": 100,
         "at": 100,
@@ -83342,6 +86656,11 @@ overrides = {
       "num": 664,
       "types": [
         "Ice"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -83461,6 +86780,11 @@ overrides = {
       "types": [
         "Water"
       ],
+      "items": [
+        "None",
+        "DeepSeaScale",
+        "None"
+      ],
       "bs": {
         "hp": 70,
         "at": 122,
@@ -83571,6 +86895,11 @@ overrides = {
       "types": [
         "Fire",
         "Psychic"
+      ],
+      "items": [
+        "Rawst Berry",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -83722,6 +87051,11 @@ overrides = {
       "types": [
         "Normal",
         "Fighting"
+      ],
+      "items": [
+        "Star Piece",
+        "Star Piece",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -102760,7 +106094,7 @@ overrides = {
           {
             "s": "Aron",
             "mn": 10,
-            "mx": 100
+            "mx": 13
           },
           {
             "s": "Wooper",
@@ -108535,28 +111869,28 @@ overrides = {
         "encs": [
           {
             "s": "Magikarp",
-            "mn": 30,
-            "mx": 35
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Qwilfish",
-            "mn": 30,
-            "mx": 35
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Magikarp",
-            "mn": 30,
-            "mx": 35
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Goldeen",
-            "mn": 30,
-            "mx": 35
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Goldeen",
-            "mn": 30,
-            "mx": 35
+            "mn": 28,
+            "mx": 30
           }
         ]
       },
@@ -109239,13 +112573,19 @@ overrides = {
     "masterball": {
       "name": "Master Ball",
       "desc": "The best Ball with the ultimate level of\\nperformance. It will catch any wild\\nPokémon without fail.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Sentret"
+      ]
     },
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a Great Ball.",
       "location": "Driftveil City, Twist Mountain, Village Bridge, Route 8, Moor of Icirrus, Route 14",
-      "rewards": "Rewarded after beating Youngster Kevin, Rewarded after beating Lass Dana"
+      "rewards": [
+        "Youngster Kevin",
+        "Lass Dana"
+      ]
     },
     "greatball": {
       "name": "Great Ball",
@@ -109351,7 +112691,9 @@ overrides = {
       "name": "Full Restore",
       "desc": "A medicine that fully restores the HP\\nand heals any status problems of a\\nsingle Pokémon.",
       "location": "N's Castle, Route 9, Route 10",
-      "rewards": "Rewarded after beating Nurse Kirsten"
+      "rewards": [
+        "Nurse Kirsten"
+      ]
     },
     "maxpotion": {
       "name": "Max Potion",
@@ -109382,13 +112724,18 @@ overrides = {
       "name": "Max Revive",
       "desc": "A medicine that revives a fainted\\nPokémon. It fully restores the\\nPokémon's HP.",
       "location": "Relic Castle, Victory Road, Giant Chasm, N's Castle, Moor of Icirrus",
-      "rewards": "Rewarded after beating Doctor Jules"
+      "rewards": [
+        "Doctor Jules"
+      ]
     },
     "freshwater": {
       "name": "Fresh Water",
       "desc": "Water with a high mineral content.\\nIt restores the HP of one Pokémon by\\n50 points.",
       "location": "Desert Resort",
-      "rewards": "Rewarded after beating Waiter Clint, Rewarded after beating Waitress Bonita"
+      "rewards": [
+        "Waiter Clint - Nimbasa City",
+        "Waitress Bonita"
+      ]
     },
     "sodapop": {
       "name": "Soda Pop",
@@ -109404,7 +112751,12 @@ overrides = {
       "name": "Moomoo Milk",
       "desc": "Milk with a very high nutrition content.\\nIt restores the HP of one Pokémon by\\n100 points.",
       "location": "",
-      "rewards": "Rewarded after beating Baker Lilly"
+      "rewards": [
+        "Baker Lilly"
+      ],
+      "wilds": [
+        "Miltank"
+      ]
     },
     "energypowder": {
       "name": "EnergyPowder",
@@ -109430,7 +112782,10 @@ overrides = {
       "name": "Ether",
       "desc": "It restores the PP of a Pokémon's\\nselected move by a maximum of\\n10 points.",
       "location": "Not Pinwheel Forest, Cold Storage, Twist Mountain, Route 4",
-      "rewards": "Rewarded after beating Scientist Simon, Rewarded after beating Scientist Blythe"
+      "rewards": [
+        "Scientist Simon",
+        "Scientist Blythe"
+      ]
     },
     "maxether": {
       "name": "Max Ether",
@@ -109455,12 +112810,18 @@ overrides = {
     "berryjuice": {
       "name": "Berry Juice",
       "desc": "A 100% pure juice made of Berries.\\nIt restores the HP of one Pokémon by\\njust 20 points.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Shuckle"
+      ]
     },
     "sacredash": {
       "name": "Sacred Ash",
       "desc": "It revives all fainted Pokémon.\\nIn doing so, it also fully restores\\ntheir HP.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Ho-Oh"
+      ]
     },
     "hpup": {
       "name": "HP Up",
@@ -109491,13 +112852,23 @@ overrides = {
       "name": "Rare Candy",
       "desc": "A candy that is packed with energy.\\nIt raises the level of a single Pokémon\\nby one.",
       "location": "Icirrus City, Chargestone Cave, N's Castle, Route 2, Guidance Chamber, Abundant Shrine, Lostlorn Forest, Route 17",
-      "rewards": "Rewarded after beating Nursery Aide Leah"
+      "rewards": [
+        "Nursery Aide Leah"
+      ],
+      "wilds": [
+        "Treecko",
+        "Torchic",
+        "Mudkip"
+      ]
     },
     "ppup": {
       "name": "PP Up",
       "desc": "It slightly raises the maximum PP of\\na selected move that has been learned\\nby the target Pokémon.",
       "location": "Relic Castle, Twist Mountain, Route 7, Shopping Mall, Challenger's Cave",
-      "rewards": "Rewarded after beating Ace Trainer Lucille, Rewarded after beating Ace Trainer Charlie"
+      "rewards": [
+        "Ace Trainer Lucille",
+        "Ace Trainer Charlie"
+      ]
     },
     "zinc": {
       "name": "Zinc",
@@ -109508,7 +112879,13 @@ overrides = {
       "name": "PP Max",
       "desc": "It maximally raises the top PP of a\\nselected move that has been learned\\nby the target Pokémon.",
       "location": "",
-      "rewards": "Rewarded after beating Veteran Arlen, Rewarded after beating Veteran Sayuri"
+      "rewards": [
+        "Veteran Arlen",
+        "Veteran Sayuri"
+      ],
+      "wilds": [
+        "Steelix"
+      ]
     },
     "oldgateau": {
       "name": "Old Gateau",
@@ -109629,7 +113006,10 @@ overrides = {
       "name": "Max Repel",
       "desc": "An item that prevents weak wild\\nPokémon from appearing for 250 steps\\nafter its use.",
       "location": "Mistralton Cave",
-      "rewards": "Rewarded after beating Backpacker Patty, Rewarded after beating Backpacker Alexander"
+      "rewards": [
+        "Backpacker Patty",
+        "Backpacker Alexander"
+      ]
     },
     "escaperope": {
       "name": "Escape Rope",
@@ -109644,12 +113024,21 @@ overrides = {
     "sunstone": {
       "name": "Sun Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as red as the sun.",
-      "location": "Relic Castle"
+      "location": "Relic Castle",
+      "wilds": [
+        "Solrock"
+      ]
     },
     "moonstone": {
       "name": "Moon Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as black as the night sky.",
-      "location": "Twist Mountain"
+      "location": "Twist Mountain",
+      "wilds": [
+        "Clefairy",
+        "Clefable",
+        "Cleffa",
+        "Lunatone"
+      ]
     },
     "firestone": {
       "name": "Fire Stone",
@@ -109674,49 +113063,99 @@ overrides = {
     "tinymushroom": {
       "name": "TinyMushroom",
       "desc": "A small and rare mushroom.\\nIt is sought after by collectors.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Paras",
+        "Parasect",
+        "Foongus",
+        "Amoonguss"
+      ]
     },
     "bigmushroom": {
       "name": "Big Mushroom",
       "desc": "A large and rare mushroom.\\nIt is sought after by collectors.",
-      "location": "Lostlorn Forest"
+      "location": "Lostlorn Forest",
+      "wilds": [
+        "Paras",
+        "Parasect",
+        "Foongus",
+        "Amoonguss"
+      ]
     },
     "pearl": {
       "name": "Pearl",
       "desc": "A somewhat-small pearl that sparkles\\nin a pretty silver color.\\nIt can be sold cheaply to shops.",
-      "location": "Route 1"
+      "location": "Route 1",
+      "wilds": [
+        "Shellder",
+        "Cloyster"
+      ]
     },
     "bigpearl": {
       "name": "Big Pearl",
       "desc": "A quite-large pearl that sparkles in a\\npretty silver color. It can be sold at\\na high price to shops.",
       "location": "Driftveil City",
-      "rewards": "Rewarded after beating Socialite Emilia"
+      "rewards": [
+        "Socialite Emilia"
+      ],
+      "wilds": [
+        "Shellder",
+        "Cloyster",
+        "Gulpin",
+        "Swalot",
+        "Clamperl"
+      ]
     },
     "stardust": {
       "name": "Stardust",
       "desc": "Lovely, red-colored sand with a loose,\\nsilky feel. It can be sold at a high\\nprice to shops.",
-      "location": "Desert Resort, Dragonspiral Tower, Dragonspiral Tower"
+      "location": "Desert Resort, Dragonspiral Tower, Dragonspiral Tower",
+      "wilds": [
+        "Staryu",
+        "Starmie"
+      ]
     },
     "starpiece": {
       "name": "Star Piece",
       "desc": "A shard of a pretty gem that sparkles\\nin a red color. It can be sold at a\\nhigh price to shops.",
-      "location": "Dragonspiral Tower, Giant Chasm, Giant Chasm"
+      "location": "Dragonspiral Tower, Giant Chasm, Giant Chasm",
+      "wilds": [
+        "Staryu",
+        "Starmie",
+        "Jirachi",
+        "Meloetta",
+        "Meloetta-Pirouette"
+      ]
     },
     "nugget": {
       "name": "Nugget",
       "desc": "A nugget of pure gold that gives off a\\nlustrous gleam. It can be sold at a\\nhigh price to shops.",
       "location": "Twist Mountain, Dragonspiral Tower, Victory Road, Challenger's Cave",
-      "rewards": "Rewarded after beating Gentleman Renaud"
+      "rewards": [
+        "Gentleman Renaud"
+      ],
+      "wilds": [
+        "Grimer",
+        "Muk",
+        "Trubbish",
+        "Garbodor"
+      ]
     },
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is\\nextremely rare. It glows faintly in the\\ncolors of the rainbow.",
-      "location": "Desert Resort, Route 18"
+      "location": "Desert Resort, Route 18",
+      "wilds": [
+        "Luvdisc"
+      ]
     },
     "honey": {
       "name": "Honey",
       "desc": "A sweet honey with a lush aroma that\\nattracts wild Pokémon when it is used\\nin grass, caves, or on special trees.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Combee"
+      ]
     },
     "growthmulch": {
       "name": "Growth Mulch",
@@ -109776,7 +113215,11 @@ overrides = {
     "rarebone": {
       "name": "Rare Bone",
       "desc": "A bone that is extremely valuable for\\nPokémon archeology. It can be sold\\nfor a high price to shops.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Dwebble",
+        "Crustle"
+      ]
     },
     "shinystone": {
       "name": "Shiny Stone",
@@ -109796,7 +113239,10 @@ overrides = {
     "ovalstone": {
       "name": "Oval Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is shaped like an egg.",
-      "location": "Challenger's Cave"
+      "location": "Challenger's Cave",
+      "wilds": [
+        "Happiny"
+      ]
     },
     "oddkeystone": {
       "name": "Odd Keystone",
@@ -109912,61 +113358,185 @@ overrides = {
       "name": "Cheri Berry",
       "desc": "If held by a Pokémon, \\nit recovers from paralysis.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Ranger Richard, Rewarded after beating PkMn Ranger Shanti"
+      "rewards": [
+        "PkMn Ranger Richard - Route 6",
+        "PkMn Ranger Shanti - Route 6"
+      ],
+      "wilds": [
+        "Taillow",
+        "Glameow",
+        "Purugly",
+        "Blitzle",
+        "Zebstrika",
+        "Emolga"
+      ]
     },
     "chestoberry": {
       "name": "Chesto Berry",
       "desc": "If held by a Pokémon,\\nit recovers from sleep.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Ranger Forrest, Rewarded after beating PkMn Ranger Audra"
+      "rewards": [
+        "PkMn Ranger Forrest - Pinwheel Forest",
+        "PkMn Ranger Audra - Pinwheel Forest"
+      ],
+      "wilds": [
+        "Whismur",
+        "Loudred",
+        "Exploud",
+        "Spinda",
+        "Minccino",
+        "Cinccino"
+      ]
     },
     "pechaberry": {
       "name": "Pecha Berry",
       "desc": "If held by a Pokémon,\\nit recovers from poison.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Ranger Irene, Rewarded after beating PkMn Ranger Miguel, Rewarded after beating PkMn Ranger Lewis, Rewarded after beating PkMn Ranger Annie"
+      "rewards": [
+        "PkMn Ranger Irene - Pinwheel Forest",
+        "PkMn Ranger Miguel - Pinwheel Forest",
+        "PkMn Ranger Lewis - Route 8",
+        "PkMn Ranger Annie - Route 8"
+      ],
+      "wilds": [
+        "Poochyena",
+        "Mightyena",
+        "Stunky",
+        "Skuntank",
+        "Venipede",
+        "Whirlipede",
+        "Scolipede"
+      ]
     },
     "rawstberry": {
       "name": "Rawst Berry",
       "desc": "If held by a Pokémon,\\nit recovers from a burn.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Ranger Mylene, Rewarded after beating PkMn Ranger Jaden"
+      "rewards": [
+        "PkMn Ranger Mylene - Desert Resort",
+        "PkMn Ranger Jaden - Desert Resort"
+      ],
+      "wilds": [
+        "Vulpix",
+        "Ninetales",
+        "Growlithe",
+        "Arcanine",
+        "Numel",
+        "Camerupt",
+        "Darumaka",
+        "Darmanitan",
+        "Darmanitan-Zen"
+      ]
     },
     "aspearberry": {
       "name": "Aspear Berry",
       "desc": "If held by a Pokémon,\\nit defrosts it.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Ranger Pedro, Rewarded after beating PkMn Ranger Mary"
+      "rewards": [
+        "PkMn Ranger Pedro - Route 7",
+        "PkMn Ranger Mary - Route 7"
+      ],
+      "wilds": [
+        "Jynx",
+        "Smoochum",
+        "Cubchoo",
+        "Beartic"
+      ]
     },
     "leppaberry": {
       "name": "Leppa Berry",
       "desc": "If held by a Pokémon,\\nit restores a move's PP by 10.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Ranger Thalia, Rewarded after beating PkMn Ranger Crofton"
+      "rewards": [
+        "PkMn Ranger Thalia - Route 11",
+        "PkMn Ranger Crofton - Route 11"
+      ],
+      "wilds": [
+        "Clefairy",
+        "Clefable",
+        "Mr. Mime",
+        "Cleffa",
+        "Linoone",
+        "Skitty",
+        "Delcatty",
+        "Mime Jr."
+      ]
     },
     "oranberry": {
       "name": "Oran Berry",
       "desc": "If held by a Pokémon, \\nit heals the user by just 10 HP.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Breeder Adelaide"
+      "rewards": [
+        "PkMn Breeder Adelaide - Route 3"
+      ],
+      "wilds": [
+        "Pikachu",
+        "Raichu",
+        "Sentret",
+        "Furret",
+        "Pichu",
+        "Zigzagoon",
+        "Bibarel",
+        "Pansage",
+        "Simisage",
+        "Pansear",
+        "Simisear",
+        "Panpour",
+        "Simipour",
+        "Audino"
+      ]
     },
     "persimberry": {
       "name": "Persim Berry",
       "desc": "If held by a Pokémon,\\nit recovers from confusion.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Ranger Brenda, Rewarded after beating PkMn Ranger Claude"
+      "rewards": [
+        "PkMn Ranger Brenda - Route 1",
+        "PkMn Ranger Claude - Route 1"
+      ],
+      "wilds": [
+        "Rattata",
+        "Girafarig",
+        "Kecleon",
+        "Tympole",
+        "Palpitoad",
+        "Seismitoad"
+      ]
     },
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon,\\nit recovers from any status problem.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Breeder Galen"
+      "rewards": [
+        "PkMn Breeder Galen - Route 3"
+      ],
+      "wilds": [
+        "Mew",
+        "Celebi",
+        "Slakoth",
+        "Shaymin",
+        "Shaymin-Sky"
+      ]
     },
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon,\\nit heals the user's HP a little.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Breeder Eustace, Rewarded after beating PkMn Breeder Ethel, Rewarded after beating PkMn Ranger Shelly, Rewarded after beating PkMn Ranger Keith, Rewarded after beating PkMn Ranger Chloris, Rewarded after beating PkMn Ranger Harry"
+      "rewards": [
+        "PkMn Breeder Eustace - Route 12",
+        "PkMn Breeder Ethel - Route 12",
+        "PkMn Ranger Shelly - Route 15",
+        "PkMn Ranger Keith - Route 15",
+        "PkMn Ranger Chloris - Moor of Icirrus",
+        "PkMn Ranger Harry - Moor of Icirrus"
+      ],
+      "wilds": [
+        "Furret",
+        "Zigzagoon",
+        "Linoone",
+        "Bibarel",
+        "Audino"
+      ]
     },
     "figyberry": {
       "name": "Figy Berry",
@@ -110096,87 +113666,179 @@ overrides = {
     "occaberry": {
       "name": "Occa Berry",
       "desc": "Weakens a supereffective Fire-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Caterpie",
+        "Mawile",
+        "Pansage",
+        "Simisage"
+      ]
     },
     "passhoberry": {
       "name": "Passho Berry",
       "desc": "Weakens a supereffective Water-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Phanpy",
+        "Donphan",
+        "Wingull",
+        "Pansear",
+        "Simisear"
+      ]
     },
     "wacanberry": {
       "name": "Wacan Berry",
       "desc": "Weakens a supereffective Electric-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Hoothoot",
+        "Buizel",
+        "Floatzel"
+      ]
     },
     "rindoberry": {
       "name": "Rindo Berry",
       "desc": "Weakens a supereffective Grass-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Carvanha",
+        "Finneon",
+        "Lumineon",
+        "Panpour",
+        "Simipour"
+      ]
     },
     "yacheberry": {
       "name": "Yache Berry",
       "desc": "Weakens a supereffective Ice-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Ledyba",
+        "Starly",
+        "Staravia",
+        "Staraptor"
+      ]
     },
     "chopleberry": {
       "name": "Chople Berry",
       "desc": "Weakens a supereffective Fighting-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Poochyena",
+        "Buneary",
+        "Lopunny"
+      ]
     },
     "kebiaberry": {
       "name": "Kebia Berry",
       "desc": "Weakens a supereffective Poison-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Oddish",
+        "Shroomish",
+        "Breloom"
+      ]
     },
     "shucaberry": {
       "name": "Shuca Berry",
       "desc": "Weakens a supereffective Ground-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Pidgey",
+        "Ponyta",
+        "Rapidash"
+      ]
     },
     "cobaberry": {
       "name": "Coba Berry",
       "desc": "Weakens a supereffective Flying-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Sunkern",
+        "Wurmple"
+      ]
     },
     "payapaberry": {
       "name": "Payapa Berry",
       "desc": "Weakens a supereffective Psychic-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Weedle",
+        "Mankey",
+        "Primeape"
+      ]
     },
     "tangaberry": {
       "name": "Tanga Berry",
       "desc": "Weakens a supereffective Bug-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Ralts",
+        "Spoink",
+        "Grumpig"
+      ]
     },
     "chartiberry": {
       "name": "Charti Berry",
       "desc": "Weakens a supereffective Rock-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Taillow",
+        "Swellow"
+      ]
     },
     "kasibberry": {
       "name": "Kasib Berry",
       "desc": "Weakens a supereffective Ghost-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Spearow",
+        "Duskull",
+        "Dusclops",
+        "Dusknoir"
+      ]
     },
     "habanberry": {
       "name": "Haban Berry",
       "desc": "Weakens a supereffective Dragon-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Ekans",
+        "Gible",
+        "Gabite",
+        "Garchomp"
+      ]
     },
     "colburberry": {
       "name": "Colbur Berry",
       "desc": "Weakens a supereffective Dark-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Bellsprout",
+        "Chimecho",
+        "Chingling"
+      ]
     },
     "babiriberry": {
       "name": "Babiri Berry",
       "desc": "Weakens a supereffective Steel-type\\nattack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Venonat",
+        "Growlithe",
+        "Snorunt",
+        "Glalie",
+        "Froslass"
+      ]
     },
     "chilanberry": {
       "name": "Chilan Berry",
       "desc": "Weakens a Normal-type attack against\\nthe Pokémon holding this berry.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Rattata",
+        "Raticate"
+      ]
     },
     "liechiberry": {
       "name": "Liechi Berry",
@@ -110256,12 +113918,24 @@ overrides = {
     "expshare": {
       "name": "Exp. Share",
       "desc": "An item to be held by a Pokémon.\\nThe holder gets a share of a battle's\\nExp. Points without battling.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Porygon"
+      ]
     },
     "quickclaw": {
       "name": "Quick Claw",
       "desc": "An item to be held by a Pokémon.\\nA light, sharp claw that lets the\\nbearer move first occasionally.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Sandshrew",
+        "Sandslash",
+        "Meowth",
+        "Persian",
+        "Sneasel",
+        "Zangoose",
+        "Weavile"
+      ]
     },
     "soothebell": {
       "name": "Soothe Bell",
@@ -110271,7 +113945,12 @@ overrides = {
     "mentalherb": {
       "name": "Mental Herb",
       "desc": "An item to be held by a Pokémon. It\\nsnaps the holder out of infatuation.\\nIt can be used only once.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Sewaddle",
+        "Swadloon",
+        "Leavanny"
+      ]
     },
     "choiceband": {
       "name": "Choice Band",
@@ -110281,12 +113960,28 @@ overrides = {
     "kingsrock": {
       "name": "King's Rock",
       "desc": "An item to be held by a Pokémon.\\nWhen the holder inflicts damage,\\nthe target may flinch.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Poliwhirl",
+        "Poliwrath",
+        "Slowbro",
+        "Politoed",
+        "Slowking",
+        "Hariyama"
+      ]
     },
     "silverpowder": {
       "name": "SilverPowder",
       "desc": "An item to be held by a Pokémon.\\nIt is a shiny, silver powder that ups\\nthe power of Bug-type moves.",
-      "location": "Pinwheel Forest"
+      "location": "Pinwheel Forest",
+      "wilds": [
+        "Butterfree",
+        "Masquerain",
+        "Wormadam",
+        "Mothim",
+        "Volcarona",
+        "Alt Form"
+      ]
     },
     "amuletcoin": {
       "name": "Amulet Coin",
@@ -110306,22 +114001,47 @@ overrides = {
     "deepseatooth": {
       "name": "DeepSeaTooth",
       "desc": "An item to be held by Clamperl.\\nA fang that gleams a sharp silver, it\\nraises the Sp. Atk stat.",
-      "location": "Route 17"
+      "location": "Route 17",
+      "wilds": [
+        "Carvanha",
+        "Sharpedo",
+        "Huntail",
+        "Basculin"
+      ]
     },
     "deepseascale": {
       "name": "DeepSeaScale",
       "desc": "An item to be held by Clamperl.\\nA scale that shines a faint pink, it\\nraises the Sp. Def stat.",
-      "location": "Route 13"
+      "location": "Route 13",
+      "wilds": [
+        "Chinchou",
+        "Lanturn",
+        "Gorebyss",
+        "Relicanth",
+        "Basculin-Blue-Striped"
+      ]
     },
     "smokeball": {
       "name": "Smoke Ball",
       "desc": "An item to be held by a Pokémon.\\nIt enables the holder to flee from any\\nwild Pokémon without fail.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Koffing",
+        "Weezing"
+      ]
     },
     "everstone": {
       "name": "Everstone",
       "desc": "An item to be held by a Pokémon.\\nThe Pokémon holding this peculiar stone\\nis prevented from evolving.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Geodude",
+        "Graveler",
+        "Golem",
+        "Roggenrola",
+        "Boldore",
+        "Gigalith"
+      ]
     },
     "focusband": {
       "name": "Focus Band",
@@ -110331,7 +114051,13 @@ overrides = {
     "luckyegg": {
       "name": "Lucky Egg",
       "desc": "An item to be held by a Pokémon.\\nIt is an egg filled with happiness that\\nearns extra Exp. Points in battle.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Chansey",
+        "Blissey",
+        "Wingull",
+        "Happiny"
+      ]
     },
     "scopelens": {
       "name": "Scope Lens",
@@ -110341,7 +114067,18 @@ overrides = {
     "metalcoat": {
       "name": "Metal Coat",
       "desc": "An item to be held by a Pokémon.\\nIt is a special metallic film that ups\\nthe power of Steel-type moves.",
-      "location": "Twist Mountain"
+      "location": "Twist Mountain",
+      "wilds": [
+        "Magnemite",
+        "Magneton",
+        "Steelix",
+        "Beldum",
+        "Metang",
+        "Metagross",
+        "Bronzor",
+        "Bronzong",
+        "Magnezone"
+      ]
     },
     "leftovers": {
       "name": "Leftovers",
@@ -110351,27 +114088,63 @@ overrides = {
     "dragonscale": {
       "name": "Dragon Scale",
       "desc": "A thick and tough scale.\\nDragon-type Pokémon may be holding\\nthis item when caught.",
-      "location": "Route 18"
+      "location": "Route 18",
+      "wilds": [
+        "Horsea",
+        "Seadra",
+        "Dratini",
+        "Dragonair",
+        "Dragonite",
+        "Kingdra"
+      ]
     },
     "lightball": {
       "name": "Light Ball",
       "desc": "An item to be held by Pikachu.\\nIt is a puzzling orb that raises\\nthe Attack and Sp. Atk stat.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Pikachu"
+      ]
     },
     "softsand": {
       "name": "Soft Sand",
       "desc": "An item to be held by a Pokémon.\\nIt is a loose, silky sand that boosts\\nthe power of Ground-type moves.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Diglett",
+        "Dugtrio",
+        "Trapinch",
+        "Stunfisk"
+      ]
     },
     "hardstone": {
       "name": "Hard Stone",
       "desc": "An item to be held by a Pokémon.\\nIt is an unbreakable stone that ups\\nthe power of Rock-type moves.",
-      "location": "Mistralton Cave"
+      "location": "Mistralton Cave",
+      "wilds": [
+        "Corsola",
+        "Nosepass",
+        "Aron",
+        "Lairon",
+        "Aggron",
+        "Probopass",
+        "Roggenrola",
+        "Boldore",
+        "Gigalith",
+        "Dwebble",
+        "Crustle"
+      ]
     },
     "miracleseed": {
       "name": "Miracle Seed",
       "desc": "An item to be held by a Pokémon.\\nIt is a seed imbued with life that ups\\nthe power of Grass-type moves.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Treecko",
+        "Cherubi",
+        "Cherrim",
+        "Maractus"
+      ]
     },
     "blackglasses": {
       "name": "BlackGlasses",
@@ -110381,7 +114154,12 @@ overrides = {
     "blackbelt": {
       "name": "Black Belt",
       "desc": "An item to be held by a Pokémon.\\nIt is a belt that boosts determination\\nand Fighting-type moves.",
-      "location": "Challenger's Cave"
+      "location": "Challenger's Cave",
+      "wilds": [
+        "Machop",
+        "Throh",
+        "Sawk"
+      ]
     },
     "magnet": {
       "name": "Magnet",
@@ -110391,42 +114169,95 @@ overrides = {
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon.\\nIt is a teardrop-shaped gem that ups\\nthe power of Water-type moves.",
-      "location": "Wellspring Cave"
+      "location": "Wellspring Cave",
+      "wilds": [
+        "Mudkip",
+        "Castform",
+        "Castform-Sunny",
+        "Castform-Rainy",
+        "Castform-Snowy"
+      ]
     },
     "sharpbeak": {
       "name": "Sharp Beak",
       "desc": "An item to be held by a Pokémon.\\nIt is a long, sharp beak that boosts\\nthe power of Flying-type moves.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Fearow",
+        "Doduo",
+        "Dodrio"
+      ]
     },
     "poisonbarb": {
       "name": "Poison Barb",
       "desc": "An item to be held by a Pokémon.\\nIt is a small, poisonous barb that ups\\nthe power of Poison-type moves.",
-      "location": "Route 8"
+      "location": "Route 8",
+      "wilds": [
+        "Beedrill",
+        "Tentacool",
+        "Tentacruel",
+        "Qwilfish",
+        "Roselia",
+        "Budew",
+        "Roserade",
+        "Vespiquen",
+        "Skorupi",
+        "Drapion",
+        "Venipede",
+        "Whirlipede",
+        "Scolipede"
+      ]
     },
     "nevermeltice": {
       "name": "NeverMeltIce",
       "desc": "An item to be held by a Pokémon.\\nIt is a piece of ice that repels heat\\nand boosts Ice-type moves.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Delibird",
+        "Snover",
+        "Abomasnow",
+        "Cryogonal"
+      ]
     },
     "spelltag": {
       "name": "Spell Tag",
       "desc": "An item to be held by a Pokémon.\\nIt is a sinister, eerie tag that boosts\\nthe power of Ghost-type moves.",
-      "location": "Celestial Tower"
+      "location": "Celestial Tower",
+      "wilds": [
+        "Shuppet",
+        "Banette",
+        "Yamask",
+        "Cofagrigus"
+      ]
     },
     "twistedspoon": {
       "name": "TwistedSpoon",
       "desc": "An item to be held by a Pokémon. It is\\na spoon imbued with telekinetic power\\nthat boosts Psychic-type moves.",
-      "location": "Dreamyard"
+      "location": "Dreamyard",
+      "wilds": [
+        "Abra",
+        "Kadabra",
+        "Alakazam"
+      ]
     },
     "charcoal": {
       "name": "Charcoal",
       "desc": "An item to be held by a Pokémon.\\nIt is a combustible fuel that boosts\\nthe power of Fire-type moves.",
-      "location": "Route 16"
+      "location": "Route 16",
+      "wilds": [
+        "Torchic"
+      ]
     },
     "dragonfang": {
       "name": "Dragon Fang",
       "desc": "An item to be held by a Pokémon.\\nIt is a hard and sharp fang that ups\\nthe power of Dragon-type moves.",
-      "location": "Dragonspiral Tower"
+      "location": "Dragonspiral Tower",
+      "wilds": [
+        "Bagon",
+        "Shelgon",
+        "Salamence",
+        "Druddigon"
+      ]
     },
     "silkscarf": {
       "name": "Silk Scarf",
@@ -110456,22 +114287,35 @@ overrides = {
     "luckypunch": {
       "name": "Lucky Punch",
       "desc": "An item to be held by Chansey. It is a\\npair of gloves that boosts Chansey's\\ncritical-hit ratio.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Chansey"
+      ]
     },
     "metalpowder": {
       "name": "Metal Powder",
       "desc": "An item to be held by Ditto.\\nExtremely fine yet hard, this odd\\npowder boosts the Defense stat.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Ditto"
+      ]
     },
     "thickclub": {
       "name": "Thick Club",
       "desc": "An item to be held by Cubone or\\nMarowak. It is a hard bone of some\\nsort that boosts the Attack stat.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Cubone",
+        "Marowak"
+      ]
     },
     "stick": {
       "name": "Stick",
       "desc": "An item to be held by Farfetch'd. It is\\na very long and stiff stalk of leek\\nthat boosts the critical-hit ratio.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Farfetch’d"
+      ]
     },
     "redscarf": {
       "name": "Red Scarf",
@@ -110501,7 +114345,11 @@ overrides = {
     "widelens": {
       "name": "Wide Lens",
       "desc": "An item to be held by a Pokémon.\\nIt is a magnifying lens that slightly\\nboosts the accuracy of moves.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Yanma",
+        "Yanmega"
+      ]
     },
     "muscleband": {
       "name": "Muscle Band",
@@ -110516,17 +114364,29 @@ overrides = {
     "expertbelt": {
       "name": "Expert Belt",
       "desc": "An item to be held by a Pokémon. It is\\na well-worn belt that slightly boosts\\nthe power of supereffective moves.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Throh",
+        "Sawk"
+      ]
     },
     "lightclay": {
       "name": "Light Clay",
       "desc": "A Pokémon held item that extends the\\nduration of barrier moves like Light\\nScreen and Reflect used by the holder.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Stantler",
+        "Golett",
+        "Golurk"
+      ]
     },
     "lifeorb": {
       "name": "Life Orb",
       "desc": "An item to be held by a Pokémon.\\nIt boosts the power of moves, but at\\nthe cost of some HP on each hit.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Scizor"
+      ]
     },
     "powerherb": {
       "name": "Power Herb",
@@ -110546,7 +114406,10 @@ overrides = {
     "quickpowder": {
       "name": "Quick Powder",
       "desc": "An item to be held by Ditto.\\nExtremely fine yet hard, this odd\\npowder boosts the Speed stat.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Ditto"
+      ]
     },
     "focussash": {
       "name": "Focus Sash",
@@ -110561,7 +114424,12 @@ overrides = {
     "metronome": {
       "name": "Metronome",
       "desc": "A Pokémon held item that boosts a move\\nused consecutively. Its effect is\\nreset if another move is used.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Kricketot",
+        "Kricketune",
+        "Chatot"
+      ]
     },
     "ironball": {
       "name": "Iron Ball",
@@ -110571,7 +114439,12 @@ overrides = {
     "laggingtail": {
       "name": "Lagging Tail",
       "desc": "An item to be held by a Pokémon.\\nIt is tremendously heavy and makes\\nthe holder move slower than usual.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Slowpoke",
+        "Lickitung",
+        "Lickilicky"
+      ]
     },
     "destinyknot": {
       "name": "Destiny Knot",
@@ -110581,7 +114454,14 @@ overrides = {
     "blacksludge": {
       "name": "Black Sludge",
       "desc": "A held item that gradually restores\\nthe HP of Poison-type Pokémon.\\nIt inflicts damage on all other types.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Grimer",
+        "Croagunk",
+        "Toxicroak",
+        "Trubbish",
+        "Garbodor"
+      ]
     },
     "icyrock": {
       "name": "Icy Rock",
@@ -110606,7 +114486,11 @@ overrides = {
     "gripclaw": {
       "name": "Grip Claw",
       "desc": "A Pokémon held item that extends the\\nduration of multiturn attacks like\\nBind and Wrap.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Sneasel",
+        "Weavile"
+      ]
     },
     "choicescarf": {
       "name": "Choice Scarf",
@@ -110616,7 +114500,13 @@ overrides = {
     "stickybarb": {
       "name": "Sticky Barb",
       "desc": "A held item that damages the holder on\\nevery turn. It may latch on to foes and\\nallies that touch the holder.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Cacnea",
+        "Cacturne",
+        "Ferroseed",
+        "Ferrothorn"
+      ]
     },
     "powerbracer": {
       "name": "Power Bracer",
@@ -110656,7 +114546,11 @@ overrides = {
     "bigroot": {
       "name": "Big Root",
       "desc": "A Pokémon held item that boosts the\\npower of HP-stealing moves to let the\\nholder recover more HP.",
-      "location": "Pinwheel Forest"
+      "location": "Pinwheel Forest",
+      "wilds": [
+        "Lileep",
+        "Cradily"
+      ]
     },
     "choicespecs": {
       "name": "Choice Specs",
@@ -110786,12 +114680,18 @@ overrides = {
     "electirizer": {
       "name": "Electirizer",
       "desc": "A box packed with a tremendous\\namount of electric energy.\\nIt is loved by a certain Pokémon.",
-      "location": "Route 13"
+      "location": "Route 13",
+      "wilds": [
+        "Electivire"
+      ]
     },
     "magmarizer": {
       "name": "Magmarizer",
       "desc": "A box packed with a tremendous\\namount of magma energy.\\nIt is loved by a certain Pokémon.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Magmortar"
+      ]
     },
     "dubiousdisc": {
       "name": "Dubious Disc",
@@ -111402,7 +115302,9 @@ overrides = {
       "name": "Super Rod",
       "desc": "An awesome, high-tech fishing rod.\\nUse it by any body of water to fish for\\nwild aquatic Pokémon.",
       "location": "",
-      "rewards": "Rewarded after beating PkMn Trainer Bianca"
+      "rewards": [
+        "PkMn Trainer Bianca"
+      ]
     },
     "sprayduck": {
       "name": "Sprayduck",
@@ -111857,7 +115759,11 @@ overrides = {
     "eviolite": {
       "name": "Eviolite",
       "desc": "A mysterious evolutionary lump. When\\nheld, it raises the Defense and Sp. Def\\nof a Pokémon that can still evolve.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Koffing",
+        "Munchlax"
+      ]
     },
     "floatstone": {
       "name": "Float Stone",
@@ -112067,12 +115973,21 @@ overrides = {
     "balmmushroom": {
       "name": "BalmMushroom",
       "desc": "A rare mushroom which gives off a nice\\nfragrance.\\nA maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "wilds": [
+        "Paras",
+        "Parasect",
+        "Foongus",
+        "Amoonguss"
+      ]
     },
     "bignugget": {
       "name": "Big Nugget",
       "desc": "A big nugget of pure gold that gives off\\na lustrous gleam.\\nA maniac will buy it for a high price.",
-      "location": "Undella Town"
+      "location": "Undella Town",
+      "wilds": [
+        "Garbodor"
+      ]
     },
     "pearlstring": {
       "name": "Pearl String",
@@ -112082,7 +115997,14 @@ overrides = {
     "cometshard": {
       "name": "Comet Shard",
       "desc": "A shard which fell to the ground when\\na comet approached.\\nA maniac will buy it for a high price.",
-      "location": "Giant Chasm"
+      "location": "Giant Chasm",
+      "wilds": [
+        "Clefairy",
+        "Clefable",
+        "Cleffa",
+        "Lunatone",
+        "Solrock"
+      ]
     },
     "reliccopper": {
       "name": "Relic Copper",

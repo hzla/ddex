@@ -116,7 +116,12 @@
 	float: left;
 	padding-left: 0;
 	margin: 0;
-	width: 175px;
+	width: 130px;
+}
+
+.dexentry dl.itementry {
+	width: 100%;
+	padding-left: 0px;
 }
 .dexentry dl.colentry {
 	float: left;
@@ -497,6 +502,7 @@ h1 a, h1 a.subtle {
 	cursor: pointer;
 	padding: 4px 10px 6px 10px;
 	top: 6px;
+	font-size: 18px;
 }
 
 .tabbar .button.cur, .tabbar .button.cur:hover {

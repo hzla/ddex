@@ -24,6 +24,9 @@ var PokedexResultPanel = Panels.Panel.extend({
 
 var PokedexItemPanel = PokedexResultPanel.extend({
   initialize: function (id) {
+    if (typeof overrides == "undefined") {
+      overrides = JSON.parse(localStorage.overrides)
+    }
     id = toID(id);
     var item = Dex.items.get(id);
     this.shortTitle = item.name;
@@ -42,11 +45,37 @@ var PokedexItemPanel = PokedexResultPanel.extend({
     buf += "<p>" + Dex.escapeHTML(item.desc || item.shortDesc) + "</p>";
 
     if (overrides.items[id] && overrides.items[id]["location"]) {
-       buf += "<p>Location(s): " + Dex.escapeHTML(overrides.items[id]["location"]) + "</p>";
+       buf += "<h3>Found on ground: </h3><p>" + Dex.escapeHTML(overrides.items[id]["location"]) + "</p>";
     }
 
     if (overrides.items[id] && overrides.items[id]["rewards"]) {
-       buf += "<p>Trainer Rewards: " + Dex.escapeHTML(overrides.items[id]["rewards"]) + "</p>";
+       buf += "<h3>Rewarded after defeating: </h3><p>" 
+
+       for (let trainer of overrides.items[id]["rewards"]) {
+         buf += Dex.escapeHTML(trainer)
+         buf += "<br>" 
+       }
+       buf += "</p>";
+    }
+
+    if (overrides.items[id] && overrides.items[id]["marts"]) {
+       buf += "<h3>Purchased from pokemart at:</h3><p>" 
+
+       for (let martLoc of overrides.items[id]["marts"]) {
+         buf += Dex.escapeHTML(martLoc)
+         buf += "<br>" 
+       }
+       buf += "</p>";
+    }
+
+    if (overrides.items[id] && overrides.items[id]["wilds"]) {
+       buf += "<h3>Held by wild pokemon</h3><p>" 
+
+       for (let pok of overrides.items[id]["wilds"]) {
+         buf += `<a href="/pokemon/${cleanString(pok)}">${Dex.escapeHTML(pok)}<a>`
+         buf += "<br>" 
+       }
+       buf += "</p>";
     }
     
     buf += "</div>";
