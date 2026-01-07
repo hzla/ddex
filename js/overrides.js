@@ -5,6 +5,7 @@ gameTitles = {
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
 	"blindingwhite2": "Blinding White 2"
 }
+unrecognizedPoks = {}
 
 truncatedSpeciesNames = {
 	"fletcinder": "fletchinder"
@@ -149,6 +150,8 @@ function overrideMonData(monOverrides) {
 				baseStats: {},
 			}
 			BattleLearnsets[speciesId] = {}
+			console.log(speciesId)
+			unrecognizedPoks[speciesId] = 1
 		}
 		BattlePokedex[speciesId].types = monData.types
 		BattlePokedex[speciesId].abilities[0] = monData.abs[0]

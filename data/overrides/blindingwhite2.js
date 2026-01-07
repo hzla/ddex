@@ -39,7 +39,7 @@ overrides = {
           ],
           [
             13,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             13,
@@ -67,7 +67,7 @@ overrides = {
           ],
           [
             31,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             33,
@@ -79,10 +79,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -175,7 +175,7 @@ overrides = {
           ],
           [
             13,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             13,
@@ -203,7 +203,7 @@ overrides = {
           ],
           [
             36,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             39,
@@ -215,10 +215,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -317,7 +317,7 @@ overrides = {
           ],
           [
             13,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             13,
@@ -349,7 +349,7 @@ overrides = {
           ],
           [
             39,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             45,
@@ -362,10 +362,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -489,9 +489,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Return",
@@ -500,7 +500,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Flame Charge",
@@ -618,9 +618,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Return",
@@ -629,7 +629,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Flame Charge",
@@ -779,9 +779,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -793,7 +793,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Flame Charge",
@@ -922,7 +922,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -934,12 +934,12 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Gyro Ball",
           "Swagger",
@@ -948,7 +948,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -1059,7 +1059,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -1071,12 +1071,12 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Gyro Ball",
           "Swagger",
@@ -1085,7 +1085,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -1134,7 +1134,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "-----"
+            "Flip Turn"
           ],
           [
             1,
@@ -1214,7 +1214,7 @@ overrides = {
           ],
           [
             58,
-            "Ice Burn"
+            "Frigid Eruption"
           ],
           [
             62,
@@ -1231,7 +1231,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -1246,13 +1246,13 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Giga Impact",
           "Gyro Ball",
@@ -1266,7 +1266,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -1326,7 +1326,7 @@ overrides = {
           ],
           [
             9,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             11,
@@ -1469,15 +1469,15 @@ overrides = {
         "learnset": [
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             10,
-            "Confusion"
+            "Mitosis"
           ],
           [
             12,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             12,
@@ -1493,7 +1493,7 @@ overrides = {
           ],
           [
             35,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             37,
@@ -1529,7 +1529,7 @@ overrides = {
           ],
           [
             49,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             51,
@@ -1537,7 +1537,7 @@ overrides = {
           ],
           [
             54,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             57,
@@ -1557,15 +1557,15 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -1580,10 +1580,10 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Dream Eater",
           "Swagger",
@@ -1650,7 +1650,7 @@ overrides = {
           ],
           [
             8,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             10,
@@ -1716,7 +1716,7 @@ overrides = {
           ],
           [
             20,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             22,
@@ -1732,7 +1732,7 @@ overrides = {
           ],
           [
             28,
-            "Toxic"
+            "Poison Dart"
           ]
         ],
         "tms": [],
@@ -1777,7 +1777,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             1,
@@ -1785,7 +1785,7 @@ overrides = {
           ],
           [
             1,
-            "Attack Order"
+            "Horde Swarm"
           ],
           [
             1,
@@ -1817,7 +1817,7 @@ overrides = {
           ],
           [
             30,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             33,
@@ -1841,7 +1841,7 @@ overrides = {
           ],
           [
             49,
-            "Acid Spray"
+            "Belch"
           ],
           [
             52,
@@ -1853,19 +1853,19 @@ overrides = {
           ],
           [
             60,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             63,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             66,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             68,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             71,
@@ -1873,10 +1873,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -1891,13 +1891,13 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
-          "Move $681",
+          "Mercy Slice",
+          "Mayday",
           "Payback",
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -2024,9 +2024,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -2038,7 +2038,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -2091,7 +2091,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -2099,7 +2099,7 @@ overrides = {
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
@@ -2119,7 +2119,7 @@ overrides = {
           ],
           [
             24,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             27,
@@ -2155,9 +2155,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -2169,7 +2169,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -2232,7 +2232,7 @@ overrides = {
           ],
           [
             1,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             1,
@@ -2244,7 +2244,7 @@ overrides = {
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
@@ -2276,7 +2276,7 @@ overrides = {
           ],
           [
             40,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             44,
@@ -2288,7 +2288,7 @@ overrides = {
           ],
           [
             52,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             55,
@@ -2312,9 +2312,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -2328,7 +2328,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Giga Impact",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -2417,7 +2417,7 @@ overrides = {
           ],
           [
             28,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             31,
@@ -2429,9 +2429,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -2452,7 +2452,7 @@ overrides = {
           "Charge Beam",
           "Retaliate",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Pluck",
@@ -2560,7 +2560,7 @@ overrides = {
           ],
           [
             31,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             35,
@@ -2576,11 +2576,11 @@ overrides = {
           ],
           [
             44,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             47,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             51,
@@ -2596,7 +2596,7 @@ overrides = {
           ],
           [
             60,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             64,
@@ -2605,9 +2605,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -2631,7 +2631,7 @@ overrides = {
           "Giga Impact",
           "Thunder Wave",
           "Swords Dance",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Pluck",
@@ -2699,7 +2699,7 @@ overrides = {
           ],
           [
             9,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             13,
@@ -2731,9 +2731,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -2746,8 +2746,8 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "False Swipe",
-          "Cross Chop",
+          "Mercy Slice",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -2814,7 +2814,7 @@ overrides = {
           ],
           [
             1,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             5,
@@ -2822,7 +2822,7 @@ overrides = {
           ],
           [
             9,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             13,
@@ -2858,9 +2858,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -2874,9 +2874,9 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "False Swipe",
+          "Mercy Slice",
           "Giga Impact",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -2949,7 +2949,7 @@ overrides = {
           ],
           [
             20,
-            "Acid"
+            "Acid Spray"
           ],
           [
             25,
@@ -2965,7 +2965,7 @@ overrides = {
           ],
           [
             28,
-            "Acid Spray"
+            "Belch"
           ],
           [
             33,
@@ -2989,10 +2989,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -3002,7 +3002,7 @@ overrides = {
           "Double Team",
           "Sludge Wave",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -3108,7 +3108,7 @@ overrides = {
           ],
           [
             20,
-            "Acid"
+            "Acid Spray"
           ],
           [
             22,
@@ -3128,7 +3128,7 @@ overrides = {
           ],
           [
             32,
-            "Acid Spray"
+            "Belch"
           ],
           [
             39,
@@ -3152,10 +3152,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -3166,7 +3166,7 @@ overrides = {
           "Double Team",
           "Sludge Wave",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -3242,7 +3242,7 @@ overrides = {
           ],
           [
             10,
-            "Searing Shot"
+            "Dopey Eyes"
           ],
           [
             12,
@@ -3250,7 +3250,7 @@ overrides = {
           ],
           [
             14,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             16,
@@ -3258,7 +3258,7 @@ overrides = {
           ],
           [
             18,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             21,
@@ -3294,7 +3294,7 @@ overrides = {
           ],
           [
             43,
-            "Roar of Time"
+            "Serene Bliss"
           ],
           [
             46,
@@ -3302,7 +3302,7 @@ overrides = {
           ],
           [
             49,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             52,
@@ -3326,7 +3326,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -3416,7 +3416,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
@@ -3498,7 +3498,7 @@ overrides = {
           ],
           [
             3,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             5,
@@ -3559,9 +3559,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Safeguard",
           "Frustration",
@@ -3571,7 +3571,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -3644,7 +3644,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -3652,7 +3652,7 @@ overrides = {
           ],
           [
             3,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             5,
@@ -3712,7 +3712,7 @@ overrides = {
           ],
           [
             41,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             44,
@@ -3733,9 +3733,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -3746,7 +3746,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -3865,10 +3865,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -3987,10 +3987,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -4094,10 +4094,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -4119,7 +4119,7 @@ overrides = {
           "Sludge Bomb",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -4216,7 +4216,7 @@ overrides = {
           ],
           [
             19,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             21,
@@ -4244,15 +4244,15 @@ overrides = {
           ],
           [
             45,
-            "Horn Drill"
+            "Boomburst"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -4339,7 +4339,7 @@ overrides = {
           ],
           [
             20,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             23,
@@ -4367,15 +4367,15 @@ overrides = {
           ],
           [
             58,
-            "Horn Drill"
+            "Boomburst"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -4465,7 +4465,7 @@ overrides = {
           ],
           [
             35,
-            "Thrash"
+            "Rampage"
           ],
           [
             43,
@@ -4479,10 +4479,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -4504,7 +4504,7 @@ overrides = {
           "Sludge Bomb",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -4597,7 +4597,7 @@ overrides = {
           ],
           [
             10,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             13,
@@ -4667,15 +4667,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -4702,7 +4702,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -4778,7 +4778,7 @@ overrides = {
           ],
           [
             1,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             1,
@@ -4790,7 +4790,7 @@ overrides = {
           ],
           [
             1,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             1,
@@ -4806,7 +4806,7 @@ overrides = {
           ],
           [
             1,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             1,
@@ -4816,16 +4816,16 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -4854,7 +4854,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -4987,7 +4987,7 @@ overrides = {
           ],
           [
             44,
-            "Grudge"
+            "Scale Shot"
           ],
           [
             47,
@@ -5000,9 +5000,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Safeguard",
           "Frustration",
@@ -5116,16 +5116,16 @@ overrides = {
           ],
           [
             1,
-            "Bonemerang"
+            "Fluffy Coat"
           ]
         ],
         "tms": [
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -5214,7 +5214,7 @@ overrides = {
           ],
           [
             16,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             18,
@@ -5222,7 +5222,7 @@ overrides = {
           ],
           [
             21,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             24,
@@ -5250,7 +5250,7 @@ overrides = {
           ],
           [
             40,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             44,
@@ -5258,9 +5258,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Light Screen",
@@ -5293,7 +5293,7 @@ overrides = {
           "Thunder Wave",
           "Gyro Ball",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -5373,7 +5373,7 @@ overrides = {
           ],
           [
             1,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             1,
@@ -5393,29 +5393,29 @@ overrides = {
           ],
           [
             1,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             1,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             1,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             1,
-            "Soak"
+            "Dragon Hug"
           ],
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -5451,7 +5451,7 @@ overrides = {
           "Thunder Wave",
           "Gyro Ball",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -5569,10 +5569,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -5588,7 +5588,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Swagger",
           "Pluck",
@@ -5706,10 +5706,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -5726,7 +5726,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Giga Impact",
           "Swagger",
@@ -5791,11 +5791,11 @@ overrides = {
           ],
           [
             9,
-            "Acid"
+            "Acid Spray"
           ],
           [
             13,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             15,
@@ -5831,10 +5831,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -5905,7 +5905,7 @@ overrides = {
           ],
           [
             1,
-            "Acid"
+            "Acid Spray"
           ],
           [
             5,
@@ -5913,11 +5913,11 @@ overrides = {
           ],
           [
             9,
-            "Acid"
+            "Acid Spray"
           ],
           [
             13,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             15,
@@ -5953,10 +5953,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -6036,7 +6036,7 @@ overrides = {
           ],
           [
             1,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             53,
@@ -6048,10 +6048,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -6125,7 +6125,7 @@ overrides = {
           ],
           [
             6,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             11,
@@ -6166,10 +6166,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Frustration",
@@ -6186,10 +6186,10 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Grass Knot",
           "Swagger",
@@ -6250,7 +6250,7 @@ overrides = {
           ],
           [
             1,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             1,
@@ -6258,7 +6258,7 @@ overrides = {
           ],
           [
             1,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             1,
@@ -6331,10 +6331,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -6352,12 +6352,12 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "False Swipe",
-          "Psycho Shift",
+          "Mercy Slice",
+          "Infernal Parade",
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Grass Knot",
           "Swagger",
@@ -6427,11 +6427,11 @@ overrides = {
           ],
           [
             11,
-            "Confusion"
+            "Mitosis"
           ],
           [
             13,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             17,
@@ -6467,10 +6467,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -6484,7 +6484,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Swagger",
           "Substitute"
         ],
@@ -6555,11 +6555,11 @@ overrides = {
           ],
           [
             11,
-            "Confusion"
+            "Mitosis"
           ],
           [
             13,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             17,
@@ -6607,10 +6607,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -6626,10 +6626,10 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Swagger",
           "U-turn",
           "Substitute"
@@ -6681,7 +6681,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             4,
@@ -6734,9 +6734,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Earthquake",
@@ -6745,7 +6745,7 @@ overrides = {
           "Double Team",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -6813,7 +6813,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -6874,9 +6874,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -6887,7 +6887,7 @@ overrides = {
           "Sludge Wave",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -6976,7 +6976,7 @@ overrides = {
           ],
           [
             30,
-            "Pay Day"
+            "Make It Rain"
           ],
           [
             33,
@@ -7005,9 +7005,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -7031,7 +7031,7 @@ overrides = {
           "Retaliate",
           "Flash",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "U-turn",
@@ -7166,9 +7166,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -7188,14 +7188,14 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
           "Giga Impact",
           "Flash",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "U-turn",
@@ -7271,7 +7271,7 @@ overrides = {
           ],
           [
             12,
-            "Confusion"
+            "Mitosis"
           ],
           [
             15,
@@ -7314,7 +7314,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -7322,7 +7322,7 @@ overrides = {
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Dig",
@@ -7334,7 +7334,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Shadow Claw",
           "Flash",
@@ -7345,7 +7345,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -7426,7 +7426,7 @@ overrides = {
           ],
           [
             15,
-            "Confusion"
+            "Mitosis"
           ],
           [
             18,
@@ -7466,7 +7466,7 @@ overrides = {
           ],
           [
             47,
-            "Acid"
+            "Acid Spray"
           ],
           [
             51,
@@ -7486,14 +7486,14 @@ overrides = {
           ],
           [
             66,
-            "Hydro Cannon"
+            "Wave Maelstrom"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -7502,7 +7502,7 @@ overrides = {
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Dig",
@@ -7516,7 +7516,7 @@ overrides = {
           "Low Sweep",
           "Round",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Shadow Claw",
           "Giga Impact",
@@ -7528,7 +7528,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -7600,7 +7600,7 @@ overrides = {
           ],
           [
             13,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             17,
@@ -7620,11 +7620,11 @@ overrides = {
           ],
           [
             37,
-            "Cross Chop"
+            "Tidy Up"
           ],
           [
             41,
-            "Thrash"
+            "Rampage"
           ],
           [
             45,
@@ -7641,10 +7641,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -7657,7 +7657,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -7668,12 +7668,12 @@ overrides = {
           "Overheat",
           "Focus Blast",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Retaliate",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "U-turn",
@@ -7756,7 +7756,7 @@ overrides = {
           ],
           [
             13,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             17,
@@ -7780,11 +7780,11 @@ overrides = {
           ],
           [
             41,
-            "Cross Chop"
+            "Tidy Up"
           ],
           [
             47,
-            "Thrash"
+            "Rampage"
           ],
           [
             53,
@@ -7801,10 +7801,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -7818,7 +7818,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -7829,14 +7829,14 @@ overrides = {
           "Overheat",
           "Focus Blast",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Retaliate",
           "Giga Impact",
           "Stone Edge",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "U-turn",
@@ -7967,9 +7967,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Safeguard",
           "Frustration",
@@ -8063,7 +8063,7 @@ overrides = {
           ],
           [
             1,
-            "Thrash"
+            "Rampage"
           ],
           [
             1,
@@ -8071,7 +8071,7 @@ overrides = {
           ],
           [
             1,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             34,
@@ -8080,9 +8080,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -8172,7 +8172,7 @@ overrides = {
           ],
           [
             15,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             18,
@@ -8208,7 +8208,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -8225,12 +8225,12 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Icy Wind",
@@ -8296,7 +8296,7 @@ overrides = {
           ],
           [
             15,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             18,
@@ -8332,7 +8332,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -8351,7 +8351,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Rollout",
           "Swagger",
@@ -8360,7 +8360,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Ice Punch",
@@ -8407,7 +8407,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             1,
@@ -8427,7 +8427,7 @@ overrides = {
           ],
           [
             1,
-            "Submission"
+            "Play Rough"
           ],
           [
             1,
@@ -8439,7 +8439,7 @@ overrides = {
           ],
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             1,
@@ -8447,7 +8447,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Flip Turn"
           ],
           [
             1,
@@ -8467,7 +8467,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Bulk Up",
           "Hidden Power",
@@ -8483,7 +8483,7 @@ overrides = {
           "Psychic",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -8491,13 +8491,13 @@ overrides = {
           "Low Sweep",
           "Round",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Payback",
           "Giga Impact",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -8505,7 +8505,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Ice Punch",
@@ -8551,7 +8551,7 @@ overrides = {
           ],
           [
             1,
-            "Beat Up"
+            "Vampiric Fangs"
           ],
           [
             1,
@@ -8567,52 +8567,52 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Piercing Freeze"
           ],
           [
             1,
-            "-----"
+            "Bone Chill"
           ],
           [
             1,
-            "-----"
+            "Solar Blade"
           ],
           [
             1,
-            "-----"
+            "Sun Flare"
           ],
           [
             1,
-            "-----"
+            "Ceaseless Edge"
           ],
           [
             1,
-            "-----"
+            "Stone Axe"
           ],
           [
             1,
-            "-----"
+            "Treasure Hoard"
           ],
           [
             1,
-            "-----"
+            "Strangle"
           ],
           [
             1,
-            "-----"
+            "Amplification"
           ]
         ],
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -8630,7 +8630,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Psycho Shift",
+          "Infernal Parade",
           "Flash",
           "Thunder Wave",
           "Psych Up",
@@ -8703,11 +8703,11 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             16,
-            "Confusion"
+            "Mitosis"
           ],
           [
             18,
@@ -8731,7 +8731,7 @@ overrides = {
           ],
           [
             34,
-            "Telekinesis"
+            "Mind Numb"
           ],
           [
             36,
@@ -8739,7 +8739,7 @@ overrides = {
           ],
           [
             40,
-            "Psycho Cut"
+            "Sparkling Aria"
           ],
           [
             42,
@@ -8761,14 +8761,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -8786,7 +8786,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Psycho Shift",
+          "Infernal Parade",
           "Flash",
           "Thunder Wave",
           "Psych Up",
@@ -8861,11 +8861,11 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             16,
-            "Confusion"
+            "Mitosis"
           ],
           [
             18,
@@ -8889,7 +8889,7 @@ overrides = {
           ],
           [
             34,
-            "Telekinesis"
+            "Mind Numb"
           ],
           [
             36,
@@ -8897,7 +8897,7 @@ overrides = {
           ],
           [
             40,
-            "Psycho Cut"
+            "Sparkling Aria"
           ],
           [
             42,
@@ -8919,15 +8919,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -8946,7 +8946,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Psycho Shift",
+          "Infernal Parade",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -9022,7 +9022,7 @@ overrides = {
           ],
           [
             10,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             13,
@@ -9046,7 +9046,7 @@ overrides = {
           ],
           [
             34,
-            "Submission"
+            "Play Rough"
           ],
           [
             37,
@@ -9054,7 +9054,7 @@ overrides = {
           ],
           [
             43,
-            "Cross Chop"
+            "Tidy Up"
           ],
           [
             46,
@@ -9066,10 +9066,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
@@ -9082,7 +9082,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -9096,7 +9096,7 @@ overrides = {
           "Retaliate",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -9161,7 +9161,7 @@ overrides = {
           ],
           [
             1,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             7,
@@ -9169,7 +9169,7 @@ overrides = {
           ],
           [
             10,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             13,
@@ -9193,7 +9193,7 @@ overrides = {
           ],
           [
             36,
-            "Submission"
+            "Play Rough"
           ],
           [
             40,
@@ -9201,7 +9201,7 @@ overrides = {
           ],
           [
             44,
-            "Cross Chop"
+            "Tidy Up"
           ],
           [
             51,
@@ -9213,10 +9213,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
@@ -9229,7 +9229,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -9243,7 +9243,7 @@ overrides = {
           "Retaliate",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -9314,7 +9314,7 @@ overrides = {
           ],
           [
             1,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             7,
@@ -9322,7 +9322,7 @@ overrides = {
           ],
           [
             10,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             13,
@@ -9346,7 +9346,7 @@ overrides = {
           ],
           [
             36,
-            "Submission"
+            "Play Rough"
           ],
           [
             40,
@@ -9354,7 +9354,7 @@ overrides = {
           ],
           [
             44,
-            "Cross Chop"
+            "Tidy Up"
           ],
           [
             51,
@@ -9366,10 +9366,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -9383,7 +9383,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -9399,7 +9399,7 @@ overrides = {
           "Stone Edge",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -9519,10 +9519,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -9613,7 +9613,7 @@ overrides = {
           ],
           [
             15,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             17,
@@ -9633,7 +9633,7 @@ overrides = {
           ],
           [
             30,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             33,
@@ -9649,10 +9649,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -9742,7 +9742,7 @@ overrides = {
           ],
           [
             1,
-            "Soft-Boiled"
+            "Flower Bloom"
           ],
           [
             1,
@@ -9762,15 +9762,15 @@ overrides = {
           ],
           [
             1,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             40,
-            "Chatter"
+            "Spirit Shackle"
           ],
           [
             44,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             47,
@@ -9778,7 +9778,7 @@ overrides = {
           ],
           [
             51,
-            "Acid Spray"
+            "Belch"
           ],
           [
             54,
@@ -9810,14 +9810,14 @@ overrides = {
           ],
           [
             78,
-            "Twineedle"
+            "1st Impression"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -9841,7 +9841,7 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Calm Mind",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bug Bite",
@@ -9896,11 +9896,11 @@ overrides = {
           ],
           [
             8,
-            "Constrict"
+            "Infestation"
           ],
           [
             12,
-            "Acid"
+            "Acid Spray"
           ],
           [
             15,
@@ -9916,7 +9916,7 @@ overrides = {
           ],
           [
             26,
-            "Acid Spray"
+            "Belch"
           ],
           [
             29,
@@ -9952,9 +9952,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
-          "Move $682",
+          "Noxious Shift",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -9971,7 +9971,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Payback",
           "Swords Dance",
           "Poison Jab",
@@ -9980,7 +9980,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Magic Coat",
@@ -10033,7 +10033,7 @@ overrides = {
           ],
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             5,
@@ -10041,11 +10041,11 @@ overrides = {
           ],
           [
             8,
-            "Constrict"
+            "Infestation"
           ],
           [
             12,
-            "Acid"
+            "Acid Spray"
           ],
           [
             15,
@@ -10061,7 +10061,7 @@ overrides = {
           ],
           [
             26,
-            "Acid Spray"
+            "Belch"
           ],
           [
             29,
@@ -10097,9 +10097,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
-          "Move $682",
+          "Noxious Shift",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -10117,7 +10117,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Payback",
           "Giga Impact",
           "Swords Dance",
@@ -10127,7 +10127,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Magic Coat",
@@ -10207,7 +10207,7 @@ overrides = {
           ],
           [
             29,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             32,
@@ -10235,9 +10235,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Smack Down",
@@ -10249,7 +10249,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -10356,7 +10356,7 @@ overrides = {
           ],
           [
             31,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             36,
@@ -10384,9 +10384,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Smack Down",
@@ -10398,7 +10398,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -10507,7 +10507,7 @@ overrides = {
           ],
           [
             31,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             36,
@@ -10540,9 +10540,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -10555,7 +10555,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -10674,9 +10674,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -10799,7 +10799,7 @@ overrides = {
           ],
           [
             40,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             41,
@@ -10815,9 +10815,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -10904,7 +10904,7 @@ overrides = {
           ],
           [
             14,
-            "Confusion"
+            "Mitosis"
           ],
           [
             19,
@@ -10950,16 +10950,16 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Earthquake",
@@ -10975,7 +10975,7 @@ overrides = {
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Incinerate",
           "Flash",
           "Thunder Wave",
@@ -10988,7 +10988,7 @@ overrides = {
           "Trick Room",
           "Psyshock",
           "Calm Mind",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -11065,7 +11065,7 @@ overrides = {
           ],
           [
             14,
-            "Confusion"
+            "Mitosis"
           ],
           [
             19,
@@ -11115,17 +11115,17 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Earthquake",
@@ -11144,7 +11144,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Incinerate",
           "Giga Impact",
@@ -11160,7 +11160,7 @@ overrides = {
           "Rock Smash",
           "Psyshock",
           "Calm Mind",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -11291,9 +11291,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
@@ -11451,9 +11451,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -11527,7 +11527,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -11547,7 +11547,7 @@ overrides = {
           ],
           [
             7,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             9,
@@ -11571,7 +11571,7 @@ overrides = {
           ],
           [
             31,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             33,
@@ -11599,9 +11599,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Return",
@@ -11612,12 +11612,12 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
-          "Move $681",
+          "Mercy Slice",
+          "Mayday",
           "Retaliate",
           "Swords Dance",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Pluck",
@@ -11687,7 +11687,7 @@ overrides = {
           ],
           [
             14,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             19,
@@ -11703,7 +11703,7 @@ overrides = {
           ],
           [
             32,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             37,
@@ -11719,13 +11719,13 @@ overrides = {
           ],
           [
             50,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Return",
@@ -11737,7 +11737,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "Substitute",
@@ -11813,7 +11813,7 @@ overrides = {
           ],
           [
             14,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             19,
@@ -11845,13 +11845,13 @@ overrides = {
           ],
           [
             60,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -11868,7 +11868,7 @@ overrides = {
           "Echoed Voice",
           "Payback",
           "Giga Impact",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "Substitute",
@@ -11924,7 +11924,7 @@ overrides = {
           ],
           [
             5,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             7,
@@ -11988,7 +11988,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -12010,7 +12010,7 @@ overrides = {
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -12067,7 +12067,7 @@ overrides = {
           ],
           [
             1,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             1,
@@ -12111,7 +12111,7 @@ overrides = {
           ],
           [
             34,
-            "Waterfall"
+            "Liquidation"
           ],
           [
             37,
@@ -12143,7 +12143,7 @@ overrides = {
           ],
           [
             57,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             61,
@@ -12151,7 +12151,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -12176,7 +12176,7 @@ overrides = {
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -12267,10 +12267,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -12285,7 +12285,7 @@ overrides = {
           "Flamethrower",
           "Sludge Bomb",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -12377,7 +12377,7 @@ overrides = {
           ],
           [
             15,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             18,
@@ -12389,7 +12389,7 @@ overrides = {
           ],
           [
             28,
-            "-----"
+            "Noxious Shift"
           ],
           [
             31,
@@ -12409,7 +12409,7 @@ overrides = {
           ],
           [
             43,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             49,
@@ -12421,10 +12421,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -12441,7 +12441,7 @@ overrides = {
           "Flamethrower",
           "Sludge Bomb",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -12569,7 +12569,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -12588,7 +12588,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Psyshock",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Iron Defense",
@@ -12650,7 +12650,7 @@ overrides = {
           ],
           [
             13,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             28,
@@ -12662,7 +12662,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -12686,7 +12686,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Psyshock",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -12748,7 +12748,7 @@ overrides = {
           ],
           [
             13,
-            "Acid"
+            "Acid Spray"
           ],
           [
             16,
@@ -12788,14 +12788,14 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Return",
@@ -12811,7 +12811,7 @@ overrides = {
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Explosion",
           "Payback",
           "Psych Up",
@@ -12921,7 +12921,7 @@ overrides = {
           ],
           [
             31,
-            "Acid Spray"
+            "Belch"
           ],
           [
             33,
@@ -12945,14 +12945,14 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Return",
@@ -12969,7 +12969,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -13059,7 +13059,7 @@ overrides = {
           ],
           [
             45,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             48,
@@ -13067,11 +13067,11 @@ overrides = {
           ],
           [
             51,
-            "-----"
+            "Bone Chill"
           ],
           [
             54,
-            "Acid Spray"
+            "Belch"
           ],
           [
             57,
@@ -13091,15 +13091,15 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -13119,7 +13119,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -13215,7 +13215,7 @@ overrides = {
           ],
           [
             13,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             16,
@@ -13272,9 +13272,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -13284,7 +13284,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -13361,7 +13361,7 @@ overrides = {
           ],
           [
             9,
-            "Confusion"
+            "Mitosis"
           ],
           [
             13,
@@ -13389,7 +13389,7 @@ overrides = {
           ],
           [
             37,
-            "Synchronoise"
+            "Mindwave"
           ],
           [
             41,
@@ -13419,14 +13419,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -13523,7 +13523,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             5,
@@ -13531,7 +13531,7 @@ overrides = {
           ],
           [
             9,
-            "Confusion"
+            "Mitosis"
           ],
           [
             13,
@@ -13559,7 +13559,7 @@ overrides = {
           ],
           [
             37,
-            "Synchronoise"
+            "Mindwave"
           ],
           [
             41,
@@ -13589,15 +13589,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -13683,7 +13683,7 @@ overrides = {
           ],
           [
             5,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             9,
@@ -13736,7 +13736,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -13748,14 +13748,14 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Fling",
           "Swords Dance",
           "Rock Slide",
@@ -13766,7 +13766,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Calm Mind",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Iron Defense",
@@ -13821,7 +13821,7 @@ overrides = {
           ],
           [
             1,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             1,
@@ -13829,7 +13829,7 @@ overrides = {
           ],
           [
             5,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             9,
@@ -13882,7 +13882,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -13895,14 +13895,14 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Fling",
           "Quash",
           "Giga Impact",
@@ -13915,7 +13915,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Calm Mind",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Iron Defense",
@@ -13993,7 +13993,7 @@ overrides = {
           ],
           [
             33,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             36,
@@ -14017,7 +14017,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Light Screen",
@@ -14132,7 +14132,7 @@ overrides = {
           ],
           [
             35,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             40,
@@ -14156,7 +14156,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
@@ -14225,7 +14225,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Barrage"
+            "No Retreat"
           ],
           [
             1,
@@ -14253,7 +14253,7 @@ overrides = {
           ],
           [
             21,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             23,
@@ -14261,11 +14261,11 @@ overrides = {
           ],
           [
             27,
-            "Confusion"
+            "Mitosis"
           ],
           [
             33,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             37,
@@ -14281,16 +14281,16 @@ overrides = {
           ],
           [
             53,
-            "Bestow"
+            "Adrenaline Shot"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Solar Beam",
           "Return",
@@ -14365,7 +14365,7 @@ overrides = {
           ],
           [
             1,
-            "Barrage"
+            "No Retreat"
           ],
           [
             1,
@@ -14373,7 +14373,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -14385,7 +14385,7 @@ overrides = {
           ],
           [
             27,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             37,
@@ -14398,13 +14398,13 @@ overrides = {
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Solar Beam",
           "Return",
@@ -14483,7 +14483,7 @@ overrides = {
           ],
           [
             7,
-            "Bone Club"
+            "Raging Rapids"
           ],
           [
             11,
@@ -14499,7 +14499,7 @@ overrides = {
           ],
           [
             21,
-            "Bonemerang"
+            "Fluffy Coat"
           ],
           [
             23,
@@ -14507,11 +14507,11 @@ overrides = {
           ],
           [
             27,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             31,
-            "Thrash"
+            "Rampage"
           ],
           [
             33,
@@ -14535,9 +14535,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -14551,7 +14551,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -14559,7 +14559,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Incinerate",
           "Retaliate",
@@ -14628,7 +14628,7 @@ overrides = {
           ],
           [
             1,
-            "Bone Club"
+            "Raging Rapids"
           ],
           [
             1,
@@ -14640,7 +14640,7 @@ overrides = {
           ],
           [
             7,
-            "Bone Club"
+            "Raging Rapids"
           ],
           [
             11,
@@ -14656,7 +14656,7 @@ overrides = {
           ],
           [
             21,
-            "Bonemerang"
+            "Fluffy Coat"
           ],
           [
             23,
@@ -14664,11 +14664,11 @@ overrides = {
           ],
           [
             27,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             33,
-            "Thrash"
+            "Rampage"
           ],
           [
             37,
@@ -14692,9 +14692,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -14709,7 +14709,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -14718,7 +14718,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Incinerate",
           "Retaliate",
@@ -14793,7 +14793,7 @@ overrides = {
           ],
           [
             9,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             13,
@@ -14837,7 +14837,7 @@ overrides = {
           ],
           [
             53,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             57,
@@ -14849,10 +14849,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -14860,7 +14860,7 @@ overrides = {
           "Return",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -14873,7 +14873,7 @@ overrides = {
           "Stone Edge",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -14927,7 +14927,7 @@ overrides = {
           ],
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             6,
@@ -14975,7 +14975,7 @@ overrides = {
           ],
           [
             46,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             51,
@@ -14995,10 +14995,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -15006,7 +15006,7 @@ overrides = {
           "Return",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -15019,7 +15019,7 @@ overrides = {
           "Stone Edge",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -15134,9 +15134,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -15155,7 +15155,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -15170,7 +15170,7 @@ overrides = {
           "Rollout",
           "Rock Slide",
           "Draco Meteor",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "Substitute",
@@ -15241,7 +15241,7 @@ overrides = {
           ],
           [
             9,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             11,
@@ -15261,7 +15261,7 @@ overrides = {
           ],
           [
             21,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             24,
@@ -15289,10 +15289,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -15394,11 +15394,11 @@ overrides = {
           ],
           [
             18,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             23,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             26,
@@ -15406,7 +15406,7 @@ overrides = {
           ],
           [
             30,
-            "-----"
+            "Noxious Shift"
           ],
           [
             33,
@@ -15418,15 +15418,15 @@ overrides = {
           ],
           [
             38,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             41,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             43,
-            "Acid Spray"
+            "Belch"
           ],
           [
             45,
@@ -15450,14 +15450,14 @@ overrides = {
           ],
           [
             59,
-            "-----"
+            "Parting Shot"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -15540,7 +15540,7 @@ overrides = {
           ],
           [
             12,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             19,
@@ -15576,7 +15576,7 @@ overrides = {
           ],
           [
             63,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             67,
@@ -15585,9 +15585,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -15602,7 +15602,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -15682,7 +15682,7 @@ overrides = {
           ],
           [
             1,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             9,
@@ -15690,7 +15690,7 @@ overrides = {
           ],
           [
             12,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             19,
@@ -15730,7 +15730,7 @@ overrides = {
           ],
           [
             71,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             77,
@@ -15739,9 +15739,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -15759,7 +15759,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -15860,15 +15860,15 @@ overrides = {
           ],
           [
             12,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             16,
-            "Soft-Boiled"
+            "Flower Bloom"
           ],
           [
             20,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             23,
@@ -15892,7 +15892,7 @@ overrides = {
           ],
           [
             42,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             46,
@@ -15909,10 +15909,10 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -15933,7 +15933,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -15949,7 +15949,7 @@ overrides = {
           "Psych Up",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -16020,7 +16020,7 @@ overrides = {
           ],
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             4,
@@ -16036,7 +16036,7 @@ overrides = {
           ],
           [
             14,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             17,
@@ -16088,9 +16088,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -16160,7 +16160,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             1,
@@ -16180,7 +16180,7 @@ overrides = {
           ],
           [
             19,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             22,
@@ -16188,7 +16188,7 @@ overrides = {
           ],
           [
             25,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             31,
@@ -16221,10 +16221,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -16244,7 +16244,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -16259,7 +16259,7 @@ overrides = {
           "Giga Impact",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -16363,7 +16363,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -16377,13 +16377,13 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Substitute",
           "Flash Cannon",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -16487,7 +16487,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -16502,14 +16502,14 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Swagger",
           "Substitute",
           "Flash Cannon",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -16587,15 +16587,15 @@ overrides = {
           ],
           [
             31,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             37,
-            "Waterfall"
+            "Liquidation"
           ],
           [
             41,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             47,
@@ -16603,7 +16603,7 @@ overrides = {
           ],
           [
             51,
-            "Soak"
+            "Dragon Hug"
           ],
           [
             57,
@@ -16611,7 +16611,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -16625,13 +16625,13 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Poison Jab",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -16716,15 +16716,15 @@ overrides = {
           ],
           [
             31,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             40,
-            "Waterfall"
+            "Liquidation"
           ],
           [
             47,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             56,
@@ -16732,7 +16732,7 @@ overrides = {
           ],
           [
             63,
-            "Soak"
+            "Dragon Hug"
           ],
           [
             72,
@@ -16740,7 +16740,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -16755,14 +16755,14 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Poison Jab",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -16870,7 +16870,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -16888,7 +16888,7 @@ overrides = {
           "Facade",
           "Rest",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Flash",
           "Thunder Wave",
           "Gyro Ball",
@@ -16898,7 +16898,7 @@ overrides = {
           "Flash Cannon",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -16968,7 +16968,7 @@ overrides = {
           ],
           [
             40,
-            "Scald"
+            "Wave Crash"
           ],
           [
             43,
@@ -16984,12 +16984,12 @@ overrides = {
           ],
           [
             56,
-            "Karate Chop"
+            "Torch Song"
           ]
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -16998,7 +16998,7 @@ overrides = {
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -17009,7 +17009,7 @@ overrides = {
           "Facade",
           "Rest",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -17023,7 +17023,7 @@ overrides = {
           "Trick Room",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -17095,7 +17095,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             4,
@@ -17107,7 +17107,7 @@ overrides = {
           ],
           [
             11,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             15,
@@ -17165,15 +17165,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -17311,7 +17311,7 @@ overrides = {
           ],
           [
             33,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             37,
@@ -17327,7 +17327,7 @@ overrides = {
           ],
           [
             49,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             53,
@@ -17343,9 +17343,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -17361,10 +17361,10 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Giga Impact",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -17426,7 +17426,7 @@ overrides = {
           ],
           [
             1,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             1,
@@ -17438,11 +17438,11 @@ overrides = {
           ],
           [
             5,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             8,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             15,
@@ -17474,7 +17474,7 @@ overrides = {
           ],
           [
             44,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             49,
@@ -17482,7 +17482,7 @@ overrides = {
           ],
           [
             52,
-            "Submission"
+            "Play Rough"
           ],
           [
             55,
@@ -17502,7 +17502,7 @@ overrides = {
           ],
           [
             69,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             73,
@@ -17512,7 +17512,7 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -17522,7 +17522,7 @@ overrides = {
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Psychic",
@@ -17660,7 +17660,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
@@ -17790,7 +17790,7 @@ overrides = {
           ],
           [
             42,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             49,
@@ -17802,9 +17802,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -17880,7 +17880,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             1,
@@ -17916,7 +17916,7 @@ overrides = {
           ],
           [
             26,
-            "Submission"
+            "Play Rough"
           ],
           [
             29,
@@ -17924,11 +17924,11 @@ overrides = {
           ],
           [
             33,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             36,
-            "Thrash"
+            "Rampage"
           ],
           [
             38,
@@ -17968,10 +17968,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -17982,20 +17982,20 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Venoshock",
           "Round",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Retaliate",
           "Giga Impact",
           "Stone Edge",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -18093,7 +18093,7 @@ overrides = {
           ],
           [
             55,
-            "Thrash"
+            "Rampage"
           ],
           [
             63,
@@ -18101,9 +18101,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -18119,7 +18119,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -18131,7 +18131,7 @@ overrides = {
           "Stone Edge",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Wild Charge",
@@ -18232,7 +18232,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Thrash"
+            "Rampage"
           ],
           [
             20,
@@ -18277,7 +18277,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -18300,7 +18300,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Incinerate",
           "Payback",
           "Giga Impact",
@@ -18314,7 +18314,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Iron Head",
@@ -18424,7 +18424,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -18454,7 +18454,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -18507,11 +18507,11 @@ overrides = {
           ],
           [
             1,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             1,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             1,
@@ -18531,7 +18531,7 @@ overrides = {
           ],
           [
             1,
-            "Conversion 2"
+            "Anti-Malware"
           ],
           [
             1,
@@ -18586,7 +18586,7 @@ overrides = {
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
@@ -18630,9 +18630,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -18646,7 +18646,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Retaliate",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute"
         ],
@@ -18719,7 +18719,7 @@ overrides = {
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
@@ -18743,7 +18743,7 @@ overrides = {
           ],
           [
             29,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             33,
@@ -18771,7 +18771,7 @@ overrides = {
           ],
           [
             56,
-            "Scald"
+            "Wave Crash"
           ],
           [
             60,
@@ -18779,15 +18779,15 @@ overrides = {
           ],
           [
             64,
-            "Mist Ball"
+            "Moonblast"
           ]
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -18803,17 +18803,17 @@ overrides = {
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Retaliate",
           "Giga Impact",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Covet",
@@ -18884,7 +18884,7 @@ overrides = {
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
@@ -18929,9 +18929,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -18954,7 +18954,7 @@ overrides = {
           "Flash",
           "Volt Switch",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Wild Charge",
@@ -19013,7 +19013,7 @@ overrides = {
           ],
           [
             1,
-            "Bonemerang"
+            "Fluffy Coat"
           ],
           [
             1,
@@ -19021,7 +19021,7 @@ overrides = {
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
@@ -19077,7 +19077,7 @@ overrides = {
           ],
           [
             57,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             61,
@@ -19090,9 +19090,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -19114,7 +19114,7 @@ overrides = {
           "Will-O-Wisp",
           "Retaliate",
           "Giga Impact",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -19168,7 +19168,7 @@ overrides = {
           ],
           [
             1,
-            "Conversion"
+            "Toxic Fury"
           ],
           [
             1,
@@ -19176,7 +19176,7 @@ overrides = {
           ],
           [
             5,
-            "Conversion 2"
+            "Anti-Malware"
           ],
           [
             7,
@@ -19229,9 +19229,9 @@ overrides = {
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -19341,7 +19341,7 @@ overrides = {
           ],
           [
             18,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             22,
@@ -19369,7 +19369,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -19381,13 +19381,13 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Rock Polish",
           "Gyro Ball",
           "Rock Slide",
@@ -19396,7 +19396,7 @@ overrides = {
           "Rock Smash",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Earth Power",
@@ -19442,7 +19442,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             1,
@@ -19478,11 +19478,11 @@ overrides = {
           ],
           [
             40,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             43,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             45,
@@ -19494,7 +19494,7 @@ overrides = {
           ],
           [
             52,
-            "Rock Wrecker"
+            "Continent Crash"
           ],
           [
             55,
@@ -19522,7 +19522,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -19535,13 +19535,13 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Rock Polish",
           "Stone Edge",
@@ -19552,7 +19552,7 @@ overrides = {
           "Rock Smash",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Earth Power",
@@ -19633,7 +19633,7 @@ overrides = {
           ],
           [
             36,
-            "Thrash"
+            "Rampage"
           ],
           [
             39,
@@ -19642,7 +19642,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -19655,13 +19655,13 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Rock Polish",
           "Rock Slide",
           "Swagger",
@@ -19741,7 +19741,7 @@ overrides = {
           ],
           [
             21,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             26,
@@ -19783,7 +19783,7 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
           "Hyper Beam",
@@ -19797,7 +19797,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -19933,9 +19933,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -19948,7 +19948,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -20078,9 +20078,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -20100,7 +20100,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -20112,7 +20112,7 @@ overrides = {
           "Giga Impact",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Wild Charge",
@@ -20233,10 +20233,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -20362,9 +20362,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -20497,7 +20497,7 @@ overrides = {
           ],
           [
             85,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             92,
@@ -20506,9 +20506,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -20611,7 +20611,7 @@ overrides = {
           ],
           [
             41,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             45,
@@ -20631,10 +20631,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -20717,7 +20717,7 @@ overrides = {
           ],
           [
             1,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             1,
@@ -20757,7 +20757,7 @@ overrides = {
           ],
           [
             31,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             33,
@@ -20773,7 +20773,7 @@ overrides = {
           ],
           [
             39,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             41,
@@ -20789,14 +20789,14 @@ overrides = {
           ],
           [
             48,
-            "Razor Wind"
+            "Air Lash"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -20886,7 +20886,7 @@ overrides = {
           ],
           [
             1,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             1,
@@ -20910,7 +20910,7 @@ overrides = {
           ],
           [
             21,
-            "Grudge"
+            "Scale Shot"
           ],
           [
             25,
@@ -20926,7 +20926,7 @@ overrides = {
           ],
           [
             45,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             45,
@@ -20934,7 +20934,7 @@ overrides = {
           ],
           [
             47,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             53,
@@ -20969,10 +20969,10 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -20990,7 +20990,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -21014,7 +21014,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Draco Meteor",
@@ -21071,7 +21071,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -21099,7 +21099,7 @@ overrides = {
           ],
           [
             43,
-            "Psycho Cut"
+            "Sparkling Aria"
           ],
           [
             50,
@@ -21141,11 +21141,11 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -21153,7 +21153,7 @@ overrides = {
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -21169,7 +21169,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -21182,7 +21182,7 @@ overrides = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Giga Impact",
           "Flash",
           "Stone Edge",
@@ -21273,7 +21273,7 @@ overrides = {
           ],
           [
             1,
-            "Conversion 2"
+            "Anti-Malware"
           ],
           [
             1,
@@ -21301,11 +21301,11 @@ overrides = {
           ],
           [
             1,
-            "Conversion"
+            "Toxic Fury"
           ],
           [
             17,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             20,
@@ -21354,12 +21354,12 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Bulk Up",
-          "Move $682",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -21367,7 +21367,7 @@ overrides = {
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -21387,7 +21387,7 @@ overrides = {
           "Sludge Bomb",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -21402,16 +21402,16 @@ overrides = {
           "Ally Switch",
           "Focus Blast",
           "Energy Ball",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Fling",
           "Charge Beam",
           "Sky Drop",
           "Incinerate",
           "Quash",
           "Will-O-Wisp",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -21424,14 +21424,14 @@ overrides = {
           "Thunder Wave",
           "Gyro Ball",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Rollout",
           "Frost Breath",
           "Rock Slide",
           "X-Scissor",
           "Draco Meteor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Dream Eater",
           "Grass Knot",
@@ -21449,7 +21449,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bug Bite",
@@ -21557,7 +21557,7 @@ overrides = {
           ],
           [
             9,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             12,
@@ -21605,9 +21605,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -21686,7 +21686,7 @@ overrides = {
           ],
           [
             1,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             6,
@@ -21694,7 +21694,7 @@ overrides = {
           ],
           [
             9,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             12,
@@ -21714,7 +21714,7 @@ overrides = {
           ],
           [
             24,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             26,
@@ -21722,7 +21722,7 @@ overrides = {
           ],
           [
             28,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             31,
@@ -21746,9 +21746,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -21823,23 +21823,23 @@ overrides = {
           ],
           [
             1,
-            "Heal Order"
+            "Pollination"
           ],
           [
             1,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             1,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             1,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             9,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             12,
@@ -21863,7 +21863,7 @@ overrides = {
           ],
           [
             36,
-            "Roar of Time"
+            "Serene Bliss"
           ],
           [
             38,
@@ -21875,11 +21875,11 @@ overrides = {
           ],
           [
             43,
-            "Soft-Boiled"
+            "Flower Bloom"
           ],
           [
             46,
-            "Heal Order"
+            "Pollination"
           ],
           [
             48,
@@ -21899,7 +21899,7 @@ overrides = {
           ],
           [
             59,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             61,
@@ -21915,9 +21915,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -21995,7 +21995,7 @@ overrides = {
           ],
           [
             1,
-            "Searing Shot"
+            "Dopey Eyes"
           ],
           [
             6,
@@ -22051,9 +22051,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Return",
@@ -22181,9 +22181,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Return",
@@ -22259,7 +22259,7 @@ overrides = {
           ],
           [
             1,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             1,
@@ -22295,7 +22295,7 @@ overrides = {
           ],
           [
             36,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             39,
@@ -22339,18 +22339,18 @@ overrides = {
           ],
           [
             69,
-            "-----"
+            "Bone Chill"
           ],
           [
             72,
-            "-----"
+            "Sun Flare"
           ]
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -22362,7 +22362,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Flame Charge",
@@ -22477,7 +22477,7 @@ overrides = {
           ],
           [
             41,
-            "Thrash"
+            "Rampage"
           ],
           [
             43,
@@ -22495,7 +22495,7 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -22507,13 +22507,13 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Shadow Claw",
           "Swords Dance",
@@ -22523,7 +22523,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -22644,7 +22644,7 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -22656,13 +22656,13 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Shadow Claw",
           "Swords Dance",
@@ -22674,7 +22674,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -22726,7 +22726,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "-----"
+            "Flip Turn"
           ],
           [
             1,
@@ -22818,14 +22818,14 @@ overrides = {
           ],
           [
             76,
-            "Dragon Rush"
+            "Dragon Dash"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -22839,14 +22839,14 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Shadow Claw",
           "Giga Impact",
@@ -22861,7 +22861,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -22969,9 +22969,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Protect",
           "Rain Dance",
@@ -22994,7 +22994,7 @@ overrides = {
           "Charge Beam",
           "Shadow Claw",
           "Retaliate",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "U-turn",
@@ -23056,7 +23056,7 @@ overrides = {
           ],
           [
             1,
-            "Cross Chop"
+            "Tidy Up"
           ],
           [
             1,
@@ -23128,7 +23128,7 @@ overrides = {
           ],
           [
             62,
-            "Bonemerang"
+            "Fluffy Coat"
           ],
           [
             66,
@@ -23137,9 +23137,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -23167,7 +23167,7 @@ overrides = {
           "Shadow Claw",
           "Retaliate",
           "Giga Impact",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "U-turn",
@@ -23255,7 +23255,7 @@ overrides = {
           ],
           [
             21,
-            "Confusion"
+            "Mitosis"
           ],
           [
             25,
@@ -23275,7 +23275,7 @@ overrides = {
           ],
           [
             41,
-            "Synchronoise"
+            "Mindwave"
           ],
           [
             45,
@@ -23283,7 +23283,7 @@ overrides = {
           ],
           [
             49,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             53,
@@ -23295,9 +23295,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -23314,7 +23314,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "Pluck",
@@ -23403,7 +23403,7 @@ overrides = {
           ],
           [
             22,
-            "Confusion"
+            "Mitosis"
           ],
           [
             27,
@@ -23423,7 +23423,7 @@ overrides = {
           ],
           [
             47,
-            "Synchronoise"
+            "Mindwave"
           ],
           [
             52,
@@ -23431,7 +23431,7 @@ overrides = {
           ],
           [
             57,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             62,
@@ -23443,9 +23443,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -23464,7 +23464,7 @@ overrides = {
           "Echoed Voice",
           "Giga Impact",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "Pluck",
@@ -23524,7 +23524,7 @@ overrides = {
           ],
           [
             9,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             14,
@@ -23568,9 +23568,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -23588,10 +23588,10 @@ overrides = {
           "Venoshock",
           "Round",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Swagger",
           "U-turn",
           "Substitute"
@@ -23643,7 +23643,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             1,
@@ -23651,7 +23651,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Mayday"
           ],
           [
             1,
@@ -23667,7 +23667,7 @@ overrides = {
           ],
           [
             9,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             14,
@@ -23731,9 +23731,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -23753,11 +23753,11 @@ overrides = {
           "Round",
           "Focus Blast",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Swagger",
           "U-turn",
           "Substitute",
@@ -23822,7 +23822,7 @@ overrides = {
           ],
           [
             8,
-            "Constrict"
+            "Infestation"
           ],
           [
             12,
@@ -23871,10 +23871,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -23889,7 +23889,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -23954,7 +23954,7 @@ overrides = {
           ],
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             5,
@@ -23962,7 +23962,7 @@ overrides = {
           ],
           [
             8,
-            "Constrict"
+            "Infestation"
           ],
           [
             12,
@@ -24011,10 +24011,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -24031,7 +24031,7 @@ overrides = {
           "Round",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -24147,10 +24147,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -24167,7 +24167,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Giga Impact",
           "X-Scissor",
@@ -24283,7 +24283,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -24299,7 +24299,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Charge Beam",
           "Flash",
           "Volt Switch",
@@ -24309,7 +24309,7 @@ overrides = {
           "Wild Charge",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -24449,7 +24449,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -24466,7 +24466,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Charge Beam",
           "Giga Impact",
           "Flash",
@@ -24477,7 +24477,7 @@ overrides = {
           "Wild Charge",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -24536,7 +24536,7 @@ overrides = {
           ],
           [
             13,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             18,
@@ -24544,7 +24544,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -24628,7 +24628,7 @@ overrides = {
           ],
           [
             10,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             13,
@@ -24641,13 +24641,13 @@ overrides = {
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -24669,7 +24669,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -24750,7 +24750,7 @@ overrides = {
           ],
           [
             7,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             8,
@@ -24770,9 +24770,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
@@ -24797,7 +24797,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -24867,7 +24867,7 @@ overrides = {
           ],
           [
             9,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             13,
@@ -24883,7 +24883,7 @@ overrides = {
           ],
           [
             25,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             29,
@@ -24916,13 +24916,13 @@ overrides = {
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -24943,7 +24943,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -25015,7 +25015,7 @@ overrides = {
           ],
           [
             1,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             5,
@@ -25023,7 +25023,7 @@ overrides = {
           ],
           [
             9,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             13,
@@ -25039,7 +25039,7 @@ overrides = {
           ],
           [
             25,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             29,
@@ -25072,14 +25072,14 @@ overrides = {
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -25104,7 +25104,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -25201,7 +25201,7 @@ overrides = {
           ],
           [
             33,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             36,
@@ -25231,13 +25231,13 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Solar Beam",
           "Return",
@@ -25352,7 +25352,7 @@ overrides = {
           ],
           [
             37,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             42,
@@ -25382,14 +25382,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Solar Beam",
           "Return",
@@ -25526,7 +25526,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -25659,7 +25659,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -25830,7 +25830,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
@@ -25922,7 +25922,7 @@ overrides = {
           ],
           [
             1,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             23,
@@ -25934,10 +25934,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -26069,7 +26069,7 @@ overrides = {
           ],
           [
             32,
-            "Waterfall"
+            "Liquidation"
           ],
           [
             34,
@@ -26077,7 +26077,7 @@ overrides = {
           ],
           [
             36,
-            "Barrage"
+            "No Retreat"
           ],
           [
             38,
@@ -26085,7 +26085,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -26102,9 +26102,9 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Fling",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -26112,7 +26112,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Covet",
@@ -26172,7 +26172,7 @@ overrides = {
           ],
           [
             1,
-            "Barrage"
+            "No Retreat"
           ],
           [
             1,
@@ -26260,7 +26260,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -26279,11 +26279,11 @@ overrides = {
           "Attract",
           "Round",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Giga Impact",
           "Rollout",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -26291,7 +26291,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Covet",
@@ -26383,7 +26383,7 @@ overrides = {
           ],
           [
             22,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             26,
@@ -26416,9 +26416,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -26429,7 +26429,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -26497,7 +26497,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             1,
@@ -26537,7 +26537,7 @@ overrides = {
           ],
           [
             33,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             37,
@@ -26545,7 +26545,7 @@ overrides = {
           ],
           [
             43,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             48,
@@ -26561,7 +26561,7 @@ overrides = {
           ],
           [
             61,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             65,
@@ -26573,7 +26573,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -26595,7 +26595,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Payback",
           "Giga Impact",
@@ -26606,7 +26606,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bounce",
@@ -26666,7 +26666,7 @@ overrides = {
           ],
           [
             7,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             8,
@@ -26706,7 +26706,7 @@ overrides = {
           ],
           [
             40,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             43,
@@ -26722,9 +26722,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -26737,7 +26737,7 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Swords Dance",
           "Psych Up",
@@ -26818,7 +26818,7 @@ overrides = {
           ],
           [
             12,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             14,
@@ -26854,13 +26854,13 @@ overrides = {
           ],
           [
             33,
-            "Worry Seed"
+            "Flurry Spore"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -26873,7 +26873,7 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Swords Dance",
           "Psych Up",
@@ -26956,7 +26956,7 @@ overrides = {
           ],
           [
             12,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             14,
@@ -26984,7 +26984,7 @@ overrides = {
           ],
           [
             35,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             38,
@@ -26992,7 +26992,7 @@ overrides = {
           ],
           [
             41,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             44,
@@ -27000,11 +27000,11 @@ overrides = {
           ],
           [
             47,
-            "Constrict"
+            "Infestation"
           ],
           [
             50,
-            "Bonemerang"
+            "Fluffy Coat"
           ],
           [
             53,
@@ -27016,7 +27016,7 @@ overrides = {
           ],
           [
             60,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             63,
@@ -27024,9 +27024,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -27040,7 +27040,7 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
           "Swords Dance",
@@ -27104,7 +27104,7 @@ overrides = {
           ],
           [
             1,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             1,
@@ -27124,7 +27124,7 @@ overrides = {
           ],
           [
             18,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             22,
@@ -27132,7 +27132,7 @@ overrides = {
           ],
           [
             25,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             29,
@@ -27160,7 +27160,7 @@ overrides = {
           ],
           [
             51,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             55,
@@ -27168,15 +27168,15 @@ overrides = {
           ],
           [
             59,
-            "Roar of Time"
+            "Serene Bliss"
           ],
           [
             62,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             65,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             71,
@@ -27185,9 +27185,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -27215,13 +27215,13 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Payback",
           "Retaliate",
           "Thunder Wave",
-          "Egg Bomb",
-          "Cross Chop",
+          "Mating Call",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -27338,7 +27338,7 @@ overrides = {
           ],
           [
             40,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             43,
@@ -27346,9 +27346,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -27512,9 +27512,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -27587,7 +27587,7 @@ overrides = {
           ],
           [
             1,
-            "Acid"
+            "Acid Spray"
           ],
           [
             1,
@@ -27663,9 +27663,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -27785,7 +27785,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -27805,7 +27805,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Flash",
           "Rollout",
           "Swagger",
@@ -27813,7 +27813,7 @@ overrides = {
           "Rock Smash",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Ice Punch",
@@ -27915,7 +27915,7 @@ overrides = {
           ],
           [
             44,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             46,
@@ -27931,7 +27931,7 @@ overrides = {
           ],
           [
             51,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             55,
@@ -27943,15 +27943,15 @@ overrides = {
           ],
           [
             62,
-            "Acid Spray"
+            "Belch"
           ],
           [
             65,
-            "Scald"
+            "Wave Crash"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -27969,14 +27969,14 @@ overrides = {
           "Sludge Wave",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Venoshock",
           "Round",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Giga Impact",
           "Flash",
@@ -27989,7 +27989,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Ice Punch",
@@ -28049,15 +28049,15 @@ overrides = {
           ],
           [
             1,
-            "Bonemerang"
+            "Fluffy Coat"
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
-            "Confusion"
+            "Mitosis"
           ],
           [
             13,
@@ -28131,14 +28131,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Dig",
@@ -28155,7 +28155,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -28310,9 +28310,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -28334,7 +28334,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "Substitute",
@@ -28461,9 +28461,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -28480,7 +28480,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Quash",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Thunder Wave",
@@ -28567,7 +28567,7 @@ overrides = {
           ],
           [
             14,
-            "Confusion"
+            "Mitosis"
           ],
           [
             19,
@@ -28613,17 +28613,17 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Earthquake",
@@ -28641,7 +28641,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Incinerate",
           "Quash",
@@ -28659,7 +28659,7 @@ overrides = {
           "Rock Smash",
           "Psyshock",
           "Calm Mind",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -28741,7 +28741,7 @@ overrides = {
           ],
           [
             15,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             19,
@@ -28769,7 +28769,7 @@ overrides = {
           ],
           [
             39,
-            "Grudge"
+            "Scale Shot"
           ],
           [
             42,
@@ -28782,13 +28782,13 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -28806,7 +28806,7 @@ overrides = {
           "Echoed Voice",
           "Charge Beam",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -28972,7 +28972,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             5,
@@ -29000,7 +29000,7 @@ overrides = {
           ],
           [
             32,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             37,
@@ -29018,13 +29018,13 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -29047,7 +29047,7 @@ overrides = {
           "Thunder Wave",
           "Psych Up",
           "Rollout",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -29150,7 +29150,7 @@ overrides = {
           ],
           [
             33,
-            "Thrash"
+            "Rampage"
           ],
           [
             36,
@@ -29166,7 +29166,7 @@ overrides = {
           ],
           [
             45,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             48,
@@ -29178,7 +29178,7 @@ overrides = {
           ],
           [
             52,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             56,
@@ -29186,7 +29186,7 @@ overrides = {
           ],
           [
             59,
-            "Rock Wrecker"
+            "Continent Crash"
           ],
           [
             62,
@@ -29198,10 +29198,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Frustration",
@@ -29212,7 +29212,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -29220,7 +29220,7 @@ overrides = {
           "Explosion",
           "Payback",
           "Gyro Ball",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -29276,11 +29276,11 @@ overrides = {
           ],
           [
             1,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             1,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             1,
@@ -29316,7 +29316,7 @@ overrides = {
           ],
           [
             33,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             37,
@@ -29328,11 +29328,11 @@ overrides = {
           ],
           [
             45,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             49,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             53,
@@ -29356,14 +29356,14 @@ overrides = {
           ],
           [
             70,
-            "Mega Kick"
+            "High Horsepower"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -29375,7 +29375,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -29386,7 +29386,7 @@ overrides = {
           "Rock Polish",
           "Volt Switch",
           "Gyro Ball",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -29539,9 +29539,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -29557,7 +29557,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -29630,7 +29630,7 @@ overrides = {
           ],
           [
             4,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             7,
@@ -29687,10 +29687,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -29702,7 +29702,7 @@ overrides = {
           "Double Team",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -29710,14 +29710,14 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -29816,7 +29816,7 @@ overrides = {
           ],
           [
             13,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             16,
@@ -29873,9 +29873,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -29886,7 +29886,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -30016,10 +30016,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -30050,7 +30050,7 @@ overrides = {
           "Retaliate",
           "Thunder Wave",
           "Rollout",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Wild Charge",
@@ -30171,10 +30171,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -30193,7 +30193,7 @@ overrides = {
           "Flamethrower",
           "Sludge Bomb",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -30211,7 +30211,7 @@ overrides = {
           "Thunder Wave",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Wild Charge",
@@ -30316,7 +30316,7 @@ overrides = {
           ],
           [
             35,
-            "-----"
+            "Noxious Shift"
           ],
           [
             37,
@@ -30344,9 +30344,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
-          "Move $682",
+          "Noxious Shift",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -30363,7 +30363,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Explosion",
           "Payback",
           "Thunder Wave",
@@ -30373,7 +30373,7 @@ overrides = {
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -30419,11 +30419,11 @@ overrides = {
           ],
           [
             1,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             1,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             1,
@@ -30459,7 +30459,7 @@ overrides = {
           ],
           [
             33,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             37,
@@ -30475,7 +30475,7 @@ overrides = {
           ],
           [
             49,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             53,
@@ -30499,14 +30499,14 @@ overrides = {
           ],
           [
             70,
-            "Mega Kick"
+            "High Horsepower"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -30523,12 +30523,12 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -30586,7 +30586,7 @@ overrides = {
           ],
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             1,
@@ -30654,10 +30654,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Safeguard",
           "Frustration",
@@ -30669,7 +30669,7 @@ overrides = {
           "Sludge Wave",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -30678,7 +30678,7 @@ overrides = {
           "Flash",
           "Stone Edge",
           "Gyro Ball",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -30749,7 +30749,7 @@ overrides = {
           ],
           [
             7,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             10,
@@ -30789,11 +30789,11 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
-          "Move $682",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -30804,7 +30804,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -30812,17 +30812,17 @@ overrides = {
           "Venoshock",
           "Round",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Shadow Claw",
           "Retaliate",
           "Giga Impact",
           "Stone Edge",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -30909,7 +30909,7 @@ overrides = {
           ],
           [
             28,
-            "Beat Up"
+            "Vampiric Fangs"
           ],
           [
             32,
@@ -30935,10 +30935,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -30959,9 +30959,9 @@ overrides = {
           "Venoshock",
           "Low Sweep",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -31066,10 +31066,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -31079,7 +31079,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -31094,7 +31094,7 @@ overrides = {
           "Swords Dance",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -31196,7 +31196,7 @@ overrides = {
           ],
           [
             33,
-            "Thrash"
+            "Rampage"
           ],
           [
             36,
@@ -31212,7 +31212,7 @@ overrides = {
           ],
           [
             45,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             48,
@@ -31226,10 +31226,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -31241,7 +31241,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -31259,7 +31259,7 @@ overrides = {
           "Swords Dance",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -31372,9 +31372,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Frustration",
@@ -31383,7 +31383,7 @@ overrides = {
           "Reflect",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -31528,13 +31528,13 @@ overrides = {
           ],
           [
             73,
-            "-----"
+            "Sun Flare"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -31548,7 +31548,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -31673,7 +31673,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -31688,7 +31688,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -31795,7 +31795,7 @@ overrides = {
           ],
           [
             33,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             37,
@@ -31803,7 +31803,7 @@ overrides = {
           ],
           [
             41,
-            "Thrash"
+            "Rampage"
           ],
           [
             46,
@@ -31820,7 +31820,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -31836,7 +31836,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -31907,7 +31907,7 @@ overrides = {
           ],
           [
             1,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             1,
@@ -31943,7 +31943,7 @@ overrides = {
           ],
           [
             27,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             29,
@@ -31992,10 +31992,10 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Light Screen",
@@ -32011,12 +32011,12 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Explosion",
           "Rock Polish",
           "Stone Edge",
@@ -32117,7 +32117,7 @@ overrides = {
           ],
           [
             44,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             46,
@@ -32129,11 +32129,11 @@ overrides = {
           ],
           [
             50,
-            "Octazooka"
+            "Searing Shot"
           ],
           [
             55,
-            "Acid"
+            "Acid Spray"
           ],
           [
             59,
@@ -32141,9 +32141,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -32161,7 +32161,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Charge Beam",
           "Incinerate",
           "Thunder Wave",
@@ -32169,7 +32169,7 @@ overrides = {
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -32226,7 +32226,7 @@ overrides = {
           ],
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             1,
@@ -32238,7 +32238,7 @@ overrides = {
           ],
           [
             6,
-            "Constrict"
+            "Infestation"
           ],
           [
             10,
@@ -32258,7 +32258,7 @@ overrides = {
           ],
           [
             25,
-            "Octazooka"
+            "Searing Shot"
           ],
           [
             28,
@@ -32278,7 +32278,7 @@ overrides = {
           ],
           [
             50,
-            "Octazooka"
+            "Searing Shot"
           ],
           [
             52,
@@ -32294,13 +32294,13 @@ overrides = {
           ],
           [
             64,
-            "Acid Spray"
+            "Belch"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -32321,7 +32321,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Charge Beam",
           "Incinerate",
           "Payback",
@@ -32332,7 +32332,7 @@ overrides = {
           "Flash Cannon",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -32351,7 +32351,7 @@ overrides = {
         "Moody"
       ],
       "evoType": "levelMove",
-      "evoMove": "Octazooka"
+      "evoMove": "Searing Shot"
     },
     "Delibird": {
       "name": "Delibird",
@@ -32385,7 +32385,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Mayday"
           ],
           [
             1,
@@ -32393,7 +32393,7 @@ overrides = {
           ],
           [
             1,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             5,
@@ -32457,7 +32457,7 @@ overrides = {
           ],
           [
             61,
-            "Pay Day"
+            "Make It Rain"
           ],
           [
             65,
@@ -32469,7 +32469,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -32595,7 +32595,7 @@ overrides = {
           ],
           [
             32,
-            "-----"
+            "Mayday"
           ],
           [
             34,
@@ -32623,7 +32623,7 @@ overrides = {
           ],
           [
             55,
-            "Sacred Fire"
+            "Tsunami"
           ],
           [
             58,
@@ -32631,7 +32631,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -32643,14 +32643,14 @@ overrides = {
           "Earthquake",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
-          "Move $681",
+          "Wave Crash",
+          "Mayday",
           "Giga Impact",
           "Rollout",
           "Rock Slide",
@@ -32658,7 +32658,7 @@ overrides = {
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -32734,7 +32734,7 @@ overrides = {
           ],
           [
             17,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             20,
@@ -32758,7 +32758,7 @@ overrides = {
           ],
           [
             36,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             39,
@@ -32774,7 +32774,7 @@ overrides = {
           ],
           [
             47,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             50,
@@ -32803,16 +32803,16 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -32905,7 +32905,7 @@ overrides = {
           ],
           [
             25,
-            "Beat Up"
+            "Vampiric Fangs"
           ],
           [
             28,
@@ -32942,9 +32942,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -32965,7 +32965,7 @@ overrides = {
           "Overheat",
           "Incinerate",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Dream Eater",
@@ -33062,7 +33062,7 @@ overrides = {
           ],
           [
             26,
-            "Beat Up"
+            "Vampiric Fangs"
           ],
           [
             30,
@@ -33099,9 +33099,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -33123,7 +33123,7 @@ overrides = {
           "Overheat",
           "Incinerate",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -33245,7 +33245,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -33260,7 +33260,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Quash",
           "Giga Impact",
           "Swagger",
@@ -33268,7 +33268,7 @@ overrides = {
           "Flash Cannon",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Draco Meteor",
@@ -33365,16 +33365,16 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Earthquake",
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -33478,7 +33478,7 @@ overrides = {
           ],
           [
             25,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             31,
@@ -33499,9 +33499,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -33509,7 +33509,7 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -33584,11 +33584,11 @@ overrides = {
           ],
           [
             1,
-            "Conversion"
+            "Toxic Fury"
           ],
           [
             1,
-            "Conversion 2"
+            "Anti-Malware"
           ],
           [
             1,
@@ -33640,7 +33640,7 @@ overrides = {
           ],
           [
             54,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             57,
@@ -33648,14 +33648,14 @@ overrides = {
           ],
           [
             59,
-            "Pay Day"
+            "Make It Rain"
           ]
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -33759,7 +33759,7 @@ overrides = {
           ],
           [
             16,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             21,
@@ -33802,9 +33802,9 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
@@ -33831,7 +33831,7 @@ overrides = {
           "Thunder Wave",
           "Psych Up",
           "Rollout",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "Substitute",
@@ -33970,10 +33970,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -33990,7 +33990,7 @@ overrides = {
           "Retaliate",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -34044,7 +34044,7 @@ overrides = {
           ],
           [
             1,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             6,
@@ -34104,10 +34104,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -34129,7 +34129,7 @@ overrides = {
           "Gyro Ball",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -34202,7 +34202,7 @@ overrides = {
           ],
           [
             8,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             11,
@@ -34222,11 +34222,11 @@ overrides = {
           ],
           [
             38,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             40,
-            "Soak"
+            "Dragon Hug"
           ],
           [
             43,
@@ -34269,7 +34269,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -34294,10 +34294,10 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Charge Beam",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Flash",
           "Psych Up",
@@ -34315,7 +34315,7 @@ overrides = {
           "Dragon Claw",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Draco Meteor",
@@ -34422,7 +34422,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -34541,7 +34541,7 @@ overrides = {
           ],
           [
             36,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             40,
@@ -34553,9 +34553,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Return",
@@ -34656,7 +34656,7 @@ overrides = {
           ],
           [
             26,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             29,
@@ -34672,7 +34672,7 @@ overrides = {
           ],
           [
             44,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             48,
@@ -34684,7 +34684,7 @@ overrides = {
           ],
           [
             58,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             62,
@@ -34692,9 +34692,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -34710,7 +34710,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -34725,7 +34725,7 @@ overrides = {
           "Psych Up",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -34798,15 +34798,15 @@ overrides = {
           ],
           [
             12,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             16,
-            "Soft-Boiled"
+            "Flower Bloom"
           ],
           [
             20,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             23,
@@ -34830,7 +34830,7 @@ overrides = {
           ],
           [
             42,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             46,
@@ -34847,10 +34847,10 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -34871,7 +34871,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -34888,7 +34888,7 @@ overrides = {
           "Psych Up",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -35009,9 +35009,9 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -35140,9 +35140,9 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -35271,10 +35271,10 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -35290,7 +35290,7 @@ overrides = {
           "Facade",
           "Rest",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Quash",
           "Giga Impact",
           "Psych Up",
@@ -35302,7 +35302,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -35372,7 +35372,7 @@ overrides = {
           ],
           [
             28,
-            "Thrash"
+            "Rampage"
           ],
           [
             32,
@@ -35400,9 +35400,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -35415,7 +35415,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -35516,7 +35516,7 @@ overrides = {
           ],
           [
             28,
-            "Thrash"
+            "Rampage"
           ],
           [
             31,
@@ -35556,9 +35556,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -35571,7 +35571,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -35686,7 +35686,7 @@ overrides = {
           ],
           [
             28,
-            "Thrash"
+            "Rampage"
           ],
           [
             34,
@@ -35721,9 +35721,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -35742,7 +35742,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -35837,7 +35837,7 @@ overrides = {
           ],
           [
             15,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             23,
@@ -35892,17 +35892,17 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -35935,7 +35935,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -36008,7 +36008,7 @@ overrides = {
           ],
           [
             29,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             37,
@@ -36016,7 +36016,7 @@ overrides = {
           ],
           [
             43,
-            "Sacred Fire"
+            "Tsunami"
           ],
           [
             50,
@@ -36054,9 +36054,9 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -36148,7 +36148,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -36229,9 +36229,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -36365,9 +36365,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Safeguard",
           "Frustration",
@@ -36376,7 +36376,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -36384,7 +36384,7 @@ overrides = {
           "Round",
           "Energy Ball",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Swords Dance",
           "Rock Slide",
@@ -36495,7 +36495,7 @@ overrides = {
           ],
           [
             53,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             59,
@@ -36503,9 +36503,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Safeguard",
           "Frustration",
@@ -36514,7 +36514,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -36522,9 +36522,9 @@ overrides = {
           "Low Sweep",
           "Round",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Swords Dance",
           "Rock Slide",
@@ -36598,7 +36598,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Parting Shot"
           ],
           [
             1,
@@ -36630,7 +36630,7 @@ overrides = {
           ],
           [
             36,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             40,
@@ -36670,16 +36670,16 @@ overrides = {
           ],
           [
             72,
-            "Bestow"
+            "Adrenaline Shot"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -36690,7 +36690,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -36699,9 +36699,9 @@ overrides = {
           "Round",
           "Focus Blast",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
           "Swords Dance",
@@ -36784,7 +36784,7 @@ overrides = {
           ],
           [
             19,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             25,
@@ -36809,9 +36809,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Return",
@@ -36819,7 +36819,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Flame Charge",
@@ -36915,7 +36915,7 @@ overrides = {
           ],
           [
             21,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             28,
@@ -36944,10 +36944,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Return",
@@ -36956,7 +36956,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Flame Charge",
@@ -36973,7 +36973,7 @@ overrides = {
           "Shadow Claw",
           "Swords Dance",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -37070,7 +37070,7 @@ overrides = {
           ],
           [
             21,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             28,
@@ -37104,10 +37104,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -37119,7 +37119,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Flame Charge",
@@ -37133,14 +37133,14 @@ overrides = {
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Giga Impact",
           "Stone Edge",
           "Swords Dance",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -37210,11 +37210,11 @@ overrides = {
           ],
           [
             1,
-            "Acid"
+            "Acid Spray"
           ],
           [
             5,
-            "Acid Spray"
+            "Belch"
           ],
           [
             10,
@@ -37250,7 +37250,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -37262,13 +37262,13 @@ overrides = {
           "Dig",
           "Double Team",
           "Sludge Wave",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Rock Slide",
           "Swagger",
           "Substitute",
@@ -37276,7 +37276,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -37336,11 +37336,11 @@ overrides = {
           ],
           [
             1,
-            "Acid"
+            "Acid Spray"
           ],
           [
             5,
-            "Acid Spray"
+            "Belch"
           ],
           [
             10,
@@ -37404,7 +37404,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -37418,13 +37418,13 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Wave",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Rollout",
           "Rock Slide",
@@ -37434,7 +37434,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -37510,7 +37510,7 @@ overrides = {
           ],
           [
             1,
-            "Acid Spray"
+            "Belch"
           ],
           [
             1,
@@ -37538,7 +37538,7 @@ overrides = {
           ],
           [
             55,
-            "Soak"
+            "Dragon Hug"
           ],
           [
             58,
@@ -37566,7 +37566,7 @@ overrides = {
           ],
           [
             72,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             77,
@@ -37579,7 +37579,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -37594,14 +37594,14 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Wave",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Giga Impact",
           "Stone Edge",
@@ -37613,7 +37613,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Draco Meteor",
@@ -37670,7 +37670,7 @@ overrides = {
           ],
           [
             9,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             13,
@@ -37719,9 +37719,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -37737,7 +37737,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Swagger",
@@ -37799,7 +37799,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -37811,7 +37811,7 @@ overrides = {
           ],
           [
             9,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             13,
@@ -37860,9 +37860,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -37879,7 +37879,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -37950,7 +37950,7 @@ overrides = {
           ],
           [
             13,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             17,
@@ -37970,7 +37970,7 @@ overrides = {
           ],
           [
             33,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             37,
@@ -37991,9 +37991,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -38015,7 +38015,7 @@ overrides = {
           "Charge Beam",
           "Retaliate",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -38098,7 +38098,7 @@ overrides = {
           ],
           [
             13,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             17,
@@ -38118,7 +38118,7 @@ overrides = {
           ],
           [
             41,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             47,
@@ -38140,9 +38140,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -38167,7 +38167,7 @@ overrides = {
           "Retaliate",
           "Giga Impact",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -38374,10 +38374,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -38394,10 +38394,10 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Swagger",
           "U-turn",
           "Substitute"
@@ -38493,11 +38493,11 @@ overrides = {
         "learnset": [
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             10,
-            "Confusion"
+            "Mitosis"
           ],
           [
             13,
@@ -38529,7 +38529,7 @@ overrides = {
           ],
           [
             38,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             41,
@@ -38541,10 +38541,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -38562,10 +38562,10 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Swagger",
           "U-turn",
           "Substitute"
@@ -38657,10 +38657,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -38676,7 +38676,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Flash",
           "Swords Dance",
           "Grass Knot",
@@ -38773,10 +38773,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -38793,7 +38793,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Flash",
           "Swords Dance",
@@ -38804,7 +38804,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Seed Bomb",
@@ -38874,10 +38874,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -38896,7 +38896,7 @@ overrides = {
           "Echoed Voice",
           "Focus Blast",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Giga Impact",
           "Flash",
@@ -38908,7 +38908,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Seed Bomb",
@@ -38977,7 +38977,7 @@ overrides = {
           ],
           [
             31,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             43,
@@ -38985,9 +38985,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -39000,7 +39000,7 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Explosion",
           "Retaliate",
           "Flash",
@@ -39086,7 +39086,7 @@ overrides = {
           ],
           [
             37,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             43,
@@ -39098,9 +39098,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -39110,7 +39110,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -39119,9 +39119,9 @@ overrides = {
           "Low Sweep",
           "Round",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Explosion",
           "Payback",
           "Retaliate",
@@ -39209,9 +39209,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -39221,7 +39221,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -39232,9 +39232,9 @@ overrides = {
           "Round",
           "Focus Blast",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Explosion",
           "Payback",
           "Retaliate",
@@ -39341,9 +39341,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -39356,7 +39356,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -39481,7 +39481,7 @@ overrides = {
           ],
           [
             64,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             66,
@@ -39489,9 +39489,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -39506,7 +39506,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Giga Impact",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -39611,7 +39611,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -39628,7 +39628,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -39754,7 +39754,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -39772,7 +39772,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Sky Drop",
           "Payback",
@@ -39832,7 +39832,7 @@ overrides = {
           ],
           [
             6,
-            "Confusion"
+            "Mitosis"
           ],
           [
             10,
@@ -39890,14 +39890,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -39983,7 +39983,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -39995,7 +39995,7 @@ overrides = {
           ],
           [
             6,
-            "Confusion"
+            "Mitosis"
           ],
           [
             10,
@@ -40053,14 +40053,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -40154,7 +40154,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -40166,7 +40166,7 @@ overrides = {
           ],
           [
             6,
-            "Confusion"
+            "Mitosis"
           ],
           [
             10,
@@ -40224,15 +40224,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -40374,9 +40374,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -40391,9 +40391,9 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Swagger",
           "Substitute"
@@ -40516,9 +40516,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -40536,10 +40536,10 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Swagger",
           "U-turn",
@@ -40611,7 +40611,7 @@ overrides = {
           ],
           [
             25,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             33,
@@ -40633,10 +40633,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -40653,7 +40653,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -40667,7 +40667,7 @@ overrides = {
           "Retaliate",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -40776,7 +40776,7 @@ overrides = {
           ],
           [
             30,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             33,
@@ -40796,11 +40796,11 @@ overrides = {
           ],
           [
             50,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             54,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             59,
@@ -40808,7 +40808,7 @@ overrides = {
           ],
           [
             63,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             66,
@@ -40816,11 +40816,11 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
-          "Move $682",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -40830,7 +40830,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -40838,7 +40838,7 @@ overrides = {
           "Round",
           "Focus Blast",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Retaliate",
           "Giga Impact",
@@ -40846,7 +40846,7 @@ overrides = {
           "Stone Edge",
           "Swords Dance",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -40941,10 +40941,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -40959,7 +40959,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -40970,7 +40970,7 @@ overrides = {
           "Shadow Claw",
           "Retaliate",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -41075,10 +41075,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -41095,7 +41095,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -41109,7 +41109,7 @@ overrides = {
           "Retaliate",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -41249,10 +41249,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -41271,7 +41271,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -41287,7 +41287,7 @@ overrides = {
           "Giga Impact",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -41352,7 +41352,7 @@ overrides = {
           ],
           [
             9,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             14,
@@ -41364,7 +41364,7 @@ overrides = {
           ],
           [
             25,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             31,
@@ -41381,9 +41381,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -41396,9 +41396,9 @@ overrides = {
           "Facade",
           "Rest",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Swagger",
           "Substitute",
@@ -41462,7 +41462,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             5,
@@ -41470,7 +41470,7 @@ overrides = {
           ],
           [
             9,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             14,
@@ -41515,9 +41515,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -41533,11 +41533,11 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -41598,7 +41598,7 @@ overrides = {
           ],
           [
             9,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             14,
@@ -41622,7 +41622,7 @@ overrides = {
           ],
           [
             45,
-            "Grudge"
+            "Scale Shot"
           ],
           [
             52,
@@ -41635,12 +41635,12 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Solar Beam",
           "Return",
@@ -41653,12 +41653,12 @@ overrides = {
           "Rest",
           "Venoshock",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Will-O-Wisp",
           "Shadow Claw",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Dream Eater",
           "Swagger",
@@ -41737,7 +41737,7 @@ overrides = {
           ],
           [
             41,
-            "Synchronoise"
+            "Mindwave"
           ],
           [
             45,
@@ -41754,9 +41754,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -41776,7 +41776,7 @@ overrides = {
           "Fling",
           "Incinerate",
           "Retaliate",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute"
         ],
@@ -41869,22 +41869,22 @@ overrides = {
           ],
           [
             32,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             35,
-            "-----"
+            "Amplification"
           ],
           [
             38,
-            "-----"
+            "Rising Torque"
           ]
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -41900,7 +41900,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -41913,7 +41913,7 @@ overrides = {
           "Retaliate",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -42035,7 +42035,7 @@ overrides = {
           ],
           [
             40,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             45,
@@ -42043,7 +42043,7 @@ overrides = {
           ],
           [
             55,
-            "Synchronoise"
+            "Mindwave"
           ],
           [
             55,
@@ -42064,9 +42064,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -42083,7 +42083,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -42098,7 +42098,7 @@ overrides = {
           "Giga Impact",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -42159,7 +42159,7 @@ overrides = {
           ],
           [
             4,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             7,
@@ -42183,7 +42183,7 @@ overrides = {
           ],
           [
             22,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             25,
@@ -42219,10 +42219,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -42232,7 +42232,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -42243,7 +42243,7 @@ overrides = {
           "Retaliate",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -42308,7 +42308,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -42316,7 +42316,7 @@ overrides = {
           ],
           [
             4,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             7,
@@ -42340,7 +42340,7 @@ overrides = {
           ],
           [
             22,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             27,
@@ -42376,10 +42376,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -42390,7 +42390,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -42404,7 +42404,7 @@ overrides = {
           "Stone Edge",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -42494,7 +42494,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -42509,8 +42509,8 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
-          "Cross Chop",
+          "Wave Crash",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Psyshock",
@@ -42621,9 +42621,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -42634,7 +42634,7 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -42729,7 +42729,7 @@ overrides = {
           ],
           [
             15,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             18,
@@ -42770,9 +42770,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -42797,7 +42797,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -42851,7 +42851,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             1,
@@ -42867,7 +42867,7 @@ overrides = {
           ],
           [
             1,
-            "Submission"
+            "Play Rough"
           ],
           [
             1,
@@ -42887,7 +42887,7 @@ overrides = {
           ],
           [
             1,
-            "Bonemerang"
+            "Fluffy Coat"
           ],
           [
             1,
@@ -42908,9 +42908,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -42937,7 +42937,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -43069,13 +43069,13 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Dig",
@@ -43083,7 +43083,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -43095,7 +43095,7 @@ overrides = {
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -43181,7 +43181,7 @@ overrides = {
           ],
           [
             21,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             26,
@@ -43197,7 +43197,7 @@ overrides = {
           ],
           [
             34,
-            "Submission"
+            "Play Rough"
           ],
           [
             36,
@@ -43205,7 +43205,7 @@ overrides = {
           ],
           [
             38,
-            "Acid Spray"
+            "Belch"
           ],
           [
             41,
@@ -43221,7 +43221,7 @@ overrides = {
           ],
           [
             48,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             51,
@@ -43245,7 +43245,7 @@ overrides = {
           ],
           [
             61,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             64,
@@ -43253,9 +43253,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Hyper Beam",
@@ -43271,18 +43271,18 @@ overrides = {
           "Sludge Bomb",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Charge Beam",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Stone Edge",
@@ -43411,9 +43411,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -43422,7 +43422,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -43568,9 +43568,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -43579,7 +43579,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -43646,7 +43646,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Thrash"
+            "Rampage"
           ],
           [
             1,
@@ -43745,9 +43745,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -43767,7 +43767,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -43858,7 +43858,7 @@ overrides = {
           ],
           [
             8,
-            "Confusion"
+            "Mitosis"
           ],
           [
             11,
@@ -43912,14 +43912,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Psychic",
@@ -43927,7 +43927,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -43939,7 +43939,7 @@ overrides = {
           "Flash",
           "Psych Up",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Dream Eater",
           "Grass Knot",
@@ -44020,7 +44020,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -44032,7 +44032,7 @@ overrides = {
           ],
           [
             8,
-            "Confusion"
+            "Mitosis"
           ],
           [
             11,
@@ -44086,15 +44086,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Psychic",
@@ -44102,7 +44102,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -44116,7 +44116,7 @@ overrides = {
           "Flash",
           "Psych Up",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Dream Eater",
           "Grass Knot",
@@ -44232,7 +44232,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -44372,7 +44372,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
@@ -44518,7 +44518,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -44674,7 +44674,7 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -44691,7 +44691,7 @@ overrides = {
           "Echoed Voice",
           "Fling",
           "Charge Beam",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Volt Switch",
           "Thunder Wave",
@@ -44801,9 +44801,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
@@ -44823,10 +44823,10 @@ overrides = {
           "Round",
           "Fling",
           "Charge Beam",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Thunder Wave",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Swagger",
           "U-turn",
@@ -44924,9 +44924,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
@@ -44946,10 +44946,10 @@ overrides = {
           "Round",
           "Fling",
           "Charge Beam",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Thunder Wave",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Swagger",
           "U-turn",
@@ -45051,7 +45051,7 @@ overrides = {
           ],
           [
             40,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             43,
@@ -45063,10 +45063,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -45161,11 +45161,11 @@ overrides = {
           ],
           [
             17,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             21,
-            "Acid Spray"
+            "Belch"
           ],
           [
             24,
@@ -45197,10 +45197,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Protect",
           "Rain Dance",
@@ -45276,7 +45276,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Noxious Shift"
           ],
           [
             1,
@@ -45288,7 +45288,7 @@ overrides = {
           ],
           [
             1,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             9,
@@ -45308,7 +45308,7 @@ overrides = {
           ],
           [
             30,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             34,
@@ -45316,11 +45316,11 @@ overrides = {
           ],
           [
             38,
-            "Acid Spray"
+            "Belch"
           ],
           [
             42,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             45,
@@ -45352,7 +45352,7 @@ overrides = {
           ],
           [
             60,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             63,
@@ -45364,10 +45364,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Hyper Beam",
           "Protect",
@@ -45394,7 +45394,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Seed Bomb",
@@ -45495,7 +45495,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -45512,7 +45512,7 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Payback",
           "Retaliate",
           "Swagger",
@@ -45520,7 +45520,7 @@ overrides = {
           "Snarl",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Super Fang",
@@ -45644,7 +45644,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -45657,14 +45657,14 @@ overrides = {
           "Earthquake",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
           "Attract",
           "Venoshock",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -45677,7 +45677,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Super Fang",
@@ -45787,7 +45787,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -45798,13 +45798,13 @@ overrides = {
           "Earthquake",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Rollout",
           "Swagger",
           "Substitute",
@@ -45812,7 +45812,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bounce",
@@ -45919,7 +45919,7 @@ overrides = {
           ],
           [
             43,
-            "Scald"
+            "Wave Crash"
           ],
           [
             45,
@@ -45943,7 +45943,7 @@ overrides = {
           ],
           [
             61,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             65,
@@ -45952,7 +45952,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -45964,13 +45964,13 @@ overrides = {
           "Earthquake",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Rollout",
           "Swagger",
@@ -45979,7 +45979,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Iron Head",
@@ -46084,9 +46084,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Earthquake",
@@ -46096,7 +46096,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -46233,10 +46233,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -46247,7 +46247,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -46255,12 +46255,12 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Payback",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -46378,9 +46378,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -46391,7 +46391,7 @@ overrides = {
           "Flamethrower",
           "Sludge Bomb",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -46522,14 +46522,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Psychic",
@@ -46680,7 +46680,7 @@ overrides = {
           ],
           [
             55,
-            "-----"
+            "Amplification"
           ],
           [
             58,
@@ -46698,15 +46698,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Psychic",
@@ -46797,7 +46797,7 @@ overrides = {
           ],
           [
             1,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             1,
@@ -46805,7 +46805,7 @@ overrides = {
           ],
           [
             1,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             1,
@@ -46857,14 +46857,14 @@ overrides = {
           ],
           [
             55,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Safeguard",
@@ -46875,7 +46875,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -46886,7 +46886,7 @@ overrides = {
           "Flash",
           "Psych Up",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "Substitute",
@@ -46951,7 +46951,7 @@ overrides = {
           ],
           [
             4,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             7,
@@ -47015,9 +47015,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -47027,12 +47027,12 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -47083,7 +47083,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -47095,7 +47095,7 @@ overrides = {
           ],
           [
             4,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             7,
@@ -47131,7 +47131,7 @@ overrides = {
           ],
           [
             32,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             34,
@@ -47167,9 +47167,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -47179,12 +47179,12 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -47253,7 +47253,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Mayday"
           ],
           [
             21,
@@ -47297,7 +47297,7 @@ overrides = {
           ],
           [
             45,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             47,
@@ -47309,7 +47309,7 @@ overrides = {
           ],
           [
             52,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             54,
@@ -47335,9 +47335,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -47349,7 +47349,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -47358,7 +47358,7 @@ overrides = {
           "Incinerate",
           "Giga Impact",
           "Stone Edge",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "Draco Meteor",
@@ -47439,7 +47439,7 @@ overrides = {
           ],
           [
             17,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             21,
@@ -47483,10 +47483,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -47590,7 +47590,7 @@ overrides = {
           ],
           [
             17,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             21,
@@ -47634,10 +47634,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -47653,7 +47653,7 @@ overrides = {
           "Focus Blast",
           "Energy Ball",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -47732,7 +47732,7 @@ overrides = {
           ],
           [
             10,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             13,
@@ -47776,9 +47776,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Protect",
           "Rain Dance",
@@ -47859,7 +47859,7 @@ overrides = {
           ],
           [
             1,
-            "Soft-Boiled"
+            "Flower Bloom"
           ],
           [
             1,
@@ -47871,7 +47871,7 @@ overrides = {
           ],
           [
             1,
-            "Bonemerang"
+            "Fluffy Coat"
           ],
           [
             8,
@@ -47879,7 +47879,7 @@ overrides = {
           ],
           [
             10,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             13,
@@ -47919,7 +47919,7 @@ overrides = {
           ],
           [
             40,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             42,
@@ -47927,7 +47927,7 @@ overrides = {
           ],
           [
             46,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             48,
@@ -47946,9 +47946,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Hyper Beam",
           "Protect",
@@ -48051,7 +48051,7 @@ overrides = {
           ],
           [
             17,
-            "Conversion"
+            "Toxic Fury"
           ],
           [
             19,
@@ -48079,7 +48079,7 @@ overrides = {
           ],
           [
             38,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             40,
@@ -48117,9 +48117,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -48136,7 +48136,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -48144,17 +48144,17 @@ overrides = {
           "Venoshock",
           "Round",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
           "Swords Dance",
           "Rock Slide",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -48246,7 +48246,7 @@ overrides = {
           ],
           [
             32,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             36,
@@ -48274,7 +48274,7 @@ overrides = {
           ],
           [
             50,
-            "-----"
+            "Strangle"
           ],
           [
             52,
@@ -48286,11 +48286,11 @@ overrides = {
           ],
           [
             58,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             61,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             65,
@@ -48302,10 +48302,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -48384,7 +48384,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             5,
@@ -48442,7 +48442,7 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -48450,7 +48450,7 @@ overrides = {
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Smack Down",
@@ -48461,13 +48461,13 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
           "Charge Beam",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Explosion",
           "Giga Impact",
           "Rock Polish",
@@ -48539,7 +48539,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             5,
@@ -48597,13 +48597,13 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -48617,7 +48617,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -48625,8 +48625,8 @@ overrides = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Explosion",
           "Giga Impact",
           "Rock Polish",
@@ -48747,7 +48747,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -48759,18 +48759,18 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Rollout",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bounce",
@@ -48878,7 +48878,7 @@ overrides = {
           ],
           [
             47,
-            "Acid Spray"
+            "Belch"
           ],
           [
             50,
@@ -48890,7 +48890,7 @@ overrides = {
           ],
           [
             54,
-            "Scald"
+            "Wave Crash"
           ],
           [
             56,
@@ -48902,15 +48902,15 @@ overrides = {
           ],
           [
             63,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             66,
-            "Sacred Fire"
+            "Tsunami"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -48923,12 +48923,12 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Stone Edge",
           "Rollout",
@@ -48939,7 +48939,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bounce",
@@ -48990,7 +48990,7 @@ overrides = {
           ],
           [
             10,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             13,
@@ -49035,7 +49035,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -49049,14 +49049,14 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Fling",
           "Payback",
           "Swords Dance",
@@ -49122,7 +49122,7 @@ overrides = {
           ],
           [
             1,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             1,
@@ -49134,7 +49134,7 @@ overrides = {
           ],
           [
             10,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             13,
@@ -49182,15 +49182,15 @@ overrides = {
           ],
           [
             54,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             57,
-            "Waterfall"
+            "Liquidation"
           ],
           [
             60,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             62,
@@ -49198,16 +49198,16 @@ overrides = {
           ],
           [
             64,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             67,
-            "Twineedle"
+            "1st Impression"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -49223,14 +49223,14 @@ overrides = {
           "Double Team",
           "Sludge Wave",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Fling",
           "Payback",
           "Retaliate",
@@ -49246,7 +49246,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Iron Defense",
@@ -49300,7 +49300,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             4,
@@ -49312,7 +49312,7 @@ overrides = {
           ],
           [
             10,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             13,
@@ -49328,7 +49328,7 @@ overrides = {
           ],
           [
             25,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             28,
@@ -49366,14 +49366,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -49386,7 +49386,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -49474,7 +49474,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -49494,7 +49494,7 @@ overrides = {
           ],
           [
             10,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             13,
@@ -49510,7 +49510,7 @@ overrides = {
           ],
           [
             25,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             28,
@@ -49552,15 +49552,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -49573,7 +49573,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -49648,11 +49648,11 @@ overrides = {
           ],
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             8,
-            "Acid"
+            "Acid Spray"
           ],
           [
             15,
@@ -49696,9 +49696,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -49707,7 +49707,7 @@ overrides = {
           "Double Team",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -49772,11 +49772,11 @@ overrides = {
           ],
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             1,
-            "Acid"
+            "Acid Spray"
           ],
           [
             1,
@@ -49784,7 +49784,7 @@ overrides = {
           ],
           [
             8,
-            "Acid"
+            "Acid Spray"
           ],
           [
             15,
@@ -49828,9 +49828,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -49842,7 +49842,7 @@ overrides = {
           "Sludge Wave",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -49957,9 +49957,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Smack Down",
@@ -49968,16 +49968,16 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Rock Polish",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rock Slide",
           "X-Scissor",
           "Swagger",
@@ -50085,9 +50085,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -50098,18 +50098,18 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Giga Impact",
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -50175,7 +50175,7 @@ overrides = {
           ],
           [
             12,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             15,
@@ -50183,11 +50183,11 @@ overrides = {
           ],
           [
             17,
-            "Acid"
+            "Acid Spray"
           ],
           [
             24,
-            "Acid Spray"
+            "Belch"
           ],
           [
             30,
@@ -50199,7 +50199,7 @@ overrides = {
           ],
           [
             37,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             37,
@@ -50211,7 +50211,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -50226,12 +50226,12 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Icy Wind",
@@ -50287,7 +50287,7 @@ overrides = {
           ],
           [
             1,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             1,
@@ -50371,7 +50371,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -50388,7 +50388,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Psych Up",
           "Rollout",
@@ -50397,7 +50397,7 @@ overrides = {
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Iron Head",
@@ -50467,7 +50467,7 @@ overrides = {
           ],
           [
             20,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             20,
@@ -50491,10 +50491,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -50515,13 +50515,13 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Incinerate",
           "Retaliate",
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute"
         ],
@@ -50630,14 +50630,14 @@ overrides = {
           ],
           [
             58,
-            "Synchronoise"
+            "Mindwave"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -50653,7 +50653,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -50669,7 +50669,7 @@ overrides = {
           "Thunder Wave",
           "Psych Up",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -50785,7 +50785,7 @@ overrides = {
           ],
           [
             46,
-            "Grudge"
+            "Scale Shot"
           ],
           [
             50,
@@ -50794,13 +50794,13 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -50816,7 +50816,7 @@ overrides = {
           "Round",
           "Charge Beam",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -50935,7 +50935,7 @@ overrides = {
           ],
           [
             37,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             40,
@@ -50947,11 +50947,11 @@ overrides = {
           ],
           [
             49,
-            "Submission"
+            "Play Rough"
           ],
           [
             52,
-            "Grudge"
+            "Scale Shot"
           ],
           [
             55,
@@ -50963,19 +50963,19 @@ overrides = {
           ],
           [
             60,
-            "Beat Up"
+            "Vampiric Fangs"
           ]
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -50992,7 +50992,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Giga Impact",
@@ -51108,15 +51108,15 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Psychic",
@@ -51131,7 +51131,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Flash",
           "Psych Up",
@@ -51271,16 +51271,16 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Earthquake",
           "Return",
@@ -51288,7 +51288,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -51298,7 +51298,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -51421,7 +51421,7 @@ overrides = {
           ],
           [
             57,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             61,
@@ -51438,9 +51438,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -51514,7 +51514,7 @@ overrides = {
           ],
           [
             1,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             1,
@@ -51534,7 +51534,7 @@ overrides = {
           ],
           [
             14,
-            "Confusion"
+            "Mitosis"
           ],
           [
             17,
@@ -51574,7 +51574,7 @@ overrides = {
           ],
           [
             54,
-            "Synchronoise"
+            "Mindwave"
           ],
           [
             57,
@@ -51584,14 +51584,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -51676,7 +51676,7 @@ overrides = {
           ],
           [
             1,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             1,
@@ -51732,7 +51732,7 @@ overrides = {
           ],
           [
             49,
-            "Psycho Cut"
+            "Sparkling Aria"
           ],
           [
             52,
@@ -51740,11 +51740,11 @@ overrides = {
           ],
           [
             55,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             57,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             60,
@@ -51758,10 +51758,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -51777,7 +51777,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -51786,7 +51786,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "False Swipe",
+          "Mercy Slice",
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
@@ -51965,7 +51965,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -52088,7 +52088,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -52215,7 +52215,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -52226,7 +52226,7 @@ overrides = {
           "Earthquake",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -52241,7 +52241,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Super Fang",
@@ -52343,7 +52343,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -52354,7 +52354,7 @@ overrides = {
           "Earthquake",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -52369,7 +52369,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Super Fang",
@@ -52432,7 +52432,7 @@ overrides = {
           ],
           [
             1,
-            "Scald"
+            "Wave Crash"
           ],
           [
             1,
@@ -52508,12 +52508,12 @@ overrides = {
           ],
           [
             72,
-            "Twineedle"
+            "1st Impression"
           ]
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -52525,7 +52525,7 @@ overrides = {
           "Earthquake",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -52541,7 +52541,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Super Fang",
@@ -52606,7 +52606,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -52620,12 +52620,12 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Iron Defense",
@@ -52716,7 +52716,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -52727,18 +52727,18 @@ overrides = {
           "Frustration",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Super Fang",
@@ -52786,7 +52786,7 @@ overrides = {
           ],
           [
             6,
-            "Confusion"
+            "Mitosis"
           ],
           [
             10,
@@ -52830,7 +52830,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -52848,14 +52848,14 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Psych Up",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -52910,7 +52910,7 @@ overrides = {
           ],
           [
             15,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             22,
@@ -52951,7 +52951,7 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -52966,12 +52966,12 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Rock Polish",
           "Stone Edge",
@@ -52983,7 +52983,7 @@ overrides = {
           "Rock Smash",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bounce",
@@ -53042,7 +53042,7 @@ overrides = {
           ],
           [
             6,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             7,
@@ -53054,7 +53054,7 @@ overrides = {
           ],
           [
             11,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             14,
@@ -53090,7 +53090,7 @@ overrides = {
           ],
           [
             21,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             24,
@@ -53102,7 +53102,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -53117,13 +53117,13 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Psych Up",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bounce",
@@ -53217,9 +53217,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -53228,7 +53228,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -53365,9 +53365,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -53376,7 +53376,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -53521,7 +53521,7 @@ overrides = {
           ],
           [
             69,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             70,
@@ -53536,9 +53536,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -53549,7 +53549,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -53671,11 +53671,11 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             20,
-            "Confusion"
+            "Mitosis"
           ],
           [
             20,
@@ -53725,14 +53725,14 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Earthquake",
           "Return",
@@ -53743,7 +53743,7 @@ overrides = {
           "Reflect",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -53818,7 +53818,7 @@ overrides = {
           ],
           [
             1,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             1,
@@ -53834,7 +53834,7 @@ overrides = {
           ],
           [
             20,
-            "Confusion"
+            "Mitosis"
           ],
           [
             20,
@@ -53878,11 +53878,11 @@ overrides = {
           ],
           [
             47,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             50,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             53,
@@ -53890,7 +53890,7 @@ overrides = {
           ],
           [
             56,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             59,
@@ -53912,14 +53912,14 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Earthquake",
           "Return",
@@ -53930,7 +53930,7 @@ overrides = {
           "Reflect",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -54055,9 +54055,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -54071,7 +54071,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -54184,7 +54184,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -54200,7 +54200,7 @@ overrides = {
           "Return",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -54316,9 +54316,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -54331,7 +54331,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -54425,7 +54425,7 @@ overrides = {
           ],
           [
             35,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             40,
@@ -54437,7 +54437,7 @@ overrides = {
           ],
           [
             50,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             55,
@@ -54474,15 +54474,15 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -54517,7 +54517,7 @@ overrides = {
           "Dragon Claw",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Draco Meteor",
@@ -54608,7 +54608,7 @@ overrides = {
           ],
           [
             50,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             55,
@@ -54624,7 +54624,7 @@ overrides = {
           ],
           [
             70,
-            "Telekinesis"
+            "Mind Numb"
           ],
           [
             75,
@@ -54645,15 +54645,15 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -54688,7 +54688,7 @@ overrides = {
           "Dragon Claw",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Draco Meteor",
@@ -54790,7 +54790,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -54806,11 +54806,11 @@ overrides = {
           "Return",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Thunder Wave",
           "Psych Up",
@@ -54822,7 +54822,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -54919,10 +54919,10 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -54939,7 +54939,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -55063,10 +55063,10 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -55083,7 +55083,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -55112,7 +55112,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Draco Meteor",
@@ -55161,7 +55161,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -55253,20 +55253,20 @@ overrides = {
           ],
           [
             71,
-            "Pay Day"
+            "Make It Rain"
           ]
         ],
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -55381,7 +55381,7 @@ overrides = {
           ],
           [
             57,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             65,
@@ -55397,7 +55397,7 @@ overrides = {
           ],
           [
             89,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             97,
@@ -55407,16 +55407,16 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -55428,7 +55428,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -55557,9 +55557,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -55680,9 +55680,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -55823,9 +55823,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -55837,7 +55837,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -55959,10 +55959,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -55984,7 +55984,7 @@ overrides = {
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Swords Dance",
           "Grass Knot",
@@ -56107,10 +56107,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -56120,7 +56120,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -56134,12 +56134,12 @@ overrides = {
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Retaliate",
           "Swords Dance",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -56269,10 +56269,10 @@ overrides = {
           "Hone Claws",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -56285,7 +56285,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -56299,7 +56299,7 @@ overrides = {
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Retaliate",
           "Giga Impact",
@@ -56307,7 +56307,7 @@ overrides = {
           "Swords Dance",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -56383,7 +56383,7 @@ overrides = {
           ],
           [
             9,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             12,
@@ -56419,7 +56419,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -56431,14 +56431,14 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Quash",
           "Grass Knot",
@@ -56448,7 +56448,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -56524,7 +56524,7 @@ overrides = {
           ],
           [
             20,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             23,
@@ -56557,7 +56557,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -56569,14 +56569,14 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Quash",
           "Shadow Claw",
@@ -56589,7 +56589,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -56640,7 +56640,7 @@ overrides = {
           ],
           [
             1,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             1,
@@ -56656,7 +56656,7 @@ overrides = {
           ],
           [
             1,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             1,
@@ -56672,11 +56672,11 @@ overrides = {
           ],
           [
             40,
-            "Psycho Cut"
+            "Sparkling Aria"
           ],
           [
             43,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             46,
@@ -56714,7 +56714,7 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -56728,14 +56728,14 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Quash",
           "Shadow Claw",
@@ -56752,7 +56752,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -56847,9 +56847,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -56862,7 +56862,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -56963,9 +56963,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -56979,7 +56979,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Retaliate",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -57090,9 +57090,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -57108,7 +57108,7 @@ overrides = {
           "Echoed Voice",
           "Retaliate",
           "Giga Impact",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -57192,7 +57192,7 @@ overrides = {
           ],
           [
             37,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             41,
@@ -57204,9 +57204,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -57228,7 +57228,7 @@ overrides = {
           "Charge Beam",
           "Retaliate",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Pluck",
@@ -57326,7 +57326,7 @@ overrides = {
           ],
           [
             43,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             48,
@@ -57338,9 +57338,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -57360,14 +57360,14 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Charge Beam",
           "Retaliate",
           "Giga Impact",
           "Thunder Wave",
           "Rollout",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Pluck",
@@ -57377,7 +57377,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Covet",
@@ -57531,9 +57531,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -57548,11 +57548,11 @@ overrides = {
           "Attract",
           "Round",
           "Echoed Voice",
-          "False Swipe",
+          "Mercy Slice",
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Swagger",
           "Substitute",
@@ -57651,7 +57651,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -57769,7 +57769,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -57898,7 +57898,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
@@ -57990,14 +57990,14 @@ overrides = {
           ],
           [
             19,
-            "Poison Powder"
+            "Itchy Pollen"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -58091,11 +58091,11 @@ overrides = {
           ],
           [
             1,
-            "Attack Order"
+            "Horde Swarm"
           ],
           [
             1,
-            "Heal Order"
+            "Pollination"
           ],
           [
             1,
@@ -58103,7 +58103,7 @@ overrides = {
           ],
           [
             1,
-            "Soft-Boiled"
+            "Flower Bloom"
           ],
           [
             1,
@@ -58115,18 +58115,18 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Parting Shot"
           ],
           [
             1,
-            "Egg Bomb"
+            "Mating Call"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -58241,9 +58241,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -58259,7 +58259,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -58380,9 +58380,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -58400,7 +58400,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -58524,9 +58524,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -58543,7 +58543,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -58665,9 +58665,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -58685,7 +58685,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -58812,11 +58812,11 @@ overrides = {
           ],
           [
             46,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             51,
-            "Rock Wrecker"
+            "Continent Crash"
           ]
         ],
         "tms": [],
@@ -58884,7 +58884,7 @@ overrides = {
           ],
           [
             23,
-            "Bone Club"
+            "Raging Rapids"
           ],
           [
             26,
@@ -58904,7 +58904,7 @@ overrides = {
           ],
           [
             38,
-            "Thrash"
+            "Rampage"
           ],
           [
             41,
@@ -58916,15 +58916,15 @@ overrides = {
           ],
           [
             47,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             52,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             56,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             61,
@@ -58940,10 +58940,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -58962,7 +58962,7 @@ overrides = {
           "Energy Ball",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Dream Eater",
           "Grass Knot",
@@ -59088,7 +59088,7 @@ overrides = {
           ],
           [
             47,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             52,
@@ -59112,14 +59112,14 @@ overrides = {
           ],
           [
             70,
-            "Rock Wrecker"
+            "Continent Crash"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -59137,10 +59137,10 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Dream Eater",
           "Swagger",
@@ -59235,7 +59235,7 @@ overrides = {
           ],
           [
             18,
-            "Defend Order"
+            "Honey Gather"
           ]
         ],
         "tms": [],
@@ -59311,7 +59311,7 @@ overrides = {
           ],
           [
             20,
-            "Defend Order"
+            "Honey Gather"
           ],
           [
             23,
@@ -59323,7 +59323,7 @@ overrides = {
           ],
           [
             29,
-            "Heal Order"
+            "Pollination"
           ],
           [
             33,
@@ -59339,11 +59339,11 @@ overrides = {
           ],
           [
             44,
-            "Attack Order"
+            "Horde Swarm"
           ],
           [
             46,
-            "-----"
+            "Mayday"
           ],
           [
             48,
@@ -59359,7 +59359,7 @@ overrides = {
           ],
           [
             60,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             64,
@@ -59367,15 +59367,15 @@ overrides = {
           ],
           [
             68,
-            "Horn Drill"
+            "Boomburst"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -59391,10 +59391,10 @@ overrides = {
           "Round",
           "Fling",
           "Quash",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -59491,7 +59491,7 @@ overrides = {
           ],
           [
             29,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             33,
@@ -59499,7 +59499,7 @@ overrides = {
           ],
           [
             37,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             41,
@@ -59515,7 +59515,7 @@ overrides = {
           ],
           [
             53,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             57,
@@ -59524,7 +59524,7 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -59624,7 +59624,7 @@ overrides = {
           ],
           [
             27,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             31,
@@ -59648,7 +59648,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Bulk Up",
           "Hidden Power",
@@ -59661,20 +59661,20 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Substitute",
           "Rock Smash",
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Ice Punch",
@@ -59718,7 +59718,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "-----"
+            "Flip Turn"
           ],
           [
             1,
@@ -59806,7 +59806,7 @@ overrides = {
           ],
           [
             61,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             66,
@@ -59815,7 +59815,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Bulk Up",
           "Hidden Power",
@@ -59830,7 +59830,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -59839,7 +59839,7 @@ overrides = {
           "Echoed Voice",
           "Focus Blast",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Payback",
           "Giga Impact",
           "Swagger",
@@ -59848,7 +59848,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Low Kick",
@@ -59915,11 +59915,11 @@ overrides = {
           ],
           [
             22,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             28,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             31,
@@ -59935,9 +59935,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Safeguard",
           "Frustration",
@@ -60025,7 +60025,7 @@ overrides = {
           ],
           [
             22,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             25,
@@ -60033,7 +60033,7 @@ overrides = {
           ],
           [
             30,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             35,
@@ -60049,9 +60049,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -60152,7 +60152,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -60166,11 +60166,11 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Substitute",
           "Psyshock",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Earth Power",
@@ -60265,7 +60265,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -60281,12 +60281,12 @@ overrides = {
           "Sludge Wave",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Flash",
           "Stone Edge",
@@ -60298,7 +60298,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Block",
@@ -60348,7 +60348,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -60356,7 +60356,7 @@ overrides = {
           ],
           [
             4,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             8,
@@ -60388,7 +60388,7 @@ overrides = {
           ],
           [
             32,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             36,
@@ -60405,9 +60405,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -60429,13 +60429,13 @@ overrides = {
           "Low Sweep",
           "Round",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Payback",
           "Retaliate",
           "Giga Impact",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -60496,7 +60496,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             1,
@@ -60557,12 +60557,12 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -60577,8 +60577,8 @@ overrides = {
           "Round",
           "Charge Beam",
           "Will-O-Wisp",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Explosion",
           "Payback",
           "Flash",
@@ -60638,7 +60638,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             1,
@@ -60698,7 +60698,7 @@ overrides = {
           ],
           [
             37,
-            "-----"
+            "Mayday"
           ],
           [
             40,
@@ -60718,7 +60718,7 @@ overrides = {
           ],
           [
             53,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             56,
@@ -60730,18 +60730,18 @@ overrides = {
           ],
           [
             62,
-            "-----"
+            "Bone Chill"
           ]
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -60756,8 +60756,8 @@ overrides = {
           "Round",
           "Charge Beam",
           "Will-O-Wisp",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Explosion",
           "Payback",
           "Giga Impact",
@@ -60853,7 +60853,7 @@ overrides = {
           ],
           [
             17,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             19,
@@ -60889,9 +60889,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Protect",
           "Rain Dance",
@@ -60910,7 +60910,7 @@ overrides = {
           "Charge Beam",
           "Retaliate",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -61047,11 +61047,11 @@ overrides = {
           ],
           [
             51,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             55,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             58,
@@ -61067,9 +61067,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -61094,7 +61094,7 @@ overrides = {
           "Retaliate",
           "Giga Impact",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -61183,7 +61183,7 @@ overrides = {
           ],
           [
             1,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             1,
@@ -61215,19 +61215,19 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Bone Chill"
           ]
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -61246,7 +61246,7 @@ overrides = {
           "Energy Ball",
           "Charge Beam",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -61312,7 +61312,7 @@ overrides = {
           ],
           [
             1,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             1,
@@ -61328,7 +61328,7 @@ overrides = {
           ],
           [
             1,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             1,
@@ -61356,7 +61356,7 @@ overrides = {
           ],
           [
             25,
-            "-----"
+            "Parting Shot"
           ],
           [
             25,
@@ -61400,14 +61400,14 @@ overrides = {
           ],
           [
             62,
-            "Twineedle"
+            "1st Impression"
           ]
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -61426,7 +61426,7 @@ overrides = {
           "Round",
           "Incinerate",
           "Quash",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -61538,9 +61538,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -61564,7 +61564,7 @@ overrides = {
           "Retaliate",
           "Flash",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "U-turn",
@@ -61682,9 +61682,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -61711,7 +61711,7 @@ overrides = {
           "Flash",
           "Psych Up",
           "Rollout",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "U-turn",
@@ -61774,7 +61774,7 @@ overrides = {
           ],
           [
             9,
-            "Confusion"
+            "Mitosis"
           ],
           [
             12,
@@ -61792,14 +61792,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -61921,7 +61921,7 @@ overrides = {
           ],
           [
             26,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             28,
@@ -61937,7 +61937,7 @@ overrides = {
           ],
           [
             38,
-            "Acid Spray"
+            "Belch"
           ],
           [
             44,
@@ -61951,10 +61951,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -62068,7 +62068,7 @@ overrides = {
           ],
           [
             1,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             1,
@@ -62080,7 +62080,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Mayday"
           ],
           [
             49,
@@ -62088,7 +62088,7 @@ overrides = {
           ],
           [
             52,
-            "-----"
+            "Amplification"
           ],
           [
             54,
@@ -62112,16 +62112,16 @@ overrides = {
           ],
           [
             67,
-            "Horn Drill"
+            "Boomburst"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -62142,7 +62142,7 @@ overrides = {
           "Round",
           "Sky Drop",
           "Incinerate",
-          "Move $681",
+          "Mayday",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -62202,7 +62202,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             5,
@@ -62264,13 +62264,13 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -62281,7 +62281,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -62346,7 +62346,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             1,
@@ -62422,32 +62422,32 @@ overrides = {
           ],
           [
             62,
-            "Pay Day"
+            "Make It Rain"
           ],
           [
             64,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             67,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             70,
-            "Razor Wind"
+            "Air Lash"
           ]
         ],
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -62458,7 +62458,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -62556,7 +62556,7 @@ overrides = {
           ],
           [
             22,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             26,
@@ -62581,9 +62581,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Smack Down",
@@ -62592,7 +62592,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -62661,7 +62661,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             4,
@@ -62673,7 +62673,7 @@ overrides = {
           ],
           [
             11,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             15,
@@ -62727,14 +62727,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -62830,14 +62830,14 @@ overrides = {
           ],
           [
             12,
-            "Sweet Kiss"
+            "Draining Kiss"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
@@ -62860,7 +62860,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -62932,11 +62932,11 @@ overrides = {
           ],
           [
             17,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             21,
-            "Chatter"
+            "Spirit Shackle"
           ],
           [
             25,
@@ -62964,7 +62964,7 @@ overrides = {
           ],
           [
             49,
-            "Synchronoise"
+            "Mindwave"
           ],
           [
             53,
@@ -62976,9 +62976,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -62993,7 +62993,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -63110,7 +63110,7 @@ overrides = {
           ],
           [
             55,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             61,
@@ -63135,20 +63135,20 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Return",
           "Psychic",
           "Shadow Ball",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -63157,7 +63157,7 @@ overrides = {
           "Round",
           "Quash",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Retaliate",
           "Giga Impact",
           "Flash",
@@ -63251,16 +63251,16 @@ overrides = {
           ],
           [
             24,
-            "Dragon Rush"
+            "Dragon Dash"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -63271,7 +63271,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -63333,7 +63333,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -63341,7 +63341,7 @@ overrides = {
           ],
           [
             3,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             7,
@@ -63377,7 +63377,7 @@ overrides = {
           ],
           [
             36,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             39,
@@ -63385,24 +63385,24 @@ overrides = {
           ],
           [
             42,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             45,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             48,
-            "Mega Kick"
+            "High Horsepower"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -63413,7 +63413,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -63478,7 +63478,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -63498,7 +63498,7 @@ overrides = {
           ],
           [
             3,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             7,
@@ -63542,11 +63542,11 @@ overrides = {
           ],
           [
             55,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             58,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             61,
@@ -63558,7 +63558,7 @@ overrides = {
           ],
           [
             68,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             71,
@@ -63577,9 +63577,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -63592,13 +63592,13 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Incinerate",
           "Shadow Claw",
@@ -63729,9 +63729,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -63749,7 +63749,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -63759,7 +63759,7 @@ overrides = {
           "Retaliate",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -63867,10 +63867,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -63879,7 +63879,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -63893,7 +63893,7 @@ overrides = {
           "Swords Dance",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -64029,7 +64029,7 @@ overrides = {
           ],
           [
             59,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             62,
@@ -64037,17 +64037,17 @@ overrides = {
           ],
           [
             65,
-            "Bestow"
+            "Adrenaline Shot"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -64059,7 +64059,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -64075,7 +64075,7 @@ overrides = {
           "Swords Dance",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -64136,7 +64136,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             7,
@@ -64177,9 +64177,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Earthquake",
@@ -64187,7 +64187,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -64256,7 +64256,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -64305,9 +64305,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -64316,7 +64316,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -64441,10 +64441,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -64455,7 +64455,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -64463,12 +64463,12 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Payback",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -64532,7 +64532,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Parting Shot"
           ],
           [
             1,
@@ -64584,7 +64584,7 @@ overrides = {
           ],
           [
             42,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             44,
@@ -64596,7 +64596,7 @@ overrides = {
           ],
           [
             50,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             53,
@@ -64604,24 +64604,24 @@ overrides = {
           ],
           [
             57,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             61,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             65,
-            "Twineedle"
+            "1st Impression"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -64634,7 +64634,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -64642,14 +64642,14 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Payback",
           "Retaliate",
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -64763,11 +64763,11 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
-          "Move $682",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -64780,7 +64780,7 @@ overrides = {
           "Double Team",
           "Sludge Wave",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -64790,13 +64790,13 @@ overrides = {
           "Round",
           "Focus Blast",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -64865,7 +64865,7 @@ overrides = {
           ],
           [
             1,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             1,
@@ -64929,11 +64929,11 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
-          "Move $682",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -64947,7 +64947,7 @@ overrides = {
           "Double Team",
           "Sludge Wave",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -64957,7 +64957,7 @@ overrides = {
           "Round",
           "Focus Blast",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -64966,7 +64966,7 @@ overrides = {
           "Rollout",
           "Rock Slide",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -65083,9 +65083,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -65204,7 +65204,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -65219,7 +65219,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Payback",
           "Flash",
           "Psych Up",
@@ -65228,7 +65228,7 @@ overrides = {
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -65277,7 +65277,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Flip Turn"
           ],
           [
             1,
@@ -65289,7 +65289,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Mayday"
           ],
           [
             1,
@@ -65305,7 +65305,7 @@ overrides = {
           ],
           [
             6,
-            "Acid"
+            "Acid Spray"
           ],
           [
             10,
@@ -65361,7 +65361,7 @@ overrides = {
           ],
           [
             62,
-            "Scald"
+            "Wave Crash"
           ],
           [
             65,
@@ -65369,7 +65369,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -65385,18 +65385,18 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Payback",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Swagger",
           "U-turn",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -65500,7 +65500,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -65516,15 +65516,15 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
-          "Move $681",
+          "Wave Crash",
+          "Mayday",
           "Rollout",
           "Rock Slide",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Signal Beam",
@@ -65616,7 +65616,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -65748,7 +65748,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -65765,7 +65765,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -65840,7 +65840,7 @@ overrides = {
           ],
           [
             1,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             1,
@@ -65860,7 +65860,7 @@ overrides = {
           ],
           [
             8,
-            "Beat Up"
+            "Vampiric Fangs"
           ],
           [
             10,
@@ -65916,7 +65916,7 @@ overrides = {
           ],
           [
             55,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             59,
@@ -65924,16 +65924,16 @@ overrides = {
           ],
           [
             62,
-            "-----"
+            "Piercing Freeze"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -65956,9 +65956,9 @@ overrides = {
           "Low Sweep",
           "Round",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -66110,9 +66110,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -66228,7 +66228,7 @@ overrides = {
           ],
           [
             32,
-            "Acid Spray"
+            "Belch"
           ],
           [
             36,
@@ -66248,7 +66248,7 @@ overrides = {
           ],
           [
             45,
-            "Defend Order"
+            "Honey Gather"
           ],
           [
             47,
@@ -66264,7 +66264,7 @@ overrides = {
           ],
           [
             54,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             56,
@@ -66272,17 +66272,17 @@ overrides = {
           ],
           [
             59,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             63,
-            "Mega Kick"
+            "High Horsepower"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -66301,7 +66301,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -66319,7 +66319,7 @@ overrides = {
           "Rollout",
           "Rock Slide",
           "Draco Meteor",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Swagger",
           "Substitute",
@@ -66391,7 +66391,7 @@ overrides = {
           ],
           [
             1,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             9,
@@ -66399,7 +66399,7 @@ overrides = {
           ],
           [
             19,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             19,
@@ -66435,7 +66435,7 @@ overrides = {
           ],
           [
             71,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             77,
@@ -66443,14 +66443,14 @@ overrides = {
           ],
           [
             86,
-            "Rock Wrecker"
+            "Continent Crash"
           ]
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -66468,7 +66468,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -66549,7 +66549,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             1,
@@ -66569,7 +66569,7 @@ overrides = {
           ],
           [
             14,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             17,
@@ -66625,9 +66625,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -66638,7 +66638,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -66683,7 +66683,7 @@ overrides = {
         "Regenerator"
       ],
       "evoType": "levelMove",
-      "evoMove": "Ancientpower"
+      "evoMove": "Ancient Power"
     },
     "Electivire": {
       "name": "Electivire",
@@ -66777,7 +66777,7 @@ overrides = {
           ],
           [
             48,
-            "Beat Up"
+            "Vampiric Fangs"
           ],
           [
             51,
@@ -66793,15 +66793,15 @@ overrides = {
           ],
           [
             62,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             65,
-            "-----"
+            "Strangle"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
@@ -66818,7 +66818,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Flamethrower",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -66949,7 +66949,7 @@ overrides = {
           ],
           [
             42,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             45,
@@ -66977,7 +66977,7 @@ overrides = {
           ],
           [
             66,
-            "Scald"
+            "Wave Crash"
           ],
           [
             69,
@@ -66985,9 +66985,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -67001,7 +67001,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Flame Charge",
@@ -67085,14 +67085,14 @@ overrides = {
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -67117,7 +67117,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -67177,7 +67177,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Acid"
+            "Acid Spray"
           ],
           [
             1,
@@ -67245,7 +67245,7 @@ overrides = {
           ],
           [
             38,
-            "Acid Spray"
+            "Belch"
           ],
           [
             43,
@@ -67269,13 +67269,13 @@ overrides = {
           ],
           [
             62,
-            "Acid Spray"
+            "Belch"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -67292,7 +67292,7 @@ overrides = {
           "Round",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Dream Eater",
           "Swagger",
@@ -67400,7 +67400,7 @@ overrides = {
           ],
           [
             37,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             41,
@@ -67424,7 +67424,7 @@ overrides = {
           ],
           [
             58,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             61,
@@ -67432,14 +67432,14 @@ overrides = {
           ],
           [
             65,
-            "-----"
+            "Solar Blade"
           ]
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -67461,7 +67461,7 @@ overrides = {
           "Flash",
           "Swords Dance",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -67547,7 +67547,7 @@ overrides = {
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
@@ -67592,10 +67592,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -67614,7 +67614,7 @@ overrides = {
           "Retaliate",
           "Giga Impact",
           "Frost Breath",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -67674,7 +67674,7 @@ overrides = {
           ],
           [
             1,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             1,
@@ -67682,7 +67682,7 @@ overrides = {
           ],
           [
             10,
-            "Beat Up"
+            "Vampiric Fangs"
           ],
           [
             16,
@@ -67698,7 +67698,7 @@ overrides = {
           ],
           [
             32,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             35,
@@ -67706,7 +67706,7 @@ overrides = {
           ],
           [
             37,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             40,
@@ -67714,7 +67714,7 @@ overrides = {
           ],
           [
             43,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             45,
@@ -67730,7 +67730,7 @@ overrides = {
           ],
           [
             52,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             55,
@@ -67763,10 +67763,10 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -67779,7 +67779,7 @@ overrides = {
           "Double Team",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -67787,15 +67787,15 @@ overrides = {
           "Attract",
           "Venoshock",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Giga Impact",
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -67894,7 +67894,7 @@ overrides = {
           ],
           [
             33,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             36,
@@ -67906,7 +67906,7 @@ overrides = {
           ],
           [
             41,
-            "Thrash"
+            "Rampage"
           ],
           [
             43,
@@ -67926,7 +67926,7 @@ overrides = {
           ],
           [
             56,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             59,
@@ -67934,11 +67934,11 @@ overrides = {
           ],
           [
             62,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             65,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             69,
@@ -67951,7 +67951,7 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -67967,7 +67967,7 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -68046,7 +68046,7 @@ overrides = {
           ],
           [
             1,
-            "Conversion"
+            "Toxic Fury"
           ],
           [
             1,
@@ -68054,7 +68054,7 @@ overrides = {
           ],
           [
             1,
-            "Conversion 2"
+            "Anti-Malware"
           ],
           [
             1,
@@ -68090,11 +68090,11 @@ overrides = {
           ],
           [
             60,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             63,
-            "Pay Day"
+            "Make It Rain"
           ],
           [
             67,
@@ -68106,7 +68106,7 @@ overrides = {
           ],
           [
             73,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             77,
@@ -68115,9 +68115,9 @@ overrides = {
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -68137,7 +68137,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Charge Beam",
-          "Psycho Shift",
+          "Infernal Parade",
           "Giga Impact",
           "Flash",
           "Volt Switch",
@@ -68214,7 +68214,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -68226,7 +68226,7 @@ overrides = {
           ],
           [
             6,
-            "Confusion"
+            "Mitosis"
           ],
           [
             10,
@@ -68254,7 +68254,7 @@ overrides = {
           ],
           [
             36,
-            "Psycho Cut"
+            "Sparkling Aria"
           ],
           [
             39,
@@ -68266,7 +68266,7 @@ overrides = {
           ],
           [
             50,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             53,
@@ -68284,16 +68284,16 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -68304,7 +68304,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -68316,7 +68316,7 @@ overrides = {
           "Echoed Voice",
           "Ally Switch",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
@@ -68330,7 +68330,7 @@ overrides = {
           "Rollout",
           "Rock Slide",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Dream Eater",
           "Grass Knot",
@@ -68477,9 +68477,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -68491,7 +68491,7 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -68657,16 +68657,16 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Earthquake",
           "Return",
@@ -68674,7 +68674,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -68685,7 +68685,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -68808,7 +68808,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -68818,7 +68818,7 @@ overrides = {
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -68833,7 +68833,7 @@ overrides = {
           "Attract",
           "Round",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -68949,13 +68949,13 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -69023,7 +69023,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             6,
@@ -69069,14 +69069,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -69094,7 +69094,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -69163,7 +69163,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             6,
@@ -69209,16 +69209,16 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -69235,7 +69235,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -69301,7 +69301,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             6,
@@ -69347,15 +69347,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -69376,7 +69376,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Incinerate",
-          "Move $681",
+          "Mayday",
           "Explosion",
           "Payback",
           "Giga Impact",
@@ -69487,7 +69487,7 @@ overrides = {
           ],
           [
             46,
-            "Roar of Time"
+            "Serene Bliss"
           ],
           [
             50,
@@ -69498,10 +69498,10 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -69518,7 +69518,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -69633,7 +69633,7 @@ overrides = {
           ],
           [
             46,
-            "Spacial Rend"
+            "Bitter Malice"
           ],
           [
             50,
@@ -69644,11 +69644,11 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -69665,7 +69665,7 @@ overrides = {
           "Flamethrower",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -69689,7 +69689,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Calm Mind",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Draco Meteor",
@@ -69798,9 +69798,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -69812,7 +69812,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Flame Charge",
@@ -69933,9 +69933,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Rain Dance",
           "Safeguard",
@@ -69947,7 +69947,7 @@ overrides = {
           "Return",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Round",
@@ -70070,13 +70070,13 @@ overrides = {
           "Dragon Claw",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -70158,7 +70158,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -70186,7 +70186,7 @@ overrides = {
           ],
           [
             53,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             57,
@@ -70194,15 +70194,15 @@ overrides = {
           ],
           [
             66,
-            "Psycho Cut"
+            "Sparkling Aria"
           ],
           [
             70,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             75,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             84,
@@ -70216,15 +70216,15 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -70314,7 +70314,7 @@ overrides = {
           ],
           [
             31,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             39,
@@ -70338,7 +70338,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -70352,7 +70352,7 @@ overrides = {
           "Facade",
           "Rest",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Psych Up",
           "Grass Knot",
@@ -70361,7 +70361,7 @@ overrides = {
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Covet",
@@ -70438,7 +70438,7 @@ overrides = {
           ],
           [
             31,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             39,
@@ -70467,7 +70467,7 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -70487,7 +70487,7 @@ overrides = {
           "Rest",
           "Round",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Giga Impact",
           "Flash",
@@ -70498,7 +70498,7 @@ overrides = {
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Covet",
@@ -70595,9 +70595,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Blizzard",
@@ -70613,7 +70613,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -70625,7 +70625,7 @@ overrides = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -70754,7 +70754,7 @@ overrides = {
           ],
           [
             46,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             48,
@@ -70766,7 +70766,7 @@ overrides = {
           ],
           [
             52,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             55,
@@ -70778,13 +70778,13 @@ overrides = {
           ],
           [
             63,
-            "Mist Ball"
+            "Moonblast"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -70900,7 +70900,7 @@ overrides = {
           ],
           [
             100,
-            "Judgment"
+            "Element Bash"
           ]
         ],
         "tms": [
@@ -70909,17 +70909,17 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -70936,7 +70936,7 @@ overrides = {
           "Sludge Bomb",
           "Sandstorm",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -70961,7 +70961,7 @@ overrides = {
           "Rollout",
           "Rock Slide",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Dream Eater",
           "Grass Knot",
@@ -71034,7 +71034,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Searing Shot"
+            "Dopey Eyes"
           ],
           [
             1,
@@ -71082,7 +71082,7 @@ overrides = {
           ],
           [
             25,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             27,
@@ -71098,7 +71098,7 @@ overrides = {
           ],
           [
             35,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             39,
@@ -71114,7 +71114,7 @@ overrides = {
           ],
           [
             51,
-            "Pay Day"
+            "Make It Rain"
           ],
           [
             55,
@@ -71122,7 +71122,7 @@ overrides = {
           ],
           [
             58,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             65,
@@ -71131,14 +71131,14 @@ overrides = {
         ],
         "tms": [
           "Psyshock",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -71162,13 +71162,13 @@ overrides = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Giga Impact",
           "Flash",
           "Volt Switch",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "U-turn",
@@ -71289,9 +71289,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
@@ -71445,9 +71445,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Light Screen",
           "Protect",
@@ -71530,7 +71530,7 @@ overrides = {
           ],
           [
             4,
-            "-----"
+            "Treasure Hoard"
           ],
           [
             7,
@@ -71538,7 +71538,7 @@ overrides = {
           ],
           [
             10,
-            "Beat Up"
+            "Vampiric Fangs"
           ],
           [
             13,
@@ -71570,7 +71570,7 @@ overrides = {
           ],
           [
             40,
-            "Frenzy Plant"
+            "Wilting Frenzy"
           ],
           [
             42,
@@ -71598,7 +71598,7 @@ overrides = {
           ],
           [
             58,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             62,
@@ -71610,18 +71610,18 @@ overrides = {
           ],
           [
             70,
-            "Acid Spray"
+            "Belch"
           ],
           [
             72,
-            "-----"
+            "Strangle"
           ]
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
@@ -71765,9 +71765,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -71776,7 +71776,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -71879,7 +71879,7 @@ overrides = {
           ],
           [
             21,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             23,
@@ -71916,9 +71916,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -71928,7 +71928,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -71945,7 +71945,7 @@ overrides = {
           "Gyro Ball",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -72024,7 +72024,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Sun Flare"
           ],
           [
             1,
@@ -72044,7 +72044,7 @@ overrides = {
           ],
           [
             40,
-            "Blast Burn"
+            "Scorching Swing"
           ],
           [
             42,
@@ -72080,7 +72080,7 @@ overrides = {
           ],
           [
             61,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             64,
@@ -72088,7 +72088,7 @@ overrides = {
           ],
           [
             67,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             70,
@@ -72101,10 +72101,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -72117,7 +72117,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -72127,7 +72127,7 @@ overrides = {
           "Echoed Voice",
           "Overheat",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
@@ -72136,7 +72136,7 @@ overrides = {
           "Gyro Ball",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -72198,7 +72198,7 @@ overrides = {
           ],
           [
             5,
-            "Searing Shot"
+            "Dopey Eyes"
           ],
           [
             6,
@@ -72262,7 +72262,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -72279,8 +72279,8 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Fling",
           "Retaliate",
           "Swords Dance",
@@ -72292,7 +72292,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -72410,7 +72410,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -72427,8 +72427,8 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Fling",
           "Retaliate",
           "Swords Dance",
@@ -72440,7 +72440,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -72532,11 +72532,11 @@ overrides = {
           ],
           [
             40,
-            "Hydro Cannon"
+            "Wave Maelstrom"
           ],
           [
             43,
-            "Sacred Fire"
+            "Tsunami"
           ],
           [
             46,
@@ -72580,7 +72580,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -72598,8 +72598,8 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Fling",
           "Retaliate",
           "Giga Impact",
@@ -72614,7 +72614,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Water Pledge",
@@ -72686,7 +72686,7 @@ overrides = {
           ],
           [
             13,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             15,
@@ -72698,7 +72698,7 @@ overrides = {
           ],
           [
             21,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             23,
@@ -72722,9 +72722,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -72740,7 +72740,7 @@ overrides = {
           "Fling",
           "Retaliate",
           "Swords Dance",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -72831,7 +72831,7 @@ overrides = {
           ],
           [
             20,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             22,
@@ -72891,9 +72891,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -72918,7 +72918,7 @@ overrides = {
           "Thunder Wave",
           "Swords Dance",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -73033,9 +73033,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -73044,7 +73044,7 @@ overrides = {
           "Dig",
           "Shadow Ball",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -73053,7 +73053,7 @@ overrides = {
           "Retaliate",
           "Giga Impact",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Wild Charge",
@@ -73163,9 +73163,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -73174,7 +73174,7 @@ overrides = {
           "Dig",
           "Shadow Ball",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -73184,7 +73184,7 @@ overrides = {
           "Retaliate",
           "Giga Impact",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Wild Charge",
@@ -73301,11 +73301,11 @@ overrides = {
           ],
           [
             49,
-            "Bonemerang"
+            "Fluffy Coat"
           ],
           [
             52,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             54,
@@ -73326,9 +73326,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -73339,7 +73339,7 @@ overrides = {
           "Dig",
           "Shadow Ball",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -73349,7 +73349,7 @@ overrides = {
           "Retaliate",
           "Giga Impact",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Wild Charge",
@@ -73478,9 +73478,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -73496,7 +73496,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Thunder Wave",
@@ -73574,11 +73574,11 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Parting Shot"
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             3,
@@ -73630,7 +73630,7 @@ overrides = {
           ],
           [
             49,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             52,
@@ -73642,11 +73642,11 @@ overrides = {
           ],
           [
             60,
-            "Pay Day"
+            "Make It Rain"
           ],
           [
             64,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             68,
@@ -73655,9 +73655,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -73674,7 +73674,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Echoed Voice",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Giga Impact",
@@ -73799,9 +73799,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -73809,7 +73809,7 @@ overrides = {
           "Return",
           "Dig",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -73819,11 +73819,11 @@ overrides = {
           "Round",
           "Energy Ball",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Payback",
           "Flash",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -73926,7 +73926,7 @@ overrides = {
           ],
           [
             1,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             1,
@@ -73934,7 +73934,7 @@ overrides = {
           ],
           [
             1,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             1,
@@ -73943,9 +73943,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -73955,7 +73955,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -73966,13 +73966,13 @@ overrides = {
           "Focus Blast",
           "Energy Ball",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Payback",
           "Giga Impact",
           "Flash",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -74092,9 +74092,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -74104,7 +74104,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Flame Charge",
@@ -74117,10 +74117,10 @@ overrides = {
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Payback",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -74213,7 +74213,7 @@ overrides = {
           ],
           [
             1,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             1,
@@ -74238,9 +74238,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -74252,7 +74252,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Flame Charge",
@@ -74266,12 +74266,12 @@ overrides = {
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Payback",
           "Giga Impact",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -74356,7 +74356,7 @@ overrides = {
           ],
           [
             22,
-            "Scald"
+            "Wave Crash"
           ],
           [
             25,
@@ -74389,7 +74389,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -74401,7 +74401,7 @@ overrides = {
           "Return",
           "Dig",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -74409,12 +74409,12 @@ overrides = {
           "Venoshock",
           "Low Sweep",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Payback",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -74422,7 +74422,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Covet",
@@ -74491,7 +74491,7 @@ overrides = {
           ],
           [
             1,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             1,
@@ -74511,7 +74511,7 @@ overrides = {
           ],
           [
             1,
-            "Scald"
+            "Wave Crash"
           ],
           [
             1,
@@ -74531,12 +74531,12 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Flip Turn"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -74550,7 +74550,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -74559,14 +74559,14 @@ overrides = {
           "Low Sweep",
           "Round",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Payback",
           "Giga Impact",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -74574,7 +74574,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Covet",
@@ -74631,7 +74631,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             5,
@@ -74691,7 +74691,7 @@ overrides = {
           ],
           [
             43,
-            "Telekinesis"
+            "Mind Numb"
           ],
           [
             47,
@@ -74701,12 +74701,12 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -74714,7 +74714,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -74814,7 +74814,7 @@ overrides = {
           ],
           [
             1,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             1,
@@ -74836,13 +74836,13 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -74850,7 +74850,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -74958,7 +74958,7 @@ overrides = {
           ],
           [
             32,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             39,
@@ -74978,9 +74978,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -74993,7 +74993,7 @@ overrides = {
           "Attract",
           "Round",
           "Echoed Voice",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -75083,7 +75083,7 @@ overrides = {
           ],
           [
             24,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             27,
@@ -75095,11 +75095,11 @@ overrides = {
           ],
           [
             33,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             35,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             41,
@@ -75123,9 +75123,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -75138,7 +75138,7 @@ overrides = {
           "Attract",
           "Round",
           "Echoed Voice",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -75190,7 +75190,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             1,
@@ -75242,7 +75242,7 @@ overrides = {
           ],
           [
             38,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             41,
@@ -75278,7 +75278,7 @@ overrides = {
           ],
           [
             65,
-            "Super Fang"
+            "Piercing Fang"
           ],
           [
             68,
@@ -75286,9 +75286,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -75304,7 +75304,7 @@ overrides = {
           "Echoed Voice",
           "Giga Impact",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -75404,11 +75404,11 @@ overrides = {
           ],
           [
             43,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -75528,11 +75528,11 @@ overrides = {
           ],
           [
             31,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             34,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             36,
@@ -75552,7 +75552,7 @@ overrides = {
           ],
           [
             53,
-            "Thrash"
+            "Rampage"
           ],
           [
             57,
@@ -75564,11 +75564,11 @@ overrides = {
           ],
           [
             65,
-            "Mega Kick"
+            "High Horsepower"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
@@ -75642,7 +75642,7 @@ overrides = {
           ],
           [
             7,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             10,
@@ -75686,7 +75686,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Protect",
           "Frustration",
@@ -75695,7 +75695,7 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -75761,7 +75761,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -75773,7 +75773,7 @@ overrides = {
           ],
           [
             7,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             10,
@@ -75817,7 +75817,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Protect",
           "Frustration",
@@ -75826,7 +75826,7 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -75902,11 +75902,11 @@ overrides = {
           ],
           [
             1,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             1,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             1,
@@ -75958,7 +75958,7 @@ overrides = {
           ],
           [
             52,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             56,
@@ -75982,7 +75982,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
@@ -75993,7 +75993,7 @@ overrides = {
           "Return",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -76054,7 +76054,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             4,
@@ -76112,13 +76112,13 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -76135,8 +76135,8 @@ overrides = {
           "Round",
           "Energy Ball",
           "Charge Beam",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Flash",
           "Thunder Wave",
           "Gyro Ball",
@@ -76202,7 +76202,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -76210,7 +76210,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Mayday"
           ],
           [
             1,
@@ -76290,7 +76290,7 @@ overrides = {
           ],
           [
             65,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             68,
@@ -76300,14 +76300,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -76324,8 +76324,8 @@ overrides = {
           "Round",
           "Energy Ball",
           "Charge Beam",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -76455,7 +76455,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Protect",
           "Frustration",
@@ -76466,7 +76466,7 @@ overrides = {
           "Double Team",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -76583,7 +76583,7 @@ overrides = {
           ],
           [
             31,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             36,
@@ -76616,7 +76616,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
@@ -76628,7 +76628,7 @@ overrides = {
           "Double Team",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -76740,7 +76740,7 @@ overrides = {
           ],
           [
             10,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             15,
@@ -76786,16 +76786,16 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -76821,7 +76821,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -76951,10 +76951,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -76964,7 +76964,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -76976,7 +76976,7 @@ overrides = {
           "Retaliate",
           "Stone Edge",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -77058,7 +77058,7 @@ overrides = {
           ],
           [
             16,
-            "Bone Club"
+            "Raging Rapids"
           ],
           [
             20,
@@ -77098,10 +77098,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -77111,7 +77111,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -77123,7 +77123,7 @@ overrides = {
           "Retaliate",
           "Stone Edge",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -77268,10 +77268,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -77283,7 +77283,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -77297,7 +77297,7 @@ overrides = {
           "Stone Edge",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -77406,7 +77406,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Protect",
@@ -77421,7 +77421,7 @@ overrides = {
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Substitute",
           "Psyshock"
@@ -77534,7 +77534,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Protect",
@@ -77549,7 +77549,7 @@ overrides = {
           "Attract",
           "Round",
           "Echoed Voice",
-          "Scald",
+          "Wave Crash",
           "Rollout",
           "Swagger",
           "Substitute",
@@ -77616,7 +77616,7 @@ overrides = {
           ],
           [
             1,
-            "Submission"
+            "Play Rough"
           ],
           [
             1,
@@ -77664,7 +77664,7 @@ overrides = {
           ],
           [
             36,
-            "Acid"
+            "Acid Spray"
           ],
           [
             39,
@@ -77692,13 +77692,13 @@ overrides = {
           ],
           [
             66,
-            "Horn Drill"
+            "Boomburst"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
-          "Move $682",
+          "Noxious Shift",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
@@ -77711,14 +77711,14 @@ overrides = {
           "Double Team",
           "Sludge Wave",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Echoed Voice",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Fling",
           "Payback",
           "Giga Impact",
@@ -77832,7 +77832,7 @@ overrides = {
           ],
           [
             25,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             29,
@@ -77868,10 +77868,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -77881,7 +77881,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -77895,7 +77895,7 @@ overrides = {
           "Stone Edge",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -77967,7 +77967,7 @@ overrides = {
           ],
           [
             5,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             9,
@@ -77987,7 +77987,7 @@ overrides = {
           ],
           [
             25,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             29,
@@ -78031,10 +78031,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -78044,7 +78044,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -78058,7 +78058,7 @@ overrides = {
           "Stone Edge",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -78144,9 +78144,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -78161,7 +78161,7 @@ overrides = {
           "Energy Ball",
           "Payback",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -78268,9 +78268,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -78285,7 +78285,7 @@ overrides = {
           "Energy Ball",
           "Payback",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -78401,7 +78401,7 @@ overrides = {
           ],
           [
             57,
-            "Submission"
+            "Play Rough"
           ],
           [
             60,
@@ -78413,15 +78413,15 @@ overrides = {
           ],
           [
             66,
-            "Frenzy Plant"
+            "Wilting Frenzy"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -78437,14 +78437,14 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Shadow Claw",
           "Payback",
           "Retaliate",
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Dream Eater",
@@ -78545,7 +78545,7 @@ overrides = {
           ],
           [
             36,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             40,
@@ -78557,10 +78557,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -78573,7 +78573,7 @@ overrides = {
           "Round",
           "Payback",
           "Gyro Ball",
-          "Egg Bomb",
+          "Mating Call",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -78636,7 +78636,7 @@ overrides = {
           ],
           [
             1,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             5,
@@ -78656,7 +78656,7 @@ overrides = {
           ],
           [
             17,
-            "-----"
+            "Rising Torque"
           ],
           [
             19,
@@ -78692,10 +78692,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -78708,7 +78708,7 @@ overrides = {
           "Round",
           "Payback",
           "Gyro Ball",
-          "Egg Bomb",
+          "Mating Call",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -78765,7 +78765,7 @@ overrides = {
           ],
           [
             1,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             1,
@@ -78837,7 +78837,7 @@ overrides = {
           ],
           [
             57,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             60,
@@ -78849,14 +78849,14 @@ overrides = {
           ],
           [
             68,
-            "-----"
+            "Strangle"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -78866,7 +78866,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -78875,7 +78875,7 @@ overrides = {
           "Giga Impact",
           "Gyro Ball",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -78958,7 +78958,7 @@ overrides = {
           ],
           [
             22,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             26,
@@ -78982,7 +78982,7 @@ overrides = {
           ],
           [
             40,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             44,
@@ -78994,9 +78994,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Safeguard",
@@ -79085,7 +79085,7 @@ overrides = {
           ],
           [
             1,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             1,
@@ -79113,9 +79113,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
@@ -79240,7 +79240,7 @@ overrides = {
           ],
           [
             40,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             44,
@@ -79252,9 +79252,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Safeguard",
           "Frustration",
@@ -79379,9 +79379,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -79537,7 +79537,7 @@ overrides = {
           ],
           [
             56,
-            "Thrash"
+            "Rampage"
           ],
           [
             58,
@@ -79545,7 +79545,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -79559,13 +79559,13 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Substitute",
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bounce",
@@ -79621,7 +79621,7 @@ overrides = {
           ],
           [
             7,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             10,
@@ -79673,13 +79673,13 @@ overrides = {
           ],
           [
             46,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Protect",
@@ -79690,7 +79690,7 @@ overrides = {
           "Double Team",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -79698,7 +79698,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Stone Edge",
@@ -79768,7 +79768,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             4,
@@ -79776,7 +79776,7 @@ overrides = {
           ],
           [
             7,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             10,
@@ -79828,13 +79828,13 @@ overrides = {
           ],
           [
             52,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Protect",
@@ -79846,7 +79846,7 @@ overrides = {
           "Double Team",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -79856,7 +79856,7 @@ overrides = {
           "Round",
           "Fling",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -79950,7 +79950,7 @@ overrides = {
           ],
           [
             7,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             10,
@@ -79982,11 +79982,11 @@ overrides = {
           ],
           [
             52,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             56,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             60,
@@ -79994,7 +79994,7 @@ overrides = {
           ],
           [
             64,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             67,
@@ -80002,14 +80002,14 @@ overrides = {
           ],
           [
             70,
-            "-----"
+            "Parting Shot"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
           "Taunt",
@@ -80024,7 +80024,7 @@ overrides = {
           "Double Team",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -80036,7 +80036,7 @@ overrides = {
           "Focus Blast",
           "Fling",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -80144,7 +80144,7 @@ overrides = {
           ],
           [
             27,
-            "Thrash"
+            "Rampage"
           ],
           [
             30,
@@ -80169,9 +80169,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Frustration",
@@ -80182,7 +80182,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -80195,7 +80195,7 @@ overrides = {
           "Will-O-Wisp",
           "Gyro Ball",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "U-turn",
@@ -80283,7 +80283,7 @@ overrides = {
           ],
           [
             27,
-            "Thrash"
+            "Rampage"
           ],
           [
             30,
@@ -80311,7 +80311,7 @@ overrides = {
           ],
           [
             50,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             53,
@@ -80327,11 +80327,11 @@ overrides = {
           ],
           [
             65,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             67,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             69,
@@ -80340,10 +80340,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -80358,7 +80358,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Flame Charge",
@@ -80377,7 +80377,7 @@ overrides = {
           "Gyro Ball",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "U-turn",
@@ -80436,7 +80436,7 @@ overrides = {
           ],
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             3,
@@ -80472,7 +80472,7 @@ overrides = {
           ],
           [
             24,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             26,
@@ -80524,9 +80524,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Safeguard",
           "Frustration",
@@ -80603,7 +80603,7 @@ overrides = {
           ],
           [
             11,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             13,
@@ -80647,12 +80647,12 @@ overrides = {
           ],
           [
             43,
-            "Rock Wrecker"
+            "Continent Crash"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Protect",
           "Frustration",
@@ -80663,7 +80663,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -80673,7 +80673,7 @@ overrides = {
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -80739,7 +80739,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             5,
@@ -80751,7 +80751,7 @@ overrides = {
           ],
           [
             11,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             13,
@@ -80795,12 +80795,12 @@ overrides = {
           ],
           [
             55,
-            "Rock Wrecker"
+            "Continent Crash"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
@@ -80812,7 +80812,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -80823,7 +80823,7 @@ overrides = {
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -80884,7 +80884,7 @@ overrides = {
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
@@ -80942,10 +80942,10 @@ overrides = {
         "tms": [
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -80956,7 +80956,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -80971,7 +80971,7 @@ overrides = {
           "Stone Edge",
           "Rock Slide",
           "Draco Meteor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -81039,7 +81039,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             1,
@@ -81055,7 +81055,7 @@ overrides = {
           ],
           [
             5,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             9,
@@ -81111,7 +81111,7 @@ overrides = {
           ],
           [
             55,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             58,
@@ -81129,10 +81129,10 @@ overrides = {
         "tms": [
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -81144,7 +81144,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -81161,7 +81161,7 @@ overrides = {
           "Stone Edge",
           "Rock Slide",
           "Draco Meteor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -81273,7 +81273,7 @@ overrides = {
           ],
           [
             36,
-            "-----"
+            "Amplification"
           ],
           [
             38,
@@ -81305,7 +81305,7 @@ overrides = {
           ],
           [
             58,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             66,
@@ -81319,14 +81319,14 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Ice Beam",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -81450,7 +81450,7 @@ overrides = {
           ],
           [
             41,
-            "Grudge"
+            "Scale Shot"
           ],
           [
             45,
@@ -81463,11 +81463,11 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -81481,7 +81481,7 @@ overrides = {
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Flash",
           "Psych Up",
@@ -81605,7 +81605,7 @@ overrides = {
           ],
           [
             45,
-            "Grudge"
+            "Scale Shot"
           ],
           [
             51,
@@ -81638,12 +81638,12 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Return",
@@ -81657,7 +81657,7 @@ overrides = {
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -81790,7 +81790,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -81803,12 +81803,12 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Rock Polish",
           "Stone Edge",
           "Rollout",
@@ -81819,7 +81819,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Block",
@@ -81866,7 +81866,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Bone Club"
+            "Raging Rapids"
           ],
           [
             1,
@@ -81954,7 +81954,7 @@ overrides = {
           ],
           [
             65,
-            "Scald"
+            "Wave Crash"
           ],
           [
             68,
@@ -81962,7 +81962,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -81976,13 +81976,13 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Focus Blast",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Rock Polish",
           "Stone Edge",
@@ -81994,7 +81994,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Iron Head",
@@ -82087,7 +82087,7 @@ overrides = {
           ],
           [
             26,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             28,
@@ -82119,14 +82119,14 @@ overrides = {
           ],
           [
             51,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Protect",
@@ -82137,14 +82137,14 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Rock Polish",
           "Stone Edge",
@@ -82291,7 +82291,7 @@ overrides = {
           ],
           [
             61,
-            "Thrash"
+            "Rampage"
           ],
           [
             65,
@@ -82306,7 +82306,7 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
@@ -82318,7 +82318,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -82326,7 +82326,7 @@ overrides = {
           "Attract",
           "Round",
           "Focus Blast",
-          "Move $681",
+          "Mayday",
           "Shadow Claw",
           "Giga Impact",
           "Rock Polish",
@@ -82409,15 +82409,15 @@ overrides = {
           ],
           [
             12,
-            "Acid Spray"
+            "Belch"
           ],
           [
             14,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             18,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             23,
@@ -82441,7 +82441,7 @@ overrides = {
           ],
           [
             36,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             40,
@@ -82457,10 +82457,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -82552,15 +82552,15 @@ overrides = {
           ],
           [
             12,
-            "Acid Spray"
+            "Belch"
           ],
           [
             14,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             18,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             23,
@@ -82600,7 +82600,7 @@ overrides = {
           ],
           [
             48,
-            "Acid Spray"
+            "Belch"
           ],
           [
             51,
@@ -82608,7 +82608,7 @@ overrides = {
           ],
           [
             55,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             59,
@@ -82616,10 +82616,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -82758,9 +82758,9 @@ overrides = {
           "Hone Claws",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -82778,7 +82778,7 @@ overrides = {
           "Round",
           "Fling",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Swords Dance",
@@ -82854,7 +82854,7 @@ overrides = {
           ],
           [
             5,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             9,
@@ -82890,7 +82890,7 @@ overrides = {
           ],
           [
             37,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             39,
@@ -82910,7 +82910,7 @@ overrides = {
           ],
           [
             48,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             51,
@@ -82926,7 +82926,7 @@ overrides = {
           ],
           [
             59,
-            "Spacial Rend"
+            "Bitter Malice"
           ],
           [
             63,
@@ -82937,9 +82937,9 @@ overrides = {
           "Hone Claws",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -82961,7 +82961,7 @@ overrides = {
           "Focus Blast",
           "Fling",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -83039,7 +83039,7 @@ overrides = {
           ],
           [
             13,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             15,
@@ -83055,7 +83055,7 @@ overrides = {
           ],
           [
             22,
-            "Cross Chop"
+            "Tidy Up"
           ],
           [
             25,
@@ -83096,9 +83096,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Safeguard",
@@ -83116,7 +83116,7 @@ overrides = {
           "Fling",
           "Retaliate",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "U-turn",
@@ -83183,7 +83183,7 @@ overrides = {
           ],
           [
             1,
-            "Cross Chop"
+            "Tidy Up"
           ],
           [
             2,
@@ -83203,11 +83203,11 @@ overrides = {
           ],
           [
             45,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             50,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             55,
@@ -83216,9 +83216,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -83241,7 +83241,7 @@ overrides = {
           "Retaliate",
           "Giga Impact",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "U-turn",
@@ -83298,7 +83298,7 @@ overrides = {
           ],
           [
             3,
-            "Confusion"
+            "Mitosis"
           ],
           [
             6,
@@ -83310,7 +83310,7 @@ overrides = {
           ],
           [
             12,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             16,
@@ -83346,7 +83346,7 @@ overrides = {
           ],
           [
             40,
-            "Telekinesis"
+            "Mind Numb"
           ],
           [
             46,
@@ -83360,13 +83360,13 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -83375,7 +83375,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -83385,7 +83385,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -83454,7 +83454,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -83466,7 +83466,7 @@ overrides = {
           ],
           [
             3,
-            "Confusion"
+            "Mitosis"
           ],
           [
             7,
@@ -83518,7 +83518,7 @@ overrides = {
           ],
           [
             43,
-            "Telekinesis"
+            "Mind Numb"
           ],
           [
             50,
@@ -83532,13 +83532,13 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -83547,7 +83547,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -83557,7 +83557,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -83624,7 +83624,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "-----"
+            "Parting Shot"
           ],
           [
             1,
@@ -83640,7 +83640,7 @@ overrides = {
           ],
           [
             3,
-            "Confusion"
+            "Mitosis"
           ],
           [
             7,
@@ -83652,7 +83652,7 @@ overrides = {
           ],
           [
             14,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             16,
@@ -83712,24 +83712,24 @@ overrides = {
           ],
           [
             62,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             66,
-            "Spacial Rend"
+            "Bitter Malice"
           ]
         ],
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -83739,7 +83739,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -83750,7 +83750,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -83815,7 +83815,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             3,
@@ -83885,12 +83885,12 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunder",
@@ -83899,13 +83899,13 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Energy Ball",
-          "Psycho Shift",
+          "Infernal Parade",
           "Explosion",
           "Flash",
           "Thunder Wave",
@@ -83972,7 +83972,7 @@ overrides = {
           ],
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -84054,12 +84054,12 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunder",
@@ -84068,13 +84068,13 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Energy Ball",
-          "Psycho Shift",
+          "Infernal Parade",
           "Explosion",
           "Flash",
           "Thunder Wave",
@@ -84187,7 +84187,7 @@ overrides = {
           ],
           [
             19,
-            "-----"
+            "Amplification"
           ],
           [
             24,
@@ -84237,13 +84237,13 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunder",
@@ -84252,7 +84252,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -84260,7 +84260,7 @@ overrides = {
           "Focus Blast",
           "Energy Ball",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Explosion",
           "Giga Impact",
           "Flash",
@@ -84393,7 +84393,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -84407,13 +84407,13 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Pluck",
           "Substitute",
           "Dragon Claw",
           "Psyshock",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Uproar",
@@ -84514,7 +84514,7 @@ overrides = {
           ],
           [
             34,
-            "-----"
+            "Mayday"
           ],
           [
             37,
@@ -84534,11 +84534,11 @@ overrides = {
           ],
           [
             51,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             55,
-            "Sacred Fire"
+            "Tsunami"
           ],
           [
             58,
@@ -84546,11 +84546,11 @@ overrides = {
           ],
           [
             62,
-            "Horn Drill"
+            "Boomburst"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -84565,14 +84565,14 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Swagger",
           "Pluck",
           "Substitute",
           "Dragon Claw",
           "Psyshock",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Uproar",
@@ -84652,7 +84652,7 @@ overrides = {
           ],
           [
             31,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             35,
@@ -84676,7 +84676,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -84781,7 +84781,7 @@ overrides = {
           ],
           [
             20,
-            "Acid Spray"
+            "Belch"
           ],
           [
             23,
@@ -84793,7 +84793,7 @@ overrides = {
           ],
           [
             28,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             31,
@@ -84813,7 +84813,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -84885,7 +84885,7 @@ overrides = {
           ],
           [
             1,
-            "Roar of Time"
+            "Serene Bliss"
           ],
           [
             1,
@@ -84893,7 +84893,7 @@ overrides = {
           ],
           [
             1,
-            "Acid Spray"
+            "Belch"
           ],
           [
             1,
@@ -84941,15 +84941,15 @@ overrides = {
           ],
           [
             31,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             35,
-            "Mist Ball"
+            "Moonblast"
           ],
           [
             37,
-            "Roar of Time"
+            "Serene Bliss"
           ],
           [
             38,
@@ -84969,11 +84969,11 @@ overrides = {
           ],
           [
             52,
-            "Ice Burn"
+            "Frigid Eruption"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -85052,7 +85052,7 @@ overrides = {
           ],
           [
             7,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             10,
@@ -85100,9 +85100,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
@@ -85121,7 +85121,7 @@ overrides = {
           "Retaliate",
           "Flash",
           "Thunder Wave",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -85171,7 +85171,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Poison Powder"
+            "Itchy Pollen"
           ],
           [
             1,
@@ -85191,7 +85191,7 @@ overrides = {
           ],
           [
             7,
-            "Sand Attack"
+            "Sand Spread"
           ],
           [
             10,
@@ -85223,7 +85223,7 @@ overrides = {
           ],
           [
             35,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             37,
@@ -85255,21 +85255,21 @@ overrides = {
           ],
           [
             57,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             60,
-            "Sludge"
+            "Stinging Venom"
           ],
           [
             63,
-            "-----"
+            "Solar Blade"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -85291,7 +85291,7 @@ overrides = {
           "Flash",
           "Thunder Wave",
           "Swords Dance",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -85350,7 +85350,7 @@ overrides = {
           ],
           [
             1,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             1,
@@ -85398,7 +85398,7 @@ overrides = {
           ],
           [
             36,
-            "-----"
+            "Mayday"
           ],
           [
             38,
@@ -85418,7 +85418,7 @@ overrides = {
           ],
           [
             54,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             58,
@@ -85430,15 +85430,15 @@ overrides = {
           ],
           [
             66,
-            "Horn Drill"
+            "Boomburst"
           ],
           [
             70,
-            "Acid"
+            "Acid Spray"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Light Screen",
@@ -85456,7 +85456,7 @@ overrides = {
           "Round",
           "Fling",
           "Charge Beam",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Volt Switch",
           "Thunder Wave",
@@ -85569,7 +85569,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Protect",
           "Rain Dance",
@@ -85582,9 +85582,9 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -85637,7 +85637,7 @@ overrides = {
           ],
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             1,
@@ -85653,7 +85653,7 @@ overrides = {
           ],
           [
             1,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             1,
@@ -85673,7 +85673,7 @@ overrides = {
           ],
           [
             16,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             20,
@@ -85681,7 +85681,7 @@ overrides = {
           ],
           [
             25,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             28,
@@ -85693,7 +85693,7 @@ overrides = {
           ],
           [
             36,
-            "Twineedle"
+            "1st Impression"
           ],
           [
             40,
@@ -85721,7 +85721,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
@@ -85736,10 +85736,10 @@ overrides = {
           "Round",
           "Focus Blast",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Giga Impact",
           "Swords Dance",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -85825,7 +85825,7 @@ overrides = {
           ],
           [
             32,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             35,
@@ -85849,10 +85849,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
@@ -85964,7 +85964,7 @@ overrides = {
           ],
           [
             31,
-            "Toxic"
+            "Poison Dart"
           ],
           [
             34,
@@ -85988,7 +85988,7 @@ overrides = {
           ],
           [
             48,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             51,
@@ -86004,14 +86004,14 @@ overrides = {
           ],
           [
             62,
-            "Twineedle"
+            "1st Impression"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -86132,7 +86132,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -86153,7 +86153,7 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Will-O-Wisp",
           "Flash",
           "Psych Up",
@@ -86163,7 +86163,7 @@ overrides = {
           "Trick Room",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Magic Coat",
@@ -86275,7 +86275,7 @@ overrides = {
           ],
           [
             48,
-            "Scald"
+            "Wave Crash"
           ],
           [
             52,
@@ -86303,7 +86303,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -86325,7 +86325,7 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Will-O-Wisp",
           "Giga Impact",
           "Flash",
@@ -86336,7 +86336,7 @@ overrides = {
           "Trick Room",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Magic Coat",
@@ -86411,7 +86411,7 @@ overrides = {
           ],
           [
             13,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             17,
@@ -86435,7 +86435,7 @@ overrides = {
           ],
           [
             33,
-            "Soak"
+            "Dragon Hug"
           ],
           [
             37,
@@ -86467,12 +86467,12 @@ overrides = {
           ],
           [
             65,
-            "Mist Ball"
+            "Moonblast"
           ]
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -86490,13 +86490,13 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Psych Up",
           "Swagger",
           "Substitute",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bounce",
@@ -86606,7 +86606,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -86625,7 +86625,7 @@ overrides = {
           "Flash",
           "Volt Switch",
           "Thunder Wave",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -86694,7 +86694,7 @@ overrides = {
           ],
           [
             1,
-            "Lovely Kiss"
+            "Baby Doll Eyes"
           ],
           [
             4,
@@ -86758,7 +86758,7 @@ overrides = {
           ],
           [
             57,
-            "Constrict"
+            "Infestation"
           ],
           [
             61,
@@ -86766,7 +86766,7 @@ overrides = {
           ],
           [
             65,
-            "Heal Order"
+            "Pollination"
           ],
           [
             69,
@@ -86774,7 +86774,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
@@ -86796,7 +86796,7 @@ overrides = {
           "Flash",
           "Volt Switch",
           "Thunder Wave",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -86888,7 +86888,7 @@ overrides = {
           ],
           [
             38,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             43,
@@ -86909,9 +86909,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Frustration",
           "Solar Beam",
@@ -87045,7 +87045,7 @@ overrides = {
           ],
           [
             38,
-            "Self-Destruct"
+            "Torpedo"
           ],
           [
             40,
@@ -87070,9 +87070,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Frustration",
@@ -87152,7 +87152,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             6,
@@ -87160,7 +87160,7 @@ overrides = {
           ],
           [
             8,
-            "-----"
+            "Rising Torque"
           ],
           [
             11,
@@ -87216,7 +87216,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
@@ -87283,11 +87283,11 @@ overrides = {
         "learnset": [
           [
             1,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             1,
-            "-----"
+            "Rising Torque"
           ],
           [
             1,
@@ -87355,11 +87355,11 @@ overrides = {
           ],
           [
             42,
-            "-----"
+            "Amplification"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
@@ -87429,7 +87429,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             1,
@@ -87441,7 +87441,7 @@ overrides = {
           ],
           [
             1,
-            "-----"
+            "Amplification"
           ],
           [
             1,
@@ -87493,7 +87493,7 @@ overrides = {
           ],
           [
             49,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             52,
@@ -87513,19 +87513,19 @@ overrides = {
           ],
           [
             62,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             66,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             70,
-            "Horn Drill"
+            "Boomburst"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
@@ -87618,7 +87618,7 @@ overrides = {
           ],
           [
             19,
-            "Acid"
+            "Acid Spray"
           ],
           [
             22,
@@ -87690,7 +87690,7 @@ overrides = {
           ],
           [
             19,
-            "Acid"
+            "Acid Spray"
           ],
           [
             29,
@@ -87706,7 +87706,7 @@ overrides = {
           ],
           [
             49,
-            "Acid Spray"
+            "Belch"
           ],
           [
             54,
@@ -87726,11 +87726,11 @@ overrides = {
           ],
           [
             74,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
@@ -87745,7 +87745,7 @@ overrides = {
           "Attract",
           "Round",
           "Charge Beam",
-          "Move $681",
+          "Mayday",
           "Flash",
           "Volt Switch",
           "Thunder Wave",
@@ -87820,7 +87820,7 @@ overrides = {
           ],
           [
             1,
-            "Acid"
+            "Acid Spray"
           ],
           [
             1,
@@ -87832,7 +87832,7 @@ overrides = {
           ],
           [
             1,
-            "Waterfall"
+            "Liquidation"
           ],
           [
             1,
@@ -87871,7 +87871,7 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
@@ -87884,13 +87884,13 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Flamethrower",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Charge Beam",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
           "Flash",
           "Volt Switch",
@@ -87960,7 +87960,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             4,
@@ -88034,12 +88034,12 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -88048,7 +88048,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -88058,7 +88058,7 @@ overrides = {
           "Ally Switch",
           "Energy Ball",
           "Charge Beam",
-          "Psycho Shift",
+          "Infernal Parade",
           "Flash",
           "Thunder Wave",
           "Psych Up",
@@ -88120,7 +88120,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Confusion"
+            "Mitosis"
           ],
           [
             1,
@@ -88204,7 +88204,7 @@ overrides = {
           ],
           [
             60,
-            "-----"
+            "Amplification"
           ],
           [
             63,
@@ -88212,19 +88212,19 @@ overrides = {
           ],
           [
             65,
-            "Pay Day"
+            "Make It Rain"
           ]
         ],
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -88233,7 +88233,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -88243,7 +88243,7 @@ overrides = {
           "Ally Switch",
           "Energy Ball",
           "Charge Beam",
-          "Psycho Shift",
+          "Infernal Parade",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -88370,12 +88370,12 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -88395,7 +88395,7 @@ overrides = {
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Flash",
           "Psych Up",
@@ -88524,12 +88524,12 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -88549,7 +88549,7 @@ overrides = {
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Flash",
           "Psych Up",
@@ -88636,13 +88636,13 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -88662,7 +88662,7 @@ overrides = {
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -88741,7 +88741,7 @@ overrides = {
           ],
           [
             24,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             28,
@@ -88780,9 +88780,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -88790,13 +88790,13 @@ overrides = {
           "Return",
           "Dig",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Incinerate",
           "Payback",
@@ -88895,7 +88895,7 @@ overrides = {
           ],
           [
             24,
-            "False Swipe"
+            "Mercy Slice"
           ],
           [
             28,
@@ -88934,9 +88934,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -88944,13 +88944,13 @@ overrides = {
           "Return",
           "Dig",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Incinerate",
           "Shadow Claw",
@@ -89114,9 +89114,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -89127,14 +89127,14 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
           "Round",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
           "Incinerate",
           "Shadow Claw",
@@ -89251,7 +89251,7 @@ overrides = {
           ],
           [
             53,
-            "Thrash"
+            "Rampage"
           ],
           [
             57,
@@ -89260,7 +89260,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -89271,7 +89271,7 @@ overrides = {
           "Return",
           "Dig",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -89340,7 +89340,7 @@ overrides = {
           ],
           [
             1,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             1,
@@ -89396,7 +89396,7 @@ overrides = {
           ],
           [
             48,
-            "Sacred Fire"
+            "Tsunami"
           ],
           [
             52,
@@ -89404,7 +89404,7 @@ overrides = {
           ],
           [
             55,
-            "Thrash"
+            "Rampage"
           ],
           [
             58,
@@ -89426,7 +89426,7 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Bulk Up",
           "Hidden Power",
@@ -89442,7 +89442,7 @@ overrides = {
           "Dig",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -89465,7 +89465,7 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Calm Mind",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Covet",
@@ -89525,7 +89525,7 @@ overrides = {
           ],
           [
             1,
-            "Karate Chop"
+            "Torch Song"
           ],
           [
             5,
@@ -89557,7 +89557,7 @@ overrides = {
           ],
           [
             29,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             34,
@@ -89573,7 +89573,7 @@ overrides = {
           ],
           [
             41,
-            "Spacial Rend"
+            "Bitter Malice"
           ],
           [
             45,
@@ -89605,7 +89605,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -89623,7 +89623,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Move $681",
+          "Mayday",
           "Explosion",
           "Frost Breath",
           "Poison Jab",
@@ -89676,7 +89676,7 @@ overrides = {
           ],
           [
             4,
-            "Acid"
+            "Acid Spray"
           ],
           [
             8,
@@ -89704,7 +89704,7 @@ overrides = {
           ],
           [
             32,
-            "Acid Armor"
+            "Liquify"
           ],
           [
             37,
@@ -89732,8 +89732,8 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
           "Protect",
           "Rain Dance",
@@ -89746,7 +89746,7 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "Egg Bomb",
+          "Mating Call",
           "Swagger",
           "Substitute"
         ],
@@ -89796,11 +89796,11 @@ overrides = {
           ],
           [
             1,
-            "Heal Order"
+            "Pollination"
           ],
           [
             1,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             1,
@@ -89812,15 +89812,15 @@ overrides = {
           ],
           [
             1,
-            "Constrict"
+            "Infestation"
           ],
           [
             1,
-            "Defend Order"
+            "Honey Gather"
           ],
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             1,
@@ -89828,7 +89828,7 @@ overrides = {
           ],
           [
             1,
-            "Acid Spray"
+            "Belch"
           ],
           [
             1,
@@ -89840,7 +89840,7 @@ overrides = {
           ],
           [
             37,
-            "Acid"
+            "Acid Spray"
           ],
           [
             41,
@@ -89876,16 +89876,16 @@ overrides = {
           ],
           [
             65,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             70,
-            "Pay Day"
+            "Make It Rain"
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
           "Hyper Beam",
           "Protect",
@@ -89902,7 +89902,7 @@ overrides = {
           "Focus Blast",
           "Energy Ball",
           "Giga Impact",
-          "Egg Bomb",
+          "Mating Call",
           "Swagger",
           "U-turn",
           "Substitute"
@@ -90009,7 +90009,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Protect",
           "Rain Dance",
@@ -90023,12 +90023,12 @@ overrides = {
           "Sludge Wave",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Payback",
           "Flash",
           "Stone Edge",
@@ -90100,7 +90100,7 @@ overrides = {
           ],
           [
             17,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             21,
@@ -90149,10 +90149,10 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -90162,7 +90162,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -90171,14 +90171,14 @@ overrides = {
           "Round",
           "Focus Blast",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Retaliate",
           "Stone Edge",
           "Swords Dance",
           "Psych Up",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -90248,7 +90248,7 @@ overrides = {
           ],
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             1,
@@ -90268,7 +90268,7 @@ overrides = {
           ],
           [
             17,
-            "Double Slap"
+            "Paw Slap"
           ],
           [
             21,
@@ -90312,11 +90312,11 @@ overrides = {
           ],
           [
             57,
-            "Smelling Salts"
+            "Duel Wingbeat"
           ],
           [
             60,
-            "Razor Wind"
+            "Air Lash"
           ],
           [
             64,
@@ -90324,15 +90324,15 @@ overrides = {
           ],
           [
             68,
-            "Mega Kick"
+            "High Horsepower"
           ]
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -90343,7 +90343,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -90352,7 +90352,7 @@ overrides = {
           "Round",
           "Focus Blast",
           "Fling",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -90360,7 +90360,7 @@ overrides = {
           "Swords Dance",
           "Psych Up",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Grass Knot",
           "Swagger",
@@ -90480,9 +90480,9 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -90495,7 +90495,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Sludge Bomb",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -90599,7 +90599,7 @@ overrides = {
           ],
           [
             21,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             25,
@@ -90607,7 +90607,7 @@ overrides = {
           ],
           [
             28,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             30,
@@ -90631,12 +90631,12 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Ice Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Earthquake",
@@ -90645,7 +90645,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Venoshock",
@@ -90748,7 +90748,7 @@ overrides = {
           ],
           [
             21,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             25,
@@ -90784,13 +90784,13 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Ice Beam",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -90801,7 +90801,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Venoshock",
@@ -90885,7 +90885,7 @@ overrides = {
           ],
           [
             7,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             9,
@@ -90946,7 +90946,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Protect",
@@ -90957,7 +90957,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -90966,9 +90966,9 @@ overrides = {
           "Venoshock",
           "Low Sweep",
           "Round",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -91034,7 +91034,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "-----"
+            "Parting Shot"
           ],
           [
             1,
@@ -91126,12 +91126,12 @@ overrides = {
           ],
           [
             65,
-            "Waterfall"
+            "Liquidation"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
@@ -91143,7 +91143,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -91153,9 +91153,9 @@ overrides = {
           "Low Sweep",
           "Round",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Fling",
-          "Psycho Shift",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -91226,7 +91226,7 @@ overrides = {
           ],
           [
             1,
-            "Bestow"
+            "Adrenaline Shot"
           ],
           [
             1,
@@ -91238,7 +91238,7 @@ overrides = {
           ],
           [
             11,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             16,
@@ -91278,7 +91278,7 @@ overrides = {
           ],
           [
             51,
-            "Thrash"
+            "Rampage"
           ],
           [
             54,
@@ -91306,9 +91306,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -91316,7 +91316,7 @@ overrides = {
           "Earthquake",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -91329,7 +91329,7 @@ overrides = {
           "Swords Dance",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -91392,7 +91392,7 @@ overrides = {
           ],
           [
             5,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             8,
@@ -91452,21 +91452,21 @@ overrides = {
           ],
           [
             64,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Protect",
           "Rain Dance",
           "Frustration",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -91476,7 +91476,7 @@ overrides = {
           "Shadow Claw",
           "Retaliate",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -91532,7 +91532,7 @@ overrides = {
           ],
           [
             1,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             1,
@@ -91544,7 +91544,7 @@ overrides = {
           ],
           [
             5,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             10,
@@ -91568,7 +91568,7 @@ overrides = {
           ],
           [
             30,
-            "-----"
+            "Mayday"
           ],
           [
             33,
@@ -91616,22 +91616,22 @@ overrides = {
           ],
           [
             70,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
           "Frustration",
           "Return",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -91642,7 +91642,7 @@ overrides = {
           "Retaliate",
           "Giga Impact",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Pluck",
           "U-turn",
@@ -91702,7 +91702,7 @@ overrides = {
           ],
           [
             5,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             10,
@@ -91758,9 +91758,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -91768,7 +91768,7 @@ overrides = {
           "Return",
           "Shadow Ball",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -91777,7 +91777,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Psych Up",
@@ -91845,7 +91845,7 @@ overrides = {
           ],
           [
             1,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             1,
@@ -91853,7 +91853,7 @@ overrides = {
           ],
           [
             5,
-            "Fury Attack"
+            "Fury Pecks"
           ],
           [
             10,
@@ -91913,9 +91913,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -91924,7 +91924,7 @@ overrides = {
           "Return",
           "Shadow Ball",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -91933,7 +91933,7 @@ overrides = {
           "Venoshock",
           "Round",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -92050,7 +92050,7 @@ overrides = {
           ],
           [
             44,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             46,
@@ -92091,9 +92091,9 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -92104,7 +92104,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -92169,7 +92169,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Vise Grip"
+            "Vice Grip"
           ],
           [
             1,
@@ -92266,7 +92266,7 @@ overrides = {
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Protect",
           "Frustration",
@@ -92274,7 +92274,7 @@ overrides = {
           "Dig",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
@@ -92287,7 +92287,7 @@ overrides = {
           "Rock Polish",
           "Stone Edge",
           "Thunder Wave",
-          "Egg Bomb",
+          "Mating Call",
           "Rock Slide",
           "X-Scissor",
           "Swagger",
@@ -92381,7 +92381,7 @@ overrides = {
           ],
           [
             42,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             48,
@@ -92402,9 +92402,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -92421,7 +92421,7 @@ overrides = {
           "Thunder Wave",
           "Psych Up",
           "Draco Meteor",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -92488,7 +92488,7 @@ overrides = {
           ],
           [
             1,
-            "Double Hit"
+            "Double Slice"
           ],
           [
             4,
@@ -92528,7 +92528,7 @@ overrides = {
           ],
           [
             42,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             48,
@@ -92549,9 +92549,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Protect",
           "Rain Dance",
@@ -92568,7 +92568,7 @@ overrides = {
           "Thunder Wave",
           "Psych Up",
           "Draco Meteor",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute",
           "Rock Smash",
@@ -92629,7 +92629,7 @@ overrides = {
           ],
           [
             1,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             1,
@@ -92653,7 +92653,7 @@ overrides = {
           ],
           [
             9,
-            "Egg Bomb"
+            "Mating Call"
           ],
           [
             12,
@@ -92685,7 +92685,7 @@ overrides = {
           ],
           [
             42,
-            "Dragon Rush"
+            "Dragon Dash"
           ],
           [
             45,
@@ -92705,7 +92705,7 @@ overrides = {
           ],
           [
             60,
-            "Storm Throw"
+            "Wicked Blow"
           ],
           [
             63,
@@ -92718,9 +92718,9 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -92732,7 +92732,7 @@ overrides = {
           "Reflect",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Rest",
@@ -92743,7 +92743,7 @@ overrides = {
           "Focus Blast",
           "Charge Beam",
           "Incinerate",
-          "Move $681",
+          "Mayday",
           "Payback",
           "Giga Impact",
           "Stone Edge",
@@ -92752,7 +92752,7 @@ overrides = {
           "Rollout",
           "Rock Slide",
           "Draco Meteor",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "U-turn",
           "Substitute",
@@ -92855,7 +92855,7 @@ overrides = {
           ],
           [
             90,
-            "Thrash"
+            "Rampage"
           ],
           [
             100,
@@ -92864,9 +92864,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Safeguard",
@@ -92884,8 +92884,8 @@ overrides = {
           "Overheat",
           "Incinerate",
           "Will-O-Wisp",
-          "Move $681",
-          "Egg Bomb",
+          "Mayday",
+          "Mating Call",
           "Swagger",
           "U-turn",
           "Substitute",
@@ -93016,9 +93016,9 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -93038,9 +93038,9 @@ overrides = {
           "Overheat",
           "Incinerate",
           "Will-O-Wisp",
-          "Move $681",
+          "Mayday",
           "Giga Impact",
-          "Egg Bomb",
+          "Mating Call",
           "Poison Jab",
           "Swagger",
           "U-turn",
@@ -93152,7 +93152,7 @@ overrides = {
           "Hone Claws",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
@@ -93168,7 +93168,7 @@ overrides = {
           "Rest",
           "Round",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Retaliate",
           "Giga Impact",
           "Rock Polish",
@@ -93178,7 +93178,7 @@ overrides = {
           "Swords Dance",
           "Psych Up",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -93297,7 +93297,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
@@ -93310,13 +93310,13 @@ overrides = {
           "Double Team",
           "Reflect",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Round",
           "Focus Blast",
-          "False Swipe",
+          "Mercy Slice",
           "Retaliate",
           "Giga Impact",
           "Rock Polish",
@@ -93326,7 +93326,7 @@ overrides = {
           "Rollout",
           "Rock Slide",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -93438,9 +93438,9 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Light Screen",
@@ -93457,7 +93457,7 @@ overrides = {
           "Round",
           "Focus Blast",
           "Energy Ball",
-          "False Swipe",
+          "Mercy Slice",
           "Retaliate",
           "Giga Impact",
           "Flash",
@@ -93465,7 +93465,7 @@ overrides = {
           "Swords Dance",
           "Psych Up",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "Substitute",
@@ -93580,11 +93580,11 @@ overrides = {
           ],
           [
             85,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
           "Taunt",
@@ -93610,8 +93610,8 @@ overrides = {
           "Fling",
           "Sky Drop",
           "Incinerate",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Grass Knot",
@@ -93731,11 +93731,11 @@ overrides = {
           ],
           [
             85,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
           "Taunt",
@@ -93763,7 +93763,7 @@ overrides = {
           "Charge Beam",
           "Sky Drop",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Volt Switch",
@@ -93887,9 +93887,9 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
@@ -93903,7 +93903,7 @@ overrides = {
           "Reflect",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Flame Charge",
           "Rest",
@@ -94037,7 +94037,7 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Hyper Beam",
           "Light Screen",
@@ -94052,7 +94052,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -94132,7 +94132,7 @@ overrides = {
           ],
           [
             1,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             7,
@@ -94193,7 +94193,7 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
           "Hyper Beam",
@@ -94209,7 +94209,7 @@ overrides = {
           "Sludge Wave",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -94338,10 +94338,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -94355,7 +94355,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -94446,7 +94446,7 @@ overrides = {
           ],
           [
             1,
-            "Scald"
+            "Wave Crash"
           ],
           [
             7,
@@ -94500,7 +94500,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -94517,15 +94517,15 @@ overrides = {
           "Rest",
           "Round",
           "Focus Blast",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Retaliate",
           "Giga Impact",
           "Stone Edge",
           "Swords Dance",
           "Psych Up",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -94589,7 +94589,7 @@ overrides = {
           ],
           [
             11,
-            "Confusion"
+            "Mitosis"
           ],
           [
             16,
@@ -94644,14 +94644,14 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -94670,8 +94670,8 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -94680,7 +94680,7 @@ overrides = {
           "Stone Edge",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -94823,12 +94823,12 @@ overrides = {
           ],
           [
             77,
-            "Self-Destruct"
+            "Torpedo"
           ]
         ],
         "tms": [
           "Hone Claws",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -94857,7 +94857,7 @@ overrides = {
           "Rock Polish",
           "Flash",
           "Thunder Wave",
-          "Egg Bomb",
+          "Mating Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -94920,7 +94920,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -94936,11 +94936,11 @@ overrides = {
           "Return",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Thunder Wave",
           "Psych Up",
@@ -94952,7 +94952,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": []
       },
@@ -94992,7 +94992,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Ice Beam",
@@ -95008,11 +95008,11 @@ overrides = {
           "Return",
           "Brick Break",
           "Double Team",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Giga Impact",
           "Thunder Wave",
           "Psych Up",
@@ -95024,7 +95024,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": []
       },
@@ -95133,15 +95133,15 @@ overrides = {
           ],
           [
             1,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             1,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             1,
-            "Mega Kick"
+            "High Horsepower"
           ]
         ],
         "tms": [],
@@ -96270,7 +96270,7 @@ overrides = {
           ],
           [
             57,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             65,
@@ -96286,7 +96286,7 @@ overrides = {
           ],
           [
             89,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             97,
@@ -96296,16 +96296,16 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -96317,7 +96317,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -96426,7 +96426,7 @@ overrides = {
           ],
           [
             57,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             65,
@@ -96446,7 +96446,7 @@ overrides = {
           ],
           [
             89,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             97,
@@ -96460,16 +96460,16 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -96481,7 +96481,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -96591,7 +96591,7 @@ overrides = {
           ],
           [
             57,
-            "Psycho Shift"
+            "Infernal Parade"
           ],
           [
             65,
@@ -96607,7 +96607,7 @@ overrides = {
           ],
           [
             89,
-            "Psycho Boost"
+            "Disarming Voice"
           ],
           [
             97,
@@ -96617,16 +96617,16 @@ overrides = {
         "tms": [
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Ice Beam",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Solar Beam",
@@ -96638,7 +96638,7 @@ overrides = {
           "Brick Break",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Aerial Ace",
           "Torment",
           "Facade",
@@ -96743,7 +96743,7 @@ overrides = {
           ],
           [
             23,
-            "Bone Club"
+            "Raging Rapids"
           ],
           [
             26,
@@ -96763,7 +96763,7 @@ overrides = {
           ],
           [
             38,
-            "Thrash"
+            "Rampage"
           ],
           [
             41,
@@ -96775,15 +96775,15 @@ overrides = {
           ],
           [
             47,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             52,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             56,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             61,
@@ -96799,10 +96799,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -96815,7 +96815,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -96823,7 +96823,7 @@ overrides = {
           "Round",
           "Giga Impact",
           "Flash",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Rollout",
           "Dream Eater",
@@ -96901,7 +96901,7 @@ overrides = {
           ],
           [
             23,
-            "Bone Club"
+            "Raging Rapids"
           ],
           [
             26,
@@ -96921,7 +96921,7 @@ overrides = {
           ],
           [
             38,
-            "Thrash"
+            "Rampage"
           ],
           [
             41,
@@ -96933,15 +96933,15 @@ overrides = {
           ],
           [
             47,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             52,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             56,
-            "Spike Cannon"
+            "Breaking Swipe"
           ],
           [
             61,
@@ -96957,10 +96957,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
-          "Move $682",
+          "Poison Dart",
+          "Noxious Shift",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
@@ -96978,7 +96978,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Gyro Ball",
-          "Egg Bomb",
+          "Mating Call",
           "Psych Up",
           "Dream Eater",
           "Swagger",
@@ -97059,7 +97059,7 @@ overrides = {
           ],
           [
             55,
-            "Worry Seed"
+            "Flurry Spore"
           ],
           [
             64,
@@ -97071,7 +97071,7 @@ overrides = {
           ],
           [
             82,
-            "Sweet Kiss"
+            "Draining Kiss"
           ],
           [
             91,
@@ -97083,9 +97083,9 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Safeguard",
@@ -97205,13 +97205,13 @@ overrides = {
           "Dragon Claw",
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -97350,13 +97350,13 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -97477,13 +97477,13 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -97604,13 +97604,13 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -97731,13 +97731,13 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -97818,7 +97818,7 @@ overrides = {
           ],
           [
             1,
-            "Mega Punch"
+            "Smart Strike"
           ],
           [
             1,
@@ -97834,7 +97834,7 @@ overrides = {
           ],
           [
             1,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             8,
@@ -97874,13 +97874,13 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Frustration",
           "Thunderbolt",
           "Thunder",
@@ -97968,7 +97968,7 @@ overrides = {
           ],
           [
             30,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             30,
@@ -97992,10 +97992,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -98016,13 +98016,13 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Incinerate",
           "Retaliate",
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute"
         ],
@@ -98087,7 +98087,7 @@ overrides = {
           ],
           [
             30,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             30,
@@ -98111,10 +98111,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -98135,13 +98135,13 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Incinerate",
           "Retaliate",
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute"
         ],
@@ -98206,7 +98206,7 @@ overrides = {
           ],
           [
             30,
-            "Sunny Day"
+            "Dry Up"
           ],
           [
             30,
@@ -98230,10 +98230,10 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Protect",
@@ -98254,13 +98254,13 @@ overrides = {
           "Venoshock",
           "Round",
           "Energy Ball",
-          "Scald",
+          "Wave Crash",
           "Incinerate",
           "Retaliate",
           "Flash",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Swagger",
           "Substitute"
         ],
@@ -98389,7 +98389,7 @@ overrides = {
           ],
           [
             56,
-            "Thrash"
+            "Rampage"
           ],
           [
             58,
@@ -98397,7 +98397,7 @@ overrides = {
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -98411,13 +98411,13 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Scald",
+          "Wave Crash",
           "Swagger",
           "Substitute",
           "Hone Claws",
           "Psyshock",
           "Roar",
-          "Toxic"
+          "Poison Dart"
         ],
         "tutors": [
           "Bounce",
@@ -98497,7 +98497,7 @@ overrides = {
           ],
           [
             27,
-            "Thrash"
+            "Rampage"
           ],
           [
             30,
@@ -98525,7 +98525,7 @@ overrides = {
           ],
           [
             50,
-            "Rolling Kick"
+            "Rolling Barrage"
           ],
           [
             53,
@@ -98541,11 +98541,11 @@ overrides = {
           ],
           [
             65,
-            "Mega Kick"
+            "High Horsepower"
           ],
           [
             67,
-            "Comet Punch"
+            "Power Up Punch"
           ],
           [
             69,
@@ -98554,10 +98554,10 @@ overrides = {
         ],
         "tms": [
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Taunt",
           "Hyper Beam",
           "Protect",
@@ -98572,7 +98572,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Fire Blast",
-          "Rock Tomb",
+          "Accelerock",
           "Torment",
           "Facade",
           "Flame Charge",
@@ -98591,7 +98591,7 @@ overrides = {
           "Gyro Ball",
           "Rollout",
           "Rock Slide",
-          "Cross Chop",
+          "Tidy Up",
           "Grass Knot",
           "Swagger",
           "U-turn",
@@ -98648,7 +98648,7 @@ overrides = {
           ],
           [
             11,
-            "Confusion"
+            "Mitosis"
           ],
           [
             16,
@@ -98703,14 +98703,14 @@ overrides = {
           "Hone Claws",
           "Psyshock",
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Hyper Beam",
           "Light Screen",
           "Protect",
           "Rain Dance",
-          "Telekinesis",
+          "Mind Numb",
           "Safeguard",
           "Frustration",
           "Thunderbolt",
@@ -98729,8 +98729,8 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -98739,7 +98739,7 @@ overrides = {
           "Stone Edge",
           "Thunder Wave",
           "Psych Up",
-          "Cross Chop",
+          "Tidy Up",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -98847,7 +98847,7 @@ overrides = {
           ],
           [
             50,
-            "Ice Burn"
+            "Frigid Eruption"
           ],
           [
             57,
@@ -98859,7 +98859,7 @@ overrides = {
           ],
           [
             69,
-            "Ice Burn"
+            "Frigid Eruption"
           ],
           [
             69,
@@ -98889,10 +98889,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -98906,7 +98906,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -99005,7 +99005,7 @@ overrides = {
           ],
           [
             50,
-            "Freeze Shock"
+            "Deep Freeze"
           ],
           [
             57,
@@ -99035,10 +99035,10 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Dragon Claw",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
-          "Sunny Day",
+          "Dry Up",
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
@@ -99052,7 +99052,7 @@ overrides = {
           "Shadow Ball",
           "Double Team",
           "Reflect",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Round",
@@ -99127,7 +99127,7 @@ overrides = {
           ],
           [
             1,
-            "Scald"
+            "Wave Crash"
           ],
           [
             7,
@@ -99181,7 +99181,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Roar",
-          "Toxic",
+          "Poison Dart",
           "Hail",
           "Hidden Power",
           "Taunt",
@@ -99198,15 +99198,15 @@ overrides = {
           "Rest",
           "Round",
           "Focus Blast",
-          "False Swipe",
-          "Scald",
+          "Mercy Slice",
+          "Wave Crash",
           "Retaliate",
           "Giga Impact",
           "Stone Edge",
           "Swords Dance",
           "Psych Up",
           "X-Scissor",
-          "Cross Chop",
+          "Tidy Up",
           "Poison Jab",
           "Swagger",
           "Substitute",
@@ -99321,11 +99321,11 @@ overrides = {
           ],
           [
             85,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
           "Taunt",
@@ -99351,8 +99351,8 @@ overrides = {
           "Fling",
           "Sky Drop",
           "Incinerate",
-          "Move $681",
-          "Psycho Shift",
+          "Mayday",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Grass Knot",
@@ -99472,11 +99472,11 @@ overrides = {
           ],
           [
             85,
-            "Thrash"
+            "Rampage"
           ]
         ],
         "tms": [
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
           "Taunt",
@@ -99504,7 +99504,7 @@ overrides = {
           "Charge Beam",
           "Sky Drop",
           "Incinerate",
-          "Psycho Shift",
+          "Infernal Parade",
           "Payback",
           "Giga Impact",
           "Volt Switch",
@@ -99570,7 +99570,7 @@ overrides = {
           ],
           [
             1,
-            "Rock Tomb"
+            "Accelerock"
           ],
           [
             7,
@@ -99631,7 +99631,7 @@ overrides = {
         ],
         "tms": [
           "Calm Mind",
-          "Toxic",
+          "Poison Dart",
           "Bulk Up",
           "Hidden Power",
           "Hyper Beam",
@@ -99647,7 +99647,7 @@ overrides = {
           "Sludge Wave",
           "Sludge Bomb",
           "Sandstorm",
-          "Rock Tomb",
+          "Accelerock",
           "Facade",
           "Rest",
           "Attract",
@@ -99700,32 +99700,32 @@ overrides = {
       "acc": 100,
       "prio": 0,
       "name": "Pound",
-      "num": 0,
-      "desc": "The target is physically pounded with a long tail or a foreleg. This may cause paralysis.",
+      "num": 998,
+      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
       "e_id": 0,
       "sf": true
     },
-    "Karate Chop": {
+    "Torch Song": {
       "t": "Fire",
       "bp": 60,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Karate Chop",
+      "name": "Torch Song",
       "num": 1,
       "desc": "The user sings a passionate song  that boosts its will to battle. This increases the Sp. Atk stat.",
       "e_id": 43,
       "sf": true
     },
-    "Double Slap": {
+    "Paw Slap": {
       "t": "Normal",
       "bp": 30,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
       "prio": 0,
-      "name": "Double Slap",
+      "name": "Paw Slap",
       "num": 2,
       "desc": "The target is smacked by the user's paws twice as it dances around. Each  hit has a chance to charm the opponent.",
       "e_id": 29,
@@ -99734,14 +99734,14 @@ overrides = {
         2
       ]
     },
-    "Comet Punch": {
+    "Power Up Punch": {
       "t": "Fighting",
       "bp": 50,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
       "prio": 0,
-      "name": "Comet Punch",
+      "name": "Power Up Punch",
       "num": 3,
       "desc": "Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat. ",
       "e_id": 139,
@@ -99750,14 +99750,14 @@ overrides = {
         "punch": true
       }
     },
-    "Mega Punch": {
+    "Smart Strike": {
       "t": "Steel",
       "bp": 75,
       "cat": "Physical",
       "pp": 20,
       "acc": 101,
       "prio": 0,
-      "name": "Mega Punch",
+      "name": "Smart Strike",
       "num": 4,
       "desc": "The user stabs the target with a sharp horn. This attack never misses.  ",
       "e_id": 17,
@@ -99765,14 +99765,14 @@ overrides = {
         "punch": true
       }
     },
-    "Pay Day": {
+    "Make It Rain": {
       "t": "Steel",
       "bp": 120,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Pay Day",
+      "name": "Make It Rain",
       "num": 5,
       "desc": "Coins are hurled to inflict harsh  damage, at the expense of Sp. Atk. Money is earned after the battle.",
       "e_id": 34,
@@ -99842,14 +99842,14 @@ overrides = {
         2
       ]
     },
-    "Vise Grip": {
+    "Vice Grip": {
       "t": "Steel",
       "bp": 50,
       "cat": "Physical",
       "pp": 30,
       "acc": 100,
       "prio": 0,
-      "name": "Vise Grip",
+      "name": "Vice Grip",
       "num": 10,
       "desc": "The target is gripped and squeezed from both sides to inflict damage. This traps the opponent for 3 turns.",
       "e_id": 0
@@ -99866,14 +99866,14 @@ overrides = {
       "desc": "A vicious, tearing attack with big pincers. This move will always move last.",
       "e_id": 38
     },
-    "Razor Wind": {
+    "Air Lash": {
       "t": "Flying",
       "bp": 80,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Razor Wind",
+      "name": "Air Lash",
       "num": 12,
       "desc": "Blades of wind hit opposing Pokémon,  causing them to be startled. This drops their Defense.",
       "e_id": 39,
@@ -100022,14 +100022,14 @@ overrides = {
         2
       ]
     },
-    "Mega Kick": {
+    "High Horsepower": {
       "t": "Ground",
       "bp": 95,
       "cat": "Physical",
       "pp": 10,
       "acc": 95,
       "prio": 0,
-      "name": "Mega Kick",
+      "name": "High Horsepower",
       "num": 24,
       "desc": "The target is attacked by a kick launched with muscle-packed power, shattering the earth below. ",
       "e_id": 0
@@ -100046,14 +100046,14 @@ overrides = {
       "desc": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
       "e_id": 45
     },
-    "Rolling Kick": {
+    "Rolling Barrage": {
       "t": "Fighting",
       "bp": 25,
       "cat": "Physical",
       "pp": 15,
       "acc": 85,
       "prio": 0,
-      "name": "Rolling Kick",
+      "name": "Rolling Barrage",
       "num": 26,
       "desc": "The user lashes out with a quick, spinning kick. It hits two to four times, and  may also make the target flinch.",
       "e_id": 31,
@@ -100062,14 +100062,14 @@ overrides = {
         4
       ]
     },
-    "Sand Attack": {
+    "Sand Spread": {
       "t": "Ground",
       "bp": 0,
       "cat": "Status",
       "pp": 15,
       "acc": 100,
       "prio": 0,
-      "name": "Sand Attack",
+      "name": "Sand Spread",
       "num": 27,
       "desc": "Sand is hurled in the target's face, reducing its speed and evasion stats.",
       "e_id": 23,
@@ -100106,14 +100106,14 @@ overrides = {
       "desc": "The target is jabbed with a sharply pointed horn to inflict damage.",
       "e_id": 0
     },
-    "Fury Attack": {
+    "Fury Pecks": {
       "t": "Flying",
       "bp": 25,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
       "prio": 0,
-      "name": "Fury Attack",
+      "name": "Fury Pecks",
       "num": 30,
       "desc": "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
       "e_id": 29,
@@ -100122,14 +100122,14 @@ overrides = {
         5
       ]
     },
-    "Horn Drill": {
+    "Boomburst": {
       "t": "Normal",
       "bp": 140,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Horn Drill",
+      "name": "Boomburst",
       "num": 31,
       "desc": "The user attacks everything around it with the destructive power of sound. In  exchange, the user recieves recoil.",
       "e_id": 0,
@@ -100193,14 +100193,14 @@ overrides = {
         100
       ]
     },
-    "Thrash": {
+    "Rampage": {
       "t": "Fighting",
       "bp": 120,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Thrash",
+      "name": "Rampage",
       "num": 36,
       "desc": "The user rampages and attacks for two to three turns. It then becomes confused due to building fatigue.",
       "e_id": 27
@@ -100248,14 +100248,14 @@ overrides = {
       "e_id": 2,
       "sf": true
     },
-    "Twineedle": {
+    "1st Impression": {
       "t": "Bug",
       "bp": 90,
       "cat": "Physical",
       "pp": 5,
       "acc": 100,
       "prio": 2,
-      "name": "Twineedle",
+      "name": "1st Impression",
       "num": 40,
       "desc": "The user jabs at the opponent at lightspeed, catching them off guard. This attack can only be used once.",
       "e_id": 158,
@@ -100394,14 +100394,14 @@ overrides = {
       "desc": "For four turns, this move prevents the target from using the move it last used.",
       "e_id": 86
     },
-    "Acid": {
+    "Acid Spray": {
       "t": "Poison",
       "bp": 50,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Acid",
+      "name": "Acid Spray",
       "num": 50,
       "desc": "The opposing team is attacked with a  spray of harsh acid. This lowers the  targets' Sp. Atk stats.",
       "e_id": 72,
@@ -100587,14 +100587,14 @@ overrides = {
       "e_id": 0,
       "sf": true
     },
-    "Submission": {
+    "Play Rough": {
       "t": "Fairy",
       "bp": 110,
       "cat": "Physical",
       "pp": 25,
       "acc": 90,
       "prio": 0,
-      "name": "Submission",
+      "name": "Play Rough",
       "num": 65,
       "desc": "The user grabs the target and recklessly dives for the ground. It also hurts the user slightly.",
       "e_id": 48,
@@ -100727,14 +100727,14 @@ overrides = {
       "e_id": 151,
       "sf": true
     },
-    "Poison Powder": {
+    "Itchy Pollen": {
       "t": "Fire",
       "bp": 0,
       "cat": "Status",
       "pp": 15,
       "acc": 90,
       "prio": 0,
-      "name": "Poison Powder",
+      "name": "Itchy Pollen",
       "num": 76,
       "desc": "The user scatters a cloud of spicy dust on the target, causing burns. ",
       "e_id": 66,
@@ -100923,27 +100923,27 @@ overrides = {
       "desc": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
       "e_id": 256
     },
-    "Toxic": {
+    "Poison Dart": {
       "t": "Poison",
       "bp": 25,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Toxic",
+      "name": "Poison Dart",
       "num": 91,
       "desc": "Throws a dart that leaves the  target badly poisoned. Its poison damage worsens every turn.",
       "e_id": 33,
       "sf": true
     },
-    "Confusion": {
+    "Mitosis": {
       "t": "Psychic",
       "bp": 50,
       "cat": "Special",
       "pp": 20,
       "acc": 100,
       "prio": 0,
-      "name": "Confusion",
+      "name": "Mitosis",
       "num": 92,
       "desc": "The target is hit by a weak telekinetic force. It may also leave the target confused.",
       "e_id": 76,
@@ -101279,26 +101279,26 @@ overrides = {
       "desc": "The user counters the target by mimicking the target's last move.",
       "e_id": 9
     },
-    "Self-Destruct": {
+    "Torpedo": {
       "t": "Steel",
       "bp": 100,
       "cat": "Physical",
       "pp": 5,
       "acc": 90,
       "prio": 1,
-      "name": "Self-Destruct",
+      "name": "Torpedo",
       "num": 119,
       "desc": "The user moves at blinding speed, exploding in an opponent's face. The user faints upon using this move.",
       "e_id": 7
     },
-    "Egg Bomb": {
+    "Mating Call": {
       "t": "Bug",
       "bp": 70,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Egg Bomb",
+      "name": "Mating Call",
       "num": 120,
       "desc": "The user lets out a passionate cry that touches the target's emotions. This may potentially cause attraction to the user.",
       "e_id": 0,
@@ -101333,27 +101333,27 @@ overrides = {
       "e_id": 2,
       "sf": true
     },
-    "Sludge": {
+    "Stinging Venom": {
       "t": "Poison",
       "bp": 110,
       "cat": "Special",
       "pp": 5,
       "acc": 85,
       "prio": 0,
-      "name": "Sludge",
+      "name": "Stinging Venom",
       "num": 123,
       "desc": "The user spits out poisonous venom  onto a target. It may poison, but this  move lowers the user's Sp. Attack.",
       "e_id": 218,
       "sf": true
     },
-    "Bone Club": {
+    "Raging Rapids": {
       "t": "Water",
       "bp": 60,
       "cat": "Physical",
       "pp": 5,
       "acc": 85,
       "prio": 0,
-      "name": "Bone Club",
+      "name": "Raging Rapids",
       "num": 124,
       "desc": "The user strikes the target with  raging waters, hitting twice. Each hit may also make the target flinch.",
       "e_id": 31,
@@ -101375,14 +101375,14 @@ overrides = {
       "e_id": 4,
       "sf": true
     },
-    "Waterfall": {
+    "Liquidation": {
       "t": "Water",
       "bp": 85,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Waterfall",
+      "name": "Liquidation",
       "num": 126,
       "desc": "The user slams forward a full-force blast of water that may lower the target’s Defense stat. It can climb waterfalls, too!",
       "e_id": 31,
@@ -101426,28 +101426,28 @@ overrides = {
       "desc": "The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.",
       "e_id": 145
     },
-    "Spike Cannon": {
+    "Breaking Swipe": {
       "t": "Dragon",
       "bp": 60,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
       "prio": 0,
-      "name": "Spike Cannon",
+      "name": "Breaking Swipe",
       "num": 130,
       "desc": "The user swings its tough tail,  attacking opposing Pokémon. This lowers the targets' Attack.",
       "e_id": 68,
       "tar": "allAdjacentFoes",
       "sf": true
     },
-    "Constrict": {
+    "Infestation": {
       "t": "Bug",
       "bp": 35,
       "cat": "Special",
       "pp": 20,
       "acc": 100,
       "prio": 0,
-      "name": "Constrict",
+      "name": "Infestation",
       "num": 131,
       "desc": "The target is infested and attacked by Bug Pokemon for four to five turns. This traps them on the field.",
       "e_id": 42,
@@ -101479,14 +101479,14 @@ overrides = {
       "e_id": 23,
       "sf": true
     },
-    "Soft-Boiled": {
+    "Flower Bloom": {
       "t": "Grass",
       "bp": 0,
       "cat": "Status",
       "pp": 10,
       "acc": 101,
       "prio": 0,
-      "name": "Soft-Boiled",
+      "name": "Flower Bloom",
       "num": 134,
       "desc": "The user plants a seed that blooms into a flower next turn, healing the  user to maximum HP.",
       "e_id": 309
@@ -101542,14 +101542,14 @@ overrides = {
       "tar": "allAdjacentFoes",
       "sf": true
     },
-    "Barrage": {
+    "No Retreat": {
       "t": "Fighting",
       "bp": 0,
       "cat": "Status",
       "pp": 1,
       "acc": 100,
       "prio": 255,
-      "name": "Barrage",
+      "name": "No Retreat",
       "num": 139,
       "desc": "The user gathers all of its strength and takes a stand, boosting all its stats but preventing switching.",
       "e_id": 29,
@@ -101567,14 +101567,14 @@ overrides = {
       "desc": "The user drains the target's blood. The user's HP is restored by 75% of the damage taken by the target.",
       "e_id": 3
     },
-    "Lovely Kiss": {
+    "Baby Doll Eyes": {
       "t": "Fairy",
       "bp": 0,
       "cat": "Status",
       "pp": 10,
       "acc": 100,
       "prio": 6,
-      "name": "Lovely Kiss",
+      "name": "Baby Doll Eyes",
       "num": 141,
       "desc": "The user looks at the opponent with its cute eyes before they can attack, reducing their attack.",
       "e_id": 1,
@@ -101686,14 +101686,14 @@ overrides = {
       "e_id": 85,
       "sf": true
     },
-    "Acid Armor": {
+    "Liquify": {
       "t": "Poison",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
       "acc": 101,
       "prio": 0,
-      "name": "Acid Armor",
+      "name": "Liquify",
       "num": 150,
       "desc": "The user alters its cellular structure to liquefy itself, boosting both Sp. Def and Sp. Atk.",
       "e_id": 51,
@@ -101741,14 +101741,14 @@ overrides = {
         3
       ]
     },
-    "Bonemerang": {
+    "Fluffy Coat": {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
       "pp": 3,
       "acc": 100,
       "prio": 0,
-      "name": "Bonemerang",
+      "name": "Fluffy Coat",
       "num": 154,
       "desc": "The user ruffles its fur so that it covers its whole body, boosting both defense stats drastically but disabling status moves.",
       "e_id": 290,
@@ -101804,14 +101804,14 @@ overrides = {
       "e_id": 10,
       "sf": true
     },
-    "Conversion": {
+    "Toxic Fury": {
       "t": "Poison",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
       "acc": 101,
       "prio": 0,
-      "name": "Conversion",
+      "name": "Toxic Fury",
       "num": 159,
       "desc": "The user injects itself with poison  that worsens every turn. In  exchange, its speed is boosted.",
       "e_id": 30,
@@ -101830,14 +101830,14 @@ overrides = {
       "e_id": 36,
       "sf": true
     },
-    "Super Fang": {
+    "Piercing Fang": {
       "t": "Normal",
       "bp": 1,
       "cat": "Physical",
       "pp": 10,
       "acc": 90,
       "prio": 0,
-      "name": "Super Fang",
+      "name": "Piercing Fang",
       "num": 161,
       "desc": "The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half.",
       "e_id": 40
@@ -102008,14 +102008,14 @@ overrides = {
       "e_id": 0,
       "sf": true
     },
-    "Conversion 2": {
+    "Anti-Malware": {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
       "acc": 101,
       "prio": 0,
-      "name": "Conversion 2",
+      "name": "Anti-Malware",
       "num": 175,
       "desc": "The user changes its type to make itself resistant to the type of the attack the opponent used last.",
       "e_id": 93
@@ -102136,14 +102136,14 @@ overrides = {
       "desc": "The user approaches the target disarmingly, then throws a sucker punch. It hits without fail, and may raise Speed.",
       "e_id": 17
     },
-    "Sweet Kiss": {
+    "Draining Kiss": {
       "t": "Fairy",
       "bp": 65,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Sweet Kiss",
+      "name": "Draining Kiss",
       "num": 185,
       "desc": "The user kisses the target with a sweet, angelic cuteness. This leeches 50% of the damage dealt back to the target.",
       "e_id": 49
@@ -102186,14 +102186,14 @@ overrides = {
       "e_id": 73,
       "sf": true
     },
-    "Octazooka": {
+    "Searing Shot": {
       "t": "Fire",
       "bp": 110,
       "cat": "Physical",
       "pp": 10,
       "acc": 80,
       "prio": 0,
-      "name": "Octazooka",
+      "name": "Searing Shot",
       "num": 189,
       "desc": "The user attacks by spraying ink in the target's face or eyes. It also lowers the target's accuracy sharply.",
       "e_id": 73,
@@ -102392,14 +102392,14 @@ overrides = {
       "desc": "The user spots an opening point and rolls into a ball to exit the battlefield.  This lets another party member in.",
       "e_id": 228
     },
-    "False Swipe": {
+    "Mercy Slice": {
       "t": "Normal",
       "bp": 80,
       "cat": "Physical",
       "pp": 40,
       "acc": 100,
       "prio": 0,
-      "name": "False Swipe",
+      "name": "Mercy Slice",
       "num": 205,
       "desc": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
       "e_id": 101
@@ -102579,14 +102579,14 @@ overrides = {
       "desc": "The user adds its HP to the target's HP, then equally shares the combined HP with the target.",
       "e_id": 91
     },
-    "Sacred Fire": {
+    "Tsunami": {
       "t": "Water",
       "bp": 135,
       "cat": "Physical",
       "pp": 5,
       "acc": 95,
       "prio": 255,
-      "name": "Sacred Fire",
+      "name": "Tsunami",
       "num": 220,
       "desc": "The target is razed with a giant wave of great intensity. This attack always moves last.",
       "e_id": 125
@@ -102794,14 +102794,14 @@ overrides = {
       "desc": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
       "e_id": 135
     },
-    "Cross Chop": {
+    "Tidy Up": {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
       "acc": 101,
       "prio": 0,
-      "name": "Cross Chop",
+      "name": "Tidy Up",
       "num": 237,
       "desc": "The user cleans up the space around it to maximize performance. This  boosts speed and accuracy.",
       "e_id": 212,
@@ -102833,14 +102833,14 @@ overrides = {
       "desc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
       "e_id": 136
     },
-    "Sunny Day": {
+    "Dry Up": {
       "t": "Fire",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
       "acc": 101,
       "prio": 0,
-      "name": "Sunny Day",
+      "name": "Dry Up",
       "num": 240,
       "desc": "The user intensifies the heat of the field for five turns, powering up Fire-type moves.",
       "e_id": 137
@@ -102958,14 +102958,14 @@ overrides = {
       "e_id": 261,
       "sf": true
     },
-    "Beat Up": {
+    "Vampiric Fangs": {
       "t": "Dark",
       "bp": 75,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Beat Up",
+      "name": "Vampiric Fangs",
       "num": 250,
       "desc": "The user sinks its large fangs into an enemy to drain their health. This attack recovers 50% of the health done back.",
       "e_id": 0
@@ -103137,14 +103137,14 @@ overrides = {
         "punch": true
       }
     },
-    "Smelling Salts": {
+    "Duel Wingbeat": {
       "t": "Flying",
       "bp": 40,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Smelling Salts",
+      "name": "Duel Wingbeat",
       "num": 264,
       "desc": "The user attacks with the gusts of its wings, dealing damage to the opponent twice.",
       "e_id": 31,
@@ -103422,14 +103422,14 @@ overrides = {
       "desc": "The user rests to cure itself of a poisoning, burn, or paralysis.",
       "e_id": 193
     },
-    "Grudge": {
+    "Scale Shot": {
       "t": "Dragon",
       "bp": 90,
       "cat": "Physical",
       "pp": 10,
       "acc": 90,
       "prio": 0,
-      "name": "Grudge",
+      "name": "Scale Shot",
       "num": 287,
       "desc": "The user fires its scales at the target, boosting its speed at the expense of defense.",
       "e_id": 194,
@@ -103525,14 +103525,14 @@ overrides = {
       "e_id": 72,
       "sf": true
     },
-    "Mist Ball": {
+    "Moonblast": {
       "t": "Fairy",
       "bp": 95,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Mist Ball",
+      "name": "Moonblast",
       "num": 295,
       "desc": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s Sp. Atk stat.",
       "e_id": 0,
@@ -103668,14 +103668,14 @@ overrides = {
       "e_id": 69,
       "sf": true
     },
-    "Blast Burn": {
+    "Scorching Swing": {
       "t": "Fire",
       "bp": 50,
       "cat": "Physical",
       "pp": 2,
       "acc": 100,
       "prio": 0,
-      "name": "Blast Burn",
+      "name": "Scorching Swing",
       "num": 306,
       "desc": "The target is razed by a blazing uppercut that goes straight to the face. This causes the target to be burned on contact.",
       "e_id": 167,
@@ -103684,14 +103684,14 @@ overrides = {
         "punch": true
       }
     },
-    "Hydro Cannon": {
+    "Wave Maelstrom": {
       "t": "Water",
       "bp": 20,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Hydro Cannon",
+      "name": "Wave Maelstrom",
       "num": 307,
       "desc": "The target is hit with several shurikens, each having a chance to increase the user's speed. This move hits 4 to 6 times.",
       "e_id": 80,
@@ -103805,14 +103805,14 @@ overrides = {
       "e_id": 113,
       "sf": true
     },
-    "Rock Tomb": {
+    "Accelerock": {
       "t": "Rock",
       "bp": 30,
       "cat": "Physical",
       "pp": 10,
       "acc": 95,
       "prio": 2,
-      "name": "Rock Tomb",
+      "name": "Accelerock",
       "num": 316,
       "desc": "Boulders are hurled at the target at rapid speeds. This moves before  most other attacks in battle.",
       "e_id": 70,
@@ -104092,14 +104092,14 @@ overrides = {
       "desc": "The user slashes the target with huge, sharp claws.",
       "e_id": 0
     },
-    "Frenzy Plant": {
+    "Wilting Frenzy": {
       "t": "Grass",
       "bp": 110,
       "cat": "Special",
       "pp": 2,
       "acc": 100,
       "prio": 0,
-      "name": "Frenzy Plant",
+      "name": "Wilting Frenzy",
       "num": 337,
       "desc": "The user violently strikes the target with overwhelming vines. The user's speed drops as a result.",
       "e_id": 229,
@@ -104301,14 +104301,14 @@ overrides = {
       "desc": "Two turns after this move is used, the user blasts the target with a concentrated bundle of light.",
       "e_id": 148
     },
-    "Psycho Boost": {
+    "Disarming Voice": {
       "t": "Fairy",
       "bp": 40,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Psycho Boost",
+      "name": "Disarming Voice",
       "num": 353,
       "desc": "The user sings a confusing song that hits all adjacent targets and  may lowers their accuracy. ",
       "e_id": 204,
@@ -104562,14 +104562,14 @@ overrides = {
       "desc": "The user flings its held item at the target to attack. Its power and effects depend on the item.",
       "e_id": 233
     },
-    "Psycho Shift": {
+    "Infernal Parade": {
       "t": "Ghost",
       "bp": 50,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Psycho Shift",
+      "name": "Infernal Parade",
       "num": 374,
       "desc": "The user attacks with a myriad of fireballs. It hits twice, and each  hit may also burn the target.",
       "e_id": 234,
@@ -104725,14 +104725,14 @@ overrides = {
       "desc": "This move can be used only after the user has used all the other moves it knows in the battle.",
       "e_id": 246
     },
-    "Worry Seed": {
+    "Flurry Spore": {
       "t": "Grass",
       "bp": 25,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Worry Seed",
+      "name": "Flurry Spore",
       "num": 387,
       "desc": "Seeds that may cause paralysis are  launched on the target. This attack hits  2 to 4 times. ",
       "e_id": 247,
@@ -104978,14 +104978,14 @@ overrides = {
       "desc": "The target is attacked with a shock wave generated by the user's gaping mouth.",
       "e_id": 0
     },
-    "Dragon Rush": {
+    "Dragon Dash": {
       "t": "Dragon",
       "bp": 45,
       "cat": "Physical",
       "pp": 10,
       "acc": 95,
       "prio": 1,
-      "name": "Dragon Rush",
+      "name": "Dragon Dash",
       "num": 406,
       "desc": "The user tackles the target while exhibiting overwhelming menace. It moves with increased priority.",
       "e_id": 31
@@ -105236,14 +105236,14 @@ overrides = {
       "e_id": 73,
       "sf": true
     },
-    "Psycho Cut": {
+    "Sparkling Aria": {
       "t": "Fairy",
       "bp": 90,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Psycho Cut",
+      "name": "Sparkling Aria",
       "num": 426,
       "desc": "The user sings an intricate, beautiful song that hits all  adjacent enemies on the field.",
       "e_id": 43,
@@ -105390,14 +105390,14 @@ overrides = {
       "desc": "The user violently whirls its vines or tentacles to harshly lash the target.",
       "e_id": 0
     },
-    "Rock Wrecker": {
+    "Continent Crash": {
       "t": "Ground",
       "bp": 150,
       "cat": "Physical",
       "pp": 5,
       "acc": 90,
       "prio": 0,
-      "name": "Rock Wrecker",
+      "name": "Continent Crash",
       "num": 438,
       "desc": "The user launches a huge boulder at the target to attack. However, the user  takes significant recoil.",
       "e_id": 80,
@@ -105510,27 +105510,27 @@ overrides = {
       "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
       "e_id": 196
     },
-    "Chatter": {
+    "Spirit Shackle": {
       "t": "Ghost",
       "bp": 90,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Chatter",
+      "name": "Spirit Shackle",
       "num": 447,
       "desc": "The user attacks the target with a  piercing arrow, dealing damage and trapping it on the field for 3-4 turns.",
       "e_id": 267,
       "sf": true
     },
-    "Judgment": {
+    "Element Bash": {
       "t": "Normal",
       "bp": 70,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Judgment",
+      "name": "Element Bash",
       "num": 448,
       "desc": "The user releases a mystical power at the target, and its type varies with the kind of Plate the user is holding.",
       "e_id": 268
@@ -105588,39 +105588,39 @@ overrides = {
       "desc": "The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.",
       "e_id": 103
     },
-    "Attack Order": {
+    "Horde Swarm": {
       "t": "Bug",
       "bp": 80,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Attack Order",
+      "name": "Horde Swarm",
       "num": 453,
       "desc": "The user calls out for bug Pokemon in the forest to bombard the enemy. Critical hits land more easily.",
       "e_id": 43
     },
-    "Defend Order": {
+    "Honey Gather": {
       "t": "Bug",
       "bp": 0,
       "cat": "Status",
       "pp": 10,
       "acc": 101,
       "prio": 0,
-      "name": "Defend Order",
+      "name": "Honey Gather",
       "num": 454,
       "desc": "The user seeks out honey and applies it to its body. This boosts its defense and special defense stats.",
       "e_id": 206,
       "sf": true
     },
-    "Heal Order": {
+    "Pollination": {
       "t": "Bug",
       "bp": 0,
       "cat": "Status",
       "pp": 10,
       "acc": 101,
       "prio": 255,
-      "name": "Heal Order",
+      "name": "Pollination",
       "num": 455,
       "desc": "The user is healed by the pollination of insect Pokemon. The user regains up  to half of its max HP.",
       "e_id": 32
@@ -105641,14 +105641,14 @@ overrides = {
         100
       ]
     },
-    "Double Hit": {
+    "Double Slice": {
       "t": "Bug",
       "bp": 45,
       "cat": "Physical",
       "pp": 10,
       "acc": 95,
       "prio": 0,
-      "name": "Double Hit",
+      "name": "Double Slice",
       "num": 457,
       "desc": "The user slices the target with a long tail, vines, or tentacle. The target is hit twice in a row.",
       "e_id": 44,
@@ -105657,28 +105657,28 @@ overrides = {
         2
       ]
     },
-    "Roar of Time": {
+    "Serene Bliss": {
       "t": "Fairy",
       "bp": 50,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Roar of Time",
+      "name": "Serene Bliss",
       "num": 458,
       "desc": "The user sprinkles a mysterious dust on the opponent that does  damage and inflicts Yawn.",
       "e_id": 80,
       "tar": "allAdjacentFoes",
       "sf": true
     },
-    "Spacial Rend": {
+    "Bitter Malice": {
       "t": "Ghost",
       "bp": 100,
       "cat": "Special",
       "pp": 5,
       "acc": 90,
       "prio": 0,
-      "name": "Spacial Rend",
+      "name": "Bitter Malice",
       "num": 459,
       "desc": "The user snarls at its opponents, frightening them while having a 20% chance to drop accuracy.",
       "e_id": 43,
@@ -105885,14 +105885,14 @@ overrides = {
       "desc": "The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.",
       "e_id": 172
     },
-    "Telekinesis": {
+    "Mind Numb": {
       "t": "Psychic",
       "bp": 65,
       "cat": "Special",
       "pp": 10,
       "acc": 101,
       "prio": 0,
-      "name": "Telekinesis",
+      "name": "Mind Numb",
       "num": 476,
       "desc": "The user uses powerful brain waves to give the opponent a headache. This  move always lands, and may poison.",
       "e_id": 285,
@@ -105922,14 +105922,14 @@ overrides = {
       "desc": "The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when hit.",
       "e_id": 287
     },
-    "Storm Throw": {
+    "Wicked Blow": {
       "t": "Dark",
       "bp": 50,
       "cat": "Physical",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Storm Throw",
+      "name": "Wicked Blow",
       "num": 479,
       "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
       "e_id": 288
@@ -105985,14 +105985,14 @@ overrides = {
       "desc": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater its damage.",
       "e_id": 291
     },
-    "Synchronoise": {
+    "Mindwave": {
       "t": "Normal",
       "bp": 150,
       "cat": "Special",
       "pp": 15,
       "acc": 95,
       "prio": 0,
-      "name": "Synchronoise",
+      "name": "Mindwave",
       "num": 484,
       "desc": "Using an odd shock wave, the user inflicts damage on any Pokémon  of the same type around it.",
       "e_id": 72,
@@ -106010,14 +106010,14 @@ overrides = {
       "desc": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the damage.",
       "e_id": 293
     },
-    "Soak": {
+    "Dragon Hug": {
       "t": "Dragon",
       "bp": 0,
       "cat": "Status",
       "pp": 3,
       "acc": 100,
       "prio": 0,
-      "name": "Soak",
+      "name": "Dragon Hug",
       "num": 486,
       "desc": "The user hugs the opponent, startling them. This infatuates the opponent and drops their speed stat.",
       "e_id": 322,
@@ -106062,14 +106062,14 @@ overrides = {
       "e_id": 20,
       "sf": true
     },
-    "Acid Spray": {
+    "Belch": {
       "t": "Poison",
       "bp": 40,
       "cat": "Special",
       "pp": 20,
       "acc": 100,
       "prio": 0,
-      "name": "Acid Spray",
+      "name": "Belch",
       "num": 490,
       "desc": "The user spits fluid from its mouth that works to melt the target. This harshly  reduces the target's Sp. Def stat.",
       "e_id": 296,
@@ -106213,14 +106213,14 @@ overrides = {
       "desc": "The user teleports using a strange power and switches its place with one of its allies.",
       "e_id": 307
     },
-    "Scald": {
+    "Wave Crash": {
       "t": "Water",
       "bp": 120,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Scald",
+      "name": "Wave Crash",
       "num": 502,
       "desc": "The user forces a giant wave onto its target, doing significant recoil to the user.",
       "e_id": 4,
@@ -106376,14 +106376,14 @@ overrides = {
       "desc": "The user risks everything to attack its target. The user faints but does damage equal to the user's HP.",
       "e_id": 320
     },
-    "Bestow": {
+    "Adrenaline Shot": {
       "t": "Poison",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
       "acc": 101,
       "prio": 0,
-      "name": "Bestow",
+      "name": "Adrenaline Shot",
       "num": 515,
       "desc": "The user injects itself with poison that drastically increases attack and speed, but curses them to lose HP slowly.",
       "e_id": 323,
@@ -106761,14 +106761,14 @@ overrides = {
         2
       ]
     },
-    "Searing Shot": {
+    "Dopey Eyes": {
       "t": "Fairy",
       "bp": 0,
       "cat": "Status",
       "pp": 20,
       "acc": 100,
       "prio": 0,
-      "name": "Searing Shot",
+      "name": "Dopey Eyes",
       "num": 544,
       "desc": "The user looks at the opponents with innocent, naive eyes. This drops  their Sp. Defense stat.",
       "e_id": 19,
@@ -106804,14 +106804,14 @@ overrides = {
         "sound": true
       }
     },
-    "Secret Sword": {
+    "Scabbard Slash": {
       "t": "Fighting",
       "bp": 45,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Secret Sword",
+      "name": "Scabbard Slash",
       "num": 547,
       "desc": "The user cuts with its long horn twice. The  power contained in the horn does physical damage to the target.",
       "e_id": 282,
@@ -106873,27 +106873,27 @@ overrides = {
       "e_id": 276,
       "sf": true
     },
-    "Freeze Shock": {
+    "Deep Freeze": {
       "t": "Ice",
       "bp": 150,
       "cat": "Physical",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Freeze Shock",
+      "name": "Deep Freeze",
       "num": 552,
       "desc": "On the second turn, the user hits the target with electrically charged ice. It may leave the target with paralysis.",
       "e_id": 331,
       "sf": true
     },
-    "Ice Burn": {
+    "Frigid Eruption": {
       "t": "Ice",
       "bp": 150,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Ice Burn",
+      "name": "Frigid Eruption",
       "num": 553,
       "desc": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
       "e_id": 332,
@@ -106965,5720 +106965,195 @@ overrides = {
       "desc": "The user throws down a giant thunderbolt. This attack does greater damage when influenced by an enormous flame.",
       "e_id": 336
     },
-    "Expanded Move 560": {
+    "Dontuse": {
       "t": "Normal",
       "bp": 35,
       "cat": "Physical",
       "pp": 35,
       "acc": 100,
       "prio": 0,
-      "name": "Expanded Move 560",
-      "num": 559,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 561": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 561",
-      "num": 560,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 562": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 562",
-      "num": 561,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 563": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 563",
-      "num": 562,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 564": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 564",
-      "num": 563,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 565": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 565",
-      "num": 564,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 566": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 566",
-      "num": 565,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 567": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 567",
-      "num": 566,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 568": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 568",
-      "num": 567,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 569": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 569",
-      "num": 568,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 570": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 570",
-      "num": 569,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 571": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 571",
-      "num": 570,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 572": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 572",
-      "num": 571,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 573": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 573",
-      "num": 572,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 574": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 574",
-      "num": 573,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 575": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 575",
-      "num": 574,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 576": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 576",
-      "num": 575,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 577": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 577",
-      "num": 576,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 578": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 578",
-      "num": 577,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 579": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 579",
-      "num": 578,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 580": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 580",
-      "num": 579,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 581": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 581",
-      "num": 580,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 582": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 582",
-      "num": 581,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 583": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 583",
-      "num": 582,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 584": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 584",
-      "num": 583,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 585": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 585",
-      "num": 584,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 586": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 586",
-      "num": 585,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 587": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 587",
-      "num": 586,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 588": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 588",
-      "num": 587,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 589": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 589",
-      "num": 588,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 590": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 590",
-      "num": 589,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 591": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 591",
-      "num": 590,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 592": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 592",
-      "num": 591,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 593": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 593",
-      "num": 592,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 594": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 594",
-      "num": 593,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 595": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 595",
-      "num": 594,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 596": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 596",
-      "num": 595,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 597": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 597",
-      "num": 596,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 598": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 598",
-      "num": 597,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 599": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 599",
-      "num": 598,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 600": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 600",
-      "num": 599,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 601": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 601",
-      "num": 600,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 602": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 602",
-      "num": 601,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 603": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 603",
-      "num": 602,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 604": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 604",
-      "num": 603,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 605": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 605",
-      "num": 604,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 606": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 606",
-      "num": 605,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 607": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 607",
-      "num": 606,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 608": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 608",
-      "num": 607,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 609": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 609",
-      "num": 608,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 610": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 610",
-      "num": 609,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 611": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 611",
-      "num": 610,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 612": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 612",
-      "num": 611,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 613": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 613",
-      "num": 612,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 614": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 614",
-      "num": 613,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 615": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 615",
-      "num": 614,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 616": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 616",
-      "num": 615,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 617": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 617",
-      "num": 616,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 618": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 618",
-      "num": 617,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 619": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 619",
-      "num": 618,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 620": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 620",
-      "num": 619,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 621": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 621",
-      "num": 620,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 622": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 622",
-      "num": 621,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 623": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 623",
-      "num": 622,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 624": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 624",
-      "num": 623,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 625": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 625",
-      "num": 624,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 626": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 626",
-      "num": 625,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 627": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 627",
-      "num": 626,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 628": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 628",
-      "num": 627,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 629": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 629",
-      "num": 628,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 630": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 630",
-      "num": 629,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 631": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 631",
-      "num": 630,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 632": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 632",
-      "num": 631,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 633": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 633",
-      "num": 632,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 634": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 634",
-      "num": 633,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 635": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 635",
-      "num": 634,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 636": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 636",
-      "num": 635,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 637": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 637",
-      "num": 636,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 638": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 638",
-      "num": 637,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 639": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 639",
-      "num": 638,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 640": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 640",
-      "num": 639,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 641": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 641",
-      "num": 640,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 642": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 642",
-      "num": 641,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 643": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 643",
-      "num": 642,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 644": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 644",
-      "num": 643,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 645": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 645",
-      "num": 644,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 646": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 646",
-      "num": 645,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 647": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 647",
-      "num": 646,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 648": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 648",
-      "num": 647,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 649": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 649",
-      "num": 648,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 650": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 650",
-      "num": 649,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 651": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 651",
-      "num": 650,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 652": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 652",
-      "num": 651,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 653": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 653",
-      "num": 652,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 654": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 654",
-      "num": 653,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 655": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 655",
-      "num": 654,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 656": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 656",
-      "num": 655,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 657": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 657",
-      "num": 656,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 658": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 658",
-      "num": 657,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 659": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 659",
-      "num": 658,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 660": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 660",
-      "num": 659,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 661": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 661",
-      "num": 660,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 662": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 662",
-      "num": 661,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 663": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 663",
-      "num": 662,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 664": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 664",
-      "num": 663,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 665": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 665",
-      "num": 664,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 666": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 666",
-      "num": 665,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 667": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 667",
-      "num": 666,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 668": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 668",
-      "num": 667,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 669": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 669",
-      "num": 668,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 670": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 670",
-      "num": 669,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 671": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 671",
-      "num": 670,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 672": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 672",
-      "num": 671,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 673": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 673",
-      "num": 672,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 674": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 674",
-      "num": 673,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 675": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 675",
-      "num": 674,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 676": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 676",
-      "num": 675,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 677": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 677",
-      "num": 676,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 678": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 678",
-      "num": 677,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 679": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 679",
+      "name": "Dontuse",
       "num": 678,
       "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
       "e_id": 0,
       "sf": true
     },
-    "Expanded Move 680": {
+    "Flip Turn": {
       "t": "Water",
       "bp": 60,
       "cat": "Physical",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Expanded Move 680",
+      "name": "Flip Turn",
       "num": 679,
       "desc": "The user splashes up water to catch the opponent off guard. This grants  an opportunity to switch out.",
       "e_id": 228
     },
-    "Expanded Move 681": {
+    "Mayday": {
       "t": "Flying",
       "bp": 70,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Expanded Move 681",
+      "name": "Mayday",
       "num": 680,
       "desc": "The user frantically switches out of battle in the name of safety, dealing damage in the process.",
       "e_id": 228
     },
-    "Expanded Move 682": {
+    "Noxious Shift": {
       "t": "Poison",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
       "acc": 100,
       "prio": 255,
-      "name": "Expanded Move 682",
+      "name": "Noxious Shift",
       "num": 681,
       "desc": "The user spreads toxins on the ground,  then exits the battlefield quickly after.  This move goes last, but always poisons.",
       "e_id": 228,
       "sf": true
     },
-    "Expanded Move 683": {
+    "Parting Shot": {
       "t": "Dark",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Expanded Move 683",
+      "name": "Parting Shot",
       "num": 682,
       "desc": "The user taunts the user before leaving the battlefield, lowering both offensive stats in the process.",
       "e_id": 228,
       "sf": true
     },
-    "Expanded Move 684": {
+    "Rising Torque": {
       "t": "Steel",
       "bp": 50,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
       "prio": 0,
-      "name": "Expanded Move 684",
+      "name": "Rising Torque",
       "num": 683,
       "desc": "The user charges its body and prepares to speed up at a rapid pace. This does damage, then raises the user's speed.",
       "e_id": 228,
       "sf": true
     },
-    "Expanded Move 685": {
+    "Piercing Freeze": {
       "t": "Ice",
       "bp": 150,
       "cat": "Physical",
       "pp": 5,
       "acc": 70,
       "prio": 0,
-      "name": "Expanded Move 685",
+      "name": "Piercing Freeze",
       "num": 684,
       "desc": "The user summons a giant icicle that impales the target brutally. This move  will always land under hail.",
       "e_id": 0,
       "sf": true
     },
-    "Expanded Move 686": {
+    "Bone Chill": {
       "t": "Ghost",
       "bp": 130,
       "cat": "Special",
       "pp": 10,
       "acc": 75,
       "prio": 0,
-      "name": "Expanded Move 686",
+      "name": "Bone Chill",
       "num": 685,
       "desc": "The user emits freezing gas that shakes the enemy Pokemon down to the bone. This always lands in hail.",
       "e_id": 0,
       "tar": "allAdjacentFoes"
     },
-    "Expanded Move 687": {
+    "Solar Blade": {
       "t": "Grass",
       "bp": 130,
       "cat": "Physical",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Expanded Move 687",
+      "name": "Solar Blade",
       "num": 686,
       "desc": "The user slashes at its target with the  overwhelming power of the sun. This  only takes one turn during a drought.",
       "e_id": 0
     },
-    "Expanded Move 688": {
+    "Sun Flare": {
       "t": "Fire",
       "bp": 140,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Expanded Move 688",
+      "name": "Sun Flare",
       "num": 687,
       "desc": "The user absorbs energy from the sun,  then releases a devastating wave of heat. This charges faster during a drought.",
       "e_id": 0,
       "sf": true
     },
-    "Expanded Move 689": {
+    "Ceaseless Edge": {
       "t": "Dark",
       "bp": 65,
       "cat": "Physical",
       "pp": 10,
       "acc": 95,
       "prio": 0,
-      "name": "Expanded Move 689",
+      "name": "Ceaseless Edge",
       "num": 688,
       "desc": "The user stabs deeply into an opponent, leaving spikes scatterd on the ground in its wake.",
       "e_id": 0
     },
-    "Expanded Move 690": {
+    "Stone Axe": {
       "t": "Rock",
       "bp": 65,
       "cat": "Physical",
       "pp": 10,
       "acc": 95,
       "prio": 0,
-      "name": "Expanded Move 690",
+      "name": "Stone Axe",
       "num": 689,
       "desc": "The user swings its limbs to scatter spikes across the field and do damage all at once. ",
       "e_id": 0
     },
-    "Expanded Move 691": {
+    "Treasure Hoard": {
       "t": "Dragon",
       "bp": 80,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Expanded Move 691",
+      "name": "Treasure Hoard",
       "num": 690,
       "desc": "The user greedily takes the target's items when attacking to add to its collection of various treasures.",
       "e_id": 0
     },
-    "Expanded Move 692": {
+    "Strangle": {
       "t": "Dragon",
       "bp": 85,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 255,
-      "name": "Expanded Move 692",
+      "name": "Strangle",
       "num": 691,
       "desc": "The user moves last, wrapping its body  around the target to crush them. This does  double damage if the target is statused.",
       "e_id": 0
     },
-    "Expanded Move 693": {
+    "Amplification": {
       "t": "Psychic",
       "bp": 70,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Expanded Move 693",
+      "name": "Amplification",
       "num": 692,
       "desc": "The user spots a weak point in the target and dives in to amplify those effects. This does double damage to a statused target.",
       "e_id": 0,
       "flags": {
         "sound": true
       }
-    },
-    "Expanded Move 694": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 694",
-      "num": 693,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 695": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 695",
-      "num": 694,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 696": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 696",
-      "num": 695,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 697": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 697",
-      "num": 696,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 698": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 698",
-      "num": 697,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 699": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 699",
-      "num": 698,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 700": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 700",
-      "num": 699,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 701": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 701",
-      "num": 700,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 702": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 702",
-      "num": 701,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 703": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 703",
-      "num": 702,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 704": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 704",
-      "num": 703,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 705": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 705",
-      "num": 704,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 706": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 706",
-      "num": 705,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 707": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 707",
-      "num": 706,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 708": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 708",
-      "num": 707,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 709": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 709",
-      "num": 708,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 710": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 710",
-      "num": 709,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 711": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 711",
-      "num": 710,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 712": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 712",
-      "num": 711,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 713": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 713",
-      "num": 712,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 714": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 714",
-      "num": 713,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 715": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 715",
-      "num": 714,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 716": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 716",
-      "num": 715,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 717": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 717",
-      "num": 716,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 718": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 718",
-      "num": 717,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 719": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 719",
-      "num": 718,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 720": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 720",
-      "num": 719,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 721": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 721",
-      "num": 720,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 722": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 722",
-      "num": 721,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 723": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 723",
-      "num": 722,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 724": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 724",
-      "num": 723,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 725": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 725",
-      "num": 724,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 726": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 726",
-      "num": 725,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 727": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 727",
-      "num": 726,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 728": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 728",
-      "num": 727,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 729": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 729",
-      "num": 728,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 730": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 730",
-      "num": 729,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 731": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 731",
-      "num": 730,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 732": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 732",
-      "num": 731,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 733": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 733",
-      "num": 732,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 734": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 734",
-      "num": 733,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 735": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 735",
-      "num": 734,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 736": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 736",
-      "num": 735,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 737": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 737",
-      "num": 736,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 738": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 738",
-      "num": 737,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 739": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 739",
-      "num": 738,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 740": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 740",
-      "num": 739,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 741": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 741",
-      "num": 740,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 742": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 742",
-      "num": 741,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 743": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 743",
-      "num": 742,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 744": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 744",
-      "num": 743,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 745": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 745",
-      "num": 744,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 746": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 746",
-      "num": 745,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 747": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 747",
-      "num": 746,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 748": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 748",
-      "num": 747,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 749": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 749",
-      "num": 748,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 750": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 750",
-      "num": 749,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 751": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 751",
-      "num": 750,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 752": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 752",
-      "num": 751,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 753": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 753",
-      "num": 752,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 754": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 754",
-      "num": 753,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 755": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 755",
-      "num": 754,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 756": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 756",
-      "num": 755,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 757": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 757",
-      "num": 756,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 758": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 758",
-      "num": 757,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 759": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 759",
-      "num": 758,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 760": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 760",
-      "num": 759,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 761": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 761",
-      "num": 760,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 762": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 762",
-      "num": 761,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 763": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 763",
-      "num": 762,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 764": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 764",
-      "num": 763,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 765": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 765",
-      "num": 764,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 766": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 766",
-      "num": 765,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 767": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 767",
-      "num": 766,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 768": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 768",
-      "num": 767,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 769": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 769",
-      "num": 768,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 770": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 770",
-      "num": 769,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 771": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 771",
-      "num": 770,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 772": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 772",
-      "num": 771,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 773": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 773",
-      "num": 772,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 774": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 774",
-      "num": 773,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 775": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 775",
-      "num": 774,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 776": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 776",
-      "num": 775,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 777": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 777",
-      "num": 776,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 778": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 778",
-      "num": 777,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 779": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 779",
-      "num": 778,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 780": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 780",
-      "num": 779,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 781": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 781",
-      "num": 780,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 782": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 782",
-      "num": 781,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 783": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 783",
-      "num": 782,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 784": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 784",
-      "num": 783,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 785": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 785",
-      "num": 784,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 786": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 786",
-      "num": 785,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 787": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 787",
-      "num": 786,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 788": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 788",
-      "num": 787,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 789": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 789",
-      "num": 788,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 790": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 790",
-      "num": 789,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 791": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 791",
-      "num": 790,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 792": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 792",
-      "num": 791,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 793": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 793",
-      "num": 792,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 794": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 794",
-      "num": 793,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 795": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 795",
-      "num": 794,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 796": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 796",
-      "num": 795,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 797": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 797",
-      "num": 796,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 798": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 798",
-      "num": 797,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 799": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 799",
-      "num": 798,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 800": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 800",
-      "num": 799,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 801": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 801",
-      "num": 800,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 802": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 802",
-      "num": 801,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 803": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 803",
-      "num": 802,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 804": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 804",
-      "num": 803,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 805": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 805",
-      "num": 804,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 806": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 806",
-      "num": 805,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 807": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 807",
-      "num": 806,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 808": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 808",
-      "num": 807,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 809": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 809",
-      "num": 808,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 810": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 810",
-      "num": 809,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 811": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 811",
-      "num": 810,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 812": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 812",
-      "num": 811,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 813": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 813",
-      "num": 812,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 814": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 814",
-      "num": 813,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 815": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 815",
-      "num": 814,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 816": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 816",
-      "num": 815,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 817": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 817",
-      "num": 816,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 818": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 818",
-      "num": 817,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 819": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 819",
-      "num": 818,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 820": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 820",
-      "num": 819,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 821": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 821",
-      "num": 820,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 822": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 822",
-      "num": 821,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 823": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 823",
-      "num": 822,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 824": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 824",
-      "num": 823,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 825": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 825",
-      "num": 824,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 826": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 826",
-      "num": 825,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 827": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 827",
-      "num": 826,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 828": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 828",
-      "num": 827,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 829": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 829",
-      "num": 828,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 830": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 830",
-      "num": 829,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 831": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 831",
-      "num": 830,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 832": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 832",
-      "num": 831,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 833": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 833",
-      "num": 832,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 834": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 834",
-      "num": 833,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 835": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 835",
-      "num": 834,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 836": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 836",
-      "num": 835,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 837": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 837",
-      "num": 836,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 838": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 838",
-      "num": 837,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 839": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 839",
-      "num": 838,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 840": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 840",
-      "num": 839,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 841": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 841",
-      "num": 840,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 842": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 842",
-      "num": 841,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 843": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 843",
-      "num": 842,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 844": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 844",
-      "num": 843,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 845": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 845",
-      "num": 844,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 846": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 846",
-      "num": 845,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 847": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 847",
-      "num": 846,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 848": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 848",
-      "num": 847,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 849": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 849",
-      "num": 848,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 850": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 850",
-      "num": 849,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 851": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 851",
-      "num": 850,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 852": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 852",
-      "num": 851,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 853": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 853",
-      "num": 852,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 854": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 854",
-      "num": 853,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 855": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 855",
-      "num": 854,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 856": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 856",
-      "num": 855,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 857": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 857",
-      "num": 856,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 858": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 858",
-      "num": 857,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 859": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 859",
-      "num": 858,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 860": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 860",
-      "num": 859,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 861": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 861",
-      "num": 860,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 862": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 862",
-      "num": 861,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 863": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 863",
-      "num": 862,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 864": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 864",
-      "num": 863,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 865": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 865",
-      "num": 864,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 866": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 866",
-      "num": 865,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 867": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 867",
-      "num": 866,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 868": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 868",
-      "num": 867,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 869": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 869",
-      "num": 868,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 870": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 870",
-      "num": 869,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 871": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 871",
-      "num": 870,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 872": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 872",
-      "num": 871,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 873": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 873",
-      "num": 872,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 874": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 874",
-      "num": 873,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 875": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 875",
-      "num": 874,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 876": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 876",
-      "num": 875,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 877": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 877",
-      "num": 876,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 878": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 878",
-      "num": 877,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 879": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 879",
-      "num": 878,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 880": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 880",
-      "num": 879,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 881": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 881",
-      "num": 880,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 882": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 882",
-      "num": 881,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 883": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 883",
-      "num": 882,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 884": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 884",
-      "num": 883,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 885": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 885",
-      "num": 884,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 886": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 886",
-      "num": 885,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 887": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 887",
-      "num": 886,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 888": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 888",
-      "num": 887,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 889": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 889",
-      "num": 888,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 890": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 890",
-      "num": 889,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 891": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 891",
-      "num": 890,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 892": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 892",
-      "num": 891,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 893": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 893",
-      "num": 892,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 894": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 894",
-      "num": 893,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 895": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 895",
-      "num": 894,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 896": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 896",
-      "num": 895,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 897": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 897",
-      "num": 896,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 898": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 898",
-      "num": 897,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 899": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 899",
-      "num": 898,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 900": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 900",
-      "num": 899,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 901": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 901",
-      "num": 900,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 902": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 902",
-      "num": 901,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 903": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 903",
-      "num": 902,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 904": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 904",
-      "num": 903,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 905": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 905",
-      "num": 904,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 906": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 906",
-      "num": 905,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 907": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 907",
-      "num": 906,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 908": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 908",
-      "num": 907,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 909": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 909",
-      "num": 908,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 910": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 910",
-      "num": 909,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 911": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 911",
-      "num": 910,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 912": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 912",
-      "num": 911,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 913": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 913",
-      "num": 912,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 914": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 914",
-      "num": 913,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 915": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 915",
-      "num": 914,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 916": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 916",
-      "num": 915,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 917": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 917",
-      "num": 916,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 918": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 918",
-      "num": 917,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 919": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 919",
-      "num": 918,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 920": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 920",
-      "num": 919,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 921": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 921",
-      "num": 920,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 922": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 922",
-      "num": 921,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 923": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 923",
-      "num": 922,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 924": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 924",
-      "num": 923,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 925": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 925",
-      "num": 924,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 926": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 926",
-      "num": 925,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 927": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 927",
-      "num": 926,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 928": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 928",
-      "num": 927,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 929": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 929",
-      "num": 928,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 930": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 930",
-      "num": 929,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 931": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 931",
-      "num": 930,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 932": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 932",
-      "num": 931,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 933": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 933",
-      "num": 932,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 934": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 934",
-      "num": 933,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 935": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 935",
-      "num": 934,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 936": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 936",
-      "num": 935,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 937": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 937",
-      "num": 936,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 938": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 938",
-      "num": 937,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 939": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 939",
-      "num": 938,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 940": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 940",
-      "num": 939,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 941": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 941",
-      "num": 940,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 942": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 942",
-      "num": 941,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 943": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 943",
-      "num": 942,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 944": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 944",
-      "num": 943,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 945": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 945",
-      "num": 944,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 946": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 946",
-      "num": 945,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 947": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 947",
-      "num": 946,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 948": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 948",
-      "num": 947,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 949": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 949",
-      "num": 948,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 950": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 950",
-      "num": 949,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 951": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 951",
-      "num": 950,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 952": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 952",
-      "num": 951,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 953": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 953",
-      "num": 952,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 954": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 954",
-      "num": 953,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 955": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 955",
-      "num": 954,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 956": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 956",
-      "num": 955,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 957": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 957",
-      "num": 956,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 958": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 958",
-      "num": 957,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 959": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 959",
-      "num": 958,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 960": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 960",
-      "num": 959,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 961": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 961",
-      "num": 960,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 962": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 962",
-      "num": 961,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 963": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 963",
-      "num": 962,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 964": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 964",
-      "num": 963,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 965": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 965",
-      "num": 964,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 966": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 966",
-      "num": 965,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 967": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 967",
-      "num": 966,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 968": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 968",
-      "num": 967,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 969": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 969",
-      "num": 968,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 970": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 970",
-      "num": 969,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 971": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 971",
-      "num": 970,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 972": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 972",
-      "num": 971,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 973": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 973",
-      "num": 972,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 974": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 974",
-      "num": 973,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 975": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 975",
-      "num": 974,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 976": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 976",
-      "num": 975,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 977": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 977",
-      "num": 976,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 978": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 978",
-      "num": 977,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 979": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 979",
-      "num": 978,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 980": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 980",
-      "num": 979,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 981": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 981",
-      "num": 980,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 982": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 982",
-      "num": 981,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 983": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 983",
-      "num": 982,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 984": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 984",
-      "num": 983,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 985": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 985",
-      "num": 984,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 986": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 986",
-      "num": 985,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 987": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 987",
-      "num": 986,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 988": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 988",
-      "num": 987,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 989": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 989",
-      "num": 988,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 990": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 990",
-      "num": 989,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 991": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 991",
-      "num": 990,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 992": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 992",
-      "num": 991,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 993": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 993",
-      "num": 992,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 994": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 994",
-      "num": 993,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 995": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 995",
-      "num": 994,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 996": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 996",
-      "num": 995,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 997": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 997",
-      "num": 996,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 998": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 998",
-      "num": 997,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
-    },
-    "Expanded Move 999": {
-      "t": "Normal",
-      "bp": 35,
-      "cat": "Physical",
-      "pp": 35,
-      "acc": 100,
-      "prio": 0,
-      "name": "Expanded Move 999",
-      "num": 998,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
-      "e_id": 0,
-      "sf": true
     }
   },
   "abilities": {
@@ -137085,13 +131560,13 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a Great Ball.",
-      "location": "Dreamyard, Pinwheel Forest, Dragonspiral Tower, Champion's Grove, Champion's Entrance, Champion's Cliff, Relic Passage, Route 2, Route 3, Route 20",
+      "location": "Dreamyard, Pinwheel Forest, Dragonspiral Tower, Champion's Grove, Champion's Entrance, Champion's Cliff, Relic Passage, Route 2, Route 3, Route 20, Dreamyard, Pinwheel Forest, Dragonspiral Tower, Champion's Grove, Champion's Entrance, Champion's Cliff, Relic Passage, Route 2, Route 3, Route 20, Dreamyard, Pinwheel Forest, Dreamyard, Pinwheel Forest, Dragonspiral Tower",
       "rewards": [
         "Lass Dana",
         "Policeman Jeff",
         "Maid Alica",
         "Parasol Lady Gwyneth",
-        "Policeman Bill"
+        "Policeman Bill - Liberty Garden"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -137132,7 +131607,7 @@ overrides = {
     "netball": {
       "name": "Net Ball",
       "desc": "A somewhat different Poké Ball that\\nworks especially well on Water- and\\nBug-type Pokémon.",
-      "location": "Pinwheel Forest",
+      "location": "Pinwheel Forest, Pinwheel Forest, Pinwheel Forest, Pinwheel Forest",
       "marts": [
         "Castelia City Upper Cashier",
         "Victory Road Upper 2",
@@ -137142,7 +131617,7 @@ overrides = {
     "diveball": {
       "name": "Dive Ball",
       "desc": "A somewhat different Poké Ball that\\nworks especially well on Pokémon that\\nlive underwater.",
-      "location": "Seaside Grotto, Route 17",
+      "location": "Seaside Grotto, Route 17, Seaside Grotto, Route 17",
       "rewards": [
         "Fisherman Devon"
       ],
@@ -137154,7 +131629,7 @@ overrides = {
     "nestball": {
       "name": "Nest Ball",
       "desc": "A somewhat different Poké Ball that\\nworks especially well on weaker\\nPokémon in the wild.",
-      "location": "Route 8",
+      "location": "Route 8, Route 8",
       "marts": [
         "Castelia City Upper Cashier",
         "Victory Road Upper 2"
@@ -137163,7 +131638,7 @@ overrides = {
     "repeatball": {
       "name": "Repeat Ball",
       "desc": "A somewhat different Poké Ball that\\nworks especially well on Pokémon\\nspecies that were previously caught.",
-      "location": "Route 2, Accumula Town",
+      "location": "Route 2, Accumula Town, Route 2, Accumula Town",
       "marts": [
         "Castelia City Upper Cashier",
         "Victory Road Upper 2"
@@ -137172,7 +131647,7 @@ overrides = {
     "timerball": {
       "name": "Timer Ball",
       "desc": "A somewhat different Ball that\\nbecomes progressively better the\\nmore turns there are in a battle.",
-      "location": "Striaton City",
+      "location": "Striaton City, Striaton City, Striaton City, Striaton City, Striaton City",
       "marts": [
         "Castelia City Upper Cashier",
         "Victory Road Upper 2"
@@ -137181,7 +131656,7 @@ overrides = {
     "luxuryball": {
       "name": "Luxury Ball",
       "desc": "A comfortable Poké Ball that makes a\\ncaught wild Pokémon quickly grow\\nfriendly.",
-      "location": "N's Ruins",
+      "location": "N's Ruins, N's Ruins",
       "marts": [
         "Castelia City Upper Cashier",
         "Victory Road Upper 2",
@@ -137199,7 +131674,7 @@ overrides = {
     "duskball": {
       "name": "Dusk Ball",
       "desc": "A somewhat different Poké Ball that\\nmakes it easier to catch wild Pokémon\\nat night or in dark places like caves.",
-      "location": "Twist Mountain, Justice Hallow",
+      "location": "Twist Mountain, Justice Hallow, Twist Mountain, Justice Hallow, Twist Mountain",
       "marts": [
         "Victory Road Upper 2"
       ]
@@ -137207,7 +131682,7 @@ overrides = {
     "healball": {
       "name": "Heal Ball",
       "desc": "A remedial Poké Ball that restores the\\ncaught Pokémon's HP and eliminates\\nany status problem.",
-      "location": "Abundant Shrine",
+      "location": "Abundant Shrine, Abundant Shrine",
       "marts": [
         "Castelia City Upper Cashier",
         "Victory Road Upper 2"
@@ -137216,7 +131691,7 @@ overrides = {
     "quickball": {
       "name": "Quick Ball",
       "desc": "A somewhat different Poké Ball that\\nprovides a better catch rate if it is\\nused at the start of a wild encounter.",
-      "location": "Route 3, Route 9",
+      "location": "Route 3, Route 9, Route 3, Route 9",
       "rewards": [
         "Pilot Leonard"
       ],
@@ -137275,7 +131750,7 @@ overrides = {
     "fullrestore": {
       "name": "Full Restore",
       "desc": "A medicine that fully restores the HP\\nand heals any status problems of a\\nsingle Pokémon.",
-      "location": "Twist Mountain, Champion's Grove, Champion's Entrance, Champion's Cliff, Seaside Grotto, Route 1 , Route 3",
+      "location": "Twist Mountain, Champion's Grove, Champion's Entrance, Champion's Cliff, Seaside Grotto, Route 1 , Route 3, Twist Mountain, Champion's Grove, Champion's Entrance, Champion's Cliff, Seaside Grotto, Route 1 , Route 3, Twist Mountain",
       "rewards": [
         "Nurse Kirsten"
       ],
@@ -137288,7 +131763,7 @@ overrides = {
     "maxpotion": {
       "name": "Max Potion",
       "desc": "A spray-type medicine for wounds.\\nIt completely restores the HP of a\\nsingle Pokémon.",
-      "location": "Nature Preserve",
+      "location": "Nature Preserve, Nature Preserve",
       "rewards": [
         "Pokefan Colin",
         "Pokefan Darcy"
@@ -137297,7 +131772,7 @@ overrides = {
     "hyperpotion": {
       "name": "Hyper Potion",
       "desc": "A spray-type medicine for wounds.\\nIt restores the HP of one Pokémon by\\n200 points.",
-      "location": "Justice Hallow",
+      "location": "Justice Hallow, Justice Hallow",
       "rewards": [
         "Hoopster Bobby",
         "Hoopster Lamarcus"
@@ -137330,7 +131805,7 @@ overrides = {
     "fullheal": {
       "name": "Full Heal",
       "desc": "A spray-type medicine.\\nIt heals all the status problems of a\\nsingle Pokémon.",
-      "location": "Pinwheel Forest, Haunted Mansion, Route 2, Accumula Town, Lacunosa Town",
+      "location": "Pinwheel Forest, Haunted Mansion, Route 2, Accumula Town, Lacunosa Town, Pinwheel Forest, Haunted Mansion, Route 2, Accumula Town, Lacunosa Town, Pinwheel Forest, Pinwheel Forest",
       "marts": [
         "Stock 1+Badges",
         "Stock 3+Badges",
@@ -137343,7 +131818,7 @@ overrides = {
     "revive": {
       "name": "Revive",
       "desc": "A medicine that revives a fainted\\nPokémon. It restores half the\\nPokémon's maximum HP.",
-      "location": "Castelia City, Plasma Frigate",
+      "location": "Castelia City, Plasma Frigate, Castelia City, Plasma Frigate, Castelia City, Castelia City, Castelia City",
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges",
@@ -137355,7 +131830,7 @@ overrides = {
     "maxrevive": {
       "name": "Max Revive",
       "desc": "A medicine that revives a fainted\\nPokémon. It fully restores the\\nPokémon's HP.",
-      "location": "Pinwheel Forest, Dragonspiral Tower, Champion's Cliff, Clay Tunnel, Route 2, Wellspring Cave, Abundant Shrine",
+      "location": "Pinwheel Forest, Dragonspiral Tower, Champion's Cliff, Clay Tunnel, Route 2, Wellspring Cave, Abundant Shrine, Pinwheel Forest, Dragonspiral Tower, Champion's Cliff, Clay Tunnel, Route 2, Wellspring Cave, Abundant Shrine, Pinwheel Forest, Pinwheel Forest, Dragonspiral Tower",
       "rewards": [
         "Doctor Jules"
       ]
@@ -137378,9 +131853,9 @@ overrides = {
     "moomoomilk": {
       "name": "Moomoo Milk",
       "desc": "Milk with a very high nutrition content.\\nIt restores the HP of one Pokémon by\\n100 points.",
-      "location": "Floccesy Ranch",
+      "location": "Floccesy Ranch, Floccesy Ranch",
       "rewards": [
-        "Waiter Clint",
+        "Waiter Clint - Nimbasa City",
         "Waitress Bonita",
         "Baker Lilly"
       ],
@@ -137423,7 +131898,7 @@ overrides = {
     "ether": {
       "name": "Ether",
       "desc": "It restores the PP of a Pokémon's\\nselected move by a maximum of\\n10 points.",
-      "location": "Castelia City",
+      "location": "Castelia City, Castelia City, Castelia City, Castelia City, Castelia City",
       "rewards": [
         "Scientist Simon",
         "Scientist Blythe"
@@ -137437,12 +131912,12 @@ overrides = {
     "elixir": {
       "name": "Elixir",
       "desc": "It restores the PP of all the\\nmoves learned by the targeted Pokémon\\nby 10 points each.",
-      "location": "Dragonspiral Tower"
+      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower"
     },
     "maxelixir": {
       "name": "Max Elixir",
       "desc": "It fully restores the PP of all the\\nmoves learned by the targeted\\nPokémon.",
-      "location": "Striaton City, Icirrus City, Champion's Cliff"
+      "location": "Striaton City, Icirrus City, Champion's Cliff, Striaton City, Icirrus City, Champion's Cliff, Striaton City, Icirrus City, Striaton City, Icirrus City, Striaton City, Icirrus City"
     },
     "lavacookie": {
       "name": "Lava Cookie",
@@ -137452,7 +131927,7 @@ overrides = {
     "berryjuice": {
       "name": "Berry Juice",
       "desc": "A 100% pure juice made of Berries.\\nIt restores the HP of one Pokémon by\\njust 20 points.",
-      "location": "Route 18, Undella Town",
+      "location": "Route 18, Undella Town, Route 18, Undella Town",
       "wilds": [
         "Shuckle"
       ]
@@ -137472,35 +131947,35 @@ overrides = {
     "hpup": {
       "name": "HP Up",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base HP of a single\\nPokémon.",
-      "location": "Dreamyard, Pinwheel Forest, Clay Tunnel"
+      "location": "Dreamyard, Pinwheel Forest, Clay Tunnel, Dreamyard, Pinwheel Forest, Clay Tunnel, Dreamyard, Pinwheel Forest, Dreamyard, Pinwheel Forest"
     },
     "protein": {
       "name": "Protein",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Attack stat of a\\nsingle Pokémon.",
-      "location": "Humilau City, Pinwheel Forest, Dragonspiral Tower, Relic Passage, N's Ruins"
+      "location": "Humilau City, Pinwheel Forest, Dragonspiral Tower, Relic Passage, N's Ruins, Humilau City, Pinwheel Forest, Dragonspiral Tower, Relic Passage, N's Ruins, Humilau City, Humilau City, Pinwheel Forest, Humilau City, Pinwheel Forest, Dragonspiral Tower"
     },
     "iron": {
       "name": "Iron",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Defense stat of a\\nsingle Pokémon.",
-      "location": "Dreamyard"
+      "location": "Dreamyard, Dreamyard, Dreamyard, Dreamyard"
     },
     "carbos": {
       "name": "Carbos",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Speed stat of a\\nsingle Pokémon.",
-      "location": "Dragonspiral Tower, Giant Chasm Core, Route 2",
+      "location": "Dragonspiral Tower, Giant Chasm Core, Route 2, Dragonspiral Tower, Giant Chasm Core, Route 2, Dragonspiral Tower, Giant Chasm Core",
       "rewards": [
-        "Striker Marco"
+        "Striker Marco - Nimbasa City"
       ]
     },
     "calcium": {
       "name": "Calcium",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Sp. Atk (Special\\nAttack) stat of a single Pokémon.",
-      "location": "Driftveil City, Route 2, Route 3"
+      "location": "Driftveil City, Route 2, Route 3, Driftveil City, Route 2, Route 3, Driftveil City, Driftveil City, Driftveil City"
     },
     "rarecandy": {
       "name": "Rare Candy",
       "desc": "A candy that is packed with energy.\\nIt raises the level of a single Pokémon\\nby one.",
-      "location": "Dreamyard, Haunted Mansion, Champion's Cavern, Relic Passage, Seaside Grotto, Nature Preserve, Route 3, Abundant Shrine",
+      "location": "Dreamyard, Haunted Mansion, Champion's Cavern, Relic Passage, Seaside Grotto, Nature Preserve, Route 3, Abundant Shrine, Dreamyard, Haunted Mansion, Champion's Cavern, Relic Passage, Seaside Grotto, Nature Preserve, Route 3, Abundant Shrine, Dreamyard, Dreamyard",
       "marts": [
         "Stock No Badges",
         "Stock 1+Badges",
@@ -137514,23 +131989,23 @@ overrides = {
     "ppup": {
       "name": "PP Up",
       "desc": "It slightly raises the maximum PP of\\na selected move that has been learned\\nby the target Pokémon.",
-      "location": "Icirrus City, Pokestar Tournament, Giant Chasm Core, Champion's Road"
+      "location": "Icirrus City, Pokestar Tournament, Giant Chasm Core, Champion's Road, Icirrus City, Pokestar Tournament, Giant Chasm Core, Champion's Road, Icirrus City, Icirrus City, Icirrus City, Pokestar Tournament, Giant Chasm Core"
     },
     "zinc": {
       "name": "Zinc",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Sp. Def (Special\\nDefense) stat of a single Pokémon.",
-      "location": "Route 3",
+      "location": "Route 3, Route 3",
       "rewards": [
-        "Smasher Mari"
+        "Smasher Mari - Nimbasa City"
       ]
     },
     "ppmax": {
       "name": "PP Max",
       "desc": "It maximally raises the top PP of a\\nselected move that has been learned\\nby the target Pokémon.",
-      "location": "Pinwheel Forest, Pinwheel Forest, Desert Resort, Dragonspiral Tower, Champion's Cavern, Route 18, Route 20, Route 22",
+      "location": "Pinwheel Forest, Pinwheel Forest, Desert Resort, Dragonspiral Tower, Champion's Cavern, Route 18, Route 20, Route 22, Pinwheel Forest, Pinwheel Forest, Desert Resort, Dragonspiral Tower, Champion's Cavern, Route 18, Route 20, Route 22, Pinwheel Forest, Pinwheel Forest, Desert Resort, Pinwheel Forest, Pinwheel Forest, Desert Resort, Dragonspiral Tower",
       "rewards": [
         "Veteran Sayuri",
-        "PkMn Ranger Lewis"
+        "PkMn Ranger Lewis - Reversal Summit"
       ]
     },
     "oldgateau": {
@@ -137541,7 +132016,7 @@ overrides = {
     "guardspec": {
       "name": "Guard Spec.",
       "desc": "An item that prevents stat reduction\\namong the Trainer's party Pokémon\\nfor five turns after use.",
-      "location": "Castelia City",
+      "location": "Castelia City, Castelia City, Castelia City, Castelia City, Castelia City",
       "marts": [
         "SM9 Top Right Cashier"
       ]
@@ -137605,7 +132080,7 @@ overrides = {
     "pokédoll": {
       "name": "Poké Doll",
       "desc": "A doll that attracts Pokémon.\\nUse it to flee from any battle with a\\nwild Pokémon.",
-      "location": "Shopping Mall Nine",
+      "location": "Shopping Mall Nine, Shopping Mall Nine",
       "marts": [
         "Victory Road Upper"
       ]
@@ -137618,22 +132093,22 @@ overrides = {
     "blueflute": {
       "name": "Blue Flute",
       "desc": "A toy flute made from blue glass.\\nA maniac will buy it for a high price.",
-      "location": "Route 13"
+      "location": "Route 13, Route 13"
     },
     "yellowflute": {
       "name": "Yellow Flute",
       "desc": "A toy flute made from yellow glass.\\nA maniac will buy it for a high price.",
-      "location": "Route 13"
+      "location": "Route 13, Route 13"
     },
     "redflute": {
       "name": "Red Flute",
       "desc": "A toy flute made from red glass.\\nA maniac will buy it for a high price.",
-      "location": "Route 13"
+      "location": "Route 13, Route 13"
     },
     "blackflute": {
       "name": "Black Flute",
       "desc": "A toy flute made from black glass.\\nA maniac will buy it for a high price.",
-      "location": "Route 13"
+      "location": "Route 13, Route 13"
     },
     "whiteflute": {
       "name": "White Flute",
@@ -137656,7 +132131,7 @@ overrides = {
     "redshard": {
       "name": "Red Shard",
       "desc": "A small red shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Twist Mountain, Clay Tunnel, Route 13, Route 22",
+      "location": "Twist Mountain, Clay Tunnel, Route 13, Route 22, Twist Mountain, Clay Tunnel, Route 13, Route 22, Twist Mountain",
       "rewards": [
         "Hiker Russel"
       ],
@@ -137668,7 +132143,7 @@ overrides = {
     "blueshard": {
       "name": "Blue Shard",
       "desc": "A small blue shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Village Bridge, Justice Hallow, Route 22, Route 17",
+      "location": "Village Bridge, Justice Hallow, Route 22, Route 17, Village Bridge, Justice Hallow, Route 22, Route 17",
       "rewards": [
         "Coldworker Matthew"
       ],
@@ -137680,7 +132155,7 @@ overrides = {
     "yellowshard": {
       "name": "Yellow Shard",
       "desc": "A small yellow shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Striaton City, Justice Hallow, Route 12, Route 22",
+      "location": "Striaton City, Justice Hallow, Route 12, Route 22, Striaton City, Justice Hallow, Route 12, Route 22, Striaton City, Striaton City, Striaton City",
       "rewards": [
         "Worker Tyler"
       ],
@@ -137692,7 +132167,7 @@ overrides = {
     "greenshard": {
       "name": "Green Shard",
       "desc": "A small green shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Clay Tunnel, Moor of Icirrus, Route 12, Route 14, Route 22, Route 23, Lacunosa Town",
+      "location": "Clay Tunnel, Moor of Icirrus, Route 12, Route 14, Route 22, Route 23, Lacunosa Town, Clay Tunnel, Moor of Icirrus, Route 12, Route 14, Route 22, Route 23, Lacunosa Town",
       "rewards": [
         "Janitor Caleb"
       ],
@@ -137708,7 +132183,7 @@ overrides = {
     "maxrepel": {
       "name": "Max Repel",
       "desc": "An item that prevents weak wild\\nPokémon from appearing for 250 steps\\nafter its use.",
-      "location": "Mistralton City, Pinwheel Forest, Giant Chasm, Champion's Entrance, Champion's Entrance, Champion's Cliff, Champion's Cliff, Relic Passage, Seaside Grotto, Wellspring Cave",
+      "location": "Mistralton City, Pinwheel Forest, Giant Chasm, Champion's Entrance, Champion's Entrance, Champion's Cliff, Champion's Cliff, Relic Passage, Seaside Grotto, Wellspring Cave, Mistralton City, Pinwheel Forest, Giant Chasm, Champion's Entrance, Champion's Entrance, Champion's Cliff, Champion's Cliff, Relic Passage, Seaside Grotto, Wellspring Cave, Mistralton City, Mistralton City, Pinwheel Forest, Mistralton City, Pinwheel Forest, Giant Chasm",
       "rewards": [
         "PkMn Ranger Heidi"
       ],
@@ -137726,7 +132201,7 @@ overrides = {
     "escaperope": {
       "name": "Escape Rope",
       "desc": "A long, durable rope.\\nUse it to escape instantly from a cave\\nor a dungeon.",
-      "location": "Reversal Badlands, Champion's Entrance, Champion's Cliff, Relic Passage, Wellspring Cave, Guidance Chamber",
+      "location": "Reversal Badlands, Champion's Entrance, Champion's Cliff, Relic Passage, Wellspring Cave, Guidance Chamber, Reversal Badlands, Champion's Entrance, Champion's Cliff, Relic Passage, Wellspring Cave, Guidance Chamber",
       "marts": [
         "Stock No Badges",
         "Stock 1+Badges",
@@ -137740,12 +132215,12 @@ overrides = {
     "repel": {
       "name": "Repel",
       "desc": "An item that prevents weak wild\\nPokémon from appearing for 100 steps\\nafter its use.",
-      "location": "Castelia City"
+      "location": "Castelia City, Castelia City, Castelia City, Castelia City, Castelia City"
     },
     "sunstone": {
       "name": "Sun Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as red as the sun.",
-      "location": "Pinwheel Forest, Giant Chasm Core, Route 7, Route 12",
+      "location": "Pinwheel Forest, Giant Chasm Core, Route 7, Route 12, Pinwheel Forest, Giant Chasm Core, Route 7, Route 12, Pinwheel Forest, Pinwheel Forest, Giant Chasm Core",
       "rewards": [
         "Clerk  F Wren"
       ],
@@ -137760,7 +132235,7 @@ overrides = {
     "moonstone": {
       "name": "Moon Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as black as the night sky.",
-      "location": "Dreamyard, Giant Chasm Core, Giant Chasm Core, Route 6",
+      "location": "Dreamyard, Giant Chasm Core, Giant Chasm Core, Route 6, Dreamyard, Giant Chasm Core, Giant Chasm Core, Route 6, Dreamyard, Dreamyard, Giant Chasm Core, Giant Chasm Core",
       "wilds": [
         "Clefairy",
         "Clefable",
@@ -137775,7 +132250,7 @@ overrides = {
     "firestone": {
       "name": "Fire Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is colored orange.",
-      "location": "Desert Resort, Reversal Badlands, Reversal Summit, Reversal Summit, Lentimas Town",
+      "location": "Desert Resort, Reversal Badlands, Reversal Summit, Reversal Summit, Lentimas Town, Desert Resort, Reversal Badlands, Reversal Summit, Reversal Summit, Lentimas Town, Desert Resort, Desert Resort",
       "marts": [
         "Driftveil City Upper Cashier",
         "SM9 Middle Left Cashier"
@@ -137784,7 +132259,7 @@ overrides = {
     "thunderstone": {
       "name": "Thunderstone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt has a thunderbolt pattern.",
-      "location": "Chargestone Cave",
+      "location": "Chargestone Cave, Chargestone Cave, Chargestone Cave",
       "marts": [
         "Driftveil City Upper Cashier",
         "SM9 Middle Left Cashier"
@@ -137793,7 +132268,7 @@ overrides = {
     "waterstone": {
       "name": "Water Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is a clear, light blue.",
-      "location": "Route 19",
+      "location": "Route 19, Route 19",
       "marts": [
         "Driftveil City Upper Cashier",
         "SM9 Middle Left Cashier"
@@ -137802,7 +132277,7 @@ overrides = {
     "leafstone": {
       "name": "Leaf Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt has a leaf pattern.",
-      "location": "Route 7",
+      "location": "Route 7, Route 7",
       "rewards": [
         "PkMn Ranger Alain"
       ],
@@ -137851,7 +132326,7 @@ overrides = {
     "bigpearl": {
       "name": "Big Pearl",
       "desc": "A quite-large pearl that sparkles in a\\npretty silver color. It can be sold at\\na high price to shops.",
-      "location": "Relic Passage, Route 8, Route 14, Route 21",
+      "location": "Relic Passage, Route 8, Route 14, Route 21, Relic Passage, Route 8, Route 14, Route 21",
       "rewards": [
         "Socialite Emilia"
       ],
@@ -137866,7 +132341,7 @@ overrides = {
     "stardust": {
       "name": "Stardust",
       "desc": "Lovely, red-colored sand with a loose,\\nsilky feel. It can be sold at a high\\nprice to shops.",
-      "location": "Route 13",
+      "location": "Route 13, Route 13",
       "rewards": [
         "Rich Boy Anthony"
       ],
@@ -137878,7 +132353,7 @@ overrides = {
     "starpiece": {
       "name": "Star Piece",
       "desc": "A shard of a pretty gem that sparkles\\nin a red color. It can be sold at a\\nhigh price to shops.",
-      "location": "Giant Chasm, Giant Chasm Core, Giant Chasm Core, Champion's Road, Route 13, Route 18, Route 23",
+      "location": "Giant Chasm, Giant Chasm Core, Giant Chasm Core, Champion's Road, Route 13, Route 18, Route 23, Giant Chasm, Giant Chasm Core, Giant Chasm Core, Champion's Road, Route 13, Route 18, Route 23, Giant Chasm, Giant Chasm Core, Giant Chasm Core",
       "rewards": [
         "Youngster Kevin"
       ],
@@ -137893,7 +132368,7 @@ overrides = {
     "nugget": {
       "name": "Nugget",
       "desc": "A nugget of pure gold that gives off a\\nlustrous gleam. It can be sold at a\\nhigh price to shops.",
-      "location": "Pinwheel Forest, Desert Resort, Reversal Summit, Reversal Summit, Clay Tunnel, Route 14",
+      "location": "Pinwheel Forest, Desert Resort, Reversal Summit, Reversal Summit, Clay Tunnel, Route 14, Pinwheel Forest, Desert Resort, Reversal Summit, Reversal Summit, Clay Tunnel, Route 14, Pinwheel Forest, Pinwheel Forest, Desert Resort",
       "wilds": [
         "Trubbish",
         "Garbodor"
@@ -137902,7 +132377,7 @@ overrides = {
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is\\nextremely rare. It glows faintly in the\\ncolors of the rainbow.",
-      "location": "Castelia City, Humilau City, Desert Resort, Desert Resort, Chargestone Cave, Castelia Sewers, Plasma Frigate, Seaside Grotto, Village Bridge, Route 6, Moor of Icirrus, Moor of Icirrus, Route 11, Route 14, Lostlorn Forest, Route 22, Route 23, Route 21",
+      "location": "Castelia City, Humilau City, Desert Resort, Desert Resort, Chargestone Cave, Castelia Sewers, Plasma Frigate, Seaside Grotto, Village Bridge, Route 6, Moor of Icirrus, Moor of Icirrus, Route 11, Route 14, Lostlorn Forest, Route 22, Route 23, Route 21, Castelia City, Humilau City, Desert Resort, Desert Resort, Chargestone Cave, Castelia Sewers, Plasma Frigate, Seaside Grotto, Village Bridge, Route 6, Moor of Icirrus, Moor of Icirrus, Route 11, Route 14, Lostlorn Forest, Route 22, Route 23, Route 21, Castelia City, Castelia City, Humilau City, Desert Resort, Castelia City, Humilau City, Desert Resort, Desert Resort, Chargestone Cave, Castelia Sewers",
       "rewards": [
         "Smasher Elena",
         "Linebacker Dan",
@@ -137914,9 +132389,20 @@ overrides = {
         "Linebacker Bob",
         "Infielder Alex",
         "Infielder Connor",
-        "Infielder Todd",
-        "Hoopster Lamarcus",
+        "Smasher Elena - Nimbasa City",
+        "Smasher Aspen - Nimbasa City",
+        "Infielder Todd - Nimbasa City",
+        "Infielder Alex - Nimbasa City",
+        "Infielder Connor - Nimbasa City",
+        "Striker Tony - Nimbasa City",
+        "Striker Roberto - Nimbasa City",
+        "Linebacker Dan - Nimbasa City",
+        "Linebacker Bob - Nimbasa City",
+        "Hoopster Lamarcus - Nimbasa City",
+        "Hoopster Bobby - Nimbasa City",
+        "Hoopster John - Nimbasa City",
         "Linebacker Jonah",
+        "Infielder Todd",
         "Striker Marco",
         "Smasher Mari"
       ],
@@ -138013,7 +132499,7 @@ overrides = {
     "rarebone": {
       "name": "Rare Bone",
       "desc": "A bone that is extremely valuable for\\nPokémon archeology. It can be sold\\nfor a high price to shops.",
-      "location": "Twist Mountain, Castelia Sewers, Clay Tunnel",
+      "location": "Twist Mountain, Castelia Sewers, Clay Tunnel, Twist Mountain, Castelia Sewers, Clay Tunnel, Twist Mountain, Castelia Sewers",
       "wilds": [
         "Dwebble",
         "Crustle"
@@ -138022,7 +132508,7 @@ overrides = {
     "shinystone": {
       "name": "Shiny Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt shines with a dazzling light.",
-      "location": "Dragonspiral Tower, Abundant Shrine",
+      "location": "Dragonspiral Tower, Abundant Shrine, Dragonspiral Tower, Abundant Shrine, Dragonspiral Tower",
       "marts": [
         "Driftveil City Upper Cashier",
         "SM9 Middle Left Cashier"
@@ -138031,7 +132517,7 @@ overrides = {
     "duskstone": {
       "name": "Dusk Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as dark as dark can be.",
-      "location": "Chargestone Cave, Twist Mountain, Haunted Mansion, Haunted Mansion",
+      "location": "Chargestone Cave, Twist Mountain, Haunted Mansion, Haunted Mansion, Chargestone Cave, Twist Mountain, Haunted Mansion, Haunted Mansion, Chargestone Cave, Twist Mountain",
       "marts": [
         "Driftveil City Upper Cashier",
         "SM9 Middle Left Cashier"
@@ -138040,7 +132526,7 @@ overrides = {
     "dawnstone": {
       "name": "Dawn Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt sparkles like eyes.",
-      "location": "Dreamyard, Giant Chasm Plains",
+      "location": "Dreamyard, Giant Chasm Plains, Dreamyard, Giant Chasm Plains, Dreamyard, Dreamyard, Giant Chasm Plains",
       "rewards": [
         "Backpacker Patty"
       ],
@@ -138065,7 +132551,7 @@ overrides = {
     "griseousorb": {
       "name": "Griseous Orb",
       "desc": "A glowing orb to be held by Giratina.\\nIt boosts the power of Dragon- and\\nGhost-type moves.",
-      "location": "Dragonspiral Tower"
+      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower"
     },
     "???": {
       "name": "???",
@@ -138103,12 +132589,12 @@ overrides = {
     "adamantorb": {
       "name": "Adamant Orb",
       "desc": "A brightly gleaming orb to be held by\\nDialga. It boosts the power of Dragon-\\nand Steel-type moves.",
-      "location": "Dragonspiral Tower"
+      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower"
     },
     "lustrousorb": {
       "name": "Lustrous Orb",
       "desc": "A beautifully glowing orb to be held by\\nPalkia. It boosts the power of Dragon-\\nand Water-type moves.",
-      "location": "Dragonspiral Tower"
+      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower"
     },
     "greetmail": {
       "name": "Greet Mail",
@@ -138223,8 +132709,8 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from paralysis.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Lois",
-        "PkMn Ranger Forrest"
+        "PkMn Ranger Lois - Route 5",
+        "PkMn Ranger Forrest - Lostlorn Forest"
       ],
       "wilds": [
         "Glameow",
@@ -138237,7 +132723,7 @@ overrides = {
     "chestoberry": {
       "name": "Chesto Berry",
       "desc": "If held by a Pokémon,\\nit recovers from sleep.",
-      "location": "Floccesy Town",
+      "location": "Floccesy Town, Floccesy Town",
       "wilds": [
         "Whismur",
         "Loudred",
@@ -138255,7 +132741,7 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from poison.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Serenity"
+        "PkMn Ranger Serenity - Lostlorn Forest"
       ],
       "wilds": [
         "Poochyena",
@@ -138275,7 +132761,7 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from a burn.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Anja"
+        "PkMn Ranger Anja - Desert Resort"
       ],
       "wilds": [
         "Vulpix",
@@ -138293,8 +132779,8 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit defrosts it.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Thalia",
-        "PkMn Ranger Crofton"
+        "PkMn Ranger Thalia - Route 11",
+        "PkMn Ranger Crofton - Route 11"
       ],
       "wilds": [
         "Chillet",
@@ -138317,7 +132803,7 @@ overrides = {
     "oranberry": {
       "name": "Oran Berry",
       "desc": "If held by a Pokémon,\\nit heals the user by just 10 HP.",
-      "location": "Route 19",
+      "location": "Route 19, Route 19",
       "wilds": [
         "Sentret",
         "Furret",
@@ -138338,10 +132824,10 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from confusion.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Johan",
-        "PkMn Ranger Mikiko",
-        "PkMn Ranger Lewis",
-        "PkMn Ranger Benga"
+        "PkMn Ranger Johan - Seaside Grotto",
+        "PkMn Ranger Mikiko - Seaside Grotto",
+        "PkMn Ranger Lewis - Reversal Summit",
+        "PkMn Ranger Benga - Reversal Summit"
       ],
       "wilds": [
         "Girafarig",
@@ -138359,18 +132845,18 @@ overrides = {
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon,\\nit recovers from any status problem.",
-      "location": "Village Bridge, Route 19, Route 23",
+      "location": "Village Bridge, Route 19, Route 23, Village Bridge, Route 19, Route 23",
       "rewards": [
-        "PkMn Ranger Rick",
-        "PkMn Ranger Audra",
-        "PkMn Ranger Maxwell",
-        "PkMn Ranger Katie",
-        "PkMn Ranger Parker",
-        "PkMn Ranger Elaine",
-        "PkMn Ranger Ralph",
-        "PkMn Ranger Melita",
-        "PkMn Ranger Joe",
-        "PkMn Ranger Lily"
+        "PkMn Ranger Rick - Route 1 ",
+        "PkMn Ranger Audra - Route 1 ",
+        "PkMn Ranger Maxwell - Clay Tunnel",
+        "PkMn Ranger Katie - Clay Tunnel",
+        "PkMn Ranger Parker - Moor of Icirrus",
+        "PkMn Ranger Elaine - Moor of Icirrus",
+        "PkMn Ranger Ralph - Pinwheel Forest",
+        "PkMn Ranger Melita - Pinwheel Forest",
+        "PkMn Ranger Joe - Champion's Cavern",
+        "PkMn Ranger Lily - Champion's Cavern"
       ],
       "wilds": [
         "Mew",
@@ -138386,13 +132872,13 @@ overrides = {
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon,\\nit heals the user's HP a little.",
-      "location": "Virbank Refinery, Route 23",
+      "location": "Virbank Refinery, Route 23, Virbank Refinery, Route 23",
       "rewards": [
-        "PkMn Ranger Dianne",
-        "PkMn Ranger Lena",
-        "PkMn Ranger Steve",
-        "PkMn Ranger Dwayne",
-        "PkMn Ranger Hillary"
+        "PkMn Ranger Dianne - Route 13",
+        "PkMn Ranger Lena - Route 23",
+        "PkMn Ranger Steve - Route 23",
+        "PkMn Ranger Dwayne - Pinwheel Forest",
+        "PkMn Ranger Hillary - Pinwheel Forest"
       ],
       "wilds": [
         "Furret",
@@ -138571,7 +133057,7 @@ overrides = {
     "rindoberry": {
       "name": "Rindo Berry",
       "desc": "Weakens a supereffective Grass-type\\nattack against the holding Pokémon.",
-      "location": "Castelia Sewers",
+      "location": "Castelia Sewers, Castelia Sewers, Castelia Sewers",
       "wilds": [
         "Finneon",
         "Lumineon",
@@ -138608,7 +133094,7 @@ overrides = {
       "desc": "Weakens a supereffective Poison-type\\nattack against the holding Pokémon.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Malory"
+        "PkMn Ranger Malory - Route 20"
       ],
       "wilds": [
         "Shroomish",
@@ -138653,7 +133139,7 @@ overrides = {
     "tangaberry": {
       "name": "Tanga Berry",
       "desc": "Weakens a supereffective Bug-type\\nattack against the holding Pokémon.",
-      "location": "Castelia Sewers",
+      "location": "Castelia Sewers, Castelia Sewers, Castelia Sewers",
       "marts": [
         "SM9 Top Left Cashier"
       ]
@@ -138724,7 +133210,7 @@ overrides = {
     "chilanberry": {
       "name": "Chilan Berry",
       "desc": "Weakens a Normal-type attack against\\nthe Pokémon holding this berry.",
-      "location": "Plasma Frigate, Plasma Frigate, Route 20",
+      "location": "Plasma Frigate, Plasma Frigate, Route 20, Plasma Frigate, Plasma Frigate, Route 20",
       "marts": [
         "SM9 Top Left Cashier"
       ]
@@ -138763,12 +133249,12 @@ overrides = {
     "lansatberry": {
       "name": "Lansat Berry",
       "desc": "If held by a Pokémon, it raises its\\ncritical-hit ratio in a pinch.",
-      "location": "Route 9"
+      "location": "Route 9, Route 9"
     },
     "starfberry": {
       "name": "Starf Berry",
       "desc": "If held by a Pokémon, it sharply raises\\none of its stats in a pinch.",
-      "location": "Route 12, Route 20, Route 23"
+      "location": "Route 12, Route 20, Route 23, Route 12, Route 20, Route 23"
     },
     "enigmaberry": {
       "name": "Enigma Berry",
@@ -138801,7 +133287,7 @@ overrides = {
     "brightpowder": {
       "name": "BrightPowder",
       "desc": "An item to be held by a Pokémon.\\nIt casts a tricky glare that lowers\\nthe opponent's accuracy.",
-      "location": "Route 4"
+      "location": "Route 4, Route 4"
     },
     "whiteherb": {
       "name": "White Herb",
@@ -138822,7 +133308,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon.\\nThe holder gets a share of a battle's\\nExp. Points without battling.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Daryl"
+        "PkMn Ranger Daryl - Route 13"
       ],
       "marts": [
         "Seigaiha City Upper Cashier"
@@ -138882,7 +133368,7 @@ overrides = {
     "kingsrock": {
       "name": "King's Rock",
       "desc": "An item to be held by a Pokémon.\\nWhen the holder inflicts damage,\\nthe target may flinch.",
-      "location": "Virbank City, Chargestone Cave, Village Bridge, Nuvema Town",
+      "location": "Virbank City, Chargestone Cave, Village Bridge, Nuvema Town, Virbank City, Chargestone Cave, Village Bridge, Nuvema Town, Virbank City, Virbank City, Virbank City, Chargestone Cave",
       "wilds": [
         "Poliwhirl",
         "Poliwrath",
@@ -138921,7 +133407,7 @@ overrides = {
     "souldew": {
       "name": "Soul Dew",
       "desc": "A wondrous orb to be held by Latios\\nor Latias. It raises both the\\nSp. Atk and Sp. Def stats.",
-      "location": "Celestial Tower",
+      "location": "Celestial Tower, Celestial Tower",
       "rewards": [
         "School Kid Alan"
       ]
@@ -138982,7 +133468,7 @@ overrides = {
     "luckyegg": {
       "name": "Lucky Egg",
       "desc": "An item to be held by a Pokémon.\\nIt is an egg filled with happiness that\\nearns extra Exp. Points in battle.",
-      "location": "Floccesy Ranch",
+      "location": "Floccesy Ranch, Floccesy Ranch",
       "wilds": [
         "Chansey",
         "Blissey",
@@ -139000,7 +133486,7 @@ overrides = {
     "metalcoat": {
       "name": "Metal Coat",
       "desc": "An item to be held by a Pokémon.\\nIt is a special metallic film that ups\\nthe power of Steel-type moves.",
-      "location": "Chargestone Cave, Clay Tunnel",
+      "location": "Chargestone Cave, Clay Tunnel, Chargestone Cave, Clay Tunnel, Chargestone Cave",
       "wilds": [
         "Magnemite",
         "Magneton",
@@ -139016,12 +133502,12 @@ overrides = {
     "leftovers": {
       "name": "Leftovers",
       "desc": "An item to be held by a Pokémon.\\nThe holder's HP is gradually restored\\nduring battle.",
-      "location": "Chargestone Cave, Castelia Sewers",
+      "location": "Chargestone Cave, Castelia Sewers, Chargestone Cave, Castelia Sewers, Chargestone Cave, Castelia Sewers",
       "rewards": [
-        "Linebacker Jonah",
+        "Linebacker Jonah - Nimbasa City",
         "PkMn Breeder Brooke",
         "Gentleman Renaud",
-        "Doctor Heath"
+        "Doctor Heath - Castelia Sewers"
       ],
       "wilds": [
         "Snorlax",
@@ -139035,7 +133521,7 @@ overrides = {
     "dragonscale": {
       "name": "Dragon Scale",
       "desc": "A thick and tough scale.\\nDragon-type Pokémon may be holding\\nthis item when caught.",
-      "location": "Champion's Entrance, Route 18",
+      "location": "Champion's Entrance, Route 18, Champion's Entrance, Route 18",
       "wilds": [
         "Horsea",
         "Seadra",
@@ -139048,7 +133534,7 @@ overrides = {
     "lightball": {
       "name": "Light Ball",
       "desc": "An item to be held by Pikachu.\\nIt is a puzzling orb that raises\\nthe Attack and Sp. Atk stat.",
-      "location": "Route 9",
+      "location": "Route 9, Route 9",
       "wilds": [
         "Pikachu"
       ]
@@ -139067,7 +133553,7 @@ overrides = {
     "hardstone": {
       "name": "Hard Stone",
       "desc": "An item to be held by a Pokémon.\\nIt is an unbreakable stone that ups\\nthe power of Rock-type moves.",
-      "location": "Relic Passage",
+      "location": "Relic Passage, Relic Passage",
       "wilds": [
         "Corsola",
         "Nosepass",
@@ -139085,7 +133571,7 @@ overrides = {
     "miracleseed": {
       "name": "Miracle Seed",
       "desc": "An item to be held by a Pokémon.\\nIt is a seed imbued with life that ups\\nthe power of Grass-type moves.",
-      "location": "Castelia Gardens",
+      "location": "Castelia Gardens, Castelia Gardens, Castelia Gardens, Castelia Gardens, Castelia Gardens",
       "wilds": [
         "Cherubi",
         "Cherrim",
@@ -139095,7 +133581,7 @@ overrides = {
     "blackglasses": {
       "name": "BlackGlasses",
       "desc": "An item to be held by a Pokémon.\\nIt is a shady-looking pair of glasses\\nthat boosts Dark-type moves.",
-      "location": "Castelia City"
+      "location": "Castelia City, Castelia City, Castelia City, Castelia City, Castelia City"
     },
     "blackbelt": {
       "name": "Black Belt",
@@ -139112,12 +133598,12 @@ overrides = {
     "magnet": {
       "name": "Magnet",
       "desc": "An item to be held by a Pokémon.\\nIt is a powerful magnet that boosts\\nthe power of Electric-type moves.",
-      "location": "Chargestone Cave"
+      "location": "Chargestone Cave, Chargestone Cave, Chargestone Cave"
     },
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon.\\nIt is a teardrop-shaped gem that ups\\nthe power of Water-type moves.",
-      "location": "Route 4, Route 4",
+      "location": "Route 4, Route 4, Route 4, Route 4",
       "wilds": [
         "Castform",
         "Castform-Sunny",
@@ -139158,7 +133644,7 @@ overrides = {
     "nevermeltice": {
       "name": "NeverMeltIce",
       "desc": "An item to be held by a Pokémon.\\nIt is a piece of ice that repels heat\\nand boosts Ice-type moves.",
-      "location": "Dragonspiral Tower, Route 11",
+      "location": "Dragonspiral Tower, Route 11, Dragonspiral Tower, Route 11, Dragonspiral Tower",
       "wilds": [
         "Snover",
         "Abomasnow",
@@ -139168,7 +133654,7 @@ overrides = {
     "spelltag": {
       "name": "Spell Tag",
       "desc": "An item to be held by a Pokémon.\\nIt is a sinister, eerie tag that boosts\\nthe power of Ghost-type moves.",
-      "location": "Haunted Mansion",
+      "location": "Haunted Mansion, Haunted Mansion",
       "wilds": [
         "Shuppet",
         "Banette",
@@ -139179,7 +133665,7 @@ overrides = {
     "twistedspoon": {
       "name": "TwistedSpoon",
       "desc": "An item to be held by a Pokémon. It is\\na spoon imbued with telekinetic power\\nthat boosts Psychic-type moves.",
-      "location": "Castelia Sewers",
+      "location": "Castelia Sewers, Castelia Sewers, Castelia Sewers",
       "rewards": [
         "Psychic Gerard",
         "Psychic Madhu"
@@ -139193,12 +133679,12 @@ overrides = {
     "charcoal": {
       "name": "Charcoal",
       "desc": "An item to be held by a Pokémon.\\nIt is a combustible fuel that boosts\\nthe power of Fire-type moves.",
-      "location": "Castelia City, Route 4, Route 4"
+      "location": "Castelia City, Route 4, Route 4, Castelia City, Route 4, Route 4, Castelia City, Castelia City, Castelia City"
     },
     "dragonfang": {
       "name": "Dragon Fang",
       "desc": "An item to be held by a Pokémon.\\nIt is a hard and sharp fang that ups\\nthe power of Dragon-type moves.",
-      "location": "Castelia Sewers, Champion's Cliff",
+      "location": "Castelia Sewers, Champion's Cliff, Castelia Sewers, Champion's Cliff, Castelia Sewers",
       "wilds": [
         "Bagon",
         "Shelgon",
@@ -139209,17 +133695,17 @@ overrides = {
     "silkscarf": {
       "name": "Silk Scarf",
       "desc": "An item to be held by a Pokémon.\\nIt is a sumptuous scarf that boosts\\nthe power of Normal-type moves.",
-      "location": "Virbank Complex"
+      "location": "Virbank Complex, Virbank Complex"
     },
     "upgrade": {
       "name": "Up-Grade",
       "desc": "A transparent device filled with all\\nsorts of data.\\nIt was produced by Silph Co.",
-      "location": "Striaton City, Nimbasa City"
+      "location": "Striaton City, Nimbasa City, Striaton City, Nimbasa City, Striaton City, Nimbasa City, Striaton City, Nimbasa City, Striaton City, Nimbasa City"
     },
     "shellbell": {
       "name": "Shell Bell",
       "desc": "An item to be held by a Pokémon.\\nThe holder's HP is restored a little\\nevery time it inflicts damage.",
-      "location": "Humilau City, Reversal Badlands, Route 16, Route 23"
+      "location": "Humilau City, Reversal Badlands, Route 16, Route 23, Humilau City, Reversal Badlands, Route 16, Route 23, Humilau City, Humilau City, Humilau City"
     },
     "seaincense": {
       "name": "Sea Incense",
@@ -139265,7 +133751,7 @@ overrides = {
     "stick": {
       "name": "Stick",
       "desc": "An item to be held by Farfetch'd. It is\\na very long and stiff stalk of leek\\nthat boosts the critical-hit ratio.",
-      "location": "Route 12",
+      "location": "Route 12, Route 12",
       "wilds": [
         "Farfetch’d"
       ]
@@ -139298,7 +133784,7 @@ overrides = {
     "widelens": {
       "name": "Wide Lens",
       "desc": "An item to be held by a Pokémon.\\nIt is a magnifying lens that slightly\\nboosts the accuracy of moves.",
-      "location": "Reversal Summit, Reversal Summit, Route 4, Route 6, Route 20",
+      "location": "Reversal Summit, Reversal Summit, Route 4, Route 6, Route 20, Reversal Summit, Reversal Summit, Route 4, Route 6, Route 20",
       "wilds": [
         "Yanma",
         "Yanmega"
@@ -139307,7 +133793,7 @@ overrides = {
     "muscleband": {
       "name": "Muscle Band",
       "desc": "An item to be held by a Pokémon.\\nIt is a headband that slightly boosts\\nthe power of physical moves.",
-      "location": "Route 9",
+      "location": "Route 9, Route 9",
       "marts": [
         "SM9 Bottom Section"
       ]
@@ -139315,10 +133801,10 @@ overrides = {
     "wiseglasses": {
       "name": "Wise Glasses",
       "desc": "An item to be held by a Pokémon. It is\\na thick pair of glasses that slightly\\nboosts the power of special moves.",
-      "location": "Reversal Summit, Reversal Summit, Plasma Frigate, Plasma Frigate, Route 20, Route 23",
+      "location": "Reversal Summit, Reversal Summit, Plasma Frigate, Plasma Frigate, Route 20, Route 23, Reversal Summit, Reversal Summit, Plasma Frigate, Plasma Frigate, Route 20, Route 23",
       "rewards": [
         "Harlequin Charley",
-        "PkMn Ranger Richard"
+        "PkMn Ranger Richard - Route 6"
       ],
       "marts": [
         "SM9 Bottom Section"
@@ -139343,7 +133829,7 @@ overrides = {
     "lightclay": {
       "name": "Light Clay",
       "desc": "A Pokémon held item that extends the\\nduration of barrier moves like Light\\nScreen and Reflect used by the holder.",
-      "location": "Route 4",
+      "location": "Route 4, Route 4",
       "wilds": [
         "Golett",
         "Golurk"
@@ -139375,7 +133861,7 @@ overrides = {
     "toxicorb": {
       "name": "Toxic Orb",
       "desc": "An item to be held by a Pokémon.\\nIt is a bizarre orb that badly poisons\\nthe holder in battle.",
-      "location": "Reversal Summit",
+      "location": "Reversal Summit, Reversal Summit",
       "wilds": [
         "Muk"
       ],
@@ -139386,7 +133872,7 @@ overrides = {
     "flameorb": {
       "name": "Flame Orb",
       "desc": "An item to be held by a Pokémon.\\nIt is a bizarre orb that inflicts a\\nburn on the holder in battle.",
-      "location": "Virbank Complex, Reversal Summit",
+      "location": "Virbank Complex, Reversal Summit, Virbank Complex, Reversal Summit",
       "wilds": [
         "Heatmor"
       ],
@@ -139406,17 +133892,17 @@ overrides = {
     "focussash": {
       "name": "Focus Sash",
       "desc": "An item to be held by a Pokémon. If it\\nhas full HP, the holder will endure one\\npotential KO attack, leaving 1 HP.",
-      "location": "Route 7"
+      "location": "Route 7, Route 7"
     },
     "zoomlens": {
       "name": "Zoom Lens",
       "desc": "An item to be held by a Pokémon.\\nIf the holder moves after its\\ntarget, its accuracy will be boosted.",
-      "location": "Chargestone Cave"
+      "location": "Chargestone Cave, Chargestone Cave, Chargestone Cave"
     },
     "metronome": {
       "name": "Metronome",
       "desc": "A Pokémon held item that boosts a move\\nused consecutively. Its effect is\\nreset if another move is used.",
-      "location": "Lacunosa Town",
+      "location": "Lacunosa Town, Lacunosa Town",
       "rewards": [
         "Dancer Davey",
         "Musician Boris"
@@ -139435,7 +133921,7 @@ overrides = {
     "laggingtail": {
       "name": "Lagging Tail",
       "desc": "An item to be held by a Pokémon.\\nIt is tremendously heavy and makes\\nthe holder move slower than usual.",
-      "location": "Celestial Tower, Moor of Icirrus",
+      "location": "Celestial Tower, Moor of Icirrus, Celestial Tower, Moor of Icirrus",
       "wilds": [
         "Slowpoke",
         "Lickitung",
@@ -139453,7 +133939,7 @@ overrides = {
     "blacksludge": {
       "name": "Black Sludge",
       "desc": "A held item that gradually restores\\nthe HP of Poison-type Pokémon.\\nIt inflicts damage on all other types.",
-      "location": "Castelia Sewers, Reversal Summit, Reversal Summit",
+      "location": "Castelia Sewers, Reversal Summit, Reversal Summit, Castelia Sewers, Reversal Summit, Reversal Summit, Castelia Sewers",
       "wilds": [
         "Grimer",
         "Muk",
@@ -139489,7 +133975,7 @@ overrides = {
     "gripclaw": {
       "name": "Grip Claw",
       "desc": "A Pokémon held item that extends the\\nduration of multiturn attacks like\\nBind and Wrap.",
-      "location": "Route 4",
+      "location": "Route 4, Route 4",
       "wilds": [
         "Sneasel",
         "Weavile"
@@ -139512,7 +133998,7 @@ overrides = {
     "stickybarb": {
       "name": "Sticky Barb",
       "desc": "A held item that damages the holder on\\nevery turn. It may latch on to foes and\\nallies that touch the holder.",
-      "location": "Route 20",
+      "location": "Route 20, Route 20",
       "wilds": [
         "Cacnea",
         "Cacturne",
@@ -139547,7 +134033,7 @@ overrides = {
     "powerband": {
       "name": "Power Band",
       "desc": "A Pokémon held item that promotes\\nSp. Def gain on leveling, but reduces\\nthe Speed stat.",
-      "location": "Plasma Frigate",
+      "location": "Plasma Frigate, Plasma Frigate",
       "marts": [
         "Nacrene City Upper Cashier"
       ]
@@ -139583,7 +134069,7 @@ overrides = {
     "bigroot": {
       "name": "Big Root",
       "desc": "A Pokémon held item that boosts the\\npower of HP-stealing moves to let the\\nholder recover more HP.",
-      "location": "Route 9, Lostlorn Forest",
+      "location": "Route 9, Lostlorn Forest, Route 9, Lostlorn Forest",
       "wilds": [
         "Lileep",
         "Cradily"
@@ -139592,7 +134078,7 @@ overrides = {
     "choicespecs": {
       "name": "Choice Specs",
       "desc": "An item to be held by a Pokémon. These\\ndistinctive glasses boost Sp. Atk but\\nallow the use of only one of its moves.",
-      "location": "Plasma Frigate, Plasma Frigate",
+      "location": "Plasma Frigate, Plasma Frigate, Plasma Frigate, Plasma Frigate",
       "rewards": [
         "Ace Trainer Lucille"
       ],
@@ -139604,7 +134090,7 @@ overrides = {
     "flameplate": {
       "name": "Flame Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Fire-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139612,7 +134098,7 @@ overrides = {
     "splashplate": {
       "name": "Splash Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Water-type moves.",
-      "location": "Undella Bay",
+      "location": "Undella Bay, Undella Bay, Undella Bay",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139620,7 +134106,7 @@ overrides = {
     "zapplate": {
       "name": "Zap Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Electric-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139628,7 +134114,7 @@ overrides = {
     "meadowplate": {
       "name": "Meadow Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Grass-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139636,7 +134122,7 @@ overrides = {
     "icicleplate": {
       "name": "Icicle Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Ice-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139644,7 +134130,7 @@ overrides = {
     "fistplate": {
       "name": "Fist Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Fighting-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139652,7 +134138,7 @@ overrides = {
     "toxicplate": {
       "name": "Toxic Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Poison-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139660,7 +134146,7 @@ overrides = {
     "earthplate": {
       "name": "Earth Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Ground-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139668,7 +134154,7 @@ overrides = {
     "skyplate": {
       "name": "Sky Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Flying-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139676,7 +134162,7 @@ overrides = {
     "mindplate": {
       "name": "Mind Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Psychic-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139684,7 +134170,7 @@ overrides = {
     "insectplate": {
       "name": "Insect Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Bug-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139692,7 +134178,7 @@ overrides = {
     "stoneplate": {
       "name": "Stone Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Rock-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139700,7 +134186,7 @@ overrides = {
     "spookyplate": {
       "name": "Spooky Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Ghost-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139708,7 +134194,7 @@ overrides = {
     "dracoplate": {
       "name": "Draco Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Dragon-type moves.",
-      "location": "Undella Bay",
+      "location": "Undella Bay, Undella Bay, Undella Bay",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139716,7 +134202,7 @@ overrides = {
     "dreadplate": {
       "name": "Dread Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Dark-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139724,7 +134210,7 @@ overrides = {
     "ironplate": {
       "name": "Iron Plate",
       "desc": "An item to be held by a Pokémon.\\nIt is a stone tablet that boosts the\\npower of Steel-type moves.",
-      "location": "Abyssal Ruins",
+      "location": "Abyssal Ruins, Abyssal Ruins",
       "marts": [
         "Opelucid City Upper Cashier"
       ]
@@ -139788,12 +134274,12 @@ overrides = {
     "protector": {
       "name": "Protector",
       "desc": "A protective item of some sort.\\nIt is extremely stiff and heavy.\\nIt is loved by a certain Pokémon.",
-      "location": "Wellspring Cave"
+      "location": "Wellspring Cave, Wellspring Cave"
     },
     "electirizer": {
       "name": "Electirizer",
       "desc": "A box packed with a tremendous\\namount of electric energy.\\nIt is loved by a certain Pokémon.",
-      "location": "Plasma Frigate",
+      "location": "Plasma Frigate, Plasma Frigate",
       "wilds": [
         "Electivire"
       ]
@@ -139801,7 +134287,7 @@ overrides = {
     "magmarizer": {
       "name": "Magmarizer",
       "desc": "A box packed with a tremendous\\namount of magma energy.\\nIt is loved by a certain Pokémon.",
-      "location": "Plasma Frigate",
+      "location": "Plasma Frigate, Plasma Frigate",
       "wilds": [
         "Magmortar"
       ]
@@ -139809,27 +134295,27 @@ overrides = {
     "dubiousdisc": {
       "name": "Dubious Disc",
       "desc": "A transparent device overflowing with\\ndubious data.\\nIts producer is unknown.",
-      "location": "Neo Plasma Laboratory, Village Bridge"
+      "location": "Neo Plasma Laboratory, Village Bridge, Neo Plasma Laboratory, Village Bridge, Neo Plasma Laboratory"
     },
     "reapercloth": {
       "name": "Reaper Cloth",
       "desc": "A cloth imbued with horrifyingly strong\\nspiritual energy.\\nIt is loved by a certain Pokémon.",
-      "location": "Dreamyard"
+      "location": "Dreamyard, Dreamyard, Dreamyard, Dreamyard"
     },
     "razorclaw": {
       "name": "Razor Claw",
       "desc": "An item to be held by a Pokémon.\\nIt is a sharply hooked claw that ups\\nthe holder's critical-hit ratio.",
-      "location": "Giant Chasm Core, Giant Chasm Core"
+      "location": "Giant Chasm Core, Giant Chasm Core, Giant Chasm Core, Giant Chasm Core, Giant Chasm Core, Giant Chasm Core"
     },
     "razorfang": {
       "name": "Razor Fang",
       "desc": "An item to be held by a Pokémon.\\nIt may make foes and allies flinch\\nwhen the holder inflicts damage.",
-      "location": "Route 11"
+      "location": "Route 11, Route 11"
     },
     "tm01": {
       "name": "TM01",
       "desc": "The user sharpens its claws to\\nboost its Attack stat and accuracy.",
-      "location": "Champion's Road",
+      "location": "Champion's Road, Champion's Road",
       "marts": [
         "Nimbasa TM Department"
       ]
@@ -139837,12 +134323,12 @@ overrides = {
     "tm02": {
       "name": "TM02",
       "desc": "The user slashes the target with huge,\\nsharp claws.",
-      "location": "Dragonspiral Tower"
+      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower"
     },
     "tm03": {
       "name": "TM03",
       "desc": "The user materializes an odd\\npsychic wave to attack the target.\\nThis attack does physical damage.",
-      "location": "Giant Chasm Core",
+      "location": "Giant Chasm Core, Giant Chasm Core, Giant Chasm Core",
       "marts": [
         "Nimbasa TM Department"
       ]
@@ -139858,7 +134344,7 @@ overrides = {
     "tm05": {
       "name": "TM05",
       "desc": "The target is scared off and replaced\\nby another Pokémon in its party.\\nIn the wild, the battle ends.",
-      "location": "Route 23",
+      "location": "Route 23, Route 23",
       "marts": [
         "Nimbasa TM Department"
       ]
@@ -139866,7 +134352,7 @@ overrides = {
     "tm06": {
       "name": "TM06",
       "desc": "A move that leaves the target badly\\npoisoned. Its poison damage\\nworsens every turn.",
-      "location": "Seaside Grotto",
+      "location": "Seaside Grotto, Seaside Grotto",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -139905,7 +134391,7 @@ overrides = {
     "tm12": {
       "name": "TM12",
       "desc": "The target is taunted into a rage that\\nallows it to use only attack moves\\nfor three turns.",
-      "location": "Lostlorn Forest, Route 23",
+      "location": "Lostlorn Forest, Route 23, Lostlorn Forest, Route 23",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -139913,7 +134399,7 @@ overrides = {
     "tm13": {
       "name": "TM13",
       "desc": "The target is struck with an icy-cold\\nbeam of energy.\\nIt may also freeze the target solid.",
-      "location": "Giant Chasm"
+      "location": "Giant Chasm, Giant Chasm, Giant Chasm"
     },
     "tm14": {
       "name": "TM14",
@@ -139952,7 +134438,7 @@ overrides = {
     "tm19": {
       "name": "TM19",
       "desc": "The user uses powerful brain waves to\\ngive the opponent a headache. This \\nmove always lands, and may poison.",
-      "location": "Route 18"
+      "location": "Route 18, Route 18"
     },
     "tm20": {
       "name": "TM20",
@@ -139967,7 +134453,7 @@ overrides = {
     "tm22": {
       "name": "TM22",
       "desc": "A two-turn attack. The user gathers\\nlight, then blasts a bundled beam on\\nthe second turn.",
-      "location": "Pinwheel Forest",
+      "location": "Pinwheel Forest, Pinwheel Forest, Pinwheel Forest, Pinwheel Forest",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -139990,7 +134476,7 @@ overrides = {
     "tm26": {
       "name": "TM26",
       "desc": "The user sets off an earthquake that\\nstrikes every Pokémon around it.",
-      "location": "Route 15"
+      "location": "Route 15, Route 15"
     },
     "tm27": {
       "name": "TM27",
@@ -140000,17 +134486,17 @@ overrides = {
     "tm28": {
       "name": "TM28",
       "desc": "The user burrows, then attacks on the\\nsecond turn. It can also be used to\\nexit dungeons.",
-      "location": "Route 4, Route 4"
+      "location": "Route 4, Route 4, Route 4, Route 4"
     },
     "tm29": {
       "name": "TM29",
       "desc": "The target is hit by a strong\\ntelekinetic force. It may also reduce\\nthe target's Sp. Def stat.",
-      "location": "Route 13"
+      "location": "Route 13, Route 13"
     },
     "tm30": {
       "name": "TM30",
       "desc": "The user hurls a shadowy blob at the\\ntarget. It may also lower the target's\\nSp. Def stat.",
-      "location": "Reversal Badlands"
+      "location": "Reversal Badlands, Reversal Badlands"
     },
     "tm31": {
       "name": "TM31",
@@ -140040,7 +134526,7 @@ overrides = {
     "tm36": {
       "name": "TM36",
       "desc": "Unsanitary sludge is hurled at the\\ntarget. It may also poison the target.",
-      "location": "Icirrus City, Route 8",
+      "location": "Icirrus City, Route 8, Icirrus City, Route 8, Icirrus City, Icirrus City, Icirrus City",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -140064,7 +134550,7 @@ overrides = {
     "tm39": {
       "name": "TM39",
       "desc": "Boulders are hurled at the target. It\\nalso lowers the target's Speed by\\npreventing its movement.",
-      "location": "Relic Castle"
+      "location": "Relic Castle, Relic Castle, Relic Castle"
     },
     "tm40": {
       "name": "TM40",
@@ -140074,7 +134560,7 @@ overrides = {
     "tm41": {
       "name": "TM41",
       "desc": "The user torments and enrages the\\ntarget, making it incapable of using the\\nsame move twice in a row.",
-      "location": "Castelia Sewers",
+      "location": "Castelia Sewers, Castelia Sewers, Castelia Sewers",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -140102,12 +134588,12 @@ overrides = {
     "tm46": {
       "name": "TM46",
       "desc": "The user drenches the target in a special\\npoisonous liquid. Its power is doubled\\nif the target is poisoned.",
-      "location": "Virbank Refinery"
+      "location": "Virbank Refinery, Virbank Refinery"
     },
     "tm47": {
       "name": "TM47",
       "desc": "The user attacks the target's legs\\nswiftly, reducing the target's\\nSpeed stat.",
-      "location": "Wellspring Cave"
+      "location": "Wellspring Cave, Wellspring Cave"
     },
     "tm48": {
       "name": "TM48",
@@ -140122,7 +134608,7 @@ overrides = {
     "tm50": {
       "name": "TM50",
       "desc": "The user attacks the target at full\\npower. The attack's recoil harshly\\nreduces the user's Sp. Atk stat.",
-      "location": "Relic Castle, N's Ruins"
+      "location": "Relic Castle, N's Ruins, Relic Castle, N's Ruins, Relic Castle"
     },
     "tm51": {
       "name": "TM51",
@@ -140135,7 +134621,7 @@ overrides = {
     "tm52": {
       "name": "TM52",
       "desc": "The user heightens its mental focus and\\nunleashes its power.\\nIt may also lower the target's Sp. Def.",
-      "location": "Wellspring Cave"
+      "location": "Wellspring Cave, Wellspring Cave"
     },
     "tm53": {
       "name": "TM53",
@@ -140158,7 +134644,7 @@ overrides = {
     "tm56": {
       "name": "TM56",
       "desc": "The user flings its held item at the\\ntarget as an attack. Its power and\\neffects depend on the item.",
-      "location": "Route 6"
+      "location": "Route 6, Route 6"
     },
     "tm57": {
       "name": "TM57",
@@ -140168,7 +134654,7 @@ overrides = {
     "tm58": {
       "name": "TM58",
       "desc": "The user hurls the target into the air,\\nthen drops it on the second turn. The\\ntarget cannot attack while in the air.",
-      "location": "Mistralton City"
+      "location": "Mistralton City, Mistralton City, Mistralton City, Mistralton City, Mistralton City"
     },
     "tm59": {
       "name": "TM59",
@@ -140183,7 +134669,7 @@ overrides = {
     "tm61": {
       "name": "TM61",
       "desc": "The user shoots a sinister, bluish-white\\nflame at the target to inflict a burn.",
-      "location": "Celestial Tower",
+      "location": "Celestial Tower, Celestial Tower",
       "marts": [
         "SM9 Middle Right Cashier"
       ]
@@ -140196,7 +134682,7 @@ overrides = {
     "tm63": {
       "name": "TM63",
       "desc": "The user attacks with a myriad of\\nfireballs. It hits twice, and each \\nhit may also burn the target.",
-      "location": "Driftveil City"
+      "location": "Driftveil City, Driftveil City, Driftveil City, Driftveil City, Driftveil City"
     },
     "tm64": {
       "name": "TM64",
@@ -140209,7 +134695,7 @@ overrides = {
     "tm65": {
       "name": "TM65",
       "desc": "The user slashes with a sharp claw\\nmade from shadows. It has a high\\ncritical-hit ratio.",
-      "location": "Celestial Tower",
+      "location": "Celestial Tower, Celestial Tower",
       "marts": [
         "SM9 Middle Right Cashier"
       ]
@@ -140217,12 +134703,12 @@ overrides = {
     "tm66": {
       "name": "TM66",
       "desc": "The user stores power, then attacks.\\nIf the user can use this attack after\\nthe target, its power is doubled.",
-      "location": "Route 16"
+      "location": "Route 16, Route 16"
     },
     "tm67": {
       "name": "TM67",
       "desc": "The user gets revenge for a fainted\\nally. If an ally fainted in the previous\\nturn, this attack's damage increases.",
-      "location": "Plasma Frigate"
+      "location": "Plasma Frigate, Plasma Frigate"
     },
     "tm68": {
       "name": "TM68",
@@ -140232,7 +134718,7 @@ overrides = {
     "tm69": {
       "name": "TM69",
       "desc": "The user polishes its body to reduce\\ndrag. It sharply raises the Speed\\nstat.",
-      "location": "Reversal Summit, Reversal Summit"
+      "location": "Reversal Summit, Reversal Summit, Reversal Summit, Reversal Summit"
     },
     "tm70": {
       "name": "TM70",
@@ -140242,7 +134728,7 @@ overrides = {
     "tm71": {
       "name": "TM71",
       "desc": "The user stabs the foe with\\nsharpened stones from below.\\nIt has a high critical-hit ratio.",
-      "location": "Twist Mountain"
+      "location": "Twist Mountain, Twist Mountain, Twist Mountain"
     },
     "tm72": {
       "name": "TM72",
@@ -140290,7 +134776,7 @@ overrides = {
     "tm80": {
       "name": "TM80",
       "desc": "Large boulders are hurled at the\\nopposing team to inflict damage. They\\nmay also make the targets flinch.",
-      "location": "Guidance Chamber",
+      "location": "Guidance Chamber, Guidance Chamber",
       "marts": [
         "SM9 Middle Right Cashier"
       ]
@@ -140298,7 +134784,7 @@ overrides = {
     "tm81": {
       "name": "TM81",
       "desc": "The user slashes at the target by\\ncrossing its scythes or claws as if\\nthey were a pair of scissors.",
-      "location": "Route 7"
+      "location": "Route 7, Route 7"
     },
     "tm82": {
       "name": "TM82",
@@ -140313,7 +134799,7 @@ overrides = {
     "tm84": {
       "name": "TM84",
       "desc": "The target is stabbed with a tentacle\\nor arm steeped in poison. It may also\\npoison the target.",
-      "location": "Moor of Icirrus",
+      "location": "Moor of Icirrus, Moor of Icirrus",
       "marts": [
         "SM9 Middle Right Cashier"
       ]
@@ -140321,12 +134807,12 @@ overrides = {
     "tm85": {
       "name": "TM85",
       "desc": "The user eats the dreams of a sleeping\\ntarget. It absorbs half the damage\\ncaused to heal the user's HP.",
-      "location": "Dreamyard"
+      "location": "Dreamyard, Dreamyard, Dreamyard, Dreamyard"
     },
     "tm86": {
       "name": "TM86",
       "desc": "The user snares the target with grass\\nand trips it. The heavier the target,\\nthe greater the damage.",
-      "location": "Pinwheel Forest"
+      "location": "Pinwheel Forest, Pinwheel Forest, Pinwheel Forest, Pinwheel Forest"
     },
     "tm87": {
       "name": "TM87",
@@ -140349,7 +134835,7 @@ overrides = {
     "tm90": {
       "name": "TM90",
       "desc": "The user makes a copy of itself using\\nsome of its HP. The copy serves as\\nthe user's decoy.",
-      "location": "Twist Mountain",
+      "location": "Twist Mountain, Twist Mountain, Twist Mountain",
       "marts": [
         "SM9 Middle Right Cashier"
       ]
@@ -140357,12 +134843,12 @@ overrides = {
     "tm91": {
       "name": "TM91",
       "desc": "The user gathers all its light energy\\nand releases it at once. It may also\\nlower the target's Sp. Def stat.",
-      "location": "Twist Mountain"
+      "location": "Twist Mountain, Twist Mountain, Twist Mountain"
     },
     "tm92": {
       "name": "TM92",
       "desc": "The user creates a bizarre space in\\nwhich slower Pokémon get to move\\nfirst for five turns.",
-      "location": "Abundant Shrine",
+      "location": "Abundant Shrine, Abundant Shrine",
       "marts": [
         "SM9 Middle Right Cashier"
       ]
@@ -140972,7 +135458,7 @@ overrides = {
     "prismscale": {
       "name": "Prism Scale",
       "desc": "A mysterious scale that evolves\\ncertain Pokémon.\\nIt shines in rainbow colors.",
-      "location": "Route 1 "
+      "location": "Route 1 , Route 1 "
     },
     "eviolite": {
       "name": "Eviolite",
@@ -140987,12 +135473,12 @@ overrides = {
     "floatstone": {
       "name": "Float Stone",
       "desc": "A very light stone. It reduces the\\nweight of a Pokémon when held.",
-      "location": "Twist Mountain"
+      "location": "Twist Mountain, Twist Mountain, Twist Mountain"
     },
     "rockyhelmet": {
       "name": "Rocky Helmet",
       "desc": "If the holder of this item takes damage,\\nthe attacker will also be damaged\\nupon contact.",
-      "location": "Desert Resort, Relic Passage",
+      "location": "Desert Resort, Relic Passage, Desert Resort, Relic Passage, Desert Resort, Desert Resort",
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges",
@@ -141003,7 +135489,7 @@ overrides = {
     "airballoon": {
       "name": "Air Balloon",
       "desc": "When held by a Pokémon, the Pokémon\\nwill float into the air. When the holder\\nis attacked, this item will burst.",
-      "location": "Floccesy Ranch, Route 6",
+      "location": "Floccesy Ranch, Route 6, Floccesy Ranch, Route 6",
       "wilds": [
         "Drifblim"
       ]
@@ -141011,7 +135497,7 @@ overrides = {
     "redcard": {
       "name": "Red Card",
       "desc": "A card with a mysterious power. When\\nthe holder is struck by a foe, the\\nattacker is removed from battle.",
-      "location": "Chargestone Cave, Route 20"
+      "location": "Chargestone Cave, Route 20, Chargestone Cave, Route 20, Chargestone Cave"
     },
     "ringtarget": {
       "name": "Ring Target",
@@ -141040,7 +135526,7 @@ overrides = {
     "ejectbutton": {
       "name": "Eject Button",
       "desc": "If the holder is hit by an attack, it will\\nswitch with another Pokémon in\\nyour party.",
-      "location": "Twist Mountain, Village Bridge, Route 5, Route 6, Celestial Tower",
+      "location": "Twist Mountain, Village Bridge, Route 5, Route 6, Celestial Tower, Twist Mountain, Village Bridge, Route 5, Route 6, Celestial Tower, Twist Mountain",
       "marts": [
         "Stock 8+Badges",
         "Yamaji Town Upper Cashier"
@@ -141065,9 +135551,9 @@ overrides = {
     "electricgem": {
       "name": "Electric Gem",
       "desc": "A gem with an essence of electricity.\\nWhen held, it strengthens the power of\\nan Electric-type move only once.",
-      "location": "Desert Resort, Chargestone Cave",
+      "location": "Desert Resort, Chargestone Cave, Desert Resort, Chargestone Cave, Desert Resort, Chargestone Cave",
       "rewards": [
-        "PkMn Ranger Louis"
+        "PkMn Ranger Louis - Chargestone Cave"
       ],
       "marts": [
         "Accumula Town Upper Cashier"
@@ -141108,9 +135594,9 @@ overrides = {
     "groundgem": {
       "name": "Ground Gem",
       "desc": "A gem with an essence of land. When\\nheld, it strengthens the power of a\\nGround-type move only once.",
-      "location": "Desert Resort, Reversal Badlands",
+      "location": "Desert Resort, Reversal Badlands, Desert Resort, Reversal Badlands, Desert Resort",
       "rewards": [
-        "PkMn Ranger Briana"
+        "PkMn Ranger Briana - Chargestone Cave"
       ],
       "marts": [
         "Accumula Town Upper Cashier"
@@ -141149,7 +135635,7 @@ overrides = {
     "rockgem": {
       "name": "Rock Gem",
       "desc": "A gem with an essence of rock. When\\nheld, it strengthens the power of a\\nRock-type move only once.",
-      "location": "Route 15",
+      "location": "Route 15, Route 15",
       "wilds": [
         "Lycanroc",
         "Lycanroc-M",
@@ -141195,7 +135681,7 @@ overrides = {
     "normalgem": {
       "name": "Normal Gem",
       "desc": "A gem with an ordinary essence. When\\nheld, it strengthens the power of a\\nNormal-type move only once.",
-      "location": "Route 5",
+      "location": "Route 5, Route 5",
       "marts": [
         "Accumula Town Upper Cashier"
       ]
@@ -141269,7 +135755,7 @@ overrides = {
     "pokétoy": {
       "name": "Poké Toy",
       "desc": "An item that attracts Pokémon.\\nUse it to flee from any battle with a\\nwild Pokémon.",
-      "location": "Virbank City"
+      "location": "Virbank City, Virbank City, Virbank City, Virbank City, Virbank City"
     },
     "propcase": {
       "name": "Prop Case",
@@ -141295,7 +135781,7 @@ overrides = {
     "bignugget": {
       "name": "Big Nugget",
       "desc": "A big nugget of pure gold that gives off\\na lustrous gleam.\\nA maniac will buy it for a high price.",
-      "location": "Twist Mountain, Nature Preserve, Route 3",
+      "location": "Twist Mountain, Nature Preserve, Route 3, Twist Mountain, Nature Preserve, Route 3, Twist Mountain",
       "wilds": [
         "Garbodor"
       ]
@@ -141303,12 +135789,12 @@ overrides = {
     "pearlstring": {
       "name": "Pearl String",
       "desc": "Very large pearls that sparkle in a\\npretty silver color.\\nA maniac will buy them for a high price.",
-      "location": "Route 17"
+      "location": "Route 17, Route 17"
     },
     "cometshard": {
       "name": "Comet Shard",
       "desc": "A shard which fell to the ground when\\na comet approached.\\nA maniac will buy it for a high price.",
-      "location": "Dragonspiral Tower",
+      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower",
       "wilds": [
         "Clefairy",
         "Clefable",
@@ -141320,32 +135806,32 @@ overrides = {
     "reliccopper": {
       "name": "Relic Copper",
       "desc": "A copper coin used in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
-      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
     },
     "relicsilver": {
       "name": "Relic Silver",
       "desc": "A silver coin used in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
-      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
     },
     "relicgold": {
       "name": "Relic Gold",
       "desc": "A gold coin used in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
-      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
     },
     "relicvase": {
       "name": "Relic Vase",
       "desc": "A vase made in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
-      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
     },
     "relicband": {
       "name": "Relic Band",
       "desc": "A bracelet made in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
-      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
     },
     "relicstatue": {
       "name": "Relic Statue",
       "desc": "A stone figure made in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
-      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
+      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
     },
     "reliccrown": {
       "name": "Relic Crown",
@@ -141490,7 +135976,7 @@ overrides = {
     "tm93": {
       "name": "TM93",
       "desc": "The user shrouds itself in electricity\\nand smashes into its target.\\nIt also damages the user a little.",
-      "location": "Champion's Ruins, Champion's Ruins",
+      "location": "Champion's Ruins, Champion's Ruins, Champion's Ruins, Champion's Ruins",
       "marts": [
         "SM9 Middle Right Cashier"
       ]

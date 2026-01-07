@@ -12,9 +12,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       itemData = overrideData.items
     }
 
-
-    console.log(overrideData)
-
     if (typeof vanillaPokemon == "undefined") {
       vanillaPokemon = pokemon
     }
