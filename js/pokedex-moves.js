@@ -141,6 +141,10 @@ var PokedexMovePanel = PokedexResultPanel.extend({
       }
     }
 
+    if (move.priority > 200) {
+      move.priority = move.priority - 255
+    }
+
     if (move.priority > 1) {
       buf +=
         "<p>Nearly always moves first <em>(priority +" +
