@@ -5406,6 +5406,10 @@ overrides = {
           [
             1,
             "Soak"
+          ],
+          [
+            1,
+            "Comet Punch"
           ]
         ],
         "tms": [
@@ -24745,6 +24749,10 @@ overrides = {
             "Protect"
           ],
           [
+            7,
+            "Lovely Kiss"
+          ],
+          [
             8,
             "Rollout"
           ],
@@ -24754,7 +24762,7 @@ overrides = {
           ],
           [
             13,
-            "Comet Punch"
+            "Force Palm"
           ],
           [
             15,
@@ -46117,7 +46125,7 @@ overrides = {
       },
       "abs": [
         "Simple",
-        "Flare Boost",
+        "Battle Armor",
         "Own Tempo"
       ],
       "evos": [
@@ -46273,7 +46281,7 @@ overrides = {
       },
       "abs": [
         "Simple",
-        "Flare Boost",
+        "Battle Armor",
         "Keen Eye"
       ],
       "evoType": "useItem",
@@ -67998,7 +68006,8 @@ overrides = {
       "name": "Porygon-Z",
       "num": 474,
       "types": [
-        "Normal"
+        "Normal",
+        "Electric"
       ],
       "items": [
         "None",
@@ -68131,6 +68140,7 @@ overrides = {
           "Psycho Shift",
           "Giga Impact",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Psych Up",
           "Dream Eater",
@@ -71028,6 +71038,10 @@ overrides = {
           ],
           [
             1,
+            "Sucker Punch"
+          ],
+          [
+            1,
             "Thunderbolt"
           ],
           [
@@ -71036,15 +71050,7 @@ overrides = {
           ],
           [
             1,
-            "Quick Attack"
-          ],
-          [
-            1,
-            "Sucker Punch"
-          ],
-          [
-            1,
-            "Confusion"
+            "Gravity"
           ],
           [
             1,
@@ -71055,56 +71061,72 @@ overrides = {
             "Incinerate"
           ],
           [
+            1,
+            "Volt Switch"
+          ],
+          [
             9,
             "Endure"
           ],
           [
             17,
-            "Headbutt"
+            "Charm"
           ],
           [
-            25,
+            20,
             "Flame Charge"
           ],
           [
-            33,
+            23,
             "Reversal"
           ],
           [
-            41,
+            25,
+            "Lovely Kiss"
+          ],
+          [
+            27,
             "Flame Burst"
           ],
           [
-            49,
+            29,
             "Zen Headbutt"
           ],
           [
-            57,
+            32,
             "Inferno"
           ],
           [
-            65,
-            "Double-Edge"
+            35,
+            "Sweet Kiss"
           ],
           [
-            70,
-            "V-create"
-          ],
-          [
-            73,
+            39,
             "Flare Blitz"
           ],
           [
-            81,
-            "Final Gambit"
-          ],
-          [
-            89,
+            43,
             "Stored Power"
           ],
           [
-            97,
+            47,
             "Overheat"
+          ],
+          [
+            51,
+            "Pay Day"
+          ],
+          [
+            55,
+            "Hyper Voice"
+          ],
+          [
+            58,
+            "Psycho Shift"
+          ],
+          [
+            65,
+            "V-create"
           ]
         ],
         "tms": [
@@ -71143,6 +71165,7 @@ overrides = {
           "Psycho Shift",
           "Giga Impact",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Psych Up",
           "Cross Chop",
@@ -76259,7 +76282,7 @@ overrides = {
           ],
           [
             57,
-            "Tail Whip"
+            "Pain Split"
           ],
           [
             61,
@@ -80405,15 +80428,15 @@ overrides = {
         "learnset": [
           [
             1,
-            "Absorb"
+            "Grass Whistle"
           ],
           [
             1,
-            "Pound"
+            "Sing"
           ],
           [
             1,
-            "Air Cutter"
+            "Comet Punch"
           ],
           [
             3,
@@ -80440,8 +80463,16 @@ overrides = {
             "Cotton Spore"
           ],
           [
+            20,
+            "Mud-Slap"
+          ],
+          [
             22,
             "Needle Arm"
+          ],
+          [
+            24,
+            "Double Slap"
           ],
           [
             26,
@@ -80450,6 +80481,10 @@ overrides = {
           [
             29,
             "Acupressure"
+          ],
+          [
+            31,
+            "Dig"
           ],
           [
             33,
@@ -80465,11 +80500,11 @@ overrides = {
           ],
           [
             45,
-            "Hydro Pump"
+            "Earth Power"
           ],
           [
             47,
-            "U-turn"
+            "Toxic Spikes"
           ],
           [
             50,
@@ -80480,20 +80515,12 @@ overrides = {
             "Cotton Guard"
           ],
           [
+            55,
+            "Hydro Pump"
+          ],
+          [
             57,
-            "Earth Power"
-          ],
-          [
-            60,
-            "U-turn"
-          ],
-          [
-            64,
-            "Scald"
-          ],
-          [
-            67,
-            "Comet Punch"
+            "Encore"
           ]
         ],
         "tms": [
@@ -104905,7 +104932,11 @@ overrides = {
       "name": "Air Slash",
       "num": 402,
       "desc": "The user attacks with a blade that  fractures the atmosphere. However, the  user takes partial recoil damage.",
-      "e_id": 31
+      "e_id": 31,
+      "recoil": [
+        25,
+        100
+      ]
     },
     "X-Scissor": {
       "t": "Bug",
@@ -137060,7 +137091,7 @@ overrides = {
         "Policeman Jeff",
         "Maid Alica",
         "Parasol Lady Gwyneth",
-        "Policeman Bill - Liberty Garden"
+        "Policeman Bill"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -137349,7 +137380,7 @@ overrides = {
       "desc": "Milk with a very high nutrition content.\\nIt restores the HP of one Pokémon by\\n100 points.",
       "location": "Floccesy Ranch",
       "rewards": [
-        "Waiter Clint - Nimbasa City",
+        "Waiter Clint",
         "Waitress Bonita",
         "Baker Lilly"
       ],
@@ -137458,7 +137489,7 @@ overrides = {
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Speed stat of a\\nsingle Pokémon.",
       "location": "Dragonspiral Tower, Giant Chasm Core, Route 2",
       "rewards": [
-        "Striker Marco - Nimbasa City"
+        "Striker Marco"
       ]
     },
     "calcium": {
@@ -137490,7 +137521,7 @@ overrides = {
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Sp. Def (Special\\nDefense) stat of a single Pokémon.",
       "location": "Route 3",
       "rewards": [
-        "Smasher Mari - Nimbasa City"
+        "Smasher Mari"
       ]
     },
     "ppmax": {
@@ -137499,7 +137530,7 @@ overrides = {
       "location": "Pinwheel Forest, Pinwheel Forest, Desert Resort, Dragonspiral Tower, Champion's Cavern, Route 18, Route 20, Route 22",
       "rewards": [
         "Veteran Sayuri",
-        "PkMn Ranger Lewis - Reversal Summit"
+        "PkMn Ranger Lewis"
       ]
     },
     "oldgateau": {
@@ -137883,20 +137914,9 @@ overrides = {
         "Linebacker Bob",
         "Infielder Alex",
         "Infielder Connor",
-        "Smasher Elena - Nimbasa City",
-        "Smasher Aspen - Nimbasa City",
-        "Infielder Todd - Nimbasa City",
-        "Infielder Alex - Nimbasa City",
-        "Infielder Connor - Nimbasa City",
-        "Striker Tony - Nimbasa City",
-        "Striker Roberto - Nimbasa City",
-        "Linebacker Dan - Nimbasa City",
-        "Linebacker Bob - Nimbasa City",
-        "Hoopster Lamarcus - Nimbasa City",
-        "Hoopster Bobby - Nimbasa City",
-        "Hoopster John - Nimbasa City",
-        "Linebacker Jonah",
         "Infielder Todd",
+        "Hoopster Lamarcus",
+        "Linebacker Jonah",
         "Striker Marco",
         "Smasher Mari"
       ],
@@ -138203,8 +138223,8 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from paralysis.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Lois - Route 5",
-        "PkMn Ranger Forrest - Lostlorn Forest"
+        "PkMn Ranger Lois",
+        "PkMn Ranger Forrest"
       ],
       "wilds": [
         "Glameow",
@@ -138235,7 +138255,7 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from poison.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Serenity - Lostlorn Forest"
+        "PkMn Ranger Serenity"
       ],
       "wilds": [
         "Poochyena",
@@ -138255,7 +138275,7 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from a burn.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Anja - Desert Resort"
+        "PkMn Ranger Anja"
       ],
       "wilds": [
         "Vulpix",
@@ -138273,8 +138293,8 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit defrosts it.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Thalia - Route 11",
-        "PkMn Ranger Crofton - Route 11"
+        "PkMn Ranger Thalia",
+        "PkMn Ranger Crofton"
       ],
       "wilds": [
         "Chillet",
@@ -138318,10 +138338,10 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from confusion.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Johan - Seaside Grotto",
-        "PkMn Ranger Mikiko - Seaside Grotto",
-        "PkMn Ranger Lewis - Reversal Summit",
-        "PkMn Ranger Benga - Reversal Summit"
+        "PkMn Ranger Johan",
+        "PkMn Ranger Mikiko",
+        "PkMn Ranger Lewis",
+        "PkMn Ranger Benga"
       ],
       "wilds": [
         "Girafarig",
@@ -138341,16 +138361,16 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from any status problem.",
       "location": "Village Bridge, Route 19, Route 23",
       "rewards": [
-        "PkMn Ranger Rick - Route 1 ",
-        "PkMn Ranger Audra - Route 1 ",
-        "PkMn Ranger Maxwell - Clay Tunnel",
-        "PkMn Ranger Katie - Clay Tunnel",
-        "PkMn Ranger Parker - Moor of Icirrus",
-        "PkMn Ranger Elaine - Moor of Icirrus",
-        "PkMn Ranger Ralph - Pinwheel Forest",
-        "PkMn Ranger Melita - Pinwheel Forest",
-        "PkMn Ranger Joe - Champion's Cavern",
-        "PkMn Ranger Lily - Champion's Cavern"
+        "PkMn Ranger Rick",
+        "PkMn Ranger Audra",
+        "PkMn Ranger Maxwell",
+        "PkMn Ranger Katie",
+        "PkMn Ranger Parker",
+        "PkMn Ranger Elaine",
+        "PkMn Ranger Ralph",
+        "PkMn Ranger Melita",
+        "PkMn Ranger Joe",
+        "PkMn Ranger Lily"
       ],
       "wilds": [
         "Mew",
@@ -138368,11 +138388,11 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit heals the user's HP a little.",
       "location": "Virbank Refinery, Route 23",
       "rewards": [
-        "PkMn Ranger Dianne - Route 13",
-        "PkMn Ranger Lena - Route 23",
-        "PkMn Ranger Steve - Route 23",
-        "PkMn Ranger Dwayne - Pinwheel Forest",
-        "PkMn Ranger Hillary - Pinwheel Forest"
+        "PkMn Ranger Dianne",
+        "PkMn Ranger Lena",
+        "PkMn Ranger Steve",
+        "PkMn Ranger Dwayne",
+        "PkMn Ranger Hillary"
       ],
       "wilds": [
         "Furret",
@@ -138588,7 +138608,7 @@ overrides = {
       "desc": "Weakens a supereffective Poison-type\\nattack against the holding Pokémon.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Malory - Route 20"
+        "PkMn Ranger Malory"
       ],
       "wilds": [
         "Shroomish",
@@ -138802,7 +138822,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon.\\nThe holder gets a share of a battle's\\nExp. Points without battling.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Daryl - Route 13"
+        "PkMn Ranger Daryl"
       ],
       "marts": [
         "Seigaiha City Upper Cashier"
@@ -138998,10 +139018,10 @@ overrides = {
       "desc": "An item to be held by a Pokémon.\\nThe holder's HP is gradually restored\\nduring battle.",
       "location": "Chargestone Cave, Castelia Sewers",
       "rewards": [
-        "Linebacker Jonah - Nimbasa City",
+        "Linebacker Jonah",
         "PkMn Breeder Brooke",
         "Gentleman Renaud",
-        "Doctor Heath - Castelia Sewers"
+        "Doctor Heath"
       ],
       "wilds": [
         "Snorlax",
@@ -139298,7 +139318,7 @@ overrides = {
       "location": "Reversal Summit, Reversal Summit, Plasma Frigate, Plasma Frigate, Route 20, Route 23",
       "rewards": [
         "Harlequin Charley",
-        "PkMn Ranger Richard - Route 6"
+        "PkMn Ranger Richard"
       ],
       "marts": [
         "SM9 Bottom Section"
@@ -141047,7 +141067,7 @@ overrides = {
       "desc": "A gem with an essence of electricity.\\nWhen held, it strengthens the power of\\nan Electric-type move only once.",
       "location": "Desert Resort, Chargestone Cave",
       "rewards": [
-        "PkMn Ranger Louis - Chargestone Cave"
+        "PkMn Ranger Louis"
       ],
       "marts": [
         "Accumula Town Upper Cashier"
@@ -141090,7 +141110,7 @@ overrides = {
       "desc": "A gem with an essence of land. When\\nheld, it strengthens the power of a\\nGround-type move only once.",
       "location": "Desert Resort, Reversal Badlands",
       "rewards": [
-        "PkMn Ranger Briana - Chargestone Cave"
+        "PkMn Ranger Briana"
       ],
       "marts": [
         "Accumula Town Upper Cashier"
