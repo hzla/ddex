@@ -6,6 +6,10 @@ gameTitles = {
 	"blindingwhite2": "Blinding White 2"
 }
 
+truncatedSpeciesNames = {
+	"fletcinder": "fletchinder"
+}
+
 if (localStorage.overrides) {
 	overrideDexData(JSON.parse(localStorage.overrides))
 }
@@ -83,6 +87,8 @@ function overrideItemData(itemOverrides) {
 }
 
 function overrideMoveData(moveOverrides) {
+	let movCount = 934
+	let customMoveCount = 0
 	for (let moveName in moveOverrides) {
 		let moveId = cleanString(moveName)
 		let moveData = moveOverrides[moveName]
@@ -96,6 +102,25 @@ function overrideMoveData(moveOverrides) {
 			BattleMovedex[moveId].priority = moveData.prio
 			BattleMovedex[moveId].desc = moveData.desc
 			BattleMovedex[moveId].shortDesc = moveData.desc
+		} else {
+			customMoveCount += 1
+			BattleMovedex[moveId] = {}
+
+			// Override Fields
+			BattleMovedex[moveId].type = moveData.t
+			BattleMovedex[moveId].basePower = moveData.bp
+			BattleMovedex[moveId].category = moveData.cat
+			BattleMovedex[moveId].pp = moveData.pp
+			BattleMovedex[moveId].accuracy = moveData.acc
+			BattleMovedex[moveId].priority = moveData.prio
+			BattleMovedex[moveId].desc = moveData.desc
+			BattleMovedex[moveId].shortDesc = moveData.desc
+
+			// New Fields
+			BattleMovedex[moveId].name = moveData.name
+			BattleMovedex[moveId].num = movCount + customMoveCount
+			BattleMovedex[moveId].flags = {}
+			BattleMovedex[moveId].contestType = ""
 		}
 
 	}
@@ -103,86 +128,101 @@ function overrideMoveData(moveOverrides) {
 
 
 function overrideMonData(monOverrides) {
+	let monCount = 1025
+	let customMonCount = 0
 	for (let speciesName in monOverrides) {
 		
 		let speciesId = cleanString(speciesName)
 		let monData = monOverrides[speciesName]
-		// console.log(monData)
-
-		if (typeof BattlePokedex[speciesId] != "undefined") {
-			BattlePokedex[speciesId].types = monData.types
-			BattlePokedex[speciesId].abilities[0] = monData.abs[0]
-			BattlePokedex[speciesId].abilities[1] = monData.abs[1]
-			BattlePokedex[speciesId].abilities["H"] = monData.abs[2]
-			BattlePokedex[speciesId].wildItems = monData.items
-			BattlePokedex[speciesId].tier = "obtainable"
-			BattlePokedex[speciesId].baseStats = {
-				hp: monData.bs.hp,
-				atk: monData.bs.at,
-				def: monData.bs.df,
-				spa: monData.bs.sa,
-				spd: monData.bs.sd,
-				spe: monData.bs.sp,	
-			}
-			BattlePokedex[speciesId].evos = monData.evos
-
-			let lvlUpMoves = monData.learnset_info.learnset
-			let tms = monData.learnset_info.tms
-			let tutors = monData.learnset_info.tutors
-
-
-			BattleLearnsets[speciesId].learnset = {}
-
-
-			for (let mv of lvlUpMoves) {
-				let mvId = cleanString(mv[1])
-				let level = mv[0]
-
-				BattleLearnsets[speciesId].learnset[mvId] ||= []
-				BattleLearnsets[speciesId].learnset[mvId].push(`L${level}`)
-			}
-
-			for (let mv of tms) {
-				let mvId = cleanString(mv)
-
-				BattleLearnsets[speciesId].learnset[mvId] ||= []
-				BattleLearnsets[speciesId].learnset[mvId].push(`M`)
-			}
-
-			if (tutors) {
-				for (let mv of tutors) {
-					let mvId = cleanString(mv)
 		
-					BattleLearnsets[speciesId].learnset[mvId] ||= []
-					BattleLearnsets[speciesId].learnset[mvId].push(`T`)
-				}
+		if (truncatedSpeciesNames[speciesId]) {
+			speciesId = truncatedSpeciesNames[speciesId]
+		}
 
+		if (typeof BattlePokedex[speciesId] == "undefined") {
+			customMonCount += 1
+			BattlePokedex[speciesId] = {
+				name: monData.name,
+				num: monCount + customMonCount,
+				tier: "obtainable",
+				abilities: {},
+				baseStats: {},
 			}
-			
+			BattleLearnsets[speciesId] = {}
+		}
+		BattlePokedex[speciesId].types = monData.types
+		BattlePokedex[speciesId].abilities[0] = monData.abs[0]
+		BattlePokedex[speciesId].abilities[1] = monData.abs[1]
+		BattlePokedex[speciesId].abilities["H"] = monData.abs[2]
+		BattlePokedex[speciesId].wildItems = monData.items
+		BattlePokedex[speciesId].tier = "obtainable"
+		BattlePokedex[speciesId].baseStats = {
+			hp: monData.bs.hp,
+			atk: monData.bs.at,
+			def: monData.bs.df,
+			spa: monData.bs.sa,
+			spd: monData.bs.sd,
+			spe: monData.bs.sp,	
+		}
+		BattlePokedex[speciesId].evos = monData.evos
 
-			// console.log(BattleLearnsets[speciesId].learnset)
+		let lvlUpMoves = monData.learnset_info.learnset
+		let tms = monData.learnset_info.tms
+		let tutors = monData.learnset_info.tutors
 
-			// Set optional fields
-			for (let field of ["evoLevel", "evoType", "evoCondition"]) {
-				if (typeof monData[field] != "undefined") {
-					BattlePokedex[speciesId][field] = monData[field]
-				}
+
+		BattleLearnsets[speciesId].learnset = {}
+
+
+		for (let mv of lvlUpMoves) {
+			let mvId = cleanString(mv[1])
+			let level = mv[0]
+
+			BattleLearnsets[speciesId].learnset[mvId] ||= []
+			BattleLearnsets[speciesId].learnset[mvId].push(`L${level}`)
+		}
+
+		for (let mv of tms) {
+			let mvId = cleanString(mv)
+
+			BattleLearnsets[speciesId].learnset[mvId] ||= []
+			BattleLearnsets[speciesId].learnset[mvId].push(`M`)
+		}
+
+		if (tutors) {
+			for (let mv of tutors) {
+				let mvId = cleanString(mv)
+	
+				BattleLearnsets[speciesId].learnset[mvId] ||= []
+				BattleLearnsets[speciesId].learnset[mvId].push(`T`)
 			}
 
-			// Set Abilities
-			let abilityData = {}
-			for (let abIndex in monData.abs) {
-				if (abIndex == 0) {
-					abilityData["0"] = monData.abs[abIndex]
-				}
-				if (abIndex == 1) {
-					abilityData["1"] = monData.abs[abIndex]
-				}
-				if (abIndex == 2) {
-					abilityData["H"] = monData.abs[abIndex]
-				}
+		}
+		
+
+		// console.log(BattleLearnsets[speciesId].learnset)
+
+		// Set optional fields
+		for (let field of ["evoLevel", "evoType", "evoCondition"]) {
+			if (typeof monData[field] != "undefined") {
+				BattlePokedex[speciesId][field] = monData[field]
 			}
 		}
+
+		// Set Abilities
+		let abilityData = {}
+		for (let abIndex in monData.abs) {
+			if (abIndex == 0) {
+				abilityData["0"] = monData.abs[abIndex]
+			}
+			if (abIndex == 1) {
+				abilityData["1"] = monData.abs[abIndex]
+			}
+			if (abIndex == 2) {
+				abilityData["H"] = monData.abs[abIndex]
+			}
+		}
+		
 	}
 }
 
@@ -250,6 +290,20 @@ function moveSubs() {
 	    "smellingsalt": "smellingsalts",
 	    "vicegrip": "visegrip",
 	    "hijumpkick": "highjumpkick",
+	}
+}
+
+        // # "Fletchinder","Crabominable","Blacephalon","Corvisquire","Corviknight","Barraskewda","Centiskorch",
+        // # "Polteageist","Stonjourner","Basculegion","Meowscarada","Squawkabilly","Kilowattrel","Brambleghast","Dudunsparce","Poltchageist",
+        // # "Fezandipiti","Continental","Archipelago"
+function unabv(speciesName) {
+	let abvs = {
+		"fletcinder": "fletchinder"
+	}
+	if (abvs[speciesName]) {
+		return abvs[speciesName]
+	} else {
+		return speciesName
 	}
 }
 

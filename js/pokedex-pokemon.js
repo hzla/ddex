@@ -7,7 +7,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
     vanillaPokemon = vanillaSpecies[id]
     let overrideData = JSON.parse(localStorage.overrides).poks[pokemon.name]
-    let itemData = overrideData.items
+    let itemData = false
+    if (overrideData) {
+      itemData = overrideData.items
+    }
+
 
     console.log(overrideData)
 

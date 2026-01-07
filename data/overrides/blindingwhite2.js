@@ -716,7 +716,7 @@ overrides = {
           ],
           [
             1,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             1,
@@ -1541,7 +1541,7 @@ overrides = {
           ],
           [
             57,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             60,
@@ -2016,7 +2016,7 @@ overrides = {
           ],
           [
             49,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             53,
@@ -2147,7 +2147,7 @@ overrides = {
           ],
           [
             57,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             62,
@@ -2292,7 +2292,7 @@ overrides = {
           ],
           [
             55,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             58,
@@ -5565,7 +5565,7 @@ overrides = {
           ],
           [
             45,
-            "Air Slash"
+            "Ozone Slash"
           ]
         ],
         "tms": [
@@ -5702,7 +5702,7 @@ overrides = {
           ],
           [
             52,
-            "Air Slash"
+            "Ozone Slash"
           ]
         ],
         "tms": [
@@ -11591,7 +11591,7 @@ overrides = {
           ],
           [
             49,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             55,
@@ -17331,7 +17331,7 @@ overrides = {
           ],
           [
             53,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             57,
@@ -20477,7 +20477,7 @@ overrides = {
           ],
           [
             50,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             57,
@@ -23267,7 +23267,7 @@ overrides = {
           ],
           [
             33,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             37,
@@ -23415,7 +23415,7 @@ overrides = {
           ],
           [
             37,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             42,
@@ -24143,7 +24143,7 @@ overrides = {
           ],
           [
             52,
-            "Air Slash"
+            "Ozone Slash"
           ]
         ],
         "tms": [
@@ -27655,7 +27655,7 @@ overrides = {
           ],
           [
             54,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             57,
@@ -32603,7 +32603,7 @@ overrides = {
           ],
           [
             36,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             39,
@@ -32762,7 +32762,7 @@ overrides = {
           ],
           [
             39,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             41,
@@ -39337,7 +39337,7 @@ overrides = {
           ],
           [
             53,
-            "Air Slash"
+            "Ozone Slash"
           ]
         ],
         "tms": [
@@ -39453,7 +39453,7 @@ overrides = {
           ],
           [
             37,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             41,
@@ -39603,7 +39603,7 @@ overrides = {
           ],
           [
             46,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             49,
@@ -40496,7 +40496,7 @@ overrides = {
           ],
           [
             43,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             47,
@@ -47325,7 +47325,7 @@ overrides = {
           ],
           [
             63,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             66,
@@ -51413,7 +51413,7 @@ overrides = {
           ],
           [
             51,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             55,
@@ -55028,7 +55028,7 @@ overrides = {
           ],
           [
             35,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             45,
@@ -59331,7 +59331,7 @@ overrides = {
           ],
           [
             37,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             41,
@@ -65484,7 +65484,7 @@ overrides = {
           ],
           [
             36,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             39,
@@ -67080,7 +67080,7 @@ overrides = {
           ],
           [
             1,
-            "Air Slash"
+            "Ozone Slash"
           ]
         ],
         "tms": [
@@ -67261,7 +67261,7 @@ overrides = {
           ],
           [
             54,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             57,
@@ -74954,7 +74954,7 @@ overrides = {
           ],
           [
             29,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             32,
@@ -75234,7 +75234,7 @@ overrides = {
           ],
           [
             33,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             36,
@@ -76094,7 +76094,7 @@ overrides = {
           ],
           [
             32,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             36,
@@ -76258,7 +76258,7 @@ overrides = {
           ],
           [
             32,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             36,
@@ -81281,7 +81281,7 @@ overrides = {
           ],
           [
             41,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             44,
@@ -84369,7 +84369,7 @@ overrides = {
           ],
           [
             27,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             30,
@@ -84506,7 +84506,7 @@ overrides = {
           ],
           [
             27,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             30,
@@ -91432,7 +91432,7 @@ overrides = {
           ],
           [
             41,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             46,
@@ -91580,7 +91580,7 @@ overrides = {
           ],
           [
             41,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             44,
@@ -91734,7 +91734,7 @@ overrides = {
           ],
           [
             41,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             46,
@@ -91885,7 +91885,7 @@ overrides = {
           ],
           [
             41,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             46,
@@ -93552,7 +93552,7 @@ overrides = {
           ],
           [
             43,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             49,
@@ -97063,7 +97063,7 @@ overrides = {
           ],
           [
             64,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             73,
@@ -99293,7 +99293,7 @@ overrides = {
           ],
           [
             43,
-            "Air Slash"
+            "Ozone Slash"
           ],
           [
             49,
@@ -104922,14 +104922,14 @@ overrides = {
       "e_id": 0,
       "sf": true
     },
-    "Air Slash": {
+    "Ozone Slash": {
       "t": "Flying",
       "bp": 110,
       "cat": "Special",
       "pp": 5,
       "acc": 85,
       "prio": 0,
-      "name": "Air Slash",
+      "name": "Ozone Slash",
       "num": 402,
       "desc": "The user attacks with a blade that  fractures the atmosphere. However, the  user takes partial recoil damage.",
       "e_id": 31,
