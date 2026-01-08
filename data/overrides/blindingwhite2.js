@@ -109021,6 +109021,136 @@ overrides = {
     },
     "pinwheelforest": {
       "name": "Pinwheel Forest ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Amoonguss",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Breloom",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Shiftry",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Vileplume",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Amoonguss",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Breloom",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Shiftry",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Vileplume",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Amoonguss",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Breloom",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Shiftry",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Vileplume",
+            "mn": 85,
+            "mx": 88
+          }
+        ],
+        "name": "Pinwheel Forest (Interior)"
+      },
+      "grotto2": {
+        "encs": [
+          {
+            "s": "Chimecho",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Ditto",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Hariyama",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Exploud",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Chimecho",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Ditto",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Hariyama",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Exploud",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Chimecho",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Ditto",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Hariyama",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Exploud",
+            "mn": 85,
+            "mx": 88
+          }
+        ],
+        "name": "Pinwheel Forest (Exterior)"
+      },
       "grass": {
         "encs": [
           {
@@ -109228,6 +109358,136 @@ overrides = {
     },
     "pinwheelforest2": {
       "name": "Pinwheel Forest 2",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Amoonguss",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Breloom",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Shiftry",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Vileplume",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Amoonguss",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Breloom",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Shiftry",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Vileplume",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Amoonguss",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Breloom",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Shiftry",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Vileplume",
+            "mn": 85,
+            "mx": 88
+          }
+        ],
+        "name": "Pinwheel Forest (Interior)"
+      },
+      "grotto2": {
+        "encs": [
+          {
+            "s": "Chimecho",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Ditto",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Hariyama",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Exploud",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Chimecho",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Ditto",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Hariyama",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Exploud",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Chimecho",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Ditto",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Hariyama",
+            "mn": 85,
+            "mx": 88
+          },
+          {
+            "s": "Exploud",
+            "mn": 85,
+            "mx": 88
+          }
+        ],
+        "name": "Pinwheel Forest (Exterior)"
+      },
       "grass": {
         "encs": [
           {
@@ -112391,6 +112651,71 @@ overrides = {
     },
     "giantchasm": {
       "name": "Giant Chasm ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Metagross",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Feraligatr",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Starmie",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Clefable",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Metagross",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Feraligatr",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Starmie",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Clefable",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ditto",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ditto",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ditto",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ditto",
+            "mn": 64,
+            "mx": 66
+          }
+        ],
+        "name": "Giant Chasm "
+      },
       "grass": {
         "encs": [
           {
@@ -114689,6 +115014,71 @@ overrides = {
     },
     "floccesyranch": {
       "name": "Floccesy Ranch ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Ampharos",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Delcatty",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Vespiquen",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Crawdaunt",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Ampharos",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Delcatty",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Vespiquen",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Crawdaunt",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Ampharos",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Delcatty",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Vespiquen",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Crawdaunt",
+            "mn": 38,
+            "mx": 40
+          }
+        ],
+        "name": "Floccesy Ranch"
+      },
       "grass": {
         "encs": []
       },
@@ -114817,6 +115207,71 @@ overrides = {
     },
     "floccesyranch2": {
       "name": "Floccesy Ranch 2",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Ampharos",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Delcatty",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Vespiquen",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Crawdaunt",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Ampharos",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Delcatty",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Vespiquen",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Crawdaunt",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Ampharos",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Delcatty",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Vespiquen",
+            "mn": 38,
+            "mx": 40
+          },
+          {
+            "s": "Crawdaunt",
+            "mn": 38,
+            "mx": 40
+          }
+        ],
+        "name": "Floccesy Ranch"
+      },
       "grass": {
         "encs": [
           {
@@ -123998,6 +124453,71 @@ overrides = {
     },
     "route2": {
       "name": "Route 2 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Nidoking",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Nidoqueen",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Hitmontop",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Porygon-Z",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Hippowdon",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Hippowdon",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Hippowdon",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Hippowdon",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Nidoking",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Nidoqueen",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Hitmonlee",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Hitmontop",
+            "mn": 90,
+            "mx": 92
+          }
+        ],
+        "name": "Route 2"
+      },
       "grass": {
         "encs": [
           {
@@ -124144,6 +124664,136 @@ overrides = {
     },
     "route3": {
       "name": "Route 3 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Ninetales",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Ninetales",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Miltank",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Miltank",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Ninetales",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Ninetales",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Mamoswine",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Mamoswine",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Mew",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Mew",
+            "mn": 90,
+            "mx": 92
+          }
+        ],
+        "name": "Route 3 (Daycare)"
+      },
+      "grotto2": {
+        "encs": [
+          {
+            "s": "Manaphy",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Manaphy",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Manaphy",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Manaphy",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          },
+          {
+            "s": "Milotic",
+            "mn": 90,
+            "mx": 92
+          }
+        ],
+        "name": "Route 3 (Pond)"
+      },
       "grass": {
         "encs": [
           {
@@ -125333,6 +125983,71 @@ overrides = {
     },
     "route5": {
       "name": "Route 5 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Shaymin",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Shaymin",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Shaymin",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Shaymin",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Miltank",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Miltank",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Miltank",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Miltank",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Minccino",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Minccino",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Minccino",
+            "mn": 25,
+            "mx": 28
+          },
+          {
+            "s": "Minccino",
+            "mn": 25,
+            "mx": 28
+          }
+        ],
+        "name": "Route 5"
+      },
       "grass": {
         "encs": [
           {
@@ -125540,6 +126255,136 @@ overrides = {
     },
     "route6": {
       "name": "Route 6 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Gastrodon",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Altaria",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Carnivine",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Quagsire",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Gastrodon",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Altaria",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Carnivine",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Quagsire",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Gastrodon",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Altaria",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Carnivine",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Quagsire",
+            "mn": 35,
+            "mx": 38
+          }
+        ],
+        "name": "Route 6 (Field)"
+      },
+      "grotto2": {
+        "encs": [
+          {
+            "s": "Steelix",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Floatzel",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Lairon",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Swellow",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Steelix",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Floatzel",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Lairon",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Swellow",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Steelix",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Floatzel",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Lairon",
+            "mn": 35,
+            "mx": 38
+          },
+          {
+            "s": "Swellow",
+            "mn": 35,
+            "mx": 38
+          }
+        ],
+        "name": "Route 6 (Cave)"
+      },
       "grass": {
         "encs": [
           {
@@ -126289,6 +127134,71 @@ overrides = {
     },
     "route7": {
       "name": "Route 7 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Seviper",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Zangoose",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Mismagius",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Yanmega",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Seviper",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Zangoose",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Mismagius",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Yanmega",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Seviper",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Zangoose",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Mismagius",
+            "mn": 42,
+            "mx": 44
+          },
+          {
+            "s": "Yanmega",
+            "mn": 42,
+            "mx": 44
+          }
+        ],
+        "name": "Route 7"
+      },
       "grass": {
         "encs": [
           {
@@ -127214,6 +128124,71 @@ overrides = {
     },
     "route9": {
       "name": "Route 9 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Roserade",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Espeon",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Honchkrow",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Weavile",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Roserade",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Espeon",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Honchkrow",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Weavile",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Roserade",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Espeon",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Honchkrow",
+            "mn": 56,
+            "mx": 58
+          },
+          {
+            "s": "Weavile",
+            "mn": 56,
+            "mx": 58
+          }
+        ],
+        "name": "Route 9"
+      },
       "grass": {
         "encs": [
           {
@@ -127939,6 +128914,136 @@ overrides = {
     },
     "route13": {
       "name": "Route 13 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Drapion",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Gliscor",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Dragonair",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Dewgong",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Drapion",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Gliscor",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Dragonair",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Dewgong",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Drapion",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Gliscor",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Dragonair",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Dewgong",
+            "mn": 52,
+            "mx": 54
+          }
+        ],
+        "name": "Route 13 (Stairs Left)"
+      },
+      "grotto2": {
+        "encs": [
+          {
+            "s": "Tangrowth",
+            "mn": 54,
+            "mx": 57
+          },
+          {
+            "s": "Lapras",
+            "mn": 54,
+            "mx": 57
+          },
+          {
+            "s": "Lopunny",
+            "mn": 54,
+            "mx": 57
+          },
+          {
+            "s": "Butterfree",
+            "mn": 54,
+            "mx": 57
+          },
+          {
+            "s": "Tangrowth",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Lapras",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Butterfree",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Lopunny",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Tangrowth",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Lapras",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Lopunny",
+            "mn": 52,
+            "mx": 54
+          },
+          {
+            "s": "Butterfree",
+            "mn": 52,
+            "mx": 54
+          }
+        ],
+        "name": "Route 13 (Stairs Down)"
+      },
       "grass": {
         "encs": [
           {
@@ -128561,6 +129666,136 @@ overrides = {
     },
     "abundantshrine": {
       "name": "Abundant Shrine ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Flygon",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Walrein",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Politoed",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Mantine",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Flygon",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Walrein",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Politoed",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Mantine",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Flygon",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Walrein",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Politoed",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Mantine",
+            "mn": 62,
+            "mx": 64
+          }
+        ],
+        "name": "Abundant Shrine (Field)"
+      },
+      "grotto2": {
+        "encs": [
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          },
+          {
+            "s": "Manaphy",
+            "mn": 62,
+            "mx": 64
+          }
+        ],
+        "name": "Abundant Shrine (Pond)"
+      },
       "grass": {
         "encs": [
           {
@@ -129286,6 +130521,71 @@ overrides = {
     },
     "lostlornforest": {
       "name": "Lostlorn Forest ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Celebi",
+            "mn": 30,
+            "mx": 32
+          }
+        ],
+        "name": "Lostlorn Forest"
+      },
       "grass": {
         "encs": [
           {
@@ -129597,6 +130897,71 @@ overrides = {
     },
     "route18": {
       "name": "Route 18 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Croconaw",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Nosepass",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Swablu",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Spheal",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Corphish",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Corphish",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Corphish",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Corphish",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Croconaw",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Nosepass",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Swablu",
+            "mn": 21,
+            "mx": 23
+          },
+          {
+            "s": "Spheal",
+            "mn": 21,
+            "mx": 23
+          }
+        ],
+        "name": "Route 18"
+      },
       "grass": {
         "encs": [
           {
@@ -130469,6 +131834,71 @@ overrides = {
     },
     "route22": {
       "name": "Route 22 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Absol",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Beedrill",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Milotic",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ledian",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Absol",
+            "mn": 40,
+            "mx": 45
+          },
+          {
+            "s": "Beedrill",
+            "mn": 40,
+            "mx": 45
+          },
+          {
+            "s": "Milotic",
+            "mn": 40,
+            "mx": 45
+          },
+          {
+            "s": "Ledian",
+            "mn": 40,
+            "mx": 45
+          },
+          {
+            "s": "Absol",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Beedrill",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Milotic",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ledian",
+            "mn": 64,
+            "mx": 66
+          }
+        ],
+        "name": "Route 22"
+      },
       "grass": {
         "encs": [
           {
@@ -130780,6 +132210,71 @@ overrides = {
     },
     "route23": {
       "name": "Route 23 ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Electivire",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Magcargo",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Tyranitar",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Dusknoir",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Electivire",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Magcargo",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Tyranitar",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Dusknoir",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Electivire",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Magcargo",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Tyranitar",
+            "mn": 72,
+            "mx": 74
+          },
+          {
+            "s": "Dusknoir",
+            "mn": 72,
+            "mx": 74
+          }
+        ],
+        "name": "Route 23"
+      },
       "grass": {
         "encs": [
           {
@@ -131542,6 +133037,34 @@ overrides = {
         40,
         15,
         4,
+        1
+      ],
+      "grotto1": [
+        15,
+        15,
+        15,
+        15,
+        4,
+        4,
+        4,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "grotto2": [
+        15,
+        15,
+        15,
+        15,
+        4,
+        4,
+        4,
+        4,
+        1,
+        1,
+        1,
         1
       ]
     }

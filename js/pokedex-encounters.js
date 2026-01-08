@@ -29,13 +29,6 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
   getDistribution: function () {
     if (this.results) return this.results;
 
-    // var landRates = BattleLocationdex["rates"]["land"];
-    // var surfRates = BattleLocationdex["rates"]["surf"];
-    // var rockRates = BattleLocationdex["rates"]["rock"];
-    // var oldRodRates = BattleLocationdex["rates"]["fish"]["old"];
-    // var goodRodRates = BattleLocationdex["rates"]["fish"]["good"];
-    // var superRodRates = BattleLocationdex["rates"]["fish"]["super"];
-
     var location = this.id;
     var results = [];
 
@@ -72,89 +65,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
 
     }
 
-    // if (BattleLocationdex[location]["land"]["encs"] !== undefined) {
-    //   for (
-    //     let i = 0;
-    //     i < BattleLocationdex[location]["land"]["encs"].length;
-    //     i++
-    //   ) {
-    //     let enc = BattleLocationdex[location]["land"]["encs"][i];
-    //     let min = enc.minLvl;
-    //     let max = enc.maxLvl;
-    //     let mon = enc.species;
-    //     results.push(
-    //       "L" + formatRate(landRates[i]) + formatRange(min, max) + mon,
-    //     );
-    //   }
-    // }
-
-    // if (BattleLocationdex[location]["surf"]["encs"] !== undefined) {
-    //   for (
-    //     let i = 0;
-    //     i < BattleLocationdex[location]["surf"]["encs"].length;
-    //     i++
-    //   ) {
-    //     let enc = BattleLocationdex[location]["surf"]["encs"][i];
-    //     let min = enc.minLvl;
-    //     let max = enc.maxLvl;
-    //     let mon = enc.species;
-    //     results.push(
-    //       "W" + formatRate(surfRates[i]) + formatRange(min, max) + mon,
-    //     );
-    //   }
-    // }
-
-    // if (BattleLocationdex[location]["rock"]["encs"] !== undefined) {
-    //   for (
-    //     let i = 0;
-    //     i < BattleLocationdex[location]["rock"]["encs"].length;
-    //     i++
-    //   ) {
-    //     let enc = BattleLocationdex[location]["rock"]["encs"][i];
-    //     let min = enc.minLvl;
-    //     let max = enc.maxLvl;
-    //     let mon = enc.species;
-    //     results.push(
-    //       "R" + formatRate(rockRates[i]) + formatRange(min, max) + mon,
-    //     );
-    //   }
-    // }
-
-    // if (BattleLocationdex[location]["fish"]["encs"] !== undefined) {
-    //   var oldStart = 0;
-    //   for (let i = 0; i < oldRodRates.length; i++) {
-    //     let enc = BattleLocationdex[location]["fish"]["encs"][i + oldStart];
-    //     let min = enc.minLvl;
-    //     let max = enc.maxLvl;
-    //     let mon = enc.species;
-    //     results.push(
-    //       "O" + formatRate(oldRodRates[i]) + formatRange(min, max) + mon,
-    //     );
-    //   }
-
-    //   var goodStart = oldRodRates.length + oldStart;
-    //   for (let i = 0; i < goodRodRates.length; i++) {
-    //     let enc = BattleLocationdex[location]["fish"]["encs"][i + goodStart];
-    //     let min = enc.minLvl;
-    //     let max = enc.maxLvl;
-    //     let mon = enc.species;
-    //     results.push(
-    //       "G" + formatRate(goodRodRates[i]) + formatRange(min, max) + mon,
-    //     );
-    //   }
-
-    //   var superStart = goodRodRates.length + goodStart;
-    //   for (let i = 0; i < superRodRates.length; i++) {
-    //     let enc = BattleLocationdex[location]["fish"]["encs"][i + superStart];
-    //     let min = enc.minLvl;
-    //     let max = enc.maxLvl;
-    //     let mon = enc.species;
-    //     results.push(
-    //       "S" + formatRate(superRodRates[i]) + formatRange(min, max) + mon,
-    //     );
-    //   }
-    // }
-
+    
     var last = "";
     for (var i = 0; i < results.length; i++) {
       if (results[i].charAt(0) !== last) {
@@ -206,7 +117,13 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     var id = results[i].substr(13);
     var template = id ? BattlePokedex[id] : undefined;
     if (!template) {
-      return `<h3>${snakeToTitleCase(encTypes[parseInt(results[i].charAt(0))])}</h3>`
+      let encTypeName = encTypes[parseInt(results[i].charAt(0))]
+      if (BattleLocationdex[this.id][encTypeName] && BattleLocationdex[this.id][encTypeName].name) {
+        return `<h3>${snakeToTitleCase(encTypeName)}:  ${BattleLocationdex[this.id][encTypeName].name}</h3>`
+      } else {
+        return `<h3>${snakeToTitleCase(encTypeName)}</h3>`   
+      }     
+
     } else if (offscreen) {
       return (
         "" +
@@ -221,6 +138,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       );
     } else {
       var desc = results[i].substr(1, 3).replace("z", "");
+      // desc += results[i].substr(4,8)
       return BattleSearch.renderTaggedLocationRowInner(template, desc);
     }
   },

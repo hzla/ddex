@@ -1006,7 +1006,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     let isInZone = function (location, enc_mode, pokemon) {
       let for_mode = location[enc_mode];
 
-      if (!("encs" in for_mode)) {
+
+      if (typeof for_mode == "undefined" || !("encs" in for_mode)) {
         return 0;
       }
 
@@ -1054,7 +1055,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
   renderEncounters: function () {
     var locations = this.getEncounterLocations(this.id);
     var buf = "";
-    console.log(locations)
     for (let i = 0; i < locations.length; i++) {
       let location = locations[i];
       if (location.length == 1) {

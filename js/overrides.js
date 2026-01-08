@@ -150,7 +150,6 @@ function overrideMonData(monOverrides) {
 				baseStats: {},
 			}
 			BattleLearnsets[speciesId] = {}
-			console.log(speciesId)
 			unrecognizedPoks[speciesId] = 1
 		}
 		BattlePokedex[speciesId].types = monData.types
