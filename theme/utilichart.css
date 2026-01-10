@@ -380,3 +380,9 @@ ul {
 .utilichart .ppsortcol {
 	width: 23px;
 }
+
+@media (max-width: 480px) {
+	.sortrow {
+		display: none;
+	}
+}

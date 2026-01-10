@@ -103,8 +103,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -239,8 +239,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -390,8 +390,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -518,8 +518,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -647,8 +647,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -816,9 +816,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -945,10 +945,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -1082,10 +1082,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -1263,10 +1263,10 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -1900,8 +1900,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ],
         "tutors": [
           "Bug Bite",
@@ -2039,7 +2039,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -2170,7 +2170,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -2329,8 +2329,8 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Uproar",
@@ -2456,7 +2456,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -2635,8 +2635,8 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -2748,7 +2748,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Drill Run",
@@ -2877,7 +2877,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Drill Run",
@@ -3011,7 +3011,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -3177,7 +3177,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -3349,7 +3349,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -3443,7 +3443,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -3585,8 +3585,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -3763,8 +3763,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -3887,8 +3887,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -4010,8 +4010,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -4138,9 +4138,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -4271,8 +4271,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -4394,8 +4394,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -4522,9 +4522,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -4704,7 +4704,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -4856,7 +4856,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -5295,7 +5295,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Wild Charge",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -5453,7 +5453,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Wild Charge",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -5590,7 +5590,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Super Fang",
@@ -5729,7 +5729,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Super Fang",
@@ -5847,7 +5847,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Seed Bomb",
@@ -5970,7 +5970,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Seed Bomb",
@@ -6067,7 +6067,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Seed Bomb",
@@ -6191,7 +6191,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -6360,8 +6360,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -6755,7 +6755,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Uproar",
@@ -6899,7 +6899,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Uproar",
@@ -7032,7 +7032,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -7196,7 +7196,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -7338,10 +7338,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -7521,10 +7521,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -7675,7 +7675,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -7838,7 +7838,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -7990,7 +7990,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -8107,7 +8107,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -8224,9 +8224,9 @@ overrides = {
           "Wave Crash",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Icy Wind",
@@ -8353,10 +8353,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Ice Punch",
@@ -8498,10 +8498,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Ice Punch",
@@ -9097,7 +9097,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Dual Chop",
@@ -9244,7 +9244,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Dual Chop",
@@ -9400,7 +9400,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Dual Chop",
@@ -9537,8 +9537,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ],
         "tutors": [
           "Seed Bomb",
@@ -9667,8 +9667,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ],
         "tutors": [
           "Bug Bite",
@@ -9834,10 +9834,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind",
-          "Poison Dart"
+          "Cut",
+          "Fly",
+          "Strength",
+          "Dive"
         ],
         "tutors": [
           "Bug Bite",
@@ -9973,10 +9973,10 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Magic Coat",
@@ -10120,10 +10120,10 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Magic Coat",
@@ -10261,7 +10261,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Thunder Punch",
@@ -10410,7 +10410,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Thunder Punch",
@@ -10569,7 +10569,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -10692,7 +10692,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Wild Charge",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bounce",
@@ -10836,7 +10836,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Wild Charge",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Drill Run",
@@ -10982,9 +10982,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Trick Room",
-          "Psyshock",
-          "Calm Mind",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -11154,9 +11154,9 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -11619,8 +11619,8 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ],
         "tutors": [
           "Covet",
@@ -11737,7 +11737,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -11868,7 +11868,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -12004,9 +12004,9 @@ overrides = {
           "Fling",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -12170,9 +12170,9 @@ overrides = {
           "Frost Breath",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -12296,7 +12296,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Gunk Shot",
@@ -12455,7 +12455,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Gunk Shot",
@@ -12583,8 +12583,8 @@ overrides = {
           "Payback",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Poison Dart"
+          "Surf",
+          "Dive"
         ],
         "tutors": [
           "Iron Defense",
@@ -12681,8 +12681,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Poison Dart"
+          "Surf",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -13127,7 +13127,7 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Uproar",
@@ -13299,7 +13299,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -13759,10 +13759,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Dive"
         ],
         "tutors": [
           "Iron Defense",
@@ -13908,10 +13908,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Dive"
         ],
         "tutors": [
           "Iron Defense",
@@ -14309,7 +14309,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Trick Room",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -14424,7 +14424,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Trick Room",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -14565,7 +14565,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -14726,7 +14726,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -14874,7 +14874,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -15019,7 +15019,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -15171,9 +15171,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Thunder Punch",
@@ -15615,7 +15615,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Drill Run",
@@ -15777,9 +15777,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Drill Run",
@@ -15952,7 +15952,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -16109,7 +16109,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Seed Bomb",
@@ -16259,9 +16259,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -16377,9 +16377,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -16503,9 +16503,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -16625,9 +16625,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -16756,9 +16756,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -16892,9 +16892,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -17017,9 +17017,9 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Trick Room",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -17366,7 +17366,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -17686,7 +17686,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -17826,7 +17826,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -17998,8 +17998,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -18132,8 +18132,8 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -18307,10 +18307,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Iron Head",
@@ -18447,10 +18447,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -18806,10 +18806,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Covet",
@@ -18955,7 +18955,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -19114,7 +19114,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -19390,9 +19390,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Earth Power",
@@ -19546,9 +19546,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Earth Power",
@@ -19663,7 +19663,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Earth Power",
@@ -19809,7 +19809,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -19963,8 +19963,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -20113,8 +20113,8 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -20255,7 +20255,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Signal Beam",
@@ -20387,7 +20387,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Signal Beam",
@@ -20531,7 +20531,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Snore",
@@ -20654,8 +20654,8 @@ overrides = {
           "Draco Meteor",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar"
+          "Surf",
+          "Liquidation"
         ],
         "tutors": [
           "Draco Meteor",
@@ -20816,8 +20816,8 @@ overrides = {
           "Draco Meteor",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar"
+          "Surf",
+          "Liquidation"
         ],
         "tutors": [
           "Draco Meteor",
@@ -21005,12 +21005,12 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Draco Meteor",
@@ -21193,7 +21193,7 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -21440,12 +21440,12 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bug Bite",
@@ -21623,7 +21623,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Grass Pledge",
@@ -21765,8 +21765,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -21939,8 +21939,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -22069,7 +22069,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Wild Charge",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Fire Pledge",
@@ -22201,8 +22201,8 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -22379,8 +22379,8 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -22516,10 +22516,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -22666,11 +22666,11 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -22853,11 +22853,11 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -22995,8 +22995,8 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Hone Claws",
-          "Psyshock"
+          "Cut",
+          "Surf"
         ],
         "tutors": [
           "Covet",
@@ -23169,9 +23169,9 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -23315,7 +23315,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -23465,7 +23465,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -23758,7 +23758,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -24171,7 +24171,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Super Fang",
@@ -24303,9 +24303,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Wild Charge",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -24471,9 +24471,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Wild Charge",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -25106,7 +25106,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Covet",
@@ -25411,7 +25411,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Trick Room",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Signal Beam",
@@ -25681,7 +25681,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -25856,7 +25856,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -25954,7 +25954,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Seed Bomb",
@@ -26105,10 +26105,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Covet",
@@ -26284,10 +26284,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Covet",
@@ -26442,7 +26442,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -26599,10 +26599,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bounce",
@@ -27224,8 +27224,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -27363,7 +27363,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Seed Bomb",
@@ -27531,7 +27531,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Seed Bomb",
@@ -27807,9 +27807,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Ice Punch",
@@ -27982,10 +27982,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Ice Punch",
@@ -28157,7 +28157,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Trick Room",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -28335,7 +28335,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -28486,7 +28486,7 @@ overrides = {
           "Pluck",
           "Substitute",
           "Snarl",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -28653,9 +28653,9 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -29050,7 +29050,7 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -29222,7 +29222,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -29389,7 +29389,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -29573,7 +29573,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Drill Run",
@@ -29722,8 +29722,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -29902,8 +29902,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -30052,7 +30052,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -30213,7 +30213,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -30367,9 +30367,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -30531,8 +30531,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -30680,7 +30680,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -30822,8 +30822,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -30970,9 +30970,9 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -31094,8 +31094,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -31259,8 +31259,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -31563,7 +31563,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Earth Power",
@@ -31694,7 +31694,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Earth Power",
@@ -31844,7 +31844,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Earth Power",
@@ -32021,8 +32021,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Magic Coat",
@@ -32163,9 +32163,9 @@ overrides = {
           "Thunder Wave",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -32326,9 +32326,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -32487,7 +32487,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Signal Beam",
@@ -32652,9 +32652,9 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -32827,8 +32827,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ],
         "tutors": [
           "Iron Head",
@@ -33128,7 +33128,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -33262,9 +33262,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Draco Meteor",
@@ -33381,7 +33381,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -33521,7 +33521,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -33990,7 +33990,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -34129,7 +34129,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -34308,10 +34308,10 @@ overrides = {
           "Trick Room",
           "Wild Charge",
           "Snarl",
-          "Dragon Claw",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Fly",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Draco Meteor",
@@ -34725,8 +34725,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -34891,7 +34891,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -35037,8 +35037,8 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -35169,8 +35169,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -35295,10 +35295,10 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -35762,9 +35762,9 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -35927,11 +35927,11 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Fly",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -36092,8 +36092,8 @@ overrides = {
           "Pluck",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -36260,7 +36260,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Trick Room",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Signal Beam",
@@ -36388,8 +36388,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -36529,8 +36529,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -36708,8 +36708,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -36832,8 +36832,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -36974,8 +36974,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -37141,8 +37141,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -37269,10 +37269,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -37427,10 +37427,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -37606,10 +37606,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Draco Meteor",
@@ -37883,7 +37883,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -38016,8 +38016,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock"
+          "Cut",
+          "Surf"
         ],
         "tutors": [
           "Covet",
@@ -38168,9 +38168,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -38678,7 +38678,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Psyshock"
+          "Surf"
         ],
         "tutors": [
           "Seed Bomb",
@@ -38797,10 +38797,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Seed Bomb",
@@ -38901,10 +38901,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Seed Bomb",
@@ -39130,8 +39130,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -39245,8 +39245,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -39357,7 +39357,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Snore",
@@ -39507,7 +39507,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Snore",
@@ -39629,7 +39629,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -39777,8 +39777,8 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw",
-          "Psyshock"
+          "Fly",
+          "Surf"
         ],
         "tutors": [
           "Seed Bomb",
@@ -40667,8 +40667,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -40847,8 +40847,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -40970,8 +40970,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -41109,8 +41109,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -41287,8 +41287,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -41398,7 +41398,7 @@ overrides = {
           "X-Scissor",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -41538,7 +41538,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -41659,7 +41659,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -41913,7 +41913,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -42098,8 +42098,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -42244,8 +42244,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -42405,8 +42405,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -42509,8 +42509,8 @@ overrides = {
           "Tidy Up",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar"
+          "Surf",
+          "Liquidation"
         ],
         "tutors": [
           "Covet",
@@ -42646,7 +42646,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Thunder Punch",
@@ -42940,7 +42940,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -43103,7 +43103,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Signal Beam",
@@ -43290,7 +43290,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -43431,8 +43431,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -43589,8 +43589,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -43785,9 +43785,9 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -43942,7 +43942,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -44119,7 +44119,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -44252,7 +44252,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -44395,7 +44395,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -44697,7 +44697,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Wild Charge",
-          "Psyshock"
+          "Surf"
         ],
         "tutors": [
           "Signal Beam",
@@ -45083,7 +45083,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -45216,7 +45216,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -45387,10 +45387,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Seed Bomb",
@@ -45514,9 +45514,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Snarl",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Super Fang",
@@ -45670,10 +45670,10 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Super Fang",
@@ -45805,10 +45805,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bounce",
@@ -45972,10 +45972,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Iron Head",
@@ -46107,7 +46107,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -46262,8 +46262,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -46405,7 +46405,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Earth Power",
@@ -46889,7 +46889,7 @@ overrides = {
           "Trick Room",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -47034,7 +47034,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -47187,8 +47187,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -47362,8 +47362,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -47503,7 +47503,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Seed Bomb",
@@ -47659,8 +47659,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -47795,7 +47795,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -47973,7 +47973,7 @@ overrides = {
           "Pluck",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Draco Meteor",
@@ -48155,7 +48155,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -48327,7 +48327,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Aqua Tail",
@@ -48764,9 +48764,9 @@ overrides = {
           "Rollout",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bounce",
@@ -48932,10 +48932,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bounce",
@@ -49061,10 +49061,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Liquidation"
         ],
         "tutors": [
           "Iron Defense",
@@ -49238,11 +49238,11 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Iron Defense",
@@ -49590,7 +49590,7 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -49855,7 +49855,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -49979,7 +49979,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -50113,8 +50113,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -50225,9 +50225,9 @@ overrides = {
           "Wave Crash",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Icy Wind",
@@ -50391,9 +50391,9 @@ overrides = {
           "Draco Meteor",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Iron Head",
@@ -50671,8 +50671,8 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -51306,7 +51306,7 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Thunder Punch",
@@ -51459,9 +51459,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -51802,8 +51802,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bounce",
@@ -52234,10 +52234,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Super Fang",
@@ -52362,10 +52362,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Super Fang",
@@ -52534,10 +52534,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Super Fang",
@@ -52619,9 +52619,9 @@ overrides = {
           "Wave Crash",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Iron Defense",
@@ -52732,9 +52732,9 @@ overrides = {
           "Giga Impact",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Super Fang",
@@ -52849,9 +52849,9 @@ overrides = {
           "Psych Up",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -52977,9 +52977,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bounce",
@@ -53117,9 +53117,9 @@ overrides = {
           "Psych Up",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bounce",
@@ -53236,8 +53236,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -53384,8 +53384,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -53561,9 +53561,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -53756,8 +53756,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -53944,8 +53944,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -54085,7 +54085,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -54215,7 +54215,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -54347,7 +54347,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -54509,11 +54509,11 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Draco Meteor",
@@ -54680,11 +54680,11 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Draco Meteor",
@@ -54815,10 +54815,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -54957,8 +54957,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -55104,11 +55104,11 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Fly",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Draco Meteor",
@@ -55449,8 +55449,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -55575,8 +55575,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -55698,8 +55698,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -55850,8 +55850,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -55988,8 +55988,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -56142,8 +56142,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -56310,8 +56310,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -56441,10 +56441,10 @@ overrides = {
           "Swagger",
           "Pluck",
           "Substitute",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -56581,11 +56581,11 @@ overrides = {
           "Pluck",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -56745,10 +56745,10 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -56863,7 +56863,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Snore",
@@ -56980,7 +56980,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Snore",
@@ -57109,7 +57109,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Snore",
@@ -57230,7 +57230,7 @@ overrides = {
           "Pluck",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -57369,11 +57369,11 @@ overrides = {
           "Pluck",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Covet",
@@ -57553,8 +57553,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -57670,7 +57670,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -57788,7 +57788,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -57919,7 +57919,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -58013,7 +58013,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -58145,7 +58145,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -58272,7 +58272,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -58416,9 +58416,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -58554,7 +58554,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -58697,7 +58697,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -58967,7 +58967,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -59145,7 +59145,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -59395,7 +59395,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -59545,7 +59545,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -59667,10 +59667,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Ice Punch",
@@ -59841,10 +59841,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Low Kick",
@@ -60165,8 +60165,8 @@ overrides = {
           "Wave Crash",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Poison Dart"
+          "Surf",
+          "Dive"
         ],
         "tutors": [
           "Earth Power",
@@ -60291,10 +60291,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Block",
@@ -60438,8 +60438,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -60584,7 +60584,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Magic Coat",
@@ -60764,8 +60764,8 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ],
         "tutors": [
           "Magic Coat",
@@ -60911,7 +60911,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -61095,8 +61095,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -61433,7 +61433,7 @@ overrides = {
           "Pluck",
           "Substitute",
           "Snarl",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -61565,7 +61565,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -61712,7 +61712,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -61976,7 +61976,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Foul Play",
@@ -62148,9 +62148,9 @@ overrides = {
           "U-turn",
           "Substitute",
           "Snarl",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -62475,7 +62475,7 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -62994,7 +62994,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -63281,8 +63281,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -63423,8 +63423,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -63608,9 +63608,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -63759,8 +63759,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -63894,7 +63894,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Dual Chop",
@@ -64077,7 +64077,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Dual Chop",
@@ -64193,7 +64193,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Earth Power",
@@ -64324,7 +64324,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -64470,8 +64470,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -64654,8 +64654,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -64797,7 +64797,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -64967,8 +64967,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -65103,7 +65103,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -65222,9 +65222,9 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -65390,9 +65390,9 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -65518,9 +65518,9 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Signal Beam",
@@ -65779,7 +65779,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -65968,9 +65968,9 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -66320,9 +66320,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Thunder Punch",
@@ -66487,9 +66487,9 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -66656,8 +66656,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -66835,7 +66835,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -67017,7 +67017,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -67120,7 +67120,7 @@ overrides = {
           "Pluck",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Covet",
@@ -67462,7 +67462,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -67614,7 +67614,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -67800,8 +67800,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -67975,7 +67975,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -68334,8 +68334,8 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Dual Chop",
@@ -68505,7 +68505,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -68693,7 +68693,7 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Thunder Punch",
@@ -69536,8 +69536,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -69682,10 +69682,10 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Dive"
         ],
         "tutors": [
           "Draco Meteor",
@@ -69828,7 +69828,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -69961,7 +69961,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -70102,9 +70102,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -70355,9 +70355,9 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Covet",
@@ -70492,9 +70492,9 @@ overrides = {
           "Swagger",
           "U-turn",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Covet",
@@ -70638,8 +70638,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Foul Play",
@@ -70967,11 +70967,11 @@ overrides = {
           "Trick Room",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Strength",
+          "Liquidation"
         ],
         "tutors": [
           "Draco Meteor",
@@ -71309,7 +71309,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Grass Pledge",
@@ -71465,7 +71465,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Grass Pledge",
@@ -71643,8 +71643,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Grass Pledge",
@@ -71788,7 +71788,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -71948,7 +71948,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -72139,7 +72139,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Fire Pledge",
@@ -72285,10 +72285,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -72433,10 +72433,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -72606,11 +72606,11 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Water Pledge",
@@ -72740,7 +72740,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -72920,8 +72920,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -73186,8 +73186,8 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -73351,8 +73351,8 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -73503,7 +73503,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -73683,7 +73683,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -73824,7 +73824,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -73973,7 +73973,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -74121,7 +74121,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -74272,7 +74272,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -74415,10 +74415,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Covet",
@@ -74567,10 +74567,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Covet",
@@ -74994,7 +74994,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -75139,7 +75139,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -75305,7 +75305,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Substitute",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Uproar",
@@ -75705,7 +75705,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Block",
@@ -75836,7 +75836,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Block",
@@ -76004,7 +76004,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -76143,7 +76143,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Trick Room",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Super Fang",
@@ -76333,7 +76333,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Trick Room",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Super Fang",
@@ -76478,8 +76478,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Drill Run",
@@ -76642,8 +76642,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -76824,7 +76824,7 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Wild Charge",
-          "Psyshock"
+          "Surf"
         ],
         "tutors": [
           "Covet",
@@ -76978,7 +76978,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -77125,7 +77125,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -77299,7 +77299,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -77420,7 +77420,7 @@ overrides = {
           "Wave Crash",
           "Swagger",
           "Substitute",
-          "Psyshock"
+          "Surf"
         ],
         "tutors": [
           "Bounce",
@@ -77550,7 +77550,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock"
+          "Surf"
         ],
         "tutors": [
           "Bounce",
@@ -77725,8 +77725,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Bounce",
@@ -77897,7 +77897,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -78060,7 +78060,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Dual Chop",
@@ -78162,7 +78162,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -78286,7 +78286,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -78447,7 +78447,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -78879,8 +78879,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -79267,7 +79267,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -79398,7 +79398,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -79558,10 +79558,10 @@ overrides = {
           "Wave Crash",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bounce",
@@ -79703,7 +79703,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Uproar",
@@ -79864,8 +79864,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -80046,8 +80046,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Low Kick",
@@ -80197,7 +80197,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Uproar",
@@ -80379,7 +80379,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Uproar",
@@ -80677,8 +80677,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -80827,8 +80827,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -80974,7 +80974,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -81164,7 +81164,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Super Fang",
@@ -81349,7 +81349,7 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Trick Room",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Signal Beam",
@@ -81812,10 +81812,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Block",
@@ -81987,10 +81987,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Iron Head",
@@ -82151,7 +82151,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bounce",
@@ -82335,8 +82335,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ],
         "tutors": [
           "Bounce",
@@ -82784,7 +82784,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -82970,7 +82970,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -84271,7 +84271,7 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -84407,9 +84407,9 @@ overrides = {
           "Swagger",
           "Pluck",
           "Substitute",
-          "Dragon Claw",
-          "Psyshock",
-          "Poison Dart"
+          "Fly",
+          "Surf",
+          "Dive"
         ],
         "tutors": [
           "Uproar",
@@ -84566,9 +84566,9 @@ overrides = {
           "Swagger",
           "Pluck",
           "Substitute",
-          "Dragon Claw",
-          "Psyshock",
-          "Poison Dart"
+          "Fly",
+          "Surf",
+          "Dive"
         ],
         "tutors": [
           "Uproar",
@@ -85293,7 +85293,7 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Seed Bomb",
@@ -85460,7 +85460,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Wild Charge",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Covet",
@@ -85585,7 +85585,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Substitute",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -85741,7 +85741,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -86157,9 +86157,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Trick Room",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Magic Coat",
@@ -86330,9 +86330,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Trick Room",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Magic Coat",
@@ -86490,9 +86490,9 @@ overrides = {
           "Psych Up",
           "Swagger",
           "Substitute",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bounce",
@@ -86627,7 +86627,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Wild Charge",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -86798,7 +86798,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Wild Charge",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -87099,8 +87099,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -87900,10 +87900,10 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Liquidation"
         ],
         "tutors": [
           "Super Fang",
@@ -88803,8 +88803,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -88959,8 +88959,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -89146,9 +89146,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -89281,9 +89281,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -89458,10 +89458,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Dive"
         ],
         "tutors": [
           "Covet",
@@ -90033,7 +90033,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Substitute",
-          "Psyshock"
+          "Surf"
         ],
         "tutors": [
           "Bounce",
@@ -90181,7 +90181,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Dual Chop",
@@ -90363,7 +90363,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Dual Chop",
@@ -90514,9 +90514,9 @@ overrides = {
           "Flash Cannon",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -90658,7 +90658,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -90818,8 +90818,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -90978,7 +90978,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Dual Chop",
@@ -91167,7 +91167,7 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Dual Chop",
@@ -91331,9 +91331,9 @@ overrides = {
           "Substitute",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -91478,9 +91478,9 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Superpower",
@@ -91644,9 +91644,9 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Superpower",
@@ -91783,8 +91783,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ],
         "tutors": [
           "Block",
@@ -91940,8 +91940,8 @@ overrides = {
           "Substitute",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ],
         "tutors": [
           "Block",
@@ -92116,7 +92116,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ],
         "tutors": [
           "Bug Bite",
@@ -92290,8 +92290,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -92421,7 +92421,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -92568,7 +92568,7 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -92754,9 +92754,9 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind"
+          "Fly",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -93042,7 +93042,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Wild Charge",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Bug Bite",
@@ -93180,8 +93180,8 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -93327,8 +93327,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Iron Head",
@@ -93490,8 +93490,8 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Seed Bomb",
@@ -93639,8 +93639,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Uproar",
@@ -93795,8 +93795,8 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Uproar",
@@ -93943,9 +93943,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -94094,9 +94094,9 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -94249,8 +94249,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Block",
@@ -94392,9 +94392,9 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -94550,9 +94550,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -94708,7 +94708,7 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -94883,7 +94883,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Flash Cannon",
-          "Dragon Claw"
+          "Fly"
         ],
         "tutors": [
           "Bug Bite",
@@ -94969,10 +94969,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": []
       },
@@ -95041,10 +95041,10 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Poison Dart"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": []
       },
@@ -96362,8 +96362,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -96526,8 +96526,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -96683,8 +96683,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ],
         "tutors": [
           "Signal Beam",
@@ -96852,7 +96852,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -97007,7 +97007,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Bug Bite",
@@ -97261,9 +97261,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -98434,10 +98434,10 @@ overrides = {
           "Wave Crash",
           "Swagger",
           "Substitute",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Poison Dart"
+          "Cut",
+          "Surf",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Bounce",
@@ -98617,7 +98617,7 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Uproar",
@@ -98767,7 +98767,7 @@ overrides = {
           "Substitute",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -98943,9 +98943,9 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -99089,9 +99089,9 @@ overrides = {
           "Substitute",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Draco Meteor",
@@ -99231,9 +99231,9 @@ overrides = {
           "Swagger",
           "Substitute",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ],
         "tutors": [
           "Covet",
@@ -99380,8 +99380,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Uproar",
@@ -99536,8 +99536,8 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Uproar",
@@ -99687,8 +99687,8 @@ overrides = {
           "U-turn",
           "Substitute",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ],
         "tutors": [
           "Block",
