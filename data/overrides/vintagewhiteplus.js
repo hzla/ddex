@@ -115,8 +115,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -243,8 +243,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -383,8 +383,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -516,8 +516,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -650,8 +650,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -804,9 +804,9 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -930,10 +930,10 @@ overrides = {
           "Gyro Ball",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -1058,10 +1058,10 @@ overrides = {
           "Gyro Ball",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -1203,10 +1203,10 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -1443,7 +1443,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Bug Buzz",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -1675,7 +1675,7 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -1802,7 +1802,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -1930,7 +1930,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -2062,7 +2062,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -2194,7 +2194,7 @@ overrides = {
           "U-turn",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -2332,8 +2332,8 @@ overrides = {
           "U-turn",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -2456,7 +2456,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -2582,7 +2582,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -2710,7 +2710,7 @@ overrides = {
           "Rock Slide",
           "Poison Jab",
           "Swagger",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -2854,7 +2854,7 @@ overrides = {
           "Dragon Tail",
           "Poison Jab",
           "Swagger",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -2982,8 +2982,8 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -3117,8 +3117,8 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -3250,8 +3250,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -3388,8 +3388,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -3517,8 +3517,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -3648,8 +3648,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -3804,9 +3804,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -3934,8 +3934,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -4064,8 +4064,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -4219,9 +4219,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -4369,7 +4369,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -4522,7 +4522,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -4924,7 +4924,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Wild Charge",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -5071,7 +5071,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Wild Charge",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -5198,7 +5198,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -5328,7 +5328,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -5453,7 +5453,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -5577,7 +5577,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -5707,7 +5707,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -5840,7 +5840,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -5976,7 +5976,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -6228,7 +6228,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Bug Buzz",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -6355,7 +6355,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -6490,8 +6490,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -6624,7 +6624,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "U-turn",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -6766,7 +6766,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "U-turn",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -6903,10 +6903,10 @@ overrides = {
           "Psych Up",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -7048,10 +7048,10 @@ overrides = {
           "Psych Up",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -7191,7 +7191,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -7351,7 +7351,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -7484,7 +7484,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -7639,7 +7639,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -7760,9 +7760,9 @@ overrides = {
           "Round",
           "Scald",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -7889,10 +7889,10 @@ overrides = {
           "Bulldoze",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -8041,10 +8041,10 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -8539,7 +8539,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -8676,7 +8676,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -8830,7 +8830,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -8958,7 +8958,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -9087,7 +9087,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -9220,7 +9220,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -9349,10 +9349,10 @@ overrides = {
           "Swords Dance",
           "Poison Jab",
           "Swagger",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -9484,10 +9484,10 @@ overrides = {
           "Swords Dance",
           "Poison Jab",
           "Swagger",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -9619,7 +9619,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -9752,7 +9752,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -9891,7 +9891,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -10015,7 +10015,7 @@ overrides = {
           "Will-O-Wisp",
           "Swagger",
           "Wild Charge",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -10143,7 +10143,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Wild Charge",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -10283,10 +10283,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Trick Room",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -10436,10 +10436,10 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -10831,8 +10831,8 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ]
       },
       "abs": [
@@ -10950,7 +10950,7 @@ overrides = {
           "Work Up",
           "Swagger",
           "Pluck",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -11080,7 +11080,7 @@ overrides = {
           "Work Up",
           "Swagger",
           "Pluck",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -11202,9 +11202,9 @@ overrides = {
           "Scald",
           "Fling",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -11339,9 +11339,9 @@ overrides = {
           "Giga Impact",
           "Frost Breath",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -11476,7 +11476,7 @@ overrides = {
           "Rock Slide",
           "Poison Jab",
           "Swagger",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -11625,7 +11625,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -11744,9 +11744,9 @@ overrides = {
           "Explosion",
           "Payback",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -11872,9 +11872,9 @@ overrides = {
           "Frost Breath",
           "Poison Jab",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -12291,7 +12291,7 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -12425,7 +12425,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -12849,11 +12849,11 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -12997,11 +12997,11 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -13409,7 +13409,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Trick Room",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -13555,7 +13555,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Trick Room",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -13690,7 +13690,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -13834,7 +13834,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -13968,7 +13968,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -14117,7 +14117,7 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -14259,9 +14259,9 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -14662,7 +14662,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -14808,9 +14808,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -14962,7 +14962,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -15090,7 +15090,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -15240,9 +15240,9 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -15359,9 +15359,9 @@ overrides = {
           "Scald",
           "Swagger",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -15483,9 +15483,9 @@ overrides = {
           "Giga Impact",
           "Swagger",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -15608,9 +15608,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Pluck",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -15733,9 +15733,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Pluck",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -15862,9 +15862,9 @@ overrides = {
           "Psych Up",
           "Swagger",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -16000,9 +16000,9 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Trick Room",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -16279,7 +16279,7 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -16552,7 +16552,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -16685,7 +16685,7 @@ overrides = {
           "Giga Impact",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -16824,8 +16824,8 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -16959,8 +16959,8 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -17144,11 +17144,11 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Fly",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -17287,10 +17287,10 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -17580,10 +17580,10 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -17720,7 +17720,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -17852,7 +17852,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -18111,9 +18111,9 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -18244,9 +18244,9 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -18375,8 +18375,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Roar"
+          "Surf",
+          "Waterfall"
         ]
       },
       "abs": [
@@ -18513,10 +18513,10 @@ overrides = {
           "X-Scissor",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -18675,8 +18675,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -18826,8 +18826,8 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -18955,7 +18955,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -19085,7 +19085,7 @@ overrides = {
           "U-turn",
           "Wild Charge",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -19215,7 +19215,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -19341,8 +19341,8 @@ overrides = {
           "Thunder Wave",
           "Dragon Tail",
           "Swagger",
-          "Psyshock",
-          "Roar"
+          "Surf",
+          "Waterfall"
         ]
       },
       "abs": [
@@ -19471,8 +19471,8 @@ overrides = {
           "Thunder Wave",
           "Dragon Tail",
           "Swagger",
-          "Psyshock",
-          "Roar"
+          "Surf",
+          "Waterfall"
         ]
       },
       "abs": [
@@ -19632,12 +19632,12 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -19800,7 +19800,7 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -19979,12 +19979,12 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -20111,7 +20111,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -20241,8 +20241,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -20393,8 +20393,8 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -20522,7 +20522,7 @@ overrides = {
           "Will-O-Wisp",
           "Swagger",
           "Wild Charge",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -20654,8 +20654,8 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -20799,8 +20799,8 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -20928,10 +20928,10 @@ overrides = {
           "Swords Dance",
           "Rock Slide",
           "Swagger",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -21066,11 +21066,11 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -21218,11 +21218,11 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -21354,8 +21354,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "U-turn",
-          "Hone Claws",
-          "Psyshock"
+          "Cut",
+          "Surf"
         ]
       },
       "abs": [
@@ -21494,9 +21494,9 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -21623,7 +21623,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Pluck",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -21756,7 +21756,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Pluck",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -22036,8 +22036,8 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -22432,7 +22432,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -22557,9 +22557,9 @@ overrides = {
           "Thunder Wave",
           "Swagger",
           "Wild Charge",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -22688,9 +22688,9 @@ overrides = {
           "Thunder Wave",
           "Swagger",
           "Wild Charge",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -22815,7 +22815,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Wild Charge",
-          "Psyshock"
+          "Surf"
         ]
       },
       "abs": [
@@ -23365,7 +23365,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -23647,7 +23647,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Trick Room",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -23905,7 +23905,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -24057,7 +24057,7 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -24182,7 +24182,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -24307,10 +24307,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -24441,10 +24441,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -24577,7 +24577,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -24708,10 +24708,10 @@ overrides = {
           "Bulldoze",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -25102,7 +25102,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -25239,8 +25239,8 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -25363,7 +25363,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -25507,7 +25507,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -25758,9 +25758,9 @@ overrides = {
           "Bulldoze",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -25898,10 +25898,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -26038,7 +26038,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Trick Room",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -26173,7 +26173,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -26306,7 +26306,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Snarl",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -26459,10 +26459,10 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -26869,7 +26869,7 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -26997,7 +26997,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -27146,7 +27146,7 @@ overrides = {
           "Bug Buzz",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -27290,7 +27290,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -27431,8 +27431,8 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -27581,8 +27581,8 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -27724,7 +27724,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -27886,7 +27886,7 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -28019,9 +28019,9 @@ overrides = {
           "Gyro Ball",
           "Poison Jab",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -28158,8 +28158,8 @@ overrides = {
           "Bug Buzz",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -28296,7 +28296,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -28445,8 +28445,8 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -28579,9 +28579,9 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -28721,8 +28721,8 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -28868,8 +28868,8 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -29158,10 +29158,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -29289,7 +29289,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -29421,7 +29421,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -29560,8 +29560,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -29694,9 +29694,9 @@ overrides = {
           "Incinerate",
           "Thunder Wave",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -29843,9 +29843,9 @@ overrides = {
           "Thunder Wave",
           "Swagger",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -29969,7 +29969,7 @@ overrides = {
           "Frost Breath",
           "Swagger",
           "Pluck",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -30094,10 +30094,10 @@ overrides = {
           "Bulldoze",
           "Rock Slide",
           "Swagger",
-          "Dragon Claw",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Fly",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -30228,8 +30228,8 @@ overrides = {
           "Pluck",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ]
       },
       "abs": [
@@ -30502,7 +30502,7 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -30629,9 +30629,9 @@ overrides = {
           "Giga Impact",
           "Swagger",
           "Flash Cannon",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -30753,7 +30753,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -30890,7 +30890,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -31268,7 +31268,7 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -31413,7 +31413,7 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -31937,8 +31937,8 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -32086,7 +32086,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -32220,8 +32220,8 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -32355,8 +32355,8 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -32485,10 +32485,10 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -32920,9 +32920,9 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -33062,11 +33062,11 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Rock Smash",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Fly",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -33206,8 +33206,8 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -33331,7 +33331,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Trick Room",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -33465,8 +33465,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -33610,8 +33610,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -33771,8 +33771,8 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -33902,8 +33902,8 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -34042,8 +34042,8 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -34200,8 +34200,8 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -34329,10 +34329,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -34470,10 +34470,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -34626,10 +34626,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -34901,7 +34901,7 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -35032,8 +35032,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock"
+          "Cut",
+          "Surf"
         ]
       },
       "abs": [
@@ -35181,9 +35181,9 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -35425,7 +35425,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Bug Buzz",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -35741,7 +35741,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Psyshock"
+          "Surf"
         ]
       },
       "abs": [
@@ -35873,10 +35873,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -36025,10 +36025,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -36291,8 +36291,8 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -36445,8 +36445,8 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -36568,7 +36568,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -36693,7 +36693,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -36825,7 +36825,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -36963,8 +36963,8 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw",
-          "Psyshock"
+          "Fly",
+          "Surf"
         ]
       },
       "abs": [
@@ -37514,9 +37514,9 @@ overrides = {
           "Psych Up",
           "Swagger",
           "Bug Buzz",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -37652,10 +37652,10 @@ overrides = {
           "Swagger",
           "U-turn",
           "Bug Buzz",
-          "Dragon Claw",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Fly",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -37927,8 +37927,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -38063,8 +38063,8 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -38206,8 +38206,8 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -38355,8 +38355,8 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -38481,7 +38481,7 @@ overrides = {
           "X-Scissor",
           "Swagger",
           "Bug Buzz",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -38617,7 +38617,7 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -38753,7 +38753,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Bug Buzz",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -39021,7 +39021,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -39178,8 +39178,8 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -39309,8 +39309,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -39461,8 +39461,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -39582,8 +39582,8 @@ overrides = {
           "Scald",
           "Work Up",
           "Swagger",
-          "Psyshock",
-          "Roar"
+          "Surf",
+          "Waterfall"
         ]
       },
       "abs": [
@@ -39714,7 +39714,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -40000,7 +40000,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -40146,7 +40146,7 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -40310,7 +40310,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -40436,8 +40436,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -40567,8 +40567,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -40724,9 +40724,9 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -40868,7 +40868,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -41030,7 +41030,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -41156,7 +41156,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -41291,7 +41291,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -41922,7 +41922,7 @@ overrides = {
           "Poison Jab",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -42056,7 +42056,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -42193,7 +42193,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -42318,9 +42318,9 @@ overrides = {
           "Retaliate",
           "Swagger",
           "Snarl",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -42466,10 +42466,10 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -42597,10 +42597,10 @@ overrides = {
           "Bulldoze",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -42731,10 +42731,10 @@ overrides = {
           "Bulldoze",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -42863,7 +42863,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -43005,7 +43005,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -43149,7 +43149,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -43580,7 +43580,7 @@ overrides = {
           "Trick Room",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -43703,7 +43703,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -43835,8 +43835,8 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -43995,8 +43995,8 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -44121,7 +44121,7 @@ overrides = {
           "Poison Jab",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -44262,8 +44262,8 @@ overrides = {
           "Poison Jab",
           "Grass Knot",
           "Swagger",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -44388,7 +44388,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Pluck",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -44537,7 +44537,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -44682,7 +44682,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -44823,7 +44823,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -45230,9 +45230,9 @@ overrides = {
           "Scald",
           "Bulldoze",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -45361,10 +45361,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -45496,10 +45496,10 @@ overrides = {
           "X-Scissor",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall"
         ]
       },
       "abs": [
@@ -45642,11 +45642,11 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -45935,8 +45935,8 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -46211,7 +46211,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -46341,7 +46341,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -46478,8 +46478,8 @@ overrides = {
           "Bug Buzz",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -46550,9 +46550,9 @@ overrides = {
           "Round",
           "Scald",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -46679,9 +46679,9 @@ overrides = {
           "Bulldoze",
           "Dragon Tail",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -46947,8 +46947,8 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -47526,7 +47526,7 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -47671,9 +47671,9 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -47963,8 +47963,8 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -48282,7 +48282,7 @@ overrides = {
           "Frost Breath",
           "Rock Slide",
           "Swagger",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -48412,10 +48412,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -48547,10 +48547,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -48694,10 +48694,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -48767,9 +48767,9 @@ overrides = {
           "Round",
           "Scald",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -48901,9 +48901,9 @@ overrides = {
           "Scald",
           "Giga Impact",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -49036,9 +49036,9 @@ overrides = {
           "Giga Impact",
           "Psych Up",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -49171,9 +49171,9 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -49291,9 +49291,9 @@ overrides = {
           "Scald",
           "Psych Up",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -49418,8 +49418,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -49547,9 +49547,9 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -49702,9 +49702,9 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -49889,9 +49889,9 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -50050,9 +50050,9 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -50175,7 +50175,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -50297,7 +50297,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -50432,7 +50432,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -50588,11 +50588,11 @@ overrides = {
           "Dream Eater",
           "Grass Knot",
           "Swagger",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -50748,11 +50748,11 @@ overrides = {
           "Dream Eater",
           "Grass Knot",
           "Swagger",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -50874,10 +50874,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -51017,8 +51017,8 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -51170,11 +51170,11 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Fly",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -51442,8 +51442,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -51544,8 +51544,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -51653,8 +51653,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -51791,8 +51791,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -51911,8 +51911,8 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -52047,8 +52047,8 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -52197,8 +52197,8 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -52309,10 +52309,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Pluck",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -52435,11 +52435,11 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -52581,11 +52581,11 @@ overrides = {
           "Pluck",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -52687,7 +52687,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -52795,7 +52795,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -52919,7 +52919,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -53030,7 +53030,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -53156,11 +53156,11 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -53322,8 +53322,8 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -53428,7 +53428,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -53538,7 +53538,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -53657,7 +53657,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -53782,7 +53782,7 @@ overrides = {
           "Psych Up",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -53911,7 +53911,7 @@ overrides = {
           "Poison Jab",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -54028,7 +54028,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -54165,9 +54165,9 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -54284,7 +54284,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -54416,7 +54416,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -54873,7 +54873,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Bug Buzz",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -54987,7 +54987,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "U-turn",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -55089,10 +55089,10 @@ overrides = {
           "Scald",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -55232,10 +55232,10 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -55526,8 +55526,8 @@ overrides = {
           "Round",
           "Scald",
           "Swagger",
-          "Psyshock",
-          "Toxic"
+          "Surf",
+          "Dive"
         ]
       },
       "abs": [
@@ -55648,10 +55648,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -55798,8 +55798,8 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -55925,7 +55925,7 @@ overrides = {
           "Psych Up",
           "Dream Eater",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -56062,8 +56062,8 @@ overrides = {
           "Psych Up",
           "Dream Eater",
           "Swagger",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ]
       },
       "abs": [
@@ -56186,7 +56186,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -56327,8 +56327,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -56611,7 +56611,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Snarl",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -56728,7 +56728,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "U-turn",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -56862,7 +56862,7 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "U-turn",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -57112,7 +57112,7 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -57245,8 +57245,8 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -57524,7 +57524,7 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -58044,7 +58044,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -58265,8 +58265,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -58379,8 +58379,8 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -58519,9 +58519,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -58668,8 +58668,8 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -58779,7 +58779,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -58930,7 +58930,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -59027,7 +59027,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -59149,7 +59149,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -59274,8 +59274,8 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -59425,8 +59425,8 @@ overrides = {
           "Bug Buzz",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -59558,7 +59558,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -59703,8 +59703,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -59822,7 +59822,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -59936,9 +59936,9 @@ overrides = {
           "Swagger",
           "U-turn",
           "Bug Buzz",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -60065,9 +60065,9 @@ overrides = {
           "Swagger",
           "U-turn",
           "Bug Buzz",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -60191,9 +60191,9 @@ overrides = {
           "Bulldoze",
           "Rock Slide",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -60434,7 +60434,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -60580,9 +60580,9 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -60859,9 +60859,9 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -61011,9 +61011,9 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -61149,8 +61149,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -61294,7 +61294,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -61432,7 +61432,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -61590,7 +61590,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -61858,7 +61858,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -61990,7 +61990,7 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -62147,9 +62147,9 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -62285,7 +62285,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -62595,8 +62595,8 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -62742,7 +62742,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -62909,7 +62909,7 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -63649,8 +63649,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -63779,10 +63779,10 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Dive"
         ]
       },
       "abs": [
@@ -63901,7 +63901,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -64028,7 +64028,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -64152,9 +64152,9 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -64362,9 +64362,9 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "U-turn",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -64477,9 +64477,9 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "U-turn",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -64606,8 +64606,8 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -64861,11 +64861,11 @@ overrides = {
           "Trick Room",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind",
-          "Roar"
+          "Cut",
+          "Fly",
+          "Surf",
+          "Strength",
+          "Waterfall"
         ]
       },
       "abs": [
@@ -65125,7 +65125,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -65256,7 +65256,7 @@ overrides = {
           "Swords Dance",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -65400,8 +65400,8 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -65522,7 +65522,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -65670,7 +65670,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -65830,7 +65830,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -65950,10 +65950,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -66087,10 +66087,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -66237,11 +66237,11 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -66356,7 +66356,7 @@ overrides = {
           "Work Up",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -66500,8 +66500,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -66734,8 +66734,8 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -66873,8 +66873,8 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Snarl",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -67000,7 +67000,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -67142,7 +67142,7 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -67265,7 +67265,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -67358,7 +67358,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -67485,7 +67485,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -67586,7 +67586,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -67710,10 +67710,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -67807,10 +67807,10 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -68150,7 +68150,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -68280,7 +68280,7 @@ overrides = {
           "Swagger",
           "Pluck",
           "U-turn",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -68416,7 +68416,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Flash Cannon",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -68757,7 +68757,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -68882,7 +68882,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -69012,7 +69012,7 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -69143,7 +69143,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Trick Room",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -69289,7 +69289,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Trick Room",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -69409,8 +69409,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -69548,8 +69548,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -69686,7 +69686,7 @@ overrides = {
           "Swagger",
           "Trick Room",
           "Wild Charge",
-          "Psyshock"
+          "Surf"
         ]
       },
       "abs": [
@@ -69812,7 +69812,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -69949,7 +69949,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -70092,7 +70092,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -70199,7 +70199,7 @@ overrides = {
           "Echoed Voice",
           "Scald",
           "Swagger",
-          "Psyshock"
+          "Surf"
         ]
       },
       "abs": [
@@ -70318,7 +70318,7 @@ overrides = {
           "Bulldoze",
           "Swagger",
           "Rock Smash",
-          "Psyshock"
+          "Surf"
         ]
       },
       "abs": [
@@ -70460,8 +70460,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind"
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -70587,7 +70587,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -70723,7 +70723,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -70811,7 +70811,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Bug Buzz",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -70894,7 +70894,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Bug Buzz",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -71026,7 +71026,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Bug Buzz",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -71412,8 +71412,8 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -71747,7 +71747,7 @@ overrides = {
           "Dream Eater",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -71848,7 +71848,7 @@ overrides = {
           "Dream Eater",
           "Grass Knot",
           "Swagger",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -71962,10 +71962,10 @@ overrides = {
           "Round",
           "Scald",
           "Swagger",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -72095,7 +72095,7 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -72242,8 +72242,8 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -72400,8 +72400,8 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -72531,7 +72531,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -72690,7 +72690,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -72823,9 +72823,9 @@ overrides = {
           "Poison Jab",
           "Grass Knot",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -72948,8 +72948,8 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -73089,8 +73089,8 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -73226,7 +73226,7 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -73374,7 +73374,7 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -73516,7 +73516,7 @@ overrides = {
           "Pluck",
           "Flash Cannon",
           "Trick Room",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -73901,10 +73901,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -74044,10 +74044,10 @@ overrides = {
           "Rock Slide",
           "Swagger",
           "Rock Smash",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -74185,7 +74185,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -74340,8 +74340,8 @@ overrides = {
           "Pluck",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ]
       },
       "abs": [
@@ -74722,7 +74722,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -74884,7 +74884,7 @@ overrides = {
           "U-turn",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -75975,7 +75975,7 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -76087,9 +76087,9 @@ overrides = {
           "Scald",
           "Swagger",
           "Pluck",
-          "Dragon Claw",
-          "Psyshock",
-          "Toxic"
+          "Fly",
+          "Surf",
+          "Dive"
         ]
       },
       "abs": [
@@ -76216,9 +76216,9 @@ overrides = {
           "Giga Impact",
           "Swagger",
           "Pluck",
-          "Dragon Claw",
-          "Psyshock",
-          "Toxic"
+          "Fly",
+          "Surf",
+          "Dive"
         ]
       },
       "abs": [
@@ -76870,7 +76870,7 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -76990,7 +76990,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Wild Charge",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -77102,7 +77102,7 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Bug Buzz",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -77238,7 +77238,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -77600,9 +77600,9 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Trick Room",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -77736,9 +77736,9 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Trick Room",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -77862,9 +77862,9 @@ overrides = {
           "Scald",
           "Psych Up",
           "Swagger",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -77986,7 +77986,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Wild Charge",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -78118,7 +78118,7 @@ overrides = {
           "Swagger",
           "Bug Buzz",
           "Wild Charge",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -78381,8 +78381,8 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -78928,9 +78928,9 @@ overrides = {
           "U-turn",
           "Flash Cannon",
           "Wild Charge",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -79040,11 +79040,11 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -79853,8 +79853,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -79996,8 +79996,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -80153,9 +80153,9 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -80274,9 +80274,9 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -80428,11 +80428,11 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -80923,7 +80923,7 @@ overrides = {
           "Bulldoze",
           "Rock Slide",
           "Swagger",
-          "Psyshock"
+          "Surf"
         ]
       },
       "abs": [
@@ -81055,7 +81055,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -81208,7 +81208,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -81351,9 +81351,9 @@ overrides = {
           "Flash Cannon",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -81476,7 +81476,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -81617,8 +81617,8 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -81753,7 +81753,7 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -81909,7 +81909,7 @@ overrides = {
           "Swagger",
           "Rock Smash",
           "Snarl",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -82032,9 +82032,9 @@ overrides = {
           "Swagger",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -82156,9 +82156,9 @@ overrides = {
           "Pluck",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -82297,9 +82297,9 @@ overrides = {
           "Pluck",
           "U-turn",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -82426,8 +82426,8 @@ overrides = {
           "U-turn",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ]
       },
       "abs": [
@@ -82569,8 +82569,8 @@ overrides = {
           "U-turn",
           "Rock Smash",
           "Snarl",
-          "Hone Claws",
-          "Dragon Claw"
+          "Cut",
+          "Fly"
         ]
       },
       "abs": [
@@ -82709,7 +82709,7 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Hone Claws"
+          "Cut"
         ]
       },
       "abs": [
@@ -82831,8 +82831,8 @@ overrides = {
           "Bug Buzz",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -82952,7 +82952,7 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -83083,7 +83083,7 @@ overrides = {
           "Work Up",
           "Swagger",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -83237,9 +83237,9 @@ overrides = {
           "U-turn",
           "Flash Cannon",
           "Rock Smash",
-          "Dragon Claw",
-          "Psyshock",
-          "Calm Mind"
+          "Fly",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -83475,7 +83475,7 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Wild Charge",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -83600,8 +83600,8 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -83725,8 +83725,8 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -83848,8 +83848,8 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -83983,8 +83983,8 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -84124,8 +84124,8 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -84259,9 +84259,9 @@ overrides = {
           "Dragon Tail",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -84396,9 +84396,9 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -84535,8 +84535,8 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Dragon Claw",
-          "Calm Mind"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -84664,9 +84664,9 @@ overrides = {
           "Swagger",
           "Flash Cannon",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -84786,9 +84786,9 @@ overrides = {
           "Poison Jab",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Psyshock",
-          "Calm Mind"
+          "Cut",
+          "Surf",
+          "Strength"
         ]
       },
       "abs": [
@@ -84927,7 +84927,7 @@ overrides = {
           "U-turn",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -85072,7 +85072,7 @@ overrides = {
           "U-turn",
           "Bug Buzz",
           "Flash Cannon",
-          "Dragon Claw"
+          "Fly"
         ]
       },
       "abs": [
@@ -85207,8 +85207,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -85351,8 +85351,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -85487,8 +85487,8 @@ overrides = {
           "Flash Cannon",
           "Trick Room",
           "Rock Smash",
-          "Hone Claws",
-          "Calm Mind"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -85824,9 +85824,9 @@ overrides = {
           "Dream Eater",
           "Swagger",
           "Rock Smash",
-          "Hone Claws",
-          "Dragon Claw",
-          "Calm Mind"
+          "Cut",
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -86877,10 +86877,10 @@ overrides = {
           "Round",
           "Scald",
           "Swagger",
-          "Hone Claws",
-          "Psyshock",
-          "Roar",
-          "Toxic"
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ]
       },
       "abs": [
@@ -87036,7 +87036,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -87175,7 +87175,7 @@ overrides = {
           "U-turn",
           "Trick Room",
           "Rock Smash",
-          "Calm Mind"
+          "Strength"
         ]
       },
       "abs": [
@@ -87512,7 +87512,7 @@ overrides = {
       "bp": 120,
       "cat": "Physical",
       "pp": 5,
-      "acc": 90,
+      "acc": 100,
       "prio": 0,
       "name": "Mega Kick",
       "num": 24,
@@ -87635,7 +87635,7 @@ overrides = {
     },
     "Wrap": {
       "t": "Normal",
-      "bp": 15,
+      "bp": 75,
       "cat": "Physical",
       "pp": 20,
       "acc": 100,
@@ -88144,7 +88144,7 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 10,
-      "acc": 90,
+      "acc": 100,
       "prio": 0,
       "name": "Leech Seed",
       "num": 72,
@@ -88208,7 +88208,7 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 30,
-      "acc": 90,
+      "acc": 100,
       "prio": 0,
       "name": "Stun Spore",
       "num": 77,
@@ -88269,7 +88269,7 @@ overrides = {
     },
     "Fire Spin": {
       "t": "Fire",
-      "bp": 35,
+      "bp": 75,
       "cat": "Special",
       "pp": 15,
       "acc": 100,
@@ -88523,7 +88523,7 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 40,
+      "pp": 5,
       "acc": 100,
       "prio": 0,
       "name": "Screech",
@@ -89844,7 +89844,7 @@ overrides = {
       "bp": 30,
       "cat": "Physical",
       "pp": 20,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Rollout",
       "num": 204,
@@ -89868,7 +89868,7 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 15,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Swagger",
       "num": 206,
@@ -89967,7 +89967,7 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 1,
+      "pp": 5,
       "acc": 101,
       "prio": 0,
       "name": "Heal Bell",
@@ -90043,7 +90043,7 @@ overrides = {
       "bp": 100,
       "cat": "Physical",
       "pp": 5,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Sacred Fire",
       "num": 220,
@@ -90143,7 +90143,7 @@ overrides = {
     },
     "Rapid Spin": {
       "t": "Normal",
-      "bp": 20,
+      "bp": 50,
       "cat": "Physical",
       "pp": 40,
       "acc": 100,
@@ -90170,10 +90170,10 @@ overrides = {
     },
     "Iron Tail": {
       "t": "Steel",
-      "bp": 100,
+      "bp": 90,
       "cat": "Physical",
       "pp": 15,
-      "acc": 90,
+      "acc": 100,
       "prio": 0,
       "name": "Iron Tail",
       "num": 230,
@@ -90186,7 +90186,7 @@ overrides = {
       "bp": 50,
       "cat": "Physical",
       "pp": 35,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Metal Claw",
       "num": 231,
@@ -90405,7 +90405,7 @@ overrides = {
     },
     "Whirlpool": {
       "t": "Water",
-      "bp": 35,
+      "bp": 75,
       "cat": "Special",
       "pp": 15,
       "acc": 100,
@@ -90652,7 +90652,7 @@ overrides = {
       "t": "Dark",
       "bp": 0,
       "cat": "Status",
-      "pp": 1,
+      "pp": 2,
       "acc": 100,
       "prio": 0,
       "name": "Taunt",
@@ -91057,7 +91057,7 @@ overrides = {
       "bp": 30,
       "cat": "Physical",
       "pp": 20,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Ice Ball",
       "num": 300,
@@ -91168,7 +91168,7 @@ overrides = {
       "bp": 100,
       "cat": "Physical",
       "pp": 10,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Meteor Mash",
       "num": 308,
@@ -91207,7 +91207,7 @@ overrides = {
       "t": "Grass",
       "bp": 0,
       "cat": "Status",
-      "pp": 2,
+      "pp": 5,
       "acc": 101,
       "prio": 0,
       "name": "Aromatherapy",
@@ -91332,7 +91332,7 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 2,
+      "pp": 5,
       "acc": 100,
       "prio": 0,
       "name": "Tickle",
@@ -91424,7 +91424,7 @@ overrides = {
     },
     "Sand Tomb": {
       "t": "Ground",
-      "bp": 35,
+      "bp": 75,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
@@ -91590,7 +91590,7 @@ overrides = {
       "bp": 85,
       "cat": "Physical",
       "pp": 5,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Bounce",
       "num": 339,
@@ -93746,7 +93746,7 @@ overrides = {
       "bp": 60,
       "cat": "Physical",
       "pp": 10,
-      "acc": 90,
+      "acc": 100,
       "prio": 250,
       "name": "Circle Throw",
       "num": 508,
@@ -93932,7 +93932,7 @@ overrides = {
       "bp": 40,
       "cat": "Special",
       "pp": 10,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Frost Breath",
       "num": 523,
@@ -93944,7 +93944,7 @@ overrides = {
       "bp": 60,
       "cat": "Physical",
       "pp": 10,
-      "acc": 95,
+      "acc": 100,
       "prio": 250,
       "name": "Dragon Tail",
       "num": 524,
@@ -95545,7 +95545,7 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Staryu",
+            "s": "Chingling",
             "mn": 10,
             "mx": 12
           },
@@ -95621,12 +95621,12 @@ overrides = {
           {
             "s": "Bayleef",
             "mn": 48,
-            "mx": 48
+            "mx": 50
           },
           {
             "s": "Meganium",
             "mn": 48,
-            "mx": 48
+            "mx": 50
           },
           {
             "s": "Exeggcute",
@@ -95640,12 +95640,12 @@ overrides = {
           },
           {
             "s": "Bayleef",
-            "mn": 50,
+            "mn": 48,
             "mx": 50
           },
           {
             "s": "Meganium",
-            "mn": 50,
+            "mn": 48,
             "mx": 50
           }
         ]
@@ -112560,6 +112560,34 @@ overrides = {
         40,
         15,
         4,
+        1
+      ],
+      "grotto1": [
+        15,
+        15,
+        15,
+        15,
+        4,
+        4,
+        4,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "grotto2": [
+        15,
+        15,
+        15,
+        15,
+        4,
+        4,
+        4,
+        4,
+        1,
+        1,
+        1,
         1
       ]
     }
