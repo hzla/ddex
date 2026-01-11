@@ -3,7 +3,8 @@ game = params.get('game') || localStorage.game
 gameTitles = {
 	"vintagewhiteplus": "Vintage White+",
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
-	"blindingwhite2": "Blinding White 2"
+	"blindingwhite2": "Blinding White 2",
+	"cascadewhite": "Cascade White"
 }
 unrecognizedPoks = {}
 
@@ -11,8 +12,14 @@ truncatedSpeciesNames = {
 	"fletcinder": "fletchinder"
 }
 
-if (localStorage.overrides) {
-	overrideDexData(JSON.parse(localStorage.overrides))
+if (
+  localStorage.overrides &&
+  !['/', '/index.html'].includes(window.location.pathname)
+) {
+  console.log("loading custom data from cache")
+  overrideDexData(JSON.parse(localStorage.overrides))
+} else {
+
 }
 
 $(document).ready(function() {
@@ -71,6 +78,10 @@ function overrideAbilityData(abilityOverrides) {
 		if (typeof BattleAbilities[abId] != "undefined") {
 			BattleAbilities[abId].desc = abilityOverrides[abName].desc
 			BattleAbilities[abId].shortDesc = abilityOverrides[abName].desc
+		} else {
+			BattleAbilities[abId] = abilityOverrides[abName]
+			BattleAbilities[abId].shortDesc = abilityOverrides[abName].desc
+			BattleAbilities[abId].flags = {}
 		}
 	}
 }
@@ -84,37 +95,10 @@ function overrideItemData(itemOverrides) {
 			BattleItems[itemId]["location"] = itemOverrides[itemName]["location"]
 			BattleItems[itemId].rewards = itemOverrides[itemName].rewards
 		} else {
-			console.log(itemName)
 			BattleItems[itemId] = itemOverrides[itemName]
 		}
 	}
 }
-
-// {
-//     "name": "Leftovers",
-//     "spritenum": 242,
-//     "fling": {
-//         "basePower": 10
-//     },
-//     "onResidualOrder": 5,
-//     "onResidualSubOrder": 4,
-//     "num": 234,
-//     "gen": 2,
-//     "desc": "An item to be held by a Pokémon. The holder's HP is gradually restored during battle.",
-//     "location": "Chargestone Cave, Castelia Sewers",
-//     "rewards": [
-//         "Linebacker Jonah - Nimbasa City",
-//         "PkMn Breeder Brooke",
-//         "Gentleman Renaud",
-//         "Doctor Heath - Castelia Sewers"
-//     ]
-// }
-
-// {
-//     "name": "Soothe Bell",
-//     "desc": "An item to be held by a Pokémon. It is\\na bell with a comforting chime that\\ncalms the holder and makes it friendly.",
-//     "location": ""
-// }
 
 function overrideMoveData(moveOverrides) {
 	let movCount = 934
