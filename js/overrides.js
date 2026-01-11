@@ -83,9 +83,38 @@ function overrideItemData(itemOverrides) {
 			BattleItems[itemId].desc = itemOverrides[itemName].desc.replaceAll('\\n', " ")
 			BattleItems[itemId]["location"] = itemOverrides[itemName]["location"]
 			BattleItems[itemId].rewards = itemOverrides[itemName].rewards
+		} else {
+			console.log(itemName)
+			BattleItems[itemId] = itemOverrides[itemName]
 		}
 	}
 }
+
+// {
+//     "name": "Leftovers",
+//     "spritenum": 242,
+//     "fling": {
+//         "basePower": 10
+//     },
+//     "onResidualOrder": 5,
+//     "onResidualSubOrder": 4,
+//     "num": 234,
+//     "gen": 2,
+//     "desc": "An item to be held by a Pokémon. The holder's HP is gradually restored during battle.",
+//     "location": "Chargestone Cave, Castelia Sewers",
+//     "rewards": [
+//         "Linebacker Jonah - Nimbasa City",
+//         "PkMn Breeder Brooke",
+//         "Gentleman Renaud",
+//         "Doctor Heath - Castelia Sewers"
+//     ]
+// }
+
+// {
+//     "name": "Soothe Bell",
+//     "desc": "An item to be held by a Pokémon. It is\\na bell with a comforting chime that\\ncalms the holder and makes it friendly.",
+//     "location": ""
+// }
 
 function overrideMoveData(moveOverrides) {
 	let movCount = 934
