@@ -319,6 +319,7 @@ ul {
 	border-bottom: 1px solid #888;
 	height: 20px;
 	color: #f1f1f1;
+	overflow: hidden;
 }
 
 .utilichart .sortcol {
@@ -330,7 +331,7 @@ ul {
 	border-radius: 0;
 	border: 0;
 	padding: 0 0 0 0;
-	text-align: center;
+	text-align: left;
 	height: 20px;
 }
 .utilichart .sortcol.cur {
@@ -350,22 +351,24 @@ ul {
 	color: #B38CFF;
 }
 .utilichart .numsortcol {
-	width: 80px;
+	padding-left: 10px;
+	width: 48px;
 }
 .utilichart .pnamesortcol {
 	width: 127px;
 }
 .utilichart .typesortcol {
-	width: 70px;
+	width: 87px;
 }
 .utilichart .abilitysortcol {
-	width: 172px;
+	width: 157px;
 }
 .utilichart .statsortcol {
 	width: 24px;
 	text-align: right;
 }
 .utilichart .movenamesortcol {
+	padding-left: 10px;
 	width: 159px;
 }
 .utilichart .movetypesortcol {
@@ -375,7 +378,7 @@ ul {
 	width: 30px;
 }
 .utilichart .accuracysortcol {
-	width: 49px;
+	width: 30px;
 }
 .utilichart .ppsortcol {
 	width: 23px;

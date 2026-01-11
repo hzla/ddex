@@ -30,7 +30,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
     buf += `<h1 id="dex-title"><a href="/" data-target="replace">Pok&eacute;dex</a></h1>`;
 
     buf += '<ul class="tabbar centered" style="margin-bottom: 7px"><li><button class="button nav-first' + (fragment === '' ? ' cur' : '') + '" value="">Search</button></li>';
-    buf += '<li><button class="button' + (fragment === 'pokemon/' ? ' cur' : '') + '" value="pokemon/">Pok&eacute;mon</button></li>';
+    buf += '<li><button class="button' + (fragment === 'pokemon/' ? ' cur' : '') + '" value="pokemon/">Mons</button></li>';
     buf += '<li><button class="button' + (fragment === 'encounters/' ? ' cur' : '') + '" value="encounters/">Areas</button></li>';
     buf += '<li><button class="button nav-last' + (fragment === 'moves/' ? ' cur' : '') + '" value="moves/">Moves</button></li></ul>';
 

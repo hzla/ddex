@@ -1469,7 +1469,7 @@ overrides = {
         "learnset": [
           [
             10,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             12,
@@ -6423,7 +6423,7 @@ overrides = {
           ],
           [
             11,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             13,
@@ -6551,7 +6551,7 @@ overrides = {
           ],
           [
             11,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             13,
@@ -7267,7 +7267,7 @@ overrides = {
           ],
           [
             12,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             15,
@@ -7422,7 +7422,7 @@ overrides = {
           ],
           [
             15,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             18,
@@ -8699,11 +8699,11 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             16,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             18,
@@ -8857,11 +8857,11 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             16,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             18,
@@ -10900,7 +10900,7 @@ overrides = {
           ],
           [
             14,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             19,
@@ -11061,7 +11061,7 @@ overrides = {
           ],
           [
             14,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             19,
@@ -13357,7 +13357,7 @@ overrides = {
           ],
           [
             9,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             13,
@@ -13519,7 +13519,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             5,
@@ -13527,7 +13527,7 @@ overrides = {
           ],
           [
             9,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             13,
@@ -14257,7 +14257,7 @@ overrides = {
           ],
           [
             27,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             33,
@@ -14369,7 +14369,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -17091,7 +17091,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             4,
@@ -21067,7 +21067,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -23251,7 +23251,7 @@ overrides = {
           ],
           [
             21,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             25,
@@ -23399,7 +23399,7 @@ overrides = {
           ],
           [
             22,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             27,
@@ -28053,7 +28053,7 @@ overrides = {
           ],
           [
             9,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             13,
@@ -28563,7 +28563,7 @@ overrides = {
           ],
           [
             14,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             19,
@@ -28968,7 +28968,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             5,
@@ -36144,7 +36144,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -38489,11 +38489,11 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             10,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             13,
@@ -39828,7 +39828,7 @@ overrides = {
           ],
           [
             6,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             10,
@@ -39979,7 +39979,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -39991,7 +39991,7 @@ overrides = {
           ],
           [
             6,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             10,
@@ -40150,7 +40150,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -40162,7 +40162,7 @@ overrides = {
           ],
           [
             6,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             10,
@@ -43854,7 +43854,7 @@ overrides = {
           ],
           [
             8,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             11,
@@ -44016,7 +44016,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -44028,7 +44028,7 @@ overrides = {
           ],
           [
             8,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             11,
@@ -48380,7 +48380,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             5,
@@ -48535,7 +48535,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             5,
@@ -49296,7 +49296,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             4,
@@ -49470,7 +49470,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -51530,7 +51530,7 @@ overrides = {
           ],
           [
             14,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             17,
@@ -52782,7 +52782,7 @@ overrides = {
           ],
           [
             6,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             10,
@@ -53612,7 +53612,63 @@ overrides = {
         "learnset": [
           [
             1,
+            "Magnet Rise"
+          ],
+          [
+            1,
             "Take Down"
+          ],
+          [
+            1,
+            "Metal Claw"
+          ],
+          [
+            1,
+            "Psy Orb"
+          ],
+          [
+            14,
+            "Metal Claw"
+          ],
+          [
+            16,
+            "Pursuit"
+          ],
+          [
+            19,
+            "Miracle Eye"
+          ],
+          [
+            22,
+            "Zen Headbutt"
+          ],
+          [
+            25,
+            "Bullet Punch"
+          ],
+          [
+            35,
+            "Scary Face"
+          ],
+          [
+            38,
+            "Agility"
+          ],
+          [
+            41,
+            "Bullet Punch"
+          ],
+          [
+            44,
+            "Meteor Mash"
+          ],
+          [
+            47,
+            "Iron Defense"
+          ],
+          [
+            50,
+            "Hyper Beam"
           ]
         ],
         "tms": [],
@@ -53667,11 +53723,11 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             20,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             20,
@@ -53830,7 +53886,7 @@ overrides = {
           ],
           [
             20,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             20,
@@ -55157,7 +55213,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -61770,7 +61826,7 @@ overrides = {
           ],
           [
             9,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             12,
@@ -62198,7 +62254,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             5,
@@ -62657,7 +62713,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             4,
@@ -68210,7 +68266,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -68222,7 +68278,7 @@ overrides = {
           ],
           [
             6,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             10,
@@ -69019,7 +69075,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             6,
@@ -69159,7 +69215,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             6,
@@ -69297,7 +69353,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             6,
@@ -70154,7 +70210,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -74627,7 +74683,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             5,
@@ -76050,7 +76106,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             4,
@@ -76198,7 +76254,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -79485,11 +79541,11 @@ overrides = {
           ],
           [
             26,
-            "Nasty Plot"
+            "Swords Dance"
           ],
           [
             26,
-            "Swords Dance"
+            "Nasty Plot"
           ],
           [
             28,
@@ -83294,7 +83350,7 @@ overrides = {
           ],
           [
             3,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             6,
@@ -83450,7 +83506,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -83462,7 +83518,7 @@ overrides = {
           ],
           [
             3,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             7,
@@ -83636,7 +83692,7 @@ overrides = {
           ],
           [
             3,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             7,
@@ -83811,7 +83867,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             3,
@@ -83968,7 +84024,7 @@ overrides = {
           ],
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -87956,7 +88012,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             4,
@@ -88116,7 +88172,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             1,
@@ -90867,7 +90923,7 @@ overrides = {
         "df": 70,
         "sa": 40,
         "sd": 40,
-        "sp": 75
+        "sp": 60
       },
       "learnset_info": {
         "learnset": [
@@ -94609,7 +94665,7 @@ overrides = {
           ],
           [
             11,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             16,
@@ -98668,7 +98724,7 @@ overrides = {
           ],
           [
             11,
-            "Mitosis"
+            "Psy Orb"
           ],
           [
             16,
@@ -99923,7 +99979,8 @@ overrides = {
       "name": "Cut",
       "num": 14,
       "desc": "The target is cut with a scythe or a claw. It can also be used to cut down thin trees, and it may boost accuracy.",
-      "e_id": 0
+      "e_id": 0,
+      "sf": true
     },
     "Gust": {
       "t": "Flying",
@@ -100161,7 +100218,7 @@ overrides = {
     },
     "Tackle": {
       "t": "Normal",
-      "bp": 60,
+      "bp": 50,
       "cat": "Physical",
       "pp": 25,
       "acc": 100,
@@ -100437,7 +100494,7 @@ overrides = {
       "prio": 0,
       "name": "Ember",
       "num": 51,
-      "desc": "The user attacks with small flames all around it. It may also leave the target with a burn.",
+      "desc": "The user attacks with small flames all  around it. It also has a small chance to leave the target with a burn.",
       "e_id": 4,
       "tar": "allAdjacentFoes",
       "sf": true
@@ -100956,14 +101013,14 @@ overrides = {
       "e_id": 33,
       "sf": true
     },
-    "Mitosis": {
+    "Psy Orb": {
       "t": "Psychic",
       "bp": 50,
       "cat": "Special",
       "pp": 20,
       "acc": 100,
       "prio": 0,
-      "name": "Mitosis",
+      "name": "Psy Orb",
       "num": 92,
       "desc": "The target is hit by a weak telekinetic force. It may also leave the target confused.",
       "e_id": 76,
@@ -101146,7 +101203,7 @@ overrides = {
       "prio": 0,
       "name": "Minimize",
       "num": 106,
-      "desc": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+      "desc": "The user compresses its body to make itself look smaller, raising its accuracy and speed in the process.",
       "e_id": 108,
       "sf": true
     },
