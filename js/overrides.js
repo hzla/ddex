@@ -4,7 +4,8 @@ gameTitles = {
 	"vintagewhiteplus": "Vintage White+",
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
 	"blindingwhite2": "Blinding White 2",
-	"cascadewhite": "Cascade White"
+	"cascadewhite": "Cascade White",
+	"cascadewhite2": "Cascade White"
 }
 unrecognizedPoks = {}
 
