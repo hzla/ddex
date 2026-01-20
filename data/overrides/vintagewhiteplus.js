@@ -30832,7 +30832,7 @@ overrides = {
           ],
           [
             32,
-            "Charm"
+            "Ice Shard"
           ],
           [
             36,
@@ -93387,7 +93387,8 @@ overrides = {
       "name": "Storm Throw",
       "num": 479,
       "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
-      "e_id": 288
+      "e_id": 288,
+      "willCrit": true
     },
     "Flame Burst": {
       "t": "Fire",
@@ -93937,7 +93938,8 @@ overrides = {
       "name": "Frost Breath",
       "num": 523,
       "desc": "The user blows a cold breath on the target. This attack always results in a critical hit.",
-      "e_id": 288
+      "e_id": 288,
+      "willCrit": true
     },
     "Dragon Tail": {
       "t": "Dragon",
