@@ -44,7 +44,7 @@ overrides = {
           ],
           [
             9,
-            "Razor Leaf"
+            "Vine Whip"
           ],
           [
             11,
@@ -64,7 +64,7 @@ overrides = {
           ],
           [
             19,
-            "Vine Whip"
+            "Leaf Tornado"
           ],
           [
             21,
@@ -118,15 +118,26 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
-          "Seed Bomb",
+          "Frenzy Plant",
+          "Covet",
+          "Gunk Shot",
           "Earth Power",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
           "Bind",
           "Snore",
-          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
-          "Worry Seed",
-          "Sleep Talk"
+          "Helping Hand",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -183,7 +194,7 @@ overrides = {
           ],
           [
             9,
-            "Razor Leaf"
+            "Vine Whip"
           ],
           [
             11,
@@ -203,7 +214,7 @@ overrides = {
           ],
           [
             19,
-            "Vine Whip"
+            "Leaf Tornado"
           ],
           [
             21,
@@ -278,15 +289,26 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
-          "Seed Bomb",
+          "Frenzy Plant",
+          "Covet",
+          "Gunk Shot",
           "Earth Power",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
           "Bind",
           "Snore",
-          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
-          "Worry Seed",
-          "Sleep Talk"
+          "Helping Hand",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -344,7 +366,7 @@ overrides = {
           ],
           [
             9,
-            "Razor Leaf"
+            "Vine Whip"
           ],
           [
             11,
@@ -364,7 +386,7 @@ overrides = {
           ],
           [
             19,
-            "Vine Whip"
+            "Leaf Tornado"
           ],
           [
             21,
@@ -457,16 +479,25 @@ overrides = {
         "tutors": [
           "Grass Pledge",
           "Frenzy Plant",
-          "Seed Bomb",
+          "Covet",
+          "Gunk Shot",
           "Earth Power",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
           "Bind",
           "Snore",
-          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
-          "Worry Seed",
+          "Helping Hand",
+          "Endeavor",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -481,7 +512,8 @@ overrides = {
       "name": "Charmander",
       "num": 4,
       "types": [
-        "Fire"
+        "Fire",
+        "Dragon"
       ],
       "items": [
         "None",
@@ -596,7 +628,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -619,15 +651,29 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
+          "Blast Burn",
           "Draco Meteor",
           "Dual Chop",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
+          "Superpower",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Wonder Room",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -760,7 +806,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -783,15 +829,29 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
+          "Blast Burn",
           "Draco Meteor",
           "Dual Chop",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
+          "Superpower",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Wonder Room",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -941,7 +1001,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -972,15 +1032,27 @@ overrides = {
           "Blast Burn",
           "Draco Meteor",
           "Dual Chop",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
+          "Superpower",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Wonder Room",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -1023,7 +1095,7 @@ overrides = {
           ],
           [
             5,
-            "Water Gun"
+            "Barrage"
           ],
           [
             8,
@@ -1035,7 +1107,7 @@ overrides = {
           ],
           [
             13,
-            "Barrage"
+            "Brine"
           ],
           [
             16,
@@ -1047,11 +1119,11 @@ overrides = {
           ],
           [
             22,
-            "Mist"
+            "Bubble Beam"
           ],
           [
             25,
-            "Bubble Beam"
+            "Mist"
           ],
           [
             29,
@@ -1109,6 +1181,7 @@ overrides = {
           "Move $856",
           "Move $902",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Magical Leaf",
           "Venoshock",
@@ -1133,15 +1206,37 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
+          "Hydro Cannon",
+          "Iron Head",
+          "Low Kick",
+          "Uproar",
           "Ice Punch",
+          "Magic Coat",
+          "Block",
+          "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Superpower",
           "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -1185,7 +1280,7 @@ overrides = {
           ],
           [
             5,
-            "Water Gun"
+            "Barrage"
           ],
           [
             8,
@@ -1197,7 +1292,7 @@ overrides = {
           ],
           [
             13,
-            "Barrage"
+            "Brine"
           ],
           [
             16,
@@ -1209,11 +1304,11 @@ overrides = {
           ],
           [
             22,
-            "Mist"
+            "Bubble Beam"
           ],
           [
             25,
-            "Bubble Beam"
+            "Mist"
           ],
           [
             29,
@@ -1271,6 +1366,7 @@ overrides = {
           "Move $856",
           "Move $902",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Magical Leaf",
           "Venoshock",
@@ -1294,15 +1390,37 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
+          "Hydro Cannon",
+          "Iron Head",
+          "Low Kick",
+          "Uproar",
           "Ice Punch",
+          "Magic Coat",
+          "Block",
+          "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Superpower",
           "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -1360,7 +1478,7 @@ overrides = {
           ],
           [
             13,
-            "Barrage"
+            "Brine"
           ],
           [
             16,
@@ -1372,11 +1490,11 @@ overrides = {
           ],
           [
             22,
-            "Mist"
+            "Bubble Beam"
           ],
           [
             25,
-            "Bubble Beam"
+            "Mist"
           ],
           [
             29,
@@ -1474,18 +1592,36 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Signal Beam",
+          "Iron Head",
+          "Low Kick",
+          "Uproar",
           "Ice Punch",
+          "Magic Coat",
+          "Block",
+          "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Superpower",
           "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
           "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -1539,11 +1675,7 @@ overrides = {
           ]
         ],
         "tms": [],
-        "tutors": [
-          "Bug Bite",
-          "Electroweb",
-          "Snore"
-        ]
+        "tutors": []
       },
       "abs": [
         "Resilient",
@@ -1589,8 +1721,29 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Iron Defense",
-          "Electroweb"
+          "Super Fang",
+          "Signal Beam",
+          "Seed Bomb",
+          "Magic Coat",
+          "Block",
+          "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -1716,7 +1869,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -1735,12 +1888,27 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Magic Coat",
+          "Block",
           "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Endeavor",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -1797,10 +1965,7 @@ overrides = {
           ]
         ],
         "tms": [],
-        "tutors": [
-          "Bug Bite",
-          "Electroweb"
-        ]
+        "tutors": []
       },
       "abs": [
         "Resilient",
@@ -1847,8 +2012,27 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Iron Defense",
-          "Electroweb"
+          "Signal Beam",
+          "Drill Run",
+          "Gunk Shot",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Roost",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -1961,7 +2145,7 @@ overrides = {
           "Knock Off",
           "Venoshock",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -1982,14 +2166,26 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Signal Beam",
           "Drill Run",
+          "Gunk Shot",
           "Electroweb",
-          "Snore",
-          "Knock Off",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Giga Drain",
+          "Drain Punch",
           "Roost",
-          "Endeavor",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -2113,7 +2309,7 @@ overrides = {
           "Knock Off",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -2129,14 +2325,20 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
+          "Bounce",
           "Uproar",
-          "Electroweb",
-          "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -2261,7 +2463,7 @@ overrides = {
           "Knock Off",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -2276,14 +2478,20 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
+          "Bounce",
           "Uproar",
-          "Electroweb",
-          "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -2427,7 +2635,7 @@ overrides = {
           "Knock Off",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -2443,14 +2651,20 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
+          "Bounce",
           "Uproar",
-          "Electroweb",
-          "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -2474,7 +2688,7 @@ overrides = {
       ],
       "bs": {
         "hp": 45,
-        "at": 66,
+        "at": 56,
         "df": 50,
         "sa": 25,
         "sd": 50,
@@ -2569,7 +2783,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -2585,15 +2799,29 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
+          "Bug Bite",
           "Covet",
-          "Super Fang",
-          "Uproar",
-          "Last Resort",
+          "Iron Head",
+          "Drill Run",
+          "Bounce",
+          "Low Kick",
+          "Foul Play",
+          "Magnet Rise",
           "Icy Wind",
-          "Zen Headbutt",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Endeavor",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -2723,7 +2951,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -2740,15 +2968,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bug Bite",
           "Covet",
-          "Super Fang",
-          "Uproar",
-          "Last Resort",
+          "Iron Head",
+          "Drill Run",
+          "Bounce",
+          "Low Kick",
+          "Foul Play",
+          "Magnet Rise",
           "Icy Wind",
-          "Zen Headbutt",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Endeavor",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -2796,7 +3038,7 @@ overrides = {
           ],
           [
             5,
-            "Leer"
+            "Screech"
           ],
           [
             7,
@@ -2874,7 +3116,7 @@ overrides = {
           "Move $858",
           "Move $856",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -2891,14 +3133,23 @@ overrides = {
         ],
         "tutors": [
           "Drill Run",
-          "Uproar",
+          "Bounce",
           "Foul Play",
-          "Snore",
-          "Knock Off",
-          "Heat Wave",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Sleep Talk"
+          "Worry Seed",
+          "After You",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -2946,7 +3197,7 @@ overrides = {
           ],
           [
             5,
-            "Leer"
+            "Screech"
           ],
           [
             7,
@@ -3025,7 +3276,7 @@ overrides = {
           "Move $856",
           "Move $856",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -3042,14 +3293,23 @@ overrides = {
         ],
         "tutors": [
           "Drill Run",
-          "Uproar",
+          "Bounce",
           "Foul Play",
-          "Snore",
-          "Knock Off",
-          "Heat Wave",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Sleep Talk"
+          "Worry Seed",
+          "After You",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -3187,16 +3447,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Draco Meteor",
+          "Dual Chop",
+          "Iron Head",
+          "Drill Run",
           "Gunk Shot",
+          "Magnet Rise",
+          "Icy Wind",
           "Aqua Tail",
           "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
-          "Gastro Acid",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
+          "Outrage",
           "Snatch",
           "Sleep Talk"
         ]
@@ -3355,16 +3625,23 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Seed Bomb",
+          "Dual Chop",
+          "Iron Head",
+          "Drill Run",
           "Gunk Shot",
+          "Magnet Rise",
+          "Icy Wind",
           "Aqua Tail",
           "Dark Pulse",
-          "Dragon Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
-          "Gastro Acid",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
           "Outrage",
           "Snatch",
@@ -3522,14 +3799,28 @@ overrides = {
         "tutors": [
           "Covet",
           "Signal Beam",
+          "Low Kick",
           "Thunder Punch",
-          "Magnet Rise",
-          "Hyper Voice",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -3700,16 +3991,27 @@ overrides = {
         "tutors": [
           "Covet",
           "Signal Beam",
-          "Gunk Shot",
           "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Earth Power",
-          "Magnet Rise",
-          "Aqua Tail",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -3820,7 +4122,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -3842,16 +4144,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Super Fang",
           "Iron Head",
           "Drill Run",
+          "Bounce",
+          "Low Kick",
           "Earth Power",
           "Superpower",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -3980,7 +4292,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -4005,15 +4317,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Super Fang",
+          "Iron Head",
           "Drill Run",
+          "Bounce",
+          "Low Kick",
           "Earth Power",
           "Superpower",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -4124,7 +4447,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -4144,10 +4467,39 @@ overrides = {
         ],
         "tutors": [
           "Super Fang",
+          "Iron Head",
+          "Drill Run",
+          "Low Kick",
+          "Gunk Shot",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
+          "Superpower",
+          "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -4202,7 +4554,7 @@ overrides = {
           ],
           [
             10,
-            "Poison Tail"
+            "Barb Barrage"
           ],
           [
             13,
@@ -4210,7 +4562,7 @@ overrides = {
           ],
           [
             18,
-            "Sludge"
+            "Lunge"
           ],
           [
             22,
@@ -4262,7 +4614,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -4283,10 +4635,39 @@ overrides = {
         ],
         "tutors": [
           "Super Fang",
+          "Iron Head",
+          "Drill Run",
+          "Low Kick",
+          "Gunk Shot",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
+          "Superpower",
+          "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -4295,7 +4676,7 @@ overrides = {
         "Thick Fat"
       ],
       "evoType": "level",
-      "evoLevel": 14,
+      "evoLevel": 18,
       "evos": [
         "Nidoqueen",
         "Nidoqueen"
@@ -4345,7 +4726,7 @@ overrides = {
           ],
           [
             10,
-            "Poison Tail"
+            "Barb Barrage"
           ],
           [
             13,
@@ -4353,7 +4734,7 @@ overrides = {
           ],
           [
             18,
-            "Sludge"
+            "Lunge"
           ],
           [
             22,
@@ -4431,7 +4812,7 @@ overrides = {
           "Blizzard",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -4462,22 +4843,39 @@ overrides = {
         ],
         "tutors": [
           "Super Fang",
+          "Iron Head",
           "Drill Run",
-          "Uproar",
+          "Low Kick",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
+          "Magnet Rise",
           "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
+          "Wonder Room",
           "Outrage",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -4532,7 +4930,7 @@ overrides = {
           ],
           [
             10,
-            "Poison Tail"
+            "Barb Barrage"
           ],
           [
             13,
@@ -4540,7 +4938,7 @@ overrides = {
           ],
           [
             18,
-            "Poison Fang"
+            "Lunge"
           ],
           [
             22,
@@ -4608,11 +5006,39 @@ overrides = {
         ],
         "tutors": [
           "Super Fang",
+          "Iron Head",
           "Drill Run",
+          "Low Kick",
+          "Gunk Shot",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
+          "Superpower",
+          "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -4637,9 +5063,9 @@ overrides = {
       ],
       "bs": {
         "hp": 61,
-        "at": 87,
+        "at": 97,
         "df": 57,
-        "sa": 75,
+        "sa": 80,
         "sd": 55,
         "sp": 75
       },
@@ -4667,7 +5093,7 @@ overrides = {
           ],
           [
             10,
-            "Poison Tail"
+            "Barb Barrage"
           ],
           [
             13,
@@ -4675,7 +5101,7 @@ overrides = {
           ],
           [
             18,
-            "Poison Fang"
+            "Lunge"
           ],
           [
             22,
@@ -4749,12 +5175,39 @@ overrides = {
         ],
         "tutors": [
           "Super Fang",
+          "Iron Head",
           "Drill Run",
+          "Low Kick",
           "Gunk Shot",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
+          "Superpower",
+          "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -4763,7 +5216,7 @@ overrides = {
         "Exploit"
       ],
       "evoType": "level",
-      "evoLevel": 14,
+      "evoLevel": 18,
       "evos": [
         "Nidoking",
         "Nidoking"
@@ -4813,7 +5266,7 @@ overrides = {
           ],
           [
             10,
-            "Poison Tail"
+            "Barb Barrage"
           ],
           [
             13,
@@ -4821,7 +5274,7 @@ overrides = {
           ],
           [
             18,
-            "Poison Fang"
+            "Lunge"
           ],
           [
             22,
@@ -4929,23 +5382,39 @@ overrides = {
         ],
         "tutors": [
           "Super Fang",
+          "Iron Head",
           "Drill Run",
+          "Low Kick",
           "Gunk Shot",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
+          "Magnet Rise",
           "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
+          "Wonder Room",
           "Outrage",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5098,32 +5567,39 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Zen Headbutt",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Knock Off",
           "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "After You",
+          "Gastro Acid",
           "Helping Hand",
-          "Trick",
           "Wonder Room",
-          "Endeavor",
           "Recycle",
           "Snatch",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5296,32 +5772,39 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Zen Headbutt",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Knock Off",
           "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "After You",
+          "Gastro Acid",
           "Helping Hand",
-          "Trick",
           "Wonder Room",
-          "Endeavor",
           "Recycle",
           "Snatch",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5462,17 +5945,28 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
-          "Covet",
+          "Super Fang",
+          "Signal Beam",
+          "Seed Bomb",
+          "Magic Coat",
+          "Block",
           "Foul Play",
           "Dark Pulse",
           "Zen Headbutt",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Heat Wave",
           "Role Play",
+          "Heal Bell",
+          "Tailwind",
           "Pain Split",
+          "Gastro Acid",
           "Spite",
-          "Sleep Talk"
+          "Helping Hand",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5632,18 +6126,28 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
-          "Covet",
+          "Super Fang",
+          "Signal Beam",
+          "Seed Bomb",
+          "Magic Coat",
+          "Block",
           "Foul Play",
           "Dark Pulse",
           "Zen Headbutt",
-          "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Heat Wave",
           "Role Play",
+          "Heal Bell",
+          "Tailwind",
           "Pain Split",
+          "Gastro Acid",
           "Spite",
-          "Sleep Talk"
+          "Helping Hand",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5824,28 +6328,34 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Seed Bomb",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Bind",
           "Snore",
           "Knock Off",
           "Role Play",
           "Heal Bell",
+          "Tailwind",
           "Pain Split",
           "Drain Punch",
+          "Gastro Acid",
           "Helping Hand",
-          "Endeavor",
           "Recycle",
           "Snatch",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6032,29 +6542,34 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Seed Bomb",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Bind",
           "Snore",
           "Knock Off",
           "Role Play",
           "Heal Bell",
+          "Tailwind",
           "Pain Split",
           "Drain Punch",
+          "Gastro Acid",
           "Helping Hand",
-          "Magic Room",
-          "Endeavor",
           "Recycle",
           "Snatch",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6160,7 +6675,7 @@ overrides = {
           "Knock Off",
           "Dizzy Punch",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Aurora Beam",
@@ -6177,16 +6692,18 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Super Fang",
           "Uproar",
-          "Zen Headbutt",
-          "Snore",
-          "Heat Wave",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "Worry Seed",
+          "After You",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6316,7 +6833,7 @@ overrides = {
           "Knock Off",
           "Dizzy Punch",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Aurora Beam",
@@ -6333,16 +6850,18 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Super Fang",
           "Uproar",
-          "Zen Headbutt",
-          "Snore",
-          "Heat Wave",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "Worry Seed",
+          "After You",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6493,15 +7012,23 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Seed Bomb",
           "Earth Power",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
           "Gastro Acid",
-          "Worry Seed",
-          "After You",
-          "Sleep Talk"
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6658,16 +7185,24 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Seed Bomb",
           "Earth Power",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
-          "Drain Punch",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
           "Gastro Acid",
-          "Worry Seed",
-          "After You",
-          "Sleep Talk"
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6836,16 +7371,24 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Seed Bomb",
           "Earth Power",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
-          "Drain Punch",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
           "Gastro Acid",
-          "Worry Seed",
-          "After You",
-          "Sleep Talk"
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6965,7 +7508,7 @@ overrides = {
           "Blizzard",
           "Psycho Cut",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -6988,15 +7531,22 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Covet",
           "Dual Chop",
-          "Seed Bomb",
+          "Signal Beam",
           "Gunk Shot",
-          "Snore",
-          "Knock Off",
+          "Foul Play",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Worry Seed",
-          "After You",
+          "Endeavor",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -7145,7 +7695,7 @@ overrides = {
           "Blizzard",
           "Psycho Cut",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -7170,15 +7720,22 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Covet",
           "Dual Chop",
-          "Seed Bomb",
+          "Signal Beam",
           "Gunk Shot",
-          "Snore",
-          "Knock Off",
+          "Foul Play",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Worry Seed",
-          "After You",
+          "Endeavor",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -7305,10 +7862,24 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Magic Coat",
+          "Block",
+          "Electroweb",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Snore",
-          "Giga Drain",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Trick",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -7457,7 +8028,7 @@ overrides = {
           "Dizzy Punch",
           "Hidden Power",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -7473,12 +8044,24 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Magic Coat",
+          "Block",
+          "Electroweb",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Snore",
+          "Bind",
+          "Knock Off",
+          "Role Play",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "Trick",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -7585,7 +8168,7 @@ overrides = {
           "Venoshock",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -7604,10 +8187,22 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Uproar",
+          "Bug Bite",
+          "Covet",
+          "Iron Head",
+          "Drill Run",
           "Earth Power",
-          "Snore",
-          "Stealth Rock",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -7736,7 +8331,7 @@ overrides = {
           "Taunt",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -7756,13 +8351,22 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bug Bite",
+          "Covet",
+          "Iron Head",
           "Drill Run",
-          "Low Kick",
-          "Uproar",
           "Earth Power",
-          "Snore",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Stealth Rock",
+          "Worry Seed",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -7880,7 +8484,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -7901,21 +8505,37 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
+          "Bug Bite",
           "Covet",
+          "Iron Head",
           "Seed Bomb",
+          "Low Kick",
           "Gunk Shot",
           "Uproar",
           "Foul Play",
-          "Last Resort",
-          "Icy Wind",
+          "Magnet Rise",
+          "Aqua Tail",
           "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -8062,7 +8682,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -8083,21 +8703,37 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
+          "Bug Bite",
           "Covet",
+          "Iron Head",
           "Seed Bomb",
+          "Low Kick",
           "Gunk Shot",
           "Uproar",
           "Foul Play",
-          "Last Resort",
-          "Icy Wind",
+          "Magnet Rise",
+          "Aqua Tail",
           "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -8230,7 +8866,7 @@ overrides = {
           "Drain Punch",
           "Venoshock",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -8251,17 +8887,38 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Low Kick",
           "Ice Punch",
-          "Icy Wind",
+          "Magic Coat",
+          "Block",
+          "Gravity",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
           "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
           "Wonder Room",
-          "Sleep Talk"
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -8411,7 +9068,7 @@ overrides = {
           "Magical Leaf",
           "Drain Punch",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -8435,18 +9092,38 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Low Kick",
           "Ice Punch",
-          "Icy Wind",
+          "Magic Coat",
+          "Block",
+          "Gravity",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
           "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
           "Wonder Room",
-          "Sleep Talk"
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -8560,7 +9237,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -8587,20 +9264,29 @@ overrides = {
         "tutors": [
           "Covet",
           "Dual Chop",
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
+          "Bounce",
           "Low Kick",
           "Gunk Shot",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Superpower",
+          "Dark Pulse",
           "Iron Tail",
+          "Bind",
           "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Helping Hand",
-          "Endeavor",
+          "Wonder Room",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -8736,7 +9422,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -8764,7 +9450,9 @@ overrides = {
         "tutors": [
           "Covet",
           "Dual Chop",
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
+          "Bounce",
           "Low Kick",
           "Gunk Shot",
           "Uproar",
@@ -8772,12 +9460,19 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Superpower",
+          "Dark Pulse",
           "Iron Tail",
+          "Bind",
           "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Spite",
-          "Helping Hand",
-          "Endeavor",
+          "Wonder Room",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -8902,7 +9597,7 @@ overrides = {
           "Magical Leaf",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -8919,14 +9614,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
-          "Superpower",
+          "Iron Head",
+          "Bounce",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
-          "Helping Hand",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -9061,7 +9767,7 @@ overrides = {
           "Magical Leaf",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -9079,16 +9785,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Iron Head",
-          "Superpower",
-          "Dragon Pulse",
+          "Bounce",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
-          "Helping Hand",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -9200,13 +9915,29 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
+          "Low Kick",
+          "Ice Punch",
           "Superpower",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Endeavor",
-          "Sleep Talk"
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -9346,14 +10077,29 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
+          "Low Kick",
           "Ice Punch",
           "Superpower",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Endeavor",
-          "Sleep Talk"
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -9519,14 +10265,29 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
+          "Low Kick",
           "Ice Punch",
           "Superpower",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Endeavor",
-          "Sleep Talk"
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -9598,21 +10359,27 @@ overrides = {
           "Teleport"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
           "Iron Tail",
           "Snore",
           "Knock Off",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Trick",
-          "Magic Room",
           "Wonder Room",
           "Recycle",
           "Snatch",
@@ -9746,21 +10513,27 @@ overrides = {
           "Teleport"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
           "Iron Tail",
           "Snore",
           "Knock Off",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Trick",
-          "Magic Room",
           "Wonder Room",
           "Recycle",
           "Snatch",
@@ -9921,21 +10694,27 @@ overrides = {
           "Teleport"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
           "Iron Tail",
           "Snore",
           "Knock Off",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Trick",
-          "Magic Room",
           "Wonder Room",
           "Recycle",
           "Snatch",
@@ -10074,15 +10853,23 @@ overrides = {
         ],
         "tutors": [
           "Dual Chop",
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Role Play",
-          "Helping Hand",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -10230,15 +11017,23 @@ overrides = {
         ],
         "tutors": [
           "Dual Chop",
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Role Play",
-          "Helping Hand",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -10403,15 +11198,23 @@ overrides = {
         ],
         "tutors": [
           "Dual Chop",
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Role Play",
-          "Helping Hand",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -10543,15 +11346,22 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
+          "Low Kick",
           "Gunk Shot",
+          "Earth Power",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
           "Worry Seed",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -10702,15 +11512,21 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Seed Bomb",
+          "Covet",
+          "Low Kick",
           "Gunk Shot",
+          "Earth Power",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
           "Worry Seed",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -10873,15 +11689,21 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Seed Bomb",
+          "Covet",
+          "Low Kick",
           "Gunk Shot",
+          "Earth Power",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
           "Worry Seed",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -10946,7 +11768,7 @@ overrides = {
           ],
           [
             18,
-            "Poison Jab"
+            "Venoshock"
           ],
           [
             20,
@@ -11035,14 +11857,26 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Signal Beam",
           "Gunk Shot",
+          "Uproar",
           "Magic Coat",
+          "Block",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
-          "Sleep Talk"
+          "Helping Hand",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch"
         ]
       },
       "abs": [
@@ -11106,7 +11940,7 @@ overrides = {
           ],
           [
             18,
-            "Poison Jab"
+            "Venoshock"
           ],
           [
             20,
@@ -11204,13 +12038,26 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Signal Beam",
           "Gunk Shot",
+          "Uproar",
           "Magic Coat",
+          "Block",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
+          "Helping Hand",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -11344,13 +12191,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
+          "Drill Run",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
           "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Snore",
-          "Stealth Rock",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -11497,13 +12355,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
+          "Drill Run",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
           "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Snore",
-          "Stealth Rock",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -11668,13 +12537,22 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
           "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Snore",
-          "Stealth Rock",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -11815,12 +12693,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Super Fang",
+          "Iron Head",
+          "Drill Run",
           "Bounce",
           "Low Kick",
+          "Block",
+          "Dark Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Heat Wave",
-          "Sleep Talk"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -11983,13 +12878,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Super Fang",
+          "Iron Head",
           "Drill Run",
           "Bounce",
           "Low Kick",
+          "Block",
+          "Dark Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Heat Wave",
-          "Sleep Talk"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -12130,17 +13041,33 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Drill Run",
+          "Uproar",
+          "Ice Punch",
           "Magic Coat",
+          "Gravity",
+          "Magnet Rise",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
-          "After You",
-          "Trick",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Wonder Room",
+          "Outrage",
           "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -12279,7 +13206,7 @@ overrides = {
           "Venoshock",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -12306,21 +13233,34 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Drill Run",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
-          "Foul Play",
-          "Iron Defense",
+          "Gravity",
+          "Magnet Rise",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Drain Punch",
           "After You",
-          "Trick",
           "Wonder Room",
+          "Outrage",
           "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -12450,13 +13390,23 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Iron Head",
           "Magic Coat",
+          "Block",
+          "Earth Power",
           "Gravity",
-          "Magnet Rise",
           "Iron Defense",
-          "Electroweb",
-          "Snore",
-          "Recycle",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -12606,13 +13556,23 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Iron Head",
           "Magic Coat",
+          "Block",
+          "Earth Power",
           "Gravity",
-          "Magnet Rise",
           "Iron Defense",
-          "Electroweb",
-          "Snore",
-          "Recycle",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -12761,7 +13721,7 @@ overrides = {
           "Move $856",
           "Knock Off",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -12783,19 +13743,32 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bug Bite",
           "Covet",
-          "Uproar",
-          "Last Resort",
+          "Drill Run",
+          "Bounce",
+          "Low Kick",
+          "Gunk Shot",
           "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
-          "Heat Wave",
+          "Role Play",
           "Tailwind",
           "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
+          "Gastro Acid",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -12916,7 +13889,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -12931,14 +13904,26 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
+          "Iron Head",
           "Drill Run",
-          "Uproar",
+          "Bounce",
+          "Low Kick",
           "Earth Power",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
+          "Worry Seed",
+          "Wonder Room",
           "Endeavor",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -13071,7 +14056,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -13086,14 +14071,26 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
+          "Iron Head",
           "Drill Run",
-          "Uproar",
+          "Bounce",
+          "Low Kick",
           "Earth Power",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
+          "Worry Seed",
+          "Wonder Room",
           "Endeavor",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -13236,11 +14233,20 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Drill Run",
-          "Icy Wind",
+          "Uproar",
           "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -13406,11 +14412,20 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Drill Run",
-          "Icy Wind",
+          "Uproar",
           "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -13434,7 +14449,7 @@ overrides = {
       ],
       "bs": {
         "hp": 80,
-        "at": 80,
+        "at": 90,
         "df": 50,
         "sa": 40,
         "sd": 90,
@@ -13550,9 +14565,23 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Snore",
+          "Block",
+          "Foul Play",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -13578,7 +14607,7 @@ overrides = {
       ],
       "bs": {
         "hp": 105,
-        "at": 105,
+        "at": 120,
         "df": 75,
         "sa": 65,
         "sd": 120,
@@ -13715,10 +14744,23 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Block",
+          "Foul Play",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
+          "Icy Wind",
           "Dark Pulse",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -13846,9 +14888,24 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Signal Beam",
+          "Iron Head",
+          "Drill Run",
+          "Uproar",
           "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Snore",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -14005,9 +15062,23 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Iron Head",
+          "Drill Run",
+          "Uproar",
           "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Snore",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -14153,14 +15224,17 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
           "Icy Wind",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
-          "Trick",
           "Wonder Room",
           "Snatch",
           "Sleep Talk",
@@ -14314,14 +15388,17 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
           "Icy Wind",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
-          "Trick",
           "Wonder Room",
           "Snatch",
           "Sleep Talk",
@@ -14491,16 +15568,17 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
           "Icy Wind",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
           "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
-          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
-          "Trick",
           "Wonder Room",
           "Snatch",
           "Sleep Talk",
@@ -14660,11 +15738,21 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Dragon Pulse",
+          "Iron Defense",
+          "Last Resort",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Stealth Rock",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -14813,20 +15901,33 @@ overrides = {
           "Teleport"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Block",
           "Foul Play",
+          "Gravity",
+          "Magnet Rise",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
           "Role Play",
-          "Drain Punch",
-          "Trick",
-          "Magic Room",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
           "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -14990,20 +16091,33 @@ overrides = {
           "Teleport"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Low Kick",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Block",
           "Foul Play",
+          "Gravity",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
           "Role Play",
-          "Drain Punch",
-          "Trick",
-          "Magic Room",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
           "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -15111,6 +16225,7 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Magical Leaf",
           "Venoshock",
@@ -15141,11 +16256,24 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Iron Defense",
+          "Bug Bite",
+          "Dual Chop",
+          "Iron Head",
+          "Drill Run",
+          "Low Kick",
+          "Ice Punch",
           "Superpower",
-          "Icy Wind",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -15273,6 +16401,7 @@ overrides = {
           "Move $856",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Magical Leaf",
           "Venoshock",
@@ -15303,12 +16432,24 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Bug Bite",
+          "Dual Chop",
           "Iron Head",
-          "Iron Defense",
+          "Drill Run",
+          "Low Kick",
+          "Ice Punch",
           "Superpower",
-          "Icy Wind",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -15444,13 +16585,28 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
+          "Drill Run",
           "Magic Coat",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Magnet Rise",
-          "Superpower",
-          "Snore",
-          "Sleep Talk"
+          "Gravity",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -15616,13 +16772,28 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
+          "Drill Run",
           "Magic Coat",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Magnet Rise",
-          "Superpower",
+          "Gravity",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -15763,14 +16934,28 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Super Fang",
           "Seed Bomb",
-          "Uproar",
           "Block",
+          "Earth Power",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
           "Worry Seed",
+          "Spite",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -15932,14 +17117,28 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Super Fang",
           "Seed Bomb",
-          "Low Kick",
+          "Block",
+          "Earth Power",
           "Gravity",
-          "Zen Headbutt",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
           "Worry Seed",
+          "Spite",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -16066,7 +17265,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -16095,14 +17294,23 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Iron Defense",
+          "Magnet Rise",
           "Superpower",
           "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
-          "Endeavor",
-          "Stealth Rock",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -16245,7 +17453,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -16268,20 +17476,29 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
+          "Drill Run",
           "Low Kick",
           "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Iron Defense",
+          "Magnet Rise",
           "Superpower",
           "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
-          "Endeavor",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
           "Outrage",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -16437,14 +17654,22 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
+          "Iron Head",
           "Bounce",
           "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Bind",
           "Role Play",
-          "Helping Hand",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -16609,16 +17834,23 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
+          "Iron Head",
+          "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Superpower",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
           "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -16775,18 +18007,35 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bounce",
+          "Low Kick",
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
           "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -16812,7 +18061,7 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 40,
+        "at": 65,
         "df": 95,
         "sa": 80,
         "sd": 65,
@@ -16915,13 +18164,26 @@ overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
-          "Uproar",
+          "Iron Head",
+          "Bounce",
+          "Earth Power",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
           "Dark Pulse",
-          "Snore",
+          "Hyper Voice",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
           "Spite",
-          "Sleep Talk"
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -17065,13 +18327,26 @@ overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
-          "Uproar",
+          "Iron Head",
+          "Bounce",
+          "Earth Power",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
           "Dark Pulse",
-          "Snore",
+          "Hyper Voice",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
           "Spite",
-          "Sleep Talk"
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -17213,18 +18488,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Drill Run",
-          "Uproar",
           "Earth Power",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
-          "Stealth Rock",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -17389,22 +18671,30 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Drill Run",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
+          "Magnet Rise",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
+          "Wonder Room",
           "Outrage",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -17554,23 +18844,33 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Iron Head",
+          "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Zen Headbutt",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Endeavor",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
           "Recycle",
           "Snatch",
-          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -17718,16 +19018,26 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
+          "Earth Power",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
           "Worry Seed",
+          "Magic Room",
           "Endeavor",
-          "Sleep Talk"
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -17868,7 +19178,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -17892,24 +19202,33 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Covet",
+          "Iron Head",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magnet Rise",
           "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Drain Punch",
+          "Worry Seed",
           "Spite",
           "Helping Hand",
-          "Endeavor",
+          "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -18015,6 +19334,7 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Dragon Claw",
           "Psyshock",
           "Knock Off",
@@ -18034,12 +19354,26 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Draco Meteor",
           "Signal Beam",
+          "Iron Head",
           "Bounce",
+          "Uproar",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
-          "Snore",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Magic Room",
           "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -18165,6 +19499,7 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Dragon Claw",
           "Psyshock",
           "Knock Off",
@@ -18184,12 +19519,26 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Draco Meteor",
           "Signal Beam",
+          "Iron Head",
           "Bounce",
+          "Uproar",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
-          "Snore",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Magic Room",
           "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -18309,8 +19658,9 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -18326,14 +19676,24 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Signal Beam",
+          "Iron Head",
           "Drill Run",
           "Bounce",
           "Gunk Shot",
+          "Uproar",
           "Icy Wind",
           "Aqua Tail",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -18451,8 +19811,9 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -18469,14 +19830,24 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Signal Beam",
+          "Iron Head",
           "Drill Run",
           "Bounce",
           "Gunk Shot",
+          "Uproar",
           "Icy Wind",
           "Aqua Tail",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -18642,21 +20013,42 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Uproar",
+          "Thunder Punch",
+          "Ice Punch",
           "Magic Coat",
+          "Block",
           "Gravity",
-          "Icy Wind",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Hyper Voice",
+          "Bind",
           "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
           "Recycle",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Illumination",
         "Regenerator",
-        "Mold Breaker"
+        "Huge Power"
       ],
       "evos": [
         "Starmie",
@@ -18691,11 +20083,11 @@ overrides = {
           ],
           [
             1,
-            "Whirlpool"
+            "Wave Crash"
           ],
           [
             5,
-            "Harden"
+            "Triple Axel"
           ],
           [
             7,
@@ -18818,16 +20210,34 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Uproar",
+          "Thunder Punch",
+          "Ice Punch",
           "Magic Coat",
+          "Block",
           "Gravity",
-          "Icy Wind",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Hyper Voice",
+          "Bind",
           "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
           "Trick",
+          "Magic Room",
           "Wonder Room",
           "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -18835,7 +20245,7 @@ overrides = {
       "abs": [
         "Illumination",
         "Regenerator",
-        "Mold Breaker"
+        "Huge Power"
       ],
       "evoType": "level",
       "evoItem": "Water Stone",
@@ -18854,7 +20264,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 55,
+        "hp": 60,
         "at": 100,
         "df": 105,
         "sa": 40,
@@ -18982,7 +20392,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -19004,22 +20414,30 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Signal Beam",
+          "Super Fang",
+          "Seed Bomb",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Block",
           "Foul Play",
-          "Iron Defense",
+          "Gravity",
+          "Magnet Rise",
           "Superpower",
-          "Icy Wind",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Snore",
+          "Knock Off",
           "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Trick",
-          "Magic Room",
+          "Gastro Acid",
+          "Worry Seed",
           "Wonder Room",
           "Recycle",
           "Snatch",
@@ -19028,7 +20446,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Filter",
+        "Trace",
         "Technician",
         "Distracting"
       ],
@@ -19151,7 +20569,7 @@ overrides = {
           "Move $856",
           "Knock Off",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -19170,11 +20588,25 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Dual Chop",
+          "Signal Beam",
+          "Iron Head",
+          "Low Kick",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -19325,21 +20757,25 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
-          "Covet",
-          "Signal Beam",
+          "Seed Bomb",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
-          "Icy Wind",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Hyper Voice",
+          "Dragon Pulse",
           "Snore",
           "Role Play",
           "Heal Bell",
-          "Drain Punch",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Trick",
           "Magic Room",
           "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -19469,20 +20905,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Dual Chop",
-          "Signal Beam",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Magnet Rise",
           "Superpower",
-          "Electroweb",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Helping Hand",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -19620,17 +21061,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Dual Chop",
           "Low Kick",
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
+          "Earth Power",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -19792,12 +21245,29 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Iron Defense",
+          "Dual Chop",
+          "Signal Beam",
+          "Iron Head",
+          "Drill Run",
+          "Low Kick",
+          "Earth Power",
           "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -19948,16 +21418,25 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
+          "Drill Run",
+          "Bounce",
           "Uproar",
-          "Icy Wind",
+          "Magnet Rise",
+          "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Spite",
-          "Helping Hand",
-          "Endeavor",
+          "Wonder Room",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -20167,12 +21646,20 @@ overrides = {
           "Icy Wind",
           "Aqua Tail",
           "Dark Pulse",
-          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Spite",
+          "After You",
+          "Magic Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -20340,16 +21827,29 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Drill Run",
-          "Icy Wind",
+          "Uproar",
+          "Block",
+          "Earth Power",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
           "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Magic Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -20504,13 +22004,40 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Last Resort",
+          "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Low Kick",
+          "Uproar",
+          "Magic Coat",
+          "Block",
+          "Earth Power",
+          "Foul Play",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
           "Heal Bell",
-          "Helping Hand",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -20661,16 +22188,44 @@ overrides = {
         "tutors": [
           "Covet",
           "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Low Kick",
+          "Uproar",
+          "Magic Coat",
+          "Block",
           "Earth Power",
-          "Last Resort",
-          "Icy Wind",
+          "Foul Play",
+          "Magnet Rise",
           "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -20813,15 +22368,44 @@ overrides = {
         "tutors": [
           "Covet",
           "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Low Kick",
+          "Uproar",
+          "Magic Coat",
+          "Block",
           "Earth Power",
+          "Foul Play",
           "Magnet Rise",
-          "Last Resort",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -20963,17 +22547,45 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Gunk Shot",
+          "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Low Kick",
+          "Uproar",
+          "Magic Coat",
+          "Block",
           "Earth Power",
-          "Last Resort",
-          "Superpower",
+          "Foul Play",
+          "Magnet Rise",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Synthesis",
           "Heat Wave",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -21083,7 +22695,7 @@ overrides = {
           "Knock Off",
           "Drain Punch",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -21097,22 +22709,32 @@ overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Magic Coat",
+          "Block",
           "Foul Play",
           "Gravity",
           "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Electroweb",
-          "Icy Wind",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
           "Trick",
-          "Wonder Room",
           "Recycle",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -21233,14 +22855,27 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Iron Head",
+          "Uproar",
           "Earth Power",
           "Iron Defense",
+          "Last Resort",
           "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Bind",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -21383,14 +23018,27 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Iron Head",
+          "Uproar",
           "Earth Power",
           "Iron Defense",
+          "Last Resort",
           "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Bind",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -21529,13 +23177,32 @@ overrides = {
           "Storm Throw"
         ],
         "tutors": [
+          "Dual Chop",
+          "Drill Run",
+          "Low Kick",
+          "Uproar",
+          "Ice Punch",
           "Earth Power",
           "Iron Defense",
-          "Icy Wind",
-          "Snore",
-          "Knock Off",
+          "Last Resort",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
-          "Stealth Rock",
+          "Drain Punch",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -21678,7 +23345,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -21701,16 +23368,32 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Dual Chop",
+          "Drill Run",
           "Low Kick",
+          "Uproar",
+          "Ice Punch",
           "Earth Power",
           "Iron Defense",
-          "Superpower",
-          "Icy Wind",
+          "Last Resort",
           "Aqua Tail",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
-          "Stealth Rock",
+          "Drain Punch",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -21845,7 +23528,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -21865,14 +23548,21 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Earth Power",
+          "Magnet Rise",
           "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Stealth Rock",
+          "Worry Seed",
+          "Outrage",
           "Sleep Talk"
         ]
       },
@@ -22036,21 +23726,31 @@ overrides = {
         "tutors": [
           "Covet",
           "Iron Head",
-          "Seed Bomb",
-          "Gunk Shot",
+          "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
           "Superpower",
+          "Electroweb",
           "Icy Wind",
-          "Zen Headbutt",
+          "Dark Pulse",
           "Hyper Voice",
-          "Snore",
-          "After You",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
           "Outrage",
           "Recycle",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -22153,7 +23853,7 @@ overrides = {
           "Knock Off",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Sludge Bomb",
@@ -22273,7 +23973,7 @@ overrides = {
           "Psyshock",
           "Knock Off",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Flamethrower",
@@ -22400,7 +24100,7 @@ overrides = {
           "Ice Beam",
           "Psycho Cut",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -22540,14 +24240,31 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
+          "Iron Head",
+          "Bounce",
+          "Block",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
           "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Trick",
+          "Magic Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -22680,14 +24397,31 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
+          "Iron Head",
+          "Bounce",
+          "Block",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
           "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Trick",
+          "Magic Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -22832,7 +24566,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -22859,22 +24593,36 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
           "Iron Head",
+          "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Block",
           "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
           "Bind",
           "Snore",
+          "Knock Off",
           "Heat Wave",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
+          "After You",
+          "Magic Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23011,7 +24759,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -23185,7 +24933,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Aurora Beam",
@@ -23340,11 +25088,11 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Bullet Seed"
           ],
           [
             1,
-            "Growl"
+            "Sweet Scent"
           ],
           [
             7,
@@ -23356,7 +25104,7 @@ overrides = {
           ],
           [
             13,
-            "Bullet Seed"
+            "Horn Leech"
           ],
           [
             15,
@@ -23364,15 +25112,15 @@ overrides = {
           ],
           [
             18,
-            "Take Down"
-          ],
-          [
-            21,
-            "Safeguard"
-          ],
-          [
-            24,
             "Natural Gift"
+          ],
+          [
+            20,
+            "Dazzling Gleam"
+          ],
+          [
+            23,
+            "Safeguard"
           ],
           [
             27,
@@ -23426,14 +25174,35 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
+          "Frenzy Plant",
+          "Covet",
+          "Iron Head",
           "Seed Bomb",
+          "Drill Run",
           "Magic Coat",
+          "Earth Power",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
-          "Worry Seed",
-          "Sleep Talk"
+          "Drain Punch",
+          "Gastro Acid",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23469,11 +25238,11 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Bullet Seed"
           ],
           [
             1,
-            "Growl"
+            "Sweet Scent"
           ],
           [
             7,
@@ -23485,7 +25254,7 @@ overrides = {
           ],
           [
             13,
-            "Bullet Seed"
+            "Horn Leech"
           ],
           [
             15,
@@ -23493,15 +25262,15 @@ overrides = {
           ],
           [
             18,
-            "Take Down"
-          ],
-          [
-            21,
-            "Safeguard"
-          ],
-          [
-            24,
             "Natural Gift"
+          ],
+          [
+            20,
+            "Dazzling Gleam"
+          ],
+          [
+            23,
+            "Safeguard"
           ],
           [
             27,
@@ -23536,7 +25305,7 @@ overrides = {
             "Earthquake"
           ],
           [
-            56,
+            54,
             "Play Rough"
           ],
           [
@@ -23577,14 +25346,35 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
+          "Frenzy Plant",
+          "Covet",
+          "Iron Head",
           "Seed Bomb",
+          "Drill Run",
           "Magic Coat",
+          "Earth Power",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
-          "Worry Seed",
-          "Sleep Talk"
+          "Drain Punch",
+          "Gastro Acid",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23638,7 +25428,7 @@ overrides = {
           ],
           [
             13,
-            "Bullet Seed"
+            "Horn Leech"
           ],
           [
             15,
@@ -23646,15 +25436,15 @@ overrides = {
           ],
           [
             18,
-            "Take Down"
-          ],
-          [
-            21,
-            "Safeguard"
-          ],
-          [
-            24,
             "Natural Gift"
+          ],
+          [
+            20,
+            "Dazzling Gleam"
+          ],
+          [
+            23,
+            "Safeguard"
           ],
           [
             27,
@@ -23689,7 +25479,7 @@ overrides = {
             "Earthquake"
           ],
           [
-            56,
+            54,
             "Play Rough"
           ],
           [
@@ -23744,15 +25534,34 @@ overrides = {
         "tutors": [
           "Grass Pledge",
           "Frenzy Plant",
+          "Covet",
+          "Iron Head",
           "Seed Bomb",
+          "Drill Run",
           "Magic Coat",
+          "Earth Power",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
-          "Worry Seed",
+          "Drain Punch",
+          "Gastro Acid",
+          "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23786,7 +25595,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Quick Attack"
           ],
           [
             1,
@@ -23798,15 +25607,15 @@ overrides = {
           ],
           [
             6,
-            "Ember"
+            "Flame Wheel"
           ],
           [
             10,
-            "Quick Attack"
+            "Dig"
           ],
           [
             13,
-            "Flame Wheel"
+            "Flame Charge"
           ],
           [
             17,
@@ -23861,7 +25670,7 @@ overrides = {
           "Magical Leaf",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -23875,11 +25684,29 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
-          "Covet",
+          "Blast Burn",
+          "Drill Run",
+          "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
           "Earth Power",
-          "Snore",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Heat Wave",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23927,15 +25754,15 @@ overrides = {
           ],
           [
             6,
-            "Ember"
+            "Flame Wheel"
           ],
           [
             10,
-            "Quick Attack"
+            "Dig"
           ],
           [
             13,
-            "Flame Wheel"
+            "Flame Charge"
           ],
           [
             17,
@@ -23995,7 +25822,7 @@ overrides = {
           "Venoshock",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -24011,11 +25838,29 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
-          "Covet",
+          "Blast Burn",
+          "Drill Run",
+          "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
           "Earth Power",
-          "Snore",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Heat Wave",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -24024,7 +25869,7 @@ overrides = {
         "Turboblaze"
       ],
       "evoType": "level",
-      "evoLevel": 14,
+      "evoLevel": 16,
       "evos": [
         "Typhlosion"
       ]
@@ -24065,15 +25910,15 @@ overrides = {
           ],
           [
             6,
-            "Ember"
+            "Flame Wheel"
           ],
           [
             10,
-            "Quick Attack"
+            "Dig"
           ],
           [
             13,
-            "Flame Wheel"
+            "Flame Charge"
           ],
           [
             17,
@@ -24148,7 +25993,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -24171,14 +26016,29 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Covet",
+          "Drill Run",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
           "Heat Wave",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -24216,11 +26076,11 @@ overrides = {
           ],
           [
             1,
-            "Water Gun"
+            "Barrage"
           ],
           [
             1,
-            "Scratch"
+            "Bite"
           ],
           [
             6,
@@ -24228,7 +26088,7 @@ overrides = {
           ],
           [
             10,
-            "Bite"
+            "Scary Face"
           ],
           [
             15,
@@ -24236,7 +26096,7 @@ overrides = {
           ],
           [
             18,
-            "Scary Face"
+            "Devour"
           ],
           [
             21,
@@ -24256,7 +26116,7 @@ overrides = {
           ],
           [
             34,
-            "Devour"
+            "Dragon Claw"
           ],
           [
             38,
@@ -24289,7 +26149,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Reflect",
@@ -24307,16 +26167,33 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
+          "Hydro Cannon",
+          "Dual Chop",
+          "Iron Head",
           "Low Kick",
           "Uproar",
           "Ice Punch",
           "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Spite",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -24356,11 +26233,11 @@ overrides = {
           ],
           [
             1,
-            "Water Gun"
+            "Barrage"
           ],
           [
             1,
-            "Scratch"
+            "Bite"
           ],
           [
             6,
@@ -24368,7 +26245,7 @@ overrides = {
           ],
           [
             10,
-            "Bite"
+            "Scary Face"
           ],
           [
             15,
@@ -24376,7 +26253,7 @@ overrides = {
           ],
           [
             18,
-            "Scary Face"
+            "Devour"
           ],
           [
             21,
@@ -24396,7 +26273,7 @@ overrides = {
           ],
           [
             34,
-            "Devour"
+            "Dragon Claw"
           ],
           [
             38,
@@ -24449,7 +26326,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Reflect",
@@ -24469,16 +26346,33 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
+          "Hydro Cannon",
+          "Dual Chop",
+          "Iron Head",
           "Low Kick",
           "Uproar",
           "Ice Punch",
           "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Spite",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -24532,7 +26426,7 @@ overrides = {
           ],
           [
             10,
-            "Bite"
+            "Scary Face"
           ],
           [
             15,
@@ -24540,7 +26434,7 @@ overrides = {
           ],
           [
             18,
-            "Scary Face"
+            "Devour"
           ],
           [
             21,
@@ -24560,7 +26454,7 @@ overrides = {
           ],
           [
             34,
-            "Devour"
+            "Dragon Claw"
           ],
           [
             38,
@@ -24613,7 +26507,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -24639,18 +26533,32 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
+          "Dual Chop",
+          "Iron Head",
           "Low Kick",
           "Uproar",
           "Ice Punch",
           "Superpower",
           "Icy Wind",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Spite",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -24780,19 +26688,29 @@ overrides = {
         "tutors": [
           "Covet",
           "Super Fang",
-          "Uproar",
+          "Bounce",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Last Resort",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Helping Hand",
-          "Trick",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -24946,20 +26864,29 @@ overrides = {
         "tutors": [
           "Covet",
           "Super Fang",
-          "Uproar",
+          "Bounce",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Last Resort",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Helping Hand",
-          "Trick",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25076,7 +27003,7 @@ overrides = {
           "Dizzy Punch",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -25090,16 +27017,25 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
+          "Super Fang",
+          "Seed Bomb",
           "Uproar",
           "Magic Coat",
-          "Zen Headbutt",
-          "Hyper Voice",
-          "Heat Wave",
+          "Block",
+          "Foul Play",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
           "Roost",
+          "Worry Seed",
+          "After You",
           "Recycle",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25234,7 +27170,7 @@ overrides = {
           "Dizzy Punch",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -25248,16 +27184,25 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
+          "Super Fang",
+          "Seed Bomb",
           "Uproar",
           "Magic Coat",
-          "Zen Headbutt",
-          "Hyper Voice",
-          "Heat Wave",
+          "Block",
+          "Foul Play",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
           "Roost",
+          "Worry Seed",
+          "After You",
           "Recycle",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25388,7 +27333,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -25405,17 +27350,36 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Uproar",
+          "Signal Beam",
+          "Bounce",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magic Coat",
+          "Block",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Drain Punch",
           "Roost",
-          "Sleep Talk"
+          "Gastro Acid",
+          "After You",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25559,7 +27523,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -25578,16 +27542,36 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Uproar",
+          "Signal Beam",
+          "Bounce",
+          "Low Kick",
           "Thunder Punch",
+          "Fire Punch",
           "Ice Punch",
+          "Magic Coat",
+          "Block",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Drain Punch",
           "Roost",
-          "Sleep Talk"
+          "Gastro Acid",
+          "After You",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25691,7 +27675,7 @@ overrides = {
           "Magical Leaf",
           "Drain Punch",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -25709,8 +27693,17 @@ overrides = {
           "Bounce",
           "Gunk Shot",
           "Foul Play",
+          "Magnet Rise",
           "Electroweb",
-          "Giga Drain",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -25837,7 +27830,7 @@ overrides = {
           "Magical Leaf",
           "Drain Punch",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -25853,9 +27846,19 @@ overrides = {
           "Bug Bite",
           "Signal Beam",
           "Bounce",
+          "Gunk Shot",
           "Foul Play",
+          "Magnet Rise",
           "Electroweb",
-          "Giga Drain",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -26001,7 +28004,7 @@ overrides = {
           "Knock Off",
           "Dizzy Punch",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Aurora Beam",
@@ -26019,18 +28022,19 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Super Fang",
           "Uproar",
+          "Icy Wind",
           "Dark Pulse",
-          "Zen Headbutt",
-          "Snore",
-          "Heat Wave",
+          "Bind",
+          "Role Play",
           "Tailwind",
-          "Sky Attack",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "Worry Seed",
+          "After You",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26163,11 +28167,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Electroweb",
+          "Uproar",
+          "Magic Coat",
+          "Block",
           "Icy Wind",
-          "Snore",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Heal Bell",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26320,12 +28338,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Electroweb",
+          "Uproar",
+          "Magic Coat",
+          "Block",
           "Icy Wind",
           "Aqua Tail",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Heal Bell",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26426,12 +28457,26 @@ overrides = {
         "tutors": [
           "Covet",
           "Signal Beam",
-          "Uproar",
-          "Magnet Rise",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Drain Punch",
+          "Gastro Acid",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26551,24 +28596,41 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Super Fang",
           "Signal Beam",
-          "Uproar",
+          "Seed Bomb",
+          "Bounce",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
+          "Block",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
+          "Superpower",
+          "Electroweb",
           "Icy Wind",
-          "Zen Headbutt",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Role Play",
-          "After You",
+          "Heal Bell",
+          "Tailwind",
+          "Drain Punch",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Trick",
           "Wonder Room",
-          "Endeavor",
           "Recycle",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26732,22 +28794,34 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Seed Bomb",
           "Bounce",
-          "Uproar",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
+          "Superpower",
           "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Bind",
           "Snore",
+          "Knock Off",
           "Role Play",
           "Heal Bell",
-          "Pain Split",
+          "Tailwind",
+          "Drain Punch",
+          "Gastro Acid",
           "Helping Hand",
-          "Endeavor",
           "Recycle",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26870,19 +28944,28 @@ overrides = {
           "Bulldoze"
         ],
         "tutors": [
-          "Covet",
-          "Signal Beam",
-          "Uproar",
+          "Seed Bomb",
           "Magic Coat",
+          "Iron Defense",
           "Last Resort",
-          "Zen Headbutt",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
           "After You",
-          "Trick",
-          "Endeavor",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27009,7 +29092,7 @@ overrides = {
           "Air Slash",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -27030,22 +29113,28 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Covet",
-          "Signal Beam",
+          "Seed Bomb",
           "Magic Coat",
+          "Iron Defense",
           "Last Resort",
-          "Zen Headbutt",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
+          "Bind",
           "Snore",
-          "Heat Wave",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
           "Tailwind",
-          "Drain Punch",
+          "Pain Split",
           "Roost",
+          "Gastro Acid",
           "After You",
-          "Trick",
-          "Endeavor",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27180,7 +29269,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunderbolt",
@@ -27197,16 +29286,29 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Seed Bomb",
+          "Bounce",
+          "Uproar",
           "Magic Coat",
+          "Block",
+          "Earth Power",
+          "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Snore",
+          "Knock Off",
           "Heat Wave",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
           "Pain Split",
-          "Giga Drain",
           "Roost",
-          "Trick",
-          "Magic Room",
+          "After You",
+          "Helping Hand",
+          "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -27349,7 +29451,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunderbolt",
@@ -27367,18 +29469,29 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Seed Bomb",
+          "Bounce",
+          "Uproar",
           "Magic Coat",
-          "Foul Play",
+          "Block",
+          "Earth Power",
+          "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Snore",
+          "Knock Off",
           "Heat Wave",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Sky Attack",
           "Pain Split",
-          "Giga Drain",
           "Roost",
-          "Trick",
-          "Magic Room",
+          "After You",
+          "Helping Hand",
+          "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -27508,13 +29621,31 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
           "Signal Beam",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
           "Magnet Rise",
+          "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "After You",
-          "Sleep Talk"
+          "Helping Hand",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27662,15 +29793,31 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
           "Magnet Rise",
+          "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "After You",
-          "Sleep Talk"
+          "Helping Hand",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27841,16 +29988,31 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
           "Magnet Rise",
+          "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "After You",
+          "Helping Hand",
+          "Trick",
+          "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -28001,7 +30163,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -28023,18 +30185,32 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Uproar",
+          "Bounce",
+          "Thunder Punch",
           "Fire Punch",
+          "Earth Power",
+          "Magnet Rise",
+          "Superpower",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
+          "Roost",
           "Gastro Acid",
-          "Worry Seed",
-          "After You",
-          "Sleep Talk"
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -28192,18 +30368,25 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Covet",
           "Bounce",
           "Ice Punch",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
-          "Helping Hand",
-          "Sleep Talk"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -28375,18 +30558,25 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Covet",
           "Bounce",
           "Ice Punch",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
-          "Helping Hand",
-          "Sleep Talk"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -28410,7 +30600,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 80,
         "at": 100,
         "df": 125,
         "sa": 30,
@@ -28432,11 +30622,11 @@ overrides = {
             "Tickle"
           ],
           [
-            1,
-            "Low Kick"
+            3,
+            "Counter"
           ],
           [
-            4,
+            5,
             "Accelerock"
           ],
           [
@@ -28445,23 +30635,23 @@ overrides = {
           ],
           [
             10,
-            "Counter"
+            "Copycat"
           ],
           [
             13,
-            "Rock Throw"
+            "Rock Tomb"
           ],
           [
             18,
-            "Block"
+            "Defense Curl"
           ],
           [
-            21,
+            20,
             "Nature Power"
           ],
           [
-            23,
-            "Rock Tomb"
+            22,
+            "Rollout"
           ],
           [
             26,
@@ -28477,19 +30667,19 @@ overrides = {
           ],
           [
             30,
-            "Copycat"
-          ],
-          [
-            33,
-            "Natural Gift"
-          ],
-          [
-            36,
             "Seed Bomb"
           ],
           [
-            40,
+            33,
+            "Block"
+          ],
+          [
+            36,
             "Double-Edge"
+          ],
+          [
+            40,
+            "Rock Climb"
           ],
           [
             43,
@@ -28500,19 +30690,19 @@ overrides = {
             "Sucker Punch"
           ],
           [
-            54,
-            "Baton Pass"
+            48,
+            "Parting Shot"
           ],
           [
-            60,
+            54,
             "Head Smash"
           ],
           [
-            65,
+            60,
             "Wood Hammer"
           ],
           [
-            73,
+            65,
             "Rock Wrecker"
           ]
         ],
@@ -28548,18 +30738,31 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Super Fang",
+          "Drill Run",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
           "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Synthesis",
           "Role Play",
-          "After You",
-          "Helping Hand",
-          "Stealth Rock",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -28569,7 +30772,7 @@ overrides = {
         "Sap Sipper"
       ],
       "evoType": "level",
-      "evoLevel": 25
+      "evoLevel": 26
     },
     "Politoed": {
       "name": "Politoed",
@@ -28723,15 +30926,30 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
           "Bounce",
           "Ice Punch",
+          "Block",
           "Superpower",
           "Icy Wind",
-          "Hyper Voice",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
           "Snore",
-          "Helping Hand",
-          "Endeavor",
-          "Sleep Talk"
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -28849,7 +31067,7 @@ overrides = {
           "Move $904",
           "Knock Off",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Brick Break",
@@ -28863,14 +31081,28 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Bounce",
+          "Magic Coat",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
           "Worry Seed",
-          "Helping Hand",
-          "Sleep Talk"
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -28994,7 +31226,7 @@ overrides = {
           "Move $904",
           "Knock Off",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Brick Break",
@@ -29008,14 +31240,28 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Bounce",
+          "Magic Coat",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
           "Worry Seed",
-          "Helping Hand",
-          "Sleep Talk"
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29153,7 +31399,7 @@ overrides = {
           "Move $904",
           "Knock Off",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Brick Break",
@@ -29169,14 +31415,28 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Bounce",
+          "Magic Coat",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
           "Worry Seed",
-          "Helping Hand",
-          "Sleep Talk"
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29258,7 +31518,7 @@ overrides = {
           ],
           [
             35,
-            "Dual Chop"
+            "Tail Slap"
           ],
           [
             39,
@@ -29279,7 +31539,7 @@ overrides = {
           "Magical Leaf",
           "Dizzy Punch",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -29300,24 +31560,34 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bug Bite",
           "Covet",
-          "Seed Bomb",
           "Bounce",
           "Low Kick",
           "Gunk Shot",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Last Resort",
+          "Magnet Rise",
+          "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29452,18 +31722,25 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Uproar",
+          "Covet",
           "Earth Power",
+          "Dark Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
           "Heat Wave",
-          "Giga Drain",
-          "Worry Seed",
-          "After You",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
+          "Magic Room",
           "Endeavor",
-          "Sleep Talk"
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29607,18 +31884,25 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Uproar",
+          "Covet",
           "Earth Power",
+          "Dark Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
           "Heat Wave",
-          "Giga Drain",
-          "Worry Seed",
-          "After You",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
+          "Magic Room",
           "Endeavor",
-          "Sleep Talk"
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29733,7 +32017,7 @@ overrides = {
           "Knock Off",
           "Drain Punch",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -29750,12 +32034,28 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
+          "Seed Bomb",
+          "Bounce",
           "Uproar",
-          "Snore",
+          "Earth Power",
+          "Electroweb",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Roost",
-          "Sleep Talk"
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29861,6 +32161,7 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Shock Wave",
           "Knock Off",
           "Magical Leaf",
@@ -29885,14 +32186,23 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Drill Run",
           "Ice Punch",
           "Earth Power",
+          "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -30052,14 +32362,24 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Drill Run",
           "Ice Punch",
           "Earth Power",
+          "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
           "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -30209,16 +32529,42 @@ overrides = {
         "tutors": [
           "Covet",
           "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Low Kick",
+          "Uproar",
           "Magic Coat",
-          "Last Resort",
+          "Block",
+          "Earth Power",
+          "Foul Play",
+          "Magnet Rise",
+          "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
           "Trick",
           "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -30362,19 +32708,45 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Low Kick",
+          "Uproar",
+          "Magic Coat",
+          "Block",
+          "Earth Power",
           "Foul Play",
-          "Last Resort",
+          "Magnet Rise",
+          "Aqua Tail",
           "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
           "Helping Hand",
-          "Wonder Room",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -30503,7 +32875,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -30521,16 +32893,23 @@ overrides = {
         "tutors": [
           "Uproar",
           "Foul Play",
-          "Icy Wind",
           "Dark Pulse",
-          "Knock Off",
-          "Heat Wave",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -30694,21 +33073,35 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
+          "Drill Run",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
-          "Foul Play",
-          "Iron Defense",
+          "Gravity",
+          "Magnet Rise",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Drain Punch",
           "After You",
-          "Trick",
           "Wonder Room",
+          "Outrage",
           "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -30834,7 +33227,7 @@ overrides = {
           "Dizzy Punch",
           "Hidden Power",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -30848,19 +33241,23 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
+          "Super Fang",
+          "Seed Bomb",
           "Uproar",
           "Magic Coat",
-          "Foul Play",
-          "Icy Wind",
+          "Block",
+          "Gravity",
           "Dark Pulse",
-          "Hyper Voice",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
           "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
-          "Trick",
-          "Magic Room",
-          "Wonder Room",
+          "Helping Hand",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -30880,7 +33277,8 @@ overrides = {
       "name": "Unown",
       "num": 201,
       "types": [
-        "Psychic"
+        "Psychic",
+        "Ghost"
       ],
       "items": [
         "None",
@@ -30893,7 +33291,7 @@ overrides = {
         "df": 78,
         "sa": 102,
         "sd": 78,
-        "sp": 102
+        "sp": 78
       },
       "learnset_info": {
         "learnset": [
@@ -30977,12 +33375,34 @@ overrides = {
           "Rest",
           "Gunk Shot"
         ],
-        "tutors": []
+        "tutors": [
+          "Super Fang",
+          "Signal Beam",
+          "Seed Bomb",
+          "Uproar",
+          "Magic Coat",
+          "Block",
+          "Earth Power",
+          "Gravity",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Recycle",
+          "Snatch",
+          "Skill Swap"
+        ]
       },
       "abs": [
         "Levitate",
-        " -",
-        " -"
+        "Levitate",
+        "Levitate"
       ]
     },
     "Wobbuffet": {
@@ -31211,18 +33631,34 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
-          "Uproar",
+          "Iron Head",
+          "Seed Bomb",
+          "Bounce",
+          "Low Kick",
           "Magic Coat",
+          "Block",
+          "Earth Power",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
-          "Trick",
-          "Recycle",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -31357,14 +33793,26 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Covet",
+          "Signal Beam",
+          "Iron Head",
           "Drill Run",
           "Gravity",
           "Iron Defense",
-          "Snore",
+          "Last Resort",
+          "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -31532,17 +33980,26 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Covet",
           "Signal Beam",
+          "Iron Head",
           "Drill Run",
-          "Block",
           "Gravity",
-          "Magnet Rise",
           "Iron Defense",
-          "Snore",
+          "Last Resort",
+          "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -31713,20 +34170,32 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Drill Run",
+          "Bounce",
           "Magic Coat",
+          "Earth Power",
           "Last Resort",
+          "Electroweb",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
           "Bind",
-          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
           "Pain Split",
+          "Giga Drain",
           "Roost",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -31857,7 +34326,7 @@ overrides = {
           "Venoshock",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -31882,15 +34351,23 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Dual Chop",
+          "Drill Run",
+          "Bounce",
+          "Gunk Shot",
           "Earth Power",
           "Aqua Tail",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Stealth Rock",
+          "Worry Seed",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -32050,14 +34527,21 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
           "Dark Pulse",
-          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Stealth Rock",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -32207,18 +34691,31 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Super Fang",
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magnet Rise",
           "Last Resort",
           "Superpower",
-          "Hyper Voice",
-          "Snore",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
           "Heal Bell",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -32393,20 +34890,31 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Super Fang",
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magnet Rise",
           "Last Resort",
           "Superpower",
-          "Hyper Voice",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
           "Heal Bell",
-          "Outrage",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -32540,6 +35048,7 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Dizzy Punch",
           "Taunt",
@@ -32563,14 +35072,30 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Signal Beam",
           "Bounce",
           "Gunk Shot",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
           "Aqua Tail",
-          "Snore",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
           "Pain Split",
-          "Sleep Talk"
+          "Giga Drain",
+          "Worry Seed",
+          "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -32697,7 +35222,7 @@ overrides = {
           "Knock Off",
           "Venoshock",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -32720,13 +35245,25 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Dual Chop",
+          "Signal Beam",
           "Iron Head",
-          "Iron Defense",
+          "Low Kick",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -32873,15 +35410,27 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Signal Beam",
           "Earth Power",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Bind",
-          "Snore",
           "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
-          "After You",
+          "Worry Seed",
           "Helping Hand",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33013,7 +35562,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -33039,13 +35588,28 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Signal Beam",
+          "Iron Head",
+          "Drill Run",
           "Low Kick",
-          "Iron Defense",
           "Superpower",
-          "Snore",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Knock Off",
-          "Helping Hand",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33159,7 +35723,7 @@ overrides = {
           "Dizzy Punch",
           "Venoshock",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -33184,15 +35748,22 @@ overrides = {
         ],
         "tutors": [
           "Low Kick",
+          "Uproar",
           "Ice Punch",
           "Foul Play",
-          "Icy Wind",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Spite",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -33322,7 +35893,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -33345,22 +35916,39 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
+          "Low Kick",
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
           "Last Resort",
           "Superpower",
+          "Electroweb",
+          "Dark Pulse",
           "Hyper Voice",
-          "Snore",
-          "Sleep Talk"
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Guts",
         "Quick Feet",
-        "Anger Point"
+        "Vital Spirit"
       ],
       "evos": [
         "Ursaring"
@@ -33499,7 +36087,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -33525,18 +36113,33 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
           "Low Kick",
           "Gunk Shot",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
           "Last Resort",
           "Superpower",
+          "Electroweb",
+          "Dark Pulse",
           "Hyper Voice",
-          "Snore",
-          "Sleep Talk"
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33675,11 +36278,19 @@ overrides = {
         "tutors": [
           "Earth Power",
           "Iron Defense",
-          "Snore",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "After You",
-          "Sleep Talk"
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33839,12 +36450,19 @@ overrides = {
         "tutors": [
           "Earth Power",
           "Iron Defense",
-          "Snore",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "After You",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33979,13 +36597,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
+          "Drill Run",
+          "Uproar",
           "Earth Power",
-          "Superpower",
-          "Icy Wind",
-          "Snore",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34134,13 +36763,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
+          "Drill Run",
+          "Uproar",
           "Earth Power",
-          "Superpower",
-          "Icy Wind",
-          "Snore",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34167,7 +36807,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 65,
+        "hp": 75,
         "at": 85,
         "df": 115,
         "sa": 65,
@@ -34186,11 +36826,11 @@ overrides = {
           ],
           [
             1,
-            "Water Gun"
+            "Rock Throw"
           ],
           [
             4,
-            "Rock Throw"
+            "Refresh"
           ],
           [
             9,
@@ -34222,7 +36862,7 @@ overrides = {
           ],
           [
             28,
-            "Refresh"
+            "Recover"
           ],
           [
             30,
@@ -34253,20 +36893,20 @@ overrides = {
             "Body Press"
           ],
           [
-            55,
-            "Recover"
+            53,
+            "Baneful Bunker"
           ],
           [
-            60,
-            "Gunk Shot"
-          ],
-          [
-            65,
+            57,
             "Head Smash"
           ],
           [
-            71,
-            "Baneful Bunker"
+            65,
+            "Gunk Shot"
+          ],
+          [
+            70,
+            "Heal Bell"
           ]
         ],
         "tms": [
@@ -34308,14 +36948,29 @@ overrides = {
           "Storm Throw"
         ],
         "tutors": [
+          "Iron Head",
+          "Drill Run",
+          "Gunk Shot",
+          "Uproar",
           "Magic Coat",
           "Earth Power",
           "Iron Defense",
+          "Last Resort",
           "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Helping Hand",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34460,13 +37115,28 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Covet",
           "Signal Beam",
-          "Seed Bomb",
           "Bounce",
           "Gunk Shot",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Snore",
-          "Sleep Talk"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34641,14 +37311,28 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Covet",
           "Signal Beam",
-          "Seed Bomb",
           "Bounce",
           "Gunk Shot",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34777,7 +37461,7 @@ overrides = {
           "Psychic Fangs",
           "Knock Off",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -34794,15 +37478,27 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Signal Beam",
-          "Seed Bomb",
           "Bounce",
-          "Gunk Shot",
+          "Uproar",
           "Ice Punch",
-          "Icy Wind",
-          "Sky Attack",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Magic Room",
           "Recycle",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34917,7 +37613,7 @@ overrides = {
           "Shock Wave",
           "Knock Off",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -34938,16 +37634,22 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Iron Head",
-          "Seed Bomb",
           "Bounce",
-          "Gunk Shot",
-          "Icy Wind",
+          "Uproar",
+          "Block",
           "Aqua Tail",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
-          "Helping Hand",
-          "Sleep Talk"
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -35066,7 +37768,7 @@ overrides = {
           "Shock Wave",
           "Knock Off",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -35091,13 +37793,18 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
-          "Iron Defense",
-          "Icy Wind",
+          "Gunk Shot",
           "Dark Pulse",
-          "Snore",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Stealth Rock",
+          "Worry Seed",
+          "After You",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -35162,24 +37869,24 @@ overrides = {
             "Snarl"
           ],
           [
-            24,
-            "Fire Fang"
+            23,
+            "Beat Up"
           ],
           [
-            24,
+            27,
             "Poison Fang"
           ],
           [
-            24,
+            27,
             "Thunder Fang"
           ],
           [
             27,
-            "Foul Play"
+            "Fire Fang"
           ],
           [
             30,
-            "Scary Face"
+            "Foul Play"
           ],
           [
             33,
@@ -35232,17 +37939,20 @@ overrides = {
         ],
         "tutors": [
           "Super Fang",
-          "Uproar",
           "Foul Play",
           "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Spite",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -35309,24 +38019,24 @@ overrides = {
             "Snarl"
           ],
           [
-            24,
+            23,
+            "Beat Up"
+          ],
+          [
+            27,
             "Poison Fang"
           ],
           [
-            24,
-            "Poison Fang"
-          ],
-          [
-            24,
+            27,
             "Thunder Fang"
           ],
           [
             27,
-            "Foul Play"
+            "Fire Fang"
           ],
           [
             30,
-            "Scary Face"
+            "Foul Play"
           ],
           [
             33,
@@ -35401,17 +38111,20 @@ overrides = {
         ],
         "tutors": [
           "Super Fang",
-          "Uproar",
           "Foul Play",
           "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Spite",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -35420,7 +38133,7 @@ overrides = {
         "Unnerve"
       ],
       "evoType": "level",
-      "evoLevel": 24
+      "evoLevel": 23
     },
     "Kingdra": {
       "name": "Kingdra",
@@ -35551,6 +38264,7 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Dragon Claw",
           "Psyshock",
           "Knock Off",
@@ -35574,10 +38288,22 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Bounce",
+          "Uproar",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
-          "Snore",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Magic Room",
           "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -35660,7 +38386,7 @@ overrides = {
           ],
           [
             36,
-            "Obstruct"
+            "Wide Guard"
           ],
           [
             39,
@@ -35712,18 +38438,23 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
           "Gunk Shot",
           "Earth Power",
-          "Last Resort",
-          "Superpower",
+          "Magnet Rise",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -35806,7 +38537,7 @@ overrides = {
           ],
           [
             36,
-            "Obstruct"
+            "Wide Guard"
           ],
           [
             39,
@@ -35872,20 +38603,23 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Bounce",
+          "Iron Head",
+          "Drill Run",
           "Gunk Shot",
           "Earth Power",
-          "Iron Defense",
-          "Last Resort",
-          "Superpower",
+          "Magnet Rise",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -36003,7 +38737,7 @@ overrides = {
           "Knock Off",
           "Drain Punch",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -36017,22 +38751,32 @@ overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Magic Coat",
+          "Block",
           "Foul Play",
           "Gravity",
           "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Electroweb",
-          "Icy Wind",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
           "Trick",
-          "Wonder Room",
           "Recycle",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -36207,17 +38951,31 @@ overrides = {
           "Bug Buzz"
         ],
         "tutors": [
-          "Signal Beam",
+          "Super Fang",
+          "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
           "Bounce",
+          "Low Kick",
           "Uproar",
+          "Magic Coat",
+          "Block",
+          "Foul Play",
           "Gravity",
+          "Magnet Rise",
           "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Role Play",
-          "Spite",
-          "Magic Room",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -36362,7 +39120,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Aurora Beam",
@@ -36589,12 +39347,22 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
+          "Iron Head",
+          "Bounce",
           "Low Kick",
-          "Uproar",
-          "Snore",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Superpower",
+          "Dark Pulse",
+          "Bind",
           "Role Play",
-          "Helping Hand",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -36738,7 +39506,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -36759,14 +39527,23 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
+          "Iron Head",
           "Drill Run",
+          "Bounce",
           "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Superpower",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
           "Role Play",
-          "Helping Hand",
-          "Endeavor",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -36902,20 +39679,25 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
-          "Covet",
-          "Signal Beam",
+          "Seed Bomb",
           "Uproar",
           "Ice Punch",
           "Magic Coat",
-          "Icy Wind",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Snore",
           "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Trick",
           "Magic Room",
           "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -37041,20 +39823,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Dual Chop",
-          "Signal Beam",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Magnet Rise",
-          "Electroweb",
+          "Superpower",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Helping Hand",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -37181,17 +39968,29 @@ overrides = {
           "Bulldoze"
         ],
         "tutors": [
-          "Covet",
           "Dual Chop",
+          "Low Kick",
           "Gunk Shot",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
+          "Earth Power",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -37350,18 +40149,33 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
+          "Drill Run",
+          "Bounce",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
           "Icy Wind",
-          "Zen Headbutt",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
           "Bind",
           "Snore",
+          "Role Play",
           "Heal Bell",
-          "After You",
-          "Helping Hand",
-          "Stealth Rock",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -37519,23 +40333,33 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Iron Head",
+          "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Zen Headbutt",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Endeavor",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
           "Recycle",
           "Snatch",
-          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -37901,6 +40725,7 @@ overrides = {
           "Move $856",
           "Move $862",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Magical Leaf",
           "Dizzy Punch",
@@ -38050,17 +40875,32 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Uproar",
+          "Drill Run",
+          "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Earth Power",
-          "Iron Defense",
           "Superpower",
+          "Aqua Tail",
           "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
+          "Helping Hand",
           "Outrage",
+          "Snatch",
           "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -38194,17 +41034,32 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Uproar",
+          "Drill Run",
+          "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Earth Power",
-          "Iron Defense",
           "Superpower",
+          "Aqua Tail",
           "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
+          "Helping Hand",
           "Outrage",
+          "Snatch",
           "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -38342,7 +41197,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Shadow Ball",
@@ -38367,24 +41222,32 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
+          "Drill Run",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Foul Play",
-          "Iron Defense",
           "Superpower",
           "Aqua Tail",
           "Dark Pulse",
-          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
+          "Helping Hand",
           "Outrage",
+          "Snatch",
           "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -38508,7 +41371,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -38669,7 +41532,7 @@ overrides = {
           "Ice Beam",
           "Psycho Cut",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -38811,7 +41674,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -38898,24 +41761,24 @@ overrides = {
             "Quick Attack"
           ],
           [
-            5,
+            6,
             "Mega Drain"
           ],
           [
             9,
-            "Pursuit"
-          ],
-          [
-            13,
-            "Double Team"
-          ],
-          [
-            16,
             "Breaking Swipe"
           ],
           [
-            19,
+            13,
             "Trop Kick"
+          ],
+          [
+            16,
+            "Double Team"
+          ],
+          [
+            19,
+            "U-turn"
           ],
           [
             22,
@@ -38961,7 +41824,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -38985,19 +41848,30 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
+          "Frenzy Plant",
           "Draco Meteor",
+          "Bug Bite",
           "Dual Chop",
-          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
+          "Superpower",
+          "Electroweb",
+          "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Drain Punch",
           "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
           "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -39049,24 +41923,24 @@ overrides = {
             "Quick Attack"
           ],
           [
-            5,
+            6,
             "Mega Drain"
           ],
           [
             9,
-            "Pursuit"
-          ],
-          [
-            13,
-            "Double Team"
-          ],
-          [
-            16,
             "Breaking Swipe"
           ],
           [
-            19,
+            13,
             "Trop Kick"
+          ],
+          [
+            16,
+            "Double Team"
+          ],
+          [
+            19,
+            "U-turn"
           ],
           [
             22,
@@ -39102,11 +41976,11 @@ overrides = {
           ],
           [
             54,
-            "U-turn"
+            "Detect"
           ],
           [
             60,
-            "Detect"
+            "Clanging Scales"
           ]
         ],
         "tms": [
@@ -39120,7 +41994,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -39145,19 +42019,30 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
+          "Frenzy Plant",
           "Draco Meteor",
+          "Bug Bite",
           "Dual Chop",
-          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
+          "Superpower",
+          "Electroweb",
+          "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Drain Punch",
           "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
           "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -39211,24 +42096,24 @@ overrides = {
             "Quick Attack"
           ],
           [
-            5,
+            6,
             "Mega Drain"
           ],
           [
             9,
-            "Pursuit"
-          ],
-          [
-            13,
-            "Double Team"
-          ],
-          [
-            16,
             "Breaking Swipe"
           ],
           [
-            19,
+            13,
             "Trop Kick"
+          ],
+          [
+            16,
+            "Double Team"
+          ],
+          [
+            19,
+            "U-turn"
           ],
           [
             22,
@@ -39264,11 +42149,11 @@ overrides = {
           ],
           [
             54,
-            "U-turn"
+            "Detect"
           ],
           [
             60,
-            "Detect"
+            "Clanging Scales"
           ],
           [
             64,
@@ -39301,7 +42186,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -39331,19 +42216,28 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
+          "Bug Bite",
           "Dual Chop",
-          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
+          "Superpower",
+          "Electroweb",
+          "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Drain Punch",
           "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
           "Endeavor",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -39386,7 +42280,7 @@ overrides = {
           ],
           [
             4,
-            "Peck"
+            "Pluck"
           ],
           [
             7,
@@ -39398,7 +42292,7 @@ overrides = {
           ],
           [
             13,
-            "Pluck"
+            "Flame Burst"
           ],
           [
             16,
@@ -39406,7 +42300,7 @@ overrides = {
           ],
           [
             19,
-            "Flame Burst"
+            "Aerial Ace"
           ],
           [
             22,
@@ -39454,7 +42348,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -39479,13 +42373,28 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
+          "Blast Burn",
+          "Bug Bite",
+          "Dual Chop",
           "Bounce",
           "Low Kick",
-          "Last Resort",
-          "Snore",
+          "Thunder Punch",
+          "Fire Punch",
+          "Superpower",
+          "Dark Pulse",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -39529,7 +42438,7 @@ overrides = {
           ],
           [
             4,
-            "Peck"
+            "Pluck"
           ],
           [
             7,
@@ -39541,7 +42450,7 @@ overrides = {
           ],
           [
             13,
-            "Pluck"
+            "Flame Burst"
           ],
           [
             16,
@@ -39549,7 +42458,7 @@ overrides = {
           ],
           [
             19,
-            "Flame Burst"
+            "Aerial Ace"
           ],
           [
             22,
@@ -39605,7 +42514,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -39633,16 +42542,28 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
+          "Blast Burn",
+          "Bug Bite",
           "Dual Chop",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
-          "Last Resort",
-          "Snore",
+          "Superpower",
+          "Dark Pulse",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -39688,7 +42609,7 @@ overrides = {
           ],
           [
             4,
-            "Peck"
+            "Pluck"
           ],
           [
             7,
@@ -39700,7 +42621,7 @@ overrides = {
           ],
           [
             13,
-            "Pluck"
+            "Flame Burst"
           ],
           [
             16,
@@ -39708,7 +42629,7 @@ overrides = {
           ],
           [
             19,
-            "Flame Burst"
+            "Aerial Ace"
           ],
           [
             22,
@@ -39786,7 +42707,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -39817,19 +42738,27 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
+          "Bug Bite",
           "Dual Chop",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
-          "Last Resort",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Bind",
           "Heat Wave",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -39871,7 +42800,7 @@ overrides = {
           ],
           [
             3,
-            "Mud-Slap"
+            "Barrage"
           ],
           [
             7,
@@ -39894,12 +42823,12 @@ overrides = {
             "Rock Tomb"
           ],
           [
-            24,
-            "Amnesia"
+            23,
+            "Muddy Water"
           ],
           [
             27,
-            "Muddy Water"
+            "Amnesia"
           ],
           [
             31,
@@ -39926,6 +42855,7 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Magical Leaf",
           "Taunt",
@@ -39947,19 +42877,32 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
+          "Hydro Cannon",
+          "Drill Run",
           "Low Kick",
+          "Uproar",
+          "Ice Punch",
+          "Block",
           "Earth Power",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Endeavor",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
       "abs": [
-        "Sheer Force",
+        "Torrent",
         "Forewarn",
         "Swift Swim"
       ],
@@ -39999,7 +42942,7 @@ overrides = {
           ],
           [
             3,
-            "Mud-Slap"
+            "Barrage"
           ],
           [
             7,
@@ -40022,12 +42965,12 @@ overrides = {
             "Rock Tomb"
           ],
           [
-            24,
-            "Amnesia"
+            23,
+            "Muddy Water"
           ],
           [
             27,
-            "Muddy Water"
+            "Amnesia"
           ],
           [
             31,
@@ -40066,6 +43009,7 @@ overrides = {
           "Move $859",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Shock Wave",
           "Knock Off",
           "Magical Leaf",
@@ -40091,21 +43035,32 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
+          "Hydro Cannon",
+          "Drill Run",
           "Low Kick",
+          "Uproar",
           "Ice Punch",
+          "Block",
           "Earth Power",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Endeavor",
-          "Stealth Rock",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
       "abs": [
-        "Sheer Force",
+        "Torrent",
         "Forewarn",
         "Swift Swim"
       ],
@@ -40170,12 +43125,12 @@ overrides = {
             "Rock Tomb"
           ],
           [
-            24,
-            "Amnesia"
+            23,
+            "Muddy Water"
           ],
           [
             27,
-            "Muddy Water"
+            "Amnesia"
           ],
           [
             31,
@@ -40231,6 +43186,7 @@ overrides = {
           "Move $856",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Shock Wave",
           "Knock Off",
           "Magical Leaf",
@@ -40260,17 +43216,26 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
+          "Drill Run",
           "Low Kick",
+          "Uproar",
           "Ice Punch",
+          "Block",
           "Earth Power",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Endeavor",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
           "Outrage",
-          "Stealth Rock",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -40399,17 +43364,19 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
-          "Super Fang",
-          "Uproar",
           "Foul Play",
           "Dark Pulse",
-          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Spite",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -40555,16 +43522,19 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Super Fang",
-          "Uproar",
           "Foul Play",
           "Dark Pulse",
-          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Spite",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -40688,17 +43658,28 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Super Fang",
-          "Seed Bomb",
+          "Dual Chop",
+          "Iron Head",
+          "Drill Run",
           "Gunk Shot",
-          "Last Resort",
+          "Magnet Rise",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Helping Hand",
-          "Trick",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -40847,17 +43828,28 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Super Fang",
-          "Seed Bomb",
+          "Dual Chop",
+          "Iron Head",
+          "Drill Run",
           "Gunk Shot",
-          "Last Resort",
+          "Magnet Rise",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Helping Hand",
-          "Trick",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -40914,7 +43906,9 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Electroweb",
-          "Snore"
+          "Snore",
+          "Pain Split",
+          "Endeavor"
         ]
       },
       "abs": [
@@ -40975,8 +43969,29 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Signal Beam",
+          "Magic Coat",
+          "Block",
           "Iron Defense",
-          "Electroweb"
+          "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -41099,7 +44114,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -41122,18 +44137,34 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
+          "Magic Coat",
+          "Block",
+          "Iron Defense",
           "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
-        "Chlorophyll",
+        "Rivalry",
         "Majestic Ward",
-        "Rivalry"
+        "Chlorophyll"
       ],
       "evoType": "level",
       "evoLevel": 18
@@ -41186,8 +44217,29 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Signal Beam",
+          "Gunk Shot",
+          "Magic Coat",
+          "Block",
           "Iron Defense",
-          "Electroweb"
+          "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -41310,7 +44362,7 @@ overrides = {
           "Dizzy Punch",
           "Hidden Power",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -41332,12 +44384,30 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
+          "Gunk Shot",
+          "Magic Coat",
+          "Block",
+          "Iron Defense",
           "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -41441,14 +44511,28 @@ overrides = {
           "Thunder Wave"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Uproar",
-          "Icy Wind",
-          "Zen Headbutt",
-          "Snore",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -41580,19 +44664,28 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Icy Wind",
-          "Zen Headbutt",
-          "Hyper Voice",
-          "Snore",
+          "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Sleep Talk"
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -41746,19 +44839,28 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Icy Wind",
-          "Zen Headbutt",
-          "Hyper Voice",
-          "Snore",
+          "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Sleep Talk"
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -41783,9 +44885,9 @@ overrides = {
       ],
       "bs": {
         "hp": 40,
-        "at": 50,
+        "at": 70,
         "df": 100,
-        "sa": 50,
+        "sa": 30,
         "sd": 50,
         "sp": 30
       },
@@ -41857,14 +44959,30 @@ overrides = {
           "Bulldoze"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Bounce",
+          "Low Kick",
+          "Thunder Punch",
           "Foul Play",
-          "Snore",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
+          "Gastro Acid",
           "Worry Seed",
-          "Spite",
-          "Sleep Talk"
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42003,16 +45121,30 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Bounce",
           "Low Kick",
+          "Thunder Punch",
           "Foul Play",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
           "Dark Pulse",
-          "Snore",
+          "Hyper Voice",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
+          "Gastro Acid",
           "Worry Seed",
-          "Spite",
-          "Sleep Talk"
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42156,7 +45288,7 @@ overrides = {
           "Dizzy Punch",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -42181,21 +45313,30 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
           "Bounce",
           "Low Kick",
+          "Thunder Punch",
           "Foul Play",
-          "Icy Wind",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
+          "Hyper Voice",
           "Synthesis",
-          "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Giga Drain",
+          "Gastro Acid",
           "Worry Seed",
-          "Spite",
-          "Sleep Talk"
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42302,7 +45443,7 @@ overrides = {
           "Move $902",
           "Psychic Fangs",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -42315,13 +45456,23 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Hyper Voice",
-          "Snore",
+          "Seed Bomb",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Endeavor",
-          "Sleep Talk"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42444,7 +45595,7 @@ overrides = {
           "Move $902",
           "Psychic Fangs",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -42457,14 +45608,23 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Hyper Voice",
-          "Snore",
+          "Seed Bomb",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Endeavor",
-          "Sleep Talk"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42515,11 +45675,11 @@ overrides = {
           ],
           [
             8,
-            "Defog"
+            "Pluck"
           ],
           [
             11,
-            "Brine"
+            "Chilling Water"
           ],
           [
             14,
@@ -42535,7 +45695,7 @@ overrides = {
           ],
           [
             21,
-            "Water Pulse"
+            "Brine"
           ],
           [
             25,
@@ -42588,7 +45748,7 @@ overrides = {
           "Move $903",
           "Psychic Fangs",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -42605,13 +45765,22 @@ overrides = {
           "Thunder Wave"
         ],
         "tutors": [
+          "Bounce",
           "Uproar",
           "Icy Wind",
-          "Snore",
-          "Knock Off",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42663,11 +45832,11 @@ overrides = {
           ],
           [
             8,
-            "Defog"
+            "Pluck"
           ],
           [
             11,
-            "Brine"
+            "Chilling Water"
           ],
           [
             14,
@@ -42683,7 +45852,7 @@ overrides = {
           ],
           [
             21,
-            "Water Pulse"
+            "Brine"
           ],
           [
             25,
@@ -42752,7 +45921,7 @@ overrides = {
           "Move $903",
           "Psychic Fangs",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -42771,15 +45940,22 @@ overrides = {
           "Thunder Wave"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Gunk Shot",
+          "Bounce",
           "Uproar",
           "Icy Wind",
-          "Snore",
-          "Knock Off",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42914,21 +46090,25 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Icy Wind",
+          "Block",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Hyper Voice",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
           "Pain Split",
-          "Helping Hand",
-          "Trick",
-          "Magic Room",
+          "Gastro Acid",
           "Wonder Room",
-          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -43075,21 +46255,25 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Icy Wind",
+          "Block",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Hyper Voice",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
           "Pain Split",
-          "Helping Hand",
-          "Trick",
-          "Magic Room",
+          "Gastro Acid",
           "Wonder Room",
-          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -43101,7 +46285,7 @@ overrides = {
         "Pixilate"
       ],
       "evoType": "level",
-      "evoLevel": 10,
+      "evoLevel": 18,
       "evos": [
         "Gardevoir",
         "Gallade"
@@ -43266,22 +46450,24 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Icy Wind",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Hyper Voice",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
           "Pain Split",
-          "Helping Hand",
-          "Trick",
-          "Magic Room",
+          "Gastro Acid",
           "Wonder Room",
-          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -43394,10 +46580,19 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
-          "Icy Wind",
-          "Snore",
-          "Giga Drain",
-          "Sleep Talk"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -43541,7 +46736,7 @@ overrides = {
           "Psychic Fangs",
           "Knock Off",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -43563,12 +46758,19 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
-          "Icy Wind",
-          "Snore",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -43674,13 +46876,26 @@ overrides = {
           "Shadow Claw"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Snore",
+          "Covet",
+          "Dual Chop",
+          "Bounce",
+          "Thunder Punch",
+          "Magnet Rise",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Drain Punch",
+          "Gastro Acid",
           "Worry Seed",
-          "Helping Hand",
+          "Wonder Room",
           "Snatch",
           "Sleep Talk"
         ]
@@ -43846,16 +47061,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
+          "Dual Chop",
+          "Bounce",
           "Thunder Punch",
+          "Magnet Rise",
           "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Drain Punch",
+          "Gastro Acid",
           "Worry Seed",
-          "Helping Hand",
+          "Wonder Room",
           "Snatch",
           "Sleep Talk"
         ]
@@ -43960,7 +47185,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -43980,15 +47205,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
-          "Gunk Shot",
+          "Iron Head",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Icy Wind",
-          "Snore",
-          "After You",
-          "Sleep Talk"
+          "Foul Play",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44114,7 +47353,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -44136,16 +47375,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
+          "Iron Head",
           "Low Kick",
-          "Gunk Shot",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Icy Wind",
-          "After You",
-          "Sleep Talk"
+          "Foul Play",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44286,7 +47538,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -44309,16 +47561,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
+          "Iron Head",
           "Low Kick",
-          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Icy Wind",
-          "Snore",
-          "After You",
-          "Sleep Talk"
+          "Foul Play",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44399,7 +47664,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -44417,10 +47682,26 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Snore",
-          "Giga Drain",
-          "Spite",
-          "Sleep Talk"
+          "Dual Chop",
+          "Signal Beam",
+          "Drill Run",
+          "Earth Power",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Worry Seed",
+          "After You",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44530,7 +47811,7 @@ overrides = {
           "Magical Leaf",
           "Dizzy Punch",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -44550,12 +47831,26 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Uproar",
-          "Snore",
-          "Giga Drain",
+          "Dual Chop",
+          "Signal Beam",
+          "Drill Run",
+          "Earth Power",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Spite",
-          "Sleep Talk"
+          "Worry Seed",
+          "After You",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44579,12 +47874,12 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 1,
-        "at": 125,
-        "df": 1,
-        "sa": 125,
-        "sd": 1,
-        "sp": 110
+        "hp": 31,
+        "at": 90,
+        "df": 70,
+        "sa": 119,
+        "sd": 70,
+        "sp": 108
       },
       "learnset_info": {
         "learnset": [
@@ -44666,7 +47961,7 @@ overrides = {
           "Dizzy Punch",
           "Venoshock",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -44688,11 +47983,26 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Snore",
-          "Giga Drain",
-          "Spite",
+          "Dual Chop",
+          "Signal Beam",
+          "Drill Run",
+          "Earth Power",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Worry Seed",
+          "After You",
           "Trick",
-          "Sleep Talk"
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44815,16 +48125,35 @@ overrides = {
           "Shadow Claw"
         ],
         "tutors": [
-          "Uproar",
+          "Seed Bomb",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
+          "Superpower",
           "Icy Wind",
-          "Zen Headbutt",
-          "Hyper Voice",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
           "Endeavor",
-          "Sleep Talk"
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44979,17 +48308,35 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Seed Bomb",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
+          "Superpower",
           "Icy Wind",
-          "Zen Headbutt",
-          "Hyper Voice",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
           "Endeavor",
-          "Sleep Talk"
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45156,18 +48503,35 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Seed Bomb",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
+          "Superpower",
           "Icy Wind",
-          "Zen Headbutt",
-          "Hyper Voice",
-          "Snore",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
           "Endeavor",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45285,12 +48649,21 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magnet Rise",
           "Superpower",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Knock Off",
           "Role Play",
-          "Helping Hand",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45439,17 +48812,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magnet Rise",
           "Superpower",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Knock Off",
           "Role Play",
-          "Helping Hand",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45547,16 +48928,25 @@ overrides = {
           "Storm Throw"
         ],
         "tutors": [
-          "Covet",
           "Bounce",
-          "Uproar",
-          "Icy Wind",
+          "Ice Punch",
+          "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
-          "Helping Hand",
-          "Sleep Talk"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45691,19 +49081,28 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
+          "Drill Run",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Magic Coat",
           "Block",
           "Earth Power",
           "Gravity",
           "Magnet Rise",
           "Iron Defense",
-          "Snore",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
           "Pain Split",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Helping Hand",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45847,6 +49246,7 @@ overrides = {
           "Earthquake",
           "Return",
           "Dig",
+          "Flamethrower",
           "Rest",
           "Lunge",
           "Mystical Fire",
@@ -45856,20 +49256,40 @@ overrides = {
           "Teleport",
           "Secret Power",
           "Avalanche",
-          "Bug Buzz"
+          "Bug Buzz",
+          "Bulldoze",
+          "Gyro Ball"
         ],
         "tutors": [
           "Covet",
+          "Super Fang",
+          "Seed Bomb",
           "Uproar",
+          "Magic Coat",
+          "Block",
+          "Magnet Rise",
           "Last Resort",
-          "Icy Wind",
-          "Zen Headbutt",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46041,16 +49461,34 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Super Fang",
+          "Seed Bomb",
           "Uproar",
+          "Magic Coat",
+          "Block",
+          "Magnet Rise",
           "Last Resort",
-          "Icy Wind",
-          "Zen Headbutt",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46196,7 +49634,7 @@ overrides = {
           "Hidden Power",
           "Psycho Cut",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -46217,24 +49655,28 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Signal Beam",
+          "Dual Chop",
           "Low Kick",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Foul Play",
           "Gravity",
-          "Icy Wind",
+          "Magnet Rise",
+          "Superpower",
           "Dark Pulse",
-          "Zen Headbutt",
-          "Snore",
-          "Knock Off",
+          "Bind",
           "Role Play",
-          "Spite",
-          "Trick",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Wonder Room",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -46407,17 +49849,24 @@ overrides = {
           "Ice Punch",
           "Foul Play",
           "Magnet Rise",
-          "Iron Defense",
-          "Last Resort",
+          "Superpower",
           "Icy Wind",
           "Dark Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
           "Snatch",
           "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46528,7 +49977,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -46551,18 +50000,33 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
           "Iron Head",
-          "Uproar",
+          "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Earth Power",
           "Magnet Rise",
-          "Iron Defense",
           "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46689,7 +50153,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -46712,18 +50176,33 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
           "Iron Head",
-          "Uproar",
+          "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Earth Power",
           "Magnet Rise",
-          "Iron Defense",
           "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46874,7 +50353,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -46904,25 +50383,29 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
           "Magnet Rise",
-          "Iron Defense",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
           "Dark Pulse",
-          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
+          "Wonder Room",
           "Outrage",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -47057,21 +50540,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
+          "Seed Bomb",
+          "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Role Play",
+          "Tailwind",
           "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Trick",
+          "Worry Seed",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -47237,21 +50728,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
+          "Seed Bomb",
+          "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Role Play",
+          "Tailwind",
           "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Trick",
+          "Worry Seed",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -47275,7 +50774,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 50,
+        "hp": 65,
         "at": 80,
         "df": 75,
         "sa": 55,
@@ -47395,11 +50894,23 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Uproar",
           "Magnet Rise",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -47564,11 +51075,23 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Uproar",
           "Magnet Rise",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -47721,17 +51244,33 @@ overrides = {
           "Bug Buzz"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Uproar",
           "Thunder Punch",
           "Fire Punch",
+          "Magic Coat",
           "Magnet Rise",
-          "Last Resort",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -47745,7 +51284,7 @@ overrides = {
       "num": 312,
       "types": [
         "Electric",
-        "Water"
+        "Ice"
       ],
       "items": [
         "None",
@@ -47859,6 +51398,7 @@ overrides = {
           "Move $856",
           "Move $862",
           "Move $903",
+          "Psychic Fangs",
           "Dragon Claw",
           "Psyshock",
           "Knock Off",
@@ -47883,15 +51423,33 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Uproar",
           "Thunder Punch",
+          "Fire Punch",
+          "Magic Coat",
           "Magnet Rise",
-          "Last Resort",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48025,7 +51583,7 @@ overrides = {
           "Dizzy Punch",
           "Venoshock",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -48052,14 +51610,29 @@ overrides = {
           "Signal Beam",
           "Thunder Punch",
           "Ice Punch",
-          "Zen Headbutt",
+          "Magic Coat",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
           "Helping Hand",
           "Trick",
-          "Sleep Talk"
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48196,7 +51769,7 @@ overrides = {
           "Dizzy Punch",
           "Venoshock",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -48220,16 +51793,32 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Covet",
+          "Signal Beam",
           "Thunder Punch",
           "Ice Punch",
-          "Zen Headbutt",
+          "Magic Coat",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48354,11 +51943,23 @@ overrides = {
         "tutors": [
           "Covet",
           "Seed Bomb",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Worry Seed",
-          "Sleep Talk"
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48387,7 +51988,7 @@ overrides = {
       "bs": {
         "hp": 70,
         "at": 53,
-        "df": 73,
+        "df": 78,
         "sa": 53,
         "sd": 73,
         "sp": 40
@@ -48396,15 +51997,15 @@ overrides = {
         "learnset": [
           [
             1,
-            "Amnesia"
-          ],
-          [
-            1,
-            "Harden"
-          ],
-          [
-            1,
             "Acid Spray"
+          ],
+          [
+            1,
+            "Explosion"
+          ],
+          [
+            1,
+            "Amnesia"
           ],
           [
             4,
@@ -48412,11 +52013,11 @@ overrides = {
           ],
           [
             8,
-            "Sludge"
+            "Poison Gas"
           ],
           [
             10,
-            "Poison Gas"
+            "Smog"
           ],
           [
             13,
@@ -48428,7 +52029,7 @@ overrides = {
           ],
           [
             18,
-            "Bulldoze"
+            "Seismic Toss"
           ],
           [
             21,
@@ -48444,7 +52045,7 @@ overrides = {
           ],
           [
             29,
-            "Smog"
+            "Sludge Bomb"
           ],
           [
             31,
@@ -48456,11 +52057,27 @@ overrides = {
           ],
           [
             38,
-            "Scald"
+            "Gunk Shot"
           ],
           [
-            40,
-            "Sludge Bomb"
+            41,
+            "Earthquake"
+          ],
+          [
+            44,
+            "Body Press"
+          ],
+          [
+            48,
+            "Curse"
+          ],
+          [
+            52,
+            "Spit Up"
+          ],
+          [
+            56,
+            "Gunk Shot"
           ]
         ],
         "tms": [
@@ -48492,17 +52109,31 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Snore",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
           "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48527,9 +52158,9 @@ overrides = {
       ],
       "bs": {
         "hp": 100,
-        "at": 88,
-        "df": 103,
-        "sa": 88,
+        "at": 83,
+        "df": 108,
+        "sa": 83,
         "sd": 93,
         "sp": 55
       },
@@ -48553,11 +52184,11 @@ overrides = {
           ],
           [
             8,
-            "Sludge"
+            "Poison Gas"
           ],
           [
             10,
-            "Poison Gas"
+            "Smog"
           ],
           [
             13,
@@ -48569,7 +52200,7 @@ overrides = {
           ],
           [
             18,
-            "Bulldoze"
+            "Seismic Toss"
           ],
           [
             21,
@@ -48585,7 +52216,7 @@ overrides = {
           ],
           [
             29,
-            "Smog"
+            "Sludge Bomb"
           ],
           [
             31,
@@ -48597,15 +52228,15 @@ overrides = {
           ],
           [
             38,
-            "Scald"
+            "Gunk Shot"
           ],
           [
-            40,
-            "Sludge Bomb"
+            41,
+            "Earthquake"
           ],
           [
             44,
-            "Earthquake"
+            "Body Press"
           ],
           [
             48,
@@ -48651,18 +52282,31 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Block",
-          "Snore",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
           "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48784,15 +52428,26 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Super Fang",
           "Bounce",
           "Uproar",
-          "Icy Wind",
+          "Magnet Rise",
+          "Aqua Tail",
           "Dark Pulse",
-          "Zen Headbutt",
-          "Snore",
-          "Spite",
-          "Sleep Talk"
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48942,15 +52597,26 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Super Fang",
           "Bounce",
           "Uproar",
-          "Icy Wind",
+          "Magnet Rise",
+          "Aqua Tail",
           "Dark Pulse",
-          "Zen Headbutt",
-          "Snore",
-          "Spite",
-          "Sleep Talk"
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49100,12 +52766,26 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Iron Head",
           "Bounce",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Zen Headbutt",
+          "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49263,12 +52943,24 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Block",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Zen Headbutt",
+          "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49294,16 +52986,16 @@ overrides = {
       "bs": {
         "hp": 110,
         "at": 60,
-        "df": 40,
+        "df": 65,
         "sa": 65,
-        "sd": 65,
+        "sd": 55,
         "sp": 35
       },
       "learnset_info": {
         "learnset": [
           [
             1,
-            "Growl"
+            "Harden"
           ],
           [
             1,
@@ -49311,7 +53003,7 @@ overrides = {
           ],
           [
             1,
-            "Mud-Slap"
+            "Accelerock"
           ],
           [
             4,
@@ -49323,11 +53015,11 @@ overrides = {
           ],
           [
             11,
-            "Mud Shot"
+            "Bulldoze"
           ],
           [
             13,
-            "Poison Gas"
+            "Take Down"
           ],
           [
             17,
@@ -49335,11 +53027,11 @@ overrides = {
           ],
           [
             20,
-            "Take Down"
+            "Poison Gas"
           ],
           [
             22,
-            "Bulldoze"
+            "Scorching Sands"
           ],
           [
             25,
@@ -49355,7 +53047,7 @@ overrides = {
           ],
           [
             34,
-            "Scorching Sands"
+            "Mud Bomb"
           ],
           [
             36,
@@ -49415,12 +53107,24 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
+          "Drill Run",
           "Earth Power",
-          "Snore",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Heat Wave",
-          "After You",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49447,9 +53151,9 @@ overrides = {
       "bs": {
         "hp": 120,
         "at": 100,
-        "df": 70,
+        "df": 95,
         "sa": 105,
-        "sd": 95,
+        "sd": 75,
         "sp": 40
       },
       "learnset_info": {
@@ -49464,7 +53168,7 @@ overrides = {
           ],
           [
             1,
-            "Mud-Slap"
+            "Harden"
           ],
           [
             4,
@@ -49476,11 +53180,11 @@ overrides = {
           ],
           [
             11,
-            "Mud Shot"
+            "Bulldoze"
           ],
           [
             13,
-            "Poison Gas"
+            "Take Down"
           ],
           [
             17,
@@ -49488,11 +53192,11 @@ overrides = {
           ],
           [
             20,
-            "Take Down"
+            "Poison Gas"
           ],
           [
             22,
-            "Bulldoze"
+            "Scorching Sands"
           ],
           [
             25,
@@ -49508,7 +53212,7 @@ overrides = {
           ],
           [
             34,
-            "Scorching Sands"
+            "Mud Bomb"
           ],
           [
             36,
@@ -49587,12 +53291,24 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
+          "Drill Run",
           "Earth Power",
-          "Snore",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Heat Wave",
-          "After You",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49741,14 +53457,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
+          "Drill Run",
           "Earth Power",
           "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
-          "After You",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49858,7 +53586,7 @@ overrides = {
           "Dizzy Punch",
           "Venoshock",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -49875,21 +53603,37 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Bounce",
           "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
-          "Icy Wind",
+          "Block",
+          "Foul Play",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
           "Role Play",
           "Heal Bell",
-          "Trick",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
           "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -50036,7 +53780,7 @@ overrides = {
           "Dizzy Punch",
           "Venoshock",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -50055,23 +53799,37 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Bounce",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Icy Wind",
+          "Block",
+          "Foul Play",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Knock Off",
           "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Trick",
+          "Worry Seed",
+          "Wonder Room",
           "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -50140,27 +53898,27 @@ overrides = {
           ],
           [
             20,
-            "Teeter Dance"
+            "Detect"
           ],
           [
             22,
-            "Uproar"
+            "Extrasensory"
           ],
           [
             25,
-            "Psycho Cut"
+            "Fake Out"
           ],
           [
             28,
-            "Dizzy Punch"
+            "Hyper Voice"
           ],
           [
             31,
-            "Hypnosis"
+            "Feint Attack"
           ],
           [
             34,
-            "Fake Out"
+            "Teeter Dance"
           ],
           [
             37,
@@ -50235,23 +53993,33 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
+          "Super Fang",
+          "Iron Head",
+          "Seed Bomb",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Last Resort",
+          "Block",
+          "Foul Play",
+          "Magnet Rise",
+          "Superpower",
           "Icy Wind",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Hyper Voice",
-          "Snore",
+          "Dragon Pulse",
+          "Bind",
+          "Knock Off",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Trick",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
           "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -50371,13 +54139,35 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Draco Meteor",
           "Bug Bite",
           "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
+          "Thunder Punch",
+          "Fire Punch",
           "Earth Power",
           "Superpower",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
-          "Sleep Talk"
+          "Drain Punch",
+          "Roost",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -50527,16 +54317,32 @@ overrides = {
           "Draco Meteor",
           "Bug Bite",
           "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
+          "Thunder Punch",
+          "Fire Punch",
           "Earth Power",
           "Superpower",
+          "Dark Pulse",
           "Dragon Pulse",
-          "Snore",
+          "Iron Tail",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Giga Drain",
+          "Drain Punch",
           "Roost",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Endeavor",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -50685,7 +54491,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -50711,19 +54517,32 @@ overrides = {
           "Draco Meteor",
           "Bug Bite",
           "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
           "Superpower",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Giga Drain",
+          "Drain Punch",
           "Roost",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Endeavor",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -50858,18 +54677,28 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Drill Run",
           "Low Kick",
+          "Uproar",
           "Thunder Punch",
+          "Earth Power",
+          "Foul Play",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
           "Dark Pulse",
-          "Snore",
+          "Bind",
           "Synthesis",
           "Role Play",
-          "Giga Drain",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
           "Worry Seed",
-          "Spite",
-          "Sleep Talk"
+          "Magic Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51032,20 +54861,28 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Drill Run",
           "Low Kick",
+          "Uproar",
           "Thunder Punch",
+          "Earth Power",
           "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
           "Dark Pulse",
-          "Snore",
+          "Bind",
           "Synthesis",
           "Role Play",
-          "Giga Drain",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
           "Worry Seed",
-          "Spite",
-          "Sleep Talk"
+          "Magic Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51175,7 +55012,7 @@ overrides = {
           "Psychic Fangs",
           "Knock Off",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -51195,16 +55032,28 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
+          "Draco Meteor",
+          "Seed Bomb",
           "Uproar",
+          "Dark Pulse",
           "Dragon Pulse",
-          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Heat Wave",
+          "Role Play",
           "Heal Bell",
           "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
+          "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51355,7 +55204,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -51378,18 +55227,27 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Seed Bomb",
           "Uproar",
+          "Dark Pulse",
           "Dragon Pulse",
-          "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Heat Wave",
+          "Role Play",
           "Heal Bell",
           "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
           "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51533,7 +55391,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -51556,18 +55414,32 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bug Bite",
+          "Dual Chop",
+          "Iron Head",
           "Low Kick",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Last Resort",
+          "Foul Play",
+          "Superpower",
           "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Giga Drain",
-          "Endeavor",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51732,16 +55604,28 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bug Bite",
+          "Dual Chop",
+          "Gunk Shot",
+          "Uproar",
+          "Foul Play",
           "Aqua Tail",
           "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
-          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51908,18 +55792,31 @@ overrides = {
           "Teleport"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
           "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
+          "Uproar",
           "Magic Coat",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Icy Wind",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Bind",
           "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
           "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Magic Room",
           "Recycle",
+          "Snatch",
           "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
@@ -52091,19 +55988,32 @@ overrides = {
           "Sparkle"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
           "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
+          "Uproar",
           "Magic Coat",
+          "Block",
           "Earth Power",
           "Gravity",
+          "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Bind",
           "Snore",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
           "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Wonder Room",
           "Recycle",
+          "Snatch",
           "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
@@ -52224,12 +56134,25 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Drill Run",
           "Bounce",
           "Earth Power",
           "Icy Wind",
           "Aqua Tail",
-          "Snore",
-          "Sleep Talk"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -52395,13 +56318,25 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Drill Run",
           "Bounce",
           "Earth Power",
           "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
-          "Snore",
-          "Sleep Talk"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -52424,9 +56359,9 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 53,
+        "hp": 63,
         "at": 80,
-        "df": 75,
+        "df": 80,
         "sa": 50,
         "sd": 55,
         "sp": 35
@@ -52518,7 +56453,7 @@ overrides = {
           "Taunt",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -52540,14 +56475,25 @@ overrides = {
           "Storm Throw"
         ],
         "tutors": [
-          "Iron Defense",
-          "Superpower",
-          "Icy Wind",
+          "Dual Chop",
+          "Iron Head",
+          "Ice Punch",
+          "Magnet Rise",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -52692,7 +56638,7 @@ overrides = {
           "Taunt",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -52717,15 +56663,25 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Iron Defense",
-          "Superpower",
-          "Icy Wind",
+          "Dual Chop",
+          "Iron Head",
+          "Ice Punch",
+          "Magnet Rise",
+          "Aqua Tail",
           "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -52869,15 +56825,24 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Seed Bomb",
           "Drill Run",
           "Magic Coat",
           "Earth Power",
           "Gravity",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Snore",
-          "Trick",
-          "Wonder Room",
-          "Recycle",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Helping Hand",
+          "Snatch",
           "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
@@ -53036,16 +57001,24 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Seed Bomb",
           "Drill Run",
           "Magic Coat",
           "Earth Power",
           "Gravity",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Snore",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
           "Heat Wave",
-          "Trick",
-          "Wonder Room",
-          "Recycle",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Helping Hand",
+          "Snatch",
           "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
@@ -53167,17 +57140,26 @@ overrides = {
           "Thunder Wave"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Super Fang",
+          "Magic Coat",
+          "Block",
           "Earth Power",
+          "Electroweb",
+          "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Bind",
-          "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
           "Gastro Acid",
           "Worry Seed",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Helping Hand",
+          "Magic Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53332,17 +57314,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Super Fang",
+          "Magic Coat",
+          "Block",
           "Earth Power",
+          "Electroweb",
+          "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Bind",
-          "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
           "Gastro Acid",
           "Worry Seed",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Helping Hand",
+          "Magic Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53453,7 +57444,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -53474,12 +57465,32 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Dual Chop",
+          "Signal Beam",
+          "Iron Head",
+          "Drill Run",
+          "Gunk Shot",
           "Earth Power",
-          "Iron Defense",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53616,7 +57627,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -53640,16 +57651,32 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Low Kick",
+          "Dual Chop",
+          "Signal Beam",
+          "Iron Head",
+          "Drill Run",
+          "Gunk Shot",
           "Earth Power",
-          "Iron Defense",
-          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53738,13 +57765,7 @@ overrides = {
           "Storm Throw",
           "Struggle Bug"
         ],
-        "tutors": [
-          "Icy Wind",
-          "Dragon Pulse",
-          "Iron Tail",
-          "Snore",
-          "Sleep Talk"
-        ]
+        "tutors": []
       },
       "abs": [
         "Adaptability",
@@ -53904,14 +57925,33 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
+          "Seed Bomb",
+          "Bounce",
+          "Uproar",
           "Magic Coat",
+          "Electroweb",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
           "Bind",
           "Snore",
-          "Sleep Talk"
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Gastro Acid",
+          "After You",
+          "Helping Hand",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -54059,7 +58099,7 @@ overrides = {
           "Dizzy Punch",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -54078,11 +58118,33 @@ overrides = {
           "Thunder Wave"
         ],
         "tutors": [
+          "Super Fang",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Block",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Snore",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
           "Tailwind",
-          "Sleep Talk"
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -54227,7 +58289,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -54247,27 +58309,35 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Super Fang",
+          "Dual Chop",
+          "Iron Head",
           "Low Kick",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Foul Play",
-          "Last Resort",
+          "Magnet Rise",
+          "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Drain Punch",
+          "Worry Seed",
           "After You",
-          "Trick",
           "Wonder Room",
+          "Outrage",
           "Recycle",
           "Snatch",
-          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -54378,7 +58448,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -54391,16 +58461,20 @@ overrides = {
           "Brutal Swing"
         ],
         "tutors": [
+          "Super Fang",
+          "Uproar",
           "Magic Coat",
           "Foul Play",
-          "Icy Wind",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Knock Off",
+          "Bind",
           "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Spite",
-          "Trick",
-          "Magic Room",
+          "Gastro Acid",
+          "Worry Seed",
+          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -54548,7 +58622,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -54563,16 +58637,20 @@ overrides = {
           "Brutal Swing"
         ],
         "tutors": [
+          "Super Fang",
+          "Uproar",
           "Magic Coat",
           "Foul Play",
-          "Icy Wind",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Knock Off",
+          "Bind",
           "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Spite",
-          "Trick",
-          "Magic Room",
+          "Gastro Acid",
+          "Worry Seed",
+          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -54696,14 +58774,24 @@ overrides = {
           "Shadow Claw"
         ],
         "tutors": [
+          "Super Fang",
+          "Low Kick",
+          "Uproar",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Block",
           "Gravity",
-          "Icy Wind",
+          "Superpower",
           "Dark Pulse",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Spite",
-          "Trick",
+          "Drain Punch",
+          "Worry Seed",
           "Wonder Room",
+          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -54849,18 +58937,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Super Fang",
+          "Low Kick",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Block",
           "Gravity",
-          "Icy Wind",
+          "Superpower",
           "Dark Pulse",
           "Bind",
-          "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Spite",
-          "Trick",
+          "Drain Punch",
+          "Worry Seed",
           "Wonder Room",
+          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -55004,7 +59098,7 @@ overrides = {
           "Knock Off",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -55021,16 +59115,23 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Dragon Pulse",
-          "Snore",
+          "Earth Power",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
+          "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Roost",
           "Worry Seed",
+          "After You",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -55184,20 +59285,28 @@ overrides = {
           "Gunk Shot"
         ],
         "tutors": [
-          "Signal Beam",
+          "Super Fang",
+          "Iron Head",
+          "Seed Bomb",
           "Uproar",
           "Magic Coat",
+          "Block",
           "Gravity",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Zen Headbutt",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
           "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
           "Heal Bell",
-          "Helping Hand",
-          "Trick",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
           "Recycle",
           "Snatch",
           "Sleep Talk",
@@ -55348,7 +59457,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -55376,20 +59485,31 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bug Bite",
+          "Iron Head",
+          "Drill Run",
           "Bounce",
+          "Uproar",
           "Magic Coat",
+          "Block",
           "Foul Play",
-          "Superpower",
-          "Icy Wind",
+          "Magnet Rise",
+          "Aqua Tail",
           "Dark Pulse",
           "Zen Headbutt",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
           "Role Play",
-          "Spite",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -55554,10 +59674,26 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
-          "Icy Wind",
-          "Snore",
-          "Spite",
-          "Sleep Talk"
+          "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
+          "Uproar",
+          "Ice Punch",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -55708,14 +59844,27 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Super Fang",
           "Signal Beam",
           "Iron Head",
-          "Icy Wind",
+          "Seed Bomb",
+          "Drill Run",
+          "Uproar",
+          "Ice Punch",
           "Dark Pulse",
-          "Snore",
-          "Spite",
-          "Sleep Talk"
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -55860,12 +60009,23 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Super Fang",
-          "Signal Beam",
-          "Icy Wind",
+          "Iron Head",
+          "Bounce",
+          "Uproar",
+          "Ice Punch",
           "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -56012,12 +60172,23 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Super Fang",
-          "Signal Beam",
-          "Icy Wind",
+          "Iron Head",
+          "Bounce",
+          "Uproar",
+          "Ice Punch",
           "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -56187,13 +60358,23 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Super Fang",
-          "Signal Beam",
           "Iron Head",
-          "Icy Wind",
+          "Bounce",
+          "Uproar",
+          "Ice Punch",
           "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -56293,10 +60474,27 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Iron Defense",
+          "Dual Chop",
+          "Iron Head",
+          "Bounce",
+          "Gunk Shot",
+          "Uproar",
           "Icy Wind",
-          "Snore",
-          "Sleep Talk"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -56453,16 +60651,27 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Super Fang",
+          "Dual Chop",
+          "Iron Head",
           "Bounce",
+          "Gunk Shot",
+          "Uproar",
           "Icy Wind",
           "Aqua Tail",
           "Dark Pulse",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -56598,7 +60807,7 @@ overrides = {
           "Knock Off",
           "Taunt",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -56616,15 +60825,27 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Signal Beam",
+          "Dual Chop",
+          "Iron Head",
           "Bounce",
           "Gunk Shot",
+          "Uproar",
           "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -56770,15 +60991,30 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Iron Head",
           "Bounce",
+          "Uproar",
           "Earth Power",
-          "Icy Wind",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -56919,9 +61155,25 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Icy Wind",
+          "Uproar",
+          "Electroweb",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Snore",
-          "Sleep Talk"
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -57019,7 +61271,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -57041,12 +61293,24 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Zen Headbutt",
-          "Dragon Pulse",
+          "Dual Chop",
+          "Iron Head",
+          "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
-          "Snore",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Roost",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -57155,7 +61419,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -57176,13 +61440,24 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Iron Defense",
-          "Zen Headbutt",
-          "Dragon Pulse",
+          "Dual Chop",
+          "Iron Head",
+          "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
-          "Snore",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Roost",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -57323,7 +61598,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -57348,17 +61623,24 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
+          "Iron Head",
           "Aqua Tail",
-          "Zen Headbutt",
-          "Dragon Pulse",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Heat Wave",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -57435,8 +61717,27 @@ overrides = {
         "tms": [],
         "tutors": [
           "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
+          "Thunder Punch",
+          "Ice Punch",
+          "Gravity",
+          "Magnet Rise",
           "Iron Defense",
-          "Zen Headbutt"
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -57554,7 +61855,7 @@ overrides = {
           "Air Slash",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Facade",
@@ -57573,19 +61874,27 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
           "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
           "Thunder Punch",
           "Ice Punch",
           "Gravity",
           "Magnet Rise",
           "Iron Defense",
-          "Icy Wind",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Snore",
-          "Trick",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -57725,7 +62034,7 @@ overrides = {
           "Air Slash",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Facade",
@@ -57744,19 +62053,27 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
           "Iron Head",
+          "Seed Bomb",
+          "Drill Run",
           "Thunder Punch",
           "Ice Punch",
           "Gravity",
           "Magnet Rise",
           "Iron Defense",
-          "Icy Wind",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Snore",
-          "Trick",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -58129,7 +62446,7 @@ overrides = {
           "Hidden Power",
           "Psycho Cut",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -58291,7 +62608,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -58462,7 +62779,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -58596,6 +62913,7 @@ overrides = {
           "Move $862",
           "Move $902",
           "Move $903",
+          "Psychic Fangs",
           "Dragon Claw",
           "Psyshock",
           "Shock Wave",
@@ -58735,7 +63053,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -58878,7 +63196,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -59039,7 +63357,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -59191,7 +63509,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -59279,7 +63597,7 @@ overrides = {
           ],
           [
             1,
-            "Absorb"
+            "Mega Drain"
           ],
           [
             1,
@@ -59357,15 +63675,22 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
-          "Seed Bomb",
+          "Frenzy Plant",
+          "Drill Run",
           "Earth Power",
-          "Superpower",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
+          "Drain Punch",
           "Worry Seed",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -59410,7 +63735,7 @@ overrides = {
           ],
           [
             1,
-            "Absorb"
+            "Mega Drain"
           ],
           [
             1,
@@ -59500,15 +63825,22 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
-          "Seed Bomb",
+          "Frenzy Plant",
+          "Drill Run",
           "Earth Power",
-          "Superpower",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
+          "Drain Punch",
           "Worry Seed",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -59671,17 +64003,21 @@ overrides = {
         "tutors": [
           "Grass Pledge",
           "Frenzy Plant",
-          "Iron Head",
-          "Seed Bomb",
+          "Drill Run",
           "Earth Power",
-          "Superpower",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Giga Drain",
+          "Drain Punch",
           "Worry Seed",
-          "Outrage",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -59756,7 +64092,7 @@ overrides = {
           ],
           [
             30,
-            "Temper Flare"
+            "Fire Punch"
           ],
           [
             33,
@@ -59787,7 +64123,7 @@ overrides = {
           "Venoshock",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -59811,20 +64147,29 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
+          "Blast Burn",
           "Covet",
+          "Dual Chop",
           "Low Kick",
           "Gunk Shot",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
           "Role Play",
-          "Helping Hand",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -59900,7 +64245,7 @@ overrides = {
           ],
           [
             30,
-            "Temper Flare"
+            "Fire Punch"
           ],
           [
             33,
@@ -59920,7 +64265,7 @@ overrides = {
           ],
           [
             44,
-            "Fire Punch"
+            "Flamethrower"
           ],
           [
             47,
@@ -59952,7 +64297,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -59979,20 +64324,29 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
+          "Blast Burn",
           "Covet",
           "Dual Chop",
           "Low Kick",
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
           "Role Play",
-          "Helping Hand",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -60070,7 +64424,7 @@ overrides = {
           ],
           [
             30,
-            "Temper Flare"
+            "Fire Punch"
           ],
           [
             33,
@@ -60090,7 +64444,7 @@ overrides = {
           ],
           [
             44,
-            "Fire Punch"
+            "Flamethrower"
           ],
           [
             47,
@@ -60141,7 +64495,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -60177,14 +64531,22 @@ overrides = {
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
           "Role Play",
-          "Helping Hand",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -60222,7 +64584,7 @@ overrides = {
           ],
           [
             1,
-            "Water Gun"
+            "Barrage"
           ],
           [
             8,
@@ -60286,7 +64648,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -60310,12 +64672,24 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
-          "Covet",
-          "Signal Beam",
-          "Icy Wind",
-          "Snore",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Hydro Cannon",
+          "Iron Head",
+          "Drill Run",
+          "Uproar",
+          "Ice Punch",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -60354,7 +64728,7 @@ overrides = {
           ],
           [
             1,
-            "Water Gun"
+            "Barrage"
           ],
           [
             8,
@@ -60438,7 +64812,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -60461,12 +64835,24 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
-          "Covet",
-          "Signal Beam",
-          "Icy Wind",
-          "Snore",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Hydro Cannon",
+          "Iron Head",
+          "Drill Run",
+          "Uproar",
+          "Ice Punch",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -60605,7 +64991,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -60634,14 +65020,23 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Covet",
-          "Signal Beam",
-          "Iron Defense",
-          "Icy Wind",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Iron Head",
+          "Drill Run",
+          "Uproar",
+          "Ice Punch",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -60730,7 +65125,7 @@ overrides = {
           "Move $856",
           "Knock Off",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -60745,12 +65140,17 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Snore",
-          "Heat Wave",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Endeavor",
-          "Sleep Talk"
+          "After You",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -60860,7 +65260,7 @@ overrides = {
           "Move $856",
           "Knock Off",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -60876,12 +65276,17 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Snore",
-          "Heat Wave",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Endeavor",
-          "Sleep Talk"
+          "After You",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61005,7 +65410,7 @@ overrides = {
           "Move $856",
           "Knock Off",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -61021,12 +65426,17 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Snore",
-          "Heat Wave",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Endeavor",
-          "Sleep Talk"
+          "After You",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61157,15 +65567,26 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Super Fang",
-          "Last Resort",
-          "Superpower",
-          "Icy Wind",
+          "Bounce",
+          "Magnet Rise",
           "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61289,6 +65710,7 @@ overrides = {
           "Move $856",
           "Move $902",
           "Move $903",
+          "Psychic Fangs",
           "Dragon Claw",
           "Psyshock",
           "Knock Off",
@@ -61317,15 +65739,26 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Super Fang",
-          "Last Resort",
-          "Superpower",
-          "Icy Wind",
+          "Bounce",
+          "Magnet Rise",
           "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Stealth Rock",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61405,7 +65838,7 @@ overrides = {
           "Move $902",
           "Knock Off",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -61426,9 +65859,26 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Uproar",
-          "Snore",
-          "Endeavor"
+          "Dual Chop",
+          "Signal Beam",
+          "Seed Bomb",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "After You",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61455,10 +65905,10 @@ overrides = {
       "bs": {
         "hp": 77,
         "at": 85,
-        "df": 68,
+        "df": 51,
         "sa": 95,
-        "sd": 68,
-        "sp": 85
+        "sd": 75,
+        "sp": 105
       },
       "learnset_info": {
         "learnset": [
@@ -61468,7 +65918,7 @@ overrides = {
           ],
           [
             1,
-            "String Shot"
+            "Sticky Web"
           ],
           [
             1,
@@ -61484,23 +65934,23 @@ overrides = {
           ],
           [
             23,
-            "Screech"
+            "Quick Attack"
           ],
           [
             25,
-            "Skitter Smack"
+            "Lunge"
           ],
           [
             27,
-            "Silk Trap"
+            "Rapid Spin"
           ],
           [
             29,
-            "Psychic Noise"
+            "Hyper Voice"
           ],
           [
             31,
-            "Hyper Voice"
+            "Psychic Noise"
           ],
           [
             33,
@@ -61508,11 +65958,11 @@ overrides = {
           ],
           [
             35,
-            "Sticky Web"
+            "Silk Trap"
           ],
           [
             38,
-            "Fake Out"
+            "Bug Buzz"
           ],
           [
             41,
@@ -61520,7 +65970,7 @@ overrides = {
           ],
           [
             44,
-            "Bug Buzz"
+            "1st Impression"
           ],
           [
             47,
@@ -61536,7 +65986,7 @@ overrides = {
           ],
           [
             60,
-            "1st Impression"
+            "Scorching Swarm"
           ],
           [
             68,
@@ -61553,7 +66003,7 @@ overrides = {
           "Move $902",
           "Knock Off",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -61574,13 +66024,26 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Uproar",
+          "Dual Chop",
+          "Signal Beam",
+          "Seed Bomb",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
-          "Snore",
+          "Bind",
           "Knock Off",
-          "Heal Bell",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "After You",
+          "Wonder Room",
           "Endeavor",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61604,11 +66067,11 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 65,
+        "hp": 60,
         "at": 65,
-        "df": 45,
+        "df": 50,
         "sa": 40,
-        "sd": 45,
+        "sd": 50,
         "sp": 45
       },
       "learnset_info": {
@@ -61627,7 +66090,7 @@ overrides = {
           ],
           [
             7,
-            "Work Up"
+            "Charge"
           ],
           [
             10,
@@ -61647,7 +66110,7 @@ overrides = {
           ],
           [
             21,
-            "Discharge"
+            "Payback"
           ],
           [
             25,
@@ -61671,7 +66134,7 @@ overrides = {
           ],
           [
             34,
-            "Charge"
+            "Work Up"
           ],
           [
             37,
@@ -61710,11 +66173,19 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
+          "Foul Play",
           "Magnet Rise",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61741,9 +66212,9 @@ overrides = {
       "bs": {
         "hp": 80,
         "at": 85,
-        "df": 60,
+        "df": 70,
         "sa": 60,
-        "sd": 60,
+        "sd": 70,
         "sp": 60
       },
       "learnset_info": {
@@ -61762,7 +66233,7 @@ overrides = {
           ],
           [
             7,
-            "Work Up"
+            "Charge"
           ],
           [
             10,
@@ -61782,7 +66253,7 @@ overrides = {
           ],
           [
             21,
-            "Discharge"
+            "Payback"
           ],
           [
             25,
@@ -61806,7 +66277,7 @@ overrides = {
           ],
           [
             34,
-            "Charge"
+            "Work Up"
           ],
           [
             37,
@@ -61861,11 +66332,19 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
+          "Foul Play",
           "Magnet Rise",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61916,7 +66395,7 @@ overrides = {
           ],
           [
             7,
-            "Work Up"
+            "Charge"
           ],
           [
             10,
@@ -61936,7 +66415,7 @@ overrides = {
           ],
           [
             21,
-            "Discharge"
+            "Payback"
           ],
           [
             25,
@@ -61960,7 +66439,7 @@ overrides = {
           ],
           [
             34,
-            "Charge"
+            "Work Up"
           ],
           [
             37,
@@ -61992,11 +66471,15 @@ overrides = {
           ],
           [
             60,
-            "Payback"
+            "Night Daze"
           ],
           [
             68,
             "Volt Tackle"
+          ],
+          [
+            75,
+            "Wicked Blow"
           ]
         ],
         "tms": [
@@ -62027,12 +66510,19 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
+          "Foul Play",
           "Magnet Rise",
-          "Superpower",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -62151,12 +66641,17 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
-          "Uproar",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
-          "Worry Seed",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -62301,11 +66796,17 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
           "Snore",
+          "Knock Off",
           "Synthesis",
-          "Giga Drain",
-          "Worry Seed",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -62447,19 +66948,31 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Iron Head",
-          "Uproar",
+          "Drill Run",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
+          "Magnet Rise",
           "Superpower",
-          "Zen Headbutt",
+          "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -62621,21 +67134,31 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Iron Head",
-          "Uproar",
+          "Drill Run",
+          "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
+          "Magnet Rise",
           "Superpower",
-          "Zen Headbutt",
+          "Aqua Tail",
+          "Dark Pulse",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
           "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
+          "Wonder Room",
           "Outrage",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -62782,8 +67305,20 @@ overrides = {
           "Earth Power",
           "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Helping Hand",
+          "Outrage",
+          "Snatch",
           "Stealth Rock",
           "Sleep Talk"
         ]
@@ -62942,13 +67477,23 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Magic Coat",
           "Earth Power",
           "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Helping Hand",
           "Outrage",
+          "Snatch",
           "Stealth Rock",
           "Sleep Talk"
         ]
@@ -63016,11 +67561,7 @@ overrides = {
           ]
         ],
         "tms": [],
-        "tutors": [
-          "Bug Bite",
-          "Electroweb",
-          "Snore"
-        ]
+        "tutors": []
       },
       "abs": [
         "Run Away",
@@ -63170,14 +67711,26 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
+          "Iron Head",
           "Seed Bomb",
-          "Uproar",
+          "Drill Run",
+          "Earth Power",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Electroweb",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Worry Seed",
           "Endeavor",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -63308,7 +67861,7 @@ overrides = {
           "Knock Off",
           "Drain Punch",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -63328,10 +67881,19 @@ overrides = {
           "Bug Bite",
           "Signal Beam",
           "Electroweb",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Synthesis",
+          "Role Play",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "After You",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -63429,7 +67991,7 @@ overrides = {
           "Move $901",
           "Knock Off",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -63454,10 +68016,23 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
-          "Snore",
+          "Uproar",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
           "Endeavor",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -63587,7 +68162,7 @@ overrides = {
           "Move $901",
           "Knock Off",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -63613,11 +68188,22 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
-          "Snore",
+          "Uproar",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
           "Endeavor",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -63764,17 +68350,21 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Super Fang",
           "Seed Bomb",
-          "Gunk Shot",
-          "Uproar",
           "Thunder Punch",
           "Magnet Rise",
-          "Last Resort",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -63896,13 +68486,23 @@ overrides = {
         ],
         "tutors": [
           "Dual Chop",
+          "Low Kick",
           "Ice Punch",
-          "Icy Wind",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -64063,12 +68663,21 @@ overrides = {
           "Dual Chop",
           "Low Kick",
           "Ice Punch",
-          "Icy Wind",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -64197,15 +68806,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Fire Punch",
+          "Earth Power",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
           "Heat Wave",
-          "Giga Drain",
-          "Worry Seed",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -64363,15 +68981,23 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Fire Punch",
+          "Earth Power",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
+          "Knock Off",
           "Synthesis",
           "Heat Wave",
-          "Giga Drain",
-          "Worry Seed",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -64497,11 +69123,19 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Drill Run",
+          "Block",
           "Earth Power",
           "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Sleep Talk"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -64670,11 +69304,18 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Drill Run",
           "Earth Power",
           "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Sleep Talk"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -64756,7 +69397,7 @@ overrides = {
           ],
           [
             35,
-            "Dual Chop"
+            "Tail Slap"
           ],
           [
             39,
@@ -64793,7 +69434,7 @@ overrides = {
           "Magical Leaf",
           "Dizzy Punch",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -64814,24 +69455,34 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bug Bite",
           "Covet",
-          "Seed Bomb",
           "Bounce",
           "Low Kick",
           "Gunk Shot",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Last Resort",
+          "Magnet Rise",
+          "Superpower",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -64977,16 +69628,19 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Magic Coat",
-          "Icy Wind",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Role Play",
           "Tailwind",
           "Pain Split",
           "Spite",
+          "After You",
           "Trick",
           "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -65152,16 +69806,19 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Magic Coat",
-          "Icy Wind",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Role Play",
           "Tailwind",
           "Pain Split",
           "Spite",
+          "After You",
           "Trick",
           "Recycle",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -65191,14 +69848,14 @@ overrides = {
         "at": 76,
         "df": 44,
         "sa": 44,
-        "sd": 56,
+        "sd": 86,
         "sp": 85
       },
       "learnset_info": {
         "learnset": [
           [
             1,
-            "Confide"
+            "Charm"
           ],
           [
             1,
@@ -65210,7 +69867,7 @@ overrides = {
           ],
           [
             10,
-            "Charm"
+            "Dizzy Punch"
           ],
           [
             13,
@@ -65234,7 +69891,7 @@ overrides = {
           ],
           [
             25,
-            "Dizzy Punch"
+            "Bounce"
           ],
           [
             28,
@@ -65250,7 +69907,7 @@ overrides = {
           ],
           [
             37,
-            "Bounce"
+            "Play Rough"
           ],
           [
             40,
@@ -65281,7 +69938,7 @@ overrides = {
           "Magical Leaf",
           "Dizzy Punch",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -65299,24 +69956,23 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Covet",
           "Bounce",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Magic Coat",
-          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
           "Bind",
-          "Snore",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "After You",
-          "Helping Hand",
-          "Endeavor",
+          "Gastro Acid",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -65365,7 +70021,7 @@ overrides = {
           ],
           [
             10,
-            "Charm"
+            "Dizzy Punch"
           ],
           [
             13,
@@ -65389,7 +70045,7 @@ overrides = {
           ],
           [
             25,
-            "Dizzy Punch"
+            "Bounce"
           ],
           [
             28,
@@ -65405,7 +70061,7 @@ overrides = {
           ],
           [
             37,
-            "Bounce"
+            "Play Rough"
           ],
           [
             40,
@@ -65466,7 +70122,7 @@ overrides = {
           "Magical Leaf",
           "Dizzy Punch",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -65486,24 +70142,23 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Bounce",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Magic Coat",
-          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
           "Hyper Voice",
           "Iron Tail",
           "Bind",
-          "Snore",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "After You",
-          "Helping Hand",
-          "Endeavor",
+          "Gastro Acid",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -65636,7 +70291,7 @@ overrides = {
           "Dizzy Punch",
           "Hidden Power",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -65653,19 +70308,23 @@ overrides = {
           "Sparkle"
         ],
         "tutors": [
+          "Super Fang",
+          "Seed Bomb",
           "Uproar",
           "Magic Coat",
-          "Foul Play",
-          "Icy Wind",
+          "Block",
+          "Gravity",
           "Dark Pulse",
-          "Hyper Voice",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
           "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
-          "Trick",
-          "Magic Room",
-          "Wonder Room",
+          "Helping Hand",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -65810,7 +70469,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -65829,17 +70488,23 @@ overrides = {
         "tutors": [
           "Uproar",
           "Foul Play",
-          "Superpower",
-          "Icy Wind",
           "Dark Pulse",
-          "Knock Off",
-          "Heat Wave",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
+          "Gastro Acid",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -65954,7 +70619,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -65973,13 +70638,19 @@ overrides = {
           "Covet",
           "Super Fang",
           "Foul Play",
-          "Last Resort",
-          "Hyper Voice",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66118,7 +70789,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -66137,14 +70808,19 @@ overrides = {
           "Covet",
           "Super Fang",
           "Foul Play",
-          "Last Resort",
-          "Hyper Voice",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66249,19 +70925,24 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Uproar",
+          "Iron Head",
+          "Seed Bomb",
           "Magic Coat",
           "Gravity",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Zen Headbutt",
-          "Hyper Voice",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
           "Heal Bell",
-          "Helping Hand",
-          "Trick",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
           "Recycle",
           "Snatch",
           "Sleep Talk",
@@ -66411,12 +71092,25 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
+          "Gunk Shot",
+          "Uproar",
           "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66580,12 +71274,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Gunk Shot",
+          "Uproar",
           "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66724,14 +71431,24 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Signal Beam",
+          "Super Fang",
+          "Iron Head",
+          "Seed Bomb",
+          "Magic Coat",
+          "Earth Power",
           "Gravity",
+          "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
           "Snore",
-          "Trick",
-          "Wonder Room",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Recycle",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -66891,16 +71608,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
+          "Super Fang",
           "Iron Head",
+          "Seed Bomb",
+          "Magic Coat",
+          "Earth Power",
           "Gravity",
+          "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Bind",
           "Snore",
-          "Trick",
-          "Wonder Room",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Recycle",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -66930,14 +71655,14 @@ overrides = {
         "at": 85,
         "df": 95,
         "sa": 10,
-        "sd": 65,
+        "sd": 55,
         "sp": 50
       },
       "learnset_info": {
         "learnset": [
           [
             1,
-            "Rock Throw"
+            "Obstruct"
           ],
           [
             1,
@@ -66948,11 +71673,11 @@ overrides = {
             "Tickle"
           ],
           [
-            1,
-            "Low Kick"
+            3,
+            "Counter"
           ],
           [
-            4,
+            5,
             "Accelerock"
           ],
           [
@@ -66961,23 +71686,23 @@ overrides = {
           ],
           [
             10,
-            "Counter"
+            "Copycat"
           ],
           [
             13,
-            "Rock Throw"
+            "Rock Tomb"
           ],
           [
             18,
-            "Block"
+            "Defense Curl"
           ],
           [
-            21,
+            20,
             "Nature Power"
           ],
           [
-            23,
-            "Rock Tomb"
+            22,
+            "Rollout"
           ],
           [
             26,
@@ -66993,15 +71718,43 @@ overrides = {
           ],
           [
             30,
-            "Copycat"
+            "Seed Bomb"
           ],
           [
             33,
-            "Natural Gift"
+            "Block"
           ],
           [
             36,
-            "Seed Bomb"
+            "Double-Edge"
+          ],
+          [
+            40,
+            "Rock Climb"
+          ],
+          [
+            43,
+            "Hammer Arm"
+          ],
+          [
+            45,
+            "Sucker Punch"
+          ],
+          [
+            48,
+            "Parting Shot"
+          ],
+          [
+            54,
+            "Head Smash"
+          ],
+          [
+            60,
+            "Wood Hammer"
+          ],
+          [
+            65,
+            "Rock Wrecker"
           ]
         ],
         "tms": [
@@ -67029,15 +71782,31 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Super Fang",
+          "Drill Run",
           "Low Kick",
-          "Uproar",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Earth Power",
           "Foul Play",
-          "Snore",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Synthesis",
           "Role Play",
-          "After You",
-          "Helping Hand",
-          "Stealth Rock",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -67063,7 +71832,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 30,
+        "hp": 40,
         "at": 70,
         "df": 75,
         "sa": 25,
@@ -67166,7 +71935,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -67187,16 +71956,30 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Signal Beam",
-          "Uproar",
+          "Super Fang",
+          "Seed Bomb",
+          "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
-          "Icy Wind",
+          "Block",
+          "Foul Play",
+          "Gravity",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
           "Snore",
+          "Knock Off",
           "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Trick",
-          "Magic Room",
+          "Gastro Acid",
+          "Worry Seed",
           "Wonder Room",
           "Recycle",
           "Snatch",
@@ -67205,7 +71988,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Filter",
+        "Trace",
         "Technician",
         "Distracting"
       ],
@@ -67298,19 +72081,33 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Uproar",
+          "Iron Head",
+          "Bounce",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Zen Headbutt",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
+          "Iron Tail",
+          "Bind",
           "Snore",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Endeavor",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
           "Recycle",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -67337,9 +72134,9 @@ overrides = {
       "bs": {
         "hp": 76,
         "at": 65,
-        "df": 45,
+        "df": 65,
         "sa": 132,
-        "sd": 42,
+        "sd": 52,
         "sp": 101
       },
       "learnset_info": {
@@ -67362,7 +72159,7 @@ overrides = {
           ],
           [
             10,
-            "Sing"
+            "Copycat"
           ],
           [
             13,
@@ -67370,19 +72167,19 @@ overrides = {
           ],
           [
             17,
-            "Chatter"
+            "Sing"
           ],
           [
             20,
-            "Relic Song"
+            "Uproar"
           ],
           [
             24,
-            "Copycat"
+            "U-turn"
           ],
           [
             29,
-            "Roost"
+            "Chatter"
           ],
           [
             32,
@@ -67437,7 +72234,7 @@ overrides = {
           "Move $902",
           "Psychic Fangs",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -67451,15 +72248,20 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Uproar",
-          "Hyper Voice",
-          "Snore",
-          "Heat Wave",
+          "Seed Bomb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Knock Off",
           "Role Play",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
           "Roost",
-          "Sleep Talk"
+          "Gastro Acid",
+          "Worry Seed",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -67602,15 +72404,17 @@ overrides = {
         "tutors": [
           "Uproar",
           "Foul Play",
-          "Icy Wind",
+          "Magnet Rise",
           "Dark Pulse",
           "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
           "Spite",
-          "Trick",
-          "Wonder Room",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -67710,7 +72514,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -67727,13 +72531,21 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "Dual Chop",
           "Iron Head",
+          "Drill Run",
           "Earth Power",
-          "Dragon Pulse",
+          "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Spite",
           "Outrage",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -67857,7 +72669,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -67876,12 +72688,19 @@ overrides = {
           "Draco Meteor",
           "Dual Chop",
           "Iron Head",
+          "Drill Run",
           "Earth Power",
-          "Dragon Pulse",
+          "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Spite",
           "Outrage",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -68020,7 +72839,7 @@ overrides = {
           "Ice Beam",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -68045,13 +72864,19 @@ overrides = {
           "Draco Meteor",
           "Dual Chop",
           "Iron Head",
+          "Drill Run",
           "Earth Power",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Spite",
           "Outrage",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -68173,22 +72998,32 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
-          "Gunk Shot",
-          "Uproar",
+          "Iron Head",
+          "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
           "Superpower",
+          "Electroweb",
           "Icy Wind",
-          "Zen Headbutt",
+          "Dark Pulse",
           "Hyper Voice",
-          "Snore",
-          "After You",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
           "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -68319,17 +73154,26 @@ overrides = {
         ],
         "tutors": [
           "Dual Chop",
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Ice Punch",
+          "Block",
           "Magnet Rise",
           "Iron Defense",
-          "Zen Headbutt",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
           "Snore",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
+          "Worry Seed",
           "Helping Hand",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -68495,19 +73339,26 @@ overrides = {
         ],
         "tutors": [
           "Dual Chop",
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Ice Punch",
+          "Block",
           "Magnet Rise",
           "Iron Defense",
+          "Superpower",
           "Dark Pulse",
-          "Zen Headbutt",
           "Dragon Pulse",
           "Iron Tail",
           "Snore",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
+          "Worry Seed",
           "Helping Hand",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -68634,11 +73485,18 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
+          "Drill Run",
           "Earth Power",
-          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Stealth Rock",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Sleep Talk"
         ]
       },
@@ -68784,11 +73642,17 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
+          "Drill Run",
           "Earth Power",
-          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Stealth Rock",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Sleep Talk"
         ]
       },
@@ -68913,7 +73777,7 @@ overrides = {
           "Venoshock",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -68933,11 +73797,18 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Gunk Shot",
           "Aqua Tail",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -69080,7 +73951,7 @@ overrides = {
           "Venoshock",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -69103,11 +73974,18 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Gunk Shot",
           "Aqua Tail",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -69259,22 +74137,27 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Super Fang",
           "Dual Chop",
           "Bounce",
           "Low Kick",
           "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Ice Punch",
           "Foul Play",
+          "Superpower",
           "Icy Wind",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
+          "Dragon Pulse",
+          "Bind",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Spite",
-          "Helping Hand",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
           "Snatch",
           "Sleep Talk"
         ]
@@ -69443,22 +74326,27 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Super Fang",
           "Dual Chop",
           "Bounce",
           "Low Kick",
           "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Ice Punch",
           "Foul Play",
+          "Superpower",
           "Icy Wind",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
+          "Dragon Pulse",
+          "Bind",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Spite",
-          "Helping Hand",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
           "Snatch",
           "Sleep Talk"
         ]
@@ -69623,16 +74511,23 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Iron Head",
-          "Seed Bomb",
+          "Bounce",
+          "Foul Play",
+          "Magnet Rise",
           "Iron Defense",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
-          "Gastro Acid",
           "Worry Seed",
+          "Magic Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -69796,11 +74691,21 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Icy Wind",
+          "Uproar",
           "Aqua Tail",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Role Play",
           "Tailwind",
-          "Sleep Talk"
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
+          "After You",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -69968,11 +74873,21 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Icy Wind",
+          "Uproar",
           "Aqua Tail",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Role Play",
           "Tailwind",
-          "Sleep Talk"
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
+          "After You",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70076,7 +74991,7 @@ overrides = {
           "Psychic Fangs",
           "Shock Wave",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -70097,10 +75012,21 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Icy Wind",
-          "Snore",
-          "Helping Hand",
-          "Sleep Talk"
+          "Uproar",
+          "Block",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70238,20 +75164,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
           "Thunder Punch",
           "Ice Punch",
           "Earth Power",
-          "Icy Wind",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
           "Synthesis",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Drain Punch",
-          "Worry Seed",
-          "Sleep Talk"
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70412,21 +75344,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
           "Thunder Punch",
           "Ice Punch",
           "Earth Power",
-          "Icy Wind",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
           "Synthesis",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Drain Punch",
-          "Worry Seed",
+          "Magic Room",
           "Outrage",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70563,7 +75500,7 @@ overrides = {
           "Dizzy Punch",
           "Venoshock",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -70592,15 +75529,22 @@ overrides = {
         ],
         "tutors": [
           "Low Kick",
+          "Uproar",
           "Ice Punch",
           "Foul Play",
-          "Icy Wind",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Spite",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -70757,12 +75701,21 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Magic Coat",
+          "Block",
+          "Earth Power",
           "Gravity",
-          "Magnet Rise",
           "Iron Defense",
-          "Electroweb",
-          "Snore",
-          "Recycle",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -70934,17 +75887,35 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Bounce",
+          "Low Kick",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
           "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -71110,21 +76081,28 @@ overrides = {
           "Draco Meteor",
           "Iron Head",
           "Drill Run",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
+          "Magnet Rise",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Endeavor",
+          "Wonder Room",
           "Outrage",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -71257,7 +76235,7 @@ overrides = {
           "Air Slash",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Shadow Ball",
@@ -71276,16 +76254,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
+          "Earth Power",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
           "Worry Seed",
+          "Magic Room",
           "Endeavor",
-          "Sleep Talk"
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -71442,19 +76430,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Dual Chop",
-          "Signal Beam",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Magnet Rise",
-          "Electroweb",
+          "Superpower",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Helping Hand",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -71615,17 +76609,29 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Covet",
           "Dual Chop",
           "Low Kick",
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
+          "Earth Power",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -71760,7 +76766,7 @@ overrides = {
           "Air Slash",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -71782,22 +76788,28 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Covet",
-          "Signal Beam",
+          "Seed Bomb",
           "Magic Coat",
+          "Iron Defense",
           "Last Resort",
-          "Zen Headbutt",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Hyper Voice",
+          "Bind",
           "Snore",
-          "Heat Wave",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
           "Tailwind",
-          "Sky Attack",
-          "Drain Punch",
+          "Pain Split",
           "Roost",
-          "Trick",
-          "Endeavor",
-          "Sleep Talk"
+          "Gastro Acid",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -71929,7 +76941,7 @@ overrides = {
           "Knock Off",
           "Drain Punch",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -71947,12 +76959,28 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
+          "Seed Bomb",
+          "Bounce",
           "Uproar",
-          "Snore",
+          "Earth Power",
+          "Electroweb",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Roost",
-          "Sleep Talk"
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72078,7 +77106,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -72098,18 +77126,45 @@ overrides = {
         ],
         "tutors": [
           "Covet",
+          "Signal Beam",
+          "Iron Head",
           "Seed Bomb",
-          "Last Resort",
+          "Low Kick",
+          "Uproar",
+          "Magic Coat",
+          "Block",
+          "Earth Power",
+          "Foul Play",
+          "Magnet Rise",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Knock Off",
           "Synthesis",
+          "Heat Wave",
+          "Role Play",
           "Heal Bell",
-          "Giga Drain",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
           "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72253,15 +77308,44 @@ overrides = {
         "tutors": [
           "Covet",
           "Signal Beam",
-          "Last Resort",
-          "Icy Wind",
+          "Iron Head",
+          "Seed Bomb",
+          "Low Kick",
+          "Uproar",
+          "Magic Coat",
+          "Block",
+          "Earth Power",
+          "Foul Play",
+          "Magnet Rise",
           "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Knock Off",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72407,7 +77491,7 @@ overrides = {
           "Venoshock",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -72432,15 +77516,23 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Dual Chop",
+          "Drill Run",
+          "Bounce",
+          "Gunk Shot",
           "Earth Power",
           "Aqua Tail",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Stealth Rock",
+          "Worry Seed",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -72595,14 +77687,23 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
+          "Drill Run",
+          "Uproar",
           "Earth Power",
-          "Superpower",
-          "Icy Wind",
-          "Snore",
-          "Knock Off",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72728,7 +77829,7 @@ overrides = {
           "Knock Off",
           "Drain Punch",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -72743,24 +77844,31 @@ overrides = {
           "Sparkle"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
-          "Uproar",
+          "Seed Bomb",
           "Magic Coat",
+          "Block",
           "Foul Play",
           "Gravity",
           "Magnet Rise",
+          "Iron Defense",
           "Last Resort",
-          "Electroweb",
-          "Icy Wind",
           "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
           "Trick",
-          "Wonder Room",
           "Recycle",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72917,7 +78025,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -72953,20 +78061,26 @@ overrides = {
         "tutors": [
           "Dual Chop",
           "Signal Beam",
+          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Hyper Voice",
+          "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
           "Pain Split",
           "Drain Punch",
-          "Helping Hand",
-          "Trick",
-          "Magic Room",
           "Wonder Room",
           "Recycle",
           "Snatch",
@@ -73122,18 +78236,28 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Signal Beam",
           "Iron Head",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Block",
           "Earth Power",
           "Gravity",
           "Magnet Rise",
           "Iron Defense",
-          "Snore",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
           "Pain Split",
-          "Stealth Rock",
+          "Worry Seed",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -73290,17 +78414,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Super Fang",
+          "Low Kick",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Block",
           "Gravity",
-          "Icy Wind",
+          "Superpower",
           "Dark Pulse",
           "Bind",
           "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
-          "Trick",
+          "Wonder Room",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -73461,15 +78593,29 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
-          "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
+          "Uproar",
           "Ice Punch",
-          "Icy Wind",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
           "Snore",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
           "Pain Split",
-          "Spite",
-          "Trick",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -73640,16 +78786,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Uproar",
-          "Electroweb",
-          "Icy Wind",
+          "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Helping Hand",
           "Trick",
+          "Magic Room",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -74188,7 +79343,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -74329,6 +79484,7 @@ overrides = {
           "Move $862",
           "Move $902",
           "Move $903",
+          "Psychic Fangs",
           "Dragon Claw",
           "Psyshock",
           "Shock Wave",
@@ -74339,7 +79495,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -74613,7 +79769,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Earthquake",
           "Shadow Ball",
@@ -74755,7 +79911,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -75022,6 +80178,7 @@ overrides = {
           "Move $862",
           "Move $902",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Hidden Power",
           "Hyper Voice",
@@ -75145,6 +80302,7 @@ overrides = {
           "Move $862",
           "Move $902",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Drain Punch",
           "Dizzy Punch",
@@ -75279,7 +80437,7 @@ overrides = {
           "Hidden Power",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -75557,7 +80715,7 @@ overrides = {
           "Psycho Cut",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -75895,7 +81053,7 @@ overrides = {
           "Air Slash",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -75915,22 +81073,32 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
+          "Frenzy Plant",
           "Draco Meteor",
-          "Seed Bomb",
+          "Covet",
+          "Uproar",
+          "Earth Power",
           "Electroweb",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Synthesis",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Gastro Acid",
           "Worry Seed",
+          "Spite",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76063,7 +81231,7 @@ overrides = {
           "Air Slash",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Brick Break",
@@ -76082,22 +81250,32 @@ overrides = {
         ],
         "tutors": [
           "Grass Pledge",
+          "Frenzy Plant",
           "Draco Meteor",
-          "Seed Bomb",
+          "Covet",
+          "Uproar",
+          "Earth Power",
           "Electroweb",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Synthesis",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Gastro Acid",
           "Worry Seed",
+          "Spite",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76253,7 +81431,7 @@ overrides = {
           "Air Slash",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Brick Break",
@@ -76275,22 +81453,30 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Seed Bomb",
+          "Covet",
+          "Uproar",
+          "Earth Power",
           "Electroweb",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Synthesis",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Gastro Acid",
           "Worry Seed",
+          "Spite",
+          "Trick",
+          "Magic Room",
           "Outrage",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76340,7 +81526,7 @@ overrides = {
           ],
           [
             10,
-            "Beat Up"
+            "Payback"
           ],
           [
             13,
@@ -76414,14 +81600,35 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
-          "Covet",
+          "Blast Burn",
+          "Iron Head",
+          "Drill Run",
+          "Low Kick",
+          "Thunder Punch",
+          "Fire Punch",
+          "Foul Play",
+          "Magnet Rise",
           "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
-          "Helping Hand",
-          "Endeavor",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76473,7 +81680,7 @@ overrides = {
           ],
           [
             10,
-            "Beat Up"
+            "Payback"
           ],
           [
             13,
@@ -76567,17 +81774,35 @@ overrides = {
         ],
         "tutors": [
           "Fire Pledge",
-          "Covet",
+          "Blast Burn",
+          "Iron Head",
+          "Drill Run",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
+          "Foul Play",
+          "Magnet Rise",
           "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
-          "Helping Hand",
-          "Endeavor",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76631,7 +81856,7 @@ overrides = {
           ],
           [
             10,
-            "Beat Up"
+            "Payback"
           ],
           [
             13,
@@ -76757,18 +81982,34 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Covet",
           "Iron Head",
+          "Drill Run",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
+          "Foul Play",
+          "Magnet Rise",
           "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
-          "Helping Hand",
-          "Endeavor",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76814,7 +82055,7 @@ overrides = {
           ],
           [
             7,
-            "Rock Smash"
+            "Revenge"
           ],
           [
             9,
@@ -76822,7 +82063,7 @@ overrides = {
           ],
           [
             11,
-            "Counter"
+            "Chilling Water"
           ],
           [
             13,
@@ -76830,7 +82071,7 @@ overrides = {
           ],
           [
             17,
-            "Revenge"
+            "Counter"
           ],
           [
             20,
@@ -76886,7 +82127,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -76915,12 +82156,28 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
-          "Covet",
-          "Icy Wind",
+          "Hydro Cannon",
+          "Dual Chop",
+          "Drill Run",
+          "Low Kick",
+          "Uproar",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Helping Hand",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -76969,7 +82226,7 @@ overrides = {
           ],
           [
             7,
-            "Rock Smash"
+            "Revenge"
           ],
           [
             9,
@@ -76977,7 +82234,7 @@ overrides = {
           ],
           [
             11,
-            "Counter"
+            "Chilling Water"
           ],
           [
             13,
@@ -76985,7 +82242,7 @@ overrides = {
           ],
           [
             17,
-            "Revenge"
+            "Counter"
           ],
           [
             20,
@@ -77053,7 +82310,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -77082,12 +82339,28 @@ overrides = {
         ],
         "tutors": [
           "Water Pledge",
-          "Covet",
-          "Icy Wind",
+          "Hydro Cannon",
+          "Dual Chop",
+          "Drill Run",
+          "Low Kick",
+          "Uproar",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Helping Hand",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -77138,7 +82411,7 @@ overrides = {
           ],
           [
             7,
-            "Rock Smash"
+            "Revenge"
           ],
           [
             9,
@@ -77146,7 +82419,7 @@ overrides = {
           ],
           [
             11,
-            "Counter"
+            "Chilling Water"
           ],
           [
             13,
@@ -77154,7 +82427,7 @@ overrides = {
           ],
           [
             17,
-            "Revenge"
+            "Counter"
           ],
           [
             20,
@@ -77238,7 +82511,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Venoshock",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -77269,15 +82542,27 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Covet",
+          "Dual Chop",
           "Drill Run",
+          "Low Kick",
+          "Uproar",
           "Superpower",
-          "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "Helping Hand",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -77400,18 +82685,28 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Super Fang",
-          "Seed Bomb",
+          "Signal Beam",
           "Low Kick",
-          "Gunk Shot",
-          "Last Resort",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Block",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "After You",
-          "Helping Hand",
-          "Endeavor",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -77557,23 +82852,28 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Super Fang",
           "Signal Beam",
-          "Seed Bomb",
           "Low Kick",
-          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Last Resort",
+          "Block",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "After You",
-          "Helping Hand",
-          "Endeavor",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -77677,7 +82977,7 @@ overrides = {
           "Magical Leaf",
           "Dizzy Punch",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -77696,12 +82996,20 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Uproar",
-          "Last Resort",
-          "Hyper Voice",
-          "Snore",
-          "Helping Hand",
-          "Sleep Talk"
+          "Iron Head",
+          "Magnet Rise",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -77813,7 +83121,7 @@ overrides = {
           "Magical Leaf",
           "Dizzy Punch",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -77832,12 +83140,20 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Uproar",
-          "Last Resort",
-          "Hyper Voice",
-          "Snore",
-          "Helping Hand",
-          "Sleep Talk"
+          "Iron Head",
+          "Magnet Rise",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -77968,7 +83284,7 @@ overrides = {
           "Magical Leaf",
           "Dizzy Punch",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Return",
@@ -77988,13 +83304,19 @@ overrides = {
         "tutors": [
           "Covet",
           "Iron Head",
-          "Uproar",
-          "Last Resort",
-          "Superpower",
-          "Hyper Voice",
-          "Snore",
-          "Helping Hand",
-          "Sleep Talk"
+          "Magnet Rise",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -78128,7 +83450,7 @@ overrides = {
           "Move $862",
           "Knock Off",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -78149,20 +83471,24 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
           "Gunk Shot",
+          "Uproar",
           "Foul Play",
           "Aqua Tail",
           "Dark Pulse",
-          "Hyper Voice",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
           "Role Play",
-          "Spite",
-          "Trick",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Outrage",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -78298,7 +83624,7 @@ overrides = {
           "Move $862",
           "Knock Off",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -78320,20 +83646,24 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
           "Gunk Shot",
+          "Uproar",
           "Foul Play",
           "Aqua Tail",
           "Dark Pulse",
-          "Hyper Voice",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
           "Role Play",
-          "Spite",
-          "Trick",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Outrage",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -78357,9 +83687,9 @@ overrides = {
       ],
       "bs": {
         "hp": 50,
-        "at": 53,
+        "at": 65,
         "df": 48,
-        "sa": 53,
+        "sa": 65,
         "sd": 48,
         "sp": 64
       },
@@ -78458,6 +83788,7 @@ overrides = {
           "Aerial Ace",
           "Heat Wave",
           "Lunge",
+          "Low Sweep",
           "Mystical Fire",
           "Will-O-Wisp",
           "Brutal Swing",
@@ -78467,27 +83798,33 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
           "Low Kick",
-          "Gunk Shot",
-          "Uproar",
+          "Earth Power",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
           "Synthesis",
           "Role Play",
-          "Giga Drain",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
           "Worry Seed",
           "Helping Hand",
-          "Endeavor",
+          "Magic Room",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
       "abs": [
         "Overgrow",
-        "Gluttony",
-        "Unburden"
+        "Sap Sipper",
+        "Gluttony"
       ],
       "evos": [
         "Simisage",
@@ -78626,6 +83963,7 @@ overrides = {
           "Aerial Ace",
           "Heat Wave",
           "Lunge",
+          "Low Sweep",
           "Mystical Fire",
           "Hurricane",
           "Will-O-Wisp",
@@ -78636,27 +83974,33 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
           "Low Kick",
-          "Gunk Shot",
-          "Uproar",
+          "Thunder Punch",
+          "Earth Power",
           "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
           "Synthesis",
           "Role Play",
-          "Giga Drain",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
           "Worry Seed",
           "Helping Hand",
-          "Endeavor",
+          "Magic Room",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
       "abs": [
         "Overgrow",
-        "Gourmand",
+        "Sap Sipper",
         "Unburden"
       ],
       "evoType": "useItem",
@@ -78680,9 +84024,9 @@ overrides = {
       ],
       "bs": {
         "hp": 50,
-        "at": 53,
+        "at": 65,
         "df": 48,
-        "sa": 53,
+        "sa": 65,
         "sd": 48,
         "sp": 64
       },
@@ -78785,6 +84129,7 @@ overrides = {
           "Aerial Ace",
           "Heat Wave",
           "Lunge",
+          "Low Sweep",
           "Will-O-Wisp",
           "Brutal Swing",
           "Teleport",
@@ -78792,26 +84137,34 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Covet",
           "Low Kick",
-          "Gunk Shot",
-          "Uproar",
           "Fire Punch",
+          "Earth Power",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
           "Heat Wave",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Endeavor",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
       "abs": [
         "Blaze",
-        "Gluttony",
-        "Unburden"
+        "Flash Fire",
+        "Gluttony"
       ],
       "evos": [
         "Simisear",
@@ -78953,6 +84306,7 @@ overrides = {
           "Aerial Ace",
           "Heat Wave",
           "Lunge",
+          "Low Sweep",
           "Hurricane",
           "Will-O-Wisp",
           "Brutal Swing",
@@ -78961,26 +84315,33 @@ overrides = {
           "Stone Edge"
         ],
         "tutors": [
-          "Covet",
           "Low Kick",
-          "Gunk Shot",
-          "Uproar",
           "Fire Punch",
+          "Earth Power",
           "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
           "Heat Wave",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Endeavor",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
       "abs": [
         "Blaze",
-        "Gourmand",
+        "Flash Fire",
         "Unburden"
       ],
       "evoType": "useItem",
@@ -79004,9 +84365,9 @@ overrides = {
       ],
       "bs": {
         "hp": 50,
-        "at": 53,
+        "at": 65,
         "df": 48,
-        "sa": 53,
+        "sa": 65,
         "sd": 48,
         "sp": 64
       },
@@ -79115,25 +84476,34 @@ overrides = {
         "tutors": [
           "Covet",
           "Low Kick",
-          "Gunk Shot",
-          "Uproar",
           "Ice Punch",
-          "Icy Wind",
+          "Earth Power",
+          "Superpower",
+          "Electroweb",
           "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Endeavor",
+          "Magic Room",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
       "abs": [
         "Torrent",
-        "Gluttony",
-        "Unburden"
+        "Water Absorb",
+        "Gluttony"
       ],
       "evos": [
         "Simipour",
@@ -79283,25 +84653,33 @@ overrides = {
         "tutors": [
           "Covet",
           "Low Kick",
-          "Gunk Shot",
-          "Uproar",
           "Ice Punch",
+          "Earth Power",
           "Superpower",
-          "Icy Wind",
+          "Electroweb",
           "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Endeavor",
+          "Magic Room",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
       "abs": [
         "Torrent",
-        "Gourmand",
+        "Water Absorb",
         "Unburden"
       ],
       "evoType": "level",
@@ -79457,18 +84835,24 @@ overrides = {
           "Sparkle"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Magic Coat",
+          "Block",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
           "Pain Split",
-          "Worry Seed",
-          "After You",
           "Helping Hand",
-          "Trick",
-          "Wonder Room",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -79639,18 +85023,24 @@ overrides = {
           "Sparkle"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Magic Coat",
+          "Block",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Hyper Voice",
           "Snore",
+          "Knock Off",
+          "Role Play",
           "Heal Bell",
+          "Tailwind",
           "Pain Split",
-          "Worry Seed",
-          "After You",
           "Helping Hand",
-          "Trick",
-          "Wonder Room",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -79757,7 +85147,7 @@ overrides = {
           "Move $856",
           "Move $902",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -79774,12 +85164,19 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Uproar",
-          "Snore",
-          "Heat Wave",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
           "Roost",
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -79898,7 +85295,7 @@ overrides = {
           "Move $856",
           "Move $902",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -79915,12 +85312,19 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Uproar",
-          "Snore",
-          "Heat Wave",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
           "Roost",
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -80057,7 +85461,7 @@ overrides = {
           "Move $856",
           "Move $856",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -80074,12 +85478,19 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
-          "Uproar",
-          "Snore",
-          "Heat Wave",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
           "Roost",
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -80218,13 +85629,26 @@ overrides = {
           "Body Press"
         ],
         "tutors": [
-          "Signal Beam",
           "Bounce",
+          "Low Kick",
           "Magnet Rise",
+          "Aqua Tail",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
-          "Sleep Talk"
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -80386,10 +85810,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
+          "Low Kick",
           "Magnet Rise",
+          "Aqua Tail",
           "Dark Pulse",
-          "Snore",
-          "Sleep Talk"
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -80524,12 +85963,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Earth Power",
           "Gravity",
           "Iron Defense",
-          "Snore",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
           "Heat Wave",
-          "Stealth Rock",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Trick",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -80671,12 +86122,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Earth Power",
           "Gravity",
           "Iron Defense",
-          "Snore",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
           "Heat Wave",
-          "Stealth Rock",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Trick",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -80841,10 +86304,20 @@ overrides = {
           "Earth Power",
           "Gravity",
           "Iron Defense",
-          "Superpower",
-          "Snore",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
           "Heat Wave",
-          "Stealth Rock",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Trick",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -80958,7 +86431,7 @@ overrides = {
           "Dizzy Punch",
           "Hidden Power",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -80982,21 +86455,25 @@ overrides = {
         "tutors": [
           "Super Fang",
           "Signal Beam",
-          "Uproar",
           "Magic Coat",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Iron Tail",
           "Snore",
           "Knock Off",
-          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "Gastro Acid",
+          "Worry Seed",
           "After You",
           "Helping Hand",
-          "Trick",
-          "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -81140,7 +86617,7 @@ overrides = {
           "Dizzy Punch",
           "Hidden Power",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -81164,22 +86641,25 @@ overrides = {
         "tutors": [
           "Super Fang",
           "Signal Beam",
-          "Uproar",
           "Magic Coat",
           "Aqua Tail",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Iron Tail",
           "Snore",
           "Knock Off",
-          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Sky Attack",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "Gastro Acid",
+          "Worry Seed",
           "After You",
           "Helping Hand",
-          "Trick",
-          "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -81300,7 +86780,7 @@ overrides = {
           "Venoshock",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -81319,11 +86799,20 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Drill Run",
           "Earth Power",
+          "Magnet Rise",
           "Iron Defense",
-          "Snore",
-          "Stealth Rock",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -81458,7 +86947,7 @@ overrides = {
           "Venoshock",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -81483,8 +86972,15 @@ overrides = {
           "Earth Power",
           "Magnet Rise",
           "Iron Defense",
-          "Snore",
-          "Stealth Rock",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -81659,26 +87155,33 @@ overrides = {
         "tutors": [
           "Covet",
           "Signal Beam",
+          "Seed Bomb",
           "Low Kick",
-          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Last Resort",
+          "Magnet Rise",
+          "Superpower",
           "Icy Wind",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
           "Hyper Voice",
           "Iron Tail",
+          "Bind",
           "Snore",
           "Knock Off",
           "Role Play",
           "Heal Bell",
+          "Tailwind",
           "Pain Split",
           "Drain Punch",
-          "After You",
-          "Helping Hand",
+          "Gastro Acid",
+          "Spite",
+          "Wonder Room",
+          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -81811,15 +87314,21 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -81958,15 +87467,21 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -82127,15 +87642,21 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -82258,15 +87779,25 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
+          "Low Kick",
           "Gunk Shot",
           "Uproar",
+          "Ice Punch",
           "Earth Power",
+          "Superpower",
           "Icy Wind",
-          "Hyper Voice",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
           "Endeavor",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -82407,17 +87938,25 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
+          "Low Kick",
           "Gunk Shot",
           "Uproar",
+          "Ice Punch",
           "Earth Power",
+          "Superpower",
           "Icy Wind",
-          "Hyper Voice",
-          "Snore",
-          "Knock Off",
-          "Gastro Acid",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
           "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -82589,15 +88128,20 @@ overrides = {
           "Uproar",
           "Ice Punch",
           "Earth Power",
+          "Superpower",
           "Icy Wind",
-          "Hyper Voice",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
           "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -82746,16 +88290,21 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Earth Power",
+          "Magnet Rise",
           "Superpower",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Helping Hand",
+          "Drain Punch",
+          "Wonder Room",
           "Sleep Talk"
         ]
       },
@@ -82905,16 +88454,21 @@ overrides = {
         ],
         "tutors": [
           "Dual Chop",
+          "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Block",
+          "Earth Power",
+          "Magnet Rise",
           "Superpower",
-          "Snore",
-          "Knock Off",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Helping Hand",
+          "Drain Punch",
+          "Wonder Room",
           "Sleep Talk"
         ]
       },
@@ -82992,7 +88546,7 @@ overrides = {
           "Move $901",
           "Move $904",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -83010,16 +88564,23 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Covet",
           "Signal Beam",
-          "Seed Bomb",
-          "Magic Coat",
-          "Iron Defense",
+          "Gunk Shot",
           "Electroweb",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Snore",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Worry Seed",
-          "Sleep Talk"
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -83119,7 +88680,7 @@ overrides = {
           "Move $901",
           "Move $904",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -83137,16 +88698,23 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Covet",
           "Signal Beam",
-          "Seed Bomb",
-          "Magic Coat",
-          "Iron Defense",
+          "Gunk Shot",
           "Electroweb",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Snore",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Worry Seed",
-          "Sleep Talk"
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -83292,7 +88860,7 @@ overrides = {
           "Move $904",
           "Knock Off",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -83312,19 +88880,24 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Covet",
           "Signal Beam",
-          "Seed Bomb",
+          "Gunk Shot",
           "Magic Coat",
-          "Iron Defense",
           "Electroweb",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Snore",
-          "Knock Off",
           "Synthesis",
-          "Heal Bell",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Worry Seed",
-          "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -83446,9 +89019,21 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Iron Defense",
-          "Snore",
+          "Iron Head",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
           "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -83475,7 +89060,7 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 65,
+        "at": 75,
         "df": 99,
         "sa": 40,
         "sd": 79,
@@ -83584,9 +89169,20 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Iron Defense",
-          "Snore",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
           "Endeavor",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -83750,12 +89346,19 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Iron Defense",
-          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
           "Endeavor",
+          "Outrage",
           "Snatch",
           "Sleep Talk"
         ]
@@ -83782,11 +89385,11 @@ overrides = {
       ],
       "bs": {
         "hp": 40,
-        "at": 52,
+        "at": 62,
         "df": 60,
-        "sa": 47,
+        "sa": 57,
         "sd": 50,
-        "sp": 66
+        "sp": 86
       },
       "learnset_info": {
         "learnset": [
@@ -83828,15 +89431,15 @@ overrides = {
           ],
           [
             16,
-            "Beat Up"
+            "Charm"
           ],
           [
             18,
-            "Encore"
+            "Draining Kiss"
           ],
           [
             21,
-            "Charm"
+            "Encore"
           ],
           [
             24,
@@ -83887,7 +89490,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -83906,15 +89509,21 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
-          "Snore",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Knock Off",
+          "Synthesis",
+          "Role Play",
           "Tailwind",
-          "Giga Drain",
-          "Worry Seed",
-          "Helping Hand",
+          "Pain Split",
+          "Gastro Acid",
+          "After You",
+          "Magic Room",
           "Endeavor",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -83941,9 +89550,9 @@ overrides = {
       ],
       "bs": {
         "hp": 60,
-        "at": 92,
+        "at": 102,
         "df": 85,
-        "sa": 87,
+        "sa": 97,
         "sd": 75,
         "sp": 116
       },
@@ -83987,7 +89596,7 @@ overrides = {
           ],
           [
             16,
-            "Beat Up"
+            "Draining Kiss"
           ],
           [
             18,
@@ -83995,7 +89604,7 @@ overrides = {
           ],
           [
             21,
-            "Charm"
+            "Encore"
           ],
           [
             24,
@@ -84062,7 +89671,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -84083,15 +89692,21 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
-          "Snore",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Knock Off",
+          "Synthesis",
+          "Role Play",
           "Tailwind",
-          "Giga Drain",
-          "Worry Seed",
-          "Helping Hand",
+          "Pain Split",
+          "Gastro Acid",
+          "After You",
+          "Magic Room",
           "Endeavor",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -84117,9 +89732,9 @@ overrides = {
       "bs": {
         "hp": 45,
         "at": 35,
-        "df": 60,
+        "df": 80,
         "sa": 85,
-        "sd": 60,
+        "sd": 80,
         "sp": 30
       },
       "learnset_info": {
@@ -84233,16 +89848,26 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Signal Beam",
           "Seed Bomb",
+          "Thunder Punch",
+          "Earth Power",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Snore",
           "Synthesis",
+          "Role Play",
           "Heal Bell",
-          "Giga Drain",
-          "Worry Seed",
-          "After You",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Sleep Talk"
+          "Magic Room",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -84270,7 +89895,7 @@ overrides = {
       "bs": {
         "hp": 70,
         "at": 60,
-        "df": 75,
+        "df": 95,
         "sa": 115,
         "sd": 95,
         "sp": 100
@@ -84406,17 +90031,26 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Signal Beam",
           "Seed Bomb",
+          "Thunder Punch",
+          "Earth Power",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Snore",
           "Synthesis",
           "Role Play",
           "Heal Bell",
-          "Giga Drain",
-          "Worry Seed",
-          "After You",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Sleep Talk"
+          "Magic Room",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -84549,6 +90183,7 @@ overrides = {
           "Move $856",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Dizzy Punch",
           "Psycho Cut",
@@ -84574,12 +90209,21 @@ overrides = {
         "tutors": [
           "Bounce",
           "Uproar",
-          "Superpower",
-          "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
-          "Snore",
-          "Endeavor",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -84716,14 +90360,23 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Uproar",
+          "Drill Run",
+          "Low Kick",
           "Earth Power",
           "Foul Play",
+          "Superpower",
           "Aqua Tail",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
+          "Wonder Room",
+          "Outrage",
           "Snatch",
           "Stealth Rock",
           "Sleep Talk"
@@ -84874,16 +90527,23 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Drill Run",
           "Low Kick",
-          "Uproar",
           "Earth Power",
           "Foul Play",
+          "Superpower",
           "Aqua Tail",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
+          "Wonder Room",
+          "Outrage",
           "Snatch",
           "Stealth Rock",
           "Sleep Talk"
@@ -85030,7 +90690,7 @@ overrides = {
           "Venoshock",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunder",
@@ -85054,18 +90714,22 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Drill Run",
           "Low Kick",
-          "Uproar",
           "Earth Power",
           "Foul Play",
           "Superpower",
           "Aqua Tail",
           "Dark Pulse",
-          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Spite",
+          "Wonder Room",
           "Outrage",
           "Snatch",
           "Stealth Rock",
@@ -85206,14 +90870,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Uproar",
           "Fire Punch",
+          "Earth Power",
           "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Snore",
+          "Bind",
           "Heat Wave",
-          "Endeavor",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -85374,14 +91049,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Uproar",
           "Fire Punch",
+          "Earth Power",
           "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Snore",
+          "Bind",
           "Heat Wave",
-          "Endeavor",
-          "Sleep Talk"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -85518,7 +91204,7 @@ overrides = {
           "Knock Off",
           "Taunt",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -85534,20 +91220,24 @@ overrides = {
           "Shadow Claw"
         ],
         "tutors": [
+          "Bug Bite",
           "Seed Bomb",
           "Bounce",
-          "Uproar",
+          "Thunder Punch",
           "Earth Power",
-          "Hyper Voice",
-          "Snore",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
           "Knock Off",
           "Synthesis",
-          "Giga Drain",
-          "Drain Punch",
-          "Worry Seed",
-          "After You",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
           "Endeavor",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -85681,7 +91371,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -85705,10 +91395,17 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Earth Power",
           "Iron Defense",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -85845,7 +91542,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -85869,10 +91566,17 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Earth Power",
           "Iron Defense",
-          "Snore",
-          "Knock Off",
-          "Stealth Rock",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Wonder Room",
+          "Endeavor",
           "Sleep Talk"
         ]
       },
@@ -86033,7 +91737,6 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Super Fang",
           "Dual Chop",
           "Iron Head",
           "Low Kick",
@@ -86041,15 +91744,22 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Iron Defense",
+          "Magnet Rise",
+          "Superpower",
+          "Icy Wind",
           "Dark Pulse",
-          "Zen Headbutt",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Drain Punch",
-          "Spite",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
           "Snatch",
           "Sleep Talk"
         ]
@@ -86213,7 +91923,6 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Super Fang",
           "Dual Chop",
           "Iron Head",
           "Low Kick",
@@ -86221,15 +91930,20 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Iron Defense",
+          "Magnet Rise",
+          "Superpower",
+          "Icy Wind",
           "Dark Pulse",
-          "Zen Headbutt",
           "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Drain Punch",
-          "Spite",
+          "Wonder Room",
           "Outrage",
           "Snatch",
           "Sleep Talk"
@@ -86380,7 +92094,7 @@ overrides = {
           "Dizzy Punch",
           "Hidden Power",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Thunderbolt",
@@ -86398,19 +92112,27 @@ overrides = {
           "Volt Switch"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Magic Coat",
+          "Block",
+          "Earth Power",
           "Gravity",
-          "Icy Wind",
+          "Magnet Rise",
           "Dark Pulse",
           "Zen Headbutt",
           "Snore",
-          "Heat Wave",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
           "Tailwind",
-          "Sky Attack",
+          "Pain Split",
           "Roost",
-          "Trick",
-          "Magic Room",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Recycle",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -86555,20 +92277,18 @@ overrides = {
           "Gunk Shot"
         ],
         "tutors": [
+          "Iron Head",
+          "Uproar",
           "Magic Coat",
           "Earth Power",
           "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
           "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Spite",
-          "After You",
-          "Trick",
-          "Wonder Room",
+          "Helping Hand",
           "Snatch",
-          "Sleep Talk",
           "Skill Swap"
         ]
       },
@@ -86715,20 +92435,18 @@ overrides = {
           "Gunk Shot"
         ],
         "tutors": [
+          "Iron Head",
+          "Uproar",
           "Magic Coat",
           "Earth Power",
           "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
           "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Spite",
-          "After You",
-          "Trick",
-          "Wonder Room",
+          "Helping Hand",
           "Snatch",
-          "Sleep Talk",
           "Skill Swap"
         ]
       },
@@ -86886,13 +92604,24 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Iron Head",
           "Earth Power",
-          "Iron Defense",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Stealth Rock",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -87053,15 +92782,23 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Low Kick",
           "Earth Power",
-          "Iron Defense",
-          "Superpower",
           "Icy Wind",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Stealth Rock",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -87187,7 +92924,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -87209,19 +92946,25 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Uproar",
           "Earth Power",
-          "Iron Defense",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Endeavor",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -87351,7 +93094,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -87376,20 +93119,25 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Uproar",
           "Earth Power",
-          "Iron Defense",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Endeavor",
+          "Worry Seed",
+          "Spite",
+          "After You",
           "Outrage",
-          "Stealth Rock",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -87537,19 +93285,25 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Seed Bomb",
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
           "Drain Punch",
-          "Spite",
+          "Worry Seed",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -87707,19 +93461,25 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Seed Bomb",
           "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
           "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
           "Drain Punch",
-          "Spite",
+          "Worry Seed",
+          "Wonder Room",
           "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -87836,7 +93596,7 @@ overrides = {
           "Dizzy Punch",
           "Hidden Power",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -87860,16 +93620,18 @@ overrides = {
         "tutors": [
           "Covet",
           "Bounce",
+          "Low Kick",
           "Uproar",
           "Foul Play",
           "Dark Pulse",
-          "Hyper Voice",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Spite",
           "Trick",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -88008,7 +93770,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -88038,13 +93800,14 @@ overrides = {
           "Uproar",
           "Foul Play",
           "Dark Pulse",
-          "Hyper Voice",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Spite",
           "Trick",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -88191,24 +93954,24 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
-          "Gunk Shot",
-          "Uproar",
-          "Last Resort",
           "Aqua Tail",
-          "Hyper Voice",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "After You",
-          "Helping Hand",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Skill Link",
         "Fur Coat",
-        "Fur Coat"
+        "Pickpocket"
       ],
       "evos": [
         "Cinccino",
@@ -88358,24 +94121,24 @@ overrides = {
         ],
         "tutors": [
           "Covet",
-          "Seed Bomb",
-          "Gunk Shot",
-          "Uproar",
-          "Last Resort",
           "Aqua Tail",
-          "Hyper Voice",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
-          "Knock Off",
-          "After You",
-          "Helping Hand",
-          "Sleep Talk"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Skill Link",
         "Fur Coat",
-        "Fur Coat"
+        "Pickpocket"
       ],
       "evoType": "level",
       "evoItem": "Shiny Stone",
@@ -88512,10 +94275,12 @@ overrides = {
           "Body Press"
         ],
         "tutors": [
-          "Covet",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Uproar",
           "Magic Coat",
+          "Block",
           "Foul Play",
           "Gravity",
           "Dark Pulse",
@@ -88523,11 +94288,13 @@ overrides = {
           "Snore",
           "Role Play",
           "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Trick",
-          "Magic Room",
           "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -88672,10 +94439,12 @@ overrides = {
           "Body Press"
         ],
         "tutors": [
-          "Covet",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Uproar",
           "Magic Coat",
+          "Block",
           "Foul Play",
           "Gravity",
           "Dark Pulse",
@@ -88683,11 +94452,12 @@ overrides = {
           "Snore",
           "Role Play",
           "Heal Bell",
-          "Helping Hand",
-          "Trick",
-          "Magic Room",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -88854,10 +94624,12 @@ overrides = {
           "Body Press"
         ],
         "tutors": [
-          "Covet",
+          "Super Fang",
           "Signal Beam",
+          "Seed Bomb",
           "Uproar",
           "Magic Coat",
+          "Block",
           "Foul Play",
           "Gravity",
           "Dark Pulse",
@@ -88865,11 +94637,12 @@ overrides = {
           "Snore",
           "Role Play",
           "Heal Bell",
-          "Helping Hand",
-          "Trick",
-          "Magic Room",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Recycle",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -89008,16 +94781,24 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Seed Bomb",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Snore",
           "Role Play",
+          "Tailwind",
           "Pain Split",
-          "After You",
-          "Trick",
-          "Wonder Room",
-          "Endeavor",
+          "Drain Punch",
+          "Helping Hand",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -89170,16 +94951,24 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Seed Bomb",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Snore",
           "Role Play",
+          "Tailwind",
           "Pain Split",
-          "After You",
-          "Trick",
-          "Wonder Room",
-          "Endeavor",
+          "Drain Punch",
+          "Helping Hand",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -89346,23 +95135,25 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Block",
           "Gravity",
+          "Magnet Rise",
           "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Snore",
-          "Knock Off",
           "Role Play",
+          "Tailwind",
           "Pain Split",
           "Drain Punch",
-          "After You",
           "Helping Hand",
-          "Trick",
-          "Wonder Room",
-          "Endeavor",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -89477,7 +95268,7 @@ overrides = {
           "Move $903",
           "Psychic Fangs",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -89495,12 +95286,18 @@ overrides = {
         ],
         "tutors": [
           "Uproar",
-          "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Snore",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Endeavor",
-          "Sleep Talk"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -89630,7 +95427,7 @@ overrides = {
           "Move $903",
           "Psychic Fangs",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Dig",
@@ -89648,12 +95445,18 @@ overrides = {
         ],
         "tutors": [
           "Uproar",
-          "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
           "Snore",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
-          "Endeavor",
-          "Sleep Talk"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -89782,13 +95585,22 @@ overrides = {
           "Gunk Shot"
         ],
         "tutors": [
-          "Signal Beam",
           "Uproar",
           "Magic Coat",
-          "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Electroweb",
           "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -89943,13 +95755,22 @@ overrides = {
           "Gunk Shot"
         ],
         "tutors": [
-          "Signal Beam",
           "Uproar",
           "Magic Coat",
-          "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Electroweb",
           "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -90110,13 +95931,22 @@ overrides = {
           "Gunk Shot"
         ],
         "tutors": [
-          "Signal Beam",
           "Uproar",
           "Magic Coat",
-          "Magnet Rise",
           "Iron Defense",
+          "Last Resort",
+          "Electroweb",
           "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -90146,7 +95976,7 @@ overrides = {
         "df": 50,
         "sa": 40,
         "sd": 50,
-        "sp": 75
+        "sp": 85
       },
       "learnset_info": {
         "learnset": [
@@ -90231,7 +96061,7 @@ overrides = {
           "Move $904",
           "Knock Off",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -90247,14 +96077,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
           "Bounce",
-          "Last Resort",
-          "Snore",
+          "Low Kick",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
-          "Worry Seed",
-          "Sleep Talk"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -90405,7 +96246,7 @@ overrides = {
           "Move $904",
           "Knock Off",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -90423,14 +96264,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
           "Bounce",
-          "Last Resort",
-          "Snore",
+          "Low Kick",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Worry Seed",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -90573,7 +96426,7 @@ overrides = {
           "Psyshock",
           "Knock Off",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -90594,15 +96447,21 @@ overrides = {
         "tutors": [
           "Covet",
           "Signal Beam",
-          "Last Resort",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Knock Off",
-          "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
+          "Gastro Acid",
+          "After You",
           "Helping Hand",
-          "Sleep Talk"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -90707,7 +96566,7 @@ overrides = {
           "Move $856",
           "Move $856",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -90726,11 +96585,13 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Iron Head",
           "Drill Run",
-          "Iron Defense",
-          "Snore",
-          "Knock Off",
-          "Giga Drain",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Endeavor",
           "Sleep Talk"
         ]
       },
@@ -90864,7 +96725,7 @@ overrides = {
           "Move $856",
           "Move $856",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -90886,10 +96747,11 @@ overrides = {
           "Bug Bite",
           "Iron Head",
           "Drill Run",
-          "Iron Defense",
-          "Snore",
-          "Knock Off",
-          "Giga Drain",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Endeavor",
           "Sleep Talk"
         ]
       },
@@ -91027,14 +96889,21 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
           "Foul Play",
-          "Snore",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
           "Worry Seed",
           "After You",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -91181,14 +97050,21 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
           "Foul Play",
-          "Snore",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
           "Worry Seed",
           "After You",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -91322,16 +97198,20 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Uproar",
           "Magic Coat",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
           "Dark Pulse",
-          "Bind",
-          "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
-          "Spite",
-          "Trick",
-          "Sleep Talk"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -91489,16 +97369,20 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
+          "Uproar",
           "Magic Coat",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
           "Dark Pulse",
-          "Bind",
-          "Snore",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Giga Drain",
-          "Spite",
-          "Trick",
-          "Sleep Talk"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -91664,15 +97548,23 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
+          "Uproar",
           "Magic Coat",
-          "Superpower",
-          "Icy Wind",
+          "Magnet Rise",
           "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
           "Snore",
           "Knock Off",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Helping Hand",
-          "Sleep Talk"
+          "Drain Punch",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -91733,7 +97625,7 @@ overrides = {
           ],
           [
             15,
-            "Leech Life"
+            "Mega Drain"
           ],
           [
             17,
@@ -91741,15 +97633,15 @@ overrides = {
           ],
           [
             20,
-            "Mega Drain"
+            "Parabolic Zap"
           ],
           [
             23,
-            "Sucker Punch"
+            "Signal Beam"
           ],
           [
             27,
-            "Signal Beam"
+            "Sucker Punch"
           ],
           [
             30,
@@ -91816,11 +97708,17 @@ overrides = {
           "Bug Bite",
           "Signal Beam",
           "Bounce",
-          "Magnet Rise",
           "Electroweb",
-          "Snore",
-          "Giga Drain",
-          "Gastro Acid",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -91885,7 +97783,7 @@ overrides = {
           ],
           [
             15,
-            "Leech Life"
+            "Mega Drain"
           ],
           [
             17,
@@ -91893,15 +97791,15 @@ overrides = {
           ],
           [
             20,
-            "Mega Drain"
+            "Parabolic Zap"
           ],
           [
             23,
-            "Sucker Punch"
+            "Signal Beam"
           ],
           [
             27,
-            "Signal Beam"
+            "Sucker Punch"
           ],
           [
             30,
@@ -91980,11 +97878,17 @@ overrides = {
           "Bug Bite",
           "Signal Beam",
           "Bounce",
-          "Magnet Rise",
           "Electroweb",
-          "Snore",
-          "Giga Drain",
-          "Gastro Acid",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -92099,7 +98003,7 @@ overrides = {
           "Dragon Claw",
           "Psyshock",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Brick Break",
@@ -92118,16 +98022,19 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Covet",
           "Iron Head",
-          "Seed Bomb",
           "Gravity",
-          "Magnet Rise",
           "Iron Defense",
-          "Snore",
-          "Giga Drain",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Worry Seed",
-          "Endeavor",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -92251,7 +98158,7 @@ overrides = {
           "Dragon Claw",
           "Psyshock",
           "Knock Off",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Brick Break",
@@ -92272,17 +98179,19 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Covet",
           "Iron Head",
-          "Seed Bomb",
           "Gravity",
-          "Magnet Rise",
           "Iron Defense",
-          "Snore",
-          "Knock Off",
-          "Giga Drain",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Worry Seed",
-          "Endeavor",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -92401,17 +98310,19 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
-          "Gunk Shot",
-          "Uproar",
-          "Magic Coat",
+          "Iron Head",
           "Gravity",
           "Magnet Rise",
           "Iron Defense",
-          "Zen Headbutt",
+          "Last Resort",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Recycle",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -92543,17 +98454,19 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
-          "Gunk Shot",
-          "Uproar",
-          "Magic Coat",
+          "Iron Head",
           "Gravity",
           "Magnet Rise",
           "Iron Defense",
-          "Zen Headbutt",
+          "Last Resort",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Recycle",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -92700,17 +98613,19 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
-          "Gunk Shot",
-          "Uproar",
-          "Magic Coat",
+          "Iron Head",
           "Gravity",
           "Magnet Rise",
           "Iron Defense",
-          "Zen Headbutt",
+          "Last Resort",
+          "Dark Pulse",
           "Bind",
-          "Snore",
-          "Recycle",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -92926,18 +98841,27 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Super Fang",
-          "Signal Beam",
           "Bounce",
           "Gunk Shot",
+          "Uproar",
+          "Thunder Punch",
+          "Fire Punch",
           "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
-          "Gastro Acid",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -93118,22 +99042,27 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Super Fang",
-          "Signal Beam",
           "Bounce",
           "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Magnet Rise",
           "Superpower",
           "Aqua Tail",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
           "Drain Punch",
-          "Gastro Acid",
+          "Worry Seed",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -93284,19 +99213,22 @@ overrides = {
           "Sparkle"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
           "Uproar",
           "Magic Coat",
+          "Block",
+          "Earth Power",
           "Gravity",
           "Dark Pulse",
           "Zen Headbutt",
+          "Bind",
           "Snore",
           "Role Play",
+          "Tailwind",
           "Pain Split",
-          "After You",
+          "Helping Hand",
           "Trick",
-          "Wonder Room",
-          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -93461,19 +99393,22 @@ overrides = {
           "Sparkle"
         ],
         "tutors": [
+          "Super Fang",
           "Signal Beam",
           "Uproar",
           "Magic Coat",
+          "Block",
+          "Earth Power",
           "Gravity",
           "Dark Pulse",
           "Zen Headbutt",
+          "Bind",
           "Snore",
           "Role Play",
+          "Tailwind",
           "Pain Split",
-          "After You",
+          "Helping Hand",
           "Trick",
-          "Wonder Room",
-          "Recycle",
           "Snatch",
           "Sleep Talk",
           "Skill Swap"
@@ -93596,11 +99531,13 @@ overrides = {
         ],
         "tutors": [
           "Dark Pulse",
-          "Snore",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Gastro Acid",
           "Spite",
-          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -93628,9 +99565,9 @@ overrides = {
       "bs": {
         "hp": 60,
         "at": 40,
-        "df": 70,
+        "df": 80,
         "sa": 95,
-        "sd": 70,
+        "sd": 80,
         "sp": 55
       },
       "learnset_info": {
@@ -93730,11 +99667,13 @@ overrides = {
         ],
         "tutors": [
           "Dark Pulse",
-          "Snore",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Gastro Acid",
           "Spite",
-          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -93876,11 +99815,13 @@ overrides = {
         ],
         "tutors": [
           "Dark Pulse",
-          "Snore",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Gastro Acid",
           "Spite",
-          "Trick",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -93996,7 +99937,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -94023,13 +99964,25 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Dual Chop",
+          "Iron Head",
+          "Drill Run",
+          "Low Kick",
+          "Gunk Shot",
+          "Magnet Rise",
           "Superpower",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Snore",
-          "Endeavor",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -94158,7 +100111,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -94185,14 +100138,25 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Dual Chop",
+          "Iron Head",
+          "Drill Run",
           "Low Kick",
+          "Gunk Shot",
+          "Magnet Rise",
           "Superpower",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Snore",
-          "Endeavor",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -94335,7 +100299,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -94362,14 +100326,25 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Dual Chop",
+          "Iron Head",
+          "Drill Run",
           "Low Kick",
+          "Gunk Shot",
+          "Magnet Rise",
           "Superpower",
           "Aqua Tail",
-          "Dragon Pulse",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Snore",
-          "Endeavor",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
           "Outrage",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -94506,7 +100481,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -94535,12 +100510,20 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Covet",
           "Low Kick",
+          "Uproar",
           "Ice Punch",
           "Superpower",
-          "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -94691,7 +100674,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -94720,12 +100703,20 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Covet",
           "Low Kick",
+          "Uproar",
           "Ice Punch",
           "Superpower",
-          "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -94871,14 +100862,24 @@ overrides = {
           "Gunk Shot"
         ],
         "tutors": [
-          "Signal Beam",
+          "Iron Head",
+          "Uproar",
           "Magic Coat",
+          "Block",
+          "Earth Power",
           "Iron Defense",
-          "Icy Wind",
-          "Bind",
-          "Snore",
-          "Knock Off",
-          "Sleep Talk"
+          "Last Resort",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -95001,11 +101002,23 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
+          "Uproar",
+          "Foul Play",
           "Electroweb",
+          "Icy Wind",
           "Dark Pulse",
-          "Snore",
-          "Giga Drain",
+          "Dragon Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
+          "Worry Seed",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -95153,12 +101166,23 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
+          "Uproar",
+          "Foul Play",
           "Electroweb",
+          "Icy Wind",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
-          "Giga Drain",
+          "Dragon Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
+          "Worry Seed",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -95309,18 +101333,20 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Gunk Shot",
-          "Uproar",
           "Earth Power",
           "Foul Play",
           "Magnet Rise",
-          "Electroweb",
+          "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
-          "Snore",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Spite",
-          "Endeavor",
-          "Stealth Rock",
+          "Worry Seed",
+          "Magic Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -95439,7 +101465,7 @@ overrides = {
           "Venoshock",
           "Air Slash",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -95466,13 +101492,17 @@ overrides = {
           "Dual Chop",
           "Bounce",
           "Low Kick",
+          "Superpower",
+          "Dark Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
-          "Knock Off",
-          "Heat Wave",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -95611,7 +101641,7 @@ overrides = {
           "Venoshock",
           "Air Slash",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -95638,13 +101668,17 @@ overrides = {
           "Dual Chop",
           "Bounce",
           "Low Kick",
+          "Superpower",
+          "Dark Pulse",
           "Iron Tail",
+          "Bind",
           "Snore",
-          "Knock Off",
-          "Heat Wave",
           "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -95782,7 +101816,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -95816,13 +101850,18 @@ overrides = {
           "Superpower",
           "Aqua Tail",
           "Dark Pulse",
-          "Dragon Pulse",
           "Iron Tail",
-          "Snore",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
           "Outrage",
           "Snatch",
-          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -95972,20 +102011,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
+          "Drill Run",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Magic Coat",
           "Earth Power",
           "Gravity",
           "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Icy Wind",
-          "Snore",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Stealth Rock",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -96154,21 +102197,24 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Signal Beam",
+          "Drill Run",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Magic Coat",
           "Earth Power",
           "Gravity",
           "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Icy Wind",
-          "Zen Headbutt",
-          "Snore",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Drain Punch",
-          "Stealth Rock",
+          "Wonder Room",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -96282,7 +102328,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -96308,12 +102354,12 @@ overrides = {
           "Low Kick",
           "Foul Play",
           "Magnet Rise",
-          "Iron Defense",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
+          "Zen Headbutt",
           "Role Play",
-          "Spite",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
           "Snatch",
           "Stealth Rock",
           "Sleep Talk"
@@ -96446,7 +102492,7 @@ overrides = {
           "Magical Leaf",
           "Venoshock",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -96474,12 +102520,12 @@ overrides = {
           "Low Kick",
           "Foul Play",
           "Magnet Rise",
-          "Iron Defense",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
+          "Zen Headbutt",
           "Role Play",
-          "Spite",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
           "Snatch",
           "Stealth Rock",
           "Sleep Talk"
@@ -96608,7 +102654,7 @@ overrides = {
           "Shock Wave",
           "Knock Off",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -96631,15 +102677,23 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Uproar",
-          "Superpower",
+          "Drill Run",
+          "Magnet Rise",
           "Aqua Tail",
-          "Zen Headbutt",
+          "Dark Pulse",
           "Iron Tail",
-          "Snore",
-          "Endeavor",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -96746,7 +102800,7 @@ overrides = {
           "Move $902",
           "Knock Off",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -96765,12 +102819,16 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Superpower",
-          "Snore",
-          "Heat Wave",
+          "Dark Pulse",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -96888,7 +102946,7 @@ overrides = {
           "Move $902",
           "Knock Off",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -96907,12 +102965,16 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Superpower",
-          "Snore",
-          "Heat Wave",
+          "Dark Pulse",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Sleep Talk"
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -97033,7 +103095,7 @@ overrides = {
           "Knock Off",
           "Dizzy Punch",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Sludge Bomb",
@@ -97054,15 +103116,17 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Uproar",
           "Foul Play",
-          "Iron Defense",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
-          "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
+          "Gastro Acid",
+          "After You",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -97193,7 +103257,7 @@ overrides = {
           "Knock Off",
           "Dizzy Punch",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Sludge Bomb",
@@ -97214,15 +103278,17 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
+          "Uproar",
           "Foul Play",
-          "Iron Defense",
           "Dark Pulse",
-          "Snore",
-          "Knock Off",
-          "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Pain Split",
           "Roost",
+          "Gastro Acid",
+          "After You",
           "Snatch",
+          "Stealth Rock",
           "Sleep Talk"
         ]
       },
@@ -97365,7 +103431,7 @@ overrides = {
           "Blizzard",
           "Light Screen",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -97385,20 +103451,28 @@ overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Iron Head",
           "Low Kick",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
-          "Superpower",
+          "Earth Power",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
           "Bind",
-          "Snore",
-          "Knock Off",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Giga Drain",
-          "Gastro Acid",
-          "Recycle",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
           "Snatch",
-          "Sleep Talk"
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -97522,7 +103596,7 @@ overrides = {
           "Knock Off",
           "Magical Leaf",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -97547,10 +103621,19 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Iron Head",
-          "Iron Defense",
-          "Superpower",
-          "Snore",
+          "Drill Run",
+          "Low Kick",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
           "Endeavor",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -97679,16 +103762,27 @@ overrides = {
           "Draco Meteor",
           "Uproar",
           "Earth Power",
-          "Superpower",
           "Aqua Tail",
           "Dark Pulse",
-          "Zen Headbutt",
-          "Dragon Pulse",
-          "Hyper Voice",
-          "Snore",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Roost",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -97823,16 +103917,27 @@ overrides = {
           "Draco Meteor",
           "Uproar",
           "Earth Power",
-          "Superpower",
           "Aqua Tail",
           "Dark Pulse",
-          "Zen Headbutt",
-          "Dragon Pulse",
-          "Hyper Voice",
-          "Snore",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Roost",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -98002,23 +104107,29 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Signal Beam",
           "Uproar",
           "Earth Power",
-          "Superpower",
           "Aqua Tail",
           "Dark Pulse",
-          "Zen Headbutt",
-          "Dragon Pulse",
-          "Hyper Voice",
           "Iron Tail",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Roost",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Wonder Room",
           "Outrage",
-          "Sleep Talk"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -98146,10 +104257,19 @@ overrides = {
           "Bug Bite",
           "Signal Beam",
           "Magnet Rise",
-          "Zen Headbutt",
-          "Snore",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Knock Off",
           "Heat Wave",
-          "Giga Drain",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Trick",
+          "Endeavor",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -98283,7 +104403,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Light Screen",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -98304,12 +104424,19 @@ overrides = {
           "Bug Bite",
           "Signal Beam",
           "Magnet Rise",
-          "Zen Headbutt",
-          "Snore",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Knock Off",
           "Heat Wave",
+          "Role Play",
           "Tailwind",
-          "Giga Drain",
+          "Pain Split",
           "Roost",
+          "After You",
+          "Trick",
+          "Endeavor",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -98415,7 +104542,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -98555,7 +104682,7 @@ overrides = {
           "Air Slash",
           "Psycho Cut",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -98691,7 +104818,7 @@ overrides = {
           "Knock Off",
           "Hidden Power",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -98839,7 +104966,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -99729,10 +105856,11 @@ overrides = {
           "Move $862",
           "Move $902",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Hidden Power",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -100062,7 +106190,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Ice Beam",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Aurora Beam",
           "Solar Beam",
@@ -100376,7 +106504,7 @@ overrides = {
           "Shock Wave",
           "Knock Off",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -100396,14 +106524,26 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
           "Bounce",
-          "Last Resort",
-          "Snore",
+          "Low Kick",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Worry Seed",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -100534,7 +106674,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Psycho Cut",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -100557,14 +106697,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
           "Bounce",
-          "Last Resort",
-          "Snore",
+          "Low Kick",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Worry Seed",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -100699,7 +106850,7 @@ overrides = {
           "Psychic Fangs",
           "Knock Off",
           "Dizzy Punch",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Icy Wind",
@@ -100719,14 +106870,25 @@ overrides = {
           "Gyro Ball"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Iron Head",
+          "Drill Run",
           "Bounce",
-          "Last Resort",
-          "Snore",
+          "Low Kick",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Giga Drain",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Worry Seed",
-          "Sleep Talk"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -100854,13 +107016,21 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
+          "Drill Run",
+          "Block",
           "Earth Power",
           "Icy Wind",
-          "Snore",
+          "Dark Pulse",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Sleep Talk"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -101013,13 +107183,21 @@ overrides = {
           "Struggle Bug"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
+          "Drill Run",
+          "Block",
           "Earth Power",
           "Icy Wind",
-          "Snore",
+          "Dark Pulse",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
-          "Sleep Talk"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -102122,7 +108300,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -102278,7 +108456,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -102435,7 +108613,7 @@ overrides = {
           "Hidden Power",
           "Air Slash",
           "Hidden Force",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -102627,13 +108805,26 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Signal Beam",
+          "Iron Head",
+          "Seed Bomb",
           "Drill Run",
-          "Uproar",
           "Earth Power",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Electroweb",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Endeavor",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -102778,14 +108969,24 @@ overrides = {
           "Bug Bite",
           "Signal Beam",
           "Iron Head",
-          "Gunk Shot",
-          "Uproar",
+          "Seed Bomb",
+          "Drill Run",
+          "Earth Power",
           "Magnet Rise",
           "Iron Defense",
           "Electroweb",
-          "Snore",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Endeavor",
-          "Stealth Rock",
+          "Snatch",
           "Sleep Talk",
           "Skill Swap"
         ]
@@ -103006,7 +109207,7 @@ overrides = {
           "Drain Punch",
           "Dizzy Punch",
           "Hidden Power",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -103215,16 +109416,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Uproar",
-          "Electroweb",
-          "Icy Wind",
+          "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Helping Hand",
           "Trick",
+          "Magic Room",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -103393,16 +109603,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Uproar",
-          "Electroweb",
-          "Icy Wind",
+          "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Helping Hand",
           "Trick",
+          "Magic Room",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -103570,16 +109789,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Uproar",
-          "Electroweb",
-          "Icy Wind",
+          "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Helping Hand",
           "Trick",
+          "Magic Room",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -103747,16 +109975,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Uproar",
-          "Electroweb",
-          "Icy Wind",
+          "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Helping Hand",
           "Trick",
+          "Magic Room",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -103925,16 +110162,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Uproar",
-          "Electroweb",
-          "Icy Wind",
+          "Foul Play",
+          "Iron Defense",
+          "Last Resort",
           "Dark Pulse",
-          "Snore",
+          "Bind",
           "Heat Wave",
+          "Role Play",
+          "Tailwind",
           "Pain Split",
+          "Worry Seed",
           "Spite",
+          "After You",
+          "Helping Hand",
           "Trick",
+          "Magic Room",
+          "Recycle",
           "Snatch",
-          "Sleep Talk"
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -104104,11 +110350,33 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
+          "Super Fang",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Block",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Snore",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
           "Tailwind",
-          "Sleep Talk"
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -104278,11 +110546,33 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
+          "Super Fang",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Block",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Snore",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
           "Tailwind",
-          "Sleep Talk"
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -104452,11 +110742,33 @@ overrides = {
           "Avalanche"
         ],
         "tutors": [
+          "Super Fang",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Block",
+          "Iron Defense",
           "Last Resort",
-          "Icy Wind",
-          "Snore",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
           "Tailwind",
-          "Sleep Talk"
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -104586,6 +110898,7 @@ overrides = {
           "Move $856",
           "Move $856",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Dizzy Punch",
           "Psycho Cut",
@@ -104611,12 +110924,21 @@ overrides = {
         "tutors": [
           "Bounce",
           "Uproar",
-          "Superpower",
-          "Icy Wind",
           "Aqua Tail",
-          "Zen Headbutt",
-          "Snore",
-          "Endeavor",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
           "Sleep Talk"
         ]
       },
@@ -105343,10 +111665,11 @@ overrides = {
           "Move $862",
           "Move $902",
           "Move $903",
+          "Psychic Fangs",
           "Knock Off",
           "Hidden Power",
           "Air Slash",
-          "Sand Attack",
+          "Scorching Sands",
           "Hyper Voice",
           "Solar Beam",
           "Earthquake",
@@ -105493,7 +111816,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Blizzard",
-          "Sand Attack",
+          "Scorching Sands",
           "Giga Drain",
           "Hyper Voice",
           "Solar Beam",
@@ -105934,7 +112257,8 @@ overrides = {
       "name": "Pay Day",
       "num": 5,
       "desc": "Numerous coins are hurled at the target. This attack always results in a critical hit.",
-      "e_id": 288
+      "e_id": 288,
+      "willCrit": true
     },
     "Fire Punch": {
       "t": "Fire",
@@ -106068,7 +112392,7 @@ overrides = {
     },
     "Gust": {
       "t": "Flying",
-      "bp": 40,
+      "bp": 50,
       "cat": "Special",
       "pp": 35,
       "acc": 100,
@@ -106137,7 +112461,7 @@ overrides = {
       "name": "Brutal Swing",
       "num": 20,
       "desc": "The user swings its body violently to inflict damage and eliminate hazards. Reduces target's evasion.",
-      "e_id": 24,
+      "e_id": 0,
       "tar": "allAdjacentFoes",
       "sf": true
     },
@@ -106668,7 +112992,7 @@ overrides = {
     },
     "Psybeam": {
       "t": "Psychic",
-      "bp": 65,
+      "bp": 70,
       "cat": "Special",
       "pp": 20,
       "acc": 100,
@@ -106905,7 +113229,7 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 30,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Stun Spore",
       "num": 77,
@@ -107453,7 +113777,8 @@ overrides = {
       "num": 119,
       "desc": "The user attacks everything around it by causing an explosion. Always crits. The user faints upon using this move.",
       "e_id": 7,
-      "tar": "allAdjacent"
+      "tar": "allAdjacent",
+      "willCrit": true
     },
     "Egg Bomb": {
       "t": "Grass",
@@ -107490,7 +113815,7 @@ overrides = {
       "name": "Smog",
       "num": 122,
       "desc": "The enemy team is attacked with a discharge of filthy gases. It may also poison targets.",
-      "e_id": 2,
+      "e_id": 0,
       "tar": "allAdjacentFoes",
       "sf": true
     },
@@ -107811,7 +114136,7 @@ overrides = {
     },
     "Sparkle": {
       "t": "Rock",
-      "bp": 60,
+      "bp": 65,
       "cat": "Special",
       "pp": 20,
       "acc": 100,
@@ -107883,7 +114208,8 @@ overrides = {
       "num": 152,
       "desc": "The user explodes to inflict damage on those around it. Always crits. The user faints upon using this move.",
       "e_id": 7,
-      "tar": "allAdjacent"
+      "tar": "allAdjacent",
+      "willCrit": true
     },
     "Fury Swipes": {
       "t": "Dark",
@@ -108006,7 +114332,7 @@ overrides = {
       "name": "Super Fang",
       "num": 161,
       "desc": "The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half.",
-      "e_id": 40
+      "e_id": 0
     },
     "Slash": {
       "t": "Normal",
@@ -108018,7 +114344,8 @@ overrides = {
       "name": "Slash",
       "num": 162,
       "desc": "The target is attacked with a slash of claws or blades. Always lands a critical hit.",
-      "e_id": 288
+      "e_id": 288,
+      "willCrit": true
     },
     "Substitute": {
       "t": "Normal",
@@ -108367,6 +114694,7 @@ overrides = {
       "num": 189,
       "desc": "The user attacks by spraying ink. This attack always results in a critical hit.",
       "e_id": 288,
+      "willCrit": true,
       "sf": true
     },
     "Spikes": {
@@ -108589,7 +114917,7 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 2,
-      "acc": 90,
+      "acc": 100,
       "prio": 0,
       "name": "Swagger",
       "num": 206,
@@ -108884,7 +115212,7 @@ overrides = {
       "name": "Sweet Scent",
       "num": 229,
       "desc": "A sweet scent that lowers the opposing team's defenses and evasiveness. It also lures wild Pokémon if used in grass.",
-      "e_id": 24,
+      "e_id": 19,
       "tar": "allAdjacentFoes",
       "sf": true
     },
@@ -109368,7 +115696,7 @@ overrides = {
       "t": "Electric",
       "bp": 0,
       "cat": "Status",
-      "pp": 5,
+      "pp": 10,
       "acc": 101,
       "prio": 0,
       "name": "Charge",
@@ -109494,7 +115822,7 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 5,
+      "pp": 3,
       "acc": 101,
       "prio": 0,
       "name": "Recycle",
@@ -109608,7 +115936,7 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 5,
+      "pp": 10,
       "acc": 101,
       "prio": 0,
       "name": "Refresh",
@@ -109982,7 +116310,8 @@ overrides = {
       "num": 313,
       "desc": "The user launches razor-like wind to slash the opposing team. Critical hits land more easily.",
       "e_id": 288,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "willCrit": true
     },
     "Overheat": {
       "t": "Fire",
@@ -110330,7 +116659,7 @@ overrides = {
       "bp": 85,
       "cat": "Physical",
       "pp": 15,
-      "acc": 95,
+      "acc": 101,
       "prio": 0,
       "name": "Bounce",
       "num": 339,
@@ -110374,7 +116703,7 @@ overrides = {
       "name": "Covet",
       "num": 342,
       "desc": "The user endearingly approaches the target, then steals the target's held item.",
-      "e_id": 105
+      "e_id": 0
     },
     "Volt Tackle": {
       "t": "Electric",
@@ -110416,6 +116745,7 @@ overrides = {
       "num": 345,
       "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
       "e_id": 288,
+      "willCrit": true,
       "recoil": [
         33,
         100
@@ -110856,7 +117186,7 @@ overrides = {
       "t": "Poison",
       "bp": 0,
       "cat": "Status",
-      "pp": 10,
+      "pp": 2,
       "acc": 100,
       "prio": 1,
       "name": "Gastro Acid",
@@ -111011,7 +117341,7 @@ overrides = {
       "t": "Water",
       "bp": 0,
       "cat": "Status",
-      "pp": 5,
+      "pp": 10,
       "acc": 101,
       "prio": 0,
       "name": "Aqua Ring",
@@ -111121,7 +117451,8 @@ overrides = {
       "name": "Night Slash",
       "num": 399,
       "desc": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "willCrit": true
     },
     "Aqua Tail": {
       "t": "Water",
@@ -111644,6 +117975,7 @@ overrides = {
       "num": 439,
       "desc": "A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.",
       "e_id": 209,
+      "willCrit": true,
       "sf": true
     },
     "Gunk Shot": {
@@ -112175,7 +118507,8 @@ overrides = {
       "name": "Storm Throw",
       "num": 479,
       "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
-      "e_id": 288
+      "e_id": 288,
+      "willCrit": true
     },
     "Flame Burst": {
       "t": "Fire",
@@ -112730,7 +119063,8 @@ overrides = {
       "name": "Frost Breath",
       "num": 523,
       "desc": "The user blows a cold breath on the target. This attack always results in a critical hit.",
-      "e_id": 288
+      "e_id": 288,
+      "willCrit": true
     },
     "Dragon Tail": {
       "t": "Dragon",
@@ -113187,7 +119521,7 @@ overrides = {
       "prio": 0,
       "name": "Skitter Smack",
       "num": 557,
-      "desc": "The user sneaks behind the target and strikes. This attack\\lowers the target's Special Attack.",
+      "desc": "The user sneaks behind the target and strikes. This attack lowers the target's Special Attack.",
       "e_id": 0,
       "sf": true
     },
@@ -113235,7 +119569,7 @@ overrides = {
     },
     "corrosion": {
       "name": "Corrosion",
-      "desc": "The Pokémon is protected from paralysis."
+      "desc": "The user's Poison moves affect Steel greatly."
     },
     "sandveil": {
       "name": "Sand Veil",
@@ -113775,7 +120109,7 @@ overrides = {
     },
     "overcoat": {
       "name": "Overcoat",
-      "desc": "Shielded from weather, hazards,\\ contact."
+      "desc": "Shielded from weather, hazards,and contact."
     },
     "poisontouch": {
       "name": "Poison Touch",
@@ -114020,17 +120354,17 @@ overrides = {
             "mx": 24
           },
           {
-            "s": "Staravia",
+            "s": "Bonsly",
             "mn": 22,
             "mx": 24
           },
           {
-            "s": "Cherubi",
+            "s": "Weepinbell",
             "mn": 22,
             "mx": 24
           },
           {
-            "s": "Buneary",
+            "s": "Pachirisu",
             "mn": 22,
             "mx": 24
           },
@@ -114074,7 +120408,7 @@ overrides = {
             "mx": 24
           },
           {
-            "s": "Mimejr",
+            "s": "Roselia",
             "mn": 22,
             "mx": 24
           },
@@ -114084,17 +120418,17 @@ overrides = {
             "mx": 24
           },
           {
-            "s": "Tranquill",
+            "s": "Pidgeotto",
             "mn": 22,
             "mx": 24
           },
           {
-            "s": "Weepinbell",
+            "s": "Staravia",
             "mn": 22,
             "mx": 24
           },
           {
-            "s": "Eevee",
+            "s": "Cherubi",
             "mn": 22,
             "mx": 24
           },
@@ -114104,22 +120438,22 @@ overrides = {
             "mx": 24
           },
           {
-            "s": "Pachirisu",
+            "s": "Hoothoot",
             "mn": 22,
             "mx": 24
           },
           {
-            "s": "Vulpix",
+            "s": "Buneary",
             "mn": 22,
             "mx": 24
           },
           {
-            "s": "Pachirisu",
+            "s": "Hoothoot",
             "mn": 22,
             "mx": 24
           },
           {
-            "s": "Vulpix",
+            "s": "Buneary",
             "mn": 22,
             "mx": 24
           }
@@ -114128,7 +120462,7 @@ overrides = {
       "grass_special": {
         "encs": [
           {
-            "s": "Wurmple",
+            "s": "Venipede",
             "mn": 22,
             "mx": 24
           },
@@ -114143,7 +120477,7 @@ overrides = {
             "mx": 24
           },
           {
-            "s": "Venipede",
+            "s": "Swadloon",
             "mn": 22,
             "mx": 24
           },
@@ -114163,7 +120497,7 @@ overrides = {
             "mx": 24
           },
           {
-            "s": "Sewaddle",
+            "s": "Yanma",
             "mn": 22,
             "mx": 24
           },
@@ -114473,17 +120807,17 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Spheal",
-            "mn": 10,
-            "mx": 12
-          },
-          {
-            "s": "Spheal",
-            "mn": 10,
-            "mx": 12
-          },
-          {
             "s": "Poliwag",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Spheal",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Spheal",
             "mn": 10,
             "mx": 12
           }
@@ -114502,17 +120836,17 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Squirtle",
+            "s": "Marill",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Squirtle",
+            "s": "Mantyke",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Mudkip",
+            "s": "Mantyke",
             "mn": 10,
             "mx": 12
           }
@@ -114606,7 +120940,7 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Tentacool",
+            "s": "Tynamo",
             "mn": 10,
             "mx": 12
           },
@@ -114625,22 +120959,22 @@ overrides = {
             "mx": 12
           },
           {
+            "s": "Tympole",
+            "mn": 10,
+            "mx": 12
+          },
+          {
             "s": "Horsea",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Tympole",
+            "s": "Slowpoke",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Tympole",
-            "mn": 10,
-            "mx": 12
-          },
-          {
-            "s": "Corsola",
+            "s": "Slowpoke",
             "mn": 10,
             "mx": 12
           }
@@ -116115,7 +122449,7 @@ overrides = {
             "mx": 4
           },
           {
-            "s": "Ralts",
+            "s": "Rattata",
             "mn": 3,
             "mx": 4
           },
@@ -116220,7 +122554,7 @@ overrides = {
             "mx": 9
           },
           {
-            "s": "Vulpix",
+            "s": "Cleffa",
             "mn": 7,
             "mx": 9
           },
@@ -116230,12 +122564,7 @@ overrides = {
             "mx": 9
           },
           {
-            "s": "Slakoth",
-            "mn": 7,
-            "mx": 9
-          },
-          {
-            "s": "Cleffa",
+            "s": "Vulpix",
             "mn": 7,
             "mx": 9
           },
@@ -116245,7 +122574,12 @@ overrides = {
             "mx": 9
           },
           {
-            "s": "Cleffa",
+            "s": "Meditite",
+            "mn": 7,
+            "mx": 9
+          },
+          {
+            "s": "Meditite",
             "mn": 7,
             "mx": 9
           }
@@ -116278,64 +122612,64 @@ overrides = {
       "grass_doubles": {
         "encs": [
           {
-            "s": "Ekans",
-            "mn": 30,
-            "mx": 32
+            "s": "Arbok",
+            "mn": 29,
+            "mx": 31
           },
           {
-            "s": "Mareep",
-            "mn": 30,
-            "mx": 32
+            "s": "Flaaffy",
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Cranidos",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Charmeleon",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Druddigon",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Grovyle",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Kangaskhan",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Kecleon",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Kangaskhan",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Swablu",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Kangaskhan",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Swablu",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           }
         ]
       },
@@ -116360,7 +122694,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Delibird",
+            "s": "Mimejr",
             "mn": 16,
             "mx": 17
           },
@@ -116375,7 +122709,7 @@ overrides = {
             "mx": 17
           },
           {
-            "s": "Mimejr",
+            "s": "Delibird",
             "mn": 16,
             "mx": 17
           },
@@ -116475,7 +122809,7 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Machop",
+            "s": "Chingling",
             "mn": 10,
             "mx": 12
           },
@@ -116586,69 +122920,69 @@ overrides = {
         "encs": []
       }
     },
-    "reliccastle2": {
-      "name": "Relic Castle 2",
+    "relicsanctum": {
+      "name": "Relic Sanctum ",
       "grass": {
         "encs": [
           {
             "s": "Elgyem",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Baltoy",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Yamask",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Golett",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Cranidos",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Sigilyph",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Krokorok",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Krokorok",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Darmanitan",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Larvesta",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Aerodactyl",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           },
           {
             "s": "Aerodactyl",
-            "mn": 38,
-            "mx": 40
+            "mn": 33,
+            "mx": 35
           }
         ]
       },
@@ -116762,63 +123096,63 @@ overrides = {
         "encs": [
           {
             "s": "Galvantula",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Boldore",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
-            "s": "Eelektrik",
-            "mn": 42,
-            "mx": 44
+            "s": "Luxray",
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Klinklang",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Manectric",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Ferroseed",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Nosepass",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Jolteon",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Sableye",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Voltorb",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Sableye",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
-            "s": "Voltorb",
-            "mn": 42,
-            "mx": 44
+            "s": "Electrode",
+            "mn": 36,
+            "mx": 38
           }
         ]
       },
@@ -116828,64 +123162,64 @@ overrides = {
       "grass_special": {
         "encs": [
           {
-            "s": "Galvantula",
-            "mn": 42,
-            "mx": 44
+            "s": "Eelektrik",
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Swoobat",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Onix",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Magneton",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Rotom",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Ferroseed",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Excadrill",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Dugtrio",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Zweilous",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Durant",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Zweilous",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           },
           {
             "s": "Durant",
-            "mn": 42,
-            "mx": 44
+            "mn": 36,
+            "mx": 38
           }
         ]
       },
@@ -116902,8 +123236,8 @@ overrides = {
         "encs": []
       }
     },
-    "chargestonecave2": {
-      "name": "Chargestone Cave 2",
+    "Unknown Location": {
+      "name": "Unknown Location",
       "grass": {
         "encs": [
           {
@@ -117048,8 +123382,8 @@ overrides = {
         "encs": []
       }
     },
-    "chargestonecave3": {
-      "name": "Chargestone Cave 3",
+    "Unknown Location2": {
+      "name": "Unknown Location2",
       "grass": {
         "encs": [
           {
@@ -117340,8 +123674,8 @@ overrides = {
         "encs": []
       }
     },
-    "Unknown Location": {
-      "name": "Unknown Location",
+    "Unknown Location3": {
+      "name": "Unknown Location3",
       "grass": {
         "encs": [
           {
@@ -117645,63 +123979,63 @@ overrides = {
         "encs": [
           {
             "s": "Bayleef",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Gloom",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Noctowl",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Vulpix",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Swadloon",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Munna",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Absol",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Misdreavus",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Carnivine",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Mawile",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Carnivine",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Mawile",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           }
         ]
       },
@@ -119945,17 +126279,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Rattata",
-            "mn": 19,
-            "mx": 21
-          },
-          {
-            "s": "Spinarak",
-            "mn": 19,
-            "mx": 21
-          },
-          {
-            "s": "Grimer",
+            "s": "Raticate",
             "mn": 19,
             "mx": 21
           },
@@ -119965,7 +126289,17 @@ overrides = {
             "mx": 21
           },
           {
-            "s": "Porygon",
+            "s": "Grimer",
+            "mn": 19,
+            "mx": 21
+          },
+          {
+            "s": "Stunky",
+            "mn": 19,
+            "mx": 21
+          },
+          {
+            "s": "Lickitung",
             "mn": 19,
             "mx": 21
           },
@@ -119985,7 +126319,7 @@ overrides = {
             "mx": 21
           },
           {
-            "s": "Gastly",
+            "s": "Koffing",
             "mn": 19,
             "mx": 21
           },
@@ -119995,12 +126329,12 @@ overrides = {
             "mx": 21
           },
           {
-            "s": "Tynamo",
+            "s": "Voltorb",
             "mn": 19,
             "mx": 21
           },
           {
-            "s": "Tynamo",
+            "s": "Voltorb",
             "mn": 19,
             "mx": 21
           }
@@ -120078,12 +126412,12 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Tympole",
+            "s": "Ekans",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Qwilfish",
+            "s": "Gastly",
             "mn": 10,
             "mx": 12
           },
@@ -120102,17 +126436,12 @@ overrides = {
       "super_rod_special": {
         "encs": [
           {
-            "s": "Gulpin",
+            "s": "Murkrow",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Grimer",
-            "mn": 10,
-            "mx": 12
-          },
-          {
-            "s": "Stunfisk",
+            "s": "Spinarak",
             "mn": 10,
             "mx": 12
           },
@@ -120125,384 +126454,11 @@ overrides = {
             "s": "Stunfisk",
             "mn": 10,
             "mx": 12
-          }
-        ]
-      }
-    },
-    "Unknown Location2": {
-      "name": "Unknown Location2",
-      "grass": {
-        "encs": [
-          {
-            "s": "Rattata",
-            "mn": 14,
-            "mx": 14
           },
           {
-            "s": "Zubat",
-            "mn": 14,
-            "mx": 14
-          },
-          {
-            "s": "Rattata",
-            "mn": 15,
-            "mx": 15
-          },
-          {
-            "s": "Zubat",
-            "mn": 15,
-            "mx": 15
-          },
-          {
-            "s": "Rattata",
-            "mn": 16,
-            "mx": 16
-          },
-          {
-            "s": "Zubat",
-            "mn": 16,
-            "mx": 16
-          },
-          {
-            "s": "Grimer",
-            "mn": 15,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 17,
-            "mx": 17
-          },
-          {
-            "s": "Rattata",
-            "mn": 17,
-            "mx": 17
-          },
-          {
-            "s": "Zubat",
-            "mn": 17,
-            "mx": 17
-          },
-          {
-            "s": "Rattata",
-            "mn": 17,
-            "mx": 17
-          },
-          {
-            "s": "Zubat",
-            "mn": 17,
-            "mx": 17
-          }
-        ]
-      },
-      "grass_doubles": {
-        "encs": []
-      },
-      "grass_special": {
-        "encs": []
-      },
-      "surf": {
-        "encs": [
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "surf_special": {
-        "encs": [
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 20
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 20
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 20
-          },
-          {
-            "s": "Muk",
-            "mn": 5,
-            "mx": 20
-          },
-          {
-            "s": "Muk",
-            "mn": 5,
-            "mx": 20
-          }
-        ]
-      },
-      "super_rod": {
-        "encs": [
-          {
-            "s": "Grimer",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Grimer",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Grimer",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Grimer",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Grimer",
-            "mn": 50,
-            "mx": 70
-          }
-        ]
-      },
-      "super_rod_special": {
-        "encs": [
-          {
-            "s": "Grimer",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "Grimer",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "Muk",
-            "mn": 70,
-            "mx": 70
-          },
-          {
-            "s": "Muk",
-            "mn": 70,
-            "mx": 70
-          },
-          {
-            "s": "Muk",
-            "mn": 70,
-            "mx": 70
-          }
-        ]
-      }
-    },
-    "Unknown Location3": {
-      "name": "Unknown Location3",
-      "grass": {
-        "encs": [
-          {
-            "s": "Rattata",
-            "mn": 14,
-            "mx": 14
-          },
-          {
-            "s": "Zubat",
-            "mn": 14,
-            "mx": 14
-          },
-          {
-            "s": "Rattata",
-            "mn": 15,
-            "mx": 15
-          },
-          {
-            "s": "Zubat",
-            "mn": 15,
-            "mx": 15
-          },
-          {
-            "s": "Rattata",
-            "mn": 16,
-            "mx": 16
-          },
-          {
-            "s": "Zubat",
-            "mn": 16,
-            "mx": 16
-          },
-          {
-            "s": "Grimer",
-            "mn": 15,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 17,
-            "mx": 17
-          },
-          {
-            "s": "Rattata",
-            "mn": 17,
-            "mx": 17
-          },
-          {
-            "s": "Zubat",
-            "mn": 17,
-            "mx": 17
-          },
-          {
-            "s": "Rattata",
-            "mn": 17,
-            "mx": 17
-          },
-          {
-            "s": "Zubat",
-            "mn": 17,
-            "mx": 17
-          }
-        ]
-      },
-      "grass_doubles": {
-        "encs": []
-      },
-      "grass_special": {
-        "encs": []
-      },
-      "surf": {
-        "encs": [
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "surf_special": {
-        "encs": [
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 20
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 20
-          },
-          {
-            "s": "Grimer",
-            "mn": 5,
-            "mx": 20
-          },
-          {
-            "s": "Muk",
-            "mn": 5,
-            "mx": 20
-          },
-          {
-            "s": "Muk",
-            "mn": 5,
-            "mx": 20
-          }
-        ]
-      },
-      "super_rod": {
-        "encs": [
-          {
-            "s": "Grimer",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Grimer",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Grimer",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Grimer",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Grimer",
-            "mn": 50,
-            "mx": 70
-          }
-        ]
-      },
-      "super_rod_special": {
-        "encs": [
-          {
-            "s": "Grimer",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Grimer",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Muk",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Muk",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Muk",
-            "mn": 50,
-            "mx": 70
+            "s": "Stunfisk",
+            "mn": 10,
+            "mx": 12
           }
         ]
       }
@@ -120670,6 +126626,195 @@ overrides = {
         "encs": [
           {
             "s": "Grimer",
+            "mn": 60,
+            "mx": 60
+          },
+          {
+            "s": "Grimer",
+            "mn": 60,
+            "mx": 60
+          },
+          {
+            "s": "Muk",
+            "mn": 70,
+            "mx": 70
+          },
+          {
+            "s": "Muk",
+            "mn": 70,
+            "mx": 70
+          },
+          {
+            "s": "Muk",
+            "mn": 70,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location5": {
+      "name": "Unknown Location5",
+      "grass": {
+        "encs": [
+          {
+            "s": "Rattata",
+            "mn": 14,
+            "mx": 14
+          },
+          {
+            "s": "Zubat",
+            "mn": 14,
+            "mx": 14
+          },
+          {
+            "s": "Rattata",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Zubat",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Rattata",
+            "mn": 16,
+            "mx": 16
+          },
+          {
+            "s": "Zubat",
+            "mn": 16,
+            "mx": 16
+          },
+          {
+            "s": "Grimer",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 17,
+            "mx": 17
+          },
+          {
+            "s": "Rattata",
+            "mn": 17,
+            "mx": 17
+          },
+          {
+            "s": "Zubat",
+            "mn": 17,
+            "mx": 17
+          },
+          {
+            "s": "Rattata",
+            "mn": 17,
+            "mx": 17
+          },
+          {
+            "s": "Zubat",
+            "mn": 17,
+            "mx": 17
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": []
+      },
+      "grass_special": {
+        "encs": []
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 20
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 20
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 20
+          },
+          {
+            "s": "Muk",
+            "mn": 5,
+            "mx": 20
+          },
+          {
+            "s": "Muk",
+            "mn": 5,
+            "mx": 20
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Grimer",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Grimer",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Grimer",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Grimer",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Grimer",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Grimer",
             "mn": 40,
             "mx": 60
           },
@@ -120696,8 +126841,197 @@ overrides = {
         ]
       }
     },
-    "Unknown Location5": {
-      "name": "Unknown Location5",
+    "Unknown Location6": {
+      "name": "Unknown Location6",
+      "grass": {
+        "encs": [
+          {
+            "s": "Rattata",
+            "mn": 14,
+            "mx": 14
+          },
+          {
+            "s": "Zubat",
+            "mn": 14,
+            "mx": 14
+          },
+          {
+            "s": "Rattata",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Zubat",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Rattata",
+            "mn": 16,
+            "mx": 16
+          },
+          {
+            "s": "Zubat",
+            "mn": 16,
+            "mx": 16
+          },
+          {
+            "s": "Grimer",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 17,
+            "mx": 17
+          },
+          {
+            "s": "Rattata",
+            "mn": 17,
+            "mx": 17
+          },
+          {
+            "s": "Zubat",
+            "mn": 17,
+            "mx": 17
+          },
+          {
+            "s": "Rattata",
+            "mn": 17,
+            "mx": 17
+          },
+          {
+            "s": "Zubat",
+            "mn": 17,
+            "mx": 17
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": []
+      },
+      "grass_special": {
+        "encs": []
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 20
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 20
+          },
+          {
+            "s": "Grimer",
+            "mn": 5,
+            "mx": 20
+          },
+          {
+            "s": "Muk",
+            "mn": 5,
+            "mx": 20
+          },
+          {
+            "s": "Muk",
+            "mn": 5,
+            "mx": 20
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Grimer",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Grimer",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Grimer",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Grimer",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Grimer",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Grimer",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Grimer",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Muk",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Muk",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Muk",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location7": {
+      "name": "Unknown Location7",
       "grass": {
         "encs": [
           {
@@ -121720,7 +128054,7 @@ overrides = {
             "mx": 7
           },
           {
-            "s": "Shellos",
+            "s": "Poliwag",
             "mn": 5,
             "mx": 7
           },
@@ -121730,12 +128064,12 @@ overrides = {
             "mx": 7
           },
           {
-            "s": "Buizel",
+            "s": "Slowpoke",
             "mn": 5,
             "mx": 7
           },
           {
-            "s": "Buizel",
+            "s": "Slowpoke",
             "mn": 5,
             "mx": 7
           }
@@ -121744,12 +128078,12 @@ overrides = {
       "super_rod_special": {
         "encs": [
           {
-            "s": "Wooper",
+            "s": "Staravia",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Staryu",
+            "s": "Shellos",
             "mn": 10,
             "mx": 12
           },
@@ -121771,8 +128105,8 @@ overrides = {
         ]
       }
     },
-    "virbankcomplex": {
-      "name": "Virbank Complex ",
+    "complexexterior": {
+      "name": "Complex Exterior ",
       "grass": {
         "encs": [
           {
@@ -121781,12 +128115,12 @@ overrides = {
             "mx": 15
           },
           {
-            "s": "Poochyena",
+            "s": "Makuhita",
             "mn": 14,
             "mx": 15
           },
           {
-            "s": "Makuhita",
+            "s": "Stunky",
             "mn": 14,
             "mx": 15
           },
@@ -121801,7 +128135,7 @@ overrides = {
             "mx": 15
           },
           {
-            "s": "Wooper",
+            "s": "Buizel",
             "mn": 14,
             "mx": 15
           },
@@ -121816,22 +128150,22 @@ overrides = {
             "mx": 15
           },
           {
-            "s": "Buizel",
+            "s": "Nidoranf",
             "mn": 14,
             "mx": 15
           },
           {
-            "s": "Stunky",
+            "s": "Nidoranm",
             "mn": 14,
             "mx": 15
           },
           {
-            "s": "Buizel",
+            "s": "Nidoranf",
             "mn": 14,
             "mx": 15
           },
           {
-            "s": "Stunky",
+            "s": "Nidoranm",
             "mn": 14,
             "mx": 15
           }
@@ -121848,12 +128182,12 @@ overrides = {
             "mx": 15
           },
           {
-            "s": "Mankey",
+            "s": "Zigzagoon",
             "mn": 14,
             "mx": 15
           },
           {
-            "s": "Zigzagoon",
+            "s": "Mankey",
             "mn": 14,
             "mx": 15
           },
@@ -121863,7 +128197,7 @@ overrides = {
             "mx": 15
           },
           {
-            "s": "Pidove",
+            "s": "Taillow",
             "mn": 14,
             "mx": 15
           },
@@ -121898,7 +128232,7 @@ overrides = {
             "mx": 15
           },
           {
-            "s": "Bidoof",
+            "s": "Meowth",
             "mn": 14,
             "mx": 15
           }
@@ -121980,12 +128314,12 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Mudkip",
+            "s": "Wailmer",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Corsola",
+            "s": "Wailmer",
             "mn": 10,
             "mx": 12
           }
@@ -121999,12 +128333,12 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Tympole",
+            "s": "Murkrow",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Totodile",
+            "s": "Clamperl",
             "mn": 10,
             "mx": 12
           },
@@ -122021,8 +128355,8 @@ overrides = {
         ]
       }
     },
-    "virbankcomplex2": {
-      "name": "Virbank Complex 2",
+    "virbankcomplex": {
+      "name": "Virbank Complex ",
       "grass": {
         "encs": [
           {
@@ -122066,22 +128400,22 @@ overrides = {
             "mx": 16
           },
           {
-            "s": "Numel",
+            "s": "Trubbish",
             "mn": 15,
             "mx": 16
           },
           {
-            "s": "Ferroseed",
+            "s": "Scraggy",
             "mn": 15,
             "mx": 16
           },
           {
-            "s": "Numel",
+            "s": "Trubbish",
             "mn": 15,
             "mx": 16
           },
           {
-            "s": "Ferroseed",
+            "s": "Scraggy",
             "mn": 15,
             "mx": 16
           }
@@ -122110,7 +128444,7 @@ overrides = {
             "mx": 16
           },
           {
-            "s": "Whismur",
+            "s": "Diglett",
             "mn": 15,
             "mx": 16
           },
@@ -122120,7 +128454,7 @@ overrides = {
             "mx": 16
           },
           {
-            "s": "Diglett",
+            "s": "Gastly",
             "mn": 15,
             "mx": 16
           },
@@ -122130,7 +128464,7 @@ overrides = {
             "mx": 16
           },
           {
-            "s": "Chingling",
+            "s": "Bronzor",
             "mn": 15,
             "mx": 16
           },
@@ -122140,7 +128474,7 @@ overrides = {
             "mx": 16
           },
           {
-            "s": "Chingling",
+            "s": "Bronzor",
             "mn": 15,
             "mx": 16
           },
@@ -122154,7 +128488,7 @@ overrides = {
       "grass_special": {
         "encs": [
           {
-            "s": "Electrike",
+            "s": "Shinx",
             "mn": 15,
             "mx": 16
           },
@@ -122164,7 +128498,7 @@ overrides = {
             "mx": 16
           },
           {
-            "s": "Shinx",
+            "s": "Electrike",
             "mn": 15,
             "mx": 16
           },
@@ -122174,17 +128508,12 @@ overrides = {
             "mx": 16
           },
           {
-            "s": "Geodude",
+            "s": "Magnemite",
             "mn": 15,
             "mx": 16
           },
           {
-            "s": "Machop",
-            "mn": 15,
-            "mx": 16
-          },
-          {
-            "s": "Grimer",
+            "s": "Tynamo",
             "mn": 15,
             "mx": 16
           },
@@ -122194,22 +128523,27 @@ overrides = {
             "mx": 16
           },
           {
-            "s": "Machop",
+            "s": "Klink",
             "mn": 15,
             "mx": 16
           },
           {
-            "s": "Voltorb",
+            "s": "Porygon",
             "mn": 15,
             "mx": 16
           },
           {
-            "s": "Machop",
+            "s": "Porygon",
             "mn": 15,
             "mx": 16
           },
           {
-            "s": "Voltorb",
+            "s": "Porygon",
+            "mn": 15,
+            "mx": 16
+          },
+          {
+            "s": "Porygon",
             "mn": 15,
             "mx": 16
           }
@@ -127144,7 +133478,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Geodude",
+            "s": "Boldore",
             "mn": 22,
             "mx": 24
           },
@@ -127394,7 +133728,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Geodude",
+            "s": "Boldore",
             "mn": 22,
             "mx": 24
           },
@@ -127644,7 +133978,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Geodude",
+            "s": "Boldore",
             "mn": 22,
             "mx": 24
           },
@@ -127895,63 +134229,63 @@ overrides = {
         "encs": [
           {
             "s": "Machoke",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Claydol",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Machoke",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Claydol",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Donphan",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Marowak",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Sawk",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Sawk",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Throh",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Throh",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Throh",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Throh",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           }
         ]
       },
@@ -127962,63 +134296,63 @@ overrides = {
         "encs": [
           {
             "s": "Druddigon",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Parasect",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Onix",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Golbat",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Dugtrio",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Rhydon",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Gabite",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Sableye",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Mawile",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Lairon",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Mawile",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           },
           {
             "s": "Lairon",
-            "mn": 37,
-            "mx": 39
+            "mn": 32,
+            "mx": 34
           }
         ]
       },
@@ -128817,63 +135151,63 @@ overrides = {
         "encs": [
           {
             "s": "Sawsbuck",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Sawsbuck",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Sawsbuck",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Sawsbuck",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Sawsbuck",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Sawsbuck",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Porygon",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 39,
-            "mx": 41
+            "mn": 34,
+            "mx": 36
           }
         ]
       },
@@ -128884,63 +135218,63 @@ overrides = {
         "encs": [
           {
             "s": "Castform",
-            "mn": 54,
-            "mx": 54
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 54,
-            "mx": 54
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 55,
-            "mx": 55
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 55,
-            "mx": 55
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 56,
-            "mx": 56
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 56,
-            "mx": 56
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 57,
-            "mx": 57
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 57,
-            "mx": 57
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 57,
-            "mx": 57
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 57,
-            "mx": 57
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 57,
-            "mx": 57
+            "mn": 34,
+            "mx": 36
           },
           {
             "s": "Castform",
-            "mn": 57,
-            "mx": 57
+            "mn": 34,
+            "mx": 36
           }
         ]
       },
@@ -128957,8 +135291,8 @@ overrides = {
         "encs": []
       }
     },
-    "Unknown Location6": {
-      "name": "Unknown Location6",
+    "Unknown Location8": {
+      "name": "Unknown Location8",
       "grass": {
         "encs": [
           {
@@ -129395,8 +135729,8 @@ overrides = {
         "encs": []
       }
     },
-    "Unknown Location7": {
-      "name": "Unknown Location7",
+    "Unknown Location9": {
+      "name": "Unknown Location9",
       "grass": {
         "encs": [
           {
@@ -130260,63 +136594,63 @@ overrides = {
         "encs": [
           {
             "s": "Pidgeotto",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Fearow",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Rufflet",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Tranquill",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Farfetchd",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Staravia",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Ducklett",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Swablu",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Emolga",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Skarmory",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Aerodactyl",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           },
           {
             "s": "Aerodactyl",
-            "mn": 33,
-            "mx": 35
+            "mn": 30,
+            "mx": 32
           }
         ]
       },
@@ -132325,7 +138659,7 @@ overrides = {
       "super_rod": {
         "encs": [
           {
-            "s": "Finneon",
+            "s": "Corsola",
             "mn": 10,
             "mx": 12
           },
@@ -132641,127 +138975,127 @@ overrides = {
         "encs": [
           {
             "s": "Luxio",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Aipom",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Trubbish",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Seviper",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Delibird",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Houndour",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Whirlipede",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Pachirisu",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Minun",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Sawk",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Minun",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Sawk",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           }
         ]
       },
       "grass_doubles": {
         "encs": [
           {
-            "s": "Electrike",
+            "s": "Manectric",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Minccino",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Lickitung",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Zangoose",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Skiploom",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Buneary",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Skorupi",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Murkrow",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Plusle",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Throh",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Plusle",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           },
           {
             "s": "Throh",
             "mn": 29,
-            "mx": 31
+            "mx": 30
           }
         ]
       },
@@ -132769,63 +139103,63 @@ overrides = {
         "encs": [
           {
             "s": "Pansear",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Pansage",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Panpour",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Panpour",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Blitzle",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Munchlax",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Spoink",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Spoink",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Porygon",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Emolga",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Porygon",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Emolga",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           }
         ]
       },
@@ -132978,63 +139312,63 @@ overrides = {
         "encs": [
           {
             "s": "Palpitoad",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Shellos",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Tangela",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Tropius",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Ivysaur",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Wormadam",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Snorunt",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Croagunk",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Golduck",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Carnivine",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Golduck",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Carnivine",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           }
         ]
       },
@@ -133042,63 +139376,63 @@ overrides = {
         "encs": [
           {
             "s": "Swinub",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Slowpoke",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Stunfisk",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Grovyle",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Kecleon",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Roselia",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Tangela",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Tangela",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Marshtomp",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Marshtomp",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Marshtomp",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Marshtomp",
-            "mn": 38,
-            "mx": 40
+            "mn": 31,
+            "mx": 33
           }
         ]
       },
@@ -133106,63 +139440,63 @@ overrides = {
         "encs": [
           {
             "s": "Sawsbuck",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Masquerain",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Heracross",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Pinsir",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Breloom",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Weepinbell",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Swadloon",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Donphan",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Hypno",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Hypno",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Castform",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Castform",
-            "mn": 34,
-            "mx": 36
+            "mn": 31,
+            "mx": 33
           }
         ]
       },
@@ -133237,7 +139571,7 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Lotad",
+            "s": "Basculin",
             "mn": 10,
             "mx": 12
           },
@@ -133261,17 +139595,17 @@ overrides = {
             "mx": 12
           },
           {
+            "s": "Shellder",
+            "mn": 10,
+            "mx": 12
+          },
+          {
             "s": "Spheal",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Shellder",
-            "mn": 10,
-            "mx": 12
-          },
-          {
-            "s": "Shellder",
+            "s": "Lapras",
             "mn": 10,
             "mx": 12
           },
@@ -133289,63 +139623,63 @@ overrides = {
         "encs": [
           {
             "s": "Clefairy",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Ariados",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Onix",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Golbat",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Breloom",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Kangaskhan",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Sableye",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Mawile",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Rhydon",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Nosepass",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Rhydon",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Nosepass",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           }
         ]
       },
@@ -133356,63 +139690,63 @@ overrides = {
         "encs": [
           {
             "s": "Primeape",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Graveler",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Hariyama",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Kadabra",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Camerupt",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Swoobat",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Druddigon",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Druddigon",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Torkoal",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Ferroseed",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Torkoal",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           },
           {
             "s": "Ferroseed",
-            "mn": 39,
-            "mx": 41
+            "mn": 35,
+            "mx": 37
           }
         ]
       },
@@ -133792,63 +140126,63 @@ overrides = {
         "encs": [
           {
             "s": "Vanillish",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Sawsbuck",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Beartic",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Piloswine",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Snorunt",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Smoochum",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Absol",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Sneasel",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Castform",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Persian",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Castform",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Persian",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           }
         ]
       },
@@ -133856,63 +140190,63 @@ overrides = {
         "encs": [
           {
             "s": "Beautifly",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Beedrill",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Furret",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Wormadam",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Shelmet",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Karrablast",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Kecleon",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Pawniard",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Scyther",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Delcatty",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Scyther",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Delcatty",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           }
         ]
       },
@@ -133920,63 +140254,63 @@ overrides = {
         "encs": [
           {
             "s": "Pansage",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Pansage",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Pansage",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Pansage",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Grovyle",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Grotle",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Bayleef",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Bayleef",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Ivysaur",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Ivysaur",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Ivysaur",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           },
           {
             "s": "Ivysaur",
-            "mn": 43,
-            "mx": 45
+            "mn": 37,
+            "mx": 39
           }
         ]
       },
@@ -133999,63 +140333,63 @@ overrides = {
         "encs": [
           {
             "s": "Liepard",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Glameow",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Luxio",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Gothorita",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Spinda",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Spoink",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Pawniard",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Absol",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Zorua",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Zorua",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Sneasel",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           },
           {
             "s": "Sneasel",
-            "mn": 35,
-            "mx": 37
+            "mn": 31,
+            "mx": 33
           }
         ]
       },
@@ -134084,63 +140418,63 @@ overrides = {
         "encs": [
           {
             "s": "Chimecho",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Castform",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Noctowl",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Misdreavus",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Absol",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Altaria",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Murkrow",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Murkrow",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Xatu",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Xatu",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Xatu",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           },
           {
             "s": "Xatu",
-            "mn": 45,
-            "mx": 47
+            "mn": 39,
+            "mx": 41
           }
         ]
       },
@@ -134169,63 +140503,63 @@ overrides = {
         "encs": [
           {
             "s": "Duosion",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Haunter",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Chimecho",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Dusclops",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Vulpix",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Lampent",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Bronzong",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Bronzong",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Shuppet",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Marowak",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Spiritomb",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           },
           {
             "s": "Spiritomb",
-            "mn": 45,
-            "mx": 46
+            "mn": 38,
+            "mx": 40
           }
         ]
       },
@@ -134248,8 +140582,8 @@ overrides = {
         "encs": []
       }
     },
-    "Unknown Location8": {
-      "name": "Unknown Location8",
+    "Unknown Location10": {
+      "name": "Unknown Location10",
       "grass": {
         "encs": [
           {
@@ -134333,8 +140667,8 @@ overrides = {
         "encs": []
       }
     },
-    "route8": {
-      "name": "Route 8 ",
+    "Unknown Location11": {
+      "name": "Unknown Location11",
       "grass": {
         "encs": [
           {
@@ -136907,63 +143241,63 @@ overrides = {
         "encs": [
           {
             "s": "Linoone",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Mightyena",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Miltank",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Cubchoo",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Jigglypuff",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Mienfoo",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Drowzee",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Drowzee",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Kirlia",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Plusle",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Kirlia",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Plusle",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           }
         ]
       },
@@ -136971,127 +143305,127 @@ overrides = {
         "encs": [
           {
             "s": "Primeape",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Watchog",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Tauros",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Vanillite",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Skitty",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Meditite",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Duosion",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Smeargle",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Duosion",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Minun",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Duosion",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Minun",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           }
         ]
       },
       "grass_special": {
         "encs": [
           {
-            "s": "Pansear",
-            "mn": 29,
-            "mx": 31
+            "s": "Audino",
+            "mn": 28,
+            "mx": 30
           },
           {
-            "s": "Pansear",
-            "mn": 29,
-            "mx": 31
+            "s": "Audino",
+            "mn": 28,
+            "mx": 30
           },
           {
-            "s": "Pansear",
-            "mn": 29,
-            "mx": 31
+            "s": "Audino",
+            "mn": 28,
+            "mx": 30
           },
           {
-            "s": "Cyndaquil",
-            "mn": 29,
-            "mx": 31
-          },
-          {
-            "s": "Charmander",
-            "mn": 29,
-            "mx": 31
-          },
-          {
-            "s": "Torchic",
-            "mn": 29,
-            "mx": 31
-          },
-          {
-            "s": "Chimchar",
-            "mn": 29,
-            "mx": 31
-          },
-          {
-            "s": "Chimchar",
-            "mn": 29,
-            "mx": 31
+            "s": "Audino",
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Smeargle",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Smeargle",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Smeargle",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
           },
           {
             "s": "Smeargle",
-            "mn": 29,
-            "mx": 31
+            "mn": 28,
+            "mx": 30
+          },
+          {
+            "s": "Smeargle",
+            "mn": 28,
+            "mx": 30
+          },
+          {
+            "s": "Smeargle",
+            "mn": 28,
+            "mx": 30
+          },
+          {
+            "s": "Smeargle",
+            "mn": 28,
+            "mx": 30
+          },
+          {
+            "s": "Smeargle",
+            "mn": 28,
+            "mx": 30
           }
         ]
       },
@@ -137178,64 +143512,64 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Exeggcute",
-            "mn": 30,
-            "mx": 32
+            "s": "Deerling",
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Wormadam",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Snover",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Pansage",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
-            "s": "Sunkern",
-            "mn": 30,
-            "mx": 32
+            "s": "Exeggcute",
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Roselia",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Servine",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Snorunt",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Cherubi",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Tropius",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Tropius",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Cherubi",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           }
         ]
       },
@@ -137243,127 +143577,127 @@ overrides = {
         "encs": [
           {
             "s": "Bayleef",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Gloom",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Noctowl",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Vulpix",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Swadloon",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Munna",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Absol",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Misdreavus",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Carnivine",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Mawile",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Carnivine",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Mawile",
-            "mn": 32,
-            "mx": 34
+            "mn": 29,
+            "mx": 31
           }
         ]
       },
       "grass_special": {
         "encs": [
           {
-            "s": "Venomoth",
-            "mn": 30,
-            "mx": 32
+            "s": "Swadloon",
+            "mn": 29,
+            "mx": 31
           },
           {
-            "s": "Deerling",
-            "mn": 30,
-            "mx": 32
+            "s": "Venomoth",
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Illumise",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Volbeat",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Ninjask",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Whirlipede",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Yanma",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Stantler",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Karrablast",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Shelmet",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Karrablast",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           },
           {
             "s": "Shelmet",
-            "mn": 30,
-            "mx": 32
+            "mn": 29,
+            "mx": 31
           }
         ]
       },
@@ -137433,22 +143767,22 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Lotad",
+            "s": "Pidove",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Finneon",
+            "s": "Basculin",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Finneon",
+            "s": "Dratini",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Magikarp",
+            "s": "Dratini",
             "mn": 10,
             "mx": 12
           }
@@ -137462,22 +143796,22 @@ overrides = {
             "mx": 12
           },
           {
+            "s": "Psyduck",
+            "mn": 10,
+            "mx": 12
+          },
+          {
             "s": "Marill",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Totodile",
+            "s": "Magikarp",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Squirtle",
-            "mn": 10,
-            "mx": 12
-          },
-          {
-            "s": "Squirtle",
+            "s": "Magikarp",
             "mn": 10,
             "mx": 12
           }
@@ -137890,12 +144224,12 @@ overrides = {
             "mx": 4
           },
           {
-            "s": "Spearow",
+            "s": "Ralts",
             "mn": 3,
             "mx": 4
           },
           {
-            "s": "Kricketot",
+            "s": "Ledyba",
             "mn": 3,
             "mx": 4
           },
@@ -138064,17 +144398,17 @@ overrides = {
             "mx": 8
           },
           {
-            "s": "Remoraid",
+            "s": "Corphish",
             "mn": 5,
             "mx": 8
           },
           {
-            "s": "Remoraid",
+            "s": "Marill",
             "mn": 5,
             "mx": 8
           },
           {
-            "s": "Remoraid",
+            "s": "Marill",
             "mn": 5,
             "mx": 8
           }
@@ -138083,7 +144417,7 @@ overrides = {
       "super_rod_special": {
         "encs": [
           {
-            "s": "Chinchou",
+            "s": "Taillow",
             "mn": 10,
             "mx": 12
           },
@@ -138093,17 +144427,17 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Totodile",
+            "s": "Chinchou",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Totodile",
+            "s": "Bidoof",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Totodile",
+            "s": "Bidoof",
             "mn": 10,
             "mx": 12
           }
@@ -138115,7 +144449,7 @@ overrides = {
       "grass": {
         "encs": [
           {
-            "s": "Hoppip",
+            "s": "Spearow",
             "mn": 5,
             "mx": 6
           },
@@ -138130,7 +144464,7 @@ overrides = {
             "mx": 6
           },
           {
-            "s": "Sunkern",
+            "s": "Hoppip",
             "mn": 5,
             "mx": 6
           },
@@ -138380,12 +144714,12 @@ overrides = {
             "mx": 7
           },
           {
-            "s": "Poliwag",
+            "s": "Staryu",
             "mn": 5,
             "mx": 7
           },
           {
-            "s": "Poliwag",
+            "s": "Staryu",
             "mn": 5,
             "mx": 7
           }
@@ -138399,22 +144733,22 @@ overrides = {
             "mx": 12
           },
           {
-            "s": "Marill",
+            "s": "Zubat",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Remoraid",
+            "s": "Swablu",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Remoraid",
+            "s": "Spheal",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Remoraid",
+            "s": "Spheal",
             "mn": 10,
             "mx": 12
           }
@@ -139551,939 +145885,6 @@ overrides = {
           },
           {
             "s": "Octillery",
-            "mn": 50,
-            "mx": 70
-          }
-        ]
-      }
-    },
-    "Unknown Location9": {
-      "name": "Unknown Location9",
-      "grass": {
-        "encs": [
-          {
-            "s": "Pidove",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Patrat",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Purrloin",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Patrat",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Pidove",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Purrloin",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sunkern",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Purrloin",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sunkern",
-            "mn": 4,
-            "mx": 4
-          }
-        ]
-      },
-      "grass_doubles": {
-        "encs": [
-          {
-            "s": "Pidove",
-            "mn": 9,
-            "mx": 9
-          },
-          {
-            "s": "Venipede",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Patrat",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Purrloin",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Patrat",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Pidove",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Purrloin",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Sunkern",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Purrloin",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Sunkern",
-            "mn": 11,
-            "mx": 11
-          }
-        ]
-      },
-      "grass_special": {
-        "encs": [
-          {
-            "s": "Audino",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Audino",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Audino",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Dunsparce",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          }
-        ]
-      },
-      "surf": {
-        "encs": [
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azurill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "surf_special": {
-        "encs": [
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Marill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azumarill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azumarill",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "super_rod": {
-        "encs": [
-          {
-            "s": "Poliwag",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Basculin",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          }
-        ]
-      },
-      "super_rod_special": {
-        "encs": [
-          {
-            "s": "Poliwhirl",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Basculin",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Poliwhirl",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Politoed",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Politoed",
-            "mn": 50,
-            "mx": 70
-          }
-        ]
-      }
-    },
-    "Unknown Location10": {
-      "name": "Unknown Location10",
-      "grass": {
-        "encs": [
-          {
-            "s": "Pidove",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Patrat",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Purrloin",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Patrat",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Pidove",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Purrloin",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sunkern",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Purrloin",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sunkern",
-            "mn": 4,
-            "mx": 4
-          }
-        ]
-      },
-      "grass_doubles": {
-        "encs": [
-          {
-            "s": "Pidove",
-            "mn": 9,
-            "mx": 9
-          },
-          {
-            "s": "Venipede",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Patrat",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Purrloin",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Patrat",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Pidove",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Purrloin",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Sunkern",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Purrloin",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Sunkern",
-            "mn": 11,
-            "mx": 11
-          }
-        ]
-      },
-      "grass_special": {
-        "encs": [
-          {
-            "s": "Audino",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Audino",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Audino",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Dunsparce",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          }
-        ]
-      },
-      "surf": {
-        "encs": [
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azurill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "surf_special": {
-        "encs": [
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Marill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azumarill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azumarill",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "super_rod": {
-        "encs": [
-          {
-            "s": "Poliwag",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Basculin",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          }
-        ]
-      },
-      "super_rod_special": {
-        "encs": [
-          {
-            "s": "Poliwhirl",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Basculin",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Poliwhirl",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Politoed",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Politoed",
-            "mn": 50,
-            "mx": 70
-          }
-        ]
-      }
-    },
-    "Unknown Location11": {
-      "name": "Unknown Location11",
-      "grass": {
-        "encs": [
-          {
-            "s": "Pidove",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Patrat",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Purrloin",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Patrat",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Pidove",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Purrloin",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sunkern",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Purrloin",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sunkern",
-            "mn": 4,
-            "mx": 4
-          }
-        ]
-      },
-      "grass_doubles": {
-        "encs": [
-          {
-            "s": "Pidove",
-            "mn": 9,
-            "mx": 9
-          },
-          {
-            "s": "Venipede",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Patrat",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Purrloin",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Patrat",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Pidove",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Purrloin",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Sunkern",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Purrloin",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Sunkern",
-            "mn": 11,
-            "mx": 11
-          }
-        ]
-      },
-      "grass_special": {
-        "encs": [
-          {
-            "s": "Audino",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Audino",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Audino",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Dunsparce",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          }
-        ]
-      },
-      "surf": {
-        "encs": [
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azurill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "surf_special": {
-        "encs": [
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Marill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azumarill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azumarill",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "super_rod": {
-        "encs": [
-          {
-            "s": "Poliwag",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Basculin",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          }
-        ]
-      },
-      "super_rod_special": {
-        "encs": [
-          {
-            "s": "Poliwhirl",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Basculin",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Poliwhirl",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Politoed",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Politoed",
             "mn": 50,
             "mx": 70
           }
@@ -141734,6 +147135,939 @@ overrides = {
         ]
       }
     },
+    "Unknown Location16": {
+      "name": "Unknown Location16",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location17": {
+      "name": "Unknown Location17",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location18": {
+      "name": "Unknown Location18",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
     "rates": {
       "grass": [
         20,
@@ -141849,7 +148183,7 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a Great Ball.",
-      "location": "Pinwheel Forest, Relic Castle, Victory Road, Victory Road, Victory Road, Village Bridge, Route 3, Route 13",
+      "location": "Pinwheel Forest, Relic Sanctum, Victory Road, Victory Road, Victory Road, Village Bridge, Route 3, Route 13",
       "rewards": [
         "Youngster Kevin",
         "Clerk  M Fredric",
@@ -141881,6 +148215,7 @@ overrides = {
       "desc": "A good, high-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a standard Poké Ball.",
       "location": "",
       "marts": [
+        "Stock 1+Badges",
         "Stock 3+Badges",
         "Stock 5+Badges",
         "Stock 7+Badges",
@@ -141933,7 +148268,7 @@ overrides = {
     "nestball": {
       "name": "Nest Ball",
       "desc": "A somewhat different Poké Ball that\\nworks especially well on weaker\\nPokémon in the wild.",
-      "location": "Route 8",
+      "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
         "Victory Road Upper",
@@ -142037,7 +148372,6 @@ overrides = {
         "Linebacker Dan",
         "Hoopster Bobby",
         "Cosplayer Cassie - Join Avenue",
-        "Infielder Alex",
         "Linebacker Bob",
         "Linebacker Jonah",
         "Infielder Connor",
@@ -142050,9 +148384,6 @@ overrides = {
         "Cosplayer Amy - Join Avenue"
       ],
       "marts": [
-        "Stock No Badges",
-        "Stock 7+Badges",
-        "Stock 8+Badges",
         "SM9 Bottom Section"
       ]
     },
@@ -142110,10 +148441,14 @@ overrides = {
         "Linebacker Dan - Driftveil Drawbridge",
         "Hoopster Lamarcus - Driftveil Drawbridge",
         "Hoopster Bobby - Driftveil Drawbridge",
-        "Nurse Kirsten",
+        "Nurse Kirsten - Castelia Sewers",
         "Smasher Aspen - Driftveil Drawbridge"
       ],
       "marts": [
+        "Stock No Badges",
+        "Stock 1+Badges",
+        "Stock 3+Badges",
+        "Stock 5+Badges",
         "Stock 7+Badges",
         "Stock 8+Badges"
       ]
@@ -142131,6 +148466,8 @@ overrides = {
         "Stock 1+Badges",
         "Stock 3+Badges",
         "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges",
         "SM9 Top Right Cashier",
         "SM9 Bottom Section"
       ]
@@ -142143,7 +148480,6 @@ overrides = {
         "Smasher Aspen",
         "Hoopster John - Chargestone Cave",
         "Linebacker Bob",
-        "Infielder Connor",
         "Infielder Alex",
         "Guy in Suit Larry - Join Avenue",
         "Hoopster Bobby",
@@ -142154,8 +148490,6 @@ overrides = {
         "Cosplayer Miriam - Join Avenue"
       ],
       "marts": [
-        "Stock 7+Badges",
-        "Stock 8+Badges",
         "SM9 Bottom Section"
       ]
     },
@@ -142164,7 +148498,6 @@ overrides = {
       "desc": "A spray-type medicine for wounds.\\nIt restores the HP of one Pokémon by\\n50 points.",
       "location": "",
       "rewards": [
-        "Smasher Elena",
         "Infielder Alex",
         "Cosplayer Jared - Join Avenue",
         "Linebacker Dan",
@@ -142180,15 +148513,13 @@ overrides = {
         "Smasher Mari"
       ],
       "marts": [
-        "Stock 7+Badges",
-        "Stock 8+Badges",
         "SM9 Bottom Section"
       ]
     },
     "fullheal": {
       "name": "Full Heal",
       "desc": "A spray-type medicine.\\nIt heals all the status problems of a\\nsingle Pokémon.",
-      "location": "Pinwheel Forest, Chargestone Cave, Reversal Mountain, Strange House, Moor of Icirrus, Route 11, Route 23, Lacunosa Town",
+      "location": "Pinwheel Forest, Chargestone Cave, Reversal Mountain, Strange House, Route 11, Route 23, Lacunosa Town",
       "marts": [
         "Stock No Badges",
         "Stock 1+Badges",
@@ -142228,7 +148559,9 @@ overrides = {
         "Stock No Badges",
         "Stock 1+Badges",
         "Stock 3+Badges",
-        "Stock 5+Badges"
+        "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges"
       ]
     },
     "+5soda": {
@@ -142239,7 +148572,9 @@ overrides = {
         "Stock No Badges",
         "Stock 1+Badges",
         "Stock 3+Badges",
-        "Stock 5+Badges"
+        "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges"
       ]
     },
     "moomoomilk": {
@@ -142281,8 +148616,7 @@ overrides = {
       "desc": "It restores the PP of a Pokémon's\\nselected move by a maximum of\\n10 points.",
       "location": "",
       "rewards": [
-        "Scientist Simon",
-        "Scientist Blythe"
+        "Scientist Simon"
       ]
     },
     "maxether": {
@@ -142311,18 +148645,13 @@ overrides = {
       "location": "Undella Town, Pledge Grove",
       "marts": [
         "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 8+Badges"
+        "Stock 5+Badges"
       ]
     },
     "sacredash": {
       "name": "Sacred Ash",
       "desc": "It revives all fainted Pokémon.\\nIn doing so, it also fully restores\\ntheir HP.",
-      "location": "",
-      "marts": [
-        "Stock 7+Badges",
-        "Stock 8+Badges"
-      ]
+      "location": ""
     },
     "hpup": {
       "name": "HP Up",
@@ -142347,17 +148676,14 @@ overrides = {
     "unusualcandies": {
       "name": "Unusual Candies",
       "desc": "An odd candy with an unsatisfying taste.\\nIt grants a single Pokemon almost\\nenough experience to level up.",
-      "location": "Chargestone Cave, Route 9, Route 18, Route 23",
-      "rewards": [
-        "Infielder Todd - Nimbasa City"
-      ],
+      "location": "Route 9, Route 18, Route 23",
       "marts": [
         "SM9 Top Left Cashier"
       ]
     },
-    "carbos": {
-      "name": "Carbos",
-      "desc": "A nutritious drink for Pokémon.\\nIt raises the base Speed stat of a\\nsingle Pokémon.",
+    "abilitycapsule": {
+      "name": "Ability Capsule",
+      "desc": "A capsule that allows a Pokémon with two\\nAbilities to switch between them.\\r\\nOnly works on final stage Pokémon.",
       "location": "Village Bridge",
       "rewards": [
         "Girl in Suit Donna - Join Avenue",
@@ -142386,10 +148712,6 @@ overrides = {
         "PkMn Breeder Owen",
         "PkMn Breeder Brooke",
         "Nursery Aide Leah"
-      ],
-      "marts": [
-        "Stock 7+Badges",
-        "Stock 8+Badges"
       ]
     },
     "ppup": {
@@ -142401,14 +148723,12 @@ overrides = {
         "Ace Trainer Charlie"
       ]
     },
-    "zinc": {
-      "name": "Zinc",
-      "desc": "A nutritious drink for Pokémon.\\nIt raises the base Sp. Def (Special\\nDefense) stat of a single Pokémon.",
+    "abilitypatch": {
+      "name": "Ability Patch",
+      "desc": "A patch that allows a Pokémon with a\\nregular Ability to have a rare Ability.",
       "location": "Plasma Frigate, Plasma Frigate, Route 3, Route 11, Route 18",
       "rewards": [
-        "Cosplayer Anders - Join Avenue",
-        "Smasher Elena - Nimbasa City",
-        "Smasher Aspen - Nimbasa City"
+        "Cosplayer Anders - Join Avenue"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -142471,7 +148791,7 @@ overrides = {
     "pokédoll": {
       "name": "Poké Doll",
       "desc": "A doll that attracts Pokémon.\\nUse it to flee from any battle with a\\nwild Pokémon.",
-      "location": "Shopping Mall"
+      "location": "Driftveil City, Shopping Mall"
     },
     "fluffytail": {
       "name": "Fluffy Tail",
@@ -142516,7 +148836,7 @@ overrides = {
     "redshard": {
       "name": "Red Shard",
       "desc": "A small red shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Driftveil City, Driftveil City, Twist Mountain, Abyssal Ruins, Relic Passage, Relic Passage, Route 13, Route 22",
+      "location": "Driftveil City, Driftveil City, Mistralton City, Chargestone Cave, Twist Mountain, Abyssal Ruins, Relic Passage, Relic Passage, Route 13, Route 22",
       "rewards": [
         "Hiker Russel"
       ]
@@ -142532,7 +148852,7 @@ overrides = {
     "yellowshard": {
       "name": "Yellow Shard",
       "desc": "A small yellow shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Giant Chasm, Mistralton Cave, Route 12",
+      "location": "Driftveil City, Dragonspiral Tower, Giant Chasm, Clay Tunnel, Clay Tunnel, Clay Tunnel, Celestial Rooftop, Moor of Icirrus, Moor of Icirrus, Moor of Icirrus, Route 12",
       "rewards": [
         "Worker Tyler"
       ]
@@ -142540,18 +148860,13 @@ overrides = {
     "greenshard": {
       "name": "Green Shard",
       "desc": "A small green shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Moor of Icirrus, Route 12, Route 23",
-      "rewards": [
-        "Janitor Caleb"
-      ]
+      "location": "Castelia City, Castelia Sewers, Virbank Complex, Route 12, Route 23"
     },
     "superrepel": {
       "name": "Super Repel",
       "desc": "An item that prevents weak wild\\nPokémon from appearing for 200 steps\\nafter its use.",
       "location": "",
       "marts": [
-        "Stock 7+Badges",
-        "Stock 8+Badges",
         "SM9 Bottom Section"
       ]
     },
@@ -142566,8 +148881,6 @@ overrides = {
         "Backpacker Alexander"
       ],
       "marts": [
-        "Stock 7+Badges",
-        "Stock 8+Badges",
         "SM9 Bottom Section"
       ]
     },
@@ -142576,8 +148889,6 @@ overrides = {
       "desc": "A long, durable rope.\\nUse it to escape instantly from a cave\\nor a dungeon.",
       "location": "Chargestone Cave, Reversal Mountain, Victory Road, Victory Road, Wellspring Cave, Guidance Chamber",
       "marts": [
-        "Stock 7+Badges",
-        "Stock 8+Badges",
         "SM9 Bottom Section"
       ]
     },
@@ -142586,8 +148897,6 @@ overrides = {
       "desc": "An item that prevents weak wild\\nPokémon from appearing for 100 steps\\nafter its use.",
       "location": "",
       "marts": [
-        "Stock 7+Badges",
-        "Stock 8+Badges",
         "SM9 Bottom Section"
       ]
     },
@@ -142618,7 +148927,7 @@ overrides = {
     "thunderstone": {
       "name": "Thunderstone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt has a thunderbolt pattern.",
-      "location": "Chargestone Cave",
+      "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
       ]
@@ -142698,7 +149007,7 @@ overrides = {
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is\\nextremely rare. It glows faintly in the\\ncolors of the rainbow.",
-      "location": "Castelia City, Virbank City, Humilau City, PWT, Chargestone Cave, Seaside Cave, Village Bridge, Route 7, Celestial Tower, Moor of Icirrus, Route 14, Route 23"
+      "location": "Castelia City, Virbank City, Humilau City, PWT, Chargestone Cave, Seaside Cave, Village Bridge, Route 7, Celestial Tower, Route 14, Route 23"
     },
     "honey": {
       "name": "Honey",
@@ -142728,17 +149037,17 @@ overrides = {
     "rootfossil": {
       "name": "Root Fossil",
       "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a plant root.",
-      "location": "Relic Castle, Abyssal Ruins, Relic Passage"
+      "location": "Relic Sanctum, Abyssal Ruins, Relic Passage"
     },
     "clawfossil": {
       "name": "Claw Fossil",
       "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a claw.",
-      "location": "Relic Castle (Upper Floors)"
+      "location": "Relic Castle"
     },
     "helixfossil": {
       "name": "Helix Fossil",
       "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a seashell.",
-      "location": "Relic Castle, Abyssal Ruins, Relic Passage"
+      "location": "Relic Sanctum, Abyssal Ruins, Relic Passage"
     },
     "domefossil": {
       "name": "Dome Fossil",
@@ -142828,7 +149137,9 @@ overrides = {
         "Stock No Badges",
         "Stock 1+Badges",
         "Stock 3+Badges",
-        "Stock 5+Badges"
+        "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges"
       ]
     },
     "fairydust": {
@@ -142839,7 +149150,7 @@ overrides = {
     "tricksterherb": {
       "name": "Trickster Herb",
       "desc": "A single-use item to be held by a\\nPokémon. It allows status moves to\\nact first.",
-      "location": "Dragonspiral Tower"
+      "location": "Dragonspiral Tower, Complex Exterior"
     },
     "greetmail": {
       "name": "Greet Mail",
@@ -142855,7 +149166,6 @@ overrides = {
         "SM9 Middle Left Cashier",
         "Aspertia City",
         "Seigaiha City Upper Cashier",
-        "Floccesy Town",
         "Yamaji Town Upper Cashier"
       ]
     },
@@ -142873,7 +149183,6 @@ overrides = {
         "SM9 Middle Left Cashier",
         "Aspertia City",
         "Seigaiha City Upper Cashier",
-        "Floccesy Town",
         "Yamaji Town Upper Cashier"
       ]
     },
@@ -142891,7 +149200,6 @@ overrides = {
         "SM9 Middle Left Cashier",
         "Aspertia City",
         "Seigaiha City Upper Cashier",
-        "Floccesy Town",
         "Yamaji Town Upper Cashier"
       ]
     },
@@ -142909,7 +149217,6 @@ overrides = {
         "SM9 Middle Left Cashier",
         "Aspertia City",
         "Seigaiha City Upper Cashier",
-        "Floccesy Town",
         "Yamaji Town Upper Cashier"
       ]
     },
@@ -142927,7 +149234,6 @@ overrides = {
         "SM9 Middle Left Cashier",
         "Aspertia City",
         "Seigaiha City Upper Cashier",
-        "Floccesy Town",
         "Yamaji Town Upper Cashier"
       ]
     },
@@ -142945,7 +149251,6 @@ overrides = {
         "SM9 Middle Left Cashier",
         "Aspertia City",
         "Seigaiha City Upper Cashier",
-        "Floccesy Town",
         "Yamaji Town Upper Cashier"
       ]
     },
@@ -142963,7 +149268,6 @@ overrides = {
         "SM9 Middle Left Cashier",
         "Aspertia City",
         "Seigaiha City Upper Cashier",
-        "Floccesy Town",
         "Yamaji Town Upper Cashier"
       ]
     },
@@ -143016,6 +149320,7 @@ overrides = {
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges",
+        "Stock 7+Badges",
         "Castelia City Upper Cashier"
       ]
     },
@@ -143030,6 +149335,7 @@ overrides = {
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges",
+        "Stock 7+Badges",
         "Castelia City Upper Cashier"
       ]
     },
@@ -143044,6 +149350,7 @@ overrides = {
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges",
+        "Stock 7+Badges",
         "Castelia City Upper Cashier"
       ]
     },
@@ -143066,6 +149373,7 @@ overrides = {
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges",
+        "Stock 7+Badges",
         "Castelia City Upper Cashier"
       ]
     },
@@ -143080,6 +149388,7 @@ overrides = {
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges",
+        "Stock 7+Badges",
         "Castelia City Upper Cashier"
       ]
     },
@@ -143117,6 +149426,7 @@ overrides = {
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges",
+        "Stock 7+Badges",
         "Castelia City Upper Cashier"
       ]
     },
@@ -143139,14 +149449,13 @@ overrides = {
         "Shaymin-Sky"
       ],
       "marts": [
-        "Stock 7+Badges",
         "Stock 8+Badges"
       ]
     },
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon,\\nit heals the user's HP a little.",
-      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower, Relic Passage, Relic Passage, Moor of Icirrus, Anville Town",
+      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower, Relic Passage, Relic Passage",
       "rewards": [
         "PkMn Ranger Daryl - Route 13",
         "PkMn Ranger Dianne - Route 13",
@@ -143158,7 +149467,8 @@ overrides = {
         "PkMn Ranger Hillary - Pinwheel Forest"
       ],
       "marts": [
-        "Stock 7+Badges"
+        "Stock 7+Badges",
+        "Stock 8+Badges"
       ]
     },
     "figyberry": {
@@ -143192,7 +149502,10 @@ overrides = {
     "razzberry": {
       "name": "Razz Berry",
       "desc": "A Berry which is very rare in the\\nUnova region.\\nA maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "blukberry": {
       "name": "Bluk Berry",
@@ -143217,12 +149530,18 @@ overrides = {
     "pomegberry": {
       "name": "Pomeg Berry",
       "desc": "Using it on a Pokémon makes it more\\nfriendly, but it also lowers its base HP.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "kelpsyberry": {
       "name": "Kelpsy Berry",
       "desc": "Using it on a Pokémon makes it more\\nfriendly, but it also lowers its base\\nAttack stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "qualotberry": {
       "name": "Qualot Berry",
@@ -143232,17 +149551,26 @@ overrides = {
     "hondewberry": {
       "name": "Hondew Berry",
       "desc": "Using it on a Pokémon makes it more\\nfriendly, but it also lowers its base\\nSp. Atk stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "grepaberry": {
       "name": "Grepa Berry",
       "desc": "Using it on a Pokémon makes it more\\nfriendly, but it also lowers its base\\nSp. Def stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "tamatoberry": {
       "name": "Tamato Berry",
       "desc": "Using it on a Pokémon makes it more\\nfriendly, but it also lowers its base\\nSpeed stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "cornnberry": {
       "name": "Cornn Berry",
@@ -143302,7 +149630,7 @@ overrides = {
     "wacanberry": {
       "name": "Wacan Berry",
       "desc": "Weakens a supereffective Electric-type\\nattack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": "Chargestone Cave, Chargestone Cave, Lostlorn Forest"
     },
     "rindoberry": {
       "name": "Rindo Berry",
@@ -143420,6 +149748,8 @@ overrides = {
       "location": "",
       "marts": [
         "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges",
         "Driftveil City Herb Shop"
       ]
     },
@@ -143446,7 +149776,11 @@ overrides = {
     "whiteherb": {
       "name": "White Herb",
       "desc": "An item to be held by a Pokémon.\\nIt restores any lowered stat in\\nbattle. It can be used only once.",
-      "location": ""
+      "location": "Floccesy Ranch",
+      "marts": [
+        "Stock 7+Badges",
+        "Stock 8+Badges"
+      ]
     },
     "terabadge": {
       "name": "Tera Badge",
@@ -143471,9 +149805,11 @@ overrides = {
     "mentalherb": {
       "name": "Mental Herb",
       "desc": "An item to be held by a Pokémon. It\\nsnaps the holder out of infatuation.\\nIt can be used only once.",
-      "location": "",
+      "location": "Castelia Sewers",
       "marts": [
         "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges",
         "Driftveil City Herb Shop"
       ]
     },
@@ -143497,7 +149833,7 @@ overrides = {
     "silverpowder": {
       "name": "SilverPowder",
       "desc": "An item to be held by a Pokémon.\\nIt is a shiny, silver powder that ups\\nthe power of Bug-type moves.",
-      "location": "Virbank Complex (Outside)",
+      "location": "Complex Exterior",
       "wilds": [
         "Volcarona"
       ]
@@ -143596,7 +149932,7 @@ overrides = {
     "blackglasses": {
       "name": "BlackGlasses",
       "desc": "An item to be held by a Pokémon.\\nIt is a shady-looking pair of glasses\\nthat boosts Dark-type moves.",
-      "location": "Castelia City, Castelia Sewers",
+      "location": "Desert Resort",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -143632,12 +149968,12 @@ overrides = {
     "poisonbarb": {
       "name": "Poison Barb",
       "desc": "An item to be held by a Pokémon.\\nIt is a small, poisonous barb that ups\\nthe power of Poison-type moves.",
-      "location": "Virbank City, Abyssal Ruins, Route 22"
+      "location": "Abyssal Ruins, Virbank Complex, Route 22"
     },
     "nevermeltice": {
       "name": "NeverMeltIce",
       "desc": "An item to be held by a Pokémon.\\nIt is a piece of ice that repels heat\\nand boosts Ice-type moves.",
-      "location": "Nimbasa City, Dragonspiral Tower",
+      "location": "Nimbasa City",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -143821,7 +150157,7 @@ overrides = {
     "ironball": {
       "name": "Iron Ball",
       "desc": "A Pokémon held item that cuts Speed.\\nIt makes Flying-type and levitating\\nholders susceptible to Ground moves.",
-      "location": "Relic Castle (Upper Floors), Relic Passage"
+      "location": "Relic Castle, Relic Passage"
     },
     "laggingtail": {
       "name": "Lagging Tail",
@@ -143874,7 +150210,7 @@ overrides = {
     "stickybarb": {
       "name": "Sticky Barb",
       "desc": "A held item that damages the holder on\\nevery turn. It may latch on to foes and\\nallies that touch the holder.",
-      "location": ""
+      "location": "Castelia Sewers, Castelia Sewers"
     },
     "assaultvest": {
       "name": "Assault Vest",
@@ -143884,7 +150220,7 @@ overrides = {
     "fairygem": {
       "name": "Fairy Gem",
       "desc": "A gem with an essence of the fey. When\\nheld, it strengthens the power of a\\nFairy-type move only once. ",
-      "location": "Dragonspiral Tower, Plasma Frigate, Clay Tunnel"
+      "location": "Plasma Frigate"
     },
     "weaknesspolicy": {
       "name": "Weakness Policy",
@@ -144104,14 +150440,13 @@ overrides = {
       "desc": "The user strikes the target with a quick\\njolt of electricity.\\nThis attack cannot be evaded.",
       "location": "Virbank City, Abyssal Ruins",
       "marts": [
-        "Striaton City Upper Cashier",
-        "Nimbasa TM Department"
+        "Striaton City Upper Cashier"
       ]
     },
     "tm05": {
       "name": "TM05",
       "desc": "The user slaps down the target's\\nheld item, preventing that item\\nfrom being used in the battle.",
-      "location": "Giant Chasm, Route 23"
+      "location": "Giant Chasm, Mistralton Cave, Route 23"
     },
     "tm06": {
       "name": "TM06",
@@ -144139,10 +150474,7 @@ overrides = {
     "tm10": {
       "name": "TM10",
       "desc": "A unique attack that varies in type and\\nintensity depending on the Pokémon\\nusing it.",
-      "location": "",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": ""
     },
     "tm11": {
       "name": "TM11",
@@ -144178,20 +150510,17 @@ overrides = {
     "tm16": {
       "name": "TM16",
       "desc": "A wondrous wall of light is put up to\\nsuppress damage from special attacks\\nfor five turns.",
-      "location": "Relic Castle (Upper Floors)"
+      "location": "Relic Castle"
     },
     "tm17": {
       "name": "TM17",
       "desc": "A unique attack that varies in type and\\nintensity depending on the Pokémon\\nusing it.",
-      "location": "Moor of Icirrus, Floccesy Town",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": "Moor of Icirrus, Floccesy Town"
     },
     "tm18": {
       "name": "TM18",
       "desc": "The user throws scorching sand at the\\ntarget. This may also leave the target\\nwith a burn.",
-      "location": "Relic Castle (Upper Floors)"
+      "location": "Relic Castle"
     },
     "tm19": {
       "name": "TM19",
@@ -144269,7 +150598,7 @@ overrides = {
     "tm33": {
       "name": "TM33",
       "desc": "A wondrous wall of light is put up to\\nsuppress damage from physical attacks\\nfor five turns.",
-      "location": "Castelia City, Relic Castle (Upper Floors)"
+      "location": "Castelia City, Relic Castle"
     },
     "tm34": {
       "name": "TM34",
@@ -144284,12 +150613,12 @@ overrides = {
     "tm36": {
       "name": "TM36",
       "desc": "Unsanitary sludge is hurled at the\\ntarget. It may also poison the target.",
-      "location": "Icirrus City, Chargestone Cave, Route 8"
+      "location": "Icirrus City, Chargestone Cave"
     },
     "tm37": {
       "name": "TM37",
       "desc": "The user unleashes a curse that may also\\nparalyze the target. This deals massive\\ndamage to a target affected by status.",
-      "location": "Abyssal Ruins"
+      "location": "Relic Sanctum, Abyssal Ruins"
     },
     "tm38": {
       "name": "TM38",
@@ -144380,10 +150709,7 @@ overrides = {
     "tm54": {
       "name": "TM54",
       "desc": "The user swings its tail wildly and\\nattacks opposing Pokémon.\\nThis lowers their Attack stats.",
-      "location": "Castelia Sewers",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": ""
     },
     "tm55": {
       "name": "TM55",
@@ -144403,15 +150729,12 @@ overrides = {
     "tm58": {
       "name": "TM58",
       "desc": "The user attacks by wrapping its opponent\\nin a fierce wind that flies up into the sky.\\nIt may also confuse the target.",
-      "location": "Mistralton City"
+      "location": ""
     },
     "tm59": {
       "name": "TM59",
       "desc": "The user attacks the target with fire.\\nIf the target is holding a Berry, the\\nBerry becomes burnt up and unusable.",
-      "location": "Floccesy Ranch",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": ""
     },
     "tm60": {
       "name": "TM60",
@@ -144430,7 +150753,7 @@ overrides = {
     },
     "tm63": {
       "name": "TM63",
-      "desc": "The user swings its body violently to\\ninflict damage on everything in its\\nvicinity.",
+      "desc": "The user swings its body violently to\\ninflict damage and eliminate hazards.\\nReduces target's evasion.",
       "location": "Route 20"
     },
     "tm64": {
@@ -144451,10 +150774,7 @@ overrides = {
     "tm67": {
       "name": "TM67",
       "desc": "The user attacks the target with a\\nsecret power. Its added effects vary\\ndepending on the user's environment.",
-      "location": "Plasma Frigate",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": "Plasma Frigate"
     },
     "tm68": {
       "name": "TM68",
@@ -144472,10 +150792,7 @@ overrides = {
     "tm70": {
       "name": "TM70",
       "desc": "The user attacks with a ray of\\ncrystalline light. This may also\\nraise the User's Sp. Atk stat.",
-      "location": "",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": ""
     },
     "tm71": {
       "name": "TM71",
@@ -144505,10 +150822,7 @@ overrides = {
     "tm76": {
       "name": "TM76",
       "desc": "Resisting, the user attacks the\\nopposing Pokémon. The targets' Sp. Atk\\nstat is reduced.",
-      "location": "",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": ""
     },
     "tm77": {
       "name": "TM77",
@@ -144568,10 +150882,7 @@ overrides = {
     "tm88": {
       "name": "TM88",
       "desc": "The user pecks the target. If the\\ntarget is holding a Berry, the user\\nplucks it and gains its effect.",
-      "location": "Virbank Complex (Outside)",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": ""
     },
     "tm89": {
       "name": "TM89",
@@ -144601,7 +150912,7 @@ overrides = {
     "hm02": {
       "name": "HM02",
       "desc": "The user soars, then strikes on the\\nsecond turn. It can also be used to\\nfly to any familiar town.",
-      "location": "Dreamyard, Castelia Sewers, Route 5"
+      "location": "Dreamyard, Route 5"
     },
     "hm03": {
       "name": "HM03",
@@ -145008,139 +151319,139 @@ overrides = {
       "desc": "A famous Mahogany Town candy tourists\\nlike to buy and take home. It restores\\nthe HP of one Pokémon by 20 points.",
       "location": ""
     },
-    "datacard01": {
-      "name": "Data Card 01",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many victories\\nyou've had.",
+    "hardymint": {
+      "name": "Hardy Mint",
+      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
+      "location": "Dragonspiral Tower"
+    },
+    "lonelymint": {
+      "name": "Lonely Mint",
+      "desc": "When a Pokémon smells this mint, its\\nAttack will grow more easily, but its\\nDefense will grow more slowly.",
       "location": ""
     },
-    "datacard02": {
-      "name": "Data Card 02",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many\\nlosses you've had.",
+    "bravemint": {
+      "name": "Brave Mint",
+      "desc": "When a Pokémon smells this mint, its\\nAttack will grow more easily, but its\\nSpeed will grow more slowly.",
       "location": ""
     },
-    "datacard03": {
-      "name": "Data Card 03",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times your\\nPokémon have dashed.",
+    "adamantmint": {
+      "name": "Adamant Mint",
+      "desc": "When a Pokémon smells this mint, its\\nAttack will grow more easily, but its\\nSpecial Attack will grow more slowly.",
       "location": ""
     },
-    "datacard04": {
-      "name": "Data Card 04",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times your\\nPokémon have jumped.",
+    "naughtymint": {
+      "name": "Naughty Mint",
+      "desc": "When a Pokémon smells this mint, its\\nAttack will grow more easily, but its\\nSpecial Defense will grow more slowly.",
       "location": ""
     },
-    "datacard05": {
-      "name": "Data Card 05",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon the Hurdle Dash.",
+    "boldmint": {
+      "name": "Bold Mint",
+      "desc": "When a Pokémon smells this mint, its\\nDefense will grow more easily, but its\\nAttack will grow more slowly.",
       "location": ""
     },
-    "datacard06": {
-      "name": "Data Card 06",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon the Relay Run.",
+    "docilemint": {
+      "name": "Docile Mint",
+      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
       "location": ""
     },
-    "datacard07": {
-      "name": "Data Card 07",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon Pennant Capture.",
+    "relaxedmint": {
+      "name": "Relaxed Mint",
+      "desc": "When a Pokémon smells this mint, its\\nDefense will grow more easily, but its\\nSpeed will grow more slowly.",
       "location": ""
     },
-    "datacard08": {
-      "name": "Data Card 08",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon Block Smash.",
+    "impishmint": {
+      "name": "Impish Mint",
+      "desc": "When a Pokémon smells this mint, its\\nDefense will grow more easily, but its\\nSpecial Attack will grow more slowly.",
       "location": ""
     },
-    "datacard09": {
-      "name": "Data Card 09",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon Disc Catch.",
+    "laxmint": {
+      "name": "Lax Mint",
+      "desc": "When a Pokémon smells this mint, its\\nDefense will grow more easily, but its\\nSpecial Defense will grow more slowly.",
       "location": ""
     },
-    "datacard10": {
-      "name": "Data Card 10",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon Snow Throw.",
+    "timidmint": {
+      "name": "Timid Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpeed will grow more easily, but its\\nAttack will grow more slowly.",
       "location": ""
     },
-    "datacard11": {
-      "name": "Data Card 11",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many points\\nyour Pokémon scored.",
+    "hastymint": {
+      "name": "Hasty Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpeed will grow more easily, but its\\nDefense will grow more slowly.",
       "location": ""
     },
-    "datacard12": {
-      "name": "Data Card 12",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times your\\nPokémon have failed.",
+    "seriousmint": {
+      "name": "Serious Mint",
+      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
       "location": ""
     },
-    "datacard13": {
-      "name": "Data Card 13",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times your\\nPokémon impeded themselves.",
+    "jollymint": {
+      "name": "Jolly Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpeed will grow more easily, but its\\nSpecial Attack will grow more slowly.",
       "location": ""
     },
-    "datacard14": {
-      "name": "Data Card 14",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times your\\nPokémon have tackled.",
+    "naivemint": {
+      "name": "Naive Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpeed will grow more easily, but its\\nSpecial Defense will grow more slowly.",
       "location": ""
     },
-    "datacard15": {
-      "name": "Data Card 15",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times your\\nPokémon have fallen down.",
+    "modestmint": {
+      "name": "Modest Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpecial Attack will grow more easily, but\\nits Attack will grow more slowly.",
       "location": ""
     },
-    "datacard16": {
-      "name": "Data Card 16",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon Ring Drop.",
+    "mildmint": {
+      "name": "Mild Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpecial Attack will grow more easily, but\\nits Defense will grow more slowly.",
       "location": ""
     },
-    "datacard17": {
-      "name": "Data Card 17",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon Lamp Jump.",
+    "quietmint": {
+      "name": "Quiet Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpecial Attack will grow more easily, but\\nits Speed will grow more slowly.",
       "location": ""
     },
-    "datacard18": {
-      "name": "Data Card 18",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon Circle Push.",
+    "bashfulmint": {
+      "name": "Bashful Mint",
+      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
       "location": ""
     },
-    "datacard19": {
-      "name": "Data Card 19",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many\\nLink Pokéathlon wins you've had.",
+    "rashmint": {
+      "name": "Rash Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpecial Attack will grow more easily, but\\nits Special Defense will grow more slowly.",
       "location": ""
     },
-    "datacard20": {
-      "name": "Data Card 20",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many\\nLink Pokéathlon losses you've had.",
+    "calmmint": {
+      "name": "Calm Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpecial Defense will grow more easily, but\\nits Attack will grow more slowly.",
       "location": ""
     },
-    "datacard21": {
-      "name": "Data Card 21",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times\\nyou've won an event.",
+    "gentlemint": {
+      "name": "Gentle Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpecial Defense will grow more easily, but\\nits Defense will grow more slowly.",
       "location": ""
     },
-    "datacard22": {
-      "name": "Data Card 22",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times\\nyou've lost an event.",
+    "sassymint": {
+      "name": "Sassy Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpecial Defense will grow more easily, but\\nits Speed will grow more slowly.",
       "location": ""
     },
-    "datacard23": {
-      "name": "Data Card 23",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nswitched Pokémon.",
+    "carefulmint": {
+      "name": "Careful Mint",
+      "desc": "When a Pokémon smells this mint, its\\nSpecial Defense will grow more easily, but\\nits Special Attack will grow more slowly.",
       "location": ""
     },
-    "datacard24": {
-      "name": "Data Card 24",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\nwon Goal Roll.",
+    "quirkymint": {
+      "name": "Quirky Mint",
+      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
       "location": ""
     },
-    "datacard25": {
-      "name": "Data Card 25",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times your\\nPokémon won individual prizes.",
+    "ivenhancer": {
+      "name": "IV Enhancer",
+      "desc": "An item that can be administered to a\\nPokémon to maximize one of their IVs.",
       "location": ""
     },
-    "datacard26": {
-      "name": "Data Card 26",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how many times you've\\ninstructed your Pokémon.",
-      "location": ""
-    },
-    "datacard27": {
-      "name": "Data Card 27",
-      "desc": "It holds Pokéathlon records. It's a\\ncard that shows how much time you've\\nspent in the Pokéathlon.",
+    "ivmaximizer": {
+      "name": "IV Maximizer",
+      "desc": "An item that can be administered to a\\nPokémon to maximize all their IVs.",
       "location": ""
     },
     "jadeorb": {
@@ -145291,12 +151602,12 @@ overrides = {
     "dragongem": {
       "name": "Dragon Gem",
       "desc": "A gem with a draconic essence.\\nWhen held, it strengthens the power\\nof a Dragon-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": "Abyssal Ruins, Clay Tunnel, Moor of Icirrus, Anville Town"
     },
     "darkgem": {
       "name": "Dark Gem",
       "desc": "A gem with an essence of darkness.\\nWhen held, it strengthens the power of\\na Dark-type move only once.",
-      "location": "Driftveil City, Clay Tunnel"
+      "location": "Clay Tunnel"
     },
     "steelgem": {
       "name": "Steel Gem",
@@ -145346,7 +151657,7 @@ overrides = {
     "coverfossil": {
       "name": "Cover Fossil",
       "desc": "A fossil of an ancient Pokémon that\\nlived in the sea in ancient times.\\nIt appears to be part of its back.",
-      "location": "Relic Castle (Upper Floors), Relic Castle, Abyssal Ruins, Relic Passage, Accumula Town"
+      "location": "Relic Castle, Relic Sanctum, Abyssal Ruins, Relic Passage, Accumula Town"
     },
     "plumefossil": {
       "name": "Plume Fossil",
@@ -145595,10 +151906,7 @@ overrides = {
     "tm95": {
       "name": "TM95",
       "desc": "The user yells as if it is ranting about\\nsomething, making the target's Sp. Atk\\nstat decrease.",
-      "location": "Virbank Complex",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": ""
     },
     "xtransceiver": {
       "name": "Xtransceiver",
