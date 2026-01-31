@@ -122,6 +122,13 @@ a.button {
 .nav a.button {
 	display: inline;
 }
+
+.evo-desc {
+	display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
 .button {
 	cursor: pointer;
 	text-align: center;

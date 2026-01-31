@@ -126,6 +126,12 @@ overrides = {
       ],
       "evos": [
         "Ivysaur"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Ivysaur": {
@@ -256,6 +262,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Venusaur"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Venusaur": {
@@ -527,6 +539,12 @@ overrides = {
       ],
       "evos": [
         "Charmeleon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Charmeleon": {
@@ -663,6 +681,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Charizard"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Charizard": {
@@ -943,6 +967,12 @@ overrides = {
       ],
       "evos": [
         "Wartortle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Wartortle": {
@@ -1073,6 +1103,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Blastoise"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Blastoise": {
@@ -1260,6 +1296,12 @@ overrides = {
       ],
       "evos": [
         "Metapod"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        7
       ]
     },
     "Metapod": {
@@ -1311,6 +1353,12 @@ overrides = {
       "evoLevel": 7,
       "evos": [
         "Butterfree"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        10
       ]
     },
     "Butterfree": {
@@ -1498,6 +1546,12 @@ overrides = {
       ],
       "evos": [
         "Kakuna"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        7
       ]
     },
     "Kakuna": {
@@ -1550,6 +1604,12 @@ overrides = {
       "evoLevel": 7,
       "evos": [
         "Beedrill"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        10
       ]
     },
     "Beedrill": {
@@ -1812,6 +1872,12 @@ overrides = {
       ],
       "evos": [
         "Pidgeotto"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Pidgeotto": {
@@ -1942,6 +2008,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Pidgeot"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Pidgeot": {
@@ -2204,6 +2276,12 @@ overrides = {
       ],
       "evos": [
         "Raticate"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Raticate": {
@@ -2466,6 +2544,12 @@ overrides = {
       ],
       "evos": [
         "Fearow"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Fearow": {
@@ -2720,6 +2804,12 @@ overrides = {
       ],
       "evos": [
         "Arbok"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Arbok": {
@@ -2994,7 +3084,12 @@ overrides = {
       "evos": [
         "Raichu"
       ],
-      "evoType": "levelFriendship"
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Thunderstone"
+      ]
     },
     "Raichu": {
       "name": "Raichu",
@@ -3261,6 +3356,12 @@ overrides = {
       ],
       "evos": [
         "Sandslash"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Sandslash": {
@@ -3528,6 +3629,12 @@ overrides = {
       ],
       "evos": [
         "Nidorina"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Nidorina": {
@@ -3661,6 +3768,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Nidoqueen"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
       ]
     },
     "Nidoqueen": {
@@ -3945,6 +4058,12 @@ overrides = {
       ],
       "evos": [
         "Nidorino"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Nidorino": {
@@ -4077,6 +4196,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Nidoking"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
       ]
     },
     "Nidoking": {
@@ -4380,7 +4505,12 @@ overrides = {
       "evos": [
         "Clefable"
       ],
-      "evoType": "levelFriendship"
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
+      ]
     },
     "Clefable": {
       "name": "Clefable",
@@ -4657,6 +4787,12 @@ overrides = {
       ],
       "evos": [
         "Ninetales"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Fire Stone"
       ]
     },
     "Ninetales": {
@@ -4935,7 +5071,12 @@ overrides = {
       "evos": [
         "Wigglytuff"
       ],
-      "evoType": "levelFriendship"
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
+      ]
     },
     "Wigglytuff": {
       "name": "Wigglytuff",
@@ -5208,6 +5349,12 @@ overrides = {
       ],
       "evos": [
         "Golbat"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Golbat": {
@@ -5337,10 +5484,7 @@ overrides = {
         "Infiltrator"
       ],
       "evoType": "level",
-      "evoLevel": 22,
-      "evos": [
-        "Crobat"
-      ]
+      "evoLevel": 22
     },
     "Oddish": {
       "name": "Oddish",
@@ -5463,6 +5607,12 @@ overrides = {
       ],
       "evos": [
         "Gloom"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        21
       ]
     },
     "Gloom": {
@@ -5590,6 +5740,14 @@ overrides = {
       "evos": [
         "Vileplume",
         "Bellossom"
+      ],
+      "evoMethods": [
+        "useItem",
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone",
+        "Sun Stone"
       ]
     },
     "Vileplume": {
@@ -5850,6 +6008,12 @@ overrides = {
       ],
       "evos": [
         "Parasect"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Parasect": {
@@ -6108,6 +6272,12 @@ overrides = {
       ],
       "evos": [
         "Venomoth"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Venomoth": {
@@ -6365,6 +6535,12 @@ overrides = {
       ],
       "evos": [
         "Dugtrio"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Dugtrio": {
@@ -6634,6 +6810,12 @@ overrides = {
       ],
       "evos": [
         "Persian"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Persian": {
@@ -6916,6 +7098,12 @@ overrides = {
       ],
       "evos": [
         "Golduck"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Golduck": {
@@ -7201,6 +7389,12 @@ overrides = {
       ],
       "evos": [
         "Primeape"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Primeape": {
@@ -7494,6 +7688,12 @@ overrides = {
       ],
       "evos": [
         "Arcanine"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Fire Stone"
       ]
     },
     "Arcanine": {
@@ -7772,6 +7972,12 @@ overrides = {
       ],
       "evos": [
         "Poliwhirl"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Poliwhirl": {
@@ -7905,6 +8111,14 @@ overrides = {
       "evos": [
         "Poliwrath",
         "Politoed"
+      ],
+      "evoMethods": [
+        "useItem",
+        "level"
+      ],
+      "evoParams": [
+        "Water Stone",
+        30
       ]
     },
     "Poliwrath": {
@@ -8130,6 +8344,12 @@ overrides = {
       ],
       "evos": [
         "Kadabra"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Kadabra": {
@@ -8269,6 +8489,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Alakazam"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Alakazam": {
@@ -8549,6 +8775,12 @@ overrides = {
       ],
       "evos": [
         "Machoke"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Machoke": {
@@ -8688,6 +8920,12 @@ overrides = {
       "evoLevel": 28,
       "evos": [
         "Machamp"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Machamp": {
@@ -8968,6 +9206,12 @@ overrides = {
       ],
       "evos": [
         "Weepinbell"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        21
       ]
     },
     "Weepinbell": {
@@ -9099,6 +9343,12 @@ overrides = {
       "evoLevel": 21,
       "evos": [
         "Victreebel"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone"
       ]
     },
     "Victreebel": {
@@ -9362,6 +9612,12 @@ overrides = {
       ],
       "evos": [
         "Tentacruel"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Tentacruel": {
@@ -9629,6 +9885,12 @@ overrides = {
       ],
       "evos": [
         "Graveler"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Graveler": {
@@ -9764,6 +10026,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Golem"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Golem": {
@@ -10025,6 +10293,12 @@ overrides = {
       ],
       "evos": [
         "Rapidash"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Rapidash": {
@@ -10298,6 +10572,16 @@ overrides = {
         "Slowbro",
         "Slowking",
         "Slowbro"
+      ],
+      "evoMethods": [
+        "level",
+        "useItem",
+        "trade"
+      ],
+      "evoParams": [
+        34,
+        "Water Stone",
+        ""
       ]
     },
     "Slowbro": {
@@ -10578,6 +10862,12 @@ overrides = {
       ],
       "evos": [
         "Magneton"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Magneton": {
@@ -10712,6 +11002,12 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Magnezone"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Thunderstone"
       ]
     },
     "Farfetch’d": {
@@ -10960,6 +11256,12 @@ overrides = {
       ],
       "evos": [
         "Dodrio"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        31
       ]
     },
     "Dodrio": {
@@ -11214,6 +11516,12 @@ overrides = {
       ],
       "evos": [
         "Dewgong"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Dewgong": {
@@ -11486,6 +11794,12 @@ overrides = {
       ],
       "evos": [
         "Muk"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Muk": {
@@ -11756,6 +12070,12 @@ overrides = {
       ],
       "evos": [
         "Cloyster"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ]
     },
     "Cloyster": {
@@ -12016,6 +12336,12 @@ overrides = {
       ],
       "evos": [
         "Haunter"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Haunter": {
@@ -12154,6 +12480,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Gengar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Gengar": {
@@ -12435,6 +12767,12 @@ overrides = {
       ],
       "evos": [
         "Steelix"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Drowzee": {
@@ -12570,6 +12908,12 @@ overrides = {
       ],
       "evos": [
         "Hypno"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Hypno": {
@@ -12863,6 +13207,12 @@ overrides = {
       ],
       "evos": [
         "Kingler"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Kingler": {
@@ -13144,6 +13494,12 @@ overrides = {
       ],
       "evos": [
         "Electrode"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Electrode": {
@@ -13419,6 +13775,12 @@ overrides = {
       ],
       "evos": [
         "Exeggutor"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Exeggutor": {
@@ -13700,6 +14062,12 @@ overrides = {
       ],
       "evos": [
         "Marowak"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Marowak": {
@@ -14271,6 +14639,12 @@ overrides = {
       ],
       "evos": [
         "Lickilicky"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        33
       ]
     },
     "Koffing": {
@@ -14402,6 +14776,12 @@ overrides = {
       ],
       "evos": [
         "Weezing"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Weezing": {
@@ -14672,6 +15052,12 @@ overrides = {
       ],
       "evos": [
         "Rhydon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Rhydon": {
@@ -14822,6 +15208,12 @@ overrides = {
       "evoLevel": 28,
       "evos": [
         "Rhyperior"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Chansey": {
@@ -14970,9 +15362,6 @@ overrides = {
         "Serene Grace",
         "Healer"
       ],
-      "evos": [
-        "Blissey"
-      ],
       "evoType": "levelFriendship"
     },
     "Tangela": {
@@ -15100,6 +15489,12 @@ overrides = {
       ],
       "evos": [
         "Tangrowth"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Kangaskhan": {
@@ -15371,6 +15766,12 @@ overrides = {
       ],
       "evos": [
         "Seadra"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Seadra": {
@@ -15497,6 +15898,12 @@ overrides = {
       "evoLevel": 32,
       "evos": [
         "Kingdra"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ]
     },
     "Goldeen": {
@@ -15620,6 +16027,12 @@ overrides = {
       ],
       "evos": [
         "Seaking"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Seaking": {
@@ -15874,6 +16287,12 @@ overrides = {
       ],
       "evos": [
         "Starmie"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Starmie": {
@@ -16289,6 +16708,12 @@ overrides = {
       ],
       "evos": [
         "Scizor"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone"
       ]
     },
     "Jynx": {
@@ -16563,6 +16988,12 @@ overrides = {
       "evos": [
         "Electivire"
       ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
+      ],
       "evoType": "level",
       "evoLevel": 25
     },
@@ -16695,6 +17126,12 @@ overrides = {
       ],
       "evos": [
         "Magmortar"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Fire Stone"
       ],
       "evoType": "level",
       "evoLevel": 25
@@ -17016,6 +17453,12 @@ overrides = {
       ],
       "evos": [
         "Gyarados"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Gyarados": {
@@ -17457,6 +17900,24 @@ overrides = {
         "Flareon",
         "Espeon",
         "Umbreon"
+      ],
+      "evoMethods": [
+        "useItem",
+        "useItem",
+        "useItem",
+        "useItem",
+        "useItem",
+        "useItem",
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone",
+        "Shiny Stone",
+        "Thunderstone",
+        "Water Stone",
+        "Fire Stone",
+        "Sun Stone",
+        "Moon Stone"
       ]
     },
     "Vaporeon": {
@@ -17993,6 +18454,12 @@ overrides = {
       ],
       "evos": [
         "Porygon2"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dawn Stone"
       ]
     },
     "Omanyte": {
@@ -18123,6 +18590,12 @@ overrides = {
       ],
       "evos": [
         "Omastar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Omastar": {
@@ -18386,6 +18859,12 @@ overrides = {
       ],
       "evos": [
         "Kabutops"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Kabutops": {
@@ -18834,8 +19313,7 @@ overrides = {
         "Thick Fat",
         "Immunity",
         "Gluttony"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Articuno": {
       "name": "Articuno",
@@ -19352,6 +19830,12 @@ overrides = {
       ],
       "evos": [
         "Dragonair"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Dragonair": {
@@ -19484,6 +19968,12 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Dragonite"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Dragonite": {
@@ -20121,6 +20611,12 @@ overrides = {
       ],
       "evos": [
         "Bayleef"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Bayleef": {
@@ -20254,6 +20750,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Meganium"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Meganium": {
@@ -20532,6 +21034,12 @@ overrides = {
       ],
       "evos": [
         "Quilava"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        14
       ]
     },
     "Quilava": {
@@ -20667,6 +21175,12 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Typhlosion"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Typhlosion": {
@@ -20941,6 +21455,12 @@ overrides = {
       ],
       "evos": [
         "Croconaw"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Croconaw": {
@@ -21082,6 +21602,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Feraligatr"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Feraligatr": {
@@ -21365,6 +21891,12 @@ overrides = {
       ],
       "evos": [
         "Furret"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Furret": {
@@ -21633,6 +22165,12 @@ overrides = {
       ],
       "evos": [
         "Noctowl"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Noctowl": {
@@ -21903,6 +22441,12 @@ overrides = {
       ],
       "evos": [
         "Ledian"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Ledian": {
@@ -22172,6 +22716,12 @@ overrides = {
       ],
       "evos": [
         "Ariados"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Ariados": {
@@ -22439,8 +22989,7 @@ overrides = {
         "Inner Focus",
         "Sniper",
         "Infiltrator"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Chinchou": {
       "name": "Chinchou",
@@ -22569,6 +23118,12 @@ overrides = {
       ],
       "evos": [
         "Lanturn"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        27
       ]
     },
     "Lanturn": {
@@ -22822,9 +23377,6 @@ overrides = {
         "Volt Absorb",
         "Static",
         "Lightning Rod"
-      ],
-      "evos": [
-        "Pikachu"
       ]
     },
     "Cleffa": {
@@ -22961,9 +23513,6 @@ overrides = {
         "Cute Charm",
         "Magic Guard",
         "Friend Guard"
-      ],
-      "evos": [
-        "Clefairy"
       ]
     },
     "Igglybuff": {
@@ -23095,9 +23644,6 @@ overrides = {
         "Magic Guard",
         "Cute Charm",
         "Friend Guard"
-      ],
-      "evos": [
-        "Jigglypuff"
       ]
     },
     "Togepi": {
@@ -23230,9 +23776,6 @@ overrides = {
         "Serene Grace",
         "Super Luck",
         "Super Luck"
-      ],
-      "evos": [
-        "Togetic"
       ]
     },
     "Togetic": {
@@ -23373,9 +23916,14 @@ overrides = {
         "Super Luck",
         "Super Luck"
       ],
-      "evoType": "levelFriendship",
       "evos": [
         "Togekiss"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Shiny Stone"
       ]
     },
     "Natu": {
@@ -23515,6 +24063,12 @@ overrides = {
       ],
       "evos": [
         "Xatu"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Xatu": {
@@ -23783,6 +24337,12 @@ overrides = {
       ],
       "evos": [
         "Flaaffy"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Flaaffy": {
@@ -23917,6 +24477,12 @@ overrides = {
       "evoLevel": 15,
       "evos": [
         "Ampharos"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Ampharos": {
@@ -24321,7 +24887,12 @@ overrides = {
       "evos": [
         "Azumarill"
       ],
-      "evoType": "levelFriendship"
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
+      ]
     },
     "Azumarill": {
       "name": "Azumarill",
@@ -24849,6 +25420,12 @@ overrides = {
       ],
       "evos": [
         "Skiploom"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Skiploom": {
@@ -24980,6 +25557,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Jumpluff"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        27
       ]
     },
     "Jumpluff": {
@@ -25250,6 +25833,12 @@ overrides = {
       ],
       "evos": [
         "Ambipom"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Sunkern": {
@@ -25373,6 +25962,12 @@ overrides = {
       ],
       "evos": [
         "Sunflora"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Sun Stone"
       ]
     },
     "Sunflora": {
@@ -25639,6 +26234,12 @@ overrides = {
       ],
       "evos": [
         "Yanmega"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        33
       ]
     },
     "Wooper": {
@@ -25770,6 +26371,12 @@ overrides = {
       ],
       "evos": [
         "Quagsire"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Quagsire": {
@@ -26316,6 +26923,12 @@ overrides = {
       ],
       "evos": [
         "Honchkrow"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dusk Stone"
       ]
     },
     "Slowking": {
@@ -26606,6 +27219,12 @@ overrides = {
       ],
       "evos": [
         "Mismagius"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dusk Stone"
       ]
     },
     "Unown": {
@@ -27007,6 +27626,12 @@ overrides = {
       ],
       "evos": [
         "Forretress"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        31
       ]
     },
     "Forretress": {
@@ -27442,6 +28067,12 @@ overrides = {
       ],
       "evos": [
         "Gliscor"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        38
       ]
     },
     "Steelix": {
@@ -27734,6 +28365,12 @@ overrides = {
       ],
       "evos": [
         "Granbull"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        23
       ]
     },
     "Granbull": {
@@ -28591,6 +29228,12 @@ overrides = {
       ],
       "evos": [
         "Weavile"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Teddiursa": {
@@ -28732,6 +29375,12 @@ overrides = {
       ],
       "evos": [
         "Ursaring"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Ursaring": {
@@ -29015,6 +29664,12 @@ overrides = {
       ],
       "evos": [
         "Magcargo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        38
       ]
     },
     "Magcargo": {
@@ -29299,6 +29954,12 @@ overrides = {
       ],
       "evos": [
         "Piloswine"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        33
       ]
     },
     "Piloswine": {
@@ -29433,6 +30094,12 @@ overrides = {
       "evoLevel": 33,
       "evos": [
         "Mamoswine"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Corsola": {
@@ -29568,11 +30235,7 @@ overrides = {
         "Skill Link",
         "Regenerator",
         "Regenerator"
-      ],
-      "evos": [
-        "Corsola"
-      ],
-      "evoType": "trade"
+      ]
     },
     "Remoraid": {
       "name": "Remoraid",
@@ -29706,6 +30369,12 @@ overrides = {
       ],
       "evos": [
         "Octillery"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Octillery": {
@@ -30370,6 +31039,12 @@ overrides = {
       ],
       "evos": [
         "Houndoom"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Houndoom": {
@@ -30763,6 +31438,12 @@ overrides = {
       ],
       "evos": [
         "Donphan"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Donphan": {
@@ -30832,7 +31513,7 @@ overrides = {
           ],
           [
             32,
-            "Ice Shard"
+            "Charm"
           ],
           [
             36,
@@ -31033,6 +31714,12 @@ overrides = {
       "evoItem": "Dawn Stone",
       "evos": [
         "Porygon-Z"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Shiny Stone"
       ]
     },
     "Stantler": {
@@ -31280,6 +31967,16 @@ overrides = {
         "Hitmonchan",
         "Hitmonlee",
         "Hitmontop"
+      ],
+      "evoMethods": [
+        "useItem",
+        "useItem",
+        "useItem"
+      ],
+      "evoParams": [
+        "Dawn Stone",
+        "Dusk Stone",
+        "Shiny Stone"
       ]
     },
     "Hitmontop": {
@@ -31556,6 +32253,12 @@ overrides = {
       ],
       "evos": [
         "Jynx"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Elekid": {
@@ -31683,6 +32386,12 @@ overrides = {
       ],
       "evos": [
         "Electabuzz"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Magby": {
@@ -31808,6 +32517,12 @@ overrides = {
       ],
       "evos": [
         "Magmar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Miltank": {
@@ -32093,8 +32808,7 @@ overrides = {
         "Natural Cure",
         "Serene Grace",
         "Healer"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Raikou": {
       "name": "Raikou",
@@ -32628,6 +33342,12 @@ overrides = {
       ],
       "evos": [
         "Pupitar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Pupitar": {
@@ -32763,6 +33483,12 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Tyranitar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Tyranitar": {
@@ -33476,6 +34202,12 @@ overrides = {
       ],
       "evos": [
         "Grovyle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Grovyle": {
@@ -33623,6 +34355,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Sceptile"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Sceptile": {
@@ -33913,6 +34651,12 @@ overrides = {
       ],
       "evos": [
         "Combusken"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Combusken": {
@@ -34055,6 +34799,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Blaziken"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Blaziken": {
@@ -34342,6 +35092,12 @@ overrides = {
       ],
       "evos": [
         "Marshtomp"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Marshtomp": {
@@ -34485,6 +35241,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Swampert"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Swampert": {
@@ -34773,6 +35535,12 @@ overrides = {
       ],
       "evos": [
         "Mightyena"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Mightyena": {
@@ -35043,6 +35811,12 @@ overrides = {
       ],
       "evos": [
         "Linoone"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Linoone": {
@@ -35242,6 +36016,14 @@ overrides = {
       "evos": [
         "Silcoon",
         "Cascoon"
+      ],
+      "evoMethods": [
+        "level",
+        "level"
+      ],
+      "evoParams": [
+        7,
+        7
       ]
     },
     "Silcoon": {
@@ -35297,6 +36079,12 @@ overrides = {
       "evoLevel": 7,
       "evos": [
         "Beautifly"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        10
       ]
     },
     "Beautifly": {
@@ -35489,6 +36277,12 @@ overrides = {
       "evoLevel": 7,
       "evos": [
         "Dustox"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        10
       ]
     },
     "Dustox": {
@@ -35751,6 +36545,12 @@ overrides = {
       ],
       "evos": [
         "Lombre"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        14
       ]
     },
     "Lombre": {
@@ -35888,6 +36688,12 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Ludicolo"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ]
     },
     "Ludicolo": {
@@ -36162,6 +36968,12 @@ overrides = {
       ],
       "evos": [
         "Nuzleaf"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        14
       ]
     },
     "Nuzleaf": {
@@ -36304,6 +37116,12 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Shiftry"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone"
       ]
     },
     "Shiftry": {
@@ -36578,6 +37396,12 @@ overrides = {
       ],
       "evos": [
         "Swellow"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Swellow": {
@@ -36835,6 +37659,12 @@ overrides = {
       ],
       "evos": [
         "Pelipper"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Pelipper": {
@@ -37111,6 +37941,12 @@ overrides = {
       ],
       "evos": [
         "Kirlia"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Kirlia": {
@@ -37252,6 +38088,14 @@ overrides = {
       "evos": [
         "Gardevoir",
         "Gallade"
+      ],
+      "evoMethods": [
+        "level",
+        "useItem"
+      ],
+      "evoParams": [
+        28,
+        "Dawn Stone"
       ]
     },
     "Gardevoir": {
@@ -37526,6 +38370,12 @@ overrides = {
       ],
       "evos": [
         "Masquerain"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Masquerain": {
@@ -37787,6 +38637,12 @@ overrides = {
       ],
       "evos": [
         "Breloom"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        23
       ]
     },
     "Breloom": {
@@ -38074,6 +38930,12 @@ overrides = {
       ],
       "evos": [
         "Vigoroth"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Vigoroth": {
@@ -38219,6 +39081,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Slaking"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Slaking": {
@@ -38492,6 +39360,14 @@ overrides = {
       "evos": [
         "Ninjask",
         "Shedinja"
+      ],
+      "evoMethods": [
+        "level",
+        "level"
+      ],
+      "evoParams": [
+        20,
+        20
       ]
     },
     "Ninjask": {
@@ -38891,6 +39767,12 @@ overrides = {
       ],
       "evos": [
         "Loudred"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Loudred": {
@@ -39033,6 +39915,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Exploud"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Exploud": {
@@ -39320,6 +40208,12 @@ overrides = {
       ],
       "evos": [
         "Hariyama"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Hariyama": {
@@ -39590,9 +40484,6 @@ overrides = {
         "Huge Power",
         "Huge Power",
         "Sap Sipper"
-      ],
-      "evos": [
-        "Marill"
       ]
     },
     "Nosepass": {
@@ -39724,6 +40615,12 @@ overrides = {
       ],
       "evos": [
         "Probopass"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Thunderstone"
       ]
     },
     "Skitty": {
@@ -39859,6 +40756,12 @@ overrides = {
       ],
       "evos": [
         "Delcatty"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
       ]
     },
     "Delcatty": {
@@ -40447,6 +41350,12 @@ overrides = {
       ],
       "evos": [
         "Lairon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Lairon": {
@@ -40580,6 +41489,12 @@ overrides = {
       "evoLevel": 32,
       "evos": [
         "Aggron"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        42
       ]
     },
     "Aggron": {
@@ -40878,6 +41793,12 @@ overrides = {
       ],
       "evos": [
         "Medicham"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Medicham": {
@@ -41166,6 +42087,12 @@ overrides = {
       ],
       "evos": [
         "Manectric"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Manectric": {
@@ -41933,7 +42860,12 @@ overrides = {
       "evos": [
         "Roserade"
       ],
-      "evoType": "levelFriendship"
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Shiny Stone"
+      ]
     },
     "Gulpin": {
       "name": "Gulpin",
@@ -42066,6 +42998,12 @@ overrides = {
       ],
       "evos": [
         "Swalot"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Swalot": {
@@ -42330,6 +43268,12 @@ overrides = {
       ],
       "evos": [
         "Sharpedo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Sharpedo": {
@@ -42610,6 +43554,12 @@ overrides = {
       ],
       "evos": [
         "Wailord"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Wailord": {
@@ -42873,6 +43823,12 @@ overrides = {
       ],
       "evos": [
         "Camerupt"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        33
       ]
     },
     "Camerupt": {
@@ -43299,6 +44255,12 @@ overrides = {
       ],
       "evos": [
         "Grumpig"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Grumpig": {
@@ -43713,6 +44675,12 @@ overrides = {
       ],
       "evos": [
         "Vibrava"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Vibrava": {
@@ -43848,6 +44816,12 @@ overrides = {
       "evoLevel": 35,
       "evos": [
         "Flygon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Flygon": {
@@ -44131,6 +45105,12 @@ overrides = {
       ],
       "evos": [
         "Cacturne"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Cacturne": {
@@ -44398,6 +45378,12 @@ overrides = {
       ],
       "evos": [
         "Altaria"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Altaria": {
@@ -45242,6 +46228,12 @@ overrides = {
       ],
       "evos": [
         "Whiscash"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Whiscash": {
@@ -45509,6 +46501,12 @@ overrides = {
       ],
       "evos": [
         "Crawdaunt"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Crawdaunt": {
@@ -45798,6 +46796,12 @@ overrides = {
       ],
       "evos": [
         "Claydol"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Claydol": {
@@ -46079,6 +47083,12 @@ overrides = {
       ],
       "evos": [
         "Cradily"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Cradily": {
@@ -46351,6 +47361,12 @@ overrides = {
       ],
       "evos": [
         "Armaldo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Armaldo": {
@@ -46563,6 +47579,14 @@ overrides = {
       "evos": [
         "Milotic",
         "Milotic"
+      ],
+      "evoMethods": [
+        "level",
+        "level"
+      ],
+      "evoParams": [
+        36,
+        ""
       ]
     },
     "Milotic": {
@@ -47094,6 +48118,12 @@ overrides = {
       ],
       "evos": [
         "Banette"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        37
       ]
     },
     "Banette": {
@@ -47370,6 +48400,12 @@ overrides = {
       ],
       "evos": [
         "Dusclops"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        37
       ]
     },
     "Dusclops": {
@@ -47538,6 +48574,12 @@ overrides = {
       "evoLevel": 37,
       "evos": [
         "Dusknoir"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dusk Stone"
       ]
     },
     "Tropius": {
@@ -47816,8 +48858,7 @@ overrides = {
         "Levitate",
         "",
         ""
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Absol": {
       "name": "Absol",
@@ -48028,6 +49069,12 @@ overrides = {
       ],
       "evos": [
         "Wobbuffet"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Snorunt": {
@@ -48151,6 +49198,14 @@ overrides = {
       "evos": [
         "Glalie",
         "Froslass"
+      ],
+      "evoMethods": [
+        "level",
+        "useItem"
+      ],
+      "evoParams": [
+        40,
+        "Dawn Stone"
       ]
     },
     "Glalie": {
@@ -48425,6 +49480,12 @@ overrides = {
       ],
       "evos": [
         "Sealeo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Sealeo": {
@@ -48562,6 +49623,12 @@ overrides = {
       "evoLevel": 24,
       "evos": [
         "Walrein"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Walrein": {
@@ -48780,6 +49847,14 @@ overrides = {
       "evos": [
         "Huntail",
         "Gorebyss"
+      ],
+      "evoMethods": [
+        "useItem",
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone",
+        "Water Stone"
       ]
     },
     "Huntail": {
@@ -49429,6 +50504,12 @@ overrides = {
       ],
       "evos": [
         "Shelgon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Shelgon": {
@@ -49561,6 +50642,12 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Salamence"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Salamence": {
@@ -49759,6 +50846,12 @@ overrides = {
       ],
       "evos": [
         "Metang"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Metang": {
@@ -49903,6 +50996,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Metagross"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Metagross": {
@@ -51555,6 +52654,12 @@ overrides = {
       ],
       "evos": [
         "Grotle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Grotle": {
@@ -51666,6 +52771,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Torterra"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Torterra": {
@@ -51922,6 +53033,12 @@ overrides = {
       ],
       "evos": [
         "Monferno"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        14
       ]
     },
     "Monferno": {
@@ -52060,6 +53177,12 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Infernape"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Infernape": {
@@ -52322,6 +53445,12 @@ overrides = {
       ],
       "evos": [
         "Prinplup"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Prinplup": {
@@ -52451,6 +53580,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Empoleon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Empoleon": {
@@ -52697,6 +53832,12 @@ overrides = {
       ],
       "evos": [
         "Staravia"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        14
       ]
     },
     "Staravia": {
@@ -52807,6 +53948,12 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Staraptor"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Staraptor": {
@@ -53040,6 +54187,12 @@ overrides = {
       ],
       "evos": [
         "Bibarel"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Bibarel": {
@@ -53218,6 +54371,12 @@ overrides = {
       ],
       "evos": [
         "Kricketune"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        10
       ]
     },
     "Kricketune": {
@@ -53438,6 +54597,12 @@ overrides = {
       ],
       "evos": [
         "Luxio"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Luxio": {
@@ -53550,6 +54715,12 @@ overrides = {
       "evoLevel": 15,
       "evos": [
         "Luxray"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Luxray": {
@@ -53789,9 +54960,6 @@ overrides = {
         "Chlorophyll",
         "Natural Cure",
         "Leaf Guard"
-      ],
-      "evos": [
-        "Roselia"
       ]
     },
     "Roserade": {
@@ -54038,6 +55206,12 @@ overrides = {
       ],
       "evos": [
         "Rampardos"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Rampardos": {
@@ -54294,6 +55468,12 @@ overrides = {
       ],
       "evos": [
         "Bastiodon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Bastiodon": {
@@ -54475,6 +55655,14 @@ overrides = {
       "evos": [
         "Wormadam",
         "Mothim"
+      ],
+      "evoMethods": [
+        "level",
+        "level"
+      ],
+      "evoParams": [
+        20,
+        20
       ]
     },
     "Wormadam": {
@@ -54755,6 +55943,12 @@ overrides = {
       ],
       "evos": [
         "Vespiquen"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        21
       ]
     },
     "Vespiquen": {
@@ -55102,6 +56296,12 @@ overrides = {
       ],
       "evos": [
         "Floatzel"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Floatzel": {
@@ -55340,6 +56540,12 @@ overrides = {
       ],
       "evos": [
         "Cherrim"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Cherrim": {
@@ -55537,6 +56743,12 @@ overrides = {
       ],
       "evos": [
         "Gastrodon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Gastrodon": {
@@ -55935,6 +57147,12 @@ overrides = {
       ],
       "evos": [
         "Drifblim"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Drifblim": {
@@ -56193,9 +57411,6 @@ overrides = {
         "Run Away",
         "Klutz",
         "Limber"
-      ],
-      "evos": [
-        "Lopunny"
       ]
     },
     "Lopunny": {
@@ -56335,8 +57550,7 @@ overrides = {
         "Justified",
         "Scrappy",
         "Limber"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Mismagius": {
       "name": "Mismagius",
@@ -56738,6 +57952,12 @@ overrides = {
       ],
       "evos": [
         "Purugly"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        38
       ]
     },
     "Purugly": {
@@ -57001,9 +58221,6 @@ overrides = {
         "Levitate",
         "",
         ""
-      ],
-      "evos": [
-        "Chimecho"
       ]
     },
     "Stunky": {
@@ -57122,6 +58339,12 @@ overrides = {
       ],
       "evos": [
         "Skuntank"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Skuntank": {
@@ -57382,6 +58605,12 @@ overrides = {
       ],
       "evos": [
         "Bronzong"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        33
       ]
     },
     "Bronzong": {
@@ -57658,6 +58887,12 @@ overrides = {
       ],
       "evos": [
         "Sudowoodo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Mime Jr.": {
@@ -57800,6 +59035,12 @@ overrides = {
       ],
       "evos": [
         "Mr. Mime"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Happiny": {
@@ -57933,6 +59174,12 @@ overrides = {
       ],
       "evos": [
         "Chansey"
+      ],
+      "evoMethods": [
+        "levelFriendship"
+      ],
+      "evoParams": [
+        ""
       ]
     },
     "Chatot": {
@@ -58276,6 +59523,12 @@ overrides = {
       ],
       "evos": [
         "Gabite"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Gabite": {
@@ -58392,6 +59645,12 @@ overrides = {
       "evoLevel": 24,
       "evos": [
         "Garchomp"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        48
       ]
     },
     "Garchomp": {
@@ -58676,9 +59935,6 @@ overrides = {
         "Thick Fat",
         "Gluttony",
         "Gluttony"
-      ],
-      "evos": [
-        "Snorlax"
       ]
     },
     "Riolu": {
@@ -58786,9 +60042,6 @@ overrides = {
         "Steadfast",
         "Inner Focus",
         "Prankster"
-      ],
-      "evos": [
-        "Lucario"
       ]
     },
     "Lucario": {
@@ -58937,8 +60190,7 @@ overrides = {
         "Steadfast",
         "Justified",
         "Justified"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Hippopotas": {
       "name": "Hippopotas",
@@ -59037,6 +60289,12 @@ overrides = {
       ],
       "evos": [
         "Hippowdon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Hippowdon": {
@@ -59285,6 +60543,12 @@ overrides = {
       ],
       "evos": [
         "Drapion"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Drapion": {
@@ -59568,6 +60832,12 @@ overrides = {
       ],
       "evos": [
         "Toxicroak"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        37
       ]
     },
     "Toxicroak": {
@@ -59948,6 +61218,12 @@ overrides = {
       ],
       "evos": [
         "Lumineon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        31
       ]
     },
     "Lumineon": {
@@ -60203,6 +61479,12 @@ overrides = {
       ],
       "evos": [
         "Mantine"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Snover": {
@@ -60310,6 +61592,12 @@ overrides = {
       ],
       "evos": [
         "Abomasnow"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Abomasnow": {
@@ -65135,6 +66423,12 @@ overrides = {
       ],
       "evos": [
         "Servine"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        17
       ]
     },
     "Servine": {
@@ -65268,6 +66562,12 @@ overrides = {
       "evoLevel": 17,
       "evos": [
         "Serperior"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Serperior": {
@@ -65532,6 +66832,12 @@ overrides = {
       ],
       "evos": [
         "Pignite"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        17
       ]
     },
     "Pignite": {
@@ -65682,6 +66988,12 @@ overrides = {
       "evoLevel": 17,
       "evos": [
         "Emboar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Emboar": {
@@ -65963,6 +67275,12 @@ overrides = {
       ],
       "evos": [
         "Dewott"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        17
       ]
     },
     "Dewott": {
@@ -66102,6 +67420,12 @@ overrides = {
       "evoLevel": 17,
       "evos": [
         "Samurott"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Samurott": {
@@ -66366,6 +67690,12 @@ overrides = {
       ],
       "evos": [
         "Watchog"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Watchog": {
@@ -66622,6 +67952,12 @@ overrides = {
       ],
       "evos": [
         "Herdier"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Herdier": {
@@ -66747,6 +68083,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Stoutland"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Stoutland": {
@@ -67010,6 +68352,12 @@ overrides = {
       ],
       "evos": [
         "Liepard"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Liepard": {
@@ -67275,6 +68623,12 @@ overrides = {
       ],
       "evos": [
         "Simisage"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone"
       ]
     },
     "Simisage": {
@@ -67495,6 +68849,12 @@ overrides = {
       ],
       "evos": [
         "Simisear"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Fire Stone"
       ]
     },
     "Simisear": {
@@ -67723,6 +69083,12 @@ overrides = {
       ],
       "evos": [
         "Simipour"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ]
     },
     "Simipour": {
@@ -67952,6 +69318,12 @@ overrides = {
       ],
       "evos": [
         "Musharna"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
       ]
     },
     "Musharna": {
@@ -68160,6 +69532,12 @@ overrides = {
       ],
       "evos": [
         "Tranquill"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        21
       ]
     },
     "Tranquill": {
@@ -68292,6 +69670,12 @@ overrides = {
       "evoLevel": 21,
       "evos": [
         "Unfezant"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Unfezant": {
@@ -68532,6 +69916,12 @@ overrides = {
       ],
       "evos": [
         "Zebstrika"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        27
       ]
     },
     "Zebstrika": {
@@ -68767,6 +70157,12 @@ overrides = {
       ],
       "evos": [
         "Boldore"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Boldore": {
@@ -68894,6 +70290,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Gigalith"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Gigalith": {
@@ -69150,9 +70552,6 @@ overrides = {
         "Unaware",
         "Klutz",
         "Simple"
-      ],
-      "evos": [
-        "Swoobat"
       ]
     },
     "Swoobat": {
@@ -69296,8 +70695,7 @@ overrides = {
         "Unaware",
         "Unburden",
         "Simple"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Drilbur": {
       "name": "Drilbur",
@@ -69420,6 +70818,12 @@ overrides = {
       ],
       "evos": [
         "Excadrill"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        31
       ]
     },
     "Excadrill": {
@@ -69822,6 +71226,12 @@ overrides = {
       ],
       "evos": [
         "Gurdurr"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Gurdurr": {
@@ -69961,6 +71371,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Conkeldurr"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Conkeldurr": {
@@ -70209,6 +71625,12 @@ overrides = {
       ],
       "evos": [
         "Palpitoad"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Palpitoad": {
@@ -70330,6 +71752,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Seismitoad"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Seismitoad": {
@@ -70821,6 +72249,12 @@ overrides = {
       ],
       "evos": [
         "Swadloon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Swadloon": {
@@ -70903,10 +72337,7 @@ overrides = {
         "Overcoat"
       ],
       "evoType": "level",
-      "evoLevel": 20,
-      "evos": [
-        "Leavanny"
-      ]
+      "evoLevel": 20
     },
     "Leavanny": {
       "name": "Leavanny",
@@ -71033,8 +72464,7 @@ overrides = {
         "Swarm",
         "Chlorophyll",
         "Overcoat"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Venipede": {
       "name": "Venipede",
@@ -71150,6 +72580,12 @@ overrides = {
       ],
       "evos": [
         "Whirlipede"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Whirlipede": {
@@ -71280,6 +72716,12 @@ overrides = {
       "evoLevel": 22,
       "evos": [
         "Scolipede"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Scolipede": {
@@ -71539,6 +72981,12 @@ overrides = {
       ],
       "evos": [
         "Whimsicott"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Sun Stone"
       ]
     },
     "Whimsicott": {
@@ -71757,6 +73205,12 @@ overrides = {
       ],
       "evos": [
         "Lilligant"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Sun Stone"
       ]
     },
     "Lilligant": {
@@ -72105,6 +73559,12 @@ overrides = {
       ],
       "evos": [
         "Krokorok"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        29
       ]
     },
     "Krokorok": {
@@ -72255,6 +73715,12 @@ overrides = {
       "evoLevel": 29,
       "evos": [
         "Krookodile"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Krookodile": {
@@ -72541,6 +74007,12 @@ overrides = {
       ],
       "evos": [
         "Darmanitan"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Darmanitan": {
@@ -72959,6 +74431,12 @@ overrides = {
       ],
       "evos": [
         "Crustle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Crustle": {
@@ -73236,6 +74714,12 @@ overrides = {
       ],
       "evos": [
         "Scrafty"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        39
       ]
     },
     "Scrafty": {
@@ -73643,6 +75127,12 @@ overrides = {
       ],
       "evos": [
         "Cofagrigus"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Cofagrigus": {
@@ -73914,6 +75404,12 @@ overrides = {
       ],
       "evos": [
         "Carracosta"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        37
       ]
     },
     "Carracosta": {
@@ -74195,6 +75691,12 @@ overrides = {
       ],
       "evos": [
         "Archeops"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        37
       ]
     },
     "Archeops": {
@@ -74467,6 +75969,12 @@ overrides = {
       ],
       "evos": [
         "Garbodor"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Garbodor": {
@@ -74732,6 +76240,12 @@ overrides = {
       ],
       "evos": [
         "Zoroark"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Zoroark": {
@@ -75020,6 +76534,12 @@ overrides = {
       ],
       "evos": [
         "Cinccino"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Shiny Stone"
       ]
     },
     "Cinccino": {
@@ -75246,6 +76766,12 @@ overrides = {
       ],
       "evos": [
         "Gothorita"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Gothorita": {
@@ -75396,6 +76922,12 @@ overrides = {
       "evoLevel": 32,
       "evos": [
         "Gothitelle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        41
       ]
     },
     "Gothitelle": {
@@ -75682,6 +77214,12 @@ overrides = {
       ],
       "evos": [
         "Duosion"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Duosion": {
@@ -75827,6 +77365,12 @@ overrides = {
       "evoLevel": 32,
       "evos": [
         "Reuniclus"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        41
       ]
     },
     "Reuniclus": {
@@ -76099,6 +77643,12 @@ overrides = {
       ],
       "evos": [
         "Swanna"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Swanna": {
@@ -76341,6 +77891,12 @@ overrides = {
       ],
       "evos": [
         "Vanillish"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Vanillish": {
@@ -76469,6 +78025,12 @@ overrides = {
       "evoLevel": 35,
       "evos": [
         "Vanilluxe"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        47
       ]
     },
     "Vanilluxe": {
@@ -76724,6 +78286,12 @@ overrides = {
       ],
       "evos": [
         "Sawsbuck"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Sawsbuck": {
@@ -77112,6 +78680,12 @@ overrides = {
       ],
       "evos": [
         "Escavalier"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Escavalier": {
@@ -77362,6 +78936,12 @@ overrides = {
       ],
       "evos": [
         "Amoonguss"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        39
       ]
     },
     "Amoonguss": {
@@ -77612,6 +79192,12 @@ overrides = {
       ],
       "evos": [
         "Jellicent"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Jellicent": {
@@ -77996,6 +79582,12 @@ overrides = {
       ],
       "evos": [
         "Galvantula"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Galvantula": {
@@ -78246,6 +79838,12 @@ overrides = {
       ],
       "evos": [
         "Ferrothorn"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Ferrothorn": {
@@ -78506,6 +80104,12 @@ overrides = {
       ],
       "evos": [
         "Klang"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        38
       ]
     },
     "Klang": {
@@ -78635,6 +80239,12 @@ overrides = {
       "evoLevel": 38,
       "evos": [
         "Klinklang"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        49
       ]
     },
     "Klinklang": {
@@ -78818,6 +80428,12 @@ overrides = {
       ],
       "evos": [
         "Eelektrik"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        39
       ]
     },
     "Eelektrik": {
@@ -78942,6 +80558,12 @@ overrides = {
       "evoLevel": 39,
       "evos": [
         "Eelektross"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Thunderstone"
       ]
     },
     "Eelektross": {
@@ -79198,6 +80820,12 @@ overrides = {
       ],
       "evos": [
         "Beheeyem"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        42
       ]
     },
     "Beheeyem": {
@@ -79492,6 +81120,12 @@ overrides = {
       ],
       "evos": [
         "Lampent"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        41
       ]
     },
     "Lampent": {
@@ -79638,6 +81272,12 @@ overrides = {
       "evoLevel": 41,
       "evos": [
         "Chandelure"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dusk Stone"
       ]
     },
     "Chandelure": {
@@ -79864,6 +81504,12 @@ overrides = {
       ],
       "evos": [
         "Fraxure"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        38
       ]
     },
     "Fraxure": {
@@ -80009,6 +81655,12 @@ overrides = {
       "evoLevel": 38,
       "evos": [
         "Haxorus"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        48
       ]
     },
     "Haxorus": {
@@ -80286,6 +81938,12 @@ overrides = {
       ],
       "evos": [
         "Beartic"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        37
       ]
     },
     "Beartic": {
@@ -80680,6 +82338,12 @@ overrides = {
       ],
       "evos": [
         "Accelgor"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Accelgor": {
@@ -81065,6 +82729,12 @@ overrides = {
       ],
       "evos": [
         "Mienshao"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Mienshao": {
@@ -81486,6 +83156,12 @@ overrides = {
       ],
       "evos": [
         "Golurk"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        43
       ]
     },
     "Golurk": {
@@ -81763,6 +83439,12 @@ overrides = {
       ],
       "evos": [
         "Bisharp"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        52
       ]
     },
     "Bisharp": {
@@ -82168,6 +83850,12 @@ overrides = {
       ],
       "evos": [
         "Braviary"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        54
       ]
     },
     "Braviary": {
@@ -82437,6 +84125,12 @@ overrides = {
       ],
       "evos": [
         "Mandibuzz"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        54
       ]
     },
     "Mandibuzz": {
@@ -82962,6 +84656,12 @@ overrides = {
       ],
       "evos": [
         "Zweilous"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Zweilous": {
@@ -83095,6 +84795,12 @@ overrides = {
       "evoLevel": 50,
       "evos": [
         "Hydreigon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        64
       ]
     },
     "Hydreigon": {
@@ -83358,6 +85064,12 @@ overrides = {
       ],
       "evos": [
         "Volcarona"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        59
       ]
     },
     "Volcarona": {

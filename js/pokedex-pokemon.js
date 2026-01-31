@@ -2,14 +2,22 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
   initialize: function (id) {
     id = toID(id);
     var pokemon = Dex.species.get(id);
+    console.log(pokemon)
     this.id = id;
     this.shortTitle = pokemon.baseSpecies;
 
     vanillaPokemon = vanillaSpecies[id]
-    let overrideData = JSON.parse(localStorage.overrides).poks[pokemon.name]
+    overrideData = {}
+    if (localStorage.overrides) {
+      overrideData = JSON.parse(localStorage.overrides).poks[pokemon.name]
+    } else {
+      overrideData = pokemon
+    }
+    
     let itemData = false
     if (overrideData) {
       itemData = overrideData.items
+
     }
 
     if (typeof vanillaPokemon == "undefined") {
@@ -251,6 +259,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       buf += '<table class="evos"><tr><td>';
       var evos = [template];
       while (evos) {
+        var evoData = ""
         if (evos[0] === "Dustox") evos = ["Beautifly", "Dustox"];
         for (var i = 0; i < evos.length; i++) {
           template = Dex.species.get(evos[i]);
@@ -261,16 +270,41 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
                   '</td><td class="arrow"><span>&rarr;<br />&rarr;</span></td><td>';
               } else if (template.prevo) {
                 buf +=
-                  '</td><td class="arrow"><span><abbr title="' +
+                  '</td><td class="arrow"><div class="evo-param">' + 
+                  '<abbr title="' +
                   this.getEvoMethod(template) +
-                  '">&rarr;</abbr></span></td><td>';
+                  '">&rarr;</abbr></div></td><td>';
               } else {
                 buf += '</td><td class="arrow"><span>&rarr;</span></td><td>';
               }
+            }  
+          }
+          var evoIndex = parseInt(i)
+
+
+
+          if (pokemon.evos && pokemon.evoMethods.length == 0) {
+            alert("Source schema outdated")
+            window.location.href = "/"
+          }
+
+
+          if (pokemon.evoMethods) {
+            if (typeof evos[0] === "string") {
+              let prevo = BattlePokedex[cleanString(evos[0])].prevo
+              evoData = BattlePokedex[cleanString(prevo)].evoParams[evoIndex]
+            } else {
+              evoData = evos["0"].evoParams[evoIndex]
+            }
+            
+            // evoData = evos[0].evoParams
+            if (typeof evoData === 'number') {
+              evoData = `L${evoData}`
             }
           }
+
           var name = template.forme
-            ? template.baseSpecies + "<small>-" + template.forme + "</small>"
+            ? template.baseSpecies
             : template.name;
           name =
             '<span class="picon" style="' +
@@ -284,20 +318,20 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
               '<div><a href="/pokemon/' +
               template.id +
               '" data-target="replace">' +
-              name +
-              "</a></div>";
+              name + 
+              "</a>" + `<div class="evo-desc">${evoData}</div>`  + "</div>";
           }
         }
         evos = template.evos;
       }
       buf += "</td></tr></table>";
       if (pokemon.prevo) {
-        buf +=
-          "<div><small>Evolves from " +
-          Dex.species.get(pokemon.prevo).name +
-          " (" +
-          this.getEvoMethod(pokemon) +
-          ")</small></div>";
+        // buf +=
+        //   "<div><small>Evolves from " +
+        //   Dex.species.get(pokemon.prevo).name +
+        //   " (" +
+        //   this.getEvoMethod(pokemon) +
+        //   ")</small></div>";
       }
     } else {
       buf += "<em>Does not evolve</em>";

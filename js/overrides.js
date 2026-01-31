@@ -32,7 +32,11 @@ $(document).ready(function() {
                 if (localStorage.game != game) {
                 	localStorage.overrides = JSON.stringify(overrides)
                 	localStorage.game = game
-                }                
+                }
+                if (!localStorage.overrides){
+                	localStorage.overrides = JSON.stringify(overrides)
+                	console.log("Stored override data in cache")
+                }              
             },
             onNotFound: (src) => console.log(`Not found: ${src}`)
     	});
@@ -181,6 +185,9 @@ function overrideMonData(monOverrides) {
 			spe: monData.bs.sp,	
 		}
 		BattlePokedex[speciesId].evos = monData.evos
+
+		BattlePokedex[speciesId].evoMethods = monData.evoMethods
+		BattlePokedex[speciesId].evoParams = monData.evoParams
 
 		let lvlUpMoves = monData.learnset_info.learnset
 		let tms = monData.learnset_info.tms
