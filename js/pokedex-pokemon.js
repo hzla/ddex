@@ -258,9 +258,15 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     if (template.evos) {
       buf += '<table class="evos"><tr><td>';
       var evos = [template];
-      while (evos) {
+
+      var seenEvos = []
+      var stopSearch = false;
+      var currentPrevo = pokemon.name
+      while (evos && !stopSearch) {
+        console.log(seenEvos)
+        console.log(evos)
+        
         var evoData = ""
-        if (evos[0] === "Dustox") evos = ["Beautifly", "Dustox"];
         for (var i = 0; i < evos.length; i++) {
           template = Dex.species.get(evos[i]);
           if (i <= 0) {
@@ -291,10 +297,37 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
           if (pokemon.evoMethods) {
             if (typeof evos[0] === "string") {
-              let prevo = BattlePokedex[cleanString(evos[0])].prevo
+              var nextEvos = BattlePokedex[cleanString(evos[i])].evos
+              console.log(`Now reading ${evos[i]}`)
+              var nextPrevo = evos[i]
+              console.log(`next evos: ${nextEvos}`)
+              console.log(`already seen: ${seenEvos}`)
+
+              if (nextEvos) {
+                if (hasOverlap(nextEvos, seenEvos) && seenEvos.includes(evos[i])) {
+                  stopSearch = true;
+                  break;
+                }
+              }
+              
+              // Need to correct to be the 
+              let prevo = currentPrevo
+              if (prevo == evos[i]) {
+                prevo = BattlePokedex[cleanString(evos[i])].prevo
+              }
+              console.log(`Prevo: ${prevo}`)
+
               evoData = BattlePokedex[cleanString(prevo)].evoParams[evoIndex]
+              seenEvos.push(evos[i])
+              currentPrevo = nextPrevo
+
             } else {
+              if (seenEvos.includes(evos["0"].name)) {
+                stopSearch = true;
+                break;
+              }
               evoData = evos["0"].evoParams[evoIndex]
+              seenEvos.push(evos["0"].name)
             }
             
             // evoData = evos[0].evoParams
@@ -323,6 +356,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
           }
         }
         evos = template.evos;
+
       }
       buf += "</td></tr></table>";
       if (pokemon.prevo) {

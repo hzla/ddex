@@ -330,6 +330,18 @@ function unabv(speciesName) {
 	}
 }
 
+function containsAll(a, b) {
+  const setA = new Set(a);
+  return b.every(v => setA.has(v));
+}
+
+const hasOverlap = (a, b) => a.some(v => b.includes(v));
+
+function getOverlap(a, b) {
+  const setB = new Set(b);
+  return [...new Set(a.filter(v => setB.has(v)))];
+}
+
 function snakeToTitleCase(str) {
   return str
     .split('_')
