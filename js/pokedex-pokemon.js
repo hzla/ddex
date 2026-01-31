@@ -290,7 +290,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
 
           if (pokemon.evos && pokemon.evoMethods.length == 0) {
-            alert("Source schema outdated")
             window.location.href = "/"
           }
 
@@ -298,10 +297,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
           if (pokemon.evoMethods) {
             if (typeof evos[0] === "string") {
               var nextEvos = BattlePokedex[cleanString(evos[i])].evos
-              console.log(`Now reading ${evos[i]}`)
+
               var nextPrevo = evos[i]
-              console.log(`next evos: ${nextEvos}`)
-              console.log(`already seen: ${seenEvos}`)
 
               if (nextEvos) {
                 if (hasOverlap(nextEvos, seenEvos) && seenEvos.includes(evos[i])) {
@@ -310,12 +307,10 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
                 }
               }
               
-              // Need to correct to be the 
               let prevo = currentPrevo
               if (prevo == evos[i]) {
                 prevo = BattlePokedex[cleanString(evos[i])].prevo
               }
-              console.log(`Prevo: ${prevo}`)
 
               evoData = BattlePokedex[cleanString(prevo)].evoParams[evoIndex]
               seenEvos.push(evos[i])
