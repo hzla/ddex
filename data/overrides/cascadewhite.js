@@ -14,8 +14,8 @@ overrides = {
       ],
       "bs": {
         "hp": 45,
-        "at": 49,
-        "df": 49,
+        "at": 34,
+        "df": 64,
         "sa": 65,
         "sd": 72,
         "sp": 45
@@ -36,7 +36,7 @@ overrides = {
           ],
           [
             5,
-            "Absorb"
+            "Mega Drain"
           ],
           [
             7,
@@ -119,40 +119,35 @@ overrides = {
         "tutors": [
           "Grass Pledge",
           "Frenzy Plant",
-          "Seed Bomb",
-          "Cross Poison",
+          "Covet",
+          "Gunk Shot",
           "Earth Power",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Endeavor",
           "Outrage",
-          "Sparkle",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
-        "Resilient",
+        "Thick Fat",
         "Overgrow",
-        "Thick Fat"
+        "Huge Power"
       ],
       "evos": [
+        "Ivysaur",
         "Ivysaur"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
       ]
     },
     "Ivysaur": {
@@ -169,8 +164,8 @@ overrides = {
       ],
       "bs": {
         "hp": 60,
-        "at": 62,
-        "df": 63,
+        "at": 42,
+        "df": 83,
         "sa": 80,
         "sd": 95,
         "sp": 60
@@ -191,7 +186,7 @@ overrides = {
           ],
           [
             5,
-            "Absorb"
+            "Mega Drain"
           ],
           [
             7,
@@ -295,42 +290,36 @@ overrides = {
         "tutors": [
           "Grass Pledge",
           "Frenzy Plant",
-          "Seed Bomb",
-          "Cross Poison",
+          "Covet",
+          "Gunk Shot",
           "Earth Power",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Endeavor",
           "Outrage",
-          "Sparkle",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
-        "Resilient",
+        "Thick Fat",
         "Overgrow",
-        "Thick Fat"
+        "Huge Power"
       ],
       "evoType": "level",
       "evoLevel": 16,
       "evos": [
         "Venusaur"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Venusaur": {
@@ -347,8 +336,8 @@ overrides = {
       ],
       "bs": {
         "hp": 80,
-        "at": 82,
-        "df": 83,
+        "at": 62,
+        "df": 103,
         "sa": 100,
         "sd": 120,
         "sp": 80
@@ -369,7 +358,7 @@ overrides = {
           ],
           [
             5,
-            "Absorb"
+            "Mega Drain"
           ],
           [
             7,
@@ -490,31 +479,31 @@ overrides = {
         "tutors": [
           "Grass Pledge",
           "Frenzy Plant",
-          "Seed Bomb",
-          "Cross Poison",
+          "Covet",
+          "Gunk Shot",
           "Earth Power",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Endeavor",
           "Outrage",
-          "Sparkle",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
-        "Resilient",
+        "Thick Fat",
         "Overgrow",
-        "Thick Fat"
+        "Huge Power"
       ],
       "evoType": "level",
       "evoLevel": 36
@@ -668,24 +657,24 @@ overrides = {
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Wonder Room",
           "Outrage",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -695,12 +684,6 @@ overrides = {
       ],
       "evos": [
         "Charmeleon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
       ]
     },
     "Charmeleon": {
@@ -852,24 +835,24 @@ overrides = {
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Wonder Room",
           "Outrage",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -881,12 +864,6 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Charizard"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Charizard": {
@@ -1058,25 +1035,25 @@ overrides = {
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -1232,34 +1209,34 @@ overrides = {
           "Hydro Cannon",
           "Iron Head",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Block",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Chilling Water",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -1269,12 +1246,6 @@ overrides = {
       ],
       "evos": [
         "Wartortle"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
       ]
     },
     "Wartortle": {
@@ -1422,34 +1393,34 @@ overrides = {
           "Hydro Cannon",
           "Iron Head",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Block",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Chilling Water",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -1461,12 +1432,6 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Blastoise"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Blastoise": {
@@ -1629,34 +1594,34 @@ overrides = {
           "Hydro Cannon",
           "Iron Head",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Block",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Chilling Water",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -1719,12 +1684,6 @@ overrides = {
       ],
       "evos": [
         "Metapod"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        10
       ]
     },
     "Metapod": {
@@ -1761,30 +1720,30 @@ overrides = {
           "Hidden Power"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Skill Swap",
+          "Bug Bite",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
-          "Sparkle",
+          "Block",
           "Electroweb",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -1796,12 +1755,6 @@ overrides = {
       "evoLevel": 10,
       "evos": [
         "Butterfree"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Butterfree": {
@@ -1934,30 +1887,30 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Skill Swap",
+          "Bug Bite",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
-          "Sparkle",
+          "Block",
           "Electroweb",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -2021,12 +1974,6 @@ overrides = {
       ],
       "evos": [
         "Kakuna"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        10
       ]
     },
     "Kakuna": {
@@ -2064,28 +2011,28 @@ overrides = {
           "Hidden Power"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Drill Run",
-          "Cross Poison",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Roost",
-          "Screech",
+          "Gunk Shot",
           "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Roost",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -2097,12 +2044,6 @@ overrides = {
       "evoLevel": 10,
       "evos": [
         "Beedrill"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Beedrill": {
@@ -2224,28 +2165,28 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Drill Run",
-          "Cross Poison",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Roost",
-          "Screech",
+          "Gunk Shot",
           "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Roost",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -2372,7 +2313,7 @@ overrides = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Weather Ball",
           "Hurricane",
@@ -2385,19 +2326,19 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Uproar",
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -2407,12 +2348,6 @@ overrides = {
       ],
       "evos": [
         "Pidgeotto"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        15
       ]
     },
     "Pidgeotto": {
@@ -2532,7 +2467,7 @@ overrides = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Weather Ball",
           "Hurricane",
@@ -2544,19 +2479,19 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Uproar",
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -2568,12 +2503,6 @@ overrides = {
       "evoLevel": 15,
       "evos": [
         "Pidgeot"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Pidgeot": {
@@ -2710,7 +2639,7 @@ overrides = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Weather Ball",
           "Hurricane",
@@ -2723,19 +2652,19 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Uproar",
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -2870,30 +2799,30 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Iron Head",
           "Drill Run",
           "Bounce",
           "Low Kick",
           "Foul Play",
-          "Zen Headbutt",
-          "Gastro Acid",
-          "Protect",
+          "Magnet Rise",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -2903,12 +2832,6 @@ overrides = {
       ],
       "evos": [
         "Raticate"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
       ]
     },
     "Raticate": {
@@ -3045,30 +2968,30 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Iron Head",
           "Drill Run",
           "Bounce",
           "Low Kick",
           "Foul Play",
-          "Zen Headbutt",
-          "Gastro Acid",
-          "Protect",
+          "Magnet Rise",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -3212,21 +3135,21 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Defog",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -3236,12 +3159,6 @@ overrides = {
       ],
       "evos": [
         "Fearow"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
       ]
     },
     "Fearow": {
@@ -3378,21 +3295,21 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Defog",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -3534,24 +3451,24 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
-          "Zen Headbutt",
-          "Gastro Acid",
+          "Gunk Shot",
+          "Magnet Rise",
+          "Icy Wind",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Incinerate",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -3561,12 +3478,6 @@ overrides = {
       ],
       "evos": [
         "Arbok"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        22
       ]
     },
     "Arbok": {
@@ -3717,24 +3628,24 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
-          "Zen Headbutt",
-          "Gastro Acid",
+          "Gunk Shot",
+          "Magnet Rise",
+          "Icy Wind",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Incinerate",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -3886,30 +3797,30 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -3920,14 +3831,6 @@ overrides = {
       "evos": [
         "Raichu",
         "Raichu"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Thunderstone",
-        50
       ],
       "evoType": "level",
       "evoLevel": 18
@@ -4086,29 +3989,29 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -4241,27 +4144,27 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Bounce",
           "Low Kick",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -4271,12 +4174,6 @@ overrides = {
       ],
       "evos": [
         "Sandslash"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        24
       ]
     },
     "Sandslash": {
@@ -4420,27 +4317,27 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Bounce",
           "Low Kick",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -4569,40 +4466,40 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -4612,12 +4509,6 @@ overrides = {
       ],
       "evos": [
         "Nidorina"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Nidorina": {
@@ -4728,7 +4619,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Shadow Claw",
           "Secret Power",
@@ -4743,40 +4634,40 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -4789,14 +4680,6 @@ overrides = {
       "evos": [
         "Nidoqueen",
         "Nidoqueen"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Moon Stone",
-        42
       ]
     },
     "Nidoqueen": {
@@ -4934,7 +4817,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -4959,40 +4842,40 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5107,7 +4990,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Shadow Claw",
           "Secret Power",
@@ -5122,40 +5005,40 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5165,12 +5048,6 @@ overrides = {
       ],
       "evos": [
         "Nidorino"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Nidorino": {
@@ -5281,7 +5158,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Shadow Claw",
           "Power Gem",
@@ -5297,40 +5174,40 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5343,14 +5220,6 @@ overrides = {
       "evos": [
         "Nidoking",
         "Nidoking"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Moon Stone",
-        42
       ]
     },
     "Nidoking": {
@@ -5487,7 +5356,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -5512,40 +5381,40 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5681,7 +5550,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -5697,40 +5566,40 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Skill Swap",
+          "Covet",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Sparkle",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Helping Hand",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -5741,14 +5610,6 @@ overrides = {
       "evos": [
         "Clefable",
         "Clefable"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Moon Stone",
-        42
       ],
       "evoType": "level",
       "evoLevel": 18
@@ -5893,7 +5754,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -5910,40 +5771,40 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Skill Swap",
+          "Covet",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Sparkle",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Helping Hand",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6084,28 +5945,28 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Protect",
-          "Psyblade",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Overheat",
+          "Bind",
+          "Snore",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6116,14 +5977,6 @@ overrides = {
       "evos": [
         "Ninetales",
         "Ninetales"
-      ],
-      "evoMethods": [
-        "useItem",
-        "useItem"
-      ],
-      "evoParams": [
-        "Fire Stone",
-        ""
       ]
     },
     "Ninetales": {
@@ -6273,28 +6126,28 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Protect",
-          "Psyblade",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Overheat",
+          "Bind",
+          "Snore",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6458,7 +6311,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -6474,35 +6327,35 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Sparkle",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Helping Hand",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6513,14 +6366,6 @@ overrides = {
       "evos": [
         "Wigglytuff",
         "Wigglytuff"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Moon Stone",
-        41
       ],
       "evoType": "level",
       "evoLevel": 18
@@ -6679,7 +6524,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -6696,35 +6541,35 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Sparkle",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Helping Hand",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6847,18 +6692,18 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Seething Cold",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Uproar",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -6868,12 +6713,6 @@ overrides = {
       ],
       "evos": [
         "Golbat"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
       ]
     },
     "Golbat": {
@@ -7011,18 +6850,18 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Seething Cold",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Uproar",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -7035,14 +6874,6 @@ overrides = {
       "evos": [
         "Crobat",
         "Crobat"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        50,
-        "Dusk Stone"
       ]
     },
     "Oddish": {
@@ -7182,22 +7013,22 @@ overrides = {
         ],
         "tutors": [
           "Earth Power",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -7207,12 +7038,6 @@ overrides = {
       ],
       "evos": [
         "Gloom"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
       ]
     },
     "Gloom": {
@@ -7361,23 +7186,23 @@ overrides = {
         ],
         "tutors": [
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -7391,16 +7216,6 @@ overrides = {
         "Vileplume",
         "Bellossom",
         "Vileplume"
-      ],
-      "evoMethods": [
-        "useItem",
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Leaf Stone",
-        "Sun Stone",
-        50
       ]
     },
     "Vileplume": {
@@ -7557,23 +7372,23 @@ overrides = {
         ],
         "tutors": [
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -7715,24 +7530,24 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Dual Chop",
           "Signal Beam",
-          "Cross Poison",
+          "Gunk Shot",
           "Foul Play",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -7742,12 +7557,6 @@ overrides = {
       ],
       "evos": [
         "Parasect"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        24
       ]
     },
     "Parasect": {
@@ -7910,24 +7719,24 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Dual Chop",
           "Signal Beam",
-          "Cross Poison",
+          "Gunk Shot",
           "Foul Play",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -8052,27 +7861,27 @@ overrides = {
           "U-turn"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Skill Swap",
+          "Bug Bite",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
-          "Sweet Scent",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Roost",
+          "Block",
           "Electroweb",
-          "Struggle Bug",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Trick",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -8082,12 +7891,6 @@ overrides = {
       ],
       "evos": [
         "Venomoth"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
       ]
     },
     "Venomoth": {
@@ -8240,27 +8043,27 @@ overrides = {
           "U-turn"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Skill Swap",
+          "Bug Bite",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
-          "Sweet Scent",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Roost",
+          "Block",
           "Electroweb",
-          "Struggle Bug",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Trick",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -8370,7 +8173,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Storm Throw",
@@ -8384,23 +8187,23 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -8410,12 +8213,6 @@ overrides = {
       ],
       "evos": [
         "Dugtrio"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
       ]
     },
     "Dugtrio": {
@@ -8539,7 +8336,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Stone Edge",
@@ -8554,23 +8351,23 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -8692,7 +8489,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Breaking Swipe",
           "Brutal Swing",
@@ -8708,37 +8505,37 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -8748,12 +8545,6 @@ overrides = {
       ],
       "evos": [
         "Persian"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
       ]
     },
     "Persian": {
@@ -8896,7 +8687,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Breaking Swipe",
           "Brutal Swing",
@@ -8912,37 +8703,37 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -9096,38 +8887,38 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -9137,12 +8928,6 @@ overrides = {
       ],
       "evos": [
         "Golduck"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
       ]
     },
     "Golduck": {
@@ -9307,38 +9092,38 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -9477,32 +9262,32 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Iron Head",
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -9512,12 +9297,6 @@ overrides = {
       ],
       "evos": [
         "Primeape"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Primeape": {
@@ -9669,32 +9448,32 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Iron Head",
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -9823,7 +9602,7 @@ overrides = {
           "Heat Wave",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Incinerate",
           "Will-O-Wisp",
           "Secret Power",
@@ -9837,23 +9616,23 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Incinerate",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -9864,14 +9643,6 @@ overrides = {
       "evos": [
         "Arcanine",
         "Arcanine"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Fire Stone",
-        42
       ]
     },
     "Arcanine": {
@@ -10001,7 +9772,7 @@ overrides = {
           "Heat Wave",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Incinerate",
           "Will-O-Wisp",
           "Secret Power",
@@ -10016,23 +9787,23 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Incinerate",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -10075,7 +9846,7 @@ overrides = {
           ],
           [
             5,
-            "Water Gun"
+            "Barrage"
           ],
           [
             7,
@@ -10091,7 +9862,7 @@ overrides = {
           ],
           [
             14,
-            "Barrage"
+            "Brine"
           ],
           [
             18,
@@ -10144,29 +9915,29 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Low Kick",
           "Ice Punch",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -10176,12 +9947,6 @@ overrides = {
       ],
       "evos": [
         "Poliwhirl"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
       ]
     },
     "Poliwhirl": {
@@ -10216,7 +9981,7 @@ overrides = {
           ],
           [
             5,
-            "Water Gun"
+            "Barrage"
           ],
           [
             7,
@@ -10232,7 +9997,7 @@ overrides = {
           ],
           [
             14,
-            "Barrage"
+            "Brine"
           ],
           [
             18,
@@ -10312,29 +10077,29 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Low Kick",
           "Ice Punch",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -10343,18 +10108,10 @@ overrides = {
         "Torrent"
       ],
       "evoType": "level",
-      "evoLevel": 25,
+      "evoLevel": 18,
       "evos": [
         "Poliwrath",
         "Politoed"
-      ],
-      "evoMethods": [
-        "useItem",
-        "trade"
-      ],
-      "evoParams": [
-        "Water Stone",
-        ""
       ]
     },
     "Poliwrath": {
@@ -10389,7 +10146,7 @@ overrides = {
           ],
           [
             5,
-            "Water Gun"
+            "Barrage"
           ],
           [
             7,
@@ -10405,7 +10162,7 @@ overrides = {
           ],
           [
             14,
-            "Barrage"
+            "Brine"
           ],
           [
             18,
@@ -10508,29 +10265,29 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Low Kick",
           "Ice Punch",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -10602,32 +10359,32 @@ overrides = {
           "Grass Knot"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -10637,12 +10394,6 @@ overrides = {
       ],
       "evos": [
         "Kadabra"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
       ]
     },
     "Kadabra": {
@@ -10762,32 +10513,32 @@ overrides = {
           "Grass Knot"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -10799,12 +10550,6 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Alakazam"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        42
       ]
     },
     "Alakazam": {
@@ -10949,32 +10694,32 @@ overrides = {
           "Grass Knot"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -11113,19 +10858,19 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -11135,12 +10880,6 @@ overrides = {
       ],
       "evos": [
         "Machoke"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Machoke": {
@@ -11283,19 +11022,19 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -11307,12 +11046,6 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Machamp"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        42
       ]
     },
     "Machamp": {
@@ -11470,19 +11203,19 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -11613,23 +11346,23 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -11639,12 +11372,6 @@ overrides = {
       ],
       "evos": [
         "Weepinbell"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        21
       ]
     },
     "Weepinbell": {
@@ -11784,23 +11511,23 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -11813,14 +11540,6 @@ overrides = {
       "evos": [
         "Victreebel",
         "Victreebel"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Leaf Stone",
-        42
       ]
     },
     "Victreebel": {
@@ -11969,23 +11688,23 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -12139,25 +11858,25 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Sparkle",
-          "Chilling Water",
-          "Struggle Bug",
+          "Block",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Helping Hand",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch"
         ]
       },
       "abs": [
@@ -12167,12 +11886,6 @@ overrides = {
       ],
       "evos": [
         "Tentacruel"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Tentacruel": {
@@ -12326,26 +12039,26 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Sparkle",
-          "Chilling Water",
-          "Struggle Bug",
+          "Block",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Helping Hand",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -12484,19 +12197,19 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -12506,12 +12219,6 @@ overrides = {
       ],
       "evos": [
         "Graveler"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Graveler": {
@@ -12654,19 +12361,19 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -12678,12 +12385,6 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Golem"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        42
       ]
     },
     "Golem": {
@@ -12840,19 +12541,19 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -12992,29 +12693,29 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Barrier",
-          "Protect",
+          "Block",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Snore",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -13025,14 +12726,6 @@ overrides = {
       "evos": [
         "Rapidash",
         "Rapidash"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        40,
-        "Fire Stone"
       ]
     },
     "Rapidash": {
@@ -13185,29 +12878,29 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Barrier",
-          "Protect",
+          "Block",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Snore",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -13328,7 +13021,7 @@ overrides = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Incinerate",
@@ -13348,35 +13041,35 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
+          "Magnet Rise",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -13387,14 +13080,6 @@ overrides = {
       "evos": [
         "Slowbro",
         "Slowking"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        37,
-        "Water Stone"
       ]
     },
     "Slowbro": {
@@ -13524,7 +13209,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Scald",
@@ -13548,36 +13233,36 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Defog",
-          "Low Sweep",
-          "Breaking Swipe",
+          "Magnet Rise",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "After You",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -13687,7 +13372,7 @@ overrides = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Teleport",
@@ -13707,22 +13392,22 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down"
+          "Trick",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -13732,12 +13417,6 @@ overrides = {
       ],
       "evos": [
         "Magneton"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Magneton": {
@@ -13859,7 +13538,7 @@ overrides = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Teleport",
@@ -13879,22 +13558,22 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down"
+          "Trick",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -13907,14 +13586,6 @@ overrides = {
       "evos": [
         "Magnezone",
         "Magnezone"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        50,
-        "Thunderstone"
       ]
     },
     "Farfetch’d": {
@@ -14072,32 +13743,32 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Cross Poison",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Gunk Shot",
           "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Fake Tears",
-          "Sparkle",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Helping Hand",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -14222,7 +13893,7 @@ overrides = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Secret Power",
           "Stone Edge",
           "Bulldoze",
@@ -14238,21 +13909,21 @@ overrides = {
           "Bounce",
           "Low Kick",
           "Earth Power",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -14262,12 +13933,6 @@ overrides = {
       ],
       "evos": [
         "Dodrio"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        31
       ]
     },
     "Dodrio": {
@@ -14395,7 +14060,7 @@ overrides = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Secret Power",
           "Stone Edge",
           "Bulldoze",
@@ -14411,21 +14076,21 @@ overrides = {
           "Bounce",
           "Low Kick",
           "Earth Power",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -14553,7 +14218,7 @@ overrides = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Scald",
@@ -14569,20 +14234,20 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -14592,12 +14257,6 @@ overrides = {
       ],
       "evos": [
         "Dewgong"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Dewgong": {
@@ -14737,7 +14396,7 @@ overrides = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Scald",
@@ -14754,20 +14413,20 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -14903,28 +14562,28 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Breaking Swipe",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -14934,12 +14593,6 @@ overrides = {
       ],
       "evos": [
         "Muk"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        38
       ]
     },
     "Muk": {
@@ -15088,28 +14741,28 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Breaking Swipe",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -15239,22 +14892,22 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Drill Run",
-          "Seething Cold",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Chilling Water",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -15265,14 +14918,6 @@ overrides = {
       "evos": [
         "Cloyster",
         "Cloyster"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Water Stone",
-        42
       ]
     },
     "Cloyster": {
@@ -15420,22 +15065,22 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Drill Run",
-          "Seething Cold",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Chilling Water",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -15575,26 +15220,26 @@ overrides = {
           "Poison Jab"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -15604,12 +15249,6 @@ overrides = {
       ],
       "evos": [
         "Haunter"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        22
       ]
     },
     "Haunter": {
@@ -15745,26 +15384,26 @@ overrides = {
           "Poison Jab"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -15776,12 +15415,6 @@ overrides = {
       "evoLevel": 22,
       "evos": [
         "Gengar"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        42
       ]
     },
     "Gengar": {
@@ -15931,26 +15564,26 @@ overrides = {
           "Poison Jab"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -16106,22 +15739,22 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
           "Outrage",
-          "Screech",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -16131,12 +15764,6 @@ overrides = {
       ],
       "evos": [
         "Steelix"
-      ],
-      "evoMethods": [
-        "useItem"
-      ],
-      "evoParams": [
-        "Metal Coat"
       ]
     },
     "Drowzee": {
@@ -16275,35 +15902,35 @@ overrides = {
           "Grass Knot"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -16313,12 +15940,6 @@ overrides = {
       ],
       "evos": [
         "Hypno"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        35
       ]
     },
     "Hypno": {
@@ -16471,35 +16092,35 @@ overrides = {
           "Grass Knot"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -16636,25 +16257,25 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Iron Head",
           "Drill Run",
           "Low Kick",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -16664,12 +16285,6 @@ overrides = {
       ],
       "evos": [
         "Kingler"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
       ]
     },
     "Kingler": {
@@ -16818,25 +16433,25 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Iron Head",
           "Drill Run",
           "Low Kick",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -16955,7 +16570,7 @@ overrides = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -16973,26 +16588,26 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -17002,12 +16617,6 @@ overrides = {
       ],
       "evos": [
         "Electrode"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        35
       ]
     },
     "Electrode": {
@@ -17147,7 +16756,7 @@ overrides = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -17166,26 +16775,26 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
           "Gravity",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -17326,30 +16935,30 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
-          "Psychic Noise",
-          "Barrier",
+          "Super Fang",
+          "Seed Bomb",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Screech",
-          "Incinerate",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -17360,14 +16969,6 @@ overrides = {
       "evos": [
         "Exeggutor",
         "Exeggutor"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Leaf Stone",
-        42
       ]
     },
     "Exeggutor": {
@@ -17517,30 +17118,30 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
-          "Psychic Noise",
-          "Barrier",
+          "Super Fang",
+          "Seed Bomb",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Screech",
-          "Incinerate",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -17690,28 +17291,28 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -17721,12 +17322,6 @@ overrides = {
       ],
       "evos": [
         "Marowak"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
       ]
     },
     "Marowak": {
@@ -17884,28 +17479,28 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -18066,17 +17661,17 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -18246,18 +17841,18 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -18415,33 +18010,33 @@ overrides = {
         "tutors": [
           "Bounce",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -18451,12 +18046,6 @@ overrides = {
       ],
       "evos": [
         "Lickilicky"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        33
       ]
     },
     "Koffing": {
@@ -18579,23 +18168,23 @@ overrides = {
           "Iron Head",
           "Bounce",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -18606,14 +18195,6 @@ overrides = {
       "evos": [
         "Weezing",
         "Weezing"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        35,
-        "Fire Stone"
       ]
     },
     "Weezing": {
@@ -18750,23 +18331,23 @@ overrides = {
           "Iron Head",
           "Bounce",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -18911,23 +18492,23 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Focus Punch",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
           "Outrage",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -18937,12 +18518,6 @@ overrides = {
       ],
       "evos": [
         "Rhydon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Rhydon": {
@@ -19103,25 +18678,25 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -19133,12 +18708,6 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Rhyperior"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
       ]
     },
     "Chansey": {
@@ -19257,7 +18826,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Incinerate",
           "Brutal Swing",
@@ -19275,36 +18844,36 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -19314,15 +18883,7 @@ overrides = {
       ],
       "evos": [
         "Blissey"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
-      ],
-      "evoType": "useItem",
-      "evoItem": "Oval Stone"
+      ]
     },
     "Tangela": {
       "name": "Tangela",
@@ -19456,26 +19017,26 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Chilling Water",
-          "Struggle Bug",
-          "Natural Gift",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -19485,12 +19046,6 @@ overrides = {
       ],
       "evos": [
         "Tangrowth"
-      ],
-      "evoMethods": [
-        "levelMove"
-      ],
-      "evoParams": [
-        "Ancientpower"
       ]
     },
     "Kangaskhan": {
@@ -19651,28 +19206,28 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -19802,23 +19357,23 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Bounce",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Defog",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -19828,12 +19383,6 @@ overrides = {
       ],
       "evos": [
         "Seadra"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        22
       ]
     },
     "Seadra": {
@@ -19973,23 +19522,23 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Bounce",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Defog",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -20000,13 +19549,8 @@ overrides = {
       "evoType": "level",
       "evoLevel": 22,
       "evos": [
+        "Kingdra",
         "Kingdra"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
       ]
     },
     "Goldeen": {
@@ -20135,22 +19679,22 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Gunk Shot",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -20160,12 +19704,6 @@ overrides = {
       ],
       "evos": [
         "Seaking"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
       ]
     },
     "Seaking": {
@@ -20295,22 +19833,22 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Gunk Shot",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -20458,7 +19996,7 @@ overrides = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Teleport",
@@ -20475,36 +20013,36 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -20515,14 +20053,6 @@ overrides = {
       "evos": [
         "Starmie",
         "Starmie"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Water Stone",
-        42
       ]
     },
     "Starmie": {
@@ -20663,7 +20193,7 @@ overrides = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Teleport",
@@ -20680,36 +20210,36 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -20883,45 +20413,43 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Covet",
+          "Super Fang",
           "Seed Bomb",
-          "Skill Swap",
-          "Psychic Noise",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Trace",
         "Technician",
         "Distracting"
-      ],
-      "evoType": "level",
-      "evoLevel": 28
+      ]
     },
     "Scyther": {
       "name": "Scyther",
@@ -21057,27 +20585,27 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
           "Iron Head",
           "Low Kick",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -21087,12 +20615,6 @@ overrides = {
       ],
       "evos": [
         "Scizor"
-      ],
-      "evoMethods": [
-        "useItem"
-      ],
-      "evoParams": [
-        "Metal Coat"
       ]
     },
     "Jynx": {
@@ -21221,7 +20743,7 @@ overrides = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -21233,27 +20755,27 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
+          "Dragon Pulse",
+          "Snore",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Sparkle",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -21386,20 +20908,20 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -21409,12 +20931,6 @@ overrides = {
       ],
       "evos": [
         "Electivire"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
       ],
       "evoType": "level",
       "evoLevel": 30
@@ -21545,27 +21061,27 @@ overrides = {
         "tutors": [
           "Dual Chop",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -21575,12 +21091,6 @@ overrides = {
       ],
       "evos": [
         "Magmortar"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
       ],
       "evoType": "level",
       "evoLevel": 30
@@ -21732,31 +21242,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
           "Low Kick",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -21908,24 +21418,24 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Bounce",
-          "Seething Cold",
-          "Zen Headbutt",
+          "Uproar",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Spite",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -21985,14 +21495,6 @@ overrides = {
       "evos": [
         "Gyarados",
         "Gyarados"
-      ],
-      "evoMethods": [
-        "useItem",
-        "useItem"
-      ],
-      "evoParams": [
-        "Dragon Fang",
-        "Dragon Fang"
       ]
     },
     "Gyarados": {
@@ -22139,24 +21641,24 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Incinerate",
-          "Defog",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Spite",
+          "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -22303,7 +21805,7 @@ overrides = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Breaking Swipe",
           "Hurricane",
@@ -22324,29 +21826,29 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Drill Run",
-          "Seething Cold",
-          "Barrier",
+          "Uproar",
+          "Block",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Magic Room",
           "Outrage",
-          "Screech",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -22493,48 +21995,48 @@ overrides = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Secret Power",
           "Endure",
           "Play Rough",
           "Grass Knot"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Zen Headbutt",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -22550,24 +22052,6 @@ overrides = {
         "Flareon",
         "Espeon",
         "Umbreon"
-      ],
-      "evoMethods": [
-        "useItem",
-        "useItem",
-        "useItem",
-        "useItem",
-        "useItem",
-        "useItem",
-        "useItem"
-      ],
-      "evoParams": [
-        "Leaf Stone",
-        "Dawn Stone",
-        "Thunderstone",
-        "Water Stone",
-        "Fire Stone",
-        "Sun Stone",
-        "Moon Stone"
       ]
     },
     "Vaporeon": {
@@ -22685,7 +22169,7 @@ overrides = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Secret Power",
@@ -22701,46 +22185,46 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -22867,7 +22351,7 @@ overrides = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -22881,46 +22365,46 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23047,7 +22531,7 @@ overrides = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Incinerate",
           "Will-O-Wisp",
           "Secret Power",
@@ -23061,46 +22545,46 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23213,7 +22697,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Sparkle",
@@ -23224,32 +22708,32 @@ overrides = {
           "Endure"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23259,12 +22743,6 @@ overrides = {
       ],
       "evos": [
         "Porygon2"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        29
       ]
     },
     "Omanyte": {
@@ -23377,26 +22855,26 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23406,12 +22884,6 @@ overrides = {
       ],
       "evos": [
         "Omastar"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Omastar": {
@@ -23546,26 +23018,26 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Helping Hand",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -23707,30 +23179,30 @@ overrides = {
           "Dual Chop",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Magic Room",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -23740,12 +23212,6 @@ overrides = {
       ],
       "evos": [
         "Kabutops"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Kabutops": {
@@ -23904,30 +23370,30 @@ overrides = {
           "Dual Chop",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Magic Room",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -24081,22 +23547,22 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Earth Power",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Screech",
-          "Breaking Swipe",
-          "Take Down"
+          "Worry Seed",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -24257,42 +23723,40 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Thick Fat",
         "Unaware",
         "Scrappy"
-      ],
-      "evoType": "level",
-      "evoLevel": 42
+      ]
     },
     "Articuno": {
       "name": "Articuno",
@@ -24399,12 +23863,12 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Gastro Acid",
-          "Heal Pulse",
-          "Rest",
-          "Head Smash",
+          "Icy Wind",
+          "Snore",
+          "Tailwind",
+          "Sky Attack",
           "Roost",
-          "Take Down"
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -24524,12 +23988,12 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Heal Pulse",
-          "Overheat",
-          "Rest",
-          "Head Smash",
+          "Snore",
+          "Heat Wave",
+          "Tailwind",
+          "Sky Attack",
           "Roost",
-          "Take Down"
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -24650,12 +24114,12 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Heal Pulse",
-          "Overheat",
-          "Rest",
-          "Head Smash",
+          "Snore",
+          "Heat Wave",
+          "Tailwind",
+          "Sky Attack",
           "Roost",
-          "Take Down"
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -24776,28 +24240,28 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Bounce",
-          "Barrier",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Defog",
-          "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Block",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -24807,12 +24271,6 @@ overrides = {
       ],
       "evos": [
         "Dragonair"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Dragonair": {
@@ -24939,28 +24397,28 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Bounce",
-          "Barrier",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Defog",
-          "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Block",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -24972,12 +24430,6 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Dragonite"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        60
       ]
     },
     "Dragonite": {
@@ -25144,30 +24596,30 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Roost",
-          "Defog",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Block",
+          "Superpower",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Roost",
+          "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25342,20 +24794,20 @@ overrides = {
           "Magic Coat",
           "Foul Play",
           "Gravity",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Psyblade",
-          "Iron Tail",
-          "Heal Pulse",
-          "Helping Hand",
-          "Superpower",
-          "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Snore",
+          "Role Play",
+          "Drain Punch",
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25487,7 +24939,7 @@ overrides = {
           "Aura Sphere",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Ally Switch",
           "Focus Blast",
@@ -25542,66 +24994,66 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
-          "Skill Swap",
+          "Bug Bite",
+          "Covet",
+          "Super Fang",
           "Dual Chop",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Synthesis",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Roost",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
           "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25707,7 +25159,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -25720,34 +25172,34 @@ overrides = {
         "tutors": [
           "Grass Pledge",
           "Frenzy Plant",
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Magic Coat",
           "Earth Power",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Fake Tears",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25757,12 +25209,6 @@ overrides = {
       ],
       "evos": [
         "Bayleef"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
       ]
     },
     "Bayleef": {
@@ -25883,7 +25329,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -25898,34 +25344,34 @@ overrides = {
         "tutors": [
           "Grass Pledge",
           "Frenzy Plant",
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Magic Coat",
           "Earth Power",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Fake Tears",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -25937,12 +25383,6 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Meganium"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Meganium": {
@@ -26072,7 +25512,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -26091,34 +25531,34 @@ overrides = {
         "tutors": [
           "Grass Pledge",
           "Frenzy Plant",
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Magic Coat",
           "Earth Power",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Fake Tears",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26247,23 +25687,23 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26273,12 +25713,6 @@ overrides = {
       ],
       "evos": [
         "Quilava"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
       ]
     },
     "Quilava": {
@@ -26407,23 +25841,23 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26435,12 +25869,6 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Typhlosion"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Typhlosion": {
@@ -26590,24 +26018,24 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26740,29 +26168,29 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26772,12 +26200,6 @@ overrides = {
       ],
       "evos": [
         "Croconaw"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Croconaw": {
@@ -26925,29 +26347,29 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -26959,12 +26381,6 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Feraligatr"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Feraligatr": {
@@ -27117,29 +26533,29 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27252,7 +26668,7 @@ overrides = {
           "Flamethrower",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Brutal Swing",
           "Shadow Claw",
@@ -27267,31 +26683,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Skill Swap",
+          "Covet",
+          "Super Fang",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Focus Punch",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27301,12 +26717,6 @@ overrides = {
       ],
       "evos": [
         "Furret"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Furret": {
@@ -27431,7 +26841,7 @@ overrides = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Brutal Swing",
@@ -27449,31 +26859,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Skill Swap",
+          "Covet",
+          "Super Fang",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Focus Punch",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27594,7 +27004,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Hurricane",
           "Will-O-Wisp",
@@ -27604,25 +27014,25 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skill Swap",
-          "Psychic Noise",
-          "Seething Cold",
+          "Super Fang",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Zen Headbutt",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27632,12 +27042,6 @@ overrides = {
       ],
       "evos": [
         "Noctowl"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
       ]
     },
     "Noctowl": {
@@ -27767,7 +27171,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Hurricane",
           "Will-O-Wisp",
@@ -27777,25 +27181,25 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skill Swap",
-          "Psychic Noise",
-          "Seething Cold",
+          "Super Fang",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Zen Headbutt",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27942,7 +27346,7 @@ overrides = {
           "Rock Smash"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -27950,29 +27354,29 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Block",
           "Superpower",
-          "Roost",
-          "Fake Tears",
-          "Defog",
           "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Roost",
+          "Gastro Acid",
+          "After You",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -27982,12 +27386,6 @@ overrides = {
       ],
       "evos": [
         "Ledian"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Ledian": {
@@ -28140,7 +27538,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -28148,29 +27546,29 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Block",
           "Superpower",
-          "Roost",
-          "Fake Tears",
-          "Defog",
           "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Roost",
+          "Gastro Acid",
+          "After You",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -28287,23 +27685,23 @@ overrides = {
           "Poison Jab"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Bounce",
-          "Cross Poison",
+          "Gunk Shot",
           "Foul Play",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
+          "Magnet Rise",
           "Electroweb",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down"
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -28313,12 +27711,6 @@ overrides = {
       ],
       "evos": [
         "Ariados"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        24
       ]
     },
     "Ariados": {
@@ -28448,23 +27840,23 @@ overrides = {
           "Poison Jab"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Bounce",
-          "Cross Poison",
+          "Gunk Shot",
           "Foul Play",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
+          "Magnet Rise",
           "Electroweb",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down"
+          "Icy Wind",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -28627,19 +28019,19 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Seething Cold",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Uproar",
+          "Icy Wind",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -28772,25 +28164,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
+          "Block",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -28800,12 +28192,6 @@ overrides = {
       ],
       "evos": [
         "Lanturn"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        27
       ]
     },
     "Lanturn": {
@@ -28949,25 +28335,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
+          "Block",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29066,28 +28452,28 @@ overrides = {
           "Wild Charge"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
           "Superpower",
-          "Fake Tears",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Drain Punch",
+          "Gastro Acid",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29097,12 +28483,6 @@ overrides = {
       ],
       "evos": [
         "Pikachu"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Cleffa": {
@@ -29198,7 +28578,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -29212,42 +28592,42 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Skill Swap",
+          "Covet",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Drain Punch",
+          "Gastro Acid",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29257,12 +28637,6 @@ overrides = {
       ],
       "evos": [
         "Clefairy"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Igglybuff": {
@@ -29402,7 +28776,7 @@ overrides = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -29416,35 +28790,35 @@ overrides = {
           "Wild Charge"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Sparkle",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Drain Punch",
+          "Gastro Acid",
+          "Helping Hand",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29454,12 +28828,6 @@ overrides = {
       ],
       "evos": [
         "Jigglypuff"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Togepi": {
@@ -29560,7 +28928,7 @@ overrides = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -29573,28 +28941,28 @@ overrides = {
           "Rock Smash"
         ],
         "tutors": [
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29604,12 +28972,6 @@ overrides = {
       ],
       "evos": [
         "Togetic"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Togetic": {
@@ -29732,7 +29094,7 @@ overrides = {
           "Heat Wave",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Hurricane",
@@ -29748,28 +29110,28 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29782,14 +29144,6 @@ overrides = {
       "evos": [
         "Togekiss",
         "Togekiss"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        50,
-        "Shiny Stone"
       ]
     },
     "Natu": {
@@ -29929,31 +29283,31 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Sparkle",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Helping Hand",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -29963,12 +29317,6 @@ overrides = {
       ],
       "evos": [
         "Xatu"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
       ]
     },
     "Xatu": {
@@ -30118,31 +29466,31 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Sparkle",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Helping Hand",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -30254,7 +29602,7 @@ overrides = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Breaking Swipe",
           "Power Gem",
@@ -30276,25 +29624,25 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Trick",
+          "Wonder Room",
           "Outrage",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -30304,12 +29652,6 @@ overrides = {
       ],
       "evos": [
         "Flaaffy"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        14
       ]
     },
     "Flaaffy": {
@@ -30428,7 +29770,7 @@ overrides = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Breaking Swipe",
           "Fling",
@@ -30454,25 +29796,25 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Trick",
+          "Wonder Room",
           "Outrage",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -30484,12 +29826,6 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Ampharos"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Ampharos": {
@@ -30629,7 +29965,7 @@ overrides = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Breaking Swipe",
@@ -30655,25 +29991,25 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Trick",
+          "Wonder Room",
           "Outrage",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -30850,28 +30186,28 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Synthesis",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Fake Tears",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -31031,23 +30367,23 @@ overrides = {
         "tutors": [
           "Bounce",
           "Ice Punch",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -31057,15 +30393,7 @@ overrides = {
       ],
       "evos": [
         "Azumarill"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
-      ],
-      "evoType": "level",
-      "evoLevel": 10
+      ]
     },
     "Azumarill": {
       "name": "Azumarill",
@@ -31227,23 +30555,23 @@ overrides = {
         "tutors": [
           "Bounce",
           "Ice Punch",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -31404,8 +30732,8 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Skill Swap",
+          "Covet",
+          "Super Fang",
           "Drill Run",
           "Low Kick",
           "Thunder Punch",
@@ -31413,33 +30741,31 @@ overrides = {
           "Ice Punch",
           "Earth Power",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Determined",
         "Prankster",
         "Sap Sipper"
-      ],
-      "evoType": "level",
-      "evoLevel": 26
+      ]
     },
     "Politoed": {
       "name": "Politoed",
@@ -31571,7 +30897,7 @@ overrides = {
           "Lunge",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -31593,30 +30919,30 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Bounce",
           "Ice Punch",
-          "Barrier",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Block",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -31748,28 +31074,28 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Bounce",
           "Magic Coat",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -31779,12 +31105,6 @@ overrides = {
       ],
       "evos": [
         "Skiploom"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Skiploom": {
@@ -31913,28 +31233,28 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Bounce",
           "Magic Coat",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -31946,12 +31266,6 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Jumpluff"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        27
       ]
     },
     "Jumpluff": {
@@ -32094,28 +31408,28 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Bounce",
           "Magic Coat",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -32239,34 +31553,34 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Bounce",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -32276,12 +31590,6 @@ overrides = {
       ],
       "evos": [
         "Ambipom"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
       ]
     },
     "Sunkern": {
@@ -32407,25 +31715,25 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Earth Power",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Sparkle",
-          "Chilling Water",
-          "Struggle Bug",
-          "Natural Gift",
-          "Uproar"
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -32436,14 +31744,6 @@ overrides = {
       "evos": [
         "Sunflora",
         "Sunflora"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Sun Stone",
-        25
       ]
     },
     "Sunflora": {
@@ -32578,25 +31878,25 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Earth Power",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Sparkle",
-          "Chilling Water",
-          "Struggle Bug",
-          "Natural Gift",
-          "Uproar"
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -32727,30 +32027,30 @@ overrides = {
           "U-turn"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Sweet Scent",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Roost",
-          "Screech",
-          "Defog",
-          "Sparkle",
           "Electroweb",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Roost",
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -32760,12 +32060,6 @@ overrides = {
       ],
       "evos": [
         "Yanmega"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        33
       ]
     },
     "Wooper": {
@@ -32890,21 +32184,21 @@ overrides = {
           "Drill Run",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Chilling Water",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -32914,12 +32208,6 @@ overrides = {
       ],
       "evos": [
         "Quagsire"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
       ]
     },
     "Quagsire": {
@@ -33072,22 +32360,22 @@ overrides = {
           "Drill Run",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Defog",
-          "Chilling Water",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -33222,7 +32510,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Secret Power",
@@ -33234,46 +32522,46 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33401,7 +32689,7 @@ overrides = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Avalanche",
@@ -33414,46 +32702,46 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33598,25 +32886,25 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33627,14 +32915,6 @@ overrides = {
       "evos": [
         "Honchkrow",
         "Honchkrow"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Dusk Stone",
-        50
       ]
     },
     "Slowking": {
@@ -33763,7 +33043,7 @@ overrides = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Scald",
@@ -33788,37 +33068,37 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Defog",
-          "Low Sweep",
-          "Breaking Swipe",
+          "Magnet Rise",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "After You",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33946,7 +33226,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Will-O-Wisp",
           "Power Gem",
           "Secret Power",
@@ -33956,26 +33236,26 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skill Swap",
-          "Psychic Noise",
-          "Seething Cold",
+          "Super Fang",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Protect",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Dark Pulse",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -33986,14 +33266,6 @@ overrides = {
       "evos": [
         "Mismagius",
         "Mismagius"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Dusk Stone",
-        50
       ]
     },
     "Unown": {
@@ -34099,27 +33371,27 @@ overrides = {
           "Flash Cannon"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Icy Wind",
-          "Natural Gift",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Recycle",
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34189,9 +33461,7 @@ overrides = {
         "Regenerator",
         "Regenerator",
         "Regenerator"
-      ],
-      "evoType": "level",
-      "evoLevel": 15
+      ]
     },
     "Girafarig": {
       "name": "Girafarig",
@@ -34337,7 +33607,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -34354,36 +33624,36 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
           "Low Kick",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
           "Gravity",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34515,27 +33785,27 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
+          "Iron Defense",
+          "Last Resort",
           "Electroweb",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34545,12 +33815,6 @@ overrides = {
       ],
       "evos": [
         "Forretress"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        41
       ]
     },
     "Forretress": {
@@ -34708,27 +33972,27 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
+          "Iron Defense",
+          "Last Resort",
           "Electroweb",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -34904,27 +34168,27 @@ overrides = {
           "Bounce",
           "Magic Coat",
           "Earth Power",
-          "Explosion",
-          "Sweet Scent",
+          "Last Resort",
+          "Electroweb",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -35079,25 +34343,25 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Drill Run",
           "Bounce",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Worry Seed",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -35107,12 +34371,6 @@ overrides = {
       ],
       "evos": [
         "Gliscor"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        38
       ]
     },
     "Steelix": {
@@ -35262,22 +34520,22 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
           "Outrage",
-          "Screech",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -35286,7 +34544,7 @@ overrides = {
         "Heatproof"
       ],
       "evoType": "useItem",
-      "evoItem": "Metal Coat"
+      "evoItem": "Shiny Stone"
     },
     "Snubbull": {
       "name": "Snubbull",
@@ -35426,31 +34684,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -35460,12 +34718,6 @@ overrides = {
       ],
       "evos": [
         "Granbull"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        23
       ]
     },
     "Granbull": {
@@ -35631,31 +34883,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -35814,29 +35066,29 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Screech",
-          "Defog",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Gunk Shot",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -35985,27 +35237,27 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
           "Iron Head",
           "Low Kick",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -36014,7 +35266,7 @@ overrides = {
         "Light Metal"
       ],
       "evoType": "useItem",
-      "evoItem": "Metal Coat"
+      "evoItem": "Shiny Stone"
     },
     "Shuckle": {
       "name": "Shuckle",
@@ -36150,28 +35402,28 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
+          "Iron Defense",
+          "Last Resort",
           "Electroweb",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Helping Hand",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -36328,29 +35580,29 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
           "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -36489,23 +35741,23 @@ overrides = {
         ],
         "tutors": [
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -36516,14 +35768,6 @@ overrides = {
       "evos": [
         "Weavile",
         "Weavile"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        50,
-        "Dusk Stone"
       ]
     },
     "Teddiursa": {
@@ -36664,34 +35908,34 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Magnet Rise",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -36701,12 +35945,6 @@ overrides = {
       ],
       "evos": [
         "Ursaring"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Ursaring": {
@@ -36867,34 +36105,34 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Magnet Rise",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Electroweb",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -37032,20 +36270,20 @@ overrides = {
         ],
         "tutors": [
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -37055,12 +36293,6 @@ overrides = {
       ],
       "evos": [
         "Magcargo"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        38
       ]
     },
     "Magcargo": {
@@ -37210,20 +36442,20 @@ overrides = {
         ],
         "tutors": [
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -37360,22 +36592,22 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -37385,12 +36617,6 @@ overrides = {
       ],
       "evos": [
         "Piloswine"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
       ]
     },
     "Piloswine": {
@@ -37532,22 +36758,22 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -37559,12 +36785,6 @@ overrides = {
       "evoLevel": 26,
       "evos": [
         "Mamoswine"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
       ]
     },
     "Corsola": {
@@ -37723,27 +36943,27 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Magic Coat",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Sparkle",
-          "Chilling Water",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Helping Hand",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -37888,28 +37108,28 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Gunk Shot",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -37919,12 +37139,6 @@ overrides = {
       ],
       "evos": [
         "Octillery"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
       ]
     },
     "Octillery": {
@@ -38090,28 +37304,28 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Gunk Shot",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -38258,26 +37472,26 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -38414,30 +37628,28 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Seething Cold",
-          "Barrier",
+          "Uproar",
+          "Block",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Water Absorb",
         "Swift Swim",
         "Rain Dish"
-      ],
-      "evoType": "level",
-      "evoLevel": 30
+      ]
     },
     "Skarmory": {
       "name": "Skarmory",
@@ -38572,19 +37784,19 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
-          "Protect",
+          "Gunk Shot",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Worry Seed",
+          "After You",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -38717,21 +37929,21 @@ overrides = {
           "Snarl"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Foul Play",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Incinerate",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -38741,12 +37953,6 @@ overrides = {
       ],
       "evos": [
         "Houndoom"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        23
       ]
     },
     "Houndoom": {
@@ -38895,21 +38101,21 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Foul Play",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Incinerate",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -39073,23 +38279,23 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Bounce",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Defog",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "After You",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -39097,8 +38303,9 @@ overrides = {
         "Marvel Scale",
         "Swift Swim"
       ],
-      "evoType": "level",
-      "evoLevel": 50
+      "evoType": "useItem",
+      "evoLevel": 50,
+      "evoItem": "Dawn Stone"
     },
     "Phanpy": {
       "name": "Phanpy",
@@ -39225,21 +38432,21 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
-          "Zen Headbutt",
-          "Protect",
-          "Defense Curl",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -39249,12 +38456,6 @@ overrides = {
       ],
       "evos": [
         "Donphan"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
       ]
     },
     "Donphan": {
@@ -39396,21 +38597,21 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
-          "Zen Headbutt",
-          "Protect",
-          "Defense Curl",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -39531,7 +38732,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Sparkle",
@@ -39542,32 +38743,32 @@ overrides = {
           "Endure"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -39579,12 +38780,6 @@ overrides = {
       "evoLevel": 29,
       "evos": [
         "Porygon-Z"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
       ]
     },
     "Stantler": {
@@ -39734,7 +38929,7 @@ overrides = {
           "Aura Sphere",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Power Gem",
           "Secret Power",
@@ -39748,33 +38943,33 @@ overrides = {
           "Wild Charge"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Explosion",
-          "Protect",
-          "Psyblade",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -39926,7 +39121,7 @@ overrides = {
           "Aura Sphere",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Ally Switch",
           "Focus Blast",
@@ -39988,66 +39183,66 @@ overrides = {
           "Blast Burn",
           "Hydro Cannon",
           "Draco Meteor",
-          "Skitter Smack",
-          "Seed Bomb",
-          "Skill Swap",
+          "Bug Bite",
+          "Covet",
+          "Super Fang",
           "Dual Chop",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Synthesis",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Roost",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
           "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -40150,17 +39345,17 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -40174,23 +39369,8 @@ overrides = {
         "Hitmontop",
         "Hitmonlee",
         "Hitmonchan",
+        "Hitmontop",
         "Hitmontop"
-      ],
-      "evoMethods": [
-        "useItem",
-        "useItem",
-        "useItem",
-        "level",
-        "level",
-        "level"
-      ],
-      "evoParams": [
-        "Fire Stone",
-        "Water Stone",
-        "Thunderstone",
-        26,
-        26,
-        26
       ]
     },
     "Hitmontop": {
@@ -40346,17 +39526,17 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -40481,7 +39661,7 @@ overrides = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Secret Power",
@@ -40491,27 +39671,27 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Ice Punch",
           "Magic Coat",
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
+          "Dragon Pulse",
+          "Snore",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Sparkle",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -40521,12 +39701,6 @@ overrides = {
       ],
       "evos": [
         "Jynx"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Elekid": {
@@ -40646,20 +39820,20 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -40669,12 +39843,6 @@ overrides = {
       ],
       "evos": [
         "Electabuzz"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Magby": {
@@ -40794,27 +39962,27 @@ overrides = {
         "tutors": [
           "Dual Chop",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -40824,12 +39992,6 @@ overrides = {
       ],
       "evos": [
         "Magmar"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Miltank": {
@@ -40958,7 +40120,7 @@ overrides = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Breaking Swipe",
           "Fling",
@@ -40985,28 +40147,28 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -41143,7 +40305,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Incinerate",
@@ -41162,36 +40324,36 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -41321,10 +40483,10 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Iron Tail",
-          "Heal Pulse",
-          "Take Down"
+          "Snore",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -41453,9 +40615,9 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Iron Tail",
-          "Heal Pulse",
-          "Overheat",
-          "Take Down"
+          "Snore",
+          "Heat Wave",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -41582,11 +40744,11 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
-          "Gastro Acid",
+          "Icy Wind",
           "Iron Tail",
-          "Heal Pulse",
-          "Rest",
-          "Take Down"
+          "Snore",
+          "Tailwind",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -41711,26 +40873,26 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -41740,12 +40902,6 @@ overrides = {
       ],
       "evos": [
         "Pupitar"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
       ]
     },
     "Pupitar": {
@@ -41876,26 +41032,26 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -41907,12 +41063,6 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Tyranitar"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        60
       ]
     },
     "Tyranitar": {
@@ -42070,26 +41220,26 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42217,7 +41367,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Weather Ball",
           "Hurricane",
           "Avalanche",
@@ -42240,21 +41390,21 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Earth Power",
-          "Gastro Acid",
+          "Icy Wind",
           "Aqua Tail",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Heal Pulse",
-          "Rest",
-          "Head Smash",
-          "Outrage",
+          "Snore",
+          "Tailwind",
+          "Sky Attack",
+          "Giga Drain",
           "Roost",
-          "Electroweb",
-          "Low Sweep",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Wonder Room",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42379,7 +41529,7 @@ overrides = {
           "Heat Wave",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Hurricane",
@@ -42402,15 +41552,15 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Earth Power",
-          "Psyblade",
-          "Defense Curl",
-          "Heal Pulse",
-          "Overheat",
-          "Rest",
-          "Head Smash",
-          "Outrage",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Snore",
+          "Heat Wave",
+          "Tailwind",
+          "Sky Attack",
+          "Giga Drain",
           "Roost",
-          "Take Down"
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -42520,7 +41670,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Fling",
           "Weather Ball",
@@ -42539,24 +41689,24 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
           "Earth Power",
-          "Explosion",
-          "Psyblade",
-          "Heal Pulse",
+          "Last Resort",
+          "Zen Headbutt",
+          "Snore",
           "Synthesis",
-          "Healing Wish",
-          "Outrage",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Heal Bell",
+          "Giga Drain",
+          "Worry Seed",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -42692,29 +41842,29 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Low Kick",
           "Thunder Punch",
-          "Focus Punch",
-          "Sweet Scent",
+          "Superpower",
+          "Electroweb",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -42724,12 +41874,6 @@ overrides = {
       ],
       "evos": [
         "Grovyle"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
       ]
     },
     "Grovyle": {
@@ -42869,29 +42013,29 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Low Kick",
           "Thunder Punch",
-          "Focus Punch",
-          "Sweet Scent",
+          "Superpower",
+          "Electroweb",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -42903,12 +42047,6 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Sceptile"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Sceptile": {
@@ -43070,29 +42208,29 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Low Kick",
           "Thunder Punch",
-          "Focus Punch",
-          "Sweet Scent",
+          "Superpower",
+          "Electroweb",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -43228,27 +42366,27 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -43258,12 +42396,6 @@ overrides = {
       ],
       "evos": [
         "Combusken"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
       ]
     },
     "Combusken": {
@@ -43403,27 +42535,27 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -43435,12 +42567,6 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Blaziken"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Blaziken": {
@@ -43604,27 +42730,27 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -43746,25 +42872,25 @@ overrides = {
           "Hydro Cannon",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -43774,12 +42900,6 @@ overrides = {
       ],
       "evos": [
         "Marshtomp"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
       ]
     },
     "Marshtomp": {
@@ -43910,25 +43030,25 @@ overrides = {
           "Hydro Cannon",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -43940,12 +43060,6 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Swampert"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
       ]
     },
     "Swampert": {
@@ -44096,25 +43210,25 @@ overrides = {
           "Hydro Cannon",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -44243,18 +43357,18 @@ overrides = {
         ],
         "tutors": [
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44264,12 +43378,6 @@ overrides = {
       ],
       "evos": [
         "Mightyena"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Mightyena": {
@@ -44405,20 +43513,20 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44527,7 +43635,7 @@ overrides = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Acrobatics",
           "Secret Power",
@@ -44541,29 +43649,29 @@ overrides = {
           "Surf"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
-          "Zen Headbutt",
-          "Gastro Acid",
+          "Gunk Shot",
+          "Magnet Rise",
+          "Icy Wind",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44573,12 +43681,6 @@ overrides = {
       ],
       "evos": [
         "Linoone"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
       ]
     },
     "Linoone": {
@@ -44700,7 +43802,7 @@ overrides = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Acrobatics",
           "Shadow Claw",
@@ -44717,29 +43819,29 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
-          "Zen Headbutt",
-          "Gastro Acid",
+          "Gunk Shot",
+          "Magnet Rise",
+          "Icy Wind",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44794,11 +43896,11 @@ overrides = {
         ],
         "tms": [],
         "tutors": [
-          "Skitter Smack",
-          "Sweet Scent",
-          "Heal Pulse",
-          "Toxic",
-          "Struggle Bug"
+          "Bug Bite",
+          "Electroweb",
+          "Snore",
+          "Pain Split",
+          "Endeavor"
         ]
       },
       "abs": [
@@ -44809,14 +43911,6 @@ overrides = {
       "evos": [
         "Silcoon",
         "Cascoon"
-      ],
-      "evoMethods": [
-        "level",
-        "level"
-      ],
-      "evoParams": [
-        10,
-        10
       ]
     },
     "Silcoon": {
@@ -44866,30 +43960,30 @@ overrides = {
           "Hidden Power"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Magic Coat",
-          "Barrier",
-          "Self Destruct",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
-          "Sparkle",
+          "Block",
+          "Iron Defense",
           "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -44901,12 +43995,6 @@ overrides = {
       "evoLevel": 10,
       "evos": [
         "Beautifly"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Beautifly": {
@@ -45039,30 +44127,30 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Magic Coat",
-          "Barrier",
-          "Self Destruct",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
-          "Sparkle",
+          "Block",
+          "Iron Defense",
           "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45120,30 +44208,30 @@ overrides = {
           "Hidden Power"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Cross Poison",
+          "Gunk Shot",
           "Magic Coat",
-          "Barrier",
-          "Self Destruct",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
-          "Sparkle",
+          "Block",
+          "Iron Defense",
           "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45155,12 +44243,6 @@ overrides = {
       "evoLevel": 10,
       "evos": [
         "Dustox"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
       ]
     },
     "Dustox": {
@@ -45292,32 +44374,32 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Cross Poison",
+          "Gunk Shot",
           "Magic Coat",
-          "Barrier",
-          "Self Destruct",
-          "Sweet Scent",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Roost",
-          "Defog",
-          "Sparkle",
+          "Block",
+          "Iron Defense",
           "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Roost",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45410,7 +44492,7 @@ overrides = {
           "Return",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -45421,28 +44503,28 @@ overrides = {
           "Surf"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45451,13 +44533,13 @@ overrides = {
         "Rain Dish"
       ],
       "evos": [
-        "Lombre"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        10
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Lombre": {
@@ -45564,7 +44646,7 @@ overrides = {
           "Brick Break",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -45580,28 +44662,28 @@ overrides = {
           "Dive"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45609,19 +44691,14 @@ overrides = {
         "Torrent",
         "Rain Dish"
       ],
-      "evoType": "level",
-      "evoLevel": 10,
       "evos": [
-        "Ludicolo",
-        "Ludicolo"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Water Stone",
-        42
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Ludicolo": {
@@ -45745,7 +44822,7 @@ overrides = {
           "Brick Break",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -45763,28 +44840,28 @@ overrides = {
           "Dive"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45792,9 +44869,15 @@ overrides = {
         "Torrent",
         "Distracting"
       ],
-      "evoType": "level",
-      "evoItem": "Water Stone",
-      "evoLevel": 42
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Seedot": {
       "name": "Seedot",
@@ -45887,26 +44970,26 @@ overrides = {
           "Low Kick",
           "Thunder Punch",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Fake Tears",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -45915,13 +44998,13 @@ overrides = {
         "Chlorophyll"
       ],
       "evos": [
-        "Nuzleaf"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        10
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Nuzleaf": {
@@ -46055,26 +45138,26 @@ overrides = {
           "Low Kick",
           "Thunder Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
+          "Hyper Voice",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Fake Tears",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46082,19 +45165,14 @@ overrides = {
         "Pickpocket",
         "Chlorophyll"
       ],
-      "evoType": "level",
-      "evoLevel": 10,
       "evos": [
-        "Shiftry",
-        "Shiftry"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Leaf Stone",
-        42
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Shiftry": {
@@ -46255,26 +45333,26 @@ overrides = {
           "Low Kick",
           "Thunder Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
+          "Hyper Voice",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Fake Tears",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46282,9 +45360,15 @@ overrides = {
         "Pickpocket",
         "Chlorophyll"
       ],
-      "evoType": "level",
-      "evoItem": "Leaf Stone",
-      "evoLevel": 42
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Taillow": {
       "name": "Taillow",
@@ -46385,7 +45469,7 @@ overrides = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Hurricane",
           "Secret Power",
           "Endure",
@@ -46394,23 +45478,23 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Psychic Noise",
-          "Protect",
+          "Seed Bomb",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46419,13 +45503,13 @@ overrides = {
         "Thunder Armor"
       ],
       "evos": [
-        "Swellow"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        22
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Swellow": {
@@ -46543,7 +45627,7 @@ overrides = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Hurricane",
           "Secret Power",
           "Endure",
@@ -46552,23 +45636,23 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Psychic Noise",
-          "Protect",
+          "Seed Bomb",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46576,8 +45660,15 @@ overrides = {
         "Thunder Armor",
         "Thunder Armor"
       ],
-      "evoType": "level",
-      "evoLevel": 22
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Wingull": {
       "name": "Wingull",
@@ -46710,21 +45801,21 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
-          "Chilling Water",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46733,13 +45824,13 @@ overrides = {
         "Marvel Scale"
       ],
       "evos": [
-        "Pelipper"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Pelipper": {
@@ -46891,21 +45982,21 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
-          "Chilling Water",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -46913,8 +46004,15 @@ overrides = {
         "Torrent",
         "Marvel Scale"
       ],
-      "evoType": "level",
-      "evoLevel": 25
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Ralts": {
       "name": "Ralts",
@@ -47026,7 +46124,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Ally Switch",
           "Fling",
           "Will-O-Wisp",
@@ -47040,28 +46138,28 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -47070,13 +46168,13 @@ overrides = {
         "Pixilate"
       ],
       "evos": [
-        "Kirlia"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Kirlia": {
@@ -47197,7 +46295,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Ally Switch",
           "Fling",
           "Will-O-Wisp",
@@ -47211,28 +46309,28 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -47240,19 +46338,14 @@ overrides = {
         "Synchronize",
         "Pixilate"
       ],
-      "evoType": "level",
-      "evoLevel": 18,
       "evos": [
-        "Gardevoir",
-        "Gallade"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        30,
-        "Dawn Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Gardevoir": {
@@ -47398,7 +46491,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Ally Switch",
           "Focus Blast",
           "Energy Ball",
@@ -47414,27 +46507,27 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -47442,8 +46535,15 @@ overrides = {
         "Friend Guard",
         "Pixilate"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Surskit": {
       "name": "Surskit",
@@ -47542,21 +46642,21 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Struggle Bug",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -47565,13 +46665,13 @@ overrides = {
         "Rain Dish"
       ],
       "evos": [
-        "Masquerain"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Masquerain": {
@@ -47726,21 +46826,21 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Struggle Bug",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -47748,8 +46848,15 @@ overrides = {
         "Distracting",
         "Distracting"
       ],
-      "evoType": "level",
-      "evoLevel": 28
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Shroomish": {
       "name": "Shroomish",
@@ -47846,28 +46953,28 @@ overrides = {
           "Rock Climb"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Bounce",
           "Thunder Punch",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -47876,13 +46983,13 @@ overrides = {
         "Overgrow"
       ],
       "evos": [
-        "Breloom"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Breloom": {
@@ -48037,28 +47144,28 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Bounce",
           "Thunder Punch",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -48066,8 +47173,15 @@ overrides = {
         "Poison Heal",
         "Overgrow"
       ],
-      "evoType": "level",
-      "evoLevel": 25
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Slakoth": {
       "name": "Slakoth",
@@ -48187,23 +47301,23 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48212,13 +47326,13 @@ overrides = {
         "Truant"
       ],
       "evos": [
-        "Vigoroth"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Vigoroth": {
@@ -48363,23 +47477,23 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48387,16 +47501,14 @@ overrides = {
         "Vital Spirit",
         "Hustle"
       ],
-      "evoType": "level",
-      "evoLevel": 18,
       "evos": [
-        "Slaking"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Slaking": {
@@ -48555,23 +47667,23 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48579,8 +47691,15 @@ overrides = {
         "Truant",
         "Truant"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Nincada": {
       "name": "Nincada",
@@ -48669,27 +47788,27 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
           "Drill Run",
           "Earth Power",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48698,16 +47817,13 @@ overrides = {
         "Stakeout"
       ],
       "evos": [
-        "Ninjask",
-        "Shedinja"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        20,
-        "Dusk Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Ninjask": {
@@ -48826,27 +47942,27 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
           "Drill Run",
           "Earth Power",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -48854,8 +47970,15 @@ overrides = {
         "Infiltrator",
         "Infiltrator"
       ],
-      "evoType": "level",
-      "evoLevel": 20
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Shedinja": {
       "name": "Shedinja",
@@ -48978,27 +48101,27 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
           "Drill Run",
           "Earth Power",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49006,8 +48129,15 @@ overrides = {
         "Magic Guard",
         "Magic Guard"
       ],
-      "evoType": "useItem",
-      "evoItem": "Dusk Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Whismur": {
       "name": "Whismur",
@@ -49112,7 +48242,7 @@ overrides = {
           "Heat Wave",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Incinerate",
           "Secret Power",
@@ -49121,35 +48251,35 @@ overrides = {
           "Rock Climb"
         ],
         "tutors": [
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49158,13 +48288,13 @@ overrides = {
         "Amplifier"
       ],
       "evos": [
-        "Loudred"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Loudred": {
@@ -49296,7 +48426,7 @@ overrides = {
           "Heat Wave",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -49310,35 +48440,35 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49346,16 +48476,14 @@ overrides = {
         "Amplifier",
         "Amplifier"
       ],
-      "evoType": "level",
-      "evoLevel": 20,
       "evos": [
-        "Exploud"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Exploud": {
@@ -49495,7 +48623,7 @@ overrides = {
           "Heat Wave",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -49511,35 +48639,35 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Double-Edge",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49547,8 +48675,15 @@ overrides = {
         "Amplifier",
         "Amplifier"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Makuhita": {
       "name": "Makuhita",
@@ -49657,21 +48792,21 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49680,13 +48815,13 @@ overrides = {
         "Guts"
       ],
       "evos": [
-        "Hariyama"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        24
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Hariyama": {
@@ -49830,21 +48965,21 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49852,8 +48987,15 @@ overrides = {
         "Sheer Force",
         "Guts"
       ],
-      "evoType": "level",
-      "evoLevel": 24
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Azurill": {
       "name": "Azurill",
@@ -49944,23 +49086,23 @@ overrides = {
         "tutors": [
           "Bounce",
           "Ice Punch",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -49969,13 +49111,13 @@ overrides = {
         "Huge Power"
       ],
       "evos": [
-        "Marill"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        10
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Nosepass": {
@@ -50106,23 +49248,23 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -50131,13 +49273,13 @@ overrides = {
         "Sand Force"
       ],
       "evos": [
-        "Probopass"
-      ],
-      "evoMethods": [
-        "useItem"
-      ],
-      "evoParams": [
-        "Thunderstone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Skitty": {
@@ -50184,15 +49326,15 @@ overrides = {
           ],
           [
             12,
-            "Heart Stamp"
+            "Double Slap"
           ],
           [
             14,
-            "Secret Power"
+            "Feint Attack"
           ],
           [
             16,
-            "Feint Attack"
+            "Secret Power"
           ],
           [
             19,
@@ -50216,7 +49358,7 @@ overrides = {
           ],
           [
             33,
-            "Double Slap"
+            "Hyper Voice"
           ],
           [
             35,
@@ -50270,7 +49412,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Power Gem",
@@ -50287,35 +49429,35 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Covet",
+          "Super Fang",
           "Seed Bomb",
-          "Skill Swap",
-          "Psychic Noise",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
-          "Zen Headbutt",
-          "Explosion",
+          "Block",
+          "Magnet Rise",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -50324,16 +49466,13 @@ overrides = {
         "Magic Guard"
       ],
       "evos": [
-        "Delcatty",
-        "Delcatty"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Moon Stone",
-        35
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Delcatty": {
@@ -50380,15 +49519,15 @@ overrides = {
           ],
           [
             12,
-            "Heart Stamp"
+            "Double Slap"
           ],
           [
             14,
-            "Secret Power"
+            "Feint Attack"
           ],
           [
             16,
-            "Feint Attack"
+            "Secret Power"
           ],
           [
             19,
@@ -50412,7 +49551,7 @@ overrides = {
           ],
           [
             33,
-            "Double Slap"
+            "Hyper Voice"
           ],
           [
             35,
@@ -50478,7 +49617,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Power Gem",
           "Secret Power",
@@ -50494,35 +49633,35 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Covet",
+          "Super Fang",
           "Seed Bomb",
-          "Skill Swap",
-          "Psychic Noise",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
-          "Zen Headbutt",
-          "Explosion",
+          "Block",
+          "Magnet Rise",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -50530,9 +49669,15 @@ overrides = {
         "Hustle",
         "Magic Guard"
       ],
-      "evoType": "level",
-      "evoItem": "Moon Stone",
-      "evoLevel": 35
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Sableye": {
       "name": "Sableye",
@@ -50691,33 +49836,42 @@ overrides = {
         "tutors": [
           "Dual Chop",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Foul Play",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Magnet Rise",
+          "Superpower",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Magic Guard",
         "Hyper Cutter",
         "Exploit"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Mawile": {
@@ -50877,36 +50031,45 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
           "Thunder Punch",
           "Ice Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Icy Wind",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Intimidate",
         "Sheer Force",
         "Distracting"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Aron": {
@@ -51041,26 +50204,26 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51069,13 +50232,13 @@ overrides = {
         "Filter"
       ],
       "evos": [
-        "Lairon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        32
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Lairon": {
@@ -51223,26 +50386,26 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51250,16 +50413,14 @@ overrides = {
         "Sturdy",
         "Filter"
       ],
-      "evoType": "level",
-      "evoLevel": 32,
       "evos": [
-        "Aggron"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        60
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Aggron": {
@@ -51433,25 +50594,25 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51459,8 +50620,15 @@ overrides = {
         "Filter",
         "Determined"
       ],
-      "evoType": "level",
-      "evoLevel": 60
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Meditite": {
       "name": "Meditite",
@@ -51586,7 +50754,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -51594,22 +50762,22 @@ overrides = {
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -51618,13 +50786,13 @@ overrides = {
         "Huge Power"
       ],
       "evos": [
-        "Medicham"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        32
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Medicham": {
@@ -51780,7 +50948,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -51788,22 +50956,22 @@ overrides = {
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -51811,8 +50979,15 @@ overrides = {
         "Huge Power",
         "Huge Power"
       ],
-      "evoType": "level",
-      "evoLevel": 32
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Electrike": {
       "name": "Electrike",
@@ -51946,23 +51121,23 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Zen Headbutt",
-          "Protect",
-          "Follow Me",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -51971,13 +51146,13 @@ overrides = {
         "Thunder Armor"
       ],
       "evos": [
-        "Manectric"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Manectric": {
@@ -52133,23 +51308,23 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Zen Headbutt",
-          "Protect",
-          "Follow Me",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -52157,8 +51332,15 @@ overrides = {
         "Strong Jaw",
         "Thunder Armor"
       ],
-      "evoType": "level",
-      "evoLevel": 26
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Plusle": {
       "name": "Plusle",
@@ -52288,7 +51470,7 @@ overrides = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Fling",
           "Incinerate",
@@ -52302,39 +51484,48 @@ overrides = {
           "Wild Charge"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Magic Coat",
-          "Zen Headbutt",
-          "Protect",
-          "Follow Me",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Overheat",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Volt Absorb",
         "Friend Guard",
         "Friend Guard"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Minun": {
@@ -52464,7 +51655,7 @@ overrides = {
           "Dazzling Gleam",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -52481,39 +51672,48 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Magic Coat",
-          "Zen Headbutt",
-          "Protect",
-          "Follow Me",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Overheat",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Motor Drive",
         "Distracting",
         "Distracting"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Volbeat": {
@@ -52664,39 +51864,48 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Thunder Punch",
           "Ice Punch",
           "Magic Coat",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Sparkle",
+          "Superpower",
           "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Illumination",
         "Prankster",
         "Magic Guard"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Illumise": {
@@ -52850,39 +52059,48 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Thunder Punch",
           "Ice Punch",
           "Magic Coat",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Sparkle",
+          "Superpower",
           "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Tenacity",
         "Pixilate",
         "Magic Guard"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Roselia": {
@@ -52999,25 +52217,25 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
-          "Cross Poison",
-          "Sweet Scent",
-          "Protect",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
+          "Snore",
+          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53026,19 +52244,14 @@ overrides = {
         "Chlorophyll"
       ],
       "evos": [
-        "Roserade",
-        "Roserade"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Shiny Stone",
-        50
-      ],
-      "evoType": "level",
-      "evoLevel": 18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Gulpin": {
       "name": "Gulpin",
@@ -53175,31 +52388,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Chilling Water",
-          "Low Sweep",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53208,13 +52421,13 @@ overrides = {
         "Gourmand"
       ],
       "evos": [
-        "Swalot"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Swalot": {
@@ -53354,31 +52567,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Chilling Water",
-          "Low Sweep",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53386,8 +52599,15 @@ overrides = {
         "Corrosion",
         "Gourmand"
       ],
-      "evoType": "level",
-      "evoLevel": 26
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Carvanha": {
       "name": "Carvanha",
@@ -53501,25 +52721,25 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
-          "Zen Headbutt",
+          "Uproar",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53528,13 +52748,13 @@ overrides = {
         "Unnerve"
       ],
       "evos": [
-        "Sharpedo"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Sharpedo": {
@@ -53676,25 +52896,25 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
-          "Zen Headbutt",
+          "Uproar",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53702,8 +52922,15 @@ overrides = {
         "Strong Jaw",
         "Unnerve"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Wailmer": {
       "name": "Wailmer",
@@ -53829,7 +53056,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Weather Ball",
@@ -53846,24 +53073,24 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Seething Cold",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Defog",
-          "Chilling Water",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -53872,13 +53099,13 @@ overrides = {
         "Moisturize"
       ],
       "evos": [
-        "Wailord"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Wailord": {
@@ -54009,7 +53236,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Weather Ball",
@@ -54027,24 +53254,24 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Seething Cold",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Defog",
-          "Chilling Water",
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -54052,8 +53279,15 @@ overrides = {
         "Truant",
         "Truant"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Numel": {
       "name": "Numel",
@@ -54193,22 +53427,22 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -54217,13 +53451,13 @@ overrides = {
         "Solid Rock"
       ],
       "evos": [
-        "Camerupt"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Camerupt": {
@@ -54383,22 +53617,22 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -54406,8 +53640,15 @@ overrides = {
         "Resilient",
         "Solid Rock"
       ],
-      "evoType": "level",
-      "evoLevel": 25
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Torkoal": {
       "name": "Torkoal",
@@ -54550,29 +53791,38 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
+          "Iron Defense",
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Shell Armor",
         "Shell Armor",
         "Shell Armor"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Spoink": {
@@ -54693,39 +53943,39 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -54734,13 +53984,13 @@ overrides = {
         "Magic Guard"
       ],
       "evos": [
-        "Grumpig"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        32
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Grumpig": {
@@ -54895,39 +54145,39 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -54935,8 +54185,15 @@ overrides = {
         "Thick Fat",
         "Magic Guard"
       ],
-      "evoType": "level",
-      "evoLevel": 32
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Spinda": {
       "name": "Spinda",
@@ -55010,7 +54267,7 @@ overrides = {
           ],
           [
             31,
-            "Feint Attack"
+            "Dizzy Punch"
           ],
           [
             34,
@@ -55076,7 +54333,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Teleport",
@@ -55089,41 +54346,50 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Hustle",
         "Contrary",
         "Scrappy"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Trapinch": {
@@ -55236,34 +54502,34 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -55272,13 +54538,13 @@ overrides = {
         "Arena Trap"
       ],
       "evos": [
-        "Vibrava"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Vibrava": {
@@ -55417,34 +54683,34 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -55452,16 +54718,14 @@ overrides = {
         "Keen Senses",
         "Amplifier"
       ],
-      "evoType": "level",
-      "evoLevel": 18,
       "evos": [
-        "Flygon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        45
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Flygon": {
@@ -55623,34 +54887,34 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -55658,8 +54922,15 @@ overrides = {
         "Keen Senses",
         "Amplifier"
       ],
-      "evoType": "level",
-      "evoLevel": 45
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Cacnea": {
       "name": "Cacnea",
@@ -55787,26 +55058,26 @@ overrides = {
         "tutors": [
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Earth Power",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -55815,13 +55086,13 @@ overrides = {
         "Water Absorb"
       ],
       "evos": [
-        "Cacturne"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        32
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Cacturne": {
@@ -55977,26 +55248,26 @@ overrides = {
         "tutors": [
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Earth Power",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -56004,8 +55275,15 @@ overrides = {
         "Sand Rush",
         "Water Absorb"
       ],
-      "evoType": "level",
-      "evoLevel": 32
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Swablu": {
       "name": "Swablu",
@@ -56130,7 +55408,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Hurricane",
@@ -56147,27 +55425,27 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Psychic Noise",
-          "Seething Cold",
-          "Protect",
-          "Follow Me",
+          "Seed Bomb",
+          "Uproar",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -56176,13 +55454,13 @@ overrides = {
         "Cloud Nine"
       ],
       "evos": [
-        "Altaria"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        35
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Altaria": {
@@ -56328,7 +55606,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Hurricane",
@@ -56347,27 +55625,27 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Psychic Noise",
-          "Seething Cold",
-          "Protect",
-          "Follow Me",
+          "Seed Bomb",
+          "Uproar",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -56375,8 +55653,15 @@ overrides = {
         "Pixilate",
         "Cloud Nine"
       ],
-      "evoType": "level",
-      "evoLevel": 35
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Zangoose": {
       "name": "Zangoose",
@@ -56534,38 +55819,47 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Iron Head",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Icy Wind",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Toxic Boost",
         "Poison Heal",
         "Merciless"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Seviper": {
@@ -56724,34 +56018,43 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Foul Play",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Spite",
           "Outrage",
-          "Screech",
-          "Incinerate",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Infiltrator",
         "Strong Jaw",
         "Exploit"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Lunatone": {
@@ -56912,40 +56215,49 @@ overrides = {
           "Grass Knot"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         "Solid Rock",
         "Magic Bounce"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Solrock": {
@@ -57108,41 +56420,50 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
-          "Overheat",
+          "Bind",
+          "Snore",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         "Solar Power",
         "Chlorophyll"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Barboach": {
@@ -57257,22 +56578,22 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Earth Power",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Chilling Water",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -57281,13 +56602,13 @@ overrides = {
         "Berserk"
       ],
       "evos": [
-        "Whiscash"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Whiscash": {
@@ -57447,31 +56768,38 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Earth Power",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Chilling Water",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
-        "Adaptability",
+        "Mold Breaker",
         "Moisturize",
         "Berserk"
       ],
-      "evoType": "level",
-      "evoLevel": 26
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Corphish": {
       "name": "Corphish",
@@ -57604,23 +56932,23 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Ice Punch",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Screech",
-          "Incinerate",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -57629,13 +56957,13 @@ overrides = {
         "Weak Armor"
       ],
       "evos": [
-        "Crawdaunt"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Crawdaunt": {
@@ -57798,23 +57126,23 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Ice Punch",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Screech",
-          "Incinerate",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -57822,8 +57150,15 @@ overrides = {
         "Shell Armor",
         "Weak Armor"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Baltoy": {
       "name": "Baltoy",
@@ -57957,27 +57292,27 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Magic Coat",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Double-Edge",
-          "Lucky Chant",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -57986,13 +57321,13 @@ overrides = {
         "Heavy Metal"
       ],
       "evos": [
-        "Claydol"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Claydol": {
@@ -58139,27 +57474,27 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Magic Coat",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Double-Edge",
-          "Lucky Chant",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -58167,8 +57502,15 @@ overrides = {
         "Well Baked Body",
         "Heavy Metal"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Lileep": {
       "name": "Lileep",
@@ -58278,26 +57620,26 @@ overrides = {
           "Surf"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Sweet Scent",
-          "Gastro Acid",
+          "Electroweb",
+          "Icy Wind",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -58306,13 +57648,13 @@ overrides = {
         "Poison Heal"
       ],
       "evos": [
-        "Cradily"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Cradily": {
@@ -58458,26 +57800,26 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Sweet Scent",
-          "Gastro Acid",
+          "Electroweb",
+          "Icy Wind",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -58485,8 +57827,15 @@ overrides = {
         "Patient",
         "Poison Heal"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Anorith": {
       "name": "Anorith",
@@ -58608,33 +57957,33 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
           "Outrage",
-          "Superpower",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -58643,13 +57992,13 @@ overrides = {
         "Battle Armor"
       ],
       "evos": [
-        "Armaldo"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Armaldo": {
@@ -58800,33 +58149,33 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
           "Outrage",
-          "Superpower",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -58834,8 +58183,15 @@ overrides = {
         "Weak Armor",
         "Battle Armor"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Feebas": {
       "name": "Feebas",
@@ -58904,7 +58260,7 @@ overrides = {
           "Dazzling Gleam",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Wave Crash",
@@ -58923,16 +58279,13 @@ overrides = {
         "Rain Dish"
       ],
       "evos": [
-        "Milotic",
-        "Milotic"
-      ],
-      "evoMethods": [
-        "level",
-        "trade"
-      ],
-      "evoParams": [
-        20,
-        ""
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Milotic": {
@@ -59068,7 +58421,7 @@ overrides = {
           "Dazzling Gleam",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Wave Crash",
@@ -59083,33 +58436,33 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Fake Tears",
-          "Defog",
-          "Sparkle",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Gastro Acid",
+          "After You",
+          "Helping Hand",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -59117,8 +58470,15 @@ overrides = {
         "Marvel Scale",
         "Majestic Ward"
       ],
-      "evoType": "trade",
-      "evoLevel": 20
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Castform": {
       "name": "Castform",
@@ -59261,7 +58621,7 @@ overrides = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -59276,39 +58636,48 @@ overrides = {
           "Surf"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
-          "Self Destruct",
-          "Explosion",
+          "Block",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Forecast",
         "Aerilate",
         "Cloud Nine"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Kecleon": {
@@ -59467,43 +58836,52 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skill Swap",
+          "Super Fang",
           "Dual Chop",
           "Iron Head",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Defog",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "After You",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Adaptability",
         "Shed Skin",
         "Savant"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Shuppet": {
@@ -59609,7 +58987,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Will-O-Wisp",
           "Brutal Swing",
           "Secret Power",
@@ -59619,23 +58997,23 @@ overrides = {
           "Play Rough"
         ],
         "tutors": [
-          "Skill Swap",
-          "Seething Cold",
+          "Super Fang",
+          "Uproar",
           "Magic Coat",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -59644,13 +59022,13 @@ overrides = {
         "Levitate"
       ],
       "evos": [
-        "Banette"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        37
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Banette": {
@@ -59789,7 +59167,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Will-O-Wisp",
           "Brutal Swing",
@@ -59801,23 +59179,23 @@ overrides = {
           "Play Rough"
         ],
         "tutors": [
-          "Skill Swap",
-          "Seething Cold",
+          "Super Fang",
+          "Uproar",
           "Magic Coat",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -59825,8 +59203,15 @@ overrides = {
         "Hustle",
         "Anger Point"
       ],
-      "evoType": "level",
-      "evoLevel": 37
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Duskull": {
       "name": "Duskull",
@@ -59938,27 +59323,27 @@ overrides = {
           "Rock Climb"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -59967,13 +59352,13 @@ overrides = {
         "Levitate"
       ],
       "evos": [
-        "Dusclops"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        37
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Dusclops": {
@@ -60107,27 +59492,27 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -60135,16 +59520,14 @@ overrides = {
         "Cursed Body",
         "Cursed Body"
       ],
-      "evoType": "level",
-      "evoLevel": 37,
       "evos": [
-        "Dusknoir"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        60
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Tropius": {
@@ -60292,28 +59675,37 @@ overrides = {
         ],
         "tutors": [
           "Earth Power",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Screech",
-          "Defog",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Overgrow",
         "Gourmand",
         "Chlorophyll"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Chimecho": {
@@ -60448,7 +59840,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Secret Power",
@@ -60461,32 +59853,32 @@ overrides = {
           "Flash Cannon"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -60494,8 +59886,15 @@ overrides = {
         "Pixilate",
         "Levitate"
       ],
-      "evoType": "level",
-      "evoLevel": 26
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Absol": {
       "name": "Absol",
@@ -60661,37 +60060,46 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Iron Head",
           "Drill Run",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
+          "Dark Pulse",
+          "Zen Headbutt",
           "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Screech",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Justified",
         "Forewarn",
         "Tough Claws"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Wynaut": {
@@ -60757,13 +60165,13 @@ overrides = {
         "Regenerator"
       ],
       "evos": [
-        "Wobbuffet"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        15
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Snorunt": {
@@ -60857,25 +60265,25 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -60884,16 +60292,13 @@ overrides = {
         "Rattled"
       ],
       "evos": [
-        "Glalie",
-        "Froslass"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        35,
-        "Dawn Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Glalie": {
@@ -61036,25 +60441,25 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61062,8 +60467,15 @@ overrides = {
         "Refrigerate",
         "Determined"
       ],
-      "evoType": "level",
-      "evoLevel": 35
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Spheal": {
       "name": "Spheal",
@@ -61201,22 +60613,22 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -61225,13 +60637,13 @@ overrides = {
         "Thick Fat"
       ],
       "evos": [
-        "Sealeo"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Sealeo": {
@@ -61370,22 +60782,22 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -61393,16 +60805,14 @@ overrides = {
         "Resilient",
         "Thick Fat"
       ],
-      "evoType": "level",
-      "evoLevel": 30,
       "evos": [
-        "Walrein"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        60
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Walrein": {
@@ -61562,22 +60972,22 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -61585,8 +60995,15 @@ overrides = {
         "Resilient",
         "Thick Fat"
       ],
-      "evoType": "level",
-      "evoLevel": 60
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Clamperl": {
       "name": "Clamperl",
@@ -61679,24 +61096,24 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Gunk Shot",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61705,16 +61122,13 @@ overrides = {
         "Torrent"
       ],
       "evos": [
-        "Huntail",
-        "Gorebyss"
-      ],
-      "evoMethods": [
-        "trade",
-        "trade"
-      ],
-      "evoParams": [
-        "",
-        ""
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Huntail": {
@@ -61864,24 +61278,24 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Gunk Shot",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -61889,7 +61303,15 @@ overrides = {
         "Shell Armor",
         "Volt Absorb"
       ],
-      "evoType": "trade"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Gorebyss": {
       "name": "Gorebyss",
@@ -62038,24 +61460,24 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
+          "Gunk Shot",
+          "Uproar",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -62063,7 +61485,15 @@ overrides = {
         "Corrosion",
         "Majestic Ward"
       ],
-      "evoType": "trade"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Relicanth": {
       "name": "Relicanth",
@@ -62203,34 +61633,43 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Battle Armor",
         "Determined",
         "Swift Swim"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Luvdisc": {
@@ -62365,31 +61804,40 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
-          "Sweet Scent",
+          "Uproar",
+          "Electroweb",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Friend Guard",
         "Water Absorb",
         "Swift Swim"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Bagon": {
@@ -62506,21 +61954,21 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -62529,13 +61977,13 @@ overrides = {
         "Determined"
       ],
       "evos": [
-        "Shelgon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Shelgon": {
@@ -62659,21 +62107,21 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -62681,16 +62129,14 @@ overrides = {
         "Strong Body",
         "Solid Rock"
       ],
-      "evoType": "level",
-      "evoLevel": 30,
       "evos": [
-        "Salamence"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        60
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Salamence": {
@@ -62848,21 +62294,21 @@ overrides = {
           "Dual Chop",
           "Iron Head",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -62870,8 +62316,15 @@ overrides = {
         "Moxie",
         "Determined"
       ],
-      "evoType": "level",
-      "evoLevel": 60
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Beldum": {
       "name": "Beldum",
@@ -62939,27 +62392,27 @@ overrides = {
         "tms": [],
         "tutors": [
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Thunder Punch",
           "Ice Punch",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -62968,13 +62421,13 @@ overrides = {
         "Light Metal"
       ],
       "evos": [
-        "Metang"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Metang": {
@@ -63103,26 +62556,26 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Thunder Punch",
           "Ice Punch",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Low Sweep",
-          "Icy Wind",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -63130,16 +62583,14 @@ overrides = {
         "Strong Body",
         "Light Metal"
       ],
-      "evoType": "level",
-      "evoLevel": 20,
       "evos": [
-        "Metagross"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        60
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Metagross": {
@@ -63288,26 +62739,26 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Thunder Punch",
           "Ice Punch",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Low Sweep",
-          "Icy Wind",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -63315,8 +62766,15 @@ overrides = {
         "Strong Body",
         "Speed Boost"
       ],
-      "evoType": "level",
-      "evoLevel": 60
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Regirock": {
       "name": "Regirock",
@@ -63436,18 +62894,27 @@ overrides = {
           "Ice Punch",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Focus Punch",
-          "Heal Pulse",
+          "Iron Defense",
           "Superpower",
-          "Snarl",
-          "Take Down"
+          "Snore",
+          "Drain Punch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Solid Rock",
         " -",
         "Sturdy"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Regice": {
@@ -63568,16 +63035,25 @@ overrides = {
           "Thunder Punch",
           "Ice Punch",
           "Gravity",
-          "Focus Punch",
-          "Gastro Acid",
-          "Heal Pulse",
-          "Take Down"
+          "Superpower",
+          "Icy Wind",
+          "Snore",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Strong Body",
         " -",
         "Ice Body"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Registeel": {
@@ -63706,18 +63182,27 @@ overrides = {
           "Thunder Punch",
           "Ice Punch",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Focus Punch",
-          "Heal Pulse",
-          "Snarl",
-          "Take Down"
+          "Magnet Rise",
+          "Iron Defense",
+          "Superpower",
+          "Snore",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Heatproof",
         " -",
         "Light Metal"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Latias": {
@@ -63868,27 +63353,36 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Seed Bomb",
+          "Covet",
           "Magic Coat",
-          "Explosion",
-          "Gastro Acid",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
+          "Last Resort",
+          "Icy Wind",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Snore",
+          "Role Play",
+          "Tailwind",
           "Roost",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Take Down"
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Levitate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Latios": {
@@ -64040,24 +63534,33 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Magic Coat",
-          "Explosion",
-          "Gastro Acid",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
-          "Rest",
+          "Last Resort",
+          "Icy Wind",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Snore",
+          "Tailwind",
           "Roost",
-          "Sparkle",
-          "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Take Down"
+          "Helping Hand",
+          "Trick",
+          "Wonder Room",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Levitate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Kyogre": {
@@ -64175,17 +63678,26 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
-          "Seething Cold",
-          "Gastro Acid",
+          "Uproar",
+          "Icy Wind",
           "Aqua Tail",
-          "Heal Pulse",
-          "Take Down"
+          "Snore",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Drizzle",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Groudon": {
@@ -64313,21 +63825,30 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Follow Me",
+          "Dragon Pulse",
           "Iron Tail",
-          "Heal Pulse",
-          "Snarl",
-          "Take Down"
+          "Snore",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Drought",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Rayquaza": {
@@ -64434,7 +63955,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -64463,24 +63984,33 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Iron Head",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Gastro Acid",
+          "Icy Wind",
           "Aqua Tail",
-          "Follow Me",
-          "Defense Curl",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Rest",
-          "Breaking Swipe",
-          "Take Down"
+          "Bind",
+          "Snore",
+          "Tailwind",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Air Lock",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Jirachi": {
@@ -64613,31 +64143,40 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Psyblade",
-          "Heal Pulse",
-          "Superpower",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Zen Headbutt",
+          "Snore",
+          "Drain Punch",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Serene Grace",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Deoxys": {
@@ -64778,26 +64317,35 @@ overrides = {
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Gastro Acid",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Superpower",
-          "Electroweb",
-          "Low Sweep",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Zen Headbutt",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Drain Punch",
+          "Trick",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Neutralizing Gas",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Turtwig": {
@@ -64912,20 +64460,20 @@ overrides = {
           "Frenzy Plant",
           "Drill Run",
           "Earth Power",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -64934,13 +64482,13 @@ overrides = {
         "Solid Rock"
       ],
       "evos": [
-        "Grotle"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Grotle": {
@@ -65068,20 +64616,20 @@ overrides = {
           "Frenzy Plant",
           "Drill Run",
           "Earth Power",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -65089,16 +64637,14 @@ overrides = {
         "Overgrow",
         "Solid Rock"
       ],
-      "evoType": "level",
-      "evoLevel": 18,
       "evos": [
-        "Torterra"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Torterra": {
@@ -65251,20 +64797,20 @@ overrides = {
           "Frenzy Plant",
           "Drill Run",
           "Earth Power",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Superpower",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -65272,8 +64818,15 @@ overrides = {
         "Determined",
         "Solid Rock"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Chimchar": {
       "name": "Chimchar",
@@ -65394,28 +64947,28 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -65424,13 +64977,13 @@ overrides = {
         "Flame Body"
       ],
       "evos": [
-        "Monferno"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Monferno": {
@@ -65577,28 +65130,28 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -65606,16 +65159,14 @@ overrides = {
         "Blaze",
         "Flame Body"
       ],
-      "evoType": "level",
-      "evoLevel": 16,
       "evos": [
-        "Infernape"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Infernape": {
@@ -65783,28 +65334,28 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -65812,8 +65363,15 @@ overrides = {
         "Blaze",
         "Exploit"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Piplup": {
       "name": "Piplup",
@@ -65909,7 +65467,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Fling",
@@ -65933,21 +65491,21 @@ overrides = {
           "Hydro Cannon",
           "Iron Head",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -65956,13 +65514,13 @@ overrides = {
         "Slush Rush"
       ],
       "evos": [
-        "Prinplup"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        16
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prinplup": {
@@ -66079,7 +65637,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Fling",
@@ -66102,21 +65660,21 @@ overrides = {
           "Hydro Cannon",
           "Iron Head",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66124,16 +65682,14 @@ overrides = {
         "Torrent",
         "Slush Rush"
       ],
-      "evoType": "level",
-      "evoLevel": 16,
       "evos": [
-        "Empoleon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Empoleon": {
@@ -66264,7 +65820,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Fling",
@@ -66292,21 +65848,21 @@ overrides = {
           "Hydro Cannon",
           "Iron Head",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66314,8 +65870,15 @@ overrides = {
         "Torrent",
         "Slush Rush"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Starly": {
       "name": "Starly",
@@ -66361,11 +65924,11 @@ overrides = {
           ],
           [
             13,
-            "Retaliate"
+            "Submission"
           ],
           [
             17,
-            "Double Team"
+            "Retaliate"
           ],
           [
             20,
@@ -66401,7 +65964,7 @@ overrides = {
           "Lunge",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Hurricane",
           "Endure",
@@ -66410,17 +65973,17 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66429,13 +65992,13 @@ overrides = {
         "Reckless"
       ],
       "evos": [
-        "Staravia"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        14
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Staravia": {
@@ -66451,11 +66014,11 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 55,
-        "at": 75,
+        "hp": 75,
+        "at": 95,
         "df": 50,
         "sa": 40,
-        "sd": 40,
+        "sd": 50,
         "sp": 80
       },
       "learnset_info": {
@@ -66482,11 +66045,11 @@ overrides = {
           ],
           [
             13,
-            "Retaliate"
+            "Submission"
           ],
           [
             17,
-            "Double Team"
+            "Retaliate"
           ],
           [
             20,
@@ -66522,7 +66085,7 @@ overrides = {
           ],
           [
             49,
-            "Me First"
+            "Double Team"
           ],
           [
             53,
@@ -66542,7 +66105,7 @@ overrides = {
           "Lunge",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Hurricane",
           "Secret Power",
@@ -66552,17 +66115,17 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66570,16 +66133,14 @@ overrides = {
         "Reckless",
         "Reckless"
       ],
-      "evoType": "level",
-      "evoLevel": 14,
       "evos": [
-        "Staraptor"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        34
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Staraptor": {
@@ -66626,11 +66187,11 @@ overrides = {
           ],
           [
             13,
-            "Retaliate"
+            "Submission"
           ],
           [
             17,
-            "Double Team"
+            "Retaliate"
           ],
           [
             20,
@@ -66666,7 +66227,7 @@ overrides = {
           ],
           [
             49,
-            "Me First"
+            "Double Team"
           ],
           [
             53,
@@ -66698,7 +66259,7 @@ overrides = {
           "Lunge",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Hurricane",
           "Secret Power",
@@ -66708,17 +66269,17 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66726,8 +66287,15 @@ overrides = {
         "Reckless",
         "Reckless"
       ],
-      "evoType": "level",
-      "evoLevel": 34
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Bidoof": {
       "name": "Bidoof",
@@ -66831,7 +66399,7 @@ overrides = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Wave Crash",
           "Secret Power",
@@ -66848,27 +66416,27 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Bounce",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -66877,13 +66445,13 @@ overrides = {
         "Huge Power"
       ],
       "evos": [
-        "Bibarel"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        15
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Bibarel": {
@@ -67006,7 +66574,7 @@ overrides = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Fling",
@@ -67026,27 +66594,27 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Bounce",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -67054,8 +66622,15 @@ overrides = {
         "Huge Power",
         "Huge Power"
       ],
-      "evoType": "level",
-      "evoLevel": 15
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Kricketot": {
       "name": "Kricketot",
@@ -67132,7 +66707,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Secret Power",
@@ -67146,27 +66721,27 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
-          "Psychic Noise",
-          "Cross Poison",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Defog",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Seed Bomb",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "After You",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -67175,13 +66750,13 @@ overrides = {
         "Savant"
       ],
       "evos": [
-        "Kricketune"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Kricketune": {
@@ -67303,7 +66878,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Secret Power",
@@ -67317,27 +66892,27 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Signal Beam",
-          "Psychic Noise",
-          "Cross Poison",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Defog",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Seed Bomb",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "After You",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -67345,8 +66920,15 @@ overrides = {
         "Technician",
         "Savant"
       ],
-      "evoType": "level",
-      "evoLevel": 18
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Shinx": {
       "name": "Shinx",
@@ -67468,18 +67050,18 @@ overrides = {
         ],
         "tutors": [
           "Foul Play",
-          "Zen Headbutt",
-          "Protect",
+          "Magnet Rise",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -67488,13 +67070,13 @@ overrides = {
         "Rivalry"
       ],
       "evos": [
-        "Luxio"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        15
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Luxio": {
@@ -67633,18 +67215,18 @@ overrides = {
         ],
         "tutors": [
           "Foul Play",
-          "Zen Headbutt",
-          "Protect",
+          "Magnet Rise",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -67652,19 +67234,14 @@ overrides = {
         "Guts",
         "Rivalry"
       ],
-      "evoType": "level",
-      "evoLevel": 15,
       "evos": [
-        "Luxray",
-        "Luxray"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        42,
-        "Thunderstone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Luxray": {
@@ -67819,18 +67396,18 @@ overrides = {
         ],
         "tutors": [
           "Foul Play",
-          "Zen Headbutt",
-          "Protect",
+          "Magnet Rise",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -67838,9 +67415,15 @@ overrides = {
         "Guts",
         "Rivalry"
       ],
-      "evoType": "useItem",
-      "evoLevel": 42,
-      "evoItem": "Thunderstone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Budew": {
       "name": "Budew",
@@ -67948,19 +67531,19 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Cross Poison",
-          "Sweet Scent",
-          "Protect",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Covet",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -67969,13 +67552,13 @@ overrides = {
         "Chlorophyll"
       ],
       "evos": [
-        "Roselia"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Roserade": {
@@ -68109,19 +67692,19 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Cross Poison",
-          "Sweet Scent",
-          "Protect",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Covet",
+          "Gunk Shot",
+          "Electroweb",
+          "Dark Pulse",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -68129,9 +67712,15 @@ overrides = {
         "Majestic Ward",
         "Serene Grace"
       ],
-      "evoType": "level",
-      "evoItem": "Shiny Stone",
-      "evoLevel": 50
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Cranidos": {
       "name": "Cranidos",
@@ -68267,26 +67856,26 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -68295,13 +67884,13 @@ overrides = {
         "Sheer Force"
       ],
       "evos": [
-        "Rampardos"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Rampardos": {
@@ -68459,26 +68048,26 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -68486,8 +68075,15 @@ overrides = {
         "Resilient",
         "Sheer Force"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Shieldon": {
       "name": "Shieldon",
@@ -68623,24 +68219,24 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Earth Power",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Sparkle",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -68649,13 +68245,13 @@ overrides = {
         "Bulletproof"
       ],
       "evos": [
-        "Bastiodon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Bastiodon": {
@@ -68804,24 +68400,24 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Earth Power",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Sparkle",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -68829,8 +68425,15 @@ overrides = {
         "Battle Armor",
         "Bulletproof"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Burmy": {
       "name": "Burmy",
@@ -68895,28 +68498,13 @@ overrides = {
         "Overcoat"
       ],
       "evos": [
-        "Wormadam",
-        "Mothim",
-        "Mothim",
-        "Wormadam",
-        "Wormadam",
-        "Wormadam"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem",
-        "level",
-        "useItem",
-        "useItem",
-        "useItem"
-      ],
-      "evoParams": [
-        20,
-        "Shiny Stone",
-        20,
-        "Leaf Stone",
-        "Fire Stone",
-        "Metal Coat"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Wormadam": {
@@ -69051,30 +68639,30 @@ overrides = {
           "Grass Knot"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Earth Power",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -69082,9 +68670,15 @@ overrides = {
         "Battle Armor",
         "Overcoat"
       ],
-      "evoType": "useItem",
-      "evoLevel": 20,
-      "evoItem": "Metal Coat"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Mothim": {
       "name": "Mothim",
@@ -69220,24 +68814,24 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
           "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -69245,9 +68839,15 @@ overrides = {
         "Tenacity",
         "Wind Rider"
       ],
-      "evoType": "level",
-      "evoItem": "Shiny Stone",
-      "evoLevel": 20
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Combee": {
       "name": "Combee",
@@ -69356,25 +68956,25 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Seething Cold",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Uproar",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Sparkle",
-          "Struggle Bug",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -69383,16 +68983,13 @@ overrides = {
         "Hustle"
       ],
       "evos": [
-        "Vespiquen",
-        "Vespiquen"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        42,
-        "Shiny Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Vespiquen": {
@@ -69536,24 +69133,24 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Seething Cold",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Uproar",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Sparkle",
-          "Struggle Bug",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -69561,9 +69158,15 @@ overrides = {
         "Majestic Ward",
         "Filter"
       ],
-      "evoType": "useItem",
-      "evoLevel": 42,
-      "evoItem": "Shiny Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Pachirisu": {
       "name": "Pachirisu",
@@ -69684,7 +69287,7 @@ overrides = {
           "Dazzling Gleam",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Secret Power",
           "Gunk Shot",
@@ -69699,28 +69302,37 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Thunder Punch",
-          "Zen Headbutt",
-          "Protect",
-          "Follow Me",
+          "Magnet Rise",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Prankster",
         "Pickup",
         "Run Away"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Buizel": {
@@ -69737,25 +69349,25 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 65,
+        "at": 75,
         "df": 35,
-        "sa": 60,
+        "sa": 70,
         "sd": 30,
-        "sp": 85
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
           [
             1,
-            "Water Gun"
+            "Aqua Jet"
           ],
           [
             1,
-            "Growl"
+            "Swift"
           ],
           [
             4,
-            "Low Kick"
+            "Detect"
           ],
           [
             7,
@@ -69763,11 +69375,11 @@ overrides = {
           ],
           [
             10,
-            "Swift"
+            "Water Pulse"
           ],
           [
             14,
-            "Aqua Jet"
+            "U-turn"
           ],
           [
             17,
@@ -69775,7 +69387,7 @@ overrides = {
           ],
           [
             20,
-            "Water Pulse"
+            "Scald"
           ],
           [
             23,
@@ -69817,7 +69429,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Breaking Swipe",
           "Scald",
@@ -69838,36 +69450,36 @@ overrides = {
           "Dual Chop",
           "Low Kick",
           "Ice Punch",
-          "Focus Punch",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
-        "Reckless",
+        "Torrent",
         "Technician",
         "Swift Swim"
       ],
       "evos": [
-        "Floatzel"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Floatzel": {
@@ -69902,7 +69514,7 @@ overrides = {
           ],
           [
             4,
-            "Low Kick"
+            "Detect"
           ],
           [
             7,
@@ -69910,11 +69522,11 @@ overrides = {
           ],
           [
             10,
-            "Swift"
+            "Water Pulse"
           ],
           [
             14,
-            "Aqua Jet"
+            "U-turn"
           ],
           [
             17,
@@ -69922,7 +69534,7 @@ overrides = {
           ],
           [
             20,
-            "Water Pulse"
+            "Scald"
           ],
           [
             23,
@@ -69997,7 +69609,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Breaking Swipe",
@@ -70019,21 +69631,21 @@ overrides = {
           "Dual Chop",
           "Low Kick",
           "Ice Punch",
-          "Focus Punch",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
-          "Defense Curl",
+          "Dark Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70041,8 +69653,15 @@ overrides = {
         "Technician",
         "Swift Swim"
       ],
-      "evoType": "level",
-      "evoLevel": 26
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Cherubi": {
       "name": "Cherubi",
@@ -70162,24 +69781,24 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Fire Punch",
           "Earth Power",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Incinerate",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70188,13 +69807,13 @@ overrides = {
         "Chlorophyll"
       ],
       "evos": [
-        "Cherrim"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Cherrim": {
@@ -70343,23 +69962,23 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Fire Punch",
           "Earth Power",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
-          "Rest",
-          "Toxic",
-          "Incinerate",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Heat Wave",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
+          "Helping Hand",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70367,8 +69986,15 @@ overrides = {
         "Flower Gift",
         "Flower Gift"
       ],
-      "evoType": "level",
-      "evoLevel": 25
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Shellos": {
       "name": "Shellos",
@@ -70486,18 +70112,18 @@ overrides = {
         ],
         "tutors": [
           "Drill Run",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70506,13 +70132,13 @@ overrides = {
         "Sand Force"
       ],
       "evos": [
-        "Gastrodon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Gastrodon": {
@@ -70674,16 +70300,16 @@ overrides = {
         "tutors": [
           "Drill Run",
           "Earth Power",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70691,8 +70317,15 @@ overrides = {
         "Sand Force",
         "Sand Force"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Ambipom": {
       "name": "Ambipom",
@@ -70823,34 +70456,34 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Bounce",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -70859,7 +70492,16 @@ overrides = {
         "Skill Link"
       ],
       "evoType": "level",
-      "evoLevel": 28
+      "evoLevel": 28,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Drifloon": {
       "name": "Drifloon",
@@ -70996,21 +70638,21 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seething Cold",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Incinerate",
-          "Defog",
-          "Electroweb",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
+          "After You",
+          "Trick",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -71019,13 +70661,13 @@ overrides = {
         "Aerilate"
       ],
       "evos": [
-        "Drifblim"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Drifblim": {
@@ -71180,21 +70822,21 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Seething Cold",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Incinerate",
-          "Defog",
-          "Electroweb",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Uproar",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
+          "After You",
+          "Trick",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -71202,8 +70844,15 @@ overrides = {
         "Unburden",
         "Aerilate"
       ],
-      "evoType": "level",
-      "evoLevel": 28
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Buneary": {
       "name": "Buneary",
@@ -71316,7 +70965,7 @@ overrides = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Acrobatics",
           "Secret Power",
@@ -71335,19 +70984,19 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -71356,13 +71005,13 @@ overrides = {
         "Fluffy"
       ],
       "evos": [
-        "Lopunny"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        31
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Lopunny": {
@@ -71506,7 +71155,7 @@ overrides = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Acrobatics",
@@ -71527,19 +71176,19 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -71547,8 +71196,15 @@ overrides = {
         "Hustle",
         "Fluffy"
       ],
-      "evoType": "level",
-      "evoLevel": 31
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Mismagius": {
       "name": "Mismagius",
@@ -71676,7 +71332,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Will-O-Wisp",
           "Power Gem",
@@ -71688,26 +71344,26 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Skill Swap",
-          "Psychic Noise",
-          "Seething Cold",
+          "Super Fang",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Protect",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Dark Pulse",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -71717,7 +71373,16 @@ overrides = {
       ],
       "evoType": "level",
       "evoItem": "Dusk Stone",
-      "evoLevel": 50
+      "evoLevel": 50,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Honchkrow": {
       "name": "Honchkrow",
@@ -71866,25 +71531,25 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -71894,7 +71559,16 @@ overrides = {
       ],
       "evoType": "level",
       "evoItem": "Dusk Stone",
-      "evoLevel": 50
+      "evoLevel": 50,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Glameow": {
       "name": "Glameow",
@@ -72003,7 +71677,7 @@ overrides = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Shadow Claw",
@@ -72015,22 +71689,22 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Skill Swap",
+          "Covet",
+          "Super Fang",
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72039,13 +71713,13 @@ overrides = {
         "Run Away"
       ],
       "evos": [
-        "Purugly"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Purugly": {
@@ -72179,7 +71853,7 @@ overrides = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Shadow Claw",
@@ -72191,22 +71865,22 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Skill Swap",
+          "Covet",
+          "Super Fang",
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72214,8 +71888,15 @@ overrides = {
         "Defiant",
         "Thick Fat"
       ],
-      "evoType": "level",
-      "evoLevel": 28
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Chingling": {
       "name": "Chingling",
@@ -72297,7 +71978,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Sparkle",
@@ -72312,27 +71993,27 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72341,13 +72022,13 @@ overrides = {
         "Levitate"
       ],
       "evos": [
-        "Chimecho"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Stunky": {
@@ -72484,25 +72165,25 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Iron Tail",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72511,13 +72192,13 @@ overrides = {
         "Intimidate"
       ],
       "evos": [
-        "Skuntank"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Skuntank": {
@@ -72672,25 +72353,25 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Iron Tail",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72698,8 +72379,15 @@ overrides = {
         "Neutralizing Gas",
         "Intimidate"
       ],
-      "evoType": "level",
-      "evoLevel": 28
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Bronzor": {
       "name": "Bronzor",
@@ -72829,26 +72517,26 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
           "Earth Power",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -72857,13 +72545,13 @@ overrides = {
         "Heavy Metal"
       ],
       "evos": [
-        "Bronzong"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        33
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Bronzong": {
@@ -73012,26 +72700,26 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
           "Earth Power",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -73039,8 +72727,15 @@ overrides = {
         "Heatproof",
         "Heavy Metal"
       ],
-      "evoType": "level",
-      "evoLevel": 33
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Bonsly": {
       "name": "Bonsly",
@@ -73185,8 +72880,8 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Skill Swap",
+          "Covet",
+          "Super Fang",
           "Drill Run",
           "Low Kick",
           "Thunder Punch",
@@ -73194,24 +72889,24 @@ overrides = {
           "Ice Punch",
           "Earth Power",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -73220,13 +72915,13 @@ overrides = {
         "Sap Sipper"
       ],
       "evos": [
-        "Sudowoodo"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Mime Jr.": {
@@ -73365,36 +73060,36 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Covet",
+          "Super Fang",
           "Seed Bomb",
-          "Skill Swap",
-          "Psychic Noise",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -73403,13 +73098,13 @@ overrides = {
         "Distracting"
       ],
       "evos": [
-        "Mr. Mime"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        28
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Happiny": {
@@ -73481,7 +73176,7 @@ overrides = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Incinerate",
           "Brutal Swing",
@@ -73496,34 +73191,34 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Icy Wind",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -73532,13 +73227,13 @@ overrides = {
         "Healer"
       ],
       "evos": [
-        "Chansey"
-      ],
-      "evoMethods": [
-        "useItem"
-      ],
-      "evoParams": [
-        "Oval Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Chatot": {
@@ -73659,7 +73354,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Hurricane",
           "Secret Power",
           "Struggle Bug",
@@ -73670,26 +73365,35 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Psychic Noise",
-          "Protect",
-          "Follow Me",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Seed Bomb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Trace",
         "Amplifier",
         "Distracting"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Spiritomb": {
@@ -73824,25 +73528,34 @@ overrides = {
           "Snarl"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Zen Headbutt",
-          "Protect",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Incinerate",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Magnet Rise",
+          "Dark Pulse",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Merciless",
         "Infiltrator",
         "Magic Guard"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Gible": {
@@ -73958,17 +73671,17 @@ overrides = {
           "Drill Run",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Spite",
           "Outrage",
-          "Incinerate",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -73977,13 +73690,13 @@ overrides = {
         "Mold Breaker"
       ],
       "evos": [
-        "Gabite"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Gabite": {
@@ -74119,17 +73832,17 @@ overrides = {
           "Drill Run",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Spite",
           "Outrage",
-          "Incinerate",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -74137,16 +73850,14 @@ overrides = {
         "Strong Body",
         "Mold Breaker"
       ],
-      "evoType": "level",
-      "evoLevel": 30,
       "evos": [
-        "Garchomp"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        60
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Garchomp": {
@@ -74301,17 +74012,17 @@ overrides = {
           "Drill Run",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Spite",
           "Outrage",
-          "Incinerate",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -74319,8 +74030,15 @@ overrides = {
         "Strong Body",
         "Mold Breaker"
       ],
-      "evoType": "level",
-      "evoLevel": 60
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Munchlax": {
       "name": "Munchlax",
@@ -74431,33 +74149,33 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
           "Bounce",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -74466,13 +74184,13 @@ overrides = {
         "Scrappy"
       ],
       "evos": [
-        "Snorlax"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        42
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Riolu": {
@@ -74598,23 +74316,23 @@ overrides = {
           "Low Kick",
           "Thunder Punch",
           "Ice Punch",
-          "Barrier",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Block",
+          "Magnet Rise",
+          "Iron Defense",
           "Superpower",
-          "Screech",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -74623,13 +74341,13 @@ overrides = {
         "Adaptability"
       ],
       "evos": [
-        "Lucario"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        33
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Lucario": {
@@ -74789,23 +74507,23 @@ overrides = {
           "Low Kick",
           "Thunder Punch",
           "Ice Punch",
-          "Barrier",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Block",
+          "Magnet Rise",
+          "Iron Defense",
           "Superpower",
-          "Screech",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -74813,8 +74531,15 @@ overrides = {
         "Skill Link",
         "Exploit"
       ],
-      "evoType": "level",
-      "evoLevel": 33
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Hippopotas": {
       "name": "Hippopotas",
@@ -74934,16 +74659,16 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Gastro Acid",
-          "Protect",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -74952,13 +74677,13 @@ overrides = {
         "Strong Jaw"
       ],
       "evos": [
-        "Hippowdon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        34
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Hippowdon": {
@@ -75096,16 +74821,16 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Gastro Acid",
-          "Protect",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -75113,8 +74838,15 @@ overrides = {
         "Resilient",
         "Strong Jaw"
       ],
-      "evoType": "level",
-      "evoLevel": 34
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Skorupi": {
       "name": "Skorupi",
@@ -75248,20 +74980,20 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Cross Poison",
+          "Bug Bite",
+          "Gunk Shot",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -75270,13 +75002,13 @@ overrides = {
         "Sniper"
       ],
       "evos": [
-        "Drapion"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Drapion": {
@@ -75431,20 +75163,20 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Cross Poison",
+          "Bug Bite",
+          "Gunk Shot",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -75452,8 +75184,15 @@ overrides = {
         "Tough Claws",
         "Sniper"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Croagunk": {
       "name": "Croagunk",
@@ -75598,26 +75337,26 @@ overrides = {
           "Dual Chop",
           "Bounce",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Ice Punch",
           "Foul Play",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -75626,13 +75365,13 @@ overrides = {
         "Dry Skin"
       ],
       "evos": [
-        "Toxicroak"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        37
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Toxicroak": {
@@ -75793,26 +75532,26 @@ overrides = {
           "Dual Chop",
           "Bounce",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Ice Punch",
           "Foul Play",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -75820,8 +75559,15 @@ overrides = {
         "Exploit",
         "Dry Skin"
       ],
-      "evoType": "level",
-      "evoLevel": 37
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Carnivine": {
       "name": "Carnivine",
@@ -75973,32 +75719,41 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Iron Head",
           "Bounce",
           "Foul Play",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
+          "Magnet Rise",
+          "Iron Defense",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Screech",
-          "Chilling Water",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Worry Seed",
+          "Magic Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Levitate",
         "Patient",
         "Strong Jaw"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Finneon": {
@@ -76155,21 +75910,21 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Defog",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "After You",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76178,13 +75933,13 @@ overrides = {
         "Storm Drain"
       ],
       "evos": [
-        "Lumineon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        21
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Lumineon": {
@@ -76343,21 +76098,21 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Defog",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "After You",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76365,8 +76120,15 @@ overrides = {
         "Illumination",
         "Storm Drain"
       ],
-      "evoType": "level",
-      "evoLevel": 21
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Mantyke": {
       "name": "Mantyke",
@@ -76482,21 +76244,21 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Seething Cold",
-          "Barrier",
+          "Uproar",
+          "Block",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Defog",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76505,13 +76267,13 @@ overrides = {
         "Rain Dish"
       ],
       "evos": [
-        "Mantine"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Snover": {
@@ -76643,23 +76405,23 @@ overrides = {
           "Thunder Punch",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Electroweb",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76668,13 +76430,13 @@ overrides = {
         "Filter"
       ],
       "evos": [
-        "Abomasnow"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Abomasnow": {
@@ -76829,23 +76591,23 @@ overrides = {
           "Thunder Punch",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Electroweb",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -76853,8 +76615,15 @@ overrides = {
         "Resilient",
         "Filter"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Weavile": {
       "name": "Weavile",
@@ -77011,23 +76780,23 @@ overrides = {
         ],
         "tutors": [
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
           "Foul Play",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -77037,7 +76806,16 @@ overrides = {
       ],
       "evoType": "useItem",
       "evoLevel": 50,
-      "evoItem": "Dusk Stone"
+      "evoItem": "Dusk Stone",
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Magnezone": {
       "name": "Magnezone",
@@ -77163,7 +76941,7 @@ overrides = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Teleport",
@@ -77183,22 +76961,22 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down"
+          "Trick",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -77208,7 +76986,16 @@ overrides = {
       ],
       "evoType": "useItem",
       "evoLevel": 50,
-      "evoItem": "Thunderstone"
+      "evoItem": "Thunderstone",
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Lickilicky": {
       "name": "Lickilicky",
@@ -77371,33 +77158,33 @@ overrides = {
         "tutors": [
           "Bounce",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -77406,7 +77193,16 @@ overrides = {
         "Cloud Nine"
       ],
       "evoType": "level",
-      "evoLevel": 33
+      "evoLevel": 33,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Rhyperior": {
       "name": "Rhyperior",
@@ -77567,25 +77363,25 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -77594,7 +77390,16 @@ overrides = {
         "Bulletproof"
       ],
       "evoType": "level",
-      "evoLevel": 50
+      "evoLevel": 50,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Tangrowth": {
       "name": "Tangrowth",
@@ -77736,26 +77541,26 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Electroweb",
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Chilling Water",
-          "Struggle Bug",
-          "Natural Gift",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -77764,7 +77569,16 @@ overrides = {
         "Overgrow"
       ],
       "evoType": "levelMove",
-      "evoMove": "Ancientpower"
+      "evoMove": "Ancientpower",
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Electivire": {
       "name": "Electivire",
@@ -77917,20 +77731,20 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -77939,7 +77753,16 @@ overrides = {
         "Galvanize"
       ],
       "evoType": "level",
-      "evoLevel": 50
+      "evoLevel": 50,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Magmortar": {
       "name": "Magmortar",
@@ -78093,27 +77916,27 @@ overrides = {
         "tutors": [
           "Dual Chop",
           "Low Kick",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -78122,7 +77945,16 @@ overrides = {
         "Ballistics"
       ],
       "evoType": "level",
-      "evoLevel": 50
+      "evoLevel": 50,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Togekiss": {
       "name": "Togekiss",
@@ -78253,7 +78085,7 @@ overrides = {
           "Heat Wave",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Hurricane",
@@ -78270,28 +78102,28 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -78301,7 +78133,16 @@ overrides = {
       ],
       "evoType": "useItem",
       "evoLevel": 50,
-      "evoItem": "Shiny Stone"
+      "evoItem": "Shiny Stone",
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Yanmega": {
       "name": "Yanmega",
@@ -78439,30 +78280,30 @@ overrides = {
           "U-turn"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Sweet Scent",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Roost",
-          "Screech",
-          "Defog",
-          "Sparkle",
           "Electroweb",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Roost",
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Endeavor",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -78471,7 +78312,16 @@ overrides = {
         "Keen Senses"
       ],
       "evoType": "level",
-      "evoLevel": 33
+      "evoLevel": 33,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Leafeon": {
       "name": "Leafeon",
@@ -78592,7 +78442,7 @@ overrides = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -78607,46 +78457,46 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -78655,7 +78505,16 @@ overrides = {
         "Chlorophyll"
       ],
       "evoType": "useItem",
-      "evoItem": "Leaf Stone"
+      "evoItem": "Leaf Stone",
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Glaceon": {
       "name": "Glaceon",
@@ -78774,7 +78633,7 @@ overrides = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Power Gem",
           "Secret Power",
@@ -78788,46 +78647,46 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Foul Play",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Bind",
+          "Snore",
+          "Knock Off",
           "Synthesis",
-          "Overheat",
+          "Heat Wave",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -78836,7 +78695,16 @@ overrides = {
         "Slush Rush"
       ],
       "evoType": "useItem",
-      "evoItem": "Dawn Stone"
+      "evoItem": "Dawn Stone",
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Gliscor": {
       "name": "Gliscor",
@@ -78997,25 +78865,25 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Dual Chop",
           "Drill Run",
           "Bounce",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Worry Seed",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -79024,7 +78892,16 @@ overrides = {
         "Wind Rider"
       ],
       "evoType": "level",
-      "evoLevel": 38
+      "evoLevel": 38,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Mamoswine": {
       "name": "Mamoswine",
@@ -79170,22 +79047,22 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -79194,7 +79071,16 @@ overrides = {
         "Berserk"
       ],
       "evoType": "level",
-      "evoLevel": 50
+      "evoLevel": 50,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Porygon-Z": {
       "name": "Porygon-Z",
@@ -79314,7 +79200,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Sparkle",
@@ -79326,31 +79212,31 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Icy Wind",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -79359,7 +79245,16 @@ overrides = {
         "Normalize"
       ],
       "evoType": "level",
-      "evoLevel": 50
+      "evoLevel": 50,
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Gallade": {
       "name": "Gallade",
@@ -79514,7 +79409,7 @@ overrides = {
           "Aura Sphere",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Ally Switch",
           "Focus Blast",
           "Breaking Swipe",
@@ -79543,31 +79438,31 @@ overrides = {
         "tutors": [
           "Dual Chop",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -79575,8 +79470,15 @@ overrides = {
         "Majestic Ward",
         "Justified"
       ],
-      "evoType": "useItem",
-      "evoItem": "Dawn Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Probopass": {
       "name": "Probopass",
@@ -79724,23 +79626,23 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
+          "Magnet Rise",
+          "Iron Defense",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down"
+          "Trick",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -79748,8 +79650,15 @@ overrides = {
         "Sturdy",
         "Sand Force"
       ],
-      "evoType": "useItem",
-      "evoItem": "Thunderstone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Dusknoir": {
       "name": "Dusknoir",
@@ -79896,28 +79805,28 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -79925,8 +79834,15 @@ overrides = {
         "Forewarn",
         "Levitate"
       ],
-      "evoType": "level",
-      "evoLevel": 60
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Froslass": {
       "name": "Froslass",
@@ -80076,28 +79992,28 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Ice Punch",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Last Resort",
+          "Superpower",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -80105,8 +80021,15 @@ overrides = {
         "Ice Body",
         "Serene Grace"
       ],
-      "evoType": "useItem",
-      "evoItem": "Dawn Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Rotom": {
       "name": "Rotom",
@@ -80263,32 +80186,41 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         "Galvanize",
         "Galvanize"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Uxie": {
@@ -80409,27 +80341,36 @@ overrides = {
           "Ice Punch",
           "Magic Coat",
           "Foul Play",
-          "Psyblade",
+          "Zen Headbutt",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Giga Drain",
           "Helping Hand",
-          "Healing Wish",
-          "Outrage",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Mesprit": {
@@ -80550,25 +80491,34 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Psyblade",
+          "Zen Headbutt",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Snore",
+          "Knock Off",
+          "Role Play",
           "Helping Hand",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         "Levitate",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Azelf": {
@@ -80690,31 +80640,40 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Explosion",
-          "Psyblade",
+          "Last Resort",
+          "Zen Headbutt",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Snore",
+          "Knock Off",
+          "Role Play",
           "Helping Hand",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Dialga": {
@@ -80825,7 +80784,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Incinerate",
           "Shadow Claw",
@@ -80850,21 +80809,30 @@ overrides = {
           "Iron Head",
           "Earth Power",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Follow Me",
-          "Defense Curl",
+          "Magnet Rise",
+          "Iron Defense",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Heal Pulse",
-          "Breaking Swipe",
-          "Snarl",
-          "Take Down"
+          "Snore",
+          "Outrage",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Neutralizing Gas",
         " -",
         "Permafrost"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Palkia": {
@@ -80977,7 +80945,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Incinerate",
@@ -81003,17 +80971,26 @@ overrides = {
           "Earth Power",
           "Gravity",
           "Aqua Tail",
-          "Follow Me",
-          "Defense Curl",
-          "Heal Pulse",
-          "Breaking Swipe",
-          "Take Down"
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Snore",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Neutralizing Gas",
         " -",
         "Permafrost"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Heatran": {
@@ -81134,23 +81111,32 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Iron Head",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
-          "Self Destruct",
-          "Protect",
-          "Follow Me",
-          "Heal Pulse",
-          "Overheat",
-          "Snarl",
-          "Take Down"
+          "Iron Defense",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Snore",
+          "Heat Wave",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Flash Fire",
         " -",
         "Flame Body"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Regigigas": {
@@ -81271,22 +81257,31 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Focus Punch",
-          "Gastro Acid",
-          "Psyblade",
-          "Heal Pulse",
-          "Lucky Chant",
           "Superpower",
-          "Take Down"
+          "Icy Wind",
+          "Zen Headbutt",
+          "Snore",
+          "Knock Off",
+          "Drain Punch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Slow Start",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Giratina": {
@@ -81393,7 +81388,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Weather Ball",
           "Will-O-Wisp",
@@ -81418,23 +81413,32 @@ overrides = {
           "Iron Head",
           "Earth Power",
           "Gravity",
-          "Gastro Acid",
+          "Icy Wind",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Heal Pulse",
-          "Toxic",
-          "Incinerate",
-          "Breaking Swipe",
-          "Take Down"
+          "Snore",
+          "Pain Split",
+          "Spite",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Neutralizing Gas",
         " -",
         "Permafrost"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Cresselia": {
@@ -81563,21 +81567,30 @@ overrides = {
           "Signal Beam",
           "Magic Coat",
           "Gravity",
-          "Gastro Acid",
-          "Psyblade",
-          "Heal Pulse",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
           "Icy Wind",
-          "Take Down",
-          "Uproar"
+          "Zen Headbutt",
+          "Snore",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Phione": {
@@ -81674,23 +81687,32 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Bounce",
-          "Seething Cold",
-          "Explosion",
-          "Gastro Acid",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Healing Wish",
-          "Sparkle",
-          "Take Down"
+          "Uproar",
+          "Last Resort",
+          "Icy Wind",
+          "Snore",
+          "Knock Off",
+          "Heal Bell",
+          "Helping Hand",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Moisturize",
         "Moisturize",
         "Moisturize"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Manaphy": {
@@ -81804,24 +81826,33 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Bounce",
-          "Seething Cold",
-          "Explosion",
-          "Gastro Acid",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Healing Wish",
-          "Sparkle",
-          "Take Down",
-          "Uproar"
+          "Uproar",
+          "Last Resort",
+          "Icy Wind",
+          "Snore",
+          "Knock Off",
+          "Heal Bell",
+          "Helping Hand",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Moisturize",
         "Moisturize",
         "Moisturize"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Darkrai": {
@@ -81948,23 +81979,32 @@ overrides = {
         ],
         "tutors": [
           "Foul Play",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Superpower",
-          "Incinerate",
-          "Electroweb",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Last Resort",
+          "Icy Wind",
+          "Dark Pulse",
+          "Snore",
+          "Knock Off",
+          "Drain Punch",
+          "Spite",
+          "Trick",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Bad Dreams",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Shaymin": {
@@ -82062,23 +82102,32 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Earth Power",
-          "Explosion",
-          "Psyblade",
-          "Heal Pulse",
+          "Last Resort",
+          "Zen Headbutt",
+          "Snore",
           "Synthesis",
-          "Outrage",
-          "Screech",
-          "Struggle Bug",
-          "Take Down"
+          "Giga Drain",
+          "Worry Seed",
+          "Endeavor",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Natural Cure",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Arceus": {
@@ -82197,7 +82246,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -82240,30 +82289,39 @@ overrides = {
           "Magic Coat",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Heal Pulse",
-          "Overheat",
-          "Rest",
-          "Outrage",
-          "Electroweb",
-          "Breaking Swipe",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Snarl",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Snore",
+          "Heat Wave",
+          "Tailwind",
+          "Giga Drain",
+          "Trick",
+          "Outrage",
+          "Recycle",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Multitype",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Victini": {
@@ -82411,25 +82469,34 @@ overrides = {
         "tutors": [
           "Signal Beam",
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Magic Coat",
-          "Explosion",
-          "Psyblade",
-          "Heal Pulse",
-          "Overheat",
+          "Last Resort",
+          "Zen Headbutt",
+          "Snore",
+          "Heat Wave",
+          "Role Play",
           "Helping Hand",
-          "Sparkle",
-          "Electroweb",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Illumination",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Snivy": {
@@ -82553,30 +82620,30 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Seed Bomb",
-          "Seething Cold",
+          "Covet",
+          "Uproar",
           "Earth Power",
-          "Sweet Scent",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Synthesis",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
           "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -82585,13 +82652,13 @@ overrides = {
         "Contrary"
       ],
       "evos": [
-        "Servine"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        17
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Servine": {
@@ -82736,30 +82803,30 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Seed Bomb",
-          "Seething Cold",
+          "Covet",
+          "Uproar",
           "Earth Power",
-          "Sweet Scent",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Synthesis",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
           "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -82767,16 +82834,14 @@ overrides = {
         "Adaptability",
         "Contrary"
       ],
-      "evoType": "level",
-      "evoLevel": 17,
       "evos": [
-        "Serperior"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Serperior": {
@@ -82943,30 +83008,30 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Seed Bomb",
-          "Seething Cold",
+          "Covet",
+          "Uproar",
           "Earth Power",
-          "Sweet Scent",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Synthesis",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
           "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Synthesis",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -82974,8 +83039,15 @@ overrides = {
         "Adaptability",
         "Contrary"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Tepig": {
       "name": "Tepig",
@@ -83012,7 +83084,7 @@ overrides = {
           ],
           [
             7,
-            "Stomp"
+            "Stompin Tantrum"
           ],
           [
             10,
@@ -83032,7 +83104,7 @@ overrides = {
           ],
           [
             22,
-            "Flamethrower"
+            "Heat Wave"
           ],
           [
             25,
@@ -83097,28 +83169,28 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -83127,13 +83199,13 @@ overrides = {
         "Sheer Force"
       ],
       "evos": [
-        "Pignite"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        17
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Pignite": {
@@ -83172,7 +83244,7 @@ overrides = {
           ],
           [
             7,
-            "Stomp"
+            "Stompin Tantrum"
           ],
           [
             10,
@@ -83192,7 +83264,7 @@ overrides = {
           ],
           [
             22,
-            "Flamethrower"
+            "Heat Wave"
           ],
           [
             25,
@@ -83224,11 +83296,11 @@ overrides = {
           ],
           [
             47,
-            "Sucker Punch"
+            "Overheat"
           ],
           [
             52,
-            "Fire Lash"
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -83277,45 +83349,43 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Intimidate",
         "Intimidate",
-        "Determined"
+        "Sheer Force"
       ],
-      "evoType": "level",
-      "evoLevel": 17,
       "evos": [
-        "Emboar"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Emboar": {
@@ -83342,7 +83412,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Head Smash"
+            "Rock Wrecker"
           ],
           [
             1,
@@ -83354,7 +83424,7 @@ overrides = {
           ],
           [
             7,
-            "Stomp"
+            "Stompin Tantrum"
           ],
           [
             10,
@@ -83374,7 +83444,7 @@ overrides = {
           ],
           [
             22,
-            "Flamethrower"
+            "Heat Wave"
           ],
           [
             25,
@@ -83406,15 +83476,15 @@ overrides = {
           ],
           [
             47,
-            "Sucker Punch"
+            "Overheat"
           ],
           [
             52,
-            "Fire Lash"
+            "Sucker Punch"
           ],
           [
-            56,
-            "Payback"
+            55,
+            "Night Daze"
           ],
           [
             60,
@@ -83490,28 +83560,28 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Icy Wind",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -83519,8 +83589,15 @@ overrides = {
         "Intimidate",
         "Determined"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Oshawott": {
       "name": "Oshawott",
@@ -83674,25 +83751,25 @@ overrides = {
           "Dual Chop",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Uproar",
           "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -83701,13 +83778,13 @@ overrides = {
         "Defiant"
       ],
       "evos": [
-        "Dewott"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        17
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Dewott": {
@@ -83863,25 +83940,25 @@ overrides = {
           "Dual Chop",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Uproar",
           "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -83889,16 +83966,14 @@ overrides = {
         "Shell Armor",
         "Hyper Cutter"
       ],
-      "evoType": "level",
-      "evoLevel": 17,
       "evos": [
-        "Samurott"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Samurott": {
@@ -84071,25 +84146,25 @@ overrides = {
           "Dual Chop",
           "Drill Run",
           "Low Kick",
-          "Seething Cold",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Uproar",
           "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -84097,8 +84172,15 @@ overrides = {
         "Shell Armor",
         "Hyper Cutter"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Patrat": {
       "name": "Patrat",
@@ -84197,7 +84279,7 @@ overrides = {
           "Rest",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Secret Power",
@@ -84210,30 +84292,30 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
-          "Zen Headbutt",
-          "Focus Punch",
+          "Block",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -84242,13 +84324,13 @@ overrides = {
         "Forewarn"
       ],
       "evos": [
-        "Watchog"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Watchog": {
@@ -84368,7 +84450,7 @@ overrides = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Secret Power",
@@ -84383,30 +84465,30 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
-          "Zen Headbutt",
-          "Focus Punch",
+          "Block",
+          "Magnet Rise",
+          "Superpower",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Hyper Voice",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -84414,8 +84496,15 @@ overrides = {
         "Patient",
         "Forewarn"
       ],
-      "evoType": "level",
-      "evoLevel": 20
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Lillipup": {
       "name": "Lillipup",
@@ -84512,7 +84601,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Avalanche",
@@ -84527,21 +84616,21 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -84550,13 +84639,13 @@ overrides = {
         "Fluffy"
       ],
       "evos": [
-        "Herdier"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        15
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Herdier": {
@@ -84662,7 +84751,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Avalanche",
@@ -84677,21 +84766,21 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -84699,16 +84788,14 @@ overrides = {
         "Scrappy",
         "Fluffy"
       ],
-      "evoType": "level",
-      "evoLevel": 15,
       "evos": [
-        "Stoutland"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        32
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Stoutland": {
@@ -84831,7 +84918,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Avalanche",
@@ -84846,21 +84933,21 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -84868,8 +84955,15 @@ overrides = {
         "Scrappy",
         "Fluffy"
       ],
-      "evoType": "level",
-      "evoLevel": 32
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Purrloin": {
       "name": "Purrloin",
@@ -84998,7 +85092,7 @@ overrides = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Shadow Claw",
@@ -85014,25 +85108,25 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Cross Poison",
-          "Seething Cold",
+          "Covet",
+          "Gunk Shot",
+          "Uproar",
           "Foul Play",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -85041,13 +85135,13 @@ overrides = {
         "Pickpocket"
       ],
       "evos": [
-        "Liepard"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Liepard": {
@@ -85178,7 +85272,7 @@ overrides = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Shadow Claw",
@@ -85195,25 +85289,25 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Cross Poison",
-          "Seething Cold",
+          "Covet",
+          "Gunk Shot",
+          "Uproar",
           "Foul Play",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -85221,8 +85315,15 @@ overrides = {
         "Exploit",
         "Pickpocket"
       ],
-      "evoType": "level",
-      "evoLevel": 20
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Pansage": {
       "name": "Pansage",
@@ -85332,7 +85433,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Fling",
           "Acrobatics",
@@ -85347,28 +85448,28 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Low Kick",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -85377,16 +85478,13 @@ overrides = {
         "Gluttony"
       ],
       "evos": [
-        "Simisage",
-        "Simisage"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Leaf Stone",
-        20
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Simisage": {
@@ -85514,7 +85612,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Fling",
@@ -85531,29 +85629,29 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Low Kick",
           "Thunder Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -85561,20 +85659,14 @@ overrides = {
         "Sap Sipper",
         "Unburden"
       ],
-      "evoType": "useItem",
-      "evoItem": "Leaf Stone",
-      "evoLevel": 20,
       "evos": [
-        "Simisear",
-        "Simipour"
-      ],
-      "evoMethods": [
-        "useItem",
-        "useItem"
-      ],
-      "evoParams": [
-        "Fire Stone",
-        "Water Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Pansear": {
@@ -85688,7 +85780,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
@@ -85706,25 +85798,25 @@ overrides = {
           "Low Kick",
           "Fire Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -85733,16 +85825,13 @@ overrides = {
         "Gluttony"
       ],
       "evos": [
-        "Simisear",
-        "Simisear"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Fire Stone",
-        20
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Simisear": {
@@ -85892,25 +85981,25 @@ overrides = {
           "Low Kick",
           "Fire Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -85918,20 +86007,14 @@ overrides = {
         "Flash Fire",
         "Unburden"
       ],
-      "evoType": "useItem",
-      "evoItem": "Fire Stone",
-      "evoLevel": 20,
       "evos": [
-        "Simisage",
-        "Simipour"
-      ],
-      "evoMethods": [
-        "useItem",
-        "useItem"
-      ],
-      "evoParams": [
-        "Leaf Stone",
-        "Water Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Panpour": {
@@ -86056,30 +86139,30 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Low Kick",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Electroweb",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -86088,16 +86171,13 @@ overrides = {
         "Gluttony"
       ],
       "evos": [
-        "Simipour",
-        "Simipour"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Water Stone",
-        20
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Simipour": {
@@ -86241,30 +86321,30 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Low Kick",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Electroweb",
+          "Aqua Tail",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -86272,20 +86352,14 @@ overrides = {
         "Water Absorb",
         "Unburden"
       ],
-      "evoType": "level",
-      "evoItem": "Water Stone",
-      "evoLevel": 20,
       "evos": [
-        "Simisear",
-        "Simisage"
-      ],
-      "evoMethods": [
-        "useItem",
-        "useItem"
-      ],
-      "evoParams": [
-        "Fire Stone",
-        "Leaf Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Munna": {
@@ -86433,26 +86507,26 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Hyper Voice",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -86461,13 +86535,13 @@ overrides = {
         "Neutralizing Gas"
       ],
       "evos": [
-        "Musharna"
-      ],
-      "evoMethods": [
-        "useItem"
-      ],
-      "evoParams": [
-        "Moon Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Musharna": {
@@ -86627,26 +86701,26 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Defense Curl",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Hyper Voice",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -86654,8 +86728,15 @@ overrides = {
         "Magic Bounce",
         "Neutralizing Gas"
       ],
-      "evoType": "useItem",
-      "evoItem": "Moon Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Pidove": {
       "name": "Pidove",
@@ -86757,7 +86838,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Acrobatics",
           "Shadow Claw",
           "Secret Power",
@@ -86768,20 +86849,20 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -86790,13 +86871,13 @@ overrides = {
         "Unburden"
       ],
       "evos": [
-        "Tranquill"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        15
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Tranquill": {
@@ -86911,7 +86992,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Acrobatics",
           "Shadow Claw",
           "Secret Power",
@@ -86922,20 +87003,20 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -86943,16 +87024,14 @@ overrides = {
         "Resilient",
         "Unburden"
       ],
-      "evoType": "level",
-      "evoLevel": 15,
       "evos": [
-        "Unfezant"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Unfezant": {
@@ -87083,7 +87162,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Acrobatics",
           "Shadow Claw",
           "Secret Power",
@@ -87094,20 +87173,20 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Screech",
-          "Defog",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Worry Seed",
+          "After You",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -87115,8 +87194,15 @@ overrides = {
         "Resilient",
         "Unburden"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Blitzle": {
       "name": "Blitzle",
@@ -87247,24 +87333,24 @@ overrides = {
         "tutors": [
           "Bounce",
           "Low Kick",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -87273,16 +87359,13 @@ overrides = {
         "Motor Drive"
       ],
       "evos": [
-        "Zebstrika",
-        "Zebstrika"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        45,
-        "Thunderstone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Zebstrika": {
@@ -87301,7 +87384,7 @@ overrides = {
         "hp": 75,
         "at": 113,
         "df": 63,
-        "sa": 80,
+        "sa": 90,
         "sd": 63,
         "sp": 136
       },
@@ -87436,24 +87519,24 @@ overrides = {
           "Signal Beam",
           "Bounce",
           "Low Kick",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -87461,9 +87544,15 @@ overrides = {
         "Reckless",
         "Determined"
       ],
-      "evoType": "useItem",
-      "evoLevel": 45,
-      "evoItem": "Thunderstone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Roggenrola": {
       "name": "Roggenrola",
@@ -87592,22 +87681,22 @@ overrides = {
           "Iron Head",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Trick",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -87616,13 +87705,13 @@ overrides = {
         "Sand Force"
       ],
       "evos": [
-        "Boldore"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Boldore": {
@@ -87757,22 +87846,22 @@ overrides = {
           "Iron Head",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Trick",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -87780,16 +87869,14 @@ overrides = {
         "Chlorophyll",
         "Sand Force"
       ],
-      "evoType": "level",
-      "evoLevel": 18,
       "evos": [
-        "Gigalith"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        42
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Gigalith": {
@@ -87941,22 +88028,22 @@ overrides = {
           "Iron Head",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
           "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Electroweb",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Trick",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -87964,8 +88051,15 @@ overrides = {
         "Chlorophyll",
         "Sand Force"
       ],
-      "evoType": "level",
-      "evoLevel": 42
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Woobat": {
       "name": "Woobat",
@@ -88091,29 +88185,29 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
           "Magic Coat",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Sparkle",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -88122,13 +88216,13 @@ overrides = {
         "Friend Guard"
       ],
       "evos": [
-        "Swoobat"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        21
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Swoobat": {
@@ -88283,29 +88377,29 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
           "Magic Coat",
           "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Sparkle",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Helping Hand",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -88313,8 +88407,15 @@ overrides = {
         "Amplifier",
         "Friend Guard"
       ],
-      "evoType": "level",
-      "evoLevel": 21
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Drilbur": {
       "name": "Drilbur",
@@ -88446,18 +88547,18 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -88466,13 +88567,13 @@ overrides = {
         "Sturdy"
       ],
       "evos": [
-        "Excadrill"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        31
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Excadrill": {
@@ -88620,18 +88721,18 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Earth Power",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -88639,8 +88740,15 @@ overrides = {
         "Sand Force",
         "Sturdy"
       ],
-      "evoType": "level",
-      "evoLevel": 31
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Audino": {
       "name": "Audino",
@@ -88786,7 +88894,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -88803,44 +88911,53 @@ overrides = {
           "Surf"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Fake Tears",
-          "Incinerate",
-          "Low Sweep",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Spite",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Regenerator",
         "Healer",
         "Poison Heal"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Timburr": {
@@ -88969,17 +89086,17 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -88988,13 +89105,13 @@ overrides = {
         "Sheer Force"
       ],
       "evos": [
-        "Gurdurr"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Gurdurr": {
@@ -89128,17 +89245,17 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -89146,16 +89263,14 @@ overrides = {
         "Iron Fist",
         "Sheer Force"
       ],
-      "evoType": "level",
-      "evoLevel": 25,
       "evos": [
-        "Conkeldurr"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Conkeldurr": {
@@ -89309,17 +89424,17 @@ overrides = {
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -89327,8 +89442,15 @@ overrides = {
         "Solid Rock",
         "Determined"
       ],
-      "evoType": "level",
-      "evoLevel": 50
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Tympole": {
       "name": "Tympole",
@@ -89442,24 +89564,24 @@ overrides = {
         "tutors": [
           "Bounce",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -89468,13 +89590,13 @@ overrides = {
         "Swift Swim"
       ],
       "evos": [
-        "Palpitoad"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        14
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Palpitoad": {
@@ -89607,24 +89729,24 @@ overrides = {
         "tutors": [
           "Bounce",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -89632,19 +89754,14 @@ overrides = {
         "Dry Skin",
         "Swift Swim"
       ],
-      "evoType": "level",
-      "evoLevel": 14,
       "evos": [
-        "Seismitoad",
-        "Seismitoad"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        36,
-        "Water Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Seismitoad": {
@@ -89801,24 +89918,24 @@ overrides = {
         "tutors": [
           "Bounce",
           "Low Kick",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Ice Punch",
           "Earth Power",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -89826,9 +89943,15 @@ overrides = {
         "Dry Skin",
         "Swift Swim"
       ],
-      "evoType": "useItem",
-      "evoLevel": 36,
-      "evoItem": "Water Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Throh": {
       "name": "Throh",
@@ -89974,22 +90097,31 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Low Sweep",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Patient",
         "Rivalry",
         "Mold Breaker"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Sawk": {
@@ -90115,7 +90247,7 @@ overrides = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Secret Power",
@@ -90138,22 +90270,31 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Earth Power",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Low Sweep",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Sturdy",
         "Quick Feet",
         "Mold Breaker"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Sewaddle": {
@@ -90241,24 +90382,24 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Signal Beam",
-          "Cross Poison",
-          "Sweet Scent",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
+          "Gunk Shot",
           "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Snore",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -90267,13 +90408,13 @@ overrides = {
         "Swarm"
       ],
       "evos": [
-        "Swadloon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Swadloon": {
@@ -90381,24 +90522,24 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Signal Beam",
-          "Cross Poison",
-          "Sweet Scent",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
+          "Gunk Shot",
           "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Snore",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -90406,19 +90547,14 @@ overrides = {
         "Regenerator",
         "Swarm"
       ],
-      "evoType": "level",
-      "evoLevel": 20,
       "evos": [
-        "Leavanny",
-        "Leavanny"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        36,
-        "Leaf Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Leavanny": {
@@ -90572,25 +90708,25 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Seed Bomb",
+          "Bug Bite",
+          "Covet",
           "Signal Beam",
-          "Cross Poison",
+          "Gunk Shot",
           "Magic Coat",
-          "Sweet Scent",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
           "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Snore",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -90598,9 +90734,15 @@ overrides = {
         "Regenerator",
         "Savant"
       ],
-      "evoType": "useItem",
-      "evoLevel": 36,
-      "evoItem": "Leaf Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Venipede": {
       "name": "Venipede",
@@ -90712,23 +90854,23 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Iron Head",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Endeavor",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -90737,13 +90879,13 @@ overrides = {
         "Strong Body"
       ],
       "evos": [
-        "Whirlipede"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        22
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Whirlipede": {
@@ -90868,22 +91010,22 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Endeavor",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -90891,16 +91033,14 @@ overrides = {
         "Tenacity",
         "Strong Body"
       ],
-      "evoType": "level",
-      "evoLevel": 22,
       "evos": [
-        "Scolipede"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Scolipede": {
@@ -91051,22 +91191,22 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Endeavor",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -91074,8 +91214,15 @@ overrides = {
         "Tenacity",
         "Strong Body"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Cottonee": {
       "name": "Cottonee",
@@ -91214,22 +91361,22 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Lucky Chant",
+          "Covet",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Defog",
-          "Chilling Water",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "After You",
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -91238,16 +91385,13 @@ overrides = {
         "Effect Spore"
       ],
       "evos": [
-        "Whimsicott",
-        "Whimsicott"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Sun Stone",
-        35
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Whimsicott": {
@@ -91405,22 +91549,22 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Seed Bomb",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Lucky Chant",
+          "Covet",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Knock Off",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Defog",
-          "Chilling Water",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "After You",
+          "Magic Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -91428,9 +91572,15 @@ overrides = {
         "Fluffy",
         "Merciless"
       ],
-      "evoType": "level",
-      "evoItem": "Sun Stone",
-      "evoLevel": 35
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Petilil": {
       "name": "Petilil",
@@ -91547,7 +91697,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Weather Ball",
@@ -91561,27 +91711,27 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Thunder Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
           "Synthesis",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -91590,16 +91740,13 @@ overrides = {
         "Quick Feet"
       ],
       "evos": [
-        "Lilligant",
-        "Lilligant"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Sun Stone",
-        35
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Lilligant": {
@@ -91738,7 +91885,7 @@ overrides = {
           "Rest",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Weather Ball",
@@ -91752,27 +91899,27 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Thunder Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
+          "Snore",
           "Synthesis",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -91780,9 +91927,15 @@ overrides = {
         "Overgrow",
         "Quick Feet"
       ],
-      "evoType": "level",
-      "evoItem": "Sun Stone",
-      "evoLevel": 35
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Basculin": {
       "name": "Basculin",
@@ -91930,29 +92083,38 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Swift Swim",
         "Adaptability",
         "Mold Breaker"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Sandile": {
@@ -92086,22 +92248,22 @@ overrides = {
           "Low Kick",
           "Earth Power",
           "Foul Play",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -92110,13 +92272,13 @@ overrides = {
         "Anger Point"
       ],
       "evos": [
-        "Krokorok"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Krokorok": {
@@ -92259,22 +92421,22 @@ overrides = {
           "Low Kick",
           "Earth Power",
           "Foul Play",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -92282,16 +92444,14 @@ overrides = {
         "Tenacity",
         "Anger Point"
       ],
-      "evoType": "level",
-      "evoLevel": 18,
       "evos": [
-        "Krookodile"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        32
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Krookodile": {
@@ -92452,22 +92612,22 @@ overrides = {
           "Low Kick",
           "Earth Power",
           "Foul Play",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -92475,8 +92635,15 @@ overrides = {
         "Tenacity",
         "Anger Point"
       ],
-      "evoType": "level",
-      "evoLevel": 32
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Darumaka": {
       "name": "Darumaka",
@@ -92606,23 +92773,23 @@ overrides = {
         "tutors": [
           "Fire Punch",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -92631,13 +92798,13 @@ overrides = {
         "Inner Focus"
       ],
       "evos": [
-        "Darmanitan"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        35
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Darmanitan": {
@@ -92791,23 +92958,23 @@ overrides = {
         "tutors": [
           "Fire Punch",
           "Earth Power",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
           "Superpower",
-          "Screech",
-          "Incinerate",
-          "Sparkle",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Spite",
+          "Helping Hand",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -92815,8 +92982,15 @@ overrides = {
         "Turboblaze",
         "Inner Focus"
       ],
-      "evoType": "level",
-      "evoLevel": 35
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Maractus": {
       "name": "Maractus",
@@ -92960,31 +93134,40 @@ overrides = {
           "Rock Climb"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Psychic Noise",
+          "Bug Bite",
+          "Seed Bomb",
           "Bounce",
           "Thunder Punch",
           "Earth Power",
-          "Focus Punch",
-          "Sweet Scent",
-          "Protect",
-          "Lucky Chant",
+          "Superpower",
+          "Electroweb",
+          "Dark Pulse",
+          "Knock Off",
           "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down"
+          "Magic Room",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Storm Drain",
         "Heatproof",
         "Sand Rush"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Dwebble": {
@@ -93134,19 +93317,19 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down"
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -93155,13 +93338,13 @@ overrides = {
         "Solid Rock"
       ],
       "evos": [
-        "Crustle"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Crustle": {
@@ -93311,19 +93494,19 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Defense Curl",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Hyper Voice",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Low Sweep",
-          "Struggle Bug",
-          "Take Down"
+          "Wonder Room",
+          "Endeavor",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -93331,8 +93514,15 @@ overrides = {
         "Shell Armor",
         "Solid Rock"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Scraggy": {
       "name": "Scraggy",
@@ -93490,24 +93680,24 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -93516,13 +93706,13 @@ overrides = {
         "Bulletproof"
       ],
       "evos": [
-        "Scrafty"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        39
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Scrafty": {
@@ -93682,23 +93872,23 @@ overrides = {
           "Fire Punch",
           "Ice Punch",
           "Foul Play",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Icy Wind",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -93706,8 +93896,15 @@ overrides = {
         "Shed Skin",
         "Bulletproof"
       ],
-      "evoType": "level",
-      "evoLevel": 39
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Sigilyph": {
       "name": "Sigilyph",
@@ -93864,35 +94061,44 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Icy Wind",
-          "Take Down",
-          "Uproar"
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Recycle",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Tenacity",
         "Magic Guard",
         "Sand Rush"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Yamask": {
@@ -94030,18 +94236,18 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Natural Gift",
-          "Uproar"
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -94050,16 +94256,13 @@ overrides = {
         "Cursed Body"
       ],
       "evos": [
-        "Cofagrigus",
-        "Cofagrigus"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        50,
-        "Dusk Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Cofagrigus": {
@@ -94197,18 +94400,18 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Natural Gift",
-          "Uproar"
+          "Snatch",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -94216,9 +94419,15 @@ overrides = {
         "Sand Force",
         "Merciless"
       ],
-      "evoType": "useItem",
-      "evoLevel": 50,
-      "evoItem": "Dusk Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Tirtouga": {
       "name": "Tirtouga",
@@ -94368,23 +94577,23 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Earth Power",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -94393,13 +94602,13 @@ overrides = {
         "Swift Swim"
       ],
       "evos": [
-        "Carracosta"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        37
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Carracosta": {
@@ -94551,23 +94760,23 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Earth Power",
-          "Gastro Acid",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Sparkle",
-          "Chilling Water",
-          "Low Sweep",
-          "Breaking Swipe",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Helping Hand",
+          "Magic Room",
+          "Wonder Room",
+          "Outrage",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -94575,8 +94784,15 @@ overrides = {
         "Shell Armor",
         "Swift Swim"
       ],
-      "evoType": "level",
-      "evoLevel": 37
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Archen": {
       "name": "Archen",
@@ -94716,23 +94932,23 @@ overrides = {
           "Bounce",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -94741,13 +94957,13 @@ overrides = {
         "Quick Feet"
       ],
       "evos": [
-        "Archeops"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        37
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Archeops": {
@@ -94895,23 +95111,23 @@ overrides = {
           "Bounce",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -94919,8 +95135,15 @@ overrides = {
         "Vital Spirit",
         "Quick Feet"
       ],
-      "evoType": "level",
-      "evoLevel": 37
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Trubbish": {
       "name": "Trubbish",
@@ -95059,26 +95282,26 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Low Sweep",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -95087,13 +95310,13 @@ overrides = {
         "Contagious"
       ],
       "evos": [
-        "Garbodor"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        36
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Garbodor": {
@@ -95241,26 +95464,26 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Screech",
-          "Low Sweep",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -95268,8 +95491,15 @@ overrides = {
         "Weak Armor",
         "Contagious"
       ],
-      "evoType": "level",
-      "evoLevel": 36
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Zorua": {
       "name": "Zorua",
@@ -95398,20 +95628,20 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Bounce",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Incinerate",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -95420,13 +95650,13 @@ overrides = {
         "Infiltrator"
       ],
       "evos": [
-        "Zoroark"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Zoroark": {
@@ -95580,20 +95810,20 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Bounce",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Incinerate",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Spite",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -95601,8 +95831,15 @@ overrides = {
         "Infiltrator",
         "Infiltrator"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Minccino": {
       "name": "Minccino",
@@ -95729,7 +95966,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Secret Power",
           "Thunder Wave",
@@ -95739,19 +95976,19 @@ overrides = {
           "U-turn"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -95760,16 +95997,13 @@ overrides = {
         "Pickpocket"
       ],
       "evos": [
-        "Cinccino",
-        "Cinccino"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Shiny Stone",
-        35
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Cinccino": {
@@ -95902,7 +96136,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Secret Power",
@@ -95914,19 +96148,19 @@ overrides = {
           "U-turn"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
+          "Dark Pulse",
+          "Dragon Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -95934,9 +96168,15 @@ overrides = {
         "Fur Coat",
         "Pickpocket"
       ],
-      "evoType": "level",
-      "evoItem": "Shiny Stone",
-      "evoLevel": 35
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Gothita": {
       "name": "Gothita",
@@ -96069,28 +96309,28 @@ overrides = {
           "Snarl"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Snore",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
           "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Sparkle",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -96099,13 +96339,13 @@ overrides = {
         "Magic Bounce"
       ],
       "evos": [
-        "Gothorita"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        20
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Gothorita": {
@@ -96239,27 +96479,27 @@ overrides = {
           "Snarl"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Snore",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -96267,19 +96507,14 @@ overrides = {
         "Forewarn",
         "Magic Bounce"
       ],
-      "evoType": "level",
-      "evoLevel": 20,
       "evos": [
-        "Gothitelle",
-        "Gothitelle"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        50,
-        "Dusk Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Gothitelle": {
@@ -96433,27 +96668,27 @@ overrides = {
           "Snarl"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Psychic Noise",
-          "Seething Cold",
+          "Seed Bomb",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Foul Play",
           "Gravity",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Snore",
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -96461,9 +96696,15 @@ overrides = {
         "Forewarn",
         "Magic Bounce"
       ],
-      "evoType": "useItem",
-      "evoLevel": 50,
-      "evoItem": "Dusk Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Solosis": {
       "name": "Solosis",
@@ -96591,27 +96832,27 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Helping Hand",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -96620,13 +96861,13 @@ overrides = {
         "Regenerator"
       ],
       "evos": [
-        "Duosion"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        15
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Duosion": {
@@ -96767,27 +97008,27 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Helping Hand",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -96795,16 +97036,14 @@ overrides = {
         "Magic Guard",
         "Regenerator"
       ],
-      "evoType": "level",
-      "evoLevel": 15,
       "evos": [
-        "Reuniclus"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        41
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Reuniclus": {
@@ -96957,28 +97196,28 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Psychic Noise",
+          "Seed Bomb",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Gravity",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Protect",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Magnet Rise",
           "Superpower",
-          "Sparkle",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Helping Hand",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -96986,8 +97225,15 @@ overrides = {
         "Magic Guard",
         "Regenerator"
       ],
-      "evoType": "level",
-      "evoLevel": 41
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Ducklett": {
       "name": "Ducklett",
@@ -97107,19 +97353,19 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Aqua Tail",
-          "Protect",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -97128,13 +97374,13 @@ overrides = {
         "Rain Dish"
       ],
       "evos": [
-        "Swanna"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        35
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Swanna": {
@@ -97272,19 +97518,19 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Aqua Tail",
-          "Protect",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -97292,8 +97538,15 @@ overrides = {
         "Serene Grace",
         "Ice Body"
       ],
-      "evoType": "level",
-      "evoLevel": 35
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Vanillite": {
       "name": "Vanillite",
@@ -97413,23 +97666,23 @@ overrides = {
           "Flash Cannon"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Chilling Water",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -97438,13 +97691,13 @@ overrides = {
         "Refrigerate"
       ],
       "evos": [
-        "Vanillish"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        25
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Vanillish": {
@@ -97589,23 +97842,23 @@ overrides = {
           "Flash Cannon"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Chilling Water",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -97613,16 +97866,14 @@ overrides = {
         "Ice Body",
         "Refrigerate"
       ],
-      "evoType": "level",
-      "evoLevel": 25,
       "evos": [
-        "Vanilluxe"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Vanilluxe": {
@@ -97771,23 +98022,23 @@ overrides = {
           "Flash Cannon"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Defense Curl",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Chilling Water",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -97795,8 +98046,15 @@ overrides = {
         "Ice Body",
         "Refrigerate"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Deerling": {
       "name": "Deerling",
@@ -97906,7 +98164,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Thunder Wave",
@@ -97921,21 +98179,21 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -97944,25 +98202,13 @@ overrides = {
         "Serene Grace"
       ],
       "evos": [
-        "Sawsbuck",
-        "Sawsbuck",
-        "Sawsbuck",
-        "Sawsbuck",
-        "Sawsbuck"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem",
-        "useItem",
-        "useItem",
-        "useItem"
-      ],
-      "evoParams": [
-        34,
-        "Fire Stone",
-        "Leaf Stone",
-        "Shiny Stone",
-        "Dusk Stone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Sawsbuck": {
@@ -98105,7 +98351,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Thunder Wave",
@@ -98122,22 +98368,22 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -98145,9 +98391,15 @@ overrides = {
         "Chlorophyll",
         "Serene Grace"
       ],
-      "evoType": "useItem",
-      "evoLevel": 34,
-      "evoItem": "Dusk Stone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Emolga": {
       "name": "Emolga",
@@ -98201,7 +98453,7 @@ overrides = {
           ],
           [
             17,
-            "Air Cutter"
+            "Aerial Ace"
           ],
           [
             20,
@@ -98299,29 +98551,38 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Signal Beam",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "No Guard",
         "Motor Drive",
         "Wind Rider"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Karrablast": {
@@ -98438,15 +98699,15 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Iron Head",
           "Drill Run",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Struggle Bug",
-          "Take Down"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Endeavor",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -98455,13 +98716,13 @@ overrides = {
         "No Guard"
       ],
       "evos": [
-        "Escavalier"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Escavalier": {
@@ -98604,15 +98865,15 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Iron Head",
           "Drill Run",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Struggle Bug",
-          "Take Down"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Endeavor",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -98620,8 +98881,15 @@ overrides = {
         "Shell Armor",
         "Justified"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Foongus": {
       "name": "Foongus",
@@ -98749,22 +99017,22 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Foul Play",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -98773,13 +99041,13 @@ overrides = {
         "Prankster"
       ],
       "evos": [
-        "Amoonguss"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        39
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Amoonguss": {
@@ -98916,22 +99184,22 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
           "Foul Play",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Double-Edge",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Defog",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "After You",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -98939,8 +99207,15 @@ overrides = {
         "Contagious",
         "Prankster"
       ],
-      "evoType": "level",
-      "evoLevel": 39
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Frillish": {
       "name": "Frillish",
@@ -99064,20 +99339,20 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -99086,13 +99361,13 @@ overrides = {
         "Cursed Body"
       ],
       "evos": [
-        "Jellicent"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Jellicent": {
@@ -99241,20 +99516,20 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Self Destruct",
-          "Explosion",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
+          "Iron Defense",
+          "Last Resort",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -99262,8 +99537,15 @@ overrides = {
         "Merciless",
         "Gourmand"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Alomomola": {
       "name": "Alomomola",
@@ -99420,29 +99702,38 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Regenerator",
         "Natural Cure",
         "Healer"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Joltik": {
@@ -99577,21 +99868,21 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Bounce",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
           "Electroweb",
-          "Struggle Bug",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -99600,13 +99891,13 @@ overrides = {
         "Unnerve"
       ],
       "evos": [
-        "Galvantula"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Galvantula": {
@@ -99753,21 +100044,21 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Bounce",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
           "Electroweb",
-          "Struggle Bug",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Trick",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -99775,8 +100066,15 @@ overrides = {
         "Technician",
         "Unnerve"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Ferroseed": {
       "name": "Ferroseed",
@@ -99900,20 +100198,20 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -99922,13 +100220,13 @@ overrides = {
         " -"
       ],
       "evos": [
-        "Ferrothorn"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Ferrothorn": {
@@ -100063,20 +100361,20 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Iron Head",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Natural Gift",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -100084,8 +100382,15 @@ overrides = {
         " -",
         " -"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Klink": {
       "name": "Klink",
@@ -100196,18 +100501,18 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down"
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -100216,13 +100521,13 @@ overrides = {
         "Motor Drive"
       ],
       "evos": [
-        "Klang"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        26
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Klang": {
@@ -100346,18 +100651,18 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down"
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -100365,16 +100670,14 @@ overrides = {
         "Heavy Metal",
         "Motor Drive"
       ],
-      "evoType": "level",
-      "evoLevel": 26,
       "evos": [
-        "Klinklang"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Klinklang": {
@@ -100511,18 +100814,18 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Gravity",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down"
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Trick",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -100530,8 +100833,15 @@ overrides = {
         "Heavy Metal",
         "Motor Drive"
       ],
-      "evoType": "level",
-      "evoLevel": 50
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Tynamo": {
       "name": "Tynamo",
@@ -100574,7 +100884,7 @@ overrides = {
         ],
         "tms": [],
         "tutors": [
-          "Zen Headbutt"
+          "Magnet Rise"
         ]
       },
       "abs": [
@@ -100583,13 +100893,13 @@ overrides = {
         "Levitate"
       ],
       "evos": [
-        "Eelektrik"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        18
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Eelektrik": {
@@ -100744,27 +101054,27 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -100772,19 +101082,14 @@ overrides = {
         "Swift Swim",
         "Levitate"
       ],
-      "evoType": "level",
-      "evoLevel": 18,
       "evos": [
-        "Eelektross",
-        "Eelektross"
-      ],
-      "evoMethods": [
-        "level",
-        "useItem"
-      ],
-      "evoParams": [
-        42,
-        "Thunderstone"
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Eelektross": {
@@ -100953,27 +101258,27 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Cross Poison",
-          "Seething Cold",
+          "Gunk Shot",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Magnet Rise",
           "Superpower",
-          "Screech",
-          "Electroweb",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Magic Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -100981,9 +101286,15 @@ overrides = {
         "Swift Swim",
         "Levitate"
       ],
-      "evoType": "useItem",
-      "evoLevel": 42,
-      "evoItem": "Thunderstone"
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Elgyem": {
       "name": "Elgyem",
@@ -101106,7 +101417,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Ally Switch",
           "Energy Ball",
@@ -101123,25 +101434,25 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -101150,13 +101461,13 @@ overrides = {
         "Inner Focus"
       ],
       "evos": [
-        "Beheeyem"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        35
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Beheeyem": {
@@ -101292,7 +101603,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Ally Switch",
           "Energy Ball",
@@ -101309,25 +101620,25 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Protect",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Sparkle",
-          "Electroweb",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -101335,8 +101646,15 @@ overrides = {
         "Levitate",
         "Inner Focus"
       ],
-      "evoType": "level",
-      "evoLevel": 35
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Litwick": {
       "name": "Litwick",
@@ -101446,15 +101764,15 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Protect",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -101463,13 +101781,13 @@ overrides = {
         "Infiltrator"
       ],
       "evos": [
-        "Lampent"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        27
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Lampent": {
@@ -101588,15 +101906,15 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Protect",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -101604,19 +101922,14 @@ overrides = {
         "Illumination",
         "Infiltrator"
       ],
-      "evoType": "level",
-      "evoLevel": 27,
       "evos": [
-        "Chandelure",
-        "Chandelure"
-      ],
-      "evoMethods": [
-        "useItem",
-        "level"
-      ],
-      "evoParams": [
-        "Dusk Stone",
-        50
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Chandelure": {
@@ -101744,15 +102057,15 @@ overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Protect",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Incinerate",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Spite",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -101760,9 +102073,15 @@ overrides = {
         "Illumination",
         "Infiltrator"
       ],
-      "evoType": "level",
-      "evoItem": "Dusk Stone",
-      "evoLevel": 50
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Axew": {
       "name": "Axew",
@@ -101897,23 +102216,23 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Gunk Shot",
+          "Magnet Rise",
           "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -101922,13 +102241,13 @@ overrides = {
         "Hyper Cutter"
       ],
       "evos": [
-        "Fraxure"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        38
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Fraxure": {
@@ -102077,23 +102396,23 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Gunk Shot",
+          "Magnet Rise",
           "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -102101,16 +102420,14 @@ overrides = {
         "Rivalry",
         "Hyper Cutter"
       ],
-      "evoType": "level",
-      "evoLevel": 38,
       "evos": [
-        "Haxorus"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Haxorus": {
@@ -102271,23 +102588,23 @@ overrides = {
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Cross Poison",
-          "Zen Headbutt",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Psyblade",
-          "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Outrage",
+          "Gunk Shot",
+          "Magnet Rise",
           "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Iron Tail",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -102295,8 +102612,15 @@ overrides = {
         "Rivalry",
         "Hyper Cutter"
       ],
-      "evoType": "level",
-      "evoLevel": 50
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Cubchoo": {
       "name": "Cubchoo",
@@ -102428,7 +102752,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -102453,20 +102777,20 @@ overrides = {
         ],
         "tutors": [
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -102475,13 +102799,13 @@ overrides = {
         "Swift Swim"
       ],
       "evos": [
-        "Beartic"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        30
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Beartic": {
@@ -102627,7 +102951,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -102652,20 +102976,20 @@ overrides = {
         ],
         "tutors": [
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Ice Punch",
-          "Focus Punch",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Fake Tears",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Gastro Acid",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -102673,8 +102997,15 @@ overrides = {
         "Sheer Force",
         "Swift Swim"
       ],
-      "evoType": "level",
-      "evoLevel": 30
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Cryogonal": {
       "name": "Cryogonal",
@@ -102811,29 +103142,38 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Seething Cold",
+          "Uproar",
           "Magic Coat",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Sparkle",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         "Ice Body",
         "Sturdy"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Shelmet": {
@@ -102948,26 +103288,26 @@ overrides = {
           "Snarl"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
           "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -102976,13 +103316,13 @@ overrides = {
         "Dry Skin"
       ],
       "evos": [
-        "Accelgor"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Accelgor": {
@@ -103118,26 +103458,26 @@ overrides = {
           "Snarl"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Sweet Scent",
-          "Gastro Acid",
-          "Protect",
-          "Follow Me",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
           "Electroweb",
-          "Chilling Water",
-          "Struggle Bug",
           "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Trick",
+          "Magic Room",
+          "Endeavor",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -103145,8 +103485,15 @@ overrides = {
         "Swarm",
         "Dry Skin"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Stunfisk": {
       "name": "Stunfisk",
@@ -103286,28 +103633,37 @@ overrides = {
         "tutors": [
           "Drill Run",
           "Bounce",
-          "Cross Poison",
+          "Gunk Shot",
           "Earth Power",
           "Foul Play",
-          "Zen Headbutt",
-          "Gastro Acid",
+          "Magnet Rise",
+          "Icy Wind",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Chilling Water",
-          "Natural Gift",
-          "Take Down"
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Magic Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Dry Skin",
         "Patient",
         "Cloud Nine"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Mienfoo": {
@@ -103446,18 +103802,18 @@ overrides = {
           "Dual Chop",
           "Bounce",
           "Low Kick",
-          "Focus Punch",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -103466,13 +103822,13 @@ overrides = {
         "Regenerator"
       ],
       "evos": [
-        "Mienshao"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        39
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Mienshao": {
@@ -103628,18 +103984,18 @@ overrides = {
           "Dual Chop",
           "Bounce",
           "Low Kick",
-          "Focus Punch",
-          "Protect",
-          "Iron Tail",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Iron Tail",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -103647,8 +104003,15 @@ overrides = {
         "Keen Senses",
         "Regenerator"
       ],
-      "evoType": "level",
-      "evoLevel": 39
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Druddigon": {
       "name": "Druddigon",
@@ -103803,32 +104166,41 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Iron Head",
-          "Cross Poison",
+          "Gunk Shot",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Focus Punch",
-          "Aqua Tail",
-          "Protect",
-          "Iron Tail",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
           "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down"
+          "Aqua Tail",
+          "Dark Pulse",
+          "Iron Tail",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Battle Armor",
         "Rough Skin",
         "Sheer Force"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Golett": {
@@ -103978,18 +104350,18 @@ overrides = {
           "Ice Punch",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -103998,13 +104370,13 @@ overrides = {
         "Well Baked Body"
       ],
       "evos": [
-        "Golurk"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        43
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Golurk": {
@@ -104170,18 +104542,18 @@ overrides = {
           "Ice Punch",
           "Earth Power",
           "Gravity",
-          "Self Destruct",
-          "Explosion",
-          "Focus Punch",
-          "Protect",
-          "Defense Curl",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Iron Defense",
+          "Last Resort",
           "Superpower",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Hyper Voice",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -104189,8 +104561,15 @@ overrides = {
         "No Guard",
         "Well Baked Body"
       ],
-      "evoType": "level",
-      "evoLevel": 43
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Pawniard": {
       "name": "Pawniard",
@@ -104319,16 +104698,16 @@ overrides = {
           "Iron Head",
           "Low Kick",
           "Foul Play",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Low Sweep",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -104337,13 +104716,13 @@ overrides = {
         "Heavy Metal"
       ],
       "evos": [
-        "Bisharp"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        40
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Bisharp": {
@@ -104491,16 +104870,16 @@ overrides = {
           "Iron Head",
           "Low Kick",
           "Foul Play",
+          "Magnet Rise",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Protect",
-          "Psyblade",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Low Sweep",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Wonder Room",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -104508,8 +104887,15 @@ overrides = {
         "Hyper Cutter",
         "Heavy Metal"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Bouffalant": {
       "name": "Bouffalant",
@@ -104650,28 +105036,37 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Drill Run",
-          "Zen Headbutt",
+          "Magnet Rise",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Reckless",
         "Sap Sipper",
         "Guts"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Rufflet": {
@@ -104791,16 +105186,16 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Defog",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -104809,13 +105204,13 @@ overrides = {
         "Defiant"
       ],
       "evos": [
-        "Braviary"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        32
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Braviary": {
@@ -104943,16 +105338,16 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
           "Roost",
-          "Defog",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "After You",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -104960,8 +105355,15 @@ overrides = {
         "Justified",
         "Defiant"
       ],
-      "evoType": "level",
-      "evoLevel": 32
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Vullaby": {
       "name": "Vullaby",
@@ -105094,18 +105496,18 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Defog",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Gastro Acid",
+          "After You",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -105114,13 +105516,13 @@ overrides = {
         "Pickup"
       ],
       "evos": [
-        "Mandibuzz"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        32
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Mandibuzz": {
@@ -105262,18 +105664,18 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Protect",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Defog",
-          "Natural Gift",
-          "Snarl",
-          "Take Down"
+          "Gastro Acid",
+          "After You",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -105281,8 +105683,15 @@ overrides = {
         "Rough Skin",
         "Pickup"
       ],
-      "evoType": "level",
-      "evoLevel": 32
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Heatmor": {
       "name": "Heatmor",
@@ -105434,35 +105843,44 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Iron Head",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Earth Power",
-          "Gastro Acid",
-          "Protect",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Wonder Room",
           "Outrage",
-          "Superpower",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Flash Fire",
         "Tough Claws",
         "Light Metal"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Durant": {
@@ -105603,28 +106021,37 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Iron Head",
           "Drill Run",
           "Low Kick",
-          "Protect",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Electroweb",
-          "Low Sweep",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Trick",
+          "Wonder Room",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Hustle",
         "Swarm",
         "Heatproof"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Deino": {
@@ -105726,7 +106153,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Breaking Swipe",
           "Incinerate",
@@ -105744,29 +106171,29 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Superpower",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -105775,13 +106202,13 @@ overrides = {
         "Reckless"
       ],
       "evos": [
-        "Zweilous"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        50
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Zweilous": {
@@ -105887,7 +106314,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Breaking Swipe",
           "Incinerate",
@@ -105905,29 +106332,29 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Superpower",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -105935,16 +106362,14 @@ overrides = {
         "Berserk",
         "Reckless"
       ],
-      "evoType": "level",
-      "evoLevel": 50,
       "evos": [
-        "Hydreigon"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        60
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Hydreigon": {
@@ -106079,7 +106504,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Breaking Swipe",
           "Hurricane",
@@ -106103,29 +106528,29 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Seething Cold",
+          "Uproar",
           "Earth Power",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Outrage",
-          "Superpower",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
           "Roost",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Low Sweep",
-          "Breaking Swipe",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Wonder Room",
+          "Outrage",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
@@ -106133,8 +106558,15 @@ overrides = {
         "Berserk",
         "Reckless"
       ],
-      "evoType": "level",
-      "evoLevel": 60
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Larvesta": {
       "name": "Larvesta",
@@ -106250,23 +106682,23 @@ overrides = {
           "Wild Charge"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
+          "Magnet Rise",
           "Electroweb",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -106275,13 +106707,13 @@ overrides = {
         "Flame Body"
       ],
       "evos": [
-        "Volcarona"
-      ],
-      "evoMethods": [
-        "level"
-      ],
-      "evoParams": [
-        59
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Volcarona": {
@@ -106423,23 +106855,23 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Roost",
-          "Defog",
+          "Magnet Rise",
           "Electroweb",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down"
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Roost",
+          "After You",
+          "Trick",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
@@ -106447,8 +106879,15 @@ overrides = {
         "Swarm",
         "Illumination"
       ],
-      "evoType": "level",
-      "evoLevel": 59
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
     },
     "Cobalion": {
       "name": "Cobalion",
@@ -106571,21 +107010,30 @@ overrides = {
         "tutors": [
           "Iron Head",
           "Bounce",
-          "Barrier",
+          "Block",
+          "Magnet Rise",
+          "Iron Defense",
+          "Superpower",
           "Zen Headbutt",
-          "Self Destruct",
-          "Focus Punch",
-          "Psyblade",
-          "Heal Pulse",
-          "Sparkle",
-          "Snarl",
-          "Take Down"
+          "Snore",
+          "Helping Hand",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Intimidate",
         " -",
         "Majestic Ward"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Terrakion": {
@@ -106709,20 +107157,29 @@ overrides = {
         ],
         "tutors": [
           "Iron Head",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Focus Punch",
-          "Psyblade",
-          "Heal Pulse",
-          "Sparkle",
-          "Snarl",
-          "Take Down"
+          "Superpower",
+          "Zen Headbutt",
+          "Snore",
+          "Helping Hand",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Justified",
         " -",
         "Majestic Ward"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Virizion": {
@@ -106843,23 +107300,32 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Psychic Noise",
+          "Seed Bomb",
           "Bounce",
-          "Barrier",
-          "Focus Punch",
-          "Psyblade",
-          "Heal Pulse",
+          "Block",
+          "Superpower",
+          "Zen Headbutt",
+          "Snore",
           "Synthesis",
-          "Outrage",
-          "Screech",
-          "Sparkle",
-          "Take Down"
+          "Giga Drain",
+          "Worry Seed",
+          "Helping Hand",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Justified",
         " -",
         "Majestic Ward"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Tornadus": {
@@ -106992,24 +107458,33 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Take Down"
+          "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Prankster",
         " -",
         "Defiant"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Thundurus": {
@@ -107148,22 +107623,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Foul Play",
-          "Focus Punch",
-          "Protect",
+          "Superpower",
+          "Dark Pulse",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Take Down"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Prankster",
         " -",
         "Defiant"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Reshiram": {
@@ -107277,7 +107761,7 @@ overrides = {
           "Heat Wave",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -107299,21 +107783,30 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Earth Power",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Heal Pulse",
-          "Overheat",
-          "Rest",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Snore",
+          "Heat Wave",
+          "Tailwind",
           "Roost",
-          "Breaking Swipe",
-          "Take Down"
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Turboblaze",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Zekrom": {
@@ -107425,7 +107918,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Weather Ball",
@@ -107452,21 +107945,30 @@ overrides = {
           "Signal Beam",
           "Thunder Punch",
           "Earth Power",
+          "Magnet Rise",
           "Zen Headbutt",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Heal Pulse",
-          "Rest",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Snore",
+          "Tailwind",
           "Roost",
-          "Breaking Swipe",
-          "Take Down"
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Teravolt",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Landorus": {
@@ -107602,23 +108104,32 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Focus Punch",
+          "Superpower",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Breaking Swipe",
-          "Snarl",
-          "Take Down"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Outrage",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Sand Force",
         " -",
         "Sheer Force"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Kyurem": {
@@ -107728,7 +108239,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Shadow Claw",
@@ -107750,21 +108261,30 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Earth Power",
-          "Gastro Acid",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Heal Pulse",
+          "Icy Wind",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Snore",
           "Roost",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Take Down"
+          "Endeavor",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Neutralizing Gas",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Keldeo": {
@@ -107885,22 +108405,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Bounce",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
           "Aqua Tail",
-          "Heal Pulse",
-          "Sparkle",
-          "Struggle Bug",
-          "Take Down"
+          "Snore",
+          "Helping Hand",
+          "Endeavor",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Justified",
         " -",
         "Majestic Ward"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Meloetta": {
@@ -108011,7 +108540,7 @@ overrides = {
           "Rest",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Fling",
@@ -108037,38 +108566,47 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Signal Beam",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Explosion",
-          "Psyblade",
-          "Defense Curl",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Last Resort",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Drain Punch",
           "Helping Hand",
-          "Healing Wish",
-          "Superpower",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Serene Grace",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Genesect": {
@@ -108214,28 +108752,37 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Iron Head",
-          "Cross Poison",
+          "Gunk Shot",
           "Magic Coat",
           "Gravity",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
+          "Dark Pulse",
           "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Protect",
-          "Psyblade",
-          "Heal Pulse",
-          "Outrage",
-          "Icy Wind",
-          "Take Down"
+          "Snore",
+          "Giga Drain",
+          "Recycle",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Exploit",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Egg": {
@@ -108308,6 +108855,15 @@ overrides = {
         " -",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Bad Egg": {
@@ -108380,10 +108936,19 @@ overrides = {
         "Drizzle",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
-    "Sawsbuck-Summer": {
-      "name": "Sawsbuck-Summer",
+    "Ufo": {
+      "name": "Ufo",
       "num": 652,
       "types": [
         "Grass",
@@ -108511,7 +109076,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Brutal Swing",
           "Secret Power",
@@ -108530,32 +109095,41 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Head Smash",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Sap Sipper",
         "Rivalry",
         "Reckless"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
-    "Sawsbuck-Autumn": {
-      "name": "Sawsbuck-Autumn",
+    "Brycenman": {
+      "name": "Brycenman",
       "num": 653,
       "types": [
         "Grass",
@@ -108683,7 +109257,7 @@ overrides = {
           "Lunge",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Will-O-Wisp",
           "Shadow Claw",
@@ -108703,31 +109277,40 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Shed Skin",
         "Resilient",
         "Unaware"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
-    "Sawsbuck-Winter": {
-      "name": "Sawsbuck-Winter",
+    "Mt": {
+      "name": "Mt",
       "num": 654,
       "types": [
         "Grass",
@@ -108857,7 +109440,7 @@ overrides = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Avalanche",
@@ -108876,31 +109459,40 @@ overrides = {
           "Drill Run",
           "Bounce",
           "Low Kick",
-          "Zen Headbutt",
-          "Sweet Scent",
-          "Protect",
-          "Double-Edge",
+          "Magnet Rise",
+          "Electroweb",
+          "Dark Pulse",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Healing Wish",
-          "Rest",
-          "Toxic",
-          "Superpower",
-          "Screech",
-          "Low Sweep",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Heal Bell",
+          "Tailwind",
+          "Pain Split",
+          "Drain Punch",
+          "Worry Seed",
+          "Wonder Room",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Slush Rush",
         "Skill Link",
         "Fur Coat"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
-    "Shellos-East": {
-      "name": "Shellos-East",
+    "Mt2": {
+      "name": "Mt2",
       "num": 655,
       "types": [
         "Water",
@@ -109018,31 +109610,40 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Drill Run",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Gastro Acid",
-          "Protect",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Sap Sipper",
         "Gooey",
         "Gooey"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
-    "Gastrodon-East": {
-      "name": "Gastrodon-East",
+    "Transport": {
+      "name": "Transport",
       "num": 656,
       "types": [
         "Water",
@@ -109185,27 +109786,36 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Drill Run",
-          "Barrier",
+          "Block",
           "Earth Power",
-          "Gastro Acid",
-          "Protect",
-          "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Chilling Water",
           "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Dark Pulse",
+          "Synthesis",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Sap Sipper",
         "Gooey",
         "Gooey"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Giant  F": {
@@ -109241,6 +109851,15 @@ overrides = {
         "Huge Power",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Humanoid": {
@@ -109276,6 +109895,15 @@ overrides = {
         "Thunder Armor",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Monster": {
@@ -109311,6 +109939,15 @@ overrides = {
         "Neutralizing Gas",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "F00": {
@@ -109347,6 +109984,15 @@ overrides = {
         "Volt Absorb",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Majin": {
@@ -109383,6 +110029,15 @@ overrides = {
         "Wonder Guard",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Whitedoor": {
@@ -109418,6 +110073,15 @@ overrides = {
         "Blaze",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Blackdoor": {
@@ -109453,6 +110117,15 @@ overrides = {
         "Refrigerate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Ufo2": {
@@ -109489,6 +110162,22 @@ overrides = {
         "Levitate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Brycen Man": {
@@ -109525,6 +110214,15 @@ overrides = {
         "Levitate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop M1": {
@@ -109560,6 +110258,15 @@ overrides = {
         "Patient",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop M2": {
@@ -109596,6 +110303,15 @@ overrides = {
         "Flash Fire",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop T1": {
@@ -109631,6 +110347,15 @@ overrides = {
         "Motor Drive",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop O1": {
@@ -109666,6 +110391,15 @@ overrides = {
         "Huge Power",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop O2": {
@@ -109701,6 +110435,15 @@ overrides = {
         "Huge Power",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop C1": {
@@ -109736,6 +110479,15 @@ overrides = {
         "Thunder Armor",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop C2": {
@@ -109771,6 +110523,15 @@ overrides = {
         "Neutralizing Gas",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop G1": {
@@ -109807,6 +110568,15 @@ overrides = {
         "Wonder Guard",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop W1": {
@@ -109842,6 +110612,15 @@ overrides = {
         "Blaze",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop W2": {
@@ -109877,6 +110656,15 @@ overrides = {
         "Refrigerate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop R1": {
@@ -109913,6 +110701,15 @@ overrides = {
         "Volt Absorb",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop R2": {
@@ -109949,6 +110746,15 @@ overrides = {
         "Reckless",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Prop K1": {
@@ -109984,6 +110790,15 @@ overrides = {
         "Huge Power",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Ufo 2": {
@@ -110020,6 +110835,15 @@ overrides = {
         "Levitate",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Giant  F 2": {
@@ -110055,6 +110879,15 @@ overrides = {
         "Huge Power",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "F002": {
@@ -110091,6 +110924,15 @@ overrides = {
         "Reckless",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Black Belt": {
@@ -110126,6 +110968,15 @@ overrides = {
         "Huge Power",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Smeargle 2": {
@@ -110197,6 +111048,15 @@ overrides = {
         "Quick Draw",
         "Technician",
         "Moody"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Deoxys-Attack": {
@@ -110334,25 +111194,34 @@ overrides = {
           "Low Kick",
           "Magic Coat",
           "Gravity",
-          "Focus Punch",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
-          "Helping Hand",
           "Superpower",
-          "Electroweb",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Zen Headbutt",
+          "Bind",
+          "Snore",
+          "Role Play",
+          "Drain Punch",
+          "Trick",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Neutralizing Gas",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Deoxys-Defense": {
@@ -110490,26 +111359,35 @@ overrides = {
           "Low Kick",
           "Magic Coat",
           "Gravity",
-          "Self Destruct",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Superpower",
-          "Electroweb",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Iron Defense",
+          "Zen Headbutt",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Drain Punch",
+          "Trick",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Neutralizing Gas",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Deoxys-Speed": {
@@ -110650,25 +111528,34 @@ overrides = {
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Psyblade",
-          "Double-Edge",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Superpower",
-          "Electroweb",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Snarl",
-          "Take Down",
-          "Uproar"
+          "Zen Headbutt",
+          "Bind",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Drain Punch",
+          "Trick",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Stealth Rock",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Neutralizing Gas",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Wormadam-Sandy": {
@@ -110805,36 +111692,45 @@ overrides = {
           "Endure"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Earth Power",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Explosion",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
+          "Magnet Rise",
+          "Iron Defense",
+          "Last Resort",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Battle Armor",
         "Battle Armor",
         "Overcoat"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Wormadam-Trash": {
@@ -110968,35 +111864,44 @@ overrides = {
           "Flash Cannon"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Bug Bite",
           "Signal Beam",
           "Iron Head",
-          "Psychic Noise",
+          "Seed Bomb",
           "Drill Run",
           "Earth Power",
-          "Zen Headbutt",
-          "Self Destruct",
-          "Sweet Scent",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
-          "Double-Edge",
+          "Magnet Rise",
+          "Iron Defense",
+          "Electroweb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Bind",
           "Synthesis",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Fake Tears",
-          "Screech",
-          "Struggle Bug",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Gastro Acid",
+          "Worry Seed",
+          "Endeavor",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Battle Armor",
         "Battle Armor",
         "Overcoat"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Shaymin-Sky": {
@@ -111095,22 +112000,31 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
+          "Covet",
           "Seed Bomb",
-          "Psychic Noise",
-          "Explosion",
-          "Psyblade",
-          "Heal Pulse",
+          "Last Resort",
+          "Zen Headbutt",
+          "Snore",
           "Synthesis",
-          "Rest",
-          "Outrage",
-          "Screech",
-          "Take Down"
+          "Tailwind",
+          "Giga Drain",
+          "Worry Seed",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Serene Grace",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Giratina-Origin": {
@@ -111213,7 +112127,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Weather Ball",
           "Will-O-Wisp",
@@ -111239,23 +112153,32 @@ overrides = {
           "Magic Coat",
           "Earth Power",
           "Gravity",
-          "Gastro Acid",
+          "Icy Wind",
           "Aqua Tail",
-          "Protect",
-          "Follow Me",
-          "Defense Curl",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Hyper Voice",
           "Iron Tail",
-          "Heal Pulse",
-          "Rest",
-          "Incinerate",
-          "Breaking Swipe",
-          "Take Down"
+          "Snore",
+          "Tailwind",
+          "Spite",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Levitate",
         " -",
         "Levitate"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Rotom-Heat": {
@@ -111413,32 +112336,41 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         "Turboblaze",
         "Turboblaze"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Rotom-Wash": {
@@ -111596,32 +112528,41 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         "Moisturize",
         "Moisturize"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Rotom-Frost": {
@@ -111778,32 +112719,41 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         "Refrigerate",
         "Refrigerate"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Rotom-Fan": {
@@ -111960,32 +112910,41 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Motor Drive",
         "Aerilate",
         "Aerilate"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Rotom-Mow": {
@@ -112143,32 +113102,41 @@ overrides = {
         ],
         "tutors": [
           "Signal Beam",
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Self Destruct",
-          "Explosion",
-          "Protect",
-          "Double-Edge",
-          "Overheat",
+          "Iron Defense",
+          "Last Resort",
+          "Dark Pulse",
+          "Bind",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
+          "Worry Seed",
+          "Spite",
+          "After You",
           "Helping Hand",
-          "Rest",
-          "Toxic",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Levitate",
         "Speed Boost",
         "Speed Boost"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Castform-Sunny": {
@@ -112317,7 +113285,7 @@ overrides = {
           "Lunge",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -112332,39 +113300,48 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
-          "Self Destruct",
-          "Explosion",
+          "Block",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Forecast",
         "Solar Power",
         "Cloud Nine"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Castform-Rainy": {
@@ -112513,7 +113490,7 @@ overrides = {
           "Lunge",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -112528,39 +113505,48 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
-          "Self Destruct",
-          "Explosion",
+          "Block",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Forecast",
         "Rain Dish",
         "Cloud Nine"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Castform-Snowy": {
@@ -112709,7 +113695,7 @@ overrides = {
           "Lunge",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -112724,39 +113710,48 @@ overrides = {
           "Draining Kiss"
         ],
         "tutors": [
-          "Skill Swap",
+          "Super Fang",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
-          "Barrier",
-          "Self Destruct",
-          "Explosion",
+          "Block",
+          "Iron Defense",
+          "Last Resort",
           "Aqua Tail",
-          "Protect",
-          "Double-Edge",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Toxic",
+          "Dark Pulse",
+          "Bind",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Pain Split",
           "Roost",
-          "Fake Tears",
-          "Screech",
-          "Incinerate",
-          "Defog",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Gastro Acid",
+          "Worry Seed",
+          "Spite",
+          "After You",
+          "Helping Hand",
+          "Trick",
+          "Magic Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Forecast",
         "Ice Body",
         "Cloud Nine"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Basculin-Blue-Striped": {
@@ -112905,29 +113900,38 @@ overrides = {
         ],
         "tutors": [
           "Bounce",
-          "Seething Cold",
+          "Uproar",
           "Aqua Tail",
-          "Protect",
+          "Dark Pulse",
           "Iron Tail",
-          "Double-Edge",
-          "Helping Hand",
-          "Rest",
-          "Head Smash",
-          "Toxic",
+          "Bind",
+          "Role Play",
+          "Tailwind",
+          "Sky Attack",
+          "Pain Split",
+          "Giga Drain",
+          "Drain Punch",
+          "Worry Seed",
+          "Magic Room",
           "Outrage",
-          "Superpower",
-          "Screech",
-          "Chilling Water",
-          "Breaking Swipe",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down"
+          "Recycle",
+          "Snatch",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Determined",
         "Adaptability",
         "Anger Point"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Darmanitan-Zen": {
@@ -113080,20 +114084,29 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Fire Punch",
-          "Focus Punch",
-          "Psyblade",
-          "Heal Pulse",
-          "Overheat",
-          "Struggle Bug",
-          "Take Down"
+          "Superpower",
+          "Zen Headbutt",
+          "Snore",
+          "Heat Wave",
+          "Endeavor",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Sheer Force",
         "Solid Rock",
         "Inner Focus"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Meloetta-Pirouette": {
@@ -113204,7 +114217,7 @@ overrides = {
           "Rest",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Fling",
@@ -113230,38 +114243,47 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Dual Chop",
           "Signal Beam",
           "Low Kick",
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Fire Punch",
           "Ice Punch",
           "Magic Coat",
           "Gravity",
-          "Explosion",
-          "Psyblade",
-          "Defense Curl",
-          "Heal Pulse",
-          "Lucky Chant",
+          "Last Resort",
+          "Zen Headbutt",
+          "Hyper Voice",
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Heal Bell",
+          "Drain Punch",
           "Helping Hand",
-          "Healing Wish",
-          "Superpower",
-          "Sparkle",
-          "Electroweb",
-          "Chilling Water",
-          "Low Sweep",
-          "Icy Wind",
-          "Natural Gift",
-          "Take Down",
-          "Uproar"
+          "Trick",
+          "Magic Room",
+          "Wonder Room",
+          "Recycle",
+          "Snatch",
+          "Sleep Talk",
+          "Skill Swap"
         ]
       },
       "abs": [
         "Serene Grace",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Kyurem-White": {
@@ -113371,7 +114393,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Shadow Claw",
@@ -113393,21 +114415,30 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Earth Power",
-          "Gastro Acid",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Heal Pulse",
+          "Icy Wind",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Snore",
           "Roost",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Take Down"
+          "Endeavor",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Turboblaze",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Kyurem-Black": {
@@ -113517,7 +114548,7 @@ overrides = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Shadow Claw",
@@ -113539,21 +114570,30 @@ overrides = {
           "Signal Beam",
           "Iron Head",
           "Earth Power",
-          "Gastro Acid",
-          "Psyblade",
-          "Follow Me",
-          "Defense Curl",
-          "Heal Pulse",
+          "Icy Wind",
+          "Zen Headbutt",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Snore",
           "Roost",
-          "Struggle Bug",
-          "Breaking Swipe",
-          "Take Down"
+          "Endeavor",
+          "Outrage",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Teravolt",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Keldeo-Resolute": {
@@ -113674,22 +114714,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seed Bomb",
+          "Covet",
           "Bounce",
-          "Explosion",
-          "Focus Punch",
-          "Gastro Acid",
+          "Last Resort",
+          "Superpower",
+          "Icy Wind",
           "Aqua Tail",
-          "Heal Pulse",
-          "Sparkle",
-          "Struggle Bug",
-          "Take Down"
+          "Snore",
+          "Helping Hand",
+          "Endeavor",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Justified",
         " -",
         " -"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Tornadus-Therian": {
@@ -113822,24 +114871,33 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Foul Play",
-          "Focus Punch",
-          "Gastro Acid",
-          "Protect",
+          "Superpower",
+          "Icy Wind",
+          "Dark Pulse",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Overheat",
-          "Helping Hand",
-          "Rest",
-          "Take Down"
+          "Snore",
+          "Knock Off",
+          "Heat Wave",
+          "Role Play",
+          "Tailwind",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Regenerator",
         " -",
         "Regenerator"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Thundurus-Therian": {
@@ -113978,22 +115036,31 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Seething Cold",
+          "Uproar",
           "Thunder Punch",
           "Foul Play",
-          "Focus Punch",
-          "Protect",
+          "Superpower",
+          "Dark Pulse",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Take Down"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Volt Absorb",
         " -",
         "Volt Absorb"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     },
     "Landorus-Therian": {
@@ -114129,23 +115196,32 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Barrier",
+          "Block",
           "Earth Power",
           "Gravity",
-          "Focus Punch",
+          "Superpower",
           "Iron Tail",
-          "Heal Pulse",
-          "Lucky Chant",
-          "Helping Hand",
-          "Breaking Swipe",
-          "Snarl",
-          "Take Down"
+          "Snore",
+          "Knock Off",
+          "Role Play",
+          "Outrage",
+          "Stealth Rock",
+          "Sleep Talk"
         ]
       },
       "abs": [
         "Intimidate",
         " -",
         "Intimidate"
+      ],
+      "evos": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
       ]
     }
   },
@@ -115115,7 +116191,7 @@ overrides = {
       "name": "Strength",
       "num": 69,
       "desc": "The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.",
-      "e_id": 139,
+      "e_id": 0,
       "sf": true
     },
     "Absorb": {
@@ -116830,7 +117906,7 @@ overrides = {
       "prio": 0,
       "name": "Sandstorm",
       "num": 200,
-      "desc": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
+      "desc": "A four-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
       "e_id": 115
     },
     "Giga Drain": {
@@ -117320,7 +118396,7 @@ overrides = {
       "prio": 0,
       "name": "Rain Dance",
       "num": 239,
-      "desc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
+      "desc": "The user summons a heavy rain that falls for four turns, powering up Water-type moves.",
       "e_id": 136
     },
     "Sunny Day": {
@@ -117332,7 +118408,7 @@ overrides = {
       "prio": 0,
       "name": "Sunny Day",
       "num": 240,
-      "desc": "The user intensifies the sun for five turns, powering up Fire-type moves.",
+      "desc": "The user intensifies the sun for four turns, powering up Fire-type moves.",
       "e_id": 137
     },
     "Crunch": {
@@ -117433,7 +118509,7 @@ overrides = {
       "name": "Rock Smash",
       "num": 248,
       "desc": "The user attacks with a punch that can shatter a rock. It may also lower the target's Defense stat.",
-      "e_id": 19,
+      "e_id": 0,
       "sf": true
     },
     "Whirlpool": {
@@ -117554,7 +118630,7 @@ overrides = {
       "prio": 0,
       "name": "Hail",
       "num": 257,
-      "desc": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
+      "desc": "The user summons a hailstorm lasting four turns. It damages non-Ice Pokémon and boosts Ice type's Defense.",
       "e_id": 164
     },
     "Torment": {
@@ -118356,7 +119432,7 @@ overrides = {
       "name": "Metal Sound",
       "num": 318,
       "desc": "A horrible sound like scraping metal harshly reduces the target's Sp. Def stat.",
-      "e_id": 62,
+      "e_id": 296,
       "sf": true,
       "flags": {
         "sound": true
@@ -119849,7 +120925,7 @@ overrides = {
       "name": "Defog",
       "num": 431,
       "desc": "A strong wind blows away obstacles such as hazards. It also lowers the target's evasiveness.",
-      "e_id": 129,
+      "e_id": 0,
       "tar": "allAdjacentFoes",
       "sf": true
     },
@@ -120451,7 +121527,7 @@ overrides = {
       "name": "Telekinesis",
       "num": 476,
       "desc": "The user makes the target float with its psychic powers. Lowers target Evasion and eliminates hazards from the field.",
-      "e_id": 24,
+      "e_id": 0,
       "tar": "allAdjacentFoes",
       "sf": true
     },
@@ -120631,7 +121707,7 @@ overrides = {
       "name": "Acid Spray",
       "num": 490,
       "desc": "The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat.",
-      "e_id": 0,
+      "e_id": 296,
       "sf": true
     },
     "Foul Play": {
@@ -125856,17 +126932,17 @@ overrides = {
             "mx": 12
           },
           {
+            "s": "Kakuna",
+            "mn": 10,
+            "mx": 12
+          },
+          {
             "s": "Yanma",
             "mn": 10,
             "mx": 12
           },
           {
-            "s": "Bulbasaur",
-            "mn": 10,
-            "mx": 12
-          },
-          {
-            "s": "Bulbasaur",
+            "s": "Yanma",
             "mn": 10,
             "mx": 12
           }
@@ -150101,7 +151177,7 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a Great Ball.",
-      "location": "Pinwheel Forest, Relic Sanctum, Victory Road, Victory Road, Victory Road, Village Bridge, Route 3, Route 13",
+      "location": "",
       "rewards": [
         "Youngster Kevin",
         "Clerk  M Fredric",
@@ -150164,7 +151240,7 @@ overrides = {
     "netball": {
       "name": "Net Ball",
       "desc": "A somewhat different Poké Ball that\\nworks especially well on Water- and\\nBug-type Pokémon.",
-      "location": "Pinwheel Forest",
+      "location": "",
       "marts": [
         "Victory Road Upper",
         "Victory Road Upper 2",
@@ -150175,7 +151251,7 @@ overrides = {
     "diveball": {
       "name": "Dive Ball",
       "desc": "A somewhat different Poké Ball that\\nworks especially well on Pokémon that\\nlive underwater.",
-      "location": "Seaside Cave, Route 17",
+      "location": "",
       "rewards": [
         "Fisherman Devon"
       ],
@@ -150199,7 +151275,7 @@ overrides = {
     "repeatball": {
       "name": "Repeat Ball",
       "desc": "A somewhat different Poké Ball that\\nworks especially well on Pokémon\\nspecies that were previously caught.",
-      "location": "Route 23",
+      "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
         "Victory Road Upper",
@@ -150209,7 +151285,7 @@ overrides = {
     "timerball": {
       "name": "Timer Ball",
       "desc": "A somewhat different Ball that\\nbecomes progressively better the\\nmore turns there are in a battle.",
-      "location": "Route 12, Lacunosa Town",
+      "location": "",
       "marts": [
         "Icirrus City Upper Cashier",
         "Opelucid City Upper Cashier",
@@ -150221,7 +151297,7 @@ overrides = {
     "luxuryball": {
       "name": "Luxury Ball",
       "desc": "A comfortable Poké Ball that makes a\\ncaught wild Pokémon quickly grow\\nfriendly.",
-      "location": "N's Castle, Route 13",
+      "location": "",
       "marts": [
         "Victory Road Upper",
         "Victory Road Upper 2",
@@ -150237,7 +151313,7 @@ overrides = {
     "duskball": {
       "name": "Dusk Ball",
       "desc": "A somewhat different Poké Ball that\\nmakes it easier to catch wild Pokémon\\nat night or in dark places like caves.",
-      "location": "Twist Mountain",
+      "location": "",
       "rewards": [
         "Roughneck Fletcher"
       ],
@@ -150253,7 +151329,7 @@ overrides = {
     "healball": {
       "name": "Heal Ball",
       "desc": "A remedial Poké Ball that restores the\\ncaught Pokémon's HP and eliminates\\nany status problem.",
-      "location": "Abundant Shrine",
+      "location": "",
       "marts": [
         "Victory Road Upper",
         "Victory Road Upper 2",
@@ -150264,7 +151340,7 @@ overrides = {
     "quickball": {
       "name": "Quick Ball",
       "desc": "A somewhat different Poké Ball that\\nprovides a better catch rate if it is\\nused at the start of a wild encounter.",
-      "location": "Route 3, Route 9",
+      "location": "",
       "rewards": [
         "Pilot Leonard"
       ],
@@ -150290,7 +151366,7 @@ overrides = {
         "Smasher Elena",
         "Linebacker Dan",
         "Hoopster Bobby",
-        "Cosplayer Cassie - Join Avenue",
+        "Cosplayer Cassie",
         "Linebacker Bob",
         "Linebacker Jonah",
         "Infielder Connor",
@@ -150300,7 +151376,7 @@ overrides = {
         "Hoopster John",
         "Hoopster Lamarcus",
         "Smasher Aspen",
-        "Cosplayer Amy - Join Avenue"
+        "Cosplayer Amy"
       ],
       "marts": [
         "SM9 Bottom Section"
@@ -150349,19 +151425,19 @@ overrides = {
     "fullrestore": {
       "name": "Full Restore",
       "desc": "A medicine that fully restores the HP\\nand heals any status problems of a\\nsingle Pokémon.",
-      "location": "Twist Mountain, Victory Road, Victory Road, Victory Road, Seaside Cave, Route 1, Route 3",
+      "location": "",
       "rewards": [
-        "Striker Roberto - Driftveil Drawbridge",
-        "Smasher Elena - Driftveil Drawbridge",
-        "Infielder Alex - Driftveil Drawbridge",
-        "Infielder Connor - Driftveil Drawbridge",
-        "Striker Marco - Driftveil Drawbridge",
-        "Linebacker Jonah - Driftveil Drawbridge",
-        "Linebacker Dan - Driftveil Drawbridge",
-        "Hoopster Lamarcus - Driftveil Drawbridge",
-        "Hoopster Bobby - Driftveil Drawbridge",
-        "Nurse Kirsten - Castelia Sewers",
-        "Smasher Aspen - Driftveil Drawbridge"
+        "Striker Roberto",
+        "Smasher Elena",
+        "Infielder Alex",
+        "Infielder Connor",
+        "Striker Marco",
+        "Linebacker Jonah",
+        "Linebacker Dan",
+        "Hoopster Lamarcus",
+        "Hoopster Bobby",
+        "Nurse Kirsten",
+        "Smasher Aspen"
       ],
       "marts": [
         "Stock No Badges",
@@ -150375,10 +151451,10 @@ overrides = {
     "maxpotion": {
       "name": "Max Potion",
       "desc": "A spray-type medicine for wounds.\\nIt completely restores the HP of a\\nsingle Pokémon.",
-      "location": "Nature Preserve, Route 12, Route 14, Route 15, Route 22, Route 23",
+      "location": "",
       "rewards": [
-        "Cosplayer Anders - Join Avenue",
-        "Girl in Suit Donna - Join Avenue",
+        "Cosplayer Anders",
+        "Girl in Suit Donna",
         "Pokefan Colin",
         "Pokefan Darcy"
       ],
@@ -150396,19 +151472,19 @@ overrides = {
     "hyperpotion": {
       "name": "Hyper Potion",
       "desc": "A spray-type medicine for wounds.\\nIt restores the HP of one Pokémon by\\n200 points.",
-      "location": "Chargestone Cave, Reversal Mountain, Reversal Mountain, Mistralton Cave, Route 13",
+      "location": "",
       "rewards": [
         "Smasher Aspen",
-        "Hoopster John - Chargestone Cave",
+        "Hoopster John",
         "Linebacker Bob",
         "Infielder Alex",
-        "Guy in Suit Larry - Join Avenue",
+        "Guy in Suit Larry",
         "Hoopster Bobby",
         "Linebacker Jonah",
         "Infielder Todd",
         "Striker Marco",
         "Hoopster Lamarcus",
-        "Cosplayer Miriam - Join Avenue"
+        "Cosplayer Miriam"
       ],
       "marts": [
         "SM9 Bottom Section"
@@ -150420,7 +151496,7 @@ overrides = {
       "location": "",
       "rewards": [
         "Infielder Alex",
-        "Cosplayer Jared - Join Avenue",
+        "Cosplayer Jared",
         "Linebacker Dan",
         "Hoopster Bobby",
         "Linebacker Bob",
@@ -150440,7 +151516,7 @@ overrides = {
     "fullheal": {
       "name": "Full Heal",
       "desc": "A spray-type medicine.\\nIt heals all the status problems of a\\nsingle Pokémon.",
-      "location": "Pinwheel Forest, Chargestone Cave, Reversal Mountain, Strange House, Route 11, Route 23, Lacunosa Town",
+      "location": "",
       "marts": [
         "Stock No Badges",
         "Stock 1+Badges",
@@ -150454,7 +151530,7 @@ overrides = {
     "revive": {
       "name": "Revive",
       "desc": "A medicine that revives a fainted\\nPokémon. It restores half the\\nPokémon's maximum HP.",
-      "location": "Reversal Mountain, Reversal Mountain, Plasma Frigate",
+      "location": "",
       "marts": [
         "SM9 Bottom Section"
       ]
@@ -150462,7 +151538,7 @@ overrides = {
     "maxrevive": {
       "name": "Max Revive",
       "desc": "A medicine that revives a fainted\\nPokémon. It fully restores the\\nPokémon's HP.",
-      "location": "Pinwheel Forest, Victory Road, Plasma Frigate, Plasma Frigate, Clay Tunnel, Route 2, Wellspring Cave, Abundant Shrine",
+      "location": "",
       "rewards": [
         "Doctor Jules"
       ]
@@ -150503,7 +151579,7 @@ overrides = {
       "desc": "Milk with a very high nutrition content.\\nIt restores the HP of one Pokémon by\\n100 points.",
       "location": "",
       "rewards": [
-        "Waiter Clint - Nimbasa City",
+        "Waiter Clint",
         "Waitress Bonita",
         "Baker Lilly"
       ]
@@ -150543,17 +151619,17 @@ overrides = {
     "maxether": {
       "name": "Max Ether",
       "desc": "It fully restores the PP of a single\\nselected move that has been learned\\nby the target Pokémon.",
-      "location": "Route 13"
+      "location": ""
     },
     "elixir": {
       "name": "Elixir",
       "desc": "It restores the PP of all the\\nmoves learned by the targeted Pokémon\\nby 10 points each.",
-      "location": "Route 9"
+      "location": ""
     },
     "maxelixir": {
       "name": "Max Elixir",
       "desc": "It fully restores the PP of all the\\nmoves learned by the targeted\\nPokémon.",
-      "location": "Icirrus City, Victory Road, Plasma Frigate, Plasma Frigate"
+      "location": ""
     },
     "lavacookie": {
       "name": "Lava Cookie",
@@ -150563,7 +151639,7 @@ overrides = {
     "berryjuice": {
       "name": "Berry Juice",
       "desc": "A 100% pure juice made of Berries.\\nIt restores the HP of one Pokémon by\\njust 20 points.",
-      "location": "Undella Town, Pledge Grove",
+      "location": "",
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges"
@@ -150577,7 +151653,7 @@ overrides = {
     "hpup": {
       "name": "HP Up",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base HP of a single\\nPokémon.",
-      "location": "Pinwheel Forest, Clay Tunnel, Route 9, Route 23",
+      "location": "",
       "marts": [
         "SM9 Top Left Cashier"
       ]
@@ -150585,10 +151661,10 @@ overrides = {
     "protein": {
       "name": "Protein",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Attack stat of a\\nsingle Pokémon.",
-      "location": "Humilau City, Pinwheel Forest, N's Castle",
+      "location": "",
       "rewards": [
-        "Linebacker Dan - Nimbasa City",
-        "Linebacker Bob - Nimbasa City"
+        "Linebacker Dan",
+        "Linebacker Bob"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -150597,7 +151673,7 @@ overrides = {
     "unusualcandies": {
       "name": "Unusual Candies",
       "desc": "An odd candy with an unsatisfying taste.\\nIt grants a single Pokemon almost\\nenough experience to level up.",
-      "location": "Route 9, Route 18, Route 23",
+      "location": "",
       "marts": [
         "SM9 Top Left Cashier"
       ]
@@ -150605,9 +151681,9 @@ overrides = {
     "abilitycapsule": {
       "name": "Ability Capsule",
       "desc": "A capsule that allows a Pokémon with two\\nAbilities to switch between them.\\r\\nOnly works on final stage Pokémon.",
-      "location": "Village Bridge",
+      "location": "",
       "rewards": [
-        "Striker Roberto - Nimbasa City"
+        "Striker Roberto"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -150616,9 +151692,9 @@ overrides = {
     "calcium": {
       "name": "Calcium",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Sp. Atk (Special\\nAttack) stat of a single Pokémon.",
-      "location": "Route 3, Route 22, Route 23",
+      "location": "",
       "rewards": [
-        "Hoopster John - Nimbasa City"
+        "Hoopster John"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -150627,7 +151703,7 @@ overrides = {
     "rarecandies": {
       "name": "Rare Candies",
       "desc": "A candy that is packed with energy.\\nIt raises the level of a single Pokémon\\nby one.",
-      "location": "Dreamyard, Strange House, Victory Road, Seaside Cave, Nature Preserve, Village Bridge, Route 3, Abundant Shrine, Route 22",
+      "location": "",
       "rewards": [
         "PkMn Breeder Owen",
         "PkMn Breeder Brooke",
@@ -150637,7 +151713,7 @@ overrides = {
     "ppup": {
       "name": "PP Up",
       "desc": "It slightly raises the maximum PP of\\na selected move that has been learned\\nby the target Pokémon.",
-      "location": "Giant Chasm, Reversal Mountain, Reversal Mountain, Route 12, Route 22, Route 21",
+      "location": "",
       "rewards": [
         "Ace Trainer Lucille",
         "Ace Trainer Charlie"
@@ -150646,7 +151722,7 @@ overrides = {
     "abilitypatch": {
       "name": "Ability Patch",
       "desc": "A patch that allows a Pokémon with a\\nregular Ability to have a rare Ability.",
-      "location": "Plasma Frigate, Plasma Frigate, Route 3, Route 11, Route 18",
+      "location": "",
       "marts": [
         "SM9 Top Left Cashier"
       ]
@@ -150654,7 +151730,7 @@ overrides = {
     "ppmax": {
       "name": "PP Max",
       "desc": "It maximally raises the top PP of a\\nselected move that has been learned\\nby the target Pokémon.",
-      "location": "Pinwheel Forest, Pinwheel Forest, Victory Road, Route 18",
+      "location": "",
       "rewards": [
         "Veteran Arlen",
         "Veteran Sayuri"
@@ -150753,7 +151829,7 @@ overrides = {
     "redshard": {
       "name": "Red Shard",
       "desc": "A small red shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Driftveil City, Driftveil City, Mistralton City, Chargestone Cave, Twist Mountain, Abyssal Ruins, Relic Passage, Relic Passage, Route 13, Route 22",
+      "location": "",
       "rewards": [
         "Hiker Russel"
       ]
@@ -150761,7 +151837,7 @@ overrides = {
     "blueshard": {
       "name": "Blue Shard",
       "desc": "A small blue shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Village Bridge, Mistralton Cave, Route 13, Route 17",
+      "location": "",
       "rewards": [
         "Worker Matthew"
       ]
@@ -150769,7 +151845,7 @@ overrides = {
     "yellowshard": {
       "name": "Yellow Shard",
       "desc": "A small yellow shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Driftveil City, Dragonspiral Tower, Dragonspiral Tower, Giant Chasm, Clay Tunnel, Clay Tunnel, Clay Tunnel, Celestial Tower, Moor of Icirrus, Moor of Icirrus, Route 12",
+      "location": "",
       "rewards": [
         "Worker Tyler"
       ]
@@ -150777,7 +151853,7 @@ overrides = {
     "greenshard": {
       "name": "Green Shard",
       "desc": "A small green shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
-      "location": "Castelia City, Desert Resort, Castelia Sewers, Virbank Complex, Victory Road, Route 6, Route 12, Route 23"
+      "location": ""
     },
     "superrepel": {
       "name": "Super Repel",
@@ -150790,7 +151866,7 @@ overrides = {
     "maxrepel": {
       "name": "Max Repel",
       "desc": "An item that prevents weak wild\\nPokémon from appearing for 250 steps\\nafter its use.",
-      "location": "Mistralton City, Pinwheel Forest, Giant Chasm, Reversal Mountain, Reversal Mountain, Victory Road, Victory Road, Victory Road, Victory Road, Seaside Cave, Wellspring Cave, Route 13",
+      "location": "",
       "rewards": [
         "PkMn Ranger Alain",
         "PkMn Ranger Heidi",
@@ -150804,7 +151880,7 @@ overrides = {
     "escaperope": {
       "name": "Escape Rope",
       "desc": "A long, durable rope.\\nUse it to escape instantly from a cave\\nor a dungeon.",
-      "location": "Chargestone Cave, Reversal Mountain, Victory Road, Victory Road, Wellspring Cave, Guidance Chamber",
+      "location": "",
       "marts": [
         "SM9 Bottom Section"
       ]
@@ -150820,7 +151896,7 @@ overrides = {
     "sunstone": {
       "name": "Sun Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as red as the sun.",
-      "location": "Pinwheel Forest, Giant Chasm, Abyssal Ruins, Relic Passage",
+      "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
       ]
@@ -150828,7 +151904,7 @@ overrides = {
     "moonstone": {
       "name": "Moon Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as black as the night sky.",
-      "location": "Giant Chasm, Giant Chasm, Abyssal Ruins, Relic Passage",
+      "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
       ]
@@ -150836,7 +151912,7 @@ overrides = {
     "firestone": {
       "name": "Fire Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is colored orange.",
-      "location": "Abyssal Ruins, Relic Passage",
+      "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
       ]
@@ -150886,7 +151962,7 @@ overrides = {
     "bigpearl": {
       "name": "Big Pearl",
       "desc": "A quite-large pearl that sparkles in a\\npretty silver color. It can be sold at\\na high price to shops.",
-      "location": "Village Bridge, Route 8, Route 14, Route 21",
+      "location": "",
       "rewards": [
         "Socialite Emilia"
       ]
@@ -150902,7 +151978,7 @@ overrides = {
     "starpiece": {
       "name": "Star Piece",
       "desc": "A shard of a pretty gem that sparkles\\nin a red color. It can be sold at a\\nhigh price to shops.",
-      "location": "Giant Chasm, Giant Chasm, Giant Chasm, Route 13, Route 18, Route 23",
+      "location": "",
       "wilds": [
         "Jirachi",
         "Meloetta",
@@ -150912,7 +151988,7 @@ overrides = {
     "nugget": {
       "name": "Nugget",
       "desc": "A nugget of pure gold that gives off a\\nlustrous gleam. It can be sold at a\\nhigh price to shops.",
-      "location": "Pinwheel Forest, Reversal Mountain, Reversal Mountain, Clay Tunnel, Route 9, Route 14",
+      "location": "",
       "rewards": [
         "Gentleman Renaud"
       ],
@@ -150924,7 +152000,7 @@ overrides = {
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is\\nextremely rare. It glows faintly in the\\ncolors of the rainbow.",
-      "location": "Castelia City, Virbank City, Humilau City, PWT, Chargestone Cave, Seaside Cave, Village Bridge, Route 7, Celestial Tower, Route 14, Route 23"
+      "location": ""
     },
     "honey": {
       "name": "Honey",
@@ -150954,17 +152030,17 @@ overrides = {
     "rootfossil": {
       "name": "Root Fossil",
       "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a plant root.",
-      "location": "Relic Sanctum, Abyssal Ruins, Relic Passage"
+      "location": ""
     },
     "clawfossil": {
       "name": "Claw Fossil",
       "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a claw.",
-      "location": "Relic Castle"
+      "location": ""
     },
     "helixfossil": {
       "name": "Helix Fossil",
       "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a seashell.",
-      "location": "Relic Sanctum, Abyssal Ruins, Relic Passage"
+      "location": ""
     },
     "domefossil": {
       "name": "Dome Fossil",
@@ -150989,22 +152065,22 @@ overrides = {
     "rarebone": {
       "name": "Rare Bone",
       "desc": "A bone that is extremely valuable for\\nPokémon archeology. It can be sold\\nfor a high price to shops.",
-      "location": "Twist Mountain"
+      "location": ""
     },
     "shinystone": {
       "name": "Shiny Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt shines with a dazzling light.",
-      "location": "Abyssal Ruins, Relic Passage, Abundant Shrine"
+      "location": ""
     },
     "duskstone": {
       "name": "Dusk Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as dark as dark can be.",
-      "location": "Twist Mountain, Abyssal Ruins, Strange House, Strange House, Relic Passage"
+      "location": ""
     },
     "dawnstone": {
       "name": "Dawn Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt sparkles like eyes.",
-      "location": "Abyssal Ruins, Relic Passage"
+      "location": ""
     },
     "ovalstone": {
       "name": "Oval Stone",
@@ -151019,7 +152095,7 @@ overrides = {
     "throatspray": {
       "name": "Throat Spray",
       "desc": "Raises Sp. Atk when a Pokémon uses a\\nsound-based move.",
-      "location": "Dragonspiral Tower"
+      "location": ""
     },
     "???": {
       "name": "???",
@@ -151062,12 +152138,12 @@ overrides = {
     "fairydust": {
       "name": "Fairy Dust",
       "desc": "An item to be held by a Pokémon.\\nIt is a sparkling, enchanted dust that ups\\nthe power of Fairy-type moves.",
-      "location": "Striaton City, Dragonspiral Tower, Lostlorn Forest"
+      "location": ""
     },
     "tricksterherb": {
       "name": "Trickster Herb",
       "desc": "A single-use item to be held by a\\nPokémon. It allows status moves to\\nact first.",
-      "location": "Castelia City, Dragonspiral Tower, Route 4"
+      "location": ""
     },
     "greetmail": {
       "name": "Greet Mail",
@@ -151230,9 +152306,9 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from paralysis.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Lois - Route 5",
-        "PkMn Ranger Forrest - Lostlorn Forest",
-        "PkMn Ranger Eddie - Victory Road"
+        "PkMn Ranger Lois",
+        "PkMn Ranger Forrest",
+        "PkMn Ranger Eddie"
       ],
       "marts": [
         "Stock 3+Badges",
@@ -151246,8 +152322,8 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from sleep.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Briana - Chargestone Cave",
-        "PkMn Ranger Louis - Chargestone Cave"
+        "PkMn Ranger Briana",
+        "PkMn Ranger Louis"
       ],
       "marts": [
         "Stock 3+Badges",
@@ -151261,8 +152337,8 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from poison.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Richard - Route 6",
-        "PkMn Ranger Serenity - Lostlorn Forest"
+        "PkMn Ranger Richard",
+        "PkMn Ranger Serenity"
       ],
       "marts": [
         "Stock 3+Badges",
@@ -151276,11 +152352,11 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from a burn.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Lewis - Reversal Mountain",
-        "PkMn Ranger Eliza - Reversal Mountain",
-        "PkMn Ranger Elle - Victory Road",
-        "PkMn Ranger Jaden - Desert Resort",
-        "PkMn Ranger Anja - Desert Resort"
+        "PkMn Ranger Lewis",
+        "PkMn Ranger Eliza",
+        "PkMn Ranger Elle",
+        "PkMn Ranger Jaden",
+        "PkMn Ranger Anja"
       ],
       "wilds": [
         "Darumaka",
@@ -151299,8 +152375,8 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit defrosts it.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Thalia - Route 11",
-        "PkMn Ranger Crofton - Route 11"
+        "PkMn Ranger Thalia",
+        "PkMn Ranger Crofton"
       ],
       "marts": [
         "Stock 3+Badges",
@@ -151314,8 +152390,8 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit restores a move's PP by 10.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Bret - Route 20",
-        "PkMn Ranger Malory - Route 20"
+        "PkMn Ranger Bret",
+        "PkMn Ranger Malory"
       ],
       "marts": [
         "Castelia City Upper Cashier"
@@ -151335,10 +152411,10 @@ overrides = {
       "desc": "If held by a Pokémon,\\nit recovers from confusion.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Johan - Seaside Cave",
-        "PkMn Ranger Mikiko - Seaside Cave",
-        "PkMn Ranger Lewis - Reversal Mountain",
-        "PkMn Ranger Eliza - Reversal Mountain"
+        "PkMn Ranger Johan",
+        "PkMn Ranger Mikiko",
+        "PkMn Ranger Lewis",
+        "PkMn Ranger Eliza"
       ],
       "marts": [
         "Stock 3+Badges",
@@ -151350,16 +152426,16 @@ overrides = {
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon,\\nit recovers from any status problem.",
-      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower",
+      "location": "",
       "rewards": [
-        "PkMn Ranger Rick - Route 1",
-        "PkMn Ranger Audra - Route 6",
-        "PkMn Ranger Terrakion - Clay Tunnel",
-        "PkMn Ranger Keldeo - Clay Tunnel",
-        "PkMn Ranger Parker - Moor of Icirrus",
-        "PkMn Ranger Elaine - Moor of Icirrus",
-        "PkMn Ranger Ralph - Pinwheel Forest",
-        "PkMn Ranger Melita - Pinwheel Forest"
+        "PkMn Ranger Rick",
+        "PkMn Ranger Audra",
+        "PkMn Ranger Terrakion",
+        "PkMn Ranger Keldeo",
+        "PkMn Ranger Parker",
+        "PkMn Ranger Elaine",
+        "PkMn Ranger Ralph",
+        "PkMn Ranger Melita"
       ],
       "wilds": [
         "Shaymin",
@@ -151372,16 +152448,16 @@ overrides = {
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon,\\nit heals the user's HP a little.",
-      "location": "Dragonspiral Tower, Dragonspiral Tower, Relic Passage, Relic Passage",
+      "location": "",
       "rewards": [
-        "PkMn Ranger Daryl - Route 13",
-        "PkMn Ranger Dianne - Route 13",
-        "PkMn Ranger Leaf - Route 20",
-        "PkMn Ranger Naoko - Route 20",
-        "PkMn Ranger Lena - Route 23",
-        "PkMn Ranger Steve - Route 23",
-        "PkMn Ranger Dwayne - Pinwheel Forest",
-        "PkMn Ranger Hillary - Pinwheel Forest"
+        "PkMn Ranger Daryl",
+        "PkMn Ranger Dianne",
+        "PkMn Ranger Leaf",
+        "PkMn Ranger Naoko",
+        "PkMn Ranger Lena",
+        "PkMn Ranger Steve",
+        "PkMn Ranger Dwayne",
+        "PkMn Ranger Hillary"
       ],
       "marts": [
         "Stock 7+Badges",
@@ -151391,7 +152467,7 @@ overrides = {
     "figyberry": {
       "name": "Figy Berry",
       "desc": "If held by a Pokémon, it restores the\\nuser's HP in a pinch.",
-      "location": "Route 4",
+      "location": "",
       "marts": [
         "Driftveil City Herb Shop"
       ]
@@ -151419,10 +152495,7 @@ overrides = {
     "razzberry": {
       "name": "Razz Berry",
       "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 80\\nNatural Gift Type: Steel",
-      "location": "",
-      "marts": [
-        "Floccesy Town"
-      ]
+      "location": ""
     },
     "blukberry": {
       "name": "Bluk Berry",
@@ -151527,118 +152600,127 @@ overrides = {
     },
     "nomelberry": {
       "name": "Nomel Berry",
-      "desc": "A Berry which is very rare in the\\nUnova region.\\nA maniac will buy it for a high price.",
-      "location": ""
+      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Dragon",
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "spelonberry": {
       "name": "Spelon Berry",
-      "desc": "A Berry which is very rare in the\\nUnova region.\\nA maniac will buy it for a high price.",
-      "location": ""
+      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Dark",
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "pamtreberry": {
       "name": "Pamtre Berry",
-      "desc": "A Berry which is very rare in the\\nUnova region.\\nA maniac will buy it for a high price.",
-      "location": ""
+      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Steel",
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "watmelberry": {
       "name": "Watmel Berry",
-      "desc": "A Berry which is very rare in the\\nUnova region.\\nA maniac will buy it for a high price.",
+      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 100\\nNatural Gift Type: Fire",
       "location": ""
     },
     "durinberry": {
       "name": "Durin Berry",
-      "desc": "A Berry which is very rare in the\\nUnova region.\\nA maniac will buy it for a high price.",
+      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 100\\nNatural Gift Type: Water",
       "location": ""
     },
     "belueberry": {
       "name": "Belue Berry",
-      "desc": "A Berry which is very rare in the\\nUnova region.\\nA maniac will buy it for a high price.",
+      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 100\\nNatural Gift Type: Electric",
       "location": ""
     },
     "occaberry": {
       "name": "Occa Berry",
       "desc": "Weakens a supereffective Fire-type\\nattack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "passhoberry": {
       "name": "Passho Berry",
       "desc": "Weakens a supereffective Water-type\\nattack against the holding Pokémon.",
-      "location": "Castelia Sewers, Lostlorn Forest"
+      "location": ""
     },
     "wacanberry": {
       "name": "Wacan Berry",
       "desc": "Weakens a supereffective Electric-type\\nattack against the holding Pokémon.",
-      "location": "Chargestone Cave, Chargestone Cave, Lostlorn Forest"
+      "location": ""
     },
     "rindoberry": {
       "name": "Rindo Berry",
       "desc": "Weakens a supereffective Grass-type\\nattack against the holding Pokémon.",
-      "location": "Castelia Sewers, Lostlorn Forest"
+      "location": ""
     },
     "yacheberry": {
       "name": "Yache Berry",
       "desc": "Weakens a supereffective Ice-type\\nattack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "chopleberry": {
       "name": "Chople Berry",
       "desc": "Weakens a supereffective Fighting-type\\nattack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "kebiaberry": {
       "name": "Kebia Berry",
       "desc": "Weakens a supereffective Poison-type\\nattack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "shucaberry": {
       "name": "Shuca Berry",
       "desc": "Weakens a supereffective Ground-type\\nattack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "cobaberry": {
       "name": "Coba Berry",
       "desc": "Weakens a supereffective Flying-type\\nattack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "payapaberry": {
       "name": "Payapa Berry",
       "desc": "Weakens a supereffective Psychic-type\\nattack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "tangaberry": {
       "name": "Tanga Berry",
       "desc": "Weakens a supereffective Bug-type\\nattack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "chartiberry": {
       "name": "Charti Berry",
       "desc": "Weakens a supereffective Rock-type\\nattack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "kasibberry": {
       "name": "Kasib Berry",
       "desc": "Weakens a supereffective Ghost-type\\nattack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "habanberry": {
       "name": "Haban Berry",
       "desc": "Weakens a supereffective Dragon-type\\nattack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "colburberry": {
       "name": "Colbur Berry",
       "desc": "Weakens a supereffective Dark-type\\nattack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "babiriberry": {
       "name": "Babiri Berry",
       "desc": "Weakens a supereffective Steel-type\\nattack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "chilanberry": {
       "name": "Chilan Berry",
       "desc": "Weakens a Normal-type attack against\\nthe Pokémon holding this berry.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "liechiberry": {
       "name": "Liechi Berry",
@@ -151668,7 +152750,7 @@ overrides = {
     "roseliberry": {
       "name": "Roseli Berry",
       "desc": "Weakens a supereffective Fairy-type\\nattack against the holding Pokémon.",
-      "location": "Dragonspiral Tower, Lostlorn Forest"
+      "location": ""
     },
     "starfberry": {
       "name": "Starf Berry",
@@ -151699,22 +152781,22 @@ overrides = {
     "jabocaberry": {
       "name": "Jaboca Berry",
       "desc": "If held by a Pokémon and a physical\\nattack lands, the attacker also\\ntakes damage.",
-      "location": "Desert Resort"
+      "location": ""
     },
     "rowapberry": {
       "name": "Rowap Berry",
       "desc": "If held by a Pokémon and a special\\nattack lands, the attacker also\\ntakes damage.",
-      "location": "Desert Resort"
+      "location": ""
     },
     "brightpowder": {
       "name": "BrightPowder",
       "desc": "An item to be held by a Pokémon.\\nIt casts a tricky glare that lowers\\nthe opponent's accuracy.",
-      "location": "Floccesy Ranch"
+      "location": ""
     },
     "whiteherb": {
       "name": "White Herb",
       "desc": "An item to be held by a Pokémon.\\nIt restores any lowered stat in\\nbattle. It can be used only once.",
-      "location": "Floccesy Ranch",
+      "location": "",
       "marts": [
         "Stock 7+Badges",
         "Stock 8+Badges"
@@ -151733,7 +152815,7 @@ overrides = {
     "quickclaw": {
       "name": "Quick Claw",
       "desc": "An item to be held by a Pokémon.\\nA light, sharp claw that lets the\\nbearer move first occasionally.",
-      "location": "Floccesy Ranch"
+      "location": ""
     },
     "soothebell": {
       "name": "Soothe Bell",
@@ -151743,7 +152825,7 @@ overrides = {
     "mentalherb": {
       "name": "Mental Herb",
       "desc": "An item to be held by a Pokémon. It\\nsnaps the holder out of infatuation.\\nIt can be used only once.",
-      "location": "Castelia Sewers",
+      "location": "",
       "marts": [
         "Stock 5+Badges",
         "Stock 7+Badges",
@@ -151759,7 +152841,7 @@ overrides = {
     "kingsrock": {
       "name": "King's Rock",
       "desc": "An item to be held by a Pokémon.\\nWhen the holder inflicts damage,\\nthe target may flinch.",
-      "location": "Nuvema Town",
+      "location": "",
       "wilds": [
         "Poliwhirl",
         "Hariyama"
@@ -151771,7 +152853,7 @@ overrides = {
     "silverpowder": {
       "name": "SilverPowder",
       "desc": "An item to be held by a Pokémon.\\nIt is a shiny, silver powder that ups\\nthe power of Bug-type moves.",
-      "location": "Complex Exterior",
+      "location": "",
       "wilds": [
         "Volcarona"
       ]
@@ -151779,7 +152861,7 @@ overrides = {
     "abilitydrill": {
       "name": "Ability Drill",
       "desc": "An item to be held by a Pokémon.\\nIt allows the piercing of\\ndefensive abilities in battle.",
-      "location": "Icirrus City, Route 19"
+      "location": ""
     },
     "cleansetag": {
       "name": "Cleanse Tag",
@@ -151794,12 +152876,12 @@ overrides = {
     "deepseatooth": {
       "name": "DeepSeaTooth",
       "desc": "An item to be held by Clamperl.\\nA fang that gleams a sharp silver, it\\nraises the Sp. Atk stat.",
-      "location": "Abyssal Ruins, Route 4"
+      "location": ""
     },
     "deepseascale": {
       "name": "DeepSeaScale",
       "desc": "An item to be held by Clamperl.\\nA scale that shines a faint pink, it\\nraises the Sp. Def stat.",
-      "location": "Abyssal Ruins, Route 4",
+      "location": "",
       "wilds": [
         "Basculin-Blue-Striped"
       ]
@@ -151807,7 +152889,7 @@ overrides = {
     "protectivegear": {
       "name": "Protective Gear",
       "desc": "An item to be held by a Pokémon.\\nThis gear shields the user from hazardous\\ncontact and traps on the battlefield.",
-      "location": "Reversal Mountain"
+      "location": ""
     },
     "everstone": {
       "name": "Everstone",
@@ -151816,7 +152898,7 @@ overrides = {
     },
     "focusband": {
       "name": "Focus Band",
-      "desc": "An item to be held by a Pokémon.\\nThe holder may endure a potential KO\\nattack, leaving it with just 1 HP.",
+      "desc": "An item to be held by a Pokémon.\\nThe holder takes half damage from\\none attack if at max health.",
       "location": ""
     },
     "luckyegg": {
@@ -151832,27 +152914,27 @@ overrides = {
     "metalcoat": {
       "name": "Metal Coat",
       "desc": "An item to be held by a Pokémon.\\nIt is a special metallic film that ups\\nthe power of Steel-type moves.",
-      "location": "Chargestone Cave, Abyssal Ruins, Relic Passage, Clay Tunnel"
+      "location": ""
     },
     "leftovers": {
       "name": "Leftovers",
       "desc": "An item to be held by a Pokémon.\\nThe holder's HP is gradually restored\\nduring battle.",
-      "location": "Liberty Garden, Abyssal Ruins"
+      "location": ""
     },
     "dragonscale": {
       "name": "Dragon Scale",
       "desc": "A thick and tough scale.\\nDragon-type Pokémon may be holding\\nthis item when caught.",
-      "location": "Victory Road"
+      "location": ""
     },
     "lightball": {
       "name": "Light Ball",
       "desc": "An item to be held by Pikachu or Eevee.\\nIt is a puzzling orb that raises\\nthe Attack and Sp. Atk stat.",
-      "location": "Castelia City"
+      "location": ""
     },
     "softsand": {
       "name": "Soft Sand",
       "desc": "An item to be held by a Pokémon.\\nIt is a loose, silky sand that boosts\\nthe power of Ground-type moves.",
-      "location": "Relic Passage",
+      "location": "",
       "wilds": [
         "Diglett"
       ]
@@ -151860,12 +152942,12 @@ overrides = {
     "hardstone": {
       "name": "Hard Stone",
       "desc": "An item to be held by a Pokémon.\\nIt is an unbreakable stone that ups\\nthe power of Rock-type moves.",
-      "location": "Relic Passage"
+      "location": ""
     },
     "miracleseed": {
       "name": "Miracle Seed",
       "desc": "An item to be held by a Pokémon.\\nIt is a seed imbued with life that ups\\nthe power of Grass-type moves.",
-      "location": "Route 20"
+      "location": ""
     },
     "blackglasses": {
       "name": "BlackGlasses",
@@ -151878,17 +152960,17 @@ overrides = {
     "blackbelt": {
       "name": "Black Belt",
       "desc": "An item to be held by a Pokémon.\\nIt is a belt that boosts determination\\nand Fighting-type moves.",
-      "location": "Virbank Gate, Pokestar Studios, Abyssal Ruins"
+      "location": ""
     },
     "magnet": {
       "name": "Magnet",
       "desc": "An item to be held by a Pokémon.\\nIt is a powerful magnet that boosts\\nthe power of Electric-type moves.",
-      "location": "Abyssal Ruins, Virbank Complex"
+      "location": ""
     },
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon.\\nIt is a teardrop-shaped gem that ups\\nthe power of Water-type moves.",
-      "location": "Route 20",
+      "location": "",
       "wilds": [
         "Castform-Sunny",
         "Castform-Rainy",
@@ -151898,7 +152980,7 @@ overrides = {
     "sharpbeak": {
       "name": "Sharp Beak",
       "desc": "An item to be held by a Pokémon.\\nIt is a long, sharp beak that boosts\\nthe power of Flying-type moves.",
-      "location": "Route 4, Route 4",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -151906,12 +152988,12 @@ overrides = {
     "poisonbarb": {
       "name": "Poison Barb",
       "desc": "An item to be held by a Pokémon.\\nIt is a small, poisonous barb that ups\\nthe power of Poison-type moves.",
-      "location": "Abyssal Ruins, Virbank Complex, Route 22"
+      "location": ""
     },
     "nevermeltice": {
       "name": "NeverMeltIce",
       "desc": "An item to be held by a Pokémon.\\nIt is a piece of ice that repels heat\\nand boosts Ice-type moves.",
-      "location": "Nimbasa City",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -151919,7 +153001,7 @@ overrides = {
     "spelltag": {
       "name": "Spell Tag",
       "desc": "An item to be held by a Pokémon.\\nIt is a sinister, eerie tag that boosts\\nthe power of Ghost-type moves.",
-      "location": "Strange House, Route 5",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -151927,7 +153009,7 @@ overrides = {
     "twistedspoon": {
       "name": "TwistedSpoon",
       "desc": "An item to be held by a Pokémon. It is\\na spoon imbued with telekinetic power\\nthat boosts Psychic-type moves.",
-      "location": "Castelia Sewers",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -151940,7 +153022,7 @@ overrides = {
     "dragonfang": {
       "name": "Dragon Fang",
       "desc": "An item to be held by a Pokémon.\\nIt is a hard and sharp fang that ups\\nthe power of Dragon-type moves.",
-      "location": "Victory Road, Anville Town",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -151948,7 +153030,7 @@ overrides = {
     "silkscarf": {
       "name": "Silk Scarf",
       "desc": "An item to be held by a Pokémon.\\nIt is a sumptuous scarf that boosts\\nthe power of Normal-type moves.",
-      "location": "Route 20"
+      "location": ""
     },
     "upgrade": {
       "name": "Up-Grade",
@@ -151958,7 +153040,7 @@ overrides = {
     "shellbell": {
       "name": "Shell Bell",
       "desc": "An item to be held by a Pokémon.\\nThe holder's HP is restored a little\\nevery time it inflicts damage.",
-      "location": "Castelia City, Humilau City, Route 4"
+      "location": ""
     },
     "protoarmor": {
       "name": "Proto Armor",
@@ -151978,12 +153060,12 @@ overrides = {
     "stresstester": {
       "name": "Stress Tester",
       "desc": "An item to be held by a Pokémon.\\nWhen entering battle with a wild Pokémon,\\nreduces the holder's health to 1.",
-      "location": "Dragonspiral Tower, Route 19"
+      "location": ""
     },
     "thickclub": {
       "name": "Thick Club",
       "desc": "An item to be held by Cubone or\\nMarowak. It is a hard bone of some\\nsort that boosts the Attack stat.",
-      "location": "Castelia City"
+      "location": ""
     },
     "stick": {
       "name": "Stick",
@@ -152023,7 +153105,7 @@ overrides = {
     "muscleband": {
       "name": "Muscle Band",
       "desc": "An item to be held by a Pokémon.\\nIt is a headband that slightly boosts\\nthe power of physical moves.",
-      "location": "Route 20",
+      "location": "",
       "marts": [
         "Castelia City Upper Cashier"
       ]
@@ -152031,7 +153113,7 @@ overrides = {
     "wiseglasses": {
       "name": "Wise Glasses",
       "desc": "An item to be held by a Pokémon. It is\\na thick pair of glasses that slightly\\nboosts the power of special moves.",
-      "location": "Virbank Complex, Route 20",
+      "location": "",
       "marts": [
         "Castelia City Upper Cashier"
       ]
@@ -152059,7 +153141,7 @@ overrides = {
     "toxicorb": {
       "name": "Toxic Orb",
       "desc": "An item to be held by a Pokémon.\\nIt is a bizarre orb that badly poisons\\nthe holder in battle.",
-      "location": "Reversal Mountain, Route 19",
+      "location": "",
       "marts": [
         "Virbank City Lower Cashier"
       ]
@@ -152067,7 +153149,7 @@ overrides = {
     "flameorb": {
       "name": "Flame Orb",
       "desc": "An item to be held by a Pokémon.\\nIt is a bizarre orb that inflicts a\\nburn on the holder in battle.",
-      "location": "Reversal Mountain, Route 19",
+      "location": "",
       "marts": [
         "Virbank City Lower Cashier"
       ]
@@ -152090,12 +153172,12 @@ overrides = {
     "metronome": {
       "name": "Metronome",
       "desc": "A Pokémon held item that boosts a move\\nused consecutively. Its effect is\\nreset if another move is used.",
-      "location": "Lacunosa Town"
+      "location": ""
     },
     "ironball": {
       "name": "Iron Ball",
       "desc": "A Pokémon held item that cuts Speed.\\nIt makes Flying-type and levitating\\nholders susceptible to Ground moves.",
-      "location": "Relic Castle, Relic Passage"
+      "location": ""
     },
     "laggingtail": {
       "name": "Lagging Tail",
@@ -152108,12 +153190,12 @@ overrides = {
     "clearamulet": {
       "name": "Clear Amulet",
       "desc": "An item to be held by a Pokémon.\\nIt protects the holder from having its\\nstats lowered by foes.",
-      "location": "Virbank City, Abyssal Ruins"
+      "location": ""
     },
     "blacksludge": {
       "name": "Black Sludge",
       "desc": "A held item that gradually restores\\nthe HP of Poison-type Pokémon.\\nIt inflicts damage on all other types.",
-      "location": "Castelia Sewers"
+      "location": ""
     },
     "icyrock": {
       "name": "Icy Rock",
@@ -152138,7 +153220,7 @@ overrides = {
     "clrsarmor": {
       "name": "CLRS Armor",
       "desc": "Developed by Colress to unlock a Pokémon's\\npotential. Boosts the holder's defenses when\\nentering battle.",
-      "location": "Route 4"
+      "location": ""
     },
     "choicescarf": {
       "name": "Choice Scarf",
@@ -152148,7 +153230,7 @@ overrides = {
     "stickybarb": {
       "name": "Sticky Barb",
       "desc": "A held item that damages the holder on\\nevery turn. It may latch on to foes and\\nallies that touch the holder.",
-      "location": "Castelia Sewers, Castelia Sewers"
+      "location": ""
     },
     "assaultvest": {
       "name": "Assault Vest",
@@ -152158,7 +153240,7 @@ overrides = {
     "fairygem": {
       "name": "Fairy Gem",
       "desc": "A gem with an essence of the fey. When\\nheld, it strengthens the power of a\\nFairy-type move only once. ",
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "weaknesspolicy": {
       "name": "Weakness Policy",
@@ -152168,7 +153250,7 @@ overrides = {
     "clrsbooster": {
       "name": "CLRS Booster",
       "desc": "Developed by Colress to unlock a Pokémon's\\npotential. Boosts the holder's offenses when\\nentering battle.",
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "safetygoggles": {
       "name": "Safety Goggles",
@@ -152207,7 +153289,7 @@ overrides = {
     "teracband": {
       "name": "Tera C-Band",
       "desc": "An item that transform's the user's type.\\nThis headband ups Attack, but allows\\nthe use of only one of its moves. ",
-      "location": "Undella Bay"
+      "location": ""
     },
     "terascarf": {
       "name": "Tera Scarf",
@@ -152267,7 +153349,7 @@ overrides = {
     "teraleftovers": {
       "name": "Tera Leftovers",
       "desc": "An item that transform's the user's type.\\nThe holder's HP is gradually restored\\nduring battle. ",
-      "location": "Undella Bay"
+      "location": ""
     },
     "teradice": {
       "name": "Tera Dice",
@@ -152326,22 +153408,22 @@ overrides = {
     "protector": {
       "name": "Protector",
       "desc": "A protective item of some sort.\\nIt is extremely stiff and heavy.\\nIt is loved by a certain Pokémon.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "electirizer": {
       "name": "Electirizer",
       "desc": "A box packed with a tremendous\\namount of electric energy.\\nIt is loved by a certain Pokémon.",
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "magmarizer": {
       "name": "Magmarizer",
       "desc": "A box packed with a tremendous\\namount of magma energy.\\nIt is loved by a certain Pokémon.",
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "dubiousdisc": {
       "name": "Dubious Disc",
       "desc": "A transparent device overflowing with\\ndubious data.\\nIts producer is unknown.",
-      "location": "P2 Laboratory"
+      "location": ""
     },
     "reapercloth": {
       "name": "Reaper Cloth",
@@ -152351,12 +153433,12 @@ overrides = {
     "razorclaw": {
       "name": "Razor Claw",
       "desc": "An item to be held by a Pokémon.\\nIt is a sharply hooked claw that ups\\nthe holder's critical-hit ratio.",
-      "location": "Giant Chasm, Giant Chasm"
+      "location": ""
     },
     "razorfang": {
       "name": "Razor Fang",
       "desc": "An item to be held by a Pokémon.\\nIt may make foes and allies flinch\\nwhen the holder inflicts damage.",
-      "location": "Route 11"
+      "location": ""
     },
     "tm01": {
       "name": "TM01",
@@ -152371,12 +153453,12 @@ overrides = {
     "tm03": {
       "name": "TM03",
       "desc": "The user materializes an odd\\npsychic wave to attack the target.\\nThis attack does physical damage.",
-      "location": "Giant Chasm, Route 7"
+      "location": ""
     },
     "tm04": {
       "name": "TM04",
       "desc": "The user strikes the target with a quick\\njolt of electricity.\\nThis attack cannot be evaded.",
-      "location": "Virbank City, Abyssal Ruins",
+      "location": "",
       "marts": [
         "Striaton City Upper Cashier"
       ]
@@ -152384,22 +153466,22 @@ overrides = {
     "tm05": {
       "name": "TM05",
       "desc": "The user slaps down the target's\\nheld item, preventing that item\\nfrom being used in the battle.",
-      "location": "Giant Chasm, Mistralton Cave, Route 23"
+      "location": ""
     },
     "tm06": {
       "name": "TM06",
       "desc": "The user scatters curious leaves\\nthat chase the target.\\nThis attack will not miss.",
-      "location": "Castelia Gardens, Seaside Cave"
+      "location": ""
     },
     "tm07": {
       "name": "TM07",
       "desc": "An energy-draining punch. The user's\\nHP is restored by half the damage taken\\nby the target.",
-      "location": "Mistralton Cave"
+      "location": ""
     },
     "tm08": {
       "name": "TM08",
       "desc": "The target is hit with rhythmically\\nlaunched punches.\\nThis attack never misses.",
-      "location": "Castelia Sewers, Route 16",
+      "location": "",
       "marts": [
         "Striaton City Upper Cashier"
       ]
@@ -152422,12 +153504,12 @@ overrides = {
     "tm12": {
       "name": "TM12",
       "desc": "The target is taunted into a rage that\\nallows it to use only attack moves\\nfor three turns.",
-      "location": "Clay Tunnel, Route 23"
+      "location": ""
     },
     "tm13": {
       "name": "TM13",
       "desc": "The target is struck with an icy-cold\\nbeam of energy.\\nIt may also freeze the target solid.",
-      "location": "Giant Chasm"
+      "location": ""
     },
     "tm14": {
       "name": "TM14",
@@ -152440,7 +153522,7 @@ overrides = {
     "tm15": {
       "name": "TM15",
       "desc": "The user tears at the target with blades\\nformed by psychic power. Crit hits land\\nmore easily and this attack cannot miss.",
-      "location": "Desert Resort",
+      "location": "",
       "marts": [
         "SM9 Middle Right Cashier"
       ]
@@ -152448,22 +153530,22 @@ overrides = {
     "tm16": {
       "name": "TM16",
       "desc": "A wondrous wall of light is put up to\\nsuppress damage from special attacks\\nfor five turns.",
-      "location": "Relic Castle"
+      "location": ""
     },
     "tm17": {
       "name": "TM17",
       "desc": "A unique attack that varies in type and\\nintensity depending on the Pokémon\\nusing it.",
-      "location": "Moor of Icirrus, Floccesy Town"
+      "location": ""
     },
     "tm18": {
       "name": "TM18",
       "desc": "The user throws scorching sand at the\\ntarget. This may also leave the target\\nwith a burn.",
-      "location": "Relic Castle"
+      "location": ""
     },
     "tm19": {
       "name": "TM19",
       "desc": "A nutrient-draining attack. The user's\\nHP is restored by half the damage\\ntaken by the target.",
-      "location": "Lostlorn Forest, Route 18"
+      "location": ""
     },
     "tm20": {
       "name": "TM20",
@@ -152473,12 +153555,12 @@ overrides = {
     "tm21": {
       "name": "TM21",
       "desc": "The target is hit with a rainbow-colored\\nbeam. This may also lower the target's\\nAttack stat.",
-      "location": "Striaton City, Chargestone Cave, Chargestone Cave, Route 5"
+      "location": ""
     },
     "tm22": {
       "name": "TM22",
       "desc": "A two-turn attack. The user gathers\\nlight, then blasts a bundled beam on\\nthe second turn.",
-      "location": "Pinwheel Forest"
+      "location": ""
     },
     "tm23": {
       "name": "TM23",
@@ -152501,27 +153583,27 @@ overrides = {
     "tm26": {
       "name": "TM26",
       "desc": "The user sets off an earthquake that\\nstrikes every Pokémon around it.",
-      "location": "Route 15"
+      "location": ""
     },
     "tm27": {
       "name": "TM27",
       "desc": "A full-power attack that grows more\\npowerful the more the user likes its\\nTrainer.",
-      "location": "Route 4"
+      "location": ""
     },
     "tm28": {
       "name": "TM28",
       "desc": "The user burrows, then attacks on the\\nsecond turn. It can also be used to\\nexit dungeons.",
-      "location": "Desert Resort, Route 4"
+      "location": ""
     },
     "tm29": {
       "name": "TM29",
       "desc": "The target is hit by a strong\\ntelekinetic force. It may also reduce\\nthe target's Sp. Def stat.",
-      "location": "Celestial Tower, Route 13"
+      "location": ""
     },
     "tm30": {
       "name": "TM30",
       "desc": "The user hurls a shadowy blob at the\\ntarget. It may also lower the target's\\nSp. Def stat.",
-      "location": "Reversal Mountain, Reversal Mountain, Celestial Tower, Lentimas Town"
+      "location": ""
     },
     "tm31": {
       "name": "TM31",
@@ -152531,12 +153613,12 @@ overrides = {
     "tm32": {
       "name": "TM32",
       "desc": "The user strikes opposing foes by\\nemitting a dazzling flash.\\nMay lower accuracy.",
-      "location": "Route 7"
+      "location": ""
     },
     "tm33": {
       "name": "TM33",
       "desc": "A wondrous wall of light is put up to\\nsuppress damage from physical attacks\\nfor five turns.",
-      "location": "Castelia City, Relic Castle"
+      "location": ""
     },
     "tm34": {
       "name": "TM34",
@@ -152551,12 +153633,12 @@ overrides = {
     "tm36": {
       "name": "TM36",
       "desc": "Unsanitary sludge is hurled at the\\ntarget. It may also poison the target.",
-      "location": "Icirrus City, Chargestone Cave"
+      "location": ""
     },
     "tm37": {
       "name": "TM37",
       "desc": "The user unleashes a curse that may also\\nparalyze the target. This deals massive\\ndamage to a target affected by status.",
-      "location": "Relic Sanctum, Abyssal Ruins"
+      "location": ""
     },
     "tm38": {
       "name": "TM38",
@@ -152569,12 +153651,12 @@ overrides = {
     "tm39": {
       "name": "TM39",
       "desc": "Boulders are hurled at the target. It\\nalso lowers the target's Speed by\\npreventing its movement.",
-      "location": "Abyssal Ruins, Virbank Complex"
+      "location": ""
     },
     "tm40": {
       "name": "TM40",
       "desc": "The user confounds the target\\nwith speed, then slashes.\\nThe attack lands without fail.",
-      "location": "Route 4, Route 4"
+      "location": ""
     },
     "tm41": {
       "name": "TM41",
@@ -152609,22 +153691,22 @@ overrides = {
     "tm47": {
       "name": "TM47",
       "desc": "The user attacks the target's legs\\nswiftly, reducing the target's\\nSpeed stat.",
-      "location": "Castelia City, Wellspring Cave"
+      "location": ""
     },
     "tm48": {
       "name": "TM48",
       "desc": "The user attacks by breathing a\\nspecial, magic fire. This lowers\\nthe target's Sp. Atk stat.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "tm49": {
       "name": "TM49",
       "desc": "A harsh noise that may make the target\\nflinch. Can be used while asleep.",
-      "location": "Castelia Sewers, Route 16"
+      "location": ""
     },
     "tm50": {
       "name": "TM50",
       "desc": "The user attacks the target with\\na pulsing blast of water.\\nIt may confuse the target and can't miss.",
-      "location": "Virbank City, N's Castle",
+      "location": "",
       "marts": [
         "Nimbasa TM Department"
       ]
@@ -152632,12 +153714,12 @@ overrides = {
     "tm51": {
       "name": "TM51",
       "desc": "The user teleports using a strange\\npower and switches its place with one of\\nits allies.",
-      "location": "Route 7"
+      "location": ""
     },
     "tm52": {
       "name": "TM52",
       "desc": "The user heightens its mental focus and\\nunleashes its power.\\nIt may also lower the target's Sp. Def.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "tm53": {
       "name": "TM53",
@@ -152652,7 +153734,7 @@ overrides = {
     "tm55": {
       "name": "TM55",
       "desc": "The user shoots boiling hot water at\\nits target. It may also leave the\\ntarget with a burn.",
-      "location": "Route 6"
+      "location": ""
     },
     "tm56": {
       "name": "TM56",
@@ -152662,7 +153744,7 @@ overrides = {
     "tm57": {
       "name": "TM57",
       "desc": "An attack move that varies in power and\\ntype depending on the weather.",
-      "location": "Route 6"
+      "location": ""
     },
     "tm58": {
       "name": "TM58",
@@ -152682,7 +153764,7 @@ overrides = {
     "tm61": {
       "name": "TM61",
       "desc": "The user shoots a sinister, bluish-white\\nflame at the target to inflict a burn.",
-      "location": "Celestial Rooftop"
+      "location": ""
     },
     "tm62": {
       "name": "TM62",
@@ -152692,7 +153774,7 @@ overrides = {
     "tm63": {
       "name": "TM63",
       "desc": "The user swings its body violently to\\ninflict damage and eliminate hazards.\\nReduces target's evasion.",
-      "location": "Complex Exterior"
+      "location": ""
     },
     "tm64": {
       "name": "TM64",
@@ -152702,17 +153784,17 @@ overrides = {
     "tm65": {
       "name": "TM65",
       "desc": "The user slashes with a sharp claw\\nmade from shadows. It has a high\\ncritical-hit ratio.",
-      "location": "Virbank Gate, Pokestar Studios, Abyssal Ruins"
+      "location": ""
     },
     "tm66": {
       "name": "TM66",
       "desc": "The user attacks with a ray of light\\nthat sparkles like gemstones. This may\\nalso raise the User's Sp. Atk stat.",
-      "location": "Striaton City"
+      "location": ""
     },
     "tm67": {
       "name": "TM67",
       "desc": "The user attacks the target with a\\nsecret power. Its added effects vary\\ndepending on the user's environment.",
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "tm68": {
       "name": "TM68",
@@ -152725,7 +153807,7 @@ overrides = {
     "tm69": {
       "name": "TM69",
       "desc": "The user shoots filthy garbage\\nat the target to attack.\\nIt may also poison the target.",
-      "location": "Reversal Mountain, Reversal Mountain"
+      "location": ""
     },
     "tm70": {
       "name": "TM70",
@@ -152735,12 +153817,12 @@ overrides = {
     "tm71": {
       "name": "TM71",
       "desc": "The user stabs the foe with\\nsharpened stones from below.\\nIt has a high critical-hit ratio.",
-      "location": "Twist Mountain, Clay Tunnel"
+      "location": ""
     },
     "tm72": {
       "name": "TM72",
       "desc": "After making its attack, the user\\nrushes back to switch places with\\na party Pokémon in waiting.",
-      "location": "Chargestone Cave, Victory Road"
+      "location": ""
     },
     "tm73": {
       "name": "TM73",
@@ -152765,12 +153847,12 @@ overrides = {
     "tm77": {
       "name": "TM77",
       "desc": "The user vibrates its wings to generate a\\ndamaging sound wave. It may also lower\\nthe target's Sp. Def stat.",
-      "location": "Chargestone Cave"
+      "location": ""
     },
     "tm78": {
       "name": "TM78",
       "desc": "The user stomps down on the ground\\nand attacks everything in the area.\\nThe targets' Speed stat is reduced.",
-      "location": "Route 4"
+      "location": ""
     },
     "tm79": {
       "name": "TM79",
@@ -152780,7 +153862,7 @@ overrides = {
     "tm80": {
       "name": "TM80",
       "desc": "Large boulders are hurled at the\\nopposing team to inflict damage. They\\nmay also make the targets flinch.",
-      "location": "Relic Passage, Guidance Chamber"
+      "location": ""
     },
     "tm81": {
       "name": "TM81",
@@ -152795,12 +153877,12 @@ overrides = {
     "tm83": {
       "name": "TM83",
       "desc": "The user endures any attack with at least\\n1 HP. Its chance of failing rises if it is\\nused in succession.",
-      "location": "Desert Resort"
+      "location": ""
     },
     "tm84": {
       "name": "TM84",
       "desc": "The target is stabbed with a tentacle\\nor arm steeped in poison. It may also\\npoison the target.",
-      "location": "Route 5"
+      "location": ""
     },
     "tm85": {
       "name": "TM85",
@@ -152810,7 +153892,7 @@ overrides = {
     "tm86": {
       "name": "TM86",
       "desc": "The user snares the target with grass\\nand trips it. The heavier the target,\\nthe greater the damage.",
-      "location": "Driftveil City, Pinwheel Forest, Abyssal Ruins"
+      "location": ""
     },
     "tm87": {
       "name": "TM87",
@@ -152825,22 +153907,22 @@ overrides = {
     "tm89": {
       "name": "TM89",
       "desc": "After making its attack, the user\\nrushes back to switch places with a\\nparty Pokémon in waiting.",
-      "location": "Liberty Garden, Abyssal Ruins, Route 7"
+      "location": ""
     },
     "tm90": {
       "name": "TM90",
       "desc": "The user steals the target's\\nenergy with a kiss, healing\\nthemselves with damage dealt.",
-      "location": "Driftveil City, Twist Mountain"
+      "location": ""
     },
     "tm91": {
       "name": "TM91",
       "desc": "The user gathers all its light energy\\nand releases it at once. It may also\\nlower the target's Sp. Def stat.",
-      "location": "Twist Mountain, Relic Passage"
+      "location": ""
     },
     "tm92": {
       "name": "TM92",
       "desc": "A two-turn attack. The user gathers sunlight\\ninto a shining blade, striking next turn.\\nCharges instantly in harsh sunlight.",
-      "location": "Abundant Shrine"
+      "location": ""
     },
     "hm01": {
       "name": "HM01",
@@ -152850,7 +153932,7 @@ overrides = {
     "hm02": {
       "name": "HM02",
       "desc": "The user soars, then strikes on the\\nsecond turn. It can also be used to\\nfly to any familiar town.",
-      "location": "Dreamyard, Route 5"
+      "location": ""
     },
     "hm03": {
       "name": "HM03",
@@ -153260,7 +154342,7 @@ overrides = {
     "hardymint": {
       "name": "Hardy Mint",
       "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
-      "location": "Dragonspiral Tower"
+      "location": ""
     },
     "lonelymint": {
       "name": "Lonely Mint",
@@ -153295,7 +154377,7 @@ overrides = {
     "relaxedmint": {
       "name": "Relaxed Mint",
       "desc": "When a Pokémon smells this mint, its\\nDefense will grow more easily, but its\\nSpeed will grow more slowly.",
-      "location": "Driftveil City, Join Avenue"
+      "location": ""
     },
     "impishmint": {
       "name": "Impish Mint",
@@ -153330,7 +154412,7 @@ overrides = {
     "naivemint": {
       "name": "Naive Mint",
       "desc": "When a Pokémon smells this mint, its\\nSpeed will grow more easily, but its\\nSpecial Defense will grow more slowly.",
-      "location": "Victory Road"
+      "location": ""
     },
     "modestmint": {
       "name": "Modest Mint",
@@ -153340,7 +154422,7 @@ overrides = {
     "mildmint": {
       "name": "Mild Mint",
       "desc": "When a Pokémon smells this mint, its\\nSpecial Attack will grow more easily, but\\nits Defense will grow more slowly.",
-      "location": "Celestial Rooftop, Moor of Icirrus, Aspertia Gate"
+      "location": ""
     },
     "quietmint": {
       "name": "Quiet Mint",
@@ -153420,7 +154502,7 @@ overrides = {
     "prismscale": {
       "name": "Prism Scale",
       "desc": "A mysterious scale that evolves\\ncertain Pokémon.\\nIt shines in rainbow colors.",
-      "location": "Route 1"
+      "location": ""
     },
     "eviolite": {
       "name": "Eviolite",
@@ -153430,12 +154512,12 @@ overrides = {
     "ejectpack": {
       "name": "Eject Pack",
       "desc": "An item to be held by a Pokémon.\\nIf the holder's stats are lowered, it\\nwill be switched out of battle.",
-      "location": "Twist Mountain"
+      "location": ""
     },
     "rockyhelmet": {
       "name": "Rocky Helmet",
       "desc": "If the holder of this item takes damage,\\nthe attacker will also be damaged\\nupon contact.",
-      "location": "PWT"
+      "location": ""
     },
     "airballoon": {
       "name": "Air Balloon",
@@ -153450,7 +154532,7 @@ overrides = {
     "covertcloak": {
       "name": "Covert Cloak",
       "desc": "A hooded cloak to be held by a Pokémon.\\nIt conceals the holder, protecting it\\nfrom the additional effects of moves.",
-      "location": "Celestial Rooftop"
+      "location": ""
     },
     "utilityumbrella": {
       "name": "Utility Umbrella",
@@ -153460,7 +154542,7 @@ overrides = {
     "absorbbulb": {
       "name": "Absorb Bulb",
       "desc": "A consumable bulb. If the holder is hit\\nby a Water-type move, its Sp. Atk\\nwill rise.",
-      "location": "Route 16, Accumula Town"
+      "location": ""
     },
     "cellbattery": {
       "name": "Cell Battery",
@@ -153470,92 +154552,92 @@ overrides = {
     "ejectbutton": {
       "name": "Eject Button",
       "desc": "If the holder is hit by an attack, it will\\nswitch with another Pokémon in\\nyour party.",
-      "location": "Twist Mountain"
+      "location": ""
     },
     "firegem": {
       "name": "Fire Gem",
       "desc": "A gem with an essence of fire. When\\nheld, it strengthens the power of a\\nFire-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "watergem": {
       "name": "Water Gem",
       "desc": "A gem with an essence of water. When\\nheld, it strengthens the power of a\\nWater-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "electricgem": {
       "name": "Electric Gem",
       "desc": "A gem with an essence of electricity.\\nWhen held, it strengthens the power of\\nan Electric-type move only once.",
-      "location": "Chargestone Cave, Chargestone Cave, Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "grassgem": {
       "name": "Grass Gem",
       "desc": "A gem with an essence of nature. When\\nheld, it strengthens the power of a\\nGrass-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "icegem": {
       "name": "Ice Gem",
       "desc": "A gem with an essence of ice. When held,\\nit strengthens the power of an\\nIce-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "fightinggem": {
       "name": "Fighting Gem",
       "desc": "A gem with an essence of combat. When\\nheld, it strengthens the power of a\\nFighting-type move only once.",
-      "location": "Dreamyard, Clay Tunnel"
+      "location": ""
     },
     "poisongem": {
       "name": "Poison Gem",
       "desc": "A gem with an essence of poison. When\\nheld, it strengthens the power of a\\nPoison-type move only once.",
-      "location": "Clay Tunnel"
+      "location": ""
     },
     "groundgem": {
       "name": "Ground Gem",
       "desc": "A gem with an essence of land. When\\nheld, it strengthens the power of a\\nGround-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "flyinggem": {
       "name": "Flying Gem",
       "desc": "A gem with an essence of air. When held,\\nit strengthens the power of a\\nFlying-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "psychicgem": {
       "name": "Psychic Gem",
       "desc": "A gem with an essence of the mind. When\\nheld, it strengthens the power of a\\nPsychic-type move only once.",
-      "location": "Clay Tunnel"
+      "location": ""
     },
     "buggem": {
       "name": "Bug Gem",
       "desc": "A gem with an insect-like essence.\\nWhen held, it strengthens the power of\\na Bug-type move only once.",
-      "location": "Dreamyard, Clay Tunnel"
+      "location": ""
     },
     "rockgem": {
       "name": "Rock Gem",
       "desc": "A gem with an essence of rock. When\\nheld, it strengthens the power of a\\nRock-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "ghostgem": {
       "name": "Ghost Gem",
       "desc": "A gem with a spectral essence. When\\nheld, it strengthens the power of a\\nGhost-type move only once.",
-      "location": "Dreamyard, Clay Tunnel"
+      "location": ""
     },
     "dragongem": {
       "name": "Dragon Gem",
       "desc": "A gem with a draconic essence.\\nWhen held, it strengthens the power\\nof a Dragon-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel, Moor of Icirrus, Anville Town"
+      "location": ""
     },
     "darkgem": {
       "name": "Dark Gem",
       "desc": "A gem with an essence of darkness.\\nWhen held, it strengthens the power of\\na Dark-type move only once.",
-      "location": "Clay Tunnel"
+      "location": ""
     },
     "steelgem": {
       "name": "Steel Gem",
       "desc": "A gem with an essence of steel. When\\nheld, it strengthens the power of a\\nSteel-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "normalgem": {
       "name": "Normal Gem",
       "desc": "A gem with an ordinary essence. When\\nheld, it strengthens the power of a\\nNormal-type move only once.",
-      "location": "Castelia Sewers, Abyssal Ruins, Virbank Complex, Clay Tunnel, Route 16"
+      "location": ""
     },
     "healthwing": {
       "name": "Health Wing",
@@ -153595,7 +154677,7 @@ overrides = {
     "coverfossil": {
       "name": "Cover Fossil",
       "desc": "A fossil of an ancient Pokémon that\\nlived in the sea in ancient times.\\nIt appears to be part of its back.",
-      "location": "Relic Castle, Relic Sanctum, Abyssal Ruins, Relic Passage, Accumula Town"
+      "location": ""
     },
     "plumefossil": {
       "name": "Plume Fossil",
@@ -153643,7 +154725,7 @@ overrides = {
     "bignugget": {
       "name": "Big Nugget",
       "desc": "A big nugget of pure gold that gives off\\na lustrous gleam.\\nA maniac will buy it for a high price.",
-      "location": "Twist Mountain, Nature Preserve, Route 3",
+      "location": "",
       "wilds": [
         "Garbodor"
       ]
@@ -153651,7 +154733,7 @@ overrides = {
     "pearlstring": {
       "name": "Pearl String",
       "desc": "Very large pearls that sparkle in a\\npretty silver color.\\nA maniac will buy them for a high price.",
-      "location": "Route 17"
+      "location": ""
     },
     "cometshard": {
       "name": "Comet Shard",
@@ -153831,12 +154913,12 @@ overrides = {
     "tm93": {
       "name": "TM93",
       "desc": "The user shrouds itself in electricity\\nand smashes into its target.\\nIt also damages the user a little.",
-      "location": "Victory Road, Victory Road"
+      "location": ""
     },
     "tm94": {
       "name": "TM94",
       "desc": "The user attacks with a punch that can\\nshatter a rock. It may also lower the\\ntarget's Defense stat.",
-      "location": "Pledge Grove",
+      "location": "",
       "marts": [
         "Nimbasa TM Department"
       ]
