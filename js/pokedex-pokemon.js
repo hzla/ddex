@@ -253,19 +253,19 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
 
     buf += "<dt>Evolution:</dt> <dd>";
+     
     var template = pokemon;
+    // console.log(basePokemon)
     while (template.prevo) template = Dex.species.get(template.prevo);
+    var basePokemon = BattlePokedex[cleanString(template.name)]
     if (template.evos) {
       buf += '<table class="evos"><tr><td>';
       var evos = [template];
 
       var seenEvos = []
       var stopSearch = false;
-      var currentPrevo = pokemon.name
+      var currentPrevo = basePokemon.name
       while (evos && !stopSearch) {
-        console.log(seenEvos)
-        console.log(evos)
-        
         var evoData = ""
         for (var i = 0; i < evos.length; i++) {
           template = Dex.species.get(evos[i]);
@@ -289,12 +289,10 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
 
 
-          if (pokemon.evos && pokemon.evoMethods.length == 0) {
+          if (basePokemon.evos && basePokemon.evoMethods.length == 0) {
             window.location.href = "/"
           }
-
-
-          if (pokemon.evoMethods) {
+          if (basePokemon.evoMethods && basePokemon.evoMethods.length > 0) {
             if (typeof evos[0] === "string") {
               var nextEvos = BattlePokedex[cleanString(evos[i])].evos
 
