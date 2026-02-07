@@ -265,12 +265,26 @@ a.button {
 	/*background: #C9CFD6;*/
 }
 
+#reset-cache {
+	text-align: center;
+    width: 120px;
+    border: 1px solid #B38CFF;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+}	
+
 .pfx-body, h2.pfx-body {
 	max-width: 720px;
 	margin: 0 auto;
 	box-sizing: border-box;
 	background: rgba(255,255,255,0.1);
 	min-height: 100vh;
+	position: relative;
 }
 
 .pfx-loading {

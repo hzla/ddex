@@ -23,7 +23,15 @@ if (
 
 }
 
+$(document).on('click', '#reset-cache', function() {
+	delete localStorage.overrides
+	location.reload()
+})
+
+
 $(document).ready(function() {
+	
+
 	if (game) {
 		$('#dex-title').text(`${gameTitles[game]} Dex`)
 	 	checkAndLoadScript(`/data/overrides/${game}.js`, {

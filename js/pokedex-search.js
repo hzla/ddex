@@ -39,6 +39,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
       Dex.escapeHTML(this.$(".searchbox").val() || "") +
       '" autocomplete="off" autofocus placeholder="Search mons, moves, abilities, items, encounters or more" /></div>';
     buf += "</form>";
+    buf += "<div id='reset-cache'>Refresh Cache</div>"
     buf += '<div class="results"></div></div>';
     this.$el.html(buf);
     var $searchbox = this.$(".searchbox");

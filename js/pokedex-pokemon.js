@@ -287,11 +287,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
           }
           var evoIndex = parseInt(i)
 
-
-
-          if (basePokemon.evos && basePokemon.evoMethods.length == 0) {
-            window.location.href = "/"
-          }
           if (basePokemon.evoMethods && basePokemon.evoMethods.length > 0) {
             if (typeof evos[0] === "string") {
               var nextEvos = BattlePokedex[cleanString(evos[i])].evos
