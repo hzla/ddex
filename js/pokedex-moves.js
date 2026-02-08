@@ -9,6 +9,22 @@ var PokedexMovePanel = PokedexResultPanel.extend({
   initialize: function (id) {
     id = toID(id);
     var move = Dex.moves.get(id);
+    
+    vanillaMove = vanillaMoves[id]
+    if (typeof vanillaMove == "undefined") {
+      vanillaMove = move
+    }
+
+
+    overrideData = {}
+    overridePoks = {}
+    if (localStorage.overrides) {
+      overridePoks = JSON.parse(localStorage.overrides).poks
+      overrideData = JSON.parse(localStorage.overrides).moves[move.name]
+    } else {
+      overrideData = move
+    }
+
     this.id = id;
     this.shortTitle = move.name;
 
@@ -83,17 +99,39 @@ var PokedexMovePanel = PokedexResultPanel.extend({
     buf += "</dd></dl>";
 
     if (move.category !== "Status") {
-      buf +=
-        '<dl class="powerentry"><dt>Base power:</dt> <dd><strong>' +
-        (move.basePower || "&mdash;") +
-        "</strong></dd></dl>";
+      if (move.basePower != vanillaMove.basePower) {
+        let delta = move.basePower - vanillaMove.basePower
+        let deltaClass = delta < 0 ? "neg" : "pos"
+        buf +=
+          '<dl class="powerentry"><dt>Base power:</dt> <dd><strong>' +
+          (move.basePower || "&mdash;") + (`<span class="${deltaClass}">${deltaClass == "pos" ? "+" : ""}${delta}</span>`) +
+          "</strong></dd></dl>"; 
+      } else {
+        buf +=
+          '<dl class="powerentry"><dt>Base power:</dt> <dd><strong>' +
+          (move.basePower || "&mdash;") +
+          "</strong></dd></dl>";  
+      }      
     }
-    buf +=
+
+    if (move.accuracy != vanillaMove.accuracy) {
+      let delta = move.accuracy - vanillaMove.accuracy
+      let deltaClass = delta < 0 ? "neg" : "pos"
+      buf +=
       '<dl class="accuracyentry"><dt>Accuracy:</dt> <dd>' +
       (move.accuracy && move.accuracy !== true
-        ? move.accuracy + "%"
+        ? move.accuracy + "%" + (`<span class="${deltaClass}">${deltaClass == "pos" ? "+" : ""}${delta}</span>`)
         : "&mdash;") +
       "</dd></dl>";
+    } else {
+      buf +=
+        '<dl class="accuracyentry"><dt>Accuracy:</dt> <dd>' +
+        (move.accuracy && move.accuracy !== true
+          ? move.accuracy + "%"
+          : "&mdash;") +
+        "</dd></dl>";
+    }
+    
     buf +=
       '<dl class="ppentry"><dt>PP:</dt> <dd>' +
       move.pp +
@@ -162,7 +200,21 @@ var PokedexMovePanel = PokedexResultPanel.extend({
         ")</em>.</p>";
     }
 
-    buf += "<p>" + Dex.escapeHTML(move.desc || move.shortDesc) + "</p>";
+
+
+    if (overrideData.oldDesc) {
+      const oldDesc = overrideData.oldDesc;
+      const newDesc = overrideData.desc || overrideData.shortDesc || "";
+
+      buf += `<p class="vanilla-text"><span class="desc-label">Old:</span><span class="desc-body">${Dex.escapeHTML(oldDesc)}</span></p>`;
+      buf += `<p class="new-text"><span class="desc-label">New:</span> <span class="desc-body">${highlightChanged(oldDesc, newDesc)}</span></p>`;
+    } else {
+      buf += "<p>" + Dex.escapeHTML(move.desc || move.shortDesc) + "</p>";
+    }
+
+    
+
+
 
     if ("defrost" in move.flags) {
       buf +=
@@ -590,7 +642,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
     if (this.results) return this.results;
     var results = [];
     for (var pokemonid in BattleLearnsets) {
-      if (!BattlePokedex[pokemonid] || !BattleLearnsets[pokemonid] || !overrides.poks[BattlePokedex[pokemonid].name]) continue;
+      if (!BattlePokedex[pokemonid] || !BattleLearnsets[pokemonid] || !overridePoks[BattlePokedex[pokemonid].name]) continue;
       if (
         BattlePokedex[pokemonid].isNonstandard ||
         !BattleLearnsets[pokemonid].learnset

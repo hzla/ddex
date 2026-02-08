@@ -146,8 +146,18 @@
 .dexentry dl.ppentry {
 	float: left;
 	margin: 0;
-	width: 90px;
+	width: 100px;
 }
+
+.powerentry span, .accuracyentry span {
+	display: inline-block;
+    font-size: 12px;
+    line-height: 29px;
+    transform: translateY(-8px);
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
 .dexentry dl.powerentry dd {
 	font-size: 24pt;
 }
@@ -161,7 +171,7 @@
     color: #f8f8f2;
 }
 .dexentry dl.accuracyentry {
-	width: 100px;
+	width: 120px;
 }
 .dexentry .minor {
 	color: #f8f8f2;

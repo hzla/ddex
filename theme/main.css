@@ -8,6 +8,31 @@ button:focus {
 p {
 	line-height: 130%;
 }
+
+.desc-diff {
+  color: #1abc9c;      
+  font-weight: 600; 
+}
+
+.new-text, .vanilla-text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.vanilla-text .desc-body {
+	text-decoration: line-through;
+}
+
+.desc-label {
+  width: 40px;
+  margin-right: 4px;
+  flex-shrink: 0; /* never collapse */
+}
+
+.desc-body {
+  flex: 1;
+}
+
 h1 {
 	text-align: center;
 	margin: 0;

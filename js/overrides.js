@@ -356,3 +356,44 @@ function snakeToTitleCase(str) {
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(' ');
 }
+
+function highlightChanged(oldStr, newStr) {
+  oldStr = String(oldStr ?? "");
+  newStr = String(newStr ?? "");
+
+  // Escape first so we can safely inject spans
+  const esc = Dex.escapeHTML;
+
+  if (!oldStr) return esc(newStr);
+  if (oldStr === newStr) return esc(newStr);
+
+  // Fast path: appended text (your example)
+  if (newStr.startsWith(oldStr)) {
+    const same = newStr.slice(0, oldStr.length);
+    const added = newStr.slice(oldStr.length);
+    return esc(same) + `<span class="desc-diff">${esc(added)}</span>`;
+  }
+
+  // General path: highlight the differing middle (prefix + suffix match)
+  let i = 0;
+  const minLen = Math.min(oldStr.length, newStr.length);
+  while (i < minLen && oldStr[i] === newStr[i]) i++;
+
+  let j = 0;
+  while (
+    j < minLen - i &&
+    oldStr[oldStr.length - 1 - j] === newStr[newStr.length - 1 - j]
+  ) j++;
+
+  const prefix = newStr.slice(0, i);
+  const changed = newStr.slice(i, newStr.length - j);
+  const suffix = newStr.slice(newStr.length - j);
+
+  if (!changed) return esc(newStr); // fallback
+
+  return (
+    esc(prefix) +
+    `<span class="desc-diff">${esc(changed)}</span>` +
+    esc(suffix)
+  );
+}

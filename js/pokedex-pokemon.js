@@ -2,7 +2,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
   initialize: function (id) {
     id = toID(id);
     var pokemon = Dex.species.get(id);
-    console.log(pokemon)
     this.id = id;
     this.shortTitle = pokemon.baseSpecies;
 
