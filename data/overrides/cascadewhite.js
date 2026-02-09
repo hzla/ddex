@@ -117610,6 +117610,8 @@ overrides = {
       "prio": 0,
       "name": "Concuss",
       "num": 0,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user strikes with psychic energy, rattling the target's nervous system. Maycause confusion.",
       "e_id": 76,
       "sf": true,
@@ -117764,6 +117766,8 @@ overrides = {
       "prio": 0,
       "name": "Dual Wingbeat",
       "num": 10,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user slams the target with its wings. The target is hit twice in a row.",
       "e_id": 44,
       "multihit": [
@@ -117794,6 +117798,8 @@ overrides = {
       "prio": 0,
       "name": "Razor Winds",
       "num": 12,
+      "oldDesc": null,
+      "new": true,
       "desc": "The target is sliced by blades of wind two to five times in a row.",
       "e_id": 29,
       "multihit": [
@@ -117898,6 +117904,8 @@ overrides = {
       "prio": 0,
       "name": "Brutal Swing",
       "num": 20,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user swings its body violently to inflict damage and eliminate hazards. Reduces target's evasion.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
@@ -117957,6 +117965,8 @@ overrides = {
       "prio": 0,
       "name": "High Horsepower",
       "num": 24,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user fiercely attacks the target using its entire body. It may also make the target confused.",
       "e_id": 76,
       "sf": true
@@ -117982,6 +117992,8 @@ overrides = {
       "prio": 0,
       "name": "Headlong Rush",
       "num": 26,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user smashes into the target in a full-body tackle. This also lowers the user’s defenses.",
       "e_id": 229,
       "sf": true,
@@ -118024,6 +118036,8 @@ overrides = {
       "prio": 0,
       "name": "Devour",
       "num": 29,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user bears into the target with their gaping maw. Heals the user for damage dealt.",
       "e_id": 3
     },
@@ -118036,6 +118050,8 @@ overrides = {
       "prio": 0,
       "name": "Fire Lash",
       "num": 30,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user strikes the target with a burning lash. This also lowers the target's Defense stat.",
       "e_id": 0,
       "sf": true
@@ -118303,6 +118319,8 @@ overrides = {
       "prio": 0,
       "name": "Scorching Swarm",
       "num": 48,
+      "oldDesc": null,
+      "new": true,
       "desc": "A swarm of stinging insects consumes the target. This may also leave the target with a burn.",
       "e_id": 4,
       "tar": "allAdjacentFoes",
@@ -118329,6 +118347,8 @@ overrides = {
       "prio": 0,
       "name": "Parabolic Zap",
       "num": 50,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user attacks everything around it. The user's HP is restored by half the damage taken by those hit.",
       "e_id": 3,
       "tar": "allAdjacent"
@@ -118995,6 +119015,8 @@ overrides = {
       "prio": 0,
       "name": "Psychic Noise",
       "num": 101,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user attacks the target with disruptive sound waves. For five turns, the target is prevented from recovering HP by any means.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
@@ -119108,6 +119130,8 @@ overrides = {
       "prio": 0,
       "name": "Breaking Swipe",
       "num": 109,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user swings its tail wildly and attacks opposing Pokémon. This lowers their Attack stats.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
@@ -119200,6 +119224,8 @@ overrides = {
       "prio": 0,
       "name": "Hidden Force",
       "num": 116,
+      "oldDesc": null,
+      "new": true,
       "desc": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
       "e_id": 135
     },
@@ -119400,6 +119426,8 @@ overrides = {
       "prio": 0,
       "name": "Infestation",
       "num": 131,
+      "oldDesc": null,
+      "new": true,
       "desc": "The target is infested, trapping and damaging them for four to five turns.",
       "e_id": 42,
       "sf": true
@@ -119426,6 +119454,8 @@ overrides = {
       "prio": 0,
       "name": "Lunge",
       "num": 133,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user lunges at the target, damaging them and lowering their Attack stat.",
       "e_id": 0,
       "sf": true
@@ -119559,6 +119589,8 @@ overrides = {
       "prio": 0,
       "name": "Phantom Strike",
       "num": 143,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user attacks by possessing foes, thrashing their bodies around violently. May confuse targets.",
       "e_id": 76,
       "sf": true
@@ -119572,6 +119604,8 @@ overrides = {
       "prio": 0,
       "name": "Chilling Water",
       "num": 144,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user showers all foes with water so cold it saps their power. This also lowers the target's Attack stat.",
       "e_id": 18,
       "tar": "allAdjacentFoes",
@@ -119616,6 +119650,8 @@ overrides = {
       "prio": 0,
       "name": "Sparkle",
       "num": 147,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user attacks with a ray of crystalline light. This may also raise the User's Sp. Atk stat.",
       "e_id": 0,
       "sf": true
@@ -119641,6 +119677,8 @@ overrides = {
       "prio": 0,
       "name": "Play Rough",
       "num": 149,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user roughouses with the target and attacks them. This may also lower the target's Attack stat.",
       "e_id": 0,
       "sf": true
@@ -119765,6 +119803,8 @@ overrides = {
       "prio": 0,
       "name": "Nuzzle",
       "num": 158,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user nuzzles its electrified cheeks against the target, potentially paralyzing them.",
       "e_id": 6,
       "sf": true
@@ -119778,6 +119818,8 @@ overrides = {
       "prio": 0,
       "name": "Flip Turn",
       "num": 159,
+      "oldDesc": null,
+      "new": true,
       "desc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
       "e_id": 228
     },
@@ -119898,6 +119940,8 @@ overrides = {
       "prio": 0,
       "name": "Infernal Parade",
       "num": 168,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user launches fireballs that may also burn the target. They deal massive damage to a target affected by status.",
       "e_id": 0,
       "sf": true
@@ -119911,6 +119955,8 @@ overrides = {
       "prio": 0,
       "name": "Snap Trap",
       "num": 169,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user snares the target in a snap  trap for four to five turns.",
       "e_id": 42,
       "sf": true
@@ -119992,6 +120038,8 @@ overrides = {
       "prio": 0,
       "name": "Spin Out",
       "num": 175,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user spins furiously by gyrating its body, dealing heavy damage and harshly lowering the user's Speed stat.",
       "e_id": 218,
       "sf": true
@@ -120044,6 +120092,8 @@ overrides = {
       "prio": 0,
       "name": "Diamond Storm",
       "num": 179,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also raise the user's Defense stat.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
@@ -120125,6 +120175,8 @@ overrides = {
       "prio": 0,
       "name": "Draining Kiss",
       "num": 185,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user steals the target's energy with a kiss, healing themselves with damage dealt.",
       "e_id": 3
     },
@@ -120220,6 +120272,8 @@ overrides = {
       "prio": 0,
       "name": "Electro Shot",
       "num": 192,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user gathers electricity on the first turn, raising Sp. Atk, then fires on the next turn. The shot is immediate in rain.",
       "e_id": 0
     },
@@ -120302,6 +120356,8 @@ overrides = {
       "prio": 0,
       "name": "Parting Shot",
       "num": 198,
+      "oldDesc": null,
+      "new": true,
       "desc": "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches with a party Pokémon.",
       "e_id": 228,
       "sf": true,
@@ -120398,6 +120454,8 @@ overrides = {
       "prio": 0,
       "name": "Body Press",
       "num": 205,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user slams its body into the target. The higher the user's Defense, the more damage it can inflict on the target.",
       "e_id": 0
     },
@@ -120552,6 +120610,8 @@ overrides = {
       "prio": 0,
       "name": "Temper Flare",
       "num": 217,
+      "oldDesc": null,
+      "new": true,
       "desc": "Spurred by frustration, the user attacks the target. If the user's previous move failed, the power of this move doubles.",
       "e_id": 0
     },
@@ -120577,6 +120637,8 @@ overrides = {
       "prio": 0,
       "name": "Seething Cold",
       "num": 219,
+      "oldDesc": null,
+      "new": true,
       "desc": "Fueled by resentment, strike a foe with a bitter chill. If the user's previous move failed, the power of this move doubles.",
       "e_id": 0
     },
@@ -120589,6 +120651,8 @@ overrides = {
       "prio": 0,
       "name": "Mystical Fire",
       "num": 220,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user attacks by breathing a special, magic fire. This lowers the target's Sp. Atk stat.",
       "e_id": 21,
       "sf": true
@@ -120602,6 +120666,8 @@ overrides = {
       "prio": 0,
       "name": "Sticky Web",
       "num": 221,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.",
       "e_id": 126
     },
@@ -120887,6 +120953,8 @@ overrides = {
       "prio": 0,
       "name": "Bitter Malice",
       "num": 243,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user strikes with spine-chilling resentment. The target may freeze, and takes double damage if affected by status.",
       "e_id": 0,
       "sf": true
@@ -121131,6 +121199,8 @@ overrides = {
       "prio": 4,
       "name": "Obstruct",
       "num": 261,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user shields itself from all attacks. Any attacker that makes direct contact has their Defense stat sharply lowered.",
       "e_id": 111
     },
@@ -121171,6 +121241,8 @@ overrides = {
       "prio": 0,
       "name": "Psychic Fangs",
       "num": 264,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user bites the target with its psychic powers, destroying Light Screen and Reflect.",
       "e_id": 186
     },
@@ -121245,6 +121317,8 @@ overrides = {
       "prio": 0,
       "name": "Weather Crash",
       "num": 270,
+      "oldDesc": null,
+      "new": true,
       "desc": "An attack move that varies in power and type depending on the weather. ",
       "e_id": 203
     },
@@ -121257,6 +121331,8 @@ overrides = {
       "prio": 0,
       "name": "Barb Barrage",
       "num": 271,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user launches toxic barbs that may also poison the target, dealing massive damage to a target affected by status. ",
       "e_id": 0,
       "sf": true
@@ -121482,6 +121558,8 @@ overrides = {
       "prio": 0,
       "name": "Victory Dance",
       "num": 288,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user performs an intense dance to usher in victory, boosting its Attack, Defense, and Speed stats.",
       "e_id": 212,
       "sf": true
@@ -121536,6 +121614,8 @@ overrides = {
       "prio": 0,
       "name": "Trop Kick",
       "num": 292,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user lands an intense kick of tropical origins on the target. This also lowers the target's Attack stat.",
       "e_id": 18,
       "sf": true
@@ -121562,6 +121642,8 @@ overrides = {
       "prio": 0,
       "name": "Dazzling Gleam",
       "num": 294,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user strikes opposing foes by emitting a dazzling flash.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
@@ -121576,6 +121658,8 @@ overrides = {
       "prio": 0,
       "name": "Moonblast",
       "num": 295,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user summons the power of the moon to strike. This may also lower the target's Sp. Atk stat.",
       "e_id": 21,
       "sf": true
@@ -121630,6 +121714,8 @@ overrides = {
       "prio": 1,
       "name": "Esper Wing",
       "num": 299,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user slashes the target with aura-enriched wings. This move always goes first. ",
       "e_id": 103
     },
@@ -121642,6 +121728,8 @@ overrides = {
       "prio": 0,
       "name": "Boomburst",
       "num": 300,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user attacks everything around it with the destructive power of a terrible, explosive sound.",
       "e_id": 0,
       "tar": "allAdjacent",
@@ -121859,6 +121947,8 @@ overrides = {
       "prio": 0,
       "name": "Eerie Impulse",
       "num": 315,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user generates an eerie impulsen that sharply lowers the target's Sp. Atk stat.",
       "e_id": 21,
       "sf": true
@@ -122275,6 +122365,8 @@ overrides = {
       "prio": 0,
       "name": "Wicked Blow",
       "num": 345,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
       "e_id": 288,
       "willCrit": true,
@@ -122427,6 +122519,8 @@ overrides = {
       "prio": 0,
       "name": "Freeze-Dry",
       "num": 356,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
       "e_id": 5,
       "sf": true
@@ -122521,6 +122615,8 @@ overrides = {
       "prio": 0,
       "name": "Confide",
       "num": 363,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user tells the target a secret, and the target loses its ability to focus. This lowers the target's Sp. Atk stat.",
       "e_id": 21,
       "tar": "allAdjacentFoes",
@@ -122636,6 +122732,8 @@ overrides = {
       "prio": 3,
       "name": "1st Impression",
       "num": 372,
+      "oldDesc": null,
+      "new": true,
       "desc": "This move always strikes first! Although this move has great power, it only works the first turn the user is in battle.",
       "e_id": 103
     },
@@ -122672,6 +122770,8 @@ overrides = {
       "prio": 4,
       "name": "Spiky Shield",
       "num": 375,
+      "oldDesc": null,
+      "new": true,
       "desc": "Protects the user. Also damages attackers who make direct contact!",
       "e_id": 111
     },
@@ -122684,6 +122784,8 @@ overrides = {
       "prio": 0,
       "name": "Alluring Voice",
       "num": 376,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user attacks the target using its angelic voice. Traps the target for 2 to 5 turns.",
       "e_id": 42,
       "sf": true,
@@ -122700,6 +122802,8 @@ overrides = {
       "prio": 0,
       "name": "Scale Shot",
       "num": 377,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user attacks by shooting scales two to five times in a row. This move boosts the user's Speed but lowers its Defense.",
       "e_id": 29,
       "multihit": [
@@ -122716,6 +122820,8 @@ overrides = {
       "prio": 0,
       "name": "Petal Blizzard",
       "num": 378,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user showers the battlefield with razor sharp petals. This attack cannot miss.",
       "e_id": 17,
       "tar": "allAdjacent"
@@ -122779,6 +122885,8 @@ overrides = {
       "prio": 0,
       "name": "Psyblade",
       "num": 383,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user rends all foes with an ethereal blade. This may also raise the user's Attack stat.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
@@ -122793,6 +122901,8 @@ overrides = {
       "prio": 0,
       "name": "Clanging Scales",
       "num": 384,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user rubs the scales on its entire body and makes a huge noise to attack opposing Pokémon. Lowers the user's Defense.",
       "e_id": 229,
       "sf": true,
@@ -122809,6 +122919,8 @@ overrides = {
       "prio": 0,
       "name": "Wave Crash",
       "num": 385,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user slams into the target like a crashing wave. This also damages the user.",
       "e_id": 198,
       "recoil": [
@@ -123649,6 +123761,8 @@ overrides = {
       "prio": 0,
       "name": "Spirit Break",
       "num": 448,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user strikes with a terrible force that shatters their spirit. This attack may also lower the target's Attack.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
@@ -123789,6 +123903,8 @@ overrides = {
       "prio": 0,
       "name": "Starburst",
       "num": 458,
+      "oldDesc": null,
+      "new": true,
       "desc": "Drawing power from the stars, the user unleashes a powerful supernova of light. This attack damages the user.",
       "e_id": 269,
       "recoil": [
@@ -123805,6 +123921,8 @@ overrides = {
       "prio": 0,
       "name": "Steel Beam",
       "num": 459,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user fires a beam of steel that it collected from its entire body. This attack damages the user.",
       "e_id": 198,
       "recoil": [
@@ -123821,6 +123939,8 @@ overrides = {
       "prio": 0,
       "name": "Pollen Puff",
       "num": 460,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, heals their HP instead.",
       "e_id": 0
     },
@@ -123833,6 +123953,8 @@ overrides = {
       "prio": 4,
       "name": "Silk Trap",
       "num": 461,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user spins a silken trap, protecting itself while lowering the Speed stat of any attacker that makes direct contact.",
       "e_id": 111
     },
@@ -123935,6 +124057,8 @@ overrides = {
       "prio": 0,
       "name": "Triple Axel",
       "num": 469,
+      "oldDesc": null,
+      "new": true,
       "desc": "A consecutive three-kick attack that becomes more powerful with each successive hit.",
       "e_id": 104,
       "multihit": [
@@ -123951,6 +124075,8 @@ overrides = {
       "prio": 0,
       "name": "Triple Dive",
       "num": 470,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target's.",
       "e_id": 29,
       "multihit": [
@@ -123967,6 +124093,8 @@ overrides = {
       "prio": 0,
       "name": "Liquidation",
       "num": 471,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user performs a perfectly timed triple dive, hitting the target with splashes of water three times in a row.",
       "e_id": 0,
       "sf": true
@@ -124046,6 +124174,8 @@ overrides = {
       "prio": 249,
       "name": "Power Trip",
       "num": 477,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user boasts its strength and attacks the target. The more the user's stats are boosted, the greater the move's power.",
       "e_id": 0
     },
@@ -124058,6 +124188,8 @@ overrides = {
       "prio": 1,
       "name": "Accelerock",
       "num": 478,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user smashes into the target at high speed. This move always goes first.",
       "e_id": 103
     },
@@ -124136,6 +124268,8 @@ overrides = {
       "prio": 0,
       "name": "Scorching Sands",
       "num": 484,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user throws scorching sand at the target. This may also leave the target with a burn.",
       "e_id": 0,
       "sf": true
@@ -124240,6 +124374,8 @@ overrides = {
       "prio": 0,
       "name": "Stompin Tantrum",
       "num": 492,
+      "oldDesc": null,
+      "new": true,
       "desc": "Driven by frustration, the user attacks the target. If the user's previous move failed, the power of this move doubles.",
       "e_id": 0
     },
@@ -124264,6 +124400,8 @@ overrides = {
       "prio": 0,
       "name": "Ice Hammer",
       "num": 494,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user swings with a strong, heavy fist with the weight of a glacier. This attack lowers the user's Speed, however.",
       "e_id": 0,
       "sf": true
@@ -124277,6 +124415,8 @@ overrides = {
       "prio": 0,
       "name": "Disarming Voice",
       "num": 495,
+      "oldDesc": null,
+      "new": true,
       "desc": "Letting out a charming cry, the user does emotional damage to opposing foes. This attack never misses.",
       "e_id": 17,
       "tar": "allAdjacentFoes",
@@ -124470,6 +124610,8 @@ overrides = {
       "prio": 0,
       "name": "Fairy Wind",
       "num": 510,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user stirs up a fairy wind and strikes the target with it. It may also raise all the user's stats at once.",
       "e_id": 140,
       "sf": true
@@ -124995,6 +125137,8 @@ overrides = {
       "prio": 0,
       "name": "Zing Zap",
       "num": 549,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user charges its target, surrounding itself with a great amount of electricity. It may cause a flinch.",
       "e_id": 31
     },
@@ -125033,6 +125177,8 @@ overrides = {
       "prio": 0,
       "name": "Meteor Beam",
       "num": 552,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user gathers energy from the cosmos and boosts its Sp. Atk stat on the first turn, then attacks on the next turn.",
       "e_id": 0
     },
@@ -125045,6 +125191,8 @@ overrides = {
       "prio": 0,
       "name": "Solar Blade",
       "num": 553,
+      "oldDesc": null,
+      "new": true,
       "desc": "A two-turn attack. The user gathers sunlight into a shining blade, striking next turn. Charges instantly in harsh sunlight.",
       "e_id": 151
     },
@@ -125099,6 +125247,8 @@ overrides = {
       "prio": 0,
       "name": "Skitter Smack",
       "num": 557,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user sneaks behind the target and strikes. This attack lowers the target's Special Attack.",
       "e_id": 0,
       "sf": true
@@ -125112,6 +125262,8 @@ overrides = {
       "prio": 4,
       "name": "Baneful Bunker",
       "num": 558,
+      "oldDesc": null,
+      "new": true,
       "desc": "The user shields itself with venomous barbs, protecting itself while poisoning any attacker that makes direct contact.",
       "e_id": 111
     }
@@ -125143,11 +125295,15 @@ overrides = {
     },
     "bulletproof": {
       "name": "Bulletproof",
-      "desc": "Blocks \"bomb\" and \"ball\" attacks."
+      "desc": "Blocks \"bomb\" and \"ball\" attacks.",
+      "oldDesc": null,
+      "new": true
     },
     "corrosion": {
       "name": "Corrosion",
-      "desc": "The user's Poison moves affect Steel greatly."
+      "desc": "The user's Poison moves affect Steel greatly.",
+      "oldDesc": null,
+      "new": true
     },
     "sandveil": {
       "name": "Sand Veil",
@@ -125167,27 +125323,38 @@ overrides = {
     },
     "galvanize": {
       "name": "Galvanize",
-      "desc": "Normal-type moves boosted; now Electric-type moves."
+      "desc": "Normal-type moves boosted; now Electric-type moves.",
+      "oldDesc": null,
+      "new": true
     },
     "cloudnine": {
       "name": "Cloud Nine",
-      "desc": "Block weather and boost accuracy for field."
+      "desc": "Block weather and boost accuracy for field.",
+      "oldDesc": "Eliminates the effects of weather."
     },
     "keensenses": {
       "name": "Keen Senses",
-      "desc": "The Pokémon's accuracy is boosted."
+      "desc": "The Pokémon's accuracy is boosted.",
+      "oldDesc": null,
+      "new": true
     },
     "thunderarmor": {
       "name": "Thunder Armor",
-      "desc": "Raises Attack when hit by a Electric-type move."
+      "desc": "Raises Attack when hit by a Electric-type move.",
+      "oldDesc": null,
+      "new": true
     },
     "ballistics": {
       "name": "Ballistics",
-      "desc": "Changes the Pokémon's type to the foe's move."
+      "desc": "Changes the Pokémon's type to the foe's move.",
+      "oldDesc": null,
+      "new": true
     },
     "fluffy": {
       "name": "Fluffy",
-      "desc": "Contact moves deal half damage; weak to Fire."
+      "desc": "Contact moves deal half damage; weak to Fire.",
+      "oldDesc": null,
+      "new": true
     },
     "flashfire": {
       "name": "Flash Fire",
@@ -125195,15 +125362,21 @@ overrides = {
     },
     "resilient": {
       "name": "Resilient",
-      "desc": "Blocks the added effects of attacks taken."
+      "desc": "Blocks the added effects of attacks taken.",
+      "oldDesc": null,
+      "new": true
     },
     "quickdraw": {
       "name": "Quick Draw",
-      "desc": "Enables the Pokémon to move first occasionally."
+      "desc": "Enables the Pokémon to move first occasionally.",
+      "oldDesc": null,
+      "new": true
     },
     "wellbakedbody": {
       "name": "Well Baked Body",
-      "desc": "Raises Defense when hit by Fire-type moves."
+      "desc": "Raises Defense when hit by Fire-type moves.",
+      "oldDesc": null,
+      "new": true
     },
     "intimidate": {
       "name": "Intimidate",
@@ -125235,7 +125408,9 @@ overrides = {
     },
     "strongbody": {
       "name": "Strong Body",
-      "desc": "Prevent stat drops and shields from weather."
+      "desc": "Prevent stat drops and shields from weather.",
+      "oldDesc": null,
+      "new": true
     },
     "naturalcure": {
       "name": "Natural Cure",
@@ -125243,7 +125418,8 @@ overrides = {
     },
     "lightningrod": {
       "name": "Lightningrod",
-      "desc": "Boosts Special Attack if hit by a Electric-type move."
+      "desc": "Boosts Special Attack if hit by a Electric-type move.",
+      "oldDesc": "Draws in all Electric-type moves to up Sp. Attack."
     },
     "serenegrace": {
       "name": "Serene Grace",
@@ -125251,11 +125427,13 @@ overrides = {
     },
     "swiftswim": {
       "name": "Swift Swim",
-      "desc": "Resist Water; double Speed in a rainstorm."
+      "desc": "Resist Water; double Speed in a rainstorm.",
+      "oldDesc": "Boosts the Pokémon's Speed in rain."
     },
     "chlorophyll": {
       "name": "Chlorophyll",
-      "desc": "Powers up some moves and boosts Speed in sunshine."
+      "desc": "Powers up some moves and boosts Speed in sunshine.",
+      "oldDesc": "Boosts the Pokémon's Speed in sunshine."
     },
     "illuminate": {
       "name": "Illuminate",
@@ -125263,27 +125441,36 @@ overrides = {
     },
     "trace": {
       "name": "Trace",
-      "desc": "The Pokémon copies a ally or foe's Ability."
+      "desc": "The Pokémon copies a ally or foe's Ability.",
+      "oldDesc": "The Pokémon copies a foe's Ability."
     },
     "hugepower": {
       "name": "Huge Power",
-      "desc": "Doubles the Pokémon's Attack stat."
+      "desc": "Doubles the Pokémon's Attack stat.",
+      "oldDesc": "Raises the Pokémon's Attack stat."
     },
     "berserk": {
       "name": "Berserk",
-      "desc": "Boosts offenses when brought below half health."
+      "desc": "Boosts offenses when brought below half health.",
+      "oldDesc": null,
+      "new": true
     },
     "innerfocus": {
       "name": "Inner Focus",
-      "desc": "Can't flinch. Psychic moves affect Dark types."
+      "desc": "Can't flinch. Psychic moves affect Dark types.",
+      "oldDesc": "The Pokémon is protected from flinching."
     },
     "pixilate": {
       "name": "Pixilate",
-      "desc": "Normal-type moves boosted; now Fairy-type moves."
+      "desc": "Normal-type moves boosted; now Fairy-type moves.",
+      "oldDesc": null,
+      "new": true
     },
     "merciless": {
       "name": "Merciless",
-      "desc": "Boosts offense and defense vs Pokémon with status."
+      "desc": "Boosts offense and defense vs Pokémon with status.",
+      "oldDesc": null,
+      "new": true
     },
     "magnetpull": {
       "name": "Magnet Pull",
@@ -125291,11 +125478,14 @@ overrides = {
     },
     "amplifier": {
       "name": "Amplifier",
-      "desc": "Immune to sound moves, and boosts sound moves."
+      "desc": "Immune to sound moves, and boosts sound moves.",
+      "oldDesc": null,
+      "new": true
     },
     "raindish": {
       "name": "Rain Dish",
-      "desc": "Avoids burns, and slowly regains HP in rain."
+      "desc": "Avoids burns, and slowly regains HP in rain.",
+      "oldDesc": "The Pokémon gradually regains HP in rain."
     },
     "sandstream": {
       "name": "Sand Stream",
@@ -125303,15 +125493,20 @@ overrides = {
     },
     "neutralizinggas": {
       "name": "Neutralizing Gas",
-      "desc": "Neutralizes all abilities on the field."
+      "desc": "Neutralizes all abilities on the field.",
+      "oldDesc": null,
+      "new": true
     },
     "thickfat": {
       "name": "Thick Fat",
-      "desc": "Resist Fire- and Ice-type moves and hail damage."
+      "desc": "Resist Fire- and Ice-type moves and hail damage.",
+      "oldDesc": "Ups resistance to Fire- and Ice-type moves."
     },
     "refrigerate": {
       "name": "Refrigerate",
-      "desc": "Normal-type moves boosted; now Ice-type moves."
+      "desc": "Normal-type moves boosted; now Ice-type moves.",
+      "oldDesc": null,
+      "new": true
     },
     "flamebody": {
       "name": "Flame Body",
@@ -125319,23 +125514,29 @@ overrides = {
     },
     "runaway": {
       "name": "Run Away",
-      "desc": "Cannot be trapped. At half health, switch out."
+      "desc": "Cannot be trapped. At half health, switch out.",
+      "oldDesc": "Enables a sure getaway from wild Pokémon."
     },
     "windrider": {
       "name": "Wind Rider",
-      "desc": "Blocks wind attacks , raising Attack instead."
+      "desc": "Blocks wind attacks , raising Attack instead.",
+      "oldDesc": null,
+      "new": true
     },
     "hypercutter": {
       "name": "Hyper Cutter",
-      "desc": "Boosts slicing/claw moves and blocks Attack drops."
+      "desc": "Boosts slicing/claw moves and blocks Attack drops.",
+      "oldDesc": "Prevents other Pokémon from lowering Attack stat."
     },
     "pickup": {
       "name": "Pickup",
-      "desc": "Recovers used items when switching out."
+      "desc": "Recovers used items when switching out.",
+      "oldDesc": "The Pokémon may pick up items."
     },
     "truant": {
       "name": "Truant",
-      "desc": "Can't use damaging moves on consecutive turns."
+      "desc": "Can't use damaging moves on consecutive turns.",
+      "oldDesc": "Pokémon can't attack on consecutive turns."
     },
     "hustle": {
       "name": "Hustle",
@@ -125343,7 +125544,9 @@ overrides = {
     },
     "gooey": {
       "name": "Gooey",
-      "desc": "Contact with the Pokémon lowers foe's Speed stat."
+      "desc": "Contact with the Pokémon lowers foe's Speed stat.",
+      "oldDesc": null,
+      "new": true
     },
     "plus": {
       "name": "Plus",
@@ -125359,11 +125562,14 @@ overrides = {
     },
     "aerilate": {
       "name": "Aerilate",
-      "desc": "Normal-type moves boosted; now Flying-type moves."
+      "desc": "Normal-type moves boosted; now Flying-type moves.",
+      "oldDesc": null,
+      "new": true
     },
     "shedskin": {
       "name": "Shed Skin",
-      "desc": "The Pokémon heals its own status each turn."
+      "desc": "The Pokémon heals its own status each turn.",
+      "oldDesc": "The Pokémon may heal its own status problems."
     },
     "guts": {
       "name": "Guts",
@@ -125379,23 +125585,29 @@ overrides = {
     },
     "overgrow": {
       "name": "Overgrow",
-      "desc": "Boosts Grass-type moves. Doubled in a pinch."
+      "desc": "Boosts Grass-type moves. Doubled in a pinch.",
+      "oldDesc": "Powers up Grass-type moves in a pinch."
     },
     "blaze": {
       "name": "Blaze",
-      "desc": "Boosts Fire-type moves. Doubled in a pinch."
+      "desc": "Boosts Fire-type moves. Doubled in a pinch.",
+      "oldDesc": "Powers up Fire-type moves in a pinch."
     },
     "torrent": {
       "name": "Torrent",
-      "desc": "Boosts Water-type moves. Doubled in a pinch."
+      "desc": "Boosts Water-type moves. Doubled in a pinch.",
+      "oldDesc": "Powers up Water-type moves in a pinch."
     },
     "swarm": {
       "name": "Swarm",
-      "desc": "Boosts Bug-type moves. Doubled in a pinch."
+      "desc": "Boosts Bug-type moves. Doubled in a pinch.",
+      "oldDesc": "Powers up Bug-type moves in a pinch."
     },
     "determined": {
       "name": "Determined",
-      "desc": "Protects the Pokémon from recoil damage."
+      "desc": "Protects the Pokémon from recoil damage.",
+      "oldDesc": null,
+      "new": true
     },
     "drought": {
       "name": "Drought",
@@ -125415,7 +125627,8 @@ overrides = {
     },
     "purepower": {
       "name": "Pure Power",
-      "desc": "Doubles the Pokémon's Special Attack stat."
+      "desc": "Doubles the Pokémon's Special Attack stat.",
+      "oldDesc": "Raises the Pokémon's Attack stat."
     },
     "shellarmor": {
       "name": "Shell Armor",
@@ -125423,11 +125636,14 @@ overrides = {
     },
     "airlock": {
       "name": "Air Lock",
-      "desc": "Block weather and boost accuracy for field."
+      "desc": "Block weather and boost accuracy for field.",
+      "oldDesc": "Eliminates the effects of weather."
     },
     "slushrush": {
       "name": "Slush Rush",
-      "desc": "Resist Ice, and doubles Speed in a hailstorm."
+      "desc": "Resist Ice, and doubles Speed in a hailstorm.",
+      "oldDesc": null,
+      "new": true
     },
     "motordrive": {
       "name": "Motor Drive",
@@ -125435,11 +125651,14 @@ overrides = {
     },
     "rivalry": {
       "name": "Rivalry",
-      "desc": "Boosts offense and defense vs Pokémon with same type."
+      "desc": "Boosts offense and defense vs Pokémon with same type.",
+      "oldDesc": "Deals more damage to a Pokémon of same gender."
     },
     "colossal": {
       "name": "Colossal",
-      "desc": "Reduces damage taken, but cannot avoid attacks."
+      "desc": "Reduces damage taken, but cannot avoid attacks.",
+      "oldDesc": null,
+      "new": true
     },
     "snowcloak": {
       "name": "Snow Cloak",
@@ -125451,7 +125670,8 @@ overrides = {
     },
     "angerpoint": {
       "name": "Anger Point",
-      "desc": "Boosts damage and speed if last move failed!"
+      "desc": "Boosts damage and speed if last move failed!",
+      "oldDesc": "Maxes Attack after taking a critical hit."
     },
     "unburden": {
       "name": "Unburden",
@@ -125459,7 +125679,8 @@ overrides = {
     },
     "heatproof": {
       "name": "Heatproof",
-      "desc": "Weakens Fire-type moves and prevents Burns."
+      "desc": "Weakens Fire-type moves and prevents Burns.",
+      "oldDesc": "Weakens the power of Fire-type moves."
     },
     "simple": {
       "name": "Simple",
@@ -125471,11 +125692,14 @@ overrides = {
     },
     "exploit": {
       "name": "Exploit",
-      "desc": "Adjusts power according to a foe's defenses."
+      "desc": "Adjusts power according to a foe's defenses.",
+      "oldDesc": null,
+      "new": true
     },
     "ironfist": {
       "name": "Iron Fist",
-      "desc": "Boosts punching moves, and prevents contact."
+      "desc": "Boosts punching moves, and prevents contact.",
+      "oldDesc": "Boosts the power of punching moves."
     },
     "poisonheal": {
       "name": "Poison Heal",
@@ -125491,7 +125715,9 @@ overrides = {
     },
     "strongjaw": {
       "name": "Strong Jaw",
-      "desc": "Greatly boosts biting and jaw moves."
+      "desc": "Greatly boosts biting and jaw moves.",
+      "oldDesc": null,
+      "new": true
     },
     "solarpower": {
       "name": "Solar Power",
@@ -125503,7 +125729,8 @@ overrides = {
     },
     "normalize": {
       "name": "Normalize",
-      "desc": "User's moves are stronger, Normal-type and Neutral."
+      "desc": "User's moves are stronger, Normal-type and Neutral.",
+      "oldDesc": "All the Pokémon's moves become the Normal type."
     },
     "sniper": {
       "name": "Sniper",
@@ -125519,7 +125746,9 @@ overrides = {
     },
     "toughclaws": {
       "name": "Tough Claws",
-      "desc": "Boosts the damage of contact moves."
+      "desc": "Boosts the damage of contact moves.",
+      "oldDesc": null,
+      "new": true
     },
     "technician": {
       "name": "Technician",
@@ -125527,39 +125756,52 @@ overrides = {
     },
     "furcoat": {
       "name": "Fur Coat",
-      "desc": "Halves physical damage taken."
+      "desc": "Halves physical damage taken.",
+      "oldDesc": null,
+      "new": true
     },
     "distracting": {
       "name": "Distracting",
-      "desc": "Lowers the foe's Evasion stat."
+      "desc": "Lowers the foe's Evasion stat.",
+      "oldDesc": null,
+      "new": true
     },
     "moldbreaker": {
       "name": "Mold Breaker",
-      "desc": "Moves are stronger and bypass defensive Abilities."
+      "desc": "Moves are stronger and bypass defensive Abilities.",
+      "oldDesc": "Moves can be used regardless of Abilities."
     },
     "moisturize": {
       "name": "Moisturize",
-      "desc": "Normal-type moves boosted; now Water-type moves."
+      "desc": "Normal-type moves boosted; now Water-type moves.",
+      "oldDesc": null,
+      "new": true
     },
     "aftermath": {
       "name": "Aftermath",
-      "desc": "When user faints, damage all Pokémon in battle."
+      "desc": "When user faints, damage all Pokémon in battle.",
+      "oldDesc": "Damages the attacker landing the finishing hit."
     },
     "anticipation": {
       "name": "Anticipation",
-      "desc": "Boosts evasion against supereffective moves."
+      "desc": "Boosts evasion against supereffective moves.",
+      "oldDesc": "Senses a foe's dangerous moves."
     },
     "forewarn": {
       "name": "Forewarn",
-      "desc": "Reduces damage to self and allies from critical hits."
+      "desc": "Reduces damage to self and allies from critical hits.",
+      "oldDesc": "Determines what moves a foe has."
     },
     "unaware": {
       "name": "Unaware",
-      "desc": "Ignores stat changes."
+      "desc": "Ignores stat changes.",
+      "oldDesc": "Ignores any stat changes in the Pokémon."
     },
     "tenacity": {
       "name": "Tenacity",
-      "desc": "Powers up “not very effective\" moves."
+      "desc": "Powers up “not very effective\" moves.",
+      "oldDesc": null,
+      "new": true
     },
     "filter": {
       "name": "Filter",
@@ -125571,15 +125813,18 @@ overrides = {
     },
     "scrappy": {
       "name": "Scrappy",
-      "desc": "User's moves hit Ghosts; prevents attack drops."
+      "desc": "User's moves hit Ghosts; prevents attack drops.",
+      "oldDesc": "Enables moves to hit Ghost-type Pokémon."
     },
     "stormdrain": {
       "name": "Storm Drain",
-      "desc": "Boosts Special Attack when hit by a Water-type move."
+      "desc": "Boosts Special Attack when hit by a Water-type move.",
+      "oldDesc": "Draws in all Water-type moves to up Sp. Attack."
     },
     "icebody": {
       "name": "Ice Body",
-      "desc": "Gradually regains HP. Boosted in a hailstorm."
+      "desc": "Gradually regains HP. Boosted in a hailstorm.",
+      "oldDesc": "The Pokémon gradually regains HP in a hailstorm."
     },
     "solidrock": {
       "name": "Solid Rock",
@@ -125591,11 +125836,14 @@ overrides = {
     },
     "honeygather": {
       "name": "Honey Gather",
-      "desc": "Sometimes gather Honey in battle."
+      "desc": "Sometimes gather Honey in battle.",
+      "oldDesc": "The Pokémon may gather Honey from somewhere."
     },
     "stakeout": {
       "name": "Stakeout",
-      "desc": "Doubles damage dealt to a target on switch in."
+      "desc": "Doubles damage dealt to a target on switch in.",
+      "oldDesc": null,
+      "new": true
     },
     "reckless": {
       "name": "Reckless",
@@ -125603,19 +125851,23 @@ overrides = {
     },
     "multitype": {
       "name": "Multitype",
-      "desc": "Neutralizes all abilities on the field."
+      "desc": "Neutralizes all abilities on the field.",
+      "oldDesc": "Changes type to match the held Plate."
     },
     "flowergift": {
       "name": "Flower Gift",
-      "desc": "Boost some moves; powers up party Pokémon in sun."
+      "desc": "Boost some moves; powers up party Pokémon in sun.",
+      "oldDesc": "Powers up party Pokémon when it is sunny."
     },
     "baddreams": {
       "name": "Bad Dreams",
-      "desc": "Traps and damages sleeping foes in battle."
+      "desc": "Traps and damages sleeping foes in battle.",
+      "oldDesc": "Reduces a sleeping foe's HP."
     },
     "pickpocket": {
       "name": "Pickpocket",
-      "desc": "Steal or remove items when making contact."
+      "desc": "Steal or remove items when making contact.",
+      "oldDesc": "Steals an item when hit by another Pokémon."
     },
     "sheerforce": {
       "name": "Sheer Force",
@@ -125627,7 +125879,8 @@ overrides = {
     },
     "unnerve": {
       "name": "Unnerve",
-      "desc": "Makes the foe nervous and unable to activate Items."
+      "desc": "Makes the foe nervous and unable to activate Items.",
+      "oldDesc": "Makes the foe nervous and unable to eat Berries."
     },
     "defiant": {
       "name": "Defiant",
@@ -125643,7 +125896,8 @@ overrides = {
     },
     "healer": {
       "name": "Healer",
-      "desc": "Heal self and ally each turn. Dodge ally attacks."
+      "desc": "Heal self and ally each turn. Dodge ally attacks.",
+      "oldDesc": "May heal an ally's status conditions."
     },
     "friendguard": {
       "name": "Friend Guard",
@@ -125655,19 +125909,24 @@ overrides = {
     },
     "heavymetal": {
       "name": "Heavy Metal",
-      "desc": "Boosts Defense and reduces Speed."
+      "desc": "Boosts Defense and reduces Speed.",
+      "oldDesc": "Doubles the Pokémon's weight."
     },
     "lightmetal": {
       "name": "Light Metal",
-      "desc": "Boosts Speed and reduces Defense."
+      "desc": "Boosts Speed and reduces Defense.",
+      "oldDesc": "Halves the Pokémon's weight."
     },
     "majesticward": {
       "name": "Majestic Ward",
-      "desc": "Reduces damage when HP is full."
+      "desc": "Reduces damage when HP is full.",
+      "oldDesc": null,
+      "new": true
     },
     "toxicboost": {
       "name": "Toxic Boost",
-      "desc": "Resist Poison; boosted Attack when poisoned."
+      "desc": "Resist Poison; boosted Attack when poisoned.",
+      "oldDesc": "Powers up physical attacks when poisoned."
     },
     "flareboost": {
       "name": "Flare Boost",
@@ -125675,11 +125934,15 @@ overrides = {
     },
     "gourmand": {
       "name": "Gourmand",
-      "desc": "May create another Berry or Herb after one is used."
+      "desc": "May create another Berry or Herb after one is used.",
+      "oldDesc": null,
+      "new": true
     },
     "permafrost": {
       "name": "Permafrost",
-      "desc": "Halves damage taken from Special moves."
+      "desc": "Halves damage taken from Special moves.",
+      "oldDesc": null,
+      "new": true
     },
     "moody": {
       "name": "Moody",
@@ -125687,7 +125950,8 @@ overrides = {
     },
     "overcoat": {
       "name": "Overcoat",
-      "desc": "Shielded from weather, hazards,and contact."
+      "desc": "Shielded from weather, hazards,and contact.",
+      "oldDesc": "Protects the Pokémon from damage from weather."
     },
     "poisontouch": {
       "name": "Poison Touch",
@@ -125699,11 +125963,14 @@ overrides = {
     },
     "savant": {
       "name": "Savant",
-      "desc": "Changes the user's type to that of their move."
+      "desc": "Changes the user's type to that of their move.",
+      "oldDesc": null,
+      "new": true
     },
     "sandrush": {
       "name": "Sand Rush",
-      "desc": "Resist Rock, and doubles Speed in a sandstorm."
+      "desc": "Resist Rock, and doubles Speed in a sandstorm.",
+      "oldDesc": "Boosts the Pokémon's Speed in a sandstorm."
     },
     "wonderskin": {
       "name": "Wonder Skin",
@@ -125711,7 +125978,9 @@ overrides = {
     },
     "patient": {
       "name": "Patient",
-      "desc": "Boosts move power when the Pokémon moves last."
+      "desc": "Boosts move power when the Pokémon moves last.",
+      "oldDesc": null,
+      "new": true
     },
     "illusion": {
       "name": "Illusion",
@@ -125723,11 +125992,14 @@ overrides = {
     },
     "infiltrator": {
       "name": "Infiltrator",
-      "desc": "Supereffective moves are boosted and pass barriers."
+      "desc": "Supereffective moves are boosted and pass barriers.",
+      "oldDesc": "Passes through the foe's barrier and strikes."
     },
     "contagious": {
       "name": "Contagious",
-      "desc": "Contact with this Pokémon spreads this Ability."
+      "desc": "Contact with this Pokémon spreads this Ability.",
+      "oldDesc": null,
+      "new": true
     },
     "moxie": {
       "name": "Moxie",
@@ -125735,11 +126007,13 @@ overrides = {
     },
     "justified": {
       "name": "Justified",
-      "desc": "Resist Dark moves, raise Attack when hit by one."
+      "desc": "Resist Dark moves, raise Attack when hit by one.",
+      "oldDesc": "Raises Attack when hit by a Dark-type move."
     },
     "rattled": {
       "name": "Rattled",
-      "desc": "Some move types scare it and harshly boost Speed."
+      "desc": "Some move types scare it and harshly boost Speed.",
+      "oldDesc": "Some move types scare it and boost its Speed."
     },
     "magicbounce": {
       "name": "Magic Bounce",
@@ -125755,7 +126029,8 @@ overrides = {
     },
     "sandforce": {
       "name": "Sand Force",
-      "desc": "Powers up earth moves. Boost doubled in sand."
+      "desc": "Powers up earth moves. Boost doubled in sand.",
+      "oldDesc": "Boosts certain moves' power in a sandstorm."
     },
     "ironbarbs": {
       "name": "Iron Barbs",
@@ -125767,15 +126042,19 @@ overrides = {
     },
     "illumination": {
       "name": "Illumination",
-      "desc": "Boosts the accuracy of its allies and itself."
+      "desc": "Boosts the accuracy of its allies and itself.",
+      "oldDesc": null,
+      "new": true
     },
     "turboblaze": {
       "name": "Turboblaze",
-      "desc": "Moves are stronger and bypass defensive Abilities."
+      "desc": "Moves are stronger and bypass defensive Abilities.",
+      "oldDesc": "Moves can be used regardless of Abilities."
     },
     "teravolt": {
       "name": "Teravolt",
-      "desc": "Moves are stronger and bypass defensive Abilities."
+      "desc": "Moves are stronger and bypass defensive Abilities.",
+      "oldDesc": "Moves can be used regardless of Abilities."
     }
   },
   "encs": {
@@ -153690,12 +153969,12 @@ overrides = {
     },
     "masterball": {
       "name": "Master Ball",
-      "desc": "The best Ball with the ultimate level of\\nperformance. It will catch any wild\\nPokémon without fail.",
+      "desc": "The best Ball with the ultimate level of performance. It will catch any wild Pokémon without fail.",
       "location": ""
     },
     "ultraball": {
       "name": "Ultra Ball",
-      "desc": "An ultra-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a Great Ball.",
+      "desc": "An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.",
       "location": "Pinwheel Forest, Relic Sanctum, Victory Road, Victory Road, Victory Road, Village Bridge, Route 3, Route 13",
       "rewards": [
         "Youngster Kevin",
@@ -153725,7 +154004,7 @@ overrides = {
     },
     "greatball": {
       "name": "Great Ball",
-      "desc": "A good, high-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a standard Poké Ball.",
+      "desc": "A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.",
       "location": "",
       "marts": [
         "Stock No Badges",
@@ -153739,7 +154018,7 @@ overrides = {
     },
     "pokéball": {
       "name": "Poké Ball",
-      "desc": "A device for catching wild Pokémon.\\nIt is thrown like a ball at the target.\\nIt is designed as a capsule system.",
+      "desc": "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.",
       "location": "",
       "marts": [
         "Stock No Badges",
@@ -153753,12 +154032,12 @@ overrides = {
     },
     "safariball": {
       "name": "Safari Ball",
-      "desc": "A special Poké Ball that is used only in\\nthe Great Marsh. It is decorated in a\\ncamouflage pattern.",
+      "desc": "A special Poké Ball that is used only in the Great Marsh. It is decorated in a camouflage pattern.",
       "location": ""
     },
     "netball": {
       "name": "Net Ball",
-      "desc": "A somewhat different Poké Ball that\\nworks especially well on Water- and\\nBug-type Pokémon.",
+      "desc": "A somewhat different Poké Ball that works especially well on Water- and Bug-type Pokémon.",
       "location": "Pinwheel Forest",
       "marts": [
         "Victory Road Upper",
@@ -153769,7 +154048,7 @@ overrides = {
     },
     "diveball": {
       "name": "Dive Ball",
-      "desc": "A somewhat different Poké Ball that\\nworks especially well on Pokémon that\\nlive underwater.",
+      "desc": "A somewhat different Poké Ball that works especially well on Pokémon that live underwater.",
       "location": "Seaside Cave, Route 17",
       "rewards": [
         "Fisherman Devon"
@@ -153781,7 +154060,7 @@ overrides = {
     },
     "nestball": {
       "name": "Nest Ball",
-      "desc": "A somewhat different Poké Ball that\\nworks especially well on weaker\\nPokémon in the wild.",
+      "desc": "A somewhat different Poké Ball that works especially well on weaker Pokémon in the wild.",
       "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
@@ -153793,7 +154072,7 @@ overrides = {
     },
     "repeatball": {
       "name": "Repeat Ball",
-      "desc": "A somewhat different Poké Ball that\\nworks especially well on Pokémon\\nspecies that were previously caught.",
+      "desc": "A somewhat different Poké Ball that works especially well on Pokémon species that were previously caught.",
       "location": "Route 23",
       "marts": [
         "Accumula Town Upper Cashier",
@@ -153803,7 +154082,7 @@ overrides = {
     },
     "timerball": {
       "name": "Timer Ball",
-      "desc": "A somewhat different Ball that\\nbecomes progressively better the\\nmore turns there are in a battle.",
+      "desc": "A somewhat different Ball that becomes progressively better the more turns there are in a battle.",
       "location": "Route 12, Lacunosa Town",
       "marts": [
         "Icirrus City Upper Cashier",
@@ -153815,7 +154094,7 @@ overrides = {
     },
     "luxuryball": {
       "name": "Luxury Ball",
-      "desc": "A comfortable Poké Ball that makes a\\ncaught wild Pokémon quickly grow\\nfriendly.",
+      "desc": "A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.",
       "location": "N's Castle, Route 13",
       "marts": [
         "Victory Road Upper",
@@ -153826,12 +154105,12 @@ overrides = {
     },
     "premierball": {
       "name": "Premier Ball",
-      "desc": "A somewhat rare Poké Ball that has\\nbeen specially made to commemorate\\nan event of some sort.",
+      "desc": "A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.",
       "location": ""
     },
     "duskball": {
       "name": "Dusk Ball",
-      "desc": "A somewhat different Poké Ball that\\nmakes it easier to catch wild Pokémon\\nat night or in dark places like caves.",
+      "desc": "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.",
       "location": "Twist Mountain",
       "rewards": [
         "Roughneck Fletcher"
@@ -153847,7 +154126,7 @@ overrides = {
     },
     "healball": {
       "name": "Heal Ball",
-      "desc": "A remedial Poké Ball that restores the\\ncaught Pokémon's HP and eliminates\\nany status problem.",
+      "desc": "A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.",
       "location": "Abundant Shrine",
       "marts": [
         "Victory Road Upper",
@@ -153858,7 +154137,7 @@ overrides = {
     },
     "quickball": {
       "name": "Quick Ball",
-      "desc": "A somewhat different Poké Ball that\\nprovides a better catch rate if it is\\nused at the start of a wild encounter.",
+      "desc": "A somewhat different Poké Ball that provides a better catch rate if it is used at the start of a wild encounter.",
       "location": "Route 3, Route 9",
       "rewards": [
         "Pilot Leonard"
@@ -153874,12 +154153,12 @@ overrides = {
     },
     "cherishball": {
       "name": "Cherish Ball",
-      "desc": "A quite rare Poké Ball that has been\\nspecially crafted to commemorate\\nan occasion of some sort.",
+      "desc": "A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort.",
       "location": ""
     },
     "potion": {
       "name": "Potion",
-      "desc": "A spray-type medicine for wounds.\\nIt restores the HP of one Pokémon by\\njust 20 points.",
+      "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points.",
       "location": "",
       "rewards": [
         "Smasher Elena",
@@ -153903,7 +154182,7 @@ overrides = {
     },
     "antidote": {
       "name": "Antidote",
-      "desc": "A spray-type medicine.\\nIt lifts the effect of poison from one\\nPokémon.",
+      "desc": "A spray-type medicine. It lifts the effect of poison from one Pokémon.",
       "location": "",
       "marts": [
         "SM9 Bottom Section"
@@ -153911,7 +154190,7 @@ overrides = {
     },
     "burnheal": {
       "name": "Burn Heal",
-      "desc": "A spray-type medicine.\\nIt heals a single Pokémon that is\\nsuffering from a burn.",
+      "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
       "location": "",
       "marts": [
         "SM9 Bottom Section"
@@ -153919,7 +154198,7 @@ overrides = {
     },
     "iceheal": {
       "name": "Ice Heal",
-      "desc": "A spray-type medicine.\\nIt defrosts a Pokémon that has been\\nfrozen solid.",
+      "desc": "A spray-type medicine. It defrosts a Pokémon that has been frozen solid.",
       "location": "",
       "marts": [
         "SM9 Bottom Section"
@@ -153927,7 +154206,7 @@ overrides = {
     },
     "awakening": {
       "name": "Awakening",
-      "desc": "A spray-type medicine.\\nIt awakens a Pokémon from the\\nclutches of sleep.",
+      "desc": "A spray-type medicine. It awakens a Pokémon from the clutches of sleep.",
       "location": "",
       "marts": [
         "SM9 Bottom Section"
@@ -153935,7 +154214,7 @@ overrides = {
     },
     "parlyzheal": {
       "name": "Parlyz Heal",
-      "desc": "A spray-type medicine.\\nIt eliminates paralysis from a single\\nPokémon.",
+      "desc": "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
       "location": "",
       "marts": [
         "SM9 Bottom Section"
@@ -153943,7 +154222,7 @@ overrides = {
     },
     "fullrestore": {
       "name": "Full Restore",
-      "desc": "A medicine that fully restores the HP\\nand heals any status problems of a\\nsingle Pokémon.",
+      "desc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
       "location": "Twist Mountain, Victory Road, Victory Road, Victory Road, Seaside Cave, Route 1, Route 3",
       "rewards": [
         "Striker Roberto - Driftveil Drawbridge",
@@ -153969,7 +154248,7 @@ overrides = {
     },
     "maxpotion": {
       "name": "Max Potion",
-      "desc": "A spray-type medicine for wounds.\\nIt completely restores the HP of a\\nsingle Pokémon.",
+      "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
       "location": "Nature Preserve, Route 12, Route 14, Route 15, Route 22, Route 23",
       "rewards": [
         "Cosplayer Anders - Join Avenue",
@@ -153990,7 +154269,7 @@ overrides = {
     },
     "hyperpotion": {
       "name": "Hyper Potion",
-      "desc": "A spray-type medicine for wounds.\\nIt restores the HP of one Pokémon by\\n200 points.",
+      "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points.",
       "location": "Chargestone Cave, Reversal Mountain, Reversal Mountain, Mistralton Cave, Route 13",
       "rewards": [
         "Smasher Aspen",
@@ -154011,7 +154290,7 @@ overrides = {
     },
     "superpotion": {
       "name": "Super Potion",
-      "desc": "A spray-type medicine for wounds.\\nIt restores the HP of one Pokémon by\\n50 points.",
+      "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points.",
       "location": "",
       "rewards": [
         "Infielder Alex",
@@ -154034,7 +154313,7 @@ overrides = {
     },
     "fullheal": {
       "name": "Full Heal",
-      "desc": "A spray-type medicine.\\nIt heals all the status problems of a\\nsingle Pokémon.",
+      "desc": "A spray-type medicine. It heals all the status problems of a single Pokémon.",
       "location": "Pinwheel Forest, Chargestone Cave, Reversal Mountain, Strange House, Route 11, Route 23, Lacunosa Town",
       "marts": [
         "Stock No Badges",
@@ -154048,7 +154327,7 @@ overrides = {
     },
     "revive": {
       "name": "Revive",
-      "desc": "A medicine that revives a fainted\\nPokémon. It restores half the\\nPokémon's maximum HP.",
+      "desc": "A medicine that revives a fainted Pokémon. It restores half the Pokémon's maximum HP.",
       "location": "Reversal Mountain, Reversal Mountain, Plasma Frigate",
       "marts": [
         "SM9 Bottom Section"
@@ -154056,7 +154335,7 @@ overrides = {
     },
     "maxrevive": {
       "name": "Max Revive",
-      "desc": "A medicine that revives a fainted\\nPokémon. It fully restores the\\nPokémon's HP.",
+      "desc": "A medicine that revives a fainted Pokémon. It fully restores the Pokémon's HP.",
       "location": "Pinwheel Forest, Victory Road, Plasma Frigate, Plasma Frigate, Clay Tunnel, Route 2, Wellspring Cave, Abundant Shrine",
       "rewards": [
         "Doctor Jules"
@@ -154064,12 +154343,14 @@ overrides = {
     },
     "freshwater": {
       "name": "Fresh Water",
-      "desc": "Water with a high mineral content.\\nIt restores the HP of one Pokémon by\\n50 points.",
+      "desc": "Water with a high mineral content. It restores the HP of one Pokémon by 50 points.",
       "location": ""
     },
     "+1soda": {
       "name": "+1 Soda",
-      "desc": "A fizzy soda drink.\\nIt restores the HP of one Pokémon by\\n1 point.",
+      "desc": "A fizzy soda drink. It restores the HP of one Pokémon by 1 point.",
+      "oldDesc": null,
+      "new": true,
       "location": "",
       "marts": [
         "Stock No Badges",
@@ -154082,7 +154363,9 @@ overrides = {
     },
     "+5soda": {
       "name": "+5 Soda",
-      "desc": "A very sweet drink.\\nIt restores the HP of one Pokémon by\\n5 points.",
+      "desc": "A very sweet drink. It restores the HP of one Pokémon by 5 points.",
+      "oldDesc": null,
+      "new": true,
       "location": "",
       "marts": [
         "Stock No Badges",
@@ -154095,7 +154378,7 @@ overrides = {
     },
     "moomoomilk": {
       "name": "Moomoo Milk",
-      "desc": "Milk with a very high nutrition content.\\nIt restores the HP of one Pokémon by\\n100 points.",
+      "desc": "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.",
       "location": "",
       "rewards": [
         "Waiter Clint - Nimbasa City",
@@ -154105,12 +154388,12 @@ overrides = {
     },
     "energypowder": {
       "name": "EnergyPowder",
-      "desc": "A very bitter medicine powder.\\nIt restores the HP of one Pokémon by\\n50 points.",
+      "desc": "A very bitter medicine powder. It restores the HP of one Pokémon by 50 points.",
       "location": ""
     },
     "energyroot": {
       "name": "Energy Root",
-      "desc": "A very bitter root.\\nIt restores the HP of one Pokémon by\\n200 points.",
+      "desc": "A very bitter root. It restores the HP of one Pokémon by 200 points.",
       "location": "",
       "rewards": [
         "Black Belt Lao",
@@ -154119,17 +154402,17 @@ overrides = {
     },
     "healpowder": {
       "name": "Heal Powder",
-      "desc": "A very bitter medicine powder.\\nIt heals all the status problems of a\\nsingle Pokémon.",
+      "desc": "A very bitter medicine powder. It heals all the status problems of a single Pokémon.",
       "location": ""
     },
     "revivalherb": {
       "name": "Revival Herb",
-      "desc": "A very bitter medicinal herb.\\nIt revives a fainted Pokémon, fully\\nrestoring its HP.",
+      "desc": "A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP.",
       "location": ""
     },
     "ether": {
       "name": "Ether",
-      "desc": "It restores the PP of a Pokémon's\\nselected move by a maximum of\\n10 points.",
+      "desc": "It restores the PP of a Pokémon's selected move by a maximum of 10 points.",
       "location": "",
       "rewards": [
         "Scientist Simon"
@@ -154137,27 +154420,27 @@ overrides = {
     },
     "maxether": {
       "name": "Max Ether",
-      "desc": "It fully restores the PP of a single\\nselected move that has been learned\\nby the target Pokémon.",
+      "desc": "It fully restores the PP of a single selected move that has been learned by the target Pokémon.",
       "location": "Route 13"
     },
     "elixir": {
       "name": "Elixir",
-      "desc": "It restores the PP of all the\\nmoves learned by the targeted Pokémon\\nby 10 points each.",
+      "desc": "It restores the PP of all the moves learned by the targeted Pokémon by 10 points each.",
       "location": "Route 9"
     },
     "maxelixir": {
       "name": "Max Elixir",
-      "desc": "It fully restores the PP of all the\\nmoves learned by the targeted\\nPokémon.",
+      "desc": "It fully restores the PP of all the moves learned by the targeted Pokémon.",
       "location": "Icirrus City, Victory Road, Plasma Frigate, Plasma Frigate"
     },
     "lavacookie": {
       "name": "Lava Cookie",
-      "desc": "Lavaridge Town's local specialty.\\nIt heals all the status problems of\\none Pokémon.",
+      "desc": "Lavaridge Town's local specialty. It heals all the status problems of one Pokémon.",
       "location": ""
     },
     "berryjuice": {
       "name": "Berry Juice",
-      "desc": "A 100% pure juice made of Berries.\\nIt restores the HP of one Pokémon by\\njust 20 points.",
+      "desc": "A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points.",
       "location": "Undella Town, Pledge Grove",
       "marts": [
         "Stock 3+Badges",
@@ -154166,12 +154449,12 @@ overrides = {
     },
     "sacredash": {
       "name": "Sacred Ash",
-      "desc": "It revives all fainted Pokémon.\\nIn doing so, it also fully restores\\ntheir HP.",
+      "desc": "It revives all fainted Pokémon. In doing so, it also fully restores their HP.",
       "location": ""
     },
     "hpup": {
       "name": "HP Up",
-      "desc": "A nutritious drink for Pokémon.\\nIt raises the base HP of a single\\nPokémon.",
+      "desc": "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon.",
       "location": "Pinwheel Forest, Clay Tunnel, Route 9, Route 23",
       "marts": [
         "SM9 Top Left Cashier"
@@ -154179,7 +154462,7 @@ overrides = {
     },
     "protein": {
       "name": "Protein",
-      "desc": "A nutritious drink for Pokémon.\\nIt raises the base Attack stat of a\\nsingle Pokémon.",
+      "desc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
       "location": "Humilau City, Pinwheel Forest, N's Castle",
       "rewards": [
         "Linebacker Dan - Nimbasa City",
@@ -154191,7 +154474,9 @@ overrides = {
     },
     "unusualcandies": {
       "name": "Unusual Candies",
-      "desc": "An odd candy with an unsatisfying taste.\\nIt grants a single Pokemon almost\\nenough experience to level up.",
+      "desc": "An odd candy with an unsatisfying taste. It grants a single Pokemon almost enough experience to level up.",
+      "oldDesc": null,
+      "new": true,
       "location": "Route 9, Route 18, Route 23",
       "marts": [
         "SM9 Top Left Cashier"
@@ -154199,7 +154484,9 @@ overrides = {
     },
     "abilitycapsule": {
       "name": "Ability Capsule",
-      "desc": "A capsule that allows a Pokémon with two\\nAbilities to switch between them.\\r\\nOnly works on final stage Pokémon.",
+      "desc": "A capsule that allows a Pokémon with two Abilities to switch between them.\\r Only works on final stage Pokémon.",
+      "oldDesc": null,
+      "new": true,
       "location": "Village Bridge",
       "rewards": [
         "Striker Roberto - Nimbasa City"
@@ -154210,7 +154497,7 @@ overrides = {
     },
     "calcium": {
       "name": "Calcium",
-      "desc": "A nutritious drink for Pokémon.\\nIt raises the base Sp. Atk (Special\\nAttack) stat of a single Pokémon.",
+      "desc": "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.",
       "location": "Route 3, Route 22, Route 23",
       "rewards": [
         "Hoopster John - Nimbasa City"
@@ -154221,7 +154508,9 @@ overrides = {
     },
     "rarecandies": {
       "name": "Rare Candies",
-      "desc": "A candy that is packed with energy.\\nIt raises the level of a single Pokémon\\nby one.",
+      "desc": "A candy that is packed with energy. It raises the level of a single Pokémon by one.",
+      "oldDesc": null,
+      "new": true,
       "location": "Dreamyard, Strange House, Victory Road, Seaside Cave, Nature Preserve, Village Bridge, Route 3, Abundant Shrine, Route 22",
       "rewards": [
         "PkMn Breeder Owen",
@@ -154231,7 +154520,7 @@ overrides = {
     },
     "ppup": {
       "name": "PP Up",
-      "desc": "It slightly raises the maximum PP of\\na selected move that has been learned\\nby the target Pokémon.",
+      "desc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.",
       "location": "Giant Chasm, Reversal Mountain, Reversal Mountain, Route 12, Route 22, Route 21",
       "rewards": [
         "Ace Trainer Lucille",
@@ -154240,7 +154529,9 @@ overrides = {
     },
     "abilitypatch": {
       "name": "Ability Patch",
-      "desc": "A patch that allows a Pokémon with a\\nregular Ability to have a rare Ability.",
+      "desc": "A patch that allows a Pokémon with a regular Ability to have a rare Ability.",
+      "oldDesc": null,
+      "new": true,
       "location": "Plasma Frigate, Plasma Frigate, Route 3, Route 11, Route 18",
       "marts": [
         "SM9 Top Left Cashier"
@@ -154248,7 +154539,7 @@ overrides = {
     },
     "ppmax": {
       "name": "PP Max",
-      "desc": "It maximally raises the top PP of a\\nselected move that has been learned\\nby the target Pokémon.",
+      "desc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon.",
       "location": "Pinwheel Forest, Pinwheel Forest, Victory Road, Route 18",
       "rewards": [
         "Veteran Arlen",
@@ -154257,97 +154548,100 @@ overrides = {
     },
     "oldgateau": {
       "name": "Old Gateau",
-      "desc": "Old Chateau's hidden specialty.\\nIt heals all the status problems of a\\nsingle Pokémon.",
+      "desc": "Old Chateau's hidden specialty. It heals all the status problems of a single Pokémon.",
       "location": ""
     },
     "guardspec": {
       "name": "Guard Spec.",
-      "desc": "An item that prevents stat reduction\\namong the Trainer's party Pokémon\\nfor five turns after use.",
+      "desc": "An item that prevents stat reduction among the Trainer's party Pokémon for five turns after use.",
       "location": ""
     },
     "direhit": {
       "name": "Dire Hit",
-      "desc": "It raises the critical-hit ratio greatly.\\nIt can be used only once and wears off\\nif the Pokémon is withdrawn.",
+      "desc": "It raises the critical-hit ratio greatly. It can be used only once and wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xattack": {
       "name": "X Attack",
-      "desc": "An item that raises the Attack stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "An item that raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xdefend": {
       "name": "X Defend",
-      "desc": "An item that raises the Defense stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "An item that raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspeed": {
       "name": "X Speed",
-      "desc": "An item that raises the Speed stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "An item that raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xaccuracy": {
       "name": "X Accuracy",
-      "desc": "An item that raises the accuracy\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "An item that raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspecial": {
       "name": "X Special",
-      "desc": "An item that raises the Sp. Atk stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "An item that raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspdef": {
       "name": "X Sp. Def",
-      "desc": "An item that raises the Sp. Def stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "An item that raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "pokédoll": {
       "name": "Poké Doll",
-      "desc": "A doll that attracts Pokémon.\\nUse it to flee from any battle with a\\nwild Pokémon.",
-      "location": ""
+      "desc": "A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
+      "location": "",
+      "rewards": [
+        "Preschooler Mia"
+      ]
     },
     "fluffytail": {
       "name": "Fluffy Tail",
-      "desc": "An item that attracts Pokémon.\\nUse it to flee from any battle with a\\nwild Pokémon.",
+      "desc": "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
       "location": ""
     },
     "blueflute": {
       "name": "Blue Flute",
-      "desc": "A toy flute made from blue glass.\\nA maniac will buy it for a high price.",
+      "desc": "A toy flute made from blue glass. A maniac will buy it for a high price.",
       "location": ""
     },
     "yellowflute": {
       "name": "Yellow Flute",
-      "desc": "A toy flute made from yellow glass.\\nA maniac will buy it for a high price.",
+      "desc": "A toy flute made from yellow glass. A maniac will buy it for a high price.",
       "location": ""
     },
     "redflute": {
       "name": "Red Flute",
-      "desc": "A toy flute made from red glass.\\nA maniac will buy it for a high price.",
+      "desc": "A toy flute made from red glass. A maniac will buy it for a high price.",
       "location": ""
     },
     "blackflute": {
       "name": "Black Flute",
-      "desc": "A toy flute made from black glass.\\nA maniac will buy it for a high price.",
+      "desc": "A toy flute made from black glass. A maniac will buy it for a high price.",
       "location": ""
     },
     "whiteflute": {
       "name": "White Flute",
-      "desc": "A toy flute made from white glass.\\nA maniac will buy it for a high price.",
+      "desc": "A toy flute made from white glass. A maniac will buy it for a high price.",
       "location": ""
     },
     "shoalsalt": {
       "name": "Shoal Salt",
-      "desc": "Pure salt that can be discovered deep\\ninside the Shoal Cave.\\nA maniac will buy it for a high price.",
+      "desc": "Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price.",
       "location": ""
     },
     "shoalshell": {
       "name": "Shoal Shell",
-      "desc": "A pretty seashell that can be found\\ndeep inside the Shoal Cave.\\nA maniac will buy it for a high price.",
+      "desc": "A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price.",
       "location": ""
     },
     "redshard": {
       "name": "Red Shard",
-      "desc": "A small red shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
+      "desc": "A small red shard. It appears to be from some sort of implement made long ago.",
       "location": "Driftveil City, Driftveil City, Mistralton City, Chargestone Cave, Twist Mountain, Abyssal Ruins, Relic Passage, Relic Passage, Route 13, Route 22",
       "rewards": [
         "Hiker Russel"
@@ -154355,7 +154649,7 @@ overrides = {
     },
     "blueshard": {
       "name": "Blue Shard",
-      "desc": "A small blue shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
+      "desc": "A small blue shard. It appears to be from some sort of implement made long ago.",
       "location": "Village Bridge, Mistralton Cave, Route 13, Route 17",
       "rewards": [
         "Worker Matthew"
@@ -154363,7 +154657,7 @@ overrides = {
     },
     "yellowshard": {
       "name": "Yellow Shard",
-      "desc": "A small yellow shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
+      "desc": "A small yellow shard. It appears to be from some sort of implement made long ago.",
       "location": "Driftveil City, Dragonspiral Tower, Dragonspiral Tower, Giant Chasm, Clay Tunnel, Clay Tunnel, Clay Tunnel, Celestial Tower, Moor of Icirrus, Moor of Icirrus, Route 12",
       "rewards": [
         "Worker Tyler"
@@ -154371,12 +154665,12 @@ overrides = {
     },
     "greenshard": {
       "name": "Green Shard",
-      "desc": "A small green shard.\\nIt appears to be from some sort of\\nimplement made long ago.",
+      "desc": "A small green shard. It appears to be from some sort of implement made long ago.",
       "location": "Castelia City, Desert Resort, Castelia Sewers, Virbank Complex, Victory Road, Route 6, Route 12, Route 23"
     },
     "superrepel": {
       "name": "Super Repel",
-      "desc": "An item that prevents weak wild\\nPokémon from appearing for 200 steps\\nafter its use.",
+      "desc": "An item that prevents weak wild Pokémon from appearing for 200 steps after its use.",
       "location": "",
       "marts": [
         "SM9 Bottom Section"
@@ -154384,7 +154678,7 @@ overrides = {
     },
     "maxrepel": {
       "name": "Max Repel",
-      "desc": "An item that prevents weak wild\\nPokémon from appearing for 250 steps\\nafter its use.",
+      "desc": "An item that prevents weak wild Pokémon from appearing for 250 steps after its use.",
       "location": "Mistralton City, Pinwheel Forest, Giant Chasm, Reversal Mountain, Reversal Mountain, Victory Road, Victory Road, Victory Road, Victory Road, Seaside Cave, Wellspring Cave, Route 13",
       "rewards": [
         "PkMn Ranger Alain",
@@ -154398,7 +154692,7 @@ overrides = {
     },
     "escaperope": {
       "name": "Escape Rope",
-      "desc": "A long, durable rope.\\nUse it to escape instantly from a cave\\nor a dungeon.",
+      "desc": "A long, durable rope. Use it to escape instantly from a cave or a dungeon.",
       "location": "Chargestone Cave, Reversal Mountain, Victory Road, Victory Road, Wellspring Cave, Guidance Chamber",
       "marts": [
         "SM9 Bottom Section"
@@ -154406,7 +154700,9 @@ overrides = {
     },
     "foreverrepel": {
       "name": "Forever Repel",
-      "desc": "An item that prevents weak wild\\nPokémon from appearing for 100 steps\\nafter its use.",
+      "desc": "An item that prevents weak wild Pokémon from appearing for 100 steps after its use.",
+      "oldDesc": null,
+      "new": true,
       "location": "",
       "marts": [
         "SM9 Bottom Section"
@@ -154414,7 +154710,7 @@ overrides = {
     },
     "sunstone": {
       "name": "Sun Stone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as red as the sun.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
       "location": "Pinwheel Forest, Giant Chasm, Abyssal Ruins, Relic Passage",
       "marts": [
         "Driftveil City Upper Cashier"
@@ -154422,7 +154718,7 @@ overrides = {
     },
     "moonstone": {
       "name": "Moon Stone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as black as the night sky.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
       "location": "Giant Chasm, Giant Chasm, Abyssal Ruins, Relic Passage",
       "marts": [
         "Driftveil City Upper Cashier"
@@ -154430,7 +154726,7 @@ overrides = {
     },
     "firestone": {
       "name": "Fire Stone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is colored orange.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.",
       "location": "Abyssal Ruins, Relic Passage",
       "marts": [
         "Driftveil City Upper Cashier"
@@ -154438,7 +154734,7 @@ overrides = {
     },
     "thunderstone": {
       "name": "Thunderstone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt has a thunderbolt pattern.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.",
       "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
@@ -154446,7 +154742,7 @@ overrides = {
     },
     "waterstone": {
       "name": "Water Stone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is a clear, light blue.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.",
       "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
@@ -154454,7 +154750,7 @@ overrides = {
     },
     "leafstone": {
       "name": "Leaf Stone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt has a leaf pattern.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.",
       "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
@@ -154462,17 +154758,17 @@ overrides = {
     },
     "tinymushroom": {
       "name": "TinyMushroom",
-      "desc": "A small and rare mushroom.\\nIt is sought after by collectors.",
+      "desc": "A small and rare mushroom. It is sought after by collectors.",
       "location": ""
     },
     "bigmushroom": {
       "name": "Big Mushroom",
-      "desc": "A large and rare mushroom.\\nIt is sought after by collectors.",
+      "desc": "A large and rare mushroom. It is sought after by collectors.",
       "location": ""
     },
     "pearl": {
       "name": "Pearl",
-      "desc": "A somewhat-small pearl that sparkles\\nin a pretty silver color.\\nIt can be sold cheaply to shops.",
+      "desc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
       "location": "",
       "rewards": [
         "Lady Sophie"
@@ -154480,7 +154776,7 @@ overrides = {
     },
     "bigpearl": {
       "name": "Big Pearl",
-      "desc": "A quite-large pearl that sparkles in a\\npretty silver color. It can be sold at\\na high price to shops.",
+      "desc": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.",
       "location": "Village Bridge, Route 8, Route 14, Route 21",
       "rewards": [
         "Socialite Emilia"
@@ -154488,7 +154784,7 @@ overrides = {
     },
     "stardust": {
       "name": "Stardust",
-      "desc": "Lovely, red-colored sand with a loose,\\nsilky feel. It can be sold at a high\\nprice to shops.",
+      "desc": "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.",
       "location": "",
       "rewards": [
         "Rich Boy Anthony"
@@ -154496,7 +154792,7 @@ overrides = {
     },
     "starpiece": {
       "name": "Star Piece",
-      "desc": "A shard of a pretty gem that sparkles\\nin a red color. It can be sold at a\\nhigh price to shops.",
+      "desc": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.",
       "location": "Giant Chasm, Giant Chasm, Giant Chasm, Route 13, Route 18, Route 23",
       "wilds": [
         "Jirachi",
@@ -154506,7 +154802,7 @@ overrides = {
     },
     "nugget": {
       "name": "Nugget",
-      "desc": "A nugget of pure gold that gives off a\\nlustrous gleam. It can be sold at a\\nhigh price to shops.",
+      "desc": "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.",
       "location": "Pinwheel Forest, Reversal Mountain, Reversal Mountain, Clay Tunnel, Route 9, Route 14",
       "rewards": [
         "Gentleman Renaud"
@@ -154518,102 +154814,104 @@ overrides = {
     },
     "heartscale": {
       "name": "Heart Scale",
-      "desc": "A pretty, heart-shaped scale that is\\nextremely rare. It glows faintly in the\\ncolors of the rainbow.",
+      "desc": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
       "location": "PWT, Chargestone Cave, Seaside Cave, Village Bridge, Route 7, Celestial Tower, Route 14, Route 23"
     },
     "honey": {
       "name": "Honey",
-      "desc": "A sweet honey with a lush aroma that\\nattracts wild Pokémon when it is used\\nin grass, caves, or on special trees.",
+      "desc": "A sweet honey with a lush aroma that attracts wild Pokémon when it is used in grass, caves, or on special trees.",
       "location": ""
     },
     "growthmulch": {
       "name": "Growth Mulch",
-      "desc": "A fertilizer to be spread on soft soil\\nin regions where Berries are grown.\\nA maniac will buy it for a high price.",
+      "desc": "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
       "location": ""
     },
     "dampmulch": {
       "name": "Damp Mulch",
-      "desc": "A fertilizer to be spread on soft soil\\nin regions where Berries are grown.\\nA maniac will buy it for a high price.",
+      "desc": "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
       "location": ""
     },
     "stablemulch": {
       "name": "Stable Mulch",
-      "desc": "A fertilizer to be spread on soft soil\\nin regions where Berries are grown.\\nA maniac will buy it for a high price.",
+      "desc": "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
       "location": ""
     },
     "gooeymulch": {
       "name": "Gooey Mulch",
-      "desc": "A fertilizer to be spread on soft soil\\nin regions where Berries are grown.\\nA maniac will buy it for a high price.",
+      "desc": "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
       "location": ""
     },
     "rootfossil": {
       "name": "Root Fossil",
-      "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a plant root.",
+      "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root.",
       "location": "Relic Sanctum, Abyssal Ruins, Relic Passage"
     },
     "clawfossil": {
       "name": "Claw Fossil",
-      "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a claw.",
+      "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw.",
       "location": "Relic Castle"
     },
     "helixfossil": {
       "name": "Helix Fossil",
-      "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a seashell.",
+      "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell.",
       "location": "Relic Sanctum, Abyssal Ruins, Relic Passage"
     },
     "domefossil": {
       "name": "Dome Fossil",
-      "desc": "A fossil of an ancient Pokémon that\\nlived in the sea. It appears to be\\npart of a shell.",
+      "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a shell.",
       "location": ""
     },
     "oldamber": {
       "name": "Old Amber",
-      "desc": "A piece of amber that contains the\\ngenetic material of an ancient Pokémon.\\nIt is clear with a reddish tint.",
+      "desc": "A piece of amber that contains the genetic material of an ancient Pokémon. It is clear with a reddish tint.",
       "location": ""
     },
     "armorfossil": {
       "name": "Armor Fossil",
-      "desc": "A fossil from a prehistoric Pokémon\\nthat lived on the land. It appears to\\nbe part of a collar.",
+      "desc": "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a collar.",
       "location": ""
     },
     "skullfossil": {
       "name": "Skull Fossil",
-      "desc": "A fossil from a prehistoric Pokémon\\nthat lived on the land. It appears to\\nbe part of a head.",
+      "desc": "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head.",
       "location": ""
     },
     "rarebone": {
       "name": "Rare Bone",
-      "desc": "A bone that is extremely valuable for\\nPokémon archeology. It can be sold\\nfor a high price to shops.",
+      "desc": "A bone that is extremely valuable for Pokémon archeology. It can be sold for a high price to shops.",
       "location": "Twist Mountain"
     },
     "shinystone": {
       "name": "Shiny Stone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt shines with a dazzling light.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.",
       "location": "Abyssal Ruins, Relic Passage, Abundant Shrine"
     },
     "duskstone": {
       "name": "Dusk Stone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as dark as dark can be.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.",
       "location": "Twist Mountain, Abyssal Ruins, Strange House, Strange House, Relic Passage"
     },
     "dawnstone": {
       "name": "Dawn Stone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt sparkles like eyes.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.",
       "location": "Abyssal Ruins, Relic Passage"
     },
     "ovalstone": {
       "name": "Oval Stone",
-      "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is shaped like an egg.",
+      "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg.",
       "location": ""
     },
     "oddkeystone": {
       "name": "Odd Keystone",
-      "desc": "A vital item that is needed to keep a\\nstone tower from collapsing. Voices\\ncan be heard from it occasionally.",
+      "desc": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
       "location": ""
     },
     "throatspray": {
       "name": "Throat Spray",
-      "desc": "Raises Sp. Atk when a Pokémon uses a\\nsound-based move.",
+      "desc": "Raises Sp. Atk when a Pokémon uses a sound-based move.",
+      "oldDesc": null,
+      "new": true,
       "location": "Dragonspiral Tower"
     },
     "???": {
@@ -154623,27 +154921,27 @@ overrides = {
     },
     "dousedrive": {
       "name": "Douse Drive",
-      "desc": "A cassette to be held by Genesect.\\nIt changes Techno Blast to a\\nWater-type move.",
+      "desc": "A cassette to be held by Genesect. It changes Techno Blast to a Water-type move.",
       "location": ""
     },
     "shockdrive": {
       "name": "Shock Drive",
-      "desc": "A cassette to be held by Genesect.\\nIt changes Techno Blast to an\\nElectric-type move.",
+      "desc": "A cassette to be held by Genesect. It changes Techno Blast to an Electric-type move.",
       "location": ""
     },
     "burndrive": {
       "name": "Burn Drive",
-      "desc": "A cassette to be held by Genesect.\\nIt changes Techno Blast to a\\nFire-type move.",
+      "desc": "A cassette to be held by Genesect. It changes Techno Blast to a Fire-type move.",
       "location": ""
     },
     "chilldrive": {
       "name": "Chill Drive",
-      "desc": "A cassette to be held by Genesect.\\nIt changes Techno Blast to an\\nIce-type move.",
+      "desc": "A cassette to be held by Genesect. It changes Techno Blast to an Ice-type move.",
       "location": ""
     },
     "sweetheart": {
       "name": "Sweet Heart",
-      "desc": "Very sweet chocolate.\\nIt restores the HP of one Pokémon\\nby only 20 points.",
+      "desc": "Very sweet chocolate. It restores the HP of one Pokémon by only 20 points.",
       "location": "",
       "marts": [
         "Stock No Badges",
@@ -154656,17 +154954,21 @@ overrides = {
     },
     "fairydust": {
       "name": "Fairy Dust",
-      "desc": "An item to be held by a Pokémon.\\nIt is a sparkling, enchanted dust that ups\\nthe power of Fairy-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a sparkling, enchanted dust that ups the power of Fairy-type moves.",
+      "oldDesc": null,
+      "new": true,
       "location": "Striaton City, Dragonspiral Tower, Lostlorn Forest"
     },
     "tricksterherb": {
       "name": "Trickster Herb",
-      "desc": "A single-use item to be held by a\\nPokémon. It allows status moves to\\nact first.",
+      "desc": "A single-use item to be held by a Pokémon. It allows status moves to act first.",
+      "oldDesc": null,
+      "new": true,
       "location": "Castelia City, Dragonspiral Tower, Route 4"
     },
     "greetmail": {
       "name": "Greet Mail",
-      "desc": "Stationery designed for\\nintroductory greetings.\\nLet a Pokémon hold it for delivery.",
+      "desc": "Stationery designed for introductory greetings. Let a Pokémon hold it for delivery.",
       "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
@@ -154683,7 +154985,7 @@ overrides = {
     },
     "favoredmail": {
       "name": "Favored Mail",
-      "desc": "Stationery designed for\\nwriting about your favorite things.\\nLet a Pokémon hold it for delivery.",
+      "desc": "Stationery designed for writing about your favorite things. Let a Pokémon hold it for delivery.",
       "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
@@ -154700,7 +155002,7 @@ overrides = {
     },
     "rsvpmail": {
       "name": "RSVP Mail",
-      "desc": "Stationery designed for\\ninvitations.\\nLet a Pokémon hold it for delivery.",
+      "desc": "Stationery designed for invitations. Let a Pokémon hold it for delivery.",
       "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
@@ -154717,7 +155019,7 @@ overrides = {
     },
     "thanksmail": {
       "name": "Thanks Mail",
-      "desc": "Stationery designed for\\na thank-you note.\\nLet a Pokémon hold it for delivery.",
+      "desc": "Stationery designed for a thank-you note. Let a Pokémon hold it for delivery.",
       "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
@@ -154734,7 +155036,7 @@ overrides = {
     },
     "inquirymail": {
       "name": "Inquiry Mail",
-      "desc": "Stationery designed for\\nwriting questions.\\nLet a Pokémon hold it for delivery.",
+      "desc": "Stationery designed for writing questions. Let a Pokémon hold it for delivery.",
       "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
@@ -154751,7 +155053,7 @@ overrides = {
     },
     "likemail": {
       "name": "Like Mail",
-      "desc": "Stationery designed for\\nwriting recommendations.\\nLet a Pokémon hold it for delivery.",
+      "desc": "Stationery designed for writing recommendations. Let a Pokémon hold it for delivery.",
       "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
@@ -154768,7 +155070,7 @@ overrides = {
     },
     "replymail": {
       "name": "Reply Mail",
-      "desc": "Stationery designed for\\nwriting a reply.\\nLet a Pokémon hold it for delivery.",
+      "desc": "Stationery designed for writing a reply. Let a Pokémon hold it for delivery.",
       "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
@@ -154785,7 +155087,7 @@ overrides = {
     },
     "bridgemails": {
       "name": "BridgeMail S",
-      "desc": "Stationery featuring a print of\\na sky-piercing bridge.\\nLet a Pokémon hold it for use.",
+      "desc": "Stationery featuring a print of a sky-piercing bridge. Let a Pokémon hold it for use.",
       "location": "",
       "marts": [
         "Nacrene City Upper Cashier"
@@ -154793,12 +155095,12 @@ overrides = {
     },
     "bridgemaild": {
       "name": "BridgeMail D",
-      "desc": "Stationery featuring a print of\\na red drawbridge.\\nLet a Pokémon hold it for use.",
+      "desc": "Stationery featuring a print of a red drawbridge. Let a Pokémon hold it for use.",
       "location": ""
     },
     "bridgemailt": {
       "name": "BridgeMail T",
-      "desc": "Stationery featuring a print of\\na steel suspension bridge.\\nLet a Pokémon hold it for use.",
+      "desc": "Stationery featuring a print of a steel suspension bridge. Let a Pokémon hold it for use.",
       "location": "",
       "marts": [
         "Icirrus City Upper Cashier"
@@ -154806,7 +155108,7 @@ overrides = {
     },
     "bridgemailv": {
       "name": "BridgeMail V",
-      "desc": "Stationery featuring a print of\\na brick bridge.\\nLet a Pokémon hold it for use.",
+      "desc": "Stationery featuring a print of a brick bridge. Let a Pokémon hold it for use.",
       "location": "",
       "marts": [
         "Opelucid City Upper Cashier"
@@ -154814,7 +155116,7 @@ overrides = {
     },
     "bridgemailm": {
       "name": "BridgeMail M",
-      "desc": "Stationery featuring a print of\\nan arched bridge.\\nLet a Pokémon hold it for use.",
+      "desc": "Stationery featuring a print of an arched bridge. Let a Pokémon hold it for use.",
       "location": "",
       "marts": [
         "Black City"
@@ -154822,7 +155124,7 @@ overrides = {
     },
     "cheriberry": {
       "name": "Cheri Berry",
-      "desc": "If held by a Pokémon,\\nit recovers from paralysis.",
+      "desc": "If held by a Pokémon, it recovers from paralysis.",
       "location": "",
       "rewards": [
         "PkMn Ranger Lois - Route 5",
@@ -154838,7 +155140,7 @@ overrides = {
     },
     "chestoberry": {
       "name": "Chesto Berry",
-      "desc": "If held by a Pokémon,\\nit recovers from sleep.",
+      "desc": "If held by a Pokémon, it recovers from sleep.",
       "location": "",
       "rewards": [
         "PkMn Ranger Briana - Chargestone Cave",
@@ -154853,7 +155155,7 @@ overrides = {
     },
     "pechaberry": {
       "name": "Pecha Berry",
-      "desc": "If held by a Pokémon,\\nit recovers from poison.",
+      "desc": "If held by a Pokémon, it recovers from poison.",
       "location": "",
       "rewards": [
         "PkMn Ranger Richard - Route 6",
@@ -154868,7 +155170,7 @@ overrides = {
     },
     "rawstberry": {
       "name": "Rawst Berry",
-      "desc": "If held by a Pokémon,\\nit recovers from a burn.",
+      "desc": "If held by a Pokémon, it recovers from a burn.",
       "location": "",
       "rewards": [
         "PkMn Ranger Lewis - Reversal Mountain",
@@ -154891,7 +155193,7 @@ overrides = {
     },
     "aspearberry": {
       "name": "Aspear Berry",
-      "desc": "If held by a Pokémon,\\nit defrosts it.",
+      "desc": "If held by a Pokémon, it defrosts it.",
       "location": "",
       "rewards": [
         "PkMn Ranger Thalia - Route 11",
@@ -154906,7 +155208,7 @@ overrides = {
     },
     "leppaberry": {
       "name": "Leppa Berry",
-      "desc": "If held by a Pokémon,\\nit restores a move's PP by 10.",
+      "desc": "If held by a Pokémon, it restores a move's PP by 10.",
       "location": "",
       "rewards": [
         "PkMn Ranger Bret - Route 20",
@@ -154918,7 +155220,7 @@ overrides = {
     },
     "oranberry": {
       "name": "Oran Berry",
-      "desc": "If held by a Pokémon,\\nit heals the user by just 10 HP.",
+      "desc": "If held by a Pokémon, it heals the user by just 10 HP.",
       "location": "",
       "marts": [
         "Stock 1+Badges",
@@ -154927,7 +155229,7 @@ overrides = {
     },
     "persimberry": {
       "name": "Persim Berry",
-      "desc": "If held by a Pokémon,\\nit recovers from confusion.",
+      "desc": "If held by a Pokémon, it recovers from confusion.",
       "location": "",
       "rewards": [
         "PkMn Ranger Johan - Seaside Cave",
@@ -154944,7 +155246,7 @@ overrides = {
     },
     "lumberry": {
       "name": "Lum Berry",
-      "desc": "If held by a Pokémon,\\nit recovers from any status problem.",
+      "desc": "If held by a Pokémon, it recovers from any status problem.",
       "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower",
       "rewards": [
         "PkMn Ranger Rick - Route 1",
@@ -154966,7 +155268,7 @@ overrides = {
     },
     "sitrusberry": {
       "name": "Sitrus Berry",
-      "desc": "If held by a Pokémon,\\nit heals the user's HP a little.",
+      "desc": "If held by a Pokémon, it heals the user's HP a little.",
       "location": "Dragonspiral Tower, Dragonspiral Tower, Relic Passage, Relic Passage",
       "rewards": [
         "PkMn Ranger Daryl - Route 13",
@@ -154985,7 +155287,8 @@ overrides = {
     },
     "figyberry": {
       "name": "Figy Berry",
-      "desc": "If held by a Pokémon, it restores the\\nuser's HP in a pinch.",
+      "desc": "If held by a Pokémon, it restores the user's HP in a pinch.",
+      "oldDesc": "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
       "location": "Route 4",
       "marts": [
         "Driftveil City Herb Shop"
@@ -154993,32 +155296,38 @@ overrides = {
     },
     "marangaberry": {
       "name": "Maranga Berry",
-      "desc": "If held by a Pokémon, this Berry will\\nincrease the holder's Special Defense if\\nit's hit with a special move.",
+      "desc": "If held by a Pokémon, this Berry will increase the holder's Special Defense if it's hit with a special move.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "magoberry": {
       "name": "Mago Berry",
-      "desc": "If held by a Pokémon, it restores the\\nuser's HP in a pinch, but will cause\\nconfusion if it hates the taste.",
+      "desc": "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
       "location": ""
     },
     "keeberry": {
       "name": "Kee Berry",
-      "desc": "If held by a Pokémon, this Berry will\\nincrease the holder's Defense if it's hit\\nwith a physical move.",
+      "desc": "If held by a Pokémon, this Berry will increase the holder's Defense if it's hit with a physical move.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "iapapaberry": {
       "name": "Iapapa Berry",
-      "desc": "If held by a Pokémon, it restores the\\nuser's HP in a pinch, but will cause\\nconfusion if it hates the taste.",
+      "desc": "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
       "location": ""
     },
     "razzberry": {
       "name": "Razz Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 80\\nNatural Gift Type: Steel",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 80 Natural Gift Type: Steel",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": ""
     },
     "blukberry": {
       "name": "Bluk Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Fire",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Fire",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155026,7 +155335,8 @@ overrides = {
     },
     "nanabberry": {
       "name": "Nanab Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Water",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Water",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155034,7 +155344,8 @@ overrides = {
     },
     "wepearberry": {
       "name": "Wepear Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Electric",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Electric",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155042,7 +155353,8 @@ overrides = {
     },
     "pinapberry": {
       "name": "Pinap Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Grass",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Grass",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155050,7 +155362,8 @@ overrides = {
     },
     "pomegberry": {
       "name": "Pomeg Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Ice",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Ice",
+      "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base HP.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155058,7 +155371,8 @@ overrides = {
     },
     "kelpsyberry": {
       "name": "Kelpsy Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Fighting",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Fighting",
+      "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base Attack stat.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155066,12 +155380,14 @@ overrides = {
     },
     "qualotberry": {
       "name": "Qualot Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Poison",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Poison",
+      "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base Defense stat.",
       "location": ""
     },
     "hondewberry": {
       "name": "Hondew Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Ground",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Ground",
+      "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Atk stat.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155079,7 +155395,8 @@ overrides = {
     },
     "grepaberry": {
       "name": "Grepa Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Flying",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Flying",
+      "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Def stat.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155087,7 +155404,8 @@ overrides = {
     },
     "tamatoberry": {
       "name": "Tamato Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Psychic",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Psychic",
+      "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base Speed stat.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155095,7 +155413,8 @@ overrides = {
     },
     "cornnberry": {
       "name": "Cornn Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Bug",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Bug",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155103,7 +155422,8 @@ overrides = {
     },
     "magostberry": {
       "name": "Magost Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Rock",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Rock",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155111,7 +155431,8 @@ overrides = {
     },
     "rabutaberry": {
       "name": "Rabuta Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Ghost",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Ghost",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155119,7 +155440,8 @@ overrides = {
     },
     "nomelberry": {
       "name": "Nomel Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Dragon",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Dragon",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155127,7 +155449,8 @@ overrides = {
     },
     "spelonberry": {
       "name": "Spelon Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Dark",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Dark",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155135,7 +155458,8 @@ overrides = {
     },
     "pamtreberry": {
       "name": "Pamtre Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 90\\nNatural Gift Type: Steel",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Steel",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": "",
       "marts": [
         "Floccesy Town"
@@ -155143,147 +155467,152 @@ overrides = {
     },
     "watmelberry": {
       "name": "Watmel Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 100\\nNatural Gift Type: Fire",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 100 Natural Gift Type: Fire",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": ""
     },
     "durinberry": {
       "name": "Durin Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 100\\nNatural Gift Type: Water",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 100 Natural Gift Type: Water",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": ""
     },
     "belueberry": {
       "name": "Belue Berry",
-      "desc": "A Berry which is very rare in Unova.\\nNatural Gift Power: 100\\nNatural Gift Type: Electric",
+      "desc": "A Berry which is very rare in Unova. Natural Gift Power: 100 Natural Gift Type: Electric",
+      "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
       "location": ""
     },
     "occaberry": {
       "name": "Occa Berry",
-      "desc": "Weakens a supereffective Fire-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Fire-type attack against the holding Pokémon.",
       "location": "Lostlorn Forest"
     },
     "passhoberry": {
       "name": "Passho Berry",
-      "desc": "Weakens a supereffective Water-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Water-type attack against the holding Pokémon.",
       "location": "Castelia Sewers, Lostlorn Forest"
     },
     "wacanberry": {
       "name": "Wacan Berry",
-      "desc": "Weakens a supereffective Electric-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Electric-type attack against the holding Pokémon.",
       "location": "Chargestone Cave, Chargestone Cave, Lostlorn Forest"
     },
     "rindoberry": {
       "name": "Rindo Berry",
-      "desc": "Weakens a supereffective Grass-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Grass-type attack against the holding Pokémon.",
       "location": "Castelia Sewers, Lostlorn Forest"
     },
     "yacheberry": {
       "name": "Yache Berry",
-      "desc": "Weakens a supereffective Ice-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Ice-type attack against the holding Pokémon.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "chopleberry": {
       "name": "Chople Berry",
-      "desc": "Weakens a supereffective Fighting-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Fighting-type attack against the holding Pokémon.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "kebiaberry": {
       "name": "Kebia Berry",
-      "desc": "Weakens a supereffective Poison-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Poison-type attack against the holding Pokémon.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "shucaberry": {
       "name": "Shuca Berry",
-      "desc": "Weakens a supereffective Ground-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Ground-type attack against the holding Pokémon.",
       "location": "Lostlorn Forest"
     },
     "cobaberry": {
       "name": "Coba Berry",
-      "desc": "Weakens a supereffective Flying-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Flying-type attack against the holding Pokémon.",
       "location": "Lostlorn Forest"
     },
     "payapaberry": {
       "name": "Payapa Berry",
-      "desc": "Weakens a supereffective Psychic-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Psychic-type attack against the holding Pokémon.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "tangaberry": {
       "name": "Tanga Berry",
-      "desc": "Weakens a supereffective Bug-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Bug-type attack against the holding Pokémon.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "chartiberry": {
       "name": "Charti Berry",
-      "desc": "Weakens a supereffective Rock-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Rock-type attack against the holding Pokémon.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "kasibberry": {
       "name": "Kasib Berry",
-      "desc": "Weakens a supereffective Ghost-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Ghost-type attack against the holding Pokémon.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "habanberry": {
       "name": "Haban Berry",
-      "desc": "Weakens a supereffective Dragon-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Dragon-type attack against the holding Pokémon.",
       "location": "Lostlorn Forest"
     },
     "colburberry": {
       "name": "Colbur Berry",
-      "desc": "Weakens a supereffective Dark-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Dark-type attack against the holding Pokémon.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "babiriberry": {
       "name": "Babiri Berry",
-      "desc": "Weakens a supereffective Steel-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Steel-type attack against the holding Pokémon.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "chilanberry": {
       "name": "Chilan Berry",
-      "desc": "Weakens a Normal-type attack against\\nthe Pokémon holding this berry.",
+      "desc": "Weakens a Normal-type attack against the Pokémon holding this berry.",
       "location": "Abyssal Ruins, Lostlorn Forest"
     },
     "liechiberry": {
       "name": "Liechi Berry",
-      "desc": "If held by a Pokémon, it raises its\\nAttack stat in a pinch.",
+      "desc": "If held by a Pokémon, it raises its Attack stat in a pinch.",
       "location": ""
     },
     "ganlonberry": {
       "name": "Ganlon Berry",
-      "desc": "If held by a Pokémon, it raises its\\nDefense stat in a pinch.",
+      "desc": "If held by a Pokémon, it raises its Defense stat in a pinch.",
       "location": ""
     },
     "salacberry": {
       "name": "Salac Berry",
-      "desc": "If held by a Pokémon, it raises its\\nSpeed stat in a pinch.",
+      "desc": "If held by a Pokémon, it raises its Speed stat in a pinch.",
       "location": ""
     },
     "petayaberry": {
       "name": "Petaya Berry",
-      "desc": "If held by a Pokémon, it raises its\\nSp. Atk stat in a pinch.",
+      "desc": "If held by a Pokémon, it raises its Sp. Atk stat in a pinch.",
       "location": ""
     },
     "apicotberry": {
       "name": "Apicot Berry",
-      "desc": "If held by a Pokémon, it raises its\\nSp. Def stat in a pinch.",
+      "desc": "If held by a Pokémon, it raises its Sp. Def stat in a pinch.",
       "location": ""
     },
     "roseliberry": {
       "name": "Roseli Berry",
-      "desc": "Weakens a supereffective Fairy-type\\nattack against the holding Pokémon.",
+      "desc": "Weakens a supereffective Fairy-type attack against the holding Pokémon.",
+      "oldDesc": null,
+      "new": true,
       "location": "Dragonspiral Tower, Lostlorn Forest"
     },
     "starfberry": {
       "name": "Starf Berry",
-      "desc": "If held by a Pokémon, it sharply raises\\none of its stats in a pinch.",
+      "desc": "If held by a Pokémon, it sharply raises one of its stats in a pinch.",
       "location": ""
     },
     "enigmaberry": {
       "name": "Enigma Berry",
-      "desc": "If held by a Pokémon, it restores\\nits HP if it is hit by any\\nsupereffective attack.",
+      "desc": "If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.",
       "location": ""
     },
     "micleberry": {
       "name": "Micle Berry",
-      "desc": "If held by a Pokémon, it raises the\\naccuracy of a move just once in a pinch.",
+      "desc": "If held by a Pokémon, it raises the accuracy of a move just once in a pinch.",
       "location": "",
       "marts": [
         "Stock 5+Badges",
@@ -155294,27 +155623,27 @@ overrides = {
     },
     "custapberry": {
       "name": "Custap Berry",
-      "desc": "If held by a Pokémon, it gets to move\\nfirst just once in a pinch.",
+      "desc": "If held by a Pokémon, it gets to move first just once in a pinch.",
       "location": ""
     },
     "jabocaberry": {
       "name": "Jaboca Berry",
-      "desc": "If held by a Pokémon and a physical\\nattack lands, the attacker also\\ntakes damage.",
+      "desc": "If held by a Pokémon and a physical attack lands, the attacker also takes damage.",
       "location": "Desert Resort"
     },
     "rowapberry": {
       "name": "Rowap Berry",
-      "desc": "If held by a Pokémon and a special\\nattack lands, the attacker also\\ntakes damage.",
+      "desc": "If held by a Pokémon and a special attack lands, the attacker also takes damage.",
       "location": "Desert Resort"
     },
     "brightpowder": {
       "name": "BrightPowder",
-      "desc": "An item to be held by a Pokémon.\\nIt casts a tricky glare that lowers\\nthe opponent's accuracy.",
+      "desc": "An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.",
       "location": "Floccesy Ranch"
     },
     "whiteherb": {
       "name": "White Herb",
-      "desc": "An item to be held by a Pokémon.\\nIt restores any lowered stat in\\nbattle. It can be used only once.",
+      "desc": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
       "location": "Floccesy Ranch",
       "marts": [
         "Stock 7+Badges",
@@ -155323,27 +155652,29 @@ overrides = {
     },
     "terabadge": {
       "name": "Tera Badge",
-      "desc": "An item that transform's the user's type.\\nIt greatly boosts the offense, defense,\\nand speed of first stage Pokémon.",
+      "desc": "An item that transform's the user's type. It greatly boosts the offense, defense, and speed of first stage Pokémon.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "expshare": {
       "name": "Exp. Share",
-      "desc": "An item to be held by a Pokémon.\\nThe holder gets a share of a battle's\\nExp. Points without battling.",
+      "desc": "An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.",
       "location": ""
     },
     "quickclaw": {
       "name": "Quick Claw",
-      "desc": "An item to be held by a Pokémon.\\nA light, sharp claw that lets the\\nbearer move first occasionally.",
+      "desc": "An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.",
       "location": "Floccesy Ranch"
     },
     "soothebell": {
       "name": "Soothe Bell",
-      "desc": "An item to be held by a Pokémon. It is\\na bell with a comforting chime that\\ncalms the holder and makes it friendly.",
+      "desc": "An item to be held by a Pokémon. It is a bell with a comforting chime that calms the holder and makes it friendly.",
       "location": ""
     },
     "mentalherb": {
       "name": "Mental Herb",
-      "desc": "An item to be held by a Pokémon. It\\nsnaps the holder out of infatuation.\\nIt can be used only once.",
+      "desc": "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.",
       "location": "Castelia Sewers",
       "marts": [
         "Stock 5+Badges",
@@ -155354,12 +155685,12 @@ overrides = {
     },
     "choiceband": {
       "name": "Choice Band",
-      "desc": "An item to be held by a Pokémon.\\nThis headband ups Attack, but allows\\nthe use of only one of its moves.",
+      "desc": "An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one of its moves.",
       "location": ""
     },
     "kingsrock": {
       "name": "King's Rock",
-      "desc": "An item to be held by a Pokémon.\\nWhen the holder inflicts damage,\\nthe target may flinch.",
+      "desc": "An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.",
       "location": "Nuvema Town",
       "wilds": [
         "Poliwhirl",
@@ -155371,7 +155702,7 @@ overrides = {
     },
     "silverpowder": {
       "name": "SilverPowder",
-      "desc": "An item to be held by a Pokémon.\\nIt is a shiny, silver powder that ups\\nthe power of Bug-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a shiny, silver powder that ups the power of Bug-type moves.",
       "location": "Complex Exterior",
       "wilds": [
         "Volcarona"
@@ -155379,27 +155710,31 @@ overrides = {
     },
     "abilitydrill": {
       "name": "Ability Drill",
-      "desc": "An item to be held by a Pokémon.\\nIt allows the piercing of\\ndefensive abilities in battle.",
+      "desc": "An item to be held by a Pokémon. It allows the piercing of defensive abilities in battle.",
+      "oldDesc": null,
+      "new": true,
       "location": "Icirrus City, Route 19"
     },
     "cleansetag": {
       "name": "Cleanse Tag",
-      "desc": "An item to be held by a Pokémon.\\nIt helps keep wild Pokémon away if the\\nholder is the first one in the party.",
+      "desc": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
       "location": ""
     },
     "mascotbadge": {
       "name": "Mascot Badge",
-      "desc": "An item to be held by a Pokémon.\\nIt greatly boosts the offense, defense,\\nand speed of first stage Pokémon.",
+      "desc": "An item to be held by a Pokémon. It greatly boosts the offense, defense, and speed of first stage Pokémon.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "deepseatooth": {
       "name": "DeepSeaTooth",
-      "desc": "An item to be held by Clamperl.\\nA fang that gleams a sharp silver, it\\nraises the Sp. Atk stat.",
+      "desc": "An item to be held by Clamperl. A fang that gleams a sharp silver, it raises the Sp. Atk stat.",
       "location": "Abyssal Ruins, Route 4"
     },
     "deepseascale": {
       "name": "DeepSeaScale",
-      "desc": "An item to be held by Clamperl.\\nA scale that shines a faint pink, it\\nraises the Sp. Def stat.",
+      "desc": "An item to be held by Clamperl. A scale that shines a faint pink, it raises the Sp. Def stat.",
       "location": "Abyssal Ruins, Route 4",
       "wilds": [
         "Basculin-Blue-Striped"
@@ -155407,52 +155742,56 @@ overrides = {
     },
     "teragem": {
       "name": "Tera Gem",
-      "desc": "An item that transform's the user's type.\\nConsumed to boost a move\\nof their tera type.",
+      "desc": "An item that transform's the user's type. Consumed to boost a move of their tera type.",
+      "oldDesc": null,
+      "new": true,
       "location": "Reversal Mountain"
     },
     "everstone": {
       "name": "Everstone",
-      "desc": "An item to be held by a Pokémon.\\nThe Pokémon holding this peculiar stone\\nis prevented from evolving.",
+      "desc": "An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.",
       "location": ""
     },
     "focusband": {
       "name": "Focus Band",
-      "desc": "An item to be held by a Pokémon.\\nThe holder takes half damage from\\nattacks sometimes.",
+      "desc": "An item to be held by a Pokémon. The holder takes half damage from attacks sometimes.",
+      "oldDesc": "An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.",
       "location": ""
     },
     "luckyegg": {
       "name": "Lucky Egg",
-      "desc": "An item to be held by a Pokémon.\\nIt is an egg filled with happiness that\\nearns extra Exp. Points in battle.",
+      "desc": "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.",
       "location": ""
     },
     "scopelens": {
       "name": "Scope Lens",
-      "desc": "An item to be held by a Pokémon.\\nIt is a lens that boosts the holder's\\ncritical-hit ratio.",
+      "desc": "An item to be held by a Pokémon. It is a lens that boosts the holder's critical-hit ratio.",
       "location": ""
     },
     "metalcoat": {
       "name": "Metal Coat",
-      "desc": "An item to be held by a Pokémon.\\nIt is a special metallic film that ups\\nthe power of Steel-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.",
       "location": "Chargestone Cave, Abyssal Ruins, Relic Passage, Clay Tunnel"
     },
     "leftovers": {
       "name": "Leftovers",
-      "desc": "An item to be held by a Pokémon.\\nThe holder's HP is gradually restored\\nduring battle.",
+      "desc": "An item to be held by a Pokémon. The holder's HP is gradually restored during battle.",
       "location": "Liberty Garden, Abyssal Ruins"
     },
     "dragonscale": {
       "name": "Dragon Scale",
-      "desc": "A thick and tough scale.\\nDragon-type Pokémon may be holding\\nthis item when caught.",
+      "desc": "A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.",
       "location": "Victory Road"
     },
     "lightball": {
       "name": "Light Ball",
-      "desc": "An item to be held by Pikachu or Eevee.\\nIt is a puzzling orb that raises\\nthe Attack and Sp. Atk stat.",
+      "desc": "An item to be held by Pikachu or Eevee. It is a puzzling orb that raises the Attack and Sp. Atk stat.",
+      "oldDesc": "An item to be held by Pikachu. It is a puzzling orb that raises the Attack and Sp. Atk stat.",
       "location": "Castelia City"
     },
     "softsand": {
       "name": "Soft Sand",
-      "desc": "An item to be held by a Pokémon.\\nIt is a loose, silky sand that boosts\\nthe power of Ground-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a loose, silky sand that boosts the power of Ground-type moves.",
       "location": "Relic Passage",
       "wilds": [
         "Diglett"
@@ -155460,17 +155799,17 @@ overrides = {
     },
     "hardstone": {
       "name": "Hard Stone",
-      "desc": "An item to be held by a Pokémon.\\nIt is an unbreakable stone that ups\\nthe power of Rock-type moves.",
+      "desc": "An item to be held by a Pokémon. It is an unbreakable stone that ups the power of Rock-type moves.",
       "location": "Relic Passage"
     },
     "miracleseed": {
       "name": "Miracle Seed",
-      "desc": "An item to be held by a Pokémon.\\nIt is a seed imbued with life that ups\\nthe power of Grass-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
       "location": "Route 20"
     },
     "blackglasses": {
       "name": "BlackGlasses",
-      "desc": "An item to be held by a Pokémon.\\nIt is a shady-looking pair of glasses\\nthat boosts Dark-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a shady-looking pair of glasses that boosts Dark-type moves.",
       "location": "",
       "marts": [
         "Mistralton City TM Dept"
@@ -155478,22 +155817,22 @@ overrides = {
     },
     "blackbelt": {
       "name": "Black Belt",
-      "desc": "An item to be held by a Pokémon.\\nIt is a belt that boosts determination\\nand Fighting-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a belt that boosts determination and Fighting-type moves.",
       "location": "Virbank Gate, Pokestar Studios, Abyssal Ruins"
     },
     "magnet": {
       "name": "Magnet",
-      "desc": "An item to be held by a Pokémon.\\nIt is a powerful magnet that boosts\\nthe power of Electric-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.",
       "location": "Abyssal Ruins, Virbank Complex"
     },
     "mysticwater": {
       "name": "Mystic Water",
-      "desc": "An item to be held by a Pokémon.\\nIt is a teardrop-shaped gem that ups\\nthe power of Water-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
       "location": "Route 20"
     },
     "sharpbeak": {
       "name": "Sharp Beak",
-      "desc": "An item to be held by a Pokémon.\\nIt is a long, sharp beak that boosts\\nthe power of Flying-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a long, sharp beak that boosts the power of Flying-type moves.",
       "location": "Route 4, Route 4",
       "marts": [
         "Mistralton City TM Dept"
@@ -155501,12 +155840,12 @@ overrides = {
     },
     "poisonbarb": {
       "name": "Poison Barb",
-      "desc": "An item to be held by a Pokémon.\\nIt is a small, poisonous barb that ups\\nthe power of Poison-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a small, poisonous barb that ups the power of Poison-type moves.",
       "location": "Abyssal Ruins, Virbank Complex, Route 22"
     },
     "nevermeltice": {
       "name": "NeverMeltIce",
-      "desc": "An item to be held by a Pokémon.\\nIt is a piece of ice that repels heat\\nand boosts Ice-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.",
       "location": "Nimbasa City",
       "marts": [
         "Mistralton City TM Dept"
@@ -155514,7 +155853,7 @@ overrides = {
     },
     "spelltag": {
       "name": "Spell Tag",
-      "desc": "An item to be held by a Pokémon.\\nIt is a sinister, eerie tag that boosts\\nthe power of Ghost-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
       "location": "Strange House, Route 5",
       "marts": [
         "Mistralton City TM Dept"
@@ -155522,7 +155861,7 @@ overrides = {
     },
     "twistedspoon": {
       "name": "TwistedSpoon",
-      "desc": "An item to be held by a Pokémon. It is\\na spoon imbued with telekinetic power\\nthat boosts Psychic-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.",
       "location": "Castelia Sewers",
       "marts": [
         "Mistralton City TM Dept"
@@ -155530,12 +155869,12 @@ overrides = {
     },
     "charcoal": {
       "name": "Charcoal",
-      "desc": "An item to be held by a Pokémon.\\nIt is a combustible fuel that boosts\\nthe power of Fire-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a combustible fuel that boosts the power of Fire-type moves.",
       "location": "Driftveil City"
     },
     "dragonfang": {
       "name": "Dragon Fang",
-      "desc": "An item to be held by a Pokémon.\\nIt is a hard and sharp fang that ups\\nthe power of Dragon-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.",
       "location": "Victory Road, Anville Town",
       "marts": [
         "Mistralton City TM Dept"
@@ -155543,82 +155882,90 @@ overrides = {
     },
     "silkscarf": {
       "name": "Silk Scarf",
-      "desc": "An item to be held by a Pokémon.\\nIt is a sumptuous scarf that boosts\\nthe power of Normal-type moves.",
+      "desc": "An item to be held by a Pokémon. It is a sumptuous scarf that boosts the power of Normal-type moves.",
       "location": "Route 20"
     },
     "upgrade": {
       "name": "Up-Grade",
-      "desc": "A transparent device filled with all\\nsorts of data.\\nIt was produced by Silph Co.",
+      "desc": "A transparent device filled with all sorts of data. It was produced by Silph Co.",
       "location": ""
     },
     "shellbell": {
       "name": "Shell Bell",
-      "desc": "An item to be held by a Pokémon.\\nThe holder's HP is restored a little\\nevery time it inflicts damage.",
+      "desc": "An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.",
       "location": "Castelia City, Humilau City, Route 4"
     },
     "protoarmor": {
       "name": "Proto Armor",
-      "desc": "Developed by Colress to unlock a Pokémon's\\npotential. Boosts the holder's defenses when\\nentering battle, but lowers their Accuracy.",
+      "desc": "Developed by Colress to unlock a Pokémon's potential. Boosts the holder's defenses when entering battle, but lowers their Accuracy.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "attackinsurance": {
       "name": "Attack Insurance",
-      "desc": "An item to be held by a Pokémon. Ensures\\nmoves that are normally ineffective to\\ndeal a small amount of damage.",
+      "desc": "An item to be held by a Pokémon. Ensures moves that are normally ineffective to deal a small amount of damage.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "blunderpolicy": {
       "name": "Blunder Policy",
-      "desc": "Raises Speed sharply when a Pokémon's move\\nhas no effect, whether because of \\naccuracy, immunity, or moves like Detect.",
+      "desc": "Raises Speed sharply when a Pokémon's move has no effect, whether because of  accuracy, immunity, or moves like Detect.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "stresstester": {
       "name": "Stress Tester",
-      "desc": "An item to be held by a Pokémon.\\nWhen entering battle with a wild Pokémon,\\nreduces the holder's health to 1.",
+      "desc": "An item to be held by a Pokémon. When entering battle with a wild Pokémon, reduces the holder's health to 1.",
+      "oldDesc": null,
+      "new": true,
       "location": "Dragonspiral Tower, Route 19"
     },
     "thickclub": {
       "name": "Thick Club",
-      "desc": "An item to be held by Cubone or\\nMarowak. It is a hard bone of some\\nsort that boosts the Attack stat.",
+      "desc": "An item to be held by Cubone or Marowak. It is a hard bone of some sort that boosts the Attack stat.",
       "location": "Castelia City"
     },
     "stick": {
       "name": "Stick",
-      "desc": "An item to be held by Farfetch'd. It is\\na very long and stiff stalk of leek\\nthat boosts the critical-hit ratio.",
+      "desc": "An item to be held by Farfetch'd. It is a very long and stiff stalk of leek that boosts the critical-hit ratio.",
       "location": ""
     },
     "redscarf": {
       "name": "Red Scarf",
-      "desc": "An item to be held by a Pokémon.\\nIt boosts the Cool aspect of the\\nholder in a Contest.",
+      "desc": "An item to be held by a Pokémon. It boosts the Cool aspect of the holder in a Contest.",
       "location": ""
     },
     "bluescarf": {
       "name": "Blue Scarf",
-      "desc": "An item to be held by a Pokémon.\\nIt boosts the Beauty aspect of the\\nholder in a Contest.",
+      "desc": "An item to be held by a Pokémon. It boosts the Beauty aspect of the holder in a Contest.",
       "location": ""
     },
     "pinkscarf": {
       "name": "Pink Scarf",
-      "desc": "An item to be held by a Pokémon.\\nIt boosts the Cute aspect of the\\nholder in a Contest.",
+      "desc": "An item to be held by a Pokémon. It boosts the Cute aspect of the holder in a Contest.",
       "location": ""
     },
     "greenscarf": {
       "name": "Green Scarf",
-      "desc": "An item to be held by a Pokémon.\\nIt boosts the Smart aspect of the\\nholder in a Contest.",
+      "desc": "An item to be held by a Pokémon. It boosts the Smart aspect of the holder in a Contest.",
       "location": ""
     },
     "yellowscarf": {
       "name": "Yellow Scarf",
-      "desc": "An item to be held by a Pokémon.\\nIt boosts the Tough aspect of the\\nholder in a Contest.",
+      "desc": "An item to be held by a Pokémon. It boosts the Tough aspect of the holder in a Contest.",
       "location": ""
     },
     "widelens": {
       "name": "Wide Lens",
-      "desc": "An item to be held by a Pokémon.\\nIt is a magnifying lens that slightly\\nboosts the accuracy of moves.",
+      "desc": "An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.",
       "location": ""
     },
     "muscleband": {
       "name": "Muscle Band",
-      "desc": "An item to be held by a Pokémon.\\nIt is a headband that slightly boosts\\nthe power of physical moves.",
+      "desc": "An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.",
       "location": "Route 20",
       "marts": [
         "Castelia City Upper Cashier"
@@ -155626,7 +155973,7 @@ overrides = {
     },
     "wiseglasses": {
       "name": "Wise Glasses",
-      "desc": "An item to be held by a Pokémon. It is\\na thick pair of glasses that slightly\\nboosts the power of special moves.",
+      "desc": "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
       "location": "Virbank Complex, Route 20",
       "marts": [
         "Castelia City Upper Cashier"
@@ -155634,27 +155981,27 @@ overrides = {
     },
     "expertbelt": {
       "name": "Expert Belt",
-      "desc": "An item to be held by a Pokémon. It is\\na well-worn belt that slightly boosts\\nthe power of supereffective moves.",
+      "desc": "An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.",
       "location": ""
     },
     "lightclay": {
       "name": "Light Clay",
-      "desc": "A Pokémon held item that extends the\\nduration of barrier moves like Light\\nScreen and Reflect used by the holder.",
+      "desc": "A Pokémon held item that extends the duration of barrier moves like Light Screen and Reflect used by the holder.",
       "location": ""
     },
     "lifeorb": {
       "name": "Life Orb",
-      "desc": "An item to be held by a Pokémon.\\nIt boosts the power of moves, but at\\nthe cost of some HP on each hit.",
+      "desc": "An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.",
       "location": ""
     },
     "powerherb": {
       "name": "Power Herb",
-      "desc": "A single-use item to be held by a\\nPokémon. It allows the immediate use of\\na move that charges on the first turn.",
+      "desc": "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.",
       "location": ""
     },
     "toxicorb": {
       "name": "Toxic Orb",
-      "desc": "An item to be held by a Pokémon.\\nIt is a bizarre orb that badly poisons\\nthe holder in battle.",
+      "desc": "An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.",
       "location": "Reversal Mountain, Route 19",
       "marts": [
         "Virbank City Lower Cashier"
@@ -155662,7 +156009,7 @@ overrides = {
     },
     "flameorb": {
       "name": "Flame Orb",
-      "desc": "An item to be held by a Pokémon.\\nIt is a bizarre orb that inflicts a\\nburn on the holder in battle.",
+      "desc": "An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.",
       "location": "Reversal Mountain, Route 19",
       "marts": [
         "Virbank City Lower Cashier"
@@ -155670,32 +156017,34 @@ overrides = {
     },
     "mysterydevice": {
       "name": "Mystery Device",
-      "desc": "A hi-tech device that sends Pokémon into a\\nfrenzy. Boosts the holder's offenses when\\nentering battle, but lowers their Accuracy.",
+      "desc": "A hi-tech device that sends Pokémon into a frenzy. Boosts the holder's offenses when entering battle, but lowers their Accuracy.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "focussash": {
       "name": "Focus Sash",
-      "desc": "An item to be held by a Pokémon. If it\\nhas full HP, the holder will endure one\\npotential KO attack, leaving 1 HP.",
+      "desc": "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
       "location": ""
     },
     "zoomlens": {
       "name": "Zoom Lens",
-      "desc": "An item to be held by a Pokémon.\\nIf the holder moves after its\\ntarget, its accuracy will be boosted.",
+      "desc": "An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.",
       "location": ""
     },
     "metronome": {
       "name": "Metronome",
-      "desc": "A Pokémon held item that boosts a move\\nused consecutively. Its effect is\\nreset if another move is used.",
+      "desc": "A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.",
       "location": "Lacunosa Town"
     },
     "ironball": {
       "name": "Iron Ball",
-      "desc": "A Pokémon held item that cuts Speed.\\nIt makes Flying-type and levitating\\nholders susceptible to Ground moves.",
+      "desc": "A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.",
       "location": "Relic Castle, Relic Passage"
     },
     "laggingtail": {
       "name": "Lagging Tail",
-      "desc": "An item to be held by a Pokémon.\\nIt is tremendously heavy and makes\\nthe holder move slower than usual.",
+      "desc": "An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.",
       "location": "",
       "marts": [
         "Virbank City Lower Cashier"
@@ -155703,82 +156052,102 @@ overrides = {
     },
     "clearamulet": {
       "name": "Clear Amulet",
-      "desc": "An item to be held by a Pokémon.\\nIt protects the holder from having its\\nstats lowered by foes.",
+      "desc": "An item to be held by a Pokémon. It protects the holder from having its stats lowered by foes.",
+      "oldDesc": null,
+      "new": true,
       "location": "Virbank City, Abyssal Ruins"
     },
     "blacksludge": {
       "name": "Black Sludge",
-      "desc": "A held item that gradually restores\\nthe HP of Poison-type Pokémon.\\nIt inflicts damage on all other types.",
+      "desc": "A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.",
       "location": "Castelia Sewers"
     },
     "icyrock": {
       "name": "Icy Rock",
-      "desc": "A Pokémon held item that sets a\\npermanent hailstorm upon\\nswitching into battle.",
+      "desc": "A Pokémon held item that sets a permanent hailstorm upon switching into battle.",
+      "oldDesc": "A Pokémon held item that extends the duration of the move Hail used by the holder.",
       "location": ""
     },
     "smoothrock": {
       "name": "Smooth Rock",
-      "desc": "A Pokémon held item that sets a\\npermanent Sandstorm upon\\nswitching into battle.",
+      "desc": "A Pokémon held item that sets a permanent Sandstorm upon switching into battle.",
+      "oldDesc": "A Pokémon held item that extends the duration of the move Sandstorm used by the holder.",
       "location": ""
     },
     "heatrock": {
       "name": "Heat Rock",
-      "desc": "A Pokémon held item that sets\\npermanent harsh sunlight upon\\nswitching into battle.",
+      "desc": "A Pokémon held item that sets permanent harsh sunlight upon switching into battle.",
+      "oldDesc": "A Pokémon held item that extends the duration of the move Sunny Day used by the holder.",
       "location": ""
     },
     "damprock": {
       "name": "Damp Rock",
-      "desc": "A Pokémon held item that sets\\npermanent heavy rainfall upon\\nswitching into battle.",
+      "desc": "A Pokémon held item that sets permanent heavy rainfall upon switching into battle.",
+      "oldDesc": "A Pokémon held item that extends the duration of the move Rain Dance used by the holder.",
       "location": ""
     },
     "clrsarmor": {
       "name": "CLRS Armor",
-      "desc": "Developed by Colress to unlock a Pokémon's\\npotential. Boosts the holder's defenses when\\nentering battle.",
+      "desc": "Developed by Colress to unlock a Pokémon's potential. Boosts the holder's defenses when entering battle.",
+      "oldDesc": null,
+      "new": true,
       "location": "Route 4"
     },
     "choicescarf": {
       "name": "Choice Scarf",
-      "desc": "An item to be held by a Pokémon.\\nThis scarf boosts Speed, but allows\\nthe use of only one of its moves.",
+      "desc": "An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one of its moves.",
       "location": ""
     },
     "stickybarb": {
       "name": "Sticky Barb",
-      "desc": "A held item that damages the holder on\\nevery turn. It may latch on to foes and\\nallies that touch the holder.",
+      "desc": "A held item that damages the holder on every turn. It may latch on to foes and allies that touch the holder.",
       "location": "Castelia Sewers, Castelia Sewers"
     },
     "assaultvest": {
       "name": "Assault Vest",
-      "desc": "An item to be held by a Pokémon.\\nThis offensive vest raises Sp. Def but\\nprevents the use of status moves.",
+      "desc": "An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "fairygem": {
       "name": "Fairy Gem",
-      "desc": "A gem with an essence of the fey. When\\nheld, it strengthens the power of a\\nFairy-type move only once. ",
+      "desc": "A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move only once. ",
+      "oldDesc": null,
+      "new": true,
       "location": "Plasma Frigate"
     },
     "weaknesspolicy": {
       "name": "Weakness Policy",
-      "desc": "An item to be held by a Pokémon.\\nAttack and Sp. Atk sharply increase if the\\nholder is hit with a move it's weak to.",
+      "desc": "An item to be held by a Pokémon. Attack and Sp. Atk sharply increase if the holder is hit with a move it's weak to.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "clrsbooster": {
       "name": "CLRS Booster",
-      "desc": "Developed by Colress to unlock a Pokémon's\\npotential. Boosts the holder's offenses when\\nentering battle.",
+      "desc": "Developed by Colress to unlock a Pokémon's potential. Boosts the holder's offenses when entering battle.",
+      "oldDesc": null,
+      "new": true,
       "location": "Plasma Frigate"
     },
     "safetygoggles": {
       "name": "Safety Goggles",
-      "desc": "An item to be held by a Pokémon.\\nThese goggles protect the holder from\\nweather and powders.",
+      "desc": "An item to be held by a Pokémon. These goggles protect the holder from weather and powders.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "protobooster": {
       "name": "Proto Booster",
-      "desc": "Developed by Colress to unlock a Pokémon's\\npotential. Boosts the holder's offenses when\\nentering battle, but lowers their Accuracy.",
+      "desc": "Developed by Colress to unlock a Pokémon's potential. Boosts the holder's offenses when entering battle, but lowers their Accuracy.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "shedshell": {
       "name": "Shed Shell",
-      "desc": "A tough, discarded carapace to be held\\nby a Pokémon. It enables the holder to\\nswitch with a waiting Pokémon in battle.",
+      "desc": "A tough, discarded carapace to be held by a Pokémon. It enables the holder to switch with a waiting Pokémon in battle.",
       "location": "",
       "wilds": [
         "Beautifly",
@@ -155787,107 +156156,143 @@ overrides = {
     },
     "bigroot": {
       "name": "Big Root",
-      "desc": "A Pokémon held item that boosts the\\npower of HP-stealing moves to let the\\nholder recover more HP.",
+      "desc": "A Pokémon held item that boosts the power of HP-stealing moves to let the holder recover more HP.",
       "location": ""
     },
     "choicespecs": {
       "name": "Choice Specs",
-      "desc": "An item to be held by a Pokémon. These\\ndistinctive glasses boost Sp. Atk but\\nallow the use of only one of its moves.",
+      "desc": "An item to be held by a Pokémon. These distinctive glasses boost Sp. Atk but allow the use of only one of its moves.",
       "location": ""
     },
     "teraspecs": {
       "name": "Tera Specs",
-      "desc": "An item that transform's the user's type.\\nThese glasses boost Sp. Atk but\\nallow the use of only one of its moves. ",
+      "desc": "An item that transform's the user's type. These glasses boost Sp. Atk but allow the use of only one of its moves. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "teracband": {
       "name": "Tera C-Band",
-      "desc": "An item that transform's the user's type.\\nThis headband ups Attack, but allows\\nthe use of only one of its moves. ",
+      "desc": "An item that transform's the user's type. This headband ups Attack, but allows the use of only one of its moves. ",
+      "oldDesc": null,
+      "new": true,
       "location": "Undella Bay"
     },
     "terascarf": {
       "name": "Tera Scarf",
-      "desc": "An item that transform's the user's type.\\nThis scarf boosts Speed, but allows\\nthe use of only one of its moves. ",
+      "desc": "An item that transform's the user's type. This scarf boosts Speed, but allows the use of only one of its moves. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "teraorb": {
       "name": "Tera Orb",
-      "desc": "An item that transform's the user's type.\\nIt boosts the power of moves, but at\\nthe cost of some HP on each hit. ",
+      "desc": "An item that transform's the user's type. It boosts the power of moves, but at the cost of some HP on each hit. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "terasash": {
       "name": "Tera Sash",
-      "desc": "An item that transform's the user's type.\\nAt full HP, the holder will endure one\\npotential KO attack, leaving 1 HP. ",
+      "desc": "An item that transform's the user's type. At full HP, the holder will endure one potential KO attack, leaving 1 HP. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "terafband": {
       "name": "Tera F-Band",
-      "desc": "An item that transform's the user's type.\\nThe holder takes half damage from\\nattacks sometimes.",
+      "desc": "An item that transform's the user's type. The holder takes half damage from attacks sometimes.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "teraclaw": {
       "name": "Tera Claw",
-      "desc": "An item that transform's the user's type.\\nA light, sharp claw that lets the\\nbearer move first occasionally. ",
+      "desc": "An item that transform's the user's type. A light, sharp claw that lets the bearer move first occasionally. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "terawpolicy": {
       "name": "Tera W-Policy",
-      "desc": "An item that transform's the user's type.\\nAttack and Sp. Atk sharply increase if the\\nholder is hit with a move it's weak to. ",
+      "desc": "An item that transform's the user's type. Attack and Sp. Atk sharply increase if the holder is hit with a move it's weak to. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "terabpolicy": {
       "name": "Tera B-Policy",
-      "desc": "An item that transform's the user's type.\\nRaises Speed sharply when a Pokémon's move\\nhas no effect. ",
+      "desc": "An item that transform's the user's type. Raises Speed sharply when a Pokémon's move has no effect. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "terapowder": {
       "name": "Tera Powder",
-      "desc": "An item that transform's the user's type.\\nIt casts a tricky glare that lowers\\nthe opponent's accuracy. ",
+      "desc": "An item that transform's the user's type. It casts a tricky glare that lowers the opponent's accuracy. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "teravest": {
       "name": "Tera Vest",
-      "desc": "An item that transform's the user's type.\\nThis offensive vest raises Sp. Def but\\nprevents the use of status moves. ",
+      "desc": "An item that transform's the user's type. This offensive vest raises Sp. Def but prevents the use of status moves. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "terainsurance": {
       "name": "Tera Insurance",
-      "desc": "An item that transform's the user's type.\\nMoves that are normally ineffective to\\ndeal a small amount of damage. ",
+      "desc": "An item that transform's the user's type. Moves that are normally ineffective to deal a small amount of damage. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "teradrill": {
       "name": "Tera Drill",
-      "desc": "An item that transform's the user's type.\\nAllows the piercing of\\ndefensive abilities.",
+      "desc": "An item that transform's the user's type. Allows the piercing of defensive abilities.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "teraleftovers": {
       "name": "Tera Leftovers",
-      "desc": "An item that transform's the user's type.\\nThe holder's HP is gradually restored\\nduring battle. ",
+      "desc": "An item that transform's the user's type. The holder's HP is gradually restored during battle. ",
+      "oldDesc": null,
+      "new": true,
       "location": "Undella Bay"
     },
     "teradice": {
       "name": "Tera Dice",
-      "desc": "An item that transform's the user's type.\\nThis loaded dice always rolls well, and\\nensures multistrike moves hit more times. ",
+      "desc": "An item that transform's the user's type. This loaded dice always rolls well, and ensures multistrike moves hit more times. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "terakrock": {
       "name": "Tera K-Rock",
-      "desc": "An item that transform's the user's type.\\nWhen the holder inflicts damage,\\nthe target may flinch. ",
+      "desc": "An item that transform's the user's type. When the holder inflicts damage, the target may flinch. ",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "clrsinvention": {
       "name": "CLRS Invention",
-      "desc": "Developed by Colress to unlock a Pokémon's\\npotential. Boosts all the holder's stats\\nwhen entering battle.",
+      "desc": "Developed by Colress to unlock a Pokémon's potential. Boosts all the holder's stats when entering battle.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "protoaccelerator": {
       "name": "Proto Accelerator",
-      "desc": "Developed by Colress to unlock a Pokémon's\\npotential. Boosts the holder's speed when\\nentering battle, but lowers their Accuracy.",
+      "desc": "Developed by Colress to unlock a Pokémon's potential. Boosts the holder's speed when entering battle, but lowers their Accuracy.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "fullincense": {
       "name": "Full Incense",
-      "desc": "An item to be held by a Pokémon. It is\\nan exotic-smelling incense that makes\\nthe holder bloated and slow moving.",
+      "desc": "An item to be held by a Pokémon. It is an exotic-smelling incense that makes the holder bloated and slow moving.",
       "location": "",
       "marts": [
         "Driftveil City Inscense Shop"
@@ -155895,17 +156300,21 @@ overrides = {
     },
     "loadeddice": {
       "name": "Loaded Dice",
-      "desc": "An item to be held by a Pokémon.\\nThis loaded dice always rolls well, and\\nensures multistrike moves hit more times.",
+      "desc": "An item to be held by a Pokémon. This loaded dice always rolls well, and ensures multistrike moves hit more times.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "clrsaccelerator": {
       "name": "CLRS Accelerator",
-      "desc": "Developed by Colress to unlock a Pokémon's\\npotential. Boosts the holder's speed when\\nentering battle.",
+      "desc": "Developed by Colress to unlock a Pokémon's potential. Boosts the holder's speed when entering battle.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "luckincense": {
       "name": "Luck Incense",
-      "desc": "An item to be held by a Pokémon.\\nIt doubles a battle's prize money if\\nthe holding Pokémon joins in.",
+      "desc": "An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.",
       "location": "",
       "marts": [
         "Driftveil City Inscense Shop"
@@ -155913,7 +156322,7 @@ overrides = {
     },
     "pureincense": {
       "name": "Pure Incense",
-      "desc": "An item to be held by a Pokémon.\\nIt helps keep wild Pokémon away if the\\nholder is the first one in the party.",
+      "desc": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
       "location": "",
       "marts": [
         "Driftveil City Inscense Shop"
@@ -155921,57 +156330,59 @@ overrides = {
     },
     "protector": {
       "name": "Protector",
-      "desc": "A protective item of some sort.\\nIt is extremely stiff and heavy.\\nIt is loved by a certain Pokémon.",
+      "desc": "A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.",
       "location": "Wellspring Cave"
     },
     "electirizer": {
       "name": "Electirizer",
-      "desc": "A box packed with a tremendous\\namount of electric energy.\\nIt is loved by a certain Pokémon.",
+      "desc": "A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.",
       "location": "Plasma Frigate"
     },
     "magmarizer": {
       "name": "Magmarizer",
-      "desc": "A box packed with a tremendous\\namount of magma energy.\\nIt is loved by a certain Pokémon.",
+      "desc": "A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.",
       "location": "Plasma Frigate"
     },
     "dubiousdisc": {
       "name": "Dubious Disc",
-      "desc": "A transparent device overflowing with\\ndubious data.\\nIts producer is unknown.",
+      "desc": "A transparent device overflowing with dubious data. Its producer is unknown.",
       "location": "P2 Laboratory"
     },
     "reapercloth": {
       "name": "Reaper Cloth",
-      "desc": "A cloth imbued with horrifyingly strong\\nspiritual energy.\\nIt is loved by a certain Pokémon.",
+      "desc": "A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.",
       "location": ""
     },
     "razorclaw": {
       "name": "Razor Claw",
-      "desc": "An item to be held by a Pokémon.\\nIt is a sharply hooked claw that ups\\nthe holder's critical-hit ratio.",
+      "desc": "An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.",
       "location": "Giant Chasm, Giant Chasm"
     },
     "razorfang": {
       "name": "Razor Fang",
-      "desc": "An item to be held by a Pokémon.\\nIt may make foes and allies flinch\\nwhen the holder inflicts damage.",
+      "desc": "An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.",
       "location": "Route 11"
     },
     "tm01": {
       "name": "TM01",
-      "desc": "The user bites the target with its\\npsychic powers, destroying Light Screen\\n and Reflect.",
+      "desc": "The user bites the target with its psychic powers, destroying Light Screen  and Reflect.",
+      "oldDesc": "The user sharpens its claws to boost its Attack stat and accuracy.",
       "location": "Relic Castle, Relic Sanctum, Accumula Town"
     },
     "tm02": {
       "name": "TM02",
-      "desc": "The user slashes the target with huge,\\nsharp claws.",
+      "desc": "The user slashes the target with huge, sharp claws.",
       "location": ""
     },
     "tm03": {
       "name": "TM03",
-      "desc": "The user materializes an odd\\npsychic wave to attack the target.\\nThis attack does physical damage.",
+      "desc": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
       "location": "Giant Chasm, Route 7"
     },
     "tm04": {
       "name": "TM04",
-      "desc": "The user strikes the target with a quick\\njolt of electricity.\\nThis attack cannot be evaded.",
+      "desc": "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.",
+      "oldDesc": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
       "location": "Virbank City, Abyssal Ruins",
       "marts": [
         "Striaton City Upper Cashier"
@@ -155979,22 +156390,26 @@ overrides = {
     },
     "tm05": {
       "name": "TM05",
-      "desc": "The user slaps down the target's\\nheld item, preventing that item\\nfrom being used in the battle.",
+      "desc": "The user slaps down the target's held item, preventing that item from being used in the battle.",
+      "oldDesc": "The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.",
       "location": "Giant Chasm, Mistralton Cave, Route 23"
     },
     "tm06": {
       "name": "TM06",
-      "desc": "The user scatters curious leaves\\nthat chase the target.\\nThis attack will not miss.",
+      "desc": "The user scatters curious leaves that chase the target. This attack will not miss.",
+      "oldDesc": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
       "location": "Castelia Gardens, Seaside Cave"
     },
     "tm07": {
       "name": "TM07",
-      "desc": "An energy-draining punch. The user's\\nHP is restored by half the damage taken\\nby the target.",
+      "desc": "An energy-draining punch. The user's HP is restored by half the damage taken by the target.",
+      "oldDesc": "Summons a hailstorm that lasts for five turns. The hailstorm damages all types except Ice.",
       "location": "Mistralton Cave"
     },
     "tm08": {
       "name": "TM08",
-      "desc": "The target is hit with rhythmically\\nlaunched punches.\\nThis attack never misses.",
+      "desc": "The target is hit with rhythmically launched punches. This attack never misses.",
+      "oldDesc": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
       "location": "Castelia Sewers, Route 16",
       "marts": [
         "Striaton City Upper Cashier"
@@ -156002,32 +156417,33 @@ overrides = {
     },
     "tm09": {
       "name": "TM09",
-      "desc": "The user drenches the target in a\\nspecial poisonous liquid. Its power\\nis doubled if the target is poisoned.",
+      "desc": "The user drenches the target in a special poisonous liquid. Its power is doubled if the target is poisoned.",
       "location": ""
     },
     "tm10": {
       "name": "TM10",
-      "desc": "A unique attack that varies in type and\\nintensity depending on the Pokémon\\nusing it.",
+      "desc": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
       "location": ""
     },
     "tm11": {
       "name": "TM11",
-      "desc": "The user attacks with a blade of air that\\nslices even the sky. It may also make the\\ntarget flinch.",
+      "desc": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
+      "oldDesc": "The user intensifies the sun for five turns, powering up Fire-type moves.",
       "location": ""
     },
     "tm12": {
       "name": "TM12",
-      "desc": "The target is taunted into a rage that\\nallows it to use only attack moves\\nfor three turns.",
+      "desc": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
       "location": "Clay Tunnel, Route 23"
     },
     "tm13": {
       "name": "TM13",
-      "desc": "The target is struck with an icy-cold\\nbeam of energy.\\nIt may also freeze the target solid.",
+      "desc": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
       "location": "Giant Chasm"
     },
     "tm14": {
       "name": "TM14",
-      "desc": "A howling blizzard is summoned to strike\\nthe opposing team. It may also freeze\\nthem solid.",
+      "desc": "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.",
       "location": "",
       "marts": [
         "Lacunosa Town"
@@ -156035,7 +156451,8 @@ overrides = {
     },
     "tm15": {
       "name": "TM15",
-      "desc": "The user tears at the target with blades\\nformed by psychic power. Crit hits land\\nmore easily and this attack cannot miss.",
+      "desc": "The user tears at the target with blades formed by psychic power. Crit hits land more easily and this attack cannot miss.",
+      "oldDesc": "The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
       "location": "Desert Resort",
       "marts": [
         "SM9 Middle Right Cashier"
@@ -156043,52 +156460,58 @@ overrides = {
     },
     "tm16": {
       "name": "TM16",
-      "desc": "A wondrous wall of light is put up to\\nsuppress damage from special attacks\\nfor five turns.",
+      "desc": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
       "location": "Relic Castle"
     },
     "tm17": {
       "name": "TM17",
-      "desc": "A unique attack that varies in type and\\nintensity depending on the Pokémon\\nusing it.",
+      "desc": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
+      "oldDesc": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
       "location": "Moor of Icirrus, Floccesy Town"
     },
     "tm18": {
       "name": "TM18",
-      "desc": "The user throws scorching sand at the\\ntarget. This may also leave the target\\nwith a burn.",
+      "desc": "The user throws scorching sand at the target. This may also leave the target with a burn.",
+      "oldDesc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
       "location": "Relic Castle"
     },
     "tm19": {
       "name": "TM19",
-      "desc": "A nutrient-draining attack. The user's\\nHP is restored by half the damage\\ntaken by the target.",
+      "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
+      "oldDesc": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
       "location": "Lostlorn Forest, Route 18"
     },
     "tm20": {
       "name": "TM20",
-      "desc": "The user lets loose a horribly echoing\\nshout. This may also lower the\\ntarget's Sp. Def stat. ",
+      "desc": "The user lets loose a horribly echoing shout. This may also lower the target's Sp. Def stat. ",
+      "oldDesc": "The user creates a protective field that prevents status problems for five turns.",
       "location": ""
     },
     "tm21": {
       "name": "TM21",
-      "desc": "The target is hit with a rainbow-colored\\nbeam. This may also lower the target's\\nAttack stat.",
+      "desc": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
+      "oldDesc": "A full-power attack that grows more powerful the less the user likes its Trainer.",
       "location": "Striaton City, Chargestone Cave, Chargestone Cave"
     },
     "tm22": {
       "name": "TM22",
-      "desc": "A two-turn attack. The user gathers\\nlight, then blasts a bundled beam on\\nthe second turn.",
+      "desc": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
       "location": "Pinwheel Forest"
     },
     "tm23": {
       "name": "TM23",
-      "desc": "An attack move that varies in power and\\ntype depending on the weather. ",
+      "desc": "An attack move that varies in power and type depending on the weather. ",
+      "oldDesc": "The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when it's hit.",
       "location": ""
     },
     "tm24": {
       "name": "TM24",
-      "desc": "A strong electric blast is loosed at the\\ntarget. It may also leave the target\\nwith paralysis.",
+      "desc": "A strong electric blast is loosed at the target. It may also leave the target with paralysis.",
       "location": ""
     },
     "tm25": {
       "name": "TM25",
-      "desc": "A wicked thunderbolt is dropped\\non the target to inflict damage. It may\\nalso leave the target with paralysis.",
+      "desc": "A wicked thunderbolt is dropped on the target to inflict damage. It may also leave the target with paralysis.",
       "location": "",
       "marts": [
         "Lacunosa Town"
@@ -156096,12 +156519,12 @@ overrides = {
     },
     "tm26": {
       "name": "TM26",
-      "desc": "The user sets off an earthquake that\\nstrikes every Pokémon around it.",
+      "desc": "The user sets off an earthquake that strikes every Pokémon around it.",
       "location": "Route 15"
     },
     "tm27": {
       "name": "TM27",
-      "desc": "A full-power attack that grows more\\npowerful the more the user likes its\\nTrainer.",
+      "desc": "A full-power attack that grows more powerful the more the user likes its Trainer.",
       "location": "",
       "marts": [
         "Nimbasa TM Department"
@@ -156109,57 +156532,59 @@ overrides = {
     },
     "tm28": {
       "name": "TM28",
-      "desc": "The user burrows, then attacks on the\\nsecond turn. It can also be used to\\nexit dungeons.",
+      "desc": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
       "location": "Desert Resort, Route 4"
     },
     "tm29": {
       "name": "TM29",
-      "desc": "The target is hit by a strong\\ntelekinetic force. It may also reduce\\nthe target's Sp. Def stat.",
+      "desc": "The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.",
       "location": "Celestial Tower, Route 13"
     },
     "tm30": {
       "name": "TM30",
-      "desc": "The user hurls a shadowy blob at the\\ntarget. It may also lower the target's\\nSp. Def stat.",
+      "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
       "location": "Reversal Mountain, Reversal Mountain, Celestial Tower, Lentimas Town"
     },
     "tm31": {
       "name": "TM31",
-      "desc": "The user attacks with tough fists,\\netc. It can also break any barrier\\nsuch as Light Screen and Reflect.",
+      "desc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
       "location": ""
     },
     "tm32": {
       "name": "TM32",
-      "desc": "The user strikes opposing foes by\\nemitting a dazzling flash.\\nMay lower accuracy.",
+      "desc": "The user strikes opposing foes by emitting a dazzling flash. May lower accuracy.",
+      "oldDesc": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
       "location": "Route 7"
     },
     "tm33": {
       "name": "TM33",
-      "desc": "A wondrous wall of light is put up to\\nsuppress damage from physical attacks\\nfor five turns.",
+      "desc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
       "location": "Castelia City, Relic Castle"
     },
     "tm34": {
       "name": "TM34",
-      "desc": "It swamps the area around the user\\nwith a giant sludge wave.\\nIt may also poison those hit.",
+      "desc": "It swamps the area around the user with a giant sludge wave. It may also poison those hit.",
       "location": ""
     },
     "tm35": {
       "name": "TM35",
-      "desc": "The target is scorched with an intense\\nblast of fire. It may also leave the\\ntarget with a burn.",
+      "desc": "The target is scorched with an intense blast of fire. It may also leave the target with a burn.",
       "location": ""
     },
     "tm36": {
       "name": "TM36",
-      "desc": "Unsanitary sludge is hurled at the\\ntarget. It may also poison the target.",
+      "desc": "Unsanitary sludge is hurled at the target. It may also poison the target.",
       "location": "Icirrus City, Chargestone Cave"
     },
     "tm37": {
       "name": "TM37",
-      "desc": "The user unleashes a curse that may also\\nparalyze the target. This deals massive\\ndamage to a target affected by status.",
+      "desc": "The user unleashes a curse that may also paralyze the target. This deals massive damage to a target affected by status.",
+      "oldDesc": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
       "location": "Castelia Sewers, Abyssal Ruins"
     },
     "tm38": {
       "name": "TM38",
-      "desc": "The target is attacked with an intense\\nblast of all-consuming fire. It may\\nalso leave the target with a burn.",
+      "desc": "The target is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
       "location": "",
       "marts": [
         "Lacunosa Town"
@@ -156167,62 +156592,71 @@ overrides = {
     },
     "tm39": {
       "name": "TM39",
-      "desc": "Boulders are hurled at the target. It\\nalso lowers the target's Speed by\\npreventing its movement.",
+      "desc": "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
       "location": "Abyssal Ruins, Virbank Complex"
     },
     "tm40": {
       "name": "TM40",
-      "desc": "The user confounds the target\\nwith speed, then slashes.\\nThe attack lands without fail.",
+      "desc": "The user confounds the target with speed, then slashes. The attack lands without fail.",
       "location": "Route 4, Route 4"
     },
     "tm41": {
       "name": "TM41",
-      "desc": "The target is infested, trapping and\\ndamaging them for four to five turns.",
+      "desc": "The target is infested, trapping and damaging them for four to five turns.",
+      "oldDesc": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
       "location": ""
     },
     "tm42": {
       "name": "TM42",
-      "desc": "An attack move that doubles its power\\nif the user is poisoned, paralyzed, or\\nhas a burn.",
+      "desc": "An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn.",
       "location": ""
     },
     "tm43": {
       "name": "TM43",
-      "desc": "The user attacks by exhaling hot breath\\non the opposing team. It may also leave\\ntargets with a burn.",
+      "desc": "The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.",
+      "oldDesc": "The user cloaks itself with flame and attacks. Building up more power, it raises the user's Speed stat.",
       "location": ""
     },
     "tm44": {
       "name": "TM44",
-      "desc": "The user violently whirls its vines or\\ntentacles to harshly lash the\\nenemy team.",
+      "desc": "The user violently whirls its vines or tentacles to harshly lash the enemy team.",
+      "oldDesc": "The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.",
       "location": ""
     },
     "tm45": {
       "name": "TM45",
-      "desc": "The user lunges at the target, damaging\\nthem and lowering their Attack stat.",
+      "desc": "The user lunges at the target, damaging them and lowering their Attack stat.",
+      "oldDesc": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
       "location": ""
     },
     "tm46": {
       "name": "TM46",
-      "desc": "The user looses a blast of aura power\\nfrom deep within its body at the target.\\nThis move is certain to hit.",
+      "desc": "The user looses a blast of aura power from deep within its body at the target. This move is certain to hit.",
+      "oldDesc": "The user attacks and steals the target's held item simultaneously. It can't steal if the user holds an item.",
       "location": ""
     },
     "tm47": {
       "name": "TM47",
-      "desc": "The user delivers a double chop with its\\nforearms crossed. Hits all\\nenemies. Critical hits land more easily.",
+      "desc": "The user delivers a double chop with its forearms crossed. Hits all enemies. Critical hits land more easily.",
+      "oldDesc": "The user attacks the target's legs swiftly, reducing the target's Speed stat.",
       "location": "Wellspring Cave"
     },
     "tm48": {
       "name": "TM48",
-      "desc": "The user attacks by breathing a\\nspecial, magic fire. This lowers\\nthe target's Sp. Atk stat.",
+      "desc": "The user attacks by breathing a special, magic fire. This lowers the target's Sp. Atk stat.",
+      "oldDesc": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage.",
       "location": "Lostlorn Forest"
     },
     "tm49": {
       "name": "TM49",
-      "desc": "A harsh noise that may make the target\\nflinch. Can be used while asleep.",
+      "desc": "A harsh noise that may make the target flinch. Can be used while asleep.",
+      "oldDesc": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.",
       "location": "Castelia Sewers, Route 16"
     },
     "tm50": {
       "name": "TM50",
-      "desc": "The user attacks the target with\\na pulsing blast of water.\\nIt may confuse the target and can't miss.",
+      "desc": "The user attacks the target with a pulsing blast of water. It may confuse the target and can't miss.",
+      "oldDesc": "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.",
       "location": "Virbank City, N's Castle",
       "marts": [
         "Nimbasa TM Department"
@@ -156230,92 +156664,102 @@ overrides = {
     },
     "tm51": {
       "name": "TM51",
-      "desc": "The user teleports using a strange\\npower and switches its place with one of\\nits allies.",
+      "desc": "The user teleports using a strange power and switches its place with one of its allies.",
       "location": "Route 7"
     },
     "tm52": {
       "name": "TM52",
-      "desc": "The user heightens its mental focus and\\nunleashes its power.\\nIt may also lower the target's Sp. Def.",
+      "desc": "The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.",
       "location": "Wellspring Cave"
     },
     "tm53": {
       "name": "TM53",
-      "desc": "The user draws power from nature and\\nfires it at the target. It may also\\nlower the target's Sp. Def.",
+      "desc": "The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.",
       "location": ""
     },
     "tm54": {
       "name": "TM54",
-      "desc": "The user barrels through the foe team\\nwhile exhibiting overwhelming menace.\\nIt may also make targets flinch.",
+      "desc": "The user barrels through the foe team while exhibiting overwhelming menace. It may also make targets flinch.",
+      "oldDesc": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
       "location": ""
     },
     "tm55": {
       "name": "TM55",
-      "desc": "The user shoots boiling hot water at\\nits target. It may also leave the\\ntarget with a burn.",
+      "desc": "The user shoots boiling hot water at its target. It may also leave the target with a burn.",
       "location": "Route 6"
     },
     "tm56": {
       "name": "TM56",
-      "desc": "The user flings its held item at the\\ntarget as an attack. Its power and\\neffects depend on the item.",
+      "desc": "The user flings its held item at the target as an attack. Its power and effects depend on the item.",
       "location": ""
     },
     "tm57": {
       "name": "TM57",
-      "desc": "An attack move that varies in power and\\ntype depending on the weather.",
+      "desc": "An attack move that varies in power and type depending on the weather.",
+      "oldDesc": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
       "location": "Route 6"
     },
     "tm58": {
       "name": "TM58",
-      "desc": "The user attacks by wrapping its opponent\\nin a fierce wind that flies up into the sky.\\nIt may also confuse the target.",
+      "desc": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. It may also confuse the target.",
+      "oldDesc": "The user hurls the target into the air, then drops it on the second turn. The target cannot attack while in the air.",
       "location": ""
     },
     "tm59": {
       "name": "TM59",
-      "desc": "Spurred by frustration, the user attacks\\nthe target. If the user's previous move\\nfailed, the power of this move doubles.",
+      "desc": "Spurred by frustration, the user attacks the target. If the user's previous move failed, the power of this move doubles.",
+      "oldDesc": "The user attacks the target with fire. If the target is holding a Berry, the Berry becomes burnt up and unusable.",
       "location": "Route 4"
     },
     "tm60": {
       "name": "TM60",
-      "desc": "The user slams into the target like a\\ncrashing wave.\\nThis also damages the user.",
+      "desc": "The user slams into the target like a crashing wave. This also damages the user.",
+      "oldDesc": "The user suppresses the target and makes its move go last.",
       "location": ""
     },
     "tm61": {
       "name": "TM61",
-      "desc": "The user shoots a sinister, bluish-white\\nflame at the target to inflict a burn.",
+      "desc": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
       "location": "Celestial Rooftop"
     },
     "tm62": {
       "name": "TM62",
-      "desc": "The user nimbly strikes the target.\\nIf the user is not holding an item,\\nthis attack inflicts massive damage.",
+      "desc": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
       "location": ""
     },
     "tm63": {
       "name": "TM63",
-      "desc": "The user swings its body violently to\\ninflict damage and eliminate hazards.\\nReduces target's evasion.",
+      "desc": "The user swings its body violently to inflict damage and eliminate hazards. Reduces target's evasion.",
+      "oldDesc": "It prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
       "location": "Complex Exterior"
     },
     "tm64": {
       "name": "TM64",
-      "desc": "The user switches places with a party\\nPokémon in waiting, if any.",
+      "desc": "The user switches places with a party Pokémon in waiting, if any.",
+      "oldDesc": "The user explodes to inflict damage on those around it. The user faints upon using this move.",
       "location": "Humilau City, Celestial Tower"
     },
     "tm65": {
       "name": "TM65",
-      "desc": "The user slashes with a sharp claw\\nmade from shadows. It has a high\\ncritical-hit ratio.",
+      "desc": "The user slashes with a sharp claw made from shadows. It has a high critical-hit ratio.",
       "location": "Virbank Gate, Pokestar Studios, Abyssal Ruins"
     },
     "tm66": {
       "name": "TM66",
-      "desc": "The user attacks with a ray of light\\nthat sparkles like gemstones. This may\\nalso raise the User's Sp. Atk stat.",
+      "desc": "The user attacks with a ray of light that sparkles like gemstones. This may also raise the User's Sp. Atk stat.",
+      "oldDesc": "The user stores power, then attacks. If the user can use this attack after the target, its power is doubled.",
       "location": "Striaton City, Route 5"
     },
     "tm67": {
       "name": "TM67",
-      "desc": "The user attacks the target with a\\nsecret power. Its added effects vary\\ndepending on the user's environment.",
+      "desc": "The user attacks the target with a secret power. Its added effects vary depending on the user's environment.",
+      "oldDesc": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this attack's damage increases.",
       "location": "Plasma Frigate"
     },
     "tm68": {
       "name": "TM68",
-      "desc": "An attack move that inflicts double the\\ndamage if the user has been hurt by the\\ntarget in the same turn.",
+      "desc": "An attack move that inflicts double the damage if the user has been hurt by the target in the same turn.",
+      "oldDesc": "The user charges at the target using every bit of its power. The user must rest on the next turn.",
       "location": "",
       "marts": [
         "SM9 Middle Right Cashier"
@@ -156323,512 +156767,524 @@ overrides = {
     },
     "tm69": {
       "name": "TM69",
-      "desc": "The user shoots filthy garbage\\nat the target to attack.\\nIt may also poison the target.",
+      "desc": "The user shoots filthy garbage at the target to attack. It may also poison the target.",
+      "oldDesc": "The user polishes its body to reduce drag. It sharply raises the Speed stat.",
       "location": "Reversal Mountain, Reversal Mountain"
     },
     "tm70": {
       "name": "TM70",
-      "desc": "The user whips up a storm of diamonds to\\ndamage opposing Pokémon. This may also\\nraise the user's Defense stat.",
+      "desc": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also raise the user's Defense stat.",
+      "oldDesc": "The user flashes a bright light that cuts the target's accuracy. It can also be used to illuminate caves.",
       "location": ""
     },
     "tm71": {
       "name": "TM71",
-      "desc": "The user stabs the foe with\\nsharpened stones from below.\\nIt has a high critical-hit ratio.",
+      "desc": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
       "location": "Twist Mountain, Clay Tunnel"
     },
     "tm72": {
       "name": "TM72",
-      "desc": "After making its attack, the user\\nrushes back to switch places with\\na party Pokémon in waiting.",
+      "desc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
       "location": "Chargestone Cave, Victory Road"
     },
     "tm73": {
       "name": "TM73",
-      "desc": "A weak electric charge is launched\\nat the target. It causes paralysis\\nif it hits.",
+      "desc": "A weak electric charge is launched at the target. It causes paralysis if it hits.",
       "location": ""
     },
     "tm74": {
       "name": "TM74",
-      "desc": "The user tackles the target with a\\nhigh-speed spin. The slower the\\nuser, the greater the damage.",
+      "desc": "The user tackles the target with a high-speed spin. The slower the user, the greater the damage.",
       "location": ""
     },
     "tm75": {
       "name": "TM75",
-      "desc": "The user strikes the target with a fierce\\nblow. This attack always results in a\\ncritical hit.",
+      "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
+      "oldDesc": "A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.",
       "location": ""
     },
     "tm76": {
       "name": "TM76",
-      "desc": "The user creates a protective field that\\nprevents status problems and stat drops\\nfor five turns. ",
+      "desc": "The user creates a protective field that prevents status problems and stat drops for five turns. ",
+      "oldDesc": "Resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.",
       "location": ""
     },
     "tm77": {
       "name": "TM77",
-      "desc": "The user vibrates its wings to generate a\\ndamaging sound wave. It may also lower\\nthe target's Sp. Def stat.",
+      "desc": "The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.",
+      "oldDesc": "The user hypnotizes itself into copying any stat change made by the target.",
       "location": "Chargestone Cave"
     },
     "tm78": {
       "name": "TM78",
-      "desc": "The user stomps down on the ground\\nand attacks everything in the area.\\nThe targets' Speed stat is reduced.",
+      "desc": "The user stomps down on the ground and attacks everything in the area. The targets' Speed stat is reduced.",
       "location": "Route 4"
     },
     "tm79": {
       "name": "TM79",
-      "desc": "The target is attacked with a powerful\\nbeam. Cannot be used twice in a row.",
+      "desc": "The target is attacked with a powerful beam. Cannot be used twice in a row.",
+      "oldDesc": "The user blows a cold breath on the target. This attack always results in a critical hit.",
       "location": ""
     },
     "tm80": {
       "name": "TM80",
-      "desc": "Large boulders are hurled at the\\nopposing team to inflict damage. They\\nmay also make the targets flinch.",
+      "desc": "Large boulders are hurled at the opposing team to inflict damage. They may also make the targets flinch.",
       "location": "Relic Passage, Guidance Chamber"
     },
     "tm81": {
       "name": "TM81",
-      "desc": "The user slashes at the target by\\ncrossing its scythes or claws as if\\nthey were a pair of scissors.",
+      "desc": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
       "location": ""
     },
     "tm82": {
       "name": "TM82",
-      "desc": "The user knocks away the target and\\ndrags out another Pokémon in its party.\\nIn the wild, the battle ends.",
+      "desc": "The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends.",
       "location": ""
     },
     "tm83": {
       "name": "TM83",
-      "desc": "The user endures any attack with at least\\n1 HP. Its chance of failing rises if it is\\nused in succession.",
+      "desc": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+      "oldDesc": "The user is roused, and its Attack and Sp. Atk stats increase.",
       "location": "Desert Resort"
     },
     "tm84": {
       "name": "TM84",
-      "desc": "The target is stabbed with a tentacle\\nor arm steeped in poison. It may also\\npoison the target.",
+      "desc": "The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target.",
       "location": "Route 5"
     },
     "tm85": {
       "name": "TM85",
-      "desc": "The user roughouses with the target and\\nattacks them. This may also lower the\\ntarget's Attack stat.",
+      "desc": "The user roughouses with the target and attacks them. This may also lower the target's Attack stat.",
+      "oldDesc": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user's HP.",
       "location": ""
     },
     "tm86": {
       "name": "TM86",
-      "desc": "The user snares the target with grass\\nand trips it. The heavier the target,\\nthe greater the damage.",
+      "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
       "location": "Driftveil City, Pinwheel Forest, Abyssal Ruins"
     },
     "tm87": {
       "name": "TM87",
-      "desc": "The user attacks the target by smashing\\ninto it with incredible force.\\nIt may also confuse the target.",
+      "desc": "The user attacks the target by smashing into it with incredible force. It may also confuse the target.",
+      "oldDesc": "The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.",
       "location": ""
     },
     "tm88": {
       "name": "TM88",
-      "desc": "The user attacks by shooting muddy water\\nat the opposing team.\\nIt may also lower the targets' accuracy.",
+      "desc": "The user attacks by shooting muddy water at the opposing team. It may also lower the targets' accuracy.",
+      "oldDesc": "The user pecks the target. If the target is holding a Berry, the user plucks it and gains its effect.",
       "location": ""
     },
     "tm89": {
       "name": "TM89",
-      "desc": "After making its attack, the user\\nrushes back to switch places with a\\nparty Pokémon in waiting.",
+      "desc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
       "location": "Liberty Garden, Abyssal Ruins, Route 7"
     },
     "tm90": {
       "name": "TM90",
-      "desc": "The user steals the target's\\nenergy with a kiss, healing\\nthemselves with damage dealt.",
+      "desc": "The user steals the target's energy with a kiss, healing themselves with damage dealt.",
+      "oldDesc": "The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.",
       "location": "Driftveil City, Twist Mountain"
     },
     "tm91": {
       "name": "TM91",
-      "desc": "The user gathers all its light energy\\nand releases it at once. It may also\\nlower the target's Sp. Def stat.",
+      "desc": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
       "location": "Twist Mountain, Relic Passage"
     },
     "tm92": {
       "name": "TM92",
-      "desc": "A two-turn attack. The user gathers sunlight\\ninto a shining blade, striking next turn.\\nCharges instantly in harsh sunlight.",
+      "desc": "A two-turn attack. The user gathers sunlight into a shining blade, striking next turn. Charges instantly in harsh sunlight.",
+      "oldDesc": "The user creates a bizarre space in which slower Pokémon get to move first for five turns.",
       "location": "Abundant Shrine"
     },
     "hm01": {
       "name": "HM01",
-      "desc": "The target is cut with a scythe or claw.\\nIt can also be used to cut down thin\\ntrees.",
+      "desc": "The target is cut with a scythe or claw. It can also be used to cut down thin trees.",
       "location": ""
     },
     "hm02": {
       "name": "HM02",
-      "desc": "The user soars, then strikes on the\\nsecond turn. It can also be used to\\nfly to any familiar town.",
+      "desc": "The user soars, then strikes on the second turn. It can also be used to fly to any familiar town.",
       "location": "Dreamyard, Route 5"
     },
     "hm03": {
       "name": "HM03",
-      "desc": "It swamps the area around the user\\nwith a giant wave.\\nIt can also be used for crossing water.",
+      "desc": "It swamps the area around the user with a giant wave. It can also be used for crossing water.",
       "location": ""
     },
     "hm04": {
       "name": "HM04",
-      "desc": "The target is slugged with a punch\\nthrown at maximum power. This move can\\nalso be used to move boulders.",
+      "desc": "The target is slugged with a punch thrown at maximum power. This move can also be used to move boulders.",
       "location": ""
     },
     "hm05": {
       "name": "HM05",
-      "desc": "The user charges the target at an\\nawesome speed. It can also be used\\nto climb a waterfall.",
+      "desc": "The user charges the target at an awesome speed. It can also be used to climb a waterfall.",
       "location": ""
     },
     "hm06": {
       "name": "HM06",
-      "desc": "Diving on the first turn, the user\\nfloats up and attacks on the second.\\nIt can be used for diving in the ocean.",
+      "desc": "Diving on the first turn, the user floats up and attacks on the second. It can be used for diving in the ocean.",
       "location": ""
     },
     "explorerkit": {
       "name": "Explorer Kit",
-      "desc": "A bag filled with convenient tools\\nfor exploring. It provides access to\\nthe Underground.",
+      "desc": "A bag filled with convenient tools for exploring. It provides access to the Underground.",
       "location": ""
     },
     "lootsack": {
       "name": "Loot Sack",
-      "desc": "A sturdy, spacious bag that is used\\nto carry loot obtained in the coal\\nmine.",
+      "desc": "A sturdy, spacious bag that is used to carry loot obtained in the coal mine.",
       "location": ""
     },
     "rulebook": {
       "name": "Rule Book",
-      "desc": "It lists the rules for holding battles.\\nFor linked battles, you may choose\\nwhich set of rules you wish to use.",
+      "desc": "It lists the rules for holding battles. For linked battles, you may choose which set of rules you wish to use.",
       "location": ""
     },
     "pokéradar": {
       "name": "Poké Radar",
-      "desc": "A tool that can search out Pokémon\\nthat are hiding in grass. Its battery is\\nrecharged as you walk.",
+      "desc": "A tool that can search out Pokémon that are hiding in grass. Its battery is recharged as you walk.",
       "location": ""
     },
     "pointcard": {
       "name": "Point Card",
-      "desc": "A card that lists the Battle Points\\nyou have earned.\\n",
+      "desc": "A card that lists the Battle Points you have earned. ",
       "location": ""
     },
     "journal": {
       "name": "Journal",
-      "desc": "A notebook that keeps a day-to-day\\nrecord of your adventure so far.\\n",
+      "desc": "A notebook that keeps a day-to-day record of your adventure so far. ",
       "location": ""
     },
     "sealcase": {
       "name": "Seal Case",
-      "desc": "A case for storing Seals that can be\\napplied to the Capsule cases of\\nPoké Balls.",
+      "desc": "A case for storing Seals that can be applied to the Capsule cases of Poké Balls.",
       "location": ""
     },
     "fashioncase": {
       "name": "Fashion Case",
-      "desc": "A lovely case to store colorful Props\\nfor your Pokémon to wear in a musical.",
+      "desc": "A lovely case to store colorful Props for your Pokémon to wear in a musical.",
       "location": ""
     },
     "sealbag": {
       "name": "Seal Bag",
-      "desc": "A tiny bag that can hold 10 Seals for\\ndecorating Poké Balls.",
+      "desc": "A tiny bag that can hold 10 Seals for decorating Poké Balls.",
       "location": ""
     },
     "palpad": {
       "name": "Pal Pad",
-      "desc": "A convenient notepad that is used for\\nregistering your friends, Friend Codes,\\nand keeping a record of game play.",
+      "desc": "A convenient notepad that is used for registering your friends, Friend Codes, and keeping a record of game play.",
       "location": ""
     },
     "workskey": {
       "name": "Works Key",
-      "desc": "A large key for operating the doors of\\nthe Valley Windworks in the canyon.\\nIt was held by a Team Galactic Grunt.",
+      "desc": "A large key for operating the doors of the Valley Windworks in the canyon. It was held by a Team Galactic Grunt.",
       "location": ""
     },
     "oldcharm": {
       "name": "Old Charm",
-      "desc": "An ancient good-luck charm made of\\nPokémon bones to be taken to the elder\\nof Celestic Town.",
+      "desc": "An ancient good-luck charm made of Pokémon bones to be taken to the elder of Celestic Town.",
       "location": ""
     },
     "galactickey": {
       "name": "Galactic Key",
-      "desc": "A card key for disengaging security\\nsystems in the Galactic HQ. Losing it\\ncan result in punishment, apparently.",
+      "desc": "A card key for disengaging security systems in the Galactic HQ. Losing it can result in punishment, apparently.",
       "location": ""
     },
     "redchain": {
       "name": "Red Chain",
-      "desc": "A mythical chain that is said to link\\nthe legendary Pokémon that created\\nthe Sinnoh region.",
+      "desc": "A mythical chain that is said to link the legendary Pokémon that created the Sinnoh region.",
       "location": ""
     },
     "townmap": {
       "name": "Town Map",
-      "desc": "A very convenient map that can be\\nviewed anytime. It even shows your\\npresent location.",
+      "desc": "A very convenient map that can be viewed anytime. It even shows your present location.",
       "location": ""
     },
     "vsseeker": {
       "name": "Vs. Seeker",
-      "desc": "A device that indicates Trainers who\\nwant to battle. Its battery charges\\nwhile you walk.",
+      "desc": "A device that indicates Trainers who want to battle. Its battery charges while you walk.",
       "location": ""
     },
     "coincase": {
       "name": "Coin Case",
-      "desc": "A case for holding coins obtained at\\nthe Game Corner.\\nIt holds up to 50,000 coins.",
+      "desc": "A case for holding coins obtained at the Game Corner. It holds up to 50,000 coins.",
       "location": ""
     },
     "oldrod": {
       "name": "Old Rod",
-      "desc": "An old and beat-up fishing rod.\\nUse it by any body of water to fish for\\nwild aquatic Pokémon.",
+      "desc": "An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
       "location": ""
     },
     "goodrod": {
       "name": "Good Rod",
-      "desc": "A new, good-quality fishing rod.\\nUse it by any body of water to fish for\\nwild aquatic Pokémon.",
+      "desc": "A new, good-quality fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
       "location": ""
     },
     "superrod": {
       "name": "Super Rod",
-      "desc": "An awesome, high-tech fishing rod.\\nUse it by any body of water to fish for\\nwild aquatic Pokémon.",
+      "desc": "An awesome, high-tech fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
       "location": ""
     },
     "sprayduck": {
       "name": "Sprayduck",
-      "desc": "A watering can shaped like a Psyduck.\\nIt helps promote healthy growth of\\nBerries planted in soft soil.",
+      "desc": "A watering can shaped like a Psyduck. It helps promote healthy growth of Berries planted in soft soil.",
       "location": ""
     },
     "poffincase": {
       "name": "Poffin Case",
-      "desc": "A case for storing Poffin cooked from\\nBerries.\\n",
+      "desc": "A case for storing Poffin cooked from Berries. ",
       "location": ""
     },
     "bicycle": {
       "name": "Bicycle",
-      "desc": "A folding Bicycle that enables much\\nfaster movement than the Running\\nShoes.",
+      "desc": "A folding Bicycle that enables much faster movement than the Running Shoes.",
       "location": ""
     },
     "suitekey": {
       "name": "Suite Key",
-      "desc": "A key to one of the suites at the\\nluxury hotel by a lake. For some odd\\nreason, it often disappears.",
+      "desc": "A key to one of the suites at the luxury hotel by a lake. For some odd reason, it often disappears.",
       "location": ""
     },
     "oaksletter": {
       "name": "Oak's Letter",
-      "desc": "A letter from Prof. Oak.\\nWritten in it is a request for you to\\ngo to Rt. 224.",
+      "desc": "A letter from Prof. Oak. Written in it is a request for you to go to Rt. 224.",
       "location": ""
     },
     "lunarwing": {
       "name": "Lunar Wing",
-      "desc": "A feather that glows like the moon.\\nIt is said to possess the power to\\ndispel nightmares.",
+      "desc": "A feather that glows like the moon. It is said to possess the power to dispel nightmares.",
       "location": ""
     },
     "membercard": {
       "name": "Member Card",
-      "desc": "A card needed for entering the inn in\\nCanalave City. Oddly, the last date\\nmarked on it was 50 years ago.",
+      "desc": "A card needed for entering the inn in Canalave City. Oddly, the last date marked on it was 50 years ago.",
       "location": ""
     },
     "azureflute": {
       "name": "Azure Flute",
-      "desc": "A flute that puts out echoing sounds\\nthat do not seem to be of this world.\\nIt is unknown who made it.",
+      "desc": "A flute that puts out echoing sounds that do not seem to be of this world. It is unknown who made it.",
       "location": ""
     },
     "ssticket": {
       "name": "S.S. Ticket",
-      "desc": "The ticket required for sailing on the\\nferry S.S. Aqua. It has a drawing of a\\nship on it.",
+      "desc": "The ticket required for sailing on the ferry S.S. Aqua. It has a drawing of a ship on it.",
       "location": ""
     },
     "contestpass": {
       "name": "Contest Pass",
-      "desc": "The pass required for entering Pokémon\\nContests. It has a drawing of an award\\nribbon on it.",
+      "desc": "The pass required for entering Pokémon Contests. It has a drawing of an award ribbon on it.",
       "location": ""
     },
     "magmastone": {
       "name": "Magma Stone",
-      "desc": "A stone formed when boulders melted in\\nintensely hot magma, then hardened.\\nMagma remains sealed inside.",
+      "desc": "A stone formed when boulders melted in intensely hot magma, then hardened. Magma remains sealed inside.",
       "location": ""
     },
     "parcel": {
       "name": "Parcel",
-      "desc": "A parcel entrusted in your care.\\nYou are supposed to deliver it to your\\nchildhood friend who left Twinleaf Town.",
+      "desc": "A parcel entrusted in your care. You are supposed to deliver it to your childhood friend who left Twinleaf Town.",
       "location": ""
     },
     "coupon1": {
       "name": "Coupon 1",
-      "desc": "A coupon to be exchanged for a\\nPokémon Watch (Pokétch for short).\\nThree coupons are needed.",
+      "desc": "A coupon to be exchanged for a Pokémon Watch (Pokétch for short). Three coupons are needed.",
       "location": ""
     },
     "coupon2": {
       "name": "Coupon 2",
-      "desc": "A coupon to be exchanged for a\\nPokémon Watch (Pokétch for short).\\nThree coupons are needed.",
+      "desc": "A coupon to be exchanged for a Pokémon Watch (Pokétch for short). Three coupons are needed.",
       "location": ""
     },
     "coupon3": {
       "name": "Coupon 3",
-      "desc": "A coupon to be exchanged for a\\nPokémon Watch (Pokétch for short).\\nThree coupons are needed.",
+      "desc": "A coupon to be exchanged for a Pokémon Watch (Pokétch for short). Three coupons are needed.",
       "location": ""
     },
     "storagekey": {
       "name": "Storage Key",
-      "desc": "The key to Team Galactic's sinister\\nwarehouse located at the edge of\\nVeilstone City.",
+      "desc": "The key to Team Galactic's sinister warehouse located at the edge of Veilstone City.",
       "location": ""
     },
     "secretpotion": {
       "name": "SecretPotion",
-      "desc": "A fantastic medicine dispensed by the\\npharmacy in Cianwood City. It fully\\nheals a Pokémon of any ailment.",
+      "desc": "A fantastic medicine dispensed by the pharmacy in Cianwood City. It fully heals a Pokémon of any ailment.",
       "location": ""
     },
     "vsrecorder": {
       "name": "Vs. Recorder",
-      "desc": "An amazing device that can record a\\nbattle either between friends or at a\\nspecial battle facility.",
+      "desc": "An amazing device that can record a battle either between friends or at a special battle facility.",
       "location": ""
     },
     "gracidea": {
       "name": "Gracidea",
-      "desc": "A flower sometimes bundled in bouquets\\nto convey gratitude on special\\noccasions like birthdays.",
+      "desc": "A flower sometimes bundled in bouquets to convey gratitude on special occasions like birthdays.",
       "location": ""
     },
     "secretkey": {
       "name": "Secret Key",
-      "desc": "A high-tech key that has to be used at\\na specific location. It emits a special\\nelectric signal to open a door.",
+      "desc": "A high-tech key that has to be used at a specific location. It emits a special electric signal to open a door.",
       "location": ""
     },
     "apricornbox": {
       "name": "Apricorn Box",
-      "desc": "A handy box where you can store up to\\n99 Apricorns of each kind.",
+      "desc": "A handy box where you can store up to 99 Apricorns of each kind.",
       "location": ""
     },
     "unownreport": {
       "name": "Unown Report",
-      "desc": "A report of all the discovered kinds\\nof Unown.",
+      "desc": "A report of all the discovered kinds of Unown.",
       "location": ""
     },
     "berrypots": {
       "name": "Berry Pots",
-      "desc": "Handy containers for cultivating\\nBerries wherever you go.",
+      "desc": "Handy containers for cultivating Berries wherever you go.",
       "location": ""
     },
     "dowsingmchn": {
       "name": "Dowsing MCHN",
-      "desc": "It checks for unseen items in the area\\nand makes noise and lights when it\\nfinds something.",
+      "desc": "It checks for unseen items in the area and makes noise and lights when it finds something.",
       "location": ""
     },
     "bluecard": {
       "name": "Blue Card",
-      "desc": "A card to save points for the\\nBuena's Password show.",
+      "desc": "A card to save points for the Buena's Password show.",
       "location": ""
     },
-    "slowpoketail": {
+    "slowpokétail": {
       "name": "SlowpokeTail",
-      "desc": "A very tasty tail of something.\\nIt sells for a high price.",
+      "desc": "A very tasty tail of something. It sells for a high price.",
       "location": ""
     },
     "clearbell": {
       "name": "Clear Bell",
-      "desc": "A very old-fashioned bell that makes a\\ngentle ringing.",
+      "desc": "A very old-fashioned bell that makes a gentle ringing.",
       "location": ""
     },
     "cardkey": {
       "name": "Card Key",
-      "desc": "A card key that opens a shutter in the\\nRadio Tower.",
+      "desc": "A card key that opens a shutter in the Radio Tower.",
       "location": ""
     },
     "basementkey": {
       "name": "Basement Key",
-      "desc": "A key that opens a door in the\\nGoldenrod Tunnel.",
+      "desc": "A key that opens a door in the Goldenrod Tunnel.",
       "location": ""
     },
     "squirtbottle": {
       "name": "SquirtBottle",
-      "desc": "A bottle used for watering plants in the\\nBerry Pots.",
+      "desc": "A bottle used for watering plants in the Berry Pots.",
       "location": ""
     },
     "redscale": {
       "name": "Red Scale",
-      "desc": "A scale from the red Gyarados. It glows\\nred like a flame.",
+      "desc": "A scale from the red Gyarados. It glows red like a flame.",
       "location": ""
     },
     "lostitem": {
       "name": "Lost Item",
-      "desc": "The Mime Jr. doll that was lost by\\nthe Copycat.",
+      "desc": "The Mime Jr. doll that was lost by the Copycat.",
       "location": ""
     },
     "pass": {
       "name": "Pass",
-      "desc": "A ticket required for riding the Magnet\\nTrain. It allows you to ride whenever\\nand however much you'd like.",
+      "desc": "A ticket required for riding the Magnet Train. It allows you to ride whenever and however much you'd like.",
       "location": ""
     },
     "machinepart": {
       "name": "Machine Part",
-      "desc": "An important machine part for the\\nPower Plant that was stolen.",
+      "desc": "An important machine part for the Power Plant that was stolen.",
       "location": ""
     },
     "silverwing": {
       "name": "Silver Wing",
-      "desc": "A strange, silvery feather\\nthat sparkles.",
+      "desc": "A strange, silvery feather that sparkles.",
       "location": ""
     },
     "rainbowwing": {
       "name": "Rainbow Wing",
-      "desc": "A mystical rainbow feather\\nthat sparkles.",
+      "desc": "A mystical rainbow feather that sparkles.",
       "location": ""
     },
     "mysteryegg": {
       "name": "Mystery Egg",
-      "desc": "A mysterious Egg obtained from Mr.\\nPokémon. What's in the Egg is unknown.",
+      "desc": "A mysterious Egg obtained from Mr. Pokémon. What's in the Egg is unknown.",
       "location": ""
     },
     "redapricorn": {
       "name": "Red Apricorn",
-      "desc": "A red Apricorn.\\nIt assails your nostrils.",
+      "desc": "A red Apricorn. It assails your nostrils.",
       "location": ""
     },
     "bluapricorn": {
       "name": "Blu Apricorn",
-      "desc": "A blue Apricorn.\\nIt smells a bit like grass.",
+      "desc": "A blue Apricorn. It smells a bit like grass.",
       "location": ""
     },
     "ylwapricorn": {
       "name": "Ylw Apricorn",
-      "desc": "A yellow Apricorn.\\nIt has an invigorating scent.",
+      "desc": "A yellow Apricorn. It has an invigorating scent.",
       "location": ""
     },
     "grnapricorn": {
       "name": "Grn Apricorn",
-      "desc": "A green Apricorn.\\nIt has a mysterious, aromatic scent.",
+      "desc": "A green Apricorn. It has a mysterious, aromatic scent.",
       "location": ""
     },
     "pnkapricorn": {
       "name": "Pnk Apricorn",
-      "desc": "A pink Apricorn.\\nIt has a nice, sweet scent.",
+      "desc": "A pink Apricorn. It has a nice, sweet scent.",
       "location": ""
     },
     "whtapricorn": {
       "name": "Wht Apricorn",
-      "desc": "A white Apricorn.\\nIt doesn't smell like anything.",
+      "desc": "A white Apricorn. It doesn't smell like anything.",
       "location": ""
     },
     "blkapricorn": {
       "name": "Blk Apricorn",
-      "desc": "A black Apricorn\\nIt has an indescribable scent.",
+      "desc": "A black Apricorn It has an indescribable scent.",
       "location": ""
     },
     "fastball": {
       "name": "Fast Ball",
-      "desc": "A Poké Ball that makes it easier to\\ncatch Pokémon which are quick to\\nrun away.",
+      "desc": "A Poké Ball that makes it easier to catch Pokémon which are quick to run away.",
       "location": ""
     },
     "levelball": {
       "name": "Level Ball",
-      "desc": "A Poké Ball for catching Pokémon that\\nare a lower level than your own.",
+      "desc": "A Poké Ball for catching Pokémon that are a lower level than your own.",
       "location": ""
     },
     "lureball": {
       "name": "Lure Ball",
-      "desc": "A Poké Ball for catching Pokémon hooked\\nby a Rod when fishing.",
+      "desc": "A Poké Ball for catching Pokémon hooked by a Rod when fishing.",
       "location": ""
     },
     "heavyball": {
       "name": "Heavy Ball",
-      "desc": "A Poké Ball for catching very heavy\\nPokémon.",
+      "desc": "A Poké Ball for catching very heavy Pokémon.",
       "location": ""
     },
     "loveball": {
       "name": "Love Ball",
-      "desc": "Poké Ball for catching Pokémon that are\\nthe opposite gender of your Pokémon.",
+      "desc": "Poké Ball for catching Pokémon that are the opposite gender of your Pokémon.",
       "location": ""
     },
     "friendball": {
       "name": "Friend Ball",
-      "desc": "A Poké Ball that makes caught Pokémon\\nmore friendly.",
+      "desc": "A Poké Ball that makes caught Pokémon more friendly.",
       "location": ""
     },
     "moonball": {
       "name": "Moon Ball",
-      "desc": "A Poké Ball for catching Pokémon that\\nevolve using the Moon Stone.",
+      "desc": "A Poké Ball for catching Pokémon that evolve using the Moon Stone.",
       "location": ""
     },
     "sportball": {
       "name": "Sport Ball",
-      "desc": "A special Poké Ball for the\\nBug-Catching Contest.",
+      "desc": "A special Poké Ball for the Bug-Catching Contest.",
       "location": ""
     },
     "parkball": {
@@ -156838,410 +157294,473 @@ overrides = {
     },
     "photoalbum": {
       "name": "Photo Album",
-      "desc": "A nice photo album for storing all the\\nphotos taken along your adventure.",
+      "desc": "A nice photo album for storing all the photos taken along your adventure.",
       "location": ""
     },
     "gbsounds": {
       "name": "GB Sounds",
-      "desc": "A music player that allows you to listen\\nto nostalgic songs. It's operated with\\na single switch.",
+      "desc": "A music player that allows you to listen to nostalgic songs. It's operated with a single switch.",
       "location": ""
     },
     "tidalbell": {
       "name": "Tidal Bell",
-      "desc": "A very old-fashioned bell that makes a\\ngentle ringing.",
+      "desc": "A very old-fashioned bell that makes a gentle ringing.",
       "location": ""
     },
     "ragecandybar": {
       "name": "RageCandyBar",
-      "desc": "A famous Mahogany Town candy tourists\\nlike to buy and take home. It restores\\nthe HP of one Pokémon by 20 points.",
+      "desc": "A famous Mahogany Town candy tourists like to buy and take home. It restores the HP of one Pokémon by 20 points.",
       "location": ""
     },
     "hardymint": {
       "name": "Hardy Mint",
-      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
+      "desc": "When a Pokémon smells this mint, all of its stats will grow at an equal rate.",
+      "oldDesc": null,
+      "new": true,
       "location": "Dragonspiral Tower"
     },
     "lonelymint": {
       "name": "Lonely Mint",
-      "desc": "When a Pokémon smells this mint, its\\nAttack will grow more easily, but its\\nDefense will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Attack will grow more easily, but its Defense will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "bravemint": {
       "name": "Brave Mint",
-      "desc": "When a Pokémon smells this mint, its\\nAttack will grow more easily, but its\\nSpeed will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Attack will grow more easily, but its Speed will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "adamantmint": {
       "name": "Adamant Mint",
-      "desc": "When a Pokémon smells this mint, its\\nAttack will grow more easily, but its\\nSpecial Attack will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Attack will grow more easily, but its Special Attack will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "naughtymint": {
       "name": "Naughty Mint",
-      "desc": "When a Pokémon smells this mint, its\\nAttack will grow more easily, but its\\nSpecial Defense will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Attack will grow more easily, but its Special Defense will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "boldmint": {
       "name": "Bold Mint",
-      "desc": "When a Pokémon smells this mint, its\\nDefense will grow more easily, but its\\nAttack will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Defense will grow more easily, but its Attack will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "docilemint": {
       "name": "Docile Mint",
-      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
+      "desc": "When a Pokémon smells this mint, all of its stats will grow at an equal rate.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "relaxedmint": {
       "name": "Relaxed Mint",
-      "desc": "When a Pokémon smells this mint, its\\nDefense will grow more easily, but its\\nSpeed will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Defense will grow more easily, but its Speed will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": "Driftveil City, Join Avenue"
     },
     "impishmint": {
       "name": "Impish Mint",
-      "desc": "When a Pokémon smells this mint, its\\nDefense will grow more easily, but its\\nSpecial Attack will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Defense will grow more easily, but its Special Attack will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "laxmint": {
       "name": "Lax Mint",
-      "desc": "When a Pokémon smells this mint, its\\nDefense will grow more easily, but its\\nSpecial Defense will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Defense will grow more easily, but its Special Defense will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "timidmint": {
       "name": "Timid Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpeed will grow more easily, but its\\nAttack will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Speed will grow more easily, but its Attack will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "hastymint": {
       "name": "Hasty Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpeed will grow more easily, but its\\nDefense will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Speed will grow more easily, but its Defense will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "seriousmint": {
       "name": "Serious Mint",
-      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
+      "desc": "When a Pokémon smells this mint, all of its stats will grow at an equal rate.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "jollymint": {
       "name": "Jolly Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpeed will grow more easily, but its\\nSpecial Attack will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Speed will grow more easily, but its Special Attack will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "naivemint": {
       "name": "Naive Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpeed will grow more easily, but its\\nSpecial Defense will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Speed will grow more easily, but its Special Defense will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": "Virbank City, Victory Road"
     },
     "modestmint": {
       "name": "Modest Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpecial Attack will grow more easily, but\\nits Attack will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Special Attack will grow more easily, but its Attack will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "mildmint": {
       "name": "Mild Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpecial Attack will grow more easily, but\\nits Defense will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Special Attack will grow more easily, but its Defense will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": "Celestial Rooftop, Moor of Icirrus, Aspertia Gate"
     },
     "quietmint": {
       "name": "Quiet Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpecial Attack will grow more easily, but\\nits Speed will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Special Attack will grow more easily, but its Speed will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "bashfulmint": {
       "name": "Bashful Mint",
-      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
+      "desc": "When a Pokémon smells this mint, all of its stats will grow at an equal rate.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "rashmint": {
       "name": "Rash Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpecial Attack will grow more easily, but\\nits Special Defense will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Special Attack will grow more easily, but its Special Defense will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "calmmint": {
       "name": "Calm Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpecial Defense will grow more easily, but\\nits Attack will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Special Defense will grow more easily, but its Attack will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "gentlemint": {
       "name": "Gentle Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpecial Defense will grow more easily, but\\nits Defense will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Special Defense will grow more easily, but its Defense will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "sassymint": {
       "name": "Sassy Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpecial Defense will grow more easily, but\\nits Speed will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Special Defense will grow more easily, but its Speed will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "carefulmint": {
       "name": "Careful Mint",
-      "desc": "When a Pokémon smells this mint, its\\nSpecial Defense will grow more easily, but\\nits Special Attack will grow more slowly.",
+      "desc": "When a Pokémon smells this mint, its Special Defense will grow more easily, but its Special Attack will grow more slowly.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "quirkymint": {
       "name": "Quirky Mint",
-      "desc": "When a Pokémon smells this mint, all of\\nits stats will grow at an equal rate.",
+      "desc": "When a Pokémon smells this mint, all of its stats will grow at an equal rate.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "ivenhancer": {
       "name": "IV Enhancer",
-      "desc": "An item that can be administered to a\\nPokémon to maximize one of their IVs.",
+      "desc": "An item that can be administered to a Pokémon to maximize one of their IVs.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "ivmaximizer": {
       "name": "IV Maximizer",
-      "desc": "An item that can be administered to a\\nPokémon to maximize all their IVs.",
+      "desc": "An item that can be administered to a Pokémon to maximize all their IVs.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "jadeorb": {
       "name": "Jade Orb",
-      "desc": "A shiny green orb that is said to have\\na legend and has a deep connection with\\nthe Hoenn region.",
+      "desc": "A shiny green orb that is said to have a legend and has a deep connection with the Hoenn region.",
       "location": ""
     },
     "lockcapsule": {
       "name": "Lock Capsule",
-      "desc": "A sturdy Capsule that can only be\\nopened with a special key.",
+      "desc": "A sturdy Capsule that can only be opened with a special key.",
       "location": ""
     },
     "redorb": {
       "name": "Red Orb",
-      "desc": "A shiny red orb that is said to have\\na legend and has a deep connection with\\nthe Hoenn region.",
+      "desc": "A shiny red orb that is said to have a legend and has a deep connection with the Hoenn region.",
       "location": ""
     },
     "blueorb": {
       "name": "Blue Orb",
-      "desc": "A shiny blue orb that is said to have\\na legend and has a deep connection with\\nthe Hoenn region.",
+      "desc": "A shiny blue orb that is said to have a legend and has a deep connection with the Hoenn region.",
       "location": ""
     },
     "enigmastone": {
       "name": "Enigma Stone",
-      "desc": "A crystal ball that was excavated from\\nthe ground. A very beautiful stone that\\nis covered with bits of rock and earth.",
+      "desc": "A crystal ball that was excavated from the ground. A very beautiful stone that is covered with bits of rock and earth.",
       "location": ""
     },
     "prismscale": {
       "name": "Prism Scale",
-      "desc": "A mysterious scale that evolves\\ncertain Pokémon.\\nIt shines in rainbow colors.",
+      "desc": "A mysterious scale that evolves certain Pokémon. It shines in rainbow colors.",
       "location": "Route 1"
     },
     "eviolite": {
       "name": "Eviolite",
-      "desc": "A mysterious evolutionary lump. When\\nheld, it raises the Defense and Sp. Def\\nof a Pokémon that can still evolve.",
+      "desc": "A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def of a Pokémon that can still evolve.",
       "location": ""
     },
     "ejectpack": {
       "name": "Eject Pack",
-      "desc": "An item to be held by a Pokémon.\\nIf the holder's stats are lowered, it\\nwill be switched out of battle.",
+      "desc": "An item to be held by a Pokémon. If the holder's stats are lowered, it will be switched out of battle.",
+      "oldDesc": null,
+      "new": true,
       "location": "Twist Mountain"
     },
     "rockyhelmet": {
       "name": "Rocky Helmet",
-      "desc": "If the holder of this item takes damage,\\nthe attacker will also be damaged\\nupon contact.",
+      "desc": "If the holder of this item takes damage, the attacker will also be damaged upon contact.",
       "location": "PWT"
     },
     "airballoon": {
       "name": "Air Balloon",
-      "desc": "When held by a Pokémon, the Pokémon\\nwill float into the air. When the holder\\nis attacked, this item will burst.",
+      "desc": "When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.",
       "location": ""
     },
     "redcard": {
       "name": "Red Card",
-      "desc": "A card with a mysterious power. When\\nthe holder is struck by a foe, the\\nattacker is removed from battle.",
+      "desc": "A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.",
       "location": ""
     },
     "covertcloak": {
       "name": "Covert Cloak",
-      "desc": "A hooded cloak to be held by a Pokémon.\\nIt conceals the holder, protecting it\\nfrom the additional effects of moves.",
+      "desc": "A hooded cloak to be held by a Pokémon. It conceals the holder, protecting it from the additional effects of moves.",
+      "oldDesc": null,
+      "new": true,
       "location": "Celestial Rooftop"
     },
     "teraplate": {
       "name": "Tera Plate",
-      "desc": "An item that transform's the user's type.\\nBoosts the damage of moves\\nof their tera type.",
+      "desc": "An item that transform's the user's type. Boosts the damage of moves of their tera type.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "absorbbulb": {
       "name": "Absorb Bulb",
-      "desc": "A consumable bulb. If the holder is hit\\nby a Water-type move, its Sp. Atk\\nwill rise.",
+      "desc": "A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.",
       "location": "Route 16, Accumula Town"
     },
     "cellbattery": {
       "name": "Cell Battery",
-      "desc": "A consumable battery. If the\\nholder is hit by an Electric-type\\nmove, its Attack will rise.",
+      "desc": "A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise.",
       "location": ""
     },
     "ejectbutton": {
       "name": "Eject Button",
-      "desc": "If the holder is hit by an attack, it will\\nswitch with another Pokémon in\\nyour party.",
+      "desc": "If the holder is hit by an attack, it will switch with another Pokémon in your party.",
       "location": "Twist Mountain"
     },
     "firegem": {
       "name": "Fire Gem",
-      "desc": "A gem with an essence of fire. When\\nheld, it strengthens the power of a\\nFire-type move only once.",
+      "desc": "A gem with an essence of fire. When held, it strengthens the power of a Fire-type move only once.",
       "location": "Abyssal Ruins, Clay Tunnel"
     },
     "watergem": {
       "name": "Water Gem",
-      "desc": "A gem with an essence of water. When\\nheld, it strengthens the power of a\\nWater-type move only once.",
+      "desc": "A gem with an essence of water. When held, it strengthens the power of a Water-type move only once.",
       "location": "Abyssal Ruins, Clay Tunnel"
     },
     "electricgem": {
       "name": "Electric Gem",
-      "desc": "A gem with an essence of electricity.\\nWhen held, it strengthens the power of\\nan Electric-type move only once.",
+      "desc": "A gem with an essence of electricity. When held, it strengthens the power of an Electric-type move only once.",
       "location": "Chargestone Cave, Chargestone Cave, Abyssal Ruins, Clay Tunnel"
     },
     "grassgem": {
       "name": "Grass Gem",
-      "desc": "A gem with an essence of nature. When\\nheld, it strengthens the power of a\\nGrass-type move only once.",
+      "desc": "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move only once.",
       "location": "Abyssal Ruins, Clay Tunnel"
     },
     "icegem": {
       "name": "Ice Gem",
-      "desc": "A gem with an essence of ice. When held,\\nit strengthens the power of an\\nIce-type move only once.",
+      "desc": "A gem with an essence of ice. When held, it strengthens the power of an Ice-type move only once.",
       "location": "Abyssal Ruins, Clay Tunnel"
     },
     "fightinggem": {
       "name": "Fighting Gem",
-      "desc": "A gem with an essence of combat. When\\nheld, it strengthens the power of a\\nFighting-type move only once.",
+      "desc": "A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move only once.",
       "location": "Dreamyard, Clay Tunnel"
     },
     "poisongem": {
       "name": "Poison Gem",
-      "desc": "A gem with an essence of poison. When\\nheld, it strengthens the power of a\\nPoison-type move only once.",
+      "desc": "A gem with an essence of poison. When held, it strengthens the power of a Poison-type move only once.",
       "location": "Clay Tunnel"
     },
     "groundgem": {
       "name": "Ground Gem",
-      "desc": "A gem with an essence of land. When\\nheld, it strengthens the power of a\\nGround-type move only once.",
+      "desc": "A gem with an essence of land. When held, it strengthens the power of a Ground-type move only once.",
       "location": "Abyssal Ruins, Clay Tunnel"
     },
     "flyinggem": {
       "name": "Flying Gem",
-      "desc": "A gem with an essence of air. When held,\\nit strengthens the power of a\\nFlying-type move only once.",
+      "desc": "A gem with an essence of air. When held, it strengthens the power of a Flying-type move only once.",
       "location": "Abyssal Ruins, Clay Tunnel"
     },
     "psychicgem": {
       "name": "Psychic Gem",
-      "desc": "A gem with an essence of the mind. When\\nheld, it strengthens the power of a\\nPsychic-type move only once.",
+      "desc": "A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move only once.",
       "location": "Clay Tunnel"
     },
     "buggem": {
       "name": "Bug Gem",
-      "desc": "A gem with an insect-like essence.\\nWhen held, it strengthens the power of\\na Bug-type move only once.",
+      "desc": "A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move only once.",
       "location": "Dreamyard, Clay Tunnel"
     },
     "rockgem": {
       "name": "Rock Gem",
-      "desc": "A gem with an essence of rock. When\\nheld, it strengthens the power of a\\nRock-type move only once.",
+      "desc": "A gem with an essence of rock. When held, it strengthens the power of a Rock-type move only once.",
       "location": "Abyssal Ruins, Clay Tunnel"
     },
     "ghostgem": {
       "name": "Ghost Gem",
-      "desc": "A gem with a spectral essence. When\\nheld, it strengthens the power of a\\nGhost-type move only once.",
+      "desc": "A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move only once.",
       "location": "Dreamyard, Clay Tunnel"
     },
     "dragongem": {
       "name": "Dragon Gem",
-      "desc": "A gem with a draconic essence.\\nWhen held, it strengthens the power\\nof a Dragon-type move only once.",
+      "desc": "A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move only once.",
       "location": "Abyssal Ruins, Clay Tunnel, Moor of Icirrus, Anville Town"
     },
     "darkgem": {
       "name": "Dark Gem",
-      "desc": "A gem with an essence of darkness.\\nWhen held, it strengthens the power of\\na Dark-type move only once.",
+      "desc": "A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move only once.",
       "location": "Clay Tunnel"
     },
     "steelgem": {
       "name": "Steel Gem",
-      "desc": "A gem with an essence of steel. When\\nheld, it strengthens the power of a\\nSteel-type move only once.",
+      "desc": "A gem with an essence of steel. When held, it strengthens the power of a Steel-type move only once.",
       "location": "Abyssal Ruins, Clay Tunnel"
     },
     "normalgem": {
       "name": "Normal Gem",
-      "desc": "A gem with an ordinary essence. When\\nheld, it strengthens the power of a\\nNormal-type move only once.",
+      "desc": "A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move only once.",
       "location": "Castelia Sewers, Abyssal Ruins, Virbank Complex, Clay Tunnel, Route 16"
     },
     "healthwing": {
       "name": "Health Wing",
-      "desc": "An item for use on a Pokémon. It\\nslightly increases the base HP of a\\nsingle Pokémon.",
+      "desc": "An item for use on a Pokémon. It slightly increases the base HP of a single Pokémon.",
       "location": ""
     },
     "musclewing": {
       "name": "Muscle Wing",
-      "desc": "An item for use on a Pokémon. It\\nslightly increases the base Attack stat\\nof a single Pokémon.",
+      "desc": "An item for use on a Pokémon. It slightly increases the base Attack stat of a single Pokémon.",
       "location": ""
     },
     "resistwing": {
       "name": "Resist Wing",
-      "desc": "An item for use on a Pokémon. It\\nslightly increases the base Defense\\nstat of a single Pokémon.",
+      "desc": "An item for use on a Pokémon. It slightly increases the base Defense stat of a single Pokémon.",
       "location": ""
     },
     "geniuswing": {
       "name": "Genius Wing",
-      "desc": "An item for use on a Pokémon. It\\nslightly increases the base Sp. Atk\\nstat of a single Pokémon.",
+      "desc": "An item for use on a Pokémon. It slightly increases the base Sp. Atk stat of a single Pokémon.",
       "location": ""
     },
     "cleverwing": {
       "name": "Clever Wing",
-      "desc": "An item for use on a Pokémon. It\\nslightly increases the base Sp. Def\\nstat of a single Pokémon.",
+      "desc": "An item for use on a Pokémon. It slightly increases the base Sp. Def stat of a single Pokémon.",
       "location": ""
     },
     "swiftwing": {
       "name": "Swift Wing",
-      "desc": "An item for use on a Pokémon. It\\nslightly increases the base Speed stat\\nof a single Pokémon.",
+      "desc": "An item for use on a Pokémon. It slightly increases the base Speed stat of a single Pokémon.",
       "location": ""
     },
     "prettywing": {
       "name": "Pretty Wing",
-      "desc": "Though this feather is beautiful, it's\\njust a regular feather and has no\\neffect on Pokémon.",
+      "desc": "Though this feather is beautiful, it's just a regular feather and has no effect on Pokémon.",
       "location": ""
     },
     "coverfossil": {
       "name": "Cover Fossil",
-      "desc": "A fossil of an ancient Pokémon that\\nlived in the sea in ancient times.\\nIt appears to be part of its back.",
+      "desc": "A fossil of an ancient Pokémon that lived in the sea in ancient times. It appears to be part of its back.",
       "location": "Relic Sanctum, Abyssal Ruins, Relic Passage"
     },
     "plumefossil": {
       "name": "Plume Fossil",
-      "desc": "A fossil of an ancient Pokémon that\\nflew in the sky in ancient times.\\nIt appears to be part of its wing.",
+      "desc": "A fossil of an ancient Pokémon that flew in the sky in ancient times. It appears to be part of its wing.",
       "location": ""
     },
     "libertypass": {
       "name": "Liberty Pass",
-      "desc": "A special pass to go to Liberty Garden.\\nBoard the ship in Castelia City.",
+      "desc": "A special pass to go to Liberty Garden. Board the ship in Castelia City.",
       "location": ""
     },
     "passorb": {
       "name": "Pass Orb",
-      "desc": "A mysterious orb containing the power\\nof the Unova region, to be used when\\ngenerating Pass Power.",
+      "desc": "A mysterious orb containing the power of the Unova region, to be used when generating Pass Power.",
       "location": ""
     },
     "dreamball": {
       "name": "Dream Ball",
-      "desc": "A special Poké Ball that appears out of\\nnowhere in a bag at the Entree Forest.\\nIt can catch any Pokémon.",
+      "desc": "A special Poké Ball that appears out of nowhere in a bag at the Entree Forest. It can catch any Pokémon.",
       "location": ""
     },
     "pokétoy": {
       "name": "Poké Toy",
-      "desc": "An item that attracts Pokémon.\\nUse it to flee from any battle with a\\nwild Pokémon.",
+      "desc": "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
       "location": "",
+      "rewards": [
+        "Preschooler Evan"
+      ],
       "marts": [
         "SM9 Bottom Section"
       ]
     },
     "propcase": {
       "name": "Prop Case",
-      "desc": "A lovely case to store colorful Props\\nfor your Pokémon to wear in a musical.",
+      "desc": "A lovely case to store colorful Props for your Pokémon to wear in a musical.",
       "location": ""
     },
     "dragonskull": {
       "name": "Dragon Skull",
-      "desc": "A skull of a Pokémon which was said to\\nhave braved the angry waters to fly\\naround the world.",
+      "desc": "A skull of a Pokémon which was said to have braved the angry waters to fly around the world.",
       "location": ""
     },
     "balmmushroom": {
       "name": "BalmMushroom",
-      "desc": "A rare mushroom which gives off a nice\\nfragrance.\\nA maniac will buy it for a high price.",
+      "desc": "A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price.",
       "location": ""
     },
     "bignugget": {
       "name": "Big Nugget",
-      "desc": "A big nugget of pure gold that gives off\\na lustrous gleam.\\nA maniac will buy it for a high price.",
+      "desc": "A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.",
       "location": "Twist Mountain, Nature Preserve, Route 3",
       "wilds": [
         "Garbodor"
@@ -157249,192 +157768,192 @@ overrides = {
     },
     "pearlstring": {
       "name": "Pearl String",
-      "desc": "Very large pearls that sparkle in a\\npretty silver color.\\nA maniac will buy them for a high price.",
+      "desc": "Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.",
       "location": "Route 17"
     },
     "cometshard": {
       "name": "Comet Shard",
-      "desc": "A shard which fell to the ground when\\na comet approached.\\nA maniac will buy it for a high price.",
+      "desc": "A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.",
       "location": ""
     },
     "reliccopper": {
       "name": "Relic Copper",
-      "desc": "A copper coin used in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
+      "desc": "A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
       "location": ""
     },
     "relicsilver": {
       "name": "Relic Silver",
-      "desc": "A silver coin used in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
+      "desc": "A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
       "location": ""
     },
     "relicgold": {
       "name": "Relic Gold",
-      "desc": "A gold coin used in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
+      "desc": "A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
       "location": ""
     },
     "relicvase": {
       "name": "Relic Vase",
-      "desc": "A vase made in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
+      "desc": "A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
       "location": ""
     },
     "relicband": {
       "name": "Relic Band",
-      "desc": "A bracelet made in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
+      "desc": "A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
       "location": ""
     },
     "relicstatue": {
       "name": "Relic Statue",
-      "desc": "A stone figure made in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
+      "desc": "A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
       "location": ""
     },
     "reliccrown": {
       "name": "Relic Crown",
-      "desc": "A crown made in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
+      "desc": "A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
       "location": ""
     },
     "casteliacone": {
       "name": "Casteliacone",
-      "desc": "Castelia City's specialty, soft-serve\\nice cream. It heals all the status\\nproblems of a single Pokémon.",
+      "desc": "Castelia City's specialty, soft-serve ice cream. It heals all the status problems of a single Pokémon.",
       "location": ""
     },
     "direhit2": {
       "name": "Dire Hit 2",
-      "desc": "It can be used many times to raise the\\ncritical-hit ratio of one Pokémon. It\\nwears off if the Pokémon is withdrawn.",
+      "desc": "It can be used many times to raise the critical-hit ratio of one Pokémon. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspeed2": {
       "name": "X Speed 2",
-      "desc": "It sharply raises the Speed stat of a\\nPokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "It sharply raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspecial2": {
       "name": "X Special 2",
-      "desc": "It sharply raises the Sp. Atk stat of a\\nPokémon in battle. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It sharply raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspdef2": {
       "name": "X Sp. Def 2",
-      "desc": "It sharply raises the Sp. Def stat of a\\nPokémon in battle. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It sharply raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xdefend2": {
       "name": "X Defend 2",
-      "desc": "It sharply raises the Defense stat\\nof a Pokémon in battle. It wears off\\nif the Pokémon is withdrawn.",
+      "desc": "It sharply raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xattack2": {
       "name": "X Attack 2",
-      "desc": "It sharply raises the Attack stat of a\\nPokémon in battle. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It sharply raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xaccuracy2": {
       "name": "X Accuracy 2",
-      "desc": "It sharply raises the accuracy of a\\nPokémon in battle. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It sharply raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspeed3": {
       "name": "X Speed 3",
-      "desc": "It drastically raises the Speed stat of\\na Pokémon in battle. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It drastically raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspecial3": {
       "name": "X Special 3",
-      "desc": "It drastically raises the Sp. Atk stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "It drastically raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspdef3": {
       "name": "X Sp. Def 3",
-      "desc": "It drastically raises the Sp. Def stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "It drastically raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xdefend3": {
       "name": "X Defend 3",
-      "desc": "It drastically raises the Defense stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "It drastically raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xattack3": {
       "name": "X Attack 3",
-      "desc": "It drastically raises the Attack stat\\nof a Pokémon in battle. It wears off if\\nthe Pokémon is withdrawn.",
+      "desc": "It drastically raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xaccuracy3": {
       "name": "X Accuracy 3",
-      "desc": "It drastically raises the accuracy of a\\nPokémon in battle. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It drastically raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspeed6": {
       "name": "X Speed 6",
-      "desc": "It raises the Speed stat of a Pokémon\\nin battle immensely. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It raises the Speed stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspecial6": {
       "name": "X Special 6",
-      "desc": "It raises the Sp. Atk stat of a Pokémon\\nin battle immensely. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It raises the Sp. Atk stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xspdef6": {
       "name": "X Sp. Def 6",
-      "desc": "It raises the Sp. Def stat of a Pokémon\\nin battle immensely. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It raises the Sp. Def stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xdefend6": {
       "name": "X Defend 6",
-      "desc": "It raises the Defense stat of a Pokémon\\nin battle immensely. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It raises the Defense stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xattack6": {
       "name": "X Attack 6",
-      "desc": "It raises the Attack stat of a Pokémon\\nin battle immensely. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It raises the Attack stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "xaccuracy6": {
       "name": "X Accuracy 6",
-      "desc": "It raises the accuracy of a Pokémon in\\nbattle immensely. It wears off if the\\nPokémon is withdrawn.",
+      "desc": "It raises the accuracy of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "abilityurge": {
       "name": "Ability Urge",
-      "desc": "When used, it activates the Ability of\\nan ally Pokémon.",
+      "desc": "When used, it activates the Ability of an ally Pokémon.",
       "location": ""
     },
     "itemdrop": {
       "name": "Item Drop",
-      "desc": "When used, it causes an ally Pokémon\\nto drop a held item.",
+      "desc": "When used, it causes an ally Pokémon to drop a held item.",
       "location": ""
     },
     "itemurge": {
       "name": "Item Urge",
-      "desc": "When used, it causes an ally Pokémon\\nto use its held item.",
+      "desc": "When used, it causes an ally Pokémon to use its held item.",
       "location": ""
     },
     "reseturge": {
       "name": "Reset Urge",
-      "desc": "When used, it restores any stat\\nchanges of an ally Pokémon.",
+      "desc": "When used, it restores any stat changes of an ally Pokémon.",
       "location": ""
     },
     "direhit3": {
       "name": "Dire Hit 3",
-      "desc": "It can be used many times to greatly\\nraise a Pokémon's critical-hit ratio. It\\nwears off if the Pokémon is withdrawn.",
+      "desc": "It can be used many times to greatly raise a Pokémon's critical-hit ratio. It wears off if the Pokémon is withdrawn.",
       "location": ""
     },
     "lightstone": {
       "name": "Light Stone",
-      "desc": "Reshiram's body was destroyed and\\nchanged into this stone. It is said to\\nbe waiting for the emergence of a hero.",
+      "desc": "Reshiram's body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero.",
       "location": ""
     },
     "darkstone": {
       "name": "Dark Stone",
-      "desc": "Zekrom's body was destroyed and\\nchanged into this stone. It is said to\\nbe waiting for the emergence of a hero.",
+      "desc": "Zekrom's body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero.",
       "location": ""
     },
     "tm93": {
       "name": "TM93",
-      "desc": "The user shrouds itself in electricity\\nand smashes into its target.\\nIt also damages the user a little.",
+      "desc": "The user shrouds itself in electricity and smashes into its target. It also damages the user a little.",
       "location": "Victory Road, Victory Road"
     },
     "tm94": {
       "name": "TM94",
-      "desc": "The user attacks with a punch that can\\nshatter a rock. It may also lower the\\ntarget's Defense stat.",
+      "desc": "The user attacks with a punch that can shatter a rock. It may also lower the target's Defense stat.",
       "location": "Pledge Grove",
       "marts": [
         "Nimbasa TM Department"
@@ -157442,77 +157961,78 @@ overrides = {
     },
     "tm95": {
       "name": "TM95",
-      "desc": "The user charges at the target using\\nevery bit of its power. Cannot be used\\ntwice in a row.",
+      "desc": "The user charges at the target using every bit of its power. Cannot be used twice in a row.",
+      "oldDesc": "The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.",
       "location": ""
     },
     "xtransceiver": {
       "name": "Xtransceiver",
-      "desc": "A high-tech transceiver with a\\ncamera function. It allows up to\\nfour-way calls.",
+      "desc": "A high-tech transceiver with a camera function. It allows up to four-way calls.",
       "location": ""
     },
     "gram1": {
       "name": "Gram 1",
-      "desc": "An important letter which\\nWingull delivers.",
+      "desc": "An important letter which Wingull delivers.",
       "location": ""
     },
     "gram2": {
       "name": "Gram 2",
-      "desc": "An important letter which\\nWingull delivers.",
+      "desc": "An important letter which Wingull delivers.",
       "location": ""
     },
     "gram3": {
       "name": "Gram 3",
-      "desc": "An important letter which\\nWingull delivers.",
+      "desc": "An important letter which Wingull delivers.",
       "location": ""
     },
     "medalbox": {
       "name": "Medal Box",
-      "desc": "A box-shaped machine\\nthat stores Medals and\\nMedal information.",
+      "desc": "A box-shaped machine that stores Medals and Medal information.",
       "location": ""
     },
     "dnasplicers": {
       "name": "DNA Splicers",
-      "desc": "A splicer that separates Kyurem\\nand a certain Pokémon when\\nthey are fused.",
+      "desc": "A splicer that separates Kyurem and a certain Pokémon when they are fused.",
       "location": ""
     },
     "permit": {
       "name": "Permit",
-      "desc": "A permit needed\\nto enter the Nature Preserve.\\nOnly a few know about this place.",
+      "desc": "A permit needed to enter the Nature Preserve. Only a few know about this place.",
       "location": ""
     },
     "ovalcharm": {
       "name": "Oval Charm",
-      "desc": "An oval charm said to increase the\\nchance of Eggs being found\\nat the Day Care.",
+      "desc": "An oval charm said to increase the chance of Eggs being found at the Day Care.",
       "location": ""
     },
     "shinycharm": {
       "name": "Shiny Charm",
-      "desc": "A shiny charm said to increase\\nthe chance of finding a\\nShiny Pokémon.",
+      "desc": "A shiny charm said to increase the chance of finding a Shiny Pokémon.",
       "location": ""
     },
     "plasmacard": {
       "name": "Plasma Card",
-      "desc": "A card key needed to enter the\\npassword inside the\\nPlasma Frigate.",
+      "desc": "A card key needed to enter the password inside the Plasma Frigate.",
       "location": ""
     },
     "grubbyhanky": {
       "name": "Grubby Hanky",
-      "desc": "A handkerchief dropped by\\na regular at Café Warehouse.\\nIt smells faintly like a Pokémon.",
+      "desc": "A handkerchief dropped by a regular at Café Warehouse. It smells faintly like a Pokémon.",
       "location": ""
     },
     "colressmchn": {
       "name": "Colress MCHN",
-      "desc": "A special device that wrings out\\nthe potential of Pokémon.\\nIt is an imperfect prototype.",
+      "desc": "A special device that wrings out the potential of Pokémon. It is an imperfect prototype.",
       "location": ""
     },
     "droppeditem": {
       "name": "Dropped Item",
-      "desc": "The Xtransceiver found at the\\nNimbasa City amusement park.\\nIt seems it belongs to a girl.",
+      "desc": "The Xtransceiver found at the Nimbasa City amusement park. It seems it belongs to a girl.",
       "location": ""
     },
     "revealglass": {
       "name": "Reveal Glass",
-      "desc": "A glass that reveals the truth.\\nIt is a mysterious glass that returns\\na Pokémon back to its original shape.",
+      "desc": "A glass that reveals the truth. It is a mysterious glass that returns a Pokémon back to its original shape.",
       "location": ""
     }
   }

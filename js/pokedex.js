@@ -29,6 +29,16 @@ var PokedexItemPanel = PokedexResultPanel.extend({
     }
     id = toID(id);
     var item = Dex.items.get(id);
+
+    overrideData = {}
+    if (localStorage.overrides) {
+      overrideData = JSON.parse(localStorage.overrides).items[id]
+    } else {
+      overrideData = item
+    }
+
+    
+
     this.shortTitle = item.name;
 
     var buf = '<div class="pfx-body dexentry">';
@@ -42,7 +52,18 @@ var PokedexItemPanel = PokedexResultPanel.extend({
       '" data-target="push" class="subtle">' +
       item.name +
       "</a></h1>";
-    buf += "<p>" + Dex.escapeHTML(item.desc || item.shortDesc) + "</p>";
+
+
+
+    if (overrideData.oldDesc) {
+      const oldDesc = overrideData.oldDesc;
+      const newDesc = overrideData.desc || overrideData.shortDesc || "";
+      buf += `<p class="vanilla-text"><span class="desc-label">Old:</span><span class="desc-body">${Dex.escapeHTML(oldDesc)}</span></p>`;
+      buf += `<p class="new-text"><span class="desc-label">New:</span> <span class="desc-body">${highlightChanged(oldDesc, newDesc)}</span></p>`;
+    } else {
+      buf += "<p>" + Dex.escapeHTML(item.desc || item.shortDesc) + "</p>";
+    }
+    
 
     if (overrides.items[id] && overrides.items[id]["location"]) {
        buf += "<h3>Found on ground: </h3><p>" + Dex.escapeHTML(overrides.items[id]["location"]) + "</p>";
@@ -88,6 +109,15 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
   initialize: function (id) {
     id = toID(id);
     var ability = Dex.abilities.get(id);
+
+    overrideData = {}
+    if (localStorage.overrides) {
+      overrideData = JSON.parse(localStorage.overrides).abilities[id]
+    } else {
+      overrideData = ability
+    }
+
+
     this.id = id;
     this.shortTitle = ability.name;
 
@@ -101,8 +131,18 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
       ability.name +
       "</a></h1>";
 
+
+    console.log(overrideData)
+    if (overrideData.oldDesc) {
+      const oldDesc = overrideData.oldDesc;
+      const newDesc = overrideData.desc || overrideData.shortDesc || "";
+      buf += `<p class="vanilla-text"><span class="desc-label">Old:</span><span class="desc-body">${Dex.escapeHTML(oldDesc)}</span></p>`;
+      buf += `<p class="new-text"><span class="desc-label">New:</span> <span class="desc-body">${highlightChanged(oldDesc, newDesc)}</span></p>`;
+    } else {
+      buf += "<p>" + Dex.escapeHTML(ability.desc) + "</p>";
+    }
  
-    buf += "<p>" + Dex.escapeHTML(ability.desc) + "</p>";
+    
 
 
 
