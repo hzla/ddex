@@ -241,7 +241,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         if (itemData[1] != "None") {
           buf += `5% <a href="/items/${cleanString(itemData[1])}">${itemData[1]}</a> `           
         }
-        if (itemData[2] != "None") {
+        if (itemData[2] != "None" && itemData[2]) {
           buf += `1% <a href="/items/${cleanString(itemData[0])}">${itemData[2]}</a>`           
         }
 
@@ -260,6 +260,9 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     if (template.evos) {
       buf += '<table class="evos"><tr><td>';
       var evos = [template];
+
+
+
 
       var seenEvos = []
       var stopSearch = false;
@@ -286,6 +289,9 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
           }
           var evoIndex = parseInt(i)
 
+          // console.log(template.name)
+          // console.log(this.getEvoMethod(template))
+
           if (basePokemon.evoMethods && basePokemon.evoMethods.length > 0) {
             if (typeof evos[0] === "string") {
               var nextEvos = BattlePokedex[cleanString(evos[i])].evos
@@ -304,7 +310,20 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
                 prevo = BattlePokedex[cleanString(evos[i])].prevo
               }
 
+
+
               evoData = BattlePokedex[cleanString(prevo)].evoParams[evoIndex]
+
+              console.log(BattlePokedex[cleanString(prevo)].name)
+              console.log(BattlePokedex[cleanString(prevo)].evoMethods)
+              
+
+              if (evoData.length == 0 && BattlePokedex[cleanString(prevo)].evoMethods[0] == "levelFriendship") {
+                evoData = "Max Happiness"
+              }
+
+
+
               seenEvos.push(evos[i])
               currentPrevo = nextPrevo
 

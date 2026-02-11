@@ -10,6 +10,39 @@ Dex.escapeHTML = function (str, jsEscapeToo) {
   return str;
 };
 
+
+function frameIndexFromOrientation(numFrames, orientation) {
+  var map;
+  if (numFrames <= 1) return 0;
+  if (numFrames <= 4) map = [0, 1, 2, 3];
+  else if (numFrames <= 8) map = [0, 2, 4, 6];
+  else if (numFrames <= 16) map = [0, 11, 2, 4];
+  else map = [0, 27, 2, 4];
+  return (map[orientation] !== undefined) ? map[orientation] : map[map.length - 1];
+}
+
+function renderNpcSprites(root) {
+  var scope = root || document;
+  var els = scope.querySelectorAll('.npc-sprite[data-sprite-id]');
+  for (var i = 0; i < els.length; i++) {
+    (function () {
+      var el = els[i];
+      var spriteID = el.getAttribute('data-sprite-id');
+      var orientation = parseInt(el.getAttribute('data-orientation') || '0', 10);
+      var url = '/img/sprites/' + spriteID + '.png';
+      var img = new Image();
+      img.onload = function () {
+        var numFrames = Math.max(1, Math.floor(img.naturalHeight / 32));
+        var idx = frameIndexFromOrientation(numFrames, orientation);
+        el.style.backgroundImage = 'url("' + url + '")';
+        el.style.backgroundSize = '32px ' + (numFrames * 32) + 'px';
+        el.style.backgroundPosition = '0px ' + (-idx * 32) + 'px';
+      };
+      img.src = url;
+    })();
+  }
+}
+
 var Topbar = Panels.Topbar.extend({
   height: 51,
 });
@@ -69,6 +102,26 @@ var PokedexItemPanel = PokedexResultPanel.extend({
        buf += "<h3>Found on ground: </h3><p>" + Dex.escapeHTML(overrides.items[id]["location"]) + "</p>";
     }
 
+    if (overrides.items[id] && overrides.items[id]["ground_locations"]) {
+       buf += "<h3>Found on ground: </h3><p>" 
+       for (let loc of overrides.items[id]["ground_locations"]) {
+         buf += `${Dex.escapeHTML(BattleLocationdex[loc].name)}, `
+       }
+       buf +=  "</p>";
+    }
+
+    if (overrides.items[id] && overrides.items[id]["npcs"]) {
+       buf += "<h3>Given by NPC: </h3>";
+       for (let npc of overrides.items[id]["npcs"]) {
+         const locName = BattleLocationdex[npc.location] ? BattleLocationdex[npc.location].name : npc.location;
+         buf += `<div class="npc-row" style="display:flex;align-items:center;gap:8px;margin:4px 0;margin-left: 10px">` +
+           `<div class="npc-sprite" data-sprite-id="${npc.spriteID}" data-orientation="${npc.orientation}" ` +
+           `style="width:32px;height:32px;background-repeat:no-repeat;image-rendering:pixelated;"></div>` +
+           `<span> ${Dex.escapeHTML(locName)}</span>` +
+           `</div>`;
+       }
+    }
+
     if (overrides.items[id] && overrides.items[id]["rewards"]) {
        buf += "<h3>Rewarded after defeating: </h3><p>" 
 
@@ -102,6 +155,7 @@ var PokedexItemPanel = PokedexResultPanel.extend({
     buf += "</div>";
 
     this.html(buf);
+    renderNpcSprites(this.$el && this.$el[0]);
   },
 });
 
@@ -985,6 +1039,7 @@ var PokedexCategoryPanel = PokedexResultPanel.extend({
     buf += "</div>";
 
     this.html(buf);
+    renderNpcSprites(this.$el && this.$el[0]);
   },
 });
 

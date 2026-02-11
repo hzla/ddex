@@ -55,7 +55,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         ) {
           let enc = BattleLocationdex[location][encType]["encs"][i];
           let min = enc.mn;
-          let max = enc.mx;
+          let max = enc.mx || enc.mn;
           let mon = cleanString(enc.s);
           results.push(
             `${encTypeIndex}` + formatRate(BattleLocationdex["rates"][encType][i]) + formatRange(min, max) + mon,
