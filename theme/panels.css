@@ -278,6 +278,74 @@ a.button {
     cursor: pointer;
 }	
 
+#rom-upload-panel {
+	position: absolute;
+	bottom: 10px;
+	left: 150px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 6px 10px;
+	border: 1px solid #B38CFF;
+	border-radius: 5px;
+	background: #2b2b2b;
+	color: #e8e8e8;
+}
+
+#rom-upload-panel label {
+	font-size: 12px;
+}
+
+#rom-upload-panel input[type="file"] {
+	font-size: 12px;
+	color: #e8e8e8;
+	background: #2b2b2b;
+	border: 1px solid #444;
+	border-radius: 4px;
+	padding: 2px 6px;
+}
+
+#rom-upload-panel input[type="file"]::file-selector-button {
+	border: 1px solid #B38CFF;
+	background: #2b2b2b;
+	color: #e8e8e8;
+	border-radius: 4px;
+	padding: 2px 8px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+#rom-upload-panel input[type="file"]::-webkit-file-upload-button {
+	border: 1px solid #B38CFF;
+	background: #2b2b2b;
+	color: #e8e8e8;
+	border-radius: 4px;
+	padding: 2px 8px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+#rom-status {
+	margin-left: 6px;
+	font-size: 11px;
+	color: #cfcfcf;
+	max-width: 260px;
+	white-space: pre-wrap;
+}
+
+@media (max-width: 520px) {
+	#rom-upload-panel {
+		left: 10px;
+		right: 10px;
+		bottom: 60px;
+		flex-wrap: wrap;
+	}
+	#rom-status {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
 .pfx-body, h2.pfx-body {
 	max-width: 720px;
 	margin: 0 auto;

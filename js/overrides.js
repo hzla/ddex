@@ -1,5 +1,7 @@
 params = new URLSearchParams(window.location.search);
-game = params.get('game') || localStorage.game
+const gameParam = params.get('game');
+const romOverrideActive = localStorage.romOverrides === "1";
+game = gameParam || (romOverrideActive ? null : localStorage.game);
 gameTitles = {
 	"vintagewhiteplus": "Vintage White+",
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
@@ -14,20 +16,141 @@ truncatedSpeciesNames = {
 	"fletcinder": "fletchinder"
 }
 
-if (
-  localStorage.overrides &&
-  !['/', '/index.html'].includes(window.location.pathname)
-) {
-  console.log("loading custom data from cache")
-  overrideDexData(JSON.parse(localStorage.overrides))
-} else {
+const ROM_CACHE_FLAG = "romOverrides";
+const ROM_KEYS = {
+  overrides: "overrides",
+  searchIndex: "searchindex",
+  searchIndexOffset: "searchindex_offset",
+  searchIndexCount: "searchindex_count",
+  title: "gameTitle",
+};
 
+function setDexTitle(title) {
+  if (!title) return;
+  const el = document.getElementById("dex-title");
+  if (el) {
+    el.textContent = `${title} Pokedex`;
+  }
+}
+
+function applySearchIndex(searchIndex, offsets, counts) {
+  if (Array.isArray(searchIndex)) window.BattleSearchIndex = searchIndex;
+  if (Array.isArray(offsets)) window.BattleSearchIndexOffset = offsets;
+  if (counts && typeof counts === "object") window.BattleSearchCountIndex = counts;
+}
+
+function applyRomOverridesFromCache() {
+  if (localStorage[ROM_CACHE_FLAG] !== "1") return false;
+  try {
+    const overrides = JSON.parse(localStorage[ROM_KEYS.overrides] || "null");
+    const searchIndex = JSON.parse(localStorage[ROM_KEYS.searchIndex] || "null");
+    const searchIndexOffset = JSON.parse(localStorage[ROM_KEYS.searchIndexOffset] || "null");
+    const searchIndexCount = JSON.parse(localStorage[ROM_KEYS.searchIndexCount] || "null");
+    const title = localStorage[ROM_KEYS.title];
+    if (!overrides || !searchIndex || !searchIndexOffset || !searchIndexCount) return false;
+    overrideDexData(overrides);
+    applySearchIndex(searchIndex, searchIndexOffset, searchIndexCount);
+    setDexTitle(title);
+    window.DDEX_ROM_OVERRIDES = { overrides, searchIndex, searchIndexOffset, searchIndexCount, title };
+    console.log("Loaded ROM overrides from cache");
+    return true;
+  } catch (e) {
+    console.warn("Failed to load ROM overrides from cache", e);
+    return false;
+  }
+}
+
+if (!params.get('game')) {
+  applyRomOverridesFromCache();
+}
+
+function clearRomCache() {
+  localStorage.removeItem(ROM_CACHE_FLAG);
+  localStorage.removeItem(ROM_KEYS.overrides);
+  localStorage.removeItem(ROM_KEYS.searchIndex);
+  localStorage.removeItem(ROM_KEYS.searchIndexOffset);
+  localStorage.removeItem(ROM_KEYS.searchIndexCount);
+  localStorage.removeItem(ROM_KEYS.title);
 }
 
 $(document).on('click', '#reset-cache', function() {
-	delete localStorage.overrides
-	location.reload()
+  delete localStorage.overrides
+  clearRomCache();
+  location.reload()
 })
+
+function setRomStatus(msg, isErr) {
+  const prefix = isErr ? "[error] " : "";
+  if (isErr) console.error(`${prefix}${msg}`);
+  else console.log(msg);
+}
+
+let romModulesLoaded = false;
+async function ensureRomModulesLoaded() {
+  if (romModulesLoaded) return;
+  if (!window.BattleTypeChart) {
+    await checkAndLoadScript("/data/typechart.js?v0");
+  }
+  if (!window.GEN4_SYMBOLS) {
+    await checkAndLoadScript("/rom/gen4_symbols.js");
+  }
+  if (!window.PLATINUM_SCRCMD_DB) {
+    await checkAndLoadScript("/rom/platinum_scrcmd_database.js");
+  }
+  if (!window.HGSS_SCRCMD_DB) {
+    await checkAndLoadScript("/rom/hgss_scrcmd_database.js");
+  }
+  romModulesLoaded = true;
+}
+
+async function ensureRomExporterLoaded() {
+  if (typeof window.buildOverridesFromRom === "function") return;
+  if (window.__romLoaderReady) return;
+  await new Promise((resolve, reject) => {
+    const timeout = setTimeout(() => {
+      reject(new Error("ROM exporter module not loaded. Make sure /rom/loader.js is reachable."));
+    }, 3000);
+    window.addEventListener(
+      "rom-loader-ready",
+      () => {
+        clearTimeout(timeout);
+        resolve();
+      },
+      { once: true }
+    );
+  });
+  if (typeof window.buildOverridesFromRom !== "function") {
+    throw new Error("ROM exporter module not loaded. Make sure /rom/loader.js is reachable.");
+  }
+}
+
+$(document).on('change', '#rom-upload', async function(e) {
+  const file = e.target.files && e.target.files[0];
+  if (!file) return;
+  try {
+    setRomStatus(`Loading ROM: ${file.name}`);
+    await ensureRomModulesLoaded();
+    await ensureRomExporterLoaded();
+    const buf = await file.arrayBuffer();
+    const result = await window.buildOverridesFromRom(buf, { log: (msg) => setRomStatus(msg) });
+    overrideDexData(result.overrides);
+    applySearchIndex(result.searchIndex, result.searchIndexOffset, result.searchIndexCount);
+    setDexTitle(result.romTitle);
+    if (result.itemLocationStats) {
+      setRomStatus(`Item locations (event=${result.itemLocationStats.eventScriptCount}, script=${result.itemLocationStats.scriptParseCount})`);
+    }
+
+    localStorage[ROM_CACHE_FLAG] = "1";
+    localStorage[ROM_KEYS.overrides] = JSON.stringify(result.overrides);
+    localStorage[ROM_KEYS.searchIndex] = JSON.stringify(result.searchIndex);
+    localStorage[ROM_KEYS.searchIndexOffset] = JSON.stringify(result.searchIndexOffset);
+    localStorage[ROM_KEYS.searchIndexCount] = JSON.stringify(result.searchIndexCount);
+    localStorage[ROM_KEYS.title] = result.romTitle;
+    setRomStatus("ROM overrides loaded and cached.");
+  } catch (err) {
+    setRomStatus(err.message || String(err), true);
+  }
+});
 
 
 $(document).ready(function() {

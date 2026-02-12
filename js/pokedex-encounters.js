@@ -17,7 +17,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       "</a></h1>";
 
     // distribution
-    buf += '<ul class="utilichart metricchart nokbd">';
+    buf += '<ul class="utilichart metricchart nokbd encounterchart">';
     buf += "</ul>";
 
     buf += "</div>";
@@ -31,8 +31,10 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
 
     var location = this.id;
     var results = [];
+    var levelMins = {};
 
     var formatRate = function (i) {
+      if (i === undefined || i === null || Number.isNaN(i)) return "    ";
       return i.toString().padStart(2, "z") + "% ";
     };
 
@@ -56,9 +58,20 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
           let enc = BattleLocationdex[location][encType]["encs"][i];
           let min = enc.mn;
           let max = enc.mx || enc.mn;
+          if (!enc || !enc.s || enc.s === "-----") continue;
           let mon = cleanString(enc.s);
+          if (!mon) continue;
+          const rates = BattleLocationdex["rates"] ? BattleLocationdex["rates"][encType] : undefined;
+          const rateVal = Array.isArray(rates) ? rates[i] : undefined;
+          const levelShown =
+            max && max > 0 ? max : min && min > 0 ? min : 0;
+          if (levelShown > 0) {
+            const prevMin = levelMins[encTypeIndex];
+            levelMins[encTypeIndex] =
+              prevMin === undefined ? levelShown : Math.min(prevMin, levelShown);
+          }
           results.push(
-            `${encTypeIndex}` + formatRate(BattleLocationdex["rates"][encType][i]) + formatRange(min, max) + mon,
+            `${encTypeIndex}` + formatRate(rateVal) + formatRange(min, max) + mon,
           );
         }
       }
@@ -74,6 +87,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       }
       last = results[i].charAt(0);
     }
+    this.levelMins = levelMins;
     return (this.results = results);
   },
   renderDistribution: function () {
@@ -137,9 +151,39 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         ""
       );
     } else {
-      var desc = results[i].substr(1, 3).replace("z", "");
-      // desc += results[i].substr(4,8)
-      return BattleSearch.renderTaggedLocationRowInner(template, desc);
+      var rateTag = results[i].substr(1, 4).trim().replace("z", "");
+      var minLevel = parseInt(results[i].substr(5, 3), 10);
+      var maxLevel = parseInt(results[i].substr(9, 3), 10);
+      var desc = rateTag || "";
+      var levelValue = "";
+      var levelShown = 0;
+      if (!Number.isNaN(maxLevel) && maxLevel > 0) {
+        levelValue = "Lv " + maxLevel;
+        levelShown = maxLevel;
+      } else if (!Number.isNaN(minLevel) && minLevel > 0) {
+        levelValue = "Lv " + minLevel;
+        levelShown = minLevel;
+      }
+      var levelClass = "col levelcol";
+      var encTypeIndex = results[i].charAt(0);
+      var minForType = this.levelMins
+        ? this.levelMins[encTypeIndex]
+        : undefined;
+      if (
+        levelShown > 0 &&
+        minForType !== undefined &&
+        levelShown > minForType
+      ) {
+        levelClass += " levelcol-high";
+      }
+      var row = BattleSearch.renderTaggedLocationRowInner(template, desc);
+      if (row.indexOf('class="col tagcol') !== -1) {
+        row = row.replace(
+          /(<span class="col tagcol[^>]*>[^<]*<\/span>)/,
+          `$1 <span class="${levelClass}">${levelValue}</span> `,
+        );
+      }
+      return row;
     }
   },
   handleScroll: function () {

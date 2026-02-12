@@ -1084,13 +1084,16 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       if (typeof for_mode == "undefined" || !("encs" in for_mode)) {
         return 0;
       }
+      if (!rates || !Array.isArray(rates[enc_mode])) {
+        return 0;
+      }
 
       let sum_rate = 0;
       for (let i = 0; i < for_mode["encs"].length; i++) {
         let slot = for_mode["encs"][i];
         let species = cleanString(slot["s"]);
         if (species === pokemon) {
-           sum_rate += rates[enc_mode][i];
+           sum_rate += rates[enc_mode][i] || 0;
         }
       }
 
@@ -1143,6 +1146,9 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         let rate = location.substr(2, 4).replace("z", "").replace("z", "");
         let zoneid = location.slice(7);
         let zone = BattleLocationdex[zoneid];
+        if (!zone || !zone.name) {
+          continue;
+        }
         buf += BattleSearch.renderTaggedEncounterRow(zone, rate);
       }
     }

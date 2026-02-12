@@ -527,3 +527,45 @@ h1 a, h1 a.subtle {
 .tabbar .button.nav-last {
 	border-top-right-radius: 5px;
 }
+
+#rom-upload-panel {
+	margin: 14px 0 0 0;
+    padding: 10px 12px;
+    border: 1px solid #B38CFF;
+    border-radius: 5px;
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    height: 21px;
+}
+
+#rom-upload-panel label {
+	font-size: 12px;
+}
+
+#rom-upload-panel input[type="file"] {
+	margin-left: 6px;
+}
+
+#rom-status {
+	width: 100%;
+	font-size: 12px;
+	white-space: pre-wrap;
+	color: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+	#rom-upload-panel {
+		background: #202124;
+		border-color: #3a3b3c;
+		color: #e2e2e2;
+	}
+	#rom-status {
+		color: #c9c9c9;
+	}
+	#rom-upload-panel input[type="file"] {
+		color: #e2e2e2;
+	}
+}

@@ -213,6 +213,46 @@ ul {
 	color: #f8f8f2;
 	font-size: 10pt;
 }
+.utilichart .levelcol {
+	padding-top: 6px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 24px;
+	width: 46px;
+	border-right: 1px solid #CCCCCC;
+	margin-right: 5px;
+	text-align: center;
+	color: #f8f8f2;
+	font-size: 10pt;
+}
+.utilichart .levelcol-high {
+	color: #1abc9c;
+}
+.utilichart.encounterchart .tagcol {
+	width: 30px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.utilichart.encounterchart .levelcol {
+	width: 40px;
+}
+.utilichart.encounterchart .shortpokemonnamecol {
+	width: 92px;
+}
+.utilichart.encounterchart li > a {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+.utilichart.encounterchart .col {
+	float: none;
+}
+.utilichart.encounterchart a > span[style*="float:left"] {
+	float: none !important;
+	display: flex;
+	align-items: center;
+	min-height: 26px;
+}
 .utilichart .tagcol.shorttagcol {
 	margin-right: 1px;
 }

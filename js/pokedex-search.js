@@ -40,7 +40,11 @@ var PokedexSearchPanel = Panels.Panel.extend({
       '" autocomplete="off" autofocus placeholder="Search mons, moves, abilities, items, encounters or more" /></div>';
     buf += "</form>";
     buf += "<div id='reset-cache'>Refresh Cache</div>"
-    buf += '<div class="results"></div></div>';
+    buf += '<div class="results"></div>';
+    buf += '<div id="rom-upload-panel">';
+    buf += '<label>Load Gen 4 Rom: <input type="file" id="rom-upload" accept=".nds" /></label>';
+    buf += '<div id="rom-status" style="display:none;"></div>';
+    buf += '</div></div>';
     this.$el.html(buf);
     var $searchbox = this.$(".searchbox");
     this.$searchbox = $searchbox;
