@@ -31,7 +31,8 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
 
     var location = this.id;
     var results = [];
-    var levelMins = {};
+    var resultMins = [];
+    var resultMaxs = [];
 
     var formatRate = function (i) {
       if (i === undefined || i === null || Number.isNaN(i)) return "    ";
@@ -63,16 +64,11 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
           if (!mon) continue;
           const rates = BattleLocationdex["rates"] ? BattleLocationdex["rates"][encType] : undefined;
           const rateVal = Array.isArray(rates) ? rates[i] : undefined;
-          const levelShown =
-            max && max > 0 ? max : min && min > 0 ? min : 0;
-          if (levelShown > 0) {
-            const prevMin = levelMins[encTypeIndex];
-            levelMins[encTypeIndex] =
-              prevMin === undefined ? levelShown : Math.min(prevMin, levelShown);
-          }
           results.push(
             `${encTypeIndex}` + formatRate(rateVal) + formatRange(min, max) + mon,
           );
+          resultMins.push(min || 0);
+          resultMaxs.push(max || 0);
         }
       }
 
@@ -83,11 +79,14 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     for (var i = 0; i < results.length; i++) {
       if (results[i].charAt(0) !== last) {
         results.splice(i, 0, results[i].charAt(0).toUpperCase());
+        resultMins.splice(i, 0, 0);
+        resultMaxs.splice(i, 0, 0);
         i++;
       }
       last = results[i].charAt(0);
     }
-    this.levelMins = levelMins;
+    this.resultMins = resultMins;
+    this.resultMaxs = resultMaxs;
     return (this.results = results);
   },
   renderDistribution: function () {
@@ -152,8 +151,8 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       );
     } else {
       var rateTag = results[i].substr(1, 4).trim().replace("z", "");
-      var minLevel = parseInt(results[i].substr(5, 3), 10);
-      var maxLevel = parseInt(results[i].substr(9, 3), 10);
+      var minLevel = this.resultMins ? this.resultMins[i] : parseInt(results[i].substr(5, 3), 10);
+      var maxLevel = this.resultMaxs ? this.resultMaxs[i] : parseInt(results[i].substr(9, 3), 10);
       var desc = rateTag || "";
       var levelValue = "";
       var levelShown = 0;
@@ -165,17 +164,6 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         levelShown = minLevel;
       }
       var levelClass = "col levelcol";
-      var encTypeIndex = results[i].charAt(0);
-      var minForType = this.levelMins
-        ? this.levelMins[encTypeIndex]
-        : undefined;
-      if (
-        levelShown > 0 &&
-        minForType !== undefined &&
-        levelShown > minForType
-      ) {
-        levelClass += " levelcol-high";
-      }
       var row = BattleSearch.renderTaggedLocationRowInner(template, desc);
       if (row.indexOf('class="col tagcol') !== -1) {
         row = row.replace(
