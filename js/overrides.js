@@ -64,6 +64,38 @@ if (!params.get('game')) {
   applyRomOverridesFromCache();
 }
 
+function setGameDexTitle(gameKey) {
+  const title = gameTitles[gameKey];
+  if (!title) return;
+  const el = document.getElementById("dex-title");
+  if (el) {
+    el.textContent = `${title} Dex`;
+  }
+}
+
+function applyGameOverridesFromCache() {
+  if (romOverrideActive) return false;
+  if (!localStorage.overrides) return false;
+  const gameKey = localStorage.game;
+  if (!gameKey || !gameTitles[gameKey]) return false;
+  if (['/', '/index.html'].includes(window.location.pathname)) return false;
+  try {
+    const overrides = JSON.parse(localStorage.overrides || "null");
+    if (!overrides) return false;
+    overrideDexData(overrides);
+    setGameDexTitle(gameKey);
+    console.log("Loaded game overrides from cache");
+    return true;
+  } catch (e) {
+    console.warn("Failed to load game overrides from cache", e);
+    return false;
+  }
+}
+
+if (!params.get('game')) {
+  applyGameOverridesFromCache();
+}
+
 function clearRomCache() {
   localStorage.removeItem(ROM_CACHE_FLAG);
   localStorage.removeItem(ROM_KEYS.overrides);
