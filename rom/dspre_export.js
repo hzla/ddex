@@ -122,7 +122,7 @@ const TEXT_BANKS = {
   HGSS: {
     pokemonNames: [237, 238, 817, 818, 819, 820, 821],
     abilities: 720,
-    abilityDescriptions: null,
+    abilityDescriptions: 722,
     moves: 750,
     moveDescriptions: 749,
     items: 222,
@@ -1055,7 +1055,9 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData) {
     const ability1 = String(entry.Ability1 || "").trim();
     let ability2 = String(entry.Ability2 || "").trim();
     if (!ability2 || ability2 === "-") ability2 = "-";
-    const abs = [ability1 || "-", ability2, "-"];
+    let ability3 = String(entry.Ability3 || "").trim();
+    if (!ability3 || ability3 === "-") ability3 = "-";
+    const abs = [ability1 || "-", ability2, ability3];
 
     const species = {
       name,
@@ -2171,9 +2173,19 @@ function parsePersonal(u8) {
   return { baseHP, baseAtk, baseDef, baseSpeed, baseSpAtk, baseSpDef, type1, type2, item1, item2, firstAbility, secondAbility, genderVec, machines };
 }
 
-function parseLearnset(u8) {
+function parseLearnset(u8, { expanded = false } = {}) {
   const r = new Reader(u8);
   const list = [];
+  if (expanded) {
+    while (r.off + 4 <= u8.length) {
+      const move = r.u16();
+      const level = r.u16();
+      if (move === 0xFFFF || level === 0xFFFF) break;
+      if (move === 0) continue;
+      list.push({ level, move });
+    }
+    return list;
+  }
   while (r.off + 2 <= u8.length) {
     const entry = r.u16();
     if (entry === 0xFFFF) break;
@@ -2438,9 +2450,39 @@ function parseEncounterHGSS(u8) {
   };
 }
 
+let ENCOUNTER_FORM_STRIDE = 1024;
+
+function resolveAltFormName(speciesId, names) {
+  if (speciesId < 0) return `UNKNOWN_${speciesId}`;
+  const stride = ENCOUNTER_FORM_STRIDE || 1024;
+  if (speciesId < stride) {
+    if (speciesId >= names.length) return `UNKNOWN_${speciesId}`;
+    return names[speciesId];
+  }
+
+  const baseId = speciesId % stride;
+  const altIndex = Math.floor(speciesId / stride);
+  if (baseId < 0 || baseId >= names.length) return `UNKNOWN_${speciesId}`;
+  const baseName = names[baseId];
+
+  try {
+    if (typeof BattlePokedex !== "undefined") {
+      const baseIdStr = toID(baseName);
+      const entry = BattlePokedex[baseIdStr];
+      if (entry && Array.isArray(entry.otherFormes)) {
+        const formName = entry.otherFormes[altIndex - 1];
+        if (formName) return formName;
+      }
+    }
+  } catch {
+    // fall through to base name
+  }
+
+  return baseName || `UNKNOWN_${speciesId}`;
+}
+
 function speciesName(speciesId, names) {
-  if (speciesId < 0 || speciesId >= names.length) return `UNKNOWN_${speciesId}`;
-  return names[speciesId];
+  return resolveAltFormName(speciesId, names);
 }
 
 function exportU16Named(arr, names) {
@@ -3270,12 +3312,44 @@ async function collectDspreData(editor, { log }) {
 
   pokemonNames = appendForms(pokemonNames, personalEntries.length);
 
+  const expandedHgssLearnsets = family === "HGSS" && personalEntries.length > 500;
+  if (expandedHgssLearnsets) {
+    log(`Detected HG-Engine ROM (expanded learnsets). personal entries=${personalEntries.length}`);
+  }
+  ENCOUNTER_FORM_STRIDE = expandedHgssLearnsets ? 2048 : 1024;
+  if (expandedHgssLearnsets) {
+    log(`HG-Engine encounter form stride set to ${ENCOUNTER_FORM_STRIDE}.`);
+  }
+
+  let expandedAbility3 = null;
+  if (expandedHgssLearnsets) {
+    try {
+      const abilityNarc = await editor.openNarcAtPath("a/0/2/8");
+      const { subfileBuffer } = await editor.getNarcSubfile(abilityNarc.handle, 7);
+      await editor.closeNarc(abilityNarc.handle);
+      const raw = new Uint8Array(subfileBuffer);
+      const r = new Reader(raw);
+      const entries = Math.floor(raw.length / 2);
+      const count = Math.min(entries, personalEntries.length);
+      expandedAbility3 = [];
+      for (let i = 0; i < count; i += 1) expandedAbility3.push(r.u16());
+      if (count < personalEntries.length) {
+        log(`[warn] HG-Engine ability3 list shorter than personal entries (${count}/${personalEntries.length}).`);
+      }
+      log(`HG-Engine ability3 list loaded (entries=${expandedAbility3.length}).`);
+    } catch (err) {
+      expandedAbility3 = null;
+      log(`[warn] Failed to load HG-Engine ability3 list: ${err.message || String(err)}`);
+    }
+  }
+
   log("Parsing learnsets...");
   const learnsets = [];
   for (let i = 0; i < learnsetNarc.fileCount; i += 1) {
     const { subfileBuffer } = await editor.getNarcSubfile(learnsetNarc.handle, i);
-    learnsets.push(parseLearnset(new Uint8Array(subfileBuffer)));
+    learnsets.push(parseLearnset(new Uint8Array(subfileBuffer), { expanded: expandedHgssLearnsets }));
   }
+  log(`Learnset[1] = ${JSON.stringify(learnsets[1] ?? [])}`);
 
   log("Parsing evolutions...");
   const evolutions = [];
@@ -3303,11 +3377,33 @@ async function collectDspreData(editor, { log }) {
 
   log("Building CSV outputs...");
   const pokemonPersonalCsv = [];
-  pokemonPersonalCsv.push("ID,Name,Type1,Type2,BaseHP,BaseAttack,BaseDefense,BaseSpecialAttack,BaseSpecialDefense,BaseSpeed,Ability1,Ability2,Item1,Item2");
+  const personalHeaders = [
+    "ID",
+    "Name",
+    "Type1",
+    "Type2",
+    "BaseHP",
+    "BaseAttack",
+    "BaseDefense",
+    "BaseSpecialAttack",
+    "BaseSpecialDefense",
+    "BaseSpeed",
+    "Ability1",
+    "Ability2",
+    ...(expandedAbility3 ? ["Ability3"] : []),
+    "Item1",
+    "Item2",
+  ];
+  pokemonPersonalCsv.push(personalHeaders.join(","));
   for (let i = 0; i < personalEntries.length; i += 1) {
     const entry = personalEntries[i];
     const t1 = normalizeTypeName(typeNames[entry.type1] ?? `UnknownType_${entry.type1}`);
     const t2 = normalizeTypeName(typeNames[entry.type2] ?? `UnknownType_${entry.type2}`);
+    const ability3Id = expandedAbility3 ? expandedAbility3[i] : null;
+    const ability3Name =
+      expandedAbility3 && Number.isFinite(ability3Id)
+        ? abilityNames[ability3Id] ?? `ABILITY_${ability3Id}`
+        : "";
     const row = [
       i,
       pokemonNames[i] ?? `UNKNOWN_${i}`,
@@ -3321,6 +3417,7 @@ async function collectDspreData(editor, { log }) {
       entry.baseSpeed,
       abilityNames[entry.firstAbility] ?? `ABILITY_${entry.firstAbility}`,
       abilityNames[entry.secondAbility] ?? `ABILITY_${entry.secondAbility}`,
+      ...(expandedAbility3 ? [ability3Name] : []),
       itemNames[entry.item1] ?? `ITEM_${entry.item1}`,
       itemNames[entry.item2] ?? `ITEM_${entry.item2}`,
     ];
@@ -3328,18 +3425,22 @@ async function collectDspreData(editor, { log }) {
   }
 
   const learnsetCsv = [];
-  learnsetCsv.push(["ID", "Name", ...Array.from({ length: 20 }, (_, i) => `LevelMove${i}`)].join(","));
+  const learnsetLimit = expandedHgssLearnsets ? 40 : 20;
+  if (expandedHgssLearnsets) {
+    log(`HG-Engine learnset format enabled (LevelMove columns=${learnsetLimit}).`);
+  }
+  learnsetCsv.push(["ID", "Name", ...Array.from({ length: learnsetLimit }, (_, i) => `LevelMove${i}`)].join(","));
   for (let i = 0; i < learnsets.length; i += 1) {
     const moves = learnsets[i];
     const cells = [String(i), pokemonNames[i] ?? `UNKNOWN_${i}`];
     let count = 0;
     for (const entry of moves) {
-      if (count >= 20) break;
+      if (count >= learnsetLimit) break;
       const moveName = moveNames[entry.move] ?? `MOVE_${entry.move}`;
       cells.push(`${entry.level}|${moveName}`);
       count += 1;
     }
-    while (count < 20) {
+    while (count < learnsetLimit) {
       cells.push("");
       count += 1;
     }

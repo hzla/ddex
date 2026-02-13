@@ -117,6 +117,77 @@ function setRomStatus(msg, isErr) {
   else console.log(msg);
 }
 
+function getRomOverridePayload() {
+  if (window.DDEX_ROM_OVERRIDES) return window.DDEX_ROM_OVERRIDES;
+  if (localStorage[ROM_CACHE_FLAG] !== "1") return null;
+  try {
+    const overrides = JSON.parse(localStorage[ROM_KEYS.overrides] || "null");
+    const searchIndex = JSON.parse(localStorage[ROM_KEYS.searchIndex] || "null");
+    const searchIndexOffset = JSON.parse(localStorage[ROM_KEYS.searchIndexOffset] || "null");
+    const searchIndexCount = JSON.parse(localStorage[ROM_KEYS.searchIndexCount] || "null");
+    const title = localStorage[ROM_KEYS.title] || "rom";
+    if (!overrides || !searchIndex || !searchIndexOffset || !searchIndexCount) return null;
+    return { overrides, searchIndex, searchIndexOffset, searchIndexCount, title };
+  } catch (e) {
+    console.warn("Failed to read ROM overrides from cache", e);
+    return null;
+  }
+}
+
+function formatOverridesFile(overridesData) {
+  return `var overrides = ${JSON.stringify(overridesData)};`;
+}
+
+function formatSearchIndexFile(payload) {
+  return [
+    "// DO NOT EDIT - automatically built with build-tools/build-indexes",
+    "",
+    `exports.BattleSearchIndex = ${JSON.stringify(payload.searchIndex)};`,
+    "",
+    `exports.BattleSearchIndexOffset = ${JSON.stringify(payload.searchIndexOffset)};`,
+    "",
+    `exports.BattleSearchCountIndex = ${JSON.stringify(payload.searchIndexCount)};`,
+    "",
+    "exports.BattleArticleTitles = {};",
+    "",
+  ].join("\n");
+}
+
+function downloadTextFile(filename, contents) {
+  const blob = new Blob([contents], { type: "text/javascript" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
+function safeFileBase(name) {
+  if (!name) return "rom";
+  if (typeof toID === "function") {
+    const id = toID(name);
+    return id || "rom";
+  }
+  const id = String(name).toLowerCase().replace(/[^a-z0-9]+/g, "");
+  return id || "rom";
+}
+
+window.downloadRomOverrideFiles = function (baseName) {
+  const payload = getRomOverridePayload();
+  if (!payload) {
+    console.warn("No ROM overrides found. Load a ROM via file upload first.");
+    return false;
+  }
+  const base = safeFileBase(baseName || payload.title);
+  downloadTextFile(`${base}.js`, formatOverridesFile(payload.overrides));
+  downloadTextFile(`${base}_searchindex.js`, formatSearchIndexFile(payload));
+  console.log(`Downloaded overrides for ${payload.title || base} as ${base}.js and ${base}_searchindex.js`);
+  return true;
+};
+
 let romModulesLoaded = false;
 async function ensureRomModulesLoaded() {
   if (romModulesLoaded) return;
