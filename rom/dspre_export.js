@@ -1757,6 +1757,12 @@ export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
   };
 }
 
+export async function readRomFileByPath(arrayBuffer, path) {
+  const editor = new RomBrowser(new Uint8Array(arrayBuffer));
+  const file = editor.readFileByPath(path);
+  return file.fileBuffer;
+}
+
 function detectGame(romId) {
   if (GAME_IDS.Platinum.includes(romId)) return { family: "Plat", version: "Platinum" };
   if (GAME_IDS.HeartGold.includes(romId)) return { family: "HGSS", version: "HeartGold" };
@@ -3345,9 +3351,86 @@ async function collectDspreData(editor, { log }) {
 
   log("Parsing learnsets...");
   const learnsets = [];
-  for (let i = 0; i < learnsetNarc.fileCount; i += 1) {
-    const { subfileBuffer } = await editor.getNarcSubfile(learnsetNarc.handle, i);
-    learnsets.push(parseLearnset(new Uint8Array(subfileBuffer), { expanded: expandedHgssLearnsets }));
+  if (expandedHgssLearnsets) {
+    log(`HG-Engine learnset NARC fileCount=${learnsetNarc.fileCount}`);
+  }
+  if (expandedHgssLearnsets && learnsetNarc.fileCount === 1) {
+    const { subfileBuffer } = await editor.getNarcSubfile(learnsetNarc.handle, 0);
+    const byteLen = subfileBuffer?.byteLength ?? 0;
+    log(`HG-Engine learnset subfile[0] size=${byteLen} (packed mode)`);
+    const u8 = new Uint8Array(subfileBuffer);
+    const pairCount = Math.floor(u8.length / 4);
+    const monCount = personalEntries.length;
+    let blockPairs = null;
+    let blockCount = null;
+    if (pairCount % monCount === 0) {
+      blockPairs = pairCount / monCount;
+      blockCount = monCount;
+    } else if (pairCount % (monCount + 1) === 0) {
+      blockPairs = pairCount / (monCount + 1);
+      blockCount = monCount + 1;
+    }
+
+    if (blockPairs) {
+      log(`HG-Engine packed learnsets detected (blockPairs=${blockPairs}, blocks=${blockCount}).`);
+      const allBlocks = [];
+      for (let i = 0; i < blockCount; i += 1) {
+        const list = [];
+        const base = i * blockPairs * 4;
+        for (let j = 0; j < blockPairs; j += 1) {
+          const off = base + j * 4;
+          if (off + 4 > u8.length) break;
+          const move = u8[off] | (u8[off + 1] << 8);
+          const level = u8[off + 2] | (u8[off + 3] << 8);
+          if (move === 0xFFFF || level === 0xFFFF) break;
+          if (move === 0) continue;
+          list.push({ level, move });
+        }
+        allBlocks.push(list);
+      }
+
+      if (allBlocks.length === monCount + 1) {
+        const firstEmpty = allBlocks[0].length === 0;
+        const lastEmpty = allBlocks[allBlocks.length - 1].length === 0;
+        if (firstEmpty && !lastEmpty) {
+          allBlocks.shift();
+          log("HG-Engine packed learnsets: dropped empty leading block.");
+        } else if (lastEmpty && !firstEmpty) {
+          allBlocks.pop();
+          log("HG-Engine packed learnsets: dropped empty trailing block.");
+        }
+      }
+
+      learnsets.push(...allBlocks.slice(0, monCount));
+    } else {
+      log(`[warn] HG-Engine packed learnsets: unable to infer block size (pairCount=${pairCount}, mons=${monCount}). Falling back to terminator scan.`);
+      const r = new Reader(u8);
+      for (let i = 0; i < monCount && r.off + 4 <= u8.length; i += 1) {
+        const list = [];
+        while (r.off + 4 <= u8.length) {
+          const move = r.u16();
+          const level = r.u16();
+          if (move === 0xFFFF || level === 0xFFFF) break;
+          if (move === 0) continue;
+          list.push({ level, move });
+        }
+        learnsets.push(list);
+      }
+    }
+
+    if (learnsets.length < monCount) {
+      log(`[warn] HG-Engine packed learnsets ended early (${learnsets.length}/${monCount}).`);
+      while (learnsets.length < monCount) learnsets.push([]);
+    }
+  } else {
+    for (let i = 0; i < learnsetNarc.fileCount; i += 1) {
+      const { subfileBuffer } = await editor.getNarcSubfile(learnsetNarc.handle, i);
+      if (expandedHgssLearnsets) {
+        const byteLen = subfileBuffer?.byteLength ?? 0;
+        log(`HG-Engine learnset subfile[${i}] size=${byteLen}`);
+      }
+      learnsets.push(parseLearnset(new Uint8Array(subfileBuffer), { expanded: expandedHgssLearnsets }));
+    }
   }
   log(`Learnset[1] = ${JSON.stringify(learnsets[1] ?? [])}`);
 

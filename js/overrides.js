@@ -188,6 +188,40 @@ window.downloadRomOverrideFiles = function (baseName) {
   return true;
 };
 
+window.downloadRomFileByPath = async function (path, filename) {
+  if (!window.__DDEX_LAST_ROM_BUFFER) {
+    console.warn("No ROM buffer found. Load a ROM via file upload first.");
+    return false;
+  }
+  try {
+    await ensureRomExporterLoaded();
+    if (typeof window.readRomFileByPath !== "function") {
+      console.warn("ROM reader not available. Ensure /rom/loader.js is loaded.");
+      return false;
+    }
+    const fileBuffer = await window.readRomFileByPath(window.__DDEX_LAST_ROM_BUFFER, path);
+    const name = filename || path.replace(/\//g, "_");
+    const blob = new Blob([fileBuffer], { type: "application/octet-stream" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = name;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    console.log(`Downloaded ${path} as ${name}`);
+    return true;
+  } catch (err) {
+    console.error(err);
+    return false;
+  }
+};
+
+window.downloadRomLearnsetNarc = function (filename) {
+  return window.downloadRomFileByPath("a/0/3/3", filename || "a_0_3_3.narc");
+};
+
 let romModulesLoaded = false;
 async function ensureRomModulesLoaded() {
   if (romModulesLoaded) return;
@@ -235,6 +269,7 @@ $(document).on('change', '#rom-upload', async function(e) {
     await ensureRomModulesLoaded();
     await ensureRomExporterLoaded();
     const buf = await file.arrayBuffer();
+    window.__DDEX_LAST_ROM_BUFFER = buf;
     const result = await window.buildOverridesFromRom(buf, { log: (msg) => setRomStatus(msg) });
     overrideDexData(result.overrides);
     applySearchIndex(result.searchIndex, result.searchIndexOffset, result.searchIndexCount);
