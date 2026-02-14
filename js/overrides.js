@@ -8,7 +8,8 @@ gameTitles = {
 	"blindingwhite2": "Blinding White 2",
 	"cascadewhite": "Cascade White",
 	"cascadewhite2": "Cascade White",
-	"renegadeplatinum": "Renegade Platinum"
+	"renegadeplatinum": "Renegade Platinum",
+  "sterlingsilver": "Sterling Silver"
 }
 unrecognizedPoks = {}
 
