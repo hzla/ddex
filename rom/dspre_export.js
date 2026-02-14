@@ -3318,7 +3318,7 @@ async function collectDspreData(editor, { log }) {
 
   pokemonNames = appendForms(pokemonNames, personalEntries.length);
 
-  const expandedHgssLearnsets = family === "HGSS" && personalEntries.length > 500;
+  const expandedHgssLearnsets = family === "HGSS" && personalEntries.length > 700;
   if (expandedHgssLearnsets) {
     log(`Detected HG-Engine ROM (expanded learnsets). personal entries=${personalEntries.length}`);
   }
