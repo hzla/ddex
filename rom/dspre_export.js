@@ -2163,7 +2163,7 @@ function parsePersonal(u8) {
   const secondAbility = r.u8();
   r.u8(); // escapeRate
   r.u8(); // colorAndFlip
-  r.skip(2); // alignment
+  const alignmentU16 = r.u16(); // alignment (unused in vanilla)
   const tm1 = r.u32();
   const tm2 = r.u32();
   const tm3 = r.u32();
@@ -2176,7 +2176,25 @@ function parsePersonal(u8) {
       if (chunk & (1 << b)) machines.add(i * 32 + b);
     }
   }
-  return { baseHP, baseAtk, baseDef, baseSpeed, baseSpAtk, baseSpDef, type1, type2, item1, item2, firstAbility, secondAbility, genderVec, machines };
+  const abilityU16 = firstAbility | (secondAbility << 8);
+  return {
+    baseHP,
+    baseAtk,
+    baseDef,
+    baseSpeed,
+    baseSpAtk,
+    baseSpDef,
+    type1,
+    type2,
+    item1,
+    item2,
+    firstAbility,
+    secondAbility,
+    abilityU16,
+    alignmentU16,
+    genderVec,
+    machines,
+  };
 }
 
 function parseLearnset(u8, { expanded = false } = {}) {
@@ -3322,6 +3340,14 @@ async function collectDspreData(editor, { log }) {
   if (expandedHgssLearnsets) {
     log(`Detected HG-Engine ROM (expanded learnsets). personal entries=${personalEntries.length}`);
   }
+
+  const isValidAbilityId = (id) => {
+    if (!Number.isFinite(id) || id < 0 || id >= abilityNames.length) return false;
+    const name = String(abilityNames[id] ?? "").trim();
+    if (!name || name === "-" || name === "-----") return false;
+    return true;
+  };
+
   ENCOUNTER_FORM_STRIDE = expandedHgssLearnsets ? 2048 : 1024;
   if (expandedHgssLearnsets) {
     log(`HG-Engine encounter form stride set to ${ENCOUNTER_FORM_STRIDE}.`);
@@ -3346,6 +3372,25 @@ async function collectDspreData(editor, { log }) {
     } catch (err) {
       expandedAbility3 = null;
       log(`[warn] Failed to load HG-Engine ability3 list: ${err.message || String(err)}`);
+    }
+  }
+
+  if (expandedHgssLearnsets) {
+    let has16BitAbilities = false;
+    for (const entry of personalEntries) {
+      const ability2U16 = entry.alignmentU16;
+      if (ability2U16 === 0) continue;
+      if (!isValidAbilityId(ability2U16)) continue;
+      has16BitAbilities = true;
+      break;
+    }
+
+    if (has16BitAbilities) {
+      for (const entry of personalEntries) {
+        entry.firstAbility = entry.abilityU16;
+        entry.secondAbility = entry.alignmentU16;
+      }
+      log(`HG-Engine 16-bit abilities detected (entries updated=${personalEntries.length}).`);
     }
   }
 

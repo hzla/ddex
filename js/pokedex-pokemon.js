@@ -106,6 +106,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     for (var i in pokemon.abilities) {
       var ability = pokemon.abilities[i];
       var isNew = !vanillaAbilities.includes(ability)
+      var isDash = String(ability).trim() === "-";
 
       if (!ability) continue;
 
@@ -116,7 +117,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         toID(pokemon.abilities[i]) +
         '" data-target="push">' +
         ability +
-        "</a>" + `${isNew ? " (New)" : ""}`;
+        "</a>" + `${(isNew && !isDash) ? " (New)" : ""}`;
       if (i === "H") buf += "<small> (H)</small>";
       if (i === "S") buf += "<small> (special)</small>";
     }
@@ -312,13 +313,24 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
 
 
-              evoData = BattlePokedex[cleanString(prevo)].evoParams[evoIndex]
+              var evoSource = BattlePokedex[cleanString(prevo)]
+              evoData = evoSource.evoParams[evoIndex]
+
+              if (template.evos && template.evoParams && template.evoParams.length) {
+                for (var j = 0; j < template.evos.length; j++) {
+                  if (toID(template.evos[j]) === pokemon.id) {
+                    evoSource = template
+                    evoData = template.evoParams[j]
+                    break
+                  }
+                }
+              }
 
               console.log(BattlePokedex[cleanString(prevo)].name)
               console.log(BattlePokedex[cleanString(prevo)].evoMethods)
               
 
-              if (evoData.length == 0 && BattlePokedex[cleanString(prevo)].evoMethods[0] == "levelFriendship") {
+              if (evoData.length == 0 && evoSource.evoMethods[0] == "levelFriendship") {
                 evoData = "Max Happiness"
               }
 
