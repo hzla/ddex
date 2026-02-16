@@ -16,6 +16,7 @@ class RomBrowser {
   constructor(u8) {
     this.rom = Rom.parse(u8);
     this._narcs = new Map();
+    this._narcMeta = new Map();
     this._nextHandle = 1;
   }
 
@@ -84,18 +85,30 @@ class RomBrowser {
     }
     const handle = this._nextHandle++;
     this._narcs.set(handle, narc);
+    this._narcMeta.set(handle, { path, id, fileCount: narc.files.length });
     return { handle, fileCount: narc.files.length, sizeMismatch, lenient };
   }
 
   getNarcSubfile(handle, index) {
     const narc = this._narcs.get(handle);
     if (!narc) throw new Error(`Unknown NARC handle: ${handle}`);
-    const sub = narc.getFile(index);
+    let sub;
+    try {
+      sub = narc.getFile(index);
+    } catch (err) {
+      const meta = this._narcMeta.get(handle);
+      console.warn(
+        `getNarcSubfile failed: path=${meta?.path ?? "unknown"} id=${meta?.id ?? "?"} handle=${handle} index=${index} fileCount=${meta?.fileCount ?? "?"}`,
+        err
+      );
+      throw err;
+    }
     return { size: sub.length, subfileBuffer: sub.slice().buffer };
   }
 
   closeNarc(handle) {
     this._narcs.delete(handle);
+    this._narcMeta.delete(handle);
   }
 }
 
@@ -3633,21 +3646,29 @@ async function collectDspreData(editor, { log }) {
   const eggMoveCsv = [];
   eggMoveCsv.push("SpeciesID,SpeciesName,MoveID,MoveName");
   if (family === "HGSS") {
-    const eggNarc = await editor.openNarcAtPath(paths.eggMoves);
-    const { subfileBuffer } = await editor.getNarcSubfile(eggNarc.handle, 0);
-    await editor.closeNarc(eggNarc.handle);
-    const eggU8 = new Uint8Array(subfileBuffer);
-    const r = new Reader(eggU8);
-    let currentSpecies = null;
-    while (r.off + 2 <= eggU8.length) {
-      const val = r.u16();
-      if (val === 0xFFFF) break;
-      if (val > 20000) {
-        currentSpecies = val - 20000;
-      } else if (currentSpecies != null) {
-        const speciesName = pokemonNames[currentSpecies] ?? `SPECIES_${currentSpecies}`;
-        const moveName = moveNames[val] ?? `MOVE_${val}`;
-        eggMoveCsv.push(`${currentSpecies},${speciesName},${val},${moveName}`);
+    try {
+      const eggNarc = await editor.openNarcAtPath(paths.eggMoves);
+      const { subfileBuffer } = await editor.getNarcSubfile(eggNarc.handle, 0);
+      await editor.closeNarc(eggNarc.handle);
+      const eggU8 = new Uint8Array(subfileBuffer);
+      const r = new Reader(eggU8);
+      let currentSpecies = null;
+      while (r.off + 2 <= eggU8.length) {
+        const val = r.u16();
+        if (val === 0xFFFF) break;
+        if (val > 20000) {
+          currentSpecies = val - 20000;
+        } else if (currentSpecies != null) {
+          const speciesName = pokemonNames[currentSpecies] ?? `SPECIES_${currentSpecies}`;
+          const moveName = moveNames[val] ?? `MOVE_${val}`;
+          eggMoveCsv.push(`${currentSpecies},${speciesName},${val},${moveName}`);
+        }
+      }
+    } catch (err) {
+      if (expandedHgssLearnsets) {
+        log(`[warn] HG-Engine egg moves skipped due to error: ${err.message || String(err)}`);
+      } else {
+        throw err;
       }
     }
   } else {
