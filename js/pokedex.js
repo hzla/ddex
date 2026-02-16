@@ -105,7 +105,11 @@ var PokedexItemPanel = PokedexResultPanel.extend({
     if (overrides.items[id] && overrides.items[id]["ground_locations"]) {
        buf += "<h3>Found on ground: </h3><p>" 
        for (let loc of overrides.items[id]["ground_locations"]) {
+        if (BattleLocationdex[loc]) { 
          buf += `${Dex.escapeHTML(BattleLocationdex[loc].name)}, `
+        } else {
+          buf += loc
+        }
        }
        buf +=  "</p>";
     }

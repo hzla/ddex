@@ -1165,6 +1165,7 @@ function buildOverridesAndSearchIndex(data, options) {
       log(`EventOverworlds sample: ${JSON.stringify(eventOverworlds[0])}`);
     }
     log(`Scripts parsed: ${data.scriptsTextMap ? data.scriptsTextMap.size : 0}`);
+    log(`Text banks: items=${data.texts.itemNames?.length ?? 0}, itemDesc=${data.texts.itemDescriptions?.length ?? 0}, abilities=${data.texts.abilityNames?.length ?? 0}, moves=${data.texts.moveNames?.length ?? 0}`);
   }
 
   const groupedEventOverworlds = groupEventOverworldsByEventFileID(eventOverworlds);
@@ -1561,6 +1562,19 @@ function buildOverridesAndSearchIndex(data, options) {
           abilities: abilitiesOut,
         };
 
+        if (log) {
+          const itemKeys = Object.keys(itemsOut);
+          log(`Overrides counts: poks=${Object.keys(speciesData).length}, moves=${Object.keys(outMoves).length}, items=${itemKeys.length}, abilities=${Object.keys(abilitiesOut).length}`);
+          if (itemKeys.length <= 5) {
+            log(`Item keys sample: ${JSON.stringify(itemKeys)}`);
+          } else {
+            log(`Item keys sample: ${JSON.stringify(itemKeys.slice(0, 5))}`);
+          }
+          const rawItemNames = data.texts.itemNames || [];
+          const sampleNames = rawItemNames.slice(0, 10).map((x) => String(x || "").trim());
+          log(`Item names sample[0..9]: ${JSON.stringify(sampleNames)}`);
+        }
+
         const aliases = window.BattleAliases || {};
         const typeChart = window.BattleTypeChart || {};
         if (!typeChart || Object.keys(typeChart).length === 0) {
@@ -1766,6 +1780,7 @@ export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
     searchIndexOffset: built.searchIndexOffset,
     searchIndexCount: built.searchIndexCount,
     itemLocationStats: built.itemLocationStats || null,
+    texts: data.texts,
     romTitle,
   };
 }
@@ -3235,6 +3250,23 @@ async function collectDspreData(editor, { log }) {
 
   log("Loading text banks...");
   const textNarc = await editor.openNarcAtPath(paths.text);
+  if (typeof window !== "undefined" && window.DDEX_SCAN_TEXTBANKS) {
+    try {
+      log("Debug: scanning all text banks for length 2550-2560...");
+      const matches = [];
+      for (let i = 0; i < textNarc.fileCount; i += 1) {
+        const { subfileBuffer } = await editor.getNarcSubfile(textNarc.handle, i);
+        const entries = parseTextBank(new Uint8Array(subfileBuffer));
+        const len = Array.isArray(entries) ? entries.length : 0;
+        if (len >= 2550 && len <= 2560) {
+          matches.push({ bank: i, length: len });
+        }
+      }
+      log(`Debug: text banks with length 2550-2560: ${JSON.stringify(matches)}`);
+    } catch (e) {
+      log(`[warn] Debug text bank scan failed: ${e?.message || e}`);
+    }
+  }
   const readTextBank = async (bankId) => {
     const { subfileBuffer } = await editor.getNarcSubfile(textNarc.handle, bankId);
     return parseTextBank(new Uint8Array(subfileBuffer));
@@ -3283,6 +3315,9 @@ async function collectDspreData(editor, { log }) {
   let itemDescriptions = [];
   try {
     itemDescriptions = await readTextBank(textBanks.itemDescriptions);
+    if (!Array.isArray(itemDescriptions) || itemDescriptions.length <= 1) {
+      throw new Error(`Item descriptions bank invalid (len=${itemDescriptions?.length ?? 0})`);
+    }
   } catch {
     itemDescriptions = await readTextFallback("./texts/item_descriptions.txt");
     log(`[warn] Falling back to texts/item_descriptions.txt for item descriptions`);

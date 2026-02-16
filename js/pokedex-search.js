@@ -46,6 +46,9 @@ var PokedexSearchPanel = Panels.Panel.extend({
     buf += '<div id="rom-status" style="display:none;"></div>';
     buf += '</div></div>';
     this.$el.html(buf);
+    if (typeof setDexTitleFromStorage === "function") {
+      setDexTitleFromStorage();
+    }
     var $searchbox = this.$(".searchbox");
     this.$searchbox = $searchbox;
     this.$searchfilters = null;
