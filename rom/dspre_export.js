@@ -641,11 +641,15 @@ function groupEventOverworldsByEventFileID(eventOverworlds) {
   return grouped;
 }
 
-function parseScriptText(text) {
+function parseScriptText(text, options = {}) {
   if (!text) return null;
   const lines = text.split(/\r?\n/);
 
   const blocks = [];
+  const commonScriptIds = Array.isArray(options.commonScriptIds) && options.commonScriptIds.length
+    ? options.commonScriptIds
+    : [2016, 2044];
+  const commonScriptRegex = new RegExp(`^CommonScript\\s+(${commonScriptIds.join("|")})\\b`, "i");
   const byId = new Map();
   let current = null;
   for (let i = 0; i < lines.length; i += 1) {
@@ -741,7 +745,7 @@ function parseScriptText(text) {
     const line = raw.trim();
     if (!line) continue;
 
-    const commonScriptMatch = /^CommonScript\s+(2016|2044)\b/i.exec(line);
+    const commonScriptMatch = commonScriptRegex.exec(line);
     if (commonScriptMatch) {
       let itemId = null;
       for (let j = i - 1; j >= 0; j -= 1) {
@@ -795,14 +799,13 @@ function getOverworldEntityForScript(eventOverworldEntries, scriptNumber) {
   };
 }
 
-function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw, locationNamesRaw, scriptsTextMap) {
+function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw, locationNamesRaw, scriptsTextMap, options = {}) {
   const itemData = {};
   const dedupe = new Set();
   let eventScriptCount = 0;
   let scriptParseCount = 0;
   let scriptFileFoundCount = 0;
   let scriptFileMissingCount = 0;
-
   function addRecord(itemNameRaw, locationRaw, payload) {
     const itemName = normalizeName(itemNameRaw);
     const locationName = normalizeName(locationRaw);
@@ -886,7 +889,7 @@ function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw
     const scriptText = scriptsTextMap.get(scriptFileID);
     if (scriptText) scriptFileFoundCount += 1;
     else scriptFileMissingCount += 1;
-    const parsed = parseScriptText(scriptText);
+    const parsed = parseScriptText(scriptText, { commonScriptIds: options.commonScriptIds });
     if (!parsed) continue;
 
     for (const found of parsed.found) {
@@ -1169,12 +1172,14 @@ function buildOverridesAndSearchIndex(data, options) {
   }
 
   const groupedEventOverworlds = groupEventOverworldsByEventFileID(eventOverworlds);
+  const commonScriptIds = data.family === "HGSS" ? [2033, 2009] : [2016, 2044];
   const itemLocations = buildItemLocationIndex(
     groupedEventOverworlds,
     mapHeaders,
     data.texts.itemNames,
     data.texts.locationNames,
-    data.scriptsTextMap
+    data.scriptsTextMap,
+    { commonScriptIds }
   );
   if (log) {
     log(`Item locations: ${itemLocations.totalRecords} records, ${itemLocations.totalItems} items (event=${itemLocations.stats.eventScriptCount}, script=${itemLocations.stats.scriptParseCount}).`);
@@ -1782,6 +1787,8 @@ export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
     itemLocationStats: built.itemLocationStats || null,
     texts: data.texts,
     romTitle,
+    romFamily: data.family,
+    romVersion: data.version,
   };
 }
 
@@ -3228,8 +3235,25 @@ async function collectDspreData(editor, { log }) {
   log("Reading ROM header...");
   const header = await editor.readHeader();
   const romId = header.romId;
-  const game = detectGame(romId);
-  if (!game) throw new Error(`Unsupported ROM ID: ${romId}`);
+  let game = detectGame(romId);
+  if (!game) {
+    try {
+      log(`[warn] Unknown ROM ID "${romId}". Attempting Platinum fallback detection...`);
+      const probe = await editor.openNarcAtPath("poketool/personal/pl_personal.narc");
+      const hasEntries = probe && Number.isFinite(probe.fileCount) && probe.fileCount > 0;
+      await editor.closeNarc(probe.handle);
+      if (hasEntries) {
+        game = { family: "Plat", version: "Platinum" };
+        log("[warn] Fallback detection: treating ROM as Platinum (pl_personal.narc present).");
+      }
+    } catch (e) {
+      log(`[warn] Platinum fallback detection failed: ${e?.message || e}`);
+    }
+  }
+  if (!game) {
+    game = { family: "Plat", version: "Platinum" };
+    log("[warn] Unknown ROM ID; defaulting to Platinum.");
+  }
   const family = game.family;
   const version = game.version;
   log(`ROM ID: ${romId} (${version})`);
@@ -3450,7 +3474,7 @@ async function collectDspreData(editor, { log }) {
   if (expandedHgssLearnsets && learnsetNarc.fileCount === 1) {
     const { subfileBuffer } = await editor.getNarcSubfile(learnsetNarc.handle, 0);
     const byteLen = subfileBuffer?.byteLength ?? 0;
-    log(`HG-Engine learnset subfile[0] size=${byteLen} (packed mode)`);
+    // log(`HG-Engine learnset subfile[0] size=${byteLen} (packed mode)`);
     const u8 = new Uint8Array(subfileBuffer);
     const pairCount = Math.floor(u8.length / 4);
     const monCount = personalEntries.length;

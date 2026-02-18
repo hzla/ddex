@@ -24,19 +24,35 @@ function frameIndexFromOrientation(numFrames, orientation) {
 function renderNpcSprites(root) {
   var scope = root || document;
   var els = scope.querySelectorAll('.npc-sprite[data-sprite-id]');
+  var spriteFolder = "sprites";
+  var romFamily = (localStorage.romFamily || "").toLowerCase();
+  if (romFamily === "plat") {
+    spriteFolder = "plat_sprites";
+  } else if (romFamily === "hgss") {
+    spriteFolder = "hgss_sprites";
+  }
   for (var i = 0; i < els.length; i++) {
     (function () {
       var el = els[i];
       var spriteID = el.getAttribute('data-sprite-id');
       var orientation = parseInt(el.getAttribute('data-orientation') || '0', 10);
-      var url = '/img/sprites/' + spriteID + '.png';
+      var url = '/img/' + spriteFolder + '/' + spriteID + '.png';
+      var fallbackUrl = '/img/sprites/' + spriteID + '.png';
+      var triedFallback = false;
       var img = new Image();
+      el.style.backgroundImage = 'url("' + url + '")';
       img.onload = function () {
         var numFrames = Math.max(1, Math.floor(img.naturalHeight / 32));
         var idx = frameIndexFromOrientation(numFrames, orientation);
-        el.style.backgroundImage = 'url("' + url + '")';
         el.style.backgroundSize = '32px ' + (numFrames * 32) + 'px';
         el.style.backgroundPosition = '0px ' + (-idx * 32) + 'px';
+      };
+      img.onerror = function () {
+        if (triedFallback || url === fallbackUrl) return;
+        triedFallback = true;
+        url = fallbackUrl;
+        el.style.backgroundImage = 'url("' + url + '")';
+        img.src = url;
       };
       img.src = url;
     })();

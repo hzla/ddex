@@ -11,6 +11,9 @@ gameTitles = {
 	"renegadeplatinum": "Renegade Platinum",
   "sterlingsilver": "Sterling Silver"
 }
+
+maybeApplyRomFamilyFromTitle(gameTitles[game])
+
 unrecognizedPoks = {}
 
 truncatedSpeciesNames = {
@@ -50,6 +53,16 @@ function setDexTitleFromStorage() {
   return false;
 }
 
+function maybeApplyRomFamilyFromTitle(title) {
+  if (!title) return;
+  const normalized = String(title).trim().toLowerCase();
+  if (normalized === "renegade platinum") {
+    localStorage.romFamily = "Plat";
+  } else if (normalized === "sterling silver") {
+    localStorage.romFamily = "HGSS";
+  }
+}
+
 function applySearchIndex(searchIndex, offsets, counts) {
   if (Array.isArray(searchIndex)) window.BattleSearchIndex = searchIndex;
   if (Array.isArray(offsets)) window.BattleSearchIndexOffset = offsets;
@@ -70,6 +83,7 @@ function applyRomOverridesFromCache() {
     applySearchIndex(searchIndex, searchIndexOffset, searchIndexCount);
     const displayTitle = toTitleCaseWords(title);
     setDexTitle(displayTitle || title);
+    maybeApplyRomFamilyFromTitle(title);
     window.DDEX_ROM_OVERRIDES = { overrides, searchIndex, searchIndexOffset, searchIndexCount, title };
     console.log("Loaded ROM overrides from cache");
     return true;
@@ -92,6 +106,7 @@ function setGameDexTitle(gameKey) {
   if (el) {
     el.textContent = `${title} Dex`;
   }
+  maybeApplyRomFamilyFromTitle(title);
 }
 
 function applyGameOverridesFromCache() {
@@ -99,7 +114,6 @@ function applyGameOverridesFromCache() {
   if (!localStorage.overrides) return false;
   const gameKey = localStorage.game;
   if (!gameKey || !gameTitles[gameKey]) return false;
-  if (['/', '/index.html'].includes(window.location.pathname)) return false;
   try {
     const overrides = JSON.parse(localStorage.overrides || "null");
     if (!overrides) return false;
@@ -127,6 +141,8 @@ function clearRomCache() {
   localStorage.removeItem(ROM_KEYS.searchIndexCount);
   localStorage.removeItem(ROM_KEYS.title);
   localStorage.removeItem("romTitle");
+  localStorage.removeItem("romFamily");
+  localStorage.removeItem("romVersion");
   localStorage.removeItem("gameTitle");
 }
 
@@ -332,6 +348,7 @@ $(document).on('change', '#rom-upload', async function(e) {
     const rawRomName = String(file.name || "").replace(/\.nds$/i, "") || result.romTitle || "rom";
     const displayRomTitle = toTitleCaseWords(rawRomName);
     setDexTitle(displayRomTitle || rawRomName);
+    maybeApplyRomFamilyFromTitle(rawRomName);
     window.DDEX_ROM_TEXTS = result.texts || null;
     if (result.itemLocationStats) {
       setRomStatus(`Item locations (event=${result.itemLocationStats.eventScriptCount}, script=${result.itemLocationStats.scriptParseCount})`);
@@ -344,9 +361,19 @@ $(document).on('change', '#rom-upload', async function(e) {
     localStorage[ROM_KEYS.searchIndexCount] = JSON.stringify(result.searchIndexCount);
     localStorage[ROM_KEYS.title] = rawRomName;
     localStorage.romTitle = rawRomName;
+    if (result.romFamily) {
+      localStorage.romFamily = result.romFamily;
+    } else {
+      localStorage.removeItem("romFamily");
+    }
+    if (result.romVersion) {
+      localStorage.romVersion = result.romVersion;
+    } else {
+      localStorage.removeItem("romVersion");
+    }
     localStorage.removeItem("game");
     setRomStatus("ROM overrides loaded and cached.");
-    window.location.href = "/";
+    // window.location.href = "/";
   } catch (err) {
     setRomStatus(err.message || String(err), true);
   }
