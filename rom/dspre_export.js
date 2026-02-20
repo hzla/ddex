@@ -3408,6 +3408,20 @@ async function collectDspreData(editor, { log }) {
 
   pokemonNames = appendForms(pokemonNames, personalEntries.length);
 
+  if (typeof window !== "undefined" && window.BattleAliases && pokemonNames.length) {
+    let removedAliasCount = 0;
+    for (const name of pokemonNames) {
+      const key = toID(name);
+      if (key && Object.prototype.hasOwnProperty.call(window.BattleAliases, key)) {
+        delete window.BattleAliases[key];
+        removedAliasCount += 1;
+      }
+    }
+    if (removedAliasCount) {
+      log(`Removed ${removedAliasCount} BattleAliases entries matching ROM species names.`);
+    }
+  }
+
   const expandedHgssLearnsets = family === "HGSS" && personalEntries.length > 700;
   if (expandedHgssLearnsets) {
     log(`Detected HG-Engine ROM (expanded learnsets). personal entries=${personalEntries.length}`);
