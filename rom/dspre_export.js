@@ -1789,6 +1789,7 @@ export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
     romTitle,
     romFamily: data.family,
     romVersion: data.version,
+    romExpanded: !!data.expandedHgssLearnsets,
   };
 }
 
@@ -4243,6 +4244,7 @@ async function collectDspreData(editor, { log }) {
     romId,
     family,
     version,
+    expandedHgssLearnsets,
     csv: {
       pokemonPersonal: pokemonPersonalCsv,
       learnsets: learnsetCsv,

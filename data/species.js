@@ -54555,3 +54555,13 @@ exports.BattlePokedex = {
         "tier": "unobtainable"
     }
 }
+
+if (typeof window !== "undefined") {
+    if (!window.DDEX_BASE_POKEDEX_KEYS) {
+        window.DDEX_BASE_POKEDEX_KEYS = Object.keys(exports.BattlePokedex).sort();
+        window.DDEX_BASE_POKEDEX_SET = Object.create(null);
+        for (var i = 0; i < window.DDEX_BASE_POKEDEX_KEYS.length; i++) {
+            window.DDEX_BASE_POKEDEX_SET[window.DDEX_BASE_POKEDEX_KEYS[i]] = 1;
+        }
+    }
+}

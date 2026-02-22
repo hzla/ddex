@@ -687,53 +687,160 @@ var Dex = new ((function () {
 
     return spriteData;
   };
+  function isSubsequence(needle, haystack) {
+    var i = 0;
+    for (var j = 0; j < haystack.length && i < needle.length; j++) {
+      if (needle.charAt(i) === haystack.charAt(j)) i++;
+    }
+    return i === needle.length;
+  }
+  _proto2.resolvePokemonIconId = function resolvePokemonIconId(abbrevId) {
+    abbrevId = toID(abbrevId);
+    var sourceKeys = window.DDEX_BASE_POKEDEX_KEYS;
+    var source =
+      sourceKeys ||
+      window.BattlePokedex ||
+      window.vanillaSpecies ||
+      null;
+    if (!abbrevId || !source) return abbrevId;
+    if (this._piconResolveSource !== source) {
+      this._piconResolveSource = source;
+      this._piconResolveList = Array.isArray(sourceKeys)
+        ? sourceKeys
+        : Object.keys(source).sort();
+      if (window.DDEX_BASE_POKEDEX_SET) {
+        this._piconResolveBaseSet = window.DDEX_BASE_POKEDEX_SET;
+      } else if (Array.isArray(sourceKeys)) {
+        this._piconResolveBaseSet = Object.create(null);
+        for (var i = 0; i < sourceKeys.length; i++) {
+          this._piconResolveBaseSet[sourceKeys[i]] = 1;
+        }
+      }
+      this._piconResolveCache = Object.create(null);
+    }
+    if (
+      Object.prototype.hasOwnProperty.call(this._piconResolveCache, abbrevId)
+    ) {
+      return this._piconResolveCache[abbrevId];
+    }
+    var best = "";
+    var bestDiff = 1 / 0;
+    for (var i = 0; i < this._piconResolveList.length; i++) {
+      var fullId = this._piconResolveList[i];
+      if (fullId === abbrevId) {
+        best = fullId;
+        bestDiff = 0;
+        break;
+      }
+      if (!isSubsequence(abbrevId, fullId)) continue;
+      var diff = fullId.length - abbrevId.length;
+      if (diff < 0) continue;
+      if (diff < bestDiff) {
+        best = fullId;
+        bestDiff = diff;
+      }
+    }
+    if (!best) best = abbrevId;
+    this._piconResolveCache[abbrevId] = best;
+    return best;
+  };
+  _proto2.resolvePokemonIconInfo = function resolvePokemonIconInfo(abbrevId) {
+    var id = toID(abbrevId);
+    var resolved = this.resolvePokemonIconId(id);
+    var sourceKeys = window.DDEX_BASE_POKEDEX_KEYS;
+    var source =
+      sourceKeys ||
+      window.BattlePokedex ||
+      window.vanillaSpecies ||
+      null;
+    var sourceCount = Array.isArray(sourceKeys)
+      ? sourceKeys.length
+      : source
+        ? Object.keys(source).length
+        : 0;
+    return {
+      input: abbrevId,
+      id: id,
+      resolved: resolved,
+      matched: resolved !== id,
+      diff:
+        resolved && id
+          ? resolved.length - id.length
+          : null,
+      sourceCount: sourceCount,
+      hasBaseKeys: !!sourceKeys,
+      hasBaseSet: !!window.DDEX_BASE_POKEDEX_SET,
+    };
+  };
   _proto2.getPokemonIconNum = function getPokemonIconNum(
     id,
     isFemale,
     facingLeft,
   ) {
-    var _window$BattlePokemon,
-      _window$BattlePokemon2,
-      _window$BattlePokedex,
-      _window$BattlePokedex2,
-      _window$BattlePokemon3;
-    var num = 0;
-    if (
-      (_window$BattlePokemon = window.BattlePokemonSprites) != null &&
-      (_window$BattlePokemon2 = _window$BattlePokemon[id]) != null &&
-      _window$BattlePokemon2.num
-    ) {
-      num = BattlePokemonSprites[id].num;
-    } else if (
-      (_window$BattlePokedex = window.BattlePokedex) != null &&
-      (_window$BattlePokedex2 = _window$BattlePokedex[id]) != null &&
-      _window$BattlePokedex2.num
-    ) {
-      num = BattlePokedex[id].num;
+    if (!this._piconResolveBaseSet && window.DDEX_BASE_POKEDEX_SET) {
+      this._piconResolveBaseSet = window.DDEX_BASE_POKEDEX_SET;
     }
-    if (num < 0) num = 0;
-    if (num > 1025) num = 0;
-
-    if (
-      (_window$BattlePokemon3 = window.BattlePokemonIconIndexes) != null &&
-      _window$BattlePokemon3[id]
-    ) {
-      num = BattlePokemonIconIndexes[id];
-    }
-
-    if (isFemale) {
+    var compute = function (iconId) {
+      var _window$BattlePokemon,
+        _window$BattlePokemon2,
+        _window$BattlePokedex,
+        _window$BattlePokedex2,
+        _window$BattlePokemon3;
+      var num = 0;
+      var hasIcon = false;
       if (
-        ["unfezant", "frillish", "jellicent", "meowstic", "pyroar"].includes(id)
+        (_window$BattlePokemon = window.BattlePokemonSprites) != null &&
+        (_window$BattlePokemon2 = _window$BattlePokemon[iconId]) != null &&
+        _window$BattlePokemon2.num
       ) {
-        num = BattlePokemonIconIndexes[id + "f"];
+        num = BattlePokemonSprites[iconId].num;
+        hasIcon = true;
+      } else if (
+        (_window$BattlePokedex = window.BattlePokedex) != null &&
+        (_window$BattlePokedex2 = _window$BattlePokedex[iconId]) != null &&
+        _window$BattlePokedex2.num &&
+        (!this._piconResolveBaseSet || this._piconResolveBaseSet[iconId])
+      ) {
+        num = BattlePokedex[iconId].num;
+        hasIcon = true;
+      }
+      if (num < 0) num = 0;
+      if (num > 1025) num = 0;
+
+      if (
+        (_window$BattlePokemon3 = window.BattlePokemonIconIndexes) != null &&
+        _window$BattlePokemon3[iconId]
+      ) {
+        num = BattlePokemonIconIndexes[iconId];
+        hasIcon = true;
+      }
+
+      if (isFemale) {
+        if (
+          ["unfezant", "frillish", "jellicent", "meowstic", "pyroar"].includes(
+            iconId,
+          )
+        ) {
+          num = BattlePokemonIconIndexes[iconId + "f"];
+          hasIcon = true;
+        }
+      }
+      if (facingLeft) {
+        if (BattlePokemonIconIndexesLeft[iconId]) {
+          num = BattlePokemonIconIndexesLeft[iconId];
+          hasIcon = true;
+        }
+      }
+      return { num: num, hasIcon: hasIcon };
+    };
+    var result = compute(id);
+    if (!result.hasIcon) {
+      var resolvedId = this.resolvePokemonIconId(id);
+      if (resolvedId && resolvedId !== id) {
+        result = compute(resolvedId);
       }
     }
-    if (facingLeft) {
-      if (BattlePokemonIconIndexesLeft[id]) {
-        num = BattlePokemonIconIndexesLeft[id];
-      }
-    }
-    return num;
+    return result.num;
   };
   _proto2.getPokemonIcon = function getPokemonIcon(pokemon, facingLeft) {
     var _pokemon,
@@ -769,6 +876,7 @@ var Dex = new ((function () {
     }
 
     var id = toID(pokemon);
+
     if (!pokemon || typeof pokemon === "string") pokemon = null;
 
     if ((_pokemon = pokemon) != null && _pokemon.speciesForme)
@@ -785,6 +893,15 @@ var Dex = new ((function () {
     ) {
       id = toID(pokemon.volatiles.formechange[1]);
     }
+
+    if (
+      typeof localStorage !== "undefined" &&
+      localStorage.romOverrides === "1" &&
+      localStorage.romExpanded === "1"
+    ) {
+      id = Dex.resolvePokemonIconId(id);
+    }
+    
     var num = this.getPokemonIconNum(
       id,
       ((_pokemon4 = pokemon) == null ? void 0 : _pokemon4.gender) === "F",
@@ -937,10 +1054,10 @@ var Dex = new ((function () {
   };
   _proto2.getTypeIcon = function getTypeIcon(type, b) {
     type = this.types.get(type).name;
-    if (!type) type = "???";
+    if (!type || type.toUpperCase() === "UNDEFINED") type = "???";
     var sanitizedType = type.replace(/\?/g, "%3f");
     return (
-      `<div class='type-icon type ${sanitizedType.toLowerCase()}'>${TypeAbbrev[sanitizedType.toUpperCase()]}</div>`
+      `<div class='type-icon type ${sanitizedType.toLowerCase()}'>${TypeAbbrev[sanitizedType.toUpperCase()] || "???"}</div>`
     );
   };
   _proto2.getCategoryIcon = function getCategoryIcon(category) {

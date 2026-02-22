@@ -2,6 +2,15 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
   initialize: function (id) {
     id = toID(id);
     var pokemon = Dex.species.get(id);
+    var spriteId = pokemon.spriteid;
+    var spriteIdLookup = toID(spriteId || id);
+    var resolvedId = Dex.resolvePokemonIconId(spriteIdLookup);
+    if (resolvedId && resolvedId !== spriteIdLookup) {
+      var resolvedSpecies = Dex.species.get(resolvedId);
+      if (resolvedSpecies && resolvedSpecies.spriteid) {
+        spriteId = resolvedSpecies.spriteid;
+      }
+    }
     this.id = id;
     this.shortTitle = pokemon.baseSpecies;
 
@@ -59,7 +68,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       '<img src="' +
       Dex.resourcePrefix +
       "sprites/gen5/" +
-      pokemon.spriteid +
+      spriteId +
       ".png" +
       '" alt="" width="96" height="96" class="sprite" />';
 
@@ -881,25 +890,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         '<li class="content"><table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/ani/" +
-        pokemon.spriteid +
+        spriteId +
         '.gif" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/ani-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.gif" /></td></table>';
       buf +=
         '<table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/ani-back/" +
-        pokemon.spriteid +
+        spriteId +
         '.gif" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/ani-back-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.gif" /></td></table>';
 
       buf += '<div style="clear:left"></div></li>';
@@ -912,11 +921,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       '<li class="content"><audio src="' +
       Dex.resourcePrefix +
       "audio/cries/" +
-      pokemon.spriteid +
+      spriteId +
       '.mp3" controls="controls"><a href="' +
       Dex.resourcePrefix +
       "audio/cries/" +
-      pokemon.spriteid +
+      spriteId +
       '.mp3">Play</a></audio></li>';
 
     // still gen 5
@@ -926,25 +935,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         '<li class="content"><table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen5/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen5-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td></table>';
       buf +=
         '<table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen5-back/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen5-back-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td></table>';
 
       buf += '<div style="clear:left"></div></li>';
@@ -957,25 +966,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
           '<li class="content"><table class="sprites"><tr><td><img src="' +
           Dex.resourcePrefix +
           "sprites/gen5ani/" +
-          pokemon.spriteid +
+          spriteId +
           '.gif" /></td>';
         buf +=
           '<td><img src="' +
           Dex.resourcePrefix +
           "sprites/gen5ani-shiny/" +
-          pokemon.spriteid +
+          spriteId +
           '.gif" /></td></table>';
         buf +=
           '<table class="sprites"><tr><td><img src="' +
           Dex.resourcePrefix +
           "sprites/gen5ani-back/" +
-          pokemon.spriteid +
+          spriteId +
           '.gif" /></td>';
         buf +=
           '<td><img src="' +
           Dex.resourcePrefix +
           "sprites/gen5ani-back-shiny/" +
-          pokemon.spriteid +
+          spriteId +
           '.gif" /></td></table>';
 
         buf += '<div style="clear:left"></div></li>';
@@ -988,25 +997,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         '<li class="content"><table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen4/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen4-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td></table>';
       buf +=
         '<table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen4-back/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen4-back-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td></table>';
     }
 
@@ -1016,25 +1025,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         '<li class="content"><table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen3/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen3-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td></table>';
       buf +=
         '<table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen3-back/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen3-back-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td></table>';
     }
 
@@ -1044,25 +1053,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         '<li class="content"><table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen2/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen2-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td></table>';
       buf +=
         '<table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen2-back/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
       buf +=
         '<td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen2-back-shiny/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td></table>';
     }
 
@@ -1072,13 +1081,13 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         '<li class="content"><table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen1/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
       buf +=
         '<table class="sprites"><tr><td><img src="' +
         Dex.resourcePrefix +
         "sprites/gen1-back/" +
-        pokemon.spriteid +
+        spriteId +
         '.png" /></td>';
     }
 

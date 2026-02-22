@@ -20,6 +20,14 @@ truncatedSpeciesNames = {
 	"fletcinder": "fletchinder"
 }
 
+if (!window.DDEX_BASE_POKEDEX_KEYS && window.BattlePokedex) {
+	window.DDEX_BASE_POKEDEX_KEYS = Object.keys(window.BattlePokedex).sort();
+	window.DDEX_BASE_POKEDEX_SET = {};
+	for (const key of window.DDEX_BASE_POKEDEX_KEYS) {
+		window.DDEX_BASE_POKEDEX_SET[key] = 1;
+	}
+}
+
 const ROM_CACHE_FLAG = "romOverrides";
 const ROM_KEYS = {
   overrides: "overrides",
@@ -27,6 +35,7 @@ const ROM_KEYS = {
   searchIndexOffset: "searchindex_offset",
   searchIndexCount: "searchindex_count",
   title: "gameTitle",
+  expanded: "romExpanded",
 };
 
 function setDexTitle(title) {
@@ -140,6 +149,7 @@ function clearRomCache() {
   localStorage.removeItem(ROM_KEYS.searchIndexOffset);
   localStorage.removeItem(ROM_KEYS.searchIndexCount);
   localStorage.removeItem(ROM_KEYS.title);
+  localStorage.removeItem(ROM_KEYS.expanded);
   localStorage.removeItem("romTitle");
   localStorage.removeItem("romFamily");
   localStorage.removeItem("romVersion");
@@ -370,6 +380,11 @@ $(document).on('change', '#rom-upload', async function(e) {
       localStorage.romVersion = result.romVersion;
     } else {
       localStorage.removeItem("romVersion");
+    }
+    if (result.romExpanded) {
+      localStorage.romExpanded = "1";
+    } else {
+      localStorage.removeItem("romExpanded");
     }
     localStorage.removeItem("game");
     setRomStatus("ROM overrides loaded and cached.");

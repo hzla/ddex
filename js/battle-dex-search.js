@@ -75,7 +75,7 @@ var DexSearch = /** @class */ (function () {
     this.typedSearch = null;
     this.results = null;
     this.exactMatch = false;
-    this.firstPokemonColumn = "Number";
+    this.firstPokemonColumn = "Num";
     /**
      * Column to sort by. Default is `null`, a smart sort determined by how good
      * things are according to the base filters, falling back to dex number (for
@@ -2663,8 +2663,37 @@ var BattleTypeSearch = /** @class */ (function (_super) {
   };
   BattleTypeSearch.prototype.getDefaultResults = function () {
     var results = [];
-    for (var id in window.BattleTypeChart) {
-      results.push(["type", id]);
+    var typeChart = window.BattleTypeChart;
+    if (typeChart) {
+      for (var id in typeChart) {
+        results.push(["type", id]);
+      }
+      return results;
+    }
+    // Fallback when BattleTypeChart isn't loaded: infer from dex data.
+    var typeSet = Object.create(null);
+    if (window.BattlePokedex) {
+      for (var id in window.BattlePokedex) {
+        var species = window.BattlePokedex[id];
+        if (!species || !species.types) continue;
+        for (var _i = 0, _a = species.types; _i < _a.length; _i++) {
+          var typeName = _a[_i];
+          var typeId = toID(typeName);
+          if (typeId) typeSet[typeId] = 1;
+        }
+      }
+    }
+    if (window.BattleMovedex) {
+      for (var id in window.BattleMovedex) {
+        var move = window.BattleMovedex[id];
+        if (!move || !move.type) continue;
+        var moveTypeId = toID(move.type);
+        if (moveTypeId) typeSet[moveTypeId] = 1;
+      }
+    }
+    var typeList = Object.keys(typeSet).sort();
+    for (var _b = 0; _b < typeList.length; _b++) {
+      results.push(["type", typeList[_b]]);
     }
     return results;
   };
