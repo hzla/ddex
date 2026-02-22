@@ -21,6 +21,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     } else {
       overrideData = pokemon
     }
+    this.overrideData = overrideData
     
     let itemData = false
     if (overrideData) {
@@ -660,6 +661,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       );
     }
 
+    console.log(overrideData)
+    var tutorBySource = (pokemon.learnset_info && pokemon.learnset_info.tutorsBySource) ||
+      (this.overrideData && this.overrideData.learnset_info && this.overrideData.learnset_info.tutorsBySource);
+    if (tutorBySource && typeof tutorBySource !== "object") tutorBySource = null;
+
     // learnset
     var buf = "";
     var moves = [];
@@ -688,7 +694,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
             shownMoves[moveid] = shownMoves[moveid] | 1;
             break;
           case "T":
-            moves.push("e000 " + moveid);
+            if (!tutorBySource) moves.push("e000 " + moveid);
             shownMoves[moveid] = shownMoves[moveid] | 1;
             break;
           case "E":
@@ -760,11 +766,64 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       moves.push("j000 " + moveid);
       shownMoves[moveid] = shownMoves[moveid] | 1;
     }
+
+    var tutorGroups = null;
+    if (tutorBySource) {
+      tutorGroups = [];
+      var scriptGroups = [];
+      var shardGroup = null;
+      var otherGroups = [];
+      for (var key in tutorBySource) {
+        var rawMoves = tutorBySource[key] || [];
+        var moveIds = [];
+        for (var i = 0; i < rawMoves.length; i++) {
+          var mid = toID(rawMoves[i]);
+          if (mid && BattleMovedex[mid]) moveIds.push(mid);
+        }
+        if (!moveIds.length) continue;
+        moveIds.sort(function (a, b) {
+          return BattleMovedex[a].name.localeCompare(BattleMovedex[b].name);
+        });
+        var label = key === "ShardTutor"
+          ? "Shard Tutor"
+          : key.replace(/^Script(\d+)Tutor$/i, "Script $1 Tutor");
+        var group = { key: key, label: label, moveIds: moveIds };
+        if (/^Script\d+Tutor$/i.test(key)) scriptGroups.push(group);
+        else if (key === "ShardTutor") shardGroup = group;
+        else otherGroups.push(group);
+      }
+      scriptGroups.sort(function (a, b) {
+        var aNum = Number((a.key.match(/\d+/) || ["0"])[0]);
+        var bNum = Number((b.key.match(/\d+/) || ["0"])[0]);
+        return aNum - bNum;
+      });
+      if (scriptGroups.length) tutorGroups = tutorGroups.concat(scriptGroups);
+      if (shardGroup) tutorGroups.push(shardGroup);
+      if (otherGroups.length) tutorGroups = tutorGroups.concat(otherGroups);
+      if (tutorGroups.length) moves.push("e000 __tutor__");
+    }
     moves.sort();
     var last = "",
       lastChanged = false;
     for (var i = 0, len = moves.length; i < len; i++) {
-      var move = BattleMovedex[moves[i].substr(5)];
+      var moveId = moves[i].substr(5);
+      if (tutorGroups && moves[i].charAt(0) === "e" && moveId === "__tutor__") {
+        for (var gi = 0; gi < tutorGroups.length; gi++) {
+          var group = tutorGroups[gi];
+          buf += '<li class="resultheader"><h3>' + group.label + "</h3></li>";
+          for (var mi = 0; mi < group.moveIds.length; mi++) {
+            var groupMove = BattleMovedex[group.moveIds[mi]];
+            if (!groupMove) continue;
+            var tutorDesc =
+              '<img src="//' +
+              Config.routes.client +
+              '/sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
+            buf += BattleSearch.renderTaggedMoveRow(groupMove, tutorDesc);
+          }
+        }
+        continue;
+      }
+      var move = BattleMovedex[moveId];
       if (!move) {
 
         buf += '<li><pre>error: "' + moves[i] + '"</pre></li>';

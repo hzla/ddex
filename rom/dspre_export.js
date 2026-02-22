@@ -784,6 +784,116 @@ function parseScriptText(text, options = {}) {
   return { found };
 }
 
+function extractScriptTutorData(scriptsTextMap, pokemonNames, { moveNames } = {}) {
+  const bySpecies = new Map();
+  const byScript = new Map();
+  const byScriptSpecies = new Map();
+  if (!scriptsTextMap || scriptsTextMap.size === 0) return { bySpecies, byScript, byScriptSpecies };
+
+  const moveNameIndex = new Map();
+  if (Array.isArray(moveNames)) {
+    for (const name of moveNames) {
+      const key = toID(name);
+      if (key && !moveNameIndex.has(key)) moveNameIndex.set(key, name);
+    }
+  }
+
+  const moveDex = typeof window !== "undefined" ? window.BattleMovedex : null;
+  const moveTokenRegex = /\bMOVE_[A-Z0-9_]+\b/i;
+
+  function resolveMoveName(moveToken) {
+    if (!moveToken) return null;
+    const key = toID(moveToken.replace(/^MOVE_/i, ""));
+    if (!key) return null;
+    const dexName = moveDex && moveDex[key] && moveDex[key].name;
+    if (dexName) return dexName;
+    const indexed = moveNameIndex.get(key);
+    if (indexed) return indexed;
+    const raw = moveToken.replace(/^MOVE_/i, "").replace(/_/g, " ").toLowerCase();
+    return raw.replace(/\b([a-z])/g, (m) => m.toUpperCase());
+  }
+
+  for (const [scriptId, text] of scriptsTextMap.entries()) {
+    if (!text) continue;
+    const lines = text.split(/\r?\n/);
+    let currentFunction = null;
+    const functionMoves = new Map();
+    const functionMatched = new Map();
+
+    for (let i = 0; i < lines.length; i += 1) {
+      const line = lines[i];
+      const fnMatch = /^\s*Function\s+(\d+):\s*$/i.exec(line);
+      if (fnMatch) {
+        currentFunction = Number.parseInt(fnMatch[1], 10);
+        continue;
+      }
+      const moveMatch = /^\s*ChangePartyPokemonMove\b/i.exec(line);
+      if (!moveMatch || currentFunction == null) continue;
+      const tokenMatch = moveTokenRegex.exec(line);
+      if (!tokenMatch) continue;
+      const moveName = resolveMoveName(tokenMatch[0]);
+      if (!moveName) continue;
+      if (!functionMoves.has(currentFunction)) functionMoves.set(currentFunction, new Set());
+      functionMoves.get(currentFunction).add(moveName);
+    }
+
+    if (functionMoves.size === 0) continue;
+
+    const scriptMoves = new Set();
+    for (const set of functionMoves.values()) {
+      for (const moveName of set) scriptMoves.add(moveName);
+    }
+    if (scriptMoves.size > 0) byScript.set(scriptId, scriptMoves);
+
+    for (let i = 0; i < lines.length; i += 1) {
+      const line = lines[i].trim();
+      const jumpMatch = /^\s*JumpIf\s+EQUAL\s+Function#(\d+)\b/i.exec(line);
+      if (!jumpMatch) continue;
+      const fnId = Number.parseInt(jumpMatch[1], 10);
+      if (Number.isNaN(fnId)) continue;
+      const moves = functionMoves.get(fnId);
+      if (!moves || moves.size === 0) continue;
+
+      let pokemonId = null;
+      for (let j = i - 1; j >= 0; j -= 1) {
+        const prev = lines[j];
+        if (/^\s*(Function|Script)\s+\d+:\s*$/i.test(prev)) break;
+        const cmpMatch = /^\s*CompareVarValue\s+(0x800[0-9a-fA-F]+)\s+([^\s]+)\s*$/i.exec(prev);
+        if (cmpMatch) {
+          const parsedId = parseNumeric(cmpMatch[2]);
+          if (parsedId !== null && parsedId >= 0 && parsedId < pokemonNames.length) {
+            pokemonId = parsedId;
+          }
+          break;
+        }
+      }
+
+      if (pokemonId == null) continue;
+      if (!bySpecies.has(pokemonId)) bySpecies.set(pokemonId, new Set());
+      const dest = bySpecies.get(pokemonId);
+      for (const moveName of moves) dest.add(moveName);
+
+      if (!byScriptSpecies.has(scriptId)) byScriptSpecies.set(scriptId, new Map());
+      const byMon = byScriptSpecies.get(scriptId);
+      if (!byMon.has(pokemonId)) byMon.set(pokemonId, new Set());
+      const destByScript = byMon.get(pokemonId);
+      for (const moveName of moves) destByScript.add(moveName);
+      functionMatched.set(fnId, true);
+    }
+
+    const unresolved = [];
+    for (const [fnId, moves] of functionMoves.entries()) {
+      if (functionMatched.get(fnId)) continue;
+      for (const moveName of moves) unresolved.push(moveName);
+    }
+    if (unresolved.length) {
+      console.log(`[tutors] Script ${scriptId} unresolved tutor moves: ${Array.from(new Set(unresolved)).join(", ")}`);
+    }
+  }
+
+  return { bySpecies, byScript, byScriptSpecies };
+}
+
 function getOverworldEntityForScript(eventOverworldEntries, scriptNumber) {
   if (scriptNumber === null || scriptNumber === undefined) return null;
   const entry = eventOverworldEntries.find(
@@ -994,7 +1104,7 @@ function normalizeEvoParam(raw) {
   return param;
 }
 
-function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData) {
+function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, { tutorsBySpecies, tutorsBySource } = {}) {
   const evoByName = new Map();
   const preEvoByTarget = new Map();
 
@@ -1075,13 +1185,18 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData) {
     if (!ability3 || ability3 === "-") ability3 = "-";
     const abs = [ability1 || "-", ability2, ability3];
 
+    const tutors = tutorsBySpecies && Array.isArray(tutorsBySpecies[i]) ? tutorsBySpecies[i] : null;
+    const tutorSources =
+      tutorsBySource && tutorsBySource[i] && Object.keys(tutorsBySource[i]).length
+        ? tutorsBySource[i]
+        : null;
     const species = {
       name,
       num,
       types,
       items: [item1, item2, null],
       bs,
-      learnset_info: { learnset, tms },
+      learnset_info: { learnset, tms, ...(tutors ? { tutors } : {}), ...(tutorSources ? { tutorsBySource: tutorSources } : {}) },
       abs,
     };
 
@@ -1181,6 +1296,11 @@ function buildOverridesAndSearchIndex(data, options) {
     data.scriptsTextMap,
     { commonScriptIds }
   );
+  const scriptTutorData = extractScriptTutorData(
+    data.scriptsTextMap,
+    data.texts.pokemonNames,
+    { moveNames: data.texts.moveNames }
+  );
   if (log) {
     log(`Item locations: ${itemLocations.totalRecords} records, ${itemLocations.totalItems} items (event=${itemLocations.stats.eventScriptCount}, script=${itemLocations.stats.scriptParseCount}).`);
     log(`Script files: found=${itemLocations.stats.scriptFileFoundCount}, missing=${itemLocations.stats.scriptFileMissingCount}`);
@@ -1190,7 +1310,127 @@ function buildOverridesAndSearchIndex(data, options) {
   }
 
   const movesData = buildMovesData(moveData);
-  const speciesData = buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData);
+
+  const tutorsRaw = data.tutors || {};
+  const tutorMoves = Array.isArray(tutorsRaw.moves) ? tutorsRaw.moves : [];
+  const tutorCompat = Array.isArray(tutorsRaw.compat) ? tutorsRaw.compat : [];
+  const monCount = personalData.length;
+  const tutorsBySpeciesSets = Array.from({ length: monCount }, () => new Set());
+  let tutorsBySource = null;
+  let hasTutorData = false;
+  let tutorsInfo = null;
+
+  if (data.family === "Plat" && tutorMoves.length && tutorCompat.length) {
+    const tutorLocations = [
+      "Route 212",
+      "Survival Area",
+      "Snowpoint City",
+    ];
+
+    const tutorMoveInfo = tutorMoves.map((entry, index) => {
+      const moveName = data.texts.moveNames[entry.moveId] ?? `MOVE_${entry.moveId}`;
+      return {
+        index: index + 1,
+        moveId: entry.moveId,
+        moveName,
+        shards: {
+          red: entry.red,
+          blue: entry.blue,
+          green: entry.green,
+          yellow: entry.yellow,
+        },
+        tutorId: entry.tutorId,
+        tutorLocation: tutorLocations[entry.tutorId] || `Tutor_${entry.tutorId}`,
+      };
+    });
+
+    tutorsInfo = {
+      ShardTutor: {
+        kind: "shard",
+        tutors: [
+          { id: 0, location: "Route 212" },
+          { id: 1, location: "Survival Area" },
+          { id: 2, location: "Snowpoint City" },
+        ],
+        moves: tutorMoveInfo,
+      },
+    };
+
+    for (let i = 0; i < tutorCompat.length && i < tutorsBySpeciesSets.length; i += 1) {
+      const row = tutorCompat[i];
+      const shardMoves = [];
+      for (let bitIndex = 0; bitIndex < tutorMoves.length; bitIndex += 1) {
+        const byteIndex = Math.floor(bitIndex / 8);
+        if (byteIndex >= row.length) break;
+        const bit = bitIndex % 8;
+        if (row[byteIndex] & (1 << bit)) {
+          const moveId = tutorMoves[bitIndex].moveId;
+          const moveName = data.texts.moveNames[moveId] ?? `MOVE_${moveId}`;
+          tutorsBySpeciesSets[i].add(moveName);
+          shardMoves.push(moveName);
+        }
+      }
+      if (shardMoves.length) {
+        if (!tutorsBySource) {
+          tutorsBySource = Array.from({ length: tutorsBySpeciesSets.length }, () => ({}));
+        }
+        tutorsBySource[i].ShardTutor = shardMoves;
+      }
+    }
+    hasTutorData = true;
+  }
+
+  if (scriptTutorData && scriptTutorData.bySpecies && scriptTutorData.bySpecies.size) {
+    for (const [speciesId, moves] of scriptTutorData.bySpecies.entries()) {
+      if (speciesId < 0 || speciesId >= tutorsBySpeciesSets.length) continue;
+      for (const moveName of moves) tutorsBySpeciesSets[speciesId].add(moveName);
+      hasTutorData = true;
+    }
+  }
+
+  if (scriptTutorData && scriptTutorData.byScriptSpecies && scriptTutorData.byScriptSpecies.size) {
+    if (!tutorsBySource) {
+      tutorsBySource = Array.from({ length: tutorsBySpeciesSets.length }, () => ({}));
+    }
+    for (const [scriptId, monMap] of scriptTutorData.byScriptSpecies.entries()) {
+      const key = `Script${scriptId}Tutor`;
+      for (const [speciesId, moves] of monMap.entries()) {
+        if (speciesId < 0 || speciesId >= tutorsBySource.length) continue;
+        const list = Array.from(moves);
+        if (!list.length) continue;
+        tutorsBySource[speciesId][key] = list;
+      }
+    }
+  }
+
+  if (scriptTutorData && scriptTutorData.byScript && scriptTutorData.byScript.size) {
+    if (!tutorsInfo) tutorsInfo = {};
+    for (const [scriptId, moves] of scriptTutorData.byScript.entries()) {
+      const key = `Script${scriptId}Tutor`;
+      tutorsInfo[key] = {
+        kind: "script",
+        scriptFileId: scriptId,
+        moves: Array.from(moves),
+      };
+    }
+  }
+
+  const tutorsBySpecies = hasTutorData
+    ? tutorsBySpeciesSets.map((set) => Array.from(set))
+    : null;
+
+  const tutorsDebug = {};
+  if (hasTutorData) {
+    for (let i = 0; i < tutorsBySpeciesSets.length; i += 1) {
+      const monName = data.texts.pokemonNames[i] ?? `SPECIES_${i}`;
+      for (const moveName of tutorsBySpeciesSets[i]) {
+        if (!tutorsDebug[moveName]) tutorsDebug[moveName] = [];
+        tutorsDebug[moveName].push(monName);
+      }
+    }
+  }
+
+  const speciesData = buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, { tutorsBySpecies, tutorsBySource });
 
   return fetchLines("./vanilla_texts/moves.txt", log).then((vanillaMoves) =>
     fetchLines("./vanilla_texts/ability_descriptions.txt", log).then((vanillaAbilityDesc) =>
@@ -1565,6 +1805,8 @@ function buildOverridesAndSearchIndex(data, options) {
           moves: outMoves,
           items: itemsOut,
           abilities: abilitiesOut,
+          ...(tutorsInfo ? { tutors: tutorsInfo } : {}),
+          ...(hasTutorData ? { tutorsDebug } : {}),
         };
 
         if (log) {
@@ -3481,6 +3723,49 @@ async function collectDspreData(editor, { log }) {
     }
   }
 
+  let tutorMoves = [];
+  let tutorCompat = [];
+  if (family === "Plat" && overlay5) {
+    const poolOffset = 0x2FF64;
+    const poolEnd = 0x3012B;
+    const poolStride = 12;
+    const maxPoolBytes = poolEnd - poolOffset + 1;
+    const poolCount = Math.floor(maxPoolBytes / poolStride);
+    if (poolOffset + maxPoolBytes <= overlay5.data.length) {
+      const r = new Reader(overlay5.data);
+      r.seek(poolOffset);
+      for (let i = 0; i < poolCount; i += 1) {
+        const moveId = r.u16();
+        const red = r.u8();
+        const blue = r.u8();
+        const green = r.u8();
+        const yellow = r.u8();
+        r.skip(2);
+        const tutorId = r.u8();
+        r.skip(3);
+        tutorMoves.push({ moveId, red, blue, green, yellow, tutorId });
+      }
+      log(`Platinum tutor pool loaded (entries=${tutorMoves.length}).`);
+    } else {
+      log("[warn] Platinum tutor pool offset outside overlay5.");
+    }
+
+    const compatOffset = 0x3012C;
+    const compatStride = 5;
+    const compatBytes = personalEntries.length * compatStride;
+    if (compatOffset + compatBytes <= overlay5.data.length) {
+      const r = new Reader(overlay5.data);
+      r.seek(compatOffset);
+      for (let i = 0; i < personalEntries.length; i += 1) {
+        const row = [r.u8(), r.u8(), r.u8(), r.u8(), r.u8()];
+        tutorCompat.push(row);
+      }
+      log(`Platinum tutor compatibility loaded (entries=${tutorCompat.length}).`);
+    } else {
+      log("[warn] Platinum tutor compatibility offset outside overlay5.");
+    }
+  }
+
   log("Parsing learnsets...");
   const learnsets = [];
   if (expandedHgssLearnsets) {
@@ -4245,6 +4530,10 @@ async function collectDspreData(editor, { log }) {
     family,
     version,
     expandedHgssLearnsets,
+    tutors: {
+      moves: tutorMoves,
+      compat: tutorCompat,
+    },
     csv: {
       pokemonPersonal: pokemonPersonalCsv,
       learnsets: learnsetCsv,
