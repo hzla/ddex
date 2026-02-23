@@ -696,6 +696,7 @@ var Dex = new ((function () {
   }
   _proto2.resolvePokemonIconId = function resolvePokemonIconId(abbrevId) {
     abbrevId = toID(abbrevId);
+    if (abbrevId.includes("gmax")) return abbrevId;
     var sourceKeys = window.DDEX_BASE_POKEDEX_KEYS;
     var source =
       sourceKeys ||
@@ -727,6 +728,7 @@ var Dex = new ((function () {
     var bestDiff = 1 / 0;
     for (var i = 0; i < this._piconResolveList.length; i++) {
       var fullId = this._piconResolveList[i];
+      if (fullId.includes("gmax")) continue;
       if (fullId === abbrevId) {
         best = fullId;
         bestDiff = 0;
@@ -894,13 +896,13 @@ var Dex = new ((function () {
       id = toID(pokemon.volatiles.formechange[1]);
     }
 
-    if (
-      typeof localStorage !== "undefined" &&
-      localStorage.romOverrides === "1" &&
-      localStorage.romExpanded === "1"
-    ) {
+    // if (
+    //   typeof localStorage !== "undefined" &&
+    //   localStorage.romOverrides === "1" &&
+    //   localStorage.romExpanded === "1"
+    // ) {
       id = Dex.resolvePokemonIconId(id);
-    }
+    // }
     
     var num = this.getPokemonIconNum(
       id,

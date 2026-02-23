@@ -268,6 +268,10 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     // console.log(basePokemon)
     while (template.prevo) template = Dex.species.get(template.prevo);
     var basePokemon = BattlePokedex[cleanString(template.name)]
+
+    if (typeof basePokemon == "undefined") {
+      basePokemon = BattlePokedex[cleanString(template.baseSpecies)]
+    }
     if (template.evos) {
       buf += '<table class="evos"><tr><td>';
       var evos = [template];
@@ -277,6 +281,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
       var seenEvos = []
       var stopSearch = false;
+      console.log(basePokemon)
       var currentPrevo = basePokemon.name
       while (evos && !stopSearch) {
         var evoData = ""
@@ -299,9 +304,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
             }  
           }
           var evoIndex = parseInt(i)
-
-          // console.log(template.name)
-          // console.log(this.getEvoMethod(template))
 
           if (basePokemon.evoMethods && basePokemon.evoMethods.length > 0) {
             if (typeof evos[0] === "string") {
@@ -335,9 +337,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
                   }
                 }
               }
-
-              console.log(BattlePokedex[cleanString(prevo)].name)
-              console.log(BattlePokedex[cleanString(prevo)].evoMethods)
               
 
               if (evoData.length == 0 && evoSource.evoMethods[0] == "levelFriendship") {
@@ -661,7 +660,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       );
     }
 
-    console.log(overrideData)
     var tutorBySource = (pokemon.learnset_info && pokemon.learnset_info.tutorsBySource) ||
       (this.overrideData && this.overrideData.learnset_info && this.overrideData.learnset_info.tutorsBySource);
     if (tutorBySource && typeof tutorBySource !== "object") tutorBySource = null;

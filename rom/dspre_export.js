@@ -1356,8 +1356,15 @@ function buildOverridesAndSearchIndex(data, options) {
       },
     };
 
-    for (let i = 0; i < tutorCompat.length && i < tutorsBySpeciesSets.length; i += 1) {
-      const row = tutorCompat[i];
+    const compatIndexOffset = (!data.texts.pokemonNames || !data.texts.pokemonNames[0] || data.texts.pokemonNames[0] === "-----")
+      ? 1
+      : 0;
+    if (log) log(`[tutor-debug] compat index offset=${compatIndexOffset}`);
+
+    for (let rowIndex = 0; rowIndex < tutorCompat.length; rowIndex += 1) {
+      const speciesIndex = rowIndex + compatIndexOffset;
+      if (speciesIndex >= tutorsBySpeciesSets.length) break;
+      const row = tutorCompat[rowIndex];
       const shardMoves = [];
       for (let bitIndex = 0; bitIndex < tutorMoves.length; bitIndex += 1) {
         const byteIndex = Math.floor(bitIndex / 8);
@@ -1366,7 +1373,7 @@ function buildOverridesAndSearchIndex(data, options) {
         if (row[byteIndex] & (1 << bit)) {
           const moveId = tutorMoves[bitIndex].moveId;
           const moveName = data.texts.moveNames[moveId] ?? `MOVE_${moveId}`;
-          tutorsBySpeciesSets[i].add(moveName);
+          tutorsBySpeciesSets[speciesIndex].add(moveName);
           shardMoves.push(moveName);
         }
       }
@@ -1374,10 +1381,34 @@ function buildOverridesAndSearchIndex(data, options) {
         if (!tutorsBySource) {
           tutorsBySource = Array.from({ length: tutorsBySpeciesSets.length }, () => ({}));
         }
-        tutorsBySource[i].ShardTutor = shardMoves;
+        tutorsBySource[speciesIndex].ShardTutor = shardMoves;
       }
     }
     hasTutorData = true;
+
+    if (log) {
+      const sampleCount = Math.min(5, tutorCompat.length);
+      for (let rowIndex = 0; rowIndex < sampleCount; rowIndex += 1) {
+        const speciesIndex = rowIndex + compatIndexOffset;
+        if (speciesIndex >= tutorsBySpeciesSets.length) break;
+        const row = tutorCompat[rowIndex];
+        const bits = [];
+        const moves = [];
+        for (let bitIndex = 0; bitIndex < tutorMoves.length; bitIndex += 1) {
+          const byteIndex = Math.floor(bitIndex / 8);
+          if (byteIndex >= row.length) break;
+          const bit = bitIndex % 8;
+          if (row[byteIndex] & (1 << bit)) {
+            bits.push(bitIndex + 1);
+            const moveId = tutorMoves[bitIndex].moveId;
+            const moveName = data.texts.moveNames[moveId] ?? `MOVE_${moveId}`;
+            moves.push(moveName);
+          }
+        }
+        const monName = data.texts.pokemonNames[speciesIndex] ?? `SPECIES_${speciesIndex}`;
+        log(`[tutor-debug] row=${rowIndex} idx=${speciesIndex} name=${monName} bytes=${row.map((b) => b.toString(16).padStart(2, "0")).join(" ")} moves=${moves.join(", ") || "-"}`);
+      }
+    }
   }
 
   if (scriptTutorData && scriptTutorData.bySpecies && scriptTutorData.bySpecies.size) {
