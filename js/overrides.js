@@ -154,6 +154,7 @@ function clearRomCache() {
   localStorage.removeItem("romFamily");
   localStorage.removeItem("romVersion");
   localStorage.removeItem("gameTitle");
+  window.DDEX_ROM_BACKUP_DATA = null;
 }
 
 $(document).on('click', '#reset-cache', function() {
@@ -205,8 +206,12 @@ function formatSearchIndexFile(payload) {
   ].join("\n");
 }
 
-function downloadTextFile(filename, contents) {
-  const blob = new Blob([contents], { type: "text/javascript" });
+function formatBackupDataFile(backupData) {
+  return JSON.stringify(backupData);
+}
+
+function downloadTextFile(filename, contents, mimeType = "text/javascript") {
+  const blob = new Blob([contents], { type: mimeType });
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
@@ -250,6 +255,24 @@ window.downloadRomOverrideFiles = function (baseName) {
   downloadTextFile(`${base}.js`, formatOverridesFile(payload.overrides));
   downloadTextFile(`${base}_searchindex.js`, formatSearchIndexFile(payload));
   console.log(`Downloaded overrides for ${payload.title || base} as ${base}.js and ${base}_searchindex.js`);
+  return true;
+};
+
+window.downloadRomBackupData = function (baseName) {
+  const payload = window.DDEX_ROM_BACKUP_DATA;
+  if (!payload) {
+    console.warn("No ROM backup_data found. Load a ROM via file upload first.");
+    return false;
+  }
+  const fallbackTitle = localStorage.romTitle || localStorage[ROM_KEYS.title] || payload.title || "rom";
+  const exportTitle = typeof baseName !== "undefined" ? String(baseName) : fallbackTitle;
+  const base = safeFileBase(exportTitle || fallbackTitle);
+  const filename = `${base}_npoint_data.json`;
+  const backupPayload = payload && typeof payload === "object"
+    ? { ...payload, title: exportTitle }
+    : payload;
+  downloadTextFile(filename, formatBackupDataFile(backupPayload), "application/json");
+  console.log(`Downloaded backup_data as ${filename} (title="${exportTitle}")`);
   return true;
 };
 
@@ -360,6 +383,7 @@ $(document).on('change', '#rom-upload', async function(e) {
     setDexTitle(displayRomTitle || rawRomName);
     maybeApplyRomFamilyFromTitle(rawRomName);
     window.DDEX_ROM_TEXTS = result.texts || null;
+    window.DDEX_ROM_BACKUP_DATA = result.backupData || null;
     if (result.itemLocationStats) {
       setRomStatus(`Item locations (event=${result.itemLocationStats.eventScriptCount}, script=${result.itemLocationStats.scriptParseCount})`);
     }

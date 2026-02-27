@@ -607,6 +607,145 @@ async function fetchLines(path, log) {
   }
 }
 
+function isReplacementCandidateName(value) {
+  const text = String(value || "").trim();
+  if (!text) return false;
+  if (text === "-----") return false;
+  return true;
+}
+
+async function loadTrainerClassGenderTable(family, log) {
+  const fallbackPath = family === "Plat" ? "./vanilla_texts/plat_genders.txt" : "./vanilla_texts/hgss_genders.txt";
+  const lines = await fetchLines(fallbackPath, log);
+  const table = [];
+  for (let i = 0; i < lines.length; i += 1) {
+    const raw = String(lines[i] || "").trim();
+    if (!raw) continue;
+    const parsed = Number.parseInt(raw, 10);
+    if (Number.isNaN(parsed)) continue;
+    table[i] = parsed;
+  }
+  if (table.length && log) {
+    log(`Loaded trainer gender table from ${fallbackPath} (${table.length} entries).`);
+  }
+  return table;
+}
+
+function buildReplacementMap(
+  vanillaNames,
+  romNames,
+  {
+    log,
+    label,
+    normalizeKey = (value) => String(value || "").trim(),
+    normalizeValue = (value) => String(value || "").trim(),
+    caseInsensitiveKeys = false,
+  } = {}
+) {
+  const replacements = {};
+  const seenByLookupKey = new Map();
+  const max = Math.min(vanillaNames.length, romNames.length);
+  for (let i = 0; i < max; i += 1) {
+    const vanilla = normalizeKey(vanillaNames[i]);
+    const current = normalizeValue(romNames[i]);
+    if (!isReplacementCandidateName(vanilla) || !isReplacementCandidateName(current)) continue;
+    if (vanilla === current) continue;
+    const lookupKey = caseInsensitiveKeys ? vanilla.toLowerCase() : vanilla;
+    const existingKey = seenByLookupKey.get(lookupKey);
+    if (existingKey) {
+      if (replacements[existingKey] !== current && log) {
+        log(`[warn] Conflicting ${label || "name"} replacement for "${vanilla}" at index ${i}; keeping "${replacements[existingKey]}", ignoring "${current}".`);
+      }
+      continue;
+    }
+    replacements[vanilla] = current;
+    seenByLookupKey.set(lookupKey, vanilla);
+    if (caseInsensitiveKeys) {
+      const lowerKey = vanilla.toLowerCase();
+      replacements[lowerKey] = current;
+    }
+  }
+  return replacements;
+}
+
+function normalizeBackupPokemonName(value) {
+  let text = String(value || "").trim();
+  if (!text) return "";
+  text = text.replace(/\s+-\s+/g, "-");
+  if (/^porygon-z$/i.test(text)) return "Porygon-Z";
+  return text;
+}
+
+const BACKUP_MOVE_NAME_REPLACEMENTS = {
+  Bubblebeam: "Bubble Beam",
+  Doubleslap: "Double Slap",
+  Solarbeam: "Solar Beam",
+  Sonicboom: "Sonic Boom",
+  Poisonpowder: "Poison Powder",
+  Thunderpunch: "Thunder Punch",
+  Thundershock: "Thunder Shock",
+  Ancientpower: "Ancient Power",
+  Extremespeed: "Extreme Speed",
+  Dragonbreath: "Dragon Breath",
+  Dynamicpunch: "Dynamic Punch",
+  Grasswhistle: "Grass Whistle",
+  Featherdance: "Feather Dance",
+  "Faint Attack": "Feint Attack",
+  Smellingsalt: "Smelling Salts",
+  "Roar Of Time": "Roar of Time",
+  "U-Turn": "U-turn",
+  "V-Create": "V-create",
+  "Sand-Attack": "Sand Attack",
+  Selfdestruct: "Self-Destruct",
+  Softboiled: "Soft-Boiled",
+  Vicegrip: "Vise Grip",
+  "Hi Jump Kick": "High Jump Kick",
+};
+
+const BACKUP_ITEM_NAME_REPLACEMENTS = {
+  BlackGlasses: "Black Glasses",
+  BrightPowder: "Bright Powder",
+  NeverMeltIce: "Never-Melt Ice",
+  SilverPowder: "Silver Powder",
+  TwistedSpoon: "Twisted Spoon",
+};
+
+const BACKUP_MOVE_NAME_REPLACEMENTS_LOWER = Object.keys(BACKUP_MOVE_NAME_REPLACEMENTS).reduce((acc, key) => {
+  acc[key.toLowerCase()] = BACKUP_MOVE_NAME_REPLACEMENTS[key];
+  return acc;
+}, {});
+
+const BACKUP_ITEM_NAME_REPLACEMENTS_LOWER = Object.keys(BACKUP_ITEM_NAME_REPLACEMENTS).reduce((acc, key) => {
+  acc[key.toLowerCase()] = BACKUP_ITEM_NAME_REPLACEMENTS[key];
+  return acc;
+}, {});
+
+function normalizeBackupMoveName(value) {
+  const text = String(value || "").trim();
+  if (!text) return "";
+  if (Object.prototype.hasOwnProperty.call(BACKUP_MOVE_NAME_REPLACEMENTS, text)) {
+    return BACKUP_MOVE_NAME_REPLACEMENTS[text];
+  }
+  const lowered = text.toLowerCase();
+  if (Object.prototype.hasOwnProperty.call(BACKUP_MOVE_NAME_REPLACEMENTS_LOWER, lowered)) {
+    return BACKUP_MOVE_NAME_REPLACEMENTS_LOWER[lowered];
+  }
+  return text;
+}
+
+function normalizeBackupItemName(value) {
+  const text = String(value || "").trim();
+  if (!text) return "";
+  if (Object.prototype.hasOwnProperty.call(BACKUP_ITEM_NAME_REPLACEMENTS, text)) {
+    return BACKUP_ITEM_NAME_REPLACEMENTS[text];
+  }
+  const lowered = text.toLowerCase();
+  if (Object.prototype.hasOwnProperty.call(BACKUP_ITEM_NAME_REPLACEMENTS_LOWER, lowered)) {
+    return BACKUP_ITEM_NAME_REPLACEMENTS_LOWER[lowered];
+  }
+  return text;
+}
+
 function normalizeName(value) {
   if (!value) return "";
   return String(value)
@@ -740,6 +879,7 @@ function parseScriptText(text, options = {}) {
   }
 
   const found = [];
+  const trainerBattles = [];
   for (let i = 0; i < lines.length; i += 1) {
     const raw = lines[i];
     const line = raw.trim();
@@ -779,9 +919,27 @@ function parseScriptText(text, options = {}) {
         });
       }
     }
+
+    const trainerBattleMatch = /^\s*TrainerBattle\s+([^\s,]+)/i.exec(line);
+    if (trainerBattleMatch) {
+      const trainerToken = String(trainerBattleMatch[1] || "").trim();
+      const suffixMatch = /_(\d+)$/.exec(trainerToken);
+      if (suffixMatch) {
+        const trainerId = Number.parseInt(suffixMatch[1], 10);
+        if (!Number.isNaN(trainerId)) {
+          trainerBattles.push({
+            source: "trainerBattle",
+            trainerToken,
+            trainerId,
+            lineIndex: i,
+            originScriptNumber: findOriginScriptForLine(i),
+          });
+        }
+      }
+    }
   }
 
-  return { found };
+  return { found, trainerBattles };
 }
 
 function extractScriptTutorData(scriptsTextMap, pokemonNames, { moveNames } = {}) {
@@ -1044,6 +1202,190 @@ function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw
   };
 }
 
+function buildTrainerLocationIndex(groupedEventOverworlds, mapHeaders, locationNamesRaw, scriptsTextMap, options = {}) {
+  const trainerCount = Number.isFinite(options.trainerCount) ? options.trainerCount : 0;
+  const log = options.log;
+  const byTrainer = new Map();
+  const dedupe = new Set();
+  let overworldMatchCount = 0;
+  let scriptMatchCount = 0;
+
+  function locationRawFromMapHeader(mapHeader) {
+    const mapNameIndex = parseNumeric(mapHeader.MapNameIndexInTextArchive);
+    return mapNameIndex !== null && mapNameIndex >= 0 && mapNameIndex < locationNamesRaw.length
+      ? locationNamesRaw[mapNameIndex]
+      : `unknown_location_${mapNameIndex}`;
+  }
+
+  function addRecord(trainerId, locationRaw, payload) {
+    if (!Number.isFinite(trainerId) || trainerId < 0 || trainerId >= trainerCount) return;
+    const normalizedLocation = normalizeName(locationRaw);
+    if (!normalizedLocation) return;
+    const key = [
+      trainerId,
+      normalizedLocation,
+      payload.source,
+      payload.headerID,
+      payload.eventFileID,
+      payload.scriptFileID,
+      payload.scriptNumber,
+      payload.owSpriteID,
+      payload.orientation,
+    ].join("|");
+    if (dedupe.has(key)) return;
+    dedupe.add(key);
+
+    if (!byTrainer.has(trainerId)) byTrainer.set(trainerId, []);
+    byTrainer.get(trainerId).push({
+      trainerId,
+      locationName: normalizedLocation,
+      locationRaw,
+      source: payload.source,
+      headerID: payload.headerID,
+      eventFileID: payload.eventFileID,
+      scriptFileID: payload.scriptFileID,
+      scriptNumber: payload.scriptNumber ?? null,
+      spriteId: payload.owSpriteID ?? null,
+      orientation: payload.orientation ?? null,
+    });
+    if (payload.source === "event_script_number") overworldMatchCount += 1;
+    if (payload.source === "script_parse") scriptMatchCount += 1;
+  }
+
+  for (const mapHeader of mapHeaders) {
+    const headerID = parseNumeric(mapHeader.HeaderID);
+    const eventFileID = String(mapHeader.EventFileID);
+    const scriptFileIDRaw = parseNumeric(mapHeader.ScriptFileID);
+    const scriptFileID = scriptFileIDRaw !== null ? (scriptFileIDRaw & 0xFFFF) : null;
+    const locationRaw = locationRawFromMapHeader(mapHeader);
+
+    const eventEntries = groupedEventOverworlds[eventFileID] || [];
+    for (const entry of eventEntries) {
+      const scriptNumber = parseNumeric(entry.ScriptNumber);
+      if (scriptNumber === null) continue;
+      if (scriptNumber >= 3000 && scriptNumber < 3000 + trainerCount) {
+        addRecord(scriptNumber - 3000, locationRaw, {
+          source: "event_script_number",
+          headerID,
+          eventFileID,
+          scriptFileID,
+          scriptNumber,
+          owSpriteID: parseNumeric(entry.OwSpriteID ?? entry.owSpriteID),
+          orientation: parseNumeric(entry.Orientation ?? entry.orientation),
+        });
+      }
+    }
+
+    if (scriptFileID === null) continue;
+    const scriptText = scriptsTextMap.get(scriptFileID);
+    const parsed = parseScriptText(scriptText);
+    if (!parsed || !Array.isArray(parsed.trainerBattles)) continue;
+    for (const battle of parsed.trainerBattles) {
+      addRecord(battle.trainerId, locationRaw, {
+        source: "script_parse",
+        headerID,
+        eventFileID,
+        scriptFileID,
+        scriptNumber: battle.originScriptNumber,
+        owSpriteID: null,
+        orientation: null,
+      });
+    }
+  }
+
+  const canonicalByTrainer = {};
+  for (const [trainerId, records] of byTrainer.entries()) {
+    const overworldRecord = records.find((r) => r.source === "event_script_number");
+    const locationRecord = overworldRecord || records[0] || null;
+    canonicalByTrainer[trainerId] = {
+      location: locationRecord ? (locationRecord.locationRaw || locationRecord.locationName) : "unknown_location",
+      spriteId: overworldRecord && Number.isFinite(overworldRecord.spriteId) ? overworldRecord.spriteId : null,
+      orientation: overworldRecord && Number.isFinite(overworldRecord.orientation) ? overworldRecord.orientation : null,
+    };
+  }
+
+  if (log) {
+    log(`Trainer locations: trainers=${Object.keys(canonicalByTrainer).length}, overworldMatches=${overworldMatchCount}, scriptMatches=${scriptMatchCount}`);
+  }
+
+  return {
+    byTrainer: canonicalByTrainer,
+    stats: {
+      trainerCount: Object.keys(canonicalByTrainer).length,
+      overworldMatchCount,
+      scriptMatchCount,
+    },
+  };
+}
+
+function applyTrainerLocationDataToFormattedSets(formattedSets, trainerLocationById) {
+  const out = {};
+  const formatSetNameWithLocation = (setName, location) => {
+    const base = String(setName || "").trimEnd();
+    if (!location || location === "unknown_location") return `${base} `;
+    const locationText = sanitizeFormattedSetTitleText(location);
+    if (!locationText) return `${base} `;
+    return `${base} |${locationText}| `;
+  };
+  const trainerMetaById = new Map();
+  for (const sets of Object.values(formattedSets || {})) {
+    for (const setData of Object.values(sets || {})) {
+      const trainerId = Number(setData?.tr_id);
+      if (!Number.isFinite(trainerId)) continue;
+      if (trainerMetaById.has(trainerId)) continue;
+      const loc = trainerLocationById[trainerId];
+      const location = loc && loc.location ? loc.location : "unknown_location";
+      trainerMetaById.set(trainerId, {
+        trainerClassName: setData?._trainerClassName || "",
+        trainerName: setData?._trainerName || "",
+        location,
+      });
+    }
+  }
+  const trainerInstanceById = {};
+  const trainerDupes = new Map();
+  const trainerIds = Array.from(trainerMetaById.keys()).sort((a, b) => a - b);
+  for (const trainerId of trainerIds) {
+    const meta = trainerMetaById.get(trainerId);
+    const key = [
+      sanitizeFormattedSetTitleText(meta.trainerClassName),
+      sanitizeFormattedSetTitleText(meta.trainerName),
+      sanitizeFormattedSetTitleText(meta.location),
+    ].join("::");
+    const instance = (trainerDupes.get(key) || 0) + 1;
+    trainerDupes.set(key, instance);
+    trainerInstanceById[trainerId] = instance;
+  }
+  for (const [speciesName, sets] of Object.entries(formattedSets || {})) {
+    out[speciesName] = {};
+    for (const [, setData] of Object.entries(sets || {})) {
+      const trainerId = Number(setData?.tr_id);
+      const loc = Number.isFinite(trainerId) ? trainerLocationById[trainerId] : null;
+      const location = loc && loc.location ? loc.location : "unknown_location";
+      const trainerInstance = Number.isFinite(trainerId) ? (trainerInstanceById[trainerId] || 1) : 1;
+      const baseSetName = makeFormattedSetTitle({
+        level: Number(setData?.level) || 0,
+        stars: Number(setData?._dupeStars) || 0,
+        trainerClassName: setData?._trainerClassName || "",
+        trainerName: setData?._trainerName || "",
+        trainerInstance,
+      });
+      const finalSetName = formatSetNameWithLocation(baseSetName, location);
+      const nextSetData = {
+        ...setData,
+        location,
+        spriteId: loc ? (loc.spriteId ?? null) : null,
+        orientation: loc ? (loc.orientation ?? null) : null,
+      };
+      delete nextSetData._trainerClassName;
+      delete nextSetData._trainerName;
+      delete nextSetData._dupeStars;
+      out[speciesName][finalSetName] = nextSetData;
+    }
+  }
+  return out;
+}
+
 function normName(s) {
   return String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
 }
@@ -1249,6 +1591,149 @@ function buildMovesData(moveData) {
   return out;
 }
 
+function mapSpeciesToBackupPoks(speciesData) {
+  const out = {};
+  const baseStatsByNormalizedName = {};
+  for (const [name, entry] of Object.entries(speciesData || {})) {
+    const normalizedName = normalizeBackupPokemonName(name);
+    if (!normalizedName) continue;
+    if (!entry || !entry.bs) continue;
+    baseStatsByNormalizedName[normalizedName] = {
+      hp: Number(entry.bs.hp || 0),
+      at: Number(entry.bs.at || 0),
+      df: Number(entry.bs.df || 0),
+      sa: Number(entry.bs.sa || 0),
+      sd: Number(entry.bs.sd || 0),
+      sp: Number(entry.bs.sp || 0),
+    };
+  }
+
+  for (const [name, entry] of Object.entries(speciesData || {})) {
+    const normalizedName = normalizeBackupPokemonName(name);
+    if (!normalizedName) continue;
+    const bs = entry && entry.bs
+      ? {
+          hp: Number(entry.bs.hp || 0),
+          at: Number(entry.bs.at || 0),
+          df: Number(entry.bs.df || 0),
+          sa: Number(entry.bs.sa || 0),
+          sd: Number(entry.bs.sd || 0),
+          sp: Number(entry.bs.sp || 0),
+        }
+      : { hp: 0, at: 0, df: 0, sa: 0, sd: 0, sp: 0 };
+    const species = { bs };
+    if (Array.isArray(entry.types) && entry.types.length) {
+      species.types = entry.types.slice();
+    }
+    if (Array.isArray(entry.abs) && entry.abs.length) {
+      const abilities = {};
+      if (entry.abs[0] && entry.abs[0] !== "-") abilities["0"] = entry.abs[0];
+      if (entry.abs[1] && entry.abs[1] !== "-") abilities["1"] = entry.abs[1];
+      if (entry.abs[2] && entry.abs[2] !== "-") abilities.H = entry.abs[2];
+      if (Object.keys(abilities).length) species.abilities = abilities;
+    }
+    const learnsetRaw = Array.isArray(entry?.learnset_info?.learnset) ? entry.learnset_info.learnset : [];
+    const tmsRaw = Array.isArray(entry?.learnset_info?.tms) ? entry.learnset_info.tms : [];
+    species.learnset_info = {
+      learnset: learnsetRaw.map((row) => [row?.[0], normalizeBackupMoveName(row?.[1])]),
+      tms: tmsRaw.map((move) => normalizeBackupMoveName(move)),
+    };
+    out[normalizedName] = species;
+
+    if (/\s-\s/.test(String(name || ""))) {
+      const baseRawName = String(name).split(/\s-\s/, 1)[0].trim();
+      const normalizedBaseName = normalizeBackupPokemonName(baseRawName);
+      const glitchedName = `${normalizedName}-Glitched`;
+      const baseStats = baseStatsByNormalizedName[normalizedBaseName] || bs;
+      const glitchedSpecies = {
+        ...species,
+        bs: {
+          hp: Number(baseStats.hp || 0),
+          at: Number(baseStats.at || 0),
+          df: Number(baseStats.df || 0),
+          sa: Number(baseStats.sa || 0),
+          sd: Number(baseStats.sd || 0),
+          sp: Number(baseStats.sp || 0),
+        },
+      };
+      if (Array.isArray(species.types)) glitchedSpecies.types = species.types.slice();
+      if (species.abilities && typeof species.abilities === "object") {
+        glitchedSpecies.abilities = { ...species.abilities };
+      }
+      if (species.learnset_info && typeof species.learnset_info === "object") {
+        glitchedSpecies.learnset_info = {
+          learnset: Array.isArray(species.learnset_info.learnset)
+            ? species.learnset_info.learnset.map((row) => [row?.[0], row?.[1]])
+            : [],
+          tms: Array.isArray(species.learnset_info.tms) ? species.learnset_info.tms.slice() : [],
+        };
+      }
+      out[glitchedName] = glitchedSpecies;
+    }
+  }
+  return out;
+}
+
+function mapMovesToBackupMoves(movesData) {
+  const out = {};
+  for (const [name, entry] of Object.entries(movesData || {})) {
+    const normalizedName = normalizeBackupMoveName(name);
+    if (!normalizedName) continue;
+    if (Object.prototype.hasOwnProperty.call(out, normalizedName)) continue;
+    const move = {
+      basePower: Number(entry.bp || 0),
+    };
+    if (entry.t) move.type = entry.t;
+    if (entry.cat) move.category = entry.cat;
+    if (Number.isFinite(entry.prio)) move.priority = Number(entry.prio);
+    if (Number.isFinite(entry.e_id)) move.e_id = Number(entry.e_id);
+    out[normalizedName] = move;
+  }
+  return out;
+}
+
+function buildBackupDataPayload({ formattedSets, speciesData, movesData, poksReplacements, moveReplacements }) {
+  const normalizedFormattedSets = {};
+  const normalizeSetMoves = (moves) => {
+    if (!Array.isArray(moves)) return moves;
+    return moves.map((move) => {
+      const text = String(move || "").trim();
+      if (!text || text === "-") return "-";
+      return normalizeBackupMoveName(text);
+    });
+  };
+  for (const [speciesName, sets] of Object.entries(formattedSets || {})) {
+    const normalizedSpeciesName = normalizeBackupPokemonName(speciesName);
+    if (!normalizedSpeciesName) continue;
+    if (!normalizedFormattedSets[normalizedSpeciesName]) {
+      normalizedFormattedSets[normalizedSpeciesName] = {};
+    }
+    for (const [setName, setData] of Object.entries(sets || {})) {
+      const nextSetData = setData && typeof setData === "object"
+        ? {
+            ...setData,
+            moves: normalizeSetMoves(setData.moves),
+            item: normalizeBackupItemName(setData.item),
+            reward_item: normalizeBackupItemName(setData.reward_item),
+          }
+        : setData;
+      normalizedFormattedSets[normalizedSpeciesName][setName] = nextSetData;
+    }
+  }
+  const backupData = {
+    formatted_sets: normalizedFormattedSets,
+    poks: mapSpeciesToBackupPoks(speciesData),
+    moves: mapMovesToBackupMoves(movesData),
+  };
+  if (poksReplacements && Object.keys(poksReplacements).length) {
+    backupData.poks_replacements = poksReplacements;
+  }
+  if (moveReplacements && Object.keys(moveReplacements).length) {
+    backupData.move_replacements = moveReplacements;
+  }
+  return backupData;
+}
+
 function toID(text) {
   let value = text;
   if (value != null && value.id) {
@@ -1300,6 +1785,17 @@ function buildOverridesAndSearchIndex(data, options) {
     data.scriptsTextMap,
     data.texts.pokemonNames,
     { moveNames: data.texts.moveNames }
+  );
+  const trainerLocations = buildTrainerLocationIndex(
+    groupedEventOverworlds,
+    mapHeaders,
+    data.texts.locationNames,
+    data.scriptsTextMap,
+    { trainerCount: data.trainerCount || 0, log }
+  );
+  const formattedSetsWithLocations = applyTrainerLocationDataToFormattedSets(
+    data.formattedSets || {},
+    trainerLocations.byTrainer
   );
   if (log) {
     log(`Item locations: ${itemLocations.totalRecords} records, ${itemLocations.totalItems} items (event=${itemLocations.stats.eventScriptCount}, script=${itemLocations.stats.scriptParseCount}).`);
@@ -1463,9 +1959,12 @@ function buildOverridesAndSearchIndex(data, options) {
 
   const speciesData = buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, { tutorsBySpecies, tutorsBySource });
 
-  return fetchLines("./vanilla_texts/moves.txt", log).then((vanillaMoves) =>
-    fetchLines("./vanilla_texts/ability_descriptions.txt", log).then((vanillaAbilityDesc) =>
-      fetchLines("./vanilla_texts/move_descriptions.txt", log).then((vanillaDesc) => {
+  return Promise.all([
+    fetchLines("./vanilla_texts/moves.txt", log),
+    fetchLines("./vanilla_texts/ability_descriptions.txt", log),
+    fetchLines("./vanilla_texts/move_descriptions.txt", log),
+    fetchLines("./vanilla_texts/pokedex.txt", log),
+  ]).then(([vanillaMoves, vanillaAbilityDesc, vanillaDesc, vanillaPokedex]) => {
         const textsAbilities = data.texts.abilityNames;
         const textsItems = data.texts.itemNames;
         const textsMoves = data.texts.moveNames;
@@ -1473,6 +1972,7 @@ function buildOverridesAndSearchIndex(data, options) {
         const textsItemDesc = data.texts.itemDescriptions;
         const textsLocations = data.texts.locationNames;
         const textsDesc = data.texts.moveDescriptions;
+        const textsPokemon = data.texts.pokemonNames;
 
         if (textsMoves.length !== vanillaMoves.length) {
           if (log) log(`[warn] moves.txt length mismatch: ${textsMoves.length} vs ${vanillaMoves.length}`);
@@ -1830,6 +2330,20 @@ function buildOverridesAndSearchIndex(data, options) {
           log(`Overrides encs.rates: ${JSON.stringify(locationsOut.rates)}`);
         }
 
+        const poksReplacements = buildReplacementMap(vanillaPokedex, textsPokemon, {
+          log,
+          label: "pokemon",
+          normalizeKey: normalizeBackupPokemonName,
+          normalizeValue: normalizeBackupPokemonName,
+          caseInsensitiveKeys: true,
+        });
+        const moveReplacements = buildReplacementMap(vanillaMoves, textsMoves, {
+          log,
+          label: "move",
+          normalizeKey: normalizeBackupMoveName,
+          normalizeValue: normalizeBackupMoveName,
+        });
+
         const overrides = {
           poks: speciesData,
           encs: locationsOut,
@@ -2031,17 +2545,24 @@ function buildOverridesAndSearchIndex(data, options) {
         searchBuf += "exports.BattleSearchCountIndex = " + JSON.stringify(BattleSearchCountIndex) + ";\n\n";
         searchBuf += "exports.BattleArticleTitles = {};\n\n";
 
+        const backupData = buildBackupDataPayload({
+          formattedSets: formattedSetsWithLocations,
+          speciesData,
+          movesData: outMoves,
+          poksReplacements,
+          moveReplacements,
+        });
+
         return {
           gameName,
           overrides,
+          backupData,
           searchIndex: BattleSearchIndex,
           searchIndexOffset: BattleSearchIndexOffset,
           searchIndexCount: BattleSearchCountIndex,
           itemLocationStats: itemLocations.stats,
         };
-      })
-    )
-  );
+      });
 }
 
 export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
@@ -2052,8 +2573,12 @@ export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
   const romTitle = titleRaw.replace(/\0/g, "").trim() || header.romId;
   const data = await collectDspreData(editor, { log: log || (() => {}) });
   const built = await buildOverridesAndSearchIndex(data, { log });
+  const backupData = built.backupData
+    ? { ...built.backupData, title: romTitle }
+    : null;
   return {
     overrides: built.overrides,
+    backupData,
     searchIndex: built.searchIndex,
     searchIndexOffset: built.searchIndexOffset,
     searchIndexCount: built.searchIndexCount,
@@ -3062,6 +3587,56 @@ const NATURES = [
   "Modest", "Mild", "Quiet", "Bashful", "Rash",
   "Calm", "Gentle", "Sassy", "Careful", "Quirky",
 ];
+
+function deriveTrainerNatureGen4({
+  trainerId,
+  trainerClass,
+  difficulty,
+  level,
+  speciesId,
+  abilityOverride,
+  trainerGenderCode,
+  family,
+}) {
+  let species = Number(speciesId) || 0;
+  if (species > 1024) species %= 1024;
+
+  let seed = (Number(level) + species + Number(difficulty) + Number(trainerId)) >>> 0;
+  for (let i = 0; i < (Number(trainerClass) || 0); i += 1) {
+    seed = (Math.imul(0x41C64E6D, seed) + 0x00006073) >>> 0;
+  }
+
+  const seedHex = seed.toString(16).padStart(8, "0");
+  const midBytes = seedHex.slice(0, 4);
+  const gender = Number(trainerGenderCode) === 1 ? "female" : "male";
+  const lowBytes = gender === "male" ? "88" : "78";
+  const pidHex = `00${midBytes}${lowBytes}`;
+  const pidLastTwo = Number(String(Number.parseInt(pidHex, 16)).slice(-2)) || 0;
+  const baseNature = pidLastTwo % 25;
+
+  const abilityAdjust = Number(abilityOverride) === 2 ? 1 : 0;
+  const natureId = family === "HGSS"
+    ? (pidLastTwo + abilityAdjust) % 25
+    : baseNature;
+  return NATURES[natureId] || NATURES[0];
+}
+
+function sanitizeFormattedSetTitleText(value) {
+  return String(value || "")
+    .replace(/\[PK\]\[MN\]/g, "Pkmn")
+    .replace(/[\[\]\(\)]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function makeFormattedSetTitle({ level, stars, trainerClassName, trainerName, trainerInstance }) {
+  const classText = sanitizeFormattedSetTitleText(trainerClassName);
+  const trainerText = sanitizeFormattedSetTitleText(trainerName);
+  const starText = stars > 0 ? "*".repeat(stars) : "";
+  const trainerInstanceText = trainerInstance > 1 ? String(trainerInstance) : "";
+  const base = `Lvl ${level}${starText} ${classText} ${trainerText}${trainerInstanceText}`.replace(/\s+/g, " ").trim();
+  return `${base} `;
+}
 
 async function loadArm9(editor, header) {
   const res = await editor.readBytes(header.arm9Offset, header.arm9Size);
@@ -4389,6 +4964,7 @@ async function collectDspreData(editor, { log }) {
 
   log("Parsing trainers...");
   const trainerText = [];
+  const formattedSets = {};
   const trainerProps = [];
   for (let i = 0; i < trainerPropsNarc.fileCount; i += 1) {
     try {
@@ -4401,21 +4977,28 @@ async function collectDspreData(editor, { log }) {
       r.u8(); // trDataUnknown
       const partyCount = r.u8();
       const trainerItems = [r.u16(), r.u16(), r.u16(), r.u16()];
-      r.u32(); // AI
+      const ai = r.u32();
       const doubleBattle = r.u32() === 2;
-      trainerProps.push({ chooseMoves, chooseItems, trainerClass, partyCount, trainerItems, doubleBattle });
+      trainerProps.push({ chooseMoves, chooseItems, trainerClass, partyCount, trainerItems, ai, doubleBattle });
     } catch (e) {
       log(`[warn] Trainer props ${i} parse failed; skipping trainer. ${e?.message || e}`);
       trainerProps.push(null);
     }
   }
+  const trainerCount = trainerProps.length;
 
+  const genderTableFromText = await loadTrainerClassGenderTable(family, log);
   const genderTableOffset = family === "Plat" ? 0xF0714 : 0xFFB90;
   const genderTableLength = family === "Plat" ? 105 : 128;
-  const genderTable = arm9.subarray(genderTableOffset, genderTableOffset + genderTableLength);
-  const trainerClassIsMale = (id) => (genderTable[id] ?? 0) !== 1;
+  const genderTableArm9 = arm9.subarray(genderTableOffset, genderTableOffset + genderTableLength);
+  const trainerClassGenderCode = (id) => {
+    const fromText = genderTableFromText[id];
+    if (fromText !== undefined) return fromText;
+    return genderTableArm9[id] ?? 0;
+  };
 
   const aiBackportEnabled = family === "Plat" && arm9.subarray(0x793B8, 0x793BC).every((b, idx) => b === [0xF0, 0xB5, 0x93, 0xB0][idx]);
+  const trainerClassNameSeen = new Map();
 
   for (let i = 1; i < trainerPartyNarc.fileCount; i += 1) {
     const props = trainerProps[i];
@@ -4446,8 +5029,18 @@ async function collectDspreData(editor, { log }) {
       continue;
     }
 
-    const trainerMale = trainerClassIsMale(props.trainerClass);
-    const partyOut = party.map((mon) => {
+    const trainerClassName = trainerClasses[props.trainerClass] ?? `CLASS_${props.trainerClass}`;
+    const trainerName = trainerNames[i] ?? `TRAINER_${i}`;
+    const trainerClassKey = sanitizeFormattedSetTitleText(trainerClassName);
+    const trainerNameKey = sanitizeFormattedSetTitleText(trainerName);
+    const trainerDupKey = `${trainerClassKey}::${trainerNameKey}`;
+    const trainerInstance = (trainerClassNameSeen.get(trainerDupKey) || 0) + 1;
+    trainerClassNameSeen.set(trainerDupKey, trainerInstance);
+    const trainerGenderCode = trainerClassGenderCode(props.trainerClass);
+    const trainerMale = trainerGenderCode !== 1;
+    const battleType = props.doubleBattle ? "Doubles" : "Singles";
+    const speciesLevelSeen = new Map();
+    const partyOut = party.map((mon, subIndex) => {
       const genderOverride = mon.genderAbilityFlags & 0x0F;
       const abilityOverride = mon.genderAbilityFlags >> 4;
       const baseGenderRatio = personalEntries[mon.pokeId]?.genderVec ?? 0;
@@ -4463,13 +5056,28 @@ async function collectDspreData(editor, { log }) {
         trainerMale,
         useGenderUpdate: family === "HGSS" || aiBackportEnabled,
       });
-      const nature = NATURES[dvNatureFromPid(pid)];
+      const nature = deriveTrainerNatureGen4({
+        trainerId: i,
+        trainerClass: props.trainerClass,
+        difficulty: mon.difficulty,
+        level: mon.level,
+        speciesId: mon.pokeId,
+        abilityOverride,
+        trainerGenderCode,
+        family,
+      });
       let gender = "random";
       if (genderOverride === 1) gender = "M";
       if (genderOverride === 2) gender = "F";
-      const abilityIndex = pid % 2 === 0 ? personalEntries[mon.pokeId]?.firstAbility : personalEntries[mon.pokeId]?.secondAbility;
+      const firstAbility = personalEntries[mon.pokeId]?.firstAbility ?? 0;
+      const secondAbility = personalEntries[mon.pokeId]?.secondAbility ?? firstAbility;
+      let abilityIndex = pid % 2 === 0 ? firstAbility : secondAbility;
+      if (abilityOverride === 1) abilityIndex = firstAbility;
+      else if (abilityOverride === 2) abilityIndex = secondAbility;
       const ability = abilityNames[abilityIndex] ?? `ABILITY_${abilityIndex}`;
-      const item = mon.heldItem != null ? (itemNames[mon.heldItem] ?? `ITEM_${mon.heldItem}`) : "None";
+      const item = mon.heldItem != null && mon.heldItem !== 0
+        ? (itemNames[mon.heldItem] ?? `ITEM_${mon.heldItem}`)
+        : "None";
       const ivs = Math.floor((mon.difficulty * 31) / 255);
       let movesOut = [];
       if (mon.moves) {
@@ -4478,8 +5086,54 @@ async function collectDspreData(editor, { log }) {
         const learnset = learnsets[mon.pokeId] ?? [];
         movesOut = learnsetAtLevel(learnset, mon.level).map((m) => moveNames[m] ?? "None");
       }
+      const speciesName = pokemonNames[mon.pokeId] ?? `SPECIES_${mon.pokeId}`;
+      const dupeKey = `${speciesName}::${mon.level}`;
+      const seenCount = (speciesLevelSeen.get(dupeKey) || 0) + 1;
+      speciesLevelSeen.set(dupeKey, seenCount);
+      const dupeStars = Math.max(0, seenCount - 1);
+      let setName = makeFormattedSetTitle({
+        level: mon.level,
+        stars: dupeStars,
+        trainerClassName,
+        trainerName,
+        trainerInstance,
+      });
+      if (!formattedSets[speciesName]) formattedSets[speciesName] = {};
+      if (Object.prototype.hasOwnProperty.call(formattedSets[speciesName], setName)) {
+        let collisionStars = Math.max(0, seenCount - 1);
+        do {
+          collisionStars += 1;
+          setName = makeFormattedSetTitle({
+            level: mon.level,
+            stars: collisionStars,
+            trainerClassName,
+            trainerName,
+            trainerInstance,
+          });
+        } while (Object.prototype.hasOwnProperty.call(formattedSets[speciesName], setName));
+        if (log) {
+          log(`[warn] Resolved duplicate formatted set title for ${speciesName}: ${setName.trimEnd()}`);
+        }
+      }
+      formattedSets[speciesName][setName] = {
+        level: mon.level,
+        tr_id: i,
+        ai: props.ai,
+        battle_type: battleType,
+        reward_item: "",
+        form: mon.formId ? String(mon.formId) : "",
+        item,
+        ivs: { hp: ivs, at: ivs, df: ivs, sa: ivs, sd: ivs, sp: ivs },
+        nature,
+        moves: movesOut.map((move) => (move && move !== "None" ? move : "-")),
+        sub_index: subIndex,
+        ability,
+        _trainerClassName: trainerClassName,
+        _trainerName: trainerName,
+        _dupeStars: dupeStars,
+      };
       return {
-        name: pokemonNames[mon.pokeId] ?? `SPECIES_${mon.pokeId}`,
+        name: speciesName,
         gender,
         item,
         ability,
@@ -4493,8 +5147,8 @@ async function collectDspreData(editor, { log }) {
     const trainerItems = props.trainerItems.map((id) => (id ? (itemNames[id] ?? `ITEM_${id}`) : "None"));
     const trainerData = {
       index: i,
-      trainerName: trainerNames[i] ?? `TRAINER_${i}`,
-      trainerClass: trainerClasses[props.trainerClass] ?? `CLASS_${props.trainerClass}`,
+      trainerName,
+      trainerClass: trainerClassName,
       trainerItems,
       party: partyOut,
     };
@@ -4577,6 +5231,8 @@ async function collectDspreData(editor, { log }) {
     },
     encounters,
     trainerText,
+    trainerCount,
+    formattedSets,
     scriptsEntries,
     scriptsTextMap,
     texts: {
