@@ -48,6 +48,8 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       );
     };
 
+    console.log(encTypes)
+
     for (let encTypeIndex in encTypes) {
       let encType = encTypes[encTypeIndex]
       if (BattleLocationdex[location][encType] && BattleLocationdex[location][encType]["encs"] !== undefined) {

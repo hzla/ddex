@@ -639,6 +639,7 @@ function buildReplacementMap(
     label,
     normalizeKey = (value) => String(value || "").trim(),
     normalizeValue = (value) => String(value || "").trim(),
+    normalizeCompare = (value) => String(value || "").trim(),
     caseInsensitiveKeys = false,
   } = {}
 ) {
@@ -649,7 +650,7 @@ function buildReplacementMap(
     const vanilla = normalizeKey(vanillaNames[i]);
     const current = normalizeValue(romNames[i]);
     if (!isReplacementCandidateName(vanilla) || !isReplacementCandidateName(current)) continue;
-    if (vanilla === current) continue;
+    if (normalizeCompare(vanilla) === normalizeCompare(current)) continue;
     const lookupKey = caseInsensitiveKeys ? vanilla.toLowerCase() : vanilla;
     const existingKey = seenByLookupKey.get(lookupKey);
     if (existingKey) {
@@ -660,10 +661,6 @@ function buildReplacementMap(
     }
     replacements[vanilla] = current;
     seenByLookupKey.set(lookupKey, vanilla);
-    if (caseInsensitiveKeys) {
-      const lowerKey = vanilla.toLowerCase();
-      replacements[lowerKey] = current;
-    }
   }
   return replacements;
 }
@@ -1682,6 +1679,7 @@ function mapMovesToBackupMoves(movesData) {
     if (Object.prototype.hasOwnProperty.call(out, normalizedName)) continue;
     const move = {
       basePower: Number(entry.bp || 0),
+      pp: Number(entry.pp || 0),
     };
     if (entry.t) move.type = entry.t;
     if (entry.cat) move.category = entry.cat;
@@ -2086,7 +2084,7 @@ function buildOverridesAndSearchIndex(data, options) {
 
         const encounterTypes = isHGSS
           ? [
-              "grass",
+              "time_morning",
               "surf",
               "old_rod",
               "good_rod",
@@ -2117,7 +2115,7 @@ function buildOverridesAndSearchIndex(data, options) {
 
         const defaultRates = isHGSS
           ? {
-              grass: grassRates,
+              time_morning: grassRates,
               surf: surfRates,
               old_rod: surfRates,
               good_rod: surfRates,
@@ -2198,19 +2196,14 @@ function buildOverridesAndSearchIndex(data, options) {
             if (enc) loc.grass.encs.push(enc);
           }
         } else if (entry.grass && Array.isArray(entry.walkingLevels)) {
-          const grassList = Array.isArray(entry.grass.day)
-            ? entry.grass.day
-            : Array.isArray(entry.grass.morning)
-              ? entry.grass.morning
-              : Array.isArray(entry.grass.night)
-                ? entry.grass.night
-                : [];
-          for (let idx = 0; idx < grassList.length; idx += 1) {
-            const rec = grassList[idx];
-            if (!rec) continue;
-            const level = entry.walkingLevels[idx] ?? 0;
-            const enc = makeEncEntry({ ...rec, level });
-            if (enc) loc.grass.encs.push(enc);
+          if (Array.isArray(entry.grass.morning)) {
+            for (let idx = 0; idx < entry.grass.morning.length; idx += 1) {
+              const rec = entry.grass.morning[idx];
+              if (!rec) continue;
+              const level = entry.walkingLevels[idx] ?? 0;
+              const enc = makeEncEntry({ ...rec, level });
+              if (enc) loc.time_morning.encs.push(enc);
+            }
           }
           if (Array.isArray(entry.grass.day)) {
             for (let idx = 0; idx < entry.grass.day.length; idx += 1) {
@@ -2335,6 +2328,7 @@ function buildOverridesAndSearchIndex(data, options) {
           label: "pokemon",
           normalizeKey: normalizeBackupPokemonName,
           normalizeValue: normalizeBackupPokemonName,
+          normalizeCompare: normalizeName,
           caseInsensitiveKeys: true,
         });
         const moveReplacements = buildReplacementMap(vanillaMoves, textsMoves, {
@@ -2342,6 +2336,7 @@ function buildOverridesAndSearchIndex(data, options) {
           label: "move",
           normalizeKey: normalizeBackupMoveName,
           normalizeValue: normalizeBackupMoveName,
+          normalizeCompare: normalizeName,
         });
 
         const overrides = {
