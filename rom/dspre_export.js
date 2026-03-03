@@ -1199,13 +1199,12 @@ function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw
   };
 }
 
-function buildTrainerLocationIndex(groupedEventOverworlds, mapHeaders, locationNamesRaw, scriptsTextMap, options = {}) {
+function buildTrainerLocationIndex(groupedEventOverworlds, mapHeaders, locationNamesRaw, options = {}) {
   const trainerCount = Number.isFinite(options.trainerCount) ? options.trainerCount : 0;
   const log = options.log;
   const byTrainer = new Map();
   const dedupe = new Set();
   let overworldMatchCount = 0;
-  let scriptMatchCount = 0;
 
   function locationRawFromMapHeader(mapHeader) {
     const mapNameIndex = parseNumeric(mapHeader.MapNameIndexInTextArchive);
@@ -1246,7 +1245,6 @@ function buildTrainerLocationIndex(groupedEventOverworlds, mapHeaders, locationN
       orientation: payload.orientation ?? null,
     });
     if (payload.source === "event_script_number") overworldMatchCount += 1;
-    if (payload.source === "script_parse") scriptMatchCount += 1;
   }
 
   for (const mapHeader of mapHeaders) {
@@ -1272,22 +1270,6 @@ function buildTrainerLocationIndex(groupedEventOverworlds, mapHeaders, locationN
         });
       }
     }
-
-    if (scriptFileID === null) continue;
-    const scriptText = scriptsTextMap.get(scriptFileID);
-    const parsed = parseScriptText(scriptText);
-    if (!parsed || !Array.isArray(parsed.trainerBattles)) continue;
-    for (const battle of parsed.trainerBattles) {
-      addRecord(battle.trainerId, locationRaw, {
-        source: "script_parse",
-        headerID,
-        eventFileID,
-        scriptFileID,
-        scriptNumber: battle.originScriptNumber,
-        owSpriteID: null,
-        orientation: null,
-      });
-    }
   }
 
   const canonicalByTrainer = {};
@@ -1302,7 +1284,7 @@ function buildTrainerLocationIndex(groupedEventOverworlds, mapHeaders, locationN
   }
 
   if (log) {
-    log(`Trainer locations: trainers=${Object.keys(canonicalByTrainer).length}, overworldMatches=${overworldMatchCount}, scriptMatches=${scriptMatchCount}`);
+    log(`Trainer locations: trainers=${Object.keys(canonicalByTrainer).length}, overworldMatches=${overworldMatchCount}`);
   }
 
   return {
@@ -1310,7 +1292,6 @@ function buildTrainerLocationIndex(groupedEventOverworlds, mapHeaders, locationN
     stats: {
       trainerCount: Object.keys(canonicalByTrainer).length,
       overworldMatchCount,
-      scriptMatchCount,
     },
   };
 }
@@ -1571,6 +1552,7 @@ function buildMovesData(moveData) {
     const name = String(entry["Move Name"] || "").trim();
     const rawId = Number(String(entry["Move ID"] || "").trim());
     if (!name || name === "-" || !Number.isFinite(rawId) || rawId <= 0) continue;
+    const effectId = parseNumeric(entry["Effect ID"] ?? entry.effect ?? entry["Effect"]);
 
     const move = {
       t: titleCaseType(entry["Move Type"]),
@@ -1581,7 +1563,7 @@ function buildMovesData(moveData) {
       prio: Number(String(entry.Priority || "0").trim()),
       name,
       num: rawId - 1,
-      e_id: 0,
+      e_id: Number.isFinite(effectId) ? effectId : 0,
     };
     out[name] = move;
   }
@@ -1788,7 +1770,6 @@ function buildOverridesAndSearchIndex(data, options) {
     groupedEventOverworlds,
     mapHeaders,
     data.texts.locationNames,
-    data.scriptsTextMap,
     { trainerCount: data.trainerCount || 0, log }
   );
   const formattedSetsWithLocations = applyTrainerLocationDataToFormattedSets(
@@ -3338,6 +3319,31 @@ function speciesName(speciesId, names) {
   return resolveAltFormName(speciesId, names);
 }
 
+function resolveTrainerFormName(speciesId, formId, names) {
+  if (speciesId < 0 || speciesId >= names.length) return `SPECIES_${speciesId}`;
+  const baseName = names[speciesId];
+  if (!formId || formId <= 0) return baseName;
+
+  try {
+    if (typeof BattlePokedex !== "undefined") {
+      const entry =
+        BattlePokedex[speciesId] ||
+        BattlePokedex[String(speciesId)] ||
+        BattlePokedex[toID(baseName)];
+      if (entry && Array.isArray(entry.formeOrder)) {
+        if (formId >= 0 && formId < entry.formeOrder.length) {
+          const formName = entry.formeOrder[formId];
+          if (formName) return formName;
+        }
+      }
+    }
+  } catch {
+    // fall through to base name
+  }
+
+  return baseName;
+}
+
 function exportU16Named(arr, names) {
   return Array.from(arr).map((val, slot) => ({
     slot,
@@ -4564,7 +4570,7 @@ async function collectDspreData(editor, { log }) {
   }
 
   const moveCsv = [];
-  moveCsv.push("Move ID,Move Name,Move Type,Move Split,Power,Accuracy,Priority,Side Effect Probability,PP,Range,Flags,Effect Description");
+  moveCsv.push("Move ID,Move Name,Move Type,Move Split,Power,Accuracy,Priority,Side Effect Probability,PP,Range,Flags,Effect ID,Effect Description");
   for (let i = 0; i < moveData.length; i += 1) {
     const m = moveData[i];
     const typeStr = normalizeTypeName(typeNames[m.movetype] ?? `UnknownType_${m.movetype}`);
@@ -4581,6 +4587,7 @@ async function collectDspreData(editor, { log }) {
       m.pp,
       attackRangeName(m.target),
       moveFlagsString(m.flagField),
+      m.battleeffect,
       battleEffectDesc(m.battleeffect),
     ];
     moveCsv.push(row.join(","));
@@ -5081,7 +5088,7 @@ async function collectDspreData(editor, { log }) {
         const learnset = learnsets[mon.pokeId] ?? [];
         movesOut = learnsetAtLevel(learnset, mon.level).map((m) => moveNames[m] ?? "None");
       }
-      const speciesName = pokemonNames[mon.pokeId] ?? `SPECIES_${mon.pokeId}`;
+      const speciesName = resolveTrainerFormName(mon.pokeId, mon.formId, pokemonNames);
       const dupeKey = `${speciesName}::${mon.level}`;
       const seenCount = (speciesLevelSeen.get(dupeKey) || 0) + 1;
       speciesLevelSeen.set(dupeKey, seenCount);
