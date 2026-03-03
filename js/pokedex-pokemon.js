@@ -338,6 +338,9 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
                 }
               }
               
+              if (typeof evoData === "undefined") {
+                evoData = ""
+              }
 
               if (evoData.length == 0 && evoSource.evoMethods[0] == "levelFriendship") {
                 evoData = "Max Happiness"
