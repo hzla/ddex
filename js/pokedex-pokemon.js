@@ -1,3 +1,135 @@
+function getMergedLearnsetForPokemon(pokemon) {
+  if (!pokemon) return null;
+
+  var learnset = BattleLearnsets[pokemon.id] && BattleLearnsets[pokemon.id].learnset;
+  if (!learnset && BattleLearnsets[toID(pokemon.baseSpecies)]) {
+    learnset = BattleLearnsets[toID(pokemon.baseSpecies)].learnset;
+  }
+  if (!learnset) learnset = {};
+
+  if (pokemon.changesFrom && BattleLearnsets[toID(pokemon.changesFrom)]) {
+    learnset = $.extend(
+      {},
+      learnset,
+      BattleLearnsets[toID(pokemon.changesFrom)].learnset,
+    );
+  }
+
+  return learnset;
+}
+
+function getMostRecentGenForPokemon(pokemon) {
+  var mostRecentGen = Dex.gen;
+  var pastGenPoke = pokemon;
+  for (; mostRecentGen > 7; mostRecentGen--) {
+    if (pastGenPoke.isNonstandard !== "Past") break;
+    pastGenPoke = Dex.forGen(mostRecentGen - 1).species.get(pastGenPoke.id);
+  }
+  return "" + mostRecentGen;
+}
+
+function getLevelUpLevelFromSource(source, currentGen) {
+  if (!source) return null;
+  if (source.charAt(0) === "L") return Number(source.substr(1));
+
+  var genPrefix = currentGen + "L";
+  if (source.substr(0, genPrefix.length) === genPrefix) {
+    return Number(source.substr(genPrefix.length));
+  }
+
+  return null;
+}
+
+function getLevelUpMoveLevels(pokemon) {
+  var learnset = getMergedLearnsetForPokemon(pokemon);
+  var currentGen = getMostRecentGenForPokemon(pokemon);
+  var moveLevels = {};
+
+  for (var moveid in learnset) {
+    var sources = learnset[moveid];
+    if (typeof sources === "string") sources = [sources];
+
+    for (var i = 0; i < sources.length; i++) {
+      var level = getLevelUpLevelFromSource(sources[i], currentGen);
+      if (level === null || isNaN(level)) continue;
+      if (!(moveid in moveLevels) || level < moveLevels[moveid]) {
+        moveLevels[moveid] = level;
+      }
+    }
+  }
+
+  return moveLevels;
+}
+
+function getDescendantSpecies(pokemon) {
+  var descendants = [];
+  var seen = {};
+  var queue = pokemon.evos ? pokemon.evos.slice() : [];
+
+  while (queue.length) {
+    var speciesName = queue.shift();
+    var speciesId = toID(speciesName);
+    if (!speciesId || seen[speciesId]) continue;
+    seen[speciesId] = true;
+
+    var species = Dex.species.get(speciesName);
+    if (!species || !species.exists) continue;
+
+    descendants.push(species);
+    if (species.evos && species.evos.length) {
+      queue = queue.concat(species.evos);
+    }
+  }
+
+  return descendants;
+}
+
+function getPrevoMoveHighlights(pokemon) {
+  if (!pokemon || !pokemon.evos || !pokemon.evos.length) return {};
+
+  var currentMoveLevels = getLevelUpMoveLevels(pokemon);
+  var descendants = getDescendantSpecies(pokemon);
+  var descendantMoveLevels = [];
+  var highlights = {};
+
+  for (var i = 0; i < descendants.length; i++) {
+    descendantMoveLevels.push(getLevelUpMoveLevels(descendants[i]));
+  }
+
+  for (var moveid in currentMoveLevels) {
+    var currentLevel = currentMoveLevels[moveid];
+    var isExclusive = true;
+    var minEarlyLevels = Infinity;
+
+    for (var j = 0; j < descendantMoveLevels.length; j++) {
+      var descendantLevel = descendantMoveLevels[j][moveid];
+      if (typeof descendantLevel !== "number") continue;
+
+      isExclusive = false;
+      if (descendantLevel <= currentLevel) {
+        minEarlyLevels = 0;
+        break;
+      }
+
+      minEarlyLevels = Math.min(minEarlyLevels, descendantLevel - currentLevel);
+    }
+
+    if (isExclusive) {
+      highlights[moveid] = {
+        boldName: true,
+        descPrefix: "Exclusive!",
+      };
+    } else if (minEarlyLevels !== Infinity && minEarlyLevels > 0) {
+      highlights[moveid] = {
+        boldName: true,
+        descPrefix: minEarlyLevels + " lvls early!",
+      };
+    }
+  }
+
+  return highlights;
+}
+
 var PokedexPokemonPanel = PokedexResultPanel.extend({
   initialize: function (id) {
     id = toID(id);
@@ -522,10 +654,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     buf += '<ul class="utilichart nokbd">';
     buf += '<li class="resultheader"><h3>Level-up</h3></li>';
 
-    var learnset = BattleLearnsets[id] && BattleLearnsets[id].learnset;
-    if (!learnset && BattleLearnsets[toID(pokemon.baseSpecies)]) {
-      learnset = BattleLearnsets[toID(pokemon.baseSpecies)].learnset;
-    }
+    var learnset = getMergedLearnsetForPokemon(pokemon);
+    var moveHighlights = getPrevoMoveHighlights(pokemon);
 
     var moves = [];
     for (var moveid in learnset) {
@@ -546,7 +676,12 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
           moves[i].substr(1, 3) === "001" || moves[i].substr(1, 3) === "000"
             ? "&ndash;"
             : "<small>L</small>" + (parseInt(moves[i].substr(1, 3), 10) || "?");
-        buf += BattleSearch.renderTaggedMoveRow(move, desc);
+        buf += BattleSearch.renderTaggedMoveRow(
+          move,
+          desc,
+          null,
+          moveHighlights[moves[i].substr(5)],
+        );
       }
     }
     buf += "</ul>";
@@ -651,17 +786,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
   },
   renderFullLearnset: function () {
     var pokemon = Dex.species.get(this.id);
-    var learnset =
-      BattleLearnsets[this.id] && BattleLearnsets[this.id].learnset;
-    if (!learnset)
-      learnset = BattleLearnsets[toID(pokemon.baseSpecies)].learnset;
-    if (pokemon.changesFrom) {
-      learnset = $.extend(
-        {},
-        learnset,
-        BattleLearnsets[toID(pokemon.changesFrom)].learnset,
-      );
-    }
+    var learnset = getMergedLearnsetForPokemon(pokemon);
+    var moveHighlights = getPrevoMoveHighlights(pokemon);
 
     var tutorBySource = (pokemon.learnset_info && pokemon.learnset_info.tutorsBySource) ||
       (this.overrideData && this.overrideData.learnset_info && this.overrideData.learnset_info.tutorsBySource);
@@ -672,13 +798,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     var moves = [];
     var shownMoves = {};
     /** The most recent generation this pokemon has appeared in */
-    var mostRecentGen = Dex.gen;
-    var pastGenPoke = pokemon;
-    for (; mostRecentGen > 7; mostRecentGen--) {
-      if (pastGenPoke.isNonstandard !== "Past") break;
-      pastGenPoke = Dex.forGen(mostRecentGen - 1).species.get(pastGenPoke.id);
-    }
-    mostRecentGen = "" + mostRecentGen;
+    var mostRecentGen = getMostRecentGenForPokemon(pokemon);
     for (var moveid in learnset) {
       var sources = learnset[moveid];
       if (typeof sources === "string") sources = [sources];
@@ -924,7 +1044,12 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
             desc = "...";
             break;
         }
-        buf += BattleSearch.renderTaggedMoveRow(move, desc);
+        buf += BattleSearch.renderTaggedMoveRow(
+          move,
+          desc,
+          null,
+          last === "a" ? moveHighlights[moveId] : null,
+        );
       }
     }
     this.$(".utilichart").html(buf);

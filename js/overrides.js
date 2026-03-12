@@ -569,7 +569,9 @@ function overrideMonData(monOverrides) {
 			BattleLearnsets[speciesId] = {}
 			unrecognizedPoks[speciesId] = 1
 		}
-		BattlePokedex[speciesId].types = monData.types
+		if (Array.isArray(monData.types) && monData.types.length) {
+			BattlePokedex[speciesId].types = monData.types
+		}
 		BattlePokedex[speciesId].abilities[0] = monData.abs[0]
 		BattlePokedex[speciesId].abilities[1] = monData.abs[1]
 		BattlePokedex[speciesId].abilities["H"] = monData.abs[2]
@@ -651,7 +653,14 @@ function overrideMonData(monOverrides) {
 
 
 
-function cleanString(str) {return str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
+function cleanString(str) {
+  if (str) {
+    return str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  } else {
+    return "";
+  }
+  
+};
 
 function checkAndLoadScript(src, options = {}) {
     const {

@@ -1174,7 +1174,12 @@
     return buf;
   };
 
-  Search.prototype.renderTaggedMoveRow = function (move, tag, errorMessage) {
+  Search.prototype.renderTaggedMoveRow = function (move, tag, errorMessage, options) {
+    if (errorMessage && typeof errorMessage === "object") {
+      options = errorMessage;
+      errorMessage = null;
+    }
+
     var attrs = "";
     if (Search.urlRoot)
       attrs =
@@ -1196,6 +1201,7 @@
     // name
     var name = move.name;
     if (name.substr(0, 12) === "Hidden Power") name = "Hidden Power";
+    if (options && options.boldName) name = "<strong>" + name + "</strong>";
     buf += '<span class="col shortmovenamecol">' + name + "</span> ";
 
     // error
@@ -1229,9 +1235,17 @@
       "</span> ";
 
     // desc
+    var moveDesc = BattleLog.escapeHTML(move.shortDesc || move.desc);
+    if (options && options.descPrefix) {
+      moveDesc =
+        '<span style="color:#B38CFF">' +
+        BattleLog.escapeHTML(options.descPrefix) +
+        "</span> " +
+        moveDesc;
+    }
     buf +=
       '<span class="col movedesccol">' +
-      BattleLog.escapeHTML(move.shortDesc || move.desc) +
+      moveDesc +
       "</span> ";
 
     buf += "</a></li>";

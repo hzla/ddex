@@ -122,9 +122,9 @@ var PokedexItemPanel = PokedexResultPanel.extend({
        buf += "<h3>Found on ground: </h3><p>" 
        for (let loc of overrides.items[id]["ground_locations"]) {
         if (BattleLocationdex[loc]) { 
-         buf += `${Dex.escapeHTML(BattleLocationdex[loc].name)}, `
+         buf += `${Dex.escapeHTML(BattleLocationdex[loc].name)}<br>`
         } else {
-          buf += loc
+          buf += `${Dex.escapeHTML(loc)}<br>`
         }
        }
        buf +=  "</p>";
@@ -134,11 +134,15 @@ var PokedexItemPanel = PokedexResultPanel.extend({
        buf += "<h3>Given by NPC: </h3>";
        for (let npc of overrides.items[id]["npcs"]) {
          const locName = BattleLocationdex[npc.location] ? BattleLocationdex[npc.location].name : npc.location;
-         buf += `<div class="npc-row" style="display:flex;align-items:center;gap:8px;margin:4px 0;margin-left: 10px">` +
-           `<div class="npc-sprite" data-sprite-id="${npc.spriteID}" data-orientation="${npc.orientation}" ` +
-           `style="width:32px;height:32px;background-repeat:no-repeat;image-rendering:pixelated;"></div>` +
-           `<span> ${Dex.escapeHTML(locName)}</span>` +
-           `</div>`;
+         if (typeof npc.spriteID === "number") {
+           buf += `<div class="npc-row" style="display:flex;align-items:center;gap:8px;margin:4px 0;margin-left: 10px">` +
+             `<div class="npc-sprite" data-sprite-id="${npc.spriteID}" data-orientation="${npc.orientation}" ` +
+             `style="width:32px;height:32px;background-repeat:no-repeat;image-rendering:pixelated;"></div>` +
+             `<span> ${Dex.escapeHTML(locName)}</span>` +
+             `</div>`;
+         } else {
+           buf += `<p style="margin:4px 0 4px 10px">${Dex.escapeHTML(locName)}</p>`;
+         }
        }
     }
 
