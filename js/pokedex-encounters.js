@@ -131,6 +131,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     var results = this.results;
     var id = results[i].substr(13);
     var template = id ? BattlePokedex[id] : undefined;
+    var isEmptyEncounter = id === "none" || (template && template.name === "None");
     if (!template) {
       let encTypeName = encTypes[parseInt(results[i].charAt(0))]
       if (BattleLocationdex[this.id][encTypeName] && BattleLocationdex[this.id][encTypeName].name) {
@@ -166,6 +167,17 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         levelShown = minLevel;
       }
       var levelClass = "col levelcol";
+      if (isEmptyEncounter) {
+        return (
+          '<span class="col tagcol shorttagcol">' +
+          desc +
+          '</span> <span class="' +
+          levelClass +
+          '">' +
+          levelValue +
+          "</span>"
+        );
+      }
       var row = BattleSearch.renderTaggedLocationRowInner(template, desc);
       if (row.indexOf('class="col tagcol') !== -1) {
         row = row.replace(
