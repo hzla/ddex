@@ -10,7 +10,8 @@ gameTitles = {
 	"cascadewhite2": "Cascade White",
 	"renegadeplatinum": "Renegade Platinum",
   "sterlingsilver": "Sterling Silver",
-  "pokemonnull": "Pokemon Null"
+  "pokemonnull": "Pokemon Null",
+  "reignitedruby": "Reignited Ruby"
 }
 
 maybeApplyRomFamilyFromTitle(gameTitles[game])
