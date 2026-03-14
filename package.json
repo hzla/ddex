@@ -1,0 +1,9 @@
+{
+  "name": "ddex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "clean": "node -e \"import('node:fs/promises').then(({rm}) => rm('dist', {recursive: true, force: true}))\""
+  }
+}

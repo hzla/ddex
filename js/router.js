@@ -24,4 +24,9 @@ var Pokedex = Panels.App.extend({
     }
   },
 });
-var pokedex = new Pokedex();
+
+window.startPokedexApp = function () {
+  if (window.pokedex) return window.pokedex;
+  window.pokedex = new Pokedex();
+  return window.pokedex;
+};

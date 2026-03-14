@@ -1,6 +1,38 @@
 {
-  "rewrites": [{ "source": "/((?!.*\\.js$).*)", "destination": "/index.html" }],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/pokemon", "destination": "/index.html" },
+    { "source": "/pokemon/:path*", "destination": "/index.html" },
+    { "source": "/moves", "destination": "/index.html" },
+    { "source": "/moves/:path*", "destination": "/index.html" },
+    { "source": "/items/:path*", "destination": "/index.html" },
+    { "source": "/abilities/:path*", "destination": "/index.html" },
+    { "source": "/types/:path*", "destination": "/index.html" },
+    { "source": "/egggroups/:path*", "destination": "/index.html" },
+    { "source": "/encounters", "destination": "/index.html" },
+    { "source": "/encounters/:path*", "destination": "/index.html" },
+    { "source": "/:q([^/.]+)", "destination": "/index.html" }
+  ],
   "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [

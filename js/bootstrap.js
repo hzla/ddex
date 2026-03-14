@@ -1,0 +1,280 @@
+(function () {
+  "use strict";
+
+  var manifest = window.__DDEX_ASSET_MANIFEST__ || {};
+  var scriptPromises = {};
+  var rawScriptPromises = {};
+  var rawModulePromises = {};
+  var appReadyPromise = null;
+  var romToolsPromise = null;
+
+  function getRouteInfo() {
+    var pathname = window.location.pathname || "/";
+    var trimmed = pathname.replace(/^\/+|\/+$/g, "");
+    var segments = trimmed ? trimmed.split("/") : [];
+    var params = new URLSearchParams(window.location.search);
+    var topLevelRoutes = {
+      pokemon: 1,
+      moves: 1,
+      items: 1,
+      abilities: 1,
+      types: 1,
+      egggroups: 1,
+      encounters: 1,
+    };
+    var listRoutes = {
+      pokemon: 1,
+      moves: 1,
+      encounters: 1,
+    };
+    var isRoot = pathname === "/";
+    var isDetailRoute = segments.length > 1 && !!topLevelRoutes[segments[0]];
+    var isSearchRoute = segments.length === 1 && !!listRoutes[segments[0]];
+    var isQueryRoute = segments.length === 1 && !!segments[0] && !topLevelRoutes[segments[0]];
+    return {
+      pathname: pathname,
+      params: params,
+      game: params.get("game"),
+      isRoot: isRoot,
+      isDetailRoute: isDetailRoute,
+      isSearchRoute: isSearchRoute,
+      isQueryRoute: isQueryRoute,
+      needsImmediateBoot: !isRoot || params.has("game"),
+    };
+  }
+
+  function getPanelBody() {
+    var body = document.querySelector(".pfx-panel .pfx-body");
+    if (!body) {
+      document.body.innerHTML = '<div class="pfx-panel"><div class="pfx-body"><p>Loading...</p></div></div>';
+      body = document.querySelector(".pfx-panel .pfx-body");
+    }
+    return body;
+  }
+
+  function renderRootShell() {
+    var body = getPanelBody();
+    body.innerHTML =
+      '<form class="pokedex ddex-shell">' +
+      '<h1 id="dex-title"><a href="/" data-target="replace">Pok&eacute;dex</a></h1>' +
+      '<ul class="tabbar centered" style="margin-bottom: 7px">' +
+      '<li><button class="button nav-first cur" type="button" data-fragment="">Search</button></li>' +
+      '<li><button class="button" type="button" data-fragment="pokemon/">Mons</button></li>' +
+      '<li><button class="button" type="button" data-fragment="encounters/">Areas</button></li>' +
+      '<li><button class="button nav-last" type="button" data-fragment="moves/">Moves</button></li>' +
+      "</ul>" +
+      '<div class="searchboxwrapper">' +
+      '<input class="textbox searchbox" type="search" autocomplete="off" placeholder="Search mons, moves, abilities, items, encounters or more" />' +
+      "</div>" +
+      '<p style="margin: 10px 0 0; color: #666;">Focus the search box or open a tab to load the dex.</p>' +
+      "</form>";
+
+    var input = body.querySelector(".searchbox");
+    var buttons = body.querySelectorAll("[data-fragment]");
+
+    input.addEventListener("focus", function () {
+      queueRootInteraction({ focus: true, query: input.value || "" });
+    });
+    input.addEventListener("input", function () {
+      queueRootInteraction({ focus: true, query: input.value || "" });
+    });
+    input.addEventListener("keydown", function () {
+      queueRootInteraction({ focus: true, query: input.value || "" });
+    });
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        queueRootInteraction({
+          fragment: button.getAttribute("data-fragment") || "",
+          focus: true,
+          query: input.value || "",
+        });
+      });
+    });
+  }
+
+  function queueRootInteraction(nextState) {
+    var current = window.__DDEX_BOOTSTRAP__.pendingState || {};
+    window.__DDEX_BOOTSTRAP__.pendingState = {
+      focus: nextState.focus || current.focus || false,
+      fragment:
+        typeof nextState.fragment === "string" ? nextState.fragment : current.fragment,
+      query: typeof nextState.query === "string" ? nextState.query : current.query,
+    };
+    ensureAppReady().then(replayPendingState).catch(reportBootFailure);
+  }
+
+  function reportBootFailure(error) {
+    var body = getPanelBody();
+    body.innerHTML =
+      '<p><strong>Failed to load Dynamic Dex.</strong></p><p>' +
+      escapeHtml(error && error.message ? error.message : String(error)) +
+      "</p>";
+    console.error(error);
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function loadScriptTag(src, options) {
+    return new Promise(function (resolve, reject) {
+      var existing = document.querySelector('script[src="' + src + '"]');
+      if (existing) {
+        if (existing.dataset.ddexLoaded === "1") {
+          resolve(true);
+          return;
+        }
+        existing.addEventListener("load", function () {
+          resolve(true);
+        }, { once: true });
+        existing.addEventListener("error", function (error) {
+          reject(error);
+        }, { once: true });
+        return;
+      }
+
+      var script = document.createElement("script");
+      script.src = src;
+      if (options && options.type) {
+        script.type = options.type;
+      }
+      script.onload = function () {
+        script.dataset.ddexLoaded = "1";
+        resolve(true);
+      };
+      script.onerror = function () {
+        reject(new Error("Failed to load " + src));
+      };
+      document.body.appendChild(script);
+    });
+  }
+
+  function loadAsset(name) {
+    if (scriptPromises[name]) return scriptPromises[name];
+    var src = manifest[name];
+    if (!src) {
+      return Promise.reject(new Error("Unknown asset chunk: " + name));
+    }
+    scriptPromises[name] = loadScriptTag(src);
+    return scriptPromises[name];
+  }
+
+  function loadRawScript(src) {
+    if (rawScriptPromises[src]) return rawScriptPromises[src];
+    rawScriptPromises[src] = loadScriptTag(src);
+    return rawScriptPromises[src];
+  }
+
+  function loadRawModule(src) {
+    if (rawModulePromises[src]) return rawModulePromises[src];
+    rawModulePromises[src] = loadScriptTag(src, { type: "module" });
+    return rawModulePromises[src];
+  }
+
+  async function hydrateCachedOverrides(routeInfo) {
+    var api = window.DDEX_OVERRIDES_API;
+    if (!api) {
+      throw new Error("Override runtime did not initialize.");
+    }
+    return api.hydrateCachedOverrides(routeInfo);
+  }
+
+  async function resolveRequestedOverrides(routeInfo) {
+    var api = window.DDEX_OVERRIDES_API;
+    if (!api || !routeInfo.game) return false;
+    return api.loadRequestedGameOverrides(routeInfo.game);
+  }
+
+  function startApp() {
+    if (typeof window.startPokedexApp !== "function") {
+      throw new Error("Router runtime is not ready.");
+    }
+    return window.startPokedexApp();
+  }
+
+  function getActiveSearchPanel() {
+    var app = window.pokedex;
+    if (!app || !app.panels || typeof app.i !== "number") return null;
+    var panel = app.panels[app.i];
+    if (!panel || typeof panel.find !== "function") return null;
+    return panel;
+  }
+
+  function replayPendingState() {
+    var pending = window.__DDEX_BOOTSTRAP__.pendingState;
+    if (!pending || !window.pokedex) return;
+    var panel = getActiveSearchPanel();
+
+    if (pending.fragment) {
+      window.pokedex.go(pending.fragment, panel || null, true, null, true);
+    }
+
+    setTimeout(function () {
+      var activePanel = getActiveSearchPanel();
+      if (!activePanel) return;
+
+      if (typeof pending.query === "string") {
+        activePanel.$searchbox.val(pending.query);
+        activePanel.find(pending.query);
+        if (pending.query && typeof activePanel.checkExactMatch === "function") {
+          activePanel.checkExactMatch();
+        }
+      }
+
+      if (pending.focus && activePanel.$searchbox) {
+        activePanel.$searchbox.focus();
+      }
+
+      window.__DDEX_BOOTSTRAP__.pendingState = null;
+    }, 0);
+  }
+
+  async function ensureAppReady() {
+    if (appReadyPromise) return appReadyPromise;
+
+    appReadyPromise = (async function () {
+      var routeInfo = getRouteInfo();
+      await loadAsset("base-data");
+      await loadAsset("detail-data");
+      await loadAsset("override-runtime");
+      await hydrateCachedOverrides(routeInfo);
+      await resolveRequestedOverrides(routeInfo);
+      startApp();
+      return true;
+    })();
+
+    return appReadyPromise;
+  }
+
+  function ensureRomTools() {
+    if (romToolsPromise) return romToolsPromise;
+    romToolsPromise = loadAsset("rom-tools").then(function () {
+      if (window.DDEX_ROM_TOOLS && typeof window.DDEX_ROM_TOOLS.ensureLoaded === "function") {
+        return window.DDEX_ROM_TOOLS.ensureLoaded();
+      }
+      return true;
+    });
+    return romToolsPromise;
+  }
+
+  window.__DDEX_BOOTSTRAP__ = {
+    pendingState: null,
+    getRouteInfo: getRouteInfo,
+    loadAsset: loadAsset,
+    loadRawScript: loadRawScript,
+    loadRawModule: loadRawModule,
+    ensureAppReady: ensureAppReady,
+    ensureRomTools: ensureRomTools,
+    replayPendingState: replayPendingState,
+  };
+
+  if (getRouteInfo().needsImmediateBoot) {
+    ensureAppReady().catch(reportBootFailure);
+  } else {
+    renderRootShell();
+  }
+})();

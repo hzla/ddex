@@ -1,8 +1,17 @@
-params = new URLSearchParams(window.location.search);
-const gameParam = params.get('game');
-const romOverrideActive = localStorage.romOverrides === "1";
-game = gameParam || (romOverrideActive ? null : localStorage.game);
-gameTitles = {
+const ROM_CACHE_FLAG = "romOverrides";
+const ROM_KEYS = {
+  overrides: "overrides",
+  searchIndex: "searchindex",
+  searchIndexOffset: "searchindex_offset",
+  searchIndexCount: "searchindex_count",
+  title: "gameTitle",
+  expanded: "romExpanded",
+};
+
+var params = new URLSearchParams(window.location.search);
+var gameParam = params.get("game");
+var game = gameParam || (isRomOverrideActive() ? null : localStorage.game);
+var gameTitles = {
 	"vintagewhiteplus": "Vintage White+",
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
 	"blindingwhite2": "Blinding White 2",
@@ -14,11 +23,13 @@ gameTitles = {
   "reignitedruby": "Reignited Ruby"
 }
 
-maybeApplyRomFamilyFromTitle(gameTitles[game])
+if (game && gameTitles[game]) {
+  maybeApplyRomFamilyFromTitle(gameTitles[game]);
+}
 
-unrecognizedPoks = {}
+var unrecognizedPoks = {}
 
-truncatedSpeciesNames = {
+var truncatedSpeciesNames = {
 	"fletcinder": "fletchinder"
 }
 
@@ -30,21 +41,17 @@ if (!window.DDEX_BASE_POKEDEX_KEYS && window.BattlePokedex) {
 	}
 }
 
-const ROM_CACHE_FLAG = "romOverrides";
-const ROM_KEYS = {
-  overrides: "overrides",
-  searchIndex: "searchindex",
-  searchIndexOffset: "searchindex_offset",
-  searchIndexCount: "searchindex_count",
-  title: "gameTitle",
-  expanded: "romExpanded",
-};
+function isRomOverrideActive() {
+  return localStorage[ROM_CACHE_FLAG] === "1";
+}
 
 function setDexTitle(title) {
+  const fullTitle = title ? `${title} Dex` : "Dynamic Dex";
+  document.title = fullTitle;
   if (!title) return;
   const el = document.getElementById("dex-title");
   if (el) {
-    el.textContent = `${title} Dex`;
+    el.textContent = fullTitle;
   }
 }
 
@@ -81,7 +88,7 @@ function applySearchIndex(searchIndex, offsets, counts) {
 }
 
 function applyRomOverridesFromCache() {
-  if (localStorage[ROM_CACHE_FLAG] !== "1") return false;
+  if (!isRomOverrideActive()) return false;
   try {
     const overrides = JSON.parse(localStorage[ROM_KEYS.overrides] || "null");
     window.overrides = overrides
@@ -104,24 +111,15 @@ function applyRomOverridesFromCache() {
   }
 }
 
-if (!params.get('game')) {
-  applyRomOverridesFromCache();
-} else {
-  localStorage.removeItem("gameTitle");
-}
-
 function setGameDexTitle(gameKey) {
   const title = gameTitles[gameKey];
   if (!title) return;
-  const el = document.getElementById("dex-title");
-  if (el) {
-    el.textContent = `${title} Dex`;
-  }
+  setDexTitle(title);
   maybeApplyRomFamilyFromTitle(title);
 }
 
 function applyGameOverridesFromCache() {
-  if (romOverrideActive) return false;
+  if (isRomOverrideActive()) return false;
   if (!localStorage.overrides) return false;
   const gameKey = localStorage.game;
   if (!gameKey || !gameTitles[gameKey]) return false;
@@ -137,12 +135,6 @@ function applyGameOverridesFromCache() {
     return false;
   }
 }
-
-if (!params.get('game')) {
-  applyGameOverridesFromCache();
-}
-
-setDexTitleFromStorage();
 
 function clearRomCache() {
   localStorage.removeItem(ROM_CACHE_FLAG);
@@ -332,17 +324,13 @@ window.getRomTextBank = function (key) {
 let romModulesLoaded = false;
 async function ensureRomModulesLoaded() {
   if (romModulesLoaded) return;
-  if (!window.BattleTypeChart) {
-    await checkAndLoadScript("/data/typechart.js?v0");
-  }
-  if (!window.GEN4_SYMBOLS) {
-    await checkAndLoadScript("/rom/gen4_symbols.js");
-  }
-  if (!window.PLATINUM_SCRCMD_DB) {
-    await checkAndLoadScript("/rom/platinum_scrcmd_database.js");
-  }
-  if (!window.HGSS_SCRCMD_DB) {
-    await checkAndLoadScript("/rom/hgss_scrcmd_database.js");
+  if (
+    window.__DDEX_BOOTSTRAP__ &&
+    typeof window.__DDEX_BOOTSTRAP__.ensureRomTools === "function"
+  ) {
+    await window.__DDEX_BOOTSTRAP__.ensureRomTools();
+    romModulesLoaded = true;
+    return;
   }
   romModulesLoaded = true;
 }
@@ -419,35 +407,57 @@ $(document).on('change', '#rom-upload', async function(e) {
     setRomStatus(err.message || String(err), true);
   }
 });
+function hydrateCachedOverrides(routeInfo) {
+  const requestedGame = (routeInfo && routeInfo.game) || gameParam;
+  if (requestedGame) {
+    localStorage.removeItem("gameTitle");
+    game = requestedGame;
+    if (gameTitles[requestedGame]) {
+      setGameDexTitle(requestedGame);
+    }
+    return false;
+  }
 
+  const appliedRomOverrides = applyRomOverridesFromCache();
+  if (!appliedRomOverrides) {
+    applyGameOverridesFromCache();
+  }
+  setDexTitleFromStorage();
+  return appliedRomOverrides;
+}
 
-$(document).ready(function() {
-	
+async function loadRequestedGameOverrides(gameName) {
+  if (!gameName) return false;
+  game = gameName;
+  if (gameTitles[gameName]) {
+    setGameDexTitle(gameName);
+  }
 
-	if (game) {
-		$('#dex-title').text(`${gameTitles[game]} Dex`)
-	 	checkAndLoadScript(`/data/overrides/${game}.js`, {
-            onLoad: (src) => {
-                overrideDexData(overrides)
-                if (localStorage.game != game) {
-                	localStorage.overrides = JSON.stringify(overrides)
-                	localStorage.game = game
-                }
-                if (!localStorage.overrides){
-                	localStorage.overrides = JSON.stringify(overrides)
-                	console.log("Stored override data in cache")
-                }              
-            },
-            onNotFound: (src) => console.log(`Not found: ${src}`)
-    	});
-    	checkAndLoadScript(`/data/overrides/${game}_searchindex.js`, {
-            onLoad: (src) => {
-                console.log(`search index loaded for ${game}`)
-            },
-            onNotFound: (src) => console.log(`Not found: ${src}`)
-    	});       
-	}
-})
+  const overridesLoaded = await checkAndLoadScript(`/data/overrides/${gameName}.js`, {
+    onLoad: () => {
+      overrideDexData(overrides);
+      if (localStorage.game !== gameName) {
+        localStorage.overrides = JSON.stringify(overrides);
+        localStorage.game = gameName;
+      }
+      if (!localStorage.overrides) {
+        localStorage.overrides = JSON.stringify(overrides);
+        console.log("Stored override data in cache");
+      }
+    },
+    onNotFound: (src) => console.log(`Not found: ${src}`),
+  });
+  if (!overridesLoaded) return false;
+
+  await checkAndLoadScript(`/data/overrides/${gameName}_searchindex.js`, {
+    onLoad: () => {
+      console.log(`search index loaded for ${gameName}`);
+    },
+    onNotFound: (src) => console.log(`Not found: ${src}`),
+  });
+
+  return true;
+}
 
 function overrideDexData(dexOverides) {
 	monOverrides = dexOverides.poks
@@ -757,6 +767,18 @@ function snakeToTitleCase(str) {
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(' ');
 }
+
+window.DDEX_OVERRIDES_API = {
+  applyGameOverridesFromCache,
+  applyRomOverridesFromCache,
+  applySearchIndex,
+  checkAndLoadScript,
+  clearRomCache,
+  hydrateCachedOverrides,
+  loadRequestedGameOverrides,
+  overrideDexData,
+  setDexTitleFromStorage,
+};
 
 function highlightChanged(oldStr, newStr) {
   oldStr = String(oldStr ?? "");
