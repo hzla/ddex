@@ -3622,6 +3622,14 @@ function deriveTrainerNatureGen4({
   return NATURES[natureId] || NATURES[0];
 }
 
+function deriveTrainerSetGenderCode({ speciesGenderRatio, trainerGenderCode }) {
+  const ratio = Number(speciesGenderRatio);
+  if (ratio === 255) return undefined;
+  if (ratio === 127) return Number(trainerGenderCode) === 1 ? "F" : "M";
+  if (ratio >= 128) return "F";
+  return "M";
+}
+
 function sanitizeFormattedSetTitleText(value) {
   return String(value || "")
     .replace(/\[PK\]\[MN\]/g, "Pkmn")
@@ -5046,6 +5054,10 @@ async function collectDspreData(editor, { log }) {
       const genderOverride = mon.genderAbilityFlags & 0x0F;
       const abilityOverride = mon.genderAbilityFlags >> 4;
       const baseGenderRatio = personalEntries[mon.pokeId]?.genderVec ?? 0;
+      const setGender = deriveTrainerSetGenderCode({
+        speciesGenderRatio: baseGenderRatio,
+        trainerGenderCode,
+      });
       const pid = dvGeneratePID({
         trainerIdx: i,
         trainerClassIdx: props.trainerClass,
@@ -5068,9 +5080,6 @@ async function collectDspreData(editor, { log }) {
         trainerGenderCode,
         family,
       });
-      let gender = "random";
-      if (genderOverride === 1) gender = "M";
-      if (genderOverride === 2) gender = "F";
       const firstAbility = personalEntries[mon.pokeId]?.firstAbility ?? 0;
       const secondAbility = personalEntries[mon.pokeId]?.secondAbility ?? firstAbility;
       let abilityIndex = pid % 2 === 0 ? firstAbility : secondAbility;
@@ -5130,13 +5139,14 @@ async function collectDspreData(editor, { log }) {
         moves: movesOut.map((move) => (move && move !== "None" ? move : "-")),
         sub_index: subIndex,
         ability,
+        ...(setGender ? { gender: setGender } : {}),
         _trainerClassName: trainerClassName,
         _trainerName: trainerName,
         _dupeStars: dupeStars,
       };
       return {
         name: speciesName,
-        gender,
+        gender: setGender || "random",
         item,
         ability,
         level: mon.level,

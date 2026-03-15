@@ -200,6 +200,9 @@
             : ""),
       );
     }
+    if (window.DDEXPaths && typeof window.DDEXPaths.rewriteSubtree === "function") {
+      window.DDEXPaths.rewriteSubtree(this.el);
+    }
     this.renderedIndex = i;
   };
   Search.prototype.setType = function (qType, format, set, cur) {

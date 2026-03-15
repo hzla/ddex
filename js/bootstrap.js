@@ -1,15 +1,80 @@
 (function () {
   "use strict";
 
+  var config = window.__DDEX_CONFIG__ || { target: "vercel", basePath: "" };
   var manifest = window.__DDEX_ASSET_MANIFEST__ || {};
   var scriptPromises = {};
   var rawScriptPromises = {};
   var rawModulePromises = {};
   var appReadyPromise = null;
   var romToolsPromise = null;
+  var basePath = normalizeBasePath(config.basePath || "");
+
+  function normalizeBasePath(value) {
+    value = String(value || "").trim();
+    if (!value || value === "/") return "";
+    if (value.charAt(0) !== "/") value = "/" + value;
+    return value.replace(/\/+$/, "");
+  }
+
+  function withBase(path) {
+    if (!path || typeof path !== "string") return path;
+    if (/^(?:[a-z]+:)?\/\//i.test(path) || path.charAt(0) !== "/") return path;
+    if (!basePath) return path;
+    if (path === basePath || path.indexOf(basePath + "/") === 0) return path;
+    if (path === "/") return basePath + "/";
+    return basePath + path;
+  }
+
+  function stripBase(pathname) {
+    pathname = pathname || "/";
+    if (!basePath) return pathname;
+    if (pathname === basePath) return "/";
+    if (pathname.indexOf(basePath + "/") === 0) {
+      return pathname.slice(basePath.length) || "/";
+    }
+    return pathname;
+  }
+
+  function routerRoot() {
+    return withBase("/");
+  }
+
+  function rewriteAttribute(el, attr) {
+    if (!el || !el.getAttribute) return;
+    var value = el.getAttribute(attr);
+    if (!value) return;
+    var nextValue = withBase(value);
+    if (nextValue !== value) {
+      el.setAttribute(attr, nextValue);
+    }
+  }
+
+  function rewriteSubtree(rootNode) {
+    if (!rootNode || !rootNode.querySelectorAll) return;
+    var nodes = [];
+    if (rootNode.matches) nodes.push(rootNode);
+    var descendants = rootNode.querySelectorAll("a[href], img[src], audio[src]");
+    for (var i = 0; i < descendants.length; i++) {
+      nodes.push(descendants[i]);
+    }
+    for (var j = 0; j < nodes.length; j++) {
+      rewriteAttribute(nodes[j], "href");
+      rewriteAttribute(nodes[j], "src");
+    }
+  }
+
+  window.DDEXPaths = {
+    basePath: basePath,
+    rewriteSubtree: rewriteSubtree,
+    routerRoot: routerRoot,
+    stripBase: stripBase,
+    withBase: withBase,
+  };
 
   function getRouteInfo() {
-    var pathname = window.location.pathname || "/";
+    var rawPathname = window.location.pathname || "/";
+    var pathname = stripBase(rawPathname) || "/";
     var trimmed = pathname.replace(/^\/+|\/+$/g, "");
     var segments = trimmed ? trimmed.split("/") : [];
     var params = new URLSearchParams(window.location.search);
@@ -33,6 +98,7 @@
     var isQueryRoute = segments.length === 1 && !!segments[0] && !topLevelRoutes[segments[0]];
     return {
       pathname: pathname,
+      rawPathname: rawPathname,
       params: params,
       game: params.get("game"),
       isRoot: isRoot,
@@ -56,7 +122,7 @@
     var body = getPanelBody();
     body.innerHTML =
       '<form class="pokedex ddex-shell">' +
-      '<h1 id="dex-title"><a href="/" data-target="replace">Pok&eacute;dex</a></h1>' +
+      '<h1 id="dex-title"><a href="' + withBase("/") + '" data-target="replace">Pok&eacute;dex</a></h1>' +
       '<ul class="tabbar centered" style="margin-bottom: 7px">' +
       '<li><button class="button nav-first cur" type="button" data-fragment="">Search</button></li>' +
       '<li><button class="button" type="button" data-fragment="pokemon/">Mons</button></li>' +
@@ -68,6 +134,7 @@
       "</div>" +
       '<p style="margin: 10px 0 0; color: #666;">Focus the search box or open a tab to load the dex.</p>' +
       "</form>";
+    rewriteSubtree(body);
 
     var input = body.querySelector(".searchbox");
     var buttons = body.querySelectorAll("[data-fragment]");
@@ -121,6 +188,7 @@
   }
 
   function loadScriptTag(src, options) {
+    src = withBase(src);
     return new Promise(function (resolve, reject) {
       var existing = document.querySelector('script[src="' + src + '"]');
       if (existing) {
@@ -271,6 +339,10 @@
     ensureRomTools: ensureRomTools,
     replayPendingState: replayPendingState,
   };
+
+  if (window.BattleSearch) {
+    window.BattleSearch.urlRoot = routerRoot();
+  }
 
   if (getRouteInfo().needsImmediateBoot) {
     ensureAppReady().catch(reportBootFailure);

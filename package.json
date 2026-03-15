@@ -3,7 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs",
-    "clean": "node -e \"import('node:fs/promises').then(({rm}) => rm('dist', {recursive: true, force: true}))\""
+    "build": "npm run build:vercel",
+    "build:vercel": "DDEX_TARGET=vercel node scripts/build.mjs",
+    "build:pages": "DDEX_TARGET=github-pages node scripts/build.mjs",
+    "build:pages:root": "DDEX_TARGET=github-pages DDEX_BASE_PATH= node scripts/build.mjs",
+    "build:pages:subpath": "test -n \"$DDEX_BASE_PATH\" && DDEX_TARGET=github-pages node scripts/build.mjs",
+    "deploy:pages": "bash scripts/deploy-pages.sh",
+    "clean": "node -e \"import('node:fs/promises').then(({rm}) => Promise.all(['dist','dist-pages'].map((dir) => rm(dir, {recursive: true, force: true}))))\""
   }
 }

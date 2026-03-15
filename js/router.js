@@ -27,6 +27,10 @@ var Pokedex = Panels.App.extend({
 
 window.startPokedexApp = function () {
   if (window.pokedex) return window.pokedex;
-  window.pokedex = new Pokedex();
+  var root = "/";
+  if (window.DDEXPaths && typeof window.DDEXPaths.routerRoot === "function") {
+    root = window.DDEXPaths.routerRoot();
+  }
+  window.pokedex = new Pokedex({ root: root });
   return window.pokedex;
 };

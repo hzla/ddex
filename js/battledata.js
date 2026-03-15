@@ -1078,9 +1078,10 @@ var Dex = new ((function () {
     }
     return (
       '<img src="' +
-      "/theme/" +
-      sanitizedCategory +
-      '.png" alt="' +
+      ((window.DDEXPaths && typeof window.DDEXPaths.withBase === "function")
+        ? window.DDEXPaths.withBase("/theme/" + sanitizedCategory + ".png")
+        : "/theme/" + sanitizedCategory + ".png") +
+      '" alt="' +
       sanitizedCategory +
       '" height="14" width="32" class="pixelated" />'
     );
@@ -5223,9 +5224,13 @@ var TextFormatter = (function () {
           if (this.slice(_i2, _i2 + 8) !== "&gt;&gt;") return false;
           this.pushSlice(start);
           var roomid = this.slice(start + 8, _i2);
+          var roomHref =
+            window.DDEXPaths && typeof window.DDEXPaths.withBase === "function"
+              ? window.DDEXPaths.withBase("/" + roomid)
+              : "/" + roomid;
           this.buffers.push(
-            '&laquo;<a href="/' +
-              roomid +
+            '&laquo;<a href="' +
+              roomHref +
               '" target="_blank">' +
               roomid +
               "</a>&raquo;",

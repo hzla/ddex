@@ -7,8 +7,33 @@ import { scriptChunks, staticCopies, styleChunks } from "./chunks.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
-const distDir = path.join(rootDir, "dist");
+const buildTarget =
+  process.env.DDEX_TARGET === "github-pages" ? "github-pages" : "vercel";
+const basePath = normalizeBasePath(process.env.DDEX_BASE_PATH || "");
+const outputDir =
+  process.env.DDEX_OUTPUT_DIR ||
+  (buildTarget === "github-pages" ? "dist-pages" : "dist");
+const distDir = path.resolve(rootDir, outputDir);
 const assetsDir = path.join(distDir, "assets");
+
+function normalizeBasePath(input) {
+  const value = String(input || "").trim();
+  if (!value || value === "/") return "";
+  const withLeadingSlash = value.startsWith("/") ? value : `/${value}`;
+  return withLeadingSlash.replace(/\/+$/, "");
+}
+
+function joinBasePath(currentBasePath, relPath) {
+  if (!relPath) return currentBasePath || "/";
+  if (/^(?:[a-z]+:)?\/\//i.test(relPath)) return relPath;
+  if (!relPath.startsWith("/")) return relPath;
+  if (!currentBasePath) return relPath;
+  if (relPath === currentBasePath || relPath.startsWith(`${currentBasePath}/`)) {
+    return relPath;
+  }
+  if (relPath === "/") return `${currentBasePath}/`;
+  return `${currentBasePath}${relPath}`;
+}
 
 function hashContent(contents) {
   return createHash("sha256").update(contents).digest("hex").slice(0, 10);
@@ -39,7 +64,7 @@ async function emitChunk(name, extension, contents) {
   const hash = hashContent(contents);
   const filename = `${name}.${hash}.${extension}`;
   await writeFile(path.join(assetsDir, filename), contents);
-  return `/assets/${filename}`;
+  return joinBasePath(basePath, `/assets/${filename}`);
 }
 
 async function buildScriptChunks() {
@@ -84,6 +109,10 @@ async function copyStaticAssets() {
 
 function renderIndexHtml(manifest) {
   const manifestJson = JSON.stringify(manifest);
+  const configJson = JSON.stringify({
+    target: buildTarget,
+    basePath,
+  });
   return `<!doctype html>
 <html>
   <head>
@@ -103,6 +132,7 @@ function renderIndexHtml(manifest) {
         gtag('event', 'exception', {'description': uri + ':' + line + ': ' + err});
         return false;
       };
+      window.__DDEX_CONFIG__ = ${configJson};
       window.__DDEX_ASSET_MANIFEST__ = ${manifestJson};
     </script>
   </head>
@@ -133,7 +163,12 @@ async function main() {
     path.join(distDir, "asset-manifest.json"),
     JSON.stringify(manifest, null, 2) + "\n",
   );
-  await writeFile(path.join(distDir, "index.html"), renderIndexHtml(manifest));
+  const indexHtml = renderIndexHtml(manifest);
+  await writeFile(path.join(distDir, "index.html"), indexHtml);
+  if (buildTarget === "github-pages") {
+    await writeFile(path.join(distDir, "404.html"), indexHtml);
+    await writeFile(path.join(distDir, ".nojekyll"), "");
+  }
   await copyStaticAssets();
 }
 

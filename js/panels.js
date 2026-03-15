@@ -40,6 +40,25 @@ if (!Function.prototype.bind) {
 
   var $ = root.jQuery || root.Zepto || root.ender;
 
+  function getDDEXPaths() {
+    return root.DDEXPaths || null;
+  }
+
+  function withBase(path) {
+    var helpers = getDDEXPaths();
+    if (helpers && typeof helpers.withBase === "function") {
+      return helpers.withBase(path);
+    }
+    return path;
+  }
+
+  function rewriteSubtree(node) {
+    var helpers = getDDEXPaths();
+    if (helpers && typeof helpers.rewriteSubtree === "function") {
+      helpers.rewriteSubtree(node);
+    }
+  }
+
   // we extend Backbone.history a bit
   Backbone.history.pause = function () {
     if (this.paused || !Backbone.History.started) return false;
@@ -63,7 +82,7 @@ if (!Function.prototype.bind) {
       if (!options) options = {};
       if (options.root) this.root = options.root;
       if ((location.search || "").substr(0, 4) === "?_ga" && window.history) {
-        history.replaceState(null, null, "/");
+        history.replaceState(null, null, withBase("/"));
       }
       for (var i in this.states) {
         this.routePanel(i, this.states[i]);
@@ -947,6 +966,7 @@ if (!Function.prototype.bind) {
       }
 
       this.$el.html(content);
+      rewriteSubtree(this.el);
       if (this.source && this.isPopup) {
         this.$(".pfx-title").remove();
       } else if (this.leftmost) {
@@ -972,7 +992,7 @@ if (!Function.prototype.bind) {
         }
         this.$(".pfx-backbutton").attr(
           "href",
-          this.app.root + this.sourcePanel.fragment,
+          withBase(this.app.root + this.sourcePanel.fragment),
         );
       }
     },

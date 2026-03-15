@@ -16,6 +16,21 @@ var PokedexSearchPanel = Panels.Panel.extend({
     "mouseover .result a": "hoverlink",
   },
   activeLink: null,
+  getAppPathFromLink: function (link) {
+    if (!link) return "";
+    var href = link.getAttribute ? link.getAttribute("href") : "";
+    if (href && href.charAt(0) === "/") {
+      if (window.DDEXPaths && typeof window.DDEXPaths.stripBase === "function") {
+        href = window.DDEXPaths.stripBase(href);
+      }
+      return href.replace(/^\/+/, "");
+    }
+    var pathname = link.pathname || "";
+    if (window.DDEXPaths && typeof window.DDEXPaths.stripBase === "function") {
+      pathname = window.DDEXPaths.stripBase(pathname);
+    }
+    return String(pathname || "").replace(/^\/+/, "");
+  },
   initialize: function () {
     var fragment = this.fragment;
     var questionIndex = fragment.indexOf("?");
@@ -189,7 +204,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
           return;
         }
         if (this.activeLink) {
-          var path = this.activeLink.pathname.substr(1);
+          var path = this.getAppPathFromLink(this.activeLink);
           if (
             path === "moves/" ||
             path === "pokemon/" ||
@@ -342,7 +357,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
       setTimeout(
         function () {
           this.app.go(
-            $(this.activeLink).attr("href"),
+            this.getAppPathFromLink(this.activeLink),
             this,
             false,
             $(this.activeLink),

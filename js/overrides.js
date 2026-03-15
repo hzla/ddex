@@ -683,6 +683,9 @@ function checkAndLoadScript(src, options = {}) {
 
     return new Promise((resolve, reject) => {
         const script = document.createElement('script');
+        if (window.DDEXPaths && typeof window.DDEXPaths.withBase === "function") {
+          src = window.DDEXPaths.withBase(src);
+        }
         script.src = src;
         script.type = 'text/javascript';
         

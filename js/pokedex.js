@@ -1,4 +1,7 @@
-BattleSearch.urlRoot = "/";
+BattleSearch.urlRoot =
+  window.DDEXPaths && typeof window.DDEXPaths.routerRoot === "function"
+    ? window.DDEXPaths.routerRoot()
+    : "/";
 
 Dex.escapeHTML = function (str, jsEscapeToo) {
   str = String(str)
@@ -38,6 +41,10 @@ function renderNpcSprites(root) {
       var orientation = parseInt(el.getAttribute('data-orientation') || '0', 10);
       var url = '/img/' + spriteFolder + '/' + spriteID + '.png';
       var fallbackUrl = '/img/sprites/' + spriteID + '.png';
+      if (window.DDEXPaths && typeof window.DDEXPaths.withBase === "function") {
+        url = window.DDEXPaths.withBase(url);
+        fallbackUrl = window.DDEXPaths.withBase(fallbackUrl);
+      }
       var triedFallback = false;
       var img = new Image();
       el.style.backgroundImage = 'url("' + url + '")';
