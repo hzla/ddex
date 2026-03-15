@@ -87,6 +87,29 @@
 .dexentry p, .dexentry h2 {
 	padding: 0 10px;
 }
+.dexentry .location-map-gallery {
+	padding: 0 10px 18px;
+}
+.dexentry .location-map-gallery h2 {
+	padding: 18px 0 10px;
+	margin: 0;
+}
+.dexentry .location-map-list {
+	display: grid;
+	gap: 14px;
+}
+.dexentry .location-map {
+	margin: 0;
+	border: 1px solid rgba(248, 248, 242, 0.18);
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.04);
+	overflow: hidden;
+}
+.dexentry .location-map img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 .dexentry dl {
 	padding: 0 10px;
 	margin: 0 0 1em 0;

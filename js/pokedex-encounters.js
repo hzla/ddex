@@ -1,3 +1,149 @@
+window.DDEX_LOCATION_MAP_SETS = window.DDEX_LOCATION_MAP_SETS || {};
+window.DDEX_LOCATION_MAP_LOADS = window.DDEX_LOCATION_MAP_LOADS || {};
+
+function getCurrentMapSetCandidates() {
+  var seen = {};
+  var candidates = [];
+
+  function add(value) {
+    value = String(value || "").trim();
+    if (!value || seen[value]) return;
+    seen[value] = true;
+    candidates.push(value);
+  }
+
+  var params = new URLSearchParams(window.location.search || "");
+  add(params.get("game"));
+  add(localStorage.game);
+
+  var documentTitle = String(document.title || "")
+    .replace(/\s+Dex\s*$/i, "")
+    .trim();
+  if (documentTitle && documentTitle !== "Dynamic") add(documentTitle);
+
+  add(localStorage.gameTitle);
+  add(localStorage.romTitle);
+
+  if (window.DDEX_ROM_OVERRIDES && window.DDEX_ROM_OVERRIDES.title) {
+    add(window.DDEX_ROM_OVERRIDES.title);
+  }
+
+  return candidates;
+}
+
+function withDexBase(path) {
+  if (window.DDEXPaths && typeof window.DDEXPaths.withBase === "function") {
+    return window.DDEXPaths.withBase(path);
+  }
+  return path;
+}
+
+function normalizeLocationMapSet(title, rawSet) {
+  if (!rawSet || typeof rawSet !== "object") return null;
+  var counts = rawSet.counts || rawSet.mapCounts || rawSet;
+  if (!counts || typeof counts !== "object") return null;
+
+  return {
+    title: rawSet.title || title,
+    imageBasePath:
+      rawSet.imageBasePath || `/img/${cleanString(title)}maps`,
+    counts: counts,
+  };
+}
+
+function getRegisteredLocationMapSet(title) {
+  if (!title) return null;
+
+  var exactSet = normalizeLocationMapSet(title, window.DDEX_LOCATION_MAP_SETS[title]);
+  if (exactSet) return exactSet;
+
+  var titleId = cleanString(title);
+  for (var key in window.DDEX_LOCATION_MAP_SETS) {
+    if (cleanString(key) !== titleId) continue;
+    return normalizeLocationMapSet(title, window.DDEX_LOCATION_MAP_SETS[key]);
+  }
+
+  return null;
+}
+
+function resolveLocationMapKey(mapSet, locationId, locationName) {
+  if (!mapSet || !mapSet.counts) return "";
+
+  var candidates = [];
+  var seen = {};
+  function add(value) {
+    value = cleanString(value);
+    if (!value || seen[value]) return;
+    seen[value] = true;
+    candidates.push(value);
+  }
+
+  add(locationId);
+  add(locationName);
+  add(String(locationId || "").replace(/\d+$/, ""));
+  add(String(locationName || "").replace(/\d+$/, ""));
+
+  for (var i = 0; i < candidates.length; i++) {
+    if (mapSet.counts[candidates[i]]) return candidates[i];
+  }
+
+  return "";
+}
+
+async function ensureLocationMapSet() {
+  var titles = getCurrentMapSetCandidates();
+  for (var i = 0; i < titles.length; i++) {
+    var existingSet = getRegisteredLocationMapSet(titles[i]);
+    if (existingSet) {
+      window.DDEX_LOCATION_MAP_SETS[titles[i]] = existingSet;
+      return existingSet;
+    }
+  }
+
+  var loader =
+    window.DDEX_OVERRIDES_API &&
+    window.DDEX_OVERRIDES_API.checkAndLoadScript;
+  if (typeof loader !== "function") return null;
+
+  function loadLocationMapSetById(titleId) {
+    return loader(`/data/${titleId}_location_map_counts.js`, {
+      onLoad: function () {
+        if (window.mapCounts) {
+          window.DDEX_LOCATION_MAP_SETS[titleId] = normalizeLocationMapSet(
+            titleId,
+            {
+              title: titleId,
+              counts: window.mapCounts,
+            },
+          );
+        }
+      },
+    }).then(function (loaded) {
+      if (!loaded) return null;
+      for (var k = 0; k < titles.length; k++) {
+        var loadedSet = getRegisteredLocationMapSet(titles[k]);
+        if (loadedSet) return loadedSet;
+      }
+      return getRegisteredLocationMapSet(titleId);
+    });
+  }
+
+  for (var j = 0; j < titles.length; j++) {
+    var title = titles[j];
+    var titleId = cleanString(title);
+    if (!titleId) continue;
+
+    if (!window.DDEX_LOCATION_MAP_LOADS[titleId]) {
+      window.DDEX_LOCATION_MAP_LOADS[titleId] = loadLocationMapSetById(titleId);
+    }
+
+    var loadedSet = await window.DDEX_LOCATION_MAP_LOADS[titleId];
+    if (loadedSet) return loadedSet;
+  }
+
+  return null;
+}
+
 var PokedexEncountersPanel = PokedexResultPanel.extend({
   initialize: function (id) {
     id = toID(id);
@@ -19,12 +165,18 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     // distribution
     buf += '<ul class="utilichart metricchart nokbd encounterchart">';
     buf += "</ul>";
+    buf += '<section class="location-map-gallery" hidden></section>';
 
     buf += "</div>";
 
     this.html(buf);
 
-    setTimeout(this.renderDistribution.bind(this));
+    setTimeout(
+      function () {
+        this.renderDistribution();
+        this.renderLocationMaps();
+      }.bind(this),
+    );
   },
   getDistribution: function () {
     if (this.results) return this.results;
@@ -126,6 +278,54 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       }
       this.$chart.html(buf);
     }
+  },
+  renderLocationMaps: async function () {
+    var $gallery = this.$(".location-map-gallery");
+    if (!$gallery.length) return;
+
+    var mapSet = await ensureLocationMapSet();
+    var location = BattleLocationdex[this.id];
+    var locationName = location && location.name ? location.name : this.id;
+    if (!mapSet) {
+      console.warn("No location map set found for current game", {
+        candidates: getCurrentMapSetCandidates(),
+        location: this.id,
+      });
+      $gallery.prop("hidden", true).empty();
+      return;
+    }
+    var mapKey = resolveLocationMapKey(mapSet, this.id, locationName);
+    var mapCount =
+      mapSet && mapSet.counts && mapKey
+        ? parseInt(mapSet.counts[mapKey], 10)
+        : 0;
+
+    if (!mapCount) {
+      console.warn("No location maps found for encounter location", {
+        locationId: this.id,
+        locationName: locationName,
+        mapTitle: mapSet.title,
+      });
+      $gallery.prop("hidden", true).empty();
+      return;
+    }
+
+    var buf = '<h2>Location Maps</h2><div class="location-map-list">';
+
+    for (var i = 0; i < mapCount; i++) {
+      var src = withDexBase(`${mapSet.imageBasePath}/${mapKey}${i}.png`);
+      var alt =
+        Dex.escapeHTML(locationName) +
+        " map " +
+        Dex.escapeHTML(String(i + 1));
+      buf +=
+        '<figure class="location-map">' +
+        `<img src="${src}" alt="${alt}" loading="lazy" />` +
+        "</figure>";
+    }
+
+    buf += "</div>";
+    $gallery.html(buf).prop("hidden", false);
   },
   renderRow: function (i, offscreen) {
     var results = this.results;

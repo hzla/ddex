@@ -20,7 +20,8 @@ var gameTitles = {
 	"renegadeplatinum": "Renegade Platinum",
   "sterlingsilver": "Sterling Silver",
   "pokemonnull": "Pokemon Null",
-  "reignitedruby": "Reignited Ruby"
+  "reignitedruby": "Reignited Ruby",
+  "platinumkaizo": "Platinum Kaizo"
 }
 
 if (game && gameTitles[game]) {
@@ -204,6 +205,52 @@ function formatBackupDataFile(backupData) {
   return JSON.stringify(backupData);
 }
 
+function isAllCapsSpeciesName(name) {
+  const text = String(name || "").trim();
+  if (!text) return false;
+  return /[A-Z]/.test(text) && text === text.toUpperCase();
+}
+
+function resolveCanonicalSpeciesName(name) {
+  const speciesId = cleanString(name);
+  if (!speciesId || !window.BattlePokedex) return "";
+  const dexEntry = window.BattlePokedex[speciesId];
+  return dexEntry && dexEntry.name ? dexEntry.name : "";
+}
+
+function normalizeBackupFormattedSetSpecies(backupData) {
+  if (!backupData || typeof backupData !== "object") return backupData;
+  function normalizeSpeciesKeyMap(mapValue) {
+    if (!mapValue || typeof mapValue !== "object") return mapValue;
+    const normalizedMap = {};
+    for (const [speciesName, value] of Object.entries(mapValue)) {
+      const canonicalName = isAllCapsSpeciesName(speciesName)
+        ? resolveCanonicalSpeciesName(speciesName) || speciesName
+        : speciesName;
+      const existingValue = normalizedMap[canonicalName];
+      if (
+        existingValue &&
+        typeof existingValue === "object" &&
+        !Array.isArray(existingValue) &&
+        value &&
+        typeof value === "object" &&
+        !Array.isArray(value)
+      ) {
+        Object.assign(existingValue, value);
+      } else {
+        normalizedMap[canonicalName] = value;
+      }
+    }
+    return normalizedMap;
+  }
+
+  return {
+    ...backupData,
+    formatted_sets: normalizeSpeciesKeyMap(backupData.formatted_sets),
+    poks: normalizeSpeciesKeyMap(backupData.poks),
+  };
+}
+
 function downloadTextFile(filename, contents, mimeType = "text/javascript") {
   const blob = new Blob([contents], { type: mimeType });
   const url = URL.createObjectURL(blob);
@@ -263,7 +310,7 @@ window.downloadRomBackupData = function (baseName) {
   const base = safeFileBase(exportTitle || fallbackTitle);
   const filename = `${base}_npoint_data.json`;
   const backupPayload = payload && typeof payload === "object"
-    ? { ...payload, title: exportTitle }
+    ? normalizeBackupFormattedSetSpecies({ ...payload, title: exportTitle })
     : payload;
   downloadTextFile(filename, formatBackupDataFile(backupPayload), "application/json");
   console.log(`Downloaded backup_data as ${filename} (title="${exportTitle}")`);
