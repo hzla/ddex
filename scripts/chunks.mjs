@@ -52,6 +52,6 @@ export const staticCopies = [
   "favicon.ico",
   "img",
   "theme",
-  "data/overrides",
+  "data",
   "rom",
 ];
