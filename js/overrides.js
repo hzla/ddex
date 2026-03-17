@@ -161,8 +161,13 @@ $(document).on('click', '#reset-cache', function() {
 
 function setRomStatus(msg, isErr) {
   const prefix = isErr ? "[error] " : "";
-  if (isErr) console.error(`${prefix}${msg}`);
-  else console.log(msg);
+  if (isErr) {
+    console.error(`${prefix}${msg}`);
+    return;
+  }
+  if (/\.\.\.\s*$/.test(String(msg || ""))) {
+    console.log(msg);
+  }
 }
 
 function getRomOverridePayload() {
@@ -261,6 +266,18 @@ function downloadTextFile(filename, contents, mimeType = "text/javascript") {
   link.click();
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
+}
+
+function readRomGameCode(arrayBuffer) {
+  try {
+    const u8 = new Uint8Array(arrayBuffer);
+    return new TextDecoder("ascii")
+      .decode(u8.subarray(0x0c, 0x10))
+      .replace(/\0/g, "")
+      .trim();
+  } catch (e) {
+    return "";
+  }
 }
 
 function safeFileBase(name) {
@@ -407,7 +424,7 @@ $(document).on('change', '#rom-upload', async function(e) {
   const file = e.target.files && e.target.files[0];
   if (!file) return;
   try {
-    setRomStatus(`Loading ROM: ${file.name}`);
+    setRomStatus("Loading ROM...");
     await ensureRomModulesLoaded();
     await ensureRomExporterLoaded();
     const buf = await file.arrayBuffer();
@@ -448,7 +465,6 @@ $(document).on('change', '#rom-upload', async function(e) {
       localStorage.removeItem("romExpanded");
     }
     localStorage.removeItem("game");
-    setRomStatus("ROM overrides loaded and cached.");
     // window.location.href = "/";
   } catch (err) {
     setRomStatus(err.message || String(err), true);

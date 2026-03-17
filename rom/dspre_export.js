@@ -669,8 +669,48 @@ function normalizeBackupPokemonName(value) {
   let text = String(value || "").trim();
   if (!text) return "";
   text = text.replace(/\s+-\s+/g, "-");
-  if (/^porygon-z$/i.test(text)) return "Porygon-Z";
-  return text;
+
+  let suffix = "";
+  if (/-Glitched$/i.test(text)) {
+    suffix = "-Glitched";
+    text = text.replace(/-Glitched$/i, "");
+  }
+
+  if (/^burmy-sandy$/i.test(text)) {
+    text = "Burmy";
+  }
+
+  if (/^porygon-z$/i.test(text)) {
+    text = "Porygon-Z";
+  } else {
+    try {
+      if (typeof BattlePokedex !== "undefined") {
+        const entry =
+          BattlePokedex[text] ||
+          BattlePokedex[String(text)] ||
+          BattlePokedex[toID(text)];
+        if (entry && entry.name) {
+          text = entry.name;
+        }
+      }
+    } catch {
+      // fall through to raw text
+    }
+  }
+
+  if (/^burmy-sandy$/i.test(text)) {
+    text = "Burmy";
+  }
+
+  return `${text}${suffix}`;
+}
+
+function normalizeBackupSetGender(value) {
+  const text = String(value || "").trim();
+  if (!text) return value;
+  if (/^m$/i.test(text) || /^male$/i.test(text)) return "Male";
+  if (/^f$/i.test(text) || /^female$/i.test(text)) return "Female";
+  return value;
 }
 
 const BACKUP_MOVE_NAME_REPLACEMENTS = {
@@ -1042,7 +1082,7 @@ function extractScriptTutorData(scriptsTextMap, pokemonNames, { moveNames } = {}
       for (const moveName of moves) unresolved.push(moveName);
     }
     if (unresolved.length) {
-      console.log(`[tutors] Script ${scriptId} unresolved tutor moves: ${Array.from(new Set(unresolved)).join(", ")}`);
+      // Suppress verbose tutor-resolution debug output during ROM load.
     }
   }
 
@@ -1431,17 +1471,30 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
   for (let i = 0; i < evolutionData.length; i += 1) {
     const evoEntry = evolutionData[i];
     if (!evoEntry || !evoEntry.Name || evoEntry.Name === "-----") continue;
-    const parsed = parseEvolutionCell(evoEntry["[Method|Param|Target]"]);
-    if (!parsed) continue;
-    const mappedMethod = mapEvoMethod(parsed.method);
-    const param = normalizeEvoParam(parsed.param);
-    const target = String(parsed.target).trim();
-    if (!target) continue;
+    const sourceName = String(evoEntry.Name).trim();
+    const evoColumns = Object.keys(evoEntry)
+      .filter((key) => key === "[Method|Param|Target]" || key.startsWith("[Method|Param|Target]"))
+      .sort((a, b) => {
+        const aNum = Number(a.replace("[Method|Param|Target]", "")) || 0;
+        const bNum = Number(b.replace("[Method|Param|Target]", "")) || 0;
+        return aNum - bNum;
+      });
 
-    evoByName.set(evoEntry.Name, { target, method: mappedMethod, param });
+    for (const column of evoColumns) {
+      const parsed = parseEvolutionCell(evoEntry[column]);
+      if (!parsed) continue;
+      const mappedMethod = mapEvoMethod(parsed.method);
+      const param = normalizeEvoParam(parsed.param);
+      const target = String(parsed.target).trim();
+      if (!target) continue;
 
-    if (!preEvoByTarget.has(target)) {
-      preEvoByTarget.set(target, { method: mappedMethod, param });
+      const existingEvos = evoByName.get(sourceName) || [];
+      existingEvos.push({ target, method: mappedMethod, param });
+      evoByName.set(sourceName, existingEvos);
+
+      if (!preEvoByTarget.has(target)) {
+        preEvoByTarget.set(target, { method: mappedMethod, param });
+      }
     }
   }
 
@@ -1521,10 +1574,10 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
     };
 
     const evoInfo = evoByName.get(name);
-    if (evoInfo) {
-      species.evos = [evoInfo.target];
-      species.evoMethods = [evoInfo.method];
-      species.evoParams = [evoInfo.param];
+    if (Array.isArray(evoInfo) && evoInfo.length) {
+      species.evos = evoInfo.map((entry) => entry.target);
+      species.evoMethods = evoInfo.map((entry) => entry.method);
+      species.evoParams = evoInfo.map((entry) => entry.param);
     }
 
     const preEvoInfo = preEvoByTarget.get(name);
@@ -1622,7 +1675,7 @@ function mapSpeciesToBackupPoks(speciesData) {
     if (/\s-\s/.test(String(name || ""))) {
       const baseRawName = String(name).split(/\s-\s/, 1)[0].trim();
       const normalizedBaseName = normalizeBackupPokemonName(baseRawName);
-      const glitchedName = `${normalizedName}-Glitched`;
+      const glitchedName = normalizeBackupPokemonName(`${normalizedName}-Glitched`);
       const baseStats = baseStatsByNormalizedName[normalizedBaseName] || bs;
       const glitchedSpecies = {
         ...species,
@@ -1663,6 +1716,7 @@ function mapMovesToBackupMoves(movesData) {
       basePower: Number(entry.bp || 0),
       pp: Number(entry.pp || 0),
     };
+    if (Number.isFinite(entry.acc)) move.acc = Number(entry.acc);
     if (entry.t) move.type = entry.t;
     if (entry.cat) move.category = entry.cat;
     if (Number.isFinite(entry.prio)) move.priority = Number(entry.prio);
@@ -1672,7 +1726,20 @@ function mapMovesToBackupMoves(movesData) {
   return out;
 }
 
+function buildGlitchedSpeciesRedirects(speciesData) {
+  const redirects = {};
+  for (const name of Object.keys(speciesData || {})) {
+    if (!/\s-\s/.test(String(name || ""))) continue;
+    const normalizedName = normalizeBackupPokemonName(name);
+    if (!normalizedName || /-Glitched$/i.test(normalizedName)) continue;
+    redirects[normalizedName] = normalizeBackupPokemonName(`${normalizedName}-Glitched`);
+  }
+  return redirects;
+}
+
 function buildBackupDataPayload({ formattedSets, speciesData, movesData, poksReplacements, moveReplacements }) {
+  const backupPoks = mapSpeciesToBackupPoks(speciesData);
+  const glitchedSpeciesRedirects = buildGlitchedSpeciesRedirects(speciesData);
   const normalizedFormattedSets = {};
   const normalizeSetMoves = (moves) => {
     if (!Array.isArray(moves)) return moves;
@@ -1683,8 +1750,13 @@ function buildBackupDataPayload({ formattedSets, speciesData, movesData, poksRep
     });
   };
   for (const [speciesName, sets] of Object.entries(formattedSets || {})) {
-    const normalizedSpeciesName = normalizeBackupPokemonName(speciesName);
-    if (!normalizedSpeciesName) continue;
+    const normalizedSpeciesNameRaw = normalizeBackupPokemonName(speciesName);
+    if (!normalizedSpeciesNameRaw) continue;
+    const redirectedSpeciesName = glitchedSpeciesRedirects[normalizedSpeciesNameRaw];
+    const normalizedSpeciesName =
+      redirectedSpeciesName && Object.prototype.hasOwnProperty.call(backupPoks, redirectedSpeciesName)
+        ? redirectedSpeciesName
+        : normalizedSpeciesNameRaw;
     if (!normalizedFormattedSets[normalizedSpeciesName]) {
       normalizedFormattedSets[normalizedSpeciesName] = {};
     }
@@ -1695,6 +1767,7 @@ function buildBackupDataPayload({ formattedSets, speciesData, movesData, poksRep
             moves: normalizeSetMoves(setData.moves),
             item: normalizeBackupItemName(setData.item),
             reward_item: normalizeBackupItemName(setData.reward_item),
+            ...(setData.gender ? { gender: normalizeBackupSetGender(setData.gender) } : {}),
           }
         : setData;
       normalizedFormattedSets[normalizedSpeciesName][setName] = nextSetData;
@@ -1702,7 +1775,7 @@ function buildBackupDataPayload({ formattedSets, speciesData, movesData, poksRep
   }
   const backupData = {
     formatted_sets: normalizedFormattedSets,
-    poks: mapSpeciesToBackupPoks(speciesData),
+    poks: backupPoks,
     moves: mapMovesToBackupMoves(movesData),
   };
   if (poksReplacements && Object.keys(poksReplacements).length) {
@@ -4563,7 +4636,17 @@ async function collectDspreData(editor, { log }) {
   }
 
   const evolutionCsv = [];
-  evolutionCsv.push("ID,Name,[Method|Param|Target]");
+  const maxEvolutionCount = evolutions.reduce((max, list) => {
+    const count = Array.isArray(list)
+      ? list.filter((evo) => evo && evo.target !== 0).length
+      : 0;
+    return Math.max(max, count);
+  }, 0);
+  const evolutionHeaders = ["ID", "Name"];
+  for (let i = 0; i < maxEvolutionCount; i += 1) {
+    evolutionHeaders.push(i === 0 ? "[Method|Param|Target]" : `[Method|Param|Target]${i + 1}`);
+  }
+  evolutionCsv.push(evolutionHeaders.join(","));
   for (let i = 0; i < evolutions.length; i += 1) {
     const list = evolutions[i];
     const row = [String(i), pokemonNames[i] ?? `UNKNOWN_${i}`];
@@ -4574,6 +4657,7 @@ async function collectDspreData(editor, { log }) {
       const targetName = pokemonNames[evo.target] ?? `UNKNOWN_${evo.target}`;
       row.push(`[${methodName}|${paramString}|${targetName}]`);
     }
+    while (row.length < evolutionHeaders.length) row.push("");
     evolutionCsv.push(row.join(","));
   }
 

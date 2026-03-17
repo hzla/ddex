@@ -414,9 +414,10 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       var seenEvos = []
       var stopSearch = false;
       console.log(basePokemon)
-      var currentPrevo = basePokemon.name
       while (evos && !stopSearch) {
         var evoData = ""
+        var evoSourceTemplate =
+          typeof evos[0] === "string" ? template : evos[0];
         for (var i = 0; i < evos.length; i++) {
           template = Dex.species.get(evos[i]);
           if (i <= 0) {
@@ -441,24 +442,17 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
             if (typeof evos[0] === "string") {
               var nextEvos = BattlePokedex[cleanString(evos[i])].evos
 
-              var nextPrevo = evos[i]
-
               if (nextEvos) {
                 if (hasOverlap(nextEvos, seenEvos) && seenEvos.includes(evos[i])) {
                   stopSearch = true;
                   break;
                 }
               }
-              
-              let prevo = currentPrevo
-              if (prevo == evos[i]) {
-                prevo = BattlePokedex[cleanString(evos[i])].prevo
-              }
 
-
-
-              var evoSource = BattlePokedex[cleanString(prevo)]
-              evoData = evoSource.evoParams[evoIndex]
+              var evoSource = BattlePokedex[cleanString(evoSourceTemplate.name)]
+              evoData = evoSource && evoSource.evoParams
+                ? evoSource.evoParams[evoIndex]
+                : ""
 
               if (template.evos && template.evoParams && template.evoParams.length) {
                 for (var j = 0; j < template.evos.length; j++) {
@@ -474,14 +468,18 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
                 evoData = ""
               }
 
-              if (evoData.length == 0 && evoSource.evoMethods[0] == "levelFriendship") {
+              if (
+                evoData.length == 0 &&
+                evoSource &&
+                evoSource.evoMethods &&
+                evoSource.evoMethods[evoIndex] == "levelFriendship"
+              ) {
                 evoData = "Max Happiness"
               }
 
 
 
               seenEvos.push(evos[i])
-              currentPrevo = nextPrevo
 
             } else {
               if (seenEvos.includes(evos["0"].name)) {
