@@ -91,7 +91,7 @@ function applySearchIndex(searchIndex, offsets, counts) {
 function applyRomOverridesFromCache() {
   if (!isRomOverrideActive()) return false;
   try {
-    const overrides = JSON.parse(localStorage[ROM_KEYS.overrides] || "null");
+    const overrides = normalizeOverrideSpeciesPayload(JSON.parse(localStorage[ROM_KEYS.overrides] || "null"));
     window.overrides = overrides
     const searchIndex = JSON.parse(localStorage[ROM_KEYS.searchIndex] || "null");
     const searchIndexOffset = JSON.parse(localStorage[ROM_KEYS.searchIndexOffset] || "null");
@@ -174,7 +174,7 @@ function getRomOverridePayload() {
   if (window.DDEX_ROM_OVERRIDES) return window.DDEX_ROM_OVERRIDES;
   if (localStorage[ROM_CACHE_FLAG] !== "1") return null;
   try {
-    const overrides = JSON.parse(localStorage[ROM_KEYS.overrides] || "null");
+    const overrides = normalizeOverrideSpeciesPayload(JSON.parse(localStorage[ROM_KEYS.overrides] || "null"));
     const searchIndex = JSON.parse(localStorage[ROM_KEYS.searchIndex] || "null");
     const searchIndexOffset = JSON.parse(localStorage[ROM_KEYS.searchIndexOffset] || "null");
     const searchIndexCount = JSON.parse(localStorage[ROM_KEYS.searchIndexCount] || "null");
@@ -207,7 +207,7 @@ function formatSearchIndexFile(payload) {
 }
 
 function formatBackupDataFile(backupData) {
-  return JSON.stringify(backupData);
+  return JSON.stringify(backupData, (key, value) => (key === "_meta" ? undefined : value));
 }
 
 function isAllCapsSpeciesName(name) {
@@ -217,10 +217,58 @@ function isAllCapsSpeciesName(name) {
 }
 
 function resolveCanonicalSpeciesName(name) {
-  const speciesId = cleanString(name);
+  const text = String(name || "").trim();
+  if (!text) return "";
+  if (/^nidoran(?:-?f|♀)$/i.test(text)) return "Nidoran-F";
+  if (/^nidoran(?:-?m|♂)$/i.test(text)) return "Nidoran-M";
+  const speciesId = cleanString(text);
   if (!speciesId || !window.BattlePokedex) return "";
   const dexEntry = window.BattlePokedex[speciesId];
   return dexEntry && dexEntry.name ? dexEntry.name : "";
+}
+
+function normalizeSpeciesReferenceName(name) {
+  const text = String(name || "").trim();
+  if (!text) return text;
+  return resolveCanonicalSpeciesName(text) || text;
+}
+
+function normalizeOverrideSpeciesPayload(overridesData) {
+  if (!overridesData || typeof overridesData !== "object") return overridesData;
+  const nextOverrides = { ...overridesData };
+  const poks = overridesData.poks;
+  if (!poks || typeof poks !== "object") return nextOverrides;
+  const normalizedPoks = {};
+  for (const [speciesName, value] of Object.entries(poks)) {
+    const canonicalName = normalizeSpeciesReferenceName(speciesName);
+    const nextValue =
+      value && typeof value === "object" && !Array.isArray(value)
+        ? { ...value }
+        : value;
+    if (nextValue && typeof nextValue === "object" && !Array.isArray(nextValue)) {
+      if (typeof nextValue.name !== "undefined") {
+        nextValue.name = normalizeSpeciesReferenceName(nextValue.name);
+      }
+      if (typeof nextValue.prevo !== "undefined") {
+        nextValue.prevo = normalizeSpeciesReferenceName(nextValue.prevo);
+      }
+      if (Array.isArray(nextValue.evos)) {
+        nextValue.evos = nextValue.evos.map((evo) => normalizeSpeciesReferenceName(evo));
+      }
+      if (typeof nextValue.baseSpecies !== "undefined") {
+        nextValue.baseSpecies = normalizeSpeciesReferenceName(nextValue.baseSpecies);
+      }
+      if (Array.isArray(nextValue.otherFormes)) {
+        nextValue.otherFormes = nextValue.otherFormes.map((forme) => normalizeSpeciesReferenceName(forme));
+      }
+      if (Array.isArray(nextValue.formeOrder)) {
+        nextValue.formeOrder = nextValue.formeOrder.map((forme) => normalizeSpeciesReferenceName(forme));
+      }
+    }
+    normalizedPoks[canonicalName] = nextValue;
+  }
+  nextOverrides.poks = normalizedPoks;
+  return nextOverrides;
 }
 
 function normalizeBackupFormattedSetSpecies(backupData) {
@@ -253,6 +301,39 @@ function normalizeBackupFormattedSetSpecies(backupData) {
     ...backupData,
     formatted_sets: normalizeSpeciesKeyMap(backupData.formatted_sets),
     poks: normalizeSpeciesKeyMap(backupData.poks),
+  };
+}
+
+function toggleBackupGlitchedSpeciesRedirects(backupData, useGlitchedSpeciesRedirects = true) {
+  if (useGlitchedSpeciesRedirects !== false) return backupData;
+  if (!backupData || typeof backupData !== "object") return backupData;
+  const redirects = backupData._meta && backupData._meta.glitched_species_redirects;
+  if (!redirects || typeof redirects !== "object") return backupData;
+  const reverseRedirects = {};
+  for (const [sourceName, redirectedName] of Object.entries(redirects)) {
+    if (!sourceName || !redirectedName || reverseRedirects[redirectedName]) continue;
+    reverseRedirects[redirectedName] = sourceName;
+  }
+  const formattedSets = {};
+  for (const [speciesName, setMap] of Object.entries(backupData.formatted_sets || {})) {
+    const nextSpeciesName = reverseRedirects[speciesName] || speciesName;
+    const existing = formattedSets[nextSpeciesName];
+    if (
+      existing &&
+      typeof existing === "object" &&
+      !Array.isArray(existing) &&
+      setMap &&
+      typeof setMap === "object" &&
+      !Array.isArray(setMap)
+    ) {
+      Object.assign(existing, setMap);
+    } else {
+      formattedSets[nextSpeciesName] = setMap;
+    }
+  }
+  return {
+    ...backupData,
+    formatted_sets: formattedSets,
   };
 }
 
@@ -310,27 +391,50 @@ window.downloadRomOverrideFiles = function (baseName) {
     return false;
   }
   const base = safeFileBase(baseName || payload.title);
-  downloadTextFile(`${base}.js`, formatOverridesFile(payload.overrides));
-  downloadTextFile(`${base}_searchindex.js`, formatSearchIndexFile(payload));
+  const normalizedPayload =
+    payload && typeof payload === "object"
+      ? { ...payload, overrides: normalizeOverrideSpeciesPayload(payload.overrides) }
+      : payload;
+  downloadTextFile(`${base}.js`, formatOverridesFile(normalizedPayload.overrides));
+  downloadTextFile(`${base}_searchindex.js`, formatSearchIndexFile(normalizedPayload));
   console.log(`Downloaded overrides for ${payload.title || base} as ${base}.js and ${base}_searchindex.js`);
   return true;
 };
 
-window.downloadRomBackupData = function (baseName) {
+window.downloadRomBackupData = function (baseName, options) {
   const payload = window.DDEX_ROM_BACKUP_DATA;
   if (!payload) {
     console.warn("No ROM backup_data found. Load a ROM via file upload first.");
     return false;
   }
+  const config =
+    baseName && typeof baseName === "object" && !Array.isArray(baseName)
+      ? baseName
+      : options && typeof options === "object" && !Array.isArray(options)
+        ? options
+        : typeof options === "boolean"
+          ? { useGlitchedSpeciesRedirects: options }
+          : {};
   const fallbackTitle = localStorage.romTitle || localStorage[ROM_KEYS.title] || payload.title || "rom";
-  const exportTitle = typeof baseName !== "undefined" ? String(baseName) : fallbackTitle;
+  const exportTitle =
+    typeof baseName === "string" || typeof baseName === "number"
+      ? String(baseName)
+      : fallbackTitle;
   const base = safeFileBase(exportTitle || fallbackTitle);
   const filename = `${base}_npoint_data.json`;
+  const useGlitchedSpeciesRedirects = config.useGlitchedSpeciesRedirects !== false;
   const backupPayload = payload && typeof payload === "object"
-    ? normalizeBackupFormattedSetSpecies({ ...payload, title: exportTitle })
+    ? normalizeBackupFormattedSetSpecies(
+        toggleBackupGlitchedSpeciesRedirects(
+          { ...payload, title: exportTitle },
+          useGlitchedSpeciesRedirects
+        )
+      )
     : payload;
   downloadTextFile(filename, formatBackupDataFile(backupPayload), "application/json");
-  console.log(`Downloaded backup_data as ${filename} (title="${exportTitle}")`);
+  console.log(
+    `Downloaded backup_data as ${filename} (title="${exportTitle}", useGlitchedSpeciesRedirects=${useGlitchedSpeciesRedirects})`
+  );
   return true;
 };
 
@@ -430,7 +534,10 @@ $(document).on('change', '#rom-upload', async function(e) {
     const buf = await file.arrayBuffer();
     window.__DDEX_LAST_ROM_BUFFER = buf;
     const result = await window.buildOverridesFromRom(buf, { log: (msg) => setRomStatus(msg) });
-    overrideDexData(result.overrides);
+    const normalizedOverrides = normalizeOverrideSpeciesPayload(result.overrides);
+    result.overrides = normalizedOverrides;
+    window.overrides = normalizedOverrides;
+    overrideDexData(normalizedOverrides);
     applySearchIndex(result.searchIndex, result.searchIndexOffset, result.searchIndexCount);
     const rawRomName = String(file.name || "").replace(/\.nds$/i, "") || result.romTitle || "rom";
     const displayRomTitle = toTitleCaseWords(rawRomName);
@@ -443,7 +550,7 @@ $(document).on('change', '#rom-upload', async function(e) {
     }
 
     localStorage[ROM_CACHE_FLAG] = "1";
-    localStorage[ROM_KEYS.overrides] = JSON.stringify(result.overrides);
+    localStorage[ROM_KEYS.overrides] = JSON.stringify(normalizedOverrides);
     localStorage[ROM_KEYS.searchIndex] = JSON.stringify(result.searchIndex);
     localStorage[ROM_KEYS.searchIndexOffset] = JSON.stringify(result.searchIndexOffset);
     localStorage[ROM_KEYS.searchIndexCount] = JSON.stringify(result.searchIndexCount);

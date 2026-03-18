@@ -680,6 +680,12 @@ function normalizeBackupPokemonName(value) {
     text = "Burmy";
   }
 
+  if (/^nidoran(?:-?f|♀)$/i.test(text)) {
+    text = "Nidoran-F";
+  } else if (/^nidoran(?:-?m|♂)$/i.test(text)) {
+    text = "Nidoran-M";
+  }
+
   if (/^porygon-z$/i.test(text)) {
     text = "Porygon-Z";
   } else {
@@ -703,6 +709,25 @@ function normalizeBackupPokemonName(value) {
   }
 
   return `${text}${suffix}`;
+}
+
+function canonicalizeExportSpeciesName(value) {
+  let text = String(value || "").trim();
+  if (!text) return "";
+  if (/^nidoran(?:-?f|♀)$/i.test(text)) return "Nidoran-F";
+  if (/^nidoran(?:-?m|♂)$/i.test(text)) return "Nidoran-M";
+  try {
+    if (typeof BattlePokedex !== "undefined") {
+      const entry =
+        BattlePokedex[text] ||
+        BattlePokedex[String(text)] ||
+        BattlePokedex[toID(text)];
+      if (entry && entry.name) text = entry.name;
+    }
+  } catch {
+    // fall through to raw text
+  }
+  return text;
 }
 
 function normalizeBackupSetGender(value) {
@@ -1471,7 +1496,7 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
   for (let i = 0; i < evolutionData.length; i += 1) {
     const evoEntry = evolutionData[i];
     if (!evoEntry || !evoEntry.Name || evoEntry.Name === "-----") continue;
-    const sourceName = String(evoEntry.Name).trim();
+    const sourceName = canonicalizeExportSpeciesName(evoEntry.Name);
     const evoColumns = Object.keys(evoEntry)
       .filter((key) => key === "[Method|Param|Target]" || key.startsWith("[Method|Param|Target]"))
       .sort((a, b) => {
@@ -1485,7 +1510,7 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
       if (!parsed) continue;
       const mappedMethod = mapEvoMethod(parsed.method);
       const param = normalizeEvoParam(parsed.param);
-      const target = String(parsed.target).trim();
+      const target = canonicalizeExportSpeciesName(parsed.target);
       if (!target) continue;
 
       const existingEvos = evoByName.get(sourceName) || [];
@@ -1503,7 +1528,7 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
     const entry = personalData[i];
     if (!entry || !entry.Name || entry.Name === "-----") continue;
 
-    const name = String(entry.Name).trim();
+    const name = canonicalizeExportSpeciesName(entry.Name);
     const num = Number(entry.ID);
     const type1 = titleCaseType(entry.Type1);
     const type2 = titleCaseType(entry.Type2);
@@ -1778,6 +1803,11 @@ function buildBackupDataPayload({ formattedSets, speciesData, movesData, poksRep
     poks: backupPoks,
     moves: mapMovesToBackupMoves(movesData),
   };
+  if (Object.keys(glitchedSpeciesRedirects).length) {
+    backupData._meta = {
+      glitched_species_redirects: glitchedSpeciesRedirects,
+    };
+  }
   if (poksReplacements && Object.keys(poksReplacements).length) {
     backupData.poks_replacements = poksReplacements;
   }
@@ -1798,6 +1828,8 @@ function toID(text) {
   return ("" + value)
     .toLowerCase()
     .replace(/é/g, "e")
+    .replace(/♀/g, "f")
+    .replace(/♂/g, "m")
     .replace(/[^a-z0-9]+/g, "");
 }
 
