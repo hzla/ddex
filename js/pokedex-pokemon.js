@@ -1279,77 +1279,78 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
   getEncounterLocations: function (pokemon) {
     if (this.results) return this.results;
 
-    var rates = BattleLocationdex["rates"];
-
     let isInZone = function (location, enc_mode, pokemon) {
       let for_mode = location[enc_mode];
-
 
       if (typeof for_mode == "undefined" || !("encs" in for_mode)) {
         return 0;
       }
-      if (!rates || !Array.isArray(rates[enc_mode])) {
-        return 0;
-      }
+      const rateSlots = getEncounterRateSlots(location, enc_mode);
 
       let sum_rate = 0;
       for (let i = 0; i < for_mode["encs"].length; i++) {
         let slot = for_mode["encs"][i];
         let species = cleanString(slot["s"]);
         if (species === pokemon) {
-           sum_rate += rates[enc_mode][i] || 0;
+           sum_rate += rateSlots[i] || 0;
         }
       }
 
       return sum_rate;
     };
 
-    var formatRate = function (i) {
-      return i.toString().padStart(3, "z") + "% ";
-    };
-
     var results = [];
-    for (let location in BattleLocationdex) {
-      if (location === "rates") {
+    for (const encType of encTypes) {
+      const locationsForType = [];
+      for (let location in BattleLocationdex) {
+        if (location === "rates") {
+          continue;
+        }
+
+        let encounters = BattleLocationdex[location];
+        let rate = isInZone(encounters, encType, pokemon);
+        if (rate <= 0) {
+          continue;
+        }
+        locationsForType.push({
+          kind: "location",
+          encType: encType,
+          rate: rate,
+          zoneid: location,
+        });
+      }
+      if (locationsForType.length === 0) {
         continue;
       }
-
-      let encounters = BattleLocationdex[location];
-
-      let rates = {}
-
-      for (let encTypeIndex in encTypes) {
-        let encType = encTypes[encTypeIndex]
-        rates[encType] = isInZone(encounters, encType, pokemon)
-        if (rates[encType] > 0) {
-          if (!results.includes(`${encTypeIndex}`)) {
-            results.push(`${encTypeIndex}`)
-          }
-          results.push(`${encTypeIndex} ` + formatRate(rates[encType]) + location);
-        }
-      }
+      locationsForType.sort((a, b) => a.zoneid.localeCompare(b.zoneid));
+      results.push({
+        kind: "header",
+        encType: encType,
+      });
+      results.push(...locationsForType);
     }
 
-    results.sort();
-    return results;
+    return (this.results = results);
   },
   renderEncounters: function () {
     var locations = this.getEncounterLocations(this.id);
+    var formatRate = function (i) {
+      return i.toString().padStart(3, "z") + "% ";
+    };
     var buf = "";
     for (let i = 0; i < locations.length; i++) {
       let location = locations[i];
-      if (location.length == 1) {
+      if (location.kind === "header") {
         if (buf.length != 0) {
           buf += "</ul>";
         }
 
-        buf += `<li class="resultheader"><h3>${snakeToTitleCase(encTypes[parseInt(location)])}</h3></li>`
+        buf += `<li class="resultheader"><h3>${snakeToTitleCase(location.encType)}</h3></li>`;
        
         buf += "<ul>";
       } else {
-        let rate = location.substr(2, 4).replace("z", "").replace("z", "");
-        let zoneid = location.slice(7);
-        let zone = BattleLocationdex[zoneid];
+        let rate = formatRate(location.rate).trim().replaceAll("z", "");
+        let zone = BattleLocationdex[location.zoneid];
         if (!zone || !zone.name) {
           continue;
         }

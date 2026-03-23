@@ -183,64 +183,41 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
 
     var location = this.id;
     var results = [];
-    var resultMins = [];
-    var resultMaxs = [];
 
     var formatRate = function (i) {
       if (i === undefined || i === null || Number.isNaN(i)) return "    ";
       return i.toString().padStart(2, "z") + "% ";
     };
 
-    var formatRange = function (min, max) {
-      return (
-        min.toString().padStart(3, "0") +
-        "-" +
-        max.toString().padStart(3, "0") +
-        " "
-      );
-    };
+    for (const encType of encTypes) {
+      const encounterGroup = BattleLocationdex[location][encType];
+      if (!encounterGroup || encounterGroup.encs === undefined) continue;
 
-    console.log(encTypes)
-
-    for (let encTypeIndex in encTypes) {
-      let encType = encTypes[encTypeIndex]
-      if (BattleLocationdex[location][encType] && BattleLocationdex[location][encType]["encs"] !== undefined) {
-        for (
-          let i = 0;
-          i < BattleLocationdex[location][encType]["encs"].length;
-          i++
-        ) {
-          let enc = BattleLocationdex[location][encType]["encs"][i];
-          let min = enc.mn;
-          let max = enc.mx || enc.mn;
-          if (!enc || !enc.s || enc.s === "-----") continue;
-          let mon = cleanString(enc.s);
-          if (!mon) continue;
-          const rates = BattleLocationdex["rates"] ? BattleLocationdex["rates"][encType] : undefined;
-          const rateVal = Array.isArray(rates) ? rates[i] : undefined;
-          results.push(
-            `${encTypeIndex}` + formatRate(rateVal) + formatRange(min, max) + mon,
-          );
-          resultMins.push(min || 0);
-          resultMaxs.push(max || 0);
+      let hasRows = false;
+      const rates = getEncounterRateSlots(BattleLocationdex[location], encType);
+      for (let i = 0; i < encounterGroup.encs.length; i++) {
+        const enc = encounterGroup.encs[i];
+        if (!enc || !enc.s || enc.s === "-----") continue;
+        const monId = cleanString(enc.s);
+        if (!monId) continue;
+        if (!hasRows) {
+          results.push({
+            kind: "header",
+            encType: encType,
+          });
+          hasRows = true;
         }
+        results.push({
+          kind: "encounter",
+          encType: encType,
+          monId: monId,
+          rate: formatRate(rates[i]),
+          min: enc.mn || 0,
+          max: enc.mx || enc.mn || 0,
+        });
       }
-
     }
 
-    
-    var last = "";
-    for (var i = 0; i < results.length; i++) {
-      if (results[i].charAt(0) !== last) {
-        results.splice(i, 0, results[i].charAt(0).toUpperCase());
-        resultMins.splice(i, 0, 0);
-        resultMaxs.splice(i, 0, 0);
-        i++;
-      }
-      last = results[i].charAt(0);
-    }
-    this.resultMins = resultMins;
-    this.resultMaxs = resultMaxs;
     return (this.results = results);
   },
   renderDistribution: function () {
@@ -328,18 +305,20 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     $gallery.html(buf).prop("hidden", false);
   },
   renderRow: function (i, offscreen) {
-    var results = this.results;
-    var id = results[i].substr(13);
+    var result = this.results[i];
+    if (result.kind === "header") {
+      const encounterGroup = BattleLocationdex[this.id][result.encType];
+      if (encounterGroup && encounterGroup.name) {
+        return `<h3>${snakeToTitleCase(result.encType)}:  ${encounterGroup.name}</h3>`;
+      }
+      return `<h3>${snakeToTitleCase(result.encType)}</h3>`;
+    }
+
+    var id = result.monId;
     var template = id ? BattlePokedex[id] : undefined;
     var isEmptyEncounter = id === "none" || (template && template.name === "None");
     if (!template) {
-      let encTypeName = encTypes[parseInt(results[i].charAt(0))]
-      if (BattleLocationdex[this.id][encTypeName] && BattleLocationdex[this.id][encTypeName].name) {
-        return `<h3>${snakeToTitleCase(encTypeName)}:  ${BattleLocationdex[this.id][encTypeName].name}</h3>`
-      } else {
-        return `<h3>${snakeToTitleCase(encTypeName)}</h3>`   
-      }     
-
+      return "";
     } else if (offscreen) {
       return (
         "" +
@@ -353,18 +332,15 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         ""
       );
     } else {
-      var rateTag = results[i].substr(1, 4).trim().replace("z", "");
-      var minLevel = this.resultMins ? this.resultMins[i] : parseInt(results[i].substr(5, 3), 10);
-      var maxLevel = this.resultMaxs ? this.resultMaxs[i] : parseInt(results[i].substr(9, 3), 10);
+      var rateTag = result.rate.trim().replaceAll("z", "");
+      var minLevel = result.min;
+      var maxLevel = result.max;
       var desc = rateTag || "";
       var levelValue = "";
-      var levelShown = 0;
       if (!Number.isNaN(maxLevel) && maxLevel > 0) {
         levelValue = "Lv " + maxLevel;
-        levelShown = maxLevel;
       } else if (!Number.isNaN(minLevel) && minLevel > 0) {
         levelValue = "Lv " + minLevel;
-        levelShown = minLevel;
       }
       var levelClass = "col levelcol";
       if (isEmptyEncounter) {

@@ -119,15 +119,20 @@ function setGameDexTitle(gameKey) {
   maybeApplyRomFamilyFromTitle(title);
 }
 
-function applyGameOverridesFromCache() {
+async function applyGameOverridesFromCache() {
   if (isRomOverrideActive()) return false;
   if (!localStorage.overrides) return false;
   const gameKey = localStorage.game;
   if (!gameKey || !gameTitles[gameKey]) return false;
   try {
-    const overrides = JSON.parse(localStorage.overrides || "null");
-    if (!overrides) return false;
-    overrideDexData(overrides);
+    let parsedOverrides = JSON.parse(localStorage.overrides || "null");
+    if (!parsedOverrides) return false;
+    parsedOverrides = normalizeOverrideSpeciesPayload(parsedOverrides);
+    parsedOverrides = await loadOptionalCustomDescriptionOverrides(gameKey, parsedOverrides);
+    window.overrides = parsedOverrides;
+    overrides = parsedOverrides;
+    localStorage.overrides = JSON.stringify(parsedOverrides);
+    overrideDexData(parsedOverrides);
     setGameDexTitle(gameKey);
     console.log("Loaded game overrides from cache");
     return true;
@@ -577,7 +582,149 @@ $(document).on('change', '#rom-upload', async function(e) {
     setRomStatus(err.message || String(err), true);
   }
 });
-function hydrateCachedOverrides(routeInfo) {
+
+function findOverrideKeyByNormalizedName(recordMap, normalizedName) {
+  if (!recordMap || !normalizedName) return null;
+  for (const key in recordMap) {
+    if (cleanString(key) === normalizedName) {
+      return key;
+    }
+  }
+  return null;
+}
+
+function buildMoveOverrideFromBase(moveId) {
+  const baseMove = BattleMovedex && BattleMovedex[moveId];
+  if (!baseMove) return null;
+  const desc = baseMove.desc || baseMove.shortDesc || "";
+  return {
+    name: baseMove.name,
+    t: baseMove.type,
+    bp: baseMove.basePower,
+    cat: baseMove.category,
+    pp: baseMove.pp,
+    acc: baseMove.accuracy,
+    prio: baseMove.priority,
+    desc,
+    oldDesc: desc,
+  };
+}
+
+function buildAbilityOverrideFromBase(abilityId) {
+  const baseAbility = BattleAbilities && BattleAbilities[abilityId];
+  if (!baseAbility) return null;
+  const desc = baseAbility.desc || baseAbility.shortDesc || "";
+  return {
+    name: baseAbility.name,
+    desc,
+    oldDesc: desc,
+  };
+}
+
+function buildItemOverrideFromBase(itemId) {
+  const baseItem = BattleItems && BattleItems[itemId];
+  if (!baseItem) return null;
+  const desc = baseItem.desc || baseItem.shortDesc || "";
+  return {
+    name: baseItem.name,
+    desc,
+    oldDesc: desc,
+  };
+}
+
+function applyCustomDescriptionOverrides(baseOverrides, customData) {
+  if (!baseOverrides || typeof baseOverrides !== "object") return baseOverrides;
+  if (!customData || typeof customData !== "object") return baseOverrides;
+
+  const nextOverrides = {
+    ...baseOverrides,
+    moves: { ...(baseOverrides.moves || {}) },
+    abilities: { ...(baseOverrides.abilities || {}) },
+    items: { ...(baseOverrides.items || {}) },
+  };
+
+  const moveDescs = customData.moveDescs;
+  if (moveDescs && typeof moveDescs === "object") {
+    for (const [moveName, desc] of Object.entries(moveDescs)) {
+      if (typeof desc !== "string") continue;
+      const moveId = cleanString(moveName);
+      if (!moveId) continue;
+      const existingKey = findOverrideKeyByNormalizedName(nextOverrides.moves, moveId);
+      const baseRecord = existingKey
+        ? nextOverrides.moves[existingKey]
+        : buildMoveOverrideFromBase(moveId);
+      if (!baseRecord) continue;
+      const recordKey = existingKey || baseRecord.name || moveName;
+      nextOverrides.moves[recordKey] = { ...baseRecord, desc };
+    }
+  }
+
+  const abilityDescs = customData.abilityDescs;
+  if (abilityDescs && typeof abilityDescs === "object") {
+    for (const [abilityName, desc] of Object.entries(abilityDescs)) {
+      if (typeof desc !== "string") continue;
+      const abilityId = cleanString(abilityName);
+      if (!abilityId) continue;
+      const existingKey = findOverrideKeyByNormalizedName(nextOverrides.abilities, abilityId);
+      const recordKey = existingKey || abilityId;
+      const baseRecord = existingKey
+        ? nextOverrides.abilities[existingKey]
+        : buildAbilityOverrideFromBase(abilityId);
+      if (!baseRecord) continue;
+      nextOverrides.abilities[recordKey] = { ...baseRecord, desc };
+    }
+  }
+
+  const itemDescs = customData.itemDescs;
+  if (itemDescs && typeof itemDescs === "object") {
+    for (const [itemName, desc] of Object.entries(itemDescs)) {
+      if (typeof desc !== "string") continue;
+      const itemId = cleanString(itemName);
+      if (!itemId) continue;
+      const existingKey = findOverrideKeyByNormalizedName(nextOverrides.items, itemId);
+      const recordKey = existingKey || itemId;
+      const baseRecord = existingKey
+        ? nextOverrides.items[existingKey]
+        : buildItemOverrideFromBase(itemId);
+      if (!baseRecord) continue;
+      nextOverrides.items[recordKey] = { ...baseRecord, desc };
+    }
+  }
+
+  const itemLocations = customData.itemLocations;
+  if (itemLocations && typeof itemLocations === "object") {
+    for (const [itemName, customLocations] of Object.entries(itemLocations)) {
+      if (typeof customLocations !== "string") continue;
+      const itemId = cleanString(itemName);
+      if (!itemId) continue;
+      const existingKey = findOverrideKeyByNormalizedName(nextOverrides.items, itemId);
+      const recordKey = existingKey || itemId;
+      const baseRecord = existingKey
+        ? nextOverrides.items[existingKey]
+        : buildItemOverrideFromBase(itemId);
+      if (!baseRecord) continue;
+      nextOverrides.items[recordKey] = { ...baseRecord, customLocations };
+    }
+  }
+
+  return nextOverrides;
+}
+
+async function loadOptionalCustomDescriptionOverrides(gameName, baseOverrides) {
+  if (!gameName || !baseOverrides) return baseOverrides;
+  window.customOverrides = null;
+
+  const loaded = await checkAndLoadScript(`/data/overrides/${gameName}_customdesc.js`, {
+    onNotFound: (src) => console.log(`Not found: ${src}`),
+  });
+  if (!loaded || !window.customOverrides) {
+    return baseOverrides;
+  }
+
+  return applyCustomDescriptionOverrides(baseOverrides, window.customOverrides);
+}
+
+async function hydrateCachedOverrides(routeInfo) {
   const requestedGame = (routeInfo && routeInfo.game) || gameParam;
   if (requestedGame) {
     localStorage.removeItem("gameTitle");
@@ -590,7 +737,7 @@ function hydrateCachedOverrides(routeInfo) {
 
   const appliedRomOverrides = applyRomOverridesFromCache();
   if (!appliedRomOverrides) {
-    applyGameOverridesFromCache();
+    await applyGameOverridesFromCache();
   }
   setDexTitleFromStorage();
   return appliedRomOverrides;
@@ -604,20 +751,18 @@ async function loadRequestedGameOverrides(gameName) {
   }
 
   const overridesLoaded = await checkAndLoadScript(`/data/overrides/${gameName}.js`, {
-    onLoad: () => {
-      overrideDexData(overrides);
-      if (localStorage.game !== gameName) {
-        localStorage.overrides = JSON.stringify(overrides);
-        localStorage.game = gameName;
-      }
-      if (!localStorage.overrides) {
-        localStorage.overrides = JSON.stringify(overrides);
-        console.log("Stored override data in cache");
-      }
-    },
     onNotFound: (src) => console.log(`Not found: ${src}`),
   });
   if (!overridesLoaded) return false;
+
+  let normalizedOverrides = normalizeOverrideSpeciesPayload(overrides);
+  normalizedOverrides = await loadOptionalCustomDescriptionOverrides(gameName, normalizedOverrides);
+  window.overrides = normalizedOverrides;
+  overrides = normalizedOverrides;
+  overrideDexData(normalizedOverrides);
+  localStorage.overrides = JSON.stringify(normalizedOverrides);
+  localStorage.game = gameName;
+  console.log("Stored override data in cache");
 
   await checkAndLoadScript(`/data/overrides/${gameName}_searchindex.js`, {
     onLoad: () => {
@@ -650,10 +795,60 @@ function overrideDexData(dexOverides) {
 	console.log("Overriding enc data...")
 	BattleLocationdex = dexOverides.encs
 
-	encTypes = []
-    for (encType in BattleLocationdex["rates"]) {
-      encTypes.push(encType)
+	encTypes = getEncounterTypes(BattleLocationdex)
+}
+
+function getEncounterRateSlots(location, encType) {
+  if (
+    location &&
+    location[encType] &&
+    Array.isArray(location[encType].rates)
+  ) {
+    return location[encType].rates;
+  }
+  if (
+    BattleLocationdex &&
+    BattleLocationdex.rates &&
+    Array.isArray(BattleLocationdex.rates[encType])
+  ) {
+    return BattleLocationdex.rates[encType];
+  }
+  return [];
+}
+
+function isEncounterTypeRecord(value) {
+  return (
+    value &&
+    typeof value === "object" &&
+    !Array.isArray(value) &&
+    ("encs" in value || "rates" in value)
+  );
+}
+
+function getEncounterTypes(locationDex) {
+  const types = [];
+  const seen = {};
+  const rates = locationDex && locationDex.rates ? locationDex.rates : {};
+
+  for (const encType in rates) {
+    if (seen[encType]) continue;
+    seen[encType] = true;
+    types.push(encType);
+  }
+
+  for (const locationId in locationDex || {}) {
+    if (locationId === "rates") continue;
+    const location = locationDex[locationId];
+    if (!location || typeof location !== "object") continue;
+    for (const key in location) {
+      if (key === "name" || seen[key]) continue;
+      if (!isEncounterTypeRecord(location[key])) continue;
+      seen[key] = true;
+      types.push(key);
     }
+  }
+
+  return types;
 }
 
 function overrideAbilityData(abilityOverrides) {
@@ -674,13 +869,21 @@ function overrideAbilityData(abilityOverrides) {
 function overrideItemData(itemOverrides) {
 	for (let itemName in itemOverrides) {
 		let itemId = cleanString(itemName)
+		let itemDesc = itemOverrides[itemName].desc
 
 		if (typeof BattleItems[itemId] != "undefined") {
-			BattleItems[itemId].desc = itemOverrides[itemName].desc.replaceAll('\\n', " ")
+			if (typeof itemDesc === "string") {
+				BattleItems[itemId].desc = itemDesc.replaceAll('\\n', " ")
+				BattleItems[itemId].shortDesc = BattleItems[itemId].desc
+			}
 			BattleItems[itemId]["location"] = itemOverrides[itemName]["location"]
+			BattleItems[itemId].customLocations = itemOverrides[itemName].customLocations
 			BattleItems[itemId].rewards = itemOverrides[itemName].rewards
 		} else {
 			BattleItems[itemId] = itemOverrides[itemName]
+			if (typeof itemDesc === "string" && typeof BattleItems[itemId].shortDesc == "undefined") {
+				BattleItems[itemId].shortDesc = itemDesc.replaceAll('\\n', " ")
+			}
 		}
 	}
 }

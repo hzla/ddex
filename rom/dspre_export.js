@@ -1762,6 +1762,10 @@ function buildGlitchedSpeciesRedirects(speciesData) {
   return redirects;
 }
 
+function normalizeBackupTrainerNameText(value) {
+  return String(value || "").replaceAll("CみとみいrVとぷい", "Barry");
+}
+
 function buildBackupDataPayload({ formattedSets, speciesData, movesData, poksReplacements, moveReplacements }) {
   const backupPoks = mapSpeciesToBackupPoks(speciesData);
   const glitchedSpeciesRedirects = buildGlitchedSpeciesRedirects(speciesData);
@@ -1786,6 +1790,7 @@ function buildBackupDataPayload({ formattedSets, speciesData, movesData, poksRep
       normalizedFormattedSets[normalizedSpeciesName] = {};
     }
     for (const [setName, setData] of Object.entries(sets || {})) {
+      const normalizedSetName = normalizeBackupTrainerNameText(setName);
       const nextSetData = setData && typeof setData === "object"
         ? {
             ...setData,
@@ -1795,7 +1800,7 @@ function buildBackupDataPayload({ formattedSets, speciesData, movesData, poksRep
             ...(setData.gender ? { gender: normalizeBackupSetGender(setData.gender) } : {}),
           }
         : setData;
-      normalizedFormattedSets[normalizedSpeciesName][setName] = nextSetData;
+      normalizedFormattedSets[normalizedSpeciesName][normalizedSetName] = nextSetData;
     }
   }
   const backupData = {

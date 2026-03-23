@@ -75700,6 +75700,17 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "gift": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "HAPPINY",
+                        "mn": 1
+                    }
+                ]
             }
         },
         "pastoriacity": {
@@ -76101,6 +76112,53 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "MUNCHLAX",
+                        "mn": 20
+                    }
+                ]
             }
         },
         "pokmonleague": {
@@ -76930,6 +76988,79 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    25,
+                    25,
+                    25,
+                    25
+                ],
+                "encs": [
+                    {
+                        "s": "PIKACHU",
+                        "mn": 17
+                    },
+                    {
+                        "s": "ELEKID",
+                        "mn": 17
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PICHU",
+                        "mn": 8
+                    }
+                ]
+            },
+            "static": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "DRIFLOON",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "eternaforest": {
@@ -77111,6 +77242,93 @@ var overrides = {
                     {
                         "s": "KAKUNA",
                         "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encs": [
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SENTRET",
+                        "mn": 16
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PIDGEY",
+                        "mn": 12
+                    },
+                    {
+                        "s": "SPEAROW",
+                        "mn": 12
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
                     }
                 ]
             }
@@ -77378,6 +77596,58 @@ var overrides = {
                     {
                         "s": "GASTRODON",
                         "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    50,
+                    50
+                ],
+                "encs": [
+                    {
+                        "s": "MAGBY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "SCIZOR",
+                        "mn": 55
                     }
                 ]
             }
@@ -99532,6 +99802,17 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "gift": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "RIOLU",
+                        "mn": 1
+                    }
+                ]
             }
         },
         "ironislandsection2": {
@@ -102613,6 +102894,134 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
+                    }
+                ]
+            },
+            "gift": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "KRABBY",
+                        "mn": 1
+                    },
+                    {
+                        "s": "CORPHISH",
+                        "mn": 1
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 1
+                    },
+                    {
+                        "s": "EXEGGCUTE",
+                        "mn": 1
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 1
+                    },
+                    {
+                        "s": "FEEBAS",
+                        "mn": 1
+                    }
+                ]
             }
         },
         "acuitylakefront": {
@@ -102796,6 +103205,58 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    50,
+                    50
+                ],
+                "encs": [
+                    {
+                        "s": "SNORUNT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "FROSLASS",
+                        "mn": 57
+                    }
+                ]
             }
         },
         "veritylakefront": {
@@ -102977,6 +103438,93 @@ var overrides = {
                     {
                         "s": "BIDOOF",
                         "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encs": [
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SENTRET",
+                        "mn": 16
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PIDGEY",
+                        "mn": 12
+                    },
+                    {
+                        "s": "SPEAROW",
+                        "mn": 12
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
                     }
                 ]
             }
@@ -104230,6 +104778,93 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encs": [
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SENTRET",
+                        "mn": 16
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PIDGEY",
+                        "mn": 12
+                    },
+                    {
+                        "s": "SPEAROW",
+                        "mn": 12
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    }
+                ]
             }
         },
         "route205section2": {
@@ -104680,6 +105315,93 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encs": [
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SENTRET",
+                        "mn": 16
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PIDGEY",
+                        "mn": 12
+                    },
+                    {
+                        "s": "SPEAROW",
+                        "mn": 12
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    }
+                ]
             }
         },
         "route207": {
@@ -104861,6 +105583,93 @@ var overrides = {
                     {
                         "s": "GEODUDE",
                         "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encs": [
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SENTRET",
+                        "mn": 16
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PIDGEY",
+                        "mn": 12
+                    },
+                    {
+                        "s": "SPEAROW",
+                        "mn": 12
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
                     }
                 ]
             }
@@ -105130,6 +105939,93 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encs": [
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SENTRET",
+                        "mn": 16
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PIDGEY",
+                        "mn": 12
+                    },
+                    {
+                        "s": "SPEAROW",
+                        "mn": 12
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    }
+                ]
             }
         },
         "route209": {
@@ -105395,6 +106291,109 @@ var overrides = {
                     {
                         "s": "VULPIX",
                         "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
+                    }
+                ]
+            },
+            "static": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "SPIRITOMB",
+                        "mn": 25
                     }
                 ]
             }
@@ -106433,6 +107432,98 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
+                    }
+                ]
             }
         },
         "clamberclawcliffs": {
@@ -106881,6 +107972,98 @@ var overrides = {
                     {
                         "s": "BRONZOR",
                         "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
                     }
                 ]
             }
@@ -107600,6 +108783,98 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
+                    }
+                ]
             }
         },
         "route213": {
@@ -107865,6 +109140,53 @@ var overrides = {
                     {
                         "s": "SHELLOS",
                         "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "STUNKY",
+                        "mn": 44
                     }
                 ]
             }
@@ -108134,6 +109456,98 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
+                    }
+                ]
             }
         },
         "route215": {
@@ -108315,6 +109729,98 @@ var overrides = {
                     {
                         "s": "KADABRA",
                         "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
                     }
                 ]
             }
@@ -108950,6 +110456,98 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
+                    }
+                ]
             }
         },
         "route219": {
@@ -109346,6 +110944,53 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "HERACROSS",
+                        "mn": 75
+                    }
+                ]
             }
         },
         "route222": {
@@ -109611,6 +111256,98 @@ var overrides = {
                     {
                         "s": "MAGNETON",
                         "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
                     }
                 ]
             }
@@ -112960,6 +114697,47 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "gift": {
+                "rates": [
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14,
+                    14
+                ],
+                "encs": [
+                    {
+                        "s": "GROWLITHE",
+                        "mn": 1
+                    },
+                    {
+                        "s": "GIRAFARIG",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MAREEP",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MILTANK",
+                        "mn": 1
+                    },
+                    {
+                        "s": "SPOINK",
+                        "mn": 1
+                    },
+                    {
+                        "s": "PONYTA",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MANKEY",
+                        "mn": 1
+                    }
+                ]
             }
         },
         "snowpointcity": {
@@ -113925,6 +115703,17 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "gift": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 25
+                    }
+                ]
             }
         },
         "floaromameadow": {
@@ -114037,6 +115826,58 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    50,
+                    50
+                ],
+                "encs": [
+                    {
+                        "s": "WORMADAM",
+                        "mn": 15
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "restaurant": {
@@ -115016,6 +116857,493 @@ var overrides = {
                 4,
                 4
             ]
+        },
+        "route201": {
+            "name": "Route 201",
+            "gift": {
+                "rates": [
+                    100,
+                    100,
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "TURTWIG",
+                        "mn": 5
+                    },
+                    {
+                        "s": "PIPLUP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHIMCHAR",
+                        "mn": 5
+                    }
+                ]
+            }
+        },
+        "poketchcompany": {
+            "name": "Poketch Company",
+            "gift": {
+                "rates": [
+                    33,
+                    33,
+                    33
+                ],
+                "encs": [
+                    {
+                        "s": "SKITTY",
+                        "mn": 5
+                    },
+                    {
+                        "s": "GLAMEOW",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MEOWTH",
+                        "mn": 5
+                    }
+                ]
+            }
+        },
+        "hearthomecity": {
+            "name": "Hearthome City",
+            "gift": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "EEVEE",
+                        "mn": 20
+                    }
+                ]
+            }
+        },
+        "canalavelibrary": {
+            "name": "Canalave Library",
+            "gift": {
+                "rates": [
+                    50,
+                    50
+                ],
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 40
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 40
+                    }
+                ]
+            }
+        },
+        "contesthall": {
+            "name": "Contest Hall",
+            "gift": {
+                "rates": [
+                    100,
+                    100,
+                    100,
+                    100,
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "CHARIZARD",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MILOTIC",
+                        "mn": 5
+                    },
+                    {
+                        "s": "KANGASKHAN",
+                        "mn": 5
+                    },
+                    {
+                        "s": "ALAKAZAM",
+                        "mn": 5
+                    },
+                    {
+                        "s": "STEELIX",
+                        "mn": 5
+                    }
+                ]
+            }
+        },
+        "pokemonmansion": {
+            "name": "Pokemon Mansion",
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    33,
+                    33,
+                    33
+                ],
+                "encs": [
+                    {
+                        "s": "CHATOT",
+                        "mn": 55
+                    },
+                    {
+                        "s": "LICKILICKY",
+                        "mn": 55
+                    },
+                    {
+                        "s": "MURKROW",
+                        "mn": 55
+                    }
+                ]
+            },
+            "gift": {
+                "rates": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                ],
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 1
+                    },
+                    {
+                        "s": "TYROGUE",
+                        "mn": 1
+                    },
+                    {
+                        "s": "BAGON",
+                        "mn": 1
+                    },
+                    {
+                        "s": "LARVITAR",
+                        "mn": 1
+                    },
+                    {
+                        "s": "CLEFFA",
+                        "mn": 1
+                    }
+                ]
+            }
+        },
+        "veritycavern": {
+            "name": "Verity Cavern",
+            "static": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "MESPRIT",
+                        "mn": 50
+                    }
+                ]
+            }
+        },
+        "valorcavern": {
+            "name": "Valor Cavern",
+            "static": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "AZELF",
+                        "mn": 50
+                    }
+                ]
+            }
+        },
+        "acuitycavern": {
+            "name": "Acuity Cavern",
+            "static": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "UXIE",
+                        "mn": 50
+                    }
+                ]
+            }
+        },
+        "galactichq": {
+            "name": "Galactic Hq",
+            "gift": {
+                "rates": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                ],
+                "encs": [
+                    {
+                        "s": "CACNEA",
+                        "mn": 1
+                    },
+                    {
+                        "s": "GULPIN",
+                        "mn": 1
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 1
+                    },
+                    {
+                        "s": "DROWZEE",
+                        "mn": 1
+                    },
+                    {
+                        "s": "POOCHYENA",
+                        "mn": 1
+                    }
+                ]
+            }
+        },
+        "casino": {
+            "name": "Casino",
+            "gift": {
+                "rates": [
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "MAGMAR",
+                        "mn": 70
+                    },
+                    {
+                        "s": "JYNX",
+                        "mn": 70
+                    },
+                    {
+                        "s": "ELECTABUZZ",
+                        "mn": 70
+                    },
+                    {
+                        "s": "SCYTHER",
+                        "mn": 70
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 70
+                    },
+                    {
+                        "s": "DITTO",
+                        "mn": 70
+                    },
+                    {
+                        "s": "MAGNETON",
+                        "mn": 90
+                    },
+                    {
+                        "s": "GALLADE",
+                        "mn": 90
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 90
+                    },
+                    {
+                        "s": "VENUSAUR",
+                        "mn": 90
+                    },
+                    {
+                        "s": "CHARIZARD",
+                        "mn": 90
+                    },
+                    {
+                        "s": "BLASTOISE",
+                        "mn": 90
+                    },
+                    {
+                        "s": "HITMONTOP",
+                        "mn": 90
+                    },
+                    {
+                        "s": "PERSIAN",
+                        "mn": 45
+                    },
+                    {
+                        "s": "PORYGON",
+                        "mn": 45
+                    },
+                    {
+                        "s": "MURKROW",
+                        "mn": 45
+                    },
+                    {
+                        "s": "MRMIME",
+                        "mn": 45
+                    },
+                    {
+                        "s": "PIKACHU",
+                        "mn": 50
+                    },
+                    {
+                        "s": "VOLTORB",
+                        "mn": 50
+                    },
+                    {
+                        "s": "PINSIR",
+                        "mn": 50
+                    },
+                    {
+                        "s": "PHIONE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "TAUROS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "DRAGONITE",
+                        "mn": 55
+                    },
+                    {
+                        "s": "MILTANK",
+                        "mn": 60
+                    },
+                    {
+                        "s": "CASTFORM",
+                        "mn": 60
+                    },
+                    {
+                        "s": "CLEFAIRY",
+                        "mn": 60
+                    },
+                    {
+                        "s": "NIDOKING",
+                        "mn": 60
+                    },
+                    {
+                        "s": "NIDOQUEEN",
+                        "mn": 60
+                    }
+                ]
+            }
+        },
+        "rotomroom": {
+            "name": "Rotom Room",
+            "static": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "ROTOM",
+                        "mn": 30
+                    }
+                ]
+            }
+        },
+        "ironruins": {
+            "name": "Iron Ruins",
+            "static": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "REGISTEEL",
+                        "mn": 30
+                    }
+                ]
+            }
+        },
+        "icebergruins": {
+            "name": "Iceberg Ruins",
+            "static": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "REGICE",
+                        "mn": 30
+                    }
+                ]
+            }
+        },
+        "rockpeakruins": {
+            "name": "Rock Peak Ruins",
+            "static": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "REGIROCK",
+                        "mn": 30
+                    }
+                ]
+            }
         }
     },
     "moves": {
@@ -129304,4 +131632,4 @@ var overrides = {
             "WORMADAM - Sandy"
         ]
     }
-}
+};

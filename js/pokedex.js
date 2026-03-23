@@ -125,6 +125,10 @@ var PokedexItemPanel = PokedexResultPanel.extend({
        buf += "<h3>Found on ground: </h3><p>" + Dex.escapeHTML(overrides.items[id]["location"]) + "</p>";
     }
 
+    if (overrides.items[id] && overrides.items[id]["customLocations"]) {
+       buf += "<h3>Additional location info:</h3><p>" + Dex.escapeHTML(overrides.items[id]["customLocations"]) + "</p>";
+    }
+
     if (overrides.items[id] && overrides.items[id]["ground_locations"]) {
        buf += "<h3>Found on ground: </h3><p>" 
        for (let loc of overrides.items[id]["ground_locations"]) {

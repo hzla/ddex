@@ -512,6 +512,7 @@ Each location entry should look like:
 {
   "name": "Route 1",
   "grass": {
+    "rates": [40, 30],
     "encs": [
       { "s": "Pidgey", "mn": 2, "mx": 4 },
       { "s": "Rattata", "mn": 2, "mx": 3 }
@@ -527,6 +528,31 @@ Each location entry should look like:
 - `mx` = optional maximum level
 
 If `mx` is omitted, the encounter page falls back to `mn`.
+
+### Optional local rates
+
+An encounter-type object may also define its own `rates` array:
+
+```js
+{
+  "gift": {
+    "rates": [100, 100, 100],
+    "encs": [
+      { "s": "TURTWIG", "mn": 5 },
+      { "s": "PIPLUP", "mn": 5 },
+      { "s": "CHIMCHAR", "mn": 5 }
+    ]
+  }
+}
+```
+
+Rate lookup order in the current renderer is:
+
+1. `location[encounterType].rates`
+2. `encs.rates[encounterType]`
+3. no rates
+
+This keeps older override files valid while allowing variable-length per-location pools.
 
 ### Encounter-type keys observed in shipped data
 
@@ -556,14 +582,19 @@ If `mx` is omitted, the encounter page falls back to `mn`.
 - `super_rod_special`
 - `grotto1`
 - `grotto2`
+- `global_honey_tree`
+- `local_honey_tree`
+- `gift`
+- `static`
 
 ### Ordering rules
 
-- the UI builds encounter-type sections from the key order in `encs.rates`
+- the UI builds encounter-type sections from the key order in `encs.rates`, then appends encounter types that exist only on location records
 - each rate array must stay aligned with the encounter slots in the corresponding location subtable
 
 That means:
 
+- `location.gift.rates[0]` is the rate for `location.gift.encs[0]` when local rates are present
 - `encs.rates.grass[0]` is the rate for `location.grass.encs[0]`
 - `encs.rates.grass[1]` is the rate for `location.grass.encs[1]`
 - and so on
@@ -631,6 +662,12 @@ The encounter page will use that subtype name as the section header if present.
           { "s": "Rattata", "mn": 2, "mx": 3 },
           { "s": "Sentret", "mn": 3, "mx": 4 },
           { "s": "Hoothoot", "mn": 2, "mx": 2 }
+        ]
+      },
+      "gift": {
+        "rates": [100],
+        "encs": [
+          { "s": "TOGEPI", "mn": 1 }
         ]
       },
       "surf": {
