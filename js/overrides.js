@@ -155,6 +155,7 @@ function clearRomCache() {
   localStorage.removeItem("romVersion");
   localStorage.removeItem("gameTitle");
   window.DDEX_ROM_BACKUP_DATA = null;
+  window.DDEX_ROM_DEBUG = null;
 }
 
 $(document).on('click', '#reset-cache', function() {
@@ -494,6 +495,33 @@ window.getRomTextBank = function (key) {
   return window.DDEX_ROM_TEXTS[key];
 };
 
+window.listRomTrainersWithNonZeroAbilitySlot = function () {
+  const matches = window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.trainersWithNonZeroAbilitySlot;
+  if (!Array.isArray(matches)) {
+    console.warn("No trainer ability-slot debug data found. Load a Gen 4 ROM via file upload first.");
+    return [];
+  }
+  const trainerIds = matches.map((entry) => entry.trainerId);
+  const rows = matches.flatMap((entry) =>
+    (entry.pokemon || []).map((pokemon) => ({
+      trainerId: entry.trainerId,
+      trainerClass: entry.trainerClass,
+      trainerName: entry.trainerName,
+      battleType: entry.battleType,
+      subIndex: pokemon.subIndex,
+      species: pokemon.species,
+      level: pokemon.level,
+      abilitySlot: pokemon.abilitySlot,
+      ability: pokemon.ability,
+    }))
+  );
+  if (rows.length) console.table(rows);
+  console.log(`Trainer IDs with non-zero ability slot (${trainerIds.length}):`, trainerIds);
+  return trainerIds;
+};
+
+window.debugRomTrainerAbilitySlots = window.listRomTrainersWithNonZeroAbilitySlot;
+
 let romModulesLoaded = false;
 async function ensureRomModulesLoaded() {
   if (romModulesLoaded) return;
@@ -538,6 +566,7 @@ $(document).on('change', '#rom-upload', async function(e) {
     await ensureRomExporterLoaded();
     const buf = await file.arrayBuffer();
     window.__DDEX_LAST_ROM_BUFFER = buf;
+    window.DDEX_ROM_DEBUG = null;
     const result = await window.buildOverridesFromRom(buf, { log: (msg) => setRomStatus(msg) });
     const normalizedOverrides = normalizeOverrideSpeciesPayload(result.overrides);
     result.overrides = normalizedOverrides;
@@ -550,6 +579,7 @@ $(document).on('change', '#rom-upload', async function(e) {
     maybeApplyRomFamilyFromTitle(rawRomName);
     window.DDEX_ROM_TEXTS = result.texts || null;
     window.DDEX_ROM_BACKUP_DATA = result.backupData || null;
+    window.DDEX_ROM_DEBUG = result.debug || null;
     if (result.itemLocationStats) {
       setRomStatus(`Item locations (event=${result.itemLocationStats.eventScriptCount}, script=${result.itemLocationStats.scriptParseCount})`);
     }

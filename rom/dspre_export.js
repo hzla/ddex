@@ -2669,6 +2669,7 @@ export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
     searchIndexOffset: built.searchIndexOffset,
     searchIndexCount: built.searchIndexCount,
     itemLocationStats: built.itemLocationStats || null,
+    debug: data.debug || null,
     texts: data.texts,
     romTitle,
     romFamily: data.family,
@@ -5096,6 +5097,7 @@ async function collectDspreData(editor, { log }) {
   log("Parsing trainers...");
   const trainerText = [];
   const formattedSets = {};
+  const trainersWithNonZeroAbilitySlot = [];
   const trainerProps = [];
   for (let i = 0; i < trainerPropsNarc.fileCount; i += 1) {
     try {
@@ -5171,6 +5173,7 @@ async function collectDspreData(editor, { log }) {
     const trainerMale = trainerGenderCode !== 1;
     const battleType = props.doubleBattle ? "Doubles" : "Singles";
     const speciesLevelSeen = new Map();
+    const nonZeroAbilitySlotMons = [];
     const partyOut = party.map((mon, subIndex) => {
       const genderOverride = mon.genderAbilityFlags & 0x0F;
       const abilityOverride = mon.genderAbilityFlags >> 4;
@@ -5219,6 +5222,15 @@ async function collectDspreData(editor, { log }) {
         movesOut = learnsetAtLevel(learnset, mon.level).map((m) => moveNames[m] ?? "None");
       }
       const speciesName = resolveTrainerFormName(mon.pokeId, mon.formId, pokemonNames);
+      if (abilityOverride !== 0) {
+        nonZeroAbilitySlotMons.push({
+          subIndex,
+          species: speciesName,
+          level: mon.level,
+          abilitySlot: abilityOverride,
+          ability,
+        });
+      }
       const dupeKey = `${speciesName}::${mon.level}`;
       const seenCount = (speciesLevelSeen.get(dupeKey) || 0) + 1;
       speciesLevelSeen.set(dupeKey, seenCount);
@@ -5286,6 +5298,15 @@ async function collectDspreData(editor, { log }) {
       party: partyOut,
     };
     trainerText.push(formatTrainerDoc(trainerData));
+    if (nonZeroAbilitySlotMons.length) {
+      trainersWithNonZeroAbilitySlot.push({
+        trainerId: i,
+        trainerClass: trainerClassName,
+        trainerName,
+        battleType,
+        pokemon: nonZeroAbilitySlotMons,
+      });
+    }
   }
 
   await editor.closeNarc(trainerPropsNarc.handle);
@@ -5365,6 +5386,9 @@ async function collectDspreData(editor, { log }) {
     encounters,
     trainerText,
     trainerCount,
+    debug: {
+      trainersWithNonZeroAbilitySlot,
+    },
     formattedSets,
     scriptsEntries,
     scriptsTextMap,
