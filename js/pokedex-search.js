@@ -16,6 +16,16 @@ var PokedexSearchPanel = Panels.Panel.extend({
     "mouseover .result a": "hoverlink",
   },
   activeLink: null,
+  remove: function () {
+    if (
+      this.handleNuzlockeUpdate &&
+      window.DDEX_NUZLOCKE_BOX &&
+      typeof window.DDEX_NUZLOCKE_BOX.unsubscribe === "function"
+    ) {
+      window.DDEX_NUZLOCKE_BOX.unsubscribe(this.handleNuzlockeUpdate);
+    }
+    Panels.Panel.prototype.remove.apply(this, arguments);
+  },
   getAppPathFromLink: function (link) {
     if (!link) return "";
     var href = link.getAttribute ? link.getAttribute("href") : "";
@@ -102,6 +112,18 @@ var PokedexSearchPanel = Panels.Panel.extend({
     $searchbox.focus();
     this.find($searchbox.val());
     this.checkExactMatch();
+
+    if (
+      window.DDEX_NUZLOCKE_BOX &&
+      typeof window.DDEX_NUZLOCKE_BOX.subscribe === "function"
+    ) {
+      this.handleNuzlockeUpdate = function () {
+        if (!this.search || !this.$searchbox) return;
+        if (!this.el || !document.body.contains(this.el)) return;
+        this.find(this.$searchbox.val() || "");
+      }.bind(this);
+      window.DDEX_NUZLOCKE_BOX.subscribe(this.handleNuzlockeUpdate);
+    }
   },
   updateSearch: function (e) {
     this.find(e.currentTarget.value);

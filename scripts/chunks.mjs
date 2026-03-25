@@ -11,6 +11,7 @@ export const scriptChunks = {
     "js/bootstrap.js",
   ],
   "base-data": [
+    "data/platinumkaizo_location_order.js",
     "data/search-index.js",
     "data/alias.js",
     "data/species.js",
@@ -22,6 +23,7 @@ export const scriptChunks = {
   ],
   "override-runtime": [
     "js/overrides.js",
+    "js/nuzlocke-box.js",
   ],
   "detail-data": [
     "data/vanilla_species.js",

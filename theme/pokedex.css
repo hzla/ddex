@@ -488,6 +488,87 @@ h1 a, h1 a.subtle {
 	display: none !important;
 }
 
+.utilichart li.result.nuzlocke-location-hit > a {
+	border-color: rgba(47, 143, 78, 0.9);
+	background: rgba(47, 143, 78, 0.14);
+}
+
+.utilichart li.result.nuzlocke-caught-here > a {
+	border-color: rgba(47, 143, 78, 1);
+	background: rgba(47, 143, 78, 0.2);
+}
+
+.utilichart li.result.nuzlocke-owned-elsewhere > a {
+	border-color: rgba(161, 74, 74, 0.95);
+	background: rgba(161, 74, 74, 0.16);
+}
+
+.utilichart .typecol.nuzlocke-sprite-strip,
+.nuzlocke-sprite-strip {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.utilichart .typecol.nuzlocke-sprite-strip {
+	float: right;
+	width: auto;
+	min-width: 40px;
+	padding-top: 0;
+	justify-content: flex-end;
+}
+
+.nuzlocke-picon {
+	flex: 0 0 auto;
+}
+
+.dexentry .nuzlocke-summary {
+	margin: 0 10px 12px;
+	padding: 10px 12px;
+	border: 1px solid rgba(248, 248, 242, 0.18);
+	border-radius: 6px;
+	background: rgba(255, 255, 255, 0.04);
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.dexentry .nuzlocke-summary.live {
+	border-color: rgba(248, 248, 242, 0.28);
+}
+
+.dexentry .nuzlocke-summary.cache {
+	border-color: rgba(248, 248, 242, 0.22);
+	background: rgba(255, 255, 255, 0.03);
+}
+
+.dexentry .nuzlocke-summary.nuzlocke-summary-hit {
+	border-color: rgba(47, 143, 78, 0.95);
+	background: rgba(47, 143, 78, 0.14);
+}
+
+.dexentry .nuzlocke-summary-species {
+	font-size: 10pt;
+}
+
+.dexentry .nuzlocke-summary-source {
+	font-size: 9pt;
+	opacity: 0.75;
+}
+
+.utilichart .encountermovecol {
+	height: auto;
+	line-height: 1.25;
+	padding-top: 3px;
+	white-space: nowrap;
+}
+
+.encounter-warning-text {
+	color: #f0cf63;
+	font-weight: bold;
+}
+
 .tabbar {
 	display: block;
 	list-style: none;

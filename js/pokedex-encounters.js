@@ -144,6 +144,91 @@ async function ensureLocationMapSet() {
   return null;
 }
 
+var trappingAbilities = ["shadowtag", "arenatrap", "magnetpull"];
+var teleportingMoves = ["teleport"];
+var roaringMoves = ["whirlwind", "roar"];
+var selfKoMoves = ["selfdestruct", "explosion", "memento"];
+var recoilMoves = ["doubleedge", "hyperbeam", "takedown", "thrash", "skyattack", "outrage", "overheat", "volttackle", "blastburn", "eruption", "hydrocannon", "superpower", "waterspout", "bravebird", "flareblitz", "headsmash", "woodhammer", "dracometeor", "roaroftime", "closecombat", "gigaimpact", "wildcharge", "solidplant"];
+var trappingMoves = ["wrap", "submission", "firespin", "meanlook", "twister", "whirlpool", "swallow", "sandtomb", "block"];
+
+var encounterWarningAbilities = Object.create(null);
+var encounterWarningMoves = Object.create(null);
+
+for (var trappingAbilityIndex = 0; trappingAbilityIndex < trappingAbilities.length; trappingAbilityIndex++) {
+  encounterWarningAbilities[trappingAbilities[trappingAbilityIndex]] = true;
+}
+
+var encounterMoveWarnings = [
+  teleportingMoves,
+  roaringMoves,
+  selfKoMoves,
+  recoilMoves,
+  trappingMoves,
+];
+for (var warningListIndex = 0; warningListIndex < encounterMoveWarnings.length; warningListIndex++) {
+  var warningList = encounterMoveWarnings[warningListIndex];
+  for (var warningMoveIndex = 0; warningMoveIndex < warningList.length; warningMoveIndex++) {
+    encounterWarningMoves[warningList[warningMoveIndex]] = true;
+  }
+}
+
+function getEncounterPreviewLevel(minLevel, maxLevel) {
+  if (Number.isFinite(minLevel) && minLevel > 0) return minLevel;
+  if (Number.isFinite(maxLevel) && maxLevel > 0) return maxLevel;
+  return 0;
+}
+
+function getEncounterPreviewMoves(pokemon, level) {
+  if (!pokemon || !level || level < 1) return [];
+  if (
+    typeof getMergedLearnsetForPokemon !== "function" ||
+    typeof getMostRecentGenForPokemon !== "function" ||
+    typeof getLevelUpLevelFromSource !== "function"
+  ) {
+    return [];
+  }
+
+  var learnset = getMergedLearnsetForPokemon(pokemon);
+  var currentGen = getMostRecentGenForPokemon(pokemon);
+  var learnedMoves = [];
+  var learnOrder = 0;
+
+  for (var moveid in learnset) {
+    var sources = learnset[moveid];
+    if (typeof sources === "string") sources = [sources];
+    var learnedLevel = null;
+
+    for (var sourceIndex = 0; sourceIndex < sources.length; sourceIndex++) {
+      var sourceLevel = getLevelUpLevelFromSource(sources[sourceIndex], currentGen);
+      if (sourceLevel === null || Number.isNaN(sourceLevel) || sourceLevel > level) {
+        continue;
+      }
+      if (learnedLevel === null || sourceLevel < learnedLevel) {
+        learnedLevel = sourceLevel;
+      }
+    }
+
+    if (learnedLevel === null) continue;
+    if (!BattleMovedex[moveid]) continue;
+
+    learnedMoves.push({
+      id: moveid,
+      name: BattleMovedex[moveid].name,
+      level: learnedLevel,
+      order: learnOrder++,
+    });
+  }
+
+  learnedMoves.sort(function (moveA, moveB) {
+    if (moveA.level !== moveB.level) return moveA.level - moveB.level;
+    if (moveA.order !== moveB.order) return moveA.order - moveB.order;
+    return 0;
+  });
+
+  if (learnedMoves.length <= 4) return learnedMoves;
+  return learnedMoves.slice(learnedMoves.length - 4);
+}
+
 var PokedexEncountersPanel = PokedexResultPanel.extend({
   initialize: function (id) {
     id = toID(id);
@@ -161,6 +246,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       '" data-target="push" class="subtle">' +
       location.name +
       "</a></h1>";
+    buf += '<section class="nuzlocke-summary" hidden></section>';
 
     // distribution
     buf += '<ul class="utilichart metricchart nokbd encounterchart">';
@@ -170,6 +256,23 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     buf += "</div>";
 
     this.html(buf);
+    this.renderNuzlockeSummary();
+
+    if (
+      window.DDEX_NUZLOCKE_BOX &&
+      typeof window.DDEX_NUZLOCKE_BOX.subscribe === "function"
+    ) {
+      this.handleNuzlockeUpdate = function () {
+        this.renderNuzlockeSummary();
+        if (!this.$chart || !this.$chart.length) return;
+        if (this.streamLoading) {
+          this.renderUpdateDistribution(true);
+        } else {
+          this.renderDistribution();
+        }
+      }.bind(this);
+      window.DDEX_NUZLOCKE_BOX.subscribe(this.handleNuzlockeUpdate);
+    }
 
     setTimeout(
       function () {
@@ -177,6 +280,125 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         this.renderLocationMaps();
       }.bind(this),
     );
+  },
+  remove: function () {
+    if (
+      this.handleNuzlockeUpdate &&
+      window.DDEX_NUZLOCKE_BOX &&
+      typeof window.DDEX_NUZLOCKE_BOX.unsubscribe === "function"
+    ) {
+      window.DDEX_NUZLOCKE_BOX.unsubscribe(this.handleNuzlockeUpdate);
+    }
+    if (this.handleScrollBound) {
+      this.$el.off("scroll", this.handleScrollBound);
+    }
+    PokedexResultPanel.prototype.remove.apply(this, arguments);
+  },
+  getNuzlockeSourceLabel: function (source) {
+    if (source === "live") return "live";
+    if (source === "cache") return "cached";
+    return "";
+  },
+  renderNuzlockeSpriteStrip: function (speciesIds) {
+    var buf = '<span class="nuzlocke-sprite-strip" aria-hidden="true">';
+    for (var i = 0; i < speciesIds.length; i++) {
+      var speciesTemplate = Dex.species.get(speciesIds[i]);
+      if (!speciesTemplate || !speciesTemplate.exists) continue;
+      buf +=
+        '<span class="picon nuzlocke-picon" style="' +
+        Dex.getPokemonIcon(speciesTemplate.name) +
+        '"></span>';
+    }
+    buf += "</span>";
+    return buf;
+  },
+  renderNuzlockeSummary: function () {
+    var $summary = this.$(".nuzlocke-summary");
+    if (!$summary.length) return;
+
+    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
+    var state =
+      nuzlockeService && typeof nuzlockeService.getState === "function"
+        ? nuzlockeService.getState()
+        : null;
+
+    if (!state || !state.hasData) {
+      $summary.prop("hidden", true).empty().removeClass("live cache nuzlocke-summary-hit");
+      return;
+    }
+
+    var summary =
+      typeof nuzlockeService.getLocationSummary === "function"
+        ? nuzlockeService.getLocationSummary(this.id)
+        : { hasCaughtHere: false, speciesIds: [], source: state.source };
+    var summaryClass = "nuzlocke-summary " + summary.source;
+    var sourceLabel = this.getNuzlockeSourceLabel(summary.source);
+    var buf = "";
+
+    if (summary.hasCaughtHere) {
+      summaryClass += " nuzlocke-summary-hit";
+      var speciesNames = [];
+      for (var i = 0; i < summary.speciesIds.length; i++) {
+        var speciesTemplate = Dex.species.get(summary.speciesIds[i]);
+        if (!speciesTemplate || !speciesTemplate.exists) continue;
+        speciesNames.push(speciesTemplate.name);
+      }
+      buf += "<strong>Caught:</strong> ";
+      buf += this.renderNuzlockeSpriteStrip(summary.speciesIds);
+      if (speciesNames.length) {
+        buf +=
+          '<span class="nuzlocke-summary-species">' +
+          Dex.escapeHTML(speciesNames.join(", ")) +
+          "</span>";
+      }
+    } else {
+      buf += "<strong>No recorded encounter from this location.</strong>";
+      if (sourceLabel) {
+        buf +=
+          '<span class="nuzlocke-summary-source">(' +
+          Dex.escapeHTML(sourceLabel) +
+          ")</span>";
+      }
+    }
+
+    $summary
+      .html(buf)
+      .prop("hidden", false)
+      .attr("class", summaryClass);
+  },
+  getResultRowClassName: function (result) {
+    var className = "result";
+    if (!result || result.kind !== "encounter") return className;
+
+    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
+    if (
+      !nuzlockeService ||
+      typeof nuzlockeService.getEncounterRowState !== "function"
+    ) {
+      return className;
+    }
+
+    var rowState = nuzlockeService.getEncounterRowState(this.id, result.monId);
+    if (rowState.caughtHere) {
+      className += " nuzlocke-caught-here";
+    } else if (rowState.ownedElsewhere) {
+      className += " nuzlocke-owned-elsewhere";
+    }
+
+    return className;
+  },
+  renderResultListItem: function (i, offscreen) {
+    return (
+      '<li class="' +
+      this.getResultRowClassName(this.results[i]) +
+      '">' +
+      this.renderRow(i, offscreen) +
+      "</li>"
+    );
+  },
+  updateResultListItem: function (rowElement, i) {
+    rowElement.className = this.getResultRowClassName(this.results[i]);
+    rowElement.innerHTML = this.renderRow(i);
   },
   getDistribution: function () {
     if (this.results) return this.results;
@@ -225,8 +447,11 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     this.$chart = this.$(".utilichart");
 
     if (results.length > 1600 / 33) {
-      this.streamLoading = true;
-      this.$el.on("scroll", this.handleScroll.bind(this));
+      if (!this.streamLoading) {
+        this.streamLoading = true;
+        this.handleScrollBound = this.handleScroll.bind(this);
+        this.$el.on("scroll", this.handleScrollBound);
+      }
 
       var panelTop = this.$el.children().offset().top;
       var panelHeight = this.$el.outerHeight();
@@ -242,16 +467,14 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       // distribution
       var buf = "";
       for (var i = 0, len = results.length; i < len; i++) {
-        buf +=
-          '<li class="result">' +
-          this.renderRow(i, i < start || i > end) +
-          "</li>";
+        buf += this.renderResultListItem(i, i < start || i > end);
       }
       this.$chart.html(buf);
     } else {
+      this.streamLoading = false;
       var buf = "";
       for (var i = 0, len = results.length; i < len; i++) {
-        buf += '<li class="result">' + this.renderRow(i) + "</li>";
+        buf += this.renderResultListItem(i);
       }
       this.$chart.html(buf);
     }
@@ -335,12 +558,11 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       var rateTag = result.rate.trim().replaceAll("z", "");
       var minLevel = result.min;
       var maxLevel = result.max;
+      var encounterLevel = getEncounterPreviewLevel(minLevel, maxLevel);
       var desc = rateTag || "";
       var levelValue = "";
-      if (!Number.isNaN(maxLevel) && maxLevel > 0) {
-        levelValue = "Lv " + maxLevel;
-      } else if (!Number.isNaN(minLevel) && minLevel > 0) {
-        levelValue = "Lv " + minLevel;
+      if (encounterLevel > 0) {
+        levelValue = "Lv " + encounterLevel;
       }
       var levelClass = "col levelcol";
       if (isEmptyEncounter) {
@@ -354,7 +576,16 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
           "</span>"
         );
       }
-      var row = BattleSearch.renderTaggedLocationRowInner(template, desc);
+      var previewTemplate = Dex.species.get(id);
+      if (!previewTemplate || !previewTemplate.exists) {
+        previewTemplate = template;
+      }
+      var row = BattleSearch.renderTaggedLocationRowInner(template, desc, null, {
+        level: encounterLevel,
+        moves: getEncounterPreviewMoves(previewTemplate, encounterLevel),
+        warningAbilities: encounterWarningAbilities,
+        warningMoves: encounterWarningMoves,
+      });
       if (row.indexOf('class="col tagcol') !== -1) {
         row = row.replace(
           /(<span class="col tagcol[^>]*>[^<]*<\/span>)/,
@@ -400,10 +631,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     ) {
       var buf = "";
       for (var i = 0, len = results.length; i < len; i++) {
-        buf +=
-          '<li class="result">' +
-          this.renderRow(i, i < start || i > end) +
-          "</li>";
+        buf += this.renderResultListItem(i, i < start || i > end);
       }
       this.$chart.html(buf);
       (this.start = start), (this.end = end);
@@ -412,14 +640,14 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
 
     if (start < this.start) {
       for (var i = start; i < this.start; i++) {
-        $rows[i].innerHTML = this.renderRow(i);
+        this.updateResultListItem($rows[i], i);
       }
       this.start = start;
     }
 
     if (end > this.end) {
       for (var i = this.end + 1; i <= end; i++) {
-        $rows[i].innerHTML = this.renderRow(i);
+        this.updateResultListItem($rows[i], i);
       }
       this.end = end;
     }

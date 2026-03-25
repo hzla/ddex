@@ -688,7 +688,29 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
     this.html(buf);
 
+    if (
+      window.DDEX_NUZLOCKE_BOX &&
+      typeof window.DDEX_NUZLOCKE_BOX.subscribe === "function"
+    ) {
+      this.handleNuzlockeUpdate = function () {
+        if (this.$(".tabbar button.cur").val() === "encounters") {
+          this.renderEncounters();
+        }
+      }.bind(this);
+      window.DDEX_NUZLOCKE_BOX.subscribe(this.handleNuzlockeUpdate);
+    }
+
     setTimeout(this.renderFullLearnset.bind(this));
+  },
+  remove: function () {
+    if (
+      this.handleNuzlockeUpdate &&
+      window.DDEX_NUZLOCKE_BOX &&
+      typeof window.DDEX_NUZLOCKE_BOX.unsubscribe === "function"
+    ) {
+      window.DDEX_NUZLOCKE_BOX.unsubscribe(this.handleNuzlockeUpdate);
+    }
+    PokedexResultPanel.prototype.remove.apply(this, arguments);
   },
   events: {
     "click .tabbar button": "selectTab",
@@ -1354,7 +1376,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         if (!zone || !zone.name) {
           continue;
         }
-        buf += BattleSearch.renderTaggedEncounterRow(zone, rate);
+        buf += BattleSearch.renderTaggedEncounterRow(zone, rate, location.zoneid);
       }
     }
 

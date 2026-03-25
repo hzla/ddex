@@ -300,6 +300,7 @@
           matchLength,
           errorMessage,
           attrs,
+          id,
         );
       case "move":
         var move = this.engine.dex.moves.get(id);
@@ -756,17 +757,45 @@
     return buf;
   };
 
-  Search.prototype.renderTaggedEncounterRow = function (zone, tag) {
+  Search.prototype.renderTaggedEncounterRow = function (zone, tag, zoneId) {
     var attrs = "";
+    var id = zoneId || toID(zone.name);
+    var rowClass = "result";
+    var spriteStrip = "";
+    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
+    if (
+      nuzlockeService &&
+      typeof nuzlockeService.getLocationSummary === "function"
+    ) {
+      var locationSummary = nuzlockeService.getLocationSummary(id);
+      if (
+        locationSummary &&
+        locationSummary.speciesIds &&
+        locationSummary.speciesIds.length
+      ) {
+        rowClass += " nuzlocke-location-hit";
+        spriteStrip =
+          '<span class="col typecol nuzlocke-sprite-strip" aria-hidden="true">';
+        for (var i = 0; i < locationSummary.speciesIds.length; i++) {
+          var speciesTemplate = Dex.species.get(locationSummary.speciesIds[i]);
+          if (!speciesTemplate || !speciesTemplate.exists) continue;
+          spriteStrip +=
+            '<span class="picon nuzlocke-picon" style="' +
+            Dex.getPokemonIcon(speciesTemplate.name) +
+            '"></span>';
+        }
+        spriteStrip += "</span> ";
+      }
+    }
     if (Search.urlRoot)
       attrs =
         ' href="' +
         Search.urlRoot +
         "encounters/" +
-        toID(zone.name) +
+        id +
         '" data-target="push"';
     var buf =
-      '<li class="result"><a ' +
+      '<li class="' + rowClass + '"><a ' +
       attrs +
       ' data-entry="encounters|' +
       BattleLog.escapeHTML(zone.name) +
@@ -778,6 +807,10 @@
     // name
     buf += '<span class="col shortmovenamecol">' + zone.name + "</span> ";
 
+    if (spriteStrip) {
+      buf += spriteStrip;
+    }
+
     buf += "</a></li>";
 
     return buf;
@@ -787,7 +820,9 @@
     pokemon,
     tag,
     errorMessage,
+    options,
   ) {
+    options = options || {};
     var attrs = "";
     if (Search.urlRoot)
       attrs =
@@ -836,6 +871,7 @@
     buf += "</span> ";
 
     // abilities
+    var warningAbilities = options.warningAbilities || {};
     buf += '<span style="float:left;min-height:26px">';
     if (pokemon.abilities["1"]) {
       buf += '<span class="col twoabilitycol">';
@@ -852,41 +888,41 @@
           '</span><span class="col abilitycol"><em>' +
           pokemon.abilities[i] +
           "</em>";
+      var warningAbilityId = toID(pokemon.abilities[i]);
+      if (warningAbilities[warningAbilityId]) {
+        ability = '<span class="encounter-warning-text">' + ability + "</span>";
+      }
       buf += ability;
     }
     if (!pokemon.abilities["H"]) buf += '</span><span class="col abilitycol">';
     buf += "</span>";
     buf += "</span>";
 
-    // base stats
+    // encounter move snapshot
+    var moves = Array.isArray(options.moves) ? options.moves.slice(0, 4) : [];
+    var warningMoves = options.warningMoves || {};
+    var firstMoveColumn = moves.slice(0, 2);
+    var secondMoveColumn = moves.slice(2, 4);
+
+    function renderEncounterMoveColumn(moveEntries) {
+      var moveBuf = '<span class="col abilitycol encountermovecol">';
+      for (var moveIndex = 0; moveIndex < moveEntries.length; moveIndex++) {
+        var moveEntry = moveEntries[moveIndex];
+        if (moveIndex) moveBuf += "<br />";
+        var moveName = Dex.escapeHTML(moveEntry.name || "");
+        if (warningMoves[moveEntry.id]) {
+          moveBuf += '<span class="encounter-warning-text">' + moveName + "</span>";
+        } else {
+          moveBuf += moveName;
+        }
+      }
+      moveBuf += "</span>";
+      return moveBuf;
+    }
+
     buf += '<span style="float:left;min-height:26px">';
-    buf +=
-      '<span class="col statcol"><em>HP</em><br />' +
-      pokemon.baseStats.hp +
-      "</span> ";
-    buf +=
-      '<span class="col statcol"><em>Atk</em><br />' +
-      pokemon.baseStats.atk +
-      "</span> ";
-    buf +=
-      '<span class="col statcol"><em>Def</em><br />' +
-      pokemon.baseStats.def +
-      "</span> ";
-    buf +=
-      '<span class="col statcol"><em>SpA</em><br />' +
-      pokemon.baseStats.spa +
-      "</span> ";
-    buf +=
-      '<span class="col statcol"><em>SpD</em><br />' +
-      pokemon.baseStats.spd +
-      "</span> ";
-    buf +=
-      '<span class="col statcol"><em>Spe</em><br />' +
-      pokemon.baseStats.spe +
-      "</span> ";
-    var bst = 0;
-    for (i in pokemon.baseStats) bst += pokemon.baseStats[i];
-    buf += '<span class="col bstcol"><em>BST<br />' + bst + "</em></span> ";
+    buf += renderEncounterMoveColumn(firstMoveColumn);
+    buf += renderEncounterMoveColumn(secondMoveColumn);
     buf += "</span>";
 
     buf += "</a>";
@@ -1001,10 +1037,38 @@
     matchLength,
     errorMessage,
     attrs,
+    locationId,
   ) {
     if (!attrs) attrs = "";
     if (!location) return '<li class="result">Unrecognized location</li>';
-    var id = toID(location.name);
+    var id = locationId || toID(location.name);
+    var rowClass = "result";
+    var spriteStrip = "";
+    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
+    if (
+      nuzlockeService &&
+      typeof nuzlockeService.getLocationSummary === "function"
+    ) {
+      var locationSummary = nuzlockeService.getLocationSummary(id);
+      if (
+        locationSummary &&
+        locationSummary.speciesIds &&
+        locationSummary.speciesIds.length
+      ) {
+        rowClass += " nuzlocke-location-hit";
+        spriteStrip =
+          '<span class="col typecol nuzlocke-sprite-strip" aria-hidden="true">';
+        for (var i = 0; i < locationSummary.speciesIds.length; i++) {
+          var speciesTemplate = Dex.species.get(locationSummary.speciesIds[i]);
+          if (!speciesTemplate || !speciesTemplate.exists) continue;
+          spriteStrip +=
+            '<span class="picon nuzlocke-picon" style="' +
+            Dex.getPokemonIcon(speciesTemplate.name) +
+            '"></span>';
+        }
+        spriteStrip += "</span> ";
+      }
+    }
     if (Search.urlRoot)
       attrs +=
         ' href="' +
@@ -1014,7 +1078,7 @@
         '" data-target="push"';
     // piggyback off moves
     var buf =
-      '<li class="result"><a' +
+      '<li class="' + rowClass + '"><a' +
       attrs +
       ' data-entry="move|' +
       BattleLog.escapeHTML(location.name) +
@@ -1052,8 +1116,12 @@
     buf += '<span class="col movenamecol">' + name + "</span> ";
 
     // type
-    buf += '<span class="col typecol">';
-    buf += "</span> ";
+    if (spriteStrip) {
+      buf += spriteStrip;
+    } else {
+      buf += '<span class="col typecol">';
+      buf += "</span> ";
+    }
     buf += "</a></li>";
 
     return buf;
