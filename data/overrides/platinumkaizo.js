@@ -75379,6 +75379,7 @@ var overrides = {
     "encs": {
         "canalavecity": {
             "name": "Canalave City",
+            "locationNameId": 7,
             "grass": {
                 "encs": []
             },
@@ -75508,6 +75509,7 @@ var overrides = {
         },
         "eternacity": {
             "name": "Eterna City",
+            "locationNameId": 9,
             "grass": {
                 "encs": [
                     {
@@ -75715,6 +75717,7 @@ var overrides = {
         },
         "pastoriacity": {
             "name": "Pastoria City",
+            "locationNameId": 11,
             "grass": {
                 "encs": [
                     {
@@ -75911,6 +75914,7 @@ var overrides = {
         },
         "sunyshorecity": {
             "name": "Sunyshore City",
+            "locationNameId": 13,
             "grass": {
                 "encs": [
                     {
@@ -76163,6 +76167,7 @@ var overrides = {
         },
         "pokmonleague": {
             "name": "Pokémon League",
+            "locationNameId": 15,
             "grass": {
                 "encs": [
                     {
@@ -76359,6 +76364,7 @@ var overrides = {
         },
         "oreburghmine": {
             "name": "Oreburgh Mine",
+            "locationNameId": 46,
             "grass": {
                 "encs": [
                     {
@@ -76542,6 +76548,7 @@ var overrides = {
         },
         "oreburghminesection2": {
             "name": "Oreburgh Mine Section 2",
+            "locationNameId": 46,
             "grass": {
                 "encs": [
                     {
@@ -76725,6 +76732,7 @@ var overrides = {
         },
         "valleywindworks": {
             "name": "Valley Windworks",
+            "locationNameId": 47,
             "grass": {
                 "encs": [
                     {
@@ -77065,6 +77073,7 @@ var overrides = {
         },
         "eternaforest": {
             "name": "Eterna Forest",
+            "locationNameId": 48,
             "grass": {
                 "encs": [
                     {
@@ -77335,6 +77344,7 @@ var overrides = {
         },
         "fuegoironworks": {
             "name": "Fuego Ironworks",
+            "locationNameId": 49,
             "grass": {
                 "encs": [
                     {
@@ -77654,6 +77664,7 @@ var overrides = {
         },
         "mtcoronet": {
             "name": "Mt. Coronet",
+            "locationNameId": 50,
             "grass": {
                 "encs": [
                     {
@@ -77921,6 +77932,7 @@ var overrides = {
         },
         "mtcoronetsection2": {
             "name": "Mt. Coronet Section 2",
+            "locationNameId": 50,
             "grass": {
                 "encs": [
                     {
@@ -78104,6 +78116,7 @@ var overrides = {
         },
         "mtcoronetsection3": {
             "name": "Mt. Coronet Section 3",
+            "locationNameId": 50,
             "grass": {
                 "encs": [
                     {
@@ -78287,6 +78300,7 @@ var overrides = {
         },
         "coronethighlands": {
             "name": "Coronet Highlands",
+            "locationNameId": 115,
             "grass": {
                 "encs": [
                     {
@@ -78470,6 +78484,7 @@ var overrides = {
         },
         "coronethighlandssection2": {
             "name": "Coronet Highlands Section 2",
+            "locationNameId": 115,
             "grass": {
                 "encs": [
                     {
@@ -78653,6 +78668,7 @@ var overrides = {
         },
         "coronethighlandssection3": {
             "name": "Coronet Highlands Section 3",
+            "locationNameId": 115,
             "grass": {
                 "encs": [
                     {
@@ -78920,6 +78936,7 @@ var overrides = {
         },
         "coronethighlandssection4": {
             "name": "Coronet Highlands Section 4",
+            "locationNameId": 115,
             "grass": {
                 "encs": [
                     {
@@ -79103,6 +79120,7 @@ var overrides = {
         },
         "coronethighlandssection5": {
             "name": "Coronet Highlands Section 5",
+            "locationNameId": 115,
             "grass": {
                 "encs": [
                     {
@@ -79286,6 +79304,7 @@ var overrides = {
         },
         "coronethighlandssection6": {
             "name": "Coronet Highlands Section 6",
+            "locationNameId": 115,
             "grass": {
                 "encs": [
                     {
@@ -79469,6 +79488,7 @@ var overrides = {
         },
         "celesticaruins": {
             "name": "Celestica Ruins",
+            "locationNameId": 99,
             "grass": {
                 "encs": [
                     {
@@ -79652,6 +79672,7 @@ var overrides = {
         },
         "mtcoronetsection4": {
             "name": "Mt. Coronet Section 4",
+            "locationNameId": 50,
             "grass": {
                 "encs": [
                     {
@@ -79919,6 +79940,7 @@ var overrides = {
         },
         "mtcoronetsection5": {
             "name": "Mt. Coronet Section 5",
+            "locationNameId": 50,
             "grass": {
                 "encs": [
                     {
@@ -80186,6 +80208,7 @@ var overrides = {
         },
         "mtcoronetsection6": {
             "name": "Mt. Coronet Section 6",
+            "locationNameId": 50,
             "grass": {
                 "encs": [
                     {
@@ -80453,6 +80476,7 @@ var overrides = {
         },
         "greatmarsh": {
             "name": "Great Marsh",
+            "locationNameId": 52,
             "grass": {
                 "encs": [
                     {
@@ -80720,6 +80744,7 @@ var overrides = {
         },
         "greatmarshsection2": {
             "name": "Great Marsh Section 2",
+            "locationNameId": 52,
             "grass": {
                 "encs": [
                     {
@@ -80987,6 +81012,7 @@ var overrides = {
         },
         "greatmarshsection3": {
             "name": "Great Marsh Section 3",
+            "locationNameId": 52,
             "grass": {
                 "encs": [
                     {
@@ -81254,6 +81280,7 @@ var overrides = {
         },
         "greatmarshsection4": {
             "name": "Great Marsh Section 4",
+            "locationNameId": 52,
             "grass": {
                 "encs": [
                     {
@@ -81521,6 +81548,7 @@ var overrides = {
         },
         "greatmarshsection5": {
             "name": "Great Marsh Section 5",
+            "locationNameId": 52,
             "grass": {
                 "encs": [
                     {
@@ -81788,6 +81816,7 @@ var overrides = {
         },
         "greatmarshsection6": {
             "name": "Great Marsh Section 6",
+            "locationNameId": 52,
             "grass": {
                 "encs": [
                     {
@@ -82055,6 +82084,7 @@ var overrides = {
         },
         "solaceonruins": {
             "name": "Solaceon Ruins",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -82238,6 +82268,7 @@ var overrides = {
         },
         "solaceonruinssection2": {
             "name": "Solaceon Ruins Section 2",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -82421,6 +82452,7 @@ var overrides = {
         },
         "solaceonruinssection3": {
             "name": "Solaceon Ruins Section 3",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -82604,6 +82636,7 @@ var overrides = {
         },
         "solaceonruinssection4": {
             "name": "Solaceon Ruins Section 4",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -82787,6 +82820,7 @@ var overrides = {
         },
         "solaceonruinssection5": {
             "name": "Solaceon Ruins Section 5",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -82970,6 +83004,7 @@ var overrides = {
         },
         "solaceonruinssection6": {
             "name": "Solaceon Ruins Section 6",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -83153,6 +83188,7 @@ var overrides = {
         },
         "solaceonruinssection7": {
             "name": "Solaceon Ruins Section 7",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -83336,6 +83372,7 @@ var overrides = {
         },
         "solaceonruinssection8": {
             "name": "Solaceon Ruins Section 8",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -83519,6 +83556,7 @@ var overrides = {
         },
         "solaceonruinssection9": {
             "name": "Solaceon Ruins Section 9",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -83702,6 +83740,7 @@ var overrides = {
         },
         "solaceonruinssection10": {
             "name": "Solaceon Ruins Section 10",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -83885,6 +83924,7 @@ var overrides = {
         },
         "solaceonruinssection11": {
             "name": "Solaceon Ruins Section 11",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -84068,6 +84108,7 @@ var overrides = {
         },
         "solaceonruinssection12": {
             "name": "Solaceon Ruins Section 12",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -84251,6 +84292,7 @@ var overrides = {
         },
         "solaceonruinssection13": {
             "name": "Solaceon Ruins Section 13",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -84434,6 +84476,7 @@ var overrides = {
         },
         "solaceonruinssection14": {
             "name": "Solaceon Ruins Section 14",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -84617,6 +84660,7 @@ var overrides = {
         },
         "solaceonruinssection15": {
             "name": "Solaceon Ruins Section 15",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -84800,6 +84844,7 @@ var overrides = {
         },
         "solaceonruinssection16": {
             "name": "Solaceon Ruins Section 16",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -84983,6 +85028,7 @@ var overrides = {
         },
         "solaceonruinssection17": {
             "name": "Solaceon Ruins Section 17",
+            "locationNameId": 53,
             "grass": {
                 "encs": [
                     {
@@ -85166,6 +85212,7 @@ var overrides = {
         },
         "unknown46": {
             "name": "unknown_46",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -85349,6 +85396,7 @@ var overrides = {
         },
         "victoryroad": {
             "name": "Victory Road",
+            "locationNameId": 54,
             "grass": {
                 "encs": [
                     {
@@ -85532,6 +85580,7 @@ var overrides = {
         },
         "victoryroadsection2": {
             "name": "Victory Road Section 2",
+            "locationNameId": 54,
             "grass": {
                 "encs": [
                     {
@@ -85715,6 +85764,7 @@ var overrides = {
         },
         "victoryroadsection3": {
             "name": "Victory Road Section 3",
+            "locationNameId": 54,
             "grass": {
                 "encs": [
                     {
@@ -85982,6 +86032,7 @@ var overrides = {
         },
         "victoryroadsection4": {
             "name": "Victory Road Section 4",
+            "locationNameId": 54,
             "grass": {
                 "encs": [
                     {
@@ -86249,6 +86300,7 @@ var overrides = {
         },
         "victoryroadsection5": {
             "name": "Victory Road Section 5",
+            "locationNameId": 54,
             "grass": {
                 "encs": [
                     {
@@ -86432,6 +86484,7 @@ var overrides = {
         },
         "victoryroadsection6": {
             "name": "Victory Road Section 6",
+            "locationNameId": 54,
             "grass": {
                 "encs": [
                     {
@@ -86615,6 +86668,7 @@ var overrides = {
         },
         "ravagedpath": {
             "name": "Ravaged Path",
+            "locationNameId": 57,
             "grass": {
                 "encs": [
                     {
@@ -86882,6 +86936,7 @@ var overrides = {
         },
         "oreburghgate": {
             "name": "Oreburgh Gate",
+            "locationNameId": 59,
             "grass": {
                 "encs": [
                     {
@@ -87065,6 +87120,7 @@ var overrides = {
         },
         "oreburghgatesection2": {
             "name": "Oreburgh Gate Section 2",
+            "locationNameId": 59,
             "grass": {
                 "encs": [
                     {
@@ -87332,6 +87388,7 @@ var overrides = {
         },
         "starkmountain": {
             "name": "Stark Mountain",
+            "locationNameId": 84,
             "grass": {
                 "encs": [
                     {
@@ -87515,6 +87572,7 @@ var overrides = {
         },
         "starkmountainsection2": {
             "name": "Stark Mountain Section 2",
+            "locationNameId": 84,
             "grass": {
                 "encs": [
                     {
@@ -87698,6 +87756,7 @@ var overrides = {
         },
         "starkmountainsection3": {
             "name": "Stark Mountain Section 3",
+            "locationNameId": 84,
             "grass": {
                 "encs": [
                     {
@@ -87881,6 +87940,7 @@ var overrides = {
         },
         "sendoffspring": {
             "name": "Sendoff Spring",
+            "locationNameId": 61,
             "grass": {
                 "encs": [
                     {
@@ -88148,6 +88208,7 @@ var overrides = {
         },
         "unknown60": {
             "name": "unknown_60",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -88331,6 +88392,7 @@ var overrides = {
         },
         "unknown61": {
             "name": "unknown_61",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -88514,6 +88576,7 @@ var overrides = {
         },
         "unknown62": {
             "name": "unknown_62",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -88697,6 +88760,7 @@ var overrides = {
         },
         "turnbackcavesection2": {
             "name": "Turnback Cave Section 2",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -88880,6 +88944,7 @@ var overrides = {
         },
         "turnbackcavesection3": {
             "name": "Turnback Cave Section 3",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -89063,6 +89128,7 @@ var overrides = {
         },
         "turnbackcavesection4": {
             "name": "Turnback Cave Section 4",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -89246,6 +89312,7 @@ var overrides = {
         },
         "turnbackcavesection5": {
             "name": "Turnback Cave Section 5",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -89429,6 +89496,7 @@ var overrides = {
         },
         "turnbackcavesection6": {
             "name": "Turnback Cave Section 6",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -89612,6 +89680,7 @@ var overrides = {
         },
         "turnbackcavesection7": {
             "name": "Turnback Cave Section 7",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -89795,6 +89864,7 @@ var overrides = {
         },
         "turnbackcavesection8": {
             "name": "Turnback Cave Section 8",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -89978,6 +90048,7 @@ var overrides = {
         },
         "turnbackcavesection9": {
             "name": "Turnback Cave Section 9",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -90161,6 +90232,7 @@ var overrides = {
         },
         "turnbackcavesection10": {
             "name": "Turnback Cave Section 10",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -90344,6 +90416,7 @@ var overrides = {
         },
         "turnbackcavesection11": {
             "name": "Turnback Cave Section 11",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -90527,6 +90600,7 @@ var overrides = {
         },
         "turnbackcavesection12": {
             "name": "Turnback Cave Section 12",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -90710,6 +90784,7 @@ var overrides = {
         },
         "turnbackcavesection13": {
             "name": "Turnback Cave Section 13",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -90893,6 +90968,7 @@ var overrides = {
         },
         "turnbackcavesection14": {
             "name": "Turnback Cave Section 14",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -91076,6 +91152,7 @@ var overrides = {
         },
         "turnbackcavesection15": {
             "name": "Turnback Cave Section 15",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -91259,6 +91336,7 @@ var overrides = {
         },
         "turnbackcavesection16": {
             "name": "Turnback Cave Section 16",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -91442,6 +91520,7 @@ var overrides = {
         },
         "turnbackcavesection17": {
             "name": "Turnback Cave Section 17",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -91625,6 +91704,7 @@ var overrides = {
         },
         "turnbackcave": {
             "name": "Turnback Cave",
+            "locationNameId": 62,
             "grass": {
                 "encs": [
                     {
@@ -91808,6 +91888,7 @@ var overrides = {
         },
         "unknown80": {
             "name": "unknown_80",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -91991,6 +92072,7 @@ var overrides = {
         },
         "unknown81": {
             "name": "unknown_81",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -92174,6 +92256,7 @@ var overrides = {
         },
         "unknown82": {
             "name": "unknown_82",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -92357,6 +92440,7 @@ var overrides = {
         },
         "unknown83": {
             "name": "unknown_83",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -92540,6 +92624,7 @@ var overrides = {
         },
         "unknown84": {
             "name": "unknown_84",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -92723,6 +92808,7 @@ var overrides = {
         },
         "unknown85": {
             "name": "unknown_85",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -92906,6 +92992,7 @@ var overrides = {
         },
         "unknown86": {
             "name": "unknown_86",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -93089,6 +93176,7 @@ var overrides = {
         },
         "unknown87": {
             "name": "unknown_87",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -93272,6 +93360,7 @@ var overrides = {
         },
         "unknown88": {
             "name": "unknown_88",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -93455,6 +93544,7 @@ var overrides = {
         },
         "unknown89": {
             "name": "unknown_89",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -93638,6 +93728,7 @@ var overrides = {
         },
         "unknown90": {
             "name": "unknown_90",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -93821,6 +93912,7 @@ var overrides = {
         },
         "unknown91": {
             "name": "unknown_91",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -94004,6 +94096,7 @@ var overrides = {
         },
         "unknown92": {
             "name": "unknown_92",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -94187,6 +94280,7 @@ var overrides = {
         },
         "unknown93": {
             "name": "unknown_93",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -94370,6 +94464,7 @@ var overrides = {
         },
         "unknown94": {
             "name": "unknown_94",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -94553,6 +94648,7 @@ var overrides = {
         },
         "unknown95": {
             "name": "unknown_95",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -94736,6 +94832,7 @@ var overrides = {
         },
         "unknown96": {
             "name": "unknown_96",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -94919,6 +95016,7 @@ var overrides = {
         },
         "unknown97": {
             "name": "unknown_97",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -95102,6 +95200,7 @@ var overrides = {
         },
         "unknown98": {
             "name": "unknown_98",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -95285,6 +95384,7 @@ var overrides = {
         },
         "unknown99": {
             "name": "unknown_99",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -95468,6 +95568,7 @@ var overrides = {
         },
         "unknown100": {
             "name": "unknown_100",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -95651,6 +95752,7 @@ var overrides = {
         },
         "unknown101": {
             "name": "unknown_101",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -95834,6 +95936,7 @@ var overrides = {
         },
         "unknown102": {
             "name": "unknown_102",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -96017,6 +96120,7 @@ var overrides = {
         },
         "unknown103": {
             "name": "unknown_103",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -96200,6 +96304,7 @@ var overrides = {
         },
         "unknown104": {
             "name": "unknown_104",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -96383,6 +96488,7 @@ var overrides = {
         },
         "unknown105": {
             "name": "unknown_105",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -96566,6 +96672,7 @@ var overrides = {
         },
         "snowpointtemple": {
             "name": "Snowpoint Temple",
+            "locationNameId": 64,
             "grass": {
                 "encs": [
                     {
@@ -96749,6 +96856,7 @@ var overrides = {
         },
         "snowpointtemplesection2": {
             "name": "Snowpoint Temple Section 2",
+            "locationNameId": 64,
             "grass": {
                 "encs": [
                     {
@@ -96932,6 +97040,7 @@ var overrides = {
         },
         "snowpointtemplesection3": {
             "name": "Snowpoint Temple Section 3",
+            "locationNameId": 64,
             "grass": {
                 "encs": [
                     {
@@ -97115,6 +97224,7 @@ var overrides = {
         },
         "snowpointtemplesection4": {
             "name": "Snowpoint Temple Section 4",
+            "locationNameId": 64,
             "grass": {
                 "encs": [
                     {
@@ -97298,6 +97408,7 @@ var overrides = {
         },
         "snowpointtemplesection5": {
             "name": "Snowpoint Temple Section 5",
+            "locationNameId": 64,
             "grass": {
                 "encs": [
                     {
@@ -97481,6 +97592,7 @@ var overrides = {
         },
         "snowpointtemplesection6": {
             "name": "Snowpoint Temple Section 6",
+            "locationNameId": 64,
             "grass": {
                 "encs": [
                     {
@@ -97664,6 +97776,7 @@ var overrides = {
         },
         "waywardcave": {
             "name": "Wayward Cave",
+            "locationNameId": 65,
             "grass": {
                 "encs": [
                     {
@@ -97847,6 +97960,7 @@ var overrides = {
         },
         "waywardcavesection2": {
             "name": "Wayward Cave Section 2",
+            "locationNameId": 65,
             "grass": {
                 "encs": [
                     {
@@ -98030,6 +98144,7 @@ var overrides = {
         },
         "ruinmaniaccave": {
             "name": "Ruin Maniac Cave",
+            "locationNameId": 66,
             "grass": {
                 "encs": [
                     {
@@ -98213,6 +98328,7 @@ var overrides = {
         },
         "ruinmaniaccavesection2": {
             "name": "Ruin Maniac Cave Section 2",
+            "locationNameId": 66,
             "grass": {
                 "encs": [
                     {
@@ -98396,6 +98512,7 @@ var overrides = {
         },
         "maniactunnel": {
             "name": "Maniac Tunnel",
+            "locationNameId": 67,
             "grass": {
                 "encs": [
                     {
@@ -98579,6 +98696,7 @@ var overrides = {
         },
         "trophygarden": {
             "name": "Trophy Garden",
+            "locationNameId": 68,
             "grass": {
                 "encs": [
                     {
@@ -98762,6 +98880,7 @@ var overrides = {
         },
         "unknown118": {
             "name": "unknown_118",
+            "locationNameId": null,
             "grass": {
                 "encs": []
             },
@@ -98891,6 +99010,7 @@ var overrides = {
         },
         "unknown119": {
             "name": "unknown_119",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -99074,6 +99194,7 @@ var overrides = {
         },
         "unknown120": {
             "name": "unknown_120",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -99257,6 +99378,7 @@ var overrides = {
         },
         "unknown121": {
             "name": "unknown_121",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -99440,6 +99562,7 @@ var overrides = {
         },
         "unknown122": {
             "name": "unknown_122",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -99623,6 +99746,7 @@ var overrides = {
         },
         "ironisland": {
             "name": "Iron Island",
+            "locationNameId": 69,
             "grass": {
                 "encs": [
                     {
@@ -99817,6 +99941,7 @@ var overrides = {
         },
         "ironislandsection2": {
             "name": "Iron Island Section 2",
+            "locationNameId": 69,
             "grass": {
                 "encs": [
                     {
@@ -100000,6 +100125,191 @@ var overrides = {
         },
         "oldchateau": {
             "name": "Old Chateau",
+            "locationNameId": 70,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 16
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 39
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 16
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 56
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 26
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 6
+                    },
+                    {
+                        "s": "DRIFLOON",
+                        "mn": 17
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "ironislandsection3": {
+            "name": "Iron Island Section 3",
+            "locationNameId": 69,
             "grass": {
                 "encs": [
                     {
@@ -100183,6 +100493,7 @@ var overrides = {
         },
         "oldchateausection2": {
             "name": "Old Chateau Section 2",
+            "locationNameId": 70,
             "grass": {
                 "encs": [
                     {
@@ -100366,6 +100677,7 @@ var overrides = {
         },
         "oldchateausection3": {
             "name": "Old Chateau Section 3",
+            "locationNameId": 70,
             "grass": {
                 "encs": [
                     {
@@ -100549,6 +100861,7 @@ var overrides = {
         },
         "oldchateausection4": {
             "name": "Old Chateau Section 4",
+            "locationNameId": 70,
             "grass": {
                 "encs": [
                     {
@@ -100732,6 +101045,7 @@ var overrides = {
         },
         "oldchateausection5": {
             "name": "Old Chateau Section 5",
+            "locationNameId": 70,
             "grass": {
                 "encs": [
                     {
@@ -100915,6 +101229,7 @@ var overrides = {
         },
         "unknown130": {
             "name": "unknown_130",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -101098,6 +101413,7 @@ var overrides = {
         },
         "oldchateausection6": {
             "name": "Old Chateau Section 6",
+            "locationNameId": 70,
             "grass": {
                 "encs": [
                     {
@@ -101281,6 +101597,7 @@ var overrides = {
         },
         "oldchateausection7": {
             "name": "Old Chateau Section 7",
+            "locationNameId": 70,
             "grass": {
                 "encs": [
                     {
@@ -101464,6 +101781,7 @@ var overrides = {
         },
         "oldchateausection8": {
             "name": "Old Chateau Section 8",
+            "locationNameId": 70,
             "grass": {
                 "encs": [
                     {
@@ -101647,6 +101965,7 @@ var overrides = {
         },
         "lakeverity": {
             "name": "Lake Verity",
+            "locationNameId": 76,
             "grass": {
                 "encs": [
                     {
@@ -101914,6 +102233,7 @@ var overrides = {
         },
         "lakeveritysection2": {
             "name": "Lake Verity Section 2",
+            "locationNameId": 76,
             "grass": {
                 "encs": [
                     {
@@ -102181,6 +102501,7 @@ var overrides = {
         },
         "lakevalorsection2": {
             "name": "Lake Valor Section 2",
+            "locationNameId": 77,
             "grass": {
                 "encs": [
                     {
@@ -102448,6 +102769,7 @@ var overrides = {
         },
         "lakeacuity": {
             "name": "Lake Acuity",
+            "locationNameId": 78,
             "grass": {
                 "encs": [
                     {
@@ -102715,6 +103037,7 @@ var overrides = {
         },
         "valorlakefront": {
             "name": "Valor Lakefront",
+            "locationNameId": 73,
             "grass": {
                 "encs": [
                     {
@@ -103026,6 +103349,7 @@ var overrides = {
         },
         "acuitylakefront": {
             "name": "Acuity Lakefront",
+            "locationNameId": 74,
             "grass": {
                 "encs": [
                     {
@@ -103261,6 +103585,7 @@ var overrides = {
         },
         "veritylakefront": {
             "name": "Verity Lakefront",
+            "locationNameId": 72,
             "grass": {
                 "encs": [
                     {
@@ -103328,19 +103653,19 @@ var overrides = {
             "radar": {
                 "encs": [
                     {
-                        "s": "NIDORAN♂",
+                        "s": "NIDORAN-M",
                         "mn": 0
                     },
                     {
-                        "s": "NIDORAN♀",
+                        "s": "NIDORAN-F",
                         "mn": 0
                     },
                     {
-                        "s": "NIDORAN♂",
+                        "s": "NIDORAN-M",
                         "mn": 0
                     },
                     {
-                        "s": "NIDORAN♀",
+                        "s": "NIDORAN-F",
                         "mn": 0
                     }
                 ]
@@ -103529,8 +103854,214 @@ var overrides = {
                 ]
             }
         },
+        "route201": {
+            "name": "Route 201",
+            "locationNameId": 16,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "IGGLYBUFF",
+                        "mn": 4
+                    },
+                    {
+                        "s": "DELIBIRD",
+                        "mn": 4
+                    },
+                    {
+                        "s": "VULPIX",
+                        "mn": 4
+                    },
+                    {
+                        "s": "VENONAT",
+                        "mn": 4
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 4
+                    },
+                    {
+                        "s": "SHINX",
+                        "mn": 4
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 4
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 5
+                    },
+                    {
+                        "s": "BUNEARY",
+                        "mn": 4
+                    },
+                    {
+                        "s": "WHISMUR",
+                        "mn": 4
+                    },
+                    {
+                        "s": "MANKEY",
+                        "mn": 4
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 4
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "NIDORAN-M",
+                        "mn": 0
+                    },
+                    {
+                        "s": "NIDORAN-F",
+                        "mn": 0
+                    },
+                    {
+                        "s": "NIDORAN-M",
+                        "mn": 0
+                    },
+                    {
+                        "s": "NIDORAN-F",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "DODUO",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DODUO",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "VENONAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "VULPIX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "WHISMUR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SKITTY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GROWLITHE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GROWLITHE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "gift": {
+                "rates": [
+                    100,
+                    100,
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "TURTWIG",
+                        "mn": 5
+                    },
+                    {
+                        "s": "PIPLUP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHIMCHAR",
+                        "mn": 5
+                    }
+                ]
+            }
+        },
         "route202": {
             "name": "Route 202",
+            "locationNameId": 17,
             "grass": {
                 "encs": [
                     {
@@ -103714,6 +104245,7 @@ var overrides = {
         },
         "route203": {
             "name": "Route 203",
+            "locationNameId": 18,
             "grass": {
                 "encs": [
                     {
@@ -103981,6 +104513,7 @@ var overrides = {
         },
         "route204": {
             "name": "Route 204",
+            "locationNameId": 19,
             "grass": {
                 "encs": [
                     {
@@ -104248,6 +104781,7 @@ var overrides = {
         },
         "route204section2": {
             "name": "Route 204 Section 2",
+            "locationNameId": 19,
             "grass": {
                 "encs": [
                     {
@@ -104515,6 +105049,7 @@ var overrides = {
         },
         "route205": {
             "name": "Route 205",
+            "locationNameId": 20,
             "grass": {
                 "encs": [
                     {
@@ -104538,7 +105073,7 @@ var overrides = {
                         "mn": 17
                     },
                     {
-                        "s": "NIDORAN♀",
+                        "s": "NIDORAN-F",
                         "mn": 17
                     },
                     {
@@ -104869,6 +105404,7 @@ var overrides = {
         },
         "route205section2": {
             "name": "Route 205 Section 2",
+            "locationNameId": 20,
             "grass": {
                 "encs": [
                     {
@@ -104892,7 +105428,7 @@ var overrides = {
                         "mn": 20
                     },
                     {
-                        "s": "NIDORAN♀",
+                        "s": "NIDORAN-F",
                         "mn": 20
                     },
                     {
@@ -105136,6 +105672,7 @@ var overrides = {
         },
         "route206": {
             "name": "Route 206",
+            "locationNameId": 21,
             "grass": {
                 "encs": [
                     {
@@ -105406,6 +105943,7 @@ var overrides = {
         },
         "route207": {
             "name": "Route 207",
+            "locationNameId": 22,
             "grass": {
                 "encs": [
                     {
@@ -105676,6 +106214,7 @@ var overrides = {
         },
         "route208": {
             "name": "Route 208",
+            "locationNameId": 23,
             "grass": {
                 "encs": [
                     {
@@ -106030,6 +106569,7 @@ var overrides = {
         },
         "route209": {
             "name": "Route 209",
+            "locationNameId": 24,
             "grass": {
                 "encs": [
                     {
@@ -106400,6 +106940,7 @@ var overrides = {
         },
         "losttower": {
             "name": "Lost Tower",
+            "locationNameId": 118,
             "grass": {
                 "encs": [
                     {
@@ -106583,6 +107124,7 @@ var overrides = {
         },
         "losttowersection2": {
             "name": "Lost Tower Section 2",
+            "locationNameId": 118,
             "grass": {
                 "encs": [
                     {
@@ -106766,6 +107308,7 @@ var overrides = {
         },
         "losttowersection3": {
             "name": "Lost Tower Section 3",
+            "locationNameId": 118,
             "grass": {
                 "encs": [
                     {
@@ -106949,6 +107492,7 @@ var overrides = {
         },
         "losttowersection4": {
             "name": "Lost Tower Section 4",
+            "locationNameId": 118,
             "grass": {
                 "encs": [
                     {
@@ -107132,6 +107676,7 @@ var overrides = {
         },
         "losttowersection5": {
             "name": "Lost Tower Section 5",
+            "locationNameId": 118,
             "grass": {
                 "encs": [
                     {
@@ -107315,6 +107860,7 @@ var overrides = {
         },
         "route210": {
             "name": "Route 210",
+            "locationNameId": 25,
             "grass": {
                 "encs": [
                     {
@@ -107528,6 +108074,7 @@ var overrides = {
         },
         "clamberclawcliffs": {
             "name": "Clamberclaw Cliffs",
+            "locationNameId": 92,
             "grass": {
                 "encs": [
                     {
@@ -107795,6 +108342,7 @@ var overrides = {
         },
         "route211": {
             "name": "Route 211",
+            "locationNameId": 26,
             "grass": {
                 "encs": [
                     {
@@ -108070,6 +108618,7 @@ var overrides = {
         },
         "route211section2": {
             "name": "Route 211 Section 2",
+            "locationNameId": 26,
             "grass": {
                 "encs": [
                     {
@@ -108253,6 +108802,7 @@ var overrides = {
         },
         "unknown160": {
             "name": "unknown_160",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -108520,6 +109070,7 @@ var overrides = {
         },
         "route212": {
             "name": "Route 212",
+            "locationNameId": 27,
             "grass": {
                 "encs": [
                     {
@@ -108879,6 +109430,7 @@ var overrides = {
         },
         "route213": {
             "name": "Route 213",
+            "locationNameId": 28,
             "grass": {
                 "encs": [
                     {
@@ -109193,6 +109745,7 @@ var overrides = {
         },
         "route214": {
             "name": "Route 214",
+            "locationNameId": 29,
             "grass": {
                 "encs": [
                     {
@@ -109552,6 +110105,7 @@ var overrides = {
         },
         "route215": {
             "name": "Route 215",
+            "locationNameId": 30,
             "grass": {
                 "encs": [
                     {
@@ -109827,6 +110381,7 @@ var overrides = {
         },
         "route216": {
             "name": "Route 216",
+            "locationNameId": 31,
             "grass": {
                 "encs": [
                     {
@@ -110010,6 +110565,7 @@ var overrides = {
         },
         "route217": {
             "name": "Route 217",
+            "locationNameId": 32,
             "grass": {
                 "encs": [
                     {
@@ -110193,6 +110749,7 @@ var overrides = {
         },
         "route218": {
             "name": "Route 218",
+            "locationNameId": 33,
             "grass": {
                 "encs": [
                     {
@@ -110552,6 +111109,7 @@ var overrides = {
         },
         "route219": {
             "name": "Route 219",
+            "locationNameId": 34,
             "grass": {
                 "encs": []
             },
@@ -110681,6 +111239,7 @@ var overrides = {
         },
         "route221": {
             "name": "Route 221",
+            "locationNameId": 36,
             "grass": {
                 "encs": [
                     {
@@ -110995,6 +111554,7 @@ var overrides = {
         },
         "route222": {
             "name": "Route 222",
+            "locationNameId": 37,
             "grass": {
                 "encs": [
                     {
@@ -111354,6 +111914,7 @@ var overrides = {
         },
         "route224": {
             "name": "Route 224",
+            "locationNameId": 39,
             "grass": {
                 "encs": [
                     {
@@ -111621,6 +112182,7 @@ var overrides = {
         },
         "route225": {
             "name": "Route 225",
+            "locationNameId": 40,
             "grass": {
                 "encs": [
                     {
@@ -111888,6 +112450,7 @@ var overrides = {
         },
         "route227": {
             "name": "Route 227",
+            "locationNameId": 42,
             "grass": {
                 "encs": [
                     {
@@ -112155,6 +112718,7 @@ var overrides = {
         },
         "route228": {
             "name": "Route 228",
+            "locationNameId": 43,
             "grass": {
                 "encs": [
                     {
@@ -112422,6 +112986,7 @@ var overrides = {
         },
         "route229": {
             "name": "Route 229",
+            "locationNameId": 44,
             "grass": {
                 "encs": [
                     {
@@ -112689,6 +113254,7 @@ var overrides = {
         },
         "twinleaftown": {
             "name": "Twinleaf Town",
+            "locationNameId": 1,
             "grass": {
                 "encs": [
                     {
@@ -112885,6 +113451,7 @@ var overrides = {
         },
         "celestictown": {
             "name": "Celestic Town",
+            "locationNameId": 5,
             "grass": {
                 "encs": [
                     {
@@ -113090,6 +113657,7 @@ var overrides = {
         },
         "resortarea": {
             "name": "Resort Area",
+            "locationNameId": 83,
             "grass": {
                 "encs": []
             },
@@ -113219,6 +113787,7 @@ var overrides = {
         },
         "route220": {
             "name": "Route 220",
+            "locationNameId": 35,
             "grass": {
                 "encs": []
             },
@@ -113348,6 +113917,7 @@ var overrides = {
         },
         "route223": {
             "name": "Route 223",
+            "locationNameId": 38,
             "grass": {
                 "encs": []
             },
@@ -113477,6 +114047,7 @@ var overrides = {
         },
         "route226": {
             "name": "Route 226",
+            "locationNameId": 41,
             "grass": {
                 "encs": [
                     {
@@ -113744,6 +114315,7 @@ var overrides = {
         },
         "route230": {
             "name": "Route 230",
+            "locationNameId": 45,
             "grass": {
                 "encs": [
                     {
@@ -114011,6 +114583,7 @@ var overrides = {
         },
         "oreburghcity": {
             "name": "Oreburgh City",
+            "locationNameId": 8,
             "grass": {
                 "encs": [
                     {
@@ -114132,6 +114705,7 @@ var overrides = {
         },
         "jubilifecity": {
             "name": "Jubilife City",
+            "locationNameId": 6,
             "grass": {
                 "encs": [
                     {
@@ -114244,6 +114818,7 @@ var overrides = {
         },
         "floaromatown": {
             "name": "Floaroma Town",
+            "locationNameId": 3,
             "grass": {
                 "encs": [
                     {
@@ -114365,6 +114940,7 @@ var overrides = {
         },
         "unknown186": {
             "name": "unknown_186",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -114459,6 +115035,7 @@ var overrides = {
         },
         "sandgemtown": {
             "name": "Sandgem Town",
+            "locationNameId": 2,
             "grass": {
                 "encs": [
                     {
@@ -114494,11 +115071,11 @@ var overrides = {
                         "mn": 5
                     },
                     {
-                        "s": "NIDORAN♂",
+                        "s": "NIDORAN-M",
                         "mn": 5
                     },
                     {
-                        "s": "NIDORAN♀",
+                        "s": "NIDORAN-F",
                         "mn": 5
                     },
                     {
@@ -114580,6 +115157,7 @@ var overrides = {
         },
         "solaceontown": {
             "name": "Solaceon Town",
+            "locationNameId": 4,
             "grass": {
                 "encs": [
                     {
@@ -114742,6 +115320,7 @@ var overrides = {
         },
         "snowpointcity": {
             "name": "Snowpoint City",
+            "locationNameId": 14,
             "grass": {
                 "encs": []
             },
@@ -114850,6 +115429,7 @@ var overrides = {
         },
         "safarizone": {
             "name": "Safari Zone",
+            "locationNameId": 107,
             "grass": {
                 "encs": [
                     {
@@ -115046,6 +115626,7 @@ var overrides = {
         },
         "tintower": {
             "name": "Tin Tower",
+            "locationNameId": 105,
             "grass": {
                 "encs": [
                     {
@@ -115158,6 +115739,7 @@ var overrides = {
         },
         "seafloorcavern": {
             "name": "Seafloor Cavern",
+            "locationNameId": 120,
             "grass": {
                 "encs": [
                     {
@@ -115270,6 +115852,7 @@ var overrides = {
         },
         "amitysquare": {
             "name": "Amity Square",
+            "locationNameId": 56,
             "grass": {
                 "encs": [
                     {
@@ -115466,6 +116049,7 @@ var overrides = {
         },
         "unknown194": {
             "name": "unknown_194",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -115595,6 +116179,7 @@ var overrides = {
         },
         "lakevalor": {
             "name": "Lake Valor",
+            "locationNameId": 77,
             "grass": {
                 "encs": [
                     {
@@ -115718,6 +116303,7 @@ var overrides = {
         },
         "floaromameadow": {
             "name": "Floaroma Meadow",
+            "locationNameId": 58,
             "grass": {
                 "encs": [
                     {
@@ -115882,6 +116468,7 @@ var overrides = {
         },
         "restaurant": {
             "name": "Restaurant",
+            "locationNameId": 110,
             "grass": {
                 "encs": [
                     {
@@ -115994,6 +116581,7 @@ var overrides = {
         },
         "theunderground": {
             "name": "The Underground",
+            "locationNameId": 119,
             "grass": {
                 "encs": [
                     {
@@ -116013,11 +116601,11 @@ var overrides = {
                         "mn": 45
                     },
                     {
-                        "s": "NIDORAN♀",
+                        "s": "NIDORAN-F",
                         "mn": 45
                     },
                     {
-                        "s": "NIDORAN♂",
+                        "s": "NIDORAN-M",
                         "mn": 45
                     },
                     {
@@ -116190,6 +116778,7 @@ var overrides = {
         },
         "unknown199": {
             "name": "unknown_199",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -116386,6 +116975,7 @@ var overrides = {
         },
         "unknown200": {
             "name": "unknown_200",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -116582,6 +117172,7 @@ var overrides = {
         },
         "unknown201": {
             "name": "unknown_201",
+            "locationNameId": null,
             "grass": {
                 "encs": [
                     {
@@ -116857,30 +117448,6 @@ var overrides = {
                 4,
                 4
             ]
-        },
-        "route201": {
-            "name": "Route 201",
-            "gift": {
-                "rates": [
-                    100,
-                    100,
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "TURTWIG",
-                        "mn": 5
-                    },
-                    {
-                        "s": "PIPLUP",
-                        "mn": 5
-                    },
-                    {
-                        "s": "CHIMCHAR",
-                        "mn": 5
-                    }
-                ]
-            }
         },
         "poketchcompany": {
             "name": "Poketch Company",
@@ -123068,7 +123635,8 @@ var overrides = {
     "items": {
         "none": {
             "name": "None",
-            "desc": "???"
+            "desc": "???",
+            "shortDesc": "???"
         },
         "masterball": {
             "name": "Master Ball",
@@ -123116,7 +123684,8 @@ var overrides = {
         },
         "pokball": {
             "name": "Poké Ball",
-            "desc": "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system."
+            "desc": "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.",
+            "shortDesc": "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system."
         },
         "safariball": {
             "name": "Safari Ball",
@@ -123209,33 +123778,39 @@ var overrides = {
         },
         "potion": {
             "name": "Potion",
-            "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points."
+            "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points.",
+            "shortDesc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points."
         },
         "antidote": {
             "name": "Antidote",
-            "desc": "A spray-type medicine. It lifts the effect of poison from one Pokémon."
+            "desc": "A spray-type medicine. It lifts the effect of poison from one Pokémon.",
+            "shortDesc": "A spray-type medicine. It lifts the effect of poison from one Pokémon."
         },
         "burnheal": {
             "name": "Burn Heal",
-            "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn."
+            "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
+            "shortDesc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn."
         },
         "iceheal": {
             "name": "Ice Heal",
             "desc": "A spray-type medicine. It defrosts a Pokémon that has been frozen solid.",
             "ground_locations": [
                 "mtcoronet"
-            ]
+            ],
+            "shortDesc": "A spray-type medicine. It defrosts a Pokémon that has been frozen solid."
         },
         "awakening": {
             "name": "Awakening",
-            "desc": "A spray-type medicine. It awakens a Pokémon from the clutches of sleep."
+            "desc": "A spray-type medicine. It awakens a Pokémon from the clutches of sleep.",
+            "shortDesc": "A spray-type medicine. It awakens a Pokémon from the clutches of sleep."
         },
         "parlyzheal": {
             "name": "Parlyz Heal",
             "desc": "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
             "ground_locations": [
                 "eternaforest"
-            ]
+            ],
+            "shortDesc": "A spray-type medicine. It eliminates paralysis from a single Pokémon."
         },
         "fullrestore": {
             "name": "Full Restore",
@@ -123244,18 +123819,21 @@ var overrides = {
                 "mtcoronet",
                 "victoryroad",
                 "starkmountain"
-            ]
+            ],
+            "shortDesc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon."
         },
         "maxpotion": {
             "name": "Max Potion",
-            "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon."
+            "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
+            "shortDesc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon."
         },
         "hyperpotion": {
             "name": "Hyper Potion",
             "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points.",
             "ground_locations": [
                 "route212"
-            ]
+            ],
+            "shortDesc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points."
         },
         "superpotion": {
             "name": "Super Potion",
@@ -123274,7 +123852,8 @@ var overrides = {
                     "location": "route201",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points."
         },
         "fullheal": {
             "name": "Full Heal",
@@ -123283,7 +123862,8 @@ var overrides = {
                 "route202",
                 "route212",
                 "route216"
-            ]
+            ],
+            "shortDesc": "A spray-type medicine. It heals all the status problems of a single Pokémon."
         },
         "revive": {
             "name": "Revive",
@@ -123294,7 +123874,8 @@ var overrides = {
                 "route212",
                 "route216",
                 "route225"
-            ]
+            ],
+            "shortDesc": "A medicine that revives a fainted Pokémon. It restores half the Pokémon’s maximum HP."
         },
         "maxrevive": {
             "name": "Max Revive",
@@ -123302,7 +123883,8 @@ var overrides = {
             "ground_locations": [
                 "starkmountain",
                 "route213"
-            ]
+            ],
+            "shortDesc": "A medicine that revives a fainted Pokémon. It fully restores the Pokémon’s HP."
         },
         "freshwater": {
             "name": "Fresh Water",
@@ -123317,7 +123899,8 @@ var overrides = {
                     "location": "route225",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "Water with a high mineral content. It restores the HP of one Pokémon by 50 points."
         },
         "sodapop": {
             "name": "Soda Pop",
@@ -123331,7 +123914,8 @@ var overrides = {
                     "location": "jubilifecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A fizzy soda drink. It restores the HP of one Pokémon by 60 points."
         },
         "lemonade": {
             "name": "Lemonade",
@@ -123342,7 +123926,8 @@ var overrides = {
                     "location": "jubilifecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A very sweet drink. It restores the HP of one Pokémon by 80 points."
         },
         "moomoomilk": {
             "name": "Moomoo Milk",
@@ -123353,26 +123938,31 @@ var overrides = {
                     "location": "caf",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points."
         },
         "energypowder": {
             "name": "EnergyPowder",
-            "desc": "A very bitter medicine powder. It restores the HP of one Pokémon by 50 points."
+            "desc": "A very bitter medicine powder. It restores the HP of one Pokémon by 50 points.",
+            "shortDesc": "A very bitter medicine powder. It restores the HP of one Pokémon by 50 points."
         },
         "energyroot": {
             "name": "Energy Root",
             "desc": "A very bitter root. It restores the HP of one Pokémon by 200 points.",
             "ground_locations": [
                 "route206"
-            ]
+            ],
+            "shortDesc": "A very bitter root. It restores the HP of one Pokémon by 200 points."
         },
         "healpowder": {
             "name": "Heal Powder",
-            "desc": "A very bitter medicine powder. It heals all the status problems of a single Pokémon."
+            "desc": "A very bitter medicine powder. It heals all the status problems of a single Pokémon.",
+            "shortDesc": "A very bitter medicine powder. It heals all the status problems of a single Pokémon."
         },
         "revivalherb": {
             "name": "Revival Herb",
-            "desc": "A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP."
+            "desc": "A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP.",
+            "shortDesc": "A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP."
         },
         "ether": {
             "name": "Ether",
@@ -123380,7 +123970,8 @@ var overrides = {
             "ground_locations": [
                 "eternaforest",
                 "route209"
-            ]
+            ],
+            "shortDesc": "It restores the PP of a Pokémon’s selected move by a maximum of 10 points."
         },
         "maxether": {
             "name": "Max Ether",
@@ -123388,7 +123979,8 @@ var overrides = {
             "ground_locations": [
                 "tgeternabldg",
                 "waywardcave"
-            ]
+            ],
+            "shortDesc": "It fully restores the PP of a single selected move that has been learned by the target Pokémon."
         },
         "elixir": {
             "name": "Elixir",
@@ -123396,7 +123988,8 @@ var overrides = {
             "ground_locations": [
                 "ironisland",
                 "route212"
-            ]
+            ],
+            "shortDesc": "It restores the PP of all the moves learned by the targeted Pokémon by 10 points each."
         },
         "maxelixir": {
             "name": "Max Elixir",
@@ -123405,11 +123998,13 @@ var overrides = {
                 "mtcoronet",
                 "victoryroad",
                 "starkmountain"
-            ]
+            ],
+            "shortDesc": "It fully restores the PP of all the moves learned by the targeted Pokémon."
         },
         "lavacookie": {
             "name": "Lava Cookie",
-            "desc": "Lavaridge Town’s local specialty. It heals all the status problems of one Pokémon."
+            "desc": "Lavaridge Town’s local specialty. It heals all the status problems of one Pokémon.",
+            "shortDesc": "Lavaridge Town’s local specialty. It heals all the status problems of one Pokémon."
         },
         "berryjuice": {
             "name": "Berry Juice",
@@ -123417,32 +124012,37 @@ var overrides = {
         },
         "sacredash": {
             "name": "Sacred Ash",
-            "desc": "It revives all fainted Pokémon. In doing so, it also fully restores their HP."
+            "desc": "It revives all fainted Pokémon. In doing so, it also fully restores their HP.",
+            "shortDesc": "It revives all fainted Pokémon. In doing so, it also fully restores their HP."
         },
         "hpup": {
             "name": "HP Up",
-            "desc": "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon."
+            "desc": "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon.",
+            "shortDesc": "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon."
         },
         "protein": {
             "name": "Protein",
             "desc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
             "ground_locations": [
                 "galactichq"
-            ]
+            ],
+            "shortDesc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon."
         },
         "iron": {
             "name": "Iron",
             "desc": "A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon.",
             "ground_locations": [
                 "galactichq"
-            ]
+            ],
+            "shortDesc": "A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon."
         },
         "carbos": {
             "name": "Carbos",
             "desc": "A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon.",
             "ground_locations": [
                 "galactichq"
-            ]
+            ],
+            "shortDesc": "A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon."
         },
         "calcium": {
             "name": "Calcium",
@@ -123450,7 +124050,8 @@ var overrides = {
             "ground_locations": [
                 "starkmountain",
                 "galactichq"
-            ]
+            ],
+            "shortDesc": "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon."
         },
         "rarecandy": {
             "name": "Rare Candy",
@@ -123475,90 +124076,108 @@ var overrides = {
                     "location": "jubilifecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A candy that is packed with energy. It raises the level of a single Pokémon by one."
         },
         "ppup": {
             "name": "PP Up",
-            "desc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon."
+            "desc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.",
+            "shortDesc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon."
         },
         "zinc": {
             "name": "Zinc",
             "desc": "A nutritious drink for Pokémon. It raises the base Sp. Def (Special Defense) stat of a single Pokémon.",
             "ground_locations": [
                 "galactichq"
-            ]
+            ],
+            "shortDesc": "A nutritious drink for Pokémon. It raises the base Sp. Def (Special Defense) stat of a single Pokémon."
         },
         "ppmax": {
             "name": "PP Max",
-            "desc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon."
+            "desc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon.",
+            "shortDesc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon."
         },
         "oldgateau": {
             "name": "Old Gateau",
             "desc": "Old Chateau’s hidden specialty. It heals all the status problems of a single Pokémon.",
             "ground_locations": [
                 "oldchateau"
-            ]
+            ],
+            "shortDesc": "Old Chateau’s hidden specialty. It heals all the status problems of a single Pokémon."
         },
         "guardspec": {
             "name": "Guard Spec.",
-            "desc": "An item that prevents stat reduction among the Trainer’s party Pokémon for five turns after use."
+            "desc": "An item that prevents stat reduction among the Trainer’s party Pokémon for five turns after use.",
+            "shortDesc": "An item that prevents stat reduction among the Trainer’s party Pokémon for five turns after use."
         },
         "direhit": {
             "name": "Dire Hit",
-            "desc": "An item that raises the critical-hit ratio of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the critical-hit ratio of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+            "shortDesc": "An item that raises the critical-hit ratio of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xattack": {
             "name": "X Attack",
-            "desc": "An item that raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+            "shortDesc": "An item that raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xdefend": {
             "name": "X Defend",
-            "desc": "An item that raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+            "shortDesc": "An item that raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xspeed": {
             "name": "X Speed",
-            "desc": "An item that raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+            "shortDesc": "An item that raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xaccuracy": {
             "name": "X Accuracy",
-            "desc": "An item that raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+            "shortDesc": "An item that raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xspecial": {
             "name": "X Special",
-            "desc": "An item that raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+            "shortDesc": "An item that raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xspdef": {
             "name": "X Sp. Def",
-            "desc": "An item that raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+            "shortDesc": "An item that raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "pokdoll": {
             "name": "Poké Doll",
             "desc": "A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
             "ground_locations": [
                 "oldchateau"
-            ]
+            ],
+            "shortDesc": "A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon."
         },
         "fluffytail": {
             "name": "Fluffy Tail",
             "desc": "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
             "ground_locations": [
                 "eternaforest"
-            ]
+            ],
+            "shortDesc": "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon."
         },
         "blueflute": {
             "name": "Blue Flute",
             "desc": "A blue flute made from blown glass. Its melody awakens a single Pokémon from sleep.",
             "ground_locations": [
                 "route204"
-            ]
+            ],
+            "shortDesc": "A blue flute made from blown glass. Its melody awakens a single Pokémon from sleep."
         },
         "yellowflute": {
             "name": "Yellow Flute",
-            "desc": "A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion."
+            "desc": "A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion.",
+            "shortDesc": "A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion."
         },
         "redflute": {
             "name": "Red Flute",
-            "desc": "A red flute made from blown glass. Its melody snaps a single Pokémon out of infatuation."
+            "desc": "A red flute made from blown glass. Its melody snaps a single Pokémon out of infatuation.",
+            "shortDesc": "A red flute made from blown glass. Its melody snaps a single Pokémon out of infatuation."
         },
         "blackflute": {
             "name": "Black Flute",
@@ -123569,7 +124188,8 @@ var overrides = {
                     "location": "mtcoronet",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear."
         },
         "whiteflute": {
             "name": "White Flute",
@@ -123580,7 +124200,8 @@ var overrides = {
                     "location": "grandlake",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A white flute made from blown glass. Its melody makes wild Pokémon more likely to appear."
         },
         "berserkgene": {
             "name": "Berserk Gene",
@@ -123588,7 +124209,8 @@ var overrides = {
         },
         "ragecandybar": {
             "name": "RageCandyBar",
-            "desc": "A famous candy in Mahogany Town. Many tourists like to buy them to take home."
+            "desc": "A famous candy in Mahogany Town. Many tourists like to buy them to take home.",
+            "shortDesc": "A famous candy in Mahogany Town. Many tourists like to buy them to take home."
         },
         "redshard": {
             "name": "Red Shard",
@@ -123612,7 +124234,8 @@ var overrides = {
                     "location": "celesticaruins",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A small red shard. It appears to be from some sort of implement made long ago."
         },
         "blueshard": {
             "name": "Blue Shard",
@@ -123636,7 +124259,8 @@ var overrides = {
                     "location": "celesticaruins",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A small blue shard. It appears to be from some sort of implement made long ago."
         },
         "yellowshard": {
             "name": "Yellow Shard",
@@ -123659,7 +124283,8 @@ var overrides = {
                     "location": "celesticaruins",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A small yellow shard. It appears to be from some sort of implement made long ago."
         },
         "greenshard": {
             "name": "Green Shard",
@@ -123690,11 +124315,13 @@ var overrides = {
                     "location": "solaceonruins",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A small green shard. It appears to be from some sort of implement made long ago."
         },
         "superrepel": {
             "name": "Super Repel",
-            "desc": "An item that prevents weak wild Pokémon from appearing for 200 steps after its use."
+            "desc": "An item that prevents weak wild Pokémon from appearing for 200 steps after its use.",
+            "shortDesc": "An item that prevents weak wild Pokémon from appearing for 200 steps after its use."
         },
         "maxrepel": {
             "name": "Max Repel",
@@ -123704,7 +124331,8 @@ var overrides = {
                 "victoryroad",
                 "route214",
                 "route220"
-            ]
+            ],
+            "shortDesc": "An item that prevents weak wild Pokémon from appearing for 250 steps after its use."
         },
         "escaperope": {
             "name": "Escape Rope",
@@ -123713,14 +124341,16 @@ var overrides = {
                 "mtcoronet",
                 "starkmountain",
                 "waywardcave"
-            ]
+            ],
+            "shortDesc": "A long, durable rope. Use it to escape instantly from a cave or a dungeon."
         },
         "repel": {
             "name": "Repel",
             "desc": "An item that prevents weak wild Pokémon from appearing for 100 steps after its use.",
             "ground_locations": [
                 "route203"
-            ]
+            ],
+            "shortDesc": "An item that prevents weak wild Pokémon from appearing for 100 steps after its use."
         },
         "sunstone": {
             "name": "Sun Stone",
@@ -123764,18 +124394,21 @@ var overrides = {
             "desc": "A small and rare mushroom. It is quite popular among certain maniacal fan segments.",
             "wilds": [
                 "Paras"
-            ]
+            ],
+            "shortDesc": "A small and rare mushroom. It is quite popular among certain maniacal fan segments."
         },
         "bigmushroom": {
             "name": "Big Mushroom",
             "desc": "A large and rare mushroom. It is very popular among certain maniacal fan segments.",
             "wilds": [
                 "Parasect"
-            ]
+            ],
+            "shortDesc": "A large and rare mushroom. It is very popular among certain maniacal fan segments."
         },
         "pearl": {
             "name": "Pearl",
-            "desc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops."
+            "desc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
+            "shortDesc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops."
         },
         "bigpearl": {
             "name": "Big Pearl",
@@ -123784,7 +124417,8 @@ var overrides = {
                 "tgeternabldg",
                 "oreburghgate",
                 "oldchateau"
-            ]
+            ],
+            "shortDesc": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops."
         },
         "stardust": {
             "name": "Stardust",
@@ -123795,7 +124429,8 @@ var overrides = {
                     "location": "turnbackcave",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops."
         },
         "starpiece": {
             "name": "Star Piece",
@@ -123811,7 +124446,8 @@ var overrides = {
                     "location": "fuegoironworks",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops."
         },
         "bignugget": {
             "name": "Big Nugget",
@@ -123854,7 +124490,8 @@ var overrides = {
                     "location": "hearthomecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow."
         },
         "honey": {
             "name": "Honey",
@@ -123873,23 +124510,28 @@ var overrides = {
                     "location": "floaromameadow",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A sweet honey with a lush aroma that attracts wild Pokémon when it is used in grass, caves, or on special trees."
         },
         "growthmulch": {
             "name": "Growth Mulch",
-            "desc": "A plant fertilizer spread on soft soil. It speeds up the growth of Berries. However, it also dries the soil faster."
+            "desc": "A plant fertilizer spread on soft soil. It speeds up the growth of Berries. However, it also dries the soil faster.",
+            "shortDesc": "A plant fertilizer spread on soft soil. It speeds up the growth of Berries. However, it also dries the soil faster."
         },
         "dampmulch": {
             "name": "Damp Mulch",
-            "desc": "A plant fertilizer spread on soft soil. It slows the growth of Berries and causes the soil to dry slower."
+            "desc": "A plant fertilizer spread on soft soil. It slows the growth of Berries and causes the soil to dry slower.",
+            "shortDesc": "A plant fertilizer spread on soft soil. It slows the growth of Berries and causes the soil to dry slower."
         },
         "stablemulch": {
             "name": "Stable Mulch",
-            "desc": "A plant fertilizer spread on soft soil. It extends the time ripened Berries remain on their plants before falling."
+            "desc": "A plant fertilizer spread on soft soil. It extends the time ripened Berries remain on their plants before falling.",
+            "shortDesc": "A plant fertilizer spread on soft soil. It extends the time ripened Berries remain on their plants before falling."
         },
         "gooeymulch": {
             "name": "Gooey Mulch",
-            "desc": "A plant fertilizer spread on soft soil. It ups the number of times new plants grow where mature plants withered."
+            "desc": "A plant fertilizer spread on soft soil. It ups the number of times new plants grow where mature plants withered.",
+            "shortDesc": "A plant fertilizer spread on soft soil. It ups the number of times new plants grow where mature plants withered."
         },
         "rootfossil": {
             "name": "Root Fossil",
@@ -123977,7 +124619,8 @@ var overrides = {
         },
         "oddkeystone": {
             "name": "Odd Keystone",
-            "desc": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally."
+            "desc": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
+            "shortDesc": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally."
         },
         "griseousorb": {
             "name": "Griseous Orb",
@@ -123993,51 +124636,63 @@ var overrides = {
         },
         "grassmail": {
             "name": "Grass Mail",
-            "desc": "Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery."
         },
         "flamemail": {
             "name": "Flame Mail",
-            "desc": "Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery."
         },
         "bubblemail": {
             "name": "Bubble Mail",
-            "desc": "Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery."
         },
         "bloommail": {
             "name": "Bloom Mail",
-            "desc": "Stationery featuring a print of pretty floral patterns. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of pretty floral patterns. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of pretty floral patterns. Let a Pokémon hold it for delivery."
         },
         "tunnelmail": {
             "name": "Tunnel Mail",
-            "desc": "Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery."
         },
         "steelmail": {
             "name": "Steel Mail",
-            "desc": "Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery."
         },
         "heartmail": {
             "name": "Heart Mail",
-            "desc": "Stationery featuring a print of giant heart patterns. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of giant heart patterns. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of giant heart patterns. Let a Pokémon hold it for delivery."
         },
         "snowmail": {
             "name": "Snow Mail",
-            "desc": "Stationery featuring a print of a chilly, snow-covered world. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a chilly, snow-covered world. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of a chilly, snow-covered world. Let a Pokémon hold it for delivery."
         },
         "spacemail": {
             "name": "Space Mail",
-            "desc": "Stationery featuring a print depicting the huge expanse of space. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print depicting the huge expanse of space. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print depicting the huge expanse of space. Let a Pokémon hold it for delivery."
         },
         "airmail": {
             "name": "Air Mail",
-            "desc": "Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery."
         },
         "mosaicmail": {
             "name": "Mosaic Mail",
-            "desc": "Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery."
         },
         "brickmail": {
             "name": "Brick Mail",
-            "desc": "Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery.",
+            "shortDesc": "Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery."
         },
         "cheriberry": {
             "name": "Cheri Berry",
@@ -124568,7 +125223,8 @@ var overrides = {
                     "location": "route206",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. The holder gets a share of a battle’s Exp. Points without battling."
         },
         "quickclaw": {
             "name": "Quick Claw",
@@ -124583,7 +125239,8 @@ var overrides = {
                     "location": "pokmonmansion",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It is a bell with a comforting chime that calms the holder and makes it friendly."
         },
         "mentalherb": {
             "name": "Mental Herb",
@@ -124623,7 +125280,8 @@ var overrides = {
             "desc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in.",
             "ground_locations": [
                 "amitysquare"
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in."
         },
         "cleansetag": {
             "name": "Cleanse Tag",
@@ -124634,7 +125292,8 @@ var overrides = {
                     "location": "losttower",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party."
         },
         "souldew": {
             "name": "Soul Dew",
@@ -124662,11 +125321,13 @@ var overrides = {
             "desc": "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.",
             "ground_locations": [
                 "clamberclawcliffs"
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail."
         },
         "everstone": {
             "name": "Everstone",
-            "desc": "An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving."
+            "desc": "An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.",
+            "shortDesc": "An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving."
         },
         "focusband": {
             "name": "Focus Band",
@@ -124684,7 +125345,8 @@ var overrides = {
         },
         "luckyegg": {
             "name": "Lucky Egg",
-            "desc": "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle."
+            "desc": "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.",
+            "shortDesc": "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle."
         },
         "scopelens": {
             "name": "Scope Lens",
@@ -124924,7 +125586,8 @@ var overrides = {
                     "location": "pastoriacity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It boosts the “Cool” aspect of the holder in a Contest."
         },
         "bluescarf": {
             "name": "Blue Scarf",
@@ -124935,7 +125598,8 @@ var overrides = {
                     "location": "pastoriacity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It boosts the “Beauty” aspect of the holder in a Contest."
         },
         "pinkscarf": {
             "name": "Pink Scarf",
@@ -124946,7 +125610,8 @@ var overrides = {
                     "location": "pastoriacity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It boosts the “Cute” aspect of the holder in a Contest."
         },
         "greenscarf": {
             "name": "Green Scarf",
@@ -124957,7 +125622,8 @@ var overrides = {
                     "location": "pastoriacity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It boosts the “Smart” aspect of the holder in a Contest."
         },
         "yellowscarf": {
             "name": "Yellow Scarf",
@@ -124968,7 +125634,8 @@ var overrides = {
                     "location": "pastoriacity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It boosts the “Tough” aspect of the holder in a Contest."
         },
         "widelens": {
             "name": "Wide Lens",
@@ -125294,14 +125961,16 @@ var overrides = {
         },
         "luckincense": {
             "name": "Luck Incense",
-            "desc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in."
+            "desc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in.",
+            "shortDesc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in."
         },
         "pureincense": {
             "name": "Pure Incense",
             "desc": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
             "ground_locations": [
                 "route221"
-            ]
+            ],
+            "shortDesc": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party."
         },
         "protector": {
             "name": "Protector",
@@ -125360,21 +126029,24 @@ var overrides = {
             "desc": "The user focuses its mind before launching this attack. It will fail if the user is hit before it is used.",
             "ground_locations": [
                 "oreburghgate"
-            ]
+            ],
+            "shortDesc": "The user focuses its mind before launching this attack. It will fail if the user is hit before it is used."
         },
         "tm02": {
             "name": "TM02",
             "desc": "Sharp, draconic claws hook and slash the foe. It has a high critical-hit ratio.",
             "ground_locations": [
                 "mtcoronet"
-            ]
+            ],
+            "shortDesc": "Sharp, draconic claws hook and slash the foe. It has a high critical-hit ratio."
         },
         "tm03": {
             "name": "TM03",
             "desc": "The foe is hit with a pulsing blast of water. It may also confuse the target. This move cannot miss.",
             "ground_locations": [
                 "ravagedpath"
-            ]
+            ],
+            "shortDesc": "The foe is hit with a pulsing blast of water. It may also confuse the target. This move cannot miss."
         },
         "tm04": {
             "name": "TM04",
@@ -125385,14 +126057,16 @@ var overrides = {
                     "location": "eternacity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats."
         },
         "tm05": {
             "name": "TM05",
             "desc": "The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends.",
             "ground_locations": [
                 "route213"
-            ]
+            ],
+            "shortDesc": "The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends."
         },
         "tm06": {
             "name": "TM06",
@@ -125401,40 +126075,47 @@ var overrides = {
                 "trainersschool",
                 "victoryroad",
                 "route212"
-            ]
+            ],
+            "shortDesc": "A move that leaves the foe badly poisoned. This poison damage worsens every turn."
         },
         "tm07": {
             "name": "TM07",
             "desc": "The foe is hit with a rainbow- colored beam. This move cannot miss.",
             "ground_locations": [
                 "floaromatown"
-            ]
+            ],
+            "shortDesc": "The foe is hit with a rainbow- colored beam. This move cannot miss."
         },
         "tm08": {
             "name": "TM08",
-            "desc": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss."
+            "desc": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss.",
+            "shortDesc": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss."
         },
         "tm09": {
             "name": "TM09",
             "desc": "The user forcefully shoots seeds at the foe. Two to five seeds are shot in rapid succession.",
             "ground_locations": [
                 "route204"
-            ]
+            ],
+            "shortDesc": "The user forcefully shoots seeds at the foe. Two to five seeds are shot in rapid succession."
         },
         "tm10": {
             "name": "TM10",
-            "desc": "A variable move that changes type and power depending on the hidden ability of the Pokémon using it."
+            "desc": "A variable move that changes type and power depending on the hidden ability of the Pokémon using it.",
+            "shortDesc": "A variable move that changes type and power depending on the hidden ability of the Pokémon using it."
         },
         "tm11": {
             "name": "TM11",
-            "desc": "The user intensifies the sun for five turns, powering up Fire-type moves."
+            "desc": "The user intensifies the sun for five turns, powering up Fire-type moves.",
+            "shortDesc": "The user intensifies the sun for five turns, powering up Fire-type moves."
         },
         "tm12": {
             "name": "TM12",
             "desc": "The user draws the foe close, then strikes without fail.",
             "ground_locations": [
                 "veilstonecity"
-            ]
+            ],
+            "shortDesc": "The user draws the foe close, then strikes without fail."
         },
         "tm13": {
             "name": "TM13",
@@ -125442,30 +126123,36 @@ var overrides = {
             "ground_locations": [
                 "route216",
                 "route217"
-            ]
+            ],
+            "shortDesc": "The foe is struck with an icy-cold beam of energy. It may also freeze the target solid."
         },
         "tm14": {
             "name": "TM14",
             "desc": "A howling blizzard is summoned to strike the foe. It may also freeze the target solid.",
             "ground_locations": [
                 "lakeacuity"
-            ]
+            ],
+            "shortDesc": "A howling blizzard is summoned to strike the foe. It may also freeze the target solid."
         },
         "tm15": {
             "name": "TM15",
-            "desc": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch."
+            "desc": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch.",
+            "shortDesc": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch."
         },
         "tm16": {
             "name": "TM16",
-            "desc": "A wondrous wall of light is put up to suppress damage from special attacks for five turns."
+            "desc": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
+            "shortDesc": "A wondrous wall of light is put up to suppress damage from special attacks for five turns."
         },
         "tm17": {
             "name": "TM17",
-            "desc": "The user launches a head-first tackle at the foe. Effective in Super Contests."
+            "desc": "The user launches a head-first tackle at the foe. Effective in Super Contests.",
+            "shortDesc": "The user launches a head-first tackle at the foe. Effective in Super Contests."
         },
         "tm18": {
             "name": "TM18",
-            "desc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves."
+            "desc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
+            "shortDesc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves."
         },
         "tm19": {
             "name": "TM19",
@@ -125473,35 +126160,40 @@ var overrides = {
             "ground_locations": [
                 "victoryroad",
                 "route209"
-            ]
+            ],
+            "shortDesc": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target."
         },
         "tm20": {
             "name": "TM20",
             "desc": "The user creates a protective field that prevents status problems like poison, paralysis, burn, and sleep.",
             "ground_locations": [
                 "oldchateau"
-            ]
+            ],
+            "shortDesc": "The user creates a protective field that prevents status problems like poison, paralysis, burn, and sleep."
         },
         "tm21": {
             "name": "TM21",
             "desc": "A full-power attack that expresses the user’s frustration with its Trainer.",
             "ground_locations": [
                 "route217"
-            ]
+            ],
+            "shortDesc": "A full-power attack that expresses the user’s frustration with its Trainer."
         },
         "tm22": {
             "name": "TM22",
             "desc": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
             "ground_locations": [
                 "valleywindworks"
-            ]
+            ],
+            "shortDesc": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn."
         },
         "tm23": {
             "name": "TM23",
             "desc": "The foe is slammed with a sturdy tail of steel. It may also lower the target’s Defense stat if it hits.",
             "ground_locations": [
                 "ironisland"
-            ]
+            ],
+            "shortDesc": "The foe is slammed with a sturdy tail of steel. It may also lower the target’s Defense stat if it hits."
         },
         "tm24": {
             "name": "TM24",
@@ -125515,7 +126207,8 @@ var overrides = {
                     "location": "sunyshorecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A strong electric blast is loosed at the foe. It may also leave the foe paralyzed."
         },
         "tm25": {
             "name": "TM25",
@@ -125523,21 +126216,24 @@ var overrides = {
             "ground_locations": [
                 "lakevalor",
                 "route223"
-            ]
+            ],
+            "shortDesc": "A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed."
         },
         "tm26": {
             "name": "TM26",
             "desc": "The user sets off an earthquake that hits all the Pokémon in the battle.",
             "ground_locations": [
                 "waywardcave"
-            ]
+            ],
+            "shortDesc": "The user sets off an earthquake that hits all the Pokémon in the battle."
         },
         "tm27": {
             "name": "TM27",
             "desc": "A full-power attack that expresses the user’s trust in its Trainer.",
             "ground_locations": [
                 "losttower"
-            ]
+            ],
+            "shortDesc": "A full-power attack that expresses the user’s trust in its Trainer."
         },
         "tm28": {
             "name": "TM28",
@@ -125545,43 +126241,50 @@ var overrides = {
             "ground_locations": [
                 "ruinmaniaccave",
                 "maniactunnel"
-            ]
+            ],
+            "shortDesc": "The user burrows, then attacks immediately. It can also be used to exit dungeons."
         },
         "tm29": {
             "name": "TM29",
             "desc": "The foe is hit by a strong telekinetic force. It may also reduce the foe’s Sp. Def stat.",
             "ground_locations": [
                 "route211"
-            ]
+            ],
+            "shortDesc": "The foe is hit by a strong telekinetic force. It may also reduce the foe’s Sp. Def stat."
         },
         "tm30": {
             "name": "TM30",
             "desc": "The user hurls a shadowy blob at the foe. It may also lower the foe’s Sp. Def stat.",
             "ground_locations": [
                 "clamberclawcliffs"
-            ]
+            ],
+            "shortDesc": "The user hurls a shadowy blob at the foe. It may also lower the foe’s Sp. Def stat."
         },
         "tm31": {
             "name": "TM31",
             "desc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
             "ground_locations": [
                 "oreburghgate"
-            ]
+            ],
+            "shortDesc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect."
         },
         "tm32": {
             "name": "TM32",
-            "desc": "The user begins moving so quickly that it creates illusory copies to raise its evasiveness."
+            "desc": "The user begins moving so quickly that it creates illusory copies to raise its evasiveness.",
+            "shortDesc": "The user begins moving so quickly that it creates illusory copies to raise its evasiveness."
         },
         "tm33": {
             "name": "TM33",
-            "desc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns."
+            "desc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
+            "shortDesc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns."
         },
         "tm34": {
             "name": "TM34",
             "desc": "The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.",
             "ground_locations": [
                 "route215"
-            ]
+            ],
+            "shortDesc": "The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded."
         },
         "tm35": {
             "name": "TM35",
@@ -125589,7 +126292,8 @@ var overrides = {
             "ground_locations": [
                 "fuegoironworks",
                 "route228"
-            ]
+            ],
+            "shortDesc": "The foe is scorched with an intense blast of fire. The target may also be left with a burn."
         },
         "tm36": {
             "name": "TM36",
@@ -125597,18 +126301,21 @@ var overrides = {
             "ground_locations": [
                 "tgeternabldg",
                 "galactichq"
-            ]
+            ],
+            "shortDesc": "Unsanitary sludge is hurled at the foe. It may also poison the target."
         },
         "tm37": {
             "name": "TM37",
-            "desc": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types."
+            "desc": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
+            "shortDesc": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types."
         },
         "tm38": {
             "name": "TM38",
             "desc": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
             "ground_locations": [
                 "lakeverity"
-            ]
+            ],
+            "shortDesc": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn."
         },
         "tm39": {
             "name": "TM39",
@@ -125622,7 +126329,8 @@ var overrides = {
                     "location": "oreburghcity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "Large boulders are hurled at the foe to inflict damage. It lowers the foe’s Speed."
         },
         "tm40": {
             "name": "TM40",
@@ -125631,14 +126339,16 @@ var overrides = {
                 "route211",
                 "route213",
                 "route218"
-            ]
+            ],
+            "shortDesc": "The user confounds the foe with speed, then strikes. The attack lands without fail."
         },
         "tm41": {
             "name": "TM41",
             "desc": "The user torments and enrages the foe, making it incapable of using the same move twice in a row.",
             "ground_locations": [
                 "victoryroad"
-            ]
+            ],
+            "shortDesc": "The user torments and enrages the foe, making it incapable of using the same move twice in a row."
         },
         "tm42": {
             "name": "TM42",
@@ -125649,7 +126359,8 @@ var overrides = {
                     "location": "survivalarea",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn."
         },
         "tm43": {
             "name": "TM43",
@@ -125663,11 +126374,13 @@ var overrides = {
                     "location": "jubilifecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An attack move with effects that vary depending on the user’s environment."
         },
         "tm44": {
             "name": "TM44",
-            "desc": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem."
+            "desc": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.",
+            "shortDesc": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem."
         },
         "tm45": {
             "name": "TM45",
@@ -125678,14 +126391,16 @@ var overrides = {
                     "location": "route204",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "If they are the opposite gender of the user, the foe(s) become infatuated and less likely to attack."
         },
         "tm46": {
             "name": "TM46",
             "desc": "The user attacks and attempts to steal the foe’s item.",
             "ground_locations": [
                 "eternacity"
-            ]
+            ],
+            "shortDesc": "The user attacks and attempts to steal the foe’s item."
         },
         "tm47": {
             "name": "TM47",
@@ -125696,7 +126411,8 @@ var overrides = {
                     "location": "route210",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The foe is hit with wings of steel. It may also raise the user’s Defense stat."
         },
         "tm48": {
             "name": "TM48",
@@ -125707,40 +126423,47 @@ var overrides = {
                     "location": "canalavecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The user employs its psychic power to exchange abilities with the foe."
         },
         "tm49": {
             "name": "TM49",
             "desc": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
             "ground_locations": [
                 "galactichq"
-            ]
+            ],
+            "shortDesc": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily."
         },
         "tm50": {
             "name": "TM50",
             "desc": "The user attacks the foe at full power using fiery energy. It also deals significant recoil damage.",
             "ground_locations": [
                 "starkmountain"
-            ]
+            ],
+            "shortDesc": "The user attacks the foe at full power using fiery energy. It also deals significant recoil damage."
         },
         "tm51": {
             "name": "TM51",
-            "desc": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP."
+            "desc": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
+            "shortDesc": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP."
         },
         "tm52": {
             "name": "TM52",
-            "desc": "The user attacks at full power. It may also lower the foe’s Sp. Def stat if it hits."
+            "desc": "The user attacks at full power. It may also lower the foe’s Sp. Def stat if it hits.",
+            "shortDesc": "The user attacks at full power. It may also lower the foe’s Sp. Def stat if it hits."
         },
         "tm53": {
             "name": "TM53",
             "desc": "The user draws power from nature and fires it at the foe. It may also lower the target’s Sp. Def.",
             "ground_locations": [
                 "route226"
-            ]
+            ],
+            "shortDesc": "The user draws power from nature and fires it at the foe. It may also lower the target’s Sp. Def."
         },
         "tm54": {
             "name": "TM54",
-            "desc": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP."
+            "desc": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP.",
+            "shortDesc": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP."
         },
         "tm55": {
             "name": "TM55",
@@ -125751,7 +126474,8 @@ var overrides = {
                     "location": "pastoriacity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "If the foe’s HP is down to under half, this attack will hit with double the power."
         },
         "tm56": {
             "name": "TM56",
@@ -125765,33 +126489,39 @@ var overrides = {
                     "location": "route222",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The user flings its held item at the foe to attack. Its power and effects depend on the item."
         },
         "tm57": {
             "name": "TM57",
-            "desc": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat."
+            "desc": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+            "shortDesc": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat."
         },
         "tm58": {
             "name": "TM58",
             "desc": "The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession.",
             "ground_locations": [
                 "route221"
-            ]
+            ],
+            "shortDesc": "The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession."
         },
         "tm59": {
             "name": "TM59",
             "desc": "The foe is attacked with a shock wave generated by the user’s gaping mouth. This move cannot miss.",
             "ground_locations": [
                 "victoryroad"
-            ]
+            ],
+            "shortDesc": "The foe is attacked with a shock wave generated by the user’s gaping mouth. This move cannot miss."
         },
         "tm60": {
             "name": "TM60",
-            "desc": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target."
+            "desc": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+            "shortDesc": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target."
         },
         "tm61": {
             "name": "TM61",
-            "desc": "The user shoots a sinister, bluish white flame at the foe to inflict a burn."
+            "desc": "The user shoots a sinister, bluish white flame at the foe to inflict a burn.",
+            "shortDesc": "The user shoots a sinister, bluish white flame at the foe to inflict a burn."
         },
         "tm62": {
             "name": "TM62",
@@ -125799,7 +126529,8 @@ var overrides = {
             "ground_locations": [
                 "eternaforest",
                 "route212"
-            ]
+            ],
+            "shortDesc": "The foe is attacked with powdery scales blown by wind. It may also raise all the user’s stats."
         },
         "tm63": {
             "name": "TM63",
@@ -125810,7 +126541,8 @@ var overrides = {
                     "location": "veilstonecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "It prevents the foe from using its held item. Its Trainer is also prevented from using items on it."
         },
         "tm64": {
             "name": "TM64",
@@ -125821,11 +126553,13 @@ var overrides = {
                     "location": "casino",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The user explodes to inflict damage on all Pokémon in battle. The user faints upon using this move."
         },
         "tm65": {
             "name": "TM65",
-            "desc": "The user slashes with a sharp claw made from shadows. It hits between two and five times."
+            "desc": "The user slashes with a sharp claw made from shadows. It hits between two and five times.",
+            "shortDesc": "The user slashes with a sharp claw made from shadows. It hits between two and five times."
         },
         "tm66": {
             "name": "TM66",
@@ -125836,36 +126570,42 @@ var overrides = {
                     "location": "route215",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The user stores power, then attacks. If the user can use this attack after the foe, its power is doubled."
         },
         "tm67": {
             "name": "TM67",
-            "desc": "The user recycles a single-use item that has been used in battle so it can be used again."
+            "desc": "The user recycles a single-use item that has been used in battle so it can be used again.",
+            "shortDesc": "The user recycles a single-use item that has been used in battle so it can be used again."
         },
         "tm68": {
             "name": "TM68",
-            "desc": "The user charges the foe using every bit of its power. It also sustains significant recoil damage."
+            "desc": "The user charges the foe using every bit of its power. It also sustains significant recoil damage.",
+            "shortDesc": "The user charges the foe using every bit of its power. It also sustains significant recoil damage."
         },
         "tm69": {
             "name": "TM69",
             "desc": "The user polishes its body to reduce drag. It sharply raises the Speed stat.",
             "ground_locations": [
                 "mtcoronet"
-            ]
+            ],
+            "shortDesc": "The user polishes its body to reduce drag. It sharply raises the Speed stat."
         },
         "tm70": {
             "name": "TM70",
             "desc": "The user flashes a light that cuts the foe’s accuracy. It can also be used to illuminate caves.",
             "ground_locations": [
                 "oreburghgate"
-            ]
+            ],
+            "shortDesc": "The user flashes a light that cuts the foe’s accuracy. It can also be used to illuminate caves."
         },
         "tm71": {
             "name": "TM71",
             "desc": "The user stabs the foe with a sharpened stone from below. It has a high critical-hit ratio.",
             "ground_locations": [
                 "victoryroad"
-            ]
+            ],
+            "shortDesc": "The user stabs the foe with a sharpened stone from below. It has a high critical-hit ratio."
         },
         "tm72": {
             "name": "TM72",
@@ -125876,29 +126616,34 @@ var overrides = {
                     "location": "snowpointcity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A powerful ice attack that inflicts massive damage on all foes and also has a chance to flinch and freeze."
         },
         "tm73": {
             "name": "TM73",
             "desc": "A weak electric charge is launched at the foe. It causes paralysis if it hits.",
             "ground_locations": [
                 "victoryroad"
-            ]
+            ],
+            "shortDesc": "A weak electric charge is launched at the foe. It causes paralysis if it hits."
         },
         "tm74": {
             "name": "TM74",
             "desc": "The user tackles the foe from a high-speed spin. The slower the user, the greater the damage.",
             "ground_locations": [
                 "canalavecity"
-            ]
+            ],
+            "shortDesc": "The user tackles the foe from a high-speed spin. The slower the user, the greater the damage."
         },
         "tm75": {
             "name": "TM75",
-            "desc": "A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat."
+            "desc": "A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.",
+            "shortDesc": "A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat."
         },
         "tm76": {
             "name": "TM76",
-            "desc": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle."
+            "desc": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.",
+            "shortDesc": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle."
         },
         "tm77": {
             "name": "TM77",
@@ -125912,32 +126657,37 @@ var overrides = {
                     "location": "route211",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The user hypnotizes itself into copying any stat change made by the foe."
         },
         "tm78": {
             "name": "TM78",
-            "desc": "If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat."
+            "desc": "If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat.",
+            "shortDesc": "If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat."
         },
         "tm79": {
             "name": "TM79",
             "desc": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
             "ground_locations": [
                 "victoryroad"
-            ]
+            ],
+            "shortDesc": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch."
         },
         "tm80": {
             "name": "TM80",
             "desc": "Large boulders are hurled at the foe to inflict damage. It may also make the target flinch.",
             "ground_locations": [
                 "mtcoronet"
-            ]
+            ],
+            "shortDesc": "Large boulders are hurled at the foe to inflict damage. It may also make the target flinch."
         },
         "tm81": {
             "name": "TM81",
             "desc": "The user slashes at the foe by crossing its scythes or claws with a high chance for a critical hit.",
             "ground_locations": [
                 "route221"
-            ]
+            ],
+            "shortDesc": "The user slashes at the foe by crossing its scythes or claws with a high chance for a critical hit."
         },
         "tm82": {
             "name": "TM82",
@@ -125948,25 +126698,29 @@ var overrides = {
                     "location": "hearthomecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "While it is asleep, the user randomly uses one of the moves it knows."
         },
         "tm83": {
             "name": "TM83",
-            "desc": "The user draws power from the Berry it is holding to attack. The Berry determines its type and power."
+            "desc": "The user draws power from the Berry it is holding to attack. The Berry determines its type and power.",
+            "shortDesc": "The user draws power from the Berry it is holding to attack. The Berry determines its type and power."
         },
         "tm84": {
             "name": "TM84",
             "desc": "The foe is stabbed with a tentacle or arm seeped with poison. It may also poison the foe.",
             "ground_locations": [
                 "route212"
-            ]
+            ],
+            "shortDesc": "The foe is stabbed with a tentacle or arm seeped with poison. It may also poison the foe."
         },
         "tm85": {
             "name": "TM85",
             "desc": "An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP.",
             "ground_locations": [
                 "valorlakefront"
-            ]
+            ],
+            "shortDesc": "An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP."
         },
         "tm86": {
             "name": "TM86",
@@ -125977,11 +126731,13 @@ var overrides = {
                     "location": "eternacity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The user snares the foe with grass and trips it. The heavier the foe, the greater the damage."
         },
         "tm87": {
             "name": "TM87",
-            "desc": "The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat."
+            "desc": "The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat.",
+            "shortDesc": "The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat."
         },
         "tm88": {
             "name": "TM88",
@@ -125992,22 +126748,26 @@ var overrides = {
                     "location": "floaromatown",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The user pecks the foe. If the foe is holding a Berry, the user plucks it and gains its effect."
         },
         "tm89": {
             "name": "TM89",
             "desc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
             "ground_locations": [
                 "victoryroad"
-            ]
+            ],
+            "shortDesc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
         },
         "tm90": {
             "name": "TM90",
-            "desc": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy."
+            "desc": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+            "shortDesc": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy."
         },
         "tm91": {
             "name": "TM91",
-            "desc": "The user gathers all its light energy and releases it in one shot. It may also lower the foe’s Sp. Def stat."
+            "desc": "The user gathers all its light energy and releases it in one shot. It may also lower the foe’s Sp. Def stat.",
+            "shortDesc": "The user gathers all its light energy and releases it in one shot. It may also lower the foe’s Sp. Def stat."
         },
         "tm92": {
             "name": "TM92",
@@ -126018,18 +126778,21 @@ var overrides = {
                     "location": "grandlake",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "Enables the user to hit a Dark type with any type of move. It also enables the user to hit evasive foes."
         },
         "hm01": {
             "name": "HM01",
-            "desc": "The foe is cut with a scythe or a claw. It can also be used to cut down thin trees."
+            "desc": "The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.",
+            "shortDesc": "The foe is cut with a scythe or a claw. It can also be used to cut down thin trees."
         },
         "hm02": {
             "name": "HM02",
             "desc": "The user soars, then strikes on the second turn. It can also be used to fly to any familiar town.",
             "ground_locations": [
                 "veilstonecity"
-            ]
+            ],
+            "shortDesc": "The user soars, then strikes on the second turn. It can also be used to fly to any familiar town."
         },
         "hm03": {
             "name": "HM03",
@@ -126040,7 +126803,8 @@ var overrides = {
                     "location": "pokmonmansion",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "It swamps the entire battlefield with a giant wave. It can also be used to cross water."
         },
         "hm04": {
             "name": "HM04",
@@ -126051,14 +126815,16 @@ var overrides = {
                     "location": "ironisland",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders."
         },
         "hm05": {
             "name": "HM05",
             "desc": "Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog.",
             "ground_locations": [
                 "solaceonruins"
-            ]
+            ],
+            "shortDesc": "Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog."
         },
         "hm06": {
             "name": "HM06",
@@ -126069,11 +126835,13 @@ var overrides = {
                     "location": "oreburghgate",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "The user slugs the foe with a shattering punch. It can also smash cracked boulders."
         },
         "hm07": {
             "name": "HM07",
-            "desc": "The user charges the foe at an awesome speed. It can also be used to climb a waterfall."
+            "desc": "The user charges the foe at an awesome speed. It can also be used to climb a waterfall.",
+            "shortDesc": "The user charges the foe at an awesome speed. It can also be used to climb a waterfall."
         },
         "hm08": {
             "name": "HM08",
@@ -126084,22 +126852,26 @@ var overrides = {
                     "location": "sunyshorecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A charging attack that may also leave the foe confused. It can also be used to scale rocky walls."
         },
         "explorerkit": {
             "name": "Explorer Kit",
-            "desc": "A bag filled with convenient tools for exploring. It provides access to the Underground."
+            "desc": "A bag filled with convenient tools for exploring. It provides access to the Underground.",
+            "shortDesc": "A bag filled with convenient tools for exploring. It provides access to the Underground."
         },
         "galacticcard": {
             "name": "Galactic Card",
             "desc": "A sturdy, spacious bag that is used to carry loot obtained in the coal mine.",
             "ground_locations": [
                 "galactichq"
-            ]
+            ],
+            "shortDesc": "A sturdy, spacious bag that is used to carry loot obtained in the coal mine."
         },
         "rulebook": {
             "name": "Rule Book",
-            "desc": "It lists the rules for holding battles. For linked battles, you may choose which set of rules you wish to use."
+            "desc": "It lists the rules for holding battles. For linked battles, you may choose which set of rules you wish to use.",
+            "shortDesc": "It lists the rules for holding battles. For linked battles, you may choose which set of rules you wish to use."
         },
         "pokradar": {
             "name": "Poké Radar",
@@ -126110,11 +126882,13 @@ var overrides = {
                     "location": "sandgemtown",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A tool that can search out Pokémon that are hiding in grass. Its battery is recharged as you walk."
         },
         "pointcard": {
             "name": "Point Card",
-            "desc": "A card that lists the Battle Points you have earned."
+            "desc": "A card that lists the Battle Points you have earned.",
+            "shortDesc": "A card that lists the Battle Points you have earned."
         },
         "journal": {
             "name": "Journal",
@@ -126125,23 +126899,28 @@ var overrides = {
                     "location": "twinleaftown",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A notebook that keeps a day-to-day record of your adventure so far."
         },
         "sealcase": {
             "name": "Seal Case",
-            "desc": "A case for storing Seals that can be applied to the capsule cases of Poké Balls."
+            "desc": "A case for storing Seals that can be applied to the capsule cases of Poké Balls.",
+            "shortDesc": "A case for storing Seals that can be applied to the capsule cases of Poké Balls."
         },
         "fashioncase": {
             "name": "Fashion Case",
-            "desc": "A fancy case for the tidy and organized storage of colorful Pokémon Accessories."
+            "desc": "A fancy case for the tidy and organized storage of colorful Pokémon Accessories.",
+            "shortDesc": "A fancy case for the tidy and organized storage of colorful Pokémon Accessories."
         },
         "sealbag": {
             "name": "Seal Bag",
-            "desc": "A tiny bag that can hold ten Seals for decorating Poké Balls."
+            "desc": "A tiny bag that can hold ten Seals for decorating Poké Balls.",
+            "shortDesc": "A tiny bag that can hold ten Seals for decorating Poké Balls."
         },
         "palpad": {
             "name": "Pal Pad",
-            "desc": "A convenient notepad that is used for registering your friends, Friend Codes, and keeping a record of game play."
+            "desc": "A convenient notepad that is used for registering your friends, Friend Codes, and keeping a record of game play.",
+            "shortDesc": "A convenient notepad that is used for registering your friends, Friend Codes, and keeping a record of game play."
         },
         "workskey": {
             "name": "Works Key",
@@ -126152,7 +126931,8 @@ var overrides = {
                     "location": "floaromameadow",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A large key for operating the doors of the Valley Windworks in the canyon. It was held by a Team Galactic Grunt."
         },
         "oldcharm": {
             "name": "Old Charm",
@@ -126163,18 +126943,21 @@ var overrides = {
                     "location": "route210",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An ancient good-luck charm made of Pokémon bones to be taken to the elder of Celestic Town."
         },
         "galactickey": {
             "name": "Galactic Key",
             "desc": "A card key for disengaging security systems in the Galactic HQ. Losing it can result in punishment, apparently.",
             "ground_locations": [
                 "galactichq"
-            ]
+            ],
+            "shortDesc": "A card key for disengaging security systems in the Galactic HQ. Losing it can result in punishment, apparently."
         },
         "redchain": {
             "name": "Red Chain",
-            "desc": "A mythical chain that is said to link the legendary Pokémon that created the Sinnoh region."
+            "desc": "A mythical chain that is said to link the legendary Pokémon that created the Sinnoh region.",
+            "shortDesc": "A mythical chain that is said to link the legendary Pokémon that created the Sinnoh region."
         },
         "townmap": {
             "name": "Town Map",
@@ -126185,11 +126968,13 @@ var overrides = {
                     "location": "trainersschool",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A very convenient map that can be viewed anytime. It even shows your present location."
         },
         "vsseeker": {
             "name": "Vs. Seeker",
-            "desc": "A device that indicates Trainers who want to battle. Its battery charges while you walk."
+            "desc": "A device that indicates Trainers who want to battle. Its battery charges while you walk.",
+            "shortDesc": "A device that indicates Trainers who want to battle. Its battery charges while you walk."
         },
         "coincase": {
             "name": "Coin Case",
@@ -126200,7 +126985,8 @@ var overrides = {
                     "location": "veilstonecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A case for holding Coins obtained at the Game Corner. It holds up to 50,000 Coins."
         },
         "oldrod": {
             "name": "Old Rod",
@@ -126211,7 +126997,8 @@ var overrides = {
                     "location": "route218",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Pokémon."
         },
         "goodrod": {
             "name": "Good Rod",
@@ -126222,7 +127009,8 @@ var overrides = {
                     "location": "route209",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A new, good-quality fishing rod. Use it by any body of water to fish for wild aquatic Pokémon."
         },
         "superrod": {
             "name": "Super Rod",
@@ -126233,7 +127021,8 @@ var overrides = {
                     "location": "route222",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "An awesome, high-tech fishing rod. Use it by any body of water to fish for wild aquatic Pokémon."
         },
         "sprayduck": {
             "name": "Sprayduck",
@@ -126244,7 +127033,8 @@ var overrides = {
                     "location": "flowershop",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A watering can shaped like a PSYDUCK. It helps promote healthy growth of Berries planted in soft soil."
         },
         "poffincase": {
             "name": "Poffin Case",
@@ -126255,7 +127045,8 @@ var overrides = {
                     "location": "hearthomecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A case for storing Poffin cooked from Berries."
         },
         "bicycle": {
             "name": "Bicycle",
@@ -126266,46 +127057,56 @@ var overrides = {
                     "location": "cycleshop",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A folding Bicycle that enables much faster movement than the Running Shoes."
         },
         "suitekey": {
             "name": "Suite Key",
-            "desc": "A key to one of the suites at the luxury hotel by a lake. For some odd reason, it often disappears."
+            "desc": "A key to one of the suites at the luxury hotel by a lake. For some odd reason, it often disappears.",
+            "shortDesc": "A key to one of the suites at the luxury hotel by a lake. For some odd reason, it often disappears."
         },
         "oaksletter": {
             "name": "Oak’s Letter",
-            "desc": "A letter from Prof. Oak. Written in it is a request for you to go to Rt. 224."
+            "desc": "A letter from Prof. Oak. Written in it is a request for you to go to Rt. 224.",
+            "shortDesc": "A letter from Prof. Oak. Written in it is a request for you to go to Rt. 224."
         },
         "lunarwing": {
             "name": "Lunar Wing",
             "desc": "A feather that glows like the moon. It is said to possess the power to dispel nightmares.",
             "ground_locations": [
                 "fullmoonisland"
-            ]
+            ],
+            "shortDesc": "A feather that glows like the moon. It is said to possess the power to dispel nightmares."
         },
         "membercard": {
             "name": "Member Card",
-            "desc": "A card needed for entering the inn in Canalave City. Oddly, the last date marked on it was 50 years ago."
+            "desc": "A card needed for entering the inn in Canalave City. Oddly, the last date marked on it was 50 years ago.",
+            "shortDesc": "A card needed for entering the inn in Canalave City. Oddly, the last date marked on it was 50 years ago."
         },
         "azureflute": {
             "name": "Azure Flute",
-            "desc": "A flute that puts out echoing sounds that do not seem to be of this world. It is unknown who made it."
+            "desc": "A flute that puts out echoing sounds that do not seem to be of this world. It is unknown who made it.",
+            "shortDesc": "A flute that puts out echoing sounds that do not seem to be of this world. It is unknown who made it."
         },
         "ssticket": {
             "name": "S.S. Ticket",
-            "desc": "The ticket required for sailing on the ferry S.S. Anne. It has a drawing of a ship on it."
+            "desc": "The ticket required for sailing on the ferry S.S. Anne. It has a drawing of a ship on it.",
+            "shortDesc": "The ticket required for sailing on the ferry S.S. Anne. It has a drawing of a ship on it."
         },
         "contestpass": {
             "name": "Contest Pass",
-            "desc": "The pass required for entering Pokémon Contests. It has a drawing of an award ribbon on it."
+            "desc": "The pass required for entering Pokémon Contests. It has a drawing of an award ribbon on it.",
+            "shortDesc": "The pass required for entering Pokémon Contests. It has a drawing of an award ribbon on it."
         },
         "magmastone": {
             "name": "Magma Stone",
-            "desc": "A stone formed when boulders melted in intensely hot magma, then hardened. Magma remains sealed inside."
+            "desc": "A stone formed when boulders melted in intensely hot magma, then hardened. Magma remains sealed inside.",
+            "shortDesc": "A stone formed when boulders melted in intensely hot magma, then hardened. Magma remains sealed inside."
         },
         "parcel": {
             "name": "Parcel",
-            "desc": "A parcel entrusted in your care. You are supposed to deliver it to your childhood friend who left Twinleaf Town."
+            "desc": "A parcel entrusted in your care. You are supposed to deliver it to your childhood friend who left Twinleaf Town.",
+            "shortDesc": "A parcel entrusted in your care. You are supposed to deliver it to your childhood friend who left Twinleaf Town."
         },
         "coupon1": {
             "name": "Coupon 1",
@@ -126316,7 +127117,8 @@ var overrides = {
                     "location": "jubilifecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A coupon to be exchanged for a Pokémon Watch (Pokétch for short). Three coupons are needed."
         },
         "coupon2": {
             "name": "Coupon 2",
@@ -126327,7 +127129,8 @@ var overrides = {
                     "location": "jubilifecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A coupon to be exchanged for a Pokémon Watch (Pokétch for short). Three coupons are needed."
         },
         "coupon3": {
             "name": "Coupon 3",
@@ -126338,11 +127141,13 @@ var overrides = {
                     "location": "jubilifecity",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A coupon to be exchanged for a Pokémon Watch (Pokétch for short). Three coupons are needed."
         },
         "storagekey": {
             "name": "Storage Key",
-            "desc": "The key to Team Galactic’s sinister warehouse located at the edge of Veilstone City."
+            "desc": "The key to Team Galactic’s sinister warehouse located at the edge of Veilstone City.",
+            "shortDesc": "The key to Team Galactic’s sinister warehouse located at the edge of Veilstone City."
         },
         "secretpotion": {
             "name": "SecretPotion",
@@ -126353,11 +127158,13 @@ var overrides = {
                     "location": "valorlakefront",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A fantastic medicine dispensed by the pharmacy in Cianwood City. It fully heals a Pokémon of any ailment."
         },
         "vsrecorder": {
             "name": "Vs. Recorder",
-            "desc": "An amazing device that can record a battle either between friends or at a special battle facility."
+            "desc": "An amazing device that can record a battle either between friends or at a special battle facility.",
+            "shortDesc": "An amazing device that can record a battle either between friends or at a special battle facility."
         },
         "gracidea": {
             "name": "Gracidea",
@@ -126368,7 +127175,8 @@ var overrides = {
                     "location": "floaromatown",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A flower sometimes bundled in bouquets to convey gratitude on special occasions like birthdays."
         },
         "secretkey": {
             "name": "Secret Key",
@@ -126379,7 +127187,8 @@ var overrides = {
                     "location": "galactichq",
                     "orientation": 0
                 }
-            ]
+            ],
+            "shortDesc": "A high-tech key that has to be used at a specific location. It emits a special electric signal to open a door."
         }
     },
     "abilities": {
@@ -127413,10 +128222,10 @@ var overrides = {
             "RAICHU",
             "SANDSHREW",
             "SANDSLASH",
-            "NIDORAN♀",
+            "NIDORAN-F",
             "NIDORINA",
             "NIDOQUEEN",
-            "NIDORAN♂",
+            "NIDORAN-M",
             "NIDORINO",
             "NIDOKING",
             "CLEFAIRY",
@@ -127925,10 +128734,10 @@ var overrides = {
             "RAICHU",
             "SANDSHREW",
             "SANDSLASH",
-            "NIDORAN♀",
+            "NIDORAN-F",
             "NIDORINA",
             "NIDOQUEEN",
-            "NIDORAN♂",
+            "NIDORAN-M",
             "NIDORINO",
             "NIDOKING",
             "CLEFAIRY",
@@ -130641,7 +131450,7 @@ var overrides = {
         "Sucker Punch": [
             "RATTATA",
             "RATICATE",
-            "NIDORAN♂",
+            "NIDORAN-M",
             "NIDORINO",
             "NIDOKING",
             "DIGLETT",
@@ -130872,10 +131681,10 @@ var overrides = {
         "Helping Hand": [
             "PIKACHU",
             "RAICHU",
-            "NIDORAN♀",
+            "NIDORAN-F",
             "NIDORINA",
             "NIDOQUEEN",
-            "NIDORAN♂",
+            "NIDORAN-M",
             "NIDORINO",
             "NIDOKING",
             "CLEFAIRY",

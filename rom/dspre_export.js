@@ -2235,22 +2235,35 @@ function buildOverridesAndSearchIndex(data, options) {
               dual_leaf_green: [4, 4],
             };
 
-        const fileIdToLocation = new Map();
-        const nameToCount = new Map();
+        const locationNameInfoById = new Map();
+        const locationNameInfoList = [];
+        const locationNameCounts = new Map();
+        for (let idx = 0; idx < textsLocations.length; idx += 1) {
+          const rawName = String(textsLocations[idx] || "").trim();
+          if (!rawName) continue;
+          const count = (locationNameCounts.get(rawName) || 0) + 1;
+          locationNameCounts.set(rawName, count);
+          const name = count > 1 ? `${rawName} Section ${count}` : rawName;
+          const locationInfo = { name, locationNameId: idx };
+          locationNameInfoById.set(idx, locationInfo);
+          locationNameInfoList.push(locationInfo);
+        }
+
+        const fileIdToLocations = new Map();
+        const fileIdLocationDedupe = new Set();
         for (const header of mapHeaders) {
           const wildId = Number.parseInt(header.WildPokemonFileID, 10);
           if (!Number.isFinite(wildId) || wildId === 65535) continue;
-          if (fileIdToLocation.has(wildId)) continue;
           const idx = Number.parseInt(header.MapNameIndexInTextArchive, 10);
-          let baseName =
-            Number.isFinite(idx) && idx >= 0 && idx < textsLocations.length
-              ? textsLocations[idx]
-              : `unknown_${wildId}`;
-          if (!baseName) baseName = `unknown_${wildId}`;
-          const count = (nameToCount.get(baseName) || 0) + 1;
-          nameToCount.set(baseName, count);
-          const name = count > 1 ? `${baseName} Section ${count}` : baseName;
-          fileIdToLocation.set(wildId, name);
+          const locationInfo = locationNameInfoById.get(idx) || {
+            name: `unknown_${wildId}`,
+            locationNameId: Number.isFinite(idx) ? idx : null,
+          };
+          const dedupeKey = [wildId, locationInfo.locationNameId, locationInfo.name].join("|");
+          if (fileIdLocationDedupe.has(dedupeKey)) continue;
+          fileIdLocationDedupe.add(dedupeKey);
+          if (!fileIdToLocations.has(wildId)) fileIdToLocations.set(wildId, []);
+          fileIdToLocations.get(wildId).push(locationInfo);
         }
 
         function makeEncEntry(record) {
@@ -2272,136 +2285,152 @@ function buildOverridesAndSearchIndex(data, options) {
         for (const entry of encounterList) {
           if (!entry || entry.blank) continue;
           const fileId = entry.fileId;
-          const rawName = fileIdToLocation.get(fileId) || `unknown_${fileId}`;
-          const key = normName(rawName);
-          if (!key) continue;
+          const locationInfos = fileIdToLocations.get(fileId) || [{
+            name: `unknown_${fileId}`,
+            locationNameId: null,
+          }];
 
-          const loc = { name: rawName };
-          for (const type of encounterTypes) {
-            loc[type] = { encs: [] };
-          }
+          for (const locationInfo of locationInfos) {
+            const rawName = locationInfo.name;
+            const key = normName(rawName);
+            if (!key) continue;
 
-        if (Array.isArray(entry.walking)) {
-          for (const rec of entry.walking) {
-            const enc = makeEncEntry(rec);
-            if (enc) loc.grass.encs.push(enc);
-          }
-        } else if (entry.grass && Array.isArray(entry.walkingLevels)) {
-          if (Array.isArray(entry.grass.morning)) {
-            for (let idx = 0; idx < entry.grass.morning.length; idx += 1) {
-              const rec = entry.grass.morning[idx];
-              if (!rec) continue;
-              const level = entry.walkingLevels[idx] ?? 0;
-              const enc = makeEncEntry({ ...rec, level });
-              if (enc) loc.time_morning.encs.push(enc);
+            const loc = { name: rawName, locationNameId: locationInfo.locationNameId };
+            for (const type of encounterTypes) {
+              loc[type] = { encs: [] };
             }
-          }
-          if (Array.isArray(entry.grass.day)) {
-            for (let idx = 0; idx < entry.grass.day.length; idx += 1) {
-              const rec = entry.grass.day[idx];
-              if (!rec) continue;
-              const level = entry.walkingLevels[idx] ?? 0;
-              const enc = makeEncEntry({ ...rec, level });
-              if (enc) loc.time_day.encs.push(enc);
-            }
-          }
-          if (Array.isArray(entry.grass.night)) {
-            for (let idx = 0; idx < entry.grass.night.length; idx += 1) {
-              const rec = entry.grass.night[idx];
-              if (!rec) continue;
-              const level = entry.walkingLevels[idx] ?? 0;
-              const enc = makeEncEntry({ ...rec, level });
-              if (enc) loc.time_night.encs.push(enc);
-            }
-          }
-        }
-        if (Array.isArray(entry.surf)) {
-          for (const rec of entry.surf) {
-            const enc = makeEncEntry(rec);
-            if (enc) loc.surf.encs.push(enc);
-          }
-        }
-        if (Array.isArray(entry.rockSmash)) {
-          for (const rec of entry.rockSmash) {
-            const enc = makeEncEntry(rec);
-            if (enc) loc.rock_smash.encs.push(enc);
-          }
-        }
-          if (Array.isArray(entry.oldRod)) {
-            for (const rec of entry.oldRod) {
-              const enc = makeEncEntry(rec);
-              if (enc) loc.old_rod.encs.push(enc);
-            }
-          }
-          if (Array.isArray(entry.goodRod)) {
-            for (const rec of entry.goodRod) {
-              const enc = makeEncEntry(rec);
-              if (enc) loc.good_rod.encs.push(enc);
-            }
-          }
-          if (Array.isArray(entry.superRod)) {
-            for (const rec of entry.superRod) {
-              const enc = makeEncEntry(rec);
-              if (enc) loc.super_rod.encs.push(enc);
-            }
-          }
-          if (Array.isArray(entry.radar)) {
-            for (const rec of entry.radar) {
-              const enc = makeEncEntry(rec);
-              if (enc) loc.radar.encs.push(enc);
-            }
-          }
-        if (Array.isArray(entry.swarms)) {
-          for (const rec of entry.swarms) {
-            const enc = makeEncEntry(rec);
-            if (enc) loc.swarm.encs.push(enc);
-          }
-        }
 
-        if (entry.pokegearMusic) {
-          const hoenn = Array.isArray(entry.pokegearMusic.hoenn) ? entry.pokegearMusic.hoenn : [];
-          const sinnoh = Array.isArray(entry.pokegearMusic.sinnoh) ? entry.pokegearMusic.sinnoh : [];
-          for (const rec of hoenn) {
-            const enc = makeEncEntry(rec);
-            if (enc) loc.hoenn_music.encs.push(enc);
-          }
-          for (const rec of sinnoh) {
-            const enc = makeEncEntry(rec);
-            if (enc) loc.sinnoh_music.encs.push(enc);
-          }
-        }
-
-          if (entry.timeSpecific) {
-            const day = Array.isArray(entry.timeSpecific.day) ? entry.timeSpecific.day : [];
-            for (const rec of day) {
-              const enc = makeEncEntry(rec);
-              if (enc) loc.time_day.encs.push(enc);
-            }
-            const night = Array.isArray(entry.timeSpecific.night) ? entry.timeSpecific.night : [];
-            for (const rec of night) {
-              const enc = makeEncEntry(rec);
-              if (enc) loc.time_night.encs.push(enc);
-            }
-          }
-
-          if (entry.dualSlot) {
-            const dualMap = [
-              ["ruby", "dual_ruby"],
-              ["sapphire", "dual_sapphire"],
-              ["emerald", "dual_emerald"],
-              ["fireRed", "dual_fire_red"],
-              ["leafGreen", "dual_leaf_green"],
-            ];
-            for (const [srcKey, destKey] of dualMap) {
-              const list = Array.isArray(entry.dualSlot[srcKey]) ? entry.dualSlot[srcKey] : [];
-              for (const rec of list) {
+            if (Array.isArray(entry.walking)) {
+              for (const rec of entry.walking) {
                 const enc = makeEncEntry(rec);
-                if (enc) loc[destKey].encs.push(enc);
+                if (enc) loc.grass.encs.push(enc);
+              }
+            } else if (entry.grass && Array.isArray(entry.walkingLevels)) {
+              if (Array.isArray(entry.grass.morning)) {
+                for (let idx = 0; idx < entry.grass.morning.length; idx += 1) {
+                  const rec = entry.grass.morning[idx];
+                  if (!rec) continue;
+                  const level = entry.walkingLevels[idx] ?? 0;
+                  const enc = makeEncEntry({ ...rec, level });
+                  if (enc) loc.time_morning.encs.push(enc);
+                }
+              }
+              if (Array.isArray(entry.grass.day)) {
+                for (let idx = 0; idx < entry.grass.day.length; idx += 1) {
+                  const rec = entry.grass.day[idx];
+                  if (!rec) continue;
+                  const level = entry.walkingLevels[idx] ?? 0;
+                  const enc = makeEncEntry({ ...rec, level });
+                  if (enc) loc.time_day.encs.push(enc);
+                }
+              }
+              if (Array.isArray(entry.grass.night)) {
+                for (let idx = 0; idx < entry.grass.night.length; idx += 1) {
+                  const rec = entry.grass.night[idx];
+                  if (!rec) continue;
+                  const level = entry.walkingLevels[idx] ?? 0;
+                  const enc = makeEncEntry({ ...rec, level });
+                  if (enc) loc.time_night.encs.push(enc);
+                }
               }
             }
-          }
+            if (Array.isArray(entry.surf)) {
+              for (const rec of entry.surf) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.surf.encs.push(enc);
+              }
+            }
+            if (Array.isArray(entry.rockSmash)) {
+              for (const rec of entry.rockSmash) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.rock_smash.encs.push(enc);
+              }
+            }
+            if (Array.isArray(entry.oldRod)) {
+              for (const rec of entry.oldRod) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.old_rod.encs.push(enc);
+              }
+            }
+            if (Array.isArray(entry.goodRod)) {
+              for (const rec of entry.goodRod) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.good_rod.encs.push(enc);
+              }
+            }
+            if (Array.isArray(entry.superRod)) {
+              for (const rec of entry.superRod) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.super_rod.encs.push(enc);
+              }
+            }
+            if (Array.isArray(entry.radar)) {
+              for (const rec of entry.radar) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.radar.encs.push(enc);
+              }
+            }
+            if (Array.isArray(entry.swarms)) {
+              for (const rec of entry.swarms) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.swarm.encs.push(enc);
+              }
+            }
 
-          locationsOut[key] = loc;
+            if (entry.pokegearMusic) {
+              const hoenn = Array.isArray(entry.pokegearMusic.hoenn) ? entry.pokegearMusic.hoenn : [];
+              const sinnoh = Array.isArray(entry.pokegearMusic.sinnoh) ? entry.pokegearMusic.sinnoh : [];
+              for (const rec of hoenn) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.hoenn_music.encs.push(enc);
+              }
+              for (const rec of sinnoh) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.sinnoh_music.encs.push(enc);
+              }
+            }
+
+            if (entry.timeSpecific) {
+              const day = Array.isArray(entry.timeSpecific.day) ? entry.timeSpecific.day : [];
+              for (const rec of day) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.time_day.encs.push(enc);
+              }
+              const night = Array.isArray(entry.timeSpecific.night) ? entry.timeSpecific.night : [];
+              for (const rec of night) {
+                const enc = makeEncEntry(rec);
+                if (enc) loc.time_night.encs.push(enc);
+              }
+            }
+
+            if (entry.dualSlot) {
+              const dualMap = [
+                ["ruby", "dual_ruby"],
+                ["sapphire", "dual_sapphire"],
+                ["emerald", "dual_emerald"],
+                ["fireRed", "dual_fire_red"],
+                ["leafGreen", "dual_leaf_green"],
+              ];
+              for (const [srcKey, destKey] of dualMap) {
+                const list = Array.isArray(entry.dualSlot[srcKey]) ? entry.dualSlot[srcKey] : [];
+                for (const rec of list) {
+                  const enc = makeEncEntry(rec);
+                  if (enc) loc[destKey].encs.push(enc);
+                }
+              }
+            }
+
+            locationsOut[key] = loc;
+          }
+        }
+
+        for (const locationInfo of locationNameInfoList) {
+          const key = normName(locationInfo.name);
+          if (!key || locationsOut[key]) continue;
+          locationsOut[key] = {
+            name: locationInfo.name,
+            locationNameId: locationInfo.locationNameId,
+          };
         }
 
         const ratesOut = {};
@@ -2471,7 +2500,9 @@ function buildOverridesAndSearchIndex(data, options) {
         index = index.concat(Object.keys(itemsOut).map((x) => x + " item"));
         index = index.concat(Object.keys(abilitiesOut).map((x) => x + " ability"));
         index = index.concat(Object.keys(typeChart).map((x) => toID(x) + " type"));
-        index = index.concat(Object.keys(locationsOut).map((x) => toID(x) + " location"));
+        index = index.concat(Object.keys(locationsOut)
+          .filter((x) => x !== "rates")
+          .map((x) => toID(x) + " location"));
         index = index.concat(["physical", "special", "status"].map((x) => toID(x) + " category"));
 
         const compoundTable = aliases;

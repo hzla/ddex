@@ -1612,11 +1612,149 @@ var BattleItemSearch = /** @class */ (function (_super) {
   };
   return BattleItemSearch;
 })(BattleTypedSearch);
+window.DDEX_LOCATION_ORDERS = window.DDEX_LOCATION_ORDERS || {};
+var DDEX_FALLBACK_PLATINUM_KAIZO_LOCATION_ORDER = {
+  title: "Platinum Kaizo",
+  byLocationNameId: {
+    1: 1,
+    2: 4,
+    3: 17,
+    4: 29,
+    5: 44,
+    6: 15,
+    7: 45,
+    8: 12,
+    9: 21,
+    10: 26,
+    11: 39,
+    12: 33,
+    13: 69,
+    14: 55,
+    15: 82,
+    16: 0,
+    17: 6,
+    18: 10,
+    19: 7,
+    20: 19,
+    21: 23,
+    22: 13,
+    23: 25,
+    24: 28,
+    25: 31,
+    26: 22,
+    27: 73,
+    28: 38,
+    29: 34,
+    30: 32,
+    31: 52,
+    32: 53,
+    33: 9,
+    34: 5,
+    35: 50,
+    36: 71,
+    37: 68,
+    38: 70,
+    39: 81,
+    40: 59,
+    41: 65,
+    42: 61,
+    43: 62,
+    44: 63,
+    45: 66,
+    46: 14,
+    47: 18,
+    48: 20,
+    49: 41,
+    50: 24,
+    52: 40,
+    53: 30,
+    54: 80,
+    56: 27,
+    57: 8,
+    58: 42,
+    59: 11,
+    61: 78,
+    62: 79,
+    64: 56,
+    65: 74,
+    67: 35,
+    69: 46,
+    70: 48,
+    72: 2,
+    73: 36,
+    74: 54,
+    76: 3,
+    77: 51,
+    78: 75,
+    81: 57,
+    82: 60,
+    83: 64,
+    84: 67,
+    91: 16,
+    92: 43,
+    99: 77,
+    106: 72,
+    110: 37,
+    112: 58,
+    115: 76,
+    118: 49,
+    119: 47,
+  },
+};
+function getCurrentLocationOrderCandidates() {
+  var seen = {};
+  var candidates = [];
+  function add(value) {
+    value = String(value || "").trim();
+    if (!value || seen[value]) return;
+    seen[value] = true;
+    candidates.push(value);
+  }
+  var params = new URLSearchParams(window.location.search || "");
+  add(params.get("game"));
+  add(localStorage.game);
+  var documentTitle = String(document.title || "").replace(/\s+Dex\s*$/i, "").trim();
+  if (documentTitle && documentTitle !== "Dynamic") add(documentTitle);
+  add(localStorage.gameTitle);
+  add(localStorage.romTitle);
+  if (window.DDEX_ROM_OVERRIDES && window.DDEX_ROM_OVERRIDES.title) {
+    add(window.DDEX_ROM_OVERRIDES.title);
+  }
+  return candidates;
+}
+function getCurrentLocationOrderSpec() {
+  var candidates = getCurrentLocationOrderCandidates();
+  for (var i = 0; i < candidates.length; i++) {
+    var title = candidates[i];
+    if (window.DDEX_LOCATION_ORDERS[title]) {
+      return window.DDEX_LOCATION_ORDERS[title];
+    }
+    var titleId = cleanString(title);
+    for (var key in window.DDEX_LOCATION_ORDERS) {
+      if (cleanString(key) === titleId) return window.DDEX_LOCATION_ORDERS[key];
+    }
+    if (titleId === "platinumkaizo") {
+      return DDEX_FALLBACK_PLATINUM_KAIZO_LOCATION_ORDER;
+    }
+  }
+  return null;
+}
+function getLocationOrderRank(locationOrder, locationId) {
+  if (!locationOrder || !locationOrder.byLocationNameId) return null;
+  var location = BattleLocationdex && BattleLocationdex[locationId];
+  if (!location) return null;
+  var locationNameId = Number.parseInt(location.locationNameId, 10);
+  if (!Number.isFinite(locationNameId)) return null;
+  if (!Object.prototype.hasOwnProperty.call(locationOrder.byLocationNameId, locationNameId)) {
+    return null;
+  }
+  return locationOrder.byLocationNameId[locationNameId];
+}
 var BattleLocationSearch = /** @class */ (function (_super) {
   __extends(BattleLocationSearch, _super);
   function BattleLocationSearch() {
     var _this = (_super !== null && _super.apply(this, arguments)) || this;
-    _this.sortRow = ["sortmove", ""];
+    _this.sortRow = null;
     return _this;
   }
   BattleLocationSearch.prototype.getTable = function () {
@@ -1624,9 +1762,27 @@ var BattleLocationSearch = /** @class */ (function (_super) {
   };
   BattleLocationSearch.prototype.getDefaultResults = function () {
     var results = [];
+    var locationIds = [];
+    var locationOrder = getCurrentLocationOrderSpec();
     results.push(["header", "Location"]);
     for (var id in BattleLocationdex) {
-      results.push(["location", id]);
+      if (id === "rates") continue;
+      locationIds.push(id);
+    }
+    if (locationOrder) {
+      locationIds.sort(function (id1, id2) {
+        var rank1 = getLocationOrderRank(locationOrder, id1);
+        var rank2 = getLocationOrderRank(locationOrder, id2);
+        if (rank1 !== null && rank2 !== null && rank1 !== rank2) return rank1 - rank2;
+        if (rank1 !== null) return -1;
+        if (rank2 !== null) return 1;
+        var name1 = BattleLocationdex[id1] && BattleLocationdex[id1].name ? BattleLocationdex[id1].name : id1;
+        var name2 = BattleLocationdex[id2] && BattleLocationdex[id2].name ? BattleLocationdex[id2].name : id2;
+        return name1.localeCompare(name2);
+      });
+    }
+    for (var i = 0; i < locationIds.length; i++) {
+      results.push(["location", locationIds[i]]);
     }
     return results;
   };

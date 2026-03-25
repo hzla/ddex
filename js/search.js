@@ -69,6 +69,46 @@
     this.exactMatch = this.engine.exactMatch;
     this.q = this.engine.query;
     this.resultSet = this.engine.results;
+    if (
+      !query &&
+      this.engine.typedSearch &&
+      this.engine.typedSearch.searchType === "location" &&
+      this.resultSet &&
+      this.resultSet.length > 1 &&
+      typeof getCurrentLocationOrderSpec === "function" &&
+      typeof getLocationOrderRank === "function"
+    ) {
+      var locationOrder = getCurrentLocationOrderSpec();
+      if (locationOrder) {
+        var headerRows = [];
+        var locationRows = [];
+        var otherRows = [];
+        for (var j = 0; j < this.resultSet.length; j++) {
+          var row = this.resultSet[j];
+          if (!row) continue;
+          if (row[0] === "header") {
+            headerRows.push(row);
+          } else if (row[0] === "location") {
+            locationRows.push(row);
+          } else {
+            otherRows.push(row);
+          }
+        }
+        locationRows.sort(function (row1, row2) {
+          var id1 = row1[1];
+          var id2 = row2[1];
+          var rank1 = getLocationOrderRank(locationOrder, id1);
+          var rank2 = getLocationOrderRank(locationOrder, id2);
+          if (rank1 !== null && rank2 !== null && rank1 !== rank2) return rank1 - rank2;
+          if (rank1 !== null) return -1;
+          if (rank2 !== null) return 1;
+          var name1 = BattleLocationdex[id1] && BattleLocationdex[id1].name ? BattleLocationdex[id1].name : id1;
+          var name2 = BattleLocationdex[id2] && BattleLocationdex[id2].name ? BattleLocationdex[id2].name : id2;
+          return name1.localeCompare(name2);
+        });
+        this.resultSet = headerRows.concat(locationRows, otherRows);
+      }
+    }
 
     if (firstElem) {
       this.resultSet = [[this.engine.typedSearch.searchType, firstElem]].concat(

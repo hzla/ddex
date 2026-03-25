@@ -194,7 +194,10 @@ function getRomOverridePayload() {
 }
 
 function formatOverridesFile(overridesData) {
-  return `var overrides = ${JSON.stringify(overridesData)};`;
+  const serialized = JSON.stringify(overridesData)
+    .replace(/♀/g, "-F")
+    .replace(/♂/g, "-M");
+  return `var overrides = ${serialized};`;
 }
 
 function formatSearchIndexFile(payload) {
