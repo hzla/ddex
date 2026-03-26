@@ -14,6 +14,7 @@
 	border: 1px solid transparent;
 	margin: 0 5px 1px 5px;
 	text-decoration: none;
+	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 ul {
@@ -54,7 +55,7 @@ ul {
 .resultheader,
 .utilichart li.resultheader,
 .utilichart .result {
-	height: 32px;
+	height: 36px;
 	padding: 1px 0 0 0;
 	contain: strict;
 }
@@ -78,6 +79,8 @@ ul {
 	background: none;
 	color: #f8f8f2;
 	border: 1px solid #AAAAAA;
+	border-left: none;
+	border-right: none;
 }
 .utilichart li > em {
 	display: block;

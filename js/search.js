@@ -1342,7 +1342,7 @@
       "</span> ";
     buf +=
       '<span class="col pplabelcol"><em>PP</em><br />' +
-      (move.pp !== 1 ? (move.pp * 8) / 5 : move.pp) +
+      (move.pp !== 1 ? parseInt((move.pp * 8) / 5) : move.pp) +
       "</span> ";
 
     // desc

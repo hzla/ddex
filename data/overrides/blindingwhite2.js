@@ -125,6 +125,12 @@ overrides = {
       ],
       "evos": [
         "Ivysaur"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Ivysaur": {
@@ -263,6 +269,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Venusaur"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Venusaur": {
@@ -539,6 +551,12 @@ overrides = {
       ],
       "evos": [
         "Charmeleon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Charmeleon": {
@@ -670,6 +688,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Charizard"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Charizard": {
@@ -869,35 +893,31 @@ overrides = {
             "Tackle"
           ],
           [
-            4,
+            3,
             "Tail Whip"
           ],
           [
-            6,
+            5,
             "Water Gun"
           ],
           [
-            9,
+            7,
             "Withdraw"
           ],
           [
-            12,
+            9,
             "Bubble"
           ],
           [
-            15,
+            11,
             "Protect"
           ],
           [
-            19,
+            13,
             "Rapid Spin"
           ],
           [
-            22,
-            "Protect"
-          ],
-          [
-            25,
+            15,
             "Water Pulse"
           ],
           [
@@ -942,6 +962,7 @@ overrides = {
           "Wave Crash",
           "Fling",
           "Gyro Ball",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Rock Smash",
@@ -969,6 +990,12 @@ overrides = {
       ],
       "evos": [
         "Wartortle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Wartortle": {
@@ -1050,12 +1077,12 @@ overrides = {
             "Brine"
           ],
           [
-            44,
-            "Rain Dance"
+            36,
+            "Seismic Toss"
           ],
           [
-            48,
-            "Hydro Pump"
+            38,
+            "Fire Spin"
           ]
         ],
         "tms": [
@@ -1079,6 +1106,7 @@ overrides = {
           "Wave Crash",
           "Fling",
           "Gyro Ball",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Rock Smash",
@@ -1105,9 +1133,15 @@ overrides = {
         "Rain Dish"
       ],
       "evoType": "level",
-      "evoLevel": 17,
+      "evoLevel": 18,
       "evos": [
         "Blastoise"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Blastoise": {
@@ -1153,10 +1187,6 @@ overrides = {
             "Bubble"
           ],
           [
-            10,
-            "Withdraw"
-          ],
-          [
             13,
             "Water Gun"
           ],
@@ -1182,15 +1212,19 @@ overrides = {
           ],
           [
             36,
-            "Hydro Pump"
+            "Power Gem"
           ],
           [
             36,
-            "Power Gem"
+            "Hydro Pump"
           ],
           [
             40,
             "Tri Attack"
+          ],
+          [
+            42,
+            "Hydro Blast"
           ],
           [
             43,
@@ -1214,7 +1248,7 @@ overrides = {
           ],
           [
             58,
-            "Frigid Eruption"
+            "Absolute Zero"
           ],
           [
             62,
@@ -1257,6 +1291,7 @@ overrides = {
           "Giga Impact",
           "Gyro Ball",
           "Rollout",
+          "Flip Turn",
           "Rock Slide",
           "Draco Meteor",
           "Swagger",
@@ -1289,7 +1324,7 @@ overrides = {
         "Rain Dish"
       ],
       "evoType": "level",
-      "evoLevel": 36
+      "evoLevel": 40
     },
     "Caterpie": {
       "name": "Caterpie",
@@ -1363,6 +1398,12 @@ overrides = {
       ],
       "evos": [
         "Metapod"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Metapod": {
@@ -1443,6 +1484,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Butterfree"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Butterfree": {
@@ -1468,12 +1515,12 @@ overrides = {
       "learnset_info": {
         "learnset": [
           [
-            10,
-            "Psy Orb"
+            1,
+            "Psychic"
           ],
           [
-            12,
-            "Itchy Pollen"
+            10,
+            "Psy Orb"
           ],
           [
             12,
@@ -1482,6 +1529,10 @@ overrides = {
           [
             12,
             "Sleep Powder"
+          ],
+          [
+            12,
+            "Itchy Pollen"
           ],
           [
             16,
@@ -1579,7 +1630,7 @@ overrides = {
           "Mayday",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Draining Kiss",
           "Dream Eater",
           "Swagger",
@@ -1678,6 +1729,12 @@ overrides = {
       ],
       "evos": [
         "Kakuna"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Kakuna": {
@@ -1747,6 +1804,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Beedrill"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Beedrill": {
@@ -1893,7 +1956,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -2057,6 +2120,12 @@ overrides = {
       ],
       "evos": [
         "Fletcinder"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Fletcinder": {
@@ -2190,6 +2259,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Talonflame"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Talonflame": {
@@ -2478,6 +2553,12 @@ overrides = {
       ],
       "evos": [
         "Raticate"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Raticate": {
@@ -2768,6 +2849,12 @@ overrides = {
       ],
       "evos": [
         "Fearow"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Fearow": {
@@ -3035,6 +3122,12 @@ overrides = {
       ],
       "evos": [
         "Arbok"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Arbok": {
@@ -3367,11 +3460,7 @@ overrides = {
         "Cute Charm",
         "Motor Drive",
         "Lightning Rod"
-      ],
-      "evos": [
-        "Raichu"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Raichu": {
       "name": "Raichu",
@@ -3606,6 +3695,12 @@ overrides = {
       ],
       "evos": [
         "Sandslash"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Sandslash": {
@@ -3905,6 +4000,12 @@ overrides = {
       ],
       "evos": [
         "Nidorina"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Nidorina": {
@@ -4030,6 +4131,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Nidoqueen"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
       ]
     },
     "Nidoqueen": {
@@ -4290,6 +4397,12 @@ overrides = {
       ],
       "evos": [
         "Nidorino"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Nidorino": {
@@ -4415,6 +4528,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Nidoking"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
       ]
     },
     "Nidoking": {
@@ -4744,6 +4863,12 @@ overrides = {
       "evos": [
         "Clefable"
       ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
+      ],
       "evoType": "level",
       "evoLevel": 16
     },
@@ -5012,10 +5137,13 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
+          "Echoed Voice",
           "Overheat",
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
+          "Infernal Parade",
+          "Bone Chill",
           "Parting Shot",
           "Draining Kiss",
           "Swagger",
@@ -5042,6 +5170,12 @@ overrides = {
       ],
       "evos": [
         "Ninetales"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Fire Stone"
       ]
     },
     "Ninetales": {
@@ -5113,6 +5247,14 @@ overrides = {
           [
             1,
             "Fluffy Coat"
+          ],
+          [
+            1,
+            "Bone Chill"
+          ],
+          [
+            1,
+            "Pound"
           ]
         ],
         "tms": [
@@ -5137,10 +5279,13 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
+          "Echoed Voice",
           "Overheat",
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
+          "Infernal Parade",
+          "Bone Chill",
           "Parting Shot",
           "Giga Impact",
           "Draining Kiss",
@@ -5184,9 +5329,9 @@ overrides = {
       ],
       "bs": {
         "hp": 80,
-        "at": 60,
+        "at": 65,
         "df": 95,
-        "sa": 80,
+        "sa": 65,
         "sd": 50,
         "sp": 60
       },
@@ -5330,6 +5475,12 @@ overrides = {
       "evos": [
         "Wigglytuff"
       ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
+      ],
       "evoType": "level",
       "evoLevel": 16
     },
@@ -5347,9 +5498,9 @@ overrides = {
       ],
       "bs": {
         "hp": 140,
-        "at": 70,
+        "at": 80,
         "df": 110,
-        "sa": 90,
+        "sa": 80,
         "sd": 60,
         "sp": 60
       },
@@ -5616,6 +5767,12 @@ overrides = {
       ],
       "evos": [
         "Golbat"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Golbat": {
@@ -5754,10 +5911,7 @@ overrides = {
         "Infiltrator"
       ],
       "evoType": "level",
-      "evoLevel": 22,
-      "evos": [
-        "Crobat"
-      ]
+      "evoLevel": 22
     },
     "Oddish": {
       "name": "Oddish",
@@ -5871,6 +6025,12 @@ overrides = {
       ],
       "evos": [
         "Gloom"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        21
       ]
     },
     "Gloom": {
@@ -5998,6 +6158,14 @@ overrides = {
       "evos": [
         "Vileplume",
         "Bellossom"
+      ],
+      "evoMethods": [
+        "useItem",
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone",
+        "Sun Stone"
       ]
     },
     "Vileplume": {
@@ -6189,7 +6357,7 @@ overrides = {
           "Mercy Slice",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Grass Knot",
           "Swagger",
@@ -6216,6 +6384,12 @@ overrides = {
       ],
       "evos": [
         "Parasect"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Parasect": {
@@ -6357,7 +6531,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Grass Knot",
           "Swagger",
@@ -6484,7 +6658,7 @@ overrides = {
           "Low Sweep",
           "Round",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Swagger",
           "Follow Me"
         ],
@@ -6505,6 +6679,12 @@ overrides = {
       ],
       "evos": [
         "Venomoth"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        31
       ]
     },
     "Venomoth": {
@@ -6629,7 +6809,7 @@ overrides = {
           "Mayday",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Swagger",
           "U-turn",
           "Follow Me"
@@ -6776,6 +6956,12 @@ overrides = {
       ],
       "evos": [
         "Dugtrio"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Dugtrio": {
@@ -7063,6 +7249,12 @@ overrides = {
       ],
       "evos": [
         "Persian"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Persian": {
@@ -7368,6 +7560,12 @@ overrides = {
       ],
       "evos": [
         "Golduck"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Golduck": {
@@ -7707,6 +7905,12 @@ overrides = {
       ],
       "evos": [
         "Primeape"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Primeape": {
@@ -8013,6 +8217,12 @@ overrides = {
       ],
       "evos": [
         "Arcanine"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Fire Stone"
       ]
     },
     "Arcanine": {
@@ -8128,7 +8338,7 @@ overrides = {
       "abs": [
         "Intimidate",
         "Flash Fire",
-        "Justified"
+        "Rock Head"
       ],
       "evoType": "useItem",
       "evoItem": "Fire Stone"
@@ -8247,6 +8457,12 @@ overrides = {
       ],
       "evos": [
         "Poliwhirl"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Poliwhirl": {
@@ -8379,8 +8595,13 @@ overrides = {
       "evoType": "level",
       "evoLevel": 25,
       "evos": [
-        "Poliwrath",
-        "Politoed"
+        "Poliwrath"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ]
     },
     "Poliwrath": {
@@ -8455,7 +8676,7 @@ overrides = {
           ],
           [
             1,
-            "Mind Reader"
+            "Focus In"
           ],
           [
             1,
@@ -8670,6 +8891,12 @@ overrides = {
       ],
       "evos": [
         "Kadabra"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Kadabra": {
@@ -8825,10 +9052,7 @@ overrides = {
         "Magic Guard"
       ],
       "evoType": "level",
-      "evoLevel": 16,
-      "evos": [
-        "Alakazam"
-      ]
+      "evoLevel": 16
     },
     "Alakazam": {
       "name": "Alakazam",
@@ -8984,8 +9208,7 @@ overrides = {
         "Synchronize",
         "Inner Focus",
         "Magic Guard"
-      ],
-      "evoType": "trade"
+      ]
     },
     "Machop": {
       "name": "Machop",
@@ -9124,6 +9347,12 @@ overrides = {
       ],
       "evos": [
         "Machoke"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Machoke": {
@@ -9270,10 +9499,7 @@ overrides = {
         "Steadfast"
       ],
       "evoType": "level",
-      "evoLevel": 28,
-      "evos": [
-        "Machamp"
-      ]
+      "evoLevel": 28
     },
     "Machamp": {
       "name": "Machamp",
@@ -9424,8 +9650,7 @@ overrides = {
         "Guts",
         "No Guard",
         "Steadfast"
-      ],
-      "evoType": "trade"
+      ]
     },
     "Rowlet": {
       "name": "Rowlet",
@@ -9563,6 +9788,12 @@ overrides = {
       ],
       "evos": [
         "Dartrix"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Dartrix": {
@@ -9696,6 +9927,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Decidueye"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Decidueye": {
@@ -9999,6 +10236,12 @@ overrides = {
       ],
       "evos": [
         "Tentacruel"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Tentacruel": {
@@ -10286,6 +10529,12 @@ overrides = {
       ],
       "evos": [
         "Graveler"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Graveler": {
@@ -10434,10 +10683,7 @@ overrides = {
         "Sand Veil"
       ],
       "evoType": "level",
-      "evoLevel": 25,
-      "evos": [
-        "Golem"
-      ]
+      "evoLevel": 25
     },
     "Golem": {
       "name": "Golem",
@@ -10592,8 +10838,7 @@ overrides = {
         "Rock Head",
         "Sturdy",
         "Sand Veil"
-      ],
-      "evoType": "trade"
+      ]
     },
     "Ponyta": {
       "name": "Ponyta",
@@ -10714,6 +10959,12 @@ overrides = {
       ],
       "evos": [
         "Rapidash"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Rapidash": {
@@ -11015,6 +11266,14 @@ overrides = {
       "evos": [
         "Slowbro",
         "Slowking"
+      ],
+      "evoMethods": [
+        "level",
+        "trade"
+      ],
+      "evoParams": [
+        37,
+        ""
       ]
     },
     "Slowbro": {
@@ -11337,6 +11596,12 @@ overrides = {
       ],
       "evos": [
         "Magneton"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Magneton": {
@@ -11501,6 +11766,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Magnezone"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Thunderstone"
       ]
     },
     "Farfetch’d": {
@@ -11759,6 +12030,12 @@ overrides = {
       ],
       "evos": [
         "Dodrio"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        31
       ]
     },
     "Dodrio": {
@@ -11897,7 +12174,7 @@ overrides = {
       "num": 86,
       "types": [
         "Water",
-        "Normal"
+        "Ice"
       ],
       "items": [
         "None",
@@ -12029,6 +12306,12 @@ overrides = {
       ],
       "evos": [
         "Dewgong"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Dewgong": {
@@ -12055,7 +12338,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Headbutt"
+            "Megahorn"
           ],
           [
             1,
@@ -12063,7 +12346,7 @@ overrides = {
           ],
           [
             1,
-            "Charm"
+            "Hydro Blast"
           ],
           [
             1,
@@ -12320,6 +12603,12 @@ overrides = {
       ],
       "evos": [
         "Muk"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Muk": {
@@ -12345,15 +12634,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Pound"
-          ],
-          [
-            1,
-            "Mud-Slap"
-          ],
-          [
-            1,
-            "Milk Drink"
+            "Roar"
           ],
           [
             1,
@@ -12361,7 +12642,23 @@ overrides = {
           ],
           [
             1,
+            "Mud-Slap"
+          ],
+          [
+            1,
+            "Pound"
+          ],
+          [
+            1,
+            "Noxious Shift"
+          ],
+          [
+            1,
             "Harden"
+          ],
+          [
+            1,
+            "Milk Drink"
           ],
           [
             4,
@@ -12412,12 +12709,16 @@ overrides = {
             "Liquify"
           ],
           [
+            45,
+            "Delirious Drench"
+          ],
+          [
             49,
             "Gunk Shot"
           ],
           [
-            57,
-            "Memento"
+            52,
+            "Parting Shot"
           ]
         ],
         "tms": [
@@ -12604,6 +12905,12 @@ overrides = {
       ],
       "evos": [
         "Cloyster"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ]
     },
     "Cloyster": {
@@ -12739,8 +13046,16 @@ overrides = {
             "Spite"
           ],
           [
+            5,
+            "Hex"
+          ],
+          [
             7,
             "Mean Look"
+          ],
+          [
+            8,
+            "Glare"
           ],
           [
             10,
@@ -12847,6 +13162,12 @@ overrides = {
       ],
       "evos": [
         "Haunter"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Haunter": {
@@ -13009,6 +13330,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Gengar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Gengar": {
@@ -13056,6 +13383,10 @@ overrides = {
           [
             1,
             "Night Shade"
+          ],
+          [
+            1,
+            "Delirious Drench"
           ],
           [
             45,
@@ -13324,6 +13655,12 @@ overrides = {
       ],
       "evos": [
         "Steelix"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Drowzee": {
@@ -13478,6 +13815,12 @@ overrides = {
       ],
       "evos": [
         "Hypno"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Hypno": {
@@ -13784,6 +14127,12 @@ overrides = {
       ],
       "evos": [
         "Kingler"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Kingler": {
@@ -14059,6 +14408,12 @@ overrides = {
       ],
       "evos": [
         "Electrode"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Electrode": {
@@ -14335,6 +14690,12 @@ overrides = {
       ],
       "evos": [
         "Exeggutor"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone"
       ]
     },
     "Exeggutor": {
@@ -14385,7 +14746,7 @@ overrides = {
           ],
           [
             27,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             37,
@@ -14595,6 +14956,12 @@ overrides = {
       ],
       "evos": [
         "Marowak"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Marowak": {
@@ -14817,7 +15184,7 @@ overrides = {
           ],
           [
             33,
-            "Mind Reader"
+            "Focus In"
           ],
           [
             37,
@@ -15200,6 +15567,12 @@ overrides = {
       ],
       "evos": [
         "Lickilicky"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Koffing": {
@@ -15261,7 +15634,7 @@ overrides = {
           ],
           [
             21,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             24,
@@ -15336,6 +15709,12 @@ overrides = {
       ],
       "evos": [
         "Weezing"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Weezing": {
@@ -15451,6 +15830,10 @@ overrides = {
           [
             59,
             "Parting Shot"
+          ],
+          [
+            62,
+            "Delirious Drench"
           ]
         ],
         "tms": [
@@ -15644,6 +16027,12 @@ overrides = {
       ],
       "evos": [
         "Rhydon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Rhydon": {
@@ -15815,6 +16204,12 @@ overrides = {
       "evoLevel": 26,
       "evos": [
         "Rhyperior"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        46
       ]
     },
     "Chansey": {
@@ -15892,7 +16287,7 @@ overrides = {
           ],
           [
             42,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             46,
@@ -15986,9 +16381,6 @@ overrides = {
         "Serene Grace",
         "Healer"
       ],
-      "evos": [
-        "Blissey"
-      ],
       "evoType": "useItem",
       "evoItem": "Oval Stone"
     },
@@ -16040,7 +16432,7 @@ overrides = {
           ],
           [
             17,
-            "Bind"
+            "Bubble"
           ],
           [
             20,
@@ -16060,7 +16452,7 @@ overrides = {
           ],
           [
             33,
-            "Natural Gift"
+            "Hydro Blast"
           ],
           [
             36,
@@ -16135,6 +16527,12 @@ overrides = {
       ],
       "evos": [
         "Tangrowth"
+      ],
+      "evoMethods": [
+        "levelMove"
+      ],
+      "evoParams": [
+        "Ancient Power"
       ]
     },
     "Kangaskhan": {
@@ -16402,6 +16800,12 @@ overrides = {
       ],
       "evos": [
         "Seadra"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Seadra": {
@@ -16530,6 +16934,12 @@ overrides = {
       "evoLevel": 32,
       "evos": [
         "Kingdra"
+      ],
+      "evoMethods": [
+        "trade"
+      ],
+      "evoParams": [
+        ""
       ]
     },
     "Goldeen": {
@@ -16651,6 +17061,12 @@ overrides = {
       ],
       "evos": [
         "Seaking"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        33
       ]
     },
     "Seaking": {
@@ -16918,6 +17334,12 @@ overrides = {
       ],
       "evos": [
         "Starmie"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dawn Stone"
       ]
     },
     "Starmie": {
@@ -17364,7 +17786,7 @@ overrides = {
           "Mercy Slice",
           "Giga Impact",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -17389,6 +17811,14 @@ overrides = {
       "evos": [
         "Scizor",
         "Kleavor"
+      ],
+      "evoMethods": [
+        "level",
+        "useItem"
+      ],
+      "evoParams": [
+        44,
+        "Dusk Stone"
       ]
     },
     "Chillet": {
@@ -17716,6 +18146,12 @@ overrides = {
       "evos": [
         "Electivire"
       ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
+      ],
       "evoType": "level",
       "evoLevel": 24
     },
@@ -17852,6 +18288,12 @@ overrides = {
       ],
       "evos": [
         "Magmortar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ],
       "evoType": "level",
       "evoLevel": 24
@@ -17995,7 +18437,7 @@ overrides = {
           "Giga Impact",
           "Stone Edge",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -18206,6 +18648,12 @@ overrides = {
       ],
       "evos": [
         "Gyarados"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Gyarados": {
@@ -18672,8 +19120,23 @@ overrides = {
         "Jolteon",
         "Vaporeon",
         "Flareon",
-        "Espeon",
-        "Sylveon"
+        "Espeon"
+      ],
+      "evoMethods": [
+        "useItem",
+        "useItem",
+        "useItem",
+        "useItem",
+        "useItem",
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone",
+        "Shiny Stone",
+        "Thunderstone",
+        "Water Stone",
+        "Fire Stone",
+        "Sun Stone"
       ]
     },
     "Vaporeon": {
@@ -19287,6 +19750,14 @@ overrides = {
       "evos": [
         "Porygon2",
         "Porygon2"
+      ],
+      "evoMethods": [
+        "useItem",
+        "level"
+      ],
+      "evoParams": [
+        "Up-Grade",
+        35
       ]
     },
     "Amaura": {
@@ -19416,6 +19887,12 @@ overrides = {
       ],
       "evos": [
         "Aurorus"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Aurorus": {
@@ -19691,6 +20168,12 @@ overrides = {
       ],
       "evos": [
         "Tyrantrum"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Tyrantrum": {
@@ -20165,8 +20648,7 @@ overrides = {
         "Immunity",
         "Thick Fat",
         "Gluttony"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Articuno": {
       "name": "Articuno",
@@ -20208,7 +20690,7 @@ overrides = {
           ],
           [
             22,
-            "Mind Reader"
+            "Focus In"
           ],
           [
             29,
@@ -20700,6 +21182,12 @@ overrides = {
       ],
       "evos": [
         "Dragonair"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Dragonair": {
@@ -20864,6 +21352,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Dragonite"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Dragonite": {
@@ -21251,6 +21745,12 @@ overrides = {
       ],
       "evos": [
         "Mew"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dawn Stone"
       ]
     },
     "Mew": {
@@ -21444,7 +21944,7 @@ overrides = {
           "Thunder Wave",
           "Gyro Ball",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Draining Kiss",
           "Rollout",
           "Flip Turn",
@@ -21668,6 +22168,12 @@ overrides = {
       ],
       "evos": [
         "Bayleef"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        17
       ]
     },
     "Bayleef": {
@@ -21742,7 +22248,7 @@ overrides = {
           ],
           [
             28,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             31,
@@ -21813,6 +22319,12 @@ overrides = {
       "evoLevel": 17,
       "evos": [
         "Meganium"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Meganium": {
@@ -21855,7 +22367,7 @@ overrides = {
           ],
           [
             1,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             9,
@@ -22018,32 +22530,32 @@ overrides = {
             "Dopey Eyes"
           ],
           [
-            6,
+            5,
             "Ember"
           ],
           [
-            9,
+            7,
             "Smog"
           ],
           [
-            12,
+            9,
             "Quick Attack"
           ],
           [
-            15,
+            11,
+            "Fire Spin"
+          ],
+          [
+            14,
             "Flame Wheel"
           ],
           [
-            19,
+            17,
             "Roar"
           ],
           [
-            28,
-            "Flame Charge"
-          ],
-          [
-            31,
-            "Swift"
+            19,
+            "Uproar"
           ],
           [
             37,
@@ -22110,6 +22622,12 @@ overrides = {
       ],
       "evos": [
         "Quilava"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Quilava": {
@@ -22242,9 +22760,15 @@ overrides = {
         "Flash Fire"
       ],
       "evoType": "level",
-      "evoLevel": 17,
+      "evoLevel": 20,
       "evos": [
         "Typhlosion"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Typhlosion": {
@@ -22275,11 +22799,7 @@ overrides = {
           ],
           [
             1,
-            "Gyro Ball"
-          ],
-          [
-            1,
-            "Poison Dart"
+            "Belch"
           ],
           [
             1,
@@ -22362,6 +22882,10 @@ overrides = {
             "Bone Chill"
           ],
           [
+            70,
+            "Blue Flare"
+          ],
+          [
             72,
             "Sun Flare"
           ]
@@ -22420,11 +22944,11 @@ overrides = {
       },
       "abs": [
         "Intimidate",
-        "Shadow Tag",
+        "White Smoke",
         "Flash Fire"
       ],
       "evoType": "level",
-      "evoLevel": 36
+      "evoLevel": 40
     },
     "Totodile": {
       "name": "Totodile",
@@ -22567,6 +23091,12 @@ overrides = {
       ],
       "evos": [
         "Croconaw"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        17
       ]
     },
     "Croconaw": {
@@ -22720,6 +23250,12 @@ overrides = {
       "evoLevel": 17,
       "evos": [
         "Feraligatr"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Feraligatr": {
@@ -22750,7 +23286,7 @@ overrides = {
           ],
           [
             1,
-            "Rage"
+            "Scale Shot"
           ],
           [
             6,
@@ -23047,6 +23583,12 @@ overrides = {
       ],
       "evos": [
         "Furret"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Furret": {
@@ -23361,6 +23903,12 @@ overrides = {
       ],
       "evos": [
         "Noctowl"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Noctowl": {
@@ -23611,7 +24159,7 @@ overrides = {
           "Mayday",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Swagger",
           "U-turn",
           "Follow Me"
@@ -23637,6 +24185,12 @@ overrides = {
       ],
       "evos": [
         "Ledian"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Ledian": {
@@ -23777,7 +24331,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Swagger",
           "U-turn",
           "Follow Me",
@@ -23909,7 +24463,7 @@ overrides = {
           "Low Sweep",
           "Round",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -23932,6 +24486,12 @@ overrides = {
       ],
       "evos": [
         "Ariados"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Ariados": {
@@ -24051,7 +24611,7 @@ overrides = {
           "Round",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -24216,8 +24776,7 @@ overrides = {
         "Defiant",
         "Unburden",
         "Infiltrator"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Chinchou": {
       "name": "Chinchou",
@@ -24243,11 +24802,23 @@ overrides = {
         "learnset": [
           [
             1,
-            "Supersonic"
+            "Thunder Shock"
           ],
           [
             1,
             "Bubble"
+          ],
+          [
+            2,
+            "Flatter"
+          ],
+          [
+            3,
+            "Encore"
+          ],
+          [
+            5,
+            "Supersonic"
           ],
           [
             6,
@@ -24262,8 +24833,12 @@ overrides = {
             "Confuse Ray"
           ],
           [
-            17,
+            14,
             "Water Gun"
+          ],
+          [
+            18,
+            "Electro Ball"
           ],
           [
             20,
@@ -24274,8 +24849,8 @@ overrides = {
             "Take Down"
           ],
           [
-            28,
-            "Electro Ball"
+            26,
+            "Radiant Burst"
           ],
           [
             31,
@@ -24324,6 +24899,7 @@ overrides = {
           "Flash",
           "Volt Switch",
           "Thunder Wave",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Wild Charge",
@@ -24347,6 +24923,12 @@ overrides = {
       ],
       "evos": [
         "Lanturn"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        27
       ]
     },
     "Lanturn": {
@@ -24389,7 +24971,7 @@ overrides = {
           ],
           [
             9,
-            "Flail"
+            "Radiant Burst"
           ],
           [
             12,
@@ -24409,15 +24991,15 @@ overrides = {
           ],
           [
             27,
+            "Spit Up"
+          ],
+          [
+            27,
             "Stockpile"
           ],
           [
             27,
             "Swallow"
-          ],
-          [
-            27,
-            "Spit Up"
           ],
           [
             30,
@@ -24492,6 +25074,7 @@ overrides = {
           "Flash",
           "Volt Switch",
           "Thunder Wave",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Wild Charge",
@@ -24604,9 +25187,6 @@ overrides = {
         "Static",
         " -",
         "Lightning Rod"
-      ],
-      "evos": [
-        "Pikachu"
       ]
     },
     "Cleffa": {
@@ -24724,6 +25304,12 @@ overrides = {
       ],
       "evos": [
         "Clefairy"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Igglybuff": {
@@ -24850,6 +25436,12 @@ overrides = {
       ],
       "evos": [
         "Jigglypuff"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Togepi": {
@@ -24990,9 +25582,6 @@ overrides = {
         "Hustle",
         "Serene Grace",
         "Super Luck"
-      ],
-      "evos": [
-        "Togetic"
       ]
     },
     "Togetic": {
@@ -25156,9 +25745,14 @@ overrides = {
         "Serene Grace",
         "Super Luck"
       ],
-      "evoType": "levelFriendship",
       "evos": [
         "Togekiss"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Shiny Stone"
       ]
     },
     "Natu": {
@@ -25306,6 +25900,12 @@ overrides = {
       ],
       "evos": [
         "Xatu"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Xatu": {
@@ -25586,6 +26186,12 @@ overrides = {
       ],
       "evos": [
         "Flaaffy"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Flaaffy": {
@@ -25644,6 +26250,10 @@ overrides = {
           [
             20,
             "Calm Mind"
+          ],
+          [
+            22,
+            "Radiant Burst"
           ],
           [
             25,
@@ -25728,6 +26338,12 @@ overrides = {
       "evoLevel": 15,
       "evos": [
         "Ampharos"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Ampharos": {
@@ -25769,10 +26385,6 @@ overrides = {
             "Fire Blast"
           ],
           [
-            1,
-            "Swift"
-          ],
-          [
             4,
             "Thunder Wave"
           ],
@@ -25791,6 +26403,10 @@ overrides = {
           [
             20,
             "Dragon Breath"
+          ],
+          [
+            23,
+            "Radiant Burst"
           ],
           [
             25,
@@ -26124,6 +26740,7 @@ overrides = {
           "Round",
           "Wave Crash",
           "Fling",
+          "Flip Turn",
           "Tidy Up",
           "Grass Knot",
           "Swagger",
@@ -26156,6 +26773,12 @@ overrides = {
       ],
       "evos": [
         "Azumarill"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ],
       "evoType": "level",
       "evoLevel": 16
@@ -26303,6 +26926,7 @@ overrides = {
           "Fling",
           "Giga Impact",
           "Rollout",
+          "Flip Turn",
           "Tidy Up",
           "Grass Knot",
           "Swagger",
@@ -26643,8 +27267,7 @@ overrides = {
         "Drizzle",
         "Prankster",
         "Victory Star"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Hoppip": {
       "name": "Hoppip",
@@ -26673,6 +27296,10 @@ overrides = {
             "Splash"
           ],
           [
+            1,
+            "Gust"
+          ],
+          [
             3,
             "Synthesis"
           ],
@@ -26690,15 +27317,11 @@ overrides = {
           ],
           [
             8,
-            "Gust"
+            "Bullet Seed"
           ],
           [
             9,
             "Stun Spore"
-          ],
-          [
-            11,
-            "Bullet Seed"
           ],
           [
             12,
@@ -26784,6 +27407,12 @@ overrides = {
       ],
       "evos": [
         "Skiploom"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Skiploom": {
@@ -26922,6 +27551,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Jumpluff"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Jumpluff": {
@@ -27240,7 +27875,7 @@ overrides = {
           "Parting Shot",
           "Retaliate",
           "Thunder Wave",
-          "Mating Call",
+          "Natures Call",
           "Tidy Up",
           "Dream Eater",
           "Grass Knot",
@@ -27276,8 +27911,7 @@ overrides = {
         "Cute Charm",
         "Adaptability",
         "Skill Link"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Sunkern": {
       "name": "Sunkern",
@@ -27410,6 +28044,12 @@ overrides = {
       ],
       "evos": [
         "Sunflora"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Sun Stone"
       ]
     },
     "Sunflora": {
@@ -27723,6 +28363,12 @@ overrides = {
       ],
       "evos": [
         "Yanmega"
+      ],
+      "evoMethods": [
+        "levelFriendship"
+      ],
+      "evoParams": [
+        ""
       ]
     },
     "Wooper": {
@@ -27853,6 +28499,12 @@ overrides = {
       ],
       "evos": [
         "Quagsire"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Quagsire": {
@@ -28209,6 +28861,12 @@ overrides = {
       "evoItem": "Sun Stone",
       "evos": [
         "Umbreon"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
       ]
     },
     "Umbreon": {
@@ -28349,6 +29007,7 @@ overrides = {
           "Attract",
           "Round",
           "Echoed Voice",
+          "Quash",
           "Parting Shot",
           "Retaliate",
           "Giga Impact",
@@ -28386,6 +29045,12 @@ overrides = {
       "evoItem": "Moon Stone",
       "evos": [
         "Espeon"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Sun Stone"
       ]
     },
     "Murkrow": {
@@ -28533,6 +29198,12 @@ overrides = {
       ],
       "evos": [
         "Honchkrow"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dusk Stone"
       ]
     },
     "Slowking": {
@@ -28862,6 +29533,12 @@ overrides = {
       ],
       "evos": [
         "Mismagius"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dusk Stone"
       ]
     },
     "Unown": {
@@ -29240,7 +29917,7 @@ overrides = {
           "Explosion",
           "Parting Shot",
           "Gyro Ball",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -29406,7 +30083,7 @@ overrides = {
           "Rock Polish",
           "Volt Switch",
           "Gyro Ball",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -29737,7 +30414,7 @@ overrides = {
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -29770,6 +30447,12 @@ overrides = {
       ],
       "evos": [
         "Gliscor"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dusk Stone"
       ]
     },
     "Steelix": {
@@ -30100,6 +30783,12 @@ overrides = {
       ],
       "evos": [
         "Granbull"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        23
       ]
     },
     "Granbull": {
@@ -30279,9 +30968,9 @@ overrides = {
       "bs": {
         "hp": 65,
         "at": 95,
-        "df": 75,
-        "sa": 55,
-        "sd": 55,
+        "df": 85,
+        "sa": 75,
+        "sd": 70,
         "sp": 85
       },
       "learnset_info": {
@@ -30296,71 +30985,91 @@ overrides = {
           ],
           [
             1,
-            "Poison Sting"
-          ],
-          [
-            9,
-            "Harden"
-          ],
-          [
-            9,
-            "Minimize"
-          ],
-          [
-            13,
             "Water Gun"
           ],
           [
-            17,
-            "Rollout"
+            4,
+            "Poison Gas"
           ],
           [
-            21,
+            7,
+            "Flip Turn"
+          ],
+          [
+            8,
+            "Rapid Spin"
+          ],
+          [
+            10,
             "Toxic Spikes"
           ],
           [
-            25,
-            "Stockpile"
+            13,
+            "Tail Slap"
           ],
           [
-            25,
-            "Spit Up"
+            15,
+            "Rollout"
           ],
           [
-            29,
+            17,
             "Revenge"
           ],
           [
-            33,
+            19,
+            "Glare"
+          ],
+          [
+            21,
             "Brine"
           ],
           [
-            35,
+            24,
             "Noxious Shift"
           ],
           [
-            37,
+            26,
             "Pin Missile"
           ],
           [
-            41,
+            29,
             "Take Down"
           ],
           [
-            45,
+            31,
             "Aqua Tail"
           ],
           [
-            49,
+            34,
             "Poison Jab"
           ],
           [
-            53,
+            37,
             "Destiny Bond"
           ],
           [
-            57,
-            "Hydro Pump"
+            40,
+            "Scabbard Slash"
+          ],
+          [
+            43,
+            "Scale Shot"
+          ],
+          [
+            45,
+            "Taunt"
+          ],
+          [
+            48,
+            "Wave Crash"
+          ],
+          [
+            50,
+            "Smart Strike"
+          ],
+          [
+            52,
+            "Dragon Tail"
           ]
         ],
         "tms": [
@@ -30406,8 +31115,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Poison Point",
-        "Swift Swim",
+        "Intimidate",
+        "Rough Skin",
         "Intimidate"
       ]
     },
@@ -30548,7 +31257,7 @@ overrides = {
           "Mayday",
           "Giga Impact",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -30698,7 +31407,7 @@ overrides = {
           "Flash",
           "Stone Edge",
           "Gyro Ball",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -30839,7 +31548,7 @@ overrides = {
           "Giga Impact",
           "Stone Edge",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "Tidy Up",
@@ -31016,9 +31725,6 @@ overrides = {
         "Moxie",
         " -",
         "Pickpocket"
-      ],
-      "evos": [
-        "Weavile"
       ]
     },
     "Teddiursa": {
@@ -31142,6 +31848,12 @@ overrides = {
       ],
       "evos": [
         "Ursaring"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Ursaring": {
@@ -31311,6 +32023,12 @@ overrides = {
       "evoLevel": 24,
       "evos": [
         "Ursaluna"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        52
       ]
     },
     "Slugma": {
@@ -31434,6 +32152,12 @@ overrides = {
       ],
       "evos": [
         "Magcargo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Magcargo": {
@@ -31737,6 +32461,12 @@ overrides = {
       ],
       "evos": [
         "Piloswine"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Piloswine": {
@@ -31889,6 +32619,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Mamoswine"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Corsola": {
@@ -32208,6 +32944,12 @@ overrides = {
       ],
       "evos": [
         "Octillery"
+      ],
+      "evoMethods": [
+        "levelMove"
+      ],
+      "evoParams": [
+        "Searing Shot"
       ]
     },
     "Octillery": {
@@ -32347,6 +33089,7 @@ overrides = {
           "Parting Shot",
           "Giga Impact",
           "Thunder Wave",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Flash Cannon",
@@ -32673,6 +33416,7 @@ overrides = {
           "Mayday",
           "Giga Impact",
           "Rollout",
+          "Flip Turn",
           "Rock Slide",
           "Swagger",
           "Follow Me",
@@ -33016,6 +33760,12 @@ overrides = {
       ],
       "evos": [
         "Houndoom"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Houndoom": {
@@ -33429,6 +34179,12 @@ overrides = {
       ],
       "evos": [
         "Donphan"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Donphan": {
@@ -33734,6 +34490,14 @@ overrides = {
       "evos": [
         "Porygon-Z",
         "Porygon-Z"
+      ],
+      "evoMethods": [
+        "useItem",
+        "level"
+      ],
+      "evoParams": [
+        "Dubious Disc",
+        60
       ]
     },
     "Stantler": {
@@ -34035,6 +34799,16 @@ overrides = {
         "Hitmonchan",
         "Hitmonlee",
         "Hitmontop"
+      ],
+      "evoMethods": [
+        "level",
+        "level",
+        "level"
+      ],
+      "evoParams": [
+        20,
+        20,
+        20
       ]
     },
     "Hitmontop": {
@@ -34492,6 +35266,12 @@ overrides = {
       ],
       "evos": [
         "Electabuzz"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Magby": {
@@ -34618,6 +35398,12 @@ overrides = {
       ],
       "evos": [
         "Magmar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Miltank": {
@@ -34850,7 +35636,7 @@ overrides = {
           ],
           [
             42,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             46,
@@ -34945,8 +35731,7 @@ overrides = {
         "Natural Cure",
         "Serene Grace",
         "Healer"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Raikou": {
       "name": "Raikou",
@@ -35474,6 +36259,12 @@ overrides = {
       ],
       "evos": [
         "Pupitar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Pupitar": {
@@ -35632,6 +36423,12 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Tyranitar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Tyranitar": {
@@ -36344,20 +37141,28 @@ overrides = {
             "Leer"
           ],
           [
-            6,
+            5,
             "Vine Whip"
+          ],
+          [
+            7,
+            "Fury Cutter"
           ],
           [
             9,
             "Quick Attack"
           ],
           [
-            13,
+            11,
             "Pursuit"
           ],
           [
-            16,
+            13,
             "Bullet Seed"
+          ],
+          [
+            15,
+            "Breaking Swipe"
           ],
           [
             26,
@@ -36437,6 +37242,12 @@ overrides = {
       ],
       "evos": [
         "Grovyle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Grovyle": {
@@ -36487,38 +37298,34 @@ overrides = {
           ],
           [
             16,
-            "Fury Cutter"
-          ],
-          [
-            17,
-            "Thief"
-          ],
-          [
-            20,
-            "Needle Arm"
-          ],
-          [
-            24,
             "Leaf Blade"
           ],
           [
-            27,
+            19,
+            "Thief"
+          ],
+          [
+            22,
+            "Needle Arm"
+          ],
+          [
+            25,
             "Night Slash"
           ],
           [
-            31,
+            28,
             "Slam"
           ],
           [
-            34,
-            "Headbutt"
+            32,
+            "U-turn"
           ],
           [
-            53,
-            "Mercy Slice"
+            35,
+            "Extreme Speed"
           ],
           [
-            59,
+            38,
             "Leaf Storm"
           ]
         ],
@@ -36577,9 +37384,15 @@ overrides = {
         "Unburden"
       ],
       "evoType": "level",
-      "evoLevel": 17,
+      "evoLevel": 16,
       "evos": [
         "Sceptile"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Sceptile": {
@@ -36759,7 +37572,7 @@ overrides = {
         "Unburden"
       ],
       "evoType": "level",
-      "evoLevel": 36
+      "evoLevel": 40
     },
     "Torchic": {
       "name": "Torchic",
@@ -36877,6 +37690,12 @@ overrides = {
       ],
       "evos": [
         "Combusken"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Combusken": {
@@ -37024,6 +37843,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Blaziken"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Blaziken": {
@@ -37318,6 +38143,12 @@ overrides = {
       ],
       "evos": [
         "Sliggoo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Sliggoo": {
@@ -37480,6 +38311,12 @@ overrides = {
       "evoLevel": 35,
       "evos": [
         "Goodra"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Goodra": {
@@ -37786,6 +38623,12 @@ overrides = {
       ],
       "evos": [
         "Mightyena"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Mightyena": {
@@ -38065,6 +38908,12 @@ overrides = {
       ],
       "evos": [
         "Linoone"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Linoone": {
@@ -38272,6 +39121,14 @@ overrides = {
       "evos": [
         "Silcoon",
         "Cascoon"
+      ],
+      "evoMethods": [
+        "level",
+        "level"
+      ],
+      "evoParams": [
+        7,
+        7
       ]
     },
     "Silcoon": {
@@ -38320,6 +39177,12 @@ overrides = {
       "evoLevel": 7,
       "evos": [
         "Beautifly"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        10
       ]
     },
     "Beautifly": {
@@ -38417,7 +39280,7 @@ overrides = {
           "Mayday",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Swagger",
           "U-turn",
           "Follow Me"
@@ -38487,6 +39350,12 @@ overrides = {
       "evoLevel": 7,
       "evos": [
         "Dustox"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        10
       ]
     },
     "Dustox": {
@@ -38585,7 +39454,7 @@ overrides = {
           "Mayday",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Swagger",
           "U-turn",
           "Follow Me"
@@ -38722,6 +39591,12 @@ overrides = {
       ],
       "evos": [
         "Lombre"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        14
       ]
     },
     "Lombre": {
@@ -38851,6 +39726,12 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Ludicolo"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ]
     },
     "Ludicolo": {
@@ -39048,6 +39929,12 @@ overrides = {
       ],
       "evos": [
         "Nuzleaf"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        14
       ]
     },
     "Nuzleaf": {
@@ -39179,6 +40066,12 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Shiftry"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone"
       ]
     },
     "Shiftry": {
@@ -39399,6 +40292,12 @@ overrides = {
       ],
       "evos": [
         "Swellow"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Swellow": {
@@ -39672,6 +40571,12 @@ overrides = {
       ],
       "evos": [
         "Pelipper"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Pelipper": {
@@ -39974,6 +40879,12 @@ overrides = {
       ],
       "evos": [
         "Kirlia"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Kirlia": {
@@ -40140,6 +41051,14 @@ overrides = {
       "evos": [
         "Gardevoir",
         "Gallade"
+      ],
+      "evoMethods": [
+        "level",
+        "useItem"
+      ],
+      "evoParams": [
+        30,
+        "Dawn Stone"
       ]
     },
     "Gardevoir": {
@@ -40413,7 +41332,7 @@ overrides = {
           "Round",
           "Wave Crash",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Draining Kiss",
           "Swagger",
           "Follow Me"
@@ -40434,6 +41353,12 @@ overrides = {
       ],
       "evos": [
         "Masquerain"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Masquerain": {
@@ -40559,7 +41484,7 @@ overrides = {
           "Wave Crash",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Draining Kiss",
           "Swagger",
           "U-turn",
@@ -40714,6 +41639,12 @@ overrides = {
       ],
       "evos": [
         "Breloom"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Breloom": {
@@ -40804,7 +41735,7 @@ overrides = {
           ],
           [
             37,
-            "Mind Reader"
+            "Focus In"
           ],
           [
             41,
@@ -40931,19 +41862,19 @@ overrides = {
             "Encore"
           ],
           [
-            13,
+            10,
             "Slack Off"
           ],
           [
-            19,
+            12,
             "Feint Attack"
           ],
           [
-            25,
+            15,
             "Amnesia"
           ],
           [
-            31,
+            17,
             "Covet"
           ],
           [
@@ -41016,6 +41947,12 @@ overrides = {
       ],
       "evos": [
         "Vigoroth"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Vigoroth": {
@@ -41060,36 +41997,40 @@ overrides = {
             "Encore"
           ],
           [
-            13,
+            18,
             "Uproar"
           ],
           [
-            19,
-            "Fury Swipes"
+            21,
+            "Crush Claw"
           ],
           [
-            25,
+            23,
             "Endure"
           ],
           [
-            31,
+            25,
             "Slash"
           ],
           [
-            37,
-            "Counter"
-          ],
-          [
-            43,
+            28,
             "Chip Away"
           ],
           [
-            49,
-            "Focus Punch"
+            30,
+            "Sucker Punch"
           ],
           [
-            55,
-            "Reversal"
+            32,
+            "Fire Fang"
+          ],
+          [
+            34,
+            "Thunder Fang"
+          ],
+          [
+            36,
+            "Ice Fang"
           ]
         ],
         "tms": [
@@ -41158,6 +42099,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Slaking"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Slaking": {
@@ -41187,19 +42134,7 @@ overrides = {
           ],
           [
             1,
-            "Fire Punch"
-          ],
-          [
-            1,
-            "Ice Punch"
-          ],
-          [
-            1,
-            "Thunder Punch"
-          ],
-          [
-            1,
-            "Yawn"
+            "Slack Off"
           ],
           [
             1,
@@ -41207,7 +42142,23 @@ overrides = {
           ],
           [
             1,
-            "Slack Off"
+            "Yawn"
+          ],
+          [
+            1,
+            "Rest"
+          ],
+          [
+            1,
+            "Ice Punch"
+          ],
+          [
+            1,
+            "Fire Punch"
+          ],
+          [
+            1,
+            "Thunder Punch"
           ],
           [
             7,
@@ -41231,39 +42182,47 @@ overrides = {
           ],
           [
             36,
-            "Swagger"
-          ],
-          [
-            37,
-            "Chip Away"
-          ],
-          [
-            43,
             "Counter"
           ],
           [
-            49,
+            39,
             "Flail"
           ],
           [
-            55,
+            40,
             "Fling"
           ],
           [
-            56,
+            42,
             "Double-Edge"
           ],
           [
-            61,
+            45,
             "Punishment"
           ],
           [
-            64,
+            48,
             "Skill Swap"
           ],
           [
-            67,
+            51,
             "Hammer Arm"
+          ],
+          [
+            53,
+            "Belly Drum"
+          ],
+          [
+            55,
+            "Power Up Punch"
+          ],
+          [
+            58,
+            "Hone Claws"
+          ],
+          [
+            62,
+            "Vampiric Fangs"
           ]
         ],
         "tms": [
@@ -41380,7 +42339,7 @@ overrides = {
           ],
           [
             19,
-            "Mind Reader"
+            "Focus In"
           ],
           [
             25,
@@ -41418,7 +42377,7 @@ overrides = {
           "Round",
           "Mercy Slice",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Swagger",
           "Follow Me",
@@ -41440,6 +42399,14 @@ overrides = {
       "evos": [
         "Ninjask",
         "Shedinja"
+      ],
+      "evoMethods": [
+        "level",
+        "level"
+      ],
+      "evoParams": [
+        20,
+        20
       ]
     },
     "Ninjask": {
@@ -41498,7 +42465,7 @@ overrides = {
           ],
           [
             19,
-            "Mind Reader"
+            "Focus In"
           ],
           [
             20,
@@ -41557,7 +42524,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -41626,7 +42593,7 @@ overrides = {
           ],
           [
             19,
-            "Mind Reader"
+            "Focus In"
           ],
           [
             25,
@@ -41678,7 +42645,7 @@ overrides = {
           "Bone Chill",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Dream Eater",
           "Swagger",
@@ -41820,6 +42787,12 @@ overrides = {
       ],
       "evos": [
         "Loudred"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Loudred": {
@@ -41962,6 +42935,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Exploud"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Exploud": {
@@ -42291,6 +43270,12 @@ overrides = {
       ],
       "evos": [
         "Hariyama"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Hariyama": {
@@ -42556,6 +43541,12 @@ overrides = {
       ],
       "evos": [
         "Marill"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Nosepass": {
@@ -42570,7 +43561,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 30,
+        "hp": 60,
         "at": 60,
         "df": 100,
         "sa": 20,
@@ -42692,9 +43683,6 @@ overrides = {
         "Sturdy",
         "Magnet Pull",
         "Sand Force"
-      ],
-      "evos": [
-        "Probopass"
       ]
     },
     "Skitty": {
@@ -42845,6 +43833,12 @@ overrides = {
       ],
       "evos": [
         "Delcatty"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Delcatty": {
@@ -43481,6 +44475,12 @@ overrides = {
       ],
       "evos": [
         "Lairon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Lairon": {
@@ -43641,6 +44641,12 @@ overrides = {
       "evoLevel": 32,
       "evos": [
         "Aggron"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        42
       ]
     },
     "Aggron": {
@@ -43891,7 +44897,7 @@ overrides = {
           ],
           [
             18,
-            "Mind Reader"
+            "Focus In"
           ],
           [
             22,
@@ -43995,6 +45001,12 @@ overrides = {
       ],
       "evos": [
         "Medicham"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        37
       ]
     },
     "Medicham": {
@@ -44065,7 +45077,7 @@ overrides = {
           ],
           [
             18,
-            "Mind Reader"
+            "Focus In"
           ],
           [
             22,
@@ -44295,6 +45307,12 @@ overrides = {
       ],
       "evos": [
         "Manectric"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Manectric": {
@@ -44588,6 +45606,12 @@ overrides = {
       "evos": [
         "Minun"
       ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
+      ],
       "evoType": "useItem",
       "evoItem": "Fire Stone"
     },
@@ -44745,6 +45769,12 @@ overrides = {
       "evoItem": "Water Stone",
       "evos": [
         "Plusle"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Fire Stone"
       ]
     },
     "Volbeat": {
@@ -44847,7 +45877,7 @@ overrides = {
           "Mayday",
           "Flash",
           "Thunder Wave",
-          "Mating Call",
+          "Natures Call",
           "Draining Kiss",
           "Swagger",
           "U-turn",
@@ -44970,7 +46000,7 @@ overrides = {
           "Mayday",
           "Flash",
           "Thunder Wave",
-          "Mating Call",
+          "Natures Call",
           "Draining Kiss",
           "Swagger",
           "U-turn",
@@ -45128,8 +46158,12 @@ overrides = {
       "evos": [
         "Roserade"
       ],
-      "evoType": "levelFriendship",
-      "evoCondition": "during the day"
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Shiny Stone"
+      ]
     },
     "Gulpin": {
       "name": "Gulpin",
@@ -45264,6 +46298,12 @@ overrides = {
       ],
       "evos": [
         "Swalot"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Swalot": {
@@ -45562,6 +46602,12 @@ overrides = {
       ],
       "evos": [
         "Sharpedo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Sharpedo": {
@@ -45851,6 +46897,12 @@ overrides = {
       ],
       "evos": [
         "Wailord"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Wailord": {
@@ -46151,6 +47203,12 @@ overrides = {
       ],
       "evos": [
         "Camerupt"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Fire Stone"
       ]
     },
     "Camerupt": {
@@ -46281,7 +47339,7 @@ overrides = {
           "Parting Shot",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -46444,7 +47502,7 @@ overrides = {
         ]
       },
       "abs": [
-        "White Smoke",
+        "Drought",
         " -",
         "Shell Armor"
       ]
@@ -46599,6 +47657,12 @@ overrides = {
       ],
       "evos": [
         "Grumpig"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Grumpig": {
@@ -47053,7 +48117,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -47078,6 +48142,12 @@ overrides = {
       ],
       "evos": [
         "Vibrava"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Vibrava": {
@@ -47152,7 +48222,7 @@ overrides = {
           ],
           [
             32,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             34,
@@ -47205,7 +48275,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "Swagger",
@@ -47240,6 +48310,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Flygon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Flygon": {
@@ -47379,7 +48455,7 @@ overrides = {
           "Incinerate",
           "Giga Impact",
           "Stone Edge",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "Draco Meteor",
@@ -47553,6 +48629,12 @@ overrides = {
       ],
       "evos": [
         "Cacturne"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Cacturne": {
@@ -47842,6 +48924,12 @@ overrides = {
       ],
       "evos": [
         "Altaria"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Altaria": {
@@ -48818,6 +49906,12 @@ overrides = {
       ],
       "evos": [
         "Whiscash"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Whiscash": {
@@ -49118,6 +50212,12 @@ overrides = {
       ],
       "evos": [
         "Crawdaunt"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Crawdaunt": {
@@ -49458,6 +50558,12 @@ overrides = {
       ],
       "evos": [
         "Claydol"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Claydol": {
@@ -49772,6 +50878,12 @@ overrides = {
       ],
       "evos": [
         "Cradily"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Cradily": {
@@ -50007,7 +51119,7 @@ overrides = {
           "Mercy Slice",
           "Rock Polish",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rock Slide",
           "X-Scissor",
           "Swagger",
@@ -50032,6 +51144,12 @@ overrides = {
       ],
       "evos": [
         "Armaldo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Armaldo": {
@@ -50139,7 +51257,7 @@ overrides = {
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -50275,10 +51393,6 @@ overrides = {
         "Stench",
         "Adaptability",
         "Adaptability"
-      ],
-      "evos": [
-        "Milotic",
-        "Milotic"
       ]
     },
     "Milotic": {
@@ -50445,9 +51559,7 @@ overrides = {
         "Marvel Scale",
         "Cute Charm",
         "Multiscale"
-      ],
-      "evoType": "useItem",
-      "evoItem": "Prism Scale"
+      ]
     },
     "Castform": {
       "name": "Castform",
@@ -50463,17 +51575,33 @@ overrides = {
       ],
       "bs": {
         "hp": 85,
-        "at": 85,
-        "df": 85,
-        "sa": 85,
-        "sd": 85,
-        "sp": 85
+        "at": 95,
+        "df": 65,
+        "sa": 95,
+        "sd": 65,
+        "sp": 115
       },
       "learnset_info": {
         "learnset": [
           [
             1,
             "Tackle"
+          ],
+          [
+            1,
+            "Charm"
+          ],
+          [
+            1,
+            "Pound"
+          ],
+          [
+            5,
+            "Baby Doll Eyes"
+          ],
+          [
+            10,
+            "Powder Snow"
           ],
           [
             10,
@@ -50484,12 +51612,16 @@ overrides = {
             "Ember"
           ],
           [
-            10,
-            "Powder Snow"
+            12,
+            "Round"
           ],
           [
             15,
             "Headbutt"
+          ],
+          [
+            17,
+            "Draining Kiss"
           ],
           [
             20,
@@ -50504,6 +51636,10 @@ overrides = {
             "Hail"
           ],
           [
+            25,
+            "Hyper Voice"
+          ],
+          [
             30,
             "Weather Ball"
           ],
@@ -50512,11 +51648,11 @@ overrides = {
             "Hydro Pump"
           ],
           [
-            40,
+            42,
             "Fire Blast"
           ],
           [
-            40,
+            44,
             "Blizzard"
           ]
         ],
@@ -50879,6 +52015,12 @@ overrides = {
       ],
       "evos": [
         "Banette"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Banette": {
@@ -51191,6 +52333,12 @@ overrides = {
       ],
       "evos": [
         "Dusclops"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Dusclops": {
@@ -51369,6 +52517,12 @@ overrides = {
       "evoLevel": 28,
       "evos": [
         "Dusknoir"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Tropius": {
@@ -51922,6 +53076,12 @@ overrides = {
       ],
       "evos": [
         "Wobbuffet"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Snorunt": {
@@ -52033,6 +53193,14 @@ overrides = {
       "evos": [
         "Glalie",
         "Froslass"
+      ],
+      "evoMethods": [
+        "level",
+        "useItem"
+      ],
+      "evoParams": [
+        42,
+        "Dawn Stone"
       ]
     },
     "Glalie": {
@@ -52290,6 +53458,12 @@ overrides = {
       ],
       "evos": [
         "Sealeo"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Sealeo": {
@@ -52420,6 +53594,12 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Walrein"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Walrein": {
@@ -52672,6 +53852,14 @@ overrides = {
       "evos": [
         "Huntail",
         "Gorebyss"
+      ],
+      "evoMethods": [
+        "trade",
+        "trade"
+      ],
+      "evoParams": [
+        "",
+        ""
       ]
     },
     "Huntail": {
@@ -53178,6 +54366,14 @@ overrides = {
       "evos": [
         "Alomomola",
         "Alomomola"
+      ],
+      "evoMethods": [
+        "useItem",
+        "level"
+      ],
+      "evoParams": [
+        "Heart Scale",
+        32
       ]
     },
     "Bagon": {
@@ -53298,6 +54494,12 @@ overrides = {
       ],
       "evos": [
         "Shelgon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Shelgon": {
@@ -53449,6 +54651,12 @@ overrides = {
       "evoLevel": 35,
       "evos": [
         "Salamence"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        54
       ]
     },
     "Salamence": {
@@ -53727,6 +54935,12 @@ overrides = {
       ],
       "evos": [
         "Metang"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Metang": {
@@ -53882,6 +55096,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Metagross"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Metagross": {
@@ -55697,6 +56917,12 @@ overrides = {
       ],
       "evos": [
         "Grotle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Grotle": {
@@ -55822,6 +57048,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Torterra"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Torterra": {
@@ -56114,6 +57346,12 @@ overrides = {
       ],
       "evos": [
         "Monferno"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        14
       ]
     },
     "Monferno": {
@@ -56270,6 +57508,12 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Infernape"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Infernape": {
@@ -56561,6 +57805,12 @@ overrides = {
       ],
       "evos": [
         "Brionne"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Brionne": {
@@ -56704,6 +57954,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Primarina"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Primarina": {
@@ -56769,7 +58025,11 @@ overrides = {
             "Sparkling Aria"
           ],
           [
-            43,
+            42,
+            "Hydro Blast"
+          ],
+          [
+            44,
             "Moonblast"
           ],
           [
@@ -56803,6 +58063,10 @@ overrides = {
           [
             70,
             "Psychic"
+          ],
+          [
+            72,
+            "Amplification"
           ]
         ],
         "tms": [
@@ -56979,6 +58243,12 @@ overrides = {
       ],
       "evos": [
         "Staravia"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        14
       ]
     },
     "Staravia": {
@@ -57098,6 +58368,12 @@ overrides = {
       "evoLevel": 14,
       "evos": [
         "Staraptor"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Staraptor": {
@@ -57350,6 +58626,12 @@ overrides = {
       ],
       "evos": [
         "Bibarel"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Bibarel": {
@@ -57547,6 +58829,12 @@ overrides = {
       ],
       "evos": [
         "Kricketune"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        10
       ]
     },
     "Kricketune": {
@@ -57646,7 +58934,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Swagger",
           "Follow Me",
@@ -57785,6 +59073,12 @@ overrides = {
       ],
       "evos": [
         "Luxio"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        15
       ]
     },
     "Luxio": {
@@ -57905,6 +59199,12 @@ overrides = {
       "evoLevel": 15,
       "evos": [
         "Luxray"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Luxray": {
@@ -58128,9 +59428,6 @@ overrides = {
         "Natural Cure",
         "Poison Point",
         "Leaf Guard"
-      ],
-      "evos": [
-        "Roselia"
       ]
     },
     "Roserade": {
@@ -58213,7 +59510,7 @@ overrides = {
           ],
           [
             1,
-            "Mating Call"
+            "Natures Call"
           ]
         ],
         "tms": [
@@ -58396,6 +59693,12 @@ overrides = {
       ],
       "evos": [
         "Rampardos"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Rampardos": {
@@ -58672,6 +59975,12 @@ overrides = {
       ],
       "evos": [
         "Bastiodon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Bastiodon": {
@@ -58928,6 +60237,14 @@ overrides = {
       "evos": [
         "Lycanroc",
         "Lycanroc-M"
+      ],
+      "evoMethods": [
+        "level",
+        "level"
+      ],
+      "evoParams": [
+        24,
+        24
       ]
     },
     "Lycanroc": {
@@ -58946,7 +60263,7 @@ overrides = {
         "hp": 75,
         "at": 105,
         "df": 90,
-        "sa": 40,
+        "sa": 55,
         "sd": 90,
         "sp": 85
       },
@@ -59054,12 +60371,15 @@ overrides = {
           "Low Sweep",
           "Round",
           "Energy Ball",
+          "Bone Chill",
           "Giga Impact",
           "Flash",
-          "Mating Call",
-          "Draining Kiss",
-          "Dream Eater",
-          "Grass Knot",
+          "Stone Edge",
+          "Swords Dance",
+          "Rollout",
+          "Rock Slide",
+          "X-Scissor",
+          "Tidy Up",
           "Swagger",
           "Follow Me",
           "Wild Charge",
@@ -59107,7 +60427,7 @@ overrides = {
         "at": 135,
         "df": 40,
         "sa": 100,
-        "sd": 20,
+        "sd": 35,
         "sp": 115
       },
       "learnset_info": {
@@ -59221,24 +60541,22 @@ overrides = {
           "Frustration",
           "Solar Beam",
           "Return",
-          "Psychic",
-          "Shadow Ball",
           "Double Team",
           "Aerial Ace",
+          "Torment",
           "Facade",
           "Rest",
           "Attract",
           "Low Sweep",
-          "Round",
-          "Energy Ball",
-          "Mayday",
+          "Infernal Parade",
+          "Bone Chill",
+          "Parting Shot",
           "Giga Impact",
-          "Flash",
-          "Mating Call",
-          "Draining Kiss",
-          "Dream Eater",
+          "Rollout",
+          "Rock Slide",
+          "X-Scissor",
+          "Tidy Up",
           "Swagger",
-          "U-turn",
           "Follow Me",
           "Wild Charge",
           "Rock Smash",
@@ -59347,6 +60665,12 @@ overrides = {
       ],
       "evos": [
         "Vespiquen"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Vespiquen": {
@@ -59488,7 +60812,7 @@ overrides = {
           "Mayday",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -59786,6 +61110,12 @@ overrides = {
       ],
       "evos": [
         "Floatzel"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Thunderstone"
       ]
     },
     "Floatzel": {
@@ -59920,6 +61250,8 @@ overrides = {
           "Protect",
           "Rain Dance",
           "Frustration",
+          "Thunderbolt",
+          "Thunder",
           "Return",
           "Dig",
           "Brick Break",
@@ -59936,6 +61268,8 @@ overrides = {
           "Wave Crash",
           "Parting Shot",
           "Giga Impact",
+          "Volt Switch",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Rock Smash",
@@ -60066,6 +61400,12 @@ overrides = {
       ],
       "evos": [
         "Cherrim"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Cherrim": {
@@ -60281,6 +61621,12 @@ overrides = {
       ],
       "evos": [
         "Gastrodon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Gastrodon": {
@@ -60706,6 +62052,12 @@ overrides = {
       ],
       "evos": [
         "Drifblim"
+      ],
+      "evoMethods": [
+        "levelFriendship"
+      ],
+      "evoParams": [
+        ""
       ]
     },
     "Drifblim": {
@@ -60812,7 +62164,7 @@ overrides = {
           ],
           [
             53,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             56,
@@ -61039,6 +62391,12 @@ overrides = {
       ],
       "evos": [
         "Lopunny"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Lopunny": {
@@ -61685,6 +63043,12 @@ overrides = {
       ],
       "evos": [
         "Purugly"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        38
       ]
     },
     "Purugly": {
@@ -61945,6 +63309,12 @@ overrides = {
       ],
       "evos": [
         "Chimecho"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Noibat": {
@@ -62092,6 +63462,12 @@ overrides = {
       ],
       "evos": [
         "Noivern"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Noivern": {
@@ -62414,6 +63790,12 @@ overrides = {
       ],
       "evos": [
         "Bronzong"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Bronzong": {
@@ -62721,6 +64103,12 @@ overrides = {
       ],
       "evos": [
         "Sudowoodo"
+      ],
+      "evoMethods": [
+        "levelMove"
+      ],
+      "evoParams": [
+        "Mimic"
       ]
     },
     "Mime Jr.": {
@@ -62883,6 +64271,12 @@ overrides = {
       ],
       "evos": [
         "Mr. Mime"
+      ],
+      "evoMethods": [
+        "levelMove"
+      ],
+      "evoParams": [
+        "Mimic"
       ]
     },
     "Happiny": {
@@ -62984,6 +64378,12 @@ overrides = {
       ],
       "evos": [
         "Chansey"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Oval Stone"
       ]
     },
     "Chatot": {
@@ -63401,6 +64801,12 @@ overrides = {
       ],
       "evos": [
         "Gabite"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Gabite": {
@@ -63546,6 +64952,12 @@ overrides = {
       "evoLevel": 26,
       "evos": [
         "Garchomp"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Garchomp": {
@@ -63884,9 +65296,6 @@ overrides = {
         "Pickup",
         "Thick Fat",
         "Gluttony"
-      ],
-      "evos": [
-        "Snorlax"
       ]
     },
     "Riolu": {
@@ -64017,6 +65426,12 @@ overrides = {
       ],
       "evos": [
         "Lucario"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        26
       ]
     },
     "Lucario": {
@@ -64309,6 +65724,12 @@ overrides = {
       ],
       "evos": [
         "Hippowdon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Hippowdon": {
@@ -64562,7 +65983,7 @@ overrides = {
           "Parting Shot",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -64588,6 +66009,12 @@ overrides = {
       ],
       "evos": [
         "Drapion"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Drapion": {
@@ -64743,7 +66170,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -64922,9 +66349,6 @@ overrides = {
         "Gluttony",
         "Dry Skin",
         "Poison Touch"
-      ],
-      "evos": [
-        "Toxicroak"
       ]
     },
     "Toxicroak": {
@@ -65093,9 +66517,7 @@ overrides = {
         "Gluttony",
         "Dry Skin",
         "Poison Touch"
-      ],
-      "evoType": "levelFriendship",
-      "evoCondition": "during the night"
+      ]
     },
     "Carnivine": {
       "name": "Carnivine",
@@ -65174,6 +66596,14 @@ overrides = {
           [
             51,
             "Power Whip"
+          ],
+          [
+            55,
+            "Gunk Shot"
+          ],
+          [
+            58,
+            "Guillotine"
           ]
         ],
         "tms": [
@@ -65206,6 +66636,7 @@ overrides = {
         "tutors": [
           "Bug Bite",
           "Seed Bomb",
+          "Gunk Shot",
           "Bind",
           "Snore",
           "Knock Off",
@@ -65321,6 +66752,7 @@ overrides = {
           "Parting Shot",
           "Flash",
           "Draining Kiss",
+          "Flip Turn",
           "Swagger",
           "U-turn",
           "Follow Me",
@@ -65345,6 +66777,12 @@ overrides = {
       ],
       "evos": [
         "Lumineon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Lumineon": {
@@ -65487,8 +66925,9 @@ overrides = {
           "Parting Shot",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Draining Kiss",
+          "Flip Turn",
           "Swagger",
           "U-turn",
           "Follow Me",
@@ -65640,6 +67079,12 @@ overrides = {
       ],
       "evos": [
         "Mantine"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Snover": {
@@ -65760,6 +67205,12 @@ overrides = {
       ],
       "evos": [
         "Abomasnow"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Abomasnow": {
@@ -66092,9 +67543,7 @@ overrides = {
         "Moxie",
         " -",
         "Unburden"
-      ],
-      "evoType": "levelFriendship",
-      "evoCondition": "during the night"
+      ]
     },
     "Magnezone": {
       "name": "Magnezone",
@@ -66362,7 +67811,7 @@ overrides = {
           ],
           [
             54,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             56,
@@ -66651,6 +68100,18 @@ overrides = {
           ],
           [
             1,
+            "Surf"
+          ],
+          [
+            1,
+            "Dive"
+          ],
+          [
+            1,
+            "Flip Turn"
+          ],
+          [
+            1,
             "Ingrain"
           ],
           [
@@ -66699,7 +68160,7 @@ overrides = {
           ],
           [
             40,
-            "Ancient Power"
+            "Hydro Blast"
           ],
           [
             43,
@@ -66759,7 +68220,10 @@ overrides = {
           "Follow Me",
           "Rock Smash",
           "Cut",
-          "Strength"
+          "Surf",
+          "Strength",
+          "Liquidation",
+          "Dive"
         ],
         "tutors": [
           "Seed Bomb",
@@ -66896,6 +68360,10 @@ overrides = {
           [
             65,
             "Strangle"
+          ],
+          [
+            68,
+            "Bolt Strike"
           ]
         ],
         "tms": [
@@ -67390,7 +68858,7 @@ overrides = {
           "Round",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Draining Kiss",
           "Dream Eater",
           "Swagger",
@@ -67893,7 +69361,7 @@ overrides = {
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -68484,7 +69952,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 60,
+        "hp": 80,
         "at": 90,
         "df": 145,
         "sa": 35,
@@ -68499,7 +69967,19 @@ overrides = {
           ],
           [
             1,
-            "Gravity"
+            "Rollout"
+          ],
+          [
+            1,
+            "Accelerock"
+          ],
+          [
+            1,
+            "Magnet Bomb"
+          ],
+          [
+            1,
+            "Recover"
           ],
           [
             1,
@@ -68507,11 +69987,11 @@ overrides = {
           ],
           [
             1,
-            "Iron Defense"
+            "Gravity"
           ],
           [
             1,
-            "Magnet Bomb"
+            "Iron Defense"
           ],
           [
             4,
@@ -68570,7 +70050,7 @@ overrides = {
             "Lock-On"
           ],
           [
-            50,
+            54,
             "Zap Cannon"
           ]
         ],
@@ -68630,9 +70110,7 @@ overrides = {
         "Sturdy",
         "Volt Absorb",
         "Sand Force"
-      ],
-      "evoType": "levelExtra",
-      "evoCondition": "Level Up in Mt. Coronet"
+      ]
     },
     "Dusknoir": {
       "name": "Dusknoir",
@@ -68658,7 +70136,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Pound"
+            "Soul Choke"
           ],
           [
             1,
@@ -70479,9 +71957,6 @@ overrides = {
         "Drizzle",
         "Wonder Skin",
         " -"
-      ],
-      "evos": [
-        "Manaphy"
       ]
     },
     "Manaphy": {
@@ -70539,28 +72014,44 @@ overrides = {
             "Liquify"
           ],
           [
+            33,
+            "Hydro Blast"
+          ],
+          [
             39,
             "Whirlpool"
           ],
           [
-            46,
+            41,
             "Water Pulse"
           ],
           [
-            54,
+            45,
             "Aqua Ring"
           ],
           [
-            61,
-            "Dive"
-          ],
-          [
-            69,
+            48,
             "Rain Dance"
           ],
           [
-            76,
-            "Heart Swap"
+            52,
+            "Amplification"
+          ],
+          [
+            55,
+            "Natures Call"
+          ],
+          [
+            58,
+            "Quiver Dance"
+          ],
+          [
+            62,
+            "1st Impression"
+          ],
+          [
+            65,
+            "Surf"
           ]
         ],
         "tms": [
@@ -70617,8 +72108,7 @@ overrides = {
         "Drizzle",
         "Wonder Skin",
         " -"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Darkrai": {
       "name": "Darkrai",
@@ -70655,40 +72145,68 @@ overrides = {
             "Quick Attack"
           ],
           [
+            15,
+            "Double Team"
+          ],
+          [
             20,
             "Hypnosis"
           ],
           [
-            29,
+            23,
             "Feint Attack"
           ],
           [
-            38,
+            27,
+            "Snarl"
+          ],
+          [
+            29,
             "Nightmare"
           ],
           [
-            47,
-            "Double Team"
+            32,
+            "Hex"
           ],
           [
-            57,
+            34,
             "Haze"
           ],
           [
-            66,
+            36,
             "Dark Void"
           ],
           [
-            75,
-            "Nasty Plot"
+            39,
+            "Night Daze"
           ],
           [
-            84,
+            42,
             "Dream Eater"
           ],
           [
-            93,
+            45,
             "Dark Pulse"
+          ],
+          [
+            48,
+            "Sludge Bomb"
+          ],
+          [
+            52,
+            "Earth Power"
+          ],
+          [
+            55,
+            "Mayday"
+          ],
+          [
+            58,
+            "Bitter Malice"
+          ],
+          [
+            65,
+            "Nasty Plot"
           ]
         ],
         "tms": [
@@ -71325,35 +72843,35 @@ overrides = {
             "Tackle"
           ],
           [
+            1,
+            "Endure"
+          ],
+          [
             4,
             "Leer"
           ],
           [
-            7,
+            6,
             "Vine Whip"
           ],
           [
-            9,
+            7,
             "Twister"
           ],
           [
-            10,
+            8,
             "Wrap"
           ],
           [
-            13,
+            10,
             "Growth"
           ],
           [
-            16,
-            "Leaf Tornado"
-          ],
-          [
-            19,
+            13,
             "Leech Seed"
           ],
           [
-            22,
+            15,
             "Mega Drain"
           ],
           [
@@ -71436,6 +72954,12 @@ overrides = {
       ],
       "evos": [
         "Servine"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Servine": {
@@ -71466,11 +72990,15 @@ overrides = {
           ],
           [
             1,
-            "Wrap"
+            "Leer"
           ],
           [
             1,
-            "Leer"
+            "Endure"
+          ],
+          [
+            1,
+            "Wrap"
           ],
           [
             4,
@@ -71594,6 +73122,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Serperior"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Serperior": {
@@ -71801,6 +73335,10 @@ overrides = {
             "Tackle"
           ],
           [
+            1,
+            "Flatter"
+          ],
+          [
             3,
             "Tail Whip"
           ],
@@ -71915,6 +73453,12 @@ overrides = {
       ],
       "evos": [
         "Pignite"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Pignite": {
@@ -72088,6 +73632,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Emboar"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Emboar": {
@@ -72304,6 +73854,10 @@ overrides = {
         "learnset": [
           [
             1,
+            "Swift"
+          ],
+          [
+            3,
             "Pound"
           ],
           [
@@ -72394,6 +73948,7 @@ overrides = {
           "Fling",
           "Retaliate",
           "Swords Dance",
+          "Flip Turn",
           "X-Scissor",
           "Grass Knot",
           "Swagger",
@@ -72422,6 +73977,12 @@ overrides = {
       ],
       "evos": [
         "Dewott"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        18
       ]
     },
     "Dewott": {
@@ -72542,6 +74103,7 @@ overrides = {
           "Fling",
           "Retaliate",
           "Swords Dance",
+          "Flip Turn",
           "X-Scissor",
           "Grass Knot",
           "Swagger",
@@ -72572,6 +74134,12 @@ overrides = {
       "evoLevel": 18,
       "evos": [
         "Samurott"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Samurott": {
@@ -72714,6 +74282,7 @@ overrides = {
           "Retaliate",
           "Giga Impact",
           "Swords Dance",
+          "Flip Turn",
           "X-Scissor",
           "Draco Meteor",
           "Grass Knot",
@@ -72880,6 +74449,12 @@ overrides = {
       ],
       "evos": [
         "Watchog"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Watchog": {
@@ -73187,6 +74762,12 @@ overrides = {
       ],
       "evos": [
         "Herdier"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Herdier": {
@@ -73322,6 +74903,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Stoutland"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        32
       ]
     },
     "Stoutland": {
@@ -73643,6 +75230,12 @@ overrides = {
       ],
       "evos": [
         "Liepard"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Liepard": {
@@ -73966,6 +75559,12 @@ overrides = {
       ],
       "evos": [
         "Simisage"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Leaf Stone"
       ]
     },
     "Simisage": {
@@ -74261,6 +75860,12 @@ overrides = {
       ],
       "evos": [
         "Simisear"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Fire Stone"
       ]
     },
     "Simisear": {
@@ -74559,6 +76164,12 @@ overrides = {
       ],
       "evos": [
         "Simipour"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ]
     },
     "Simipour": {
@@ -74675,6 +76286,7 @@ overrides = {
           "Bone Chill",
           "Parting Shot",
           "Giga Impact",
+          "Flip Turn",
           "Rock Slide",
           "Tidy Up",
           "Grass Knot",
@@ -74866,6 +76478,12 @@ overrides = {
       ],
       "evos": [
         "Musharna"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Moon Stone"
       ]
     },
     "Musharna": {
@@ -75031,6 +76649,10 @@ overrides = {
             "Gust"
           ],
           [
+            3,
+            "Wing Attack"
+          ],
+          [
             4,
             "Growl"
           ],
@@ -75039,12 +76661,20 @@ overrides = {
             "Leer"
           ],
           [
-            7,
+            6,
             "Quick Attack"
+          ],
+          [
+            8,
+            "Peck"
           ],
           [
             10,
             "Air Cutter"
+          ],
+          [
+            11,
+            "Pluck"
           ],
           [
             13,
@@ -75127,6 +76757,12 @@ overrides = {
       ],
       "evos": [
         "Tranquill"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        21
       ]
     },
     "Tranquill": {
@@ -75274,6 +76910,12 @@ overrides = {
       "evoLevel": 21,
       "evos": [
         "Unfezant"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Unfezant": {
@@ -75465,7 +77107,7 @@ overrides = {
             "Quick Attack"
           ],
           [
-            1,
+            2,
             "Coil"
           ],
           [
@@ -75556,6 +77198,12 @@ overrides = {
       ],
       "evos": [
         "Zebstrika"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        27
       ]
     },
     "Zebstrika": {
@@ -75595,10 +77243,6 @@ overrides = {
           [
             1,
             "Coil"
-          ],
-          [
-            1,
-            "Thunder Wave"
           ],
           [
             1,
@@ -75675,6 +77319,10 @@ overrides = {
           [
             65,
             "High Horsepower"
+          ],
+          [
+            68,
+            "Bolt Strike"
           ]
         ],
         "tms": [
@@ -75838,6 +77486,12 @@ overrides = {
       ],
       "evos": [
         "Boldore"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Boldore": {
@@ -75971,6 +77625,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Gigalith"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Gigalith": {
@@ -76283,9 +77943,6 @@ overrides = {
         "Unaware",
         "Simple",
         "Simple"
-      ],
-      "evos": [
-        "Swoobat"
       ]
     },
     "Swoobat": {
@@ -76474,8 +78131,7 @@ overrides = {
         "Unaware",
         "Simple",
         "Simple"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Drilbur": {
       "name": "Drilbur",
@@ -76611,6 +78267,12 @@ overrides = {
       ],
       "evos": [
         "Excadrill"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        31
       ]
     },
     "Excadrill": {
@@ -76877,6 +78539,10 @@ overrides = {
             "Heal Pulse"
           ],
           [
+            38,
+            "Delirious Drench"
+          ],
+          [
             40,
             "After You"
           ],
@@ -77115,6 +78781,12 @@ overrides = {
       ],
       "evos": [
         "Gurdurr"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Gurdurr": {
@@ -77264,6 +78936,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Conkeldurr"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Conkeldurr": {
@@ -77491,6 +79169,10 @@ overrides = {
             "Uproar"
           ],
           [
+            25,
+            "Flip Turn"
+          ],
+          [
             27,
             "Muddy Water"
           ],
@@ -77532,6 +79214,8 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Wave Crash",
+          "Rollout",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Surf"
@@ -77554,6 +79238,12 @@ overrides = {
       ],
       "evos": [
         "Palpitoad"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Palpitoad": {
@@ -77584,15 +79274,19 @@ overrides = {
           ],
           [
             1,
+            "Round"
+          ],
+          [
+            1,
+            "Flip Turn"
+          ],
+          [
+            1,
             "Growl"
           ],
           [
             1,
             "Supersonic"
-          ],
-          [
-            1,
-            "Round"
           ],
           [
             5,
@@ -77661,6 +79355,7 @@ overrides = {
           "Echoed Voice",
           "Wave Crash",
           "Rollout",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Rock Smash",
@@ -77688,6 +79383,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Seismitoad"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Seismitoad": {
@@ -77718,19 +79419,7 @@ overrides = {
           ],
           [
             1,
-            "Swords Dance"
-          ],
-          [
-            1,
-            "Agility"
-          ],
-          [
-            1,
-            "Play Rough"
-          ],
-          [
-            1,
-            "Supersonic"
+            "Round"
           ],
           [
             1,
@@ -77738,7 +79427,23 @@ overrides = {
           ],
           [
             1,
-            "Round"
+            "Supersonic"
+          ],
+          [
+            1,
+            "Flip Turn"
+          ],
+          [
+            1,
+            "Agility"
+          ],
+          [
+            1,
+            "Swords Dance"
+          ],
+          [
+            1,
+            "Play Rough"
           ],
           [
             5,
@@ -77832,7 +79537,9 @@ overrides = {
           "Fling",
           "Parting Shot",
           "Giga Impact",
+          "Stone Edge",
           "Rollout",
+          "Flip Turn",
           "Rock Slide",
           "Poison Jab",
           "Grass Knot",
@@ -78271,7 +79978,7 @@ overrides = {
           "Energy Ball",
           "Parting Shot",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -78299,6 +80006,12 @@ overrides = {
       ],
       "evos": [
         "Swadloon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Swadloon": {
@@ -78395,7 +80108,7 @@ overrides = {
           "Energy Ball",
           "Parting Shot",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Dream Eater",
           "Grass Knot",
           "Swagger",
@@ -78422,10 +80135,7 @@ overrides = {
         "Overcoat"
       ],
       "evoType": "level",
-      "evoLevel": 20,
-      "evos": [
-        "Leavanny"
-      ]
+      "evoLevel": 20
     },
     "Leavanny": {
       "name": "Leavanny",
@@ -78554,7 +80264,7 @@ overrides = {
           "Giga Impact",
           "Flash",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Dream Eater",
@@ -78584,8 +80294,7 @@ overrides = {
         "Thick Fat",
         "Chlorophyll",
         "Overcoat"
-      ],
-      "evoType": "levelFriendship"
+      ]
     },
     "Venipede": {
       "name": "Venipede",
@@ -78683,7 +80392,7 @@ overrides = {
           "Round",
           "Parting Shot",
           "Gyro Ball",
-          "Mating Call",
+          "Natures Call",
           "Poison Jab",
           "Swagger",
           "Follow Me",
@@ -78704,6 +80413,12 @@ overrides = {
       ],
       "evos": [
         "Whirlipede"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        22
       ]
     },
     "Whirlipede": {
@@ -78818,7 +80533,7 @@ overrides = {
           "Round",
           "Parting Shot",
           "Gyro Ball",
-          "Mating Call",
+          "Natures Call",
           "Poison Jab",
           "Swagger",
           "Follow Me",
@@ -78841,6 +80556,12 @@ overrides = {
       "evoLevel": 22,
       "evos": [
         "Scolipede"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Scolipede": {
@@ -78985,7 +80706,7 @@ overrides = {
           "Giga Impact",
           "Gyro Ball",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -79009,7 +80730,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Poison Point",
+        "Speed Boost",
         "Moxie",
         "Quick Feet"
       ],
@@ -79145,6 +80866,12 @@ overrides = {
       ],
       "evos": [
         "Whimsicott"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Sun Stone"
       ]
     },
     "Whimsicott": {
@@ -79403,6 +81130,12 @@ overrides = {
       ],
       "evos": [
         "Lilligant"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Sun Stone"
       ]
     },
     "Lilligant": {
@@ -79599,11 +81332,11 @@ overrides = {
           ],
           [
             26,
-            "Swords Dance"
+            "Nasty Plot"
           ],
           [
             26,
-            "Nasty Plot"
+            "Swords Dance"
           ],
           [
             28,
@@ -79670,6 +81403,7 @@ overrides = {
           "Attract",
           "Round",
           "Wave Crash",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Cut",
@@ -79840,6 +81574,12 @@ overrides = {
       ],
       "evos": [
         "Krokorok"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Krokorok": {
@@ -80006,6 +81746,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Krookodile"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Krookodile": {
@@ -80331,6 +82077,12 @@ overrides = {
       ],
       "evos": [
         "Darmanitan"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Darmanitan": {
@@ -80783,7 +82535,7 @@ overrides = {
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -80811,6 +82563,12 @@ overrides = {
       ],
       "evos": [
         "Crustle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Crustle": {
@@ -80933,7 +82691,7 @@ overrides = {
           "Rock Polish",
           "Stone Edge",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "Rollout",
           "Rock Slide",
           "X-Scissor",
@@ -81119,6 +82877,12 @@ overrides = {
       ],
       "evos": [
         "Scrafty"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Scrafty": {
@@ -81625,6 +83389,12 @@ overrides = {
       ],
       "evos": [
         "Cofagrigus"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Cofagrigus": {
@@ -81667,7 +83437,7 @@ overrides = {
           ],
           [
             5,
-            "Disable"
+            "Soul Choke"
           ],
           [
             9,
@@ -81950,6 +83720,12 @@ overrides = {
       ],
       "evos": [
         "Carracosta"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        37
       ]
     },
     "Carracosta": {
@@ -81984,7 +83760,7 @@ overrides = {
           ],
           [
             1,
-            "Water Gun"
+            "Hydro Blast"
           ],
           [
             1,
@@ -82291,6 +84067,12 @@ overrides = {
       ],
       "evos": [
         "Archeops"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        37
       ]
     },
     "Archeops": {
@@ -82608,6 +84390,12 @@ overrides = {
       ],
       "evos": [
         "Garbodor"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Garbodor": {
@@ -82922,6 +84710,12 @@ overrides = {
       ],
       "evos": [
         "Zoroark"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        40
       ]
     },
     "Zoroark": {
@@ -83255,6 +85049,12 @@ overrides = {
       ],
       "evos": [
         "Cinccino"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Shiny Stone"
       ]
     },
     "Cinccino": {
@@ -83534,6 +85334,12 @@ overrides = {
       ],
       "evos": [
         "Gothorita"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Gothorita": {
@@ -83708,6 +85514,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Gothitelle"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Gothitelle": {
@@ -84052,6 +85864,12 @@ overrides = {
       ],
       "evos": [
         "Duosion"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Duosion": {
@@ -84223,6 +86041,12 @@ overrides = {
       "evoLevel": 16,
       "evos": [
         "Reuniclus"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Reuniclus": {
@@ -84542,6 +86366,12 @@ overrides = {
       ],
       "evos": [
         "Swanna"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Swanna": {
@@ -84826,6 +86656,12 @@ overrides = {
       ],
       "evos": [
         "Vanillish"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        20
       ]
     },
     "Vanillish": {
@@ -84965,6 +86801,12 @@ overrides = {
       "evoLevel": 20,
       "evos": [
         "Vanilluxe"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Vanilluxe": {
@@ -85079,7 +86921,7 @@ overrides = {
           ],
           [
             52,
-            "Frigid Eruption"
+            "Absolute Zero"
           ]
         ],
         "tms": [
@@ -85255,6 +87097,12 @@ overrides = {
       ],
       "evos": [
         "Sawsbuck"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        16
       ]
     },
     "Sawsbuck": {
@@ -85467,10 +87315,6 @@ overrides = {
             "Whirlwind"
           ],
           [
-            4,
-            "Quick Attack"
-          ],
-          [
             7,
             "Tail Whip"
           ],
@@ -85517,6 +87361,10 @@ overrides = {
           [
             42,
             "Volt Switch"
+          ],
+          [
+            44,
+            "Radiant Burst"
           ],
           [
             46,
@@ -85694,7 +87542,7 @@ overrides = {
           "Energy Ball",
           "Mercy Slice",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -85717,6 +87565,12 @@ overrides = {
       ],
       "evos": [
         "Escavalier"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Escavalier": {
@@ -85849,7 +87703,7 @@ overrides = {
           "Mercy Slice",
           "Giga Impact",
           "Swords Dance",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -86000,6 +87854,12 @@ overrides = {
       ],
       "evos": [
         "Amoonguss"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Amoonguss": {
@@ -86295,6 +88155,12 @@ overrides = {
       ],
       "evos": [
         "Jellicent"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Water Stone"
       ]
     },
     "Jellicent": {
@@ -86739,7 +88605,7 @@ overrides = {
           "Flash",
           "Volt Switch",
           "Thunder Wave",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -86766,6 +88632,12 @@ overrides = {
       ],
       "evos": [
         "Galvantula"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Galvantula": {
@@ -86910,7 +88782,7 @@ overrides = {
           "Flash",
           "Volt Switch",
           "Thunder Wave",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Poison Jab",
           "Swagger",
@@ -87069,6 +88941,12 @@ overrides = {
       ],
       "evos": [
         "Ferrothorn"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Ferrothorn": {
@@ -87372,6 +89250,12 @@ overrides = {
       ],
       "evos": [
         "Klang"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        24
       ]
     },
     "Klang": {
@@ -87517,6 +89401,12 @@ overrides = {
       "evoLevel": 24,
       "evos": [
         "Klinklang"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        49
       ]
     },
     "Klinklang": {
@@ -87759,6 +89649,12 @@ overrides = {
       ],
       "evos": [
         "Eelektrik"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        28
       ]
     },
     "Eelektrik": {
@@ -87893,6 +89789,12 @@ overrides = {
       "evoLevel": 28,
       "evos": [
         "Eelektross"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Thunderstone"
       ]
     },
     "Eelektross": {
@@ -88224,6 +90126,12 @@ overrides = {
       ],
       "evos": [
         "Beheeyem"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        42
       ]
     },
     "Beheeyem": {
@@ -88551,6 +90459,12 @@ overrides = {
       ],
       "evos": [
         "Lampent"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        25
       ]
     },
     "Lampent": {
@@ -88707,6 +90621,12 @@ overrides = {
       "evoLevel": 25,
       "evos": [
         "Chandelure"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dusk Stone"
       ]
     },
     "Chandelure": {
@@ -88762,6 +90682,10 @@ overrides = {
           [
             1,
             "Energy Ball"
+          ],
+          [
+            1,
+            "Blue Flare"
           ]
         ],
         "tms": [
@@ -88960,6 +90884,12 @@ overrides = {
       ],
       "evos": [
         "Fraxure"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Fraxure": {
@@ -89119,6 +91049,12 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Haxorus"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        48
       ]
     },
     "Haxorus": {
@@ -89436,6 +91372,12 @@ overrides = {
       ],
       "evos": [
         "Beartic"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        34
       ]
     },
     "Beartic": {
@@ -89876,7 +91818,7 @@ overrides = {
           "Attract",
           "Round",
           "Energy Ball",
-          "Mating Call",
+          "Natures Call",
           "Swagger",
           "Follow Me"
         ],
@@ -89896,6 +91838,12 @@ overrides = {
       ],
       "evos": [
         "Accelgor"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Accelgor": {
@@ -90031,8 +91979,9 @@ overrides = {
           "Round",
           "Focus Blast",
           "Energy Ball",
+          "Parting Shot",
           "Giga Impact",
-          "Mating Call",
+          "Natures Call",
           "Swagger",
           "U-turn",
           "Follow Me"
@@ -90336,6 +92285,12 @@ overrides = {
       ],
       "evos": [
         "Mienshao"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        50
       ]
     },
     "Mienshao": {
@@ -90640,6 +92595,7 @@ overrides = {
           "Parting Shot",
           "Retaliate",
           "Giga Impact",
+          "Stone Edge",
           "Rollout",
           "Rock Slide",
           "Draco Meteor",
@@ -90820,6 +92776,12 @@ overrides = {
       ],
       "evos": [
         "Golurk"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        36
       ]
     },
     "Golurk": {
@@ -90847,6 +92809,18 @@ overrides = {
           [
             1,
             "Pound"
+          ],
+          [
+            1,
+            "Roar"
+          ],
+          [
+            1,
+            "Stomp"
+          ],
+          [
+            1,
+            "Ceaseless Edge"
           ],
           [
             1,
@@ -90889,28 +92863,36 @@ overrides = {
             "Dynamic Punch"
           ],
           [
-            35,
-            "Night Shade"
-          ],
-          [
-            40,
+            32,
             "Curse"
           ],
           [
-            43,
+            35,
             "Heavy Slam"
           ],
           [
-            50,
+            38,
             "Earthquake"
           ],
           [
-            60,
+            41,
             "Hammer Arm"
           ],
           [
-            70,
+            44,
             "Focus Punch"
+          ],
+          [
+            47,
+            "Soul Choke"
+          ],
+          [
+            50,
+            "High Horsepower"
+          ],
+          [
+            54,
+            "Rampage"
           ]
         ],
         "tms": [
@@ -91138,6 +93120,12 @@ overrides = {
       ],
       "evos": [
         "Bisharp"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        35
       ]
     },
     "Bisharp": {
@@ -91594,6 +93582,7 @@ overrides = {
           "Protect",
           "Rain Dance",
           "Frustration",
+          "Smack Down",
           "Return",
           "Double Team",
           "Accelerock",
@@ -91605,6 +93594,8 @@ overrides = {
           "Sky Drop",
           "Bone Chill",
           "Retaliate",
+          "Stone Edge",
+          "Rollout",
           "Rock Slide",
           "Tidy Up",
           "Swagger",
@@ -91632,6 +93623,12 @@ overrides = {
       ],
       "evos": [
         "Braviary"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Braviary": {
@@ -91759,6 +93756,7 @@ overrides = {
           "Protect",
           "Rain Dance",
           "Frustration",
+          "Smack Down",
           "Return",
           "Double Team",
           "Accelerock",
@@ -91771,6 +93769,8 @@ overrides = {
           "Bone Chill",
           "Retaliate",
           "Giga Impact",
+          "Stone Edge",
+          "Rollout",
           "Rock Slide",
           "Tidy Up",
           "Swagger",
@@ -91941,6 +93941,12 @@ overrides = {
       ],
       "evos": [
         "Mandibuzz"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Mandibuzz": {
@@ -92417,7 +94423,7 @@ overrides = {
           "Rock Polish",
           "Stone Edge",
           "Thunder Wave",
-          "Mating Call",
+          "Natures Call",
           "Rock Slide",
           "X-Scissor",
           "Swagger",
@@ -92580,6 +94586,12 @@ overrides = {
       ],
       "evos": [
         "Zweilous"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        30
       ]
     },
     "Zweilous": {
@@ -92729,6 +94741,12 @@ overrides = {
       "evoLevel": 30,
       "evos": [
         "Hydreigon"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Hydreigon": {
@@ -92783,7 +94801,7 @@ overrides = {
           ],
           [
             9,
-            "Mating Call"
+            "Natures Call"
           ],
           [
             12,
@@ -92935,20 +94953,24 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 85,
+        "at": 35,
         "df": 55,
-        "sa": 50,
+        "sa": 85,
         "sd": 55,
-        "sp": 60
+        "sp": 75
       },
       "learnset_info": {
         "learnset": [
           [
             1,
+            "Gust"
+          ],
+          [
+            5,
             "Ember"
           ],
           [
-            1,
+            8,
             "String Shot"
           ],
           [
@@ -92956,40 +94978,52 @@ overrides = {
             "Leech Life"
           ],
           [
-            20,
-            "Take Down"
+            13,
+            "Gust"
           ],
           [
-            30,
-            "Flame Charge"
+            16,
+            "Fire Spin"
           ],
           [
-            40,
-            "Bug Bite"
+            19,
+            "Whirlwind"
           ],
           [
-            50,
-            "Double-Edge"
+            22,
+            "Silver Wind"
           ],
           [
-            60,
-            "Flame Wheel"
+            25,
+            "Quiver Dance"
           ],
           [
-            70,
-            "Bug Buzz"
+            27,
+            "Torch Song"
           ],
           [
-            80,
-            "Amnesia"
+            31,
+            "Natures Call"
           ],
           [
-            90,
-            "Rampage"
+            33,
+            "Tailwind"
           ],
           [
-            100,
-            "Flare Blitz"
+            35,
+            "Glare"
+          ],
+          [
+            38,
+            "Night Daze"
+          ],
+          [
+            42,
+            "Horn Leech"
+          ],
+          [
+            44,
+            "Calm Mind"
           ]
         ],
         "tms": [
@@ -93015,7 +95049,7 @@ overrides = {
           "Incinerate",
           "Will-O-Wisp",
           "Mayday",
-          "Mating Call",
+          "Natures Call",
           "Swagger",
           "U-turn",
           "Follow Me",
@@ -93034,11 +95068,17 @@ overrides = {
       },
       "abs": [
         "Flame Body",
-        " -",
+        "Tinted Lens",
         "Swarm"
       ],
       "evos": [
         "Volcarona"
+      ],
+      "evoMethods": [
+        "level"
+      ],
+      "evoParams": [
+        45
       ]
     },
     "Volcarona": {
@@ -93113,7 +95153,7 @@ overrides = {
           ],
           [
             45,
-            "Heat Wave"
+            "Fiery Dance"
           ],
           [
             47,
@@ -93122,6 +95162,10 @@ overrides = {
           [
             51,
             "Bug Buzz"
+          ],
+          [
+            53,
+            "Heat Wave"
           ],
           [
             55,
@@ -93138,10 +95182,6 @@ overrides = {
           [
             66,
             "Hurricane"
-          ],
-          [
-            70,
-            "Fiery Dance"
           ]
         ],
         "tms": [
@@ -93170,7 +95210,7 @@ overrides = {
           "Will-O-Wisp",
           "Mayday",
           "Giga Impact",
-          "Mating Call",
+          "Natures Call",
           "Poison Jab",
           "Swagger",
           "U-turn",
@@ -94547,7 +96587,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Pressure",
+        "Multiscale",
         " -",
         " -"
       ]
@@ -95011,7 +97051,7 @@ overrides = {
           "Rock Polish",
           "Flash",
           "Thunder Wave",
-          "Mating Call",
+          "Natures Call",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -96865,7 +98905,7 @@ overrides = {
         "hp": 75,
         "at": 105,
         "df": 90,
-        "sa": 40,
+        "sa": 55,
         "sd": 90,
         "sp": 85
       },
@@ -96977,7 +99017,7 @@ overrides = {
           "Round",
           "Giga Impact",
           "Flash",
-          "Mating Call",
+          "Natures Call",
           "Draining Kiss",
           "Rollout",
           "Dream Eater",
@@ -97023,9 +99063,9 @@ overrides = {
         "hp": 75,
         "at": 105,
         "df": 90,
-        "sa": 40,
+        "sa": 55,
         "sd": 90,
-        "sp": 95
+        "sp": 85
       },
       "learnset_info": {
         "learnset": [
@@ -97129,11 +99169,12 @@ overrides = {
           "Attract",
           "Low Sweep",
           "Round",
+          "Parting Shot",
+          "Retaliate",
           "Giga Impact",
-          "Flash",
-          "Gyro Ball",
-          "Mating Call",
-          "Draining Kiss",
+          "Rock Polish",
+          "Stone Edge",
+          "Rollout",
           "Dream Eater",
           "Swagger",
           "Follow Me",
@@ -98079,7 +100120,8 @@ overrides = {
       "name": "Castform-Sunny",
       "num": 697,
       "types": [
-        "Fire"
+        "Fire",
+        "Fairy"
       ],
       "items": [
         "Mystic Water",
@@ -98088,11 +100130,11 @@ overrides = {
       ],
       "bs": {
         "hp": 85,
-        "at": 85,
+        "at": 95,
         "df": 85,
-        "sa": 85,
+        "sa": 95,
         "sd": 85,
-        "sp": 85
+        "sp": 115
       },
       "learnset_info": {
         "learnset": [
@@ -98198,7 +100240,8 @@ overrides = {
       "name": "Castform-Rainy",
       "num": 698,
       "types": [
-        "Water"
+        "Water",
+        "Fairy"
       ],
       "items": [
         "Mystic Water",
@@ -98207,11 +100250,11 @@ overrides = {
       ],
       "bs": {
         "hp": 85,
-        "at": 85,
+        "at": 95,
         "df": 85,
-        "sa": 85,
+        "sa": 95,
         "sd": 85,
-        "sp": 85
+        "sp": 115
       },
       "learnset_info": {
         "learnset": [
@@ -98317,7 +100360,8 @@ overrides = {
       "name": "Castform-Snowy",
       "num": 699,
       "types": [
-        "Ice"
+        "Ice",
+        "Fairy"
       ],
       "items": [
         "Mystic Water",
@@ -98326,11 +100370,11 @@ overrides = {
       ],
       "bs": {
         "hp": 85,
-        "at": 85,
+        "at": 95,
         "df": 85,
-        "sa": 85,
+        "sa": 95,
         "sd": 85,
-        "sp": 85
+        "sp": 115
       },
       "learnset_info": {
         "learnset": [
@@ -98566,6 +100610,7 @@ overrides = {
           "Attract",
           "Round",
           "Wave Crash",
+          "Flip Turn",
           "Swagger",
           "Follow Me",
           "Cut",
@@ -98939,6 +100984,12 @@ overrides = {
       ],
       "evos": [
         "Meloetta"
+      ],
+      "evoMethods": [
+        "useItem"
+      ],
+      "evoParams": [
+        "Dawn Stone"
       ]
     },
     "Kyurem-White": {
@@ -98965,7 +101016,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Dragon Rage"
+            "Strangle"
           ],
           [
             1,
@@ -99001,27 +101052,7 @@ overrides = {
           ],
           [
             50,
-            "Frigid Eruption"
-          ],
-          [
-            57,
-            "Dragon Pulse"
-          ],
-          [
-            69,
-            "Dragon Pulse"
-          ],
-          [
-            69,
-            "Frigid Eruption"
-          ],
-          [
-            69,
-            "Fusion Flare"
-          ],
-          [
-            69,
-            "Hyper Voice"
+            "Absolute Zero"
           ],
           [
             71,
@@ -99030,6 +101061,22 @@ overrides = {
           [
             78,
             "Blizzard"
+          ],
+          [
+            80,
+            "Strangle"
+          ],
+          [
+            80,
+            "Absolute Zero"
+          ],
+          [
+            80,
+            "Fusion Flare"
+          ],
+          [
+            80,
+            "Fusion Bolt"
           ],
           [
             85,
@@ -99854,8 +101901,9 @@ overrides = {
       "acc": 100,
       "prio": 0,
       "name": "Pound",
-      "num": 998,
-      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
+      "num": 0,
+      "oldDesc": "The target is physically pounded with a long tail or a foreleg, etc.",
+      "desc": "The target is physically pounded with a long tail or a foreleg. This may cause paralysis.",
       "e_id": 0,
       "sf": true
     },
@@ -99989,6 +102037,7 @@ overrides = {
       "prio": 0,
       "name": "Scratch",
       "num": 9,
+      "oldDesc": "Hard, pointed, and sharp claws rake the target to inflict damage.",
       "desc": "Hard, pointed, and sharp claws rake the target to inflict damage. This does damage twice in a row.",
       "e_id": 0,
       "multihit": [
@@ -100017,6 +102066,7 @@ overrides = {
       "prio": 250,
       "name": "Guillotine",
       "num": 11,
+      "oldDesc": "A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.",
       "desc": "A vicious, tearing attack with big pincers. This move will always move last.",
       "e_id": 38
     },
@@ -100056,6 +102106,7 @@ overrides = {
       "prio": 0,
       "name": "Cut",
       "num": 14,
+      "oldDesc": "The target is cut with a scythe or a claw. It can also be used to cut down thin trees.",
       "desc": "The target is cut with a scythe or a claw. It can also be used to cut down thin trees, and it may boost accuracy.",
       "e_id": 0,
       "sf": true
@@ -100081,6 +102132,7 @@ overrides = {
       "prio": 0,
       "name": "Wing Attack",
       "num": 16,
+      "oldDesc": "The target is struck with large, imposing wings spread wide to inflict damage.",
       "desc": "The target is struck with large, imposing wings spread wide to inflict damage. It has a chance to flinch.",
       "e_id": 0
     },
@@ -100117,6 +102169,7 @@ overrides = {
       "prio": 0,
       "name": "Bind",
       "num": 19,
+      "oldDesc": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
       "desc": "Tentacles are used to bind and squeeze the target for four to five turns.",
       "e_id": 42,
       "sf": true
@@ -100130,6 +102183,7 @@ overrides = {
       "prio": 0,
       "name": "Slam",
       "num": 20,
+      "oldDesc": "The target is slammed with a long tail, vines, etc., to inflict damage.",
       "desc": "The target is slammed with heavy  appendages to inflict damage.",
       "e_id": 0
     },
@@ -100142,6 +102196,7 @@ overrides = {
       "prio": 0,
       "name": "Vine Whip",
       "num": 21,
+      "oldDesc": "The target is struck with slender, whiplike vines to inflict damage.",
       "desc": "The target is struck with slender, whiplike vines twice.",
       "e_id": 0,
       "multihit": [
@@ -100158,6 +102213,7 @@ overrides = {
       "prio": 0,
       "name": "Stomp",
       "num": 22,
+      "oldDesc": "The target is stomped with a big foot. It may also make the target flinch.",
       "desc": "The target charges up, then stomps down with mighty force. This  guarentees the enemy flinches.",
       "e_id": 150
     },
@@ -100239,6 +102295,7 @@ overrides = {
       "prio": 0,
       "name": "Headbutt",
       "num": 28,
+      "oldDesc": "The user sticks out its head and attacks by charging straight into the target. It may also make the target flinch.",
       "desc": "The user recklessly headbutts  by charging straight into the target, dealing some recoil damage. ",
       "e_id": 31,
       "recoil": [
@@ -100369,6 +102426,7 @@ overrides = {
       "prio": 0,
       "name": "Double-Edge",
       "num": 37,
+      "oldDesc": "A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.",
       "desc": "A reckless, life-risking tackle. It also damages the user  for half the damage dealt.",
       "e_id": 198,
       "recoil": [
@@ -100425,6 +102483,7 @@ overrides = {
       "prio": 0,
       "name": "Pin Missile",
       "num": 41,
+      "oldDesc": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
       "desc": "Sharp spikes are shot at the target in rapid succession. It hits 2-4 times, and each hit may inflict Leech Seed.",
       "e_id": 29,
       "multihit": [
@@ -100516,6 +102575,7 @@ overrides = {
       "prio": 255,
       "name": "Supersonic",
       "num": 47,
+      "oldDesc": "The user generates odd sound waves from its body. It may confuse the target.",
       "desc": "The user generates booming soundwaves from its body that deal damage and always confuses the target.",
       "e_id": 49,
       "sf": true,
@@ -100532,6 +102592,7 @@ overrides = {
       "prio": 0,
       "name": "Sonic Boom",
       "num": 48,
+      "oldDesc": "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
       "desc": "The user charges up, then sends out a destructive shock wave that paralyzes and lowers both attacking stats sharply.",
       "e_id": 130,
       "tar": "allAdjacentFoes",
@@ -100558,6 +102619,7 @@ overrides = {
       "prio": 0,
       "name": "Acid Spray",
       "num": 50,
+      "oldDesc": "The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat.",
       "desc": "The opposing team is attacked with a  spray of harsh acid. This lowers the  targets' Sp. Atk stats.",
       "e_id": 72,
       "tar": "allAdjacentFoes",
@@ -100572,6 +102634,7 @@ overrides = {
       "prio": 0,
       "name": "Ember",
       "num": 51,
+      "oldDesc": "The target is attacked with small flames. It may also leave the target with a burn.",
       "desc": "The user attacks with small flames all  around it. It also has a small chance to leave the target with a burn.",
       "e_id": 4,
       "tar": "allAdjacentFoes",
@@ -100611,6 +102674,7 @@ overrides = {
       "prio": 0,
       "name": "Water Gun",
       "num": 54,
+      "oldDesc": "The target is blasted with a forceful shot of water.",
       "desc": "The target is blasted with a forceful shot of water, and has a  high chance to crit.",
       "e_id": 0
     },
@@ -100648,6 +102712,7 @@ overrides = {
       "prio": 0,
       "name": "Ice Beam",
       "num": 57,
+      "oldDesc": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
       "desc": "The target is struck with an icy-cold beam of energy. It may also freeze  the opponent.",
       "e_id": 5,
       "sf": true
@@ -100661,6 +102726,7 @@ overrides = {
       "prio": 0,
       "name": "Blizzard",
       "num": 58,
+      "oldDesc": "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.",
       "desc": "A howling blizzard is summoned to strike the opposing team that may freeze them solid. This never misses in hail.",
       "e_id": 260,
       "tar": "allAdjacentFoes",
@@ -100675,6 +102741,7 @@ overrides = {
       "prio": 0,
       "name": "Psybeam",
       "num": 59,
+      "oldDesc": "The target is attacked with a peculiar ray. It may also cause confusion.",
       "desc": "The target is attacked with a peculiar ray of psychic energy. It has a small chance to make the opponent drowsy.",
       "e_id": 76,
       "sf": true
@@ -100688,6 +102755,7 @@ overrides = {
       "prio": 0,
       "name": "Bubble Beam",
       "num": 60,
+      "oldDesc": "A spray of bubbles is forcefully ejected at the opposing team. It may also lower their Speed stats.",
       "desc": "A spray of bubbles is forcefully ejected at the opposing team. It also lowers their Speed stats.",
       "e_id": 70,
       "sf": true
@@ -100701,6 +102769,7 @@ overrides = {
       "prio": 0,
       "name": "Aurora Beam",
       "num": 61,
+      "oldDesc": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
       "desc": "The user releases a rainbow-colored  beam. This increases the user's  Sp. Atk, but it must rest next turn.",
       "e_id": 68,
       "sf": true
@@ -100714,6 +102783,7 @@ overrides = {
       "prio": 0,
       "name": "Hyper Beam",
       "num": 62,
+      "oldDesc": "The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
       "desc": "The user charges with all of its might, then releases a hyper-strong beam at the target.",
       "e_id": 80
     },
@@ -100738,6 +102808,7 @@ overrides = {
       "prio": 0,
       "name": "Drill Peck",
       "num": 64,
+      "oldDesc": "A corkscrewing attack with the sharp beak acting as a drill.",
       "desc": "The user drills its beak into an enemy, whittling its HP.  The enemy may be confused.",
       "e_id": 0,
       "sf": true
@@ -100791,6 +102862,7 @@ overrides = {
       "prio": 0,
       "name": "Seismic Toss",
       "num": 68,
+      "oldDesc": "The target is thrown using the power of gravity. It inflicts damage equal to the user's level.",
       "desc": "The target is thrown using the power of gravity. It has a high chance to flinch  the opponent.",
       "e_id": 87
     },
@@ -100803,6 +102875,7 @@ overrides = {
       "prio": 0,
       "name": "Strength",
       "num": 69,
+      "oldDesc": "The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.",
       "desc": "The target is slugged with a punch thrown at maximum power. It has a high crit rate, and can be used to move heavy boulders.",
       "e_id": 0
     },
@@ -100815,6 +102888,7 @@ overrides = {
       "prio": 0,
       "name": "Absorb",
       "num": 70,
+      "oldDesc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
       "desc": "A nutrient-draining attack. The user's HP is restored by all of the damage taken by the target.",
       "e_id": 3
     },
@@ -100827,6 +102901,7 @@ overrides = {
       "prio": 0,
       "name": "Mega Drain",
       "num": 71,
+      "oldDesc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
       "desc": "A nutrient-draining attack, the user's HP is restored by half the damage taken by the target.",
       "e_id": 3
     },
@@ -100904,6 +102979,7 @@ overrides = {
       "prio": 0,
       "name": "Stun Spore",
       "num": 77,
+      "oldDesc": "The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.",
       "desc": "The user scatters a cloud of paralyzing powder. It leaves the target with paralysis.",
       "e_id": 67,
       "sf": true
@@ -100942,6 +103018,7 @@ overrides = {
       "prio": 1,
       "name": "String Shot",
       "num": 80,
+      "oldDesc": "The targets are bound with silk blown from the user's mouth. This silk reduces the targets' Speed stat.",
       "desc": "The targets are bound with silk blown from the user's mouth. This reduces the targets' Speed with increased priority.",
       "e_id": 20,
       "tar": "allAdjacentFoes",
@@ -100956,19 +103033,21 @@ overrides = {
       "prio": 0,
       "name": "Dragon Rage",
       "num": 81,
+      "oldDesc": "This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.",
       "desc": "The user raises its attack stat sharply, but confuses itself in the middle of its rampage.",
       "e_id": 41,
       "sf": true
     },
     "Fire Spin": {
       "t": "Fire",
-      "bp": 30,
+      "bp": 35,
       "cat": "Special",
       "pp": 15,
       "acc": 100,
       "prio": 0,
       "name": "Fire Spin",
       "num": 82,
+      "oldDesc": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
       "desc": "The user traps the target in a wheel  of fire by attacking twice. The vortex  of fire rages for two to four turns.",
       "e_id": 42,
       "multihit": [
@@ -101025,6 +103104,7 @@ overrides = {
       "prio": 0,
       "name": "Thunder",
       "num": 86,
+      "oldDesc": "A wicked thunderbolt is dropped on the target to inflict damage. It may also leave the target with paralysis.",
       "desc": "A wicked thunderbolt is dropped on the target, potentially causing paralysis. This always land during a downpour.",
       "e_id": 152,
       "sf": true
@@ -101038,6 +103118,7 @@ overrides = {
       "prio": 0,
       "name": "Rock Throw",
       "num": 87,
+      "oldDesc": "The user picks up and throws a small rock at the target to attack.",
       "desc": "The user picks up and throws a small rock at the target to attack. It has a  small chance to flinch the target.",
       "e_id": 0
     },
@@ -101063,6 +103144,7 @@ overrides = {
       "prio": 0,
       "name": "Fissure",
       "num": 89,
+      "oldDesc": "The user opens up a fissure in the ground and drops the target in. The target instantly faints if it hits.",
       "desc": "The user opens up a fissure in the ground and drops the target in. This does extreme damage to the target.",
       "e_id": 38
     },
@@ -101126,6 +103208,7 @@ overrides = {
       "prio": 0,
       "name": "Hypnosis",
       "num": 94,
+      "oldDesc": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
       "desc": "The user employs hypnotic suggestion to make the target fall into a deep sleep for two turns maximum.",
       "e_id": 1,
       "sf": true
@@ -101139,6 +103222,7 @@ overrides = {
       "prio": 0,
       "name": "Meditate",
       "num": 95,
+      "oldDesc": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
       "desc": "The user meditates to awaken the power deep within its body and raise its Accuracy, Sp. Atk, and Sp. Def.",
       "e_id": 10,
       "sf": true
@@ -101189,6 +103273,7 @@ overrides = {
       "prio": 250,
       "name": "Teleport",
       "num": 99,
+      "oldDesc": "Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited.",
       "desc": "The user escapes from a situation by exiting the battlefield. This action will always move last, no matter what.",
       "e_id": 153
     },
@@ -101201,6 +103286,7 @@ overrides = {
       "prio": 0,
       "name": "Night Shade",
       "num": 100,
+      "oldDesc": "The user makes the target see a frightening mirage. It inflicts damage matching the user's level.",
       "desc": "The user makes the target see a frightening mirage that lowers their special defense and does damage.",
       "e_id": 87,
       "tar": "allAdjacentFoes",
@@ -101243,6 +103329,7 @@ overrides = {
       "prio": 0,
       "name": "Double Team",
       "num": 103,
+      "oldDesc": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
       "desc": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness and defense stats.",
       "e_id": 16,
       "sf": true
@@ -101268,6 +103355,7 @@ overrides = {
       "prio": 0,
       "name": "Harden",
       "num": 105,
+      "oldDesc": "The user stiffens all the muscles in its body to raise its Defense stat.",
       "desc": "The user stiffens all the muscles in its body to raise its Attack and Defense  stat.",
       "e_id": 11,
       "sf": true
@@ -101281,6 +103369,7 @@ overrides = {
       "prio": 0,
       "name": "Minimize",
       "num": 106,
+      "oldDesc": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
       "desc": "The user compresses its body to make itself look smaller, raising its accuracy and speed in the process.",
       "e_id": 108,
       "sf": true
@@ -101294,6 +103383,7 @@ overrides = {
       "prio": 0,
       "name": "Smokescreen",
       "num": 107,
+      "oldDesc": "The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.",
       "desc": "The user releases an obscuring cloud of smoke. It reduces the target's  evasion and speed, and may even burn.",
       "e_id": 23,
       "tar": "allAdjacentFoes",
@@ -101321,6 +103411,7 @@ overrides = {
       "prio": 0,
       "name": "Withdraw",
       "num": 109,
+      "oldDesc": "The user withdraws its body into its hard shell, raising its Defense stat.",
       "desc": "The user withdraws its body into its hard shell, raising its Defense stat sharply but lowering speed. ",
       "e_id": 11,
       "sf": true
@@ -101334,6 +103425,7 @@ overrides = {
       "prio": 0,
       "name": "Defense Curl",
       "num": 110,
+      "oldDesc": "The user curls up to conceal weak spots and raise its Defense stat.",
       "desc": "The user curls up to conceal weak spots and raise its Defense stat. This also  increases the power of ball moves.",
       "e_id": 156,
       "sf": true
@@ -101347,6 +103439,7 @@ overrides = {
       "prio": 0,
       "name": "Barrier",
       "num": 111,
+      "oldDesc": "The user throws up a sturdy wall that sharply raises its Defense stat.",
       "desc": "The user throws up a sturdy wall that sharply raises its Sp. Defense stat.",
       "e_id": 51,
       "sf": true
@@ -101372,6 +103465,7 @@ overrides = {
       "prio": 0,
       "name": "Haze",
       "num": 113,
+      "oldDesc": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
       "desc": "The user creates a haze that eliminates the stat changes among all the Pokémon on the opponent's side.",
       "e_id": 25,
       "tar": "allAdjacentFoes"
@@ -101448,14 +103542,14 @@ overrides = {
       "desc": "The user moves at blinding speed, exploding in an opponent's face. The user faints upon using this move.",
       "e_id": 7
     },
-    "Mating Call": {
+    "Natures Call": {
       "t": "Bug",
       "bp": 70,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "name": "Mating Call",
+      "name": "Natures Call",
       "num": 120,
       "desc": "The user lets out a passionate cry that touches the target's emotions. This may potentially cause attraction to the user.",
       "e_id": 0,
@@ -101473,6 +103567,7 @@ overrides = {
       "prio": 0,
       "name": "Lick",
       "num": 121,
+      "oldDesc": "The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.",
       "desc": "The target is licked with a long tongue, causing damage. It may also leave the target with sleep.",
       "e_id": 6,
       "sf": true
@@ -101486,6 +103581,7 @@ overrides = {
       "prio": 0,
       "name": "Smog",
       "num": 122,
+      "oldDesc": "The target is attacked with a discharge of filthy gases. It may also poison the target.",
       "desc": "The target is attacked with a discharge of filthy gases, lowering the speed stat of a target hit.",
       "e_id": 2,
       "sf": true
@@ -101554,6 +103650,7 @@ overrides = {
       "prio": 255,
       "name": "Clamp",
       "num": 127,
+      "oldDesc": "The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns.",
       "desc": "The target is clamped and squeezed by the user's surface. This disables  their last move on the target.",
       "e_id": 42,
       "sf": true
@@ -101632,6 +103729,7 @@ overrides = {
       "prio": 0,
       "name": "Kinesis",
       "num": 133,
+      "oldDesc": "The user distracts the target by bending a spoon. It lowers the target's accuracy.",
       "desc": "The user distracts the target with,  its magical powers, lowering its attacking stats and speed.",
       "e_id": 23,
       "sf": true
@@ -101682,6 +103780,7 @@ overrides = {
       "prio": 0,
       "name": "Dream Eater",
       "num": 137,
+      "oldDesc": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user's HP.",
       "desc": "The user eats the dreams of a sleeping target. It absorbs all damage caused to heal the user's HP.",
       "e_id": 8
     },
@@ -101694,6 +103793,7 @@ overrides = {
       "prio": 0,
       "name": "Poison Gas",
       "num": 138,
+      "oldDesc": "A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.",
       "desc": "A cloud of poison gas is sprayed in the face of opposing Pokémon. It poisons those who are hit.",
       "e_id": 66,
       "tar": "allAdjacentFoes",
@@ -101721,6 +103821,7 @@ overrides = {
       "prio": 0,
       "name": "Leech Life",
       "num": 140,
+      "oldDesc": "The user drains the target's blood. The user's HP is restored by half the damage taken by the target.",
       "desc": "The user drains the target's blood. The user's HP is restored by 75% of the damage taken by the target.",
       "e_id": 3
     },
@@ -101746,6 +103847,7 @@ overrides = {
       "prio": 0,
       "name": "Sky Attack",
       "num": 142,
+      "oldDesc": "A second-turn attack move where critical hits land more easily. It may also make the target flinch.",
       "desc": "A second-turn attack move where the user dives down at the target and pummels them thoroughly.",
       "e_id": 75
     },
@@ -101813,6 +103915,7 @@ overrides = {
       "prio": 0,
       "name": "Flash",
       "num": 147,
+      "oldDesc": "The user flashes a bright light that cuts the target's accuracy. It can also be used to illuminate caves.",
       "desc": "The user flashes a bright light on the enemy, potentially confusing them.",
       "e_id": 23,
       "sf": true
@@ -101826,6 +103929,7 @@ overrides = {
       "prio": 0,
       "name": "Psywave",
       "num": 148,
+      "oldDesc": "The target is attacked with an odd psychic wave. The attack varies in intensity.",
       "desc": "A strange, psychic wave hits the target to disable their healing. This also has a chance to lower all of their stats.",
       "e_id": 88,
       "sf": true
@@ -101839,6 +103943,7 @@ overrides = {
       "prio": 0,
       "name": "Splash",
       "num": 149,
+      "oldDesc": "The user just flops and splashes around to no effect at all...",
       "desc": "The user flops and splashes around, boosting their adrenaline and the  speed stat.",
       "e_id": 85,
       "sf": true
@@ -101865,6 +103970,7 @@ overrides = {
       "prio": 0,
       "name": "Crabhammer",
       "num": 151,
+      "oldDesc": "The target is hammered with a large pincer. Critical hits land more easily.",
       "desc": "The target is hammered into the ground with extreme might! Critical hits land more easily, but the user's speed drops.",
       "e_id": 43,
       "sf": true
@@ -101879,7 +103985,7 @@ overrides = {
       "name": "Explosion",
       "num": 152,
       "desc": "The user explodes to inflict damage on those around it. The user faints upon using this move.",
-      "e_id": 7,
+      "e_id": 32,
       "tar": "allAdjacent"
     },
     "Fury Swipes": {
@@ -101891,6 +103997,7 @@ overrides = {
       "prio": 0,
       "name": "Fury Swipes",
       "num": 153,
+      "oldDesc": "The target is raked with sharp claws or scythes for two to five times in quick succession.",
       "desc": "The target is raked with sharp claws  three times in quick succession. Each hit has a chance to boost speed.",
       "e_id": 29,
       "multihit": [
@@ -101957,6 +104064,7 @@ overrides = {
       "prio": 0,
       "name": "Sharpen",
       "num": 158,
+      "oldDesc": "The user reduces its polygon count to make itself more jagged, raising the Attack stat.",
       "desc": "The user makes itself much sharper,  raising the Attack stat drastically  but lowering Defense and Sp. Def.",
       "e_id": 10,
       "sf": true
@@ -101971,7 +104079,7 @@ overrides = {
       "name": "Toxic Fury",
       "num": 159,
       "desc": "The user injects itself with poison  that worsens every turn. In  exchange, its speed is boosted.",
-      "e_id": 30,
+      "e_id": 52,
       "sf": true
     },
     "Tri Attack": {
@@ -102087,28 +104195,30 @@ overrides = {
       "desc": "The user ensnares the target with thin, gooey silk so it can't flee from battle.",
       "e_id": 106
     },
-    "Mind Reader": {
+    "Focus In": {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
       "acc": 101,
       "prio": 0,
-      "name": "Mind Reader",
+      "name": "Focus In",
       "num": 169,
-      "desc": "The user senses the target's movements with its mind to ensure its next attack does not miss the target.",
-      "e_id": 94
+      "desc": "The user locks in to its opponents, boosting its accuracy sharply.",
+      "e_id": 94,
+      "sf": true
     },
     "Nightmare": {
       "t": "Ghost",
-      "bp": 0,
-      "cat": "Status",
+      "bp": 80,
+      "cat": "Special",
       "pp": 15,
       "acc": 100,
       "prio": 0,
       "name": "Nightmare",
       "num": 170,
-      "desc": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+      "oldDesc": "A sleeping target sees a nightmare that inflicts some damage every turn.",
+      "desc": "The user makes the target see frightening images, dealing special damage. This  makes them have nightmares if sleeping.",
       "e_id": 107,
       "sf": true
     },
@@ -102154,14 +104264,15 @@ overrides = {
     },
     "Flail": {
       "t": "Normal",
-      "bp": 50,
+      "bp": 70,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
       "prio": 0,
       "name": "Flail",
       "num": 174,
-      "desc": "The user flails about aimlessly to attack. This boosts its speed by two stages but may lower its accuracy.",
+      "oldDesc": "The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.",
+      "desc": "The user flails about aimlessly to attack. This boosts its speed but may lower  its accuracy in exchange.",
       "e_id": 0,
       "sf": true
     },
@@ -102186,6 +104297,7 @@ overrides = {
       "prio": 0,
       "name": "Aeroblast",
       "num": 176,
+      "oldDesc": "A vortex of air is shot at the target to inflict damage. Critical hits land more easily.",
       "desc": "A vortex of air is shot at the target to inflict damage. This may also boost the user's speed stat.",
       "e_id": 43,
       "sf": true
@@ -102199,6 +104311,7 @@ overrides = {
       "prio": 0,
       "name": "Cotton Spore",
       "num": 177,
+      "oldDesc": "The user releases cotton-like spores that cling to the target, harshly reducing its Speed stat.",
       "desc": "The user releases cotton-like spores that cling to the target, drastically reducing its Speed stat.",
       "e_id": 60,
       "sf": true
@@ -102269,7 +104382,7 @@ overrides = {
       }
     },
     "Scary Face": {
-      "t": "Normal",
+      "t": "Dark",
       "bp": 0,
       "cat": "Status",
       "pp": 10,
@@ -102283,13 +104396,14 @@ overrides = {
     },
     "Feint Attack": {
       "t": "Dark",
-      "bp": 60,
+      "bp": 50,
       "cat": "Physical",
       "pp": 20,
       "acc": 101,
       "prio": 0,
       "name": "Feint Attack",
       "num": 184,
+      "oldDesc": "The user approaches the target disarmingly, then throws a sucker punch. It hits without fail.",
       "desc": "The user approaches the target disarmingly, then throws a sucker punch. It hits without fail, and may raise Speed.",
       "e_id": 17
     },
@@ -102332,14 +104446,15 @@ overrides = {
     },
     "Mud-Slap": {
       "t": "Ground",
-      "bp": 40,
+      "bp": 65,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
       "prio": 0,
       "name": "Mud-Slap",
       "num": 188,
-      "desc": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+      "oldDesc": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+      "desc": "The user hurls mud in the target's face to inflict damage and potentially  lower its accuracy.",
       "e_id": 73,
       "sf": true
     },
@@ -102352,6 +104467,7 @@ overrides = {
       "prio": 0,
       "name": "Searing Shot",
       "num": 189,
+      "oldDesc": "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.",
       "desc": "The user attacks by spraying ink in the target's face or eyes. It also lowers the target's accuracy sharply.",
       "e_id": 73,
       "sf": true
@@ -102377,6 +104493,7 @@ overrides = {
       "prio": 255,
       "name": "Zap Cannon",
       "num": 191,
+      "oldDesc": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
       "desc": "The user charges, then fires an  electric blast like a cannon to inflict  damage and cause paralysis.",
       "e_id": 6,
       "sf": true
@@ -102390,6 +104507,7 @@ overrides = {
       "prio": 0,
       "name": "Foresight",
       "num": 192,
+      "oldDesc": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. It also enables an evasive target to be hit.",
       "desc": "Causes an evasive or Ghost-type target to be hit by moves. The user also sharply increases it accuracy.",
       "e_id": 113,
       "sf": true
@@ -102431,6 +104549,7 @@ overrides = {
       "prio": 0,
       "name": "Icy Wind",
       "num": 195,
+      "oldDesc": "The user attacks with a gust of chilled air. It also reduces the targets' Speed stat.",
       "desc": "The user attacks with a gust of chilled air. It also reduces the targets' Speed stat sharply.",
       "e_id": 70,
       "tar": "allAdjacentFoes",
@@ -102457,6 +104576,7 @@ overrides = {
       "prio": 0,
       "name": "Bone Rush",
       "num": 197,
+      "oldDesc": "The user strikes the target with a hard bone two to five times in a row.",
       "desc": "The user strikes the target with a hard bone three times in a row.  Each hit has a chance to flinch.",
       "e_id": 29,
       "multihit": [
@@ -102541,11 +104661,12 @@ overrides = {
       "t": "Rock",
       "bp": 60,
       "cat": "Physical",
-      "pp": 10,
+      "pp": 5,
       "acc": 100,
       "prio": 0,
       "name": "Rollout",
       "num": 204,
+      "oldDesc": "The user continually rolls into the target over five turns. It becomes stronger each time it hits.",
       "desc": "The user spots an opening point and rolls into a ball to exit the battlefield.  This lets another party member in.",
       "e_id": 228
     },
@@ -102670,6 +104791,7 @@ overrides = {
       "prio": 0,
       "name": "Heal Bell",
       "num": 214,
+      "oldDesc": "The user makes a soothing bell chime to heal the status problems of all the party Pokémon.",
       "desc": "The user makes a soothing bell chime to heal the status problems of party Pokémon, also healing xfffeall allies in battle. ",
       "e_id": 102,
       "flags": {
@@ -102770,6 +104892,7 @@ overrides = {
       "prio": 0,
       "name": "Dynamic Punch",
       "num": 222,
+      "oldDesc": "The user punches the target with full, concentrated power. It confuses the target if it hits.",
       "desc": "The user punches the target with full, concentrated power. It confuses the target.",
       "e_id": 76,
       "sf": true,
@@ -102786,6 +104909,7 @@ overrides = {
       "prio": 0,
       "name": "Megahorn",
       "num": 223,
+      "oldDesc": "Using its tough and impressive horn, the user rams into the target with no letup.",
       "desc": "Using its horn, the user rams into  the target with no letup. However, this lowers the speed stat.",
       "e_id": 0,
       "sf": true
@@ -102848,6 +104972,7 @@ overrides = {
       "prio": 0,
       "name": "Rapid Spin",
       "num": 228,
+      "oldDesc": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
       "desc": "A spin attack that can also eliminate hazards like Bind, Wrap, Leech Seed, and Spikes.",
       "e_id": 129
     },
@@ -102860,6 +104985,7 @@ overrides = {
       "prio": 0,
       "name": "Sweet Scent",
       "num": 229,
+      "oldDesc": "A sweet scent that lowers the opposing team's evasiveness. It also lures wild Pokémon if used in grass, etc.",
       "desc": "The user releases an aroma, lowering  the opposing team's Sp. Def harshly.  It also lures wild Pokémon if used.",
       "e_id": 24,
       "tar": "allAdjacentFoes",
@@ -102874,6 +105000,7 @@ overrides = {
       "prio": 252,
       "name": "Iron Tail",
       "num": 230,
+      "oldDesc": "The target is slammed with a steel-hard tail. It may also lower the target's Defense stat.",
       "desc": "The target is slammed with a steel-hard tail at a firm force, forcing them out of battle but moving last.",
       "e_id": 313,
       "sf": true
@@ -102887,6 +105014,7 @@ overrides = {
       "prio": 0,
       "name": "Metal Claw",
       "num": 231,
+      "oldDesc": "The target is raked with steel claws. It may also raise the user's Attack stat.",
       "desc": "The target is raked with powerful,  steel claws. It may also raise the user's Attack stat after usage.",
       "e_id": 139,
       "sf": true
@@ -102973,6 +105101,7 @@ overrides = {
       "prio": 0,
       "name": "Twister",
       "num": 238,
+      "oldDesc": "The user whips up a vicious tornado to tear at the opposing team. It may also make targets flinch.",
       "desc": "The user whips up a vicious tornado to tear at the opposing team. It has a chance to flinch opponents.",
       "e_id": 229,
       "tar": "allAdjacentFoes",
@@ -103048,6 +105177,7 @@ overrides = {
       "prio": 2,
       "name": "Extreme Speed",
       "num": 244,
+      "oldDesc": "The user charges the target at blinding speed. This attack always goes before any other move.",
       "desc": "The user charges the target at blinding speeds. This attack has increased priority.",
       "e_id": 103
     },
@@ -103098,6 +105228,7 @@ overrides = {
       "prio": 0,
       "name": "Rock Smash",
       "num": 248,
+      "oldDesc": "The user attacks with a punch that can shatter a rock. It may also lower the target's Defense stat.",
       "desc": "The user attacks with a punch that can shatter a rock. It also lowers the target's Defense stat.",
       "e_id": 69,
       "sf": true
@@ -103213,6 +105344,7 @@ overrides = {
       "prio": 0,
       "name": "Hail",
       "num": 257,
+      "oldDesc": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
       "desc": "The user sets up a hailstorm  that lasts five turns. It damages all  Pokémon except the Ice type.",
       "e_id": 164
     },
@@ -103230,7 +105362,7 @@ overrides = {
       "sf": true
     },
     "Flatter": {
-      "t": "Dark",
+      "t": "Normal",
       "bp": 0,
       "cat": "Status",
       "pp": 15,
@@ -103238,7 +105370,8 @@ overrides = {
       "prio": 0,
       "name": "Flatter",
       "num": 259,
-      "desc": "Flattery is used to confuse the target. However, it also raises the target's Sp. Atk stat.",
+      "oldDesc": "Flattery is used to confuse the target. However, it also raises the target's Sp. Atk stat.",
+      "desc": "Flattery boosts a Pokemon's Attack,  Sp. Atk, and Accuracy, but also inflicts confusion onto them.",
       "e_id": 166,
       "sf": true
     },
@@ -103343,6 +105476,7 @@ overrides = {
       "prio": 0,
       "name": "Charge",
       "num": 267,
+      "oldDesc": "The user boosts the power of the Electric move it uses on the next turn. It also raises the user's Sp. Def stat.",
       "desc": "The user boosts the power of the Electric move it uses on the next turn. It also raises the user's Sp. Att stat.",
       "e_id": 174,
       "sf": true
@@ -103441,6 +105575,7 @@ overrides = {
       "prio": 0,
       "name": "Superpower",
       "num": 275,
+      "oldDesc": "The user attacks the target with great power. However, it also lowers the user's Attack and Defense.",
       "desc": "The user attacks the target with  overwhelming power. However, it increases the target's attack stat.",
       "e_id": 182,
       "sf": true
@@ -103665,6 +105800,7 @@ overrides = {
       "prio": 0,
       "name": "Tail Glow",
       "num": 293,
+      "oldDesc": "The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat.",
       "desc": "The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat in exchange for speed.",
       "e_id": 321,
       "sf": true
@@ -103678,6 +105814,7 @@ overrides = {
       "prio": 0,
       "name": "Luster Purge",
       "num": 294,
+      "oldDesc": "The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat.",
       "desc": "The user lets loose a damaging burst of light. It also reduces the target's Sp. Def stat sharply.",
       "e_id": 72,
       "sf": true
@@ -103704,6 +105841,7 @@ overrides = {
       "prio": 0,
       "name": "Feather Dance",
       "num": 296,
+      "oldDesc": "The user covers the target's body with a mass of down that harshly lowers its Attack stat.",
       "desc": "The user covers the target's body with a mass of down that lowers its Speed stat and confuses them.",
       "e_id": 58,
       "sf": true
@@ -103749,7 +105887,7 @@ overrides = {
     },
     "Ice Ball": {
       "t": "Ice",
-      "bp": 30,
+      "bp": 50,
       "cat": "Physical",
       "pp": 20,
       "acc": 100,
@@ -103757,7 +105895,8 @@ overrides = {
       "name": "Ice Ball",
       "num": 300,
       "desc": "The user continually rolls into the target over five turns. It becomes stronger each time it hits.",
-      "e_id": 117
+      "e_id": 117,
+      "sf": true
     },
     "Needle Arm": {
       "t": "Grass",
@@ -103768,6 +105907,7 @@ overrides = {
       "prio": 1,
       "name": "Needle Arm",
       "num": 301,
+      "oldDesc": "The user attacks by wildly swinging its thorny arms. It may also make the target flinch.",
       "desc": "The user sticks its thorns into its target before the opponent can move. This  recovers 50% of the damage dealt.",
       "e_id": 31
     },
@@ -103780,6 +105920,7 @@ overrides = {
       "prio": 0,
       "name": "Slack Off",
       "num": 302,
+      "oldDesc": "The user slacks off, restoring its own HP by up to half of its maximum HP.",
       "desc": "The user slacks off, restoring its  health back to full at the expense of moving next turn.",
       "e_id": 32
     },
@@ -103821,6 +105962,7 @@ overrides = {
       "prio": 0,
       "name": "Crush Claw",
       "num": 305,
+      "oldDesc": "The user slashes the target with hard and sharp claws. It may also lower the target's Defense.",
       "desc": "The user slashes the target with hard and sharp claws. It also lowers the target's Defense.",
       "e_id": 69,
       "sf": true
@@ -103843,18 +105985,18 @@ overrides = {
     },
     "Wave Maelstrom": {
       "t": "Water",
-      "bp": 20,
+      "bp": 25,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
       "name": "Wave Maelstrom",
       "num": 307,
-      "desc": "The target is hit with several shurikens, each having a chance to increase the user's speed. This move hits 4 to 6 times.",
+      "desc": "The target is hit with several shurikens, each having a chance to increase the user's speed. This move hits three times.",
       "e_id": 80,
       "multihit": [
-        4,
-        5
+        3,
+        3
       ],
       "sf": true
     },
@@ -103932,6 +106074,7 @@ overrides = {
       "prio": 0,
       "name": "Air Cutter",
       "num": 313,
+      "oldDesc": "The user launches razor-like wind to slash the opposing team. Critical hits land more easily.",
       "desc": "The user launches razor-like wind to slash the opposing team. This may cause flinching.",
       "e_id": 43,
       "tar": "allAdjacentFoes"
@@ -103941,7 +106084,7 @@ overrides = {
       "bp": 140,
       "cat": "Special",
       "pp": 5,
-      "acc": 90,
+      "acc": 100,
       "prio": 0,
       "name": "Overheat",
       "num": 314,
@@ -103964,10 +106107,10 @@ overrides = {
     },
     "Accelerock": {
       "t": "Rock",
-      "bp": 30,
+      "bp": 45,
       "cat": "Physical",
       "pp": 10,
-      "acc": 95,
+      "acc": 100,
       "prio": 2,
       "name": "Accelerock",
       "num": 316,
@@ -103984,6 +106127,7 @@ overrides = {
       "prio": 0,
       "name": "Silver Wind",
       "num": 317,
+      "oldDesc": "The target is attacked with powdery scales blown by wind. It may also raise all the user's stats.",
       "desc": "The user casts a low power gust that  boosts all of its stats, shedding its scales. ",
       "e_id": 140,
       "sf": true
@@ -103997,6 +106141,7 @@ overrides = {
       "prio": 0,
       "name": "Metal Sound",
       "num": 318,
+      "oldDesc": "A horrible sound like scraping metal harshly reduces the target's Sp. Def stat.",
       "desc": "A horrible sound like scraping metal reduces the target's Defense and confuses the target.",
       "e_id": 62,
       "sf": true,
@@ -104013,7 +106158,8 @@ overrides = {
       "prio": 255,
       "name": "Grass Whistle",
       "num": 319,
-      "desc": "The user plays a pleasant melody that lulls the target into a deep sleep.",
+      "oldDesc": "The user plays a pleasant melody that lulls the target into a deep sleep.",
+      "desc": "The user plays a pleasant melody that lulls the target into a deep sleep, but has negative priority when used.",
       "e_id": 1,
       "sf": true,
       "flags": {
@@ -104074,7 +106220,7 @@ overrides = {
     },
     "Shadow Punch": {
       "t": "Ghost",
-      "bp": 90,
+      "bp": 80,
       "cat": "Physical",
       "pp": 20,
       "acc": 101,
@@ -104136,13 +106282,14 @@ overrides = {
       "prio": 250,
       "name": "Sheer Cold",
       "num": 328,
+      "oldDesc": "The target is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.",
       "desc": "The target is attacked with a blast of absolute-zero cold. This freezes the target for 2 turns, but moves last.",
       "e_id": 38,
       "sf": true
     },
     "Muddy Water": {
       "t": "Water",
-      "bp": 95,
+      "bp": 85,
       "cat": "Special",
       "pp": 10,
       "acc": 95,
@@ -104179,6 +106326,7 @@ overrides = {
       "prio": 0,
       "name": "Aerial Ace",
       "num": 331,
+      "oldDesc": "The user confounds the target with speed, then slashes. The attack lands without fail.",
       "desc": "The user confounds the target with speed, then slashes. The attack hits  through Protect and Substitute.",
       "e_id": 17
     },
@@ -104191,6 +106339,7 @@ overrides = {
       "prio": 0,
       "name": "Icicle Spear",
       "num": 332,
+      "oldDesc": "The user launches sharp icicles at the target. It strikes two to five times in a row.",
       "desc": "The user launches sharp icicles at the target. It strikes three to five times in a row.",
       "e_id": 29,
       "multihit": [
@@ -104207,6 +106356,7 @@ overrides = {
       "prio": 0,
       "name": "Iron Defense",
       "num": 333,
+      "oldDesc": "The user hardens its body's surface like iron, sharply raising its Defense stat.",
       "desc": "The user hardens its body  like iron, raising its Defense stat sharply.",
       "e_id": 51,
       "sf": true
@@ -104232,7 +106382,8 @@ overrides = {
       "prio": 0,
       "name": "Howl",
       "num": 335,
-      "desc": "The user howls loudly, instilling fear in the opposing team. This lowers their Attack and Accuracy stats.",
+      "oldDesc": "The user howls loudly to raise its spirit, boosting its Attack stat.",
+      "desc": "The user howls loudly, instilling fear in the opposing team. This lowers their attack and evasion stats.",
       "e_id": 10,
       "tar": "allAdjacentFoes",
       "sf": true
@@ -104401,6 +106552,7 @@ overrides = {
       "prio": 0,
       "name": "Dragon Dance",
       "num": 348,
+      "oldDesc": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
       "desc": "The user vigorously performs a mystic, powerful dance that boosts its Attack,  as well as its Speed stats.",
       "e_id": 212,
       "sf": true
@@ -104460,7 +106612,7 @@ overrides = {
     },
     "Disarming Voice": {
       "t": "Fairy",
-      "bp": 40,
+      "bp": 60,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
@@ -104872,7 +107024,7 @@ overrides = {
     },
     "Last Resort": {
       "t": "Normal",
-      "bp": 140,
+      "bp": 150,
       "cat": "Physical",
       "pp": 5,
       "acc": 100,
@@ -105075,6 +107227,7 @@ overrides = {
       "prio": 255,
       "name": "Seed Bomb",
       "num": 401,
+      "oldDesc": "The user slams a barrage of hard-shelled seeds down on the target from above.",
       "desc": "The user slams a barrage of hard-shelled seeds down on the target from above. This inflicts sleep but moves last.",
       "e_id": 0,
       "sf": true
@@ -105183,6 +107336,7 @@ overrides = {
       "prio": 1,
       "name": "Vacuum Wave",
       "num": 409,
+      "oldDesc": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
       "desc": "The user whirls its fists to send a wave of harsh winds at the target. This move always goes first.",
       "e_id": 103
     },
@@ -105427,6 +107581,7 @@ overrides = {
       "prio": 0,
       "name": "Mirror Shot",
       "num": 428,
+      "oldDesc": "The user looses a flash of energy at the target from its polished body. It may also lower the target's accuracy.",
       "desc": "The user looses a flash of energy at the target from its polished body. It also lowers the target's accuracy.",
       "e_id": 73,
       "sf": true
@@ -105490,6 +107645,7 @@ overrides = {
       "prio": 0,
       "name": "Draco Meteor",
       "num": 433,
+      "oldDesc": "Comets are summoned down from the sky onto the target. The attack's recoil harshly reduces the user's Sp. Atk stat.",
       "desc": "Comets are summoned down from the sky onto the target. The attack's recoil reduces the user's Sp. Atk stat.",
       "e_id": 204,
       "sf": true
@@ -105531,6 +107687,7 @@ overrides = {
       "prio": 0,
       "name": "Leaf Storm",
       "num": 436,
+      "oldDesc": "The user whips up a storm of leaves around the target. The attack's recoil harshly reduces the user's Sp. Atk stat.",
       "desc": "The user whips up a storm of leaves around the target. The attack's recoil  reduces the user's Sp. Atk stat.",
       "e_id": 204,
       "sf": true
@@ -105572,6 +107729,7 @@ overrides = {
       "prio": 0,
       "name": "Cross Poison",
       "num": 439,
+      "oldDesc": "A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.",
       "desc": "The user slashes twice with poisonous  blades that may also leave the  target poisoned. Critical hits land easily.",
       "e_id": 209,
       "multihit": [
@@ -105638,6 +107796,7 @@ overrides = {
       "prio": 0,
       "name": "Captivate",
       "num": 444,
+      "oldDesc": "If it is the opposite gender of the user, the target is charmed into harshly lowering its Sp. Atk stat.",
       "desc": "If it is the opposite gender of the user, the target is charmed into harshly lowering its Sp. Atk and Atk stats.",
       "e_id": 265,
       "tar": "allAdjacentFoes",
@@ -105713,6 +107872,7 @@ overrides = {
       "prio": 0,
       "name": "Charge Beam",
       "num": 450,
+      "oldDesc": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
       "desc": "The user attacks with an growing  electric charge. The user uses remaining electricity to raise its Sp. Atk and Speed.",
       "e_id": 276,
       "sf": true
@@ -105816,14 +107976,14 @@ overrides = {
     },
     "Serene Bliss": {
       "t": "Fairy",
-      "bp": 50,
+      "bp": 60,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
       "name": "Serene Bliss",
       "num": 458,
-      "desc": "The user sprinkles a mysterious dust on the opponent that does  damage and inflicts Yawn.",
+      "desc": "The user sprinkles a mysterious dust on opposing targets. It may also inflict the Yawn status condition.",
       "e_id": 80,
       "tar": "allAdjacentFoes",
       "sf": true
@@ -105851,6 +108011,7 @@ overrides = {
       "prio": 1,
       "name": "Lunar Dance",
       "num": 460,
+      "oldDesc": "The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.",
       "desc": "The user does a mystical dance  that raises its special attack and  speed sharply, but requires recharge.",
       "e_id": 270,
       "sf": true
@@ -106483,6 +108644,7 @@ overrides = {
       "prio": 1,
       "name": "Quash",
       "num": 510,
+      "oldDesc": "The user suppresses the target and makes its move go last.",
       "desc": "The user places its limbs over the target in an attempt to silence them. This lowers their speed stat by one stage.",
       "e_id": 315,
       "sf": true
@@ -106550,20 +108712,25 @@ overrides = {
     },
     "Inferno": {
       "t": "Fire",
-      "bp": 100,
+      "bp": 120,
       "cat": "Special",
-      "pp": 5,
-      "acc": 50,
+      "pp": 10,
+      "acc": 90,
       "prio": 0,
       "name": "Inferno",
       "num": 516,
-      "desc": "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.",
+      "oldDesc": "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.",
+      "desc": "The user attacks by engulfing the target in an intense fire. It's likely to cause burns, but also does significant recoil.",
       "e_id": 4,
+      "recoil": [
+        50,
+        100
+      ],
       "sf": true
     },
     "Water Pledge": {
       "t": "Water",
-      "bp": 50,
+      "bp": 75,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
@@ -106575,7 +108742,7 @@ overrides = {
     },
     "Fire Pledge": {
       "t": "Fire",
-      "bp": 50,
+      "bp": 75,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
@@ -106587,7 +108754,7 @@ overrides = {
     },
     "Grass Pledge": {
       "t": "Grass",
-      "bp": 50,
+      "bp": 75,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
@@ -106601,7 +108768,7 @@ overrides = {
       "t": "Electric",
       "bp": 70,
       "cat": "Special",
-      "pp": 20,
+      "pp": 5,
       "acc": 100,
       "prio": 0,
       "name": "Volt Switch",
@@ -106618,6 +108785,7 @@ overrides = {
       "prio": 0,
       "name": "Struggle Bug",
       "num": 521,
+      "oldDesc": "While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.",
       "desc": "The user attacks the opposing Pokémon with soundwaves that reduce the Sp. Atk of each target it hits.",
       "e_id": 71,
       "tar": "allAdjacentFoes",
@@ -106635,6 +108803,7 @@ overrides = {
       "prio": 0,
       "name": "Bulldoze",
       "num": 522,
+      "oldDesc": "The user stomps down on the ground and attacks everything in the area. Hit Pokémon's Speed stat is reduced.",
       "desc": "The user stomps down on the ground and attacks everything in the area. Hit Pokémon's Speed is reduced.",
       "e_id": 70,
       "tar": "allAdjacentFoes",
@@ -106649,6 +108818,7 @@ overrides = {
       "prio": 0,
       "name": "Frost Breath",
       "num": 523,
+      "oldDesc": "The user blows a cold breath on the target. This attack always results in a critical hit.",
       "desc": "The user blows a adhesive breath on the target. This attack always results in a critical hit.",
       "e_id": 288,
       "willCrit": true
@@ -106710,7 +108880,7 @@ overrides = {
     },
     "Drill Run": {
       "t": "Ground",
-      "bp": 80,
+      "bp": 90,
       "cat": "Physical",
       "pp": 10,
       "acc": 95,
@@ -106745,6 +108915,7 @@ overrides = {
       "prio": 0,
       "name": "Heart Stamp",
       "num": 530,
+      "oldDesc": "The user unleashes a vicious blow after its cute act makes the target less wary. It may also make the target flinch.",
       "desc": "The user unleashes a vicious blow after its cute act makes the target less wary. It also heals the user for 25% of their HP.",
       "e_id": 31
     },
@@ -106806,6 +108977,7 @@ overrides = {
       "prio": 0,
       "name": "Leaf Tornado",
       "num": 535,
+      "oldDesc": "The user attacks its target by encircling it in sharp leaves. This attack may also lower the target's accuracy.",
       "desc": "The user attacks its target by encircling it in sharp leaves. This attack also lowers the target's evasion.",
       "e_id": 73,
       "sf": true
@@ -106831,6 +109003,7 @@ overrides = {
       "prio": 0,
       "name": "Cotton Guard",
       "num": 537,
+      "oldDesc": "The user protects itself by wrapping its body in soft cotton, drastically raising the user's Defense stat.",
       "desc": "The user wraps its body in soft cotton, sharply raising the Defense and Sp. Def  while sacrificing speed.",
       "e_id": 328,
       "sf": true
@@ -106885,6 +109058,7 @@ overrides = {
       "prio": 0,
       "name": "Hurricane",
       "num": 541,
+      "oldDesc": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. It may also confuse the target.",
       "desc": "The user attacks, wrapping its target in a  fierce wind that may also confuse it.  This always lands during a downpour.",
       "e_id": 337,
       "sf": true
@@ -106982,14 +109156,15 @@ overrides = {
     },
     "Glaciate": {
       "t": "Ice",
-      "bp": 0,
-      "cat": "Status",
+      "bp": 85,
+      "cat": "Special",
       "pp": 10,
       "acc": 100,
-      "prio": 0,
+      "prio": 255,
       "name": "Glaciate",
       "num": 548,
-      "desc": "The user attacks by blowing freezing cold air at opposing Pokémon. This attack reduces the targets' Speed stat.",
+      "oldDesc": "The user attacks by blowing freezing cold air at opposing Pokémon. This attack reduces the targets' Speed stat.",
+      "desc": "The user attacks, blowing freezing air at opposing targets. This attack reduces  the targets' Speed, but moves last.",
       "e_id": 330,
       "tar": "allAdjacent",
       "sf": true
@@ -107046,25 +109221,25 @@ overrides = {
       "e_id": 331,
       "sf": true
     },
-    "Frigid Eruption": {
+    "Absolute Zero": {
       "t": "Ice",
       "bp": 150,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
       "prio": 0,
-      "name": "Frigid Eruption",
+      "name": "Absolute Zero",
       "num": 553,
-      "desc": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+      "desc": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target frozen.",
       "e_id": 332,
       "sf": true
     },
     "Snarl": {
       "t": "Dark",
-      "bp": 55,
+      "bp": 60,
       "cat": "Special",
       "pp": 15,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Snarl",
       "num": 554,
@@ -107090,7 +109265,7 @@ overrides = {
     },
     "V-create": {
       "t": "Fire",
-      "bp": 160,
+      "bp": 180,
       "cat": "Physical",
       "pp": 5,
       "acc": 95,
@@ -107125,14 +109300,14 @@ overrides = {
       "desc": "The user throws down a giant thunderbolt. This attack does greater damage when influenced by an enormous flame.",
       "e_id": 336
     },
-    "Dontuse": {
+    "Gap": {
       "t": "Normal",
       "bp": 35,
       "cat": "Physical",
       "pp": 35,
       "acc": 100,
       "prio": 0,
-      "name": "Dontuse",
+      "name": "Gap",
       "num": 678,
       "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
       "e_id": 0,
@@ -107216,9 +109391,9 @@ overrides = {
     },
     "Bone Chill": {
       "t": "Ghost",
-      "bp": 130,
+      "bp": 120,
       "cat": "Special",
-      "pp": 10,
+      "pp": 5,
       "acc": 75,
       "prio": 0,
       "name": "Bone Chill",
@@ -107314,6 +109489,70 @@ overrides = {
       "flags": {
         "sound": true
       }
+    },
+    "Hydro Blast": {
+      "t": "Water",
+      "bp": 85,
+      "cat": "Special",
+      "pp": 10,
+      "acc": 100,
+      "prio": 0,
+      "name": "Hydro Blast",
+      "num": 693,
+      "desc": "The user blasts fast moving shots of water at its target, dealing consistent damage.",
+      "e_id": 0
+    },
+    "Delirious Drench": {
+      "t": "Fairy",
+      "bp": 70,
+      "cat": "Special",
+      "pp": 10,
+      "acc": 100,
+      "prio": 0,
+      "name": "Delirious Drench",
+      "num": 694,
+      "desc": "The user approaches the target disarmingly, then covers them in a strange secreted  liquid that may poison them.",
+      "e_id": 0,
+      "sf": true
+    },
+    "Soul Choke": {
+      "t": "Ghost",
+      "bp": 75,
+      "cat": "Physical",
+      "pp": 10,
+      "acc": 100,
+      "prio": 0,
+      "name": "Soul Choke",
+      "num": 695,
+      "desc": "The user shoves ghostly energy down the opponent's throat, dealing damage and trapping them for 3 turns.",
+      "e_id": 0,
+      "sf": true
+    },
+    "Radiant Burst": {
+      "t": "Electric",
+      "bp": 65,
+      "cat": "Special",
+      "pp": 15,
+      "acc": 100,
+      "prio": 0,
+      "name": "Radiant Burst",
+      "num": 696,
+      "desc": "The user releases shining light from their body that grants them knowledge of the battlefield, raising the accuracy stat.",
+      "e_id": 0,
+      "sf": true
+    },
+    "New Move": {
+      "t": "Normal",
+      "bp": 35,
+      "cat": "Physical",
+      "pp": 35,
+      "acc": 100,
+      "prio": 0,
+      "name": "New Move",
+      "num": 998,
+      "desc": "The target is physically pounded with a long tail or a foreleg.  May cause paralysis.",
+      "e_id": 0,
+      "sf": true
     }
   },
   "abilities": {
@@ -112456,8 +114695,8 @@ overrides = {
         "encs": []
       }
     },
-    "championsroad": {
-      "name": "Champion's Road ",
+    "Unknown Location": {
+      "name": "Unknown Location",
       "grass": {
         "encs": [
           {
@@ -112602,8 +114841,73 @@ overrides = {
         "encs": []
       }
     },
-    "giantchasmplains": {
-      "name": "Giant Chasm Plains ",
+    "giantchasm": {
+      "name": "Giant Chasm ",
+      "grotto1": {
+        "encs": [
+          {
+            "s": "Metagross",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Feraligatr",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Starmie",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Clefable",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Metagross",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Feraligatr",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Starmie",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Clefable",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ditto",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ditto",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ditto",
+            "mn": 64,
+            "mx": 66
+          },
+          {
+            "s": "Ditto",
+            "mn": 64,
+            "mx": 66
+          }
+        ],
+        "name": "Giant Chasm "
+      },
       "grass": {
         "encs": [
           {
@@ -112809,8 +115113,8 @@ overrides = {
         "encs": []
       }
     },
-    "giantchasm": {
-      "name": "Giant Chasm ",
+    "giantchasm2": {
+      "name": "Giant Chasm 2",
       "grotto1": {
         "encs": [
           {
@@ -119653,8 +121957,8 @@ overrides = {
         ]
       }
     },
-    "Unknown Location": {
-      "name": "Unknown Location",
+    "Unknown Location2": {
+      "name": "Unknown Location2",
       "grass": {
         "encs": [
           {
@@ -119799,8 +122103,8 @@ overrides = {
         "encs": []
       }
     },
-    "Unknown Location2": {
-      "name": "Unknown Location2",
+    "Unknown Location3": {
+      "name": "Unknown Location3",
       "grass": {
         "encs": [
           {
@@ -120256,8 +122560,8 @@ overrides = {
         "encs": []
       }
     },
-    "championscavern": {
-      "name": "Champion's Cavern ",
+    "championsroad": {
+      "name": "Champion's Road ",
       "grass": {
         "encs": [
           {
@@ -133243,7 +135547,7 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that\\nprovides a higher Pokémon catch rate\\nthan a Great Ball.",
-      "location": "Dreamyard, Pinwheel Forest, Dragonspiral Tower, Champion's Grove, Champion's Cliff, Champion's Cliff, Relic Passage, Route 2, Route 3, Route 20",
+      "location": "Pinwheel Forest, Champion's Grove, Champion's Cliff, Champion's Cliff, Relic Passage, Route 2, Route 3, Route 20",
       "rewards": [
         "Lass Dana",
         "Policeman Jeff",
@@ -133595,7 +135899,7 @@ overrides = {
     "elixir": {
       "name": "Elixir",
       "desc": "It restores the PP of all the\\nmoves learned by the targeted Pokémon\\nby 10 points each.",
-      "location": "Dragonspiral Tower"
+      "location": ""
     },
     "maxelixir": {
       "name": "Max Elixir",
@@ -133623,6 +135927,7 @@ overrides = {
         "Ho-Oh"
       ],
       "marts": [
+        "Stock 8+Badges",
         "Victory Road Upper",
         "Yamaji Town Upper Cashier"
       ]
@@ -133630,7 +135935,7 @@ overrides = {
     "hpup": {
       "name": "HP Up",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base HP of a single\\nPokémon.",
-      "location": "Dreamyard, Pinwheel Forest, Clay Tunnel"
+      "location": "Pinwheel Forest, Clay Tunnel"
     },
     "protein": {
       "name": "Protein",
@@ -133645,7 +135950,7 @@ overrides = {
     "carbos": {
       "name": "Carbos",
       "desc": "A nutritious drink for Pokémon.\\nIt raises the base Speed stat of a\\nsingle Pokémon.",
-      "location": "Dragonspiral Tower, Route 2",
+      "location": "Route 2",
       "rewards": [
         "Striker Marco - Nimbasa City"
       ]
@@ -133658,7 +135963,7 @@ overrides = {
     "rarecandy": {
       "name": "Rare Candy",
       "desc": "A candy that is packed with energy.\\nIt raises the level of a single Pokémon\\nby one.",
-      "location": "Dreamyard, Haunted Mansion, Champion's Cavern, Relic Passage, Seaside Grotto, Nature Preserve, Route 3",
+      "location": "Haunted Mansion, Champion's Cavern, Relic Passage, Seaside Grotto, Nature Preserve, Route 3",
       "marts": [
         "Stock No Badges",
         "Stock 1+Badges",
@@ -133672,7 +135977,7 @@ overrides = {
     "ppup": {
       "name": "PP Up",
       "desc": "It slightly raises the maximum PP of\\na selected move that has been learned\\nby the target Pokémon.",
-      "location": "Icirrus City, Champion's Road"
+      "location": "Icirrus City, Champion's Entrance"
     },
     "zinc": {
       "name": "Zinc",
@@ -133685,7 +135990,7 @@ overrides = {
     "ppmax": {
       "name": "PP Max",
       "desc": "It maximally raises the top PP of a\\nselected move that has been learned\\nby the target Pokémon.",
-      "location": "Pinwheel Forest, Pinwheel Forest, Dragonspiral Tower, Champion's Cavern, Route 18, Route 20",
+      "location": "Pinwheel Forest, Pinwheel Forest, Champion's Cavern, Route 18, Route 20",
       "rewards": [
         "Veteran Sayuri",
         "PkMn Ranger Lewis - Reversal Summit"
@@ -133855,7 +136160,8 @@ overrides = {
         "Janitor Caleb"
       ],
       "marts": [
-        "Icirrus City Upper Cashier"
+        "Icirrus City Upper Cashier",
+        "Undella Town"
       ]
     },
     "superrepel": {
@@ -133898,7 +136204,7 @@ overrides = {
     "repel": {
       "name": "Repel",
       "desc": "An item that prevents weak wild\\nPokémon from appearing for 100 steps\\nafter its use.",
-      "location": "Castelia City"
+      "location": ""
     },
     "sunstone": {
       "name": "Sun Stone",
@@ -134024,7 +136330,7 @@ overrides = {
     "stardust": {
       "name": "Stardust",
       "desc": "Lovely, red-colored sand with a loose,\\nsilky feel. It can be sold at a high\\nprice to shops.",
-      "location": "Route 13",
+      "location": "Dreamyard, Route 13",
       "rewards": [
         "Rich Boy Anthony"
       ],
@@ -134036,7 +136342,7 @@ overrides = {
     "starpiece": {
       "name": "Star Piece",
       "desc": "A shard of a pretty gem that sparkles\\nin a red color. It can be sold at a\\nhigh price to shops.",
-      "location": "Giant Chasm, Giant Chasm Core, Giant Chasm Core, Giant Chasm Core, Champion's Road, Route 13, Route 18",
+      "location": "Dragonspiral Tower, Giant Chasm, Giant Chasm Core, Giant Chasm Core, Giant Chasm Core, Champion's Entrance, Route 13, Route 18",
       "rewards": [
         "Youngster Kevin"
       ],
@@ -134060,7 +136366,7 @@ overrides = {
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is\\nextremely rare. It glows faintly in the\\ncolors of the rainbow.",
-      "location": "Castelia City, Humilau City, Desert Resort, Desert Resort, Chargestone Cave, Giant Chasm Core, Castelia Sewers, Plasma Frigate, Seaside Grotto, Village Bridge, Route 2, Route 6, Moor of Icirrus, Route 11, Route 14, Lostlorn Forest, Route 22, Route 23, Accumula Town, Route 21",
+      "location": "Prime Pier, Castelia Backstreet, Humilau City, Desert Resort, Desert Resort, Chargestone Cave, Dragonspiral Tower, Giant Chasm Core, Castelia Sewers, Plasma Frigate, Seaside Grotto, Village Bridge, Route 2, Route 6, Moor of Icirrus, Route 11, Route 14, Lostlorn Forest, Route 22, Route 23, Accumula Town, Route 21",
       "rewards": [
         "Smasher Elena",
         "Linebacker Dan",
@@ -134088,7 +136394,13 @@ overrides = {
         "Infielder Todd",
         "Striker Marco",
         "Smasher Mari",
-        "Kanto Leader Brock - Icirrus City"
+        "Kanto Leader Blaine - Abyssal Ruins",
+        "Kanto Leader Janine - Challenger's Cave",
+        "Kanto Leader Sabrina - Challenger's Cave",
+        "Kanto Leader Brock - Challenger's Cave",
+        "Kanto Leader Misty - Challenger's Cave",
+        "Kanto Leader Surge - Challenger's Cave",
+        "Kanto Leader Erika - Challenger's Cave"
       ],
       "wilds": [
         "Luvdisc"
@@ -134201,7 +136513,7 @@ overrides = {
     "duskstone": {
       "name": "Dusk Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt is as dark as dark can be.",
-      "location": "Chargestone Cave, Twist Mountain, Haunted Mansion, Haunted Mansion",
+      "location": "Dreamyard, Chargestone Cave, Twist Mountain, Haunted Mansion, Haunted Mansion",
       "marts": [
         "Driftveil City Upper Cashier",
         "SM9 Middle Left Cashier"
@@ -134210,7 +136522,7 @@ overrides = {
     "dawnstone": {
       "name": "Dawn Stone",
       "desc": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt sparkles like eyes.",
-      "location": "Dreamyard, Giant Chasm Plains",
+      "location": "Dreamyard, Dreamyard, Giant Chasm",
       "rewards": [
         "Backpacker Patty"
       ],
@@ -134235,7 +136547,7 @@ overrides = {
     "griseousorb": {
       "name": "Griseous Orb",
       "desc": "A glowing orb to be held by Giratina.\\nIt boosts the power of Dragon- and\\nGhost-type moves.",
-      "location": "Dragonspiral Tower"
+      "location": ""
     },
     "???": {
       "name": "???",
@@ -134273,12 +136585,12 @@ overrides = {
     "adamantorb": {
       "name": "Adamant Orb",
       "desc": "A brightly gleaming orb to be held by\\nDialga. It boosts the power of Dragon-\\nand Steel-type moves.",
-      "location": "Dragonspiral Tower"
+      "location": ""
     },
     "lustrousorb": {
       "name": "Lustrous Orb",
       "desc": "A beautifully glowing orb to be held by\\nPalkia. It boosts the power of Dragon-\\nand Water-type moves.",
-      "location": "Dragonspiral Tower"
+      "location": ""
     },
     "greetmail": {
       "name": "Greet Mail",
@@ -134511,7 +136823,7 @@ overrides = {
         "PkMn Ranger Johan - Seaside Grotto",
         "PkMn Ranger Mikiko - Seaside Grotto",
         "PkMn Ranger Lewis - Reversal Summit",
-        "PkMn Ranger Benga - Reversal Summit"
+        "PkMn Ranger Ranga - Reversal Summit"
       ],
       "wilds": [
         "Girafarig",
@@ -135052,7 +137364,7 @@ overrides = {
     "kingsrock": {
       "name": "King's Rock",
       "desc": "An item to be held by a Pokémon.\\nWhen the holder inflicts damage,\\nthe target may flinch.",
-      "location": "Chargestone Cave, Village Bridge, Nuvema Town",
+      "location": "Chargestone Cave, Dragonspiral Tower, Village Bridge, Nuvema Town",
       "wilds": [
         "Poliwhirl",
         "Poliwrath",
@@ -135170,7 +137482,7 @@ overrides = {
     "metalcoat": {
       "name": "Metal Coat",
       "desc": "An item to be held by a Pokémon.\\nIt is a special metallic film that ups\\nthe power of Steel-type moves.",
-      "location": "Chargestone Cave, Clay Tunnel",
+      "location": "Chargestone Cave, Dragonspiral Tower, Clay Tunnel",
       "wilds": [
         "Magnemite",
         "Magneton",
@@ -135265,7 +137577,7 @@ overrides = {
     "blackglasses": {
       "name": "BlackGlasses",
       "desc": "An item to be held by a Pokémon.\\nIt is a shady-looking pair of glasses\\nthat boosts Dark-type moves.",
-      "location": "Castelia City"
+      "location": "Castelia Backstreet"
     },
     "blackbelt": {
       "name": "Black Belt",
@@ -135379,7 +137691,7 @@ overrides = {
     "silkscarf": {
       "name": "Silk Scarf",
       "desc": "An item to be held by a Pokémon.\\nIt is a sumptuous scarf that boosts\\nthe power of Normal-type moves.",
-      "location": "Virbank Complex"
+      "location": "Virbank Complex, Route 5"
     },
     "upgrade": {
       "name": "Up-Grade",
@@ -135506,7 +137818,6 @@ overrides = {
         "Stock 3+Badges",
         "Stock 5+Badges",
         "Stock 7+Badges",
-        "Stock 8+Badges",
         "SM9 Bottom Section"
       ]
     },
@@ -135586,7 +137897,7 @@ overrides = {
     "metronome": {
       "name": "Metronome",
       "desc": "A Pokémon held item that boosts a move\\nused consecutively. Its effect is\\nreset if another move is used.",
-      "location": "Lacunosa Town",
+      "location": "Dreamyard, Lacunosa Town",
       "rewards": [
         "Dancer Davey",
         "Musician Boris"
@@ -135999,7 +138310,7 @@ overrides = {
     "tm01": {
       "name": "TM01",
       "desc": "The user sharpens its claws to\\nboost its Attack stat and accuracy.",
-      "location": "Champion's Road",
+      "location": "Virbank Complex",
       "marts": [
         "Nimbasa TM Department"
       ]
@@ -136007,7 +138318,7 @@ overrides = {
     "tm02": {
       "name": "TM02",
       "desc": "The user greedily takes the target's items\\nwhen attacking to add to its collection\\nof various treasures.",
-      "location": "Dragonspiral Tower, Route 11"
+      "location": "Route 11"
     },
     "tm03": {
       "name": "TM03",
@@ -136036,7 +138347,7 @@ overrides = {
     "tm06": {
       "name": "TM06",
       "desc": "A move that leaves the target badly\\npoisoned. Its poison damage\\nworsens every turn.",
-      "location": "",
+      "location": "Champion's Entrance",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -136052,7 +138363,7 @@ overrides = {
     "tm08": {
       "name": "TM08",
       "desc": "The user tenses its muscles to bulk up\\nits body, boosting both its Attack and\\nDefense stats.",
-      "location": "Route 5, Route 5"
+      "location": "Route 5"
     },
     "tm09": {
       "name": "TM09",
@@ -136101,7 +138412,7 @@ overrides = {
     "tm16": {
       "name": "TM16",
       "desc": "A wondrous wall of light is put up to\\nsuppress damage from special attacks\\nfor five turns.",
-      "location": ""
+      "location": "Relic Castle"
     },
     "tm17": {
       "name": "TM17",
@@ -136234,7 +138545,7 @@ overrides = {
     "tm39": {
       "name": "TM39",
       "desc": "Boulders are hurled at the target\\nat rapid speeds. This moves before \\nmost other attacks in battle.",
-      "location": "Relic Castle, Route 4"
+      "location": "Route 4"
     },
     "tm40": {
       "name": "TM40",
@@ -136257,7 +138568,7 @@ overrides = {
     "tm43": {
       "name": "TM43",
       "desc": "The user cloaks itself with flame and\\nattacks. Building up more power,\\nit raises the user's Speed stat.",
-      "location": "Virbank Complex, Floccesy Town"
+      "location": "Floccesy Town"
     },
     "tm44": {
       "name": "TM44",
@@ -136292,7 +138603,7 @@ overrides = {
     "tm50": {
       "name": "TM50",
       "desc": "The user attacks the target at full\\npower. The attack's recoil harshly\\nreduces the user's Sp. Atk stat.",
-      "location": "Relic Castle, N's Ruins"
+      "location": "Relic Castle"
     },
     "tm51": {
       "name": "TM51",
@@ -136432,7 +138743,7 @@ overrides = {
     "tm75": {
       "name": "TM75",
       "desc": "A frenetic dance to uplift the fighting\\nspirit. It sharply raises the user's\\nAttack stat.",
-      "location": "",
+      "location": "Dragonspiral Tower",
       "marts": [
         "SM9 Middle Right Cashier"
       ]
@@ -136491,7 +138802,7 @@ overrides = {
     "tm85": {
       "name": "TM85",
       "desc": "The user eats the dreams of a sleeping\\ntarget. It absorbs half the damage\\ncaused to heal the user's HP.",
-      "location": "Dreamyard, Dragonspiral Tower, Pledge Grove"
+      "location": "Dragonspiral Tower, Pledge Grove"
     },
     "tm86": {
       "name": "TM86",
@@ -136760,10 +139071,7 @@ overrides = {
     "gracidea": {
       "name": "Gracidea",
       "desc": "A flower sometimes bundled in bouquets\\nto convey gratitude on special\\noccasions like birthdays.",
-      "location": "",
-      "marts": [
-        "Yamaji Town Upper Cashier"
-      ]
+      "location": ""
     },
     "secretkey": {
       "name": "Secret Key",
@@ -137150,8 +139458,7 @@ overrides = {
       "location": "",
       "marts": [
         "Stock 5+Badges",
-        "Stock 7+Badges",
-        "Stock 8+Badges"
+        "Stock 7+Badges"
       ]
     },
     "floatstone": {
@@ -137162,7 +139469,7 @@ overrides = {
     "rockyhelmet": {
       "name": "Rocky Helmet",
       "desc": "If the holder of this item takes damage,\\nthe attacker will also be damaged\\nupon contact.",
-      "location": "Desert Resort, Relic Passage",
+      "location": "Desert Resort, Dragonspiral Tower, Relic Passage",
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges",
@@ -137495,12 +139802,12 @@ overrides = {
     "relicsilver": {
       "name": "Relic Silver",
       "desc": "A silver coin used in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
-      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
+      "location": "Dragonspiral Tower, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, N's Ruins"
     },
     "relicgold": {
       "name": "Relic Gold",
       "desc": "A gold coin used in a civilization\\nabout 3,000 years ago.\\nA maniac will buy it for a high price.",
-      "location": "Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
+      "location": "Dragonspiral Tower, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins"
     },
     "relicvase": {
       "name": "Relic Vase",
@@ -137713,18 +140020,12 @@ overrides = {
     "ovalcharm": {
       "name": "Oval Charm",
       "desc": "An oval charm said to increase the\\nchance of Eggs being found\\nat the Day Care.",
-      "location": "",
-      "marts": [
-        "Yamaji Town Upper Cashier"
-      ]
+      "location": ""
     },
     "shinycharm": {
       "name": "Shiny Charm",
       "desc": "A shiny charm said to increase\\nthe chance of finding a\\nShiny Pokémon.",
-      "location": "",
-      "marts": [
-        "Yamaji Town Upper Cashier"
-      ]
+      "location": ""
     },
     "plasmacard": {
       "name": "Plasma Card",
