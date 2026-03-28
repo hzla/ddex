@@ -358,6 +358,21 @@ function downloadTextFile(filename, contents, mimeType = "text/javascript") {
   URL.revokeObjectURL(url);
 }
 
+function formatRomGrowthsAndExpYieldsFile(payload, options = {}) {
+  const growthsVarName = options.growthsVarName || "sav_pok_growths";
+  const expYieldVarName = options.expYieldVarName || "expYields";
+  const growths = Array.isArray(payload && payload.growths) ? payload.growths : [];
+  const expYields = payload && payload.expYields && typeof payload.expYields === "object"
+    ? payload.expYields
+    : {};
+  return [
+    `${growthsVarName} = ${JSON.stringify(growths)};`,
+    "",
+    `${expYieldVarName} = ${JSON.stringify(expYields, null, 2)};`,
+    "",
+  ].join("\n");
+}
+
 function readRomGameCode(arrayBuffer) {
   try {
     const u8 = new Uint8Array(arrayBuffer);
@@ -443,6 +458,32 @@ window.downloadRomBackupData = function (baseName, options) {
   downloadTextFile(filename, formatBackupDataFile(backupPayload), "application/json");
   console.log(
     `Downloaded backup_data as ${filename} (title="${exportTitle}", useGlitchedSpeciesRedirects=${useGlitchedSpeciesRedirects})`
+  );
+  return true;
+};
+
+window.downloadRomGrowthsAndExpYields = function (baseName, options) {
+  const payload = window.DDEX_ROM_INCLUDES;
+  if (!payload || !Array.isArray(payload.growths) || !payload.expYields) {
+    console.warn("No ROM growth/exp-yield data found. Load a Gen 4 ROM via file upload first.");
+    return false;
+  }
+  const config =
+    baseName && typeof baseName === "object" && !Array.isArray(baseName)
+      ? baseName
+      : options && typeof options === "object" && !Array.isArray(options)
+        ? options
+        : {};
+  const fallbackTitle = localStorage.romTitle || localStorage[ROM_KEYS.title] || "rom";
+  const exportTitle =
+    typeof baseName === "string" || typeof baseName === "number"
+      ? String(baseName)
+      : fallbackTitle;
+  const base = safeFileBase(exportTitle || fallbackTitle);
+  const filename = config.filename || `${base}_growths_expyields.js`;
+  downloadTextFile(filename, formatRomGrowthsAndExpYieldsFile(payload, config), "text/javascript");
+  console.log(
+    `Downloaded growths/exp yields as ${filename} (growths=${payload.growths.length}, expYields=${Object.keys(payload.expYields).length})`
   );
   return true;
 };
@@ -569,6 +610,7 @@ $(document).on('change', '#rom-upload', async function(e) {
     await ensureRomExporterLoaded();
     const buf = await file.arrayBuffer();
     window.__DDEX_LAST_ROM_BUFFER = buf;
+    window.DDEX_ROM_INCLUDES = null;
     window.DDEX_ROM_DEBUG = null;
     const result = await window.buildOverridesFromRom(buf, { log: (msg) => setRomStatus(msg) });
     const normalizedOverrides = normalizeOverrideSpeciesPayload(result.overrides);
@@ -582,6 +624,7 @@ $(document).on('change', '#rom-upload', async function(e) {
     maybeApplyRomFamilyFromTitle(rawRomName);
     window.DDEX_ROM_TEXTS = result.texts || null;
     window.DDEX_ROM_BACKUP_DATA = result.backupData || null;
+    window.DDEX_ROM_INCLUDES = result.includes || null;
     window.DDEX_ROM_DEBUG = result.debug || null;
     if (result.itemLocationStats) {
       setRomStatus(`Item locations (event=${result.itemLocationStats.eventScriptCount}, script=${result.itemLocationStats.scriptParseCount})`);

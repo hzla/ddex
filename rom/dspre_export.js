@@ -1838,6 +1838,22 @@ function toID(text) {
     .replace(/[^a-z0-9]+/g, "");
 }
 
+function buildRomGrowthsAndExpYields(personalEntries, pokemonNames) {
+  const growths = [];
+  const expYields = {};
+
+  for (let i = 0; i < personalEntries.length; i += 1) {
+    const entry = personalEntries[i] || {};
+    growths.push(Number.isFinite(entry.growthCurve) ? entry.growthCurve : 0);
+
+    const speciesId = toID(pokemonNames[i] || "");
+    if (!speciesId) continue;
+    expYields[speciesId] = Number.isFinite(entry.givenExp) ? entry.givenExp : 0;
+  }
+
+  return { growths, expYields };
+}
+
 function buildOverridesAndSearchIndex(data, options) {
   const log = options?.log;
   const gameName = (options?.gameName || data.romId || "rom").toLowerCase();
@@ -2696,6 +2712,7 @@ export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
   return {
     overrides: built.overrides,
     backupData,
+    includes: data.includes || null,
     searchIndex: built.searchIndex,
     searchIndexOffset: built.searchIndexOffset,
     searchIndexCount: built.searchIndexCount,
@@ -3101,14 +3118,14 @@ function parsePersonal(u8) {
   const type1 = r.u8();
   const type2 = r.u8();
   r.u8(); // catchRate
-  r.u8(); // givenExp
+  const givenExp = r.u8();
   r.u16(); // evData
   const item1 = r.u16();
   const item2 = r.u16();
   const genderVec = r.u8();
   r.u8(); // eggSteps
   r.u8(); // baseFriendship
-  r.u8(); // growthCurve
+  const growthCurve = r.u8();
   r.u8(); // eggGroup1
   r.u8(); // eggGroup2
   const firstAbility = r.u8();
@@ -3145,6 +3162,8 @@ function parsePersonal(u8) {
     abilityU16,
     alignmentU16,
     genderVec,
+    givenExp,
+    growthCurve,
     machines,
   };
 }
@@ -5400,6 +5419,7 @@ async function collectDspreData(editor, { log }) {
     family,
     version,
     expandedHgssLearnsets,
+    includes: buildRomGrowthsAndExpYields(personalEntries, pokemonNames),
     tutors: {
       moves: tutorMoves,
       compat: tutorCompat,
