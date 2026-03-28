@@ -1545,6 +1545,8 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
       sd: Number(String(entry.BaseSpecialDefense || "0").trim()),
       sp: Number(String(entry.BaseSpeed || "0").trim()),
     };
+    const rawCatchRate = typeof entry.CatchRate === "undefined" ? "" : String(entry.CatchRate).trim();
+    const catchRate = rawCatchRate === "" ? null : Number(rawCatchRate);
 
     const learnsetEntry = learnsetData[i] || {};
     const learnset = [];
@@ -1597,6 +1599,7 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
       learnset_info: { learnset, tms, ...(tutors ? { tutors } : {}), ...(tutorSources ? { tutorsBySource: tutorSources } : {}) },
       abs,
     };
+    if (Number.isFinite(catchRate)) species.catchRate = catchRate;
 
     const evoInfo = evoByName.get(name);
     if (Array.isArray(evoInfo) && evoInfo.length) {
@@ -3117,7 +3120,7 @@ function parsePersonal(u8) {
   const baseSpDef = r.u8();
   const type1 = r.u8();
   const type2 = r.u8();
-  r.u8(); // catchRate
+  const catchRate = r.u8();
   const givenExp = r.u8();
   r.u16(); // evData
   const item1 = r.u16();
@@ -3155,6 +3158,7 @@ function parsePersonal(u8) {
     baseSpDef,
     type1,
     type2,
+    catchRate,
     item1,
     item2,
     firstAbility,
@@ -4664,6 +4668,7 @@ async function collectDspreData(editor, { log }) {
     "BaseSpecialAttack",
     "BaseSpecialDefense",
     "BaseSpeed",
+    "CatchRate",
     "Ability1",
     "Ability2",
     ...(expandedAbility3 ? ["Ability3"] : []),
@@ -4691,6 +4696,7 @@ async function collectDspreData(editor, { log }) {
       entry.baseSpAtk,
       entry.baseSpDef,
       entry.baseSpeed,
+      entry.catchRate,
       abilityNames[entry.firstAbility] ?? `ABILITY_${entry.firstAbility}`,
       abilityNames[entry.secondAbility] ?? `ABILITY_${entry.secondAbility}`,
       ...(expandedAbility3 ? [ability3Name] : []),

@@ -824,6 +824,7 @@
   ) {
     options = options || {};
     var attrs = "";
+    var extraAttrs = "";
     if (Search.urlRoot)
       attrs =
         ' href="' +
@@ -831,9 +832,13 @@
         "pokemon/" +
         toID(pokemon.name) +
         '" data-target="push"';
+    if (Number.isFinite(options.level) && options.level > 0) {
+      extraAttrs += ' data-initial-level="' + options.level + '"';
+    }
     var buf =
       "<a" +
       attrs +
+      extraAttrs +
       ' data-entry="pokemon|' +
       BattleLog.escapeHTML(pokemon.name) +
       '">';

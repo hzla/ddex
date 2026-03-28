@@ -1037,6 +1037,14 @@ function overrideMonData(monOverrides) {
 		BattlePokedex[speciesId].abilities["H"] = monData.abs[2]
 		BattlePokedex[speciesId].wildItems = monData.items
 		BattlePokedex[speciesId].tier = "obtainable"
+		if (
+			typeof monData.catchRate != "undefined" &&
+			monData.catchRate !== null &&
+			monData.catchRate !== "" &&
+			Number.isFinite(Number(monData.catchRate))
+		) {
+			BattlePokedex[speciesId].catchRate = Number(monData.catchRate)
+		}
 		BattlePokedex[speciesId].baseStats = {
 			hp: monData.bs.hp,
 			atk: monData.bs.at,

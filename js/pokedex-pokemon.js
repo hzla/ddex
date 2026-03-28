@@ -130,6 +130,139 @@ function getPrevoMoveHighlights(pokemon) {
   return highlights;
 }
 
+var DDEX_PENDING_POKEMON_LEVEL_KEY = "ddexPendingPokemonLevel";
+
+var CATCH_RATE_STATUS_OPTIONS = [
+  { key: "none", label: "None", multiplier: 1 },
+  { key: "par", label: "Par", multiplier: 1.5 },
+  { key: "psnbrn", label: "Psn/Brn", multiplier: 1.5 },
+  { key: "slpfrz", label: "Slp/Frz", multiplier: 2 },
+];
+
+var CATCH_RATE_BALL_OPTIONS = [
+  { key: "1", label: "1x", multiplier: 1 },
+  { key: "1_5", label: "1.5x", multiplier: 1.5 },
+  { key: "2", label: "2x", multiplier: 2 },
+  { key: "3", label: "3x", multiplier: 3 },
+  { key: "3_5", label: "3.5x", multiplier: 3.5 },
+  { key: "4", label: "4x", multiplier: 4 },
+];
+
+function clampCatchRateValue(value, min, max) {
+  if (!Number.isFinite(value)) return min;
+  if (value < min) return min;
+  if (value > max) return max;
+  return value;
+}
+
+function normalizeCatchRateNumber(value) {
+  if (value === null || typeof value === "undefined" || value === "") return null;
+  var num = Number(value);
+  return Number.isFinite(num) ? num : null;
+}
+
+function formatCatchRatePercent(chance) {
+  if (!Number.isFinite(chance) || chance <= 0) return "0%";
+  if (chance >= 1) return "100%";
+  var percent = chance * 100;
+  if (percent < 0.01) return "<0.01%";
+  var decimals = percent >= 10 ? 2 : 3;
+  return percent.toFixed(decimals).replace(/\.?0+$/, "") + "%";
+}
+
+function formatCatchRateNumber(value, digits) {
+  if (!Number.isFinite(value)) return "Infinity";
+  return Number(value).toFixed(digits).replace(/\.?0+$/, "");
+}
+
+function formatCatchRateTries(value) {
+  if (!Number.isFinite(value)) return "Infinity";
+  if (value <= 1) return "1";
+  return formatCatchRateNumber(value, value >= 10 ? 1 : 2);
+}
+
+function calculateCatchRateResult(options) {
+  var catchRate = Math.max(0, Number(options.catchRate) || 0);
+  var maxHp = Math.max(1, Math.floor(Number(options.maxHp) || 1));
+  var currentHp = clampCatchRateValue(Math.floor(Number(options.currentHp) || maxHp), 1, maxHp);
+  var ballMultiplier = Number(options.ballMultiplier) || 1;
+  var statusMultiplier = Number(options.statusMultiplier) || 1;
+  var numerator = (3 * maxHp - 2 * currentHp) * catchRate * ballMultiplier * statusMultiplier;
+  var a = Math.floor(numerator / (3 * maxHp));
+  if (!Number.isFinite(a) || a < 0) a = 0;
+
+  var result = {
+    rawCatchRate: catchRate,
+    maxHp: maxHp,
+    currentHp: currentHp,
+    hpPercent: (currentHp / maxHp) * 100,
+    a: a,
+    b: 0,
+    chance: 0,
+    expectedThrows: Infinity,
+    thresholdThrows: {
+      50: Infinity,
+      90: Infinity,
+      95: Infinity,
+    },
+  };
+
+  if (a >= 255) {
+    result.b = 65535;
+    result.chance = 1;
+    result.expectedThrows = 1;
+    result.thresholdThrows[50] = 1;
+    result.thresholdThrows[90] = 1;
+    result.thresholdThrows[95] = 1;
+    return result;
+  }
+
+  if (a <= 0) return result;
+
+  var x = Math.floor(16711680 / a);
+  var y = Math.floor(Math.sqrt(x));
+  var z = Math.floor(Math.sqrt(y));
+  var b = z > 0 ? Math.floor(1048560 / z) : 65535;
+  if (b > 65535) b = 65535;
+  if (b < 0) b = 0;
+  var chance = Math.pow(b / 65536, 4);
+
+  result.b = b;
+  result.chance = chance;
+  result.expectedThrows = chance > 0 ? 1 / chance : Infinity;
+
+  if (chance > 0 && chance < 1) {
+    result.thresholdThrows[50] = Math.ceil(Math.log(1 - 0.5) / Math.log(1 - chance));
+    result.thresholdThrows[90] = Math.ceil(Math.log(1 - 0.9) / Math.log(1 - chance));
+    result.thresholdThrows[95] = Math.ceil(Math.log(1 - 0.95) / Math.log(1 - chance));
+  } else if (chance >= 1) {
+    result.thresholdThrows[50] = 1;
+    result.thresholdThrows[90] = 1;
+    result.thresholdThrows[95] = 1;
+  }
+
+  return result;
+}
+
+function consumePendingPokemonLevel(speciesId) {
+  if (!speciesId) return null;
+  try {
+    var raw = sessionStorage.getItem(DDEX_PENDING_POKEMON_LEVEL_KEY);
+    if (!raw) return null;
+    sessionStorage.removeItem(DDEX_PENDING_POKEMON_LEVEL_KEY);
+    var parsed = JSON.parse(raw);
+    if (!parsed || toID(parsed.speciesId) !== toID(speciesId)) return null;
+    var level = Number(parsed.level);
+    if (!Number.isFinite(level) || level <= 0) return null;
+    return clampCatchRateValue(Math.floor(level), 1, 100);
+  } catch (err) {
+    try {
+      sessionStorage.removeItem(DDEX_PENDING_POKEMON_LEVEL_KEY);
+    } catch (removeErr) {}
+    return null;
+  }
+}
+
 var PokedexPokemonPanel = PokedexResultPanel.extend({
   initialize: function (id) {
     id = toID(id);
@@ -145,6 +278,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     }
     this.id = id;
     this.shortTitle = pokemon.baseSpecies;
+    this.initialLevel = consumePendingPokemonLevel(id);
 
     vanillaPokemon = vanillaSpecies[id]
     overrideData = {}
@@ -164,6 +298,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     if (typeof vanillaPokemon == "undefined") {
       vanillaPokemon = pokemon
     }
+
+    var resolvedCatchRate = normalizeCatchRateNumber(
+      overrideData && typeof overrideData.catchRate !== "undefined"
+        ? overrideData.catchRate
+        : pokemon && typeof pokemon.catchRate !== "undefined"
+          ? pokemon.catchRate
+          : vanillaPokemon && typeof vanillaPokemon.catchRate !== "undefined"
+            ? vanillaPokemon.catchRate
+            : null,
+    );
+    this.catchRateValue = resolvedCatchRate;
+    this.catchRateState = {
+      expanded: false,
+      currentHp: null,
+      statusKey: "none",
+      statusMultiplier: 1,
+      ballKey: "1",
+      ballMultiplier: 1,
+    };
 
     let obtainable = pokemon.tier === "obtainable";
     var buf = '<div class="pfx-body dexentry">';
@@ -374,6 +527,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     
 
     buf += "</table></dd>";
+
+    buf += this.renderCatchRateSection();
 
     if (itemData) {
         buf += '<dl class="itementry">';
@@ -687,6 +842,12 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     buf += "</div>";
 
     this.html(buf);
+    if (Number.isFinite(this.initialLevel)) {
+      this.$('input[name=level]').val(this.initialLevel);
+      this.updateLevel();
+    } else {
+      this.syncCatchRateCalculator();
+    }
 
     if (
       window.DDEX_NUZLOCKE_BOX &&
@@ -714,6 +875,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
   },
   events: {
     "click .tabbar button": "selectTab",
+    "click .catchrate-summary": "toggleCatchRateCalculator",
+    "input .catchrate-hp-slider": "updateCatchRateHpFromSlider",
+    "input .catchrate-hp-percent": "updateCatchRateHpFromPercent",
+    "click .catchrate-status-button": "updateCatchRateStatus",
+    "click .catchrate-ball-button": "updateCatchRateBall",
     "input input[name=level]": "updateLevel",
     "keyup input[name=level]": "updateLevel",
     "change input[name=level]": "updateLevel",
@@ -757,6 +923,219 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         );
       i++;
     }
+    this.syncCatchRateCalculator();
+  },
+  renderCatchRateSection: function () {
+    var hasCatchRate = Number.isFinite(this.catchRateValue);
+    var summaryValue = hasCatchRate ? this.catchRateValue : "unavailable";
+    var disabledAttrs = hasCatchRate ? "" : ' disabled aria-disabled="true"';
+    var section =
+      '<dt class="catchrateentry-label">Catch Rate:</dt>' +
+      '<dd class="catchrateentry">' +
+      '<button type="button" class="button catchrate-summary" aria-expanded="false"' +
+      disabledAttrs +
+      '>' +
+      '<span class="catchrate-summary-value">' +
+      summaryValue +
+      '</span>' +
+      '<span class="catchrate-chevron" aria-hidden="true">&#9662;</span>' +
+      "</button>";
+
+    if (hasCatchRate) {
+      var state = this.getCatchRateViewState();
+      var result = calculateCatchRateResult({
+        catchRate: this.catchRateValue,
+        maxHp: state.maxHp,
+        currentHp: state.currentHp,
+        ballMultiplier: state.ballMultiplier,
+        statusMultiplier: state.statusMultiplier,
+      });
+      section += this.renderCatchRateCalculatorBody(state, result);
+    }
+
+    section += "</dd>";
+    return section;
+  },
+  renderCatchRateCalculatorBody: function (state, result) {
+    var statusButtons = "";
+    var ballButtons = "";
+    for (var i = 0; i < CATCH_RATE_STATUS_OPTIONS.length; i++) {
+      var status = CATCH_RATE_STATUS_OPTIONS[i];
+      statusButtons +=
+        '<button type="button" class="button catchrate-status-button' +
+        (state.statusKey === status.key ? " active" : "") +
+        '" data-status-key="' +
+        status.key +
+        '" data-status-multiplier="' +
+        status.multiplier +
+        '">' +
+        status.label +
+        "</button>";
+    }
+    for (var j = 0; j < CATCH_RATE_BALL_OPTIONS.length; j++) {
+      var ball = CATCH_RATE_BALL_OPTIONS[j];
+      ballButtons +=
+        '<button type="button" class="button catchrate-ball-button' +
+        (state.ballKey === ball.key ? " active" : "") +
+        '" data-ball-key="' +
+        ball.key +
+        '" data-ball-multiplier="' +
+        ball.multiplier +
+        '">' +
+        ball.label +
+        "</button>";
+    }
+
+    return (
+      '<div class="catchrate-calculator" hidden>' +
+      '<div class="catchrate-controls">' +
+      '<label class="catchrate-control catchrate-control-slider">' +
+      "<span>HP</span>" +
+      '<input type="range" class="catchrate-hp-slider" min="1" max="' +
+      state.maxHp +
+      '" value="' +
+      state.currentHp +
+      '" />' +
+      '<span class="catchrate-hp-inline"><span class="catchrate-current-hp">' +
+      result.currentHp +
+      '</span> / <span class="catchrate-max-hp">' +
+      result.maxHp +
+      "</span></span>" +
+      "</label>" +
+      '<label class="catchrate-control catchrate-control-percent">' +
+      "<span>HP%</span>" +
+      '<input type="number" class="textbox catchrate-hp-percent" min="0.1" max="100" step="0.1" value="' +
+      formatCatchRateNumber(result.hpPercent, 1) +
+      '" />' +
+      "</label>" +
+      "</div>" +
+      '<div class="catchrate-control-group">' +
+      '<span class="catchrate-control-label">Status</span>' +
+      '<div class="catchrate-button-group">' +
+      statusButtons +
+      "</div>" +
+      "</div>" +
+      '<div class="catchrate-control-group">' +
+      '<span class="catchrate-control-label">Capture Power</span>' +
+      '<div class="catchrate-button-group">' +
+      ballButtons +
+      "</div>" +
+      "</div>" +
+      '<div class="catchrate-results">' +
+      '<div class="catchrate-result-row"><span>Single-throw chance</span><strong class="catchrate-output-chance">' +
+      formatCatchRatePercent(result.chance) +
+      '</strong></div>' +
+      '<div class="catchrate-result-row"><span>Expected throws</span><strong class="catchrate-output-expected">' +
+      formatCatchRateTries(result.expectedThrows) +
+      "</strong></div>" +
+      "</div>" +
+      "</div>"
+    );
+  },
+  getSharedLevel: function () {
+    var val = this.$("input[name=level]").val();
+    var level = val === "" ? 100 : parseInt(val, 10);
+    if (!Number.isFinite(level) || isNaN(level)) level = 100;
+    return clampCatchRateValue(level, 1, 100);
+  },
+  getCatchRateViewState: function () {
+    var level = this.getSharedLevel();
+    var pokemon = Dex.species.get(this.id);
+    var maxHp = this.getStat(pokemon.baseStats.hp, true, level, 31, 0, 1);
+    if (!this.catchRateState) {
+      this.catchRateState = {
+        expanded: false,
+        currentHp: maxHp,
+        statusKey: "none",
+        statusMultiplier: 1,
+        ballKey: "1",
+        ballMultiplier: 1,
+      };
+    }
+    if (!Number.isFinite(this.catchRateState.currentHp)) {
+      this.catchRateState.currentHp = maxHp;
+    }
+    this.catchRateState.currentHp = clampCatchRateValue(this.catchRateState.currentHp, 1, maxHp);
+    return {
+      level: level,
+      maxHp: maxHp,
+      currentHp: this.catchRateState.currentHp,
+      statusKey: this.catchRateState.statusKey || "none",
+      statusMultiplier: Number(this.catchRateState.statusMultiplier) || 1,
+      ballKey: this.catchRateState.ballKey || "1",
+      ballMultiplier: Number(this.catchRateState.ballMultiplier) || 1,
+      expanded: !!this.catchRateState.expanded,
+    };
+  },
+  syncCatchRateCalculator: function () {
+    if (!Number.isFinite(this.catchRateValue)) return;
+
+    var state = this.getCatchRateViewState();
+    var result = calculateCatchRateResult({
+      catchRate: this.catchRateValue,
+      maxHp: state.maxHp,
+      currentHp: state.currentHp,
+      ballMultiplier: state.ballMultiplier,
+      statusMultiplier: state.statusMultiplier,
+    });
+    var $summary = this.$(".catchrate-summary");
+    var $calculator = this.$(".catchrate-calculator");
+    if (!$summary.length || !$calculator.length) return;
+
+    $summary.attr("aria-expanded", state.expanded ? "true" : "false");
+    $summary.toggleClass("expanded", state.expanded);
+    $calculator.prop("hidden", !state.expanded);
+
+    this.$(".catchrate-hp-slider")
+      .attr("max", state.maxHp)
+      .val(result.currentHp);
+    this.$(".catchrate-hp-percent").val(formatCatchRateNumber(result.hpPercent, 1));
+    this.$(".catchrate-current-hp").text(result.currentHp);
+    this.$(".catchrate-max-hp").text(result.maxHp);
+    this.$(".catchrate-output-chance").text(formatCatchRatePercent(result.chance));
+    this.$(".catchrate-output-expected").text(formatCatchRateTries(result.expectedThrows));
+
+    this.$(".catchrate-status-button").removeClass("active");
+    this.$('.catchrate-status-button[data-status-key="' + state.statusKey + '"]').addClass("active");
+    this.$(".catchrate-ball-button").removeClass("active");
+    this.$('.catchrate-ball-button[data-ball-key="' + state.ballKey + '"]').addClass("active");
+  },
+  toggleCatchRateCalculator: function (e) {
+    if (!Number.isFinite(this.catchRateValue)) return;
+    e.preventDefault();
+    this.catchRateState.expanded = !this.catchRateState.expanded;
+    this.syncCatchRateCalculator();
+  },
+  updateCatchRateHpFromSlider: function (e) {
+    if (!Number.isFinite(this.catchRateValue)) return;
+    this.catchRateState.currentHp = Number($(e.currentTarget).val());
+    this.syncCatchRateCalculator();
+  },
+  updateCatchRateHpFromPercent: function (e) {
+    if (!Number.isFinite(this.catchRateValue)) return;
+    var state = this.getCatchRateViewState();
+    var percent = Number($(e.currentTarget).val());
+    percent = clampCatchRateValue(percent, 0.1, 100);
+    this.catchRateState.currentHp = clampCatchRateValue(
+      Math.round((state.maxHp * percent) / 100),
+      1,
+      state.maxHp,
+    );
+    this.syncCatchRateCalculator();
+  },
+  updateCatchRateStatus: function (e) {
+    if (!Number.isFinite(this.catchRateValue)) return;
+    var $button = $(e.currentTarget);
+    this.catchRateState.statusKey = $button.attr("data-status-key") || "none";
+    this.catchRateState.statusMultiplier = Number($button.attr("data-status-multiplier")) || 1;
+    this.syncCatchRateCalculator();
+  },
+  updateCatchRateBall: function (e) {
+    if (!Number.isFinite(this.catchRateValue)) return;
+    var $button = $(e.currentTarget);
+    this.catchRateState.ballKey = $button.attr("data-ball-key") || "1";
+    this.catchRateState.ballMultiplier = Number($button.attr("data-ball-multiplier")) || 1;
+    this.syncCatchRateCalculator();
   },
   getEvoMethod: function (evo) {
     let condition = evo.evoCondition ? ` ${evo.evoCondition}` : ``;

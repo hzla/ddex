@@ -145,6 +145,7 @@ async function ensureLocationMapSet() {
 }
 
 var trappingAbilities = ["shadowtag", "arenatrap", "magnetpull"];
+var DDEX_PENDING_POKEMON_LEVEL_KEY = "ddexPendingPokemonLevel";
 var teleportingMoves = ["teleport"];
 var roaringMoves = ["whirlwind", "roar"];
 var selfKoMoves = ["selfdestruct", "explosion", "memento"];
@@ -230,6 +231,9 @@ function getEncounterPreviewMoves(pokemon, level) {
 }
 
 var PokedexEncountersPanel = PokedexResultPanel.extend({
+  events: {
+    "click .result a[data-initial-level]": "storePendingPokemonLevel",
+  },
   initialize: function (id) {
     id = toID(id);
     var location = BattleLocationdex[id];
@@ -280,6 +284,28 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         this.renderLocationMaps();
       }.bind(this),
     );
+  },
+  storePendingPokemonLevel: function (e) {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    var target = e.currentTarget;
+    var level = Number(target && target.getAttribute("data-initial-level"));
+    var href = target && target.getAttribute("href");
+    var match = href && href.match(/\/pokemon\/([^/?#]+)/);
+    var speciesId = match ? toID(match[1]) : "";
+    if (!speciesId || !Number.isFinite(level) || level <= 0) return;
+    try {
+      sessionStorage.setItem(
+        DDEX_PENDING_POKEMON_LEVEL_KEY,
+        JSON.stringify({
+          speciesId: speciesId,
+          level: Math.floor(level),
+          sourceLocation: this.id,
+          createdAt: Date.now(),
+        }),
+      );
+    } catch (err) {
+      console.warn("Failed to store pending pokemon level", err);
+    }
   },
   remove: function () {
     if (
