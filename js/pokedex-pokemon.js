@@ -317,6 +317,20 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       ballKey: "1",
       ballMultiplier: 1,
     };
+    this.expandedRouteKeys = new Set();
+    this.manualRouteFamilyOverrides = {};
+    this.routeAnalysisCache = {};
+    this.advancedRoutingState = {
+      targetRouteKey: "",
+      depth: 1,
+      thresholdPercent: 100,
+      ignoreBoxData: false,
+      includeFamilyTree: true,
+      searchMode: "search",
+      lastResults: null,
+      isRunning: false,
+      expandedResultKeys: new Set(),
+    };
 
     let obtainable = pokemon.tier === "obtainable";
     var buf = '<div class="pfx-body dexentry">';
@@ -798,7 +812,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     // learnset
     if (pokemon.tier === "obtainable") {
       buf +=
-        '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li><li><button class="button" value="encounters">Encounters</button></li></ul>';
+        '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li><li><button class="button" value="encounters">Encounters</button></li><li><button class="button nav-last" value="advanced-routing">Advanced Routing</button></li></ul>';
     } else {
       buf +=
         '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li></ul>';
@@ -854,8 +868,15 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       typeof window.DDEX_NUZLOCKE_BOX.subscribe === "function"
     ) {
       this.handleNuzlockeUpdate = function () {
-        if (this.$(".tabbar button.cur").val() === "encounters") {
+        var currentTab = this.$(".tabbar button.cur").val();
+        if (currentTab === "encounters") {
           this.renderEncounters();
+        } else if (currentTab === "advanced-routing") {
+          if (this.advancedRoutingState.lastResults) {
+            this.runAdvancedRoutingAnalysis();
+          } else {
+            this.renderAdvancedRouting();
+          }
         }
       }.bind(this);
       window.DDEX_NUZLOCKE_BOX.subscribe(this.handleNuzlockeUpdate);
@@ -880,6 +901,15 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     "input .catchrate-hp-percent": "updateCatchRateHpFromPercent",
     "click .catchrate-status-button": "updateCatchRateStatus",
     "click .catchrate-ball-button": "updateCatchRateBall",
+    "click .ddex-route-toggle-button": "toggleEncounterRoutePanel",
+    "click .ddex-route-family-row": "toggleEncounterRouteFamily",
+    "change .ddex-advanced-route-select": "updateAdvancedRoutingTarget",
+    "change .ddex-advanced-ignore-box": "updateAdvancedRoutingIgnoreBox",
+    "change .ddex-advanced-include-family-tree": "updateAdvancedRoutingFamilyMode",
+    "input .ddex-advanced-threshold-input": "updateAdvancedRoutingThreshold",
+    "click .ddex-advanced-run-button": "runAdvancedRoutingSearch",
+    "click .ddex-advanced-deep-run-button": "runAdvancedRoutingDeepSearch",
+    "click .ddex-advanced-result-toggle": "toggleAdvancedRoutingResult",
     "input input[name=level]": "updateLevel",
     "keyup input[name=level]": "updateLevel",
     "change input[name=level]": "updateLevel",
@@ -1180,6 +1210,18 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         break;
       case "encounters":
         this.renderEncounters();
+        break;
+      case "advanced-routing":
+        var $tabButton = $(e.currentTarget);
+        var originalLabel = $tabButton.text();
+        $tabButton.text("Loading...");
+        setTimeout(
+          function () {
+            $tabButton.text(originalLabel);
+            this.renderAdvancedRouting();
+          }.bind(this),
+          0,
+        );
         break;
     }
   },
@@ -1691,7 +1733,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       let sum_rate = 0;
       for (let i = 0; i < for_mode["encs"].length; i++) {
         let slot = for_mode["encs"][i];
-        let species = cleanString(slot["s"]);
+        let species = cleanString(slot["s"] || slot["species"]);
         if (species === pokemon) {
            sum_rate += rateSlots[i] || 0;
         }
@@ -1733,11 +1775,469 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
     return (this.results = results);
   },
+  getEncounterRouteAnalysis: function (locationId, encType) {
+    var routeKey = encType + ":" + locationId;
+    if (this.routeAnalysisCache[routeKey]) return this.routeAnalysisCache[routeKey];
+    if (!window.DDEXEncounterRouting) return null;
+    var analysis = window.DDEXEncounterRouting.buildRouteAnalysis(
+      this.id,
+      locationId,
+      encType,
+    );
+    this.routeAnalysisCache[routeKey] = analysis;
+    return analysis;
+  },
+  getSyncedEncounterRouteFamilyKeys: function () {
+    var syncedFamilyKeys = new Set();
+    if (
+      !window.DDEXEncounterRouting ||
+      !window.DDEX_NUZLOCKE_BOX ||
+      typeof window.DDEX_NUZLOCKE_BOX.getState !== "function"
+    ) {
+      return syncedFamilyKeys;
+    }
+
+    var state = window.DDEX_NUZLOCKE_BOX.getState();
+    if (!state) return syncedFamilyKeys;
+
+    var records = Array.isArray(state.records) ? state.records : [];
+    for (var i = 0; i < records.length; i++) {
+      var record = records[i] || {};
+      var speciesRef = record.species || record.speciesId;
+      if (!speciesRef) continue;
+      var familyInfo = window.DDEXEncounterRouting.getFamilyInfo(speciesRef);
+      if (familyInfo && familyInfo.key) syncedFamilyKeys.add(familyInfo.key);
+    }
+
+    if (!records.length && state.speciesIds && typeof state.speciesIds.forEach === "function") {
+      state.speciesIds.forEach(function (speciesId) {
+        var familyInfo = window.DDEXEncounterRouting.getFamilyInfo(speciesId);
+        if (familyInfo && familyInfo.key) syncedFamilyKeys.add(familyInfo.key);
+      });
+    }
+
+    return syncedFamilyKeys;
+  },
+  getEncounterRouteRowClassNames: function (locationId) {
+    var rowClass = "result ddex-route-result";
+    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
+    if (
+      nuzlockeService &&
+      typeof nuzlockeService.getLocationSummary === "function"
+    ) {
+      var locationSummary = nuzlockeService.getLocationSummary(locationId);
+      if (
+        locationSummary &&
+        locationSummary.speciesIds &&
+        locationSummary.speciesIds.length
+      ) {
+        rowClass += " nuzlocke-location-hit";
+      }
+    }
+    return rowClass;
+  },
+  renderEncounterRouteSpriteStrip: function (locationId) {
+    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
+    if (
+      !nuzlockeService ||
+      typeof nuzlockeService.getLocationSummary !== "function"
+    ) {
+      return "";
+    }
+
+    var locationSummary = nuzlockeService.getLocationSummary(locationId);
+    if (
+      !locationSummary ||
+      !locationSummary.speciesIds ||
+      !locationSummary.speciesIds.length
+    ) {
+      return "";
+    }
+
+    var strip =
+      '<span class="col typecol nuzlocke-sprite-strip ddex-route-sprite-strip" aria-hidden="true">';
+    for (var i = 0; i < locationSummary.speciesIds.length; i++) {
+      var speciesTemplate = Dex.species.get(locationSummary.speciesIds[i]);
+      if (!speciesTemplate || !speciesTemplate.exists) continue;
+      strip +=
+        '<span class="picon nuzlocke-picon" style="' +
+        Dex.getPokemonIcon(speciesTemplate.name) +
+        '"></span>';
+    }
+    strip += "</span>";
+    return strip;
+  },
+  renderEncounterRouteRow: function (location, rate, syncedFamilyKeys) {
+    var root =
+      window.DDEXPaths && typeof window.DDEXPaths.routerRoot === "function"
+        ? window.DDEXPaths.routerRoot()
+        : "/";
+    var zone = BattleLocationdex[location.zoneid];
+    if (!zone || !zone.name) return "";
+
+    var routeKey = location.encType + ":" + location.zoneid;
+    var isExpanded = this.expandedRouteKeys.has(routeKey);
+    var analysis = this.getEncounterRouteAnalysis(location.zoneid, location.encType);
+    var spriteStrip = this.renderEncounterRouteSpriteStrip(location.zoneid);
+    var buf =
+      '<li class="' +
+      this.getEncounterRouteRowClassNames(location.zoneid) +
+      '">' +
+      '<div class="ddex-route-result-inner">' +
+      '<a class="ddex-route-location-link" href="' +
+      root +
+      "encounters/" +
+      location.zoneid +
+      '" data-target="push" data-entry="encounters|' +
+      BattleLog.escapeHTML(zone.name) +
+      '">' +
+      '<span class="col tagcol">' +
+      Dex.escapeHTML(rate) +
+      "</span>" +
+      '<span class="col shortmovenamecol ddex-route-location-name">' +
+      Dex.escapeHTML(zone.name) +
+      "</span>" +
+      spriteStrip +
+      "</a>" +
+      '<button type="button" class="button ddex-route-toggle-button' +
+      (isExpanded ? " active" : "") +
+      '" data-route-key="' +
+      routeKey +
+      '" data-location-id="' +
+      location.zoneid +
+      '" data-enc-type="' +
+      location.encType +
+      '" aria-expanded="' +
+      (isExpanded ? "true" : "false") +
+      '">' +
+      "Route" +
+      "</button>" +
+      "</div>";
+
+    if (isExpanded && analysis) {
+      buf += window.DDEXEncounterRouting.renderRoutePanel(analysis, {
+        syncedFamilyKeys: syncedFamilyKeys,
+        manualOverrides: this.manualRouteFamilyOverrides[routeKey] || {},
+      });
+    }
+
+    buf += "</li>";
+    return buf;
+  },
+  toggleEncounterRoutePanel: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var routeKey = $(e.currentTarget).attr("data-route-key");
+    if (!routeKey) return;
+
+    if (this.expandedRouteKeys.has(routeKey)) {
+      this.expandedRouteKeys.delete(routeKey);
+    } else {
+      this.expandedRouteKeys.add(routeKey);
+    }
+    this.renderEncounters();
+  },
+  toggleEncounterRouteFamily: function (e) {
+    if ($(e.target).closest("a").length) return;
+
+    var $row = $(e.currentTarget);
+    var routeKey = $row.attr("data-route-key");
+    var familyKey = $row.attr("data-family-key");
+    if (!routeKey || !familyKey || !window.DDEXEncounterRouting) return;
+
+    var locationId = routeKey.split(":").slice(1).join(":");
+    var encType = routeKey.split(":")[0];
+    var analysis = this.getEncounterRouteAnalysis(locationId, encType);
+    if (!analysis) return;
+
+    var manualOverrides = this.manualRouteFamilyOverrides[routeKey] || {};
+    var syncedFamilyKeys = this.getSyncedEncounterRouteFamilyKeys();
+    var effectiveSelected = window.DDEXEncounterRouting.getEffectiveSelectedFamilies(
+      analysis,
+      syncedFamilyKeys,
+      manualOverrides,
+    );
+    var nextSelected = !effectiveSelected.has(familyKey);
+    var syncedSelected = syncedFamilyKeys.has(familyKey);
+
+    if (!this.manualRouteFamilyOverrides[routeKey]) {
+      this.manualRouteFamilyOverrides[routeKey] = {};
+    }
+
+    if (nextSelected === syncedSelected) {
+      delete this.manualRouteFamilyOverrides[routeKey][familyKey];
+    } else {
+      this.manualRouteFamilyOverrides[routeKey][familyKey] = nextSelected;
+    }
+
+    if (!Object.keys(this.manualRouteFamilyOverrides[routeKey]).length) {
+      delete this.manualRouteFamilyOverrides[routeKey];
+    }
+
+    this.renderEncounters();
+  },
+  getAdvancedRoutingContext: function () {
+    if (!window.DDEXEncounterRouting) return null;
+    return window.DDEXEncounterRouting.buildOptimizationContext(this.id, {
+      includeNuzlockeState: !this.advancedRoutingState.ignoreBoxData,
+    });
+  },
+  getAdvancedRoutingEligibleRoutes: function (context) {
+    var eligible = [];
+    if (!context || !context.targetRoutes) return eligible;
+    for (var i = 0; i < context.targetRoutes.length; i++) {
+      var route = context.targetRoutes[i];
+      if (context.usedLocationIds.has(route.locationId)) continue;
+      eligible.push(route);
+    }
+    return eligible;
+  },
+  resetAdvancedRoutingResults: function () {
+    this.advancedRoutingState.lastResults = null;
+    this.advancedRoutingState.expandedResultKeys = new Set();
+  },
+  updateAdvancedRoutingTarget: function (e) {
+    this.advancedRoutingState.targetRouteKey = $(e.currentTarget).val() || "";
+    this.resetAdvancedRoutingResults();
+    this.renderAdvancedRouting();
+  },
+  updateAdvancedRoutingIgnoreBox: function (e) {
+    this.advancedRoutingState.ignoreBoxData = !!$(e.currentTarget).prop("checked");
+    this.advancedRoutingState.targetRouteKey = "";
+    this.resetAdvancedRoutingResults();
+    this.renderAdvancedRouting();
+  },
+  updateAdvancedRoutingFamilyMode: function (e) {
+    this.advancedRoutingState.includeFamilyTree = !!$(e.currentTarget).prop("checked");
+    this.resetAdvancedRoutingResults();
+    this.renderAdvancedRouting();
+  },
+  updateAdvancedRoutingThreshold: function (e) {
+    var threshold = Number($(e.currentTarget).val());
+    if (!Number.isFinite(threshold)) threshold = 100;
+    this.advancedRoutingState.thresholdPercent = Math.max(0, Math.min(100, threshold));
+    this.resetAdvancedRoutingResults();
+    this.renderAdvancedRouting();
+  },
+  runAdvancedRoutingSearch: function (e) {
+    this.runAdvancedRoutingAnalysis("search", e);
+  },
+  runAdvancedRoutingDeepSearch: function (e) {
+    this.runAdvancedRoutingAnalysis("deep", e);
+  },
+  runAdvancedRoutingAnalysis: function (mode, e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    mode = mode === "deep" ? "deep" : "search";
+    var context = this.getAdvancedRoutingContext();
+    if (!context || !window.DDEXEncounterRouting) return;
+    var eligibleRoutes = this.getAdvancedRoutingEligibleRoutes(context);
+    if (!eligibleRoutes.length) {
+      this.resetAdvancedRoutingResults();
+      this.renderAdvancedRouting();
+      return;
+    }
+
+    this.advancedRoutingState.searchMode = mode;
+    this.advancedRoutingState.isRunning = true;
+    this.renderAdvancedRouting();
+
+    setTimeout(
+      function () {
+        var results = window.DDEXEncounterRouting.optimizeEncounterRouting(context, {
+          targetRouteKey: this.advancedRoutingState.targetRouteKey,
+          depth: mode === "deep" ? 2 : 1,
+          thresholdPercent: this.advancedRoutingState.thresholdPercent,
+          includeFamilyTree: this.advancedRoutingState.includeFamilyTree,
+        });
+        this.advancedRoutingState.lastResults = results;
+        this.advancedRoutingState.isRunning = false;
+        this.advancedRoutingState.expandedResultKeys = new Set();
+        if (results && results.length) {
+          this.advancedRoutingState.expandedResultKeys.add(
+            results[0].targetRoute.routeKey,
+          );
+        }
+        this.renderAdvancedRouting();
+      }.bind(this),
+      0,
+    );
+  },
+  toggleAdvancedRoutingResult: function (e) {
+    e.preventDefault();
+    var routeKey = $(e.currentTarget).attr("data-route-key");
+    if (!routeKey) return;
+    if (this.advancedRoutingState.expandedResultKeys.has(routeKey)) {
+      this.advancedRoutingState.expandedResultKeys.delete(routeKey);
+    } else {
+      this.advancedRoutingState.expandedResultKeys.add(routeKey);
+    }
+    this.renderAdvancedRouting();
+  },
+  renderAdvancedRoutingSummary: function (result) {
+    if (!result) return "";
+    var statusClass = result.thresholdMet ? "met" : "below";
+    return (
+      '<section class="ddex-advanced-summary ' +
+      statusClass +
+      '">' +
+      '<div class="ddex-advanced-summary-row"><strong>' +
+      Dex.escapeHTML(result.targetRouteLabel) +
+      "</strong></div>" +
+      '<div class="ddex-advanced-summary-row">Final success chance: <strong class="ddex-advanced-highlight">' +
+      window.DDEXEncounterRouting.formatPercent(result.successChance * 100) +
+      "</strong></div>" +
+      '<div class="ddex-advanced-plan">' +
+      window.DDEXEncounterRouting.renderOptimizationSectionsHtml(result) +
+      "</div>" +
+      "</section>"
+    );
+  },
+  renderAdvancedRoutingResultCard: function (result) {
+    var isExpanded = this.advancedRoutingState.expandedResultKeys.has(
+      result.targetRoute.routeKey,
+    );
+    return (
+      '<section class="ddex-advanced-result-card ' +
+      (result.thresholdMet ? "met" : "below") +
+      '">' +
+      '<button type="button" class="button ddex-advanced-result-toggle" data-route-key="' +
+      result.targetRoute.routeKey +
+      '" aria-expanded="' +
+      (isExpanded ? "true" : "false") +
+      '">' +
+      '<span class="ddex-advanced-result-title">' +
+      Dex.escapeHTML(result.targetRouteLabel) +
+      "</span>" +
+      '<span class="ddex-advanced-result-metric">' +
+      window.DDEXEncounterRouting.formatPercent(result.successChance * 100) +
+      "</span>" +
+      "</button>" +
+      (isExpanded
+        ? '<div class="ddex-advanced-result-body"><div class="ddex-advanced-plan">' +
+            window.DDEXEncounterRouting.renderOptimizationSectionsHtml(result) +
+            "</div></div>"
+        : "") +
+      "</section>"
+    );
+  },
+  renderAdvancedRouting: function () {
+    var context = this.getAdvancedRoutingContext();
+    var buf = '<li class="resultheader"><h3>Advanced Routing</h3></li>';
+
+    if (!context) {
+      this.$(".utilichart").html(
+        buf + '<li class="content"><p>Advanced routing is unavailable.</p></li>',
+      );
+      return;
+    }
+
+    var eligibleRoutes = this.getAdvancedRoutingEligibleRoutes(context);
+    var targetRouteKey = this.advancedRoutingState.targetRouteKey;
+    var selectableRoutes = eligibleRoutes;
+    var hasSelectedRoute = false;
+    var controls =
+      '<li class="content"><section class="ddex-advanced-routing-panel">';
+
+    if (this.advancedRoutingState.ignoreBoxData) {
+      controls +=
+        '<div class="ddex-advanced-note">Ignoring saved box data. Planning from a fresh state.</div>';
+    } else if (!context.hasSavedProgress) {
+      controls +=
+        '<div class="ddex-advanced-note">No saved Nuzlocke progress detected. Planning from a fresh state.</div>';
+    } else {
+      controls +=
+        '<div class="ddex-advanced-note">Using saved Nuzlocke progress from ' +
+        Dex.escapeHTML(context.nuzlockeSource) +
+        ".</div>";
+    }
+    if (!this.advancedRoutingState.includeFamilyTree) {
+      controls +=
+        '<div class="ddex-advanced-note">Exact-species mode is active. Earlier evolutions or pre-evolutions do not count as success.</div>';
+    }
+
+    controls += '<div class="ddex-advanced-controls">';
+    controls += '<label class="ddex-advanced-control"><span>Target location</span><select class="textbox ddex-advanced-route-select">';
+    controls += '<option value="">All target locations</option>';
+    for (var i = 0; i < selectableRoutes.length; i++) {
+      var route = selectableRoutes[i];
+      var routeLabel =
+        route.routeLabel ||
+        (route.locationName + " (" + snakeToTitleCase(route.encType) + ")");
+      if (route.routeKey === targetRouteKey) hasSelectedRoute = true;
+      controls +=
+        '<option value="' +
+        route.routeKey +
+        '"' +
+        (route.routeKey === targetRouteKey ? ' selected="selected"' : "") +
+        ">" +
+        Dex.escapeHTML(routeLabel) +
+        "</option>";
+    }
+    controls += "</select></label>";
+    controls += '<label class="ddex-advanced-control ddex-advanced-toggle-control"><span>Saved data</span><label class="ddex-advanced-checkbox"><input type="checkbox" class="ddex-advanced-ignore-box"' +
+      (this.advancedRoutingState.ignoreBoxData ? ' checked="checked"' : "") +
+      ' /> Ignore box data</label></label>';
+    controls += '<label class="ddex-advanced-control ddex-advanced-toggle-control"><span>Target mode</span><label class="ddex-advanced-checkbox"><input type="checkbox" class="ddex-advanced-include-family-tree"' +
+      (this.advancedRoutingState.includeFamilyTree ? ' checked="checked"' : "") +
+      ' /> Include whole family line</label></label>';
+    controls += '<label class="ddex-advanced-control"><span>Minimum success %</span><input class="textbox ddex-advanced-threshold-input" type="number" min="0" max="100" step="1" value="' +
+      this.advancedRoutingState.thresholdPercent +
+      '" /></label>';
+    controls += '<div class="ddex-advanced-button-group">';
+    controls +=
+      '<button type="button" class="button ddex-advanced-run-button"' +
+      (!eligibleRoutes.length ? ' disabled="disabled"' : "") +
+      ">Search</button>";
+    controls +=
+      '<button type="button" class="button ddex-advanced-deep-run-button"' +
+      (!eligibleRoutes.length ? ' disabled="disabled"' : "") +
+      ">Deep Search (WARNING: may freeze browser tab for a few minutes)</button>";
+    controls += "</div>";
+    controls += "</div>";
+
+    if (targetRouteKey && !hasSelectedRoute) {
+      this.advancedRoutingState.targetRouteKey = "";
+      targetRouteKey = "";
+    }
+
+    if (this.advancedRoutingState.isRunning) {
+      controls +=
+        '<div class="ddex-advanced-status">' +
+        (this.advancedRoutingState.searchMode === "deep"
+          ? "Deep searching optimal routing. This may take a few minutes, you can navigate to other tabs in your browser while waiting"
+          : "Searching optimal routing...") +
+        "</div>";
+    } else if (!eligibleRoutes.length) {
+      controls += '<div class="ddex-advanced-status">No valid target locations remain. They may already be spent in your current run.</div>';
+    } else if (!this.advancedRoutingState.lastResults) {
+      controls += '<div class="ddex-advanced-status">Choose settings, then click Search or Deep Search.</div>';
+    }
+
+    if (this.advancedRoutingState.lastResults && this.advancedRoutingState.lastResults.length) {
+      controls += this.renderAdvancedRoutingSummary(
+        this.advancedRoutingState.lastResults[0],
+      );
+      controls += '<div class="ddex-advanced-results">';
+      for (var resultIndex = 0; resultIndex < this.advancedRoutingState.lastResults.length; resultIndex++) {
+        controls += this.renderAdvancedRoutingResultCard(
+          this.advancedRoutingState.lastResults[resultIndex],
+        );
+      }
+      controls += "</div>";
+    }
+
+    controls += "</section></li>";
+    this.$(".utilichart").html(buf + controls);
+  },
   renderEncounters: function () {
     var locations = this.getEncounterLocations(this.id);
     var formatRate = function (i) {
       return i.toString().padStart(3, "z") + "% ";
     };
+    var syncedFamilyKeys = this.getSyncedEncounterRouteFamilyKeys();
     var buf = "";
     for (let i = 0; i < locations.length; i++) {
       let location = locations[i];
@@ -1755,7 +2255,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         if (!zone || !zone.name) {
           continue;
         }
-        buf += BattleSearch.renderTaggedEncounterRow(zone, rate, location.zoneid);
+        buf += this.renderEncounterRouteRow(location, rate, syncedFamilyKeys);
       }
     }
 

@@ -33,6 +33,9 @@ button {
 	cursor: pointer;
 	font-size: 9pt;
 	padding: 3px 6px;
+	background: none;
+	color: #f8f8f2;
+	border: 1px solid rgba(255,255,255,0.3);
 }
 
 a img {
@@ -129,25 +132,6 @@ a.button {
     margin-left: 10px;
 }
 
-.button {
-	cursor: pointer;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 5px;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2), inset 0 -1px 2px rgba(255,255,255,1);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2), inset 0 -1px 2px rgba(255,255,255,1);
-	white-space: nowrap;
-	/* default colors */
-	font-family: inherit;
-	font-size: inherit;
-	color: #222222;
-	border: solid 1px #AAAAAA;
-	background: #e3e3e3;
-	background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e3e3e3));
-	background: -moz-linear-gradient(top,  #f6f6f6,  #e3e3e3);
-	background: linear-gradient(top,  #f6f6f6,  #e3e3e3);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#e3e3e3');
-}
 .button.cur,
 .button.cur:hover,
 .button:disabled,
