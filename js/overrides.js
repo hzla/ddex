@@ -154,6 +154,7 @@ function clearRomCache() {
   localStorage.removeItem("romFamily");
   localStorage.removeItem("romVersion");
   localStorage.removeItem("gameTitle");
+  window.DDEX_ROM_OVERRIDES = null;
   window.DDEX_ROM_BACKUP_DATA = null;
   window.DDEX_ROM_DEBUG = null;
 }
@@ -630,6 +631,13 @@ $(document).on('change', '#rom-upload', async function(e) {
       setRomStatus(`Item locations (event=${result.itemLocationStats.eventScriptCount}, script=${result.itemLocationStats.scriptParseCount})`);
     }
 
+    window.DDEX_ROM_OVERRIDES = {
+      overrides: normalizedOverrides,
+      searchIndex: result.searchIndex,
+      searchIndexOffset: result.searchIndexOffset,
+      searchIndexCount: result.searchIndexCount,
+      title: rawRomName,
+    };
     localStorage[ROM_CACHE_FLAG] = "1";
     localStorage[ROM_KEYS.overrides] = JSON.stringify(normalizedOverrides);
     localStorage[ROM_KEYS.searchIndex] = JSON.stringify(result.searchIndex);

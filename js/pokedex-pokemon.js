@@ -542,9 +542,16 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
     buf += "</table></dd>";
 
-    buf += this.renderCatchRateSection();
+    if (Number.isFinite(this.catchRateValue)) {
+      buf += this.renderCatchRateSection();
+    }
 
-    if (itemData) {
+    var hasPrimaryWildItems =
+      itemData &&
+      ((itemData[0] && itemData[0] !== "None") ||
+        (itemData[1] && itemData[1] !== "None"));
+
+    if (hasPrimaryWildItems) {
         buf += '<dl class="itementry">';
         buf += "<dt>Wild Items:</dt> <dd>";
         if (itemData[0] != "None") {

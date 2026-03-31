@@ -2254,35 +2254,82 @@ function buildOverridesAndSearchIndex(data, options) {
               dual_leaf_green: [4, 4],
             };
 
-        const locationNameInfoById = new Map();
-        const locationNameInfoList = [];
-        const locationNameCounts = new Map();
+        const locationNameRecords = [];
         for (let idx = 0; idx < textsLocations.length; idx += 1) {
           const rawName = String(textsLocations[idx] || "").trim();
           if (!rawName) continue;
-          const count = (locationNameCounts.get(rawName) || 0) + 1;
-          locationNameCounts.set(rawName, count);
-          const name = count > 1 ? `${rawName} Section ${count}` : rawName;
-          const locationInfo = { name, locationNameId: idx };
-          locationNameInfoById.set(idx, locationInfo);
-          locationNameInfoList.push(locationInfo);
+          locationNameRecords.push({ rawName, locationNameId: idx });
         }
 
-        const fileIdToLocations = new Map();
-        const fileIdLocationDedupe = new Set();
+        function assignLocationSectionNames(records, sectionCounts) {
+          const recordsByRawName = new Map();
+          for (const record of records) {
+            if (!record || !record.rawName) continue;
+            if (!recordsByRawName.has(record.rawName)) recordsByRawName.set(record.rawName, []);
+            recordsByRawName.get(record.rawName).push(record);
+          }
+
+          for (const group of recordsByRawName.values()) {
+            group.sort((a, b) => {
+              const aLocationNameId = Number.isFinite(a.locationNameId) ? a.locationNameId : Number.MAX_SAFE_INTEGER;
+              const bLocationNameId = Number.isFinite(b.locationNameId) ? b.locationNameId : Number.MAX_SAFE_INTEGER;
+              if (aLocationNameId !== bLocationNameId) return aLocationNameId - bLocationNameId;
+              const aWildId = Number.isFinite(a.wildId) ? a.wildId : Number.MAX_SAFE_INTEGER;
+              const bWildId = Number.isFinite(b.wildId) ? b.wildId : Number.MAX_SAFE_INTEGER;
+              return aWildId - bWildId;
+            });
+
+            for (const record of group) {
+              const count = (sectionCounts.get(record.rawName) || 0) + 1;
+              sectionCounts.set(record.rawName, count);
+              record.name = count > 1 ? `${record.rawName} Section ${count}` : record.rawName;
+            }
+          }
+        }
+
+        const mappedLocationRecords = [];
+        const mappedLocationDedupe = new Set();
         for (const header of mapHeaders) {
           const wildId = Number.parseInt(header.WildPokemonFileID, 10);
           if (!Number.isFinite(wildId) || wildId === 65535) continue;
           const idx = Number.parseInt(header.MapNameIndexInTextArchive, 10);
-          const locationInfo = locationNameInfoById.get(idx) || {
-            name: `unknown_${wildId}`,
-            locationNameId: Number.isFinite(idx) ? idx : null,
-          };
-          const dedupeKey = [wildId, locationInfo.locationNameId, locationInfo.name].join("|");
-          if (fileIdLocationDedupe.has(dedupeKey)) continue;
-          fileIdLocationDedupe.add(dedupeKey);
-          if (!fileIdToLocations.has(wildId)) fileIdToLocations.set(wildId, []);
-          fileIdToLocations.get(wildId).push(locationInfo);
+          const rawName =
+            Number.isFinite(idx) && idx >= 0 && idx < textsLocations.length && String(textsLocations[idx] || "").trim()
+              ? String(textsLocations[idx] || "").trim()
+              : `unknown_${wildId}`;
+          const locationNameId = Number.isFinite(idx) ? idx : null;
+          const dedupeKey = [wildId, locationNameId, rawName].join("|");
+          if (mappedLocationDedupe.has(dedupeKey)) continue;
+          mappedLocationDedupe.add(dedupeKey);
+          mappedLocationRecords.push({ wildId, rawName, locationNameId });
+        }
+
+        const locationSectionCounts = new Map();
+        assignLocationSectionNames(mappedLocationRecords, locationSectionCounts);
+
+        const fileIdToLocations = new Map();
+        for (const record of mappedLocationRecords) {
+          if (!fileIdToLocations.has(record.wildId)) fileIdToLocations.set(record.wildId, []);
+          fileIdToLocations.get(record.wildId).push({
+            name: record.name,
+            locationNameId: record.locationNameId,
+          });
+        }
+
+        const mappedLocationNameIds = new Set(
+          mappedLocationRecords
+            .map((record) => record.locationNameId)
+            .filter((locationNameId) => Number.isFinite(locationNameId))
+        );
+        const locationNameInfoList = [];
+        for (const record of locationNameRecords) {
+          if (mappedLocationNameIds.has(record.locationNameId)) continue;
+          const count = (locationSectionCounts.get(record.rawName) || 0) + 1;
+          locationSectionCounts.set(record.rawName, count);
+          locationNameInfoList.push({
+            name: count > 1 ? `${record.rawName} Section ${count}` : record.rawName,
+            locationNameId: record.locationNameId,
+          });
         }
 
         function makeEncEntry(record) {

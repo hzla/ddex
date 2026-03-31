@@ -77045,6 +77045,190 @@ var overrides = {
                 ]
             }
         },
+        "oreburghminesection2": {
+            "name": "Oreburgh Mine Section 2",
+            "locationNameId": 46,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MAGBY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "SANDSHREW",
+                        "mn": 10
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 10
+                    },
+                    {
+                        "s": "MAGBY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "PHANPY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 10
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 10
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 10
+                    },
+                    {
+                        "s": "MACHOP",
+                        "mn": 10
+                    },
+                    {
+                        "s": "MACHOP",
+                        "mn": 10
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "ARON",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAGBY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
         "valleywindworks": {
             "name": "Valley Windworks",
             "locationNameId": 47,
@@ -77984,99 +78168,99 @@ var overrides = {
                 "encs": [
                     {
                         "s": "CHIMECHO",
-                        "mn": 65
+                        "mn": 24
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 24
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 24
+                    },
+                    {
+                        "s": "MEDITITE",
+                        "mn": 24
+                    },
+                    {
+                        "s": "SPOINK",
+                        "mn": 24
+                    },
+                    {
+                        "s": "VOLTORB",
+                        "mn": 24
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 24
                     },
                     {
                         "s": "NOSEPASS",
-                        "mn": 65
+                        "mn": 24
                     },
                     {
-                        "s": "SOLROCK",
-                        "mn": 65
+                        "s": "MAWILE",
+                        "mn": 24
                     },
                     {
-                        "s": "CROBAT",
-                        "mn": 65
+                        "s": "ABRA",
+                        "mn": 24
                     },
                     {
-                        "s": "STANTLER",
-                        "mn": 65
+                        "s": "CLEFAIRY",
+                        "mn": 24
                     },
                     {
-                        "s": "MEDICHAM",
-                        "mn": 65
-                    },
-                    {
-                        "s": "SWINUB",
-                        "mn": 65
-                    },
-                    {
-                        "s": "BRONZOR",
-                        "mn": 65
-                    },
-                    {
-                        "s": "DUNSPARCE",
-                        "mn": 65
-                    },
-                    {
-                        "s": "ELECTRODE",
-                        "mn": 65
-                    },
-                    {
-                        "s": "TEDDIURSA",
-                        "mn": 65
-                    },
-                    {
-                        "s": "TEDDIURSA",
-                        "mn": 65
+                        "s": "CLEFFA",
+                        "mn": 24
                     }
                 ]
             },
             "surf": {
                 "encs": [
                     {
-                        "s": "ZUBAT",
-                        "mn": 20
-                    },
-                    {
-                        "s": "ZUBAT",
-                        "mn": 20
-                    },
-                    {
                         "s": "GOLBAT",
-                        "mn": 45
+                        "mn": 44
                     },
                     {
-                        "s": "GOLBAT",
-                        "mn": 55
+                        "s": "ZUBAT",
+                        "mn": 44
                     },
                     {
-                        "s": "CROBAT",
-                        "mn": 55
+                        "s": "LUNATONE",
+                        "mn": 44
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 44
+                    },
+                    {
+                        "s": "MAGNEMITE",
+                        "mn": 44
                     }
                 ]
             },
             "old_rod": {
                 "encs": [
                     {
-                        "s": "GOLDEEN",
-                        "mn": 30
+                        "s": "CLAMPERL",
+                        "mn": 24
                     },
                     {
-                        "s": "GOLDEEN",
-                        "mn": 30
+                        "s": "TENTACOOL",
+                        "mn": 24
                     },
                     {
-                        "s": "GOLDEEN",
-                        "mn": 30
+                        "s": "CHINCHOU",
+                        "mn": 24
                     },
                     {
-                        "s": "GOLDEEN",
-                        "mn": 30
+                        "s": "STARYU",
+                        "mn": 24
                     },
                     {
-                        "s": "GOLDEEN",
-                        "mn": 30
+                        "s": "STARYU",
+                        "mn": 24
                     }
                 ]
             },
@@ -78084,54 +78268,54 @@ var overrides = {
                 "encs": [
                     {
                         "s": "CLAMPERL",
-                        "mn": 35
+                        "mn": 30
                     },
                     {
-                        "s": "HUNTAIL",
-                        "mn": 55
+                        "s": "CHINCHOU",
+                        "mn": 30
                     },
                     {
-                        "s": "GOREBYSS",
-                        "mn": 55
+                        "s": "STARYU",
+                        "mn": 30
                     },
                     {
-                        "s": "GOREBYSS",
-                        "mn": 55
+                        "s": "SHELLDER",
+                        "mn": 30
                     },
                     {
-                        "s": "CRADILY",
-                        "mn": 55
+                        "s": "SHELLDER",
+                        "mn": 30
                     }
                 ]
             },
             "super_rod": {
                 "encs": [
                     {
+                        "s": "CLOYSTER",
+                        "mn": 30
+                    },
+                    {
                         "s": "STARYU",
-                        "mn": 66
-                    },
-                    {
-                        "s": "OMASTAR",
-                        "mn": 66
-                    },
-                    {
-                        "s": "KABUTOPS",
-                        "mn": 66
-                    },
-                    {
-                        "s": "ARMALDO",
-                        "mn": 66
+                        "mn": 30
                     },
                     {
                         "s": "RELICANTH",
-                        "mn": 66
+                        "mn": 20
+                    },
+                    {
+                        "s": "RELICANTH",
+                        "mn": 40
+                    },
+                    {
+                        "s": "RELICANTH",
+                        "mn": 40
                     }
                 ]
             },
             "radar": {
                 "encs": [
                     {
-                        "s": "MACHOKE",
+                        "s": "MACHOP",
                         "mn": 0
                     },
                     {
@@ -78139,7 +78323,7 @@ var overrides = {
                         "mn": 0
                     },
                     {
-                        "s": "GOLBAT",
+                        "s": "ZUBAT",
                         "mn": 0
                     },
                     {
@@ -78155,7 +78339,7 @@ var overrides = {
                         "mn": 0
                     },
                     {
-                        "s": "GRAVELER",
+                        "s": "GEODUDE",
                         "mn": 0
                     }
                 ]
@@ -78163,11 +78347,11 @@ var overrides = {
             "time_day": {
                 "encs": [
                     {
-                        "s": "SOLROCK",
+                        "s": "ANORITH",
                         "mn": 0
                     },
                     {
-                        "s": "CROBAT",
+                        "s": "MEDITITE",
                         "mn": 0
                     }
                 ]
@@ -78175,11 +78359,11 @@ var overrides = {
             "time_night": {
                 "encs": [
                     {
-                        "s": "LUNATONE",
+                        "s": "KABUTO",
                         "mn": 0
                     },
                     {
-                        "s": "CLEFAIRY",
+                        "s": "MEDITITE",
                         "mn": 0
                     }
                 ]
@@ -78187,7 +78371,7 @@ var overrides = {
             "dual_ruby": {
                 "encs": [
                     {
-                        "s": "GOLBAT",
+                        "s": "ZUBAT",
                         "mn": 0
                     },
                     {
@@ -78199,11 +78383,379 @@ var overrides = {
             "dual_sapphire": {
                 "encs": [
                     {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "mtcoronetsection2": {
+            "name": "Mt. Coronet Section 2",
+            "locationNameId": 50,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "ELECTRODE",
+                        "mn": 90
+                    },
+                    {
+                        "s": "DUGTRIO",
+                        "mn": 90
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 90
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 90
+                    },
+                    {
+                        "s": "GOLEM",
+                        "mn": 90
+                    },
+                    {
+                        "s": "URSARING",
+                        "mn": 90
+                    },
+                    {
+                        "s": "DONPHAN",
+                        "mn": 90
+                    },
+                    {
+                        "s": "ABSOL",
+                        "mn": 90
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 90
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 90
+                    },
+                    {
+                        "s": "AGGRON",
+                        "mn": 90
+                    },
+                    {
+                        "s": "AGGRON",
+                        "mn": 90
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "MACHOKE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 0
+                    },
+                    {
                         "s": "GOLBAT",
                         "mn": 0
                     },
                     {
                         "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "RHYPERIOR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYPERIOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "mtcoronetsection3": {
+            "name": "Mt. Coronet Section 3",
+            "locationNameId": 50,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 90
+                    },
+                    {
+                        "s": "ELECTRODE",
+                        "mn": 90
+                    },
+                    {
+                        "s": "URSARING",
+                        "mn": 90
+                    },
+                    {
+                        "s": "URSARING",
+                        "mn": 90
+                    },
+                    {
+                        "s": "AGGRON",
+                        "mn": 90
+                    },
+                    {
+                        "s": "ABSOL",
+                        "mn": 90
+                    },
+                    {
+                        "s": "DRAPION",
+                        "mn": 90
+                    },
+                    {
+                        "s": "GLISCOR",
+                        "mn": 90
+                    },
+                    {
+                        "s": "SCIZOR",
+                        "mn": 90
+                    },
+                    {
+                        "s": "FORRETRESS",
+                        "mn": 90
+                    },
+                    {
+                        "s": "PUPITAR",
+                        "mn": 90
+                    },
+                    {
+                        "s": "LARVITAR",
+                        "mn": 90
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "MACHOKE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BRONZONG",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 0
+                    },
+                    {
+                        "s": "URSARING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "PRIMEAPE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "PRIMEAPE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
                         "mn": 0
                     }
                 ]
@@ -78247,6 +78799,1010 @@ var overrides = {
         },
         "coronethighlands": {
             "name": "Coronet Highlands",
+            "locationNameId": 115,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "ABSOL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "ELECTIVIRE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WALREIN",
+                        "mn": 100
+                    },
+                    {
+                        "s": "CASTFORM",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 100
+                    },
+                    {
+                        "s": "URSARING",
+                        "mn": 100
+                    },
+                    {
+                        "s": "LUXRAY",
+                        "mn": 100
+                    },
+                    {
+                        "s": "FROSLASS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MAMOSWINE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "METAGROSS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WEAVILE",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "LOUDRED",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LOUDRED",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LOUDRED",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LOUDRED",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "SNOVER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ABOMASNOW",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "ELECTIVIRE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WALREIN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "JYNX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "JYNX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "ABSOL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ABSOL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "ABSOL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "coronethighlandssection2": {
+            "name": "Coronet Highlands Section 2",
+            "locationNameId": 115,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "ABSOL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "NINETALES",
+                        "mn": 100
+                    },
+                    {
+                        "s": "ARCANINE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "EXPLOUD",
+                        "mn": 100
+                    },
+                    {
+                        "s": "PROBOPASS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "AERODACTYL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SALAMENCE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "FROSLASS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MAMOSWINE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SNORLAX",
+                        "mn": 100
+                    },
+                    {
+                        "s": "LUCARIO",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "LOUDRED",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LOUDRED",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LOUDRED",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LOUDRED",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "SNOVER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ABOMASNOW",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "NINETALES",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ARCANINE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "JYNX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "JYNX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "ABSOL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ABSOL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "ABSOL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "coronethighlandssection3": {
+            "name": "Coronet Highlands Section 3",
+            "locationNameId": 115,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "DUGTRIO",
+                        "mn": 100
+                    },
+                    {
+                        "s": "ELECTRODE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "STARAPTOR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "STARAPTOR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 100
+                    },
+                    {
+                        "s": "STEELIX",
+                        "mn": 100
+                    },
+                    {
+                        "s": "RHYPERIOR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MAGMORTAR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MACHAMP",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SALAMENCE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GARDEVOIR",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 20
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 4
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 3
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 15
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 10
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "GYARADOS",
+                        "mn": 30
+                    },
+                    {
+                        "s": "DRATINI",
+                        "mn": 99
+                    },
+                    {
+                        "s": "WHISCASH",
+                        "mn": 20
+                    },
+                    {
+                        "s": "DRAGONAIR",
+                        "mn": 20
+                    },
+                    {
+                        "s": "DRAGONAIR",
+                        "mn": 35
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "MACHOKE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BRONZONG",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "STARAPTOR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "STARAPTOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HONCHKROW",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HONCHKROW",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "coronethighlandssection4": {
+            "name": "Coronet Highlands Section 4",
+            "locationNameId": 115,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 100
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 100
+                    },
+                    {
+                        "s": "STARMIE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "STARMIE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "ELECTRODE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "STEELIX",
+                        "mn": 100
+                    },
+                    {
+                        "s": "TYRANITAR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "PROBOPASS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MAGNEZONE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "ELECTRODE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "METANG",
+                        "mn": 100
+                    },
+                    {
+                        "s": "BELDUM",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "MACHOKE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BRONZONG",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "STARMIE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "STARMIE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "JYNX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HOUNDOOM",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "coronethighlandssection5": {
+            "name": "Coronet Highlands Section 5",
+            "locationNameId": 115,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "KADABRA",
+                        "mn": 100
+                    },
+                    {
+                        "s": "DUNSPARCE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "ELECTRODE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "RHYPERIOR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "TYRANITAR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SALAMENCE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "AERODACTYL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MAGNEZONE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "METAGROSS",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "MACHOKE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BRONZONG",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "KADABRA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUNSPARCE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HOUNDOOM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HONCHKROW",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "coronethighlandssection6": {
+            "name": "Coronet Highlands Section 6",
             "locationNameId": 115,
             "grass": {
                 "encs": [
@@ -78613,8 +80169,2152 @@ var overrides = {
                 ]
             }
         },
+        "mtcoronetsection4": {
+            "name": "Mt. Coronet Section 4",
+            "locationNameId": 50,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 65
+                    },
+                    {
+                        "s": "NOSEPASS",
+                        "mn": 65
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 65
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 65
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 65
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 65
+                    },
+                    {
+                        "s": "SWINUB",
+                        "mn": 65
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 65
+                    },
+                    {
+                        "s": "DUNSPARCE",
+                        "mn": 65
+                    },
+                    {
+                        "s": "ELECTRODE",
+                        "mn": 65
+                    },
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 65
+                    },
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 65
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 45
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 55
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 55
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "CLAMPERL",
+                        "mn": 35
+                    },
+                    {
+                        "s": "HUNTAIL",
+                        "mn": 55
+                    },
+                    {
+                        "s": "GOREBYSS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "GOREBYSS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "CRADILY",
+                        "mn": 55
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "STARYU",
+                        "mn": 66
+                    },
+                    {
+                        "s": "OMASTAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "KABUTOPS",
+                        "mn": 66
+                    },
+                    {
+                        "s": "ARMALDO",
+                        "mn": 66
+                    },
+                    {
+                        "s": "RELICANTH",
+                        "mn": 66
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "MACHOKE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDITITE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CLEFAIRY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "mtcoronetsection5": {
+            "name": "Mt. Coronet Section 5",
+            "locationNameId": 50,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 65
+                    },
+                    {
+                        "s": "NOSEPASS",
+                        "mn": 65
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 65
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 65
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 65
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 65
+                    },
+                    {
+                        "s": "SWINUB",
+                        "mn": 65
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 65
+                    },
+                    {
+                        "s": "DUNSPARCE",
+                        "mn": 65
+                    },
+                    {
+                        "s": "ELECTRODE",
+                        "mn": 65
+                    },
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 65
+                    },
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 65
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 45
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 55
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 55
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "CLAMPERL",
+                        "mn": 35
+                    },
+                    {
+                        "s": "HUNTAIL",
+                        "mn": 55
+                    },
+                    {
+                        "s": "GOREBYSS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "GOREBYSS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "CRADILY",
+                        "mn": 55
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "STARYU",
+                        "mn": 66
+                    },
+                    {
+                        "s": "OMASTAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "KABUTOPS",
+                        "mn": 66
+                    },
+                    {
+                        "s": "ARMALDO",
+                        "mn": 66
+                    },
+                    {
+                        "s": "RELICANTH",
+                        "mn": 66
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "MACHOKE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDITITE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CLEFAIRY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "mtcoronetsection6": {
+            "name": "Mt. Coronet Section 6",
+            "locationNameId": 50,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 65
+                    },
+                    {
+                        "s": "NOSEPASS",
+                        "mn": 65
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 65
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 65
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 65
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 65
+                    },
+                    {
+                        "s": "SWINUB",
+                        "mn": 65
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 65
+                    },
+                    {
+                        "s": "DUNSPARCE",
+                        "mn": 65
+                    },
+                    {
+                        "s": "ELECTRODE",
+                        "mn": 65
+                    },
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 65
+                    },
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 65
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 20
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 45
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 55
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 55
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "GOLDEEN",
+                        "mn": 30
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "CLAMPERL",
+                        "mn": 35
+                    },
+                    {
+                        "s": "HUNTAIL",
+                        "mn": 55
+                    },
+                    {
+                        "s": "GOREBYSS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "GOREBYSS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "CRADILY",
+                        "mn": 55
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "STARYU",
+                        "mn": 66
+                    },
+                    {
+                        "s": "OMASTAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "KABUTOPS",
+                        "mn": 66
+                    },
+                    {
+                        "s": "ARMALDO",
+                        "mn": 66
+                    },
+                    {
+                        "s": "RELICANTH",
+                        "mn": 66
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "MACHOKE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDITITE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CLEFAIRY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
         "greatmarsh": {
             "name": "Great Marsh",
+            "locationNameId": 52,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "KECLEON",
+                        "mn": 50
+                    },
+                    {
+                        "s": "SCYTHER",
+                        "mn": 50
+                    },
+                    {
+                        "s": "PRIMEAPE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "LEDIAN",
+                        "mn": 50
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "MUK",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "PINSIR",
+                        "mn": 50
+                    },
+                    {
+                        "s": "ABSOL",
+                        "mn": 50
+                    },
+                    {
+                        "s": "TREECKO",
+                        "mn": 50
+                    },
+                    {
+                        "s": "GROVYLE",
+                        "mn": 50
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 20
+                    },
+                    {
+                        "s": "WOOPER",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 3
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 4
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 15
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 10
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "GYARADOS",
+                        "mn": 30
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 30
+                    },
+                    {
+                        "s": "WHISCASH",
+                        "mn": 20
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 40
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIBAREL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "TROPIUS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LEDIAN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUGTRIO",
+                        "mn": 0
+                    },
+                    {
+                        "s": "VENOMOTH",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "greatmarshsection2": {
+            "name": "Great Marsh Section 2",
+            "locationNameId": 52,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "SEVIPER",
+                        "mn": 50
+                    },
+                    {
+                        "s": "ABSOL",
+                        "mn": 50
+                    },
+                    {
+                        "s": "CHATOT",
+                        "mn": 50
+                    },
+                    {
+                        "s": "AMBIPOM",
+                        "mn": 50
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "PORYGON",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "LUDICOLO",
+                        "mn": 50
+                    },
+                    {
+                        "s": "ZANGOOSE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "AIPOM",
+                        "mn": 50
+                    },
+                    {
+                        "s": "VIGOROTH",
+                        "mn": 50
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "GOLDUCK",
+                        "mn": 20
+                    },
+                    {
+                        "s": "PORYGON",
+                        "mn": 20
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    },
+                    {
+                        "s": "SLAKOTH",
+                        "mn": 20
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "CARVANHA",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    },
+                    {
+                        "s": "CROAGUNK",
+                        "mn": 20
+                    },
+                    {
+                        "s": "CORPHISH",
+                        "mn": 20
+                    },
+                    {
+                        "s": "WOOPER",
+                        "mn": 20
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "MUK",
+                        "mn": 30
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 30
+                    },
+                    {
+                        "s": "SLOWPOKE",
+                        "mn": 30
+                    },
+                    {
+                        "s": "WARTORTLE",
+                        "mn": 30
+                    },
+                    {
+                        "s": "BLASTOISE",
+                        "mn": 30
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "CROAGUNK",
+                        "mn": 30
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 30
+                    },
+                    {
+                        "s": "WHISCASH",
+                        "mn": 20
+                    },
+                    {
+                        "s": "CRAWDAUNT",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 40
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIBAREL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "CHATOT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "AMBIPOM",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "KRICKETUNE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "greatmarshsection3": {
+            "name": "Great Marsh Section 3",
+            "locationNameId": 52,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "DROWZEE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 50
+                    },
+                    {
+                        "s": "SUNFLORA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "FARFETCH’D",
+                        "mn": 50
+                    },
+                    {
+                        "s": "ABSOL",
+                        "mn": 50
+                    },
+                    {
+                        "s": "URSARING",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "SWALOT",
+                        "mn": 50
+                    },
+                    {
+                        "s": "MILTANK",
+                        "mn": 50
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 50
+                    },
+                    {
+                        "s": "SHROOMISH",
+                        "mn": 50
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "MASQUERAIN",
+                        "mn": 32
+                    },
+                    {
+                        "s": "PORYGON",
+                        "mn": 32
+                    },
+                    {
+                        "s": "FERALIGATR",
+                        "mn": 32
+                    },
+                    {
+                        "s": "KOFFING",
+                        "mn": 32
+                    },
+                    {
+                        "s": "SURSKIT",
+                        "mn": 32
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 30
+                    },
+                    {
+                        "s": "CROCONAW",
+                        "mn": 30
+                    },
+                    {
+                        "s": "WARTORTLE",
+                        "mn": 30
+                    },
+                    {
+                        "s": "SQUIRTLE",
+                        "mn": 30
+                    },
+                    {
+                        "s": "TOTODILE",
+                        "mn": 30
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "CRAWDAUNT",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MUK",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BLASTOISE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CORPHISH",
+                        "mn": 40
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "GYARADOS",
+                        "mn": 30
+                    },
+                    {
+                        "s": "TOXICROAK",
+                        "mn": 30
+                    },
+                    {
+                        "s": "WHISCASH",
+                        "mn": 20
+                    },
+                    {
+                        "s": "SWAMPERT",
+                        "mn": 40
+                    },
+                    {
+                        "s": "SWAMPERT",
+                        "mn": 40
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIBAREL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "FARFETCH’D",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SUNFLORA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "NOCTOWL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "PARASECT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "greatmarshsection4": {
+            "name": "Great Marsh Section 4",
+            "locationNameId": 52,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "LOPUNNY",
+                        "mn": 50
+                    },
+                    {
+                        "s": "CARNIVINE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "GRUMPIG",
+                        "mn": 50
+                    },
+                    {
+                        "s": "ROSERADE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "ABSOL",
+                        "mn": 50
+                    },
+                    {
+                        "s": "VICTREEBEL",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "BAYLEEF",
+                        "mn": 50
+                    },
+                    {
+                        "s": "LUXRAY",
+                        "mn": 50
+                    },
+                    {
+                        "s": "MARSHTOMP",
+                        "mn": 50
+                    },
+                    {
+                        "s": "BULBASAUR",
+                        "mn": 50
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 20
+                    },
+                    {
+                        "s": "WOOPER",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 3
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 4
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 15
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 10
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "GYARADOS",
+                        "mn": 30
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 30
+                    },
+                    {
+                        "s": "WHISCASH",
+                        "mn": 20
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 40
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIBAREL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GRUMPIG",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ROSERADE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "VILEPLUME",
+                        "mn": 0
+                    },
+                    {
+                        "s": "NOCTOWL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "greatmarshsection5": {
+            "name": "Great Marsh Section 5",
+            "locationNameId": 52,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "LINOONE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "PINSIR",
+                        "mn": 50
+                    },
+                    {
+                        "s": "EXEGGCUTE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "STARAPTOR",
+                        "mn": 50
+                    },
+                    {
+                        "s": "CARNIVINE",
+                        "mn": 50
+                    },
+                    {
+                        "s": "ARBOK",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "SCYTHER",
+                        "mn": 50
+                    },
+                    {
+                        "s": "SEADRA",
+                        "mn": 50
+                    },
+                    {
+                        "s": "GLIGAR",
+                        "mn": 50
+                    },
+                    {
+                        "s": "SKORUPI",
+                        "mn": 50
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 20
+                    },
+                    {
+                        "s": "WOOPER",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 20
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 3
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 4
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 15
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 10
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "GYARADOS",
+                        "mn": 30
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 30
+                    },
+                    {
+                        "s": "WHISCASH",
+                        "mn": 20
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 40
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "QUAGSIRE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "WOOPER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIBAREL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "EXEGGCUTE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "STARAPTOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DRAPION",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ARIADOS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ARBOK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "YANMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TANGELA",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "greatmarshsection6": {
+            "name": "Great Marsh Section 6",
             "locationNameId": 52,
             "grass": {
                 "encs": [
@@ -79065,6 +82765,2950 @@ var overrides = {
                 ]
             }
         },
+        "solaceonruinssection2": {
+            "name": "Solaceon Ruins Section 2",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection3": {
+            "name": "Solaceon Ruins Section 3",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection4": {
+            "name": "Solaceon Ruins Section 4",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection5": {
+            "name": "Solaceon Ruins Section 5",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection6": {
+            "name": "Solaceon Ruins Section 6",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection7": {
+            "name": "Solaceon Ruins Section 7",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection8": {
+            "name": "Solaceon Ruins Section 8",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection9": {
+            "name": "Solaceon Ruins Section 9",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection10": {
+            "name": "Solaceon Ruins Section 10",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection11": {
+            "name": "Solaceon Ruins Section 11",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection12": {
+            "name": "Solaceon Ruins Section 12",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection13": {
+            "name": "Solaceon Ruins Section 13",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection14": {
+            "name": "Solaceon Ruins Section 14",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection15": {
+            "name": "Solaceon Ruins Section 15",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection16": {
+            "name": "Solaceon Ruins Section 16",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "solaceonruinssection17": {
+            "name": "Solaceon Ruins Section 17",
+            "locationNameId": 53,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 37
+                    },
+                    {
+                        "s": "BALTOY",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 37
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 37
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 37
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 37
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "BALTOY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "UNOWN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
         "unknown46": {
             "name": "unknown_46",
             "locationNameId": null,
@@ -79251,6 +85895,1094 @@ var overrides = {
         },
         "victoryroad": {
             "name": "Victory Road",
+            "locationNameId": 54,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MIGHTYENA",
+                        "mn": 97
+                    },
+                    {
+                        "s": "GRANBULL",
+                        "mn": 97
+                    },
+                    {
+                        "s": "ARCANINE",
+                        "mn": 97
+                    },
+                    {
+                        "s": "MANECTRIC",
+                        "mn": 97
+                    },
+                    {
+                        "s": "MAGMORTAR",
+                        "mn": 97
+                    },
+                    {
+                        "s": "ELECTIVIRE",
+                        "mn": 97
+                    },
+                    {
+                        "s": "RHYPERIOR",
+                        "mn": 97
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 97
+                    },
+                    {
+                        "s": "GALLADE",
+                        "mn": 97
+                    },
+                    {
+                        "s": "LICKILICKY",
+                        "mn": 97
+                    },
+                    {
+                        "s": "GIBLE",
+                        "mn": 97
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 97
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYDON",
+                        "mn": 0
+                    },
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "ARCANINE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MANECTRIC",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DRAPION",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUXRAY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "victoryroadsection2": {
+            "name": "Victory Road Section 2",
+            "locationNameId": 54,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "NIDOKING",
+                        "mn": 100
+                    },
+                    {
+                        "s": "NIDOQUEEN",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GIRAFARIG",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MAGNETON",
+                        "mn": 100
+                    },
+                    {
+                        "s": "DUGTRIO",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MANECTRIC",
+                        "mn": 100
+                    },
+                    {
+                        "s": "JOLTEON",
+                        "mn": 100
+                    },
+                    {
+                        "s": "DODRIO",
+                        "mn": 100
+                    },
+                    {
+                        "s": "KANGASKHAN",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MACHAMP",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAGNETON",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "MAGNETON",
+                        "mn": 0
+                    },
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GIRAFARIG",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAGNETON",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUNSPARCE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "victoryroadsection3": {
+            "name": "Victory Road Section 3",
+            "locationNameId": 54,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "AGGRON",
+                        "mn": 100
+                    },
+                    {
+                        "s": "PERSIAN",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SCIZOR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "KANGASKHAN",
+                        "mn": 100
+                    },
+                    {
+                        "s": "HITMONLEE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "HITMONCHAN",
+                        "mn": 100
+                    },
+                    {
+                        "s": "HITMONTOP",
+                        "mn": 100
+                    },
+                    {
+                        "s": "HITMONTOP",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "BANETTE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "TENTACRUEL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "VAPOREON",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 100
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "MUK",
+                        "mn": 100
+                    },
+                    {
+                        "s": "CLOYSTER",
+                        "mn": 100
+                    },
+                    {
+                        "s": "TENTACRUEL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "TENTACRUEL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "TENTACOOL",
+                        "mn": 95
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "CLOYSTER",
+                        "mn": 100
+                    },
+                    {
+                        "s": "CLOYSTER",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SEADRA",
+                        "mn": 99
+                    },
+                    {
+                        "s": "SEADRA",
+                        "mn": 99
+                    },
+                    {
+                        "s": "SEADRA",
+                        "mn": 100
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "FLOATZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "FLOATZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "AZUMARILL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "SCIZOR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "KANGASKHAN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HARIYAMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DRAPION",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "victoryroadsection4": {
+            "name": "Victory Road Section 4",
+            "locationNameId": 54,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "AGGRON",
+                        "mn": 100
+                    },
+                    {
+                        "s": "PERSIAN",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SCIZOR",
+                        "mn": 100
+                    },
+                    {
+                        "s": "KANGASKHAN",
+                        "mn": 100
+                    },
+                    {
+                        "s": "HITMONLEE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "HITMONCHAN",
+                        "mn": 100
+                    },
+                    {
+                        "s": "HITMONTOP",
+                        "mn": 100
+                    },
+                    {
+                        "s": "HITMONTOP",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "BANETTE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "TENTACRUEL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "VAPOREON",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 100
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 100
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "MUK",
+                        "mn": 100
+                    },
+                    {
+                        "s": "CLOYSTER",
+                        "mn": 100
+                    },
+                    {
+                        "s": "TENTACRUEL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "TENTACRUEL",
+                        "mn": 100
+                    },
+                    {
+                        "s": "TENTACOOL",
+                        "mn": 95
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "CLOYSTER",
+                        "mn": 100
+                    },
+                    {
+                        "s": "CLOYSTER",
+                        "mn": 100
+                    },
+                    {
+                        "s": "SEADRA",
+                        "mn": 99
+                    },
+                    {
+                        "s": "SEADRA",
+                        "mn": 99
+                    },
+                    {
+                        "s": "SEADRA",
+                        "mn": 100
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 100
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "FLOATZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "FLOATZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "AZUMARILL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "SCIZOR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "KANGASKHAN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HARIYAMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DRAPION",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "victoryroadsection5": {
+            "name": "Victory Road Section 5",
+            "locationNameId": 54,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "AGGRON",
+                        "mn": 100
+                    },
+                    {
+                        "s": "URSARING",
+                        "mn": 100
+                    },
+                    {
+                        "s": "ESPEON",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MR. MIME",
+                        "mn": 100
+                    },
+                    {
+                        "s": "FLAREON",
+                        "mn": 100
+                    },
+                    {
+                        "s": "GALLADE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 100
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 100
+                    },
+                    {
+                        "s": "HARIYAMA",
+                        "mn": 100
+                    },
+                    {
+                        "s": "LICKILICKY",
+                        "mn": 100
+                    },
+                    {
+                        "s": "EXPLOUD",
+                        "mn": 100
+                    },
+                    {
+                        "s": "EXPLOUD",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "FLOATZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "FLOATZEL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "ESPEON",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MR. MIME",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "UMBREON",
+                        "mn": 0
+                    },
+                    {
+                        "s": "JYNX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "STEELIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GABITE",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "victoryroadsection6": {
+            "name": "Victory Road Section 6",
             "locationNameId": 54,
             "grass": {
                 "encs": [
@@ -79707,6 +87439,190 @@ var overrides = {
             "grass": {
                 "encs": [
                     {
+                        "s": "TEDDIURSA",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 5
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 6
+                    },
+                    {
+                        "s": "PSYDUCK",
+                        "mn": 6
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 5
+                    },
+                    {
+                        "s": "NOSEPASS",
+                        "mn": 5
+                    },
+                    {
+                        "s": "DUNSPARCE",
+                        "mn": 7
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 7
+                    },
+                    {
+                        "s": "CUBONE",
+                        "mn": 7
+                    },
+                    {
+                        "s": "SANDSHREW",
+                        "mn": 8
+                    },
+                    {
+                        "s": "PHANPY",
+                        "mn": 7
+                    },
+                    {
+                        "s": "MACHOP",
+                        "mn": 8
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "PSYDUCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "BONSLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "PSYDUCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "PSYDUCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "oreburghgatesection2": {
+            "name": "Oreburgh Gate Section 2",
+            "locationNameId": 59,
+            "grass": {
+                "encs": [
+                    {
                         "s": "MACHOP",
                         "mn": 15
                     },
@@ -79971,6 +87887,374 @@ var overrides = {
         },
         "starkmountain": {
             "name": "Stark Mountain",
+            "locationNameId": 84,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "RAPIDASH",
+                        "mn": 95
+                    },
+                    {
+                        "s": "RHYDON",
+                        "mn": 95
+                    },
+                    {
+                        "s": "MAGMAR",
+                        "mn": 95
+                    },
+                    {
+                        "s": "MACHOKE",
+                        "mn": 95
+                    },
+                    {
+                        "s": "TYPHLOSION",
+                        "mn": 95
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 95
+                    },
+                    {
+                        "s": "DONPHAN",
+                        "mn": 95
+                    },
+                    {
+                        "s": "BLAZIKEN",
+                        "mn": 95
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 95
+                    },
+                    {
+                        "s": "INFERNAPE",
+                        "mn": 95
+                    },
+                    {
+                        "s": "AERODACTYL",
+                        "mn": 95
+                    },
+                    {
+                        "s": "ARCANINE",
+                        "mn": 95
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "TORKOAL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "CAMERUPT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYDON",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "MAGMAR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MACHOKE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HOUNDOOM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "COMBUSKEN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "NUMEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "NUMEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "NUMEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "NUMEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "NUMEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "starkmountainsection2": {
+            "name": "Stark Mountain Section 2",
+            "locationNameId": 84,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "TORKOAL",
+                        "mn": 90
+                    },
+                    {
+                        "s": "DONPHAN",
+                        "mn": 90
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 90
+                    },
+                    {
+                        "s": "MAGBY",
+                        "mn": 90
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 90
+                    },
+                    {
+                        "s": "RHYPERIOR",
+                        "mn": 90
+                    },
+                    {
+                        "s": "MUK",
+                        "mn": 90
+                    },
+                    {
+                        "s": "MAGMAR",
+                        "mn": 90
+                    },
+                    {
+                        "s": "KOFFING",
+                        "mn": 90
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 90
+                    },
+                    {
+                        "s": "CHARIZARD",
+                        "mn": 99
+                    },
+                    {
+                        "s": "MAGMORTAR",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WEEZING",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SLUGMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "MAGCARGO",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYDON",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAGBY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "SKARMORY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TORKOAL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SLUGMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "SLUGMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "SLUGMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "SLUGMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "SLUGMA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RHYHORN",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "starkmountainsection3": {
+            "name": "Stark Mountain Section 3",
             "locationNameId": 84,
             "grass": {
                 "encs": [
@@ -80975,6 +89259,2950 @@ var overrides = {
         },
         "turnbackcave": {
             "name": "Turnback Cave",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection2": {
+            "name": "Turnback Cave Section 2",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection3": {
+            "name": "Turnback Cave Section 3",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection4": {
+            "name": "Turnback Cave Section 4",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection5": {
+            "name": "Turnback Cave Section 5",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection6": {
+            "name": "Turnback Cave Section 6",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection7": {
+            "name": "Turnback Cave Section 7",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection8": {
+            "name": "Turnback Cave Section 8",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection9": {
+            "name": "Turnback Cave Section 9",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection10": {
+            "name": "Turnback Cave Section 10",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection11": {
+            "name": "Turnback Cave Section 11",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection12": {
+            "name": "Turnback Cave Section 12",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection13": {
+            "name": "Turnback Cave Section 13",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection14": {
+            "name": "Turnback Cave Section 14",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection15": {
+            "name": "Turnback Cave Section 15",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection16": {
+            "name": "Turnback Cave Section 16",
+            "locationNameId": 62,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CLAYDOL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "turnbackcavesection17": {
+            "name": "Turnback Cave Section 17",
             "locationNameId": 62,
             "grass": {
                 "encs": [
@@ -86125,8 +97353,1112 @@ var overrides = {
                 ]
             }
         },
+        "snowpointtemplesection2": {
+            "name": "Snowpoint Temple Section 2",
+            "locationNameId": 64,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MAWILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "FORRETRESS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "PROBOPASS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "AGGRON",
+                        "mn": 75
+                    },
+                    {
+                        "s": "JYNX",
+                        "mn": 75
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 75
+                    },
+                    {
+                        "s": "WEAVILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BELDUM",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GALLADE",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "snowpointtemplesection3": {
+            "name": "Snowpoint Temple Section 3",
+            "locationNameId": 64,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MAWILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "FORRETRESS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "PROBOPASS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "AGGRON",
+                        "mn": 75
+                    },
+                    {
+                        "s": "JYNX",
+                        "mn": 75
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 75
+                    },
+                    {
+                        "s": "WEAVILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BELDUM",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GALLADE",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "snowpointtemplesection4": {
+            "name": "Snowpoint Temple Section 4",
+            "locationNameId": 64,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MAWILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "FORRETRESS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "PROBOPASS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "AGGRON",
+                        "mn": 75
+                    },
+                    {
+                        "s": "JYNX",
+                        "mn": 75
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 75
+                    },
+                    {
+                        "s": "WEAVILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BELDUM",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GALLADE",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "snowpointtemplesection5": {
+            "name": "Snowpoint Temple Section 5",
+            "locationNameId": 64,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MAWILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "FORRETRESS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "PROBOPASS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "AGGRON",
+                        "mn": 75
+                    },
+                    {
+                        "s": "JYNX",
+                        "mn": 75
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 75
+                    },
+                    {
+                        "s": "WEAVILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BELDUM",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GALLADE",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "snowpointtemplesection6": {
+            "name": "Snowpoint Temple Section 6",
+            "locationNameId": 64,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MAWILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "FORRETRESS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "PROBOPASS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "AGGRON",
+                        "mn": 75
+                    },
+                    {
+                        "s": "JYNX",
+                        "mn": 75
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 75
+                    },
+                    {
+                        "s": "WEAVILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "BELDUM",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GALLADE",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SNEASEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GLALIE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "FROSLASS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
         "waywardcave": {
             "name": "Wayward Cave",
+            "locationNameId": 65,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "RHYDON",
+                        "mn": 75
+                    },
+                    {
+                        "s": "LAIRON",
+                        "mn": 75
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 75
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 75
+                    },
+                    {
+                        "s": "NOSEPASS",
+                        "mn": 75
+                    },
+                    {
+                        "s": "VIGOROTH",
+                        "mn": 75
+                    },
+                    {
+                        "s": "GLIGAR",
+                        "mn": 75
+                    },
+                    {
+                        "s": "SPINDA",
+                        "mn": 75
+                    },
+                    {
+                        "s": "MAGNETON",
+                        "mn": 75
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 75
+                    },
+                    {
+                        "s": "LARVITAR",
+                        "mn": 14
+                    },
+                    {
+                        "s": "GIBLE",
+                        "mn": 14
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MEDICHAM",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "DUNSPARCE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "SANDSHREW",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SANDSHREW",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "waywardcavesection2": {
+            "name": "Wayward Cave Section 2",
             "locationNameId": 65,
             "grass": {
                 "encs": [
@@ -86311,6 +98643,190 @@ var overrides = {
         },
         "ruinmaniaccave": {
             "name": "Ruin Maniac Cave",
+            "locationNameId": 66,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 23
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 22
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 21
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 23
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 23
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 23
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 23
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 23
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 23
+                    },
+                    {
+                        "s": "HIPPOPOTAS",
+                        "mn": 22
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 23
+                    },
+                    {
+                        "s": "HIPPOPOTAS",
+                        "mn": 24
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HIPPOPOTAS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HIPPOPOTAS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HIPPOPOTAS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HIPPOPOTAS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HIPPOPOTAS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GEODUDE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HIPPOPOTAS",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "ruinmaniaccavesection2": {
+            "name": "Ruin Maniac Cave Section 2",
             "locationNameId": 66,
             "grass": {
                 "encs": [
@@ -87733,6 +100249,385 @@ var overrides = {
             "grass": {
                 "encs": [
                     {
+                        "s": "SANDSLASH",
+                        "mn": 56
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 56
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 56
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 56
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 56
+                    },
+                    {
+                        "s": "NOSEPASS",
+                        "mn": 56
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 56
+                    },
+                    {
+                        "s": "DONPHAN",
+                        "mn": 56
+                    },
+                    {
+                        "s": "DUGTRIO",
+                        "mn": 56
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 56
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 56
+                    },
+                    {
+                        "s": "BELDUM",
+                        "mn": 56
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "gift": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "RIOLU",
+                        "mn": 1
+                    }
+                ]
+            }
+        },
+        "ironislandsection2": {
+            "name": "Iron Island Section 2",
+            "locationNameId": 69,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MAWILE",
+                        "mn": 56
+                    },
+                    {
+                        "s": "HARIYAMA",
+                        "mn": 56
+                    },
+                    {
+                        "s": "CORSOLA",
+                        "mn": 56
+                    },
+                    {
+                        "s": "ARMALDO",
+                        "mn": 56
+                    },
+                    {
+                        "s": "RHYDON",
+                        "mn": 56
+                    },
+                    {
+                        "s": "LAIRON",
+                        "mn": 56
+                    },
+                    {
+                        "s": "AGGRON",
+                        "mn": 56
+                    },
+                    {
+                        "s": "ONIX",
+                        "mn": 56
+                    },
+                    {
+                        "s": "DITTO",
+                        "mn": 56
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 56
+                    },
+                    {
+                        "s": "MAGNETON",
+                        "mn": 56
+                    },
+                    {
+                        "s": "BELDUM",
+                        "mn": 56
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "ONIX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "CORSOLA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ARMALDO",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "OCTILLERY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CRADILY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GRAVELER",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "oldchateau": {
+            "name": "Old Chateau",
+            "locationNameId": 70,
+            "grass": {
+                "encs": [
+                    {
                         "s": "GASTLY",
                         "mn": 46
                     },
@@ -87909,26 +100804,15 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            },
-            "gift": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "RIOLU",
-                        "mn": 1
-                    }
-                ]
             }
         },
-        "oldchateau": {
-            "name": "Old Chateau",
-            "locationNameId": 70,
+        "ironislandsection3": {
+            "name": "Iron Island Section 3",
+            "locationNameId": 69,
             "grass": {
                 "encs": [
                     {
-                        "s": "MISDREAVUS",
+                        "s": "GASTLY",
                         "mn": 46
                     },
                     {
@@ -87936,7 +100820,7 @@ var overrides = {
                         "mn": 16
                     },
                     {
-                        "s": "SNORUNT",
+                        "s": "HAUNTER",
                         "mn": 66
                     },
                     {
@@ -87952,7 +100836,7 @@ var overrides = {
                         "mn": 56
                     },
                     {
-                        "s": "MISDREAVUS",
+                        "s": "GASTLY",
                         "mn": 66
                     },
                     {
@@ -87968,11 +100852,11 @@ var overrides = {
                         "mn": 17
                     },
                     {
-                        "s": "MISMAGIUS",
+                        "s": "GENGAR",
                         "mn": 46
                     },
                     {
-                        "s": "MISMAGIUS",
+                        "s": "GENGAR",
                         "mn": 66
                     }
                 ]
@@ -88041,6 +100925,742 @@ var overrides = {
                     },
                     {
                         "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "oldchateausection2": {
+            "name": "Old Chateau Section 2",
+            "locationNameId": 70,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "SABLEYE",
+                        "mn": 46
+                    },
+                    {
+                        "s": "SNORUNT",
+                        "mn": 16
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 39
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 16
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 56
+                    },
+                    {
+                        "s": "SABLEYE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 26
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 6
+                    },
+                    {
+                        "s": "DRIFLOON",
+                        "mn": 17
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 46
+                    },
+                    {
+                        "s": "DUSCLOPS",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "oldchateausection3": {
+            "name": "Old Chateau Section 3",
+            "locationNameId": 70,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 36
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 36
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "SHUPPET",
+                        "mn": 36
+                    },
+                    {
+                        "s": "SHUPPET",
+                        "mn": 26
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 46
+                    },
+                    {
+                        "s": "BANETTE",
+                        "mn": 56
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 26
+                    },
+                    {
+                        "s": "DRIFLOON",
+                        "mn": 16
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "oldchateausection4": {
+            "name": "Old Chateau Section 4",
+            "locationNameId": 70,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 16
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 39
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 16
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 56
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 26
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 6
+                    },
+                    {
+                        "s": "DRIFLOON",
+                        "mn": 17
+                    },
+                    {
+                        "s": "DUSKULL",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "oldchateausection5": {
+            "name": "Old Chateau Section 5",
+            "locationNameId": 70,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 14
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 14
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 16
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 17
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 16
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 17
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 17
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 17
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 17
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 17
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
                         "mn": 0
                     }
                 ]
@@ -88290,8 +101910,828 @@ var overrides = {
                 ]
             }
         },
+        "oldchateausection6": {
+            "name": "Old Chateau Section 6",
+            "locationNameId": 70,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "DROWZEE",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 16
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 39
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 16
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 56
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 26
+                    },
+                    {
+                        "s": "HYPNO",
+                        "mn": 46
+                    },
+                    {
+                        "s": "HYPNO",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GENGAR",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "oldchateausection7": {
+            "name": "Old Chateau Section 7",
+            "locationNameId": 70,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 16
+                    },
+                    {
+                        "s": "SNORUNT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 39
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 16
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 56
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 26
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 6
+                    },
+                    {
+                        "s": "DRIFLOON",
+                        "mn": 17
+                    },
+                    {
+                        "s": "MISMAGIUS",
+                        "mn": 46
+                    },
+                    {
+                        "s": "MISMAGIUS",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "oldchateausection8": {
+            "name": "Old Chateau Section 8",
+            "locationNameId": 70,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 16
+                    },
+                    {
+                        "s": "SNORUNT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 39
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 16
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 56
+                    },
+                    {
+                        "s": "MISDREAVUS",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 26
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 6
+                    },
+                    {
+                        "s": "DRIFLOON",
+                        "mn": 17
+                    },
+                    {
+                        "s": "MISMAGIUS",
+                        "mn": 46
+                    },
+                    {
+                        "s": "MISMAGIUS",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HAUNTER",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
         "lakeverity": {
             "name": "Lake Verity",
+            "locationNameId": 76,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "SPHEAL",
+                        "mn": 3
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 3
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 3
+                    },
+                    {
+                        "s": "GLAMEOW",
+                        "mn": 3
+                    },
+                    {
+                        "s": "SHINX",
+                        "mn": 3
+                    },
+                    {
+                        "s": "MAREEP",
+                        "mn": 3
+                    },
+                    {
+                        "s": "SPOINK",
+                        "mn": 4
+                    },
+                    {
+                        "s": "RALTS",
+                        "mn": 4
+                    },
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 4
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 4
+                    },
+                    {
+                        "s": "SWINUB",
+                        "mn": 4
+                    },
+                    {
+                        "s": "SEEL",
+                        "mn": 4
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "SPHEAL",
+                        "mn": 20
+                    },
+                    {
+                        "s": "STANTLER",
+                        "mn": 20
+                    },
+                    {
+                        "s": "SEALEO",
+                        "mn": 20
+                    },
+                    {
+                        "s": "SEALEO",
+                        "mn": 20
+                    },
+                    {
+                        "s": "LAPRAS",
+                        "mn": 40
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "FINNEON",
+                        "mn": 10
+                    },
+                    {
+                        "s": "SHELLDER",
+                        "mn": 10
+                    },
+                    {
+                        "s": "CHINCHOU",
+                        "mn": 5
+                    },
+                    {
+                        "s": "SHELLDER",
+                        "mn": 5
+                    },
+                    {
+                        "s": "SLOWPOKE",
+                        "mn": 15
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "KABUTO",
+                        "mn": 15
+                    },
+                    {
+                        "s": "OMANYTE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ANORITH",
+                        "mn": 10
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 25
+                    },
+                    {
+                        "s": "LILEEP",
+                        "mn": 25
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "CLAMPERL",
+                        "mn": 30
+                    },
+                    {
+                        "s": "CLOYSTER",
+                        "mn": 30
+                    },
+                    {
+                        "s": "STARYU",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIPLUP",
+                        "mn": 40
+                    },
+                    {
+                        "s": "DRATINI",
+                        "mn": 100
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "CHINGLING",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GLAMEOW",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "HOOTHOOT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SMOOCHUM",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "lakeveritysection2": {
+            "name": "Lake Verity Section 2",
             "locationNameId": 76,
             "grass": {
                 "encs": [
@@ -88564,44 +103004,84 @@ var overrides = {
             "grass": {
                 "encs": [
                     {
-                        "s": "MAGIKARP",
-                        "mn": 44
+                        "s": "STANTLER",
+                        "mn": 75
                     },
                     {
-                        "s": "MAGIKARP",
-                        "mn": 33
+                        "s": "STARAPTOR",
+                        "mn": 80
                     },
                     {
-                        "s": "MAGIKARP",
-                        "mn": 27
-                    },
-                    {
-                        "s": "MAGIKARP",
-                        "mn": 31
-                    },
-                    {
-                        "s": "MAGIKARP",
+                        "s": "GRAVELER",
                         "mn": 55
                     },
                     {
-                        "s": "MAGIKARP",
-                        "mn": 5
+                        "s": "MACHOKE",
+                        "mn": 55
                     },
                     {
-                        "s": "MAGIKARP",
-                        "mn": 11
+                        "s": "GOLDUCK",
+                        "mn": 75
                     },
                     {
-                        "s": "MAGIKARP",
-                        "mn": 15
+                        "s": "ONIX",
+                        "mn": 75
                     },
                     {
-                        "s": "MAGIKARP",
-                        "mn": 2
+                        "s": "TAUROS",
+                        "mn": 75
                     },
                     {
+                        "s": "DODRIO",
+                        "mn": 80
+                    },
+                    {
+                        "s": "BAGON",
+                        "mn": 90
+                    },
+                    {
+                        "s": "SHELGON",
+                        "mn": 95
+                    },
+                    {
+                        "s": "SALAMENCE",
+                        "mn": 100
+                    },
+                    {
+                        "s": "BAGON",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "STANTLER",
+                        "mn": 55
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "GYARADOS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "LAPRAS",
+                        "mn": 55
+                    },
+                    {
+                        "s": "LAPRAS",
+                        "mn": 55
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
                         "s": "MAGIKARP",
-                        "mn": 70
+                        "mn": 1
                     },
                     {
                         "s": "MAGIKARP",
@@ -88609,36 +103089,106 @@ var overrides = {
                     },
                     {
                         "s": "MAGIKARP",
-                        "mn": 100
+                        "mn": 1
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 1
                     }
                 ]
             },
-            "surf": {
-                "encs": []
-            },
-            "old_rod": {
-                "encs": []
-            },
             "good_rod": {
-                "encs": []
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 1
+                    },
+                    {
+                        "s": "SEAKING",
+                        "mn": 1
+                    },
+                    {
+                        "s": "SEAKING",
+                        "mn": 1
+                    }
+                ]
             },
             "super_rod": {
-                "encs": []
+                "encs": [
+                    {
+                        "s": "QWILFISH",
+                        "mn": 5
+                    },
+                    {
+                        "s": "QWILFISH",
+                        "mn": 25
+                    },
+                    {
+                        "s": "QWILFISH",
+                        "mn": 35
+                    },
+                    {
+                        "s": "QWILFISH",
+                        "mn": 55
+                    },
+                    {
+                        "s": "QWILFISH",
+                        "mn": 75
+                    }
+                ]
             },
             "radar": {
-                "encs": []
+                "encs": [
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WOBBUFFET",
+                        "mn": 0
+                    }
+                ]
             },
             "swarm": {
-                "encs": []
+                "encs": [
+                    {
+                        "s": "STARAVIA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIBAREL",
+                        "mn": 0
+                    }
+                ]
             },
             "time_day": {
                 "encs": [
                     {
-                        "s": "MAGIKARP",
+                        "s": "GRAVELER",
                         "mn": 0
                     },
                     {
-                        "s": "MAGIKARP",
+                        "s": "MACHOKE",
                         "mn": 0
                     }
                 ]
@@ -88646,29 +103196,74 @@ var overrides = {
             "time_night": {
                 "encs": [
                     {
-                        "s": "MAGIKARP",
+                        "s": "WOBBUFFET",
                         "mn": 0
                     },
                     {
-                        "s": "MAGIKARP",
+                        "s": "WOBBUFFET",
                         "mn": 0
                     }
                 ]
             },
             "dual_ruby": {
-                "encs": []
+                "encs": [
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
             },
             "dual_sapphire": {
-                "encs": []
+                "encs": [
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LUNATONE",
+                        "mn": 0
+                    }
+                ]
             },
             "dual_emerald": {
-                "encs": []
+                "encs": [
+                    {
+                        "s": "STARAVIA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIBAREL",
+                        "mn": 0
+                    }
+                ]
             },
             "dual_fire_red": {
-                "encs": []
+                "encs": [
+                    {
+                        "s": "STARAVIA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIBAREL",
+                        "mn": 0
+                    }
+                ]
             },
             "dual_leaf_green": {
-                "encs": []
+                "encs": [
+                    {
+                        "s": "STARAVIA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIBAREL",
+                        "mn": 0
+                    }
+                ]
             },
             "gift": {
                 "rates": [
@@ -90432,6 +105027,274 @@ var overrides = {
             "grass": {
                 "encs": [
                     {
+                        "s": "BURMY",
+                        "mn": 9
+                    },
+                    {
+                        "s": "SEEDOT",
+                        "mn": 9
+                    },
+                    {
+                        "s": "SUNKERN",
+                        "mn": 9
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 9
+                    },
+                    {
+                        "s": "SHROOMISH",
+                        "mn": 9
+                    },
+                    {
+                        "s": "BUDEW",
+                        "mn": 9
+                    },
+                    {
+                        "s": "BUDEW",
+                        "mn": 9
+                    },
+                    {
+                        "s": "BELLSPROUT",
+                        "mn": 9
+                    },
+                    {
+                        "s": "HOPPIP",
+                        "mn": 9
+                    },
+                    {
+                        "s": "CHIKORITA",
+                        "mn": 9
+                    },
+                    {
+                        "s": "LOTAD",
+                        "mn": 9
+                    },
+                    {
+                        "s": "BULBASAUR",
+                        "mn": 9
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "HOPPIP",
+                        "mn": 44
+                    },
+                    {
+                        "s": "SKIPLOOM",
+                        "mn": 44
+                    },
+                    {
+                        "s": "SKIPLOOM",
+                        "mn": 44
+                    },
+                    {
+                        "s": "MASQUERAIN",
+                        "mn": 44
+                    },
+                    {
+                        "s": "GOLDUCK",
+                        "mn": 44
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "AZURILL",
+                        "mn": 4
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 3
+                    },
+                    {
+                        "s": "PSYDUCK",
+                        "mn": 5
+                    },
+                    {
+                        "s": "PSYDUCK",
+                        "mn": 5
+                    },
+                    {
+                        "s": "LOTAD",
+                        "mn": 5
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "CORPHISH",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SEAKING",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GOLDUCK",
+                        "mn": 10
+                    },
+                    {
+                        "s": "GOLDUCK",
+                        "mn": 10
+                    },
+                    {
+                        "s": "PSYDUCK",
+                        "mn": 10
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "GYARADOS",
+                        "mn": 30
+                    },
+                    {
+                        "s": "SEAKING",
+                        "mn": 30
+                    },
+                    {
+                        "s": "LOMBRE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "SEAKING",
+                        "mn": 40
+                    },
+                    {
+                        "s": "LUDICOLO",
+                        "mn": 40
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "BUDEW",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SHINX",
+                        "mn": 0
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "STARLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "SUNKERN",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "ODDISH",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CACNEA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "SEEDOT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SEEDOT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "LOTAD",
+                        "mn": 0
+                    },
+                    {
+                        "s": "LOTAD",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "PINECO",
+                        "mn": 0
+                    },
+                    {
+                        "s": "PINECO",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "CATERPIE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "WEEDLE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "route204section2": {
+            "name": "Route 204 Section 2",
+            "locationNameId": 19,
+            "grass": {
+                "encs": [
+                    {
                         "s": "BULBASAUR",
                         "mn": 14
                     },
@@ -90700,6 +105563,361 @@ var overrides = {
             "grass": {
                 "encs": [
                     {
+                        "s": "STARLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 15
+                    },
+                    {
+                        "s": "NIDORINO",
+                        "mn": 18
+                    },
+                    {
+                        "s": "NIDORINA",
+                        "mn": 18
+                    },
+                    {
+                        "s": "EKANS",
+                        "mn": 17
+                    },
+                    {
+                        "s": "NIDORAN-F",
+                        "mn": 17
+                    },
+                    {
+                        "s": "STARAVIA",
+                        "mn": 19
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 19
+                    },
+                    {
+                        "s": "ARBOK",
+                        "mn": 22
+                    },
+                    {
+                        "s": "LEDIAN",
+                        "mn": 22
+                    },
+                    {
+                        "s": "POOCHYENA",
+                        "mn": 18
+                    },
+                    {
+                        "s": "POOCHYENA",
+                        "mn": 18
+                    }
+                ]
+            },
+            "surf": {
+                "encs": [
+                    {
+                        "s": "GRIMER",
+                        "mn": 20
+                    },
+                    {
+                        "s": "MUK",
+                        "mn": 20
+                    },
+                    {
+                        "s": "TENTACOOL",
+                        "mn": 20
+                    },
+                    {
+                        "s": "GASTRODON",
+                        "mn": 20
+                    },
+                    {
+                        "s": "TENTACRUEL",
+                        "mn": 20
+                    }
+                ]
+            },
+            "old_rod": {
+                "encs": [
+                    {
+                        "s": "BARBOACH",
+                        "mn": 4
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 3
+                    },
+                    {
+                        "s": "SLOWPOKE",
+                        "mn": 5
+                    },
+                    {
+                        "s": "TOTODILE",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHINCHOU",
+                        "mn": 5
+                    }
+                ]
+            },
+            "good_rod": {
+                "encs": [
+                    {
+                        "s": "GRIMER",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CARVANHA",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BARBOACH",
+                        "mn": 10
+                    },
+                    {
+                        "s": "SEVIPER",
+                        "mn": 10
+                    }
+                ]
+            },
+            "super_rod": {
+                "encs": [
+                    {
+                        "s": "SHARPEDO",
+                        "mn": 30
+                    },
+                    {
+                        "s": "LANTURN",
+                        "mn": 30
+                    },
+                    {
+                        "s": "SHELLDER",
+                        "mn": 20
+                    },
+                    {
+                        "s": "LUMINEON",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHINCHOU",
+                        "mn": 40
+                    }
+                ]
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "HOPPIP",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HOPPIP",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HOPPIP",
+                        "mn": 0
+                    },
+                    {
+                        "s": "HOPPIP",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "SHELLOS",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SHELLOS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "NIDORINO",
+                        "mn": 0
+                    },
+                    {
+                        "s": "NIDORINA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "BUIZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SHELLOS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "BUIZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SHELLOS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "BUIZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SHELLOS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "BUIZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SHELLOS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "BUIZEL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "SHELLOS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encs": [
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SENTRET",
+                        "mn": 16
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PIDGEY",
+                        "mn": 12
+                    },
+                    {
+                        "s": "SPEAROW",
+                        "mn": 12
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    }
+                ]
+            }
+        },
+        "route205section2": {
+            "name": "Route 205 Section 2",
+            "locationNameId": 20,
+            "grass": {
+                "encs": [
+                    {
                         "s": "BUIZEL",
                         "mn": 20
                     },
@@ -90958,93 +106176,6 @@ var overrides = {
                     {
                         "s": "SHELLOS",
                         "mn": 0
-                    }
-                ]
-            },
-            "global_honey_tree": {
-                "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
-                ],
-                "encs": [
-                    {
-                        "s": "CATERPIE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "KRICKETOT",
-                        "mn": 10
-                    },
-                    {
-                        "s": "BURMY",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
-                        "mn": 10
-                    }
-                ]
-            },
-            "local_honey_tree": {
-                "rates": [
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11
-                ],
-                "encs": [
-                    {
-                        "s": "TEDDIURSA",
-                        "mn": 15
-                    },
-                    {
-                        "s": "PACHIRISU",
-                        "mn": 15
-                    },
-                    {
-                        "s": "SENTRET",
-                        "mn": 16
-                    },
-                    {
-                        "s": "ZIGZAGOON",
-                        "mn": 15
-                    },
-                    {
-                        "s": "CHERUBI",
-                        "mn": 15
-                    },
-                    {
-                        "s": "PIDGEY",
-                        "mn": 12
-                    },
-                    {
-                        "s": "SPEAROW",
-                        "mn": 12
-                    },
-                    {
-                        "s": "STARLY",
-                        "mn": 15
-                    },
-                    {
-                        "s": "SPINDA",
-                        "mn": 18
                     }
                 ]
             }
@@ -92323,6 +107454,742 @@ var overrides = {
             "grass": {
                 "encs": [
                     {
+                        "s": "WHISMUR",
+                        "mn": 24
+                    },
+                    {
+                        "s": "WHISMUR",
+                        "mn": 24
+                    },
+                    {
+                        "s": "VENOMOTH",
+                        "mn": 24
+                    },
+                    {
+                        "s": "KECLEON",
+                        "mn": 24
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 24
+                    },
+                    {
+                        "s": "STUNKY",
+                        "mn": 24
+                    },
+                    {
+                        "s": "EKANS",
+                        "mn": 24
+                    },
+                    {
+                        "s": "ARBOK",
+                        "mn": 24
+                    },
+                    {
+                        "s": "GRIMER",
+                        "mn": 24
+                    },
+                    {
+                        "s": "MUK",
+                        "mn": 24
+                    },
+                    {
+                        "s": "NATU",
+                        "mn": 24
+                    },
+                    {
+                        "s": "NATU",
+                        "mn": 24
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "VENOMOTH",
+                        "mn": 0
+                    },
+                    {
+                        "s": "KECLEON",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "VILEPLUME",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GLOOM",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "losttowersection2": {
+            "name": "Lost Tower Section 2",
+            "locationNameId": 118,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "RATICATE",
+                        "mn": 46
+                    },
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 46
+                    },
+                    {
+                        "s": "PURUGLY",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GLAMEOW",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 46
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 46
+                    },
+                    {
+                        "s": "ARIADOS",
+                        "mn": 46
+                    },
+                    {
+                        "s": "ARIADOS",
+                        "mn": 46
+                    },
+                    {
+                        "s": "CUBONE",
+                        "mn": 46
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 46
+                    },
+                    {
+                        "s": "DROWZEE",
+                        "mn": 46
+                    },
+                    {
+                        "s": "MEOWTH",
+                        "mn": 46
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "PURUGLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GLAMEOW",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "NOCTOWL",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ARIADOS",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "losttowersection3": {
+            "name": "Lost Tower Section 3",
+            "locationNameId": 118,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 66
+                    },
+                    {
+                        "s": "RATTATA",
+                        "mn": 66
+                    },
+                    {
+                        "s": "RATICATE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "RATICATE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "NATU",
+                        "mn": 66
+                    },
+                    {
+                        "s": "MURKROW",
+                        "mn": 66
+                    },
+                    {
+                        "s": "ARIADOS",
+                        "mn": 66
+                    },
+                    {
+                        "s": "PURUGLY",
+                        "mn": 66
+                    },
+                    {
+                        "s": "ARIADOS",
+                        "mn": 66
+                    },
+                    {
+                        "s": "DROWZEE",
+                        "mn": 66
+                    },
+                    {
+                        "s": "HONCHKROW",
+                        "mn": 66
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "RATTATA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "RATICATE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "MEOWTH",
+                        "mn": 0
+                    },
+                    {
+                        "s": "PERSIAN",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "losttowersection4": {
+            "name": "Lost Tower Section 4",
+            "locationNameId": 118,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "PERSIAN",
+                        "mn": 78
+                    },
+                    {
+                        "s": "GOLBAT",
+                        "mn": 78
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 78
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 78
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 78
+                    },
+                    {
+                        "s": "MAROWAK",
+                        "mn": 78
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 78
+                    },
+                    {
+                        "s": "MAWILE",
+                        "mn": 78
+                    },
+                    {
+                        "s": "RATICATE",
+                        "mn": 78
+                    },
+                    {
+                        "s": "RATICATE",
+                        "mn": 78
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 78
+                    },
+                    {
+                        "s": "CROBAT",
+                        "mn": 78
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "ZUBAT",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 0
+                    },
+                    {
+                        "s": "XATU",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "SHUPPET",
+                        "mn": 0
+                    },
+                    {
+                        "s": "NOCTOWL",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    },
+                    {
+                        "s": "GASTLY",
+                        "mn": 0
+                    }
+                ]
+            }
+        },
+        "losttowersection5": {
+            "name": "Lost Tower Section 5",
+            "locationNameId": 118,
+            "grass": {
+                "encs": [
+                    {
                         "s": "CROBAT",
                         "mn": 86
                     },
@@ -92989,6 +108856,282 @@ var overrides = {
             "grass": {
                 "encs": [
                     {
+                        "s": "RALTS",
+                        "mn": 17
+                    },
+                    {
+                        "s": "CHINGLING",
+                        "mn": 17
+                    },
+                    {
+                        "s": "GROWLITHE",
+                        "mn": 17
+                    },
+                    {
+                        "s": "VULPIX",
+                        "mn": 17
+                    },
+                    {
+                        "s": "SPOINK",
+                        "mn": 17
+                    },
+                    {
+                        "s": "MACHOP",
+                        "mn": 17
+                    },
+                    {
+                        "s": "KIRLIA",
+                        "mn": 17
+                    },
+                    {
+                        "s": "CHIMECHO",
+                        "mn": 17
+                    },
+                    {
+                        "s": "CHARMELEON",
+                        "mn": 17
+                    },
+                    {
+                        "s": "QUILAVA",
+                        "mn": 17
+                    },
+                    {
+                        "s": "VOLTORB",
+                        "mn": 17
+                    },
+                    {
+                        "s": "TORCHIC",
+                        "mn": 17
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": [
+                    {
+                        "s": "TYROGUE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TYROGUE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TYROGUE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TYROGUE",
+                        "mn": 0
+                    }
+                ]
+            },
+            "swarm": {
+                "encs": [
+                    {
+                        "s": "MEDITITE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BIDOOF",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "GROWLITHE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "VULPIX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "GROWLITHE",
+                        "mn": 0
+                    },
+                    {
+                        "s": "VULPIX",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_sapphire": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_emerald": {
+                "encs": [
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 0
+                    },
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_fire_red": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_leaf_green": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 0
+                    },
+                    {
+                        "s": "BRONZOR",
+                        "mn": 0
+                    }
+                ]
+            },
+            "global_honey_tree": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encs": [
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
+                    }
+                ]
+            }
+        },
+        "route211section2": {
+            "name": "Route 211 Section 2",
+            "locationNameId": 26,
+            "grass": {
+                "encs": [
+                    {
                         "s": "TORKOAL",
                         "mn": 55
                     },
@@ -93163,98 +109306,6 @@ var overrides = {
                     {
                         "s": "BRONZOR",
                         "mn": 0
-                    }
-                ]
-            },
-            "global_honey_tree": {
-                "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
-                ],
-                "encs": [
-                    {
-                        "s": "CATERPIE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "KRICKETOT",
-                        "mn": 10
-                    },
-                    {
-                        "s": "BURMY",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
-                        "mn": 10
-                    }
-                ]
-            },
-            "local_honey_tree": {
-                "rates": [
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
-                ],
-                "encs": [
-                    {
-                        "s": "URSARING",
-                        "mn": 38
-                    },
-                    {
-                        "s": "BEEDRILL",
-                        "mn": 40
-                    },
-                    {
-                        "s": "BEAUTIFLY",
-                        "mn": 35
-                    },
-                    {
-                        "s": "DUSTOX",
-                        "mn": 35
-                    },
-                    {
-                        "s": "BUTTERFREE",
-                        "mn": 40
-                    },
-                    {
-                        "s": "MOTHIM",
-                        "mn": 40
-                    },
-                    {
-                        "s": "CHERRIM",
-                        "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
-                        "mn": 5
                     }
                 ]
             }
@@ -100616,6 +116667,119 @@ var overrides = {
                     },
                     {
                         "s": "SOLROCK",
+                        "mn": 0
+                    }
+                ]
+            },
+            "dual_ruby": {
+                "encs": []
+            },
+            "dual_sapphire": {
+                "encs": []
+            },
+            "dual_emerald": {
+                "encs": []
+            },
+            "dual_fire_red": {
+                "encs": []
+            },
+            "dual_leaf_green": {
+                "encs": []
+            }
+        },
+        "lakevalorsection2": {
+            "name": "Lake Valor Section 2",
+            "locationNameId": 77,
+            "grass": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 44
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 33
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 27
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 31
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 55
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 5
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 11
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 2
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 70
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 100
+                    }
+                ]
+            },
+            "surf": {
+                "encs": []
+            },
+            "old_rod": {
+                "encs": []
+            },
+            "good_rod": {
+                "encs": []
+            },
+            "super_rod": {
+                "encs": []
+            },
+            "radar": {
+                "encs": []
+            },
+            "swarm": {
+                "encs": []
+            },
+            "time_day": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 0
+                    }
+                ]
+            },
+            "time_night": {
+                "encs": [
+                    {
+                        "s": "MAGIKARP",
+                        "mn": 0
+                    },
+                    {
+                        "s": "MAGIKARP",
                         "mn": 0
                     }
                 ]
