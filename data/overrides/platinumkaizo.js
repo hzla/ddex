@@ -723,7 +723,7 @@ var overrides = {
                 "Blaze",
                 "-"
             ],
-            "catchRate": 46,
+            "catchRate": 100,
             "evos": [
                 "Charizard"
             ],
@@ -2272,7 +2272,7 @@ var overrides = {
                     ],
                     [
                         22,
-                        "Twister"
+                        "Heat Wave"
                     ],
                     [
                         27,
@@ -5212,7 +5212,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 247,
+            "catchRate": 255,
             "evos": [
                 "Ninetales"
             ],
@@ -5511,7 +5511,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 221,
+            "catchRate": 225,
             "evos": [
                 "Wigglytuff"
             ],
@@ -5656,7 +5656,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 65,
+            "catchRate": 75,
             "evoType": "useItem",
             "evoItem": "Moon Stone"
         },
@@ -9135,7 +9135,7 @@ var overrides = {
                 "Inner Focus",
                 "-"
             ],
-            "catchRate": 33,
+            "catchRate": 30,
             "evos": [
                 "Alakazam"
             ],
@@ -11374,7 +11374,7 @@ var overrides = {
                 "Unaware",
                 "-"
             ],
-            "catchRate": 247,
+            "catchRate": 255,
             "evos": [
                 "Slowbro",
                 "Slowking"
@@ -12952,7 +12952,7 @@ var overrides = {
                 "Aftermath",
                 "-"
             ],
-            "catchRate": 98,
+            "catchRate": 100,
             "evoType": "level",
             "evoLevel": 25
         },
@@ -13353,7 +13353,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 50,
             "evos": [
                 "Haunter"
             ],
@@ -13526,7 +13526,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 33,
+            "catchRate": 30,
             "evos": [
                 "Gengar"
             ],
@@ -14661,7 +14661,7 @@ var overrides = {
                 "Aftermath",
                 "-"
             ],
-            "catchRate": 247,
+            "catchRate": 255,
             "evos": [
                 "Electrode"
             ],
@@ -16045,7 +16045,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 247,
+            "catchRate": 255,
             "evos": [
                 "Weezing"
             ],
@@ -16885,7 +16885,7 @@ var overrides = {
                 "Overgrow",
                 "-"
             ],
-            "catchRate": 33,
+            "catchRate": 25,
             "evos": [
                 "Tangrowth"
             ],
@@ -18258,7 +18258,7 @@ var overrides = {
                 "Technician",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 50,
             "evos": [
                 "Scizor"
             ],
@@ -18583,7 +18583,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 125,
             "evos": [
                 "Electivire"
             ],
@@ -18735,7 +18735,7 @@ var overrides = {
                 "Flame Body",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 125,
             "evos": [
                 "Magmortar"
             ],
@@ -18889,7 +18889,7 @@ var overrides = {
                 "Mold Breaker",
                 "-"
             ],
-            "catchRate": 59
+            "catchRate": 50
         },
         "Tauros": {
             "name": "Tauros",
@@ -19088,7 +19088,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 75,
             "evos": [
                 "Gyarados"
             ],
@@ -19410,7 +19410,7 @@ var overrides = {
                 "Shell Armor",
                 "-"
             ],
-            "catchRate": 13
+            "catchRate": 10
         },
         "Ditto": {
             "name": "Ditto",
@@ -19446,7 +19446,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 46
+            "catchRate": 50
         },
         "Eevee": {
             "name": "Eevee",
@@ -20310,7 +20310,7 @@ var overrides = {
                 "Shell Armor",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 55,
             "evos": [
                 "Omastar"
             ],
@@ -20601,7 +20601,7 @@ var overrides = {
                 "Battle Armor",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 55,
             "evos": [
                 "Kabutops"
             ],
@@ -20946,7 +20946,7 @@ var overrides = {
                 "Rock Head",
                 "-"
             ],
-            "catchRate": 26
+            "catchRate": 20
         },
         "Snorlax": {
             "name": "Snorlax",
@@ -25892,7 +25892,7 @@ var overrides = {
                 "Cute Charm",
                 "-"
             ],
-            "catchRate": 117,
+            "catchRate": 120,
             "evos": [
                 "Clefairy"
             ],
@@ -28102,7 +28102,7 @@ var overrides = {
                 "Chlorophyll",
                 "-"
             ],
-            "catchRate": 156,
+            "catchRate": 255,
             "evos": [
                 "Jumpluff"
             ],
@@ -28267,7 +28267,7 @@ var overrides = {
                 "Chlorophyll",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 125,
             "evoType": "level",
             "evoLevel": 27
         },
@@ -28437,7 +28437,7 @@ var overrides = {
                 "Technician",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 75,
             "evos": [
                 "Ambipom"
             ],
@@ -29940,7 +29940,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 60,
             "evos": [
                 "Mismagius"
             ],
@@ -29985,7 +29985,7 @@ var overrides = {
                 "Wonder Guard",
                 "-"
             ],
-            "catchRate": 255
+            "catchRate": 0
         },
         "Wobbuffet": {
             "name": "Wobbuffet",
@@ -30190,7 +30190,7 @@ var overrides = {
                 "Quick Feet",
                 "-"
             ],
-            "catchRate": 59
+            "catchRate": 60
         },
         "Pineco": {
             "name": "Pineco",
@@ -30322,7 +30322,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 52,
+            "catchRate": 50,
             "evos": [
                 "Forretress"
             ],
@@ -30804,7 +30804,7 @@ var overrides = {
                 "Sand Veil",
                 "-"
             ],
-            "catchRate": 78,
+            "catchRate": 45,
             "evos": [
                 "Gliscor"
             ],
@@ -30992,7 +30992,7 @@ var overrides = {
                 "Rock Head",
                 "-"
             ],
-            "catchRate": 14,
+            "catchRate": 10,
             "evoType": "useItem",
             "evoItem": "Metal Coat"
         },
@@ -31148,7 +31148,7 @@ var overrides = {
                 "Intimidate",
                 "-"
             ],
-            "catchRate": 247,
+            "catchRate": 255,
             "evos": [
                 "Granbull"
             ],
@@ -31319,7 +31319,7 @@ var overrides = {
                 "Intimidate",
                 "-"
             ],
-            "catchRate": 98,
+            "catchRate": 110,
             "evoType": "level",
             "evoLevel": 23
         },
@@ -31481,7 +31481,7 @@ var overrides = {
                 "Swift Swim",
                 "-"
             ],
-            "catchRate": 33
+            "catchRate": 30
         },
         "Scizor": {
             "name": "Scizor",
@@ -31644,7 +31644,7 @@ var overrides = {
                 "Technician",
                 "-"
             ],
-            "catchRate": 33,
+            "catchRate": 65,
             "evoType": "useItem",
             "evoItem": "Metal Coat"
         },
@@ -31770,7 +31770,7 @@ var overrides = {
                 "Solid Rock",
                 "-"
             ],
-            "catchRate": 247
+            "catchRate": 255
         },
         "Heracross": {
             "name": "Heracross",
@@ -34552,7 +34552,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 156,
+            "catchRate": 155,
             "evos": [
                 "Donphan"
             ],
@@ -35205,7 +35205,7 @@ var overrides = {
                 "Scrappy",
                 "-"
             ],
-            "catchRate": 98,
+            "catchRate": 200,
             "evos": [
                 "Hitmonchan",
                 "Hitmonlee",
@@ -35659,7 +35659,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 155,
             "evos": [
                 "Electabuzz"
             ],
@@ -35959,7 +35959,7 @@ var overrides = {
                 "Scrappy",
                 "-"
             ],
-            "catchRate": 59
+            "catchRate": 65
         },
         "Blissey": {
             "name": "Blissey",
@@ -36706,7 +36706,7 @@ var overrides = {
                 "Guts",
                 "-"
             ],
-            "catchRate": 33,
+            "catchRate": 15,
             "evos": [
                 "Pupitar"
             ],
@@ -36865,7 +36865,7 @@ var overrides = {
                 "Shed Skin",
                 "-"
             ],
-            "catchRate": 75,
+            "catchRate": 15,
             "evos": [
                 "Tyranitar"
             ],
@@ -37072,7 +37072,7 @@ var overrides = {
                 "Battle Armor",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 15,
             "evoType": "levelExtra"
         },
         "Lugia": {
@@ -38205,7 +38205,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 50,
             "evos": [
                 "Combusken"
             ],
@@ -38375,7 +38375,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 50,
             "evos": [
                 "Blaziken"
             ],
@@ -38699,7 +38699,7 @@ var overrides = {
                 "Huge Power",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 35,
             "evos": [
                 "Marshtomp"
             ],
@@ -38862,7 +38862,7 @@ var overrides = {
                 "Torrent",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 20,
             "evos": [
                 "Swampert"
             ],
@@ -39041,7 +39041,7 @@ var overrides = {
                 "Torrent",
                 "-"
             ],
-            "catchRate": 20,
+            "catchRate": 15,
             "evoType": "level",
             "evoLevel": 36
         },
@@ -39924,7 +39924,7 @@ var overrides = {
                 "Shield Dust",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 65,
             "evoType": "level",
             "evoLevel": 10
         },
@@ -40111,7 +40111,7 @@ var overrides = {
                 "Shield Dust",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 65,
             "evoType": "level",
             "evoLevel": 10
         },
@@ -40787,7 +40787,7 @@ var overrides = {
                 "Chlorophyll",
                 "-"
             ],
-            "catchRate": 156,
+            "catchRate": 200,
             "evos": [
                 "Shiftry"
             ],
@@ -41334,7 +41334,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 247,
+            "catchRate": 255,
             "evos": [
                 "Pelipper"
             ],
@@ -41511,7 +41511,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 75,
             "evoType": "level",
             "evoLevel": 25
         },
@@ -41830,7 +41830,7 @@ var overrides = {
                 "Trace",
                 "-"
             ],
-            "catchRate": 156,
+            "catchRate": 150,
             "evos": [
                 "Gardevoir",
                 "Gallade"
@@ -42866,7 +42866,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 35,
             "evos": [
                 "Slaking"
             ],
@@ -43039,7 +43039,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 20,
+            "catchRate": 15,
             "evoType": "level",
             "evoLevel": 90
         },
@@ -43153,7 +43153,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 255,
+            "catchRate": 0,
             "evos": [
                 "Ninjask",
                 "Shedinja"
@@ -43322,7 +43322,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 156,
+            "catchRate": 0,
             "evoType": "levelExtra",
             "evoLevel": 20
         },
@@ -43454,7 +43454,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 0,
             "evoType": "levelExtra",
             "evoLevel": 20
         },
@@ -43584,7 +43584,7 @@ var overrides = {
                 "Soundproof",
                 "-"
             ],
-            "catchRate": 247,
+            "catchRate": 255,
             "evos": [
                 "Loudred"
             ],
@@ -43746,7 +43746,7 @@ var overrides = {
                 "Soundproof",
                 "-"
             ],
-            "catchRate": 156,
+            "catchRate": 200,
             "evos": [
                 "Exploud"
             ],
@@ -45329,7 +45329,7 @@ var overrides = {
                 "Rock Head",
                 "-"
             ],
-            "catchRate": 234,
+            "catchRate": 255,
             "evos": [
                 "Lairon"
             ],
@@ -46196,7 +46196,7 @@ var overrides = {
                 "Lightningrod",
                 "-"
             ],
-            "catchRate": 156,
+            "catchRate": 160,
             "evos": [
                 "Manectric"
             ],
@@ -46353,7 +46353,7 @@ var overrides = {
                 "Lightningrod",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 65,
             "evoType": "level",
             "evoLevel": 26
         },
@@ -46973,7 +46973,7 @@ var overrides = {
                 "learnset": [
                     [
                         1,
-                        "Mega Drain"
+                        "Petal Dance"
                     ],
                     [
                         4,
@@ -47092,7 +47092,7 @@ var overrides = {
                 "Natural Cure",
                 "-"
             ],
-            "catchRate": 195,
+            "catchRate": 255,
             "evos": [
                 "Roserade"
             ],
@@ -47417,7 +47417,7 @@ var overrides = {
                 "Gluttony",
                 "-"
             ],
-            "catchRate": 98,
+            "catchRate": 150,
             "evoType": "level",
             "evoLevel": 26
         },
@@ -47757,7 +47757,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 78,
+            "catchRate": 85,
             "evoType": "level",
             "evoLevel": 30
         },
@@ -47897,7 +47897,7 @@ var overrides = {
                 "Pressure",
                 "-"
             ],
-            "catchRate": 14,
+            "catchRate": 15,
             "evos": [
                 "Wailord"
             ],
@@ -48060,7 +48060,7 @@ var overrides = {
                 "Pressure",
                 "-"
             ],
-            "catchRate": 14,
+            "catchRate": 5,
             "evoType": "level",
             "evoLevel": 95
         },
@@ -51807,7 +51807,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 55,
             "evos": [
                 "Cradily"
             ],
@@ -53107,7 +53107,7 @@ var overrides = {
                 "Insomnia",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 60,
             "evoType": "level",
             "evoLevel": 37
         },
@@ -55518,7 +55518,7 @@ var overrides = {
                 "Rock Head",
                 "-"
             ],
-            "catchRate": 65,
+            "catchRate": 15,
             "evos": [
                 "Shelgon"
             ],
@@ -55674,7 +55674,7 @@ var overrides = {
                 "Shell Armor",
                 "-"
             ],
-            "catchRate": 35,
+            "catchRate": 15,
             "evos": [
                 "Salamence"
             ],
@@ -59017,7 +59017,7 @@ var overrides = {
                 "Torrent",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 45,
             "evos": [
                 "Prinplup"
             ],
@@ -59182,7 +59182,7 @@ var overrides = {
                 "Torrent",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 25,
             "evos": [
                 "Empoleon"
             ],
@@ -59374,7 +59374,7 @@ var overrides = {
                 "Torrent",
                 "-"
             ],
-            "catchRate": 20,
+            "catchRate": 15,
             "evoType": "level",
             "evoLevel": 36
         },
@@ -65516,7 +65516,7 @@ var overrides = {
                 "Filter",
                 "-"
             ],
-            "catchRate": 189,
+            "catchRate": 200,
             "evos": [
                 "Mr. Mime"
             ],
@@ -66044,7 +66044,7 @@ var overrides = {
                 "Rough Skin",
                 "-"
             ],
-            "catchRate": 14,
+            "catchRate": 15,
             "evos": [
                 "Gabite"
             ],
@@ -66189,7 +66189,7 @@ var overrides = {
                 "Shed Skin",
                 "-"
             ],
-            "catchRate": 14,
+            "catchRate": 10,
             "evos": [
                 "Garchomp"
             ],
@@ -66363,7 +66363,7 @@ var overrides = {
                 "Rough Skin",
                 "-"
             ],
-            "catchRate": 14,
+            "catchRate": 5,
             "evoType": "level",
             "evoLevel": 100
         },
@@ -66530,7 +66530,7 @@ var overrides = {
                 "Gluttony",
                 "-"
             ],
-            "catchRate": 39,
+            "catchRate": 40,
             "evos": [
                 "Snorlax"
             ],
@@ -69548,7 +69548,7 @@ var overrides = {
                 "Magic Guard",
                 "-"
             ],
-            "catchRate": 14,
+            "catchRate": 10,
             "evoType": "level",
             "evoLevel": 90
         },
@@ -70664,7 +70664,7 @@ var overrides = {
                 "Sand Veil",
                 "-"
             ],
-            "catchRate": 39,
+            "catchRate": 20,
             "evoType": "levelExtra"
         },
         "Mamoswine": {
@@ -70832,7 +70832,7 @@ var overrides = {
                 "Thick Fat",
                 "-"
             ],
-            "catchRate": 33,
+            "catchRate": 30,
             "evoType": "levelExtra"
         },
         "Porygon-Z": {
@@ -71192,7 +71192,7 @@ var overrides = {
                 "Steadfast",
                 "-"
             ],
-            "catchRate": 59,
+            "catchRate": 60,
             "evoType": "level",
             "evoLevel": 36
         },
@@ -71367,7 +71367,7 @@ var overrides = {
                 "Solid Rock",
                 "-"
             ],
-            "catchRate": 26,
+            "catchRate": 25,
             "evoType": "levelExtra"
         },
         "Dusknoir": {
@@ -71553,7 +71553,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 33,
+            "catchRate": 30,
             "evoType": "useItem",
             "evoItem": "Reaper Cloth"
         },
@@ -71718,7 +71718,7 @@ var overrides = {
                 "Snow Cloak",
                 "-"
             ],
-            "catchRate": 33,
+            "catchRate": 30,
             "evoType": "levelExtra"
         },
         "Rotom": {
@@ -72007,7 +72007,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 14
+            "catchRate": 20
         },
         "Mesprit": {
             "name": "Mesprit",
@@ -72160,7 +72160,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 14
+            "catchRate": 20
         },
         "Azelf": {
             "name": "Azelf",
@@ -72320,7 +72320,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 14
+            "catchRate": 20
         },
         "Dialga": {
             "name": "Dialga",
@@ -72474,7 +72474,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 14
+            "catchRate": 15
         },
         "Palkia": {
             "name": "Palkia",
@@ -72629,7 +72629,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 14
+            "catchRate": 15
         },
         "Heatran": {
             "name": "Heatran",
@@ -73081,7 +73081,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 14
+            "catchRate": 0
         },
         "Cresselia": {
             "name": "Cresselia",
@@ -73356,7 +73356,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 104
+            "catchRate": 120
         },
         "Manaphy": {
             "name": "Manaphy",
@@ -73507,7 +73507,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 14
+            "catchRate": 0
         },
         "Darkrai": {
             "name": "Darkrai",
@@ -73677,7 +73677,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 14
+            "catchRate": 0
         },
         "Shaymin": {
             "name": "Shaymin",
@@ -73808,7 +73808,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 59
+            "catchRate": 0
         },
         "Arceus": {
             "name": "Arceus",
@@ -74018,7 +74018,7 @@ var overrides = {
                 "-",
                 "-"
             ],
-            "catchRate": 14
+            "catchRate": 0
         },
         "Egg": {
             "name": "Egg",
@@ -109620,7 +109620,7 @@ var overrides = {
                         "mn": 55
                     },
                     {
-                        "s": "TANGELA",
+                        "s": "TROPIUS",
                         "mn": 55
                     },
                     {
@@ -109768,7 +109768,7 @@ var overrides = {
                         "mn": 0
                     },
                     {
-                        "s": "TROPIUS",
+                        "s": "XATU",
                         "mn": 0
                     }
                 ]
@@ -112749,23 +112749,23 @@ var overrides = {
                 "encs": [
                     {
                         "s": "MARSHTOMP",
-                        "mn": 35
+                        "mn": 80
                     },
                     {
                         "s": "SWAMPERT",
-                        "mn": 35
+                        "mn": 85
                     },
                     {
                         "s": "CRAWDAUNT",
-                        "mn": 35
+                        "mn": 75
                     },
                     {
                         "s": "CORPHISH",
-                        "mn": 35
+                        "mn": 45
                     },
                     {
                         "s": "GYARADOS",
-                        "mn": 35
+                        "mn": 75
                     }
                 ]
             },
@@ -112773,23 +112773,23 @@ var overrides = {
                 "encs": [
                     {
                         "s": "MAGIKARP",
-                        "mn": 4
+                        "mn": 45
                     },
                     {
                         "s": "BARBOACH",
-                        "mn": 3
+                        "mn": 45
                     },
                     {
                         "s": "BARBOACH",
-                        "mn": 5
+                        "mn": 45
                     },
                     {
                         "s": "CORPHISH",
-                        "mn": 5
+                        "mn": 45
                     },
                     {
                         "s": "KABUTO",
-                        "mn": 5
+                        "mn": 45
                     }
                 ]
             },
@@ -112797,23 +112797,23 @@ var overrides = {
                 "encs": [
                     {
                         "s": "KABUTO",
-                        "mn": 15
+                        "mn": 55
                     },
                     {
                         "s": "QUAGSIRE",
-                        "mn": 15
+                        "mn": 55
                     },
                     {
                         "s": "WOOPER",
-                        "mn": 10
+                        "mn": 55
                     },
                     {
                         "s": "KABUTOPS",
-                        "mn": 10
+                        "mn": 55
                     },
                     {
                         "s": "VAPOREON",
-                        "mn": 10
+                        "mn": 55
                     }
                 ]
             },
@@ -112821,15 +112821,15 @@ var overrides = {
                 "encs": [
                     {
                         "s": "WHISCASH",
-                        "mn": 30
+                        "mn": 45
                     },
                     {
                         "s": "LANTURN",
-                        "mn": 30
+                        "mn": 45
                     },
                     {
                         "s": "SWAMPERT",
-                        "mn": 40
+                        "mn": 85
                     },
                     {
                         "s": "VAPOREON",
@@ -112837,7 +112837,7 @@ var overrides = {
                     },
                     {
                         "s": "MUDKIP",
-                        "mn": 40
+                        "mn": 55
                     }
                 ]
             },
@@ -120985,7 +120985,7 @@ var overrides = {
             "prio": 0,
             "name": "Outrage",
             "num": 199,
-            "e_id": 269,
+            "e_id": 48,
             "desc": "The user rampages and attacks without end. This causes severe damage to its user.",
             "oldDesc": "The user rampages and attacks for two to three turns. However, it then becomes confused."
         },
@@ -124114,7 +124114,7 @@ var overrides = {
             "prio": 0,
             "name": "Head Smash",
             "num": 456,
-            "e_id": 48,
+            "e_id": 269,
             "desc": "The user delivers a life-endangering head butt at full power. The user also takes terrible damage."
         },
         "Double Hit": {
