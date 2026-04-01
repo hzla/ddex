@@ -28,6 +28,14 @@
     return String(value || "").trim();
   }
 
+  function logBridge(eventName, details) {
+    if (details !== undefined) {
+      console.log("[DDEX Nuzlocke][Dex]", eventName, details);
+      return;
+    }
+    console.log("[DDEX Nuzlocke][Dex]", eventName);
+  }
+
   function normalizeLocationText(value) {
     if (typeof cleanString === "function") {
       return cleanString(value);
@@ -354,6 +362,7 @@
     if (typeof window.fetch !== "function") {
       return Promise.reject(new Error("fetch is unavailable"));
     }
+    logBridge("direct fetch start", { endpoint: endpoint });
 
     var controller =
       typeof window.AbortController === "function" ? new AbortController() : null;
@@ -375,6 +384,10 @@
         if (!response || response.status !== 200) {
           throw new Error("Unexpected response status: " + (response && response.status));
         }
+        logBridge("direct fetch success", {
+          endpoint: endpoint,
+          status: response.status,
+        });
         return response.text();
       })
       .finally(function () {
@@ -393,6 +406,10 @@
 
       var endpoint = BOX_ENDPOINTS[endpointIndex++];
       return fetchBoxTextFromEndpoint(endpoint).catch(function (error) {
+        logBridge("direct fetch failed", {
+          endpoint: endpoint,
+          error: error && error.message ? error.message : String(error),
+        });
         lastError = new Error(
           endpoint + " failed: " + (error && error.message ? error.message : String(error)),
         );
@@ -440,6 +457,12 @@
         if (data.type !== BOX_MESSAGE_RESPONSE_TYPE) return;
         if (data.requestId !== requestId) return;
 
+        logBridge("bridge response received", {
+          requestId: requestId,
+          origin: event.origin,
+          ok: !!data.ok,
+        });
+
         cleanup();
 
         if (data.ok && typeof data.payloadText === "string") {
@@ -456,10 +479,19 @@
 
       timeoutId = setTimeout(function () {
         cleanup();
+        logBridge("bridge response timeout", {
+          requestId: requestId,
+          targetOrigin: targetOrigin,
+        });
         reject(new Error("Timed out waiting for parent bridge /box response"));
       }, BOX_BRIDGE_TIMEOUT);
 
       window.addEventListener("message", handleMessage);
+      logBridge("bridge request sent", {
+        requestId: requestId,
+        targetOrigin: targetOrigin,
+        referrer: document.referrer || "",
+      });
       window.parent.postMessage(
         {
           type: BOX_MESSAGE_REQUEST_TYPE,
