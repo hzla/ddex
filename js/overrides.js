@@ -21,7 +21,8 @@ var gameTitles = {
   "sterlingsilver": "Sterling Silver",
   "pokemonnull": "Pokemon Null",
   "reignitedruby": "Reignited Ruby",
-  "platinumkaizo": "Platinum Kaizo"
+  "platinumkaizo": "Platinum Kaizo",
+  "cascadewhitedev": "Cascade White Dev"
 }
 
 if (game && gameTitles[game]) {

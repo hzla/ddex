@@ -8,7 +8,7 @@
   var BOX_CACHE_KEY = "ddexNuzlockeEncounterCacheV1";
   var BOX_CACHE_VERSION = 1;
   var BOX_FETCH_TIMEOUT = 1500;
-  var BOX_BRIDGE_TIMEOUT = 1500;
+  var BOX_BRIDGE_TIMEOUT = 12000;
   var BOX_MESSAGE_REQUEST_TYPE = "ddex:nuzlocke-box:request";
   var BOX_MESSAGE_RESPONSE_TYPE = "ddex:nuzlocke-box:response";
 
