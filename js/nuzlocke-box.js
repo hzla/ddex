@@ -1,10 +1,16 @@
 (function () {
   "use strict";
 
-  var BOX_ENDPOINT = "http://localhost:31124/box";
+  var BOX_ENDPOINTS = [
+    "http://127.0.0.1:31124/box",
+    "http://localhost:31124/box",
+  ];
   var BOX_CACHE_KEY = "ddexNuzlockeEncounterCacheV1";
   var BOX_CACHE_VERSION = 1;
   var BOX_FETCH_TIMEOUT = 1500;
+  var BOX_BRIDGE_TIMEOUT = 1500;
+  var BOX_MESSAGE_REQUEST_TYPE = "ddex:nuzlocke-box:request";
+  var BOX_MESSAGE_RESPONSE_TYPE = "ddex:nuzlocke-box:response";
 
   var listeners = new Set();
   var inFlightPromise = null;
@@ -344,7 +350,7 @@
     currentSignature = buildStateSignature(currentState.source, currentState.records);
   }
 
-  function fetchBoxText() {
+  function fetchBoxTextFromEndpoint(endpoint) {
     if (typeof window.fetch !== "function") {
       return Promise.reject(new Error("fetch is unavailable"));
     }
@@ -360,7 +366,7 @@
     }
 
     return window
-      .fetch(BOX_ENDPOINT, {
+      .fetch(endpoint, {
         method: "GET",
         cache: "no-store",
         signal: controller ? controller.signal : undefined,
@@ -374,6 +380,112 @@
       .finally(function () {
         if (timeoutId !== null) clearTimeout(timeoutId);
       });
+  }
+
+  function fetchBoxTextDirect() {
+    var endpointIndex = 0;
+    var lastError = null;
+
+    function tryNextEndpoint() {
+      if (endpointIndex >= BOX_ENDPOINTS.length) {
+        return Promise.reject(lastError || new Error("No box endpoints configured"));
+      }
+
+      var endpoint = BOX_ENDPOINTS[endpointIndex++];
+      return fetchBoxTextFromEndpoint(endpoint).catch(function (error) {
+        lastError = new Error(
+          endpoint + " failed: " + (error && error.message ? error.message : String(error)),
+        );
+        return tryNextEndpoint();
+      });
+    }
+
+    return tryNextEndpoint();
+  }
+
+  function getParentOrigin() {
+    try {
+      if (!document.referrer) return "";
+      return new URL(document.referrer).origin;
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function fetchBoxTextFromParentBridge() {
+    if (!window.parent || window.parent === window) {
+      return Promise.reject(new Error("No parent window is available"));
+    }
+    if (typeof window.parent.postMessage !== "function") {
+      return Promise.reject(new Error("Parent postMessage is unavailable"));
+    }
+
+    return new Promise(function (resolve, reject) {
+      var requestId =
+        "ddex-box-" +
+        safeNow() +
+        "-" +
+        Math.random().toString(16).slice(2);
+      var targetOrigin = getParentOrigin() || "*";
+      var timeoutId = null;
+
+      function cleanup() {
+        window.removeEventListener("message", handleMessage);
+        if (timeoutId !== null) clearTimeout(timeoutId);
+      }
+
+      function handleMessage(event) {
+        var data = event.data || {};
+        if (event.source !== window.parent) return;
+        if (data.type !== BOX_MESSAGE_RESPONSE_TYPE) return;
+        if (data.requestId !== requestId) return;
+
+        cleanup();
+
+        if (data.ok && typeof data.payloadText === "string") {
+          resolve(data.payloadText);
+          return;
+        }
+
+        reject(
+          new Error(
+            cleanText(data.error) || "Parent bridge returned an invalid /box payload",
+          ),
+        );
+      }
+
+      timeoutId = setTimeout(function () {
+        cleanup();
+        reject(new Error("Timed out waiting for parent bridge /box response"));
+      }, BOX_BRIDGE_TIMEOUT);
+
+      window.addEventListener("message", handleMessage);
+      window.parent.postMessage(
+        {
+          type: BOX_MESSAGE_REQUEST_TYPE,
+          requestId: requestId,
+        },
+        targetOrigin,
+      );
+    });
+  }
+
+  function fetchBoxText() {
+    return fetchBoxTextDirect().catch(function (directError) {
+      return fetchBoxTextFromParentBridge().catch(function (bridgeError) {
+        throw new Error(
+          "Direct /box fetch failed (" +
+            (directError && directError.message
+              ? directError.message
+              : String(directError)) +
+            "); parent bridge failed (" +
+            (bridgeError && bridgeError.message
+              ? bridgeError.message
+              : String(bridgeError)) +
+            ")",
+        );
+      });
+    });
   }
 
   function refreshForNavigation(context) {
