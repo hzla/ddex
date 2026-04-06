@@ -1067,11 +1067,17 @@ function overrideMonData(monOverrides) {
 		BattlePokedex[speciesId].evoMethods = monData.evoMethods
 		BattlePokedex[speciesId].evoParams = monData.evoParams
 
-		let lvlUpMoves = monData.learnset_info.learnset
-		let tms = monData.learnset_info.tms
-		let tutors = monData.learnset_info.tutors
+		const learnsetInfo =
+			monData.learnset_info && typeof monData.learnset_info === "object"
+				? monData.learnset_info
+				: {}
+		let lvlUpMoves = Array.isArray(learnsetInfo.learnset) ? learnsetInfo.learnset : []
+		let tms = Array.isArray(learnsetInfo.tms) ? learnsetInfo.tms : []
+		let tutors = Array.isArray(learnsetInfo.tutors) ? learnsetInfo.tutors : []
 
-
+		if (typeof BattleLearnsets[speciesId] == "undefined" || !BattleLearnsets[speciesId]) {
+			BattleLearnsets[speciesId] = {}
+		}
 		BattleLearnsets[speciesId].learnset = {}
 
 
