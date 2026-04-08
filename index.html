@@ -16,6 +16,22 @@
       href="/theme/utilichart.css?b35a"
     />
     <link rel="stylesheet" href="/theme/pokedex.css?b35b" />
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search || "");
+        var embeddedValue = params.get("embedded");
+        var embedded = params.has("embedded") && !/^(?:0|false|off|no)$/i.test(String(embeddedValue || "").trim());
+        if (!embedded) return;
+        document.documentElement.classList.add("ddex-embedded");
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = "/theme/embedded.css";
+        document.head.appendChild(link);
+        document.addEventListener("DOMContentLoaded", function () {
+          document.body.classList.add("ddex-embedded");
+        });
+      })();
+    </script>
 
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-3"></script>

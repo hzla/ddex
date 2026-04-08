@@ -50,6 +50,9 @@ export const styleChunks = {
     "theme/utilichart.css",
     "theme/pokedex.css",
   ],
+  embedded: [
+    "theme/embedded.css",
+  ],
 };
 
 export const staticCopies = [

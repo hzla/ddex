@@ -4,11 +4,13 @@
   var config = window.__DDEX_CONFIG__ || { target: "vercel", basePath: "" };
   var manifest = window.__DDEX_ASSET_MANIFEST__ || {};
   var scriptPromises = {};
+  var stylePromises = {};
   var rawScriptPromises = {};
   var rawModulePromises = {};
   var appReadyPromise = null;
   var romToolsPromise = null;
   var basePath = normalizeBasePath(config.basePath || "");
+  var embeddedMode = detectEmbeddedMode(window.location.search);
 
   function normalizeBasePath(value) {
     value = String(value || "").trim();
@@ -38,6 +40,32 @@
 
   function routerRoot() {
     return withBase("/");
+  }
+
+  function isTruthyParamValue(value) {
+    if (value == null) return false;
+    value = String(value).trim().toLowerCase();
+    return value !== "" && value !== "0" && value !== "false" && value !== "off" && value !== "no";
+  }
+
+  function detectEmbeddedMode(search) {
+    var params = new URLSearchParams(search || "");
+    if (params.has("embedded")) {
+      return isTruthyParamValue(params.get("embedded"));
+    }
+    try {
+      return window.self !== window.top;
+    } catch (error) {
+      return true;
+    }
+  }
+
+  function applyEmbeddedModeClasses() {
+    if (!embeddedMode) return;
+    document.documentElement.classList.add("ddex-embedded");
+    if (document.body) {
+      document.body.classList.add("ddex-embedded");
+    }
   }
 
   function rewriteAttribute(el, attr) {
@@ -221,6 +249,28 @@
     });
   }
 
+  function loadStyleTag(href) {
+    href = withBase(href);
+    return new Promise(function (resolve, reject) {
+      var existing = document.querySelector('link[rel="stylesheet"][href="' + href + '"]');
+      if (existing) {
+        resolve(true);
+        return;
+      }
+
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = href;
+      link.onload = function () {
+        resolve(true);
+      };
+      link.onerror = function () {
+        reject(new Error("Failed to load " + href));
+      };
+      document.head.appendChild(link);
+    });
+  }
+
   function loadAsset(name) {
     if (scriptPromises[name]) return scriptPromises[name];
     var src = manifest[name];
@@ -229,6 +279,17 @@
     }
     scriptPromises[name] = loadScriptTag(src);
     return scriptPromises[name];
+  }
+
+  function loadStyleAsset(name, fallbackHref) {
+    var key = name + "::style";
+    if (stylePromises[key]) return stylePromises[key];
+    var href = manifest[name] || fallbackHref;
+    if (!href) {
+      return Promise.reject(new Error("Unknown style chunk: " + name));
+    }
+    stylePromises[key] = loadStyleTag(href);
+    return stylePromises[key];
   }
 
   function loadRawScript(src) {
@@ -329,10 +390,18 @@
     return romToolsPromise;
   }
 
+  function ensureEmbeddedStyles() {
+    if (!embeddedMode) return Promise.resolve(false);
+    applyEmbeddedModeClasses();
+    return loadStyleAsset("embedded", "/theme/embedded.css");
+  }
+
   window.__DDEX_BOOTSTRAP__ = {
+    embeddedMode: embeddedMode,
     pendingState: null,
     getRouteInfo: getRouteInfo,
     loadAsset: loadAsset,
+    loadStyleAsset: loadStyleAsset,
     loadRawScript: loadRawScript,
     loadRawModule: loadRawModule,
     ensureAppReady: ensureAppReady,
@@ -343,6 +412,10 @@
   if (window.BattleSearch) {
     window.BattleSearch.urlRoot = routerRoot();
   }
+
+  ensureEmbeddedStyles().catch(function (error) {
+    console.warn(error);
+  });
 
   if (getRouteInfo().needsImmediateBoot) {
     ensureAppReady().catch(reportBootFailure);
