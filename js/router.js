@@ -1,4 +1,4 @@
-var Pokedex = Panels.App.extend({
+var Pokedex = PokedexFixedLayoutApp.extend({
   topbarView: Topbar,
   backButtonPrefix: '<i class="fa fa-chevron-left"></i> ',
   states2: {
@@ -9,6 +9,10 @@ var Pokedex = Panels.App.extend({
     "types/:type": PokedexTypePanel,
     "egggroups/:egggroup": PokedexEggGroupPanel,
     "encounters/:location": PokedexEncountersPanel,
+    "tags/:tag": PokedexTagPanel,
+    "categories/:category": PokedexCategoryPanel,
+    "tiers/:tier": PokedexTierPanel,
+    "articles/:article": PokedexArticlePanel,
 
     "": PokedexSearchPanel,
     "pokemon/": PokedexSearchPanel,

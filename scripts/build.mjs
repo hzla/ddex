@@ -137,12 +137,26 @@ function renderIndexHtml(manifest) {
     </script>
   </head>
   <body>
-    <div class="pfx-panel">
-      <div class="pfx-body">
-        <noscript>
-          <p><strong>Requires JavaScript!</strong></p>
-        </noscript>
-        <p>Loading...</p>
+    <div class="ddex-shell">
+      <div class="ddex-slot ddex-sidebar-slot">
+        <div class="pfx-panel ddex-sidebar-panel">
+          <div class="pfx-body">
+            <noscript>
+              <p><strong>Requires JavaScript!</strong></p>
+            </noscript>
+            <p>Loading...</p>
+          </div>
+        </div>
+      </div>
+      <div class="ddex-slot ddex-content-slot">
+        <div class="pfx-panel ddex-content-panel">
+          <div class="pfx-body ddex-empty-detail">
+            <div class="ddex-empty-detail-inner">
+              <h1>Dynamic Dex</h1>
+              <p>Search or select a result to view details here.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="${manifest["app-shell"]}"></script>

@@ -563,57 +563,39 @@
     }
     buf += "</span> ";
 
+    function renderStackedAbilityColumn(abilities, pokemonData, gen, search) {
+      var abilityEntries = [];
+      var unreleasedHidden = pokemonData.unreleasedHidden;
+      if (unreleasedHidden === "Past" && (search.mod === "natdex" || gen < 8)) {
+        unreleasedHidden = false;
+      }
+
+      if (abilities["0"]) abilityEntries.push(Dex.escapeHTML(abilities["0"]));
+      if (abilities["1"]) abilityEntries.push(Dex.escapeHTML(abilities["1"]));
+      if (abilities["H"]) {
+        abilityEntries.push(
+          '<em' + (unreleasedHidden ? ' class="unreleasedhacol"' : "") + ">" +
+            Dex.escapeHTML(abilities["H"]) +
+            "</em>",
+        );
+      }
+      if (abilities["S"]) {
+        abilityEntries.push("(" + Dex.escapeHTML(abilities["S"]) + ")");
+      }
+
+      return (
+        '<span class="col abilitycol ddex-stacked-abilitycol">' +
+        abilityEntries.join("<br />") +
+        "</span>"
+      );
+    }
+
     // abilities
     if (gen >= 3) {
       var abilities = Dex.forGen(gen).species.get(id).abilities;
-      if (gen >= 5) {
-        if (abilities["1"]) {
-          buf +=
-            '<span class="col twoabilitycol">' +
-            abilities["0"] +
-            "<br />" +
-            abilities["1"] +
-            "</span>";
-        } else {
-          buf += '<span class="col abilitycol">' + abilities["0"] + "</span>";
-        }
-        var unreleasedHidden = pokemon.unreleasedHidden;
-        if (unreleasedHidden === "Past" && (this.mod === "natdex" || gen < 8))
-          unreleasedHidden = false;
-        if (abilities["S"]) {
-          if (abilities["H"]) {
-            buf +=
-              '<span class="col twoabilitycol' +
-              (unreleasedHidden ? " unreleasedhacol" : "") +
-              '">' +
-              (abilities["H"] || "") +
-              "<br />(" +
-              abilities["S"] +
-              ")</span>";
-          } else {
-            buf +=
-              '<span class="col abilitycol">(' + abilities["S"] + ")</span>";
-          }
-        } else if (abilities["H"]) {
-          buf +=
-            '<span class="col abilitycol' +
-            (unreleasedHidden ? " unreleasedhacol" : "") +
-            '">' +
-            abilities["H"] +
-            "</span>";
-        } else {
-          buf += '<span class="col abilitycol"></span>';
-        }
-      } else {
-        buf += '<span class="col abilitycol">' + abilities["0"] + "</span>";
-        buf +=
-          '<span class="col abilitycol">' +
-          (abilities["1"] ? abilities["1"] : "") +
-          "</span>";
-      }
+      buf += renderStackedAbilityColumn(abilities, pokemon, gen, this);
     } else {
-      buf += '<span class="col abilitycol"></span>';
-      buf += '<span class="col abilitycol"></span>';
+      buf += '<span class="col abilitycol ddex-stacked-abilitycol"></span>';
     }
 
     // base stats
@@ -650,6 +632,7 @@
     pokemon,
     tag,
     errorMessage,
+    options,
   ) {
     var attrs = "";
     if (Search.urlRoot)
@@ -698,26 +681,26 @@
     }
     buf += "</span> ";
 
-    // abilities
-    buf += '<span style="float:left;min-height:26px">';
-    if (pokemon.abilities["1"]) {
-      buf += '<span class="col twoabilitycol">';
-    } else {
-      buf += '<span class="col abilitycol">';
+    if (options && options.compact) {
+      buf += "</a>";
+      return buf;
     }
+
+    // abilities
+    var abilityEntries = [];
     for (var i in pokemon.abilities) {
       var ability = pokemon.abilities[i];
       if (!ability) continue;
 
-      if (i === "1") buf += "<br />";
-      if (i === "H")
-        ability =
-          '</span><span class="col abilitycol"><em>' +
-          pokemon.abilities[i] +
-          "</em>";
-      buf += ability;
+      if (i === "H") {
+        abilityEntries.push("<em>" + Dex.escapeHTML(pokemon.abilities[i]) + "</em>");
+      } else {
+        abilityEntries.push(Dex.escapeHTML(ability));
+      }
     }
-    if (!pokemon.abilities["H"]) buf += '</span><span class="col abilitycol">';
+    buf += '<span class="ddex-search-detailgroup">';
+    buf += '<span class="col abilitycol ddex-stacked-abilitycol">';
+    buf += abilityEntries.length ? abilityEntries.join("<br />") : "";
     buf += "</span>";
     buf += "</span>";
 
@@ -877,57 +860,44 @@
 
     // abilities
     var warningAbilities = options.warningAbilities || {};
-    buf += '<span style="float:left;min-height:26px">';
-    if (pokemon.abilities["1"]) {
-      buf += '<span class="col twoabilitycol">';
-    } else {
-      buf += '<span class="col abilitycol">';
-    }
+    var abilityEntries = [];
     for (var i in pokemon.abilities) {
       var ability = pokemon.abilities[i];
       if (!ability) continue;
 
-      if (i === "1") buf += "<br />";
-      if (i === "H")
-        ability =
-          '</span><span class="col abilitycol"><em>' +
-          pokemon.abilities[i] +
-          "</em>";
+      if (i === "H") {
+        ability = "<em>" + Dex.escapeHTML(pokemon.abilities[i]) + "</em>";
+      } else {
+        ability = Dex.escapeHTML(ability);
+      }
       var warningAbilityId = toID(pokemon.abilities[i]);
       if (warningAbilities[warningAbilityId]) {
         ability = '<span class="encounter-warning-text">' + ability + "</span>";
       }
-      buf += ability;
+      abilityEntries.push(ability);
     }
-    if (!pokemon.abilities["H"]) buf += '</span><span class="col abilitycol">';
+    buf += '<span class="ddex-encounter-detailgroup ddex-encounter-abilities-group">';
+    buf += '<span class="col abilitycol encounterabilitycol">';
+    buf += abilityEntries.length ? abilityEntries.join("<br />") : "-";
     buf += "</span>";
     buf += "</span>";
 
     // encounter move snapshot
     var moves = Array.isArray(options.moves) ? options.moves.slice(0, 4) : [];
     var warningMoves = options.warningMoves || {};
-    var firstMoveColumn = moves.slice(0, 2);
-    var secondMoveColumn = moves.slice(2, 4);
-
-    function renderEncounterMoveColumn(moveEntries) {
-      var moveBuf = '<span class="col abilitycol encountermovecol">';
-      for (var moveIndex = 0; moveIndex < moveEntries.length; moveIndex++) {
-        var moveEntry = moveEntries[moveIndex];
-        if (moveIndex) moveBuf += "<br />";
-        var moveName = Dex.escapeHTML(moveEntry.name || "");
-        if (warningMoves[moveEntry.id]) {
-          moveBuf += '<span class="encounter-warning-text">' + moveName + "</span>";
-        } else {
-          moveBuf += moveName;
-        }
+    var moveEntries = [];
+    for (var moveIndex = 0; moveIndex < moves.length; moveIndex++) {
+      var moveEntry = moves[moveIndex];
+      var moveName = Dex.escapeHTML(moveEntry.name || "");
+      if (warningMoves[moveEntry.id]) {
+        moveName = '<span class="encounter-warning-text">' + moveName + "</span>";
       }
-      moveBuf += "</span>";
-      return moveBuf;
+      moveEntries.push(moveName);
     }
-
-    buf += '<span style="float:left;min-height:26px">';
-    buf += renderEncounterMoveColumn(firstMoveColumn);
-    buf += renderEncounterMoveColumn(secondMoveColumn);
+    buf += '<span class="ddex-encounter-detailgroup ddex-encounter-moves-group">';
+    buf += '<span class="col abilitycol encountermovecol">';
+    buf += moveEntries.length ? moveEntries.join("<br />") : "-";
+    buf += "</span>";
     buf += "</span>";
 
     buf += "</a>";
@@ -1201,9 +1171,8 @@
     if (this.engine && this.engine.dex.gen < 3) pp = Math.min(61, pp);
     buf +=
       '<span class="col labelcol">' +
-      (move.category !== "Status"
-        ? "<em>Power</em><br />" + (move.basePower || "&mdash;")
-        : "") +
+      "<em>Power</em><br />" +
+      (move.category !== "Status" ? move.basePower || "&mdash;" : "&mdash;") +
       "</span> ";
     buf +=
       '<span class="col labelcol"><em>Acc</em><br />' +
@@ -1267,9 +1236,8 @@
     if (this.engine && this.engine.dex.gen < 3) pp = Math.min(61, pp);
     buf +=
       '<span class="col labelcol">' +
-      (move.category !== "Status"
-        ? "<em>Power</em><br />" + (move.basePower || "&mdash;")
-        : "") +
+      "<em>Power</em><br />" +
+      (move.category !== "Status" ? move.basePower || "&mdash;" : "&mdash;") +
       "</span> ";
     buf +=
       '<span class="col labelcol"><em>Acc</em><br />' +
@@ -1351,13 +1319,13 @@
       "</span> ";
 
     // desc
-    var moveDesc = BattleLog.escapeHTML(move.shortDesc || move.desc);
+    var moveDesc = options && options.hideDescription ? "" : BattleLog.escapeHTML(move.shortDesc || move.desc);
     if (options && options.descPrefix) {
       moveDesc =
         '<span style="color:#B38CFF">' +
         BattleLog.escapeHTML(options.descPrefix) +
-        "</span> " +
-        moveDesc;
+        "</span>" +
+        (moveDesc ? " " + moveDesc : "");
     }
     buf +=
       '<span class="col movedesccol">' +

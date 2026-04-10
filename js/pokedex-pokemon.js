@@ -130,6 +130,45 @@ function getPrevoMoveHighlights(pokemon) {
   return highlights;
 }
 
+function getPokemonMoveRowOptions(highlight) {
+  var options = { hideDescription: true };
+  if (!highlight) return options;
+  for (var key in highlight) {
+    options[key] = highlight[key];
+  }
+  return options;
+}
+
+function getEncounterHeaderClassName(encType) {
+  var normalized = String(encType || "").toLowerCase();
+  var classNames = ["ddex-encounter-header"];
+
+  if (normalized.indexOf("grass") >= 0) {
+    classNames.push("ddex-encounter-header-grass");
+  } else if (normalized.indexOf("rod") >= 0) {
+    classNames.push("ddex-encounter-header-rod");
+  } else if (normalized.indexOf("surf") >= 0) {
+    classNames.push("ddex-encounter-header-surf");
+  }
+
+  return classNames.join(" ");
+}
+
+function getEncounterLevelValue(value) {
+  value = Number(value);
+  return Number.isFinite(value) && value > 0 ? value : 0;
+}
+
+function formatEncounterLocationLevel(minLevel, maxLevel) {
+  minLevel = getEncounterLevelValue(minLevel);
+  maxLevel = getEncounterLevelValue(maxLevel);
+  if (!minLevel && !maxLevel) return "";
+  if (!minLevel) minLevel = maxLevel;
+  if (!maxLevel) maxLevel = minLevel;
+  if (minLevel === maxLevel) return "Lv " + minLevel;
+  return "Lv " + minLevel + "-" + maxLevel;
+}
+
 var DDEX_PENDING_POKEMON_LEVEL_KEY = "ddexPendingPokemonLevel";
 
 var CATCH_RATE_STATUS_OPTIONS = [
@@ -264,6 +303,11 @@ function consumePendingPokemonLevel(speciesId) {
 }
 
 var PokedexPokemonPanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyPokemonLayout(this);
+    }
+  },
   initialize: function (id) {
     id = toID(id);
     var pokemon = Dex.species.get(id);
@@ -781,14 +825,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     buf += "</dd></dl>";
 
     if (pokemon.eggGroups) {
-      buf +=
-        '<dl class="colentry"><dt>Egg groups:</dt><dd><span class="picon" style="margin-top:-12px;' +
-        Dex.getPokemonIcon("egg") +
-        '"></span><a href="/egggroups/' +
-        pokemon.eggGroups.map(toID).join("+") +
-        '" data-target="push">' +
-        pokemon.eggGroups.join(", ") +
-        "</a></dd></dl>";
       buf += '<dl class="colentry"><dt>Gender ratio:</dt><dd>';
       if (pokemon.gender)
         switch (pokemon.gender) {
@@ -816,16 +852,21 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       buf += '<div style="clear:left"></div>';
     }
 
+    if (pokemon.tier === "obtainable") {
+      buf +=
+        '<section class="ddex-pokemon-encounters-section"><h3>Encounters</h3><ul class="utilichart nokbd ddex-pokemon-encounter-list"></ul></section>';
+    }
+
     // learnset
     if (pokemon.tier === "obtainable") {
       buf +=
-        '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li><li><button class="button" value="encounters">Encounters</button></li><li><button class="button nav-last" value="advanced-routing">Advanced Routing</button></li></ul>';
+        '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li><li><button class="button nav-last" value="advanced-routing">Advanced Routing</button></li></ul>';
     } else {
       buf +=
         '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li></ul>';
     }
 
-    buf += '<ul class="utilichart nokbd">';
+    buf += '<ul class="utilichart nokbd ddex-pokemon-move-list">';
     buf += '<li class="resultheader"><h3>Level-up</h3></li>';
 
     var learnset = getMergedLearnsetForPokemon(pokemon);
@@ -854,7 +895,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
           move,
           desc,
           null,
-          moveHighlights[moves[i].substr(5)],
+          getPokemonMoveRowOptions(moveHighlights[moves[i].substr(5)]),
         );
       }
     }
@@ -875,10 +916,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       typeof window.DDEX_NUZLOCKE_BOX.subscribe === "function"
     ) {
       this.handleNuzlockeUpdate = function () {
-        var currentTab = this.$(".tabbar button.cur").val();
-        if (currentTab === "encounters") {
+        if (pokemon.tier === "obtainable") {
           this.renderEncounters();
-        } else if (currentTab === "advanced-routing") {
+        }
+        var currentTab = this.$(".tabbar button.cur").val();
+        if (currentTab === "advanced-routing") {
           if (this.advancedRoutingState.lastResults) {
             this.runAdvancedRoutingAnalysis();
           } else {
@@ -889,7 +931,14 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       window.DDEX_NUZLOCKE_BOX.subscribe(this.handleNuzlockeUpdate);
     }
 
-    setTimeout(this.renderFullLearnset.bind(this));
+    setTimeout(
+      function () {
+        if (pokemon.tier === "obtainable") {
+          this.renderEncounters();
+        }
+        this.renderFullLearnset();
+      }.bind(this),
+    );
   },
   remove: function () {
     if (
@@ -1215,9 +1264,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       case "details":
         this.renderDetails();
         break;
-      case "encounters":
-        this.renderEncounters();
-        break;
       case "advanced-routing":
         var $tabButton = $(e.currentTarget);
         var originalLabel = $tabButton.text();
@@ -1387,7 +1433,9 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
               '<img src="//' +
               Config.routes.client +
               '/sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
-            buf += BattleSearch.renderTaggedMoveRow(groupMove, tutorDesc);
+            buf += BattleSearch.renderTaggedMoveRow(groupMove, tutorDesc, null, {
+              hideDescription: true,
+            });
           }
         }
         continue;
@@ -1496,11 +1544,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
           move,
           desc,
           null,
-          last === "a" ? moveHighlights[moveId] : null,
+          getPokemonMoveRowOptions(last === "a" ? moveHighlights[moveId] : null),
         );
       }
     }
-    this.$(".utilichart").html(buf);
+    this.$(".ddex-pokemon-move-list").html(buf);
   },
   renderDetails: function () {
     var pokemon = Dex.species.get(this.id);
@@ -1724,7 +1772,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         '.png" /></td>';
     }
 
-    this.$(".utilichart").html(buf);
+    this.$(".ddex-pokemon-move-list").html(buf);
   },
   getEncounterLocations: function (pokemon) {
     if (this.results) return this.results;
@@ -1749,6 +1797,33 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       return sum_rate;
     };
 
+    let getLevelRangeInZone = function (location, enc_mode, pokemon) {
+      let for_mode = location[enc_mode];
+
+      if (typeof for_mode == "undefined" || !("encs" in for_mode)) {
+        return { minLevel: 0, maxLevel: 0 };
+      }
+
+      let minLevel = Infinity;
+      let maxLevel = 0;
+      for (let i = 0; i < for_mode["encs"].length; i++) {
+        let slot = for_mode["encs"][i];
+        let species = cleanString(slot["s"] || slot["species"]);
+        if (species !== pokemon) continue;
+        let slotMin = getEncounterLevelValue(slot.mn || slot.minLvl || 0);
+        let slotMax = getEncounterLevelValue(
+          slot.mx || slot.maxLvl || slot.mn || slot.minLvl || 0,
+        );
+        if (slotMin) minLevel = Math.min(minLevel, slotMin);
+        if (slotMax) maxLevel = Math.max(maxLevel, slotMax);
+      }
+
+      return {
+        minLevel: minLevel === Infinity ? 0 : minLevel,
+        maxLevel: maxLevel,
+      };
+    };
+
     var results = [];
     for (const encType of encTypes) {
       const locationsForType = [];
@@ -1762,11 +1837,14 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         if (rate <= 0) {
           continue;
         }
+        let levelRange = getLevelRangeInZone(encounters, encType, pokemon);
         locationsForType.push({
           kind: "location",
           encType: encType,
           rate: rate,
           zoneid: location,
+          minLevel: levelRange.minLevel,
+          maxLevel: levelRange.maxLevel,
         });
       }
       if (locationsForType.length === 0) {
@@ -1886,6 +1964,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     var isExpanded = this.expandedRouteKeys.has(routeKey);
     var analysis = this.getEncounterRouteAnalysis(location.zoneid, location.encType);
     var spriteStrip = this.renderEncounterRouteSpriteStrip(location.zoneid);
+    var levelLabel = formatEncounterLocationLevel(location.minLevel, location.maxLevel);
     var buf =
       '<li class="' +
       this.getEncounterRouteRowClassNames(location.zoneid) +
@@ -1900,6 +1979,9 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       '">' +
       '<span class="col tagcol">' +
       Dex.escapeHTML(rate) +
+      "</span>" +
+      '<span class="col levelcol">' +
+      Dex.escapeHTML(levelLabel || "") +
       "</span>" +
       '<span class="col shortmovenamecol ddex-route-location-name">' +
       Dex.escapeHTML(zone.name) +
@@ -2135,7 +2217,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     var buf = '<li class="resultheader"><h3>Advanced Routing</h3></li>';
 
     if (!context) {
-      this.$(".utilichart").html(
+      this.$(".ddex-pokemon-move-list").html(
         buf + '<li class="content"><p>Advanced routing is unavailable.</p></li>',
       );
       return;
@@ -2237,9 +2319,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     }
 
     controls += "</section></li>";
-    this.$(".utilichart").html(buf + controls);
+    this.$(".ddex-pokemon-move-list").html(buf + controls);
   },
   renderEncounters: function () {
+    var $encounterList = this.$(".ddex-pokemon-encounter-list");
+    if (!$encounterList.length) return;
     var locations = this.getEncounterLocations(this.id);
     var formatRate = function (i) {
       return i.toString().padStart(3, "z") + "% ";
@@ -2253,7 +2337,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
           buf += "</ul>";
         }
 
-        buf += `<li class="resultheader"><h3>${snakeToTitleCase(location.encType)}</h3></li>`;
+        buf += `<li class="resultheader"><h3 class="${getEncounterHeaderClassName(location.encType)}">${snakeToTitleCase(location.encType)}</h3></li>`;
        
         buf += "<ul>";
       } else {
@@ -2270,7 +2354,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       buf += "</ul>";
     }
 
-    this.$(".utilichart").html(buf);
+    $encounterList.html(buf);
   },
   getStat: function (baseStat, isHP, level, iv, ev, natureMult) {
     if (isHP) {

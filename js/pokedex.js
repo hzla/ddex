@@ -71,14 +71,71 @@ var Topbar = Panels.Topbar.extend({
 });
 
 var PokedexResultPanel = Panels.Panel.extend({
+  isContentPanel: true,
   minWidth: 639,
-  maxWidth: 639,
+  maxWidth: 10000,
+  handleNavigation: function (e) {
+    var target = $(e.currentTarget);
+    if (target.hasClass("pfx-backbutton") || target.data("target") === "back") {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      if (this.app && typeof this.app.clearDetailPanel === "function") {
+        this.app.clearDetailPanel();
+      }
+      return;
+    }
+    var href = target.data("href") || target.attr("href") || "";
+    if (!target.data("target") && href) {
+      try {
+        var url = new URL(href, window.location.href);
+        if (url.origin === window.location.origin) {
+          var appPath = url.pathname + (url.search || "");
+          if (window.DDEXPaths && typeof window.DDEXPaths.stripBase === "function") {
+            appPath = window.DDEXPaths.stripBase(appPath);
+          }
+          appPath = String(appPath || "").replace(/^\/+/, "");
+          if (appPath) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            this.app.go(appPath, this, true, target);
+            return;
+          }
+        }
+      } catch (error) {}
+    }
+    Panels.Panel.prototype.handleNavigation.call(this, e);
+  },
+  updateBackButton: function () {
+    var backButton = this.$(".pfx-backbutton").first();
+    if (!backButton.length) return;
+    var sidebarPath = "/" + ((this.app && this.app.currentSidebarFragment) || "");
+    if (window.DDEXPaths && typeof window.DDEXPaths.withBase === "function") {
+      sidebarPath = window.DDEXPaths.withBase(sidebarPath);
+    }
+    backButton
+      .attr("href", sidebarPath)
+      .attr("data-action", "clearDetailPanel")
+      .attr("data-target", "")
+      .html('<i class="fa fa-chevron-left"></i> Search');
+  },
+  html: function (content) {
+    Panels.Panel.prototype.html.call(this, content);
+    this.updateBackButton();
+    if (typeof this.applyDetailLayout === "function") {
+      this.applyDetailLayout();
+    }
+  },
   initialize: function () {
     this.html("not found: " + Array.prototype.join.call(arguments, " || "));
   },
 });
 
 var PokedexItemPanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyItemLayout(this);
+    }
+  },
   initialize: function (id) {
     if (typeof overrides == "undefined") {
       overrides = JSON.parse(localStorage.overrides)
@@ -195,6 +252,11 @@ var PokedexItemPanel = PokedexResultPanel.extend({
 });
 
 var PokedexAbilityPanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyAbilityLayout(this);
+    }
+  },
   initialize: function (id) {
     id = toID(id);
     var ability = Dex.abilities.get(id);
@@ -266,6 +328,11 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 });
 
 var PokedexTypePanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyTypeLayout(this);
+    }
+  },
   initialize: function (id) {
     id = toID(id);
     this.type = id[0].toUpperCase() + id.substr(1);
@@ -478,6 +545,11 @@ var PokedexTypePanel = PokedexResultPanel.extend({
 });
 
 var PokedexTagPanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyTagLayout(this);
+    }
+  },
   table: {
     contact: {
       name: "Contact",
@@ -771,6 +843,11 @@ var PokedexTagPanel = PokedexResultPanel.extend({
 });
 
 var PokedexEggGroupPanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyEggGroupLayout(this);
+    }
+  },
   table: {
     amorphous: {
       name: "Amorphous",
@@ -1041,6 +1118,11 @@ var PokedexEggGroupPanel = PokedexResultPanel.extend({
 });
 
 var PokedexCategoryPanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyTypeLayout(this);
+    }
+  },
   initialize: function (id) {
     id = toID(id);
     var category = {
@@ -1079,6 +1161,11 @@ var PokedexCategoryPanel = PokedexResultPanel.extend({
 });
 
 var PokedexTierPanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyTierLayout(this);
+    }
+  },
   initialize: function (id) {
     var tierTable = {
       ag: "AG",
@@ -1152,6 +1239,11 @@ var PokedexTierPanel = PokedexResultPanel.extend({
 });
 
 var PokedexArticlePanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyArticleLayout(this);
+    }
+  },
   initialize: function (id) {
     id = toID(id);
     this.shortTitle = id;

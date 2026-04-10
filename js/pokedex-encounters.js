@@ -179,6 +179,81 @@ function getEncounterPreviewLevel(minLevel, maxLevel) {
   return 0;
 }
 
+function isTimeEncounterType(encType) {
+  return String(encType || "").toLowerCase().indexOf("time") === 0;
+}
+
+function getEncounterHeaderClassName(encType) {
+  var normalized = String(encType || "").toLowerCase();
+  var classNames = ["ddex-encounter-header"];
+
+  if (normalized.indexOf("grass") >= 0) {
+    classNames.push("ddex-encounter-header-grass");
+  } else if (normalized.indexOf("rod") >= 0) {
+    classNames.push("ddex-encounter-header-rod");
+  } else if (normalized.indexOf("surf") >= 0) {
+    classNames.push("ddex-encounter-header-surf");
+  }
+
+  return classNames.join(" ");
+}
+
+function getEncounterRangeValue(value) {
+  value = Number(value);
+  return Number.isFinite(value) && value > 0 ? value : 0;
+}
+
+function getEncounterRange(encounter) {
+  if (!encounter) {
+    return { min: 0, max: 0 };
+  }
+  return {
+    min: getEncounterRangeValue(encounter.mn || encounter.minLvl || 0),
+    max: getEncounterRangeValue(
+      encounter.mx || encounter.maxLvl || encounter.mn || encounter.minLvl || 0,
+    ),
+  };
+}
+
+function getGrassOverlayLevelRanges(locationRecord, overlaySlotCount) {
+  if (!locationRecord || overlaySlotCount <= 0) return [];
+
+  var grassGroup = locationRecord.grass;
+  if (!grassGroup || !Array.isArray(grassGroup.encs)) return [];
+
+  var grassRates =
+    typeof getEncounterRateSlots === "function"
+      ? getEncounterRateSlots(locationRecord, "grass")
+      : [];
+  var ranges = [];
+
+  for (var i = 0; i < grassGroup.encs.length; i++) {
+    if ((Number(grassRates[i]) || 0) !== 10) continue;
+    var encounter = grassGroup.encs[i];
+    if (!encounter || !encounter.s || encounter.s === "-----") continue;
+    ranges.push(getEncounterRange(encounter));
+    if (ranges.length >= overlaySlotCount) break;
+  }
+
+  return ranges;
+}
+
+function getResolvedEncounterRange(encounter, fallbackRange) {
+  var range = getEncounterRange(encounter);
+  if (range.min > 0 || range.max > 0) return range;
+  if (!fallbackRange) return range;
+  return {
+    min: getEncounterRangeValue(fallbackRange.min),
+    max: getEncounterRangeValue(fallbackRange.max),
+  };
+}
+
+function isEmptyEncounterSpecies(monId) {
+  if (!monId || monId === "none") return true;
+  var template = BattlePokedex[monId];
+  return !!(template && template.name === "None");
+}
+
 function getEncounterPreviewMoves(pokemon, level) {
   if (!pokemon || !level || level < 1) return [];
   if (
@@ -231,14 +306,22 @@ function getEncounterPreviewMoves(pokemon, level) {
 }
 
 var PokedexEncountersPanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyEncounterLayout(this);
+    }
+  },
   events: {
     "click .result a[data-initial-level]": "storePendingPokemonLevel",
+    "click .ddex-encounter-tabbar button": "selectEncounterTab",
   },
   initialize: function (id) {
     id = toID(id);
     var location = BattleLocationdex[id];
     this.id = id;
     this.shortTitle = location.name;
+    this.activeTab = "encounters";
+    this.mapsLoaded = false;
 
     var buf = '<div class="pfx-body dexentry">';
 
@@ -251,6 +334,8 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       location.name +
       "</a></h1>";
     buf += '<section class="nuzlocke-summary" hidden></section>';
+    buf +=
+      '<ul class="tabbar ddex-encounter-tabbar"><li><button class="button nav-first cur" value="encounters">Encounters</button></li><li><button class="button nav-last" value="maps">Location Maps</button></li></ul>';
 
     // distribution
     buf += '<ul class="utilichart metricchart nokbd encounterchart">';
@@ -281,9 +366,37 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     setTimeout(
       function () {
         this.renderDistribution();
-        this.renderLocationMaps();
+        this.renderEncounterTabState();
       }.bind(this),
     );
+  },
+  selectEncounterTab: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var value = $(e.currentTarget).val() || "encounters";
+    if (value !== "encounters" && value !== "maps") return;
+    this.activeTab = value;
+    this.renderEncounterTabState();
+  },
+  renderEncounterTabState: function () {
+    var activeTab = this.activeTab || "encounters";
+    this.$(".ddex-encounter-tabbar button").removeClass("cur");
+    this.$('.ddex-encounter-tabbar button[value="' + activeTab + '"]').addClass("cur");
+
+    var showMaps = activeTab === "maps";
+    var $primarySections = this.$(".ddex-encounter-sections-primary");
+    var $secondarySections = this.$(".ddex-encounter-sections-secondary");
+    var $gallery = this.$(".location-map-gallery");
+
+    $primarySections.prop("hidden", showMaps);
+    $secondarySections.prop("hidden", showMaps);
+    $gallery.prop("hidden", !showMaps);
+
+    if (showMaps && !this.mapsLoaded) {
+      this.mapsLoaded = true;
+      $gallery.html("<p>Loading location maps...</p>").prop("hidden", false);
+      this.renderLocationMaps();
+    }
   },
   storePendingPokemonLevel: function (e) {
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
@@ -430,7 +543,10 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     if (this.results) return this.results;
 
     var location = this.id;
+    var locationRecord = BattleLocationdex[location];
     var results = [];
+    var timeOverlaySlotIndexes = Object.create(null);
+    var timeOverlayRanges = Object.create(null);
 
     var formatRate = function (i) {
       if (i === undefined || i === null || Number.isNaN(i)) return "    ";
@@ -438,11 +554,19 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     };
 
     for (const encType of encTypes) {
-      const encounterGroup = BattleLocationdex[location][encType];
+      const encounterGroup = locationRecord[encType];
       if (!encounterGroup || encounterGroup.encs === undefined) continue;
 
+      if (isTimeEncounterType(encType) && !timeOverlayRanges[encType]) {
+        timeOverlayRanges[encType] = getGrassOverlayLevelRanges(
+          locationRecord,
+          encounterGroup.encs.length,
+        );
+        timeOverlaySlotIndexes[encType] = 0;
+      }
+
       let hasRows = false;
-      const rates = getEncounterRateSlots(BattleLocationdex[location], encType);
+      const rates = getEncounterRateSlots(locationRecord, encType);
       for (let i = 0; i < encounterGroup.encs.length; i++) {
         const enc = encounterGroup.encs[i];
         if (!enc || !enc.s || enc.s === "-----") continue;
@@ -455,55 +579,134 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
           });
           hasRows = true;
         }
+        const overlayIndex = timeOverlaySlotIndexes[encType] || 0;
+        const fallbackRange = isTimeEncounterType(encType)
+          ? timeOverlayRanges[encType][overlayIndex]
+          : null;
+        const levelRange = getResolvedEncounterRange(enc, fallbackRange);
+        if (isTimeEncounterType(encType)) {
+          timeOverlaySlotIndexes[encType] = overlayIndex + 1;
+        }
         results.push({
           kind: "encounter",
           encType: encType,
           monId: monId,
           rate: formatRate(rates[i]),
-          min: enc.mn || 0,
-          max: enc.mx || enc.mn || 0,
+          min: levelRange.min,
+          max: levelRange.max,
         });
       }
     }
 
     return (this.results = results);
   },
-  renderDistribution: function () {
+  getEncounterSections: function () {
     var results = this.getDistribution();
-    this.$chart = this.$(".utilichart");
+    var sections = [];
+    var currentSection = null;
 
-    if (results.length > 1600 / 33) {
-      if (!this.streamLoading) {
-        this.streamLoading = true;
-        this.handleScrollBound = this.handleScroll.bind(this);
-        this.$el.on("scroll", this.handleScrollBound);
+    for (var i = 0; i < results.length; i++) {
+      var result = results[i];
+      if (!result) continue;
+      if (result.kind === "header") {
+        currentSection = {
+          headerIndex: i,
+          encType: result.encType || "",
+          rowIndexes: [],
+        };
+        sections.push(currentSection);
+        continue;
       }
-
-      var panelTop = this.$el.children().offset().top;
-      var panelHeight = this.$el.outerHeight();
-      var chartTop = this.$chart.offset().top;
-      var scrollLoc = (this.scrollLoc = this.$el.scrollTop());
-
-      var start = Math.floor((scrollLoc - (chartTop - panelTop)) / 33 - 35);
-      var end = Math.floor(start + 35 + panelHeight / 33 + 35);
-      if (start < 0) start = 0;
-      if (end > results.length - 1) end = results.length - 1;
-      (this.start = start), (this.end = end);
-
-      // distribution
-      var buf = "";
-      for (var i = 0, len = results.length; i < len; i++) {
-        buf += this.renderResultListItem(i, i < start || i > end);
-      }
-      this.$chart.html(buf);
-    } else {
-      this.streamLoading = false;
-      var buf = "";
-      for (var i = 0, len = results.length; i < len; i++) {
-        buf += this.renderResultListItem(i);
-      }
-      this.$chart.html(buf);
+      if (!currentSection) continue;
+      if (isEmptyEncounterSpecies(result.monId)) continue;
+      currentSection.rowIndexes.push(i);
     }
+
+    return sections.filter(function (section) {
+      return section && section.rowIndexes && section.rowIndexes.length;
+    });
+  },
+  shouldRenderEncounterSectionInPrimary: function (section) {
+    if (!section) return false;
+    if ((section.rowIndexes || []).length > 10) return true;
+    return String(section.encType || "").toLowerCase().indexOf("time") >= 0;
+  },
+  ensureEncounterSectionColumns: function () {
+    var $primary = this.$(".ddex-detail-primary");
+    var $secondary = this.$(".ddex-detail-secondary");
+    if (!$primary.length || !$secondary.length) {
+      this.applyDetailLayout();
+      $primary = this.$(".ddex-detail-primary");
+      $secondary = this.$(".ddex-detail-secondary");
+    }
+
+    var gallery = this.$(".location-map-gallery")[0];
+    if (gallery && $primary.length && gallery.parentNode !== $primary[0]) {
+      $primary[0].appendChild(gallery);
+    }
+
+    var primarySections = this.$(".ddex-encounter-sections-primary")[0];
+    if (!primarySections && $primary.length) {
+      primarySections = document.createElement("div");
+      primarySections.className =
+        "ddex-encounter-sections ddex-encounter-sections-primary";
+      $primary[0].appendChild(primarySections);
+    }
+
+    var secondarySections = this.$(".ddex-encounter-sections-secondary")[0];
+    if (!secondarySections && $secondary.length) {
+      secondarySections = document.createElement("div");
+      secondarySections.className =
+        "ddex-encounter-sections ddex-encounter-sections-secondary";
+      $secondary[0].appendChild(secondarySections);
+    }
+
+    var legacyChart = this.$(".ddex-detail-secondary > .utilichart")[0];
+    if (legacyChart && legacyChart.parentNode) {
+      legacyChart.parentNode.removeChild(legacyChart);
+    }
+
+    return {
+      primary: primarySections,
+      secondary: secondarySections,
+    };
+  },
+  renderEncounterSection: function (section) {
+    if (!section || !section.rowIndexes || !section.rowIndexes.length) return "";
+    var buf = '<section class="ddex-encounter-table-section">';
+    buf += this.renderRow(section.headerIndex);
+    buf += '<ul class="utilichart metricchart nokbd encounterchart ddex-encounterchart">';
+    for (var i = 0; i < section.rowIndexes.length; i++) {
+      buf += this.renderResultListItem(section.rowIndexes[i]);
+    }
+    buf += "</ul></section>";
+    return buf;
+  },
+  renderDistribution: function () {
+    this.streamLoading = false;
+    if (this.handleScrollBound) {
+      this.$el.off("scroll", this.handleScrollBound);
+      this.handleScrollBound = null;
+    }
+    var columns = this.ensureEncounterSectionColumns();
+    if (!columns.primary || !columns.secondary) return;
+
+    var sections = this.getEncounterSections();
+    var primaryBuf = "";
+    var secondaryBuf = "";
+    for (var i = 0; i < sections.length; i++) {
+      var sectionBuf = this.renderEncounterSection(sections[i]);
+      if (!sectionBuf) continue;
+      if (this.shouldRenderEncounterSectionInPrimary(sections[i])) {
+        primaryBuf += sectionBuf;
+      } else {
+        secondaryBuf += sectionBuf;
+      }
+    }
+
+    columns.primary.innerHTML = primaryBuf;
+    columns.secondary.innerHTML = secondaryBuf;
+    this.renderEncounterTabState();
   },
   renderLocationMaps: async function () {
     var $gallery = this.$(".location-map-gallery");
@@ -518,6 +721,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         location: this.id,
       });
       $gallery.prop("hidden", true).empty();
+      this.mapsLoaded = false;
       return;
     }
     var mapKey = resolveLocationMapKey(mapSet, this.id, locationName);
@@ -533,6 +737,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         mapTitle: mapSet.title,
       });
       $gallery.prop("hidden", true).empty();
+      this.mapsLoaded = false;
       return;
     }
 
@@ -551,16 +756,17 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     }
 
     buf += "</div>";
-    $gallery.html(buf).prop("hidden", false);
+    $gallery.html(buf).prop("hidden", this.activeTab !== "maps");
   },
   renderRow: function (i, offscreen) {
     var result = this.results[i];
     if (result.kind === "header") {
       const encounterGroup = BattleLocationdex[this.id][result.encType];
+      var headerClassName = getEncounterHeaderClassName(result.encType);
       if (encounterGroup && encounterGroup.name) {
-        return `<h3>${snakeToTitleCase(result.encType)}:  ${encounterGroup.name}</h3>`;
+        return `<h3 class="${headerClassName}">${snakeToTitleCase(result.encType)}:  ${encounterGroup.name}</h3>`;
       }
-      return `<h3>${snakeToTitleCase(result.encType)}</h3>`;
+      return `<h3 class="${headerClassName}">${snakeToTitleCase(result.encType)}</h3>`;
     }
 
     var id = result.monId;
@@ -629,60 +835,6 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
   },
   debouncedPurgeTimer: null,
   renderUpdateDistribution: function (fullUpdate) {
-    if (this.debouncedPurgeTimer) {
-      clearTimeout(this.debouncedPurgeTimer);
-      this.debouncedPurgeTimer = null;
-    }
-
-    var panelTop = this.$el.children().offset().top;
-    var panelHeight = this.$el.outerHeight();
-    var chartTop = this.$chart.offset().top;
-    var scrollLoc = (this.scrollLoc = this.$el.scrollTop());
-
-    var results = this.results;
-
-    var rowFit = Math.floor(panelHeight / 33);
-
-    var start = Math.floor((scrollLoc - (chartTop - panelTop)) / 33 - 35);
-    var end = start + 35 + rowFit + 35;
-    if (start < 0) start = 0;
-    if (end > results.length - 1) end = results.length - 1;
-
-    var $rows = this.$chart.children();
-
-    if (
-      fullUpdate ||
-      start < this.start - rowFit - 30 ||
-      end > this.end + rowFit + 30
-    ) {
-      var buf = "";
-      for (var i = 0, len = results.length; i < len; i++) {
-        buf += this.renderResultListItem(i, i < start || i > end);
-      }
-      this.$chart.html(buf);
-      (this.start = start), (this.end = end);
-      return;
-    }
-
-    if (start < this.start) {
-      for (var i = start; i < this.start; i++) {
-        this.updateResultListItem($rows[i], i);
-      }
-      this.start = start;
-    }
-
-    if (end > this.end) {
-      for (var i = this.end + 1; i <= end; i++) {
-        this.updateResultListItem($rows[i], i);
-      }
-      this.end = end;
-    }
-
-    if (this.end - this.start > rowFit + 90) {
-      var self = this;
-      this.debouncedPurgeTimer = setTimeout(function () {
-        self.renderUpdateDistribution(true);
-      }, 1000);
-    }
+    this.renderDistribution();
   },
 });

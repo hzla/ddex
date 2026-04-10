@@ -6,27 +6,31 @@ function sourcePad(source) {
 }
 
 var PokedexMovePanel = PokedexResultPanel.extend({
+  applyDetailLayout: function () {
+    if (window.DDEX_DETAIL_LAYOUT) {
+      window.DDEX_DETAIL_LAYOUT.applyMoveLayout(this);
+    }
+  },
   initialize: function (id) {
     id = toID(id);
     var move = Dex.moves.get(id);
-    
-    vanillaMove = vanillaMoves[id]
+
+    var vanillaMove = vanillaMoves[id];
     if (typeof vanillaMove == "undefined") {
-      vanillaMove = move
+      vanillaMove = move;
     }
 
-
-    overrideData = {}
-    overridePoks = {}
+    var overrideData = move;
+    var overridePoks = {};
     if (localStorage.overrides) {
-      overridePoks = JSON.parse(localStorage.overrides).poks
-      overrideData = JSON.parse(localStorage.overrides).moves[move.name]
-    } else {
-      overrideData = move
+      var overrides = JSON.parse(localStorage.overrides);
+      overridePoks = overrides.poks || {};
+      overrideData = (overrides.moves && overrides.moves[move.name]) || move;
     }
 
     this.id = id;
     this.shortTitle = move.name;
+    this.overridePoks = overridePoks;
 
     var buf = '<div class="pfx-body dexentry">';
 
@@ -207,9 +211,9 @@ var PokedexMovePanel = PokedexResultPanel.extend({
       const newDesc = overrideData.desc || overrideData.shortDesc || "";
 
       buf += `<p class="vanilla-text"><span class="desc-label">Old:</span><span class="desc-body">${Dex.escapeHTML(oldDesc)}</span></p>`;
-      buf += `<p class="new-text"><span class="desc-label">New:</span> <span class="desc-body">${highlightChanged(oldDesc, newDesc)}</span></p>`;
+      buf += `<p class="new-text"><span class="desc-label">In-Game Desc:</span> <span class="desc-body">${highlightChanged(oldDesc, newDesc)}</span></p>`;
     } else {
-      buf += "<p>" + Dex.escapeHTML(move.desc || move.shortDesc) + "</p>";
+      buf += "<p><strong>In-Game Desc:</strong> " + Dex.escapeHTML(move.desc || move.shortDesc) + "</p>";
     }
 
     
@@ -531,7 +535,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 
     // getting it
     // warning: excessive trickiness
-    var leftPanel = this.app.panels[this.app.panels.length - 2];
+    var leftPanel = this.sourcePanel;
     if (leftPanel && leftPanel.fragment.slice(0, 8) === "pokemon/") {
       var pokemon = Dex.species.get(leftPanel.id);
       var learnset =
@@ -555,12 +559,12 @@ var PokedexMovePanel = PokedexResultPanel.extend({
         if (!sources) continue;
 
         if (!atLeastOne) {
-          buf += "<h3>Getting it on " + pokemon.name + "</h3><ul>";
+          buf += '<h3>Getting it on ' + pokemon.name + '</h3><ul class="ddex-getting-it-list">';
           atLeastOne = true;
         }
 
         if (template.id !== pokemon.id) {
-          buf += "</ul><p>From " + template.name + ":</p><ul>";
+          buf += '</ul><p>From ' + template.name + ':</p><ul class="ddex-getting-it-list">';
         }
 
         if (!sources.length) buf += "<li>(Past gen only)</li>";
@@ -628,8 +632,8 @@ var PokedexMovePanel = PokedexResultPanel.extend({
     }
 
     // distribution
-    buf += '<ul class="utilichart metricchart nokbd">';
-    buf += "</ul>";
+    buf += '<div class="ddex-move-distribution"><ul class="utilichart metricchart nokbd ddex-move-distribution-list">';
+    buf += "</ul></div>";
 
     buf += "</div>";
 
@@ -640,9 +644,20 @@ var PokedexMovePanel = PokedexResultPanel.extend({
   getDistribution: function () {
     var moveid = this.id;
     if (this.results) return this.results;
+    var overridePoks = this.overridePoks || null;
+    var hasOverrideFilter = !!(
+      overridePoks &&
+      Object.keys(overridePoks).length
+    );
     var results = [];
     for (var pokemonid in BattleLearnsets) {
-      if (!BattlePokedex[pokemonid] || !BattleLearnsets[pokemonid] || !overridePoks[BattlePokedex[pokemonid].name]) continue;
+      if (!BattlePokedex[pokemonid] || !BattleLearnsets[pokemonid]) continue;
+      if (
+        hasOverrideFilter &&
+        !overridePoks[BattlePokedex[pokemonid].name]
+      ) {
+        continue;
+      }
       if (
         BattlePokedex[pokemonid].isNonstandard ||
         !BattleLearnsets[pokemonid].learnset
@@ -801,7 +816,9 @@ var PokedexMovePanel = PokedexResultPanel.extend({
           desc = "...";
           break;
       }
-      return BattleSearch.renderTaggedPokemonRowInner(template, desc);
+      return BattleSearch.renderTaggedPokemonRowInner(template, desc, null, {
+        compact: true,
+      });
     }
   },
   handleScroll: function () {

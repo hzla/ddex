@@ -49,14 +49,28 @@
     </script>
   </head>
   <body>
-    <div class="pfx-panel">
-      <div class="pfx-body">
-        <noscript>
-          <p>
-            <strong>Requires JavaScript!</strong>
-          </p>
-        </noscript>
-        <p>Loading...</p>
+    <div class="ddex-shell">
+      <div class="ddex-slot ddex-sidebar-slot">
+        <div class="pfx-panel ddex-sidebar-panel">
+          <div class="pfx-body">
+            <noscript>
+              <p>
+                <strong>Requires JavaScript!</strong>
+              </p>
+            </noscript>
+            <p>Loading...</p>
+          </div>
+        </div>
+      </div>
+      <div class="ddex-slot ddex-content-slot">
+        <div class="pfx-panel ddex-content-panel">
+          <div class="pfx-body ddex-empty-detail">
+            <div class="ddex-empty-detail-inner">
+              <h1>Dynamic Dex</h1>
+              <p>Search or select a result to view details here.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="/js/lib/jquery-1.12.4.min.js"></script>
@@ -86,6 +100,7 @@
     <script src="/data/abilities.js?v0"></script>
     <script src="/data/items.js?v0"></script>
 
+    <script src="/js/pokedex-layout.js?1"></script>
     <script src="/js/pokedex.js?5"></script>
     <script src="/js/pokedex-pokemon.js?e"></script>
     <script src="/js/pokedex-moves.js?2"></script>

@@ -30,6 +30,7 @@ export const scriptChunks = {
     "data/vanilla_species.js",
     "data/vanilla_moves.js",
     "data/learnsets.js",
+    "js/pokedex-layout.js",
     "js/pokedex.js",
     "js/encounter-routing.js",
     "js/pokedex-pokemon.js",

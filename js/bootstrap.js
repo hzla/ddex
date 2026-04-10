@@ -133,15 +133,21 @@
       isDetailRoute: isDetailRoute,
       isSearchRoute: isSearchRoute,
       isQueryRoute: isQueryRoute,
-      needsImmediateBoot: !isRoot || params.has("game"),
+      needsImmediateBoot: true,
     };
   }
 
   function getPanelBody() {
-    var body = document.querySelector(".pfx-panel .pfx-body");
+    var body =
+      document.querySelector(".ddex-content-slot .pfx-body") ||
+      document.querySelector(".pfx-panel .pfx-body");
     if (!body) {
-      document.body.innerHTML = '<div class="pfx-panel"><div class="pfx-body"><p>Loading...</p></div></div>';
-      body = document.querySelector(".pfx-panel .pfx-body");
+      document.body.innerHTML =
+        '<div class="ddex-shell">' +
+        '<div class="ddex-slot ddex-sidebar-slot"></div>' +
+        '<div class="ddex-slot ddex-content-slot"><div class="pfx-panel ddex-content-panel"><div class="pfx-body"><p>Loading...</p></div></div></div>' +
+        "</div>";
+      body = document.querySelector(".ddex-content-slot .pfx-body");
     }
     return body;
   }
@@ -327,7 +333,11 @@
 
   function getActiveSearchPanel() {
     var app = window.pokedex;
-    if (!app || !app.panels || typeof app.i !== "number") return null;
+    if (!app) return null;
+    if (app.sidebarPanel && typeof app.sidebarPanel.find === "function") {
+      return app.sidebarPanel;
+    }
+    if (!app.panels || typeof app.i !== "number") return null;
     var panel = app.panels[app.i];
     if (!panel || typeof panel.find !== "function") return null;
     return panel;

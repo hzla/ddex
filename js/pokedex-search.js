@@ -1,6 +1,6 @@
 var PokedexSearchPanel = Panels.Panel.extend({
   minWidth: 639,
-  maxWidth: 639,
+  maxWidth: 10000,
   sidebarWidth: 280,
   search: null,
   events: {
@@ -48,6 +48,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
     if (fragment === "pokemon") fragment = "pokemon/";
     if (fragment === "encounters") fragment = "encounters/";
     if (questionIndex >= 0) fragment = fragment.slice(0, questionIndex);
+    this.currentFragment = fragment;
     var buf = '<div class="pfx-body"><form class="pokedex">';
 
 
@@ -64,12 +65,15 @@ var PokedexSearchPanel = Panels.Panel.extend({
       Dex.escapeHTML(this.$(".searchbox").val() || "") +
       '" autocomplete="off" autofocus placeholder="Search mons, moves, abilities, items, encounters or more" /></div>';
     buf += "</form>";
-    buf += "<div id='reset-cache'>Refresh Cache</div>"
     buf += '<div class="results"></div>';
+    buf += '<div class="ddex-search-footer">';
+    buf += "<div id='reset-cache'>Refresh Cache</div>";
     buf += '<div id="rom-upload-panel">';
-    buf += '<label>Load Gen 4 Rom: <input type="file" id="rom-upload" accept=".nds" /></label>';
+    buf += '<label class="ddex-rom-upload-trigger" for="rom-upload">Load Gen4 Rom</label>';
+    buf += '<input type="file" id="rom-upload" accept=".nds" />';
     buf += '<div id="rom-status" style="display:none;"></div>';
-    buf += '</div></div>';
+    buf += "</div>";
+    buf += "</div></div>";
     this.$el.html(buf);
     if (typeof setDexTitleFromStorage === "function") {
       setDexTitleFromStorage();
@@ -359,7 +363,9 @@ var PokedexSearchPanel = Panels.Panel.extend({
     if (!this.search) return;
     if (!val) val = "";
     this.updateFilters();
-    if (!this.search.find(val)) return;
+    var didFind = this.search.find(val);
+    this.updateResultsState();
+    if (!didFind) return;
     if (this.search.q || this.search.filters) {
       this.$(".pokedex").addClass("aboveresults");
       this.activeLink = this.search.el.getElementsByTagName("a")[0];
@@ -369,24 +375,17 @@ var PokedexSearchPanel = Panels.Panel.extend({
       this.activeLink = null;
     }
   },
+  updateResultsState: function () {
+    var hasResults = !!this.$(".results li.result").length;
+    var hasCategoryTab =
+      this.currentFragment === "pokemon/" ||
+      this.currentFragment === "moves/" ||
+      this.currentFragment === "encounters/";
+    if (this.search && this.search.qType) hasCategoryTab = true;
+    this.$el.toggleClass("ddex-search-has-results", hasResults);
+    this.$el.toggleClass("ddex-search-has-content", hasResults || hasCategoryTab);
+  },
   checkExactMatch: function () {
-    if (
-      this.search &&
-      this.search.exactMatch &&
-      this.search.q !== "metronome" &&
-      this.search.q !== "psychic"
-    ) {
-      setTimeout(
-        function () {
-          this.app.go(
-            this.getAppPathFromLink(this.activeLink),
-            this,
-            false,
-            $(this.activeLink),
-            true,
-          );
-        }.bind(this),
-      );
-    }
+    return;
   },
 });
