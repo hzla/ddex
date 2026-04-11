@@ -3046,6 +3046,7 @@ var Species = function Species(id, name, data) {
   this.evoType = data.evoType || "";
   this.evoMethods = data.evoMethods || [];
   this.evoParams = data.evoParams || [];
+  this.evoMethodIds = data.evoMethodIds || [];
   this.evoLevel = data.evoLevel || 0;
   this.evoMove = data.evoMove || "";
   this.evoItem = data.evoItem || "";

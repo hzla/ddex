@@ -149,10 +149,35 @@ a.button {
 	display: inline;
 }
 
-.evo-desc {
+.dexentry table.evos td,
+.dexentry table.evos th {
+	vertical-align: top;
+}
+
+.dexentry table.evos .arrow {
+	padding-top: 8px;
+}
+
+.evo-entry {
 	display: inline-block;
-    font-size: 12px;
-    margin-left: 10px;
+	vertical-align: middle;
+}
+
+.evo-entry .evo-desc {
+	display: block;
+	font-size: 12px;
+	margin-left: 42px;
+}
+
+.evo-name {
+	display: inline-flex;
+	align-items: center;
+	min-height: 24px;
+	vertical-align: middle;
+}
+
+.evo-name-label {
+	display: inline-block;
 }
 
 .button.cur,
@@ -454,6 +479,7 @@ body.ddex-fixed-layout {
 	top: 0;
 	z-index: 2;
 	padding-bottom: 12px;
+	background: #2f2f2f;
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel .results {

@@ -529,6 +529,7 @@ const EVOLUTION_METHOD_NAMES = [
   "Loc_MtCoronet",
   "Loc_EternaForest",
   "Loc_Route217",
+  "Loc_MossRock",
 ];
 
 const EVOLUTION_PARAM_MEANING = {
@@ -559,6 +560,7 @@ const EVOLUTION_PARAM_MEANING = {
   Loc_MtCoronet: "Ignored",
   Loc_EternaForest: "Ignored",
   Loc_Route217: "Ignored",
+  Loc_MossRock: "Ignored",
 };
 
 const OW_3D_ENTRIES = new Set([
@@ -1508,17 +1510,18 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
     for (const column of evoColumns) {
       const parsed = parseEvolutionCell(evoEntry[column]);
       if (!parsed) continue;
+      const methodId = EVOLUTION_METHOD_NAMES.indexOf(parsed.method);
       const mappedMethod = mapEvoMethod(parsed.method);
       const param = normalizeEvoParam(parsed.param);
       const target = canonicalizeExportSpeciesName(parsed.target);
       if (!target) continue;
 
       const existingEvos = evoByName.get(sourceName) || [];
-      existingEvos.push({ target, method: mappedMethod, param });
+      existingEvos.push({ target, method: mappedMethod, methodId, param });
       evoByName.set(sourceName, existingEvos);
 
       if (!preEvoByTarget.has(target)) {
-        preEvoByTarget.set(target, { method: mappedMethod, param });
+        preEvoByTarget.set(target, { method: mappedMethod, methodId, param });
       }
     }
   }
@@ -1606,6 +1609,7 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
       species.evos = evoInfo.map((entry) => entry.target);
       species.evoMethods = evoInfo.map((entry) => entry.method);
       species.evoParams = evoInfo.map((entry) => entry.param);
+      species.evoMethodIds = evoInfo.map((entry) => entry.methodId);
     }
 
     const preEvoInfo = preEvoByTarget.get(name);

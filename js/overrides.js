@@ -1066,6 +1066,7 @@ function overrideMonData(monOverrides) {
 
 		BattlePokedex[speciesId].evoMethods = monData.evoMethods
 		BattlePokedex[speciesId].evoParams = monData.evoParams
+		BattlePokedex[speciesId].evoMethodIds = monData.evoMethodIds
 
 		const learnsetInfo =
 			monData.learnset_info && typeof monData.learnset_info === "object"

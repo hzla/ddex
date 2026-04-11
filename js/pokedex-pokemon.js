@@ -627,19 +627,17 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     if (template.evos) {
       buf += '<table class="evos"><tr><td>';
       var evos = [template];
-
-
-
-
       var seenEvos = []
       var stopSearch = false;
-      console.log(basePokemon)
       while (evos && !stopSearch) {
-        var evoData = ""
         var evoSourceTemplate =
           typeof evos[0] === "string" ? template : evos[0];
+        var groupedEntries = [];
+        var groupedEntryById = {};
+        var nextStageEvos = [];
         for (var i = 0; i < evos.length; i++) {
           template = Dex.species.get(evos[i]);
+          if (!template || !template.exists) continue;
           if (i <= 0) {
             if (!evos[0].exists) {
               if (evos[1] === "Dustox") {
@@ -657,18 +655,10 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
             }  
           }
           var evoIndex = parseInt(i)
+          var evoData = ""
 
           if (basePokemon.evoMethods && basePokemon.evoMethods.length > 0) {
             if (typeof evos[0] === "string") {
-              var nextEvos = BattlePokedex[cleanString(evos[i])].evos
-
-              if (nextEvos) {
-                if (hasOverlap(nextEvos, seenEvos) && seenEvos.includes(evos[i])) {
-                  stopSearch = true;
-                  break;
-                }
-              }
-
               var evoSource = BattlePokedex[cleanString(evoSourceTemplate.name)]
               evoData = evoSource && evoSource.evoParams
                 ? evoSource.evoParams[evoIndex]
@@ -683,59 +673,73 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
                   }
                 }
               }
-              
+
               if (typeof evoData === "undefined") {
                 evoData = ""
               }
-
-              if (
-                evoData.length == 0 &&
-                evoSource &&
-                evoSource.evoMethods &&
-                evoSource.evoMethods[evoIndex] == "levelFriendship"
-              ) {
-                evoData = "Max Happiness"
-              }
-
-
-
-              seenEvos.push(evos[i])
-
+              evoData = this.getEvolutionBranchDisplay(evoSource, evoIndex, template, evoData)
             } else {
-              if (seenEvos.includes(evos["0"].name)) {
-                stopSearch = true;
-                break;
-              }
-              evoData = evos["0"].evoParams[evoIndex]
-              seenEvos.push(evos["0"].name)
-            }
-            
-            // evoData = evos[0].evoParams
-            if (typeof evoData === 'number') {
-              evoData = `L${evoData}`
+              evoData = this.getEvolutionBranchDisplay(evos["0"], evoIndex, template, evos["0"].evoParams[evoIndex])
             }
           }
 
-          var name = template.forme
-            ? template.baseSpecies
-            : template.name;
-          name =
-            '<span class="picon" style="' +
-            Dex.getPokemonIcon(template) +
-            '"></span>' +
-            name;
-          if (template === pokemon) {
-            buf += "<div><strong>" + name + "</strong></div>";
-          } else {
-            buf +=
-              '<div><a href="/pokemon/' +
-              template.id +
-              '" data-target="replace">' +
-              name + 
-              "</a>" + `<div class="evo-desc">${evoData}</div>`  + "</div>";
+          var templateId = template.id || cleanString(template.name);
+          var entry = groupedEntryById[templateId];
+          if (!entry) {
+            entry = {
+              template: template,
+              evoDescriptions: [],
+            };
+            groupedEntryById[templateId] = entry;
+            groupedEntries.push(entry);
+          }
+          if (evoData && template !== pokemon) {
+            entry.evoDescriptions.push(evoData);
           }
         }
-        evos = template.evos;
+
+        for (var k = 0; k < groupedEntries.length; k++) {
+          template = groupedEntries[k].template;
+          var nameText = template.forme
+            ? template.baseSpecies
+            : template.name;
+          var iconHtml =
+            '<span class="picon evo-name-icon" style="' +
+            Dex.getPokemonIcon(template) +
+            '"></span>';
+          var labelHtml = template === pokemon
+            ? ""
+            : `<span class="evo-name-label">${nameText}</span>`;
+          var nameHtml = `<span class="evo-name">${iconHtml}${labelHtml}</span>`;
+          var descHtml = groupedEntries[k].evoDescriptions
+            .map(function (desc) {
+              return `<div class="evo-desc">${desc}</div>`;
+            })
+            .join("");
+
+          if (template === pokemon) {
+            buf += `<div class="evo-entry evo-entry-current">${nameHtml}${descHtml}</div>`;
+          } else {
+            buf +=
+              '<div class="evo-entry"><a href="/pokemon/' +
+              template.id +
+              '" data-target="replace">' +
+              nameHtml +
+              "</a>" + descHtml + "</div>";
+          }
+
+          if (!seenEvos.includes(template.name)) {
+            seenEvos.push(template.name);
+          }
+          if (template.evos && template.evos.length) {
+            for (var n = 0; n < template.evos.length; n++) {
+              var nextEvoName = template.evos[n];
+              if (!toID(nextEvoName) || seenEvos.includes(nextEvoName)) continue;
+              nextStageEvos.push(nextEvoName);
+            }
+          }
+        }
+        evos = nextStageEvos.length ? nextStageEvos : null;
 
       }
       buf += "</td></tr></table>";
@@ -1222,6 +1226,109 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     this.catchRateState.ballKey = $button.attr("data-ball-key") || "1";
     this.catchRateState.ballMultiplier = Number($button.attr("data-ball-multiplier")) || 1;
     this.syncCatchRateCalculator();
+  },
+  formatFallbackEvolutionBranchDisplay: function (evoSource, branchIndex, evoData) {
+    if (typeof evoData === "undefined") {
+      evoData = "";
+    }
+    if (
+      evoData.length == 0 &&
+      evoSource &&
+      evoSource.evoMethods &&
+      evoSource.evoMethods[branchIndex] == "levelFriendship"
+    ) {
+      evoData = "Max Happiness";
+    }
+    if (typeof evoData === "number") {
+      return `L${evoData}`;
+    }
+    return evoData;
+  },
+  getEvolutionBranchDisplay: function (evoSource, branchIndex, targetTemplate, evoData) {
+    var displayValue = this.normalizeEvolutionDisplayValue(evoData);
+    var methodIds = evoSource && Array.isArray(evoSource.evoMethodIds) ? evoSource.evoMethodIds : null;
+    var methodId = methodIds ? methodIds[branchIndex] : null;
+
+    if (!Number.isInteger(methodId) || methodId <= 0) {
+      return this.formatFallbackEvolutionBranchDisplay(evoSource, branchIndex, displayValue);
+    }
+
+    switch (methodId) {
+      case 1:
+        return "Happiness";
+      case 2:
+        return `Lv ${displayValue} During Day + Happiness`;
+      case 3:
+        return `Lv ${displayValue} During Night + Happiness`;
+      case 4:
+        return `Lv ${displayValue}`;
+      case 5:
+        return "Trade";
+      case 6:
+        return `Trade holding ${displayValue}`;
+      case 7:
+        return String(displayValue);
+      case 8:
+        return `Lv ${displayValue} + Atk > Def`;
+      case 9:
+        return `Lv ${displayValue} + Atk = Def`;
+      case 10:
+        return `Lv ${displayValue} + Atk < Def`;
+      case 11:
+        return `Lv ${displayValue} + PID > 5`;
+      case 12:
+        return `Lv ${displayValue} + PID < 5`;
+      case 13:
+        return `Lv ${displayValue} (Ninjask)`;
+      case 14:
+        return `Lv ${displayValue} + Empty Party Slot`;
+      case 15:
+        return "Max Beauty";
+      case 16:
+        return `${displayValue} + Male`;
+      case 17:
+        return `${displayValue} + Female`;
+      case 18:
+        return `Lv w/ ${displayValue} During Day`;
+      case 19:
+        return `Lv w/ ${displayValue} During Night`;
+      case 20:
+        return `Lv while knowing ${displayValue}`;
+      case 21:
+        return `Lv w/ ${displayValue} in party`;
+      case 22:
+        return `Lv ${displayValue} + Male`;
+      case 23:
+        return `Lv ${displayValue} + Female`;
+      case 24:
+        return "Lv in Mt. Coronet";
+      case 25:
+        return "Lv in Eterna Forest";
+      case 26:
+        return "Lv in Route 217";
+      case 27:
+        return "Lv near Moss Rock";
+      default:
+        return this.formatFallbackEvolutionBranchDisplay(evoSource, branchIndex, displayValue);
+    }
+  },
+  normalizeEvolutionDisplayValue: function (value) {
+    if (typeof value !== "string") return value;
+    var text = value.trim();
+    if (!text) return text;
+
+    var species = Dex.species.get(text);
+    if (species && species.exists) return species.name;
+
+    var item = Dex.items.get(text);
+    if (item && item.exists) return item.name;
+
+    if (!/[A-Z]/.test(text) || text !== text.toUpperCase()) return text;
+    return text
+      .toLowerCase()
+      .replace(/\b([a-z])/g, function (match) {
+        return match.toUpperCase();
+      });
   },
   getEvoMethod: function (evo) {
     let condition = evo.evoCondition ? ` ${evo.evoCondition}` : ``;
