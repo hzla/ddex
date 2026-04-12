@@ -818,6 +818,7 @@
 .dexentry .sprite {
 	float:left;
 	padding:10px 10px 10px 10px;
+	image-rendering: pixelated;
 }
 .dexentry p, .dexentry h2 {
 	padding: 0 10px;
@@ -1345,6 +1346,7 @@ h1 a, h1 a.subtle {
 .picon {
 	width: 40px;
 	height: 30px;
+	image-rendering: pixelated;
 }
 .itemicon {
 	display: inline-block;
