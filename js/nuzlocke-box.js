@@ -6,6 +6,7 @@
     "http://localhost:31124/box",
   ];
   var BOX_CACHE_KEY = "ddexNuzlockeEncounterCacheV1";
+  var MISSED_LOCATION_CACHE_KEY_PREFIX = "ddexNuzlockeMissedLocationsV1";
   var BOX_CACHE_VERSION = 1;
   var BOX_FETCH_TIMEOUT = 1500;
   var BOX_BRIDGE_TIMEOUT = 12000;
@@ -49,6 +50,25 @@
 
   function stripSectionIdSuffix(value) {
     return cleanText(value).replace(/section\d+\s*$/i, "");
+  }
+
+  function getMissedLocationCacheKey() {
+    var parts = [
+      cleanText(localStorage.getItem("game")),
+      cleanText(localStorage.getItem("romTitle")),
+      cleanText(localStorage.getItem("gameTitle")),
+    ];
+    var namespace = "";
+
+    for (var i = 0; i < parts.length; i++) {
+      if (!parts[i]) continue;
+      namespace = normalizeLocationText(parts[i]);
+      if (namespace) break;
+    }
+
+    return namespace
+      ? MISSED_LOCATION_CACHE_KEY_PREFIX + ":" + namespace
+      : MISSED_LOCATION_CACHE_KEY_PREFIX;
   }
 
   function canonicalizeSpeciesName(name) {
@@ -208,12 +228,75 @@
     return normalizedRecords;
   }
 
+  function loadMissedLocationGroups() {
+    try {
+      var rawValue = localStorage.getItem(getMissedLocationCacheKey());
+      if (!rawValue) return new Set();
+
+      var parsed = JSON.parse(rawValue);
+      if (!Array.isArray(parsed)) return new Set();
+
+      var missedLocationGroups = new Set();
+      for (var i = 0; i < parsed.length; i++) {
+        var groupKey = cleanText(parsed[i]);
+        if (groupKey) missedLocationGroups.add(groupKey);
+      }
+      return missedLocationGroups;
+    } catch (error) {
+      console.warn("Failed to load missed nuzlocke locations", error);
+      return new Set();
+    }
+  }
+
+  function normalizeMissedLocationGroups(rawGroups, locationIndex) {
+    var normalizedGroups = new Set();
+    if (!rawGroups || typeof rawGroups.forEach !== "function") {
+      return normalizedGroups;
+    }
+
+    rawGroups.forEach(function (rawGroup) {
+      var groupKey = cleanText(rawGroup);
+      if (!groupKey) return;
+      if (locationIndex.groupToLocationIds.has(groupKey)) {
+        normalizedGroups.add(groupKey);
+        return;
+      }
+      if (locationIndex.locationIdToGroup.has(groupKey)) {
+        normalizedGroups.add(locationIndex.locationIdToGroup.get(groupKey));
+      }
+    });
+
+    return normalizedGroups;
+  }
+
+  function saveMissedLocationGroups(missedLocationGroups) {
+    try {
+      var serializedGroups = Array.from(missedLocationGroups || []).sort();
+      if (!serializedGroups.length) {
+        localStorage.removeItem(getMissedLocationCacheKey());
+        return;
+      }
+      localStorage.setItem(
+        getMissedLocationCacheKey(),
+        JSON.stringify(serializedGroups),
+      );
+    } catch (error) {
+      console.warn("Failed to save missed nuzlocke locations", error);
+    }
+  }
+
   function createDerivedState(source, records, meta) {
     var normalizedRecords = normalizeRecords(records);
     var locationIndex = buildLocationIndex();
     var speciesIds = new Set();
     var locationGroupToSpecies = new Map();
     var locationIdsToSpecies = new Map();
+    var missedLocationGroups = normalizeMissedLocationGroups(
+      meta && meta.missedLocationGroups instanceof Set
+        ? meta.missedLocationGroups
+        : loadMissedLocationGroups(),
+      locationIndex,
+    );
 
     for (var i = 0; i < normalizedRecords.length; i++) {
       var record = normalizedRecords[i];
@@ -249,6 +332,7 @@
       locationIdsToSpecies: locationIdsToSpecies,
       locationGroupToSpecies: locationGroupToSpecies,
       locationIdToGroup: locationIndex.locationIdToGroup,
+      missedLocationGroups: missedLocationGroups,
     };
   }
 
@@ -266,6 +350,17 @@
 
     for (var i = 0; i < sortedRecords.length; i++) {
       parts.push(sortedRecords[i].species + "|" + sortedRecords[i].location);
+    }
+
+    if (
+      currentState &&
+      currentState.missedLocationGroups &&
+      typeof currentState.missedLocationGroups.forEach === "function"
+    ) {
+      var missedLocationGroups = Array.from(currentState.missedLocationGroups).sort();
+      for (var missedIndex = 0; missedIndex < missedLocationGroups.length; missedIndex++) {
+        parts.push("missed|" + missedLocationGroups[missedIndex]);
+      }
     }
 
     return parts.join("||");
@@ -569,11 +664,23 @@
     var speciesIds = locationKey
       ? currentState.locationIdsToSpecies.get(locationKey) || []
       : [];
+    var locationGroup = locationKey
+      ? currentState.locationIdToGroup.get(locationKey) || ""
+      : "";
+    var isMissed =
+      !!locationGroup &&
+      !speciesIds.length &&
+      currentState.missedLocationGroups.has(locationGroup);
 
     return {
       hasCaughtHere: speciesIds.length > 0,
       speciesIds: speciesIds.slice(),
       caughtSpeciesIds: speciesIds.slice(),
+      isMissed: isMissed,
+      canMarkMissed:
+        !!locationKey &&
+        !speciesIds.length &&
+        !!(window.BattleLocationdex && window.BattleLocationdex[locationKey]),
       source: currentState.source,
     };
   }
@@ -596,6 +703,45 @@
     };
   }
 
+  function setLocationMissed(locationId, isMissed) {
+    var normalizedLocationId = cleanText(locationId);
+    if (
+      !normalizedLocationId ||
+      !window.BattleLocationdex ||
+      !window.BattleLocationdex[normalizedLocationId]
+    ) {
+      return getLocationSummary(normalizedLocationId);
+    }
+
+    var summary = getLocationSummary(normalizedLocationId);
+    if (!summary.canMarkMissed && !summary.isMissed) {
+      return summary;
+    }
+
+    var locationGroup = currentState.locationIdToGroup.get(normalizedLocationId);
+    if (!locationGroup) return summary;
+
+    var nextMissedLocationGroups = new Set(currentState.missedLocationGroups);
+    if (isMissed) {
+      nextMissedLocationGroups.add(locationGroup);
+    } else {
+      nextMissedLocationGroups.delete(locationGroup);
+    }
+
+    saveMissedLocationGroups(nextMissedLocationGroups);
+    return setState(currentState.source, currentState.records, {
+      lastCheckedAt: currentState.lastCheckedAt,
+      lastSuccessAt: currentState.lastSuccessAt,
+      missedLocationGroups: nextMissedLocationGroups,
+    });
+  }
+
+  function toggleLocationMissed(locationId) {
+    var summary = getLocationSummary(locationId);
+    if (!summary.canMarkMissed && !summary.isMissed) return summary;
+    return setLocationMissed(locationId, !summary.isMissed);
+  }
+
   var api = {
     refreshForNavigation: refreshForNavigation,
     getState: function () {
@@ -610,6 +756,8 @@
     },
     getLocationSummary: getLocationSummary,
     getEncounterRowState: getEncounterRowState,
+    setLocationMissed: setLocationMissed,
+    toggleLocationMissed: toggleLocationMissed,
   };
 
   hydrateFromCache();

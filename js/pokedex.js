@@ -74,6 +74,15 @@ var PokedexResultPanel = Panels.Panel.extend({
   isContentPanel: true,
   minWidth: 639,
   maxWidth: 10000,
+  goHistoryBack: function (e) {
+    if (e) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+    }
+    if (window.history && typeof window.history.back === "function") {
+      window.history.back();
+    }
+  },
   handleNavigation: function (e) {
     var target = $(e.currentTarget);
     if (target.hasClass("pfx-backbutton") || target.data("target") === "back") {
@@ -118,12 +127,25 @@ var PokedexResultPanel = Panels.Panel.extend({
       .attr("data-target", "")
       .html('<i class="fa fa-chevron-left"></i> Search');
   },
+  ensureHistoryBackButton: function () {
+    var $title = this.$(".pfx-body.dexentry h1").first();
+    if (!$title.length) return;
+    if ($title.children(".ddex-history-backbutton").length) return;
+
+    $title.addClass("ddex-title-with-history-back");
+    $title.prepend(
+      '<button type="button" class="button ddex-history-backbutton" data-action="goHistoryBack" aria-label="Go back">' +
+        '<i class="fa fa-chevron-left" aria-hidden="true"></i>' +
+      "</button>",
+    );
+  },
   html: function (content) {
     Panels.Panel.prototype.html.call(this, content);
     this.updateBackButton();
     if (typeof this.applyDetailLayout === "function") {
       this.applyDetailLayout();
     }
+    this.ensureHistoryBackButton();
   },
   initialize: function () {
     this.html("not found: " + Array.prototype.join.call(arguments, " || "));

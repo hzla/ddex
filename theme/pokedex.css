@@ -805,6 +805,42 @@
 	text-align: left;
 	padding: 18px 12px 6px;
 }
+
+.dexentry h1.ddex-title-with-history-back {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.dexentry .ddex-history-backbutton {
+	flex: 0 0 auto;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 34px;
+	height: 34px;
+	padding: 0;
+	border-radius: 999px;
+	border: 1px solid rgba(255, 255, 255, 0.24);
+	background: rgba(255, 255, 255, 0.04);
+	color: #f8f8f2;
+}
+
+.dexentry .ddex-history-backbutton:hover {
+	border-color: rgba(255, 255, 255, 0.36);
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.dexentry .ddex-history-backbutton:active {
+	background: rgba(255, 255, 255, 0.16);
+}
+
+.dexentry h1.ddex-title-with-history-back > a,
+.dexentry h1.ddex-title-with-history-back > span,
+.dexentry h1.ddex-title-with-history-back > code {
+	min-width: 0;
+}
+
 .dexentry h1 code {
 	font-size: 11pt;
 	font-weight: normal;
@@ -1369,6 +1405,11 @@ h1 a, h1 a.subtle {
 	background: rgba(47, 143, 78, 0.14);
 }
 
+.utilichart li.result.nuzlocke-location-missed > a {
+	border-color: rgba(161, 74, 74, 0.95);
+	background: rgba(161, 74, 74, 0.16);
+}
+
 .utilichart li.result.nuzlocke-location-hit .ddex-route-location-link {
 	border-color: rgba(47, 143, 78, 0.9);
 	background: rgba(47, 143, 78, 0.14);
@@ -1401,6 +1442,16 @@ h1 a, h1 a.subtle {
 
 .nuzlocke-picon {
 	flex: 0 0 auto;
+}
+
+.utilichart li.result.ddex-location-result-with-toggle {
+	height: auto;
+	contain: none;
+	position: relative;
+}
+
+.utilichart li.result.ddex-location-result-with-toggle > a {
+	padding-right: 92px;
 }
 
 .utilichart li.result.ddex-route-result {
@@ -1457,6 +1508,46 @@ h1 a, h1 a.subtle {
     border: 1px solid rgba(255, 255, 255, 0.3);
     height: 20px;
     margin-top: 6px;
+}
+
+.ddex-location-missed-toggle,
+.ddex-nuzlocke-missed-toggle {
+	flex: 0 0 auto;
+	top: 0;
+	min-width: 72px;
+	margin: 0 5px 0 0;
+	border-radius: 6px;
+	background: none;
+	color: #f8f8f2;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.ddex-location-missed-toggle {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 30px;
+	margin: 0;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transition: opacity 120ms ease, visibility 120ms ease, background-color 120ms ease, border-color 120ms ease;
+}
+
+.utilichart li.result.ddex-location-result-with-toggle:hover .ddex-location-missed-toggle,
+.utilichart li.result.ddex-location-result-with-toggle:focus-within .ddex-location-missed-toggle {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+}
+
+.ddex-location-missed-toggle.active,
+.ddex-location-missed-toggle.active:hover,
+.ddex-nuzlocke-missed-toggle.active,
+.ddex-nuzlocke-missed-toggle.active:hover {
+	border-color: rgba(161, 74, 74, 0.95);
+	background: rgba(161, 74, 74, 0.18);
 }
 
 .ddex-route-toggle-button.active,
@@ -1960,6 +2051,11 @@ h1 a, h1 a.subtle {
 	background: rgba(47, 143, 78, 0.14);
 }
 
+.dexentry .nuzlocke-summary.nuzlocke-summary-missed {
+	border-color: rgba(161, 74, 74, 0.95);
+	background: rgba(161, 74, 74, 0.16);
+}
+
 .dexentry .nuzlocke-summary-species {
 	font-size: 10pt;
 }
@@ -1967,6 +2063,12 @@ h1 a, h1 a.subtle {
 .dexentry .nuzlocke-summary-source {
 	font-size: 9pt;
 	opacity: 0.75;
+}
+
+.dexentry .nuzlocke-summary .ddex-nuzlocke-missed-toggle {
+	margin: 0 0 0 auto;
+	padding: 6px 10px;
+	height: auto;
 }
 
 .utilichart .encountermovecol {

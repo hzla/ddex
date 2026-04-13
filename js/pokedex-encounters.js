@@ -314,6 +314,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
   events: {
     "click .result a[data-initial-level]": "storePendingPokemonLevel",
     "click .ddex-encounter-tabbar button": "selectEncounterTab",
+    "click .ddex-nuzlocke-missed-toggle": "toggleMissedLocation",
   },
   initialize: function (id) {
     id = toID(id);
@@ -461,15 +462,25 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         ? nuzlockeService.getState()
         : null;
 
-    if (!state || !state.hasData) {
-      $summary.prop("hidden", true).empty().removeClass("live cache nuzlocke-summary-hit");
+    var summary =
+      nuzlockeService && typeof nuzlockeService.getLocationSummary === "function"
+        ? nuzlockeService.getLocationSummary(this.id)
+        : {
+            hasCaughtHere: false,
+            speciesIds: [],
+            isMissed: false,
+            canMarkMissed: false,
+            source: state && state.source ? state.source : "none",
+          };
+
+    if (!summary.hasCaughtHere && !summary.isMissed && (!state || !state.hasData)) {
+      $summary
+        .prop("hidden", true)
+        .empty()
+        .removeClass("live cache nuzlocke-summary-hit nuzlocke-summary-missed");
       return;
     }
 
-    var summary =
-      typeof nuzlockeService.getLocationSummary === "function"
-        ? nuzlockeService.getLocationSummary(this.id)
-        : { hasCaughtHere: false, speciesIds: [], source: state.source };
     var summaryClass = "nuzlocke-summary " + summary.source;
     var sourceLabel = this.getNuzlockeSourceLabel(summary.source);
     var buf = "";
@@ -490,20 +501,47 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
           Dex.escapeHTML(speciesNames.join(", ")) +
           "</span>";
       }
+    } else if (summary.isMissed) {
+      summaryClass += " nuzlocke-summary-missed";
+      buf += "<strong>Encounter missed</strong>";
     } else {
       buf += "<strong>No recorded encounter from this location.</strong>";
-      if (sourceLabel) {
-        buf +=
-          '<span class="nuzlocke-summary-source">(' +
-          Dex.escapeHTML(sourceLabel) +
-          ")</span>";
-      }
+    }
+
+    if (!summary.hasCaughtHere && sourceLabel) {
+      buf +=
+        '<span class="nuzlocke-summary-source">(' +
+        Dex.escapeHTML(sourceLabel) +
+        ")</span>";
+    }
+
+    if (summary.canMarkMissed || summary.isMissed) {
+      buf +=
+        '<button type="button" class="button ddex-nuzlocke-missed-toggle' +
+        (summary.isMissed ? " active" : "") +
+        '" data-location-id="' +
+        Dex.escapeHTML(this.id) +
+        '" aria-pressed="' +
+        (summary.isMissed ? "true" : "false") +
+        '">' +
+        (summary.isMissed ? "Undo missed" : "Mark missed") +
+        "</button>";
     }
 
     $summary
       .html(buf)
       .prop("hidden", false)
       .attr("class", summaryClass);
+  },
+  toggleMissedLocation: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (
+      window.DDEX_NUZLOCKE_BOX &&
+      typeof window.DDEX_NUZLOCKE_BOX.toggleLocationMissed === "function"
+    ) {
+      window.DDEX_NUZLOCKE_BOX.toggleLocationMissed(this.id);
+    }
   },
   getResultRowClassName: function (result) {
     var className = "result";

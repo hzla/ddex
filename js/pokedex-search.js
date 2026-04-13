@@ -12,6 +12,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
     keyup: "keyup",
     click: "click",
     "click .result a": "clickResult",
+    "click .ddex-location-missed-toggle": "toggleMissedLocation",
     "click .filter": "removeFilter",
     "mouseover .result a": "hoverlink",
   },
@@ -124,6 +125,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
       this.handleNuzlockeUpdate = function () {
         if (!this.search || !this.$searchbox) return;
         if (!this.el || !document.body.contains(this.el)) return;
+        this.search.engine.results = null;
         this.find(this.$searchbox.val() || "");
       }.bind(this);
       window.DDEX_NUZLOCKE_BOX.subscribe(this.handleNuzlockeUpdate);
@@ -353,6 +355,18 @@ var PokedexSearchPanel = Panels.Panel.extend({
       this.find("");
       return;
     }
+  },
+  toggleMissedLocation: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var locationId = e.currentTarget.getAttribute("data-location-id");
+    if (
+      window.DDEX_NUZLOCKE_BOX &&
+      typeof window.DDEX_NUZLOCKE_BOX.toggleLocationMissed === "function"
+    ) {
+      window.DDEX_NUZLOCKE_BOX.toggleLocationMissed(locationId);
+    }
+    this.$searchbox.focus();
   },
   hoverlink: function (e) {
     $(this.activeLink).removeClass("active");

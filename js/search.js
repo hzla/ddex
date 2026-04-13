@@ -745,6 +745,7 @@
     var id = zoneId || toID(zone.name);
     var rowClass = "result";
     var spriteStrip = "";
+    var missedToggle = "";
     var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
     if (
       nuzlockeService &&
@@ -768,6 +769,12 @@
             '"></span>';
         }
         spriteStrip += "</span> ";
+      } else if (locationSummary && locationSummary.isMissed) {
+        rowClass += " nuzlocke-location-missed";
+      }
+      if (locationSummary && (locationSummary.canMarkMissed || locationSummary.isMissed)) {
+        rowClass += " ddex-location-result-with-toggle";
+        missedToggle = this.renderLocationMissedToggle(id, locationSummary);
       }
     }
     if (Search.urlRoot)
@@ -794,9 +801,31 @@
       buf += spriteStrip;
     }
 
-    buf += "</a></li>";
+    buf += "</a>";
+    if (missedToggle) {
+      buf += missedToggle;
+    }
+    buf += "</li>";
 
     return buf;
+  };
+
+  Search.prototype.renderLocationMissedToggle = function (locationId, locationSummary) {
+    if (!locationSummary || (!locationSummary.canMarkMissed && !locationSummary.isMissed)) {
+      return "";
+    }
+
+    return (
+      '<button type="button" class="button ddex-location-missed-toggle' +
+      (locationSummary.isMissed ? " active" : "") +
+      '" data-location-id="' +
+      BattleLog.escapeHTML(locationId) +
+      '" aria-pressed="' +
+      (locationSummary.isMissed ? "true" : "false") +
+      '">' +
+      (locationSummary.isMissed ? "Undo" : "Missed") +
+      "</button>"
+    );
   };
 
   Search.prototype.renderTaggedLocationRowInner = function (
@@ -1019,6 +1048,7 @@
     var id = locationId || toID(location.name);
     var rowClass = "result";
     var spriteStrip = "";
+    var missedToggle = "";
     var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
     if (
       nuzlockeService &&
@@ -1042,6 +1072,12 @@
             '"></span>';
         }
         spriteStrip += "</span> ";
+      } else if (locationSummary && locationSummary.isMissed) {
+        rowClass += " nuzlocke-location-missed";
+      }
+      if (locationSummary && (locationSummary.canMarkMissed || locationSummary.isMissed)) {
+        rowClass += " ddex-location-result-with-toggle";
+        missedToggle = this.renderLocationMissedToggle(id, locationSummary);
       }
     }
     if (Search.urlRoot)
@@ -1097,7 +1133,11 @@
       buf += '<span class="col typecol">';
       buf += "</span> ";
     }
-    buf += "</a></li>";
+    buf += "</a>";
+    if (missedToggle) {
+      buf += missedToggle;
+    }
+    buf += "</li>";
 
     return buf;
   };
