@@ -12,9 +12,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 125,
-      "baseExp": 64,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 45,
         "at": 34,
@@ -180,9 +177,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 42,
@@ -370,9 +364,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 236,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 62,
@@ -565,9 +556,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 52,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 67,
@@ -762,9 +750,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 58,
         "at": 89,
@@ -961,9 +946,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 240,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 78,
         "at": 119,
@@ -1166,9 +1148,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 125,
-      "baseExp": 63,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 44,
         "at": 48,
@@ -1189,7 +1168,7 @@ overrides = {
           ],
           [
             5,
-            "Barrage"
+            "Water Gun"
           ],
           [
             8,
@@ -1370,9 +1349,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 59,
         "at": 63,
@@ -1393,7 +1369,7 @@ overrides = {
           ],
           [
             5,
-            "Barrage"
+            "Water Gun"
           ],
           [
             8,
@@ -1576,9 +1552,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 239,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 79,
         "at": 83,
@@ -1778,9 +1751,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 39,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 30,
@@ -1844,9 +1814,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 72,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 20,
@@ -1926,9 +1893,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 45,
@@ -2098,9 +2062,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 39,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 40,
         "at": 35,
@@ -2165,9 +2126,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 72,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 75,
@@ -2245,9 +2203,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 105,
@@ -2403,9 +2358,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 50,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 45,
@@ -2568,9 +2520,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 122,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 63,
         "at": 60,
@@ -2735,9 +2684,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 211,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 83,
         "at": 80,
@@ -2909,9 +2855,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 51,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 66,
@@ -3083,9 +3026,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 127,
-      "baseExp": 145,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 101,
@@ -3259,9 +3199,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 52,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 80,
@@ -3431,9 +3368,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 155,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 101,
@@ -3596,9 +3530,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 58,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 80,
@@ -3772,9 +3703,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 153,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 105,
@@ -3956,9 +3884,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 105,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 80,
@@ -4149,9 +4074,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 214,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 100,
@@ -4340,9 +4262,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 60,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 75,
@@ -4505,9 +4424,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 158,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 100,
@@ -4679,9 +4595,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 235,
-      "baseExp": 55,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 52,
@@ -4870,9 +4783,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 128,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 62,
@@ -5071,9 +4981,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 223,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 92,
@@ -5276,9 +5183,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 235,
-      "baseExp": 55,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 46,
         "at": 74,
@@ -5467,9 +5371,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 128,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 61,
         "at": 97,
@@ -5668,9 +5569,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 223,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 81,
         "at": 117,
@@ -5873,9 +5771,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 150,
-      "baseExp": 113,
-      "expGroup": "Fast",
       "bs": {
         "hp": 80,
         "at": 45,
@@ -6077,9 +5972,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 213,
-      "expGroup": "Fast",
       "bs": {
         "hp": 95,
         "at": 70,
@@ -6287,9 +6179,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 60,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 53,
         "at": 46,
@@ -6314,7 +6203,7 @@ overrides = {
           ],
           [
             7,
-            "Quick Attack"
+            "Confuse Ray"
           ],
           [
             10,
@@ -6330,7 +6219,7 @@ overrides = {
           ],
           [
             19,
-            "Confuse Ray"
+            "Safeguard"
           ],
           [
             22,
@@ -6338,7 +6227,7 @@ overrides = {
           ],
           [
             25,
-            "Safeguard"
+            "Curse"
           ],
           [
             28,
@@ -6470,9 +6359,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 177,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 73,
         "at": 76,
@@ -6497,7 +6383,7 @@ overrides = {
           ],
           [
             7,
-            "Quick Attack"
+            "Confuse Ray"
           ],
           [
             10,
@@ -6513,7 +6399,7 @@ overrides = {
           ],
           [
             19,
-            "Confuse Ray"
+            "Safeguard"
           ],
           [
             22,
@@ -6521,7 +6407,7 @@ overrides = {
           ],
           [
             25,
-            "Safeguard"
+            "Curse"
           ],
           [
             28,
@@ -6659,9 +6545,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 170,
-      "baseExp": 95,
-      "expGroup": "Fast",
       "bs": {
         "hp": 115,
         "at": 73,
@@ -6868,9 +6751,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 50,
-      "baseExp": 191,
-      "expGroup": "Fast",
       "bs": {
         "hp": 140,
         "at": 93,
@@ -7082,9 +6962,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 49,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 65,
@@ -7231,9 +7108,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 159,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 80,
@@ -7409,9 +7283,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 64,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 45,
         "at": 50,
@@ -7464,7 +7335,7 @@ overrides = {
           ],
           [
             22,
-            "Double Slap"
+            "Trop Kick"
           ],
           [
             25,
@@ -7480,7 +7351,7 @@ overrides = {
           ],
           [
             34,
-            "Sludge"
+            "Double Slap"
           ],
           [
             37,
@@ -7593,9 +7464,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 138,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 65,
@@ -7648,7 +7516,7 @@ overrides = {
           ],
           [
             22,
-            "Double Slap"
+            "Trop Kick"
           ],
           [
             25,
@@ -7664,7 +7532,7 @@ overrides = {
           ],
           [
             34,
-            "Sludge"
+            "Double Slap"
           ],
           [
             37,
@@ -7793,9 +7661,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 216,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 75,
         "at": 80,
@@ -7848,7 +7713,7 @@ overrides = {
           ],
           [
             22,
-            "Double Slap"
+            "Trop Kick"
           ],
           [
             25,
@@ -7864,7 +7729,7 @@ overrides = {
           ],
           [
             34,
-            "Sludge"
+            "Double Slap"
           ],
           [
             37,
@@ -7987,9 +7852,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 57,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 85,
         "at": 75,
@@ -8161,9 +8023,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 142,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 105,
         "at": 95,
@@ -8356,9 +8215,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 55,
@@ -8520,9 +8376,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 158,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 55,
@@ -8708,9 +8561,6 @@ overrides = {
         "Soft Sand",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 53,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 10,
         "at": 85,
@@ -8860,9 +8710,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 50,
-      "baseExp": 142,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 35,
         "at": 110,
@@ -9026,9 +8873,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 48,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 40,
         "at": 65,
@@ -9209,9 +9053,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 154,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 105,
@@ -9413,9 +9254,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 64,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 52,
@@ -9617,9 +9455,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 175,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 102,
@@ -9829,9 +9664,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 80,
@@ -10007,9 +9839,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 159,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 105,
@@ -10199,9 +10028,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 70,
-      "expGroup": "Slow",
       "bs": {
         "hp": 55,
         "at": 70,
@@ -10375,9 +10201,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 194,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 110,
@@ -10549,9 +10372,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 60,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 50,
@@ -10711,9 +10531,6 @@ overrides = {
         "King's Rock",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 135,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 75,
@@ -10894,9 +10711,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 225,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 115,
@@ -11084,9 +10898,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 25,
         "at": 20,
@@ -11199,9 +11010,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 100,
-      "baseExp": 140,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 35,
@@ -11372,9 +11180,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 50,
-      "baseExp": 221,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 55,
         "at": 50,
@@ -11560,9 +11365,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 180,
-      "baseExp": 61,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 80,
@@ -11730,9 +11532,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 100,
@@ -11914,9 +11713,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 227,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 145,
@@ -12102,9 +11898,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 60,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 75,
@@ -12267,9 +12060,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 137,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 105,
@@ -12453,9 +12243,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 216,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 120,
@@ -12636,9 +12423,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 67,
-      "expGroup": "Slow",
       "bs": {
         "hp": 60,
         "at": 40,
@@ -12822,9 +12606,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 180,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 70,
@@ -13009,9 +12790,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 60,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 80,
@@ -13084,7 +12862,7 @@ overrides = {
           ],
           [
             45,
-            "Rest"
+            "Iron Defense"
           ],
           [
             48,
@@ -13175,9 +12953,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 137,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 95,
@@ -13250,7 +13025,7 @@ overrides = {
           ],
           [
             45,
-            "Rest"
+            "Iron Defense"
           ],
           [
             48,
@@ -13266,7 +13041,7 @@ overrides = {
           ],
           [
             57,
-            "Curse"
+            "Rest"
           ],
           [
             62,
@@ -13355,9 +13130,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 218,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 105,
         "at": 120,
@@ -13430,7 +13202,7 @@ overrides = {
           ],
           [
             45,
-            "Rest"
+            "Iron Defense"
           ],
           [
             48,
@@ -13446,7 +13218,7 @@ overrides = {
           ],
           [
             57,
-            "Curse"
+            "Rest"
           ],
           [
             62,
@@ -13537,9 +13309,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 82,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 85,
@@ -13719,9 +13488,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 175,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 120,
@@ -13912,9 +13678,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 63,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 65,
@@ -14106,9 +13869,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 172,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 95,
         "at": 125,
@@ -14306,9 +14066,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 65,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 25,
         "at": 35,
@@ -14461,9 +14218,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 163,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 60,
@@ -14641,9 +14395,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 123,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 72,
         "at": 65,
@@ -14837,9 +14588,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 62,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 35,
         "at": 85,
@@ -15011,9 +14759,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 161,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 125,
@@ -15186,9 +14931,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 65,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 45,
@@ -15360,9 +15102,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -15546,9 +15285,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 65,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 90,
@@ -15724,9 +15460,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 175,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 105,
         "at": 120,
@@ -15915,9 +15648,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 61,
-      "expGroup": "Slow",
       "bs": {
         "hp": 30,
         "at": 65,
@@ -16084,9 +15814,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 184,
-      "expGroup": "Slow",
       "bs": {
         "hp": 50,
         "at": 105,
@@ -16268,9 +15995,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 30,
         "at": 35,
@@ -16447,9 +16171,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 45,
         "at": 50,
@@ -16632,9 +16353,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 225,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 65,
@@ -16820,9 +16538,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 77,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 105,
@@ -17010,9 +16725,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 66,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 48,
@@ -17202,9 +16914,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 169,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 85,
         "at": 60,
@@ -17399,9 +17108,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 55,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 105,
@@ -17567,9 +17273,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 130,
@@ -17748,9 +17451,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 66,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 40,
         "at": 85,
@@ -17913,9 +17613,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 168,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 105,
@@ -18099,9 +17796,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 65,
-      "expGroup": "Slow",
       "bs": {
         "hp": 60,
         "at": 55,
@@ -18290,9 +17984,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 182,
-      "expGroup": "Slow",
       "bs": {
         "hp": 95,
         "at": 95,
@@ -18487,9 +18178,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 64,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 70,
@@ -18671,9 +18359,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 149,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 90,
@@ -18863,9 +18548,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 159,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 120,
@@ -19039,9 +18721,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 159,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 105,
@@ -19223,9 +18902,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 77,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 90,
         "at": 75,
@@ -19423,9 +19099,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 68,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 65,
@@ -19587,9 +19260,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 172,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 60,
@@ -19754,9 +19424,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 69,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 85,
@@ -19942,9 +19609,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 170,
-      "expGroup": "Slow",
       "bs": {
         "hp": 105,
         "at": 130,
@@ -20143,9 +19807,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 395,
-      "expGroup": "Fast",
       "bs": {
         "hp": 250,
         "at": 55,
@@ -20330,9 +19991,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 87,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 55,
@@ -20511,9 +20169,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 172,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 105,
         "at": 115,
@@ -20704,9 +20359,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 59,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 65,
@@ -20867,9 +20519,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 154,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 85,
@@ -21050,9 +20699,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 64,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 82,
@@ -21218,9 +20864,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 158,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 112,
@@ -21380,9 +21023,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 68,
-      "expGroup": "Slow",
       "bs": {
         "hp": 50,
         "at": 45,
@@ -21592,9 +21232,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 182,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 60,
@@ -21795,9 +21432,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 161,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 100,
@@ -22002,9 +21636,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 100,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 110,
@@ -22177,9 +21808,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 159,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 40,
@@ -22352,9 +21980,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 172,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 100,
@@ -22516,9 +22141,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 85,
@@ -22691,9 +22313,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 175,
-      "expGroup": "Slow",
       "bs": {
         "hp": 75,
         "at": 125,
@@ -22873,9 +22492,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 172,
-      "expGroup": "Slow",
       "bs": {
         "hp": 90,
         "at": 110,
@@ -23046,9 +22662,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 40,
-      "expGroup": "Slow",
       "bs": {
         "hp": 20,
         "at": 10,
@@ -23111,9 +22724,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 189,
-      "expGroup": "Slow",
       "bs": {
         "hp": 95,
         "at": 125,
@@ -23288,9 +22898,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 187,
-      "expGroup": "Slow",
       "bs": {
         "hp": 130,
         "at": 85,
@@ -23481,9 +23088,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 35,
-      "baseExp": 101,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 110,
         "at": 48,
@@ -23519,9 +23123,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 65,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 75,
@@ -23708,9 +23309,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 184,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 150,
         "at": 65,
@@ -23896,9 +23494,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 184,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 65,
@@ -24083,9 +23678,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 184,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 110,
         "at": 130,
@@ -24273,9 +23865,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 79,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 60,
@@ -24434,9 +24023,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 71,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 35,
         "at": 40,
@@ -24592,9 +24178,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 60,
@@ -24763,9 +24346,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 71,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 30,
         "at": 80,
@@ -24955,9 +24535,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 140,
@@ -25156,9 +24733,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 180,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 110,
@@ -25330,9 +24904,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 189,
-      "expGroup": "Slow",
       "bs": {
         "hp": 160,
         "at": 110,
@@ -25523,9 +25094,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 90,
         "at": 85,
@@ -25645,9 +25213,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 90,
         "at": 90,
@@ -25773,9 +25338,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 90,
         "at": 100,
@@ -25901,9 +25463,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 60,
-      "expGroup": "Slow",
       "bs": {
         "hp": 41,
         "at": 64,
@@ -26072,9 +25631,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 147,
-      "expGroup": "Slow",
       "bs": {
         "hp": 81,
         "at": 84,
@@ -26258,9 +25814,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 91,
         "at": 104,
@@ -26454,9 +26007,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 106,
         "at": 110,
@@ -26643,9 +26193,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 270,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -26892,9 +26439,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 64,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 47,
         "at": 67,
@@ -27061,9 +26605,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 87,
@@ -27252,9 +26793,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 236,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 102,
@@ -27441,9 +26979,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 39,
         "at": 52,
@@ -27614,9 +27149,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 58,
         "at": 64,
@@ -27793,9 +27325,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 240,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 78,
         "at": 84,
@@ -27974,9 +27503,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 63,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 56,
         "at": 65,
@@ -27993,7 +27519,7 @@ overrides = {
           ],
           [
             1,
-            "Barrage"
+            "Water Gun"
           ],
           [
             1,
@@ -28154,9 +27680,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 85,
@@ -28173,7 +27696,7 @@ overrides = {
           ],
           [
             1,
-            "Barrage"
+            "Water Gun"
           ],
           [
             1,
@@ -28356,9 +27879,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 239,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 85,
         "at": 115,
@@ -28548,9 +28068,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 38,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 60,
@@ -28721,9 +28238,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 145,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 95,
         "at": 85,
@@ -28904,9 +28418,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 44,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 30,
@@ -29067,9 +28578,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 155,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 100,
         "at": 50,
@@ -29239,9 +28747,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 43,
-      "expGroup": "Fast",
       "bs": {
         "hp": 40,
         "at": 60,
@@ -29434,9 +28939,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 137,
-      "expGroup": "Fast",
       "bs": {
         "hp": 55,
         "at": 90,
@@ -29634,9 +29136,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 50,
-      "expGroup": "Fast",
       "bs": {
         "hp": 50,
         "at": 70,
@@ -29785,9 +29284,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 137,
-      "expGroup": "Fast",
       "bs": {
         "hp": 75,
         "at": 100,
@@ -29949,9 +29445,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 241,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 110,
@@ -30132,9 +29625,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 66,
-      "expGroup": "Slow",
       "bs": {
         "hp": 75,
         "at": 38,
@@ -30297,9 +29787,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 161,
-      "expGroup": "Slow",
       "bs": {
         "hp": 125,
         "at": 58,
@@ -30474,9 +29961,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 41,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 40,
         "at": 60,
@@ -30617,9 +30101,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 150,
-      "baseExp": 44,
-      "expGroup": "Fast",
       "bs": {
         "hp": 60,
         "at": 25,
@@ -30793,9 +30274,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 170,
-      "baseExp": 42,
-      "expGroup": "Fast",
       "bs": {
         "hp": 90,
         "at": 53,
@@ -30988,9 +30466,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 49,
-      "expGroup": "Fast",
       "bs": {
         "hp": 35,
         "at": 20,
@@ -31151,9 +30626,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 142,
-      "expGroup": "Fast",
       "bs": {
         "hp": 55,
         "at": 50,
@@ -31335,9 +30807,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 64,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 45,
@@ -31520,9 +30989,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 165,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 70,
@@ -31705,9 +31171,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 235,
-      "baseExp": 56,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 55,
         "at": 55,
@@ -31878,9 +31341,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 128,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -32065,9 +31525,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 225,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 105,
@@ -32263,9 +31720,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 216,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 75,
         "at": 115,
@@ -32334,7 +31788,7 @@ overrides = {
           ],
           [
             34,
-            "Double Slap"
+            "Moonblast"
           ],
           [
             37,
@@ -32346,7 +31800,7 @@ overrides = {
           ],
           [
             43,
-            "Play Rough"
+            "Double Slap"
           ],
           [
             45,
@@ -32463,9 +31917,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 88,
-      "expGroup": "Fast",
       "bs": {
         "hp": 70,
         "at": 50,
@@ -32659,9 +32110,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 185,
-      "expGroup": "Fast",
       "bs": {
         "hp": 100,
         "at": 70,
@@ -32854,9 +32302,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 65,
-      "baseExp": 144,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 100,
@@ -33052,9 +32497,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 225,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 75,
@@ -33243,9 +32685,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 50,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 35,
         "at": 55,
@@ -33412,9 +32851,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 119,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 55,
         "at": 75,
@@ -33587,9 +33023,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 203,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 75,
         "at": 95,
@@ -33764,9 +33197,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 72,
-      "expGroup": "Fast",
       "bs": {
         "hp": 65,
         "at": 75,
@@ -33927,9 +33357,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 235,
-      "baseExp": 36,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 60,
@@ -34098,9 +33525,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 149,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 75,
@@ -34268,9 +33692,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 125,
-      "baseExp": 78,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 65,
@@ -34434,9 +33855,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 42,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 75,
@@ -34603,9 +34021,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 151,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 95,
         "at": 105,
@@ -34784,9 +34199,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 184,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 65,
@@ -34978,9 +34390,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 184,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 95,
         "at": 65,
@@ -35166,9 +34575,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 50,
-      "baseExp": 81,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 85,
@@ -35346,9 +34752,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 70,
-      "baseExp": 172,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 95,
         "at": 75,
@@ -35546,9 +34949,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 87,
-      "expGroup": "Fast",
       "bs": {
         "hp": 60,
         "at": 60,
@@ -35722,9 +35122,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 118,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 78,
         "at": 102,
@@ -35877,9 +35274,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 240,
         "at": 33,
@@ -35946,9 +35340,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 159,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 100,
@@ -36145,9 +35536,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 48,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 65,
@@ -36313,9 +35701,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 163,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 95,
@@ -36502,9 +35887,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 145,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 140,
         "at": 90,
@@ -36701,9 +36083,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 86,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 75,
@@ -36884,9 +36263,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 179,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 105,
@@ -37067,9 +36443,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 50,
-      "expGroup": "Fast",
       "bs": {
         "hp": 60,
         "at": 80,
@@ -37256,9 +36629,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 158,
-      "expGroup": "Fast",
       "bs": {
         "hp": 90,
         "at": 120,
@@ -37458,9 +36828,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 86,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 115,
@@ -37643,9 +37010,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 175,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 130,
@@ -37811,9 +37175,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 177,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 10,
@@ -37980,9 +37341,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 175,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 125,
@@ -38162,9 +37520,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 86,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 55,
         "at": 95,
@@ -38332,9 +37687,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 66,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 80,
@@ -38500,7 +37852,7 @@ overrides = {
       "abs": [
         "Guts",
         "Quick Feet",
-        "Sap Sipper"
+        "Honey Gather"
       ],
       "evos": [
         "Ursaring"
@@ -38524,9 +37876,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 175,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 90,
         "at": 130,
@@ -38725,9 +38074,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 50,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 40,
@@ -38895,9 +38241,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 144,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 50,
@@ -39070,9 +38413,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 50,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 70,
@@ -39233,9 +38573,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 158,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -39410,9 +38747,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 133,
-      "expGroup": "Fast",
       "bs": {
         "hp": 75,
         "at": 75,
@@ -39606,9 +38940,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 60,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 35,
         "at": 85,
@@ -39792,9 +39123,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 168,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 105,
@@ -39991,9 +39319,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 116,
-      "expGroup": "Fast",
       "bs": {
         "hp": 45,
         "at": 100,
@@ -40164,9 +39489,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 163,
-      "expGroup": "Slow",
       "bs": {
         "hp": 65,
         "at": 40,
@@ -40324,9 +39646,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 163,
-      "expGroup": "Slow",
       "bs": {
         "hp": 65,
         "at": 100,
@@ -40482,9 +39801,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 56,
-      "expGroup": "Slow",
       "bs": {
         "hp": 45,
         "at": 70,
@@ -40646,9 +39962,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 175,
-      "expGroup": "Slow",
       "bs": {
         "hp": 75,
         "at": 105,
@@ -40823,9 +40136,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 243,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 95,
@@ -41011,9 +40321,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 53,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 90,
         "at": 60,
@@ -41180,9 +40487,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 175,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 90,
         "at": 120,
@@ -41351,9 +40655,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 180,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 85,
         "at": 80,
@@ -41522,9 +40823,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 163,
-      "expGroup": "Slow",
       "bs": {
         "hp": 95,
         "at": 105,
@@ -41720,9 +41018,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 88,
-      "expGroup": "Fast",
       "bs": {
         "hp": 55,
         "at": 85,
@@ -41996,9 +41291,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 42,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 75,
@@ -42136,9 +41428,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 159,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 95,
@@ -42313,9 +41602,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 30,
@@ -42483,9 +41769,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 72,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 78,
@@ -42641,9 +41924,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 73,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 75,
@@ -42805,9 +42085,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 172,
-      "expGroup": "Slow",
       "bs": {
         "hp": 95,
         "at": 100,
@@ -42991,9 +42268,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 608,
-      "expGroup": "Fast",
       "bs": {
         "hp": 255,
         "at": 75,
@@ -43181,9 +42455,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 90,
         "at": 125,
@@ -43315,9 +42586,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 115,
         "at": 165,
@@ -43449,9 +42717,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 75,
@@ -43584,9 +42849,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 60,
-      "expGroup": "Slow",
       "bs": {
         "hp": 60,
         "at": 74,
@@ -43761,9 +43023,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 144,
-      "expGroup": "Slow",
       "bs": {
         "hp": 70,
         "at": 104,
@@ -43952,9 +43211,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 134,
@@ -44142,9 +43398,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 106,
         "at": 90,
@@ -44308,9 +43561,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 106,
         "at": 130,
@@ -44467,9 +43717,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 270,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -44615,9 +43862,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 65,
@@ -44799,9 +44043,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 85,
@@ -44993,9 +44234,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 239,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 100,
@@ -45193,9 +44431,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 45,
         "at": 60,
@@ -45368,9 +44603,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 85,
@@ -45553,9 +44785,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 239,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 120,
@@ -45748,9 +44977,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 70,
@@ -45771,7 +44997,7 @@ overrides = {
           ],
           [
             3,
-            "Barrage"
+            "Water Gun"
           ],
           [
             7,
@@ -45912,9 +45138,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 85,
@@ -45935,7 +45158,7 @@ overrides = {
           ],
           [
             3,
-            "Barrage"
+            "Water Gun"
           ],
           [
             7,
@@ -46090,9 +45313,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 241,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 100,
         "at": 110,
@@ -46274,9 +45494,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 44,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 75,
@@ -46427,9 +45644,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 127,
-      "baseExp": 147,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 110,
@@ -46589,9 +45803,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 48,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 58,
         "at": 75,
@@ -46748,9 +45959,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 147,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 115,
@@ -46920,9 +46128,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 39,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 45,
@@ -46996,9 +46201,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 72,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 55,
@@ -47090,9 +46292,6 @@ overrides = {
         "Shed Shell",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 50,
@@ -47258,9 +46457,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 41,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 55,
@@ -47352,9 +46548,6 @@ overrides = {
         "Shed Shell",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 135,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 30,
@@ -47521,9 +46714,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 44,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 30,
@@ -47670,9 +46860,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 119,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 50,
@@ -47844,9 +47031,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 216,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 70,
@@ -48026,9 +47210,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 44,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 70,
@@ -48176,9 +47357,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 119,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 95,
@@ -48359,9 +47537,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 216,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 100,
@@ -48555,9 +47730,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 54,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 65,
@@ -48703,9 +47875,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 151,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 100,
@@ -48860,9 +48029,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 54,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 30,
@@ -49032,9 +48198,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 151,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 50,
@@ -49213,9 +48376,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 235,
-      "baseExp": 40,
-      "expGroup": "Slow",
       "bs": {
         "hp": 43,
         "at": 25,
@@ -49380,9 +48540,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 97,
-      "expGroup": "Slow",
       "bs": {
         "hp": 48,
         "at": 35,
@@ -49560,9 +48717,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 233,
-      "expGroup": "Slow",
       "bs": {
         "hp": 68,
         "at": 65,
@@ -49752,9 +48906,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 54,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 30,
@@ -49893,9 +49044,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 145,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 60,
@@ -50078,9 +49226,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 59,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 60,
         "at": 60,
@@ -50229,9 +49374,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 161,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 60,
         "at": 130,
@@ -50416,9 +49558,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 46,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 80,
@@ -50577,9 +49716,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 154,
-      "expGroup": "Slow",
       "bs": {
         "hp": 90,
         "at": 90,
@@ -50763,9 +49899,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 252,
-      "expGroup": "Slow",
       "bs": {
         "hp": 150,
         "at": 160,
@@ -50951,9 +50084,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 53,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 51,
         "at": 74,
@@ -51092,9 +50222,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 160,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 61,
         "at": 119,
@@ -51248,9 +50375,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 83,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 31,
         "at": 90,
@@ -51409,9 +50533,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 48,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 64,
         "at": 51,
@@ -51583,9 +50704,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 126,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 84,
         "at": 71,
@@ -51779,9 +50897,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 216,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 104,
         "at": 91,
@@ -51974,9 +51089,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 180,
-      "baseExp": 47,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 114,
         "at": 80,
@@ -52121,9 +51233,6 @@ overrides = {
         "King's Rock",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 166,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 144,
         "at": 120,
@@ -52294,9 +51403,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 150,
-      "baseExp": 38,
-      "expGroup": "Fast",
       "bs": {
         "hp": 60,
         "at": 35,
@@ -52435,9 +51541,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 75,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 45,
@@ -52605,9 +51708,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 52,
-      "expGroup": "Fast",
       "bs": {
         "hp": 50,
         "at": 75,
@@ -52800,9 +51900,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 133,
-      "expGroup": "Fast",
       "bs": {
         "hp": 70,
         "at": 105,
@@ -52998,9 +52095,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 133,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 118,
@@ -53186,9 +52280,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 133,
-      "expGroup": "Fast",
       "bs": {
         "hp": 75,
         "at": 100,
@@ -53374,9 +52465,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 180,
-      "baseExp": 66,
-      "expGroup": "Slow",
       "bs": {
         "hp": 50,
         "at": 70,
@@ -53565,9 +52653,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 151,
-      "expGroup": "Slow",
       "bs": {
         "hp": 60,
         "at": 90,
@@ -53770,9 +52855,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 239,
-      "expGroup": "Slow",
       "bs": {
         "hp": 70,
         "at": 110,
@@ -53978,9 +53060,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 180,
-      "baseExp": 56,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 30,
         "at": 55,
@@ -54152,9 +53231,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 144,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 75,
@@ -54346,9 +53422,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 59,
-      "expGroup": "Slow",
       "bs": {
         "hp": 50,
         "at": 80,
@@ -54513,9 +53586,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 166,
-      "expGroup": "Slow",
       "bs": {
         "hp": 70,
         "at": 115,
@@ -54694,9 +53764,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 142,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 50,
@@ -54880,9 +53947,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 142,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 95,
         "at": 40,
@@ -55069,9 +54133,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 150,
-      "baseExp": 140,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 95,
         "at": 75,
@@ -55256,9 +54317,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 150,
-      "baseExp": 140,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 80,
         "at": 100,
@@ -55443,9 +54501,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 150,
-      "baseExp": 140,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 60,
@@ -55606,9 +54661,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 60,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 70,
         "at": 53,
@@ -55693,7 +54745,7 @@ overrides = {
           ],
           [
             48,
-            "Curse"
+            "Bulk Up"
           ],
           [
             52,
@@ -55792,9 +54844,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 163,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 100,
         "at": 83,
@@ -55879,7 +54928,7 @@ overrides = {
           ],
           [
             48,
-            "Curse"
+            "Bulk Up"
           ],
           [
             52,
@@ -55972,9 +55021,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 61,
-      "expGroup": "Slow",
       "bs": {
         "hp": 45,
         "at": 90,
@@ -56135,9 +55181,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 161,
-      "expGroup": "Slow",
       "bs": {
         "hp": 70,
         "at": 120,
@@ -56310,9 +55353,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 125,
-      "baseExp": 80,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 130,
         "at": 70,
@@ -56492,9 +55532,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 175,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 170,
         "at": 90,
@@ -56672,9 +55709,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 110,
         "at": 60,
@@ -56755,7 +55789,7 @@ overrides = {
           ],
           [
             45,
-            "Curse"
+            "Will-O-Wisp"
           ],
           [
             49,
@@ -56853,9 +55887,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 150,
-      "baseExp": 161,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 120,
         "at": 100,
@@ -56936,7 +55967,7 @@ overrides = {
           ],
           [
             45,
-            "Curse"
+            "Will-O-Wisp"
           ],
           [
             49,
@@ -57042,12 +56073,9 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 165,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
-        "at": 85,
+        "at": 95,
         "df": 180,
         "sa": 95,
         "sd": 100,
@@ -57065,7 +56093,7 @@ overrides = {
           ],
           [
             1,
-            "Rapid Spin"
+            "Yawn"
           ],
           [
             7,
@@ -57081,7 +56109,7 @@ overrides = {
           ],
           [
             20,
-            "Temper Flare"
+            "Rapid Spin"
           ],
           [
             25,
@@ -57089,11 +56117,11 @@ overrides = {
           ],
           [
             28,
-            "Yawn"
+            "Bulldoze"
           ],
           [
             31,
-            "Lava Plume"
+            "Temper Flare"
           ],
           [
             35,
@@ -57101,11 +56129,11 @@ overrides = {
           ],
           [
             38,
-            "Amnesia"
+            "Snore"
           ],
           [
             41,
-            "Heat Crash"
+            "Lava Plume"
           ],
           [
             45,
@@ -57113,7 +56141,7 @@ overrides = {
           ],
           [
             48,
-            "Curse"
+            "Amnesia"
           ],
           [
             51,
@@ -57121,7 +56149,7 @@ overrides = {
           ],
           [
             55,
-            "Heat Wave"
+            "Heat Crash"
           ],
           [
             60,
@@ -57215,9 +56243,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 66,
-      "expGroup": "Fast",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -57393,9 +56418,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 165,
-      "expGroup": "Fast",
       "bs": {
         "hp": 95,
         "at": 105,
@@ -57596,16 +56618,13 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 126,
-      "expGroup": "Fast",
       "bs": {
-        "hp": 90,
-        "at": 90,
-        "df": 90,
-        "sa": 90,
-        "sd": 90,
-        "sp": 90
+        "hp": 95,
+        "at": 95,
+        "df": 95,
+        "sa": 95,
+        "sd": 95,
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -57798,9 +56817,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 58,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 55,
         "at": 100,
@@ -57966,9 +56982,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 119,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -58160,9 +57173,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 234,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 100,
@@ -58361,9 +57371,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 67,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 85,
@@ -58539,9 +57546,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 166,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 115,
@@ -58734,9 +57738,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 62,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 45,
         "at": 55,
@@ -58926,9 +57927,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 172,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 75,
         "at": 100,
@@ -59122,9 +58120,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 160,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 88,
         "at": 115,
@@ -59318,9 +58313,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 160,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 73,
         "at": 100,
@@ -59513,9 +58505,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 154,
-      "expGroup": "Fast",
       "bs": {
         "hp": 90,
         "at": 55,
@@ -59715,9 +58704,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 154,
-      "expGroup": "Fast",
       "bs": {
         "hp": 70,
         "at": 55,
@@ -59919,9 +58905,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 48,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 48,
@@ -60080,9 +59063,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 164,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 110,
         "at": 78,
@@ -60273,9 +59253,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 205,
-      "baseExp": 62,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 63,
         "at": 80,
@@ -60449,9 +59426,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 155,
-      "baseExp": 164,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 83,
         "at": 120,
@@ -60642,9 +59616,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 60,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 40,
         "at": 40,
@@ -60825,9 +59796,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 175,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 70,
@@ -61009,9 +59977,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 61,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 66,
         "at": 41,
@@ -61170,9 +60135,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 136,
         "at": 51,
@@ -61352,9 +60314,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 71,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 45,
         "at": 95,
@@ -61529,9 +60488,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 75,
         "at": 125,
@@ -61624,7 +60580,7 @@ overrides = {
           ],
           [
             60,
-            "Curse"
+            "Hone Claws"
           ],
           [
             65,
@@ -61722,9 +60678,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 40,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 20,
         "at": 15,
@@ -61824,9 +60777,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 189,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 95,
         "at": 100,
@@ -62019,9 +60969,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 147,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -62216,9 +61163,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 154,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 85,
         "at": 100,
@@ -62416,9 +61360,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 49,
-      "expGroup": "Fast",
       "bs": {
         "hp": 64,
         "at": 75,
@@ -62571,9 +61512,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 159,
-      "expGroup": "Fast",
       "bs": {
         "hp": 84,
         "at": 115,
@@ -62750,9 +61688,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 59,
-      "expGroup": "Fast",
       "bs": {
         "hp": 20,
         "at": 40,
@@ -62909,9 +61844,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 159,
-      "expGroup": "Fast",
       "bs": {
         "hp": 55,
         "at": 95,
@@ -63087,9 +62019,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 161,
-      "expGroup": "Slow",
       "bs": {
         "hp": 99,
         "at": 68,
@@ -63265,9 +62194,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 149,
-      "expGroup": "Fast",
       "bs": {
         "hp": 75,
         "at": 50,
@@ -63456,9 +62382,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 163,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 130,
@@ -63657,9 +62580,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 125,
-      "baseExp": 52,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 140,
         "at": 23,
@@ -63732,9 +62652,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 60,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -63884,9 +62801,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 168,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 120,
@@ -64066,9 +62980,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 58,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 85,
         "at": 85,
@@ -64247,9 +63158,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 144,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -64430,9 +63338,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 239,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 130,
         "at": 130,
@@ -64623,9 +63528,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 69,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 55,
         "at": 64,
@@ -64762,9 +63664,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 170,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 74,
         "at": 114,
@@ -64950,9 +63849,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 170,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 74,
         "at": 52,
@@ -65144,9 +64040,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 170,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 105,
@@ -65323,9 +64216,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 116,
-      "expGroup": "Fast",
       "bs": {
         "hp": 73,
         "at": 30,
@@ -65488,9 +64378,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 60,
-      "expGroup": "Slow",
       "bs": {
         "hp": 45,
         "at": 85,
@@ -65645,9 +64532,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 147,
-      "expGroup": "Slow",
       "bs": {
         "hp": 65,
         "at": 105,
@@ -65813,9 +64697,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 95,
         "at": 135,
@@ -66000,9 +64881,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 60,
-      "expGroup": "Slow",
       "bs": {
         "hp": 40,
         "at": 85,
@@ -66139,9 +65017,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 147,
-      "expGroup": "Slow",
       "bs": {
         "hp": 60,
         "at": 115,
@@ -66308,9 +65183,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 135,
@@ -66487,9 +65359,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 100,
@@ -66622,9 +65491,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 50,
@@ -66755,9 +65621,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 75,
@@ -66899,9 +65762,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 80,
@@ -67073,9 +65933,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 90,
@@ -67244,9 +66101,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 5,
-      "baseExp": 302,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -67375,9 +66229,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 5,
-      "baseExp": 302,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 150,
@@ -67521,9 +66372,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 105,
         "at": 150,
@@ -67677,9 +66525,6 @@ overrides = {
         "Star Piece",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -67836,9 +66681,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 50,
         "at": 150,
@@ -67999,9 +66841,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 64,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 55,
         "at": 70,
@@ -68154,9 +66993,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 75,
         "at": 89,
@@ -68323,9 +67159,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 236,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 95,
         "at": 109,
@@ -68418,7 +67251,7 @@ overrides = {
           ],
           [
             66,
-            "Curse"
+            "Growth"
           ],
           [
             70,
@@ -68502,9 +67335,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 44,
         "at": 61,
@@ -68675,9 +67505,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 64,
         "at": 85,
@@ -68870,9 +67697,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 240,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 76,
         "at": 104,
@@ -69071,9 +67895,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 63,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 53,
         "at": 51,
@@ -69232,9 +68053,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 64,
         "at": 56,
@@ -69416,9 +68234,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 239,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 84,
         "at": 76,
@@ -69603,9 +68418,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 49,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 55,
@@ -69732,9 +68544,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 79,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 75,
         "at": 95,
@@ -69883,9 +68692,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 214,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 95,
         "at": 120,
@@ -70036,9 +68842,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 50,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 79,
         "at": 45,
@@ -70205,9 +69008,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 127,
-      "baseExp": 144,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 109,
         "at": 65,
@@ -70383,9 +69183,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 39,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 57,
         "at": 55,
@@ -70521,9 +69318,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 134,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 77,
         "at": 85,
@@ -70696,9 +69490,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 235,
-      "baseExp": 53,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 65,
@@ -70855,9 +69646,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 127,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 85,
@@ -71035,9 +69823,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 235,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 100,
         "at": 120,
@@ -71220,9 +70005,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 56,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 30,
@@ -71371,9 +70153,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 227,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 70,
@@ -71540,9 +70319,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 70,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 77,
         "at": 125,
@@ -71723,9 +70499,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 107,
         "at": 145,
@@ -71915,9 +70688,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 70,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 30,
         "at": 72,
@@ -72002,7 +70772,7 @@ overrides = {
           ],
           [
             54,
-            "Skull Bash"
+            "Head Smash"
           ]
         ],
         "tms": [
@@ -72092,9 +70862,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 60,
         "at": 102,
@@ -72179,15 +70946,15 @@ overrides = {
           ],
           [
             54,
-            "Skull Bash"
-          ],
-          [
-            59,
             "Head Smash"
           ],
           [
+            59,
+            "Skull Bash"
+          ],
+          [
             64,
-            "Curse"
+            "Protect"
           ],
           [
             70,
@@ -72273,9 +71040,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 45,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 40,
         "at": 29,
@@ -72364,9 +71128,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 148,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 100,
         "at": 39,
@@ -72540,9 +71301,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 148,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 134,
@@ -72708,9 +71466,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 49,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 70,
@@ -72857,9 +71612,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 166,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 90,
@@ -73037,9 +71789,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 142,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 45,
@@ -73201,9 +71950,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 66,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 75,
@@ -73360,9 +72106,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 85,
         "at": 110,
@@ -73544,9 +72287,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 55,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 70,
@@ -73706,9 +72446,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 158,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 115,
@@ -73889,9 +72626,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 55,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 91,
         "at": 48,
@@ -74053,9 +72787,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 111,
         "at": 83,
@@ -74241,9 +72972,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 169,
-      "expGroup": "Fast",
       "bs": {
         "hp": 75,
         "at": 100,
@@ -74413,9 +73141,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 125,
-      "baseExp": 70,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 120,
         "at": 50,
@@ -74590,9 +73315,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 174,
-      "expGroup": "Fluctuating",
       "bs": {
         "hp": 150,
         "at": 100,
@@ -74776,9 +73498,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 70,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 76,
@@ -74945,9 +73664,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 168,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 101,
@@ -75135,9 +73851,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Fast",
       "bs": {
         "hp": 60,
         "at": 60,
@@ -75310,9 +74023,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 177,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 100,
         "at": 125,
@@ -75493,9 +74203,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 50,
-      "expGroup": "Fast",
       "bs": {
         "hp": 61,
         "at": 70,
@@ -75652,9 +74359,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 158,
-      "expGroup": "Fast",
       "bs": {
         "hp": 117,
         "at": 102,
@@ -75828,9 +74532,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 57,
-      "expGroup": "Fast",
       "bs": {
         "hp": 55,
         "at": 30,
@@ -75974,9 +74675,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 225,
-      "baseExp": 66,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 73,
         "at": 50,
@@ -76149,9 +74847,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 168,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 103,
         "at": 82,
@@ -76333,9 +75028,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 60,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 57,
         "at": 44,
@@ -76508,9 +75200,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 175,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 67,
         "at": 94,
@@ -76692,9 +75381,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 58,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 85,
@@ -76897,9 +75583,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 145,
-      "baseExp": 62,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 35,
         "at": 70,
@@ -77086,9 +75769,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 130,
-      "baseExp": 110,
-      "expGroup": "Fast",
       "bs": {
         "hp": 180,
         "at": 40,
@@ -77232,9 +75912,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 144,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 76,
         "at": 65,
@@ -77387,9 +76064,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 100,
-      "baseExp": 170,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 108,
         "at": 100,
@@ -77545,9 +76219,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 60,
-      "expGroup": "Slow",
       "bs": {
         "hp": 58,
         "at": 70,
@@ -77698,9 +76369,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 144,
-      "expGroup": "Slow",
       "bs": {
         "hp": 68,
         "at": 110,
@@ -77873,9 +76541,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 108,
         "at": 130,
@@ -78050,9 +76715,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 50,
-      "baseExp": 78,
-      "expGroup": "Slow",
       "bs": {
         "hp": 135,
         "at": 85,
@@ -78209,9 +76871,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 57,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 80,
@@ -78383,9 +77042,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 184,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 110,
@@ -78575,9 +77231,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 140,
-      "baseExp": 66,
-      "expGroup": "Slow",
       "bs": {
         "hp": 68,
         "at": 72,
@@ -78730,9 +77383,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 184,
-      "expGroup": "Slow",
       "bs": {
         "hp": 108,
         "at": 112,
@@ -78895,9 +77545,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 66,
-      "expGroup": "Slow",
       "bs": {
         "hp": 40,
         "at": 50,
@@ -79069,9 +77716,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 175,
-      "expGroup": "Slow",
       "bs": {
         "hp": 70,
         "at": 100,
@@ -79252,9 +77896,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 140,
-      "baseExp": 60,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 58,
         "at": 61,
@@ -79444,9 +78085,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 172,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 83,
         "at": 106,
@@ -79641,9 +78279,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 159,
-      "expGroup": "Slow",
       "bs": {
         "hp": 99,
         "at": 130,
@@ -79826,9 +78461,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 66,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 59,
         "at": 49,
@@ -80020,9 +78652,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 161,
-      "expGroup": "Erratic",
       "bs": {
         "hp": 69,
         "at": 69,
@@ -80207,9 +78836,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 69,
-      "expGroup": "Slow",
       "bs": {
         "hp": 45,
         "at": 20,
@@ -80362,9 +78988,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 67,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 75,
@@ -80533,9 +79156,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 173,
-      "expGroup": "Slow",
       "bs": {
         "hp": 110,
         "at": 105,
@@ -80717,9 +79337,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 179,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 110,
@@ -80898,9 +79515,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 241,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -81071,9 +79685,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 180,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 110,
         "at": 105,
@@ -81276,9 +79887,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 241,
-      "expGroup": "Slow",
       "bs": {
         "hp": 115,
         "at": 140,
@@ -81468,9 +80076,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 187,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -81642,9 +80247,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 243,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 128,
@@ -81817,9 +80419,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 243,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 85,
         "at": 95,
@@ -81999,9 +80598,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 245,
-      "expGroup": "Fast",
       "bs": {
         "hp": 85,
         "at": 50,
@@ -82180,9 +80776,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 180,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 86,
         "at": 76,
@@ -82354,9 +80947,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 184,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 85,
         "at": 150,
@@ -82550,9 +81140,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 184,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 85,
         "at": 60,
@@ -82741,9 +81328,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 179,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 75,
         "at": 95,
@@ -82929,9 +81513,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 50,
-      "baseExp": 239,
-      "expGroup": "Slow",
       "bs": {
         "hp": 110,
         "at": 130,
@@ -83105,9 +81686,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 241,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 85,
         "at": 110,
@@ -83275,9 +81853,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 233,
-      "expGroup": "Slow",
       "bs": {
         "hp": 68,
         "at": 125,
@@ -83488,9 +82063,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 184,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 55,
@@ -83667,9 +82239,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 236,
-      "expGroup": "Fast",
       "bs": {
         "hp": 75,
         "at": 110,
@@ -83848,9 +82417,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 168,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 100,
@@ -84034,9 +82600,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 55,
-      "baseExp": 154,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 50,
@@ -84225,9 +82788,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 75,
         "at": 85,
@@ -84369,9 +82929,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 130,
@@ -84511,9 +83068,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 75,
         "at": 155,
@@ -84660,9 +83214,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 120,
@@ -84813,9 +83364,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 90,
         "at": 120,
@@ -84965,9 +83513,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 91,
         "at": 90,
@@ -85104,9 +83649,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 302,
-      "expGroup": "Slow",
       "bs": {
         "hp": 110,
         "at": 160,
@@ -85244,9 +83786,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 150,
         "at": 100,
@@ -85394,9 +83933,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 120,
         "at": 70,
@@ -85540,9 +84076,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 216,
-      "expGroup": "Slow",
       "bs": {
         "hp": 80,
         "at": 80,
@@ -85656,9 +84189,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -85790,9 +84320,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 70,
         "at": 90,
@@ -85936,9 +84463,6 @@ overrides = {
         "Lum Berry",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 270,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -86053,9 +84577,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 324,
-      "expGroup": "Slow",
       "bs": {
         "hp": 120,
         "at": 120,
@@ -86242,9 +84763,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -86410,9 +84928,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 45,
@@ -86584,9 +85099,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 145,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 60,
@@ -86780,9 +85292,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 238,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 75,
@@ -86986,9 +85495,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 74,
@@ -87165,9 +85671,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 146,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 93,
@@ -87358,9 +85861,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 238,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 110,
         "at": 123,
@@ -87569,9 +86069,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 70,
@@ -87768,9 +86265,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 145,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 85,
         "at": 92,
@@ -87969,9 +86463,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 238,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 105,
         "at": 125,
@@ -88176,9 +86667,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 51,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 70,
@@ -88340,9 +86828,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 147,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 90,
         "at": 95,
@@ -88517,9 +87002,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 55,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 65,
@@ -88664,9 +87146,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 130,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 80,
@@ -88821,9 +87300,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 221,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 85,
         "at": 110,
@@ -88985,9 +87461,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 56,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 62,
@@ -89171,9 +87644,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 156,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 64,
         "at": 97,
@@ -89350,9 +87820,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 53,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 65,
@@ -89526,9 +87993,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 174,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 103,
@@ -89721,9 +88185,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 53,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 65,
@@ -89899,9 +88360,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 174,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 103,
@@ -90096,9 +88554,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 53,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 65,
@@ -90275,9 +88730,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 174,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 103,
@@ -90474,9 +88926,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 58,
-      "expGroup": "Fast",
       "bs": {
         "hp": 76,
         "at": 25,
@@ -90661,9 +89110,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 170,
-      "expGroup": "Fast",
       "bs": {
         "hp": 116,
         "at": 55,
@@ -90853,9 +89299,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 53,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 65,
@@ -91002,9 +89445,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 125,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 62,
         "at": 87,
@@ -91165,9 +89605,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 215,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 115,
@@ -91335,9 +89772,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 59,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 83,
@@ -91514,9 +89948,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 174,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 113,
@@ -91703,9 +90134,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 56,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 55,
         "at": 25,
@@ -91868,9 +90296,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 137,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 35,
@@ -92043,9 +90468,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 227,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 85,
         "at": 50,
@@ -92226,9 +90648,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 63,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 65,
@@ -92398,9 +90817,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 149,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 67,
         "at": 97,
@@ -92590,9 +91006,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 66,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 85,
@@ -92757,9 +91170,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 178,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 110,
         "at": 135,
@@ -92929,9 +91339,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 390,
-      "expGroup": "Fast",
       "bs": {
         "hp": 103,
         "at": 85,
@@ -93133,9 +91540,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 180,
-      "baseExp": 61,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 75,
         "at": 90,
@@ -93296,9 +91700,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 142,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 85,
         "at": 105,
@@ -93465,9 +91866,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 227,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 105,
         "at": 140,
@@ -93641,9 +92039,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 59,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 50,
@@ -93812,9 +92207,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 134,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 85,
         "at": 75,
@@ -94004,9 +92396,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 225,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 105,
         "at": 100,
@@ -94197,9 +92586,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 163,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 130,
         "at": 115,
@@ -94368,9 +92754,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 163,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 95,
         "at": 125,
@@ -94539,9 +92922,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 62,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 45,
         "at": 53,
@@ -94675,9 +93055,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 133,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 65,
         "at": 63,
@@ -94836,9 +93213,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 221,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 75,
         "at": 128,
@@ -95026,9 +93400,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 52,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 55,
@@ -95182,9 +93553,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 126,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 70,
@@ -95352,9 +93720,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 214,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 100,
@@ -95533,9 +93898,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 56,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 40,
         "at": 62,
@@ -95716,9 +94078,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 168,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 97,
@@ -95909,9 +94268,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 56,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 35,
@@ -96087,9 +94443,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 168,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 60,
@@ -96276,9 +94629,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 161,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 120,
         "at": 92,
@@ -96456,9 +94806,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 180,
-      "baseExp": 58,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 72,
@@ -96633,9 +94980,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 123,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 82,
@@ -96820,9 +95164,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 229,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 95,
         "at": 117,
@@ -97009,9 +95350,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 63,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 70,
         "at": 90,
@@ -97198,9 +95536,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 168,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 105,
         "at": 140,
@@ -97390,9 +95725,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 161,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 86,
@@ -97569,9 +95901,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 65,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 75,
@@ -97664,11 +95993,11 @@ overrides = {
           ],
           [
             67,
-            "Curse"
+            "Rest"
           ],
           [
             72,
-            "Rest"
+            "Spikes"
           ],
           [
             77,
@@ -97754,9 +96083,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 105,
@@ -97849,11 +96175,11 @@ overrides = {
           ],
           [
             67,
-            "Curse"
+            "Rest"
           ],
           [
             72,
-            "Rest"
+            "Spikes"
           ],
           [
             77,
@@ -97932,9 +96258,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 180,
-      "baseExp": 70,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 75,
@@ -98126,9 +96449,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 171,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 105,
@@ -98313,9 +96633,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 172,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 72,
         "at": 58,
@@ -98508,9 +96825,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 48,
         "at": 30,
@@ -98685,9 +96999,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 169,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 68,
         "at": 50,
@@ -98853,9 +97164,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 71,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 54,
         "at": 78,
@@ -99046,9 +97354,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 74,
         "at": 108,
@@ -99232,9 +97537,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 71,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 112,
@@ -99416,9 +97718,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 177,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 140,
@@ -99597,9 +97896,6 @@ overrides = {
         "None",
         "Nugget"
       ],
-      "catchRate": 190,
-      "baseExp": 66,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 85,
@@ -99779,9 +98075,6 @@ overrides = {
         "Nugget",
         "Big Nugget"
       ],
-      "catchRate": 60,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 115,
@@ -99961,9 +98254,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 66,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 75,
@@ -100126,9 +98416,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 179,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 115,
@@ -100304,9 +98591,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 60,
-      "expGroup": "Fast",
       "bs": {
         "hp": 55,
         "at": 75,
@@ -100480,9 +98764,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 165,
-      "expGroup": "Fast",
       "bs": {
         "hp": 75,
         "at": 115,
@@ -100652,9 +98933,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 48,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 45,
         "at": 30,
@@ -100825,9 +99103,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 100,
-      "baseExp": 137,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 45,
@@ -101003,9 +99278,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 50,
-      "baseExp": 221,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 90,
         "at": 55,
@@ -101185,9 +99457,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 58,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 85,
         "at": 30,
@@ -101360,9 +99629,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 100,
-      "baseExp": 130,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 100,
         "at": 40,
@@ -101549,9 +99815,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 50,
-      "baseExp": 221,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 145,
         "at": 65,
@@ -101738,9 +100001,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 62,
         "at": 44,
@@ -101895,9 +100155,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 87,
@@ -102061,9 +100318,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 61,
-      "expGroup": "Slow",
       "bs": {
         "hp": 36,
         "at": 50,
@@ -102223,9 +100477,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 138,
-      "expGroup": "Slow",
       "bs": {
         "hp": 51,
         "at": 65,
@@ -102411,9 +100662,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 241,
-      "expGroup": "Slow",
       "bs": {
         "hp": 71,
         "at": 95,
@@ -102594,9 +100842,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 67,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 60,
         "at": 80,
@@ -102781,9 +101026,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 130,
@@ -102982,9 +101224,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 150,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 115,
@@ -103166,9 +101405,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 63,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 75,
@@ -103315,9 +101551,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 135,
@@ -103481,9 +101714,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 59,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 94,
         "at": 55,
@@ -103654,9 +101884,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 162,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 114,
         "at": 85,
@@ -103828,9 +102055,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 67,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 40,
@@ -103990,9 +102214,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 168,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 100,
         "at": 60,
@@ -104168,9 +102389,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 165,
-      "expGroup": "Fast",
       "bs": {
         "hp": 165,
         "at": 100,
@@ -104335,9 +102553,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 64,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 47,
@@ -104507,9 +102722,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 165,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 77,
@@ -104684,9 +102896,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 44,
         "at": 50,
@@ -104843,9 +103052,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 171,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 74,
         "at": 94,
@@ -105002,9 +103208,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 130,
-      "baseExp": 60,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 40,
         "at": 70,
@@ -105145,9 +103348,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 154,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 90,
@@ -105302,9 +103502,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 234,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 75,
         "at": 110,
@@ -105463,9 +103660,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 55,
-      "expGroup": "Slow",
       "bs": {
         "hp": 35,
         "at": 55,
@@ -105595,9 +103789,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 142,
-      "expGroup": "Slow",
       "bs": {
         "hp": 65,
         "at": 85,
@@ -105800,9 +103991,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 30,
-      "baseExp": 232,
-      "expGroup": "Slow",
       "bs": {
         "hp": 85,
         "at": 115,
@@ -106006,9 +104194,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 255,
-      "baseExp": 67,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 55,
@@ -106190,9 +104375,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 170,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 75,
         "at": 75,
@@ -106379,9 +104561,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 55,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 50,
         "at": 30,
@@ -106519,9 +104698,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 130,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 40,
@@ -106672,9 +104848,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 234,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 55,
@@ -106821,9 +104994,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 64,
-      "expGroup": "Slow",
       "bs": {
         "hp": 46,
         "at": 97,
@@ -106996,9 +105166,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 144,
-      "expGroup": "Slow",
       "bs": {
         "hp": 66,
         "at": 117,
@@ -107185,9 +105352,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 243,
-      "expGroup": "Slow",
       "bs": {
         "hp": 86,
         "at": 147,
@@ -107376,9 +105540,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 55,
         "at": 85,
@@ -107567,9 +105728,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 170,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 95,
         "at": 130,
@@ -107763,9 +105921,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 170,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 50,
@@ -107931,9 +106086,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 200,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 50,
         "at": 40,
@@ -108094,9 +106246,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 173,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 70,
@@ -108270,9 +106419,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 165,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 119,
         "at": 106,
@@ -108443,9 +106589,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 180,
-      "baseExp": 70,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 60,
         "at": 85,
@@ -108616,9 +106759,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 179,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 80,
         "at": 125,
@@ -108798,9 +106938,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 170,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 87,
         "at": 120,
@@ -108987,9 +107124,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 61,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 89,
         "at": 94,
@@ -109173,9 +107307,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 169,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 109,
         "at": 124,
@@ -109364,9 +107495,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 120,
-      "baseExp": 68,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 45,
         "at": 85,
@@ -109525,9 +107653,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 172,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 140,
@@ -109695,9 +107820,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 172,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 130,
         "at": 140,
@@ -109863,9 +107985,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 70,
-      "expGroup": "Slow",
       "bs": {
         "hp": 70,
         "at": 83,
@@ -110011,9 +108130,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 179,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 123,
@@ -110160,9 +108276,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 74,
-      "expGroup": "Slow",
       "bs": {
         "hp": 70,
         "at": 65,
@@ -110324,9 +108437,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 179,
-      "expGroup": "Slow",
       "bs": {
         "hp": 110,
         "at": 90,
@@ -110489,9 +108599,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 169,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 85,
         "at": 109,
@@ -110678,9 +108785,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 90,
-      "baseExp": 169,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 58,
         "at": 109,
@@ -110846,9 +108950,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 60,
-      "expGroup": "Slow",
       "bs": {
         "hp": 52,
         "at": 75,
@@ -111022,9 +109123,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 147,
-      "expGroup": "Slow",
       "bs": {
         "hp": 72,
         "at": 105,
@@ -111204,9 +109302,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 92,
         "at": 105,
@@ -111405,9 +109500,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 72,
-      "expGroup": "Slow",
       "bs": {
         "hp": 55,
         "at": 85,
@@ -111560,9 +109652,6 @@ overrides = {
         "SilverPowder",
         "None"
       ],
-      "catchRate": 15,
-      "baseExp": 248,
-      "expGroup": "Slow",
       "bs": {
         "hp": 85,
         "at": 60,
@@ -111732,9 +109821,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 91,
         "at": 110,
@@ -111873,9 +109959,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 91,
         "at": 159,
@@ -112013,9 +110096,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 91,
         "at": 130,
@@ -112152,9 +110232,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 79,
         "at": 115,
@@ -112306,9 +110383,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 79,
         "at": 115,
@@ -112463,9 +110537,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 120,
@@ -112616,9 +110687,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 150,
@@ -112772,9 +110840,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 89,
         "at": 125,
@@ -112927,9 +110992,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 297,
-      "expGroup": "Slow",
       "bs": {
         "hp": 125,
         "at": 130,
@@ -113076,9 +111138,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 96,
         "at": 92,
@@ -113215,9 +111274,6 @@ overrides = {
         "Star Piece",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 77,
@@ -113386,9 +111442,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 71,
         "at": 120,
@@ -113556,9 +111609,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 5,
-      "baseExp": 302,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -113631,9 +111681,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 5,
-      "baseExp": 302,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -113706,9 +111753,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 115,
@@ -113892,9 +111936,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 110,
         "at": 100,
@@ -114077,9 +112118,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 100,
@@ -114265,9 +112303,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 190,
-      "baseExp": 55,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 91,
         "at": 63,
@@ -114429,9 +112464,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 75,
-      "baseExp": 166,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 111,
         "at": 102,
@@ -114604,9 +112636,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114642,9 +112671,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114680,9 +112706,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114719,9 +112742,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114758,9 +112778,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114796,9 +112813,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114834,9 +112848,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114873,9 +112884,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114912,9 +112920,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114950,9 +112955,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -114989,9 +112991,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115027,9 +113026,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115065,9 +113061,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115103,9 +113096,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115141,9 +113131,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115179,9 +113166,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115218,9 +113202,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115256,9 +113237,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115294,9 +113272,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115333,9 +113308,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115372,9 +113344,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115410,9 +113379,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115449,9 +113415,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115487,9 +113450,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115526,9 +113486,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115564,9 +113521,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 100,
@@ -115602,9 +113556,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 0,
-      "baseExp": 113,
-      "expGroup": "Fast",
       "bs": {
         "hp": 55,
         "at": 20,
@@ -115676,9 +113627,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 50,
         "at": 180,
@@ -115835,9 +113783,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 50,
         "at": 70,
@@ -115995,9 +113940,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 50,
         "at": 95,
@@ -116158,9 +114100,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 148,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 99,
@@ -116335,9 +114274,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 148,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 80,
         "at": 84,
@@ -116505,9 +114441,6 @@ overrides = {
         "Lum Berry",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 270,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 100,
         "at": 103,
@@ -116622,9 +114555,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 306,
-      "expGroup": "Slow",
       "bs": {
         "hp": 150,
         "at": 120,
@@ -116770,9 +114700,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 182,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 65,
@@ -116961,9 +114888,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 182,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 65,
@@ -117152,9 +115076,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 182,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 65,
@@ -117343,9 +115264,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 182,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 50,
@@ -117534,9 +115452,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 182,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 65,
         "at": 65,
@@ -117725,9 +115640,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 147,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -117922,9 +115834,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 147,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -118119,9 +116028,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 45,
-      "baseExp": 147,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 70,
         "at": 70,
@@ -118316,9 +116222,6 @@ overrides = {
         "DeepSeaScale",
         "None"
       ],
-      "catchRate": 25,
-      "baseExp": 161,
-      "expGroup": "Medium Fast",
       "bs": {
         "hp": 120,
         "at": 112,
@@ -118496,9 +116399,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 60,
-      "baseExp": 189,
-      "expGroup": "Medium Slow",
       "bs": {
         "hp": 105,
         "at": 30,
@@ -118685,9 +116585,6 @@ overrides = {
         "Star Piece",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 100,
         "at": 128,
@@ -118856,9 +116753,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 315,
-      "expGroup": "Slow",
       "bs": {
         "hp": 125,
         "at": 120,
@@ -119005,9 +116899,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 315,
-      "expGroup": "Slow",
       "bs": {
         "hp": 125,
         "at": 170,
@@ -119154,9 +117045,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 91,
         "at": 72,
@@ -119292,9 +117180,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 79,
         "at": 100,
@@ -119446,9 +117331,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 261,
-      "expGroup": "Slow",
       "bs": {
         "hp": 79,
         "at": 105,
@@ -119603,9 +117485,6 @@ overrides = {
         "None",
         "None"
       ],
-      "catchRate": 3,
-      "baseExp": 270,
-      "expGroup": "Slow",
       "bs": {
         "hp": 89,
         "at": 145,
@@ -122845,8 +120724,7 @@ overrides = {
       "name": "Megahorn",
       "num": 223,
       "e_id": 6,
-      "desc": "Using its tough and impressive horn, the user rams into the target. The impact may leave the target paralyzed.",
-      "oldDesc": "Using its tough and impressive horn, the user rams into the target with no letup.",
+      "desc": "Using its tough and impressive horn, the user rams into the target with no letup.",
       "sf": true
     },
     "Dragon Breath": {
@@ -123207,8 +121085,8 @@ overrides = {
       "t": "Normal",
       "bp": 40,
       "cat": "Physical",
-      "pp": 10,
-      "acc": 100,
+      "pp": 3,
+      "acc": 101,
       "prio": 3,
       "name": "Fake Out",
       "num": 251,
@@ -123505,7 +121383,7 @@ overrides = {
     "Supercell Slam": {
       "t": "Electric",
       "bp": 130,
-      "cat": "Physical",
+      "cat": "physical",
       "pp": 10,
       "acc": 90,
       "prio": 0,
@@ -156007,7 +153885,7 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.",
-      "location": "Relic Sanctum, Victory Road, Victory Road, Victory Road, Village Bridge, Route 3, Route 13",
+      "location": "",
       "rewards": [
         "Youngster Kevin",
         "Clerk  M Fredric",
@@ -156079,7 +153957,7 @@ overrides = {
     "diveball": {
       "name": "Dive Ball",
       "desc": "A somewhat different Poké Ball that works especially well on Pokémon that live underwater.",
-      "location": "Route 17",
+      "location": "",
       "rewards": [
         "Fisherman Devon"
       ],
@@ -156102,7 +153980,7 @@ overrides = {
     "repeatball": {
       "name": "Repeat Ball",
       "desc": "A somewhat different Poké Ball that works especially well on Pokémon species that were previously caught.",
-      "location": "Route 23",
+      "location": "",
       "marts": [
         "Accumula Town Upper Cashier",
         "Victory Road Upper",
@@ -156112,7 +153990,7 @@ overrides = {
     "timerball": {
       "name": "Timer Ball",
       "desc": "A somewhat different Ball that becomes progressively better the more turns there are in a battle.",
-      "location": "Route 12, Lacunosa Town",
+      "location": "",
       "marts": [
         "Icirrus City Upper Cashier",
         "Opelucid City Upper Cashier",
@@ -156124,7 +154002,7 @@ overrides = {
     "luxuryball": {
       "name": "Luxury Ball",
       "desc": "A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.",
-      "location": "N's Castle, Route 13",
+      "location": "",
       "marts": [
         "Victory Road Upper",
         "Victory Road Upper 2",
@@ -156139,7 +154017,7 @@ overrides = {
     "duskball": {
       "name": "Dusk Ball",
       "desc": "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.",
-      "location": "Twist Mountain",
+      "location": "",
       "rewards": [
         "Roughneck Fletcher"
       ],
@@ -156166,7 +154044,7 @@ overrides = {
     "quickball": {
       "name": "Quick Ball",
       "desc": "A somewhat different Poké Ball that provides a better catch rate if it is used at the start of a wild encounter.",
-      "location": "Route 3, Route 9",
+      "location": "",
       "rewards": [
         "Pilot Leonard"
       ],
@@ -156228,7 +154106,7 @@ overrides = {
     "fullrestore": {
       "name": "Full Restore",
       "desc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
-      "location": "Twist Mountain, Victory Road, Victory Road, Victory Road, Seaside Cave, Route 1, Route 3",
+      "location": "",
       "rewards": [
         "Striker Roberto - Driftveil Drawbridge",
         "Smasher Elena - Driftveil Drawbridge",
@@ -156254,7 +154132,7 @@ overrides = {
     "maxpotion": {
       "name": "Max Potion",
       "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
-      "location": "Nature Preserve, Route 12, Route 15, Route 23",
+      "location": "",
       "rewards": [
         "Cosplayer Anders - Join Avenue",
         "Girl in Suit Donna - Join Avenue",
@@ -156274,7 +154152,7 @@ overrides = {
     "hyperpotion": {
       "name": "Hyper Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points.",
-      "location": "Chargestone Cave, Mistralton Cave, Route 13",
+      "location": "",
       "rewards": [
         "Smasher ",
         "Hoopster John - Chargestone Cave",
@@ -156302,7 +154180,7 @@ overrides = {
     "fullheal": {
       "name": "Full Heal",
       "desc": "A spray-type medicine. It heals all the status problems of a single Pokémon.",
-      "location": "Pinwheel Forest, Chargestone Cave, Route 11, Route 23, Lacunosa Town",
+      "location": "",
       "marts": [
         "Stock No Badges",
         "Stock 1+Badges",
@@ -156315,12 +154193,12 @@ overrides = {
     "revive": {
       "name": "Revive",
       "desc": "A medicine that revives a fainted Pokémon. It restores half the Pokémon's maximum HP.",
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "maxrevive": {
       "name": "Max Revive",
       "desc": "A medicine that revives a fainted Pokémon. It fully restores the Pokémon's HP.",
-      "location": "Victory Road, Plasma Frigate, Plasma Frigate, Clay Tunnel, Wellspring Cave",
+      "location": "",
       "rewards": [
         "Doctor Jules"
       ]
@@ -156405,17 +154283,17 @@ overrides = {
     "maxether": {
       "name": "Max Ether",
       "desc": "It fully restores the PP of a single selected move that has been learned by the target Pokémon.",
-      "location": "Route 13"
+      "location": ""
     },
     "elixir": {
       "name": "Elixir",
       "desc": "It restores the PP of all the moves learned by the targeted Pokémon by 10 points each.",
-      "location": "Route 9"
+      "location": ""
     },
     "maxelixir": {
       "name": "Max Elixir",
       "desc": "It fully restores the PP of all the moves learned by the targeted Pokémon.",
-      "location": "Icirrus City, Victory Road, Plasma Frigate, Plasma Frigate"
+      "location": ""
     },
     "lavacookie": {
       "name": "Lava Cookie",
@@ -156425,7 +154303,7 @@ overrides = {
     "berryjuice": {
       "name": "Berry Juice",
       "desc": "A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points.",
-      "location": "Route 4, Route 4, Pledge Grove",
+      "location": "",
       "marts": [
         "Stock 3+Badges",
         "Stock 5+Badges"
@@ -156439,12 +154317,12 @@ overrides = {
     "hpup": {
       "name": "HP Up",
       "desc": "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon.",
-      "location": "Pinwheel Forest, Route 9, Route 23"
+      "location": ""
     },
     "protein": {
       "name": "Protein",
       "desc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
-      "location": "Pinwheel Forest, N's Castle",
+      "location": "",
       "rewards": [
         "Linebacker Dan - Nimbasa City",
         "Linebacker Bob - Nimbasa City"
@@ -156455,19 +154333,19 @@ overrides = {
       "desc": "An odd candy with an unsatisfying taste. It grants a single Pokemon almost enough experience to level up.",
       "oldDesc": null,
       "new": true,
-      "location": "Route 9, Route 18, Route 23"
+      "location": ""
     },
     "abilitycapsule": {
       "name": "Ability Capsule",
       "desc": "A capsule that allows a Pokémon with two Abilities to switch between them.\\r Only works on final stage Pokémon.",
       "oldDesc": null,
       "new": true,
-      "location": "Village Bridge"
+      "location": ""
     },
     "calcium": {
       "name": "Calcium",
       "desc": "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.",
-      "location": "Route 3, Route 23",
+      "location": "",
       "rewards": [
         "Hoopster John - Nimbasa City"
       ]
@@ -156477,7 +154355,7 @@ overrides = {
       "desc": "A candy that is packed with energy. It raises the level of a single Pokémon by one.",
       "oldDesc": null,
       "new": true,
-      "location": "Dreamyard, Victory Road, Seaside Cave, Nature Preserve, Village Bridge, Route 3, Abundant Shrine",
+      "location": "",
       "rewards": [
         "PkMn Breeder Owen",
         "PkMn Breeder Brooke",
@@ -156487,7 +154365,7 @@ overrides = {
     "ppup": {
       "name": "PP Up",
       "desc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.",
-      "location": "Giant Chasm, Route 12",
+      "location": "",
       "rewards": [
         "Ace Trainer Lucille",
         "Ace Trainer Charlie"
@@ -156498,12 +154376,12 @@ overrides = {
       "desc": "A patch that allows a Pokémon with a regular Ability to have a rare Ability.",
       "oldDesc": null,
       "new": true,
-      "location": "Plasma Frigate, Plasma Frigate, Route 3, Route 11, Route 18"
+      "location": ""
     },
     "ppmax": {
       "name": "PP Max",
       "desc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon.",
-      "location": "Pinwheel Forest, Victory Road, Route 18",
+      "location": "",
       "rewards": [
         "Veteran Arlen",
         "Veteran Sayuri"
@@ -156605,7 +154483,7 @@ overrides = {
     "redshard": {
       "name": "Red Shard",
       "desc": "A small red shard. It appears to be from some sort of implement made long ago.",
-      "location": "Driftveil City, Driftveil City, Twist Mountain, Abyssal Ruins, Lentimas Outskirts, Reversal Mountain, Reversal Mountain, Reversal Mountain, Reversal Mountain, Relic Passage, Relic Passage, Route 13, Lostlorn Forest",
+      "location": "",
       "rewards": [
         "Hiker Russel"
       ]
@@ -156613,7 +154491,7 @@ overrides = {
     "blueshard": {
       "name": "Blue Shard",
       "desc": "A small blue shard. It appears to be from some sort of implement made long ago.",
-      "location": "Driftveil City, Dragonspiral Tower, Dragonspiral Tower, Abyssal Ruins, Lentimas Outskirts, Relic Passage, Clay Tunnel, Clay Tunnel, Clay Tunnel, Village Bridge, Mistralton Cave, Celestial Tower, Moor of Icirrus, Moor of Icirrus, Route 13, Route 17, Route 21",
+      "location": "",
       "rewards": [
         "Worker Matthew"
       ]
@@ -156621,7 +154499,7 @@ overrides = {
     "yellowshard": {
       "name": "Yellow Shard",
       "desc": "A small yellow shard. It appears to be from some sort of implement made long ago.",
-      "location": "Humilau City, Giant Chasm, Route 12",
+      "location": "",
       "rewards": [
         "Worker Tyler"
       ]
@@ -156629,7 +154507,7 @@ overrides = {
     "greenshard": {
       "name": "Green Shard",
       "desc": "A small green shard. It appears to be from some sort of implement made long ago.",
-      "location": "Castelia City, Desert Resort, Castelia Sewers, Castelia Sewers, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Abyssal Ruins, Virbank Complex, Victory Road, Route 6, Route 12, Lostlorn Forest, Lostlorn Forest, Route 22, Route 23"
+      "location": ""
     },
     "superrepel": {
       "name": "Super Repel",
@@ -156639,7 +154517,7 @@ overrides = {
     "maxrepel": {
       "name": "Max Repel",
       "desc": "An item that prevents weak wild Pokémon from appearing for 250 steps after its use.",
-      "location": "Mistralton City, Giant Chasm, Victory Road, Victory Road, Victory Road, Victory Road, Wellspring Cave, Route 13",
+      "location": "",
       "rewards": [
         "PkMn Ranger Alain",
         "PkMn Ranger Heidi",
@@ -156650,7 +154528,7 @@ overrides = {
     "escaperope": {
       "name": "Escape Rope",
       "desc": "A long, durable rope. Use it to escape instantly from a cave or a dungeon.",
-      "location": "Chargestone Cave, Victory Road, Victory Road, Wellspring Cave, Guidance Chamber"
+      "location": ""
     },
     "foreverrepel": {
       "name": "Forever Repel",
@@ -156662,7 +154540,7 @@ overrides = {
     "sunstone": {
       "name": "Sun Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
-      "location": "Giant Chasm, Relic Passage",
+      "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
       ]
@@ -156670,7 +154548,7 @@ overrides = {
     "moonstone": {
       "name": "Moon Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
-      "location": "Giant Chasm, Giant Chasm, Relic Passage",
+      "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
       ]
@@ -156678,7 +154556,7 @@ overrides = {
     "firestone": {
       "name": "Fire Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.",
-      "location": "Relic Passage",
+      "location": "",
       "marts": [
         "Driftveil City Upper Cashier"
       ]
@@ -156728,7 +154606,7 @@ overrides = {
     "bigpearl": {
       "name": "Big Pearl",
       "desc": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.",
-      "location": "Village Bridge, Route 8",
+      "location": "",
       "rewards": [
         "Socialite Emilia"
       ]
@@ -156744,7 +154622,7 @@ overrides = {
     "starpiece": {
       "name": "Star Piece",
       "desc": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.",
-      "location": "Giant Chasm, Giant Chasm, Giant Chasm, Route 13, Route 18, Route 23",
+      "location": "",
       "wilds": [
         "Jirachi",
         "Meloetta",
@@ -156754,7 +154632,7 @@ overrides = {
     "nugget": {
       "name": "Nugget",
       "desc": "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.",
-      "location": "Pinwheel Forest, Route 9",
+      "location": "",
       "wilds": [
         "Trubbish",
         "Garbodor"
@@ -156763,7 +154641,7 @@ overrides = {
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
-      "location": "Humilau City, Pinwheel Forest, Chargestone Cave, Reversal Mountain, Reversal Mountain, Seaside Cave, Seaside Cave, Seaside Cave, Village Bridge, Route 7, Celestial Tower, Route 23"
+      "location": ""
     },
     "honey": {
       "name": "Honey",
@@ -156793,17 +154671,17 @@ overrides = {
     "rootfossil": {
       "name": "Root Fossil",
       "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root.",
-      "location": "Relic Passage"
+      "location": ""
     },
     "clawfossil": {
       "name": "Claw Fossil",
       "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw.",
-      "location": "Relic Castle"
+      "location": ""
     },
     "helixfossil": {
       "name": "Helix Fossil",
       "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell.",
-      "location": "Relic Sanctum, Relic Passage"
+      "location": ""
     },
     "domefossil": {
       "name": "Dome Fossil",
@@ -156828,12 +154706,12 @@ overrides = {
     "rarebone": {
       "name": "Rare Bone",
       "desc": "A bone that is extremely valuable for Pokémon archeology. It can be sold for a high price to shops.",
-      "location": "Twist Mountain"
+      "location": ""
     },
     "shinystone": {
       "name": "Shiny Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.",
-      "location": "Relic Passage",
+      "location": "",
       "marts": [
         "Undella Town"
       ]
@@ -156841,7 +154719,7 @@ overrides = {
     "duskstone": {
       "name": "Dusk Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.",
-      "location": "Twist Mountain",
+      "location": "",
       "marts": [
         "Undella Town"
       ]
@@ -156849,7 +154727,7 @@ overrides = {
     "dawnstone": {
       "name": "Dawn Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.",
-      "location": "Relic Passage",
+      "location": "",
       "marts": [
         "Undella Town"
       ]
@@ -156869,7 +154747,7 @@ overrides = {
       "desc": "Raises Sp. Atk when a Pokémon uses a sound-based move.",
       "oldDesc": null,
       "new": true,
-      "location": "Dragonspiral Tower"
+      "location": ""
     },
     "???": {
       "name": "???",
@@ -156914,14 +154792,14 @@ overrides = {
       "desc": "An item to be held by a Pokémon. It is a sparkling, enchanted dust that ups the power of Fairy-type moves.",
       "oldDesc": null,
       "new": true,
-      "location": "Striaton City, Dragonspiral Tower, Lostlorn Forest"
+      "location": ""
     },
     "tricksterherb": {
       "name": "Trickster Herb",
       "desc": "A single-use item to be held by a Pokémon. It allows status moves to act first.",
       "oldDesc": null,
       "new": true,
-      "location": "Castelia City, Driftveil City, Dragonspiral Tower, Route 4, Join Avenue"
+      "location": ""
     },
     "greetmail": {
       "name": "Greet Mail",
@@ -157203,7 +155081,7 @@ overrides = {
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon, it recovers from any status problem.",
-      "location": "Dragonspiral Tower, Dragonspiral Tower, Dragonspiral Tower, Reversal Mountain, Reversal Mountain, Route 4, Route 4",
+      "location": "",
       "rewards": [
         "PkMn Ranger Rick - Route 1",
         "PkMn Ranger Audra - Route 6",
@@ -157225,7 +155103,7 @@ overrides = {
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon, it heals the user's HP a little.",
-      "location": "Dragonspiral Tower, Dragonspiral Tower, Lentimas Outskirts, Reversal Mountain, Reversal Mountain, Relic Passage, Relic Passage, Route 6, Celestial Tower, Route 22, Lentimas Town",
+      "location": "",
       "rewards": [
         "PkMn Ranger Daryl - Route 13",
         "PkMn Ranger Dianne - Route 13",
@@ -157246,7 +155124,7 @@ overrides = {
       "name": "Figy Berry",
       "desc": "If held by a Pokémon, it restores the user's HP in a pinch.",
       "oldDesc": "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
-      "location": "Route 4",
+      "location": "",
       "marts": [
         "Driftveil City Herb Shop"
       ]
@@ -157443,47 +155321,47 @@ overrides = {
     "occaberry": {
       "name": "Occa Berry",
       "desc": "Weakens a supereffective Fire-type attack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "passhoberry": {
       "name": "Passho Berry",
       "desc": "Weakens a supereffective Water-type attack against the holding Pokémon.",
-      "location": "Castelia Sewers, Lostlorn Forest"
+      "location": ""
     },
     "wacanberry": {
       "name": "Wacan Berry",
       "desc": "Weakens a supereffective Electric-type attack against the holding Pokémon.",
-      "location": "Chargestone Cave, Chargestone Cave, Lostlorn Forest"
+      "location": ""
     },
     "rindoberry": {
       "name": "Rindo Berry",
       "desc": "Weakens a supereffective Grass-type attack against the holding Pokémon.",
-      "location": "Pinwheel Forest, Castelia Sewers, Lostlorn Forest"
+      "location": ""
     },
     "yacheberry": {
       "name": "Yache Berry",
       "desc": "Weakens a supereffective Ice-type attack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "chopleberry": {
       "name": "Chople Berry",
       "desc": "Weakens a supereffective Fighting-type attack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "kebiaberry": {
       "name": "Kebia Berry",
       "desc": "Weakens a supereffective Poison-type attack against the holding Pokémon.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "shucaberry": {
       "name": "Shuca Berry",
       "desc": "Weakens a supereffective Ground-type attack against the holding Pokémon.",
-      "location": "Clay Tunnel, Lostlorn Forest"
+      "location": ""
     },
     "cobaberry": {
       "name": "Coba Berry",
       "desc": "Weakens a supereffective Flying-type attack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "payapaberry": {
       "name": "Payapa Berry",
@@ -157493,7 +155371,7 @@ overrides = {
     "tangaberry": {
       "name": "Tanga Berry",
       "desc": "Weakens a supereffective Bug-type attack against the holding Pokémon.",
-      "location": "Pinwheel Forest, Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "chartiberry": {
       "name": "Charti Berry",
@@ -157503,27 +155381,27 @@ overrides = {
     "kasibberry": {
       "name": "Kasib Berry",
       "desc": "Weakens a supereffective Ghost-type attack against the holding Pokémon.",
-      "location": "Celestial Tower, Lostlorn Forest"
+      "location": ""
     },
     "habanberry": {
       "name": "Haban Berry",
       "desc": "Weakens a supereffective Dragon-type attack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "colburberry": {
       "name": "Colbur Berry",
       "desc": "Weakens a supereffective Dark-type attack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "babiriberry": {
       "name": "Babiri Berry",
       "desc": "Weakens a supereffective Steel-type attack against the holding Pokémon.",
-      "location": "Lostlorn Forest"
+      "location": ""
     },
     "chilanberry": {
       "name": "Chilan Berry",
       "desc": "Weakens a Normal-type attack against the Pokémon holding this berry.",
-      "location": "Abyssal Ruins, Lostlorn Forest"
+      "location": ""
     },
     "liechiberry": {
       "name": "Liechi Berry",
@@ -157555,7 +155433,7 @@ overrides = {
       "desc": "Weakens a supereffective Fairy-type attack against the holding Pokémon.",
       "oldDesc": null,
       "new": true,
-      "location": "Dragonspiral Tower, Lostlorn Forest"
+      "location": ""
     },
     "starfberry": {
       "name": "Starf Berry",
@@ -157588,7 +155466,7 @@ overrides = {
     "jabocaberry": {
       "name": "Jaboca Berry",
       "desc": "If held by a Pokémon and a physical attack lands, the attacker also takes damage.",
-      "location": "Desert Resort",
+      "location": "",
       "marts": [
         "SM9 Top Left Cashier"
       ]
@@ -157596,7 +155474,7 @@ overrides = {
     "rowapberry": {
       "name": "Rowap Berry",
       "desc": "If held by a Pokémon and a special attack lands, the attacker also takes damage.",
-      "location": "Desert Resort",
+      "location": "",
       "marts": [
         "SM9 Top Left Cashier"
       ]
@@ -157604,12 +155482,12 @@ overrides = {
     "brightpowder": {
       "name": "BrightPowder",
       "desc": "An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.",
-      "location": "Floccesy Ranch"
+      "location": ""
     },
     "whiteherb": {
       "name": "White Herb",
       "desc": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
-      "location": "Driftveil City, P2 Laboratory, Floccesy Ranch, Strange House",
+      "location": "",
       "marts": [
         "Stock 8+Badges",
         "SM9 Top Left Cashier"
@@ -157630,7 +155508,7 @@ overrides = {
     "quickclaw": {
       "name": "Quick Claw",
       "desc": "An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.",
-      "location": "Floccesy Ranch"
+      "location": ""
     },
     "soothebell": {
       "name": "Soothe Bell",
@@ -157640,7 +155518,7 @@ overrides = {
     "mentalherb": {
       "name": "Mental Herb",
       "desc": "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.",
-      "location": "Castelia Sewers",
+      "location": "",
       "marts": [
         "Stock 5+Badges",
         "Stock 7+Badges",
@@ -157657,7 +155535,7 @@ overrides = {
     "kingsrock": {
       "name": "King's Rock",
       "desc": "An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.",
-      "location": "Nuvema Town",
+      "location": "",
       "wilds": [
         "Poliwhirl",
         "Hariyama"
@@ -157669,7 +155547,7 @@ overrides = {
     "silverpowder": {
       "name": "SilverPowder",
       "desc": "An item to be held by a Pokémon. It is a shiny, silver powder that ups the power of Bug-type moves.",
-      "location": "Complex Exterior",
+      "location": "",
       "wilds": [
         "Volcarona"
       ]
@@ -157679,7 +155557,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon. It allows the piercing of defensive abilities in battle.",
       "oldDesc": null,
       "new": true,
-      "location": "Icirrus City, Abundant Shrine, Route 19"
+      "location": ""
     },
     "cleansetag": {
       "name": "Cleanse Tag",
@@ -157696,12 +155574,12 @@ overrides = {
     "deepseatooth": {
       "name": "DeepSeaTooth",
       "desc": "An item to be held by Clamperl. A fang that gleams a sharp silver, it raises the Sp. Atk stat.",
-      "location": "Route 4"
+      "location": ""
     },
     "deepseascale": {
       "name": "DeepSeaScale",
       "desc": "An item to be held by Clamperl. A scale that shines a faint pink, it raises the Sp. Def stat.",
-      "location": "Route 4",
+      "location": "",
       "wilds": [
         "Basculin-Blue-Striped"
       ]
@@ -157737,17 +155615,17 @@ overrides = {
     "metalcoat": {
       "name": "Metal Coat",
       "desc": "An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.",
-      "location": "Chargestone Cave, Relic Passage, Clay Tunnel"
+      "location": ""
     },
     "leftovers": {
       "name": "Leftovers",
       "desc": "An item to be held by a Pokémon. The holder's HP is gradually restored during battle.",
-      "location": "Liberty Garden"
+      "location": ""
     },
     "dragonscale": {
       "name": "Dragon Scale",
       "desc": "A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.",
-      "location": "Victory Road"
+      "location": ""
     },
     "lightball": {
       "name": "Light Ball",
@@ -157761,7 +155639,7 @@ overrides = {
     "softsand": {
       "name": "Soft Sand",
       "desc": "An item to be held by a Pokémon. It is a loose, silky sand that boosts the power of Ground-type moves.",
-      "location": "Relic Passage",
+      "location": "",
       "wilds": [
         "Diglett"
       ]
@@ -157769,12 +155647,12 @@ overrides = {
     "hardstone": {
       "name": "Hard Stone",
       "desc": "An item to be held by a Pokémon. It is an unbreakable stone that ups the power of Rock-type moves.",
-      "location": "Relic Passage"
+      "location": ""
     },
     "miracleseed": {
       "name": "Miracle Seed",
       "desc": "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
-      "location": "Route 20"
+      "location": ""
     },
     "blackglasses": {
       "name": "BlackGlasses",
@@ -157787,22 +155665,22 @@ overrides = {
     "blackbelt": {
       "name": "Black Belt",
       "desc": "An item to be held by a Pokémon. It is a belt that boosts determination and Fighting-type moves.",
-      "location": "Virbank Gate, Pokestar Studios"
+      "location": ""
     },
     "magnet": {
       "name": "Magnet",
       "desc": "An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.",
-      "location": "Virbank Complex"
+      "location": ""
     },
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
-      "location": "Route 20"
+      "location": ""
     },
     "sharpbeak": {
       "name": "Sharp Beak",
       "desc": "An item to be held by a Pokémon. It is a long, sharp beak that boosts the power of Flying-type moves.",
-      "location": "Route 4",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -157810,12 +155688,12 @@ overrides = {
     "poisonbarb": {
       "name": "Poison Barb",
       "desc": "An item to be held by a Pokémon. It is a small, poisonous barb that ups the power of Poison-type moves.",
-      "location": "Virbank Complex"
+      "location": ""
     },
     "nevermeltice": {
       "name": "NeverMeltIce",
       "desc": "An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.",
-      "location": "Nimbasa City",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -157823,7 +155701,7 @@ overrides = {
     "spelltag": {
       "name": "Spell Tag",
       "desc": "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
-      "location": "Route 5",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -157831,7 +155709,7 @@ overrides = {
     "twistedspoon": {
       "name": "TwistedSpoon",
       "desc": "An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.",
-      "location": "Castelia Sewers",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -157844,7 +155722,7 @@ overrides = {
     "dragonfang": {
       "name": "Dragon Fang",
       "desc": "An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.",
-      "location": "Victory Road, Anville Town",
+      "location": "",
       "marts": [
         "Mistralton City TM Dept"
       ]
@@ -157852,7 +155730,7 @@ overrides = {
     "silkscarf": {
       "name": "Silk Scarf",
       "desc": "An item to be held by a Pokémon. It is a sumptuous scarf that boosts the power of Normal-type moves.",
-      "location": "Route 20"
+      "location": ""
     },
     "upgrade": {
       "name": "Up-Grade",
@@ -157862,7 +155740,7 @@ overrides = {
     "shellbell": {
       "name": "Shell Bell",
       "desc": "An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.",
-      "location": "Castelia City, Humilau City, Route 4"
+      "location": ""
     },
     "protoarmor": {
       "name": "Proto Armor",
@@ -157883,14 +155761,14 @@ overrides = {
       "desc": "Raises Speed sharply when a Pokémon's move has no effect, whether because of  accuracy, immunity, or moves like Detect.",
       "oldDesc": null,
       "new": true,
-      "location": "Route 7"
+      "location": ""
     },
     "teraeviolite": {
       "name": "Tera Eviolite",
       "desc": "An item that transform's the user's type. It raises defense but only for Pokémon that can evolve.",
       "oldDesc": null,
       "new": true,
-      "location": "Dragonspiral Tower, Route 19"
+      "location": ""
     },
     "thickclub": {
       "name": "Thick Club",
@@ -157941,7 +155819,7 @@ overrides = {
     "muscleband": {
       "name": "Muscle Band",
       "desc": "An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.",
-      "location": "Route 20",
+      "location": "",
       "marts": [
         "Castelia City Upper Cashier"
       ]
@@ -157949,7 +155827,7 @@ overrides = {
     "wiseglasses": {
       "name": "Wise Glasses",
       "desc": "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
-      "location": "Virbank Complex, Route 20",
+      "location": "",
       "marts": [
         "Castelia City Upper Cashier"
       ]
@@ -157972,12 +155850,12 @@ overrides = {
     "powerherb": {
       "name": "Power Herb",
       "desc": "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.",
-      "location": "Strange House, Strange House"
+      "location": ""
     },
     "toxicorb": {
       "name": "Toxic Orb",
       "desc": "An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.",
-      "location": "Reversal Mountain, Route 19",
+      "location": "",
       "marts": [
         "Virbank City Lower Cashier"
       ]
@@ -157985,7 +155863,7 @@ overrides = {
     "flameorb": {
       "name": "Flame Orb",
       "desc": "An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.",
-      "location": "Route 19",
+      "location": "",
       "marts": [
         "Virbank City Lower Cashier"
       ]
@@ -158010,12 +155888,12 @@ overrides = {
     "metronome": {
       "name": "Metronome",
       "desc": "A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.",
-      "location": "Lacunosa Town"
+      "location": ""
     },
     "ironball": {
       "name": "Iron Ball",
       "desc": "A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.",
-      "location": "Chargestone Cave"
+      "location": ""
     },
     "laggingtail": {
       "name": "Lagging Tail",
@@ -158030,12 +155908,12 @@ overrides = {
       "desc": "An item to be held by a Pokémon. It protects the holder from having its stats lowered by foes.",
       "oldDesc": null,
       "new": true,
-      "location": "Virbank City"
+      "location": ""
     },
     "blacksludge": {
       "name": "Black Sludge",
       "desc": "A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.",
-      "location": "Castelia Sewers"
+      "location": ""
     },
     "icyrock": {
       "name": "Icy Rock",
@@ -158076,7 +155954,7 @@ overrides = {
     "stickybarb": {
       "name": "Sticky Barb",
       "desc": "A held item that damages the holder on every turn. It may latch on to foes and allies that touch the holder.",
-      "location": "Castelia Sewers, Castelia Sewers"
+      "location": ""
     },
     "assaultvest": {
       "name": "Assault Vest",
@@ -158090,7 +155968,7 @@ overrides = {
       "desc": "A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move only once. ",
       "oldDesc": null,
       "new": true,
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "weaknesspolicy": {
       "name": "Weakness Policy",
@@ -158104,7 +155982,7 @@ overrides = {
       "desc": "Developed by Colress to unlock a Pokémon's potential. Boosts the holder's offenses when entering battle.",
       "oldDesc": null,
       "new": true,
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "safetygoggles": {
       "name": "Safety Goggles",
@@ -158151,7 +156029,7 @@ overrides = {
       "desc": "An item that transform's the user's type. This headband ups Attack, but allows the use of only one of its moves. ",
       "oldDesc": null,
       "new": true,
-      "location": "Undella Bay"
+      "location": ""
     },
     "terascarf": {
       "name": "Tera Scarf",
@@ -158306,17 +156184,17 @@ overrides = {
     "protector": {
       "name": "Protector",
       "desc": "A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "electirizer": {
       "name": "Electirizer",
       "desc": "A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.",
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "magmarizer": {
       "name": "Magmarizer",
       "desc": "A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.",
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "dubiousdisc": {
       "name": "Dubious Disc",
@@ -158331,34 +156209,34 @@ overrides = {
     "razorclaw": {
       "name": "Razor Claw",
       "desc": "An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.",
-      "location": "Giant Chasm, Giant Chasm"
+      "location": ""
     },
     "razorfang": {
       "name": "Razor Fang",
       "desc": "An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.",
-      "location": "Route 11"
+      "location": ""
     },
     "tm01": {
       "name": "TM01",
       "desc": "The user bites the target with its psychic powers, destroying Light Screen  and Reflect.",
       "oldDesc": "The user sharpens its claws to boost its Attack stat and accuracy.",
-      "location": "Striaton City, Abyssal Ruins"
+      "location": ""
     },
     "tm02": {
       "name": "TM02",
       "desc": "The user slashes the target with huge, sharp claws.",
-      "location": "Reversal Mountain"
+      "location": ""
     },
     "tm03": {
       "name": "TM03",
       "desc": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
-      "location": "Desert Resort, Giant Chasm"
+      "location": ""
     },
     "tm04": {
       "name": "TM04",
       "desc": "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.",
       "oldDesc": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
-      "location": "Virbank City",
+      "location": "",
       "marts": [
         "Striaton City Upper Cashier"
       ]
@@ -158367,25 +156245,25 @@ overrides = {
       "name": "TM05",
       "desc": "The user slaps down the target's held item, preventing that item from being used in the battle.",
       "oldDesc": "The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.",
-      "location": "Route 23"
+      "location": ""
     },
     "tm06": {
       "name": "TM06",
       "desc": "The user scatters curious leaves that chase the target. This attack will not miss.",
       "oldDesc": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
-      "location": "Castelia Gardens, Seaside Cave"
+      "location": ""
     },
     "tm07": {
       "name": "TM07",
       "desc": "An energy-draining punch. The user's HP is restored by half the damage taken by the target.",
       "oldDesc": "Summons a hailstorm that lasts for five turns. The hailstorm damages all types except Ice.",
-      "location": "Mistralton Cave"
+      "location": ""
     },
     "tm08": {
       "name": "TM08",
       "desc": "The target is hit with rhythmically launched punches. This attack never misses.",
       "oldDesc": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
-      "location": "Castelia Sewers, Route 16",
+      "location": "",
       "marts": [
         "Striaton City Upper Cashier"
       ]
@@ -158404,7 +156282,7 @@ overrides = {
       "name": "TM11",
       "desc": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
       "oldDesc": "The user intensifies the sun for five turns, powering up Fire-type moves.",
-      "location": "Route 7",
+      "location": "",
       "rewards": [
         "Johto Leader Falkner"
       ]
@@ -158412,12 +156290,12 @@ overrides = {
     "tm12": {
       "name": "TM12",
       "desc": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
-      "location": "Route 23"
+      "location": ""
     },
     "tm13": {
       "name": "TM13",
       "desc": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
-      "location": "Giant Chasm"
+      "location": ""
     },
     "tm14": {
       "name": "TM14",
@@ -158431,7 +156309,7 @@ overrides = {
       "name": "TM15",
       "desc": "The user tears at the target with blades formed by psychic power. Crit hits land more easily and this attack cannot miss.",
       "oldDesc": "The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
-      "location": "Complex Exterior"
+      "location": ""
     },
     "tm16": {
       "name": "TM16",
@@ -158442,19 +156320,19 @@ overrides = {
       "name": "TM17",
       "desc": "A unique attack that varies in type and intensity depending on the Pokémon using it.",
       "oldDesc": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
-      "location": "Moor of Icirrus, Floccesy Town"
+      "location": ""
     },
     "tm18": {
       "name": "TM18",
       "desc": "The user throws scorching sand at the target. This may also leave the target with a burn.",
       "oldDesc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
-      "location": "Relic Castle"
+      "location": ""
     },
     "tm19": {
       "name": "TM19",
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
       "oldDesc": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
-      "location": "Lostlorn Forest, Route 18"
+      "location": ""
     },
     "tm20": {
       "name": "TM20",
@@ -158466,12 +156344,12 @@ overrides = {
       "name": "TM21",
       "desc": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
       "oldDesc": "A full-power attack that grows more powerful the less the user likes its Trainer.",
-      "location": "Chargestone Cave, Chargestone Cave"
+      "location": ""
     },
     "tm22": {
       "name": "TM22",
       "desc": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
-      "location": "Route 4"
+      "location": ""
     },
     "tm23": {
       "name": "TM23",
@@ -158482,7 +156360,7 @@ overrides = {
     "tm24": {
       "name": "TM24",
       "desc": "A strong electric blast is loosed at the target. It may also leave the target with paralysis.",
-      "location": "Route 21"
+      "location": ""
     },
     "tm25": {
       "name": "TM25",
@@ -158495,7 +156373,7 @@ overrides = {
     "tm26": {
       "name": "TM26",
       "desc": "The user sets off an earthquake that strikes every Pokémon around it.",
-      "location": "Route 15"
+      "location": ""
     },
     "tm27": {
       "name": "TM27",
@@ -158516,31 +156394,31 @@ overrides = {
     "tm29": {
       "name": "TM29",
       "desc": "The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.",
-      "location": "Celestial Tower, Route 13"
+      "location": ""
     },
     "tm30": {
       "name": "TM30",
       "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
       "location": "",
       "rewards": [
-        "Johto Leader Morty - Celestial Tower"
+        "Johto Leader Morty"
       ]
     },
     "tm31": {
       "name": "TM31",
       "desc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
-      "location": "Relic Castle, Relic Sanctum, Accumula Town"
+      "location": ""
     },
     "tm32": {
       "name": "TM32",
       "desc": "The user strikes opposing foes by emitting a dazzling flash. May lower accuracy.",
       "oldDesc": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
-      "location": "Route 7"
+      "location": ""
     },
     "tm33": {
       "name": "TM33",
       "desc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
-      "location": "Castelia City"
+      "location": ""
     },
     "tm34": {
       "name": "TM34",
@@ -158555,7 +156433,7 @@ overrides = {
     "tm36": {
       "name": "TM36",
       "desc": "Unsanitary sludge is hurled at the target. It may also poison the target.",
-      "location": "Icirrus City, Chargestone Cave"
+      "location": ""
     },
     "tm37": {
       "name": "TM37",
@@ -158574,7 +156452,7 @@ overrides = {
     "tm39": {
       "name": "TM39",
       "desc": "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
-      "location": "Virbank Complex"
+      "location": ""
     },
     "tm40": {
       "name": "TM40",
@@ -158620,25 +156498,25 @@ overrides = {
       "name": "TM47",
       "desc": "The user delivers a double chop with its forearms crossed. Hits all enemies. Critical hits land more easily.",
       "oldDesc": "The user attacks the target's legs swiftly, reducing the target's Speed stat.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "tm48": {
       "name": "TM48",
       "desc": "The user attacks by breathing a special, magic fire. This lowers the target's Sp. Atk stat.",
       "oldDesc": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage.",
-      "location": "Relic Castle"
+      "location": ""
     },
     "tm49": {
       "name": "TM49",
       "desc": "A harsh noise that may make the target flinch. Can be used while asleep.",
       "oldDesc": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.",
-      "location": "Castelia Sewers, Route 16"
+      "location": ""
     },
     "tm50": {
       "name": "TM50",
       "desc": "The user attacks the target with a pulsing blast of water. It may confuse the target and can't miss.",
       "oldDesc": "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.",
-      "location": "Virbank City, N's Castle",
+      "location": "",
       "marts": [
         "Nimbasa TM Department"
       ]
@@ -158646,12 +156524,12 @@ overrides = {
     "tm51": {
       "name": "TM51",
       "desc": "The user teleports using a strange power and switches its place with one of its allies.",
-      "location": "Route 7"
+      "location": ""
     },
     "tm52": {
       "name": "TM52",
       "desc": "The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "tm53": {
       "name": "TM53",
@@ -158667,7 +156545,7 @@ overrides = {
     "tm55": {
       "name": "TM55",
       "desc": "The user shoots boiling hot water at its target. It may also leave the target with a burn.",
-      "location": "Route 6"
+      "location": ""
     },
     "tm56": {
       "name": "TM56",
@@ -158701,7 +156579,7 @@ overrides = {
     "tm61": {
       "name": "TM61",
       "desc": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
-      "location": "Celestial Rooftop"
+      "location": ""
     },
     "tm62": {
       "name": "TM62",
@@ -158723,19 +156601,19 @@ overrides = {
     "tm65": {
       "name": "TM65",
       "desc": "The user slashes with a sharp claw made from shadows. It has a high critical-hit ratio.",
-      "location": "Virbank Gate, Pokestar Studios"
+      "location": ""
     },
     "tm66": {
       "name": "TM66",
       "desc": "The user attacks with a ray of light that sparkles like gemstones. This may also raise the User's Sp. Atk stat.",
       "oldDesc": "The user stores power, then attacks. If the user can use this attack after the target, its power is doubled.",
-      "location": "Striaton City, Route 5"
+      "location": ""
     },
     "tm67": {
       "name": "TM67",
       "desc": "The user attacks the target with a secret power. Its added effects vary depending on the user's environment.",
       "oldDesc": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this attack's damage increases.",
-      "location": "Plasma Frigate"
+      "location": ""
     },
     "tm68": {
       "name": "TM68",
@@ -158758,12 +156636,12 @@ overrides = {
     "tm71": {
       "name": "TM71",
       "desc": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
-      "location": "Twist Mountain"
+      "location": ""
     },
     "tm72": {
       "name": "TM72",
       "desc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
-      "location": "Chargestone Cave, Victory Road"
+      "location": ""
     },
     "tm73": {
       "name": "TM73",
@@ -158791,12 +156669,12 @@ overrides = {
       "name": "TM77",
       "desc": "The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.",
       "oldDesc": "The user hypnotizes itself into copying any stat change made by the target.",
-      "location": "Giant Chasm, Mistralton Cave"
+      "location": ""
     },
     "tm78": {
       "name": "TM78",
       "desc": "The user stomps down on the ground and attacks everything in the area. The targets' Speed stat is reduced.",
-      "location": "Desert Resort, Route 4"
+      "location": ""
     },
     "tm79": {
       "name": "TM79",
@@ -158807,7 +156685,7 @@ overrides = {
     "tm80": {
       "name": "TM80",
       "desc": "Large boulders are hurled at the opposing team to inflict damage. They may also make the targets flinch.",
-      "location": "Relic Passage, Guidance Chamber"
+      "location": ""
     },
     "tm81": {
       "name": "TM81",
@@ -158823,12 +156701,12 @@ overrides = {
       "name": "TM83",
       "desc": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
       "oldDesc": "The user is roused, and its Attack and Sp. Atk stats increase.",
-      "location": "Desert Resort"
+      "location": ""
     },
     "tm84": {
       "name": "TM84",
       "desc": "The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target.",
-      "location": "Route 5"
+      "location": ""
     },
     "tm85": {
       "name": "TM85",
@@ -158839,7 +156717,7 @@ overrides = {
     "tm86": {
       "name": "TM86",
       "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
-      "location": "Driftveil City, Abyssal Ruins"
+      "location": ""
     },
     "tm87": {
       "name": "TM87",
@@ -158856,24 +156734,24 @@ overrides = {
     "tm89": {
       "name": "TM89",
       "desc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
-      "location": "Liberty Garden"
+      "location": ""
     },
     "tm90": {
       "name": "TM90",
       "desc": "The user steals the target's energy with a kiss, healing themselves with damage dealt.",
       "oldDesc": "The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.",
-      "location": "Driftveil City, Twist Mountain"
+      "location": ""
     },
     "tm91": {
       "name": "TM91",
       "desc": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
-      "location": "Twist Mountain, Relic Passage"
+      "location": ""
     },
     "tm92": {
       "name": "TM92",
       "desc": "A two-turn attack. The user gathers sunlight into a shining blade, striking next turn. Charges instantly in harsh sunlight.",
       "oldDesc": "The user creates a bizarre space in which slower Pokémon get to move first for five turns.",
-      "location": "Abyssal Ruins, Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "hm01": {
       "name": "HM01",
@@ -158883,7 +156761,7 @@ overrides = {
     "hm02": {
       "name": "HM02",
       "desc": "The user soars, then strikes on the second turn. It can also be used to fly to any familiar town.",
-      "location": "Dreamyard, Route 5"
+      "location": ""
     },
     "hm03": {
       "name": "HM03",
@@ -159295,7 +157173,7 @@ overrides = {
       "desc": "When a Pokémon smells this mint, all of its stats will grow at an equal rate.",
       "oldDesc": null,
       "new": true,
-      "location": "Dragonspiral Tower"
+      "location": ""
     },
     "lonelymint": {
       "name": "Lonely Mint",
@@ -159330,7 +157208,7 @@ overrides = {
       "desc": "When a Pokémon smells this mint, its Defense will grow more easily, but its Attack will grow more slowly.",
       "oldDesc": null,
       "new": true,
-      "location": "Abundant Shrine"
+      "location": ""
     },
     "docilemint": {
       "name": "Docile Mint",
@@ -159393,7 +157271,7 @@ overrides = {
       "desc": "When a Pokémon smells this mint, its Speed will grow more easily, but its Special Defense will grow more slowly.",
       "oldDesc": null,
       "new": true,
-      "location": "Virbank City, Victory Road"
+      "location": ""
     },
     "modestmint": {
       "name": "Modest Mint",
@@ -159407,7 +157285,7 @@ overrides = {
       "desc": "When a Pokémon smells this mint, its Special Attack will grow more easily, but its Defense will grow more slowly.",
       "oldDesc": null,
       "new": true,
-      "location": "Celestial Rooftop, Moor of Icirrus"
+      "location": ""
     },
     "quietmint": {
       "name": "Quiet Mint",
@@ -159507,7 +157385,7 @@ overrides = {
     "prismscale": {
       "name": "Prism Scale",
       "desc": "A mysterious scale that evolves certain Pokémon. It shines in rainbow colors.",
-      "location": "Route 1"
+      "location": ""
     },
     "eviolite": {
       "name": "Eviolite",
@@ -159519,7 +157397,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon. If the holder's stats are lowered, it will be switched out of battle.",
       "oldDesc": null,
       "new": true,
-      "location": "Twist Mountain, Route 16, Accumula Town"
+      "location": ""
     },
     "rockyhelmet": {
       "name": "Rocky Helmet",
@@ -159537,14 +157415,14 @@ overrides = {
     "redcard": {
       "name": "Red Card",
       "desc": "A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.",
-      "location": "Strange House"
+      "location": ""
     },
     "covertcloak": {
       "name": "Covert Cloak",
       "desc": "A hooded cloak to be held by a Pokémon. It conceals the holder, protecting it from the additional effects of moves.",
       "oldDesc": null,
       "new": true,
-      "location": "Celestial Rooftop"
+      "location": ""
     },
     "teraplate": {
       "name": "Tera Plate",
@@ -159566,92 +157444,92 @@ overrides = {
     "ejectbutton": {
       "name": "Eject Button",
       "desc": "If the holder is hit by an attack, it will switch with another Pokémon in your party.",
-      "location": "Twist Mountain, Route 22"
+      "location": ""
     },
     "firegem": {
       "name": "Fire Gem",
       "desc": "A gem with an essence of fire. When held, it strengthens the power of a Fire-type move only once.",
-      "location": "Abyssal Ruins, Reversal Mountain, Clay Tunnel"
+      "location": ""
     },
     "watergem": {
       "name": "Water Gem",
       "desc": "A gem with an essence of water. When held, it strengthens the power of a Water-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "electricgem": {
       "name": "Electric Gem",
       "desc": "A gem with an essence of electricity. When held, it strengthens the power of an Electric-type move only once.",
-      "location": "Chargestone Cave, Chargestone Cave"
+      "location": ""
     },
     "grassgem": {
       "name": "Grass Gem",
       "desc": "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move only once.",
-      "location": "Pinwheel Forest, Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "icegem": {
       "name": "Ice Gem",
       "desc": "A gem with an essence of ice. When held, it strengthens the power of an Ice-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "fightinggem": {
       "name": "Fighting Gem",
       "desc": "A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move only once.",
-      "location": "Dreamyard, Clay Tunnel"
+      "location": ""
     },
     "poisongem": {
       "name": "Poison Gem",
       "desc": "A gem with an essence of poison. When held, it strengthens the power of a Poison-type move only once.",
-      "location": "Clay Tunnel"
+      "location": ""
     },
     "groundgem": {
       "name": "Ground Gem",
       "desc": "A gem with an essence of land. When held, it strengthens the power of a Ground-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel, Clay Tunnel"
+      "location": ""
     },
     "flyinggem": {
       "name": "Flying Gem",
       "desc": "A gem with an essence of air. When held, it strengthens the power of a Flying-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "psychicgem": {
       "name": "Psychic Gem",
       "desc": "A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move only once.",
-      "location": "Clay Tunnel"
+      "location": ""
     },
     "buggem": {
       "name": "Bug Gem",
       "desc": "A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move only once.",
-      "location": "Dreamyard, Pinwheel Forest, Clay Tunnel"
+      "location": ""
     },
     "rockgem": {
       "name": "Rock Gem",
       "desc": "A gem with an essence of rock. When held, it strengthens the power of a Rock-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "ghostgem": {
       "name": "Ghost Gem",
       "desc": "A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move only once.",
-      "location": "Dreamyard, Clay Tunnel, Route 2, Celestial Tower"
+      "location": ""
     },
     "dragongem": {
       "name": "Dragon Gem",
       "desc": "A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel, Moor of Icirrus, Anville Town"
+      "location": ""
     },
     "darkgem": {
       "name": "Dark Gem",
       "desc": "A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move only once.",
-      "location": "Clay Tunnel"
+      "location": ""
     },
     "steelgem": {
       "name": "Steel Gem",
       "desc": "A gem with an essence of steel. When held, it strengthens the power of a Steel-type move only once.",
-      "location": "Abyssal Ruins, Clay Tunnel"
+      "location": ""
     },
     "normalgem": {
       "name": "Normal Gem",
       "desc": "A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move only once.",
-      "location": "Relic Castle, Castelia Sewers, Virbank Complex, Relic Passage, Clay Tunnel, Route 16",
+      "location": "",
       "marts": [
         "SM9 Bottom Section"
       ]
@@ -159694,7 +157572,7 @@ overrides = {
     "coverfossil": {
       "name": "Cover Fossil",
       "desc": "A fossil of an ancient Pokémon that lived in the sea in ancient times. It appears to be part of its back.",
-      "location": "Relic Sanctum, Relic Passage"
+      "location": ""
     },
     "plumefossil": {
       "name": "Plume Fossil",
@@ -159742,7 +157620,7 @@ overrides = {
     "bignugget": {
       "name": "Big Nugget",
       "desc": "A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.",
-      "location": "Twist Mountain, Nature Preserve, Route 3",
+      "location": "",
       "wilds": [
         "Garbodor"
       ]
@@ -159750,7 +157628,7 @@ overrides = {
     "pearlstring": {
       "name": "Pearl String",
       "desc": "Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.",
-      "location": "Route 17"
+      "location": ""
     },
     "cometshard": {
       "name": "Comet Shard",
@@ -159930,12 +157808,12 @@ overrides = {
     "tm93": {
       "name": "TM93",
       "desc": "The user shrouds itself in electricity and smashes into its target. It also damages the user a little.",
-      "location": "Victory Road, Victory Road"
+      "location": ""
     },
     "tm94": {
       "name": "TM94",
       "desc": "The user attacks with a punch that can shatter a rock. It may also lower the target's Defense stat.",
-      "location": "Pledge Grove",
+      "location": "",
       "marts": [
         "Nimbasa TM Department"
       ]
