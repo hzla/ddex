@@ -4268,7 +4268,7 @@ overrides = {
         "df": 90,
         "sa": 20,
         "sd": 35,
-        "sp": 90
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -4430,7 +4430,7 @@ overrides = {
         "df": 110,
         "sa": 25,
         "sd": 55,
-        "sp": 115
+        "sp": 105
       },
       "learnset_info": {
         "learnset": [
@@ -15440,13 +15440,16 @@ overrides = {
         "Water Absorb"
       ],
       "evos": [
+        "Muk",
         "Muk"
       ],
       "evoMethods": [
-        "level"
+        "level",
+        "useItem"
       ],
       "evoParams": [
-        38
+        42,
+        "Water Stone"
       ]
     },
     "Muk": {
@@ -15634,8 +15637,9 @@ overrides = {
         "Contagious",
         "Water Absorb"
       ],
-      "evoType": "level",
-      "evoLevel": 38
+      "evoType": "useItem",
+      "evoLevel": 42,
+      "evoItem": "Water Stone"
     },
     "Shellder": {
       "name": "Shellder",
@@ -24418,11 +24422,11 @@ overrides = {
           ],
           [
             43,
-            "Rock Blast"
+            "Icicle Spear"
           ],
           [
             45,
-            "Barrage"
+            "Aqua Tail"
           ],
           [
             49,
@@ -24430,7 +24434,7 @@ overrides = {
           ],
           [
             54,
-            "Aqua Tail"
+            "Rock Blast"
           ]
         ],
         "tms": [
@@ -24555,7 +24559,7 @@ overrides = {
           ],
           [
             1,
-            "Icicle Spear"
+            "Barrage"
           ],
           [
             6,
@@ -24607,11 +24611,11 @@ overrides = {
           ],
           [
             43,
-            "Rock Blast"
+            "Icicle Spear"
           ],
           [
             45,
-            "Barrage"
+            "Aqua Tail"
           ],
           [
             49,
@@ -24619,7 +24623,7 @@ overrides = {
           ],
           [
             54,
-            "Aqua Tail"
+            "Rock Blast"
           ],
           [
             60,
@@ -51710,7 +51714,7 @@ overrides = {
       ],
       "bs": {
         "hp": 50,
-        "at": 75,
+        "at": 65,
         "df": 65,
         "sa": 65,
         "sd": 65,
@@ -51902,7 +51906,7 @@ overrides = {
       ],
       "bs": {
         "hp": 70,
-        "at": 105,
+        "at": 95,
         "df": 95,
         "sa": 95,
         "sd": 95,
@@ -63648,8 +63652,8 @@ overrides = {
         "useItem"
       ],
       "evoParams": [
-        "Shiny Stone",
-        "Dawn Stone"
+        "Thunderstone",
+        "Water Stone"
       ]
     },
     "Huntail": {
@@ -63835,7 +63839,7 @@ overrides = {
         "Strong Jaw"
       ],
       "evoType": "useItem",
-      "evoItem": "Shiny Stone"
+      "evoItem": "Thunderstone"
     },
     "Gorebyss": {
       "name": "Gorebyss",
@@ -64026,7 +64030,7 @@ overrides = {
         "Majestic Ward"
       ],
       "evoType": "useItem",
-      "evoItem": "Dawn Stone"
+      "evoItem": "Water Stone"
     },
     "Relicanth": {
       "name": "Relicanth",
@@ -75916,7 +75920,7 @@ overrides = {
         "hp": 76,
         "at": 65,
         "df": 65,
-        "sa": 132,
+        "sa": 117,
         "sd": 52,
         "sp": 101
       },
@@ -77134,7 +77138,7 @@ overrides = {
           ],
           [
             60,
-            "Arm Thrust"
+            "High Jump Kick"
           ],
           [
             63,
@@ -102605,15 +102609,15 @@ overrides = {
           ],
           [
             23,
-            "Signal Beam"
-          ],
-          [
-            27,
             "Sucker Punch"
           ],
           [
-            30,
+            27,
             "Disable"
+          ],
+          [
+            30,
+            "Signal Beam"
           ],
           [
             33,
@@ -102774,15 +102778,15 @@ overrides = {
           ],
           [
             23,
-            "Signal Beam"
-          ],
-          [
-            27,
             "Sucker Punch"
           ],
           [
-            30,
+            27,
             "Disable"
+          ],
+          [
+            30,
+            "Signal Beam"
           ],
           [
             33,
@@ -121279,7 +121283,7 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 20,
+      "pp": 3,
       "acc": 101,
       "prio": 3,
       "name": "Follow Me",
@@ -122086,7 +122090,7 @@ overrides = {
     },
     "Signal Beam": {
       "t": "Bug",
-      "bp": 75,
+      "bp": 85,
       "cat": "Special",
       "pp": 15,
       "acc": 100,
@@ -124183,7 +124187,7 @@ overrides = {
       "t": "Bug",
       "bp": 0,
       "cat": "Status",
-      "pp": 20,
+      "pp": 3,
       "acc": 101,
       "prio": 3,
       "name": "Rage Powder",
