@@ -24,7 +24,7 @@ p {
 }
 
 .desc-label {
-  width: 40px;
+  width: 100px;
   margin-right: 4px;
   flex-shrink: 0; /* never collapse */
 }

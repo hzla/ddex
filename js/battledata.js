@@ -2778,6 +2778,8 @@ var Move = function Move(id, name, data) {
   this.status = void 0;
   this.secondaries = void 0;
   this.noSketch = void 0;
+  this.e_id = void 0;
+  this.e_chance = void 0;
   this.num = void 0;
   if (!data || typeof data !== "object") data = {};
   if (data.name) name = data.name;
@@ -2813,6 +2815,8 @@ var Move = function Move(id, name, data) {
   this.secondaries =
     data.secondaries || (data.secondary ? [data.secondary] : null);
   this.noSketch = !!data.noSketch;
+  if (Object.prototype.hasOwnProperty.call(data, "e_id")) this.e_id = data.e_id;
+  if (Object.prototype.hasOwnProperty.call(data, "e_chance")) this.e_chance = data.e_chance;
 
   this.isMax = data.isMax || false;
   this.maxMove = data.maxMove || { basePower: 0 };

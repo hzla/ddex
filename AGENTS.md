@@ -13,6 +13,17 @@ Those two files are enough for the app to display ROM-specific Pokemon, items, m
 
 The important constraint is that this document describes the current renderer and merger behavior as it exists in `ddex/js/*.js`. It is not a cleaned-up future schema. If the implementation is inconsistent or only partially merges fields, this guide documents that behavior directly.
 
+## Build / Bundling Note
+
+The shipped app is built from the chunk manifest in `ddex/scripts/chunks.mjs`, not directly from the hand-written `<script>` tags in `ddex/index.html`.
+
+Because of that:
+
+- adding a new browser JS or CSS asset is not enough by itself
+- if the asset must execute in the built app, it also needs to be added to the appropriate chunk list in `ddex/scripts/chunks.mjs`
+- if the asset only needs to be copied to `dist/`, `staticCopies` is not sufficient for execution; it only makes the file available on disk
+- after changing chunk membership, rebuild so `dist/asset-manifest.json` and the hashed assets pick up the new file
+
 ## What the Webapp Displays
 
 The current UI supports the following ROM-specific data:
@@ -450,6 +461,7 @@ If `BattleMovedex[moveId]` does not exist, the merger synthesizes a new move and
 - `tar`
 - `willCrit`
 - `e_id`
+- `e_chance`
 
 Important nuance:
 

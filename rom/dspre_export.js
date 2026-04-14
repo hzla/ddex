@@ -1638,6 +1638,12 @@ function buildMovesData(moveData) {
     const rawId = Number(String(entry["Move ID"] || "").trim());
     if (!name || name === "-" || !Number.isFinite(rawId) || rawId <= 0) continue;
     const effectId = parseNumeric(entry["Effect ID"] ?? entry.effect ?? entry["Effect"]);
+    const effectChance = parseNumeric(
+      entry["Side Effect Probability"] ??
+        entry.sideEffectProbability ??
+        entry["Effect Chance"] ??
+        entry.effectChance
+    );
 
     const move = {
       t: titleCaseType(entry["Move Type"]),
@@ -1650,6 +1656,7 @@ function buildMovesData(moveData) {
       num: rawId - 1,
       e_id: Number.isFinite(effectId) ? effectId : 0,
     };
+    if (Number.isFinite(effectChance)) move.e_chance = effectChance;
     out[name] = move;
   }
   return out;
@@ -2919,9 +2926,15 @@ function moveFlagsString(flagField) {
   return `[${flags.join("|")}]`;
 }
 
+export function describeBattleEffect(effectId) {
+  const numericId = Number(effectId);
+  if (!Number.isFinite(numericId) || numericId < 0) return `UnknownEffect_${effectId}`;
+  if (numericId < BATTLE_SEQUENCE_DESCRIPTIONS.length) return BATTLE_SEQUENCE_DESCRIPTIONS[numericId];
+  return `UnknownEffect_${numericId}`;
+}
+
 function battleEffectDesc(effectId) {
-  if (effectId < BATTLE_SEQUENCE_DESCRIPTIONS.length) return BATTLE_SEQUENCE_DESCRIPTIONS[effectId];
-  return `UnknownEffect_${effectId}`;
+  return describeBattleEffect(effectId);
 }
 
 function formatEvolutionParam(methodName, param, names) {

@@ -693,7 +693,7 @@ function buildMoveOverrideFromBase(moveId) {
   const baseMove = BattleMovedex && BattleMovedex[moveId];
   if (!baseMove) return null;
   const desc = baseMove.desc || baseMove.shortDesc || "";
-  return {
+  const override = {
     name: baseMove.name,
     t: baseMove.type,
     bp: baseMove.basePower,
@@ -704,6 +704,13 @@ function buildMoveOverrideFromBase(moveId) {
     desc,
     oldDesc: desc,
   };
+  if (Object.prototype.hasOwnProperty.call(baseMove, "e_id")) {
+    override.e_id = baseMove.e_id;
+  }
+  if (Object.prototype.hasOwnProperty.call(baseMove, "e_chance")) {
+    override.e_chance = baseMove.e_chance;
+  }
+  return override;
 }
 
 function buildAbilityOverrideFromBase(abilityId) {
@@ -1000,6 +1007,12 @@ function overrideMoveData(moveOverrides) {
 			BattleMovedex[moveId].priority = moveData.prio
 			BattleMovedex[moveId].desc = moveData.desc
 			BattleMovedex[moveId].shortDesc = moveData.desc
+			if (Object.prototype.hasOwnProperty.call(moveData, "e_id")) {
+				BattleMovedex[moveId].e_id = moveData.e_id
+			}
+			if (Object.prototype.hasOwnProperty.call(moveData, "e_chance")) {
+				BattleMovedex[moveId].e_chance = moveData.e_chance
+			}
 		} else {
 			customMoveCount += 1
 			BattleMovedex[moveId] = {}
@@ -1019,6 +1032,12 @@ function overrideMoveData(moveOverrides) {
 			BattleMovedex[moveId].num = movCount + customMoveCount
 			BattleMovedex[moveId].flags = {}
 			BattleMovedex[moveId].contestType = ""
+			if (Object.prototype.hasOwnProperty.call(moveData, "e_id")) {
+				BattleMovedex[moveId].e_id = moveData.e_id
+			}
+			if (Object.prototype.hasOwnProperty.call(moveData, "e_chance")) {
+				BattleMovedex[moveId].e_chance = moveData.e_chance
+			}
 		}
 
 	}

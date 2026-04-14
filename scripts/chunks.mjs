@@ -17,6 +17,7 @@ export const scriptChunks = {
     "data/species.js",
     "data/evos.js",
     "data/moves.js",
+    "data/move_effects.js",
     "data/abilities.js",
     "data/items.js",
     "data/encounters.js",

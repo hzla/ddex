@@ -5,6 +5,21 @@ function sourcePad(source) {
   return level.length > 3 ? level : level + " ";
 }
 
+function hasMoveField(move, fieldName) {
+  return (
+    move &&
+    Object.prototype.hasOwnProperty.call(move, fieldName) &&
+    move[fieldName] !== null &&
+    move[fieldName] !== ""
+  );
+}
+
+function getMoveField(move, overrideData, fieldName) {
+  if (hasMoveField(overrideData, fieldName)) return overrideData[fieldName];
+  if (hasMoveField(move, fieldName)) return move[fieldName];
+  return null;
+}
+
 var PokedexMovePanel = PokedexResultPanel.extend({
   applyDetailLayout: function () {
     if (window.DDEX_DETAIL_LAYOUT) {
@@ -22,10 +37,13 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 
     var overrideData = move;
     var overridePoks = {};
-    if (localStorage.overrides) {
-      var overrides = JSON.parse(localStorage.overrides);
-      overridePoks = overrides.poks || {};
-      overrideData = (overrides.moves && overrides.moves[move.name]) || move;
+    var currentOverrides = window.overrides || null;
+    if (!currentOverrides && localStorage.overrides) {
+      currentOverrides = JSON.parse(localStorage.overrides);
+    }
+    if (currentOverrides) {
+      overridePoks = currentOverrides.poks || {};
+      overrideData = (currentOverrides.moves && currentOverrides.moves[move.name]) || move;
     }
 
     this.id = id;
@@ -187,21 +205,11 @@ var PokedexMovePanel = PokedexResultPanel.extend({
       move.priority = move.priority - 255
     }
 
-    if (move.priority > 1) {
+    if (move.priority !== 0) {
       buf +=
-        "<p>Nearly always moves first <em>(priority +" +
-        move.priority +
-        ")</em>.</p>";
-    } else if (move.priority <= -1) {
-      buf +=
-        "<p>Nearly always moves last <em>(priority &minus;" +
-        -move.priority +
-        ")</em>.</p>";
-    } else if (move.priority === 1) {
-      buf +=
-        "<p>Usually moves first <em>(priority +" +
-        move.priority +
-        ")</em>.</p>";
+        "<p><strong>Priority</strong> " +
+        Dex.escapeHTML(String(move.priority)) +
+        "</p>";
     }
 
 
@@ -211,9 +219,33 @@ var PokedexMovePanel = PokedexResultPanel.extend({
       const newDesc = overrideData.desc || overrideData.shortDesc || "";
 
       buf += `<p class="vanilla-text"><span class="desc-label">Old:</span><span class="desc-body">${Dex.escapeHTML(oldDesc)}</span></p>`;
-      buf += `<p class="new-text"><span class="desc-label">In-Game Desc:</span> <span class="desc-body">${highlightChanged(oldDesc, newDesc)}</span></p>`;
+      buf += `<p class="new-text"><span class="desc-label">Game Desc:</span> <span class="desc-body">${highlightChanged(oldDesc, newDesc)}</span></p>`;
     } else {
-      buf += "<p><strong>In-Game Desc:</strong> " + Dex.escapeHTML(move.desc || move.shortDesc) + "</p>";
+      buf += "<p><strong>Game Desc:</strong> " + Dex.escapeHTML(move.desc || move.shortDesc) + "</p>";
+    }
+
+    var effectId = getMoveField(move, overrideData, "e_id");
+    if (effectId !== null) {
+      var effectDesc =
+        typeof window.describeBattleEffect === "function"
+          ? window.describeBattleEffect(Number(effectId))
+          : "UnknownEffect_" + String(effectId);
+      if (!/^UnknownEffect_/.test(String(effectDesc))) {
+        buf +=
+          "<p><strong>Effect ID " +
+          Dex.escapeHTML(String(effectId)) +
+          ":</strong> " +
+          Dex.escapeHTML(effectDesc) +
+          "</p>";
+      }
+    }
+
+    var effectChance = getMoveField(move, overrideData, "e_chance");
+    if (effectChance !== null && Number(effectChance) !== 0) {
+      buf +=
+        "<p><strong>Effect Chance</strong> " +
+        Dex.escapeHTML(String(effectChance)) +
+        "%</p>";
     }
 
     
