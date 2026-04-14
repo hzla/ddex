@@ -1269,11 +1269,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       case 7:
         return String(displayValue);
       case 8:
-        return `Lv ${displayValue} + Atk > Def`;
+        return `Lv ${displayValue} + Atk < Def`;
       case 9:
         return `Lv ${displayValue} + Atk = Def`;
       case 10:
-        return `Lv ${displayValue} + Atk < Def`;
+        return `Lv ${displayValue} + Atk > Def`;
       case 11:
         return `Lv ${displayValue} + PID > 5`;
       case 12:
