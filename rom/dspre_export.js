@@ -3786,6 +3786,15 @@ function formatTrainerDoc(trainer) {
   return sb.join("");
 }
 
+function resolveTrainerAbilityOverride(rawAbilityOverride, lastNonZeroAbilityOverride) {
+  const slot = Number(rawAbilityOverride) || 0;
+  if (slot === 0) {
+    const fallbackSlot = Number(lastNonZeroAbilityOverride) || 1;
+    return fallbackSlot > 0 ? fallbackSlot : 1;
+  }
+  return slot;
+}
+
 function dvGeneratePID(params) {
   let state = (params.trainerIdx + params.pokeIdx + params.pokeLevel + params.difficultyValue) >>> 0;
   const randStep = () => {
@@ -5294,9 +5303,12 @@ async function collectDspreData(editor, { log }) {
     const battleType = props.doubleBattle ? "Doubles" : "Singles";
     const speciesLevelSeen = new Map();
     const nonZeroAbilitySlotMons = [];
+    let lastNonZeroAbilityOverride = 1;
     const partyOut = party.map((mon, subIndex) => {
       const genderOverride = mon.genderAbilityFlags & 0x0F;
-      const abilityOverride = mon.genderAbilityFlags >> 4;
+      const rawAbilityOverride = mon.genderAbilityFlags >> 4;
+      const abilityOverride = resolveTrainerAbilityOverride(rawAbilityOverride, lastNonZeroAbilityOverride);
+      if (rawAbilityOverride !== 0) lastNonZeroAbilityOverride = rawAbilityOverride;
       const baseGenderRatio = personalEntries[mon.pokeId]?.genderVec ?? 0;
       const setGender = deriveTrainerSetGenderCode({
         speciesGenderRatio: baseGenderRatio,
@@ -5342,12 +5354,12 @@ async function collectDspreData(editor, { log }) {
         movesOut = learnsetAtLevel(learnset, mon.level).map((m) => moveNames[m] ?? "None");
       }
       const speciesName = resolveTrainerFormName(mon.pokeId, mon.formId, pokemonNames);
-      if (abilityOverride !== 0) {
+      if (rawAbilityOverride !== 0) {
         nonZeroAbilitySlotMons.push({
           subIndex,
           species: speciesName,
           level: mon.level,
-          abilitySlot: abilityOverride,
+          abilitySlot: rawAbilityOverride,
           ability,
         });
       }

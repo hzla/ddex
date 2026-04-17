@@ -7026,10 +7026,6 @@ var overrides = {
                         "Sand-Attack"
                     ],
                     [
-                        4,
-                        "Dig"
-                    ],
-                    [
                         7,
                         "Faint Attack"
                     ],
@@ -8211,10 +8207,6 @@ var overrides = {
                     [
                         41,
                         "Rock Slide"
-                    ],
-                    [
-                        47,
-                        "Rage"
                     ],
                     [
                         69,
@@ -46286,10 +46278,6 @@ var overrides = {
                     [
                         54,
                         "Force Palm"
-                    ],
-                    [
-                        100,
-                        "Meditate"
                     ]
                 ],
                 "tms": [
@@ -66312,7 +66300,7 @@ var overrides = {
             "num": 441,
             "types": [
                 "Normal",
-                "Poison"
+                "Flying"
             ],
             "items": [
                 "None",
@@ -121114,7 +121102,7 @@ var overrides = {
             "name": "Hurricane",
             "num": 139,
             "e_id": 141,
-            "e_chance": 100,
+            "e_chance": 30,
             "desc": "The user conjures a low pressure system to sweep up the foe. This may confuse the target."
         },
         "Leech Life": {
@@ -125309,7 +125297,7 @@ var overrides = {
             "prio": 0,
             "name": "Roar of Time",
             "num": 458,
-            "e_id": 80,
+            "e_id": 262,
             "e_chance": 10,
             "desc": "The user blasts the foes with power that distorts even time. The user must rest on the next turn.",
             "oldDesc": "The user blasts the foe with power that distorts even time. The user must rest on the next turn."
@@ -127492,13 +127480,6 @@ var overrides = {
             "desc": "A transparent device filled with all sorts of data. It was produced by Silph Co.",
             "ground_locations": [
                 "tgeternabldg"
-            ],
-            "npcs": [
-                {
-                    "spriteID": 145,
-                    "location": "eternacity",
-                    "orientation": 0
-                }
             ]
         },
         "shellbell": {
