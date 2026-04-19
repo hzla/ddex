@@ -439,13 +439,16 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     if (source === "cache") return "cached";
     return "";
   },
-  renderNuzlockeSpriteStrip: function (speciesIds) {
+  renderNuzlockeSpriteStrip: function (speciesEntries) {
     var buf = '<span class="nuzlocke-sprite-strip" aria-hidden="true">';
-    for (var i = 0; i < speciesIds.length; i++) {
-      var speciesTemplate = Dex.species.get(speciesIds[i]);
+    for (var i = 0; i < speciesEntries.length; i++) {
+      var speciesEntry = speciesEntries[i] || {};
+      var speciesTemplate = Dex.species.get(speciesEntry.speciesId || speciesEntry);
       if (!speciesTemplate || !speciesTemplate.exists) continue;
       buf +=
-        '<span class="picon nuzlocke-picon" style="' +
+        '<span class="picon nuzlocke-picon' +
+        (speciesEntry.dead ? " nuzlocke-picon-dead" : "") +
+        '" style="' +
         Dex.getPokemonIcon(speciesTemplate.name) +
         '"></span>';
     }
@@ -494,7 +497,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         speciesNames.push(speciesTemplate.name);
       }
       buf += "<strong>Caught:</strong> ";
-      buf += this.renderNuzlockeSpriteStrip(summary.speciesIds);
+      buf += this.renderNuzlockeSpriteStrip(summary.speciesEntries || summary.speciesIds);
       if (speciesNames.length) {
         buf +=
           '<span class="nuzlocke-summary-species">' +

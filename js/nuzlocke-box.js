@@ -123,11 +123,15 @@
       var lines = block.split("\n");
       var firstLine = "";
       var metLocation = "";
+      var isDead = false;
 
       for (var j = 0; j < lines.length; j++) {
         var line = cleanText(lines[j]);
         if (!line) continue;
         if (!firstLine) firstLine = line;
+        if (/^Dead:\s*Yes\s*$/i.test(line)) {
+          isDead = true;
+        }
         if (!metLocation) {
           var metMatch = line.match(/^Met:\s*(.*)$/i);
           if (metMatch) metLocation = cleanText(metMatch[1]);
@@ -140,6 +144,7 @@
       records.push({
         species: speciesName,
         location: metLocation,
+        dead: isDead,
       });
     }
 
@@ -222,6 +227,7 @@
       normalizedRecords.push({
         species: speciesName,
         location: locationName,
+        dead: !!record.dead,
       });
     }
 
@@ -289,8 +295,13 @@
     var normalizedRecords = normalizeRecords(records);
     var locationIndex = buildLocationIndex();
     var speciesIds = new Set();
+    var deadSpeciesIds = new Set();
     var locationGroupToSpecies = new Map();
+    var locationGroupToDeadSpecies = new Map();
+    var locationGroupToSpeciesEntries = new Map();
     var locationIdsToSpecies = new Map();
+    var locationIdsToDeadSpecies = new Map();
+    var locationIdsToSpeciesEntries = new Map();
     var missedLocationGroups = normalizeMissedLocationGroups(
       meta && meta.missedLocationGroups instanceof Set
         ? meta.missedLocationGroups
@@ -303,6 +314,9 @@
       var speciesId = normalizeLocationText(record.species);
       if (!speciesId) continue;
       speciesIds.add(speciesId);
+      if (record.dead) {
+        deadSpeciesIds.add(speciesId);
+      }
 
       var groupKey = locationIndex.aliasToGroup.get(
         normalizeLocationText(record.location),
@@ -313,11 +327,53 @@
         locationGroupToSpecies.set(groupKey, []);
       }
       addUnique(locationGroupToSpecies.get(groupKey), speciesId);
+
+      if (record.dead) {
+        if (!locationGroupToDeadSpecies.has(groupKey)) {
+          locationGroupToDeadSpecies.set(groupKey, []);
+        }
+        addUnique(locationGroupToDeadSpecies.get(groupKey), speciesId);
+      }
+
+      if (!locationGroupToSpeciesEntries.has(groupKey)) {
+        locationGroupToSpeciesEntries.set(groupKey, Object.create(null));
+      }
+      var speciesEntryMap = locationGroupToSpeciesEntries.get(groupKey);
+      if (!speciesEntryMap[speciesId]) {
+        speciesEntryMap[speciesId] = {
+          speciesId: speciesId,
+          dead: false,
+          alive: false,
+        };
+      }
+      if (record.dead) {
+        speciesEntryMap[speciesId].dead = true;
+      } else {
+        speciesEntryMap[speciesId].alive = true;
+      }
     }
 
     locationIndex.locationIdToGroup.forEach(function (groupKey, locationId) {
       var speciesList = locationGroupToSpecies.get(groupKey) || [];
+      var deadSpeciesList = locationGroupToDeadSpecies.get(groupKey) || [];
+      var speciesEntryMap = locationGroupToSpeciesEntries.get(groupKey) || {};
+      var speciesEntries = [];
+      for (var speciesId in speciesEntryMap) {
+        if (!Object.prototype.hasOwnProperty.call(speciesEntryMap, speciesId)) continue;
+        var speciesEntry = speciesEntryMap[speciesId];
+        speciesEntries.push({
+          speciesId: speciesEntry.speciesId,
+          dead: !!speciesEntry.dead && !speciesEntry.alive,
+        });
+      }
+      speciesEntries.sort(function (entryA, entryB) {
+        if (entryA.speciesId < entryB.speciesId) return -1;
+        if (entryA.speciesId > entryB.speciesId) return 1;
+        return 0;
+      });
       locationIdsToSpecies.set(locationId, speciesList.slice());
+      locationIdsToDeadSpecies.set(locationId, deadSpeciesList.slice());
+      locationIdsToSpeciesEntries.set(locationId, speciesEntries);
     });
 
     return {
@@ -329,8 +385,12 @@
         meta && meta.lastSuccessAt !== undefined ? meta.lastSuccessAt : null,
       records: normalizedRecords,
       speciesIds: speciesIds,
+      deadSpeciesIds: deadSpeciesIds,
       locationIdsToSpecies: locationIdsToSpecies,
+      locationIdsToDeadSpecies: locationIdsToDeadSpecies,
+      locationIdsToSpeciesEntries: locationIdsToSpeciesEntries,
       locationGroupToSpecies: locationGroupToSpecies,
+      locationGroupToDeadSpecies: locationGroupToDeadSpecies,
       locationIdToGroup: locationIndex.locationIdToGroup,
       missedLocationGroups: missedLocationGroups,
     };
@@ -349,7 +409,13 @@
     });
 
     for (var i = 0; i < sortedRecords.length; i++) {
-      parts.push(sortedRecords[i].species + "|" + sortedRecords[i].location);
+      parts.push(
+        sortedRecords[i].species +
+          "|" +
+          sortedRecords[i].location +
+          "|" +
+          (sortedRecords[i].dead ? "dead" : "live"),
+      );
     }
 
     if (
@@ -664,6 +730,12 @@
     var speciesIds = locationKey
       ? currentState.locationIdsToSpecies.get(locationKey) || []
       : [];
+    var deadSpeciesIds = locationKey
+      ? currentState.locationIdsToDeadSpecies.get(locationKey) || []
+      : [];
+    var speciesEntries = locationKey
+      ? currentState.locationIdsToSpeciesEntries.get(locationKey) || []
+      : [];
     var locationGroup = locationKey
       ? currentState.locationIdToGroup.get(locationKey) || ""
       : "";
@@ -676,6 +748,13 @@
       hasCaughtHere: speciesIds.length > 0,
       speciesIds: speciesIds.slice(),
       caughtSpeciesIds: speciesIds.slice(),
+      deadSpeciesIds: deadSpeciesIds.slice(),
+      speciesEntries: speciesEntries.map(function (entry) {
+        return {
+          speciesId: entry.speciesId,
+          dead: !!entry.dead,
+        };
+      }),
       isMissed: isMissed,
       canMarkMissed:
         !!locationKey &&
@@ -696,10 +775,16 @@
 
     var summary = getLocationSummary(locationId);
     var caughtHere = summary.speciesIds.indexOf(normalizedSpeciesId) >= 0;
+    var deadHere = summary.deadSpeciesIds.indexOf(normalizedSpeciesId) >= 0;
 
     return {
       caughtHere: caughtHere,
       ownedElsewhere: !caughtHere && currentState.speciesIds.has(normalizedSpeciesId),
+      deadHere: deadHere,
+      ownedDeadElsewhere:
+        !caughtHere &&
+        currentState.deadSpeciesIds.has(normalizedSpeciesId) &&
+        currentState.speciesIds.has(normalizedSpeciesId),
     };
   }
 

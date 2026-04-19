@@ -1444,6 +1444,12 @@ h1 a, h1 a.subtle {
 	flex: 0 0 auto;
 }
 
+.nuzlocke-picon.nuzlocke-picon-dead {
+	outline: 2px solid rgba(176, 43, 43, 0.95);
+	outline-offset: 1px;
+	border-radius: 3px;
+}
+
 .utilichart li.result.ddex-location-result-with-toggle {
 	height: auto;
 	contain: none;

@@ -2040,19 +2040,22 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     var locationSummary = nuzlockeService.getLocationSummary(locationId);
     if (
       !locationSummary ||
-      !locationSummary.speciesIds ||
-      !locationSummary.speciesIds.length
+      !locationSummary.speciesEntries ||
+      !locationSummary.speciesEntries.length
     ) {
       return "";
     }
 
     var strip =
       '<span class="col typecol nuzlocke-sprite-strip ddex-route-sprite-strip" aria-hidden="true">';
-    for (var i = 0; i < locationSummary.speciesIds.length; i++) {
-      var speciesTemplate = Dex.species.get(locationSummary.speciesIds[i]);
+    for (var i = 0; i < locationSummary.speciesEntries.length; i++) {
+      var speciesEntry = locationSummary.speciesEntries[i] || {};
+      var speciesTemplate = Dex.species.get(speciesEntry.speciesId);
       if (!speciesTemplate || !speciesTemplate.exists) continue;
       strip +=
-        '<span class="picon nuzlocke-picon" style="' +
+        '<span class="picon nuzlocke-picon' +
+        (speciesEntry.dead ? " nuzlocke-picon-dead" : "") +
+        '" style="' +
         Dex.getPokemonIcon(speciesTemplate.name) +
         '"></span>';
     }
