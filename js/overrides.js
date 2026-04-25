@@ -10,7 +10,10 @@ const ROM_KEYS = {
 
 var params = new URLSearchParams(window.location.search);
 var gameParam = params.get("game");
-var game = gameParam || (isRomOverrideActive() ? null : localStorage.game);
+var GAME_SOURCE_ALIASES = {
+  "sterlingsilver117": "sterlingsilver",
+};
+var game = normalizeGameSourceKey(gameParam) || (isRomOverrideActive() ? null : normalizeGameSourceKey(localStorage.game));
 var gameTitles = {
 	"vintagewhiteplus": "Vintage White+",
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
@@ -25,6 +28,12 @@ var gameTitles = {
   "platinumkaizo": "Platinum Kaizo",
   "cascadewhitedev": "Cascade White Dev",
   "sacredgoldstormsilver": "Sacred Gold"
+}
+
+function normalizeGameSourceKey(gameKey) {
+  if (!gameKey) return "";
+  var normalized = String(gameKey).trim().toLowerCase();
+  return GAME_SOURCE_ALIASES[normalized] || normalized;
 }
 
 if (game && gameTitles[game]) {
@@ -60,9 +69,12 @@ function setDexTitle(title) {
 }
 
 function setDexTitleFromStorage() {
-  const gameKey = localStorage.game;
-  if (gameKey && gameTitles[gameKey]) {
-    setDexTitle(gameTitles[gameKey]);
+  const storedGameKey = localStorage.game;
+  const titleGameKey = storedGameKey && gameTitles[storedGameKey]
+    ? storedGameKey
+    : normalizeGameSourceKey(storedGameKey);
+  if (titleGameKey && gameTitles[titleGameKey]) {
+    setDexTitle(gameTitles[titleGameKey]);
     return true;
   }
   const romTitle = localStorage.romTitle;
@@ -116,7 +128,8 @@ function applyRomOverridesFromCache() {
 }
 
 function setGameDexTitle(gameKey) {
-  const title = gameTitles[gameKey];
+  const titleKey = gameTitles[gameKey] ? gameKey : normalizeGameSourceKey(gameKey);
+  const title = gameTitles[titleKey];
   if (!title) return;
   setDexTitle(title);
   maybeApplyRomFamilyFromTitle(title);
@@ -126,17 +139,19 @@ async function applyGameOverridesFromCache() {
   if (isRomOverrideActive()) return false;
   if (!localStorage.overrides) return false;
   const gameKey = localStorage.game;
-  if (!gameKey || !gameTitles[gameKey]) return false;
+  const sourceGameKey = normalizeGameSourceKey(gameKey);
+  if (!sourceGameKey || !(gameTitles[gameKey] || gameTitles[sourceGameKey])) return false;
   try {
     let parsedOverrides = JSON.parse(localStorage.overrides || "null");
     if (!parsedOverrides) return false;
     parsedOverrides = normalizeOverrideSpeciesPayload(parsedOverrides);
-    parsedOverrides = await loadOptionalCustomDescriptionOverrides(gameKey, parsedOverrides);
+    parsedOverrides = await loadOptionalCustomDescriptionOverrides(sourceGameKey, parsedOverrides);
     window.overrides = parsedOverrides;
     overrides = parsedOverrides;
     localStorage.overrides = JSON.stringify(parsedOverrides);
+    localStorage.game = sourceGameKey;
     overrideDexData(parsedOverrides);
-    setGameDexTitle(gameKey);
+    setGameDexTitle(gameKey || sourceGameKey);
     console.log("Loaded game overrides from cache");
     return true;
   } catch (e) {
@@ -831,8 +846,8 @@ async function hydrateCachedOverrides(routeInfo) {
   const requestedGame = (routeInfo && routeInfo.game) || gameParam;
   if (requestedGame) {
     localStorage.removeItem("gameTitle");
-    game = requestedGame;
-    if (gameTitles[requestedGame]) {
+    game = normalizeGameSourceKey(requestedGame);
+    if (gameTitles[requestedGame] || gameTitles[game]) {
       setGameDexTitle(requestedGame);
     }
     return false;
@@ -848,28 +863,30 @@ async function hydrateCachedOverrides(routeInfo) {
 
 async function loadRequestedGameOverrides(gameName) {
   if (!gameName) return false;
-  game = gameName;
-  if (gameTitles[gameName]) {
+  const sourceGameName = normalizeGameSourceKey(gameName);
+  if (!sourceGameName) return false;
+  game = sourceGameName;
+  if (gameTitles[gameName] || gameTitles[sourceGameName]) {
     setGameDexTitle(gameName);
   }
 
-  const overridesLoaded = await checkAndLoadScript(`/data/overrides/${gameName}.js`, {
+  const overridesLoaded = await checkAndLoadScript(`/data/overrides/${sourceGameName}.js`, {
     onNotFound: (src) => console.log(`Not found: ${src}`),
   });
   if (!overridesLoaded) return false;
 
   let normalizedOverrides = normalizeOverrideSpeciesPayload(overrides);
-  normalizedOverrides = await loadOptionalCustomDescriptionOverrides(gameName, normalizedOverrides);
+  normalizedOverrides = await loadOptionalCustomDescriptionOverrides(sourceGameName, normalizedOverrides);
   window.overrides = normalizedOverrides;
   overrides = normalizedOverrides;
   overrideDexData(normalizedOverrides);
   localStorage.overrides = JSON.stringify(normalizedOverrides);
-  localStorage.game = gameName;
+  localStorage.game = sourceGameName;
   console.log("Stored override data in cache");
 
-  await checkAndLoadScript(`/data/overrides/${gameName}_searchindex.js`, {
+  await checkAndLoadScript(`/data/overrides/${sourceGameName}_searchindex.js`, {
     onLoad: () => {
-      console.log(`search index loaded for ${gameName}`);
+      console.log(`search index loaded for ${sourceGameName}`);
     },
     onNotFound: (src) => console.log(`Not found: ${src}`),
   });
