@@ -19107,8 +19107,8 @@ overrides = {
         "hp": 55,
         "at": 65,
         "df": 95,
-        "sa": 80,
-        "sd": 65,
+        "sa": 85,
+        "sd": 75,
         "sp": 45
       },
       "learnset_info": {
@@ -21468,7 +21468,7 @@ overrides = {
           ],
           [
             12,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             15,
@@ -21507,11 +21507,11 @@ overrides = {
             "Reflect"
           ],
           [
-            34,
-            "Light Screen"
+            36,
+            "Heart Stamp"
           ],
           [
-            37,
+            38,
             "Substitute"
           ],
           [
@@ -24513,9 +24513,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Skill Link",
+        "Swift Swim",
         "Battle Armor",
-        "Swift Swim"
+        "Skill Link"
       ],
       "evos": [
         "Kabutops"
@@ -24718,9 +24718,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Skill Link",
+        "Swift Swim",
         "Battle Armor",
-        "Swift Swim"
+        "Skill Link"
       ],
       "evoType": "level",
       "evoLevel": 30
@@ -26467,7 +26467,7 @@ overrides = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Stomp"
           ],
           [
             13,
@@ -26633,7 +26633,7 @@ overrides = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Stomp"
           ],
           [
             13,
@@ -26821,7 +26821,7 @@ overrides = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Stomp"
           ],
           [
             13,
@@ -31957,7 +31957,7 @@ overrides = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             12,
@@ -32150,7 +32150,7 @@ overrides = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             12,
@@ -35380,7 +35380,7 @@ overrides = {
           ],
           [
             7,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             9,
@@ -35416,7 +35416,7 @@ overrides = {
           ],
           [
             34,
-            "Dazzling Gleam"
+            "Heart Stamp"
           ],
           [
             37,
@@ -51253,7 +51253,7 @@ overrides = {
           ],
           [
             1,
-            "Helping Hand"
+            "Obstruct"
           ],
           [
             3,
@@ -51309,7 +51309,7 @@ overrides = {
           ],
           [
             47,
-            "Obstruct"
+            "Detect"
           ],
           [
             53,
@@ -51443,7 +51443,7 @@ overrides = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             12,
@@ -72283,8 +72283,7 @@ overrides = {
       "name": "Cherubi",
       "num": 420,
       "types": [
-        "Grass",
-        "Fire"
+        "Grass"
       ],
       "items": [
         "None",
@@ -75619,7 +75618,7 @@ overrides = {
           ],
           [
             12,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             15,
@@ -75658,11 +75657,11 @@ overrides = {
             "Reflect"
           ],
           [
-            34,
-            "Light Screen"
+            36,
+            "Heart Stamp"
           ],
           [
-            37,
+            38,
             "Substitute"
           ],
           [
@@ -77307,7 +77306,7 @@ overrides = {
           ],
           [
             42,
-            "Sandstorm"
+            "Protect"
           ],
           [
             45,
@@ -77399,7 +77398,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Obstruct"
+            "Sandstorm"
           ],
           [
             1,
@@ -77459,7 +77458,7 @@ overrides = {
           ],
           [
             42,
-            "Sandstorm"
+            "Protect"
           ],
           [
             45,
@@ -81893,7 +81892,7 @@ overrides = {
           ],
           [
             13,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             15,
@@ -86559,7 +86558,7 @@ overrides = {
           ],
           [
             59,
-            "Obstruct"
+            "Spiky Shield"
           ],
           [
             63,
@@ -90680,7 +90679,7 @@ overrides = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Disarming Voice"
           ],
           [
             14,
@@ -90712,7 +90711,7 @@ overrides = {
           ],
           [
             35,
-            "Fairy Wind"
+            "Heart Stamp"
           ],
           [
             38,
@@ -90837,7 +90836,7 @@ overrides = {
           ],
           [
             1,
-            "Iron Tail"
+            "Fairy Wind"
           ],
           [
             4,
@@ -90849,7 +90848,7 @@ overrides = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Disarming Voice"
           ],
           [
             14,
@@ -90881,7 +90880,7 @@ overrides = {
           ],
           [
             35,
-            "Fairy Wind"
+            "Heart Stamp"
           ],
           [
             38,
@@ -121137,7 +121136,6 @@ overrides = {
       "name": "Spit Up",
       "num": 254,
       "e_id": 0,
-      "tar": "allAdjacentFoes",
       "desc": "The user consumes a held berry, then vomits up a torrent of digestive juices.",
       "oldDesc": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the damage."
     },
@@ -124917,7 +124915,7 @@ overrides = {
     },
     "Heart Stamp": {
       "t": "Fairy",
-      "bp": 60,
+      "bp": 80,
       "cat": "Physical",
       "pp": 25,
       "acc": 100,
@@ -128807,7 +128805,7 @@ overrides = {
             "mx": 26
           },
           {
-            "s": "Torkoal",
+            "s": "Plusle",
             "mn": 24,
             "mx": 26
           },
@@ -128827,27 +128825,27 @@ overrides = {
             "mx": 26
           },
           {
-            "s": "Plusle",
-            "mn": 24,
-            "mx": 26
-          },
-          {
-            "s": "Plusle",
-            "mn": 24,
-            "mx": 26
-          },
-          {
             "s": "Minun",
             "mn": 24,
             "mx": 26
           },
           {
-            "s": "Minun",
+            "s": "Flaaffy",
             "mn": 24,
             "mx": 26
           },
           {
-            "s": "Plusle",
+            "s": "Flaaffy",
+            "mn": 24,
+            "mx": 26
+          },
+          {
+            "s": "Torkoal",
+            "mn": 24,
+            "mx": 26
+          },
+          {
+            "s": "Torkoal",
             "mn": 24,
             "mx": 26
           }
