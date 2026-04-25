@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -41,6 +41,32 @@ function hashContent(contents) {
 
 async function readSource(relPath) {
   return readFile(path.join(rootDir, relPath), "utf8");
+}
+
+async function hashFileTree(relPath) {
+  const absPath = path.join(rootDir, relPath);
+  const hash = createHash("sha256");
+
+  async function visit(currentAbsPath, currentRelPath) {
+    const entries = await readdir(currentAbsPath, { withFileTypes: true });
+    entries.sort((a, b) => a.name.localeCompare(b.name));
+
+    for (const entry of entries) {
+      if (entry.name === ".DS_Store") continue;
+      const entryAbsPath = path.join(currentAbsPath, entry.name);
+      const entryRelPath = path.posix.join(currentRelPath, entry.name);
+      if (entry.isDirectory()) {
+        hash.update(`dir:${entryRelPath}\n`);
+        await visit(entryAbsPath, entryRelPath);
+      } else if (entry.isFile()) {
+        hash.update(`file:${entryRelPath}\n`);
+        hash.update(await readFile(entryAbsPath));
+      }
+    }
+  }
+
+  await visit(absPath, relPath);
+  return hash.digest("hex").slice(0, 10);
 }
 
 function joinScripts(parts) {
@@ -107,12 +133,9 @@ async function copyStaticAssets() {
   }
 }
 
-function renderIndexHtml(manifest) {
+function renderIndexHtml(manifest, runtimeConfig) {
   const manifestJson = JSON.stringify(manifest);
-  const configJson = JSON.stringify({
-    target: buildTarget,
-    basePath,
-  });
+  const configJson = JSON.stringify(runtimeConfig);
   return `<!doctype html>
 <html>
   <head>
@@ -172,12 +195,17 @@ async function main() {
   const styleManifest = await buildStyleChunks();
   const scriptManifest = await buildScriptChunks();
   const manifest = { ...styleManifest, ...scriptManifest };
+  const runtimeConfig = {
+    target: buildTarget,
+    basePath,
+    romAssetVersion: await hashFileTree("rom"),
+  };
 
   await writeFile(
     path.join(distDir, "asset-manifest.json"),
     JSON.stringify(manifest, null, 2) + "\n",
   );
-  const indexHtml = renderIndexHtml(manifest);
+  const indexHtml = renderIndexHtml(manifest, runtimeConfig);
   await writeFile(path.join(distDir, "index.html"), indexHtml);
   if (buildTarget === "github-pages") {
     await writeFile(path.join(distDir, "404.html"), indexHtml);

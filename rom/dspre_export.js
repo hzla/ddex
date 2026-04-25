@@ -113,7 +113,7 @@ class RomBrowser {
 }
 
 const GAME_IDS = {
-  Platinum: ["CPUE", "CPUS", "CPUI", "CPUF", "CPUD", "CPUJ", "CPUP"],
+  Platinum: ["CPUE", "CPUS", "CPUI", "CPUF", "CPUD", "CPUJ", "CPUP", "JAK7"],
   HeartGold: ["IPKE", "IPKS", "IPKI", "IPKF", "IPKD", "IPKJ"],
   SoulSilver: ["IPGE", "IPGS", "IPGI", "IPGF", "IPGD", "IPGJ"],
 };
@@ -3795,24 +3795,45 @@ function resolveTrainerAbilityOverride(rawAbilityOverride, lastNonZeroAbilityOve
   return slot;
 }
 
+function deriveTrainerPidMod({
+  currentPidMod,
+  speciesId,
+  speciesGenderRatio,
+  rawOverride,
+  mode,
+}) {
+  let pidMod = Number(currentPidMod) || 0;
+  const override = Number(rawOverride) || 0;
+  const genderOverride = override & 0x0F;
+  const abilityOverride = (override >> 4) & 0x0F;
+
+  if (mode === "JAK7" && override !== 0) {
+    pidMod = Number(speciesId) || 0;
+    if (genderOverride === 1) pidMod += 2;
+    else if (genderOverride === 2) pidMod -= 2;
+  } else if (override !== 0 && genderOverride !== 0) {
+    pidMod = Number(speciesGenderRatio) || 0;
+    if (genderOverride === 1) pidMod += 2;
+    else pidMod -= 2;
+  }
+
+  if (abilityOverride === 1) pidMod &= ~1;
+  else if (abilityOverride === 2) pidMod |= 1;
+
+  return pidMod >>> 0;
+}
+
 function dvGeneratePID(params) {
-  let state = (params.trainerIdx + params.pokeIdx + params.pokeLevel + params.difficultyValue) >>> 0;
+  let state = (params.trainerId + params.speciesId + params.level + params.difficulty) >>> 0;
   const randStep = () => {
-    state = (1103515245 * state + 24691) >>> 0;
+    state = (Math.imul(0x41C64E6D, state) + 0x00006073) >>> 0;
     return state >>> 16;
   };
   let random = 0;
-  for (let i = 0; i < params.trainerClassIdx; i += 1) {
+  for (let i = 0; i < params.trainerClass; i += 1) {
     random = randStep();
   }
-  let genderMod = params.trainerMale ? 136 : 120;
-  if (params.useGenderUpdate) {
-    if (params.genderOverride === 1) genderMod = params.baseGenderRatio + 2;
-    else if (params.genderOverride === 2) genderMod = params.baseGenderRatio - 2;
-    if (params.abilityOverride === 1) genderMod = genderMod & ~1;
-    else if (params.abilityOverride === 2) genderMod = genderMod | 1;
-  }
-  return ((random << 8) + genderMod) >>> 0;
+  return ((random << 8) + (Number(params.pidMod) || 0)) >>> 0;
 }
 
 function dvNatureFromPid(pid) {
@@ -3826,39 +3847,6 @@ const NATURES = [
   "Modest", "Mild", "Quiet", "Bashful", "Rash",
   "Calm", "Gentle", "Sassy", "Careful", "Quirky",
 ];
-
-function deriveTrainerNatureGen4({
-  trainerId,
-  trainerClass,
-  difficulty,
-  level,
-  speciesId,
-  abilityOverride,
-  trainerGenderCode,
-  family,
-}) {
-  let species = Number(speciesId) || 0;
-  if (species > 1024) species %= 1024;
-
-  let seed = (Number(level) + species + Number(difficulty) + Number(trainerId)) >>> 0;
-  for (let i = 0; i < (Number(trainerClass) || 0); i += 1) {
-    seed = (Math.imul(0x41C64E6D, seed) + 0x00006073) >>> 0;
-  }
-
-  const seedHex = seed.toString(16).padStart(8, "0");
-  const midBytes = seedHex.slice(0, 4);
-  const gender = Number(trainerGenderCode) === 1 ? "female" : "male";
-  const lowBytes = gender === "male" ? "88" : "78";
-  const pidHex = `00${midBytes}${lowBytes}`;
-  const pidLastTwo = Number(String(Number.parseInt(pidHex, 16)).slice(-2)) || 0;
-  const baseNature = pidLastTwo % 25;
-
-  const abilityAdjust = Number(abilityOverride) === 2 ? 1 : 0;
-  const natureId = family === "HGSS"
-    ? (pidLastTwo + abilityAdjust) % 25
-    : baseNature;
-  return NATURES[natureId] || NATURES[0];
-}
 
 function deriveTrainerSetGenderCode({ speciesGenderRatio, trainerGenderCode }) {
   const ratio = Number(speciesGenderRatio);
@@ -5260,6 +5248,10 @@ async function collectDspreData(editor, { log }) {
   };
 
   const aiBackportEnabled = family === "Plat" && arm9.subarray(0x793B8, 0x793BC).every((b, idx) => b === [0xF0, 0xB5, 0x93, 0xB0][idx]);
+  const trainerPidMode = romId === "JAK7"
+    ? "JAK7"
+    : (family === "HGSS" || aiBackportEnabled ? "HGSS" : "DPPT");
+  log(`[trainer-debug] family=${family} romId=${romId} aiBackportEnabled=${aiBackportEnabled} trainerPidMode=${trainerPidMode}`);
   const trainerClassNameSeen = new Map();
 
   for (let i = 1; i < trainerPartyNarc.fileCount; i += 1) {
@@ -5299,48 +5291,42 @@ async function collectDspreData(editor, { log }) {
     const trainerInstance = (trainerClassNameSeen.get(trainerDupKey) || 0) + 1;
     trainerClassNameSeen.set(trainerDupKey, trainerInstance);
     const trainerGenderCode = trainerClassGenderCode(props.trainerClass);
-    const trainerMale = trainerGenderCode !== 1;
     const battleType = props.doubleBattle ? "Doubles" : "Singles";
     const speciesLevelSeen = new Map();
     const nonZeroAbilitySlotMons = [];
     let lastNonZeroAbilityOverride = 1;
+    let pidMod = trainerGenderCode === 1 ? 0x78 : 0x88;
     const partyOut = party.map((mon, subIndex) => {
-      const genderOverride = mon.genderAbilityFlags & 0x0F;
       const rawAbilityOverride = mon.genderAbilityFlags >> 4;
       const abilityOverride = resolveTrainerAbilityOverride(rawAbilityOverride, lastNonZeroAbilityOverride);
       if (rawAbilityOverride !== 0) lastNonZeroAbilityOverride = rawAbilityOverride;
       const baseGenderRatio = personalEntries[mon.pokeId]?.genderVec ?? 0;
+      if (trainerPidMode !== "DPPT") {
+        pidMod = deriveTrainerPidMod({
+          currentPidMod: pidMod,
+          speciesId: mon.pokeId,
+          speciesGenderRatio: baseGenderRatio,
+          rawOverride: mon.genderAbilityFlags,
+          mode: trainerPidMode,
+        });
+      }
+      const pid = dvGeneratePID({
+        trainerId: i,
+        trainerClass: props.trainerClass,
+        speciesId: mon.pokeId,
+        level: mon.level,
+        difficulty: mon.difficulty,
+        pidMod,
+      });
       const setGender = deriveTrainerSetGenderCode({
         speciesGenderRatio: baseGenderRatio,
         trainerGenderCode,
       });
-      const pid = dvGeneratePID({
-        trainerIdx: i,
-        trainerClassIdx: props.trainerClass,
-        pokeIdx: mon.pokeId,
-        pokeLevel: mon.level,
-        baseGenderRatio,
-        genderOverride,
-        abilityOverride,
-        difficultyValue: mon.difficulty,
-        trainerMale,
-        useGenderUpdate: family === "HGSS" || aiBackportEnabled,
-      });
-      const nature = deriveTrainerNatureGen4({
-        trainerId: i,
-        trainerClass: props.trainerClass,
-        difficulty: mon.difficulty,
-        level: mon.level,
-        speciesId: mon.pokeId,
-        abilityOverride,
-        trainerGenderCode,
-        family,
-      });
+      const nature = NATURES[dvNatureFromPid(pid)] || NATURES[0];
       const firstAbility = personalEntries[mon.pokeId]?.firstAbility ?? 0;
       const secondAbility = personalEntries[mon.pokeId]?.secondAbility ?? firstAbility;
-      let abilityIndex = pid % 2 === 0 ? firstAbility : secondAbility;
-      if (abilityOverride === 1) abilityIndex = firstAbility;
-      else if (abilityOverride === 2) abilityIndex = secondAbility;
+      let abilityIndex = firstAbility;
+      if (abilityOverride === 2) abilityIndex = secondAbility;
       const ability = abilityNames[abilityIndex] ?? `ABILITY_${abilityIndex}`;
       const item = mon.heldItem != null && mon.heldItem !== 0
         ? (itemNames[mon.heldItem] ?? `ITEM_${mon.heldItem}`)

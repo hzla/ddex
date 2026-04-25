@@ -10,6 +10,7 @@
   var appReadyPromise = null;
   var romToolsPromise = null;
   var basePath = normalizeBasePath(config.basePath || "");
+  var romAssetVersion = config.romAssetVersion || "";
   var embeddedMode = detectEmbeddedMode(window.location.search);
 
   function normalizeBasePath(value) {
@@ -26,6 +27,13 @@
     if (path === basePath || path.indexOf(basePath + "/") === 0) return path;
     if (path === "/") return basePath + "/";
     return basePath + path;
+  }
+
+  function withRawAssetVersion(src) {
+    if (!romAssetVersion || typeof src !== "string") return src;
+    if (!src.startsWith("/rom/")) return src;
+    var separator = src.indexOf("?") >= 0 ? "&" : "?";
+    return src + separator + "v=" + encodeURIComponent(romAssetVersion);
   }
 
   function stripBase(pathname) {
@@ -299,15 +307,17 @@
   }
 
   function loadRawScript(src) {
-    if (rawScriptPromises[src]) return rawScriptPromises[src];
-    rawScriptPromises[src] = loadScriptTag(src);
-    return rawScriptPromises[src];
+    var versionedSrc = withRawAssetVersion(src);
+    if (rawScriptPromises[versionedSrc]) return rawScriptPromises[versionedSrc];
+    rawScriptPromises[versionedSrc] = loadScriptTag(versionedSrc);
+    return rawScriptPromises[versionedSrc];
   }
 
   function loadRawModule(src) {
-    if (rawModulePromises[src]) return rawModulePromises[src];
-    rawModulePromises[src] = loadScriptTag(src, { type: "module" });
-    return rawModulePromises[src];
+    var versionedSrc = withRawAssetVersion(src);
+    if (rawModulePromises[versionedSrc]) return rawModulePromises[versionedSrc];
+    rawModulePromises[versionedSrc] = loadScriptTag(versionedSrc, { type: "module" });
+    return rawModulePromises[versionedSrc];
   }
 
   async function hydrateCachedOverrides(routeInfo) {

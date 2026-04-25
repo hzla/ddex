@@ -19,6 +19,7 @@ var gameTitles = {
 	"cascadewhite2": "Cascade White",
 	"renegadeplatinum": "Renegade Platinum",
   "sterlingsilver": "Sterling Silver",
+  "sterlingsilver117": "Sterling Silver",
   "pokemonnull": "Pokemon Null",
   "reignitedruby": "Reignited Ruby",
   "platinumkaizo": "Platinum Kaizo",
@@ -185,9 +186,7 @@ function setRomStatus(msg, isErr) {
     console.error(`${prefix}${msg}`);
     return;
   }
-  if (/\.\.\.\s*$/.test(String(msg || ""))) {
-    console.log(msg);
-  }
+  console.log(msg);
 }
 
 function getRomOverridePayload() {
