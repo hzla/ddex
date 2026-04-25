@@ -21,6 +21,10 @@
         var params = new URLSearchParams(window.location.search || "");
         var embeddedValue = params.get("embedded");
         var embedded = params.has("embedded") && !/^(?:0|false|off|no)$/i.test(String(embeddedValue || "").trim());
+        var isCalcModalLayout = params.get("layout") === "calc-modal";
+        if (isCalcModalLayout) {
+          document.documentElement.classList.add("ddex-calc-modal");
+        }
         if (!embedded) return;
         document.documentElement.classList.add("ddex-embedded");
         var link = document.createElement("link");
@@ -29,6 +33,9 @@
         document.head.appendChild(link);
         document.addEventListener("DOMContentLoaded", function () {
           document.body.classList.add("ddex-embedded");
+          if (isCalcModalLayout) {
+            document.body.classList.add("ddex-calc-modal");
+          }
         });
       })();
     </script>

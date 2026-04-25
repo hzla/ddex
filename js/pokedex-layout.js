@@ -23,6 +23,23 @@
     return fragment === prefix || fragment.indexOf(prefix) === 0;
   }
 
+  function extractBridgeArgs(fragment) {
+    var normalized = fragmentWithoutQuery(fragment);
+    if (!normalized) return [];
+
+    var slashIndex = normalized.indexOf("/");
+    if (slashIndex < 0) return [normalized];
+
+    var value = normalized.slice(slashIndex + 1);
+    if (!value) return [];
+
+    try {
+      return [decodeURIComponent(value)];
+    } catch (error) {
+      return [value];
+    }
+  }
+
   function getAppUrlPath(fragment) {
     var normalized = normalizeFragment(fragment);
     var base = window.DDEXPaths && typeof window.DDEXPaths.withBase === "function"
@@ -271,11 +288,29 @@
       if (startsWithRoute(fragment, "encounters/")) return "encounters/";
       return "";
     },
+    getBridgePanelType: function (fragment) {
+      fragment = fragmentWithoutQuery(fragment);
+      if (startsWithRoute(fragment, "pokemon/")) return window.PokedexPokemonPanel;
+      if (startsWithRoute(fragment, "moves/")) return window.PokedexMovePanel;
+      if (startsWithRoute(fragment, "items/")) return window.PokedexItemPanel;
+      if (startsWithRoute(fragment, "abilities/")) return window.PokedexAbilityPanel;
+      if (startsWithRoute(fragment, "types/")) return window.PokedexTypePanel;
+      if (startsWithRoute(fragment, "egggroups/")) return window.PokedexEggGroupPanel;
+      if (startsWithRoute(fragment, "encounters/")) return window.PokedexEncountersPanel;
+      if (startsWithRoute(fragment, "tags/")) return window.PokedexTagPanel;
+      if (startsWithRoute(fragment, "categories/")) return window.PokedexCategoryPanel;
+      if (startsWithRoute(fragment, "tiers/")) return window.PokedexTierPanel;
+      if (startsWithRoute(fragment, "articles/")) return window.PokedexArticlePanel;
+      return null;
+    },
     initializeShell: function () {
       if (this.shell) return;
       document.documentElement.classList.add("ddex-fixed-layout");
       document.body.classList.add("ddex-fixed-layout");
       this.shell = ensureShell();
+      if (window.__DDEX_BOOTSTRAP__ && window.__DDEX_BOOTSTRAP__.embeddedLayout === "calc-modal") {
+        this.shell.classList.add("ddex-calc-modal-layout");
+      }
       if (!this.shell.querySelector(".ddex-sidebar-slot")) {
         this.shell.innerHTML =
           '<div class="ddex-slot ddex-sidebar-slot"></div>' +
@@ -456,6 +491,43 @@
         loaded: true,
       });
       this.syncDetailState();
+    },
+    navigateFromBridge: function (fragment) {
+      var normalized = this.normalizeFragment(fragment);
+      var args = extractBridgeArgs(normalized);
+      if (!this.sidebarSlot) {
+        this.initializePanels(this.getBridgePanelType(normalized) || PokedexSearchPanel, normalized, args);
+        return true;
+      }
+
+      if (this.isContentFragment(normalized)) {
+        var panelType = this.getBridgePanelType(normalized);
+        if (!panelType) return false;
+
+        this.currentSidebarFragment = this.inferSidebarFragment(normalized);
+        this.renderSlotPanel("sidebar", PokedexSearchPanel, {
+          fragment: this.currentSidebarFragment,
+          args: [],
+          loaded: true,
+        });
+
+        this.currentContentFragment = normalized;
+        this.renderSlotPanel("content", panelType, {
+          fragment: normalized,
+          args: args,
+          sourcePanel: this.sidebarPanel,
+          source: null,
+          loaded: true,
+        });
+        this.syncDetailState();
+      } else {
+        this.openSidebarFragment(normalized, [], false);
+        this.syncDetailState();
+      }
+
+      this.updatePanelsArray();
+      this.updateURL(false);
+      return true;
     },
     clearDetailPanel: function () {
       this.currentContentFragment = "";

@@ -12,6 +12,10 @@
   var basePath = normalizeBasePath(config.basePath || "");
   var romAssetVersion = config.romAssetVersion || "";
   var embeddedMode = detectEmbeddedMode(window.location.search);
+  var embeddedLayout = detectEmbeddedLayout(window.location.search);
+  var DEX_NAVIGATE_MESSAGE_TYPE = "ddex:navigate";
+  var DEX_READY_MESSAGE_TYPE = "ddex:ready";
+  var dexReadyMessageSent = false;
 
   function normalizeBasePath(value) {
     value = String(value || "").trim();
@@ -68,7 +72,96 @@
     }
   }
 
+  function detectEmbeddedLayout(search) {
+    var params = new URLSearchParams(search || "");
+    return params.get("layout") || "";
+  }
+
+  function normalizeBridgeFragment(fragment) {
+    if (fragment == null) return "";
+    return String(fragment).replace(/^\/+/, "");
+  }
+
+  function getParentOrigin() {
+    try {
+      if (!document.referrer) return "";
+      return new URL(document.referrer).origin;
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function isTrustedParentMessage(event) {
+    if (!window.parent || window.parent === window) return false;
+    if (event.source !== window.parent) return false;
+
+    var expectedOrigin = getParentOrigin();
+    if (expectedOrigin && event.origin !== expectedOrigin) return false;
+    return true;
+  }
+
+  function applyPendingBridgeNavigation() {
+    var bridgeState = window.__DDEX_BOOTSTRAP__;
+    if (!bridgeState || !window.pokedex || typeof window.pokedex.navigateFromBridge !== "function") {
+      return false;
+    }
+
+    var fragment = bridgeState.pendingBridgeFragment;
+    if (fragment == null) return false;
+
+    var didNavigate = window.pokedex.navigateFromBridge(fragment) !== false;
+    if (didNavigate) {
+      bridgeState.pendingBridgeFragment = null;
+    }
+    return didNavigate;
+  }
+
+  function sendDexReadyMessage() {
+    if (dexReadyMessageSent || !window.parent || window.parent === window) {
+      return;
+    }
+    if (typeof window.parent.postMessage !== "function") {
+      return;
+    }
+
+    dexReadyMessageSent = true;
+    window.parent.postMessage(
+      {
+        type: DEX_READY_MESSAGE_TYPE,
+        href: window.location.href,
+      },
+      getParentOrigin() || "*"
+    );
+  }
+
+  function handleParentNavigateMessage(event) {
+    var data = event.data || {};
+    if (data.type !== DEX_NAVIGATE_MESSAGE_TYPE) return;
+    if (!isTrustedParentMessage(event)) return;
+
+    window.__DDEX_BOOTSTRAP__.pendingBridgeFragment = normalizeBridgeFragment(data.fragment);
+
+    if (window.pokedex && typeof window.pokedex.navigateFromBridge === "function") {
+      applyPendingBridgeNavigation();
+      sendDexReadyMessage();
+      return;
+    }
+
+    ensureAppReady()
+      .then(function () {
+        applyPendingBridgeNavigation();
+        sendDexReadyMessage();
+      })
+      .catch(reportBootFailure);
+  }
+
   function applyEmbeddedModeClasses() {
+    if (embeddedLayout === "calc-modal") {
+      document.documentElement.classList.add("ddex-calc-modal");
+      if (document.body) {
+        document.body.classList.add("ddex-calc-modal");
+      }
+    }
     if (!embeddedMode) return;
     document.documentElement.classList.add("ddex-embedded");
     if (document.body) {
@@ -393,6 +486,8 @@
       await hydrateCachedOverrides(routeInfo);
       await resolveRequestedOverrides(routeInfo);
       startApp();
+      applyPendingBridgeNavigation();
+      sendDexReadyMessage();
       return true;
     })();
 
@@ -418,7 +513,9 @@
 
   window.__DDEX_BOOTSTRAP__ = {
     embeddedMode: embeddedMode,
+    embeddedLayout: embeddedLayout,
     pendingState: null,
+    pendingBridgeFragment: null,
     getRouteInfo: getRouteInfo,
     loadAsset: loadAsset,
     loadStyleAsset: loadStyleAsset,
@@ -432,6 +529,8 @@
   if (window.BattleSearch) {
     window.BattleSearch.urlRoot = routerRoot();
   }
+
+  window.addEventListener("message", handleParentNavigateMessage);
 
   ensureEmbeddedStyles().catch(function (error) {
     console.warn(error);

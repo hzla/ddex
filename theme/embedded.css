@@ -1,3 +1,45 @@
-/* iframe-only overrides go here */
+html.ddex-calc-modal,
+body.ddex-calc-modal {
+  background: #2f2f2f;
+  overflow: hidden;
+}
 
+html.ddex-calc-modal.ddex-fixed-layout .ddex-shell,
+body.ddex-calc-modal.ddex-fixed-layout .ddex-shell,
+.ddex-shell.ddex-calc-modal-layout {
+  width: 100%;
+  max-width: none;
+  height: 100vh;
+  margin: 0;
+  gap: 0;
+}
 
+html.ddex-calc-modal.ddex-fixed-layout .ddex-sidebar-slot,
+body.ddex-calc-modal.ddex-fixed-layout .ddex-sidebar-slot,
+.ddex-shell.ddex-calc-modal-layout .ddex-sidebar-slot {
+  display: none !important;
+}
+
+html.ddex-calc-modal.ddex-fixed-layout .ddex-content-slot,
+body.ddex-calc-modal.ddex-fixed-layout .ddex-content-slot,
+.ddex-shell.ddex-calc-modal-layout .ddex-content-slot {
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: none;
+}
+
+html.ddex-calc-modal.ddex-fixed-layout .ddex-content-slot > .pfx-panel,
+body.ddex-calc-modal.ddex-fixed-layout .ddex-content-slot > .pfx-panel,
+.ddex-shell.ddex-calc-modal-layout .ddex-content-slot > .pfx-panel {
+  height: 100vh;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+html.ddex-calc-modal.ddex-fixed-layout .ddex-content-panel .pfx-body,
+body.ddex-calc-modal.ddex-fixed-layout .ddex-content-panel .pfx-body,
+.ddex-shell.ddex-calc-modal-layout .ddex-content-panel .pfx-body {
+  min-height: 100%;
+  padding-bottom: 24px;
+}
