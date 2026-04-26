@@ -699,7 +699,7 @@ overrides = {
           "Fire Pledge",
           "Blast Burn",
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -893,7 +893,7 @@ overrides = {
           "Fire Pledge",
           "Blast Burn",
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -1104,7 +1104,7 @@ overrides = {
           "Fire Pledge",
           "Blast Burn",
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -1838,7 +1838,7 @@ overrides = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Skill Swap",
           "Signal Beam",
           "Psychic Noise",
@@ -2016,7 +2016,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Skill Swap",
           "Signal Beam",
           "Psychic Noise",
@@ -2150,7 +2150,7 @@ overrides = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Drill Run",
           "Cross Poison",
@@ -2315,7 +2315,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Drill Run",
           "Cross Poison",
@@ -2478,6 +2478,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Protect",
@@ -2640,6 +2641,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Protect",
@@ -2820,6 +2822,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Protect",
@@ -2974,7 +2977,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Iron Head",
           "Drill Run",
@@ -3153,7 +3156,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Iron Head",
           "Drill Run",
@@ -3321,6 +3324,8 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Drill Run",
           "Bounce",
           "Foul Play",
@@ -3490,6 +3495,8 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Drill Run",
           "Bounce",
           "Foul Play",
@@ -3653,7 +3660,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Cross Poison",
@@ -3842,7 +3849,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Cross Poison",
@@ -5772,12 +5779,12 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 80,
-        "at": 45,
+        "hp": 75,
+        "at": 60,
         "df": 63,
-        "sa": 90,
+        "sa": 85,
         "sd": 80,
-        "sp": 45
+        "sp": 35
       },
       "learnset_info": {
         "learnset": [
@@ -5811,7 +5818,7 @@ overrides = {
           ],
           [
             19,
-            "Draining Kiss"
+            "Double Slap"
           ],
           [
             22,
@@ -5974,8 +5981,8 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 70,
-        "df": 83,
+        "at": 80,
+        "df": 73,
         "sa": 105,
         "sd": 100,
         "sp": 60
@@ -6012,7 +6019,7 @@ overrides = {
           ],
           [
             19,
-            "Draining Kiss"
+            "Double Slap"
           ],
           [
             22,
@@ -7064,6 +7071,8 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Zen Headbutt",
@@ -7234,6 +7243,8 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Zen Headbutt",
@@ -7976,9 +7987,8 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
           "Signal Beam",
           "Cross Poison",
           "Foul Play",
@@ -8175,9 +8185,8 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
           "Signal Beam",
           "Cross Poison",
           "Foul Play",
@@ -8326,7 +8335,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Skill Swap",
           "Signal Beam",
           "Psychic Noise",
@@ -8519,7 +8528,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Skill Swap",
           "Signal Beam",
           "Psychic Noise",
@@ -8665,7 +8674,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Iron Head",
           "Drill Run",
@@ -8834,7 +8842,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Iron Head",
           "Drill Run",
@@ -8993,8 +9000,9 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Iron Head",
           "Psychic Noise",
           "Low Kick",
@@ -9201,8 +9209,9 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Iron Head",
           "Psychic Noise",
           "Low Kick",
@@ -9785,8 +9794,9 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Bounce",
@@ -9980,8 +9990,9 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Bounce",
@@ -10957,6 +10968,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -11125,6 +11137,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -11319,6 +11332,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -11485,7 +11499,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -11664,7 +11677,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -11857,7 +11869,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -12014,7 +12025,6 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Low Kick",
           "Cross Poison",
@@ -12192,7 +12202,6 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Low Kick",
           "Cross Poison",
@@ -12383,7 +12392,6 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Low Kick",
           "Cross Poison",
@@ -14542,7 +14550,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Drill Run",
           "Bounce",
@@ -15060,6 +15068,7 @@ overrides = {
           "Signal Beam",
           "Drill Run",
           "Seething Cold",
+          "Barrier",
           "Aqua Tail",
           "Protect",
           "Follow Me",
@@ -15069,6 +15078,7 @@ overrides = {
           "Rest",
           "Toxic",
           "Chilling Water",
+          "Breaking Swipe",
           "Icy Wind",
           "Natural Gift",
           "Take Down",
@@ -15251,6 +15261,7 @@ overrides = {
           "Signal Beam",
           "Drill Run",
           "Seething Cold",
+          "Barrier",
           "Aqua Tail",
           "Protect",
           "Follow Me",
@@ -15260,6 +15271,7 @@ overrides = {
           "Rest",
           "Toxic",
           "Chilling Water",
+          "Breaking Swipe",
           "Icy Wind",
           "Natural Gift",
           "Take Down",
@@ -16125,6 +16137,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Seething Cold",
           "Thunder Punch",
           "Fire Punch",
@@ -16305,6 +16318,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Seething Cold",
           "Thunder Punch",
           "Fire Punch",
@@ -16499,6 +16513,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Seething Cold",
           "Thunder Punch",
           "Fire Punch",
@@ -17229,8 +17244,6 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -17414,8 +17427,6 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -17564,6 +17575,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -17754,6 +17766,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -20124,7 +20137,6 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Earth Power",
           "Self Destruct",
@@ -21590,6 +21602,7 @@ overrides = {
         "tutors": [
           "Seed Bomb",
           "Skill Swap",
+          "Torment",
           "Psychic Noise",
           "Low Kick",
           "Thunder Punch",
@@ -21762,8 +21775,7 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Low Kick",
@@ -22095,7 +22107,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -22263,7 +22275,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -22452,8 +22464,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -24483,7 +24494,6 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -24688,7 +24698,6 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -24871,6 +24880,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Iron Head",
           "Earth Power",
           "Zen Headbutt",
@@ -25582,7 +25592,6 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Bounce",
           "Barrier",
@@ -25762,7 +25771,6 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Bounce",
           "Barrier",
@@ -25965,7 +25973,6 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Bounce",
           "Barrier",
@@ -26364,10 +26371,10 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
-          "Dual Chop",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -27629,7 +27636,7 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Seething Cold",
@@ -27826,7 +27833,7 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Seething Cold",
@@ -28025,7 +28032,7 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Seething Cold",
@@ -28189,6 +28196,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
           "Bounce",
@@ -28375,6 +28383,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
           "Bounce",
@@ -28883,7 +28892,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -29087,7 +29096,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -29242,7 +29251,6 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
           "Signal Beam",
           "Bounce",
           "Cross Poison",
@@ -29410,7 +29418,6 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
           "Signal Beam",
           "Bounce",
           "Cross Poison",
@@ -29591,6 +29598,8 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Zen Headbutt",
@@ -30145,7 +30154,7 @@ overrides = {
           ],
           [
             19,
-            "Draining Kiss"
+            "Double Slap"
           ],
           [
             22,
@@ -30938,6 +30947,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Signal Beam",
           "Psychic Noise",
           "Bounce",
@@ -31128,6 +31138,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Signal Beam",
           "Psychic Noise",
           "Bounce",
@@ -31291,7 +31302,6 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
@@ -31473,7 +31483,6 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
@@ -31677,7 +31686,6 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
@@ -32804,7 +32812,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Magic Coat",
@@ -32974,7 +32982,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Magic Coat",
@@ -33158,7 +33166,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Magic Coat",
@@ -33304,7 +33312,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Low Kick",
@@ -33806,7 +33814,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Psychic Noise",
           "Bounce",
@@ -34334,6 +34342,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -34518,6 +34527,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -34705,6 +34715,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seething Cold",
           "Foul Play",
           "Protect",
@@ -35492,6 +35503,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -35655,7 +35667,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Signal Beam",
           "Iron Head",
@@ -35848,7 +35859,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Signal Beam",
           "Iron Head",
@@ -36219,8 +36229,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Drill Run",
           "Bounce",
           "Cross Poison",
@@ -36421,6 +36430,7 @@ overrides = {
           "Head Smash",
           "Toxic",
           "Outrage",
+          "Superpower",
           "Screech",
           "Breaking Swipe",
           "Natural Gift",
@@ -37136,8 +37146,7 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Low Kick",
@@ -37303,7 +37312,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Signal Beam",
           "Earth Power",
           "Self Destruct",
@@ -37481,7 +37489,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -39452,6 +39459,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Ice Punch",
@@ -39923,6 +39931,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Foul Play",
           "Protect",
           "Defense Curl",
@@ -40104,6 +40113,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Foul Play",
           "Protect",
           "Defense Curl",
@@ -41216,10 +41226,10 @@ overrides = {
           "Blast Burn",
           "Hydro Cannon",
           "Draco Meteor",
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
-          "Dual Chop",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -41880,7 +41890,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -42038,7 +42048,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -43995,8 +44005,7 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Low Kick",
           "Thunder Punch",
           "Focus Punch",
@@ -44184,8 +44193,7 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Low Kick",
           "Thunder Punch",
           "Focus Punch",
@@ -44391,8 +44399,7 @@ overrides = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Low Kick",
           "Thunder Punch",
           "Focus Punch",
@@ -44557,8 +44564,8 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -44737,8 +44744,8 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -44939,8 +44946,8 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -45607,6 +45614,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Foul Play",
           "Protect",
           "Iron Tail",
@@ -45773,6 +45781,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Foul Play",
           "Protect",
           "Iron Tail",
@@ -45913,7 +45922,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Cross Poison",
@@ -46089,7 +46098,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Cross Poison",
@@ -46168,7 +46177,7 @@ overrides = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Sweet Scent",
           "Heal Pulse",
           "Toxic",
@@ -46241,7 +46250,7 @@ overrides = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Magic Coat",
           "Barrier",
@@ -46340,7 +46349,7 @@ overrides = {
           ],
           [
             34,
-            "Light Screen"
+            "U-turn"
           ],
           [
             36,
@@ -46415,7 +46424,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Magic Coat",
           "Barrier",
@@ -46497,7 +46506,7 @@ overrides = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Cross Poison",
           "Magic Coat",
@@ -46596,7 +46605,7 @@ overrides = {
           ],
           [
             34,
-            "Light Screen"
+            "U-turn"
           ],
           [
             36,
@@ -46670,7 +46679,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Cross Poison",
           "Magic Coat",
@@ -47833,6 +47842,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Psychic Noise",
           "Protect",
           "Iron Tail",
@@ -47994,6 +48004,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Psychic Noise",
           "Protect",
           "Iron Tail",
@@ -48157,6 +48168,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Gastro Acid",
@@ -48342,6 +48354,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Gastro Acid",
@@ -48495,6 +48508,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Thunder Punch",
@@ -48667,6 +48681,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Thunder Punch",
@@ -48868,6 +48883,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Thunder Punch",
@@ -49001,7 +49017,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Sweet Scent",
           "Aqua Tail",
@@ -49191,7 +49207,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Sweet Scent",
           "Aqua Tail",
@@ -49328,7 +49344,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Bounce",
           "Thunder Punch",
           "Zen Headbutt",
@@ -49520,7 +49536,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Bounce",
           "Thunder Punch",
           "Zen Headbutt",
@@ -50173,8 +50189,8 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Drill Run",
           "Earth Power",
@@ -50335,8 +50351,8 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Drill Run",
           "Cross Poison",
@@ -50493,8 +50509,8 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Drill Run",
           "Cross Poison",
@@ -51843,6 +51859,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
           "Psychic Noise",
@@ -52047,6 +52064,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
           "Psychic Noise",
@@ -52239,7 +52257,7 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Seething Cold",
@@ -52602,7 +52620,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -52802,7 +52820,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -53016,7 +53034,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -54274,7 +54292,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Thunder Punch",
           "Ice Punch",
@@ -54458,7 +54476,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Thunder Punch",
           "Ice Punch",
@@ -56929,7 +56947,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -57118,7 +57136,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -57325,7 +57343,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -58271,8 +58289,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Cross Poison",
@@ -58467,8 +58484,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -59381,7 +59397,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Ice Punch",
           "Zen Headbutt",
@@ -59578,7 +59594,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Ice Punch",
           "Zen Headbutt",
@@ -60436,8 +60452,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -60634,8 +60648,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -61314,7 +61326,7 @@ overrides = {
         "tutors": [
           "Draco Meteor",
           "Skill Swap",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Cross Poison",
@@ -61471,7 +61483,11 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Seething Cold",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
           "Foul Play",
           "Self Destruct",
@@ -61655,11 +61671,16 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Seething Cold",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
           "Foul Play",
           "Self Destruct",
           "Explosion",
+          "Focus Punch",
           "Protect",
           "Double-Edge",
           "Helping Hand",
@@ -62246,11 +62267,11 @@ overrides = {
           ],
           [
             22,
-            "Draining Kiss"
+            "Psywave"
           ],
           [
             26,
-            "Refresh"
+            "Draining Kiss"
           ],
           [
             29,
@@ -62540,7 +62561,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Bounce",
@@ -63615,7 +63636,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Bounce",
           "Cross Poison",
@@ -63810,7 +63831,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Bounce",
           "Cross Poison",
@@ -64001,7 +64022,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Bounce",
           "Cross Poison",
@@ -64490,7 +64511,6 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Aqua Tail",
           "Protect",
@@ -64652,7 +64672,6 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Aqua Tail",
           "Protect",
@@ -64845,7 +64864,6 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Aqua Tail",
           "Protect",
@@ -67458,8 +67476,9 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -67648,8 +67667,9 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -67856,8 +67876,9 @@ overrides = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -68508,11 +68529,14 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Roost",
           "Defog",
           "Low Sweep",
@@ -68654,11 +68678,14 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Roost",
           "Defog",
           "Low Sweep",
@@ -68814,11 +68841,14 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Roost",
           "Defog",
           "Low Sweep",
@@ -69272,8 +69302,8 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Cross Poison",
@@ -69451,8 +69481,8 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Cross Poison",
@@ -71258,7 +71288,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -71428,7 +71458,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Seething Cold",
           "Sweet Scent",
@@ -71565,7 +71595,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Seething Cold",
           "Sweet Scent",
@@ -71752,7 +71782,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Seething Cold",
           "Sweet Scent",
@@ -71918,6 +71948,7 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Psychic Noise",
           "Thunder Punch",
@@ -72063,7 +72094,8 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Low Kick",
           "Ice Punch",
           "Focus Punch",
@@ -72251,7 +72283,8 @@ overrides = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Low Kick",
           "Ice Punch",
           "Focus Punch",
@@ -72403,6 +72436,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Fire Punch",
           "Earth Power",
@@ -72590,6 +72624,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Fire Punch",
           "Earth Power",
@@ -73094,7 +73129,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Low Kick",
@@ -73274,6 +73309,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seething Cold",
           "Self Destruct",
           "Explosion",
@@ -73464,6 +73500,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seething Cold",
           "Self Destruct",
           "Explosion",
@@ -73620,6 +73657,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -73814,6 +73852,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -74164,6 +74203,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seething Cold",
           "Foul Play",
           "Protect",
@@ -74317,8 +74357,10 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
+          "Torment",
           "Foul Play",
           "Protect",
           "Iron Tail",
@@ -74497,8 +74539,10 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
+          "Torment",
           "Foul Play",
           "Protect",
           "Iron Tail",
@@ -74583,7 +74627,7 @@ overrides = {
           ],
           [
             22,
-            "Draining Kiss"
+            "Psywave"
           ]
         ],
         "tms": [
@@ -74802,6 +74846,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -74990,6 +75035,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -76033,6 +76079,8 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Psychic Noise",
           "Protect",
           "Follow Me",
@@ -76189,6 +76237,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Seething Cold",
           "Foul Play",
           "Zen Headbutt",
@@ -76327,7 +76376,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Earth Power",
@@ -76497,7 +76546,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Earth Power",
@@ -76681,7 +76730,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Earth Power",
@@ -76991,7 +77040,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -77190,7 +77239,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -77676,7 +77725,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Cross Poison",
           "Aqua Tail",
           "Protect",
@@ -77863,7 +77911,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Cross Poison",
           "Aqua Tail",
           "Protect",
@@ -78036,7 +78083,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Cross Poison",
@@ -78237,7 +78284,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Cross Poison",
@@ -78425,7 +78472,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Iron Head",
           "Bounce",
           "Foul Play",
@@ -79477,6 +79524,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Low Kick",
           "Seething Cold",
           "Ice Punch",
@@ -80208,7 +80256,6 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Earth Power",
           "Self Destruct",
@@ -80381,7 +80428,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -80556,7 +80603,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -80905,7 +80952,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Psychic Noise",
           "Bounce",
@@ -81475,8 +81522,8 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Drill Run",
           "Bounce",
           "Cross Poison",
@@ -83622,7 +83669,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Iron Head",
           "Seething Cold",
           "Earth Power",
@@ -84897,6 +84944,7 @@ overrides = {
           "Rock Smash"
         ],
         "tutors": [
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Seething Cold",
@@ -85050,6 +85098,7 @@ overrides = {
           "Frenzy Plant",
           "Draco Meteor",
           "Seed Bomb",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Sweet Scent",
@@ -85241,6 +85290,7 @@ overrides = {
           "Frenzy Plant",
           "Draco Meteor",
           "Seed Bomb",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Sweet Scent",
@@ -85454,6 +85504,7 @@ overrides = {
           "Frenzy Plant",
           "Draco Meteor",
           "Seed Bomb",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Sweet Scent",
@@ -86217,7 +86268,7 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -86413,7 +86464,7 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -86627,7 +86678,7 @@ overrides = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -87600,7 +87651,9 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -87783,7 +87836,9 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -87943,6 +87998,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Earth Power",
@@ -88132,6 +88188,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Earth Power",
@@ -88310,6 +88367,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Low Kick",
           "Fire Punch",
           "Earth Power",
@@ -88501,6 +88559,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Low Kick",
           "Fire Punch",
           "Earth Power",
@@ -88679,6 +88738,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Low Kick",
           "Ice Punch",
           "Earth Power",
@@ -88871,6 +88931,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Low Kick",
           "Ice Punch",
           "Earth Power",
@@ -89405,6 +89466,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Iron Tail",
           "Double-Edge",
@@ -89563,6 +89625,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Iron Tail",
           "Double-Edge",
@@ -89739,6 +89802,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Iron Tail",
           "Double-Edge",
@@ -89898,6 +89962,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -90094,6 +90159,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -90768,7 +90834,9 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Magic Coat",
           "Aqua Tail",
@@ -90965,7 +91033,9 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Magic Coat",
           "Aqua Tail",
@@ -91136,10 +91206,13 @@ overrides = {
           "Self Destruct",
           "Explosion",
           "Protect",
+          "Defense Curl",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Screech",
           "Low Sweep",
           "Natural Gift",
@@ -91312,10 +91385,13 @@ overrides = {
           "Self Destruct",
           "Explosion",
           "Protect",
+          "Defense Curl",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Screech",
           "Low Sweep",
           "Natural Gift",
@@ -93005,12 +93081,13 @@ overrides = {
           "Endure",
           "Poison Jab",
           "Grass Knot",
+          "U-turn",
           "Solar Blade",
           "Giga Impact",
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Signal Beam",
           "Cross Poison",
@@ -93158,12 +93235,13 @@ overrides = {
           "Endure",
           "Poison Jab",
           "Grass Knot",
+          "U-turn",
           "Solar Blade",
           "Giga Impact",
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Signal Beam",
           "Cross Poison",
@@ -93356,12 +93434,13 @@ overrides = {
           "Endure",
           "Poison Jab",
           "Grass Knot",
+          "U-turn",
           "Solar Blade",
           "Giga Impact",
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Signal Beam",
           "Cross Poison",
@@ -93511,7 +93590,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -93676,7 +93754,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -93863,7 +93940,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -94033,7 +94109,9 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Sweet Scent",
           "Protect",
           "Follow Me",
@@ -94233,7 +94311,9 @@ overrides = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Sweet Scent",
           "Protect",
           "Follow Me",
@@ -94934,6 +95014,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Earth Power",
@@ -95116,6 +95197,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Earth Power",
@@ -95312,6 +95394,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Earth Power",
@@ -95488,6 +95571,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Fire Punch",
           "Earth Power",
           "Focus Punch",
@@ -95686,6 +95770,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Fire Punch",
           "Earth Power",
           "Focus Punch",
@@ -95865,7 +95950,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Psychic Noise",
           "Bounce",
           "Thunder Punch",
@@ -96044,7 +96129,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Earth Power",
           "Self Destruct",
           "Explosion",
@@ -96226,7 +96311,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Earth Power",
           "Self Destruct",
           "Explosion",
@@ -96399,7 +96484,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -96590,7 +96675,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -97672,8 +97757,10 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Earth Power",
+          "Zen Headbutt",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -97857,8 +97944,10 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Earth Power",
+          "Zen Headbutt",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -98377,7 +98466,9 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Seething Cold",
@@ -98559,7 +98650,9 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Seething Cold",
@@ -98723,15 +98816,26 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
+          "Bounce",
+          "Low Kick",
+          "Foul Play",
+          "Sweet Scent",
           "Aqua Tail",
           "Protect",
           "Follow Me",
           "Iron Tail",
           "Double-Edge",
+          "Heal Pulse",
+          "Lucky Chant",
           "Helping Hand",
+          "Healing Wish",
           "Rest",
           "Toxic",
+          "Fake Tears",
+          "Screech",
           "Icy Wind",
           "Natural Gift",
           "Take Down",
@@ -98900,15 +99004,26 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
+          "Bounce",
+          "Low Kick",
+          "Foul Play",
+          "Sweet Scent",
           "Aqua Tail",
           "Protect",
           "Follow Me",
           "Iron Tail",
           "Double-Edge",
+          "Heal Pulse",
+          "Lucky Chant",
           "Helping Hand",
+          "Healing Wish",
           "Rest",
           "Toxic",
+          "Fake Tears",
+          "Screech",
           "Icy Wind",
           "Natural Gift",
           "Take Down",
@@ -99057,6 +99172,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -99227,6 +99343,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -99418,6 +99535,7 @@ overrides = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -101372,6 +101490,7 @@ overrides = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Signal Beam",
           "Protect",
@@ -101516,14 +101635,20 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Iron Head",
           "Drill Run",
+          "Self Destruct",
+          "Explosion",
           "Protect",
+          "Defense Curl",
+          "Iron Tail",
+          "Double-Edge",
           "Helping Hand",
           "Rest",
           "Toxic",
+          "Screech",
           "Struggle Bug",
+          "Natural Gift",
           "Take Down"
         ]
       },
@@ -101686,14 +101811,20 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Iron Head",
           "Drill Run",
+          "Self Destruct",
+          "Explosion",
           "Protect",
+          "Defense Curl",
+          "Iron Tail",
+          "Double-Edge",
           "Helping Hand",
           "Rest",
           "Toxic",
+          "Screech",
           "Struggle Bug",
+          "Natural Gift",
           "Take Down"
         ]
       },
@@ -101843,6 +101974,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Psychic Noise",
           "Foul Play",
           "Sweet Scent",
@@ -102021,6 +102153,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Psychic Noise",
           "Foul Play",
           "Sweet Scent",
@@ -102174,6 +102307,8 @@ overrides = {
           "Dive"
         ],
         "tutors": [
+          "Torment",
+          "Signal Beam",
           "Seething Cold",
           "Magic Coat",
           "Self Destruct",
@@ -102357,6 +102492,8 @@ overrides = {
           "Dive"
         ],
         "tutors": [
+          "Torment",
+          "Signal Beam",
           "Seething Cold",
           "Magic Coat",
           "Self Destruct",
@@ -102518,6 +102655,7 @@ overrides = {
           "Dive"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Magic Coat",
@@ -102681,7 +102819,7 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Sweet Scent",
@@ -102862,7 +103000,7 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Sweet Scent",
@@ -103741,6 +103879,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Cross Poison",
           "Seething Cold",
@@ -103938,6 +104077,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Cross Poison",
           "Seething Cold",
@@ -104152,6 +104292,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Cross Poison",
           "Seething Cold",
@@ -104663,6 +104804,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Protect",
           "Overheat",
           "Helping Hand",
@@ -104808,6 +104950,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Protect",
           "Overheat",
           "Helping Hand",
@@ -104966,6 +105109,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Protect",
           "Overheat",
           "Helping Hand",
@@ -105119,7 +105263,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -105303,7 +105447,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -105501,7 +105645,7 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -106200,7 +106344,8 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Seething Cold",
           "Foul Play",
@@ -106380,7 +106525,8 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Seething Cold",
           "Foul Play",
@@ -106719,7 +106865,8 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Focus Punch",
@@ -106905,7 +107052,8 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Focus Punch",
@@ -107613,7 +107761,7 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Foul Play",
@@ -107787,7 +107935,7 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Foul Play",
@@ -108094,9 +108242,14 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
+          "Zen Headbutt",
           "Protect",
+          "Follow Me",
+          "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
           "Superpower",
           "Roost",
@@ -108247,9 +108400,14 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
+          "Zen Headbutt",
           "Protect",
+          "Follow Me",
+          "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
           "Superpower",
           "Roost",
@@ -108399,9 +108557,12 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Foul Play",
           "Protect",
+          "Follow Me",
           "Helping Hand",
           "Rest",
           "Toxic",
@@ -108568,9 +108729,12 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Foul Play",
           "Protect",
+          "Follow Me",
           "Helping Hand",
           "Rest",
           "Toxic",
@@ -108745,7 +108909,6 @@ overrides = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Iron Head",
           "Low Kick",
           "Seething Cold",
@@ -108917,7 +109080,6 @@ overrides = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -109074,6 +109236,8 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Aqua Tail",
@@ -109251,6 +109415,8 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Aqua Tail",
@@ -109458,6 +109624,8 @@ overrides = {
         ],
         "tutors": [
           "Draco Meteor",
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Aqua Tail",
@@ -109609,7 +109777,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Zen Headbutt",
           "Sweet Scent",
@@ -109785,7 +109953,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Zen Headbutt",
           "Sweet Scent",
@@ -111400,7 +111568,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Signal Beam",
           "Low Kick",
           "Seething Cold",
@@ -111576,7 +111744,7 @@ overrides = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Cross Poison",
@@ -114233,7 +114401,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -114401,7 +114569,7 @@ overrides = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -116549,6 +116717,7 @@ overrides = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Fire Punch",
           "Earth Power",
           "Focus Punch",
@@ -116711,7 +116880,7 @@ overrides = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Signal Beam",
           "Low Kick",
           "Seething Cold",
@@ -121063,7 +121232,7 @@ overrides = {
       "prio": 0,
       "name": "Whirlpool",
       "num": 249,
-      "e_id": 261,
+      "e_id": 42,
       "desc": "Traps foes in a violent swirling whirlpool for four to five turns.",
       "sf": true
     },
