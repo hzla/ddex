@@ -7,6 +7,7 @@
   ];
   var BOX_CACHE_KEY = "ddexNuzlockeEncounterCacheV1";
   var MISSED_LOCATION_CACHE_KEY_PREFIX = "ddexNuzlockeMissedLocationsV1";
+  var MANUAL_CAUGHT_CACHE_KEY_PREFIX = "ddexNuzlockeManualCaughtV1";
   var BOX_CACHE_VERSION = 1;
   var BOX_FETCH_TIMEOUT = 1500;
   var BOX_BRIDGE_TIMEOUT = 12000;
@@ -52,7 +53,7 @@
     return cleanText(value).replace(/section\d+\s*$/i, "");
   }
 
-  function getMissedLocationCacheKey() {
+  function getScopedCacheKey(prefix) {
     var parts = [
       cleanText(localStorage.getItem("game")),
       cleanText(localStorage.getItem("romTitle")),
@@ -66,9 +67,15 @@
       if (namespace) break;
     }
 
-    return namespace
-      ? MISSED_LOCATION_CACHE_KEY_PREFIX + ":" + namespace
-      : MISSED_LOCATION_CACHE_KEY_PREFIX;
+    return namespace ? prefix + ":" + namespace : prefix;
+  }
+
+  function getMissedLocationCacheKey() {
+    return getScopedCacheKey(MISSED_LOCATION_CACHE_KEY_PREFIX);
+  }
+
+  function getManualCaughtCacheKey() {
+    return getScopedCacheKey(MANUAL_CAUGHT_CACHE_KEY_PREFIX);
   }
 
   function canonicalizeSpeciesName(name) {
@@ -234,6 +241,107 @@
     return normalizedRecords;
   }
 
+  function normalizeManualCaughtRecords(records) {
+    var normalizedRecords = [];
+    var seen = Object.create(null);
+    if (!Array.isArray(records)) return normalizedRecords;
+
+    for (var i = 0; i < records.length; i++) {
+      var record = records[i] || {};
+      var speciesName = canonicalizeSpeciesName(record.species);
+      var locationId = cleanText(record.locationId || record.location);
+      if (!speciesName || !locationId) continue;
+
+      var key = locationId + "|" + normalizeLocationText(speciesName);
+      if (seen[key]) continue;
+      seen[key] = true;
+      normalizedRecords.push({
+        species: speciesName,
+        locationId: locationId,
+      });
+    }
+
+    normalizedRecords.sort(function (recordA, recordB) {
+      var keyA = recordA.locationId + "|" + recordA.species;
+      var keyB = recordB.locationId + "|" + recordB.species;
+      if (keyA < keyB) return -1;
+      if (keyA > keyB) return 1;
+      return 0;
+    });
+
+    return normalizedRecords;
+  }
+
+  function loadManualCaughtRecords() {
+    try {
+      var rawValue = localStorage.getItem(getManualCaughtCacheKey());
+      if (!rawValue) return [];
+
+      var parsed = JSON.parse(rawValue);
+      if (!Array.isArray(parsed)) return [];
+      return normalizeManualCaughtRecords(parsed);
+    } catch (error) {
+      console.warn("Failed to load manual caught encounter data", error);
+      return [];
+    }
+  }
+
+  function saveManualCaughtRecords(records) {
+    try {
+      var normalizedRecords = normalizeManualCaughtRecords(records);
+      if (!normalizedRecords.length) {
+        localStorage.removeItem(getManualCaughtCacheKey());
+        return;
+      }
+      localStorage.setItem(
+        getManualCaughtCacheKey(),
+        JSON.stringify(normalizedRecords),
+      );
+    } catch (error) {
+      console.warn("Failed to save manual caught encounter data", error);
+    }
+  }
+
+  function addSpeciesToGroupMaps(
+    locationGroupToSpecies,
+    locationGroupToDeadSpecies,
+    locationGroupToSpeciesEntries,
+    groupKey,
+    speciesId,
+    isDead,
+  ) {
+    if (!groupKey || !speciesId) return;
+
+    if (!locationGroupToSpecies.has(groupKey)) {
+      locationGroupToSpecies.set(groupKey, []);
+    }
+    addUnique(locationGroupToSpecies.get(groupKey), speciesId);
+
+    if (isDead) {
+      if (!locationGroupToDeadSpecies.has(groupKey)) {
+        locationGroupToDeadSpecies.set(groupKey, []);
+      }
+      addUnique(locationGroupToDeadSpecies.get(groupKey), speciesId);
+    }
+
+    if (!locationGroupToSpeciesEntries.has(groupKey)) {
+      locationGroupToSpeciesEntries.set(groupKey, Object.create(null));
+    }
+    var speciesEntryMap = locationGroupToSpeciesEntries.get(groupKey);
+    if (!speciesEntryMap[speciesId]) {
+      speciesEntryMap[speciesId] = {
+        speciesId: speciesId,
+        dead: false,
+        alive: false,
+      };
+    }
+    if (isDead) {
+      speciesEntryMap[speciesId].dead = true;
+    } else {
+      speciesEntryMap[speciesId].alive = true;
+    }
+  }
+
   function loadMissedLocationGroups() {
     try {
       var rawValue = localStorage.getItem(getMissedLocationCacheKey());
@@ -293,15 +401,26 @@
 
   function createDerivedState(source, records, meta) {
     var normalizedRecords = normalizeRecords(records);
+    var manualCaughtRecords = normalizeManualCaughtRecords(
+      meta && Array.isArray(meta.manualCaughtRecords)
+        ? meta.manualCaughtRecords
+        : loadManualCaughtRecords(),
+    );
     var locationIndex = buildLocationIndex();
     var speciesIds = new Set();
+    var liveSpeciesIds = new Set();
     var deadSpeciesIds = new Set();
+    var manualCaughtSpeciesIds = new Set();
     var locationGroupToSpecies = new Map();
     var locationGroupToDeadSpecies = new Map();
     var locationGroupToSpeciesEntries = new Map();
+    var liveLocationGroupToSpecies = new Map();
+    var manualLocationGroupToSpecies = new Map();
     var locationIdsToSpecies = new Map();
+    var locationIdsToLiveSpecies = new Map();
     var locationIdsToDeadSpecies = new Map();
     var locationIdsToSpeciesEntries = new Map();
+    var locationIdsToManualSpecies = new Map();
     var missedLocationGroups = normalizeMissedLocationGroups(
       meta && meta.missedLocationGroups instanceof Set
         ? meta.missedLocationGroups
@@ -314,6 +433,7 @@
       var speciesId = normalizeLocationText(record.species);
       if (!speciesId) continue;
       speciesIds.add(speciesId);
+      liveSpeciesIds.add(speciesId);
       if (record.dead) {
         deadSpeciesIds.add(speciesId);
       }
@@ -323,39 +443,54 @@
       );
       if (!groupKey) continue;
 
-      if (!locationGroupToSpecies.has(groupKey)) {
-        locationGroupToSpecies.set(groupKey, []);
-      }
-      addUnique(locationGroupToSpecies.get(groupKey), speciesId);
+      addSpeciesToGroupMaps(
+        locationGroupToSpecies,
+        locationGroupToDeadSpecies,
+        locationGroupToSpeciesEntries,
+        groupKey,
+        speciesId,
+        record.dead,
+      );
 
-      if (record.dead) {
-        if (!locationGroupToDeadSpecies.has(groupKey)) {
-          locationGroupToDeadSpecies.set(groupKey, []);
-        }
-        addUnique(locationGroupToDeadSpecies.get(groupKey), speciesId);
+      if (!liveLocationGroupToSpecies.has(groupKey)) {
+        liveLocationGroupToSpecies.set(groupKey, []);
       }
+      addUnique(liveLocationGroupToSpecies.get(groupKey), speciesId);
+    }
 
-      if (!locationGroupToSpeciesEntries.has(groupKey)) {
-        locationGroupToSpeciesEntries.set(groupKey, Object.create(null));
+    for (var manualIndex = 0; manualIndex < manualCaughtRecords.length; manualIndex++) {
+      var manualRecord = manualCaughtRecords[manualIndex];
+      var manualSpeciesId = normalizeLocationText(manualRecord.species);
+      if (!manualSpeciesId) continue;
+
+      speciesIds.add(manualSpeciesId);
+      manualCaughtSpeciesIds.add(manualSpeciesId);
+
+      var manualGroupKey =
+        locationIndex.locationIdToGroup.get(manualRecord.locationId) ||
+        locationIndex.aliasToGroup.get(normalizeLocationText(manualRecord.locationId));
+      if (!manualGroupKey) continue;
+
+      addSpeciesToGroupMaps(
+        locationGroupToSpecies,
+        locationGroupToDeadSpecies,
+        locationGroupToSpeciesEntries,
+        manualGroupKey,
+        manualSpeciesId,
+        false,
+      );
+
+      if (!manualLocationGroupToSpecies.has(manualGroupKey)) {
+        manualLocationGroupToSpecies.set(manualGroupKey, []);
       }
-      var speciesEntryMap = locationGroupToSpeciesEntries.get(groupKey);
-      if (!speciesEntryMap[speciesId]) {
-        speciesEntryMap[speciesId] = {
-          speciesId: speciesId,
-          dead: false,
-          alive: false,
-        };
-      }
-      if (record.dead) {
-        speciesEntryMap[speciesId].dead = true;
-      } else {
-        speciesEntryMap[speciesId].alive = true;
-      }
+      addUnique(manualLocationGroupToSpecies.get(manualGroupKey), manualSpeciesId);
     }
 
     locationIndex.locationIdToGroup.forEach(function (groupKey, locationId) {
       var speciesList = locationGroupToSpecies.get(groupKey) || [];
+      var liveSpeciesList = liveLocationGroupToSpecies.get(groupKey) || [];
       var deadSpeciesList = locationGroupToDeadSpecies.get(groupKey) || [];
+      var manualSpeciesList = manualLocationGroupToSpecies.get(groupKey) || [];
       var speciesEntryMap = locationGroupToSpeciesEntries.get(groupKey) || {};
       var speciesEntries = [];
       for (var speciesId in speciesEntryMap) {
@@ -372,8 +507,10 @@
         return 0;
       });
       locationIdsToSpecies.set(locationId, speciesList.slice());
+      locationIdsToLiveSpecies.set(locationId, liveSpeciesList.slice());
       locationIdsToDeadSpecies.set(locationId, deadSpeciesList.slice());
       locationIdsToSpeciesEntries.set(locationId, speciesEntries);
+      locationIdsToManualSpecies.set(locationId, manualSpeciesList.slice());
     });
 
     return {
@@ -384,11 +521,16 @@
       lastSuccessAt:
         meta && meta.lastSuccessAt !== undefined ? meta.lastSuccessAt : null,
       records: normalizedRecords,
+      manualCaughtRecords: manualCaughtRecords,
       speciesIds: speciesIds,
+      liveSpeciesIds: liveSpeciesIds,
       deadSpeciesIds: deadSpeciesIds,
+      manualCaughtSpeciesIds: manualCaughtSpeciesIds,
       locationIdsToSpecies: locationIdsToSpecies,
+      locationIdsToLiveSpecies: locationIdsToLiveSpecies,
       locationIdsToDeadSpecies: locationIdsToDeadSpecies,
       locationIdsToSpeciesEntries: locationIdsToSpeciesEntries,
+      locationIdsToManualSpecies: locationIdsToManualSpecies,
       locationGroupToSpecies: locationGroupToSpecies,
       locationGroupToDeadSpecies: locationGroupToDeadSpecies,
       locationIdToGroup: locationIndex.locationIdToGroup,
@@ -396,9 +538,19 @@
     };
   }
 
-  function buildStateSignature(source, records) {
+  function buildStateSignature(source, records, meta) {
     var parts = [source];
     var sortedRecords = normalizeRecords(records).slice();
+    var manualCaughtRecords = normalizeManualCaughtRecords(
+      meta && Array.isArray(meta.manualCaughtRecords)
+        ? meta.manualCaughtRecords
+        : currentState && currentState.manualCaughtRecords,
+    );
+    var missedLocationGroups = [];
+    var missedLocationGroupSource =
+      meta && meta.missedLocationGroups instanceof Set
+        ? meta.missedLocationGroups
+        : currentState && currentState.missedLocationGroups;
 
     sortedRecords.sort(function (recordA, recordB) {
       var keyA = recordA.species + "|" + recordA.location;
@@ -418,12 +570,20 @@
       );
     }
 
+    for (var manualIndex = 0; manualIndex < manualCaughtRecords.length; manualIndex++) {
+      parts.push(
+        "manual|" +
+          manualCaughtRecords[manualIndex].locationId +
+          "|" +
+          manualCaughtRecords[manualIndex].species,
+      );
+    }
+
     if (
-      currentState &&
-      currentState.missedLocationGroups &&
-      typeof currentState.missedLocationGroups.forEach === "function"
+      missedLocationGroupSource &&
+      typeof missedLocationGroupSource.forEach === "function"
     ) {
-      var missedLocationGroups = Array.from(currentState.missedLocationGroups).sort();
+      missedLocationGroups = Array.from(missedLocationGroupSource).sort();
       for (var missedIndex = 0; missedIndex < missedLocationGroups.length; missedIndex++) {
         parts.push("missed|" + missedLocationGroups[missedIndex]);
       }
@@ -456,7 +616,10 @@
 
   function setState(source, records, meta) {
     currentState = createDerivedState(source, records, meta);
-    var nextSignature = buildStateSignature(currentState.source, currentState.records);
+    var nextSignature = buildStateSignature(currentState.source, currentState.records, {
+      manualCaughtRecords: currentState.manualCaughtRecords,
+      missedLocationGroups: currentState.missedLocationGroups,
+    });
     if (nextSignature === currentSignature) {
       logEncounterState(currentState);
       return currentState;
@@ -508,7 +671,10 @@
         lastCheckedAt: null,
         lastSuccessAt: null,
       });
-      currentSignature = buildStateSignature(currentState.source, currentState.records);
+      currentSignature = buildStateSignature(currentState.source, currentState.records, {
+        manualCaughtRecords: currentState.manualCaughtRecords,
+        missedLocationGroups: currentState.missedLocationGroups,
+      });
       return;
     }
 
@@ -516,7 +682,10 @@
       lastCheckedAt: null,
       lastSuccessAt: cached.savedAt,
     });
-    currentSignature = buildStateSignature(currentState.source, currentState.records);
+    currentSignature = buildStateSignature(currentState.source, currentState.records, {
+      manualCaughtRecords: currentState.manualCaughtRecords,
+      missedLocationGroups: currentState.missedLocationGroups,
+    });
   }
 
   function fetchBoxTextFromEndpoint(endpoint) {
@@ -730,11 +899,17 @@
     var speciesIds = locationKey
       ? currentState.locationIdsToSpecies.get(locationKey) || []
       : [];
+    var liveSpeciesIds = locationKey
+      ? currentState.locationIdsToLiveSpecies.get(locationKey) || []
+      : [];
     var deadSpeciesIds = locationKey
       ? currentState.locationIdsToDeadSpecies.get(locationKey) || []
       : [];
     var speciesEntries = locationKey
       ? currentState.locationIdsToSpeciesEntries.get(locationKey) || []
+      : [];
+    var manualSpeciesIds = locationKey
+      ? currentState.locationIdsToManualSpecies.get(locationKey) || []
       : [];
     var locationGroup = locationKey
       ? currentState.locationIdToGroup.get(locationKey) || ""
@@ -747,8 +922,10 @@
     return {
       hasCaughtHere: speciesIds.length > 0,
       speciesIds: speciesIds.slice(),
+      liveSpeciesIds: liveSpeciesIds.slice(),
       caughtSpeciesIds: speciesIds.slice(),
       deadSpeciesIds: deadSpeciesIds.slice(),
+      manualSpeciesIds: manualSpeciesIds.slice(),
       speciesEntries: speciesEntries.map(function (entry) {
         return {
           speciesId: entry.speciesId,
@@ -769,16 +946,22 @@
     if (!normalizedSpeciesId) {
       return {
         caughtHere: false,
+        liveCaughtHere: false,
+        manualCaughtHere: false,
         ownedElsewhere: false,
       };
     }
 
     var summary = getLocationSummary(locationId);
     var caughtHere = summary.speciesIds.indexOf(normalizedSpeciesId) >= 0;
+    var liveCaughtHere = summary.liveSpeciesIds.indexOf(normalizedSpeciesId) >= 0;
+    var manualCaughtHere = summary.manualSpeciesIds.indexOf(normalizedSpeciesId) >= 0;
     var deadHere = summary.deadSpeciesIds.indexOf(normalizedSpeciesId) >= 0;
 
     return {
       caughtHere: caughtHere,
+      liveCaughtHere: liveCaughtHere,
+      manualCaughtHere: manualCaughtHere,
       ownedElsewhere: !caughtHere && currentState.speciesIds.has(normalizedSpeciesId),
       deadHere: deadHere,
       ownedDeadElsewhere:
@@ -827,6 +1010,58 @@
     return setLocationMissed(locationId, !summary.isMissed);
   }
 
+  function setEncounterCaught(locationId, speciesId, isCaught) {
+    var normalizedLocationId = cleanText(locationId);
+    var canonicalSpecies = canonicalizeSpeciesName(speciesId);
+    var normalizedSpeciesId = normalizeLocationText(canonicalSpecies);
+    if (
+      !normalizedLocationId ||
+      !normalizedSpeciesId ||
+      !window.BattleLocationdex ||
+      !window.BattleLocationdex[normalizedLocationId]
+    ) {
+      return currentState;
+    }
+
+    var nextManualCaughtRecords = currentState.manualCaughtRecords.slice();
+    var existingIndex = -1;
+    for (var i = 0; i < nextManualCaughtRecords.length; i++) {
+      var record = nextManualCaughtRecords[i];
+      if (
+        cleanText(record.locationId) === normalizedLocationId &&
+        normalizeLocationText(record.species) === normalizedSpeciesId
+      ) {
+        existingIndex = i;
+        break;
+      }
+    }
+
+    if (isCaught) {
+      if (existingIndex >= 0) return currentState;
+      nextManualCaughtRecords.push({
+        species: canonicalSpecies,
+        locationId: normalizedLocationId,
+      });
+    } else {
+      if (existingIndex < 0) return currentState;
+      nextManualCaughtRecords.splice(existingIndex, 1);
+    }
+
+    nextManualCaughtRecords = normalizeManualCaughtRecords(nextManualCaughtRecords);
+    saveManualCaughtRecords(nextManualCaughtRecords);
+    return setState(currentState.source, currentState.records, {
+      lastCheckedAt: currentState.lastCheckedAt,
+      lastSuccessAt: currentState.lastSuccessAt,
+      missedLocationGroups: currentState.missedLocationGroups,
+      manualCaughtRecords: nextManualCaughtRecords,
+    });
+  }
+
+  function toggleEncounterCaught(locationId, speciesId) {
+    var rowState = getEncounterRowState(locationId, speciesId);
+    return setEncounterCaught(locationId, speciesId, !rowState.manualCaughtHere);
+  }
+
   var api = {
     refreshForNavigation: refreshForNavigation,
     getState: function () {
@@ -843,6 +1078,8 @@
     getEncounterRowState: getEncounterRowState,
     setLocationMissed: setLocationMissed,
     toggleLocationMissed: toggleLocationMissed,
+    setEncounterCaught: setEncounterCaught,
+    toggleEncounterCaught: toggleEncounterCaught,
   };
 
   hydrateFromCache();

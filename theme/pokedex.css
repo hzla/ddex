@@ -1556,6 +1556,62 @@ h1 a, h1 a.subtle {
 	background: rgba(161, 74, 74, 0.18);
 }
 
+.utilichart li.result.ddex-encounter-result-with-toggle {
+	position: relative;
+}
+
+.utilichart li.result.ddex-encounter-result-with-toggle > a {
+	padding-right: 38px;
+}
+
+.ddex-encounter-caught-toggle {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transition: opacity 120ms ease, visibility 120ms ease, transform 120ms ease, filter 120ms ease;
+}
+
+.ddex-encounter-caught-toggle img {
+	width: 18px;
+	height: 18px;
+	display: block;
+	image-rendering: pixelated;
+	opacity: 0.88;
+}
+
+.utilichart li.result.ddex-encounter-result-with-toggle:hover .ddex-encounter-caught-toggle,
+.utilichart li.result.ddex-encounter-result-with-toggle:focus-within .ddex-encounter-caught-toggle {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+}
+
+.ddex-encounter-caught-toggle:hover img,
+.ddex-encounter-caught-toggle:focus img {
+	opacity: 1;
+}
+
+.ddex-encounter-caught-toggle.active img {
+	filter: drop-shadow(0 0 3px rgba(47, 143, 78, 0.7));
+}
+
+.ddex-encounter-caught-toggle.disabled img {
+	opacity: 0.5;
+}
+
 .ddex-route-toggle-button.active,
 .ddex-route-toggle-button.active:hover {
 	background: rgba(255, 255, 255, 0.14);

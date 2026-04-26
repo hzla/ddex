@@ -187,10 +187,21 @@ function clearMissedLocationCache() {
   }
 }
 
+function clearManualCaughtCache() {
+  var prefix = "ddexNuzlockeManualCaughtV1";
+  for (var i = localStorage.length - 1; i >= 0; i--) {
+    var key = localStorage.key(i);
+    if (key && key.indexOf(prefix) === 0) {
+      localStorage.removeItem(key);
+    }
+  }
+}
+
 $(document).on('click', '#reset-cache', function() {
   delete localStorage.overrides
   clearRomCache();
   clearMissedLocationCache();
+  clearManualCaughtCache();
   localStorage.removeItem("game");
   location.reload()
 })

@@ -315,6 +315,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     "click .result a[data-initial-level]": "storePendingPokemonLevel",
     "click .ddex-encounter-tabbar button": "selectEncounterTab",
     "click .ddex-nuzlocke-missed-toggle": "toggleMissedLocation",
+    "click .ddex-encounter-caught-toggle": "toggleEncounterCaught",
   },
   initialize: function (id) {
     id = toID(id);
@@ -546,9 +547,27 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       window.DDEX_NUZLOCKE_BOX.toggleLocationMissed(this.id);
     }
   },
+  toggleEncounterCaught: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var button = e.currentTarget;
+    if (!button || button.getAttribute("data-disabled") === "true") {
+      return;
+    }
+    if (
+      window.DDEX_NUZLOCKE_BOX &&
+      typeof window.DDEX_NUZLOCKE_BOX.toggleEncounterCaught === "function"
+    ) {
+      window.DDEX_NUZLOCKE_BOX.toggleEncounterCaught(
+        button.getAttribute("data-location-id") || this.id,
+        button.getAttribute("data-species-id") || "",
+      );
+    }
+  },
   getResultRowClassName: function (result) {
     var className = "result";
     if (!result || result.kind !== "encounter") return className;
+    className += " ddex-encounter-result-with-toggle";
 
     var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
     if (
@@ -567,18 +586,98 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
 
     return className;
   },
+  getEncounterCaughtToggleState: function (result) {
+    var defaultState = {
+      disabled: false,
+      manualCaughtHere: false,
+      title: "Mark caught here",
+    };
+    if (!result || result.kind !== "encounter" || isEmptyEncounterSpecies(result.monId)) {
+      return defaultState;
+    }
+
+    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
+    if (
+      !nuzlockeService ||
+      typeof nuzlockeService.getEncounterRowState !== "function"
+    ) {
+      return defaultState;
+    }
+
+    var rowState = nuzlockeService.getEncounterRowState(this.id, result.monId);
+    if (rowState.manualCaughtHere) {
+      return {
+        disabled: false,
+        manualCaughtHere: true,
+        title: "Remove manual caught mark",
+      };
+    }
+    if (rowState.liveCaughtHere) {
+      return {
+        disabled: true,
+        manualCaughtHere: false,
+        title: "Already tracked as caught",
+      };
+    }
+    return defaultState;
+  },
+  renderEncounterCaughtToggle: function (result) {
+    if (!result || result.kind !== "encounter" || isEmptyEncounterSpecies(result.monId)) {
+      return "";
+    }
+
+    var toggleState = this.getEncounterCaughtToggleState(result);
+    var className = "ddex-encounter-caught-toggle";
+    if (toggleState.manualCaughtHere) {
+      className += " active";
+    }
+    if (toggleState.disabled) {
+      className += " disabled";
+    }
+
+    return (
+      '<button type="button" class="' +
+      className +
+      '" data-location-id="' +
+      Dex.escapeHTML(this.id) +
+      '" data-species-id="' +
+      Dex.escapeHTML(result.monId) +
+      '" aria-pressed="' +
+      (toggleState.manualCaughtHere ? "true" : "false") +
+      '" aria-label="' +
+      Dex.escapeHTML(toggleState.title) +
+      '" title="' +
+      Dex.escapeHTML(toggleState.title) +
+      '"' +
+      (toggleState.disabled ? ' data-disabled="true" aria-disabled="true"' : "") +
+      '><img src="' +
+      Dex.escapeHTML(withDexBase("/img/ball.png")) +
+      '" alt="" aria-hidden="true" /></button>'
+    );
+  },
+  renderResultListItemContent: function (i, offscreen) {
+    var row = this.renderRow(i, offscreen);
+    if (!row) return row;
+
+    var result = this.results[i];
+    if (!result || result.kind !== "encounter") {
+      return row;
+    }
+
+    return row + this.renderEncounterCaughtToggle(result);
+  },
   renderResultListItem: function (i, offscreen) {
     return (
       '<li class="' +
       this.getResultRowClassName(this.results[i]) +
       '">' +
-      this.renderRow(i, offscreen) +
+      this.renderResultListItemContent(i, offscreen) +
       "</li>"
     );
   },
   updateResultListItem: function (rowElement, i) {
     rowElement.className = this.getResultRowClassName(this.results[i]);
-    rowElement.innerHTML = this.renderRow(i);
+    rowElement.innerHTML = this.renderResultListItemContent(i);
   },
   getDistribution: function () {
     if (this.results) return this.results;
