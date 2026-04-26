@@ -27,7 +27,8 @@ var gameTitles = {
   "reignitedruby": "Reignited Ruby",
   "platinumkaizo": "Platinum Kaizo",
   "cascadewhitedev": "Cascade White Dev",
-  "sacredgoldstormsilver": "Sacred Gold"
+  "sacredgoldstormsilver": "Sacred Gold",
+  "autumnred": "Autumn Red"
 }
 
 function normalizeGameSourceKey(gameKey) {
