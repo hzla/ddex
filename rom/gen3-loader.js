@@ -2,7 +2,7 @@ import {
   buildGen3ExportArtifacts,
   normalizeSlug,
   titleFromName,
-} from "../../webapp/src/lib/gen3-exporter.mjs";
+} from "./gen3-export/lib/gen3-exporter.mjs";
 
 export function buildOverridesFromGen3Rom(romBytes, tomlText, options = {}) {
   const byteView = romBytes instanceof Uint8Array ? romBytes : new Uint8Array(romBytes);
