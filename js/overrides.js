@@ -434,17 +434,28 @@ function safeFileBase(name) {
   return id || "rom";
 }
 
+function stripFileExtension(name) {
+  return String(name || "").replace(/\.[^.]+$/i, "");
+}
+
 function toTitleCaseWords(name) {
-  const base = String(name || "").trim();
+  const base = stripFileExtension(name).trim();
   if (!base) return "";
   const words = base
-    .replace(/\.nds$/i, "")
     .replace(/[^a-zA-Z0-9]+/g, " ")
     .trim()
     .split(/\s+/);
   return words
     .map((word) => (word ? word[0].toUpperCase() + word.slice(1).toLowerCase() : ""))
     .join(" ");
+}
+
+function getUploadedFiles(input) {
+  return Array.from((input && input.files) || []).filter(Boolean);
+}
+
+function findUploadedFile(files, pattern) {
+  return files.find((file) => pattern.test(String(file && file.name)));
 }
 
 window.downloadRomOverrideFiles = function (baseName) {
@@ -533,7 +544,7 @@ window.downloadRomFileByPath = async function (path, filename) {
     return false;
   }
   try {
-    await ensureRomExporterLoaded();
+    await ensureGen4ExporterLoaded();
     if (typeof window.readRomFileByPath !== "function") {
       console.warn("ROM reader not available. Ensure /rom/loader.js is loaded.");
       return false;
@@ -619,7 +630,14 @@ async function ensureRomModulesLoaded() {
   romModulesLoaded = true;
 }
 
-async function ensureRomExporterLoaded() {
+async function ensureGen4ExporterLoaded() {
+  if (typeof window.buildOverridesFromRom === "function") return;
+  if (
+    window.DDEX_ROM_TOOLS &&
+    typeof window.DDEX_ROM_TOOLS.ensureGen4Loaded === "function"
+  ) {
+    await window.DDEX_ROM_TOOLS.ensureGen4Loaded();
+  }
   if (typeof window.buildOverridesFromRom === "function") return;
   if (window.__romLoaderReady) return;
   await new Promise((resolve, reject) => {
@@ -640,68 +658,136 @@ async function ensureRomExporterLoaded() {
   }
 }
 
-$(document).on('change', '#rom-upload', async function(e) {
-  const file = e.target.files && e.target.files[0];
-  if (!file) return;
-  try {
-    setRomStatus("Loading ROM...");
-    await ensureRomModulesLoaded();
-    await ensureRomExporterLoaded();
-    const buf = await file.arrayBuffer();
-    window.__DDEX_LAST_ROM_BUFFER = buf;
-    window.DDEX_ROM_INCLUDES = null;
-    window.DDEX_ROM_DEBUG = null;
-    const result = await window.buildOverridesFromRom(buf, { log: (msg) => setRomStatus(msg) });
-    const normalizedOverrides = normalizeOverrideSpeciesPayload(result.overrides);
-    result.overrides = normalizedOverrides;
-    window.overrides = normalizedOverrides;
-    overrideDexData(normalizedOverrides);
-    applySearchIndex(result.searchIndex, result.searchIndexOffset, result.searchIndexCount);
-    const rawRomName = String(file.name || "").replace(/\.nds$/i, "") || result.romTitle || "rom";
-    const displayRomTitle = toTitleCaseWords(rawRomName);
-    setDexTitle(displayRomTitle || rawRomName);
-    maybeApplyRomFamilyFromTitle(rawRomName);
-    window.DDEX_ROM_TEXTS = result.texts || null;
-    window.DDEX_ROM_BACKUP_DATA = result.backupData || null;
-    window.DDEX_ROM_INCLUDES = result.includes || null;
-    window.DDEX_ROM_DEBUG = result.debug || null;
-    if (result.itemLocationStats) {
-      setRomStatus(`Item locations (event=${result.itemLocationStats.eventScriptCount}, script=${result.itemLocationStats.scriptParseCount})`);
-    }
+async function ensureGen3ExporterLoaded() {
+  if (typeof window.buildOverridesFromGen3Rom === "function") return;
+  if (
+    window.DDEX_ROM_TOOLS &&
+    typeof window.DDEX_ROM_TOOLS.ensureGen3Loaded === "function"
+  ) {
+    await window.DDEX_ROM_TOOLS.ensureGen3Loaded();
+  }
+  if (typeof window.buildOverridesFromGen3Rom !== "function") {
+    throw new Error("Gen 3 exporter module not loaded. Make sure /rom/gen3-loader.js is reachable.");
+  }
+}
 
-    window.DDEX_ROM_OVERRIDES = {
-      overrides: normalizedOverrides,
-      searchIndex: result.searchIndex,
-      searchIndexOffset: result.searchIndexOffset,
-      searchIndexCount: result.searchIndexCount,
-      title: rawRomName,
-    };
-    localStorage[ROM_CACHE_FLAG] = "1";
-    localStorage[ROM_KEYS.overrides] = JSON.stringify(normalizedOverrides);
-    localStorage[ROM_KEYS.searchIndex] = JSON.stringify(result.searchIndex);
-    localStorage[ROM_KEYS.searchIndexOffset] = JSON.stringify(result.searchIndexOffset);
-    localStorage[ROM_KEYS.searchIndexCount] = JSON.stringify(result.searchIndexCount);
-    localStorage[ROM_KEYS.title] = rawRomName;
-    localStorage.romTitle = rawRomName;
-    if (result.romFamily) {
-      localStorage.romFamily = result.romFamily;
+function applyImportedRomPayload(result, options = {}) {
+  const normalizedOverrides = normalizeOverrideSpeciesPayload(result.overrides);
+  const rawRomTitle = String(result.title || options.fallbackTitle || "rom").trim() || "rom";
+  const displayRomTitle = toTitleCaseWords(rawRomTitle);
+
+  window.__DDEX_LAST_ROM_BUFFER = options.lastRomBuffer || null;
+  window.overrides = normalizedOverrides;
+  overrideDexData(normalizedOverrides);
+  applySearchIndex(result.searchIndex, result.searchIndexOffset, result.searchIndexCount);
+  setDexTitle(displayRomTitle || rawRomTitle);
+  maybeApplyRomFamilyFromTitle(rawRomTitle);
+
+  window.DDEX_ROM_TEXTS = result.texts || null;
+  window.DDEX_ROM_BACKUP_DATA = result.backupData || null;
+  window.DDEX_ROM_INCLUDES = result.includes || null;
+  window.DDEX_ROM_DEBUG = result.debug || null;
+  window.DDEX_ROM_OVERRIDES = {
+    overrides: normalizedOverrides,
+    searchIndex: result.searchIndex,
+    searchIndexOffset: result.searchIndexOffset,
+    searchIndexCount: result.searchIndexCount,
+    title: rawRomTitle,
+  };
+
+  localStorage[ROM_CACHE_FLAG] = "1";
+  localStorage[ROM_KEYS.overrides] = JSON.stringify(normalizedOverrides);
+  localStorage[ROM_KEYS.searchIndex] = JSON.stringify(result.searchIndex);
+  localStorage[ROM_KEYS.searchIndexOffset] = JSON.stringify(result.searchIndexOffset);
+  localStorage[ROM_KEYS.searchIndexCount] = JSON.stringify(result.searchIndexCount);
+  localStorage[ROM_KEYS.title] = rawRomTitle;
+  localStorage.romTitle = rawRomTitle;
+
+  if (result.romFamily) {
+    localStorage.romFamily = result.romFamily;
+  } else {
+    localStorage.removeItem("romFamily");
+  }
+  if (result.romVersion) {
+    localStorage.romVersion = result.romVersion;
+  } else {
+    localStorage.removeItem("romVersion");
+  }
+  if (result.romExpanded) {
+    localStorage.romExpanded = "1";
+  } else {
+    localStorage.removeItem("romExpanded");
+  }
+  localStorage.removeItem("game");
+}
+
+async function importGen4RomFiles(files) {
+  const file = findUploadedFile(files, /\.nds$/i);
+  if (!file) {
+    throw new Error("Select a `.nds` ROM file, or include a `.toml` layout file for Gen 3 import.");
+  }
+
+  setRomStatus("Loading Gen 4 ROM...");
+  await ensureRomModulesLoaded();
+  await ensureGen4ExporterLoaded();
+  const buf = await file.arrayBuffer();
+  const result = await window.buildOverridesFromRom(buf, { log: (msg) => setRomStatus(msg) });
+  const rawRomName = stripFileExtension(file.name) || result.romTitle || "rom";
+
+  applyImportedRomPayload(result, {
+    fallbackTitle: rawRomName,
+    lastRomBuffer: buf,
+  });
+
+  if (result.itemLocationStats) {
+    setRomStatus(`Item locations (event=${result.itemLocationStats.eventScriptCount}, script=${result.itemLocationStats.scriptParseCount})`);
+  }
+}
+
+async function importGen3RomFiles(files) {
+  const romFile = findUploadedFile(files, /\.gba$/i);
+  const tomlFile = findUploadedFile(files, /\.toml$/i);
+  if (!romFile || !tomlFile) {
+    throw new Error("Select one `.gba` ROM file and one `.toml` layout file for Gen 3 import.");
+  }
+
+  setRomStatus("Loading Gen 3 ROM and layout...");
+  await ensureRomModulesLoaded();
+  await ensureGen3ExporterLoaded();
+  const [romBuffer, tomlText] = await Promise.all([
+    romFile.arrayBuffer(),
+    tomlFile.text(),
+  ]);
+  const rawRomName = stripFileExtension(romFile.name) || "rom";
+  setRomStatus("Generating Gen 3 overrides and search index...");
+  const result = window.buildOverridesFromGen3Rom(romBuffer, tomlText, {
+    slug: safeFileBase(rawRomName),
+    title: toTitleCaseWords(rawRomName) || rawRomName,
+  });
+
+  applyImportedRomPayload(result, {
+    fallbackTitle: result.title || rawRomName,
+    lastRomBuffer: null,
+  });
+
+  if (result.summary) {
+    setRomStatus(`Gen 3 export ready (${result.summary.dex_species || 0} species, ${result.summary.dex_locations || 0} locations).`);
+  }
+}
+
+$(document).on('change', '#rom-upload', async function(e) {
+  const files = getUploadedFiles(e.target);
+  if (!files.length) return;
+  try {
+    if (findUploadedFile(files, /\.toml$/i)) {
+      await importGen3RomFiles(files);
     } else {
-      localStorage.removeItem("romFamily");
+      await importGen4RomFiles(files);
     }
-    if (result.romVersion) {
-      localStorage.romVersion = result.romVersion;
-    } else {
-      localStorage.removeItem("romVersion");
-    }
-    if (result.romExpanded) {
-      localStorage.romExpanded = "1";
-    } else {
-      localStorage.removeItem("romExpanded");
-    }
-    localStorage.removeItem("game");
-    // window.location.href = "/";
   } catch (err) {
     setRomStatus(err.message || String(err), true);
+  } finally {
+    e.target.value = "";
   }
 });
 

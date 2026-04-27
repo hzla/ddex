@@ -63,4 +63,6 @@ export const staticCopies = [
   "theme",
   "data",
   "rom",
+  { from: "../webapp/src/lib", to: "webapp/src/lib" },
+  { from: "../webapp/src/data", to: "webapp/src/data" },
 ];
