@@ -60,7 +60,7 @@ overrides = {
           ],
           [
             15,
-            "Sludge"
+            "Venoshock"
           ],
           [
             19,
@@ -225,7 +225,7 @@ overrides = {
           ],
           [
             15,
-            "Sludge"
+            "Venoshock"
           ],
           [
             19,
@@ -412,7 +412,7 @@ overrides = {
           ],
           [
             15,
-            "Sludge"
+            "Venoshock"
           ],
           [
             19,
@@ -1929,7 +1929,7 @@ overrides = {
           ],
           [
             25,
-            "Signal Beam"
+            "Giga Drain"
           ],
           [
             29,
@@ -1937,7 +1937,7 @@ overrides = {
           ],
           [
             31,
-            "Giga Drain"
+            "Signal Beam"
           ],
           [
             33,
@@ -2231,7 +2231,7 @@ overrides = {
           ],
           [
             25,
-            "Skitter Smack"
+            "Drill Run"
           ],
           [
             28,
@@ -2239,7 +2239,7 @@ overrides = {
           ],
           [
             31,
-            "Drill Run"
+            "X-Scissor"
           ],
           [
             33,
@@ -118006,7 +118006,7 @@ overrides = {
       ]
     },
     "Swords Dance": {
-      "t": "Normal",
+      "t": "Steel",
       "bp": 0,
       "cat": "Status",
       "pp": 1,
@@ -118486,7 +118486,7 @@ overrides = {
       }
     },
     "Supersonic": {
-      "t": "Normal",
+      "t": "Bug",
       "bp": 0,
       "cat": "Status",
       "pp": 10,
@@ -118520,7 +118520,7 @@ overrides = {
       "sf": true
     },
     "Disable": {
-      "t": "Normal",
+      "t": "Ghost",
       "bp": 0,
       "cat": "Status",
       "pp": 20,
@@ -119278,7 +119278,7 @@ overrides = {
       "sf": true
     },
     "Minimize": {
-      "t": "Normal",
+      "t": "Psychic",
       "bp": 0,
       "cat": "Status",
       "pp": 2,

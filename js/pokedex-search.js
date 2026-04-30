@@ -70,8 +70,8 @@ var PokedexSearchPanel = Panels.Panel.extend({
     buf += '<div class="ddex-search-footer">';
     buf += "<div id='reset-cache'>Reset Data</div>";
     buf += '<div id="rom-upload-panel">';
-    buf += '<label class="ddex-rom-upload-trigger" for="rom-upload">Load Gen4 Rom</label>';
-    buf += '<input type="file" id="rom-upload" accept=".nds" />';
+    buf += '<label class="ddex-rom-upload-trigger" for="rom-upload">Load Gen 3/4 ROM</label>';
+    buf += '<input type="file" id="rom-upload" accept=".nds,.gba,.toml,application/octet-stream,text/plain" multiple />';
     buf += '<div id="rom-status" style="display:none;"></div>';
     buf += "</div>";
     buf += "</div></div>";

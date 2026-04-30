@@ -1,7 +1,8 @@
 (function () {
   "use strict";
 
-  var romRuntimePromise = null;
+  var gen4RuntimePromise = null;
+  var gen3RuntimePromise = null;
 
   function fail(message) {
     return Promise.reject(new Error(message));
@@ -14,10 +15,10 @@
     return Promise.resolve(window.__DDEX_BOOTSTRAP__);
   }
 
-  function ensureLoaded() {
-    if (romRuntimePromise) return romRuntimePromise;
+  function ensureGen4Loaded() {
+    if (gen4RuntimePromise) return gen4RuntimePromise;
 
-    romRuntimePromise = ensureBootstrap().then(async function (bootstrap) {
+    gen4RuntimePromise = ensureBootstrap().then(async function (bootstrap) {
       if (!window.GEN4_SYMBOLS) {
         await bootstrap.loadRawScript("/rom/gen4_symbols.js");
       }
@@ -33,10 +34,25 @@
       return true;
     });
 
-    return romRuntimePromise;
+    return gen4RuntimePromise;
+  }
+
+  function ensureGen3Loaded() {
+    if (gen3RuntimePromise) return gen3RuntimePromise;
+
+    gen3RuntimePromise = ensureBootstrap().then(async function (bootstrap) {
+      if (!window.__gen3LoaderReady && typeof window.buildOverridesFromGen3Rom !== "function") {
+        await bootstrap.loadRawModule("/rom/gen3-loader.js");
+      }
+      return true;
+    });
+
+    return gen3RuntimePromise;
   }
 
   window.DDEX_ROM_TOOLS = {
-    ensureLoaded: ensureLoaded,
+    ensureLoaded: ensureGen4Loaded,
+    ensureGen3Loaded: ensureGen3Loaded,
+    ensureGen4Loaded: ensureGen4Loaded,
   };
 })();

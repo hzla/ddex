@@ -124,8 +124,10 @@ async function buildStyleChunks() {
 }
 
 async function copyStaticAssets() {
-  for (const relPath of staticCopies) {
-    await cp(path.join(rootDir, relPath), path.join(distDir, relPath), {
+  for (const entry of staticCopies) {
+    const relFrom = typeof entry === "string" ? entry : entry.from;
+    const relTo = typeof entry === "string" ? entry : entry.to;
+    await cp(path.join(rootDir, relFrom), path.join(distDir, relTo), {
       recursive: true,
       force: true,
       filter: (src) => path.basename(src) !== ".DS_Store",
