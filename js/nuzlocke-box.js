@@ -92,6 +92,93 @@
     return "";
   }
 
+  var familyCache = Object.create(null);
+
+  function getSpeciesTemplate(speciesRef) {
+    if (!speciesRef) return null;
+
+    if (window.Dex && Dex.species && typeof Dex.species.get === "function") {
+      var dexTemplate = Dex.species.get(speciesRef);
+      if (dexTemplate && dexTemplate.exists) return dexTemplate;
+    }
+
+    var speciesId = normalizeLocationText(speciesRef);
+    if (speciesId && window.BattlePokedex && window.BattlePokedex[speciesId]) {
+      return window.BattlePokedex[speciesId];
+    }
+
+    return null;
+  }
+
+  function getCanonicalSpeciesId(speciesRef) {
+    var template = getSpeciesTemplate(speciesRef);
+    if (template) {
+      return normalizeLocationText(template.id || template.name || speciesRef);
+    }
+    return normalizeLocationText(speciesRef);
+  }
+
+  function getSpeciesDisplayName(speciesRef) {
+    var template = getSpeciesTemplate(speciesRef);
+    if (template && template.name) return template.name;
+    return cleanText(speciesRef);
+  }
+
+  function getFamilyInfo(speciesRef) {
+    var speciesId = getCanonicalSpeciesId(speciesRef);
+    if (!speciesId) {
+      return {
+        key: "",
+        ancestorName: "",
+        memberIds: [],
+      };
+    }
+    if (familyCache[speciesId]) return familyCache[speciesId];
+
+    var speciesName =
+      canonicalizeSpeciesName(speciesRef) ||
+      getSpeciesDisplayName(speciesRef) ||
+      speciesId;
+    var speciesRecord =
+      window.evoData && speciesName ? window.evoData[speciesName] : null;
+    var ancestorName =
+      speciesRecord && speciesRecord.anc ? speciesRecord.anc : speciesName;
+    var ancestorRecord =
+      window.evoData && ancestorName ? window.evoData[ancestorName] : null;
+
+    var familyNames = [];
+    if (ancestorName) familyNames.push(ancestorName);
+    if (ancestorRecord && Array.isArray(ancestorRecord.evos)) {
+      familyNames = familyNames.concat(ancestorRecord.evos);
+    }
+    if (!familyNames.length) familyNames.push(speciesName || speciesId);
+
+    var seen = Object.create(null);
+    var memberIds = [];
+    for (var i = 0; i < familyNames.length; i++) {
+      var memberId = getCanonicalSpeciesId(familyNames[i]);
+      if (!memberId || seen[memberId]) continue;
+      seen[memberId] = true;
+      memberIds.push(memberId);
+    }
+
+    if (!memberIds.length) memberIds.push(speciesId);
+
+    var ancestorId =
+      getCanonicalSpeciesId(ancestorName || speciesName || speciesRef) || speciesId;
+    var info = {
+      key: ancestorId,
+      ancestorName:
+        getSpeciesDisplayName(ancestorName || speciesName || speciesRef) ||
+        ancestorName ||
+        speciesName ||
+        speciesId,
+      memberIds: memberIds,
+    };
+    familyCache[speciesId] = info;
+    return info;
+  }
+
   function parseSpeciesLine(line) {
     var text = cleanText(line);
     if (!text) return "";
@@ -411,6 +498,10 @@
     var liveSpeciesIds = new Set();
     var deadSpeciesIds = new Set();
     var manualCaughtSpeciesIds = new Set();
+    var familyKeys = new Set();
+    var liveFamilyKeys = new Set();
+    var deadFamilyKeys = new Set();
+    var manualCaughtFamilyKeys = new Set();
     var locationGroupToSpecies = new Map();
     var locationGroupToDeadSpecies = new Map();
     var locationGroupToSpeciesEntries = new Map();
@@ -432,10 +523,18 @@
       var record = normalizedRecords[i];
       var speciesId = normalizeLocationText(record.species);
       if (!speciesId) continue;
+      var familyInfo = getFamilyInfo(speciesId);
       speciesIds.add(speciesId);
       liveSpeciesIds.add(speciesId);
+      if (familyInfo && familyInfo.key) {
+        familyKeys.add(familyInfo.key);
+        liveFamilyKeys.add(familyInfo.key);
+      }
       if (record.dead) {
         deadSpeciesIds.add(speciesId);
+        if (familyInfo && familyInfo.key) {
+          deadFamilyKeys.add(familyInfo.key);
+        }
       }
 
       var groupKey = locationIndex.aliasToGroup.get(
@@ -462,9 +561,14 @@
       var manualRecord = manualCaughtRecords[manualIndex];
       var manualSpeciesId = normalizeLocationText(manualRecord.species);
       if (!manualSpeciesId) continue;
+      var manualFamilyInfo = getFamilyInfo(manualSpeciesId);
 
       speciesIds.add(manualSpeciesId);
       manualCaughtSpeciesIds.add(manualSpeciesId);
+      if (manualFamilyInfo && manualFamilyInfo.key) {
+        familyKeys.add(manualFamilyInfo.key);
+        manualCaughtFamilyKeys.add(manualFamilyInfo.key);
+      }
 
       var manualGroupKey =
         locationIndex.locationIdToGroup.get(manualRecord.locationId) ||
@@ -526,6 +630,10 @@
       liveSpeciesIds: liveSpeciesIds,
       deadSpeciesIds: deadSpeciesIds,
       manualCaughtSpeciesIds: manualCaughtSpeciesIds,
+      familyKeys: familyKeys,
+      liveFamilyKeys: liveFamilyKeys,
+      deadFamilyKeys: deadFamilyKeys,
+      manualCaughtFamilyKeys: manualCaughtFamilyKeys,
       locationIdsToSpecies: locationIdsToSpecies,
       locationIdsToLiveSpecies: locationIdsToLiveSpecies,
       locationIdsToDeadSpecies: locationIdsToDeadSpecies,
@@ -949,20 +1057,62 @@
         liveCaughtHere: false,
         manualCaughtHere: false,
         ownedElsewhere: false,
+        familyCaughtHere: false,
+        familyOwnedElsewhere: false,
+        blocked: false,
+        blockedReason: "",
       };
     }
 
     var summary = getLocationSummary(locationId);
+    var familyInfo = getFamilyInfo(normalizedSpeciesId);
+    var familyKey = familyInfo && familyInfo.key ? familyInfo.key : "";
     var caughtHere = summary.speciesIds.indexOf(normalizedSpeciesId) >= 0;
     var liveCaughtHere = summary.liveSpeciesIds.indexOf(normalizedSpeciesId) >= 0;
     var manualCaughtHere = summary.manualSpeciesIds.indexOf(normalizedSpeciesId) >= 0;
     var deadHere = summary.deadSpeciesIds.indexOf(normalizedSpeciesId) >= 0;
+    var familyCaughtHere = false;
+
+    if (familyKey && Array.isArray(summary.speciesIds)) {
+      for (var i = 0; i < summary.speciesIds.length; i++) {
+        if (summary.speciesIds[i] === normalizedSpeciesId) continue;
+        var siblingFamily = getFamilyInfo(summary.speciesIds[i]);
+        if (siblingFamily && siblingFamily.key === familyKey) {
+          familyCaughtHere = true;
+          break;
+        }
+      }
+    }
+
+    var ownedElsewhere =
+      !caughtHere && currentState.speciesIds.has(normalizedSpeciesId);
+    var familyOwnedElsewhere =
+      !!familyKey &&
+      !caughtHere &&
+      !familyCaughtHere &&
+      currentState.familyKeys.has(familyKey);
+    var blockedReason = "";
+    if (caughtHere) {
+      blockedReason = "caught-here";
+    } else if (familyCaughtHere) {
+      blockedReason = "family-caught-here";
+    } else if (ownedElsewhere) {
+      blockedReason = "owned-elsewhere";
+    } else if (familyOwnedElsewhere) {
+      blockedReason = "family-owned-elsewhere";
+    }
 
     return {
       caughtHere: caughtHere,
       liveCaughtHere: liveCaughtHere,
       manualCaughtHere: manualCaughtHere,
-      ownedElsewhere: !caughtHere && currentState.speciesIds.has(normalizedSpeciesId),
+      ownedElsewhere: ownedElsewhere,
+      familyCaughtHere: familyCaughtHere,
+      familyOwnedElsewhere: familyOwnedElsewhere,
+      familyBlocked: familyCaughtHere || familyOwnedElsewhere,
+      blocked: !!blockedReason,
+      blockedReason: blockedReason,
+      familyKey: familyKey,
       deadHere: deadHere,
       ownedDeadElsewhere:
         !caughtHere &&

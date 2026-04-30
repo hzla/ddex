@@ -458,12 +458,60 @@
 	margin-bottom: 16px;
 }
 
+.ddex-fixed-layout .ddex-encounter-controls {
+	padding: 0 10px 4px;
+}
+
+.ddex-fixed-layout .ddex-misc-encounter-toggle {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.ddex-fixed-layout .ddex-misc-encounter-toggle-input {
+	margin: 0;
+}
+
 .ddex-fixed-layout .ddex-encounter-table-section {
 	min-width: 0;
 }
 
 .ddex-fixed-layout .ddex-encounter-header-grass {
 	color: #50fa7b;
+}
+
+.ddex-fixed-layout .ddex-encounter-header-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+
+.ddex-fixed-layout .ddex-encounter-header-text {
+	min-width: 0;
+}
+
+.ddex-fixed-layout .ddex-encounter-time-controls {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	flex-wrap: wrap;
+}
+
+.ddex-fixed-layout .ddex-encounter-time-button {
+	padding: 2px 8px;
+	font-size: 9pt;
+	line-height: 1.2;
+}
+
+.ddex-fixed-layout .ddex-encounter-time-button.active,
+.ddex-fixed-layout .ddex-encounter-time-button.active:hover {
+	border-color: rgba(80, 250, 123, 0.9);
+	background: rgba(80, 250, 123, 0.16);
+	color: #f8f8f2;
 }
 
 .ddex-fixed-layout .ddex-encounter-header-rod {
@@ -1585,8 +1633,8 @@ h1 a, h1 a.subtle {
 }
 
 .ddex-encounter-caught-toggle img {
-	width: 18px;
-	height: 18px;
+	width: 30px;
+	height: 30px;
 	display: block;
 	image-rendering: pixelated;
 	opacity: 0.88;

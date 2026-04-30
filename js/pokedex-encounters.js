@@ -198,6 +198,106 @@ function getEncounterHeaderClassName(encType) {
   return classNames.join(" ");
 }
 
+function normalizeEncounterSectionLabel(encType, encounterGroup) {
+  if (encounterGroup && encounterGroup.name) {
+    return String(encounterGroup.name).trim();
+  }
+  if (!encType) return "";
+  if (typeof snakeToTitleCase === "function") {
+    return String(snakeToTitleCase(String(encType))).trim();
+  }
+  return String(encType).trim();
+}
+
+function isMiscEncounterSection(encType, encounterGroup) {
+  var normalizedType = String(encType || "").trim().toLowerCase();
+  var normalizedLabel = normalizeEncounterSectionLabel(encType, encounterGroup)
+    .toLowerCase();
+
+  return (
+    normalizedType === "swarm" ||
+    normalizedType === "radar" ||
+    normalizedType.indexOf("dual") === 0 ||
+    normalizedLabel === "swarm" ||
+    normalizedLabel === "radar" ||
+    normalizedLabel.indexOf("dual") === 0
+  );
+}
+
+function isCurrentEncounterGame(title) {
+  var expected = cleanString(title);
+  if (!expected) return false;
+
+  var candidates = getCurrentMapSetCandidates();
+  for (var i = 0; i < candidates.length; i++) {
+    if (cleanString(candidates[i]) === expected) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function isPlatinumKaizoEncounterGame() {
+  return isCurrentEncounterGame("Platinum Kaizo");
+}
+
+var DDEX_ENCOUNTER_TIME_MODES = ["morning", "day", "night"];
+
+function normalizeEncounterTimeMode(value) {
+  var normalized = String(value || "").toLowerCase();
+  if (DDEX_ENCOUNTER_TIME_MODES.indexOf(normalized) >= 0) return normalized;
+  return "morning";
+}
+
+function getEncounterTimeModeLabel(mode) {
+  mode = normalizeEncounterTimeMode(mode);
+  if (mode === "day") return "Day";
+  if (mode === "night") return "Night";
+  return "Morning";
+}
+
+function getEncounterOverlayTypeForTimeMode(mode) {
+  mode = normalizeEncounterTimeMode(mode);
+  if (mode === "day") return "time_day";
+  if (mode === "night") return "time_night";
+  return "";
+}
+
+function getDefaultEncounterRowState() {
+  return {
+    caughtHere: false,
+    liveCaughtHere: false,
+    manualCaughtHere: false,
+    ownedElsewhere: false,
+    familyCaughtHere: false,
+    familyOwnedElsewhere: false,
+    familyBlocked: false,
+    blocked: false,
+    blockedReason: "",
+  };
+}
+
+function getEncounterRowStateForLocation(locationId, speciesId) {
+  var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
+  if (
+    !nuzlockeService ||
+    typeof nuzlockeService.getEncounterRowState !== "function"
+  ) {
+    return getDefaultEncounterRowState();
+  }
+  return nuzlockeService.getEncounterRowState(locationId, speciesId);
+}
+
+function formatEncounterRatePercent(value) {
+  value = Number(value);
+  if (!Number.isFinite(value) || value <= 0) return "0%";
+  if (Math.abs(value - Math.round(value)) < 0.005) {
+    return String(Math.round(value)) + "%";
+  }
+  return value.toFixed(2).replace(/\.?0+$/, "") + "%";
+}
+
 function getEncounterRangeValue(value) {
   value = Number(value);
   return Number.isFinite(value) && value > 0 ? value : 0;
@@ -236,6 +336,22 @@ function getGrassOverlayLevelRanges(locationRecord, overlaySlotCount) {
   }
 
   return ranges;
+}
+
+function getGrassOverlayReplacementIndexes(locationRecord, overlaySlotCount) {
+  var grassRates =
+    typeof getEncounterRateSlots === "function"
+      ? getEncounterRateSlots(locationRecord, "grass")
+      : [];
+  var indexes = [];
+
+  for (var i = 0; i < grassRates.length; i++) {
+    if ((Number(grassRates[i]) || 0) !== 10) continue;
+    indexes.push(i);
+    if (indexes.length >= overlaySlotCount) return indexes;
+  }
+
+  return indexes;
 }
 
 function getResolvedEncounterRange(encounter, fallbackRange) {
@@ -314,8 +430,10 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
   events: {
     "click .result a[data-initial-level]": "storePendingPokemonLevel",
     "click .ddex-encounter-tabbar button": "selectEncounterTab",
+    "click .ddex-encounter-time-button": "selectEncounterTimeMode",
     "click .ddex-nuzlocke-missed-toggle": "toggleMissedLocation",
     "click .ddex-encounter-caught-toggle": "toggleEncounterCaught",
+    "change .ddex-misc-encounter-toggle-input": "toggleMiscEncounterTables",
   },
   initialize: function (id) {
     id = toID(id);
@@ -324,6 +442,9 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     this.shortTitle = location.name;
     this.activeTab = "encounters";
     this.mapsLoaded = false;
+    this.timeMode = "morning";
+    this.showMiscEncounterTables = false;
+    this.hideMiscEncounterTablesPermanently = isPlatinumKaizoEncounterGame();
 
     var buf = '<div class="pfx-body dexentry">';
 
@@ -338,6 +459,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     buf += '<section class="nuzlocke-summary" hidden></section>';
     buf +=
       '<ul class="tabbar ddex-encounter-tabbar"><li><button class="button nav-first cur" value="encounters">Encounters</button></li><li><button class="button nav-last" value="maps">Location Maps</button></li></ul>';
+    buf += '<section class="ddex-encounter-controls" hidden></section>';
 
     // distribution
     buf += '<ul class="utilichart metricchart nokbd encounterchart">';
@@ -380,16 +502,31 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     this.activeTab = value;
     this.renderEncounterTabState();
   },
+  selectEncounterTimeMode: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var nextMode = normalizeEncounterTimeMode(
+      e.currentTarget && e.currentTarget.getAttribute("data-time-mode"),
+    );
+    if (nextMode === this.timeMode) return;
+    this.timeMode = nextMode;
+    this.renderDistribution();
+  },
   renderEncounterTabState: function () {
     var activeTab = this.activeTab || "encounters";
     this.$(".ddex-encounter-tabbar button").removeClass("cur");
     this.$('.ddex-encounter-tabbar button[value="' + activeTab + '"]').addClass("cur");
 
     var showMaps = activeTab === "maps";
+    var $controls = this.$(".ddex-encounter-controls");
     var $primarySections = this.$(".ddex-encounter-sections-primary");
     var $secondarySections = this.$(".ddex-encounter-sections-secondary");
     var $gallery = this.$(".location-map-gallery");
 
+    $controls.prop(
+      "hidden",
+      showMaps || $controls.attr("data-has-controls") !== "true",
+    );
     $primarySections.prop("hidden", showMaps);
     $secondarySections.prop("hidden", showMaps);
     $gallery.prop("hidden", !showMaps);
@@ -564,23 +701,27 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       );
     }
   },
+  toggleMiscEncounterTables: function (e) {
+    var input = e.currentTarget;
+    this.showMiscEncounterTables = !!(input && input.checked);
+    this.renderDistribution();
+  },
+  getResultRowState: function (result) {
+    if (!result || result.kind !== "encounter") {
+      return getDefaultEncounterRowState();
+    }
+    if (result.rowState) return result.rowState;
+    return getEncounterRowStateForLocation(this.id, result.monId);
+  },
   getResultRowClassName: function (result) {
     var className = "result";
     if (!result || result.kind !== "encounter") return className;
     className += " ddex-encounter-result-with-toggle";
 
-    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
-    if (
-      !nuzlockeService ||
-      typeof nuzlockeService.getEncounterRowState !== "function"
-    ) {
-      return className;
-    }
-
-    var rowState = nuzlockeService.getEncounterRowState(this.id, result.monId);
+    var rowState = this.getResultRowState(result);
     if (rowState.caughtHere) {
       className += " nuzlocke-caught-here";
-    } else if (rowState.ownedElsewhere) {
+    } else if (rowState.blocked || rowState.ownedElsewhere) {
       className += " nuzlocke-owned-elsewhere";
     }
 
@@ -595,16 +736,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     if (!result || result.kind !== "encounter" || isEmptyEncounterSpecies(result.monId)) {
       return defaultState;
     }
-
-    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
-    if (
-      !nuzlockeService ||
-      typeof nuzlockeService.getEncounterRowState !== "function"
-    ) {
-      return defaultState;
-    }
-
-    var rowState = nuzlockeService.getEncounterRowState(this.id, result.monId);
+    var rowState = this.getResultRowState(result);
     if (rowState.manualCaughtHere) {
       return {
         disabled: false,
@@ -617,6 +749,13 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         disabled: true,
         manualCaughtHere: false,
         title: "Already tracked as caught",
+      };
+    }
+    if (rowState.familyBlocked) {
+      return {
+        disabled: true,
+        manualCaughtHere: false,
+        title: "Blocked by a caught family member",
       };
     }
     return defaultState;
@@ -679,66 +818,286 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     rowElement.className = this.getResultRowClassName(this.results[i]);
     rowElement.innerHTML = this.renderResultListItemContent(i);
   },
-  getDistribution: function () {
-    if (this.results) return this.results;
+  buildEncounterDisplayRow: function (encType, monId, baseRateValue, levelRange, extra) {
+    var row = {
+      kind: "encounter",
+      encType: encType,
+      monId: monId,
+      baseRateValue: Number(baseRateValue) || 0,
+      rateValue: 0,
+      rate: "0% ",
+      min: levelRange && Number.isFinite(levelRange.min) ? levelRange.min : 0,
+      max: levelRange && Number.isFinite(levelRange.max) ? levelRange.max : 0,
+      rowState: getEncounterRowStateForLocation(this.id, monId),
+    };
 
+    if (extra && typeof extra === "object") {
+      for (var key in extra) {
+        if (!Object.prototype.hasOwnProperty.call(extra, key)) continue;
+        row[key] = extra[key];
+      }
+    }
+
+    return row;
+  },
+  applyEncounterRateRedistribution: function (rows, totalRateValue) {
+    totalRateValue =
+      Number.isFinite(totalRateValue) && totalRateValue > 0 ? totalRateValue : 100;
+
+    var availableWeight = 0;
+    for (var i = 0; i < rows.length; i++) {
+      var row = rows[i];
+      if (!row || !row.rowState || row.rowState.blocked) continue;
+      if (row.baseRateValue > 0) availableWeight += row.baseRateValue;
+    }
+
+    return rows.map(function (row) {
+      var nextRow = Object.assign({}, row);
+      var rateValue = 0;
+      if (
+        availableWeight > 0 &&
+        nextRow.baseRateValue > 0 &&
+        nextRow.rowState &&
+        !nextRow.rowState.blocked
+      ) {
+        rateValue = (nextRow.baseRateValue / availableWeight) * totalRateValue;
+      }
+      nextRow.rateValue = rateValue;
+      nextRow.rate = formatEncounterRatePercent(rateValue) + " ";
+      return nextRow;
+    });
+  },
+  buildZeroRateEncounterRows: function (rows) {
+    return (rows || []).map(function (row) {
+      var nextRow = Object.assign({}, row);
+      nextRow.rateValue = 0;
+      nextRow.rate = "0% ";
+      return nextRow;
+    });
+  },
+  buildStandardEncounterRows: function (locationRecord, encType) {
+    if (
+      !locationRecord ||
+      !locationRecord[encType] ||
+      !Array.isArray(locationRecord[encType].encs)
+    ) {
+      return [];
+    }
+
+    var encounterGroup = locationRecord[encType];
+    var rates =
+      typeof getEncounterRateSlots === "function"
+        ? getEncounterRateSlots(locationRecord, encType)
+        : [];
+    var rows = [];
+
+    for (var i = 0; i < encounterGroup.encs.length; i++) {
+      var encounter = encounterGroup.encs[i];
+      if (!encounter || !encounter.s || encounter.s === "-----") continue;
+      var monId = cleanString(encounter.s);
+      if (!monId) continue;
+      rows.push(
+        this.buildEncounterDisplayRow(
+          encType,
+          monId,
+          Number(rates[i]) || 0,
+          getResolvedEncounterRange(encounter, null),
+          {
+            slotIndex: i,
+            sourceEncType: encType,
+          },
+        ),
+      );
+    }
+
+    return this.applyEncounterRateRedistribution(rows, 100);
+  },
+  buildBaseGrassEncounterRows: function (locationRecord) {
+    if (
+      !locationRecord ||
+      !locationRecord.grass ||
+      !Array.isArray(locationRecord.grass.encs)
+    ) {
+      return [];
+    }
+
+    var grassRates =
+      typeof getEncounterRateSlots === "function"
+        ? getEncounterRateSlots(locationRecord, "grass")
+        : [];
+    var rows = [];
+
+    for (var i = 0; i < locationRecord.grass.encs.length; i++) {
+      var encounter = locationRecord.grass.encs[i];
+      if (!encounter || !encounter.s || encounter.s === "-----") continue;
+      var monId = cleanString(encounter.s);
+      if (!monId) continue;
+      rows.push(
+        this.buildEncounterDisplayRow(
+          "grass",
+          monId,
+          Number(grassRates[i]) || 0,
+          getResolvedEncounterRange(encounter, null),
+          {
+            slotIndex: i,
+            sourceEncType: "grass",
+          },
+        ),
+      );
+    }
+
+    return rows;
+  },
+  buildTimeOverlayEncounterRows: function (locationRecord, overlayEncType) {
+    if (
+      !locationRecord ||
+      !overlayEncType ||
+      !locationRecord[overlayEncType] ||
+      !Array.isArray(locationRecord[overlayEncType].encs)
+    ) {
+      return [];
+    }
+
+    var encounterGroup = locationRecord[overlayEncType];
+    var replacementIndexes = getGrassOverlayReplacementIndexes(
+      locationRecord,
+      encounterGroup.encs.length,
+    );
+    var fallbackRanges = getGrassOverlayLevelRanges(
+      locationRecord,
+      encounterGroup.encs.length,
+    );
+    var grassRates =
+      typeof getEncounterRateSlots === "function"
+        ? getEncounterRateSlots(locationRecord, "grass")
+        : [];
+    var rows = [];
+    var overlaySlotIndex = 0;
+
+    for (var i = 0; i < encounterGroup.encs.length; i++) {
+      var encounter = encounterGroup.encs[i];
+      if (!encounter || !encounter.s || encounter.s === "-----") continue;
+      var monId = cleanString(encounter.s);
+      if (!monId) continue;
+      var replacementIndex = replacementIndexes[overlaySlotIndex];
+      var fallbackRange = fallbackRanges[overlaySlotIndex];
+      var slotIndex = Number.isFinite(replacementIndex) ? replacementIndex : i;
+      rows.push(
+        this.buildEncounterDisplayRow(
+          overlayEncType,
+          monId,
+          Number(grassRates[slotIndex]) || 0,
+          getResolvedEncounterRange(encounter, fallbackRange),
+          {
+            slotIndex: slotIndex,
+            overlayOrder: overlaySlotIndex,
+            sourceEncType: overlayEncType,
+          },
+        ),
+      );
+      overlaySlotIndex++;
+    }
+
+    return rows;
+  },
+  buildEffectiveGrassEncounterRows: function (
+    locationRecord,
+    timeMode,
+    baseGrassRows,
+    overlayRowsByType,
+  ) {
+    timeMode = normalizeEncounterTimeMode(timeMode);
+    baseGrassRows = Array.isArray(baseGrassRows) ? baseGrassRows : [];
+    overlayRowsByType = overlayRowsByType || {};
+
+    var overlayEncType = getEncounterOverlayTypeForTimeMode(timeMode);
+    var overlayRows = overlayEncType ? overlayRowsByType[overlayEncType] || [] : [];
+    var mergedRows = [];
+
+    if (overlayRows.length) {
+      var rowBySlotIndex = Object.create(null);
+      var orderedSlotIndexes = [];
+
+      for (var i = 0; i < baseGrassRows.length; i++) {
+        var baseRow = Object.assign({}, baseGrassRows[i]);
+        rowBySlotIndex[baseRow.slotIndex] = baseRow;
+        orderedSlotIndexes.push(baseRow.slotIndex);
+      }
+
+      for (var overlayIndex = 0; overlayIndex < overlayRows.length; overlayIndex++) {
+        var overlayRow = Object.assign({}, overlayRows[overlayIndex]);
+        rowBySlotIndex[overlayRow.slotIndex] = overlayRow;
+      }
+
+      for (var orderedIndex = 0; orderedIndex < orderedSlotIndexes.length; orderedIndex++) {
+        var mergedRow = rowBySlotIndex[orderedSlotIndexes[orderedIndex]];
+        if (mergedRow) mergedRows.push(mergedRow);
+      }
+    } else {
+      mergedRows = baseGrassRows.map(function (row) {
+        return Object.assign({}, row);
+      });
+    }
+
+    return this.applyEncounterRateRedistribution(mergedRows, 100);
+  },
+  getDistribution: function () {
     var location = this.id;
     var locationRecord = BattleLocationdex[location];
     var results = [];
-    var timeOverlaySlotIndexes = Object.create(null);
-    var timeOverlayRanges = Object.create(null);
-
-    var formatRate = function (i) {
-      if (i === undefined || i === null || Number.isNaN(i)) return "    ";
-      return i.toString().padStart(2, "z") + "% ";
+    var baseGrassRows = this.buildBaseGrassEncounterRows(locationRecord);
+    var overlayRowsByType = {
+      time_day: this.buildTimeOverlayEncounterRows(locationRecord, "time_day"),
+      time_night: this.buildTimeOverlayEncounterRows(locationRecord, "time_night"),
     };
+    var effectiveGrassRows = this.buildEffectiveGrassEncounterRows(
+      locationRecord,
+      this.timeMode,
+      baseGrassRows,
+      overlayRowsByType,
+    );
+    var activeOverlayType = getEncounterOverlayTypeForTimeMode(this.timeMode);
 
     for (const encType of encTypes) {
       const encounterGroup = locationRecord[encType];
       if (!encounterGroup || encounterGroup.encs === undefined) continue;
 
-      if (isTimeEncounterType(encType) && !timeOverlayRanges[encType]) {
-        timeOverlayRanges[encType] = getGrassOverlayLevelRanges(
-          locationRecord,
-          encounterGroup.encs.length,
-        );
-        timeOverlaySlotIndexes[encType] = 0;
+      var sectionRows = [];
+      if (encType === "grass") {
+        sectionRows = effectiveGrassRows.slice();
+      } else if (isTimeEncounterType(encType)) {
+        var overlayRows = overlayRowsByType[encType] || [];
+        if (encType === activeOverlayType && overlayRows.length) {
+          sectionRows = effectiveGrassRows
+            .filter(function (row) {
+              return row.sourceEncType === encType;
+            })
+            .sort(function (rowA, rowB) {
+              return (rowA.overlayOrder || 0) - (rowB.overlayOrder || 0);
+            });
+        }
+        if (!sectionRows.length) {
+          sectionRows = this.buildZeroRateEncounterRows(overlayRows);
+        }
+      } else {
+        sectionRows = this.buildStandardEncounterRows(locationRecord, encType);
       }
 
-      let hasRows = false;
-      const rates = getEncounterRateSlots(locationRecord, encType);
-      for (let i = 0; i < encounterGroup.encs.length; i++) {
-        const enc = encounterGroup.encs[i];
-        if (!enc || !enc.s || enc.s === "-----") continue;
-        const monId = cleanString(enc.s);
-        if (!monId) continue;
-        if (!hasRows) {
-          results.push({
-            kind: "header",
-            encType: encType,
-          });
-          hasRows = true;
-        }
-        const overlayIndex = timeOverlaySlotIndexes[encType] || 0;
-        const fallbackRange = isTimeEncounterType(encType)
-          ? timeOverlayRanges[encType][overlayIndex]
-          : null;
-        const levelRange = getResolvedEncounterRange(enc, fallbackRange);
-        if (isTimeEncounterType(encType)) {
-          timeOverlaySlotIndexes[encType] = overlayIndex + 1;
-        }
-        results.push({
-          kind: "encounter",
-          encType: encType,
-          monId: monId,
-          rate: formatRate(rates[i]),
-          min: levelRange.min,
-          max: levelRange.max,
-        });
+      if (!sectionRows.length) continue;
+
+      results.push({
+        kind: "header",
+        encType: encType,
+        showTimeControls: encType === "grass" && baseGrassRows.length > 0,
+      });
+
+      for (var i = 0; i < sectionRows.length; i++) {
+        results.push(sectionRows[i]);
       }
     }
 
-    return (this.results = results);
+    this.results = results;
+    return results;
   },
   getEncounterSections: function () {
     var results = this.getDistribution();
@@ -770,6 +1129,48 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     if (!section) return false;
     if ((section.rowIndexes || []).length > 10) return true;
     return String(section.encType || "").toLowerCase().indexOf("time") >= 0;
+  },
+  isMiscEncounterSection: function (section) {
+    if (!section) return false;
+    var encounterGroups = BattleLocationdex[this.id] || {};
+    return isMiscEncounterSection(
+      section.encType,
+      encounterGroups[section.encType],
+    );
+  },
+  shouldHideEncounterSection: function (section) {
+    if (!this.isMiscEncounterSection(section)) return false;
+    if (this.hideMiscEncounterTablesPermanently) return true;
+    return !this.showMiscEncounterTables;
+  },
+  renderEncounterControls: function (sections) {
+    var $controls = this.$(".ddex-encounter-controls");
+    if (!$controls.length) return;
+
+    var hasMiscSections = false;
+    for (var i = 0; i < sections.length; i++) {
+      if (this.isMiscEncounterSection(sections[i])) {
+        hasMiscSections = true;
+        break;
+      }
+    }
+
+    if (!hasMiscSections || this.hideMiscEncounterTablesPermanently) {
+      $controls.attr("data-has-controls", "false").prop("hidden", true).empty();
+      return;
+    }
+
+    $controls
+      .attr("data-has-controls", "true")
+      .html(
+        '<label class="ddex-misc-encounter-toggle">' +
+          '<input type="checkbox" class="ddex-misc-encounter-toggle-input"' +
+          (this.showMiscEncounterTables ? " checked" : "") +
+          " />" +
+          "<span>Show Misc Encounter Tables</span>" +
+        "</label>",
+      )
+      .prop("hidden", this.activeTab === "maps");
   },
   ensureEncounterSectionColumns: function () {
     var $primary = this.$(".ddex-detail-primary");
@@ -832,9 +1233,11 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     if (!columns.primary || !columns.secondary) return;
 
     var sections = this.getEncounterSections();
+    this.renderEncounterControls(sections);
     var primaryBuf = "";
     var secondaryBuf = "";
     for (var i = 0; i < sections.length; i++) {
+      if (this.shouldHideEncounterSection(sections[i])) continue;
       var sectionBuf = this.renderEncounterSection(sections[i]);
       if (!sectionBuf) continue;
       if (this.shouldRenderEncounterSectionInPrimary(sections[i])) {
@@ -903,10 +1306,40 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     if (result.kind === "header") {
       const encounterGroup = BattleLocationdex[this.id][result.encType];
       var headerClassName = getEncounterHeaderClassName(result.encType);
+      var headerLabel = snakeToTitleCase(result.encType);
       if (encounterGroup && encounterGroup.name) {
-        return `<h3 class="${headerClassName}">${snakeToTitleCase(result.encType)}:  ${encounterGroup.name}</h3>`;
+        headerLabel += ": " + encounterGroup.name;
       }
-      return `<h3 class="${headerClassName}">${snakeToTitleCase(result.encType)}</h3>`;
+
+      if (!result.showTimeControls) {
+        return `<h3 class="${headerClassName}">${headerLabel}</h3>`;
+      }
+
+      var controls = '<span class="ddex-encounter-time-controls" role="group" aria-label="Grass encounter time">';
+      for (var timeIndex = 0; timeIndex < DDEX_ENCOUNTER_TIME_MODES.length; timeIndex++) {
+        var timeMode = DDEX_ENCOUNTER_TIME_MODES[timeIndex];
+        controls +=
+          '<button type="button" class="button ddex-encounter-time-button' +
+          (this.timeMode === timeMode ? " active" : "") +
+          '" data-time-mode="' +
+          Dex.escapeHTML(timeMode) +
+          '" aria-pressed="' +
+          (this.timeMode === timeMode ? "true" : "false") +
+          '">' +
+          Dex.escapeHTML(getEncounterTimeModeLabel(timeMode)) +
+          "</button>";
+      }
+      controls += "</span>";
+
+      return (
+        '<h3 class="' +
+        headerClassName +
+        '"><span class="ddex-encounter-header-row"><span class="ddex-encounter-header-text">' +
+        headerLabel +
+        "</span>" +
+        controls +
+        "</span></h3>"
+      );
     }
 
     var id = result.monId;
