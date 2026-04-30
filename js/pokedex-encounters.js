@@ -242,6 +242,16 @@ function isPlatinumKaizoEncounterGame() {
   return isCurrentEncounterGame("Platinum Kaizo");
 }
 
+function isPlatinumBasedEncounterGame() {
+  var candidates = getCurrentMapSetCandidates();
+  for (var i = 0; i < candidates.length; i++) {
+    if (String(candidates[i] || "").toLowerCase().indexOf("platinum") >= 0) {
+      return true;
+    }
+  }
+  return false;
+}
+
 var DDEX_ENCOUNTER_TIME_MODES = ["morning", "day", "night"];
 
 function normalizeEncounterTimeMode(value) {
@@ -292,10 +302,9 @@ function getEncounterRowStateForLocation(locationId, speciesId) {
 function formatEncounterRatePercent(value) {
   value = Number(value);
   if (!Number.isFinite(value) || value <= 0) return "0%";
-  if (Math.abs(value - Math.round(value)) < 0.005) {
-    return String(Math.round(value)) + "%";
-  }
-  return value.toFixed(2).replace(/\.?0+$/, "") + "%";
+  if (value < 0.05) return "<0.1%";
+  if (value >= 100) return "100%";
+  return value.toFixed(1).replace(/\.?0+$/, "") + "%";
 }
 
 function getEncounterRangeValue(value) {
@@ -445,6 +454,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     this.timeMode = "morning";
     this.showMiscEncounterTables = false;
     this.hideMiscEncounterTablesPermanently = isPlatinumKaizoEncounterGame();
+    this.hideStandaloneTimeEncounterTables = isPlatinumBasedEncounterGame();
 
     var buf = '<div class="pfx-body dexentry">';
 
@@ -699,6 +709,8 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
         button.getAttribute("data-location-id") || this.id,
         button.getAttribute("data-species-id") || "",
       );
+      this.renderNuzlockeSummary();
+      this.renderDistribution();
     }
   },
   toggleMiscEncounterTables: function (e) {
@@ -1139,6 +1151,12 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     );
   },
   shouldHideEncounterSection: function (section) {
+    if (
+      this.hideStandaloneTimeEncounterTables &&
+      String(section && section.encType || "").toLowerCase().indexOf("time") === 0
+    ) {
+      return true;
+    }
     if (!this.isMiscEncounterSection(section)) return false;
     if (this.hideMiscEncounterTablesPermanently) return true;
     return !this.showMiscEncounterTables;

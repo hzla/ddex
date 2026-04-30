@@ -7,6 +7,12 @@
 	word-wrap: normal;
 }
 
+.utilichart {
+	--ddex-pokemon-result-icon-height: 46px;
+	--ddex-pokemon-result-icon-width: calc(var(--ddex-pokemon-result-icon-height) * 4 / 3);
+	--ddex-pokemon-result-icon-scale: 1.5333333333;
+}
+
 .utilichart li > a, .utilitychart li > div {
 	display: block;
 	height: 30px;
@@ -55,9 +61,15 @@ ul {
 .resultheader,
 .utilichart li.resultheader,
 .utilichart .result {
-	height: 36px;
+	height: auto;
+	min-height: 36px;
 	padding: 1px 0 0 0;
-	contain: strict;
+	contain: none;
+}
+
+.utilichart li > a[data-entry^="pokemon|"] {
+	height: var(--ddex-pokemon-result-icon-height);
+	min-height: var(--ddex-pokemon-result-icon-height);
 }
 .message .utilichart .result, .chat .utilichart .result, .notice .utilichart .result {
 	height: auto;
@@ -105,6 +117,16 @@ ul {
 	height: 30px;
 	background: transparent none no-repeat scroll 0px -8px;
 	image-rendering: pixelated;
+}
+
+.utilichart li > a[data-entry^="pokemon|"] .iconcol {
+	width: var(--ddex-pokemon-result-icon-width);
+	height: var(--ddex-pokemon-result-icon-height);
+}
+
+.utilichart li > a[data-entry^="pokemon|"] .iconcol span {
+	transform: scale(var(--ddex-pokemon-result-icon-scale));
+	transform-origin: left top;
 }
 .utilichart .itemiconcol {
 	padding-top: 3px;
@@ -314,9 +336,6 @@ ul {
 	margin-top: 6px;
 }
 
-.utilichart .typecol img:nth-child(2n) {
-	transform: translate(4px, 4px);
-}
 
 .utilichart .typecol img.b {
 	opacity: 1;

@@ -204,9 +204,8 @@ function formatCatchRatePercent(chance) {
   if (!Number.isFinite(chance) || chance <= 0) return "0%";
   if (chance >= 1) return "100%";
   var percent = chance * 100;
-  if (percent < 0.01) return "<0.01%";
-  var decimals = percent >= 10 ? 2 : 3;
-  return percent.toFixed(decimals).replace(/\.?0+$/, "") + "%";
+  if (percent < 0.05) return "<0.1%";
+  return percent.toFixed(1).replace(/\.?0+$/, "") + "%";
 }
 
 function formatCatchRateNumber(value, digits) {
@@ -2028,6 +2027,21 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     }
     return rowClass;
   },
+  renderEncounterRouteHitIndicator: function (locationSummary) {
+    if (
+      !locationSummary ||
+      !locationSummary.speciesEntries ||
+      !locationSummary.speciesEntries.length
+    ) {
+      return "";
+    }
+
+    return (
+      '<span class="ddex-location-hit-check" aria-label="Pokemon caught here" title="Pokemon caught here">' +
+      "&#10003;" +
+      "</span>"
+    );
+  },
   renderEncounterRouteSpriteStrip: function (locationId) {
     var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
     if (
@@ -2073,7 +2087,14 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     var routeKey = location.encType + ":" + location.zoneid;
     var isExpanded = this.expandedRouteKeys.has(routeKey);
     var analysis = this.getEncounterRouteAnalysis(location.zoneid, location.encType);
+    var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
+    var locationSummary =
+      nuzlockeService &&
+      typeof nuzlockeService.getLocationSummary === "function"
+        ? nuzlockeService.getLocationSummary(location.zoneid)
+        : null;
     var spriteStrip = this.renderEncounterRouteSpriteStrip(location.zoneid);
+    var hitIndicator = this.renderEncounterRouteHitIndicator(locationSummary);
     var levelLabel = formatEncounterLocationLevel(location.minLevel, location.maxLevel);
     var buf =
       '<li class="' +
@@ -2095,6 +2116,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       "</span>" +
       '<span class="col shortmovenamecol ddex-route-location-name">' +
       Dex.escapeHTML(zone.name) +
+      hitIndicator +
       "</span>" +
       spriteStrip +
       "</a>" +

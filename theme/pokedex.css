@@ -103,6 +103,12 @@
 	contain: none;
 }
 
+.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart {
+	--ddex-result-icon-height: 46px;
+	--ddex-result-icon-width: calc(var(--ddex-result-icon-height) * 4 / 3);
+	--ddex-result-icon-scale: 1.5333333333;
+}
+
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .col {
 	float: none;
 	min-width: 0;
@@ -115,6 +121,7 @@
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .shortpokemonnamecol,
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .namecol,
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .movenamecol,
+.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .shortmovenamecol,
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .typecol,
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .labelcol,
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .pplabelcol {
@@ -127,26 +134,40 @@
 	width: 24px;
 }
 
+.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .iconcol {
+	flex: 0 0 var(--ddex-result-icon-width);
+	width: var(--ddex-result-icon-width);
+	height: var(--ddex-result-icon-height);
+}
+
+.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .iconcol span {
+	transform: scale(var(--ddex-result-icon-scale));
+	transform-origin: left center;
+}
+
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .pokemonnamecol,
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .shortpokemonnamecol,
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .namecol,
-.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .movenamecol {
+.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .movenamecol,
+.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .shortmovenamecol {
 	width: auto;
 	flex: 1 1 auto;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	font-size: 12pt;
+	line-height: 1.15;
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .typecol {
-	width: 74px;
-	flex: 0 0 74px;
+	width: auto;
+	flex: 0 0 auto;
 	display: grid;
 	grid-template-columns: repeat(2, max-content);
-	justify-content: start;
+	justify-content: end;
 	align-content: center;
 	align-items: center;
-	column-gap: 4px;
+	column-gap: 6px;
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .typecol img {
@@ -156,6 +177,38 @@
 
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .typecol img:nth-child(2n) {
 	transform: none;
+}
+
+.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .typecol .ddex-row-type-icon {
+	width: 24px;
+	height: 24px;
+}
+
+.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .typecol .ddex-row-type-icon-missing {
+	width: 24px;
+	height: 24px;
+	font-size: 12px;
+}
+
+.utilichart .typecol .ddex-row-type-icon {
+	width: 20px;
+	height: 20px;
+	display: block;
+	object-fit: contain;
+	border-radius: 4px;
+}
+
+.utilichart .typecol .ddex-row-type-icon-missing {
+	width: 20px;
+	height: 20px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 11px;
+	font-weight: 700;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.08);
+	color: rgba(248, 248, 242, 0.82);
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .labelcol,
@@ -181,9 +234,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	flex: 0 0 140px;
-	min-width: 140px;
+	flex: 0 0 124px;
+	min-width: 124px;
 	margin-left: auto;
+	justify-self: end;
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart .ddex-stacked-abilitycol {
@@ -192,18 +246,19 @@
 	min-width: 0;
 	flex: 1 1 auto;
 	white-space: normal;
-	line-height: 1.15;
-	text-align: left;
+	line-height: 1.1;
+	text-align: right;
+	font-size: 12pt;
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart li > a[data-entry^="pokemon|"] {
 	display: grid;
-	grid-template-columns: 40px minmax(0, 1fr) 74px 140px;
+	grid-template-columns: var(--ddex-result-icon-width) minmax(0, 1fr) max-content 124px;
 	align-items: center;
 	justify-content: initial;
-	column-gap: 10px;
+	column-gap: 8px;
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart li > a[data-entry^="pokemon|"] .iconcol,
@@ -224,6 +279,7 @@
 
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart li > a[data-entry^="pokemon|"] .typecol {
 	grid-column: 3;
+	justify-self: end;
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart li > a[data-entry^="pokemon|"] .ddex-search-detailgroup {
@@ -409,6 +465,20 @@
 	min-width: 40px;
 }
 
+.ddex-fixed-layout .ddex-detail-secondary .ddex-encounterchart .iconcol,
+.ddex-fixed-layout .ddex-detail-primary .ddex-encounterchart .iconcol {
+	flex: 0 0 var(--ddex-pokemon-result-icon-width);
+	width: var(--ddex-pokemon-result-icon-width);
+	min-width: var(--ddex-pokemon-result-icon-width);
+	height: var(--ddex-pokemon-result-icon-height);
+}
+
+.ddex-fixed-layout .ddex-detail-secondary .ddex-encounterchart .iconcol span,
+.ddex-fixed-layout .ddex-detail-primary .ddex-encounterchart .iconcol span {
+	transform: translate(-6px, -3px) scale(var(--ddex-pokemon-result-icon-scale));
+	transform-origin: left top;
+}
+
 .ddex-fixed-layout .ddex-detail-secondary .utilichart .typecol {
 	flex: 0 0 76px;
 }
@@ -567,11 +637,17 @@
 }
 
 .ddex-fixed-layout .ddex-encounterchart .iconcol {
-	flex: 0 0 40px;
-	width: 40px;
-	min-width: 40px;
+	flex: 0 0 var(--ddex-pokemon-result-icon-width);
+	width: var(--ddex-pokemon-result-icon-width);
+	min-width: var(--ddex-pokemon-result-icon-width);
+	height: var(--ddex-pokemon-result-icon-height);
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+}
+
+.ddex-fixed-layout .ddex-encounterchart .iconcol span {
+	transform: translate(-6px, -3px) scale(var(--ddex-pokemon-result-icon-scale));
+	transform-origin: left top;
 }
 
 .ddex-fixed-layout .ddex-encounterchart .shortpokemonnamecol {
@@ -1449,8 +1525,8 @@ h1 a, h1 a.subtle {
 }
 
 .utilichart li.result.nuzlocke-location-hit > a {
-	border-color: rgba(47, 143, 78, 0.9);
-	background: rgba(47, 143, 78, 0.14);
+	border-color: rgba(255, 255, 255, 0.3);
+	background: transparent;
 }
 
 .utilichart li.result.nuzlocke-location-missed > a {
@@ -1459,18 +1535,18 @@ h1 a, h1 a.subtle {
 }
 
 .utilichart li.result.nuzlocke-location-hit .ddex-route-location-link {
-	border-color: rgba(47, 143, 78, 0.9);
-	background: rgba(47, 143, 78, 0.14);
+	border-color: rgba(255, 255, 255, 0.3);
+	background: transparent;
 }
 
 .utilichart li.result.nuzlocke-caught-here > a {
-	border-color: rgba(47, 143, 78, 1);
-	background: rgba(47, 143, 78, 0.2);
+	border-color: rgba(255, 255, 255, 0.3);
+	background: transparent;
 }
 
 .utilichart li.result.nuzlocke-owned-elsewhere > a {
-	border-color: rgba(161, 74, 74, 0.95);
-	background: rgba(161, 74, 74, 0.16);
+	border-color: rgba(255, 255, 255, 0.3);
+	background: transparent;
 }
 
 .utilichart .typecol.nuzlocke-sprite-strip,
@@ -1493,9 +1569,8 @@ h1 a, h1 a.subtle {
 }
 
 .nuzlocke-picon.nuzlocke-picon-dead {
-	outline: 2px solid rgba(176, 43, 43, 0.95);
-	outline-offset: 1px;
-	border-radius: 3px;
+	filter: grayscale(1) brightness(0.7) contrast(1.05);
+	opacity: 0.9;
 }
 
 .utilichart li.result.ddex-location-result-with-toggle {
@@ -1539,6 +1614,28 @@ h1 a, h1 a.subtle {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+.utilichart .ddex-location-search-name,
+.utilichart .ddex-route-location-name {
+	font-size: 1.12em;
+}
+
+.utilichart .ddex-location-search-name {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.ddex-location-hit-check {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #50b86a;
+	font-size: 0.95em;
+	font-weight: 700;
+	line-height: 1;
+	flex: 0 0 auto;
 }
 
 .utilichart .ddex-route-sprite-strip {
@@ -1612,6 +1709,25 @@ h1 a, h1 a.subtle {
 	padding-right: 38px;
 }
 
+.utilichart li.result.ddex-encounter-result-with-toggle.nuzlocke-caught-here .shortpokemonnamecol::after {
+	content: "\2713";
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 6px;
+	color: #50b86a;
+	font-size: 0.95em;
+	font-weight: 700;
+	line-height: 1;
+	flex: 0 0 auto;
+}
+
+.utilichart li.result.ddex-encounter-result-with-toggle.nuzlocke-owned-elsewhere .shortpokemonnamecol {
+	text-decoration: line-through;
+	text-decoration-thickness: 1.5px;
+	text-decoration-color: rgba(248, 248, 242, 0.72);
+}
+
 .ddex-encounter-caught-toggle {
 	position: absolute;
 	right: 10px;
@@ -1658,6 +1774,13 @@ h1 a, h1 a.subtle {
 
 .ddex-encounter-caught-toggle.disabled img {
 	opacity: 0.5;
+}
+
+.utilichart li.result.ddex-encounter-result-with-toggle.nuzlocke-caught-here .ddex-encounter-caught-toggle,
+.utilichart li.result.ddex-encounter-result-with-toggle.nuzlocke-owned-elsewhere .ddex-encounter-caught-toggle {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
 }
 
 .ddex-route-toggle-button.active,

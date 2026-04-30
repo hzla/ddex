@@ -16,11 +16,14 @@
 
   var listeners = new Set();
   var inFlightPromise = null;
+  var familyCache = Object.create(null);
   var currentState = createDerivedState("none", [], {
     lastCheckedAt: null,
     lastSuccessAt: null,
   });
   var currentSignature = buildStateSignature(currentState.source, currentState.records);
+  var currentLocationDexRef =
+    typeof window !== "undefined" ? window.BattleLocationdex || null : null;
 
   function safeNow() {
     return Date.now ? Date.now() : new Date().getTime();
@@ -92,8 +95,6 @@
     return "";
   }
 
-  var familyCache = Object.create(null);
-
   function getSpeciesTemplate(speciesRef) {
     if (!speciesRef) return null;
 
@@ -124,6 +125,12 @@
     return cleanText(speciesRef);
   }
 
+  function getEvolutionData() {
+    if (typeof evoData !== "undefined" && evoData) return evoData;
+    if (typeof window !== "undefined" && window.evoData) return window.evoData;
+    return null;
+  }
+
   function getFamilyInfo(speciesRef) {
     var speciesId = getCanonicalSpeciesId(speciesRef);
     if (!speciesId) {
@@ -139,12 +146,13 @@
       canonicalizeSpeciesName(speciesRef) ||
       getSpeciesDisplayName(speciesRef) ||
       speciesId;
+    var evolutionData = getEvolutionData();
     var speciesRecord =
-      window.evoData && speciesName ? window.evoData[speciesName] : null;
+      evolutionData && speciesName ? evolutionData[speciesName] : null;
     var ancestorName =
       speciesRecord && speciesRecord.anc ? speciesRecord.anc : speciesName;
     var ancestorRecord =
-      window.evoData && ancestorName ? window.evoData[ancestorName] : null;
+      evolutionData && ancestorName ? evolutionData[ancestorName] : null;
 
     var familyNames = [];
     if (ancestorName) familyNames.push(ancestorName);
@@ -722,8 +730,43 @@
     );
   }
 
+  function rebuildCurrentStateForActiveLocationDex(useScopedStorage) {
+    var nextMeta = {
+      lastCheckedAt: currentState.lastCheckedAt,
+      lastSuccessAt: currentState.lastSuccessAt,
+    };
+    if (!useScopedStorage) {
+      nextMeta.manualCaughtRecords = currentState.manualCaughtRecords;
+      nextMeta.missedLocationGroups = currentState.missedLocationGroups;
+    }
+
+    currentState = createDerivedState(
+      currentState.source,
+      currentState.records,
+      nextMeta,
+    );
+    currentSignature = buildStateSignature(currentState.source, currentState.records, {
+      manualCaughtRecords: currentState.manualCaughtRecords,
+      missedLocationGroups: currentState.missedLocationGroups,
+    });
+    return currentState;
+  }
+
+  function ensureCurrentStateUsesActiveLocationDex() {
+    var nextLocationDexRef =
+      typeof window !== "undefined" ? window.BattleLocationdex || null : null;
+    if (currentLocationDexRef === nextLocationDexRef) {
+      return currentState;
+    }
+
+    currentLocationDexRef = nextLocationDexRef;
+    return rebuildCurrentStateForActiveLocationDex(true);
+  }
+
   function setState(source, records, meta) {
     currentState = createDerivedState(source, records, meta);
+    currentLocationDexRef =
+      typeof window !== "undefined" ? window.BattleLocationdex || null : null;
     var nextSignature = buildStateSignature(currentState.source, currentState.records, {
       manualCaughtRecords: currentState.manualCaughtRecords,
       missedLocationGroups: currentState.missedLocationGroups,
@@ -1003,6 +1046,7 @@
   }
 
   function getLocationSummary(locationId) {
+    ensureCurrentStateUsesActiveLocationDex();
     var locationKey = cleanText(locationId);
     var speciesIds = locationKey
       ? currentState.locationIdsToSpecies.get(locationKey) || []
@@ -1050,6 +1094,7 @@
   }
 
   function getEncounterRowState(locationId, speciesId) {
+    ensureCurrentStateUsesActiveLocationDex();
     var normalizedSpeciesId = normalizeLocationText(speciesId);
     if (!normalizedSpeciesId) {
       return {
@@ -1122,6 +1167,7 @@
   }
 
   function setLocationMissed(locationId, isMissed) {
+    ensureCurrentStateUsesActiveLocationDex();
     var normalizedLocationId = cleanText(locationId);
     if (
       !normalizedLocationId ||
@@ -1161,6 +1207,7 @@
   }
 
   function setEncounterCaught(locationId, speciesId, isCaught) {
+    ensureCurrentStateUsesActiveLocationDex();
     var normalizedLocationId = cleanText(locationId);
     var canonicalSpecies = canonicalizeSpeciesName(speciesId);
     var normalizedSpeciesId = normalizeLocationText(canonicalSpecies);
@@ -1215,6 +1262,7 @@
   var api = {
     refreshForNavigation: refreshForNavigation,
     getState: function () {
+      ensureCurrentStateUsesActiveLocationDex();
       return currentState;
     },
     subscribe: function (listener) {

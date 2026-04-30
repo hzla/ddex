@@ -59,6 +59,70 @@
     return this.$el.find(query);
   };
 
+  function withDexBase(path) {
+    if (window.DDEXPaths && typeof window.DDEXPaths.withBase === "function") {
+      return window.DDEXPaths.withBase(path);
+    }
+    return path;
+  }
+
+  function getRowTypeIcon(type) {
+    var typeName =
+      window.Dex && Dex.types && typeof Dex.types.get === "function"
+        ? Dex.types.get(type).name
+        : String(type || "");
+    if (!typeName || typeName.toUpperCase() === "UNDEFINED") typeName = "???";
+    if (typeName === "???") {
+      return (
+        "<span class=\"ddex-row-type-icon ddex-row-type-icon-missing\" aria-hidden=\"true\">?</span>"
+      );
+    }
+    return (
+      '<img class="ddex-row-type-icon" src="' +
+      Dex.escapeHTML(withDexBase("/img/typeicons/" + typeName + ".png")) +
+      '" alt="' +
+      Dex.escapeHTML(typeName) +
+      '" />'
+    );
+  }
+
+  function collectUniqueAbilityEntries(abilities, options) {
+    var entries = [];
+    var seen = Object.create(null);
+    var warningAbilities = options && options.warningAbilities;
+    var unreleasedHidden = options && options.unreleasedHidden;
+    var orderedKeys = ["0", "1", "H", "S"];
+
+    for (var keyIndex = 0; keyIndex < orderedKeys.length; keyIndex++) {
+      var key = orderedKeys[keyIndex];
+      var rawAbility = abilities && abilities[key];
+      var abilityName = String(rawAbility || "").trim();
+      if (!abilityName || abilityName === "-") continue;
+
+      var abilityId = toID(abilityName);
+      if (!abilityId || seen[abilityId]) continue;
+      seen[abilityId] = true;
+
+      var formattedAbility = Dex.escapeHTML(abilityName);
+      if (key === "H") {
+        formattedAbility =
+          '<em' + (unreleasedHidden ? ' class="unreleasedhacol"' : "") + ">" +
+          formattedAbility +
+          "</em>";
+      } else if (key === "S") {
+        formattedAbility = "(" + formattedAbility + ")";
+      }
+
+      if (warningAbilities && warningAbilities[abilityId]) {
+        formattedAbility =
+          '<span class="encounter-warning-text">' + formattedAbility + "</span>";
+      }
+      entries.push(formattedAbility);
+    }
+
+    return entries;
+  }
+
   //
   // Search functions
   //
@@ -559,29 +623,18 @@
     buf += '<span class="col typecol">';
     var types = pokemon.types;
     for (var i = 0; i < types.length; i++) {
-      buf += Dex.getTypeIcon(types[i]);
+      buf += getRowTypeIcon(types[i]);
     }
     buf += "</span> ";
 
     function renderStackedAbilityColumn(abilities, pokemonData, gen, search) {
-      var abilityEntries = [];
       var unreleasedHidden = pokemonData.unreleasedHidden;
       if (unreleasedHidden === "Past" && (search.mod === "natdex" || gen < 8)) {
         unreleasedHidden = false;
       }
-
-      if (abilities["0"]) abilityEntries.push(Dex.escapeHTML(abilities["0"]));
-      if (abilities["1"]) abilityEntries.push(Dex.escapeHTML(abilities["1"]));
-      if (abilities["H"]) {
-        abilityEntries.push(
-          '<em' + (unreleasedHidden ? ' class="unreleasedhacol"' : "") + ">" +
-            Dex.escapeHTML(abilities["H"]) +
-            "</em>",
-        );
-      }
-      if (abilities["S"]) {
-        abilityEntries.push("(" + Dex.escapeHTML(abilities["S"]) + ")");
-      }
+      var abilityEntries = collectUniqueAbilityEntries(abilities, {
+        unreleasedHidden: unreleasedHidden,
+      });
 
       return (
         '<span class="col abilitycol ddex-stacked-abilitycol">' +
@@ -677,7 +730,7 @@
     // type
     buf += '<span class="col typecol">';
     for (var i = 0; i < pokemon.types.length; i++) {
-      buf += Dex.getTypeIcon(pokemon.types[i]);
+      buf += getRowTypeIcon(pokemon.types[i]);
     }
     buf += "</span> ";
 
@@ -687,17 +740,7 @@
     }
 
     // abilities
-    var abilityEntries = [];
-    for (var i in pokemon.abilities) {
-      var ability = pokemon.abilities[i];
-      if (!ability) continue;
-
-      if (i === "H") {
-        abilityEntries.push("<em>" + Dex.escapeHTML(pokemon.abilities[i]) + "</em>");
-      } else {
-        abilityEntries.push(Dex.escapeHTML(ability));
-      }
-    }
+    var abilityEntries = collectUniqueAbilityEntries(pokemon.abilities);
     buf += '<span class="ddex-search-detailgroup">';
     buf += '<span class="col abilitycol ddex-stacked-abilitycol">';
     buf += abilityEntries.length ? abilityEntries.join("<br />") : "";
@@ -746,6 +789,7 @@
     var rowClass = "result";
     var spriteStrip = "";
     var missedToggle = "";
+    var hitIndicator = "";
     var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
     if (
       nuzlockeService &&
@@ -772,6 +816,7 @@
             '"></span>';
         }
         spriteStrip += "</span> ";
+        hitIndicator = this.renderLocationHitIndicator(locationSummary);
       } else if (locationSummary && locationSummary.isMissed) {
         rowClass += " nuzlocke-location-missed";
       }
@@ -798,7 +843,11 @@
     buf += '<span class="col tagcol">' + tag + "</span> ";
 
     // name
-    buf += '<span class="col shortmovenamecol">' + zone.name + "</span> ";
+    buf +=
+      '<span class="col shortmovenamecol ddex-location-search-name">' +
+      zone.name +
+      hitIndicator +
+      "</span> ";
 
     if (spriteStrip) {
       buf += spriteStrip;
@@ -828,6 +877,22 @@
       '">' +
       (locationSummary.isMissed ? "Undo" : "Missed") +
       "</button>"
+    );
+  };
+
+  Search.prototype.renderLocationHitIndicator = function (locationSummary) {
+    if (
+      !locationSummary ||
+      !locationSummary.speciesEntries ||
+      !locationSummary.speciesEntries.length
+    ) {
+      return "";
+    }
+
+    return (
+      '<span class="ddex-location-hit-check" aria-label="Pokemon caught here" title="Pokemon caught here">' +
+      "&#10003;" +
+      "</span>"
     );
   };
 
@@ -886,28 +951,15 @@
     // type
     buf += '<span class="col typecol">';
     for (var i = 0; i < pokemon.types.length; i++) {
-      buf += Dex.getTypeIcon(pokemon.types[i]);
+      buf += getRowTypeIcon(pokemon.types[i]);
     }
     buf += "</span> ";
 
     // abilities
     var warningAbilities = options.warningAbilities || {};
-    var abilityEntries = [];
-    for (var i in pokemon.abilities) {
-      var ability = pokemon.abilities[i];
-      if (!ability) continue;
-
-      if (i === "H") {
-        ability = "<em>" + Dex.escapeHTML(pokemon.abilities[i]) + "</em>";
-      } else {
-        ability = Dex.escapeHTML(ability);
-      }
-      var warningAbilityId = toID(pokemon.abilities[i]);
-      if (warningAbilities[warningAbilityId]) {
-        ability = '<span class="encounter-warning-text">' + ability + "</span>";
-      }
-      abilityEntries.push(ability);
-    }
+    var abilityEntries = collectUniqueAbilityEntries(pokemon.abilities, {
+      warningAbilities: warningAbilities,
+    });
     buf += '<span class="ddex-encounter-detailgroup ddex-encounter-abilities-group">';
     buf += '<span class="col abilitycol encounterabilitycol">';
     buf += abilityEntries.length ? abilityEntries.join("<br />") : "-";
@@ -1052,6 +1104,7 @@
     var rowClass = "result";
     var spriteStrip = "";
     var missedToggle = "";
+    var hitIndicator = "";
     var nuzlockeService = window.DDEX_NUZLOCKE_BOX;
     if (
       nuzlockeService &&
@@ -1078,6 +1131,7 @@
             '"></span>';
         }
         spriteStrip += "</span> ";
+        hitIndicator = this.renderLocationHitIndicator(locationSummary);
       } else if (locationSummary && locationSummary.isMissed) {
         rowClass += " nuzlocke-location-missed";
       }
@@ -1130,7 +1184,11 @@
         name += "<small>" + location.name.substr(tagStart) + "</small>";
       }
     }
-    buf += '<span class="col movenamecol">' + name + "</span> ";
+    buf +=
+      '<span class="col movenamecol ddex-location-search-name">' +
+      name +
+      hitIndicator +
+      "</span> ";
 
     // type
     if (spriteStrip) {
@@ -1208,7 +1266,7 @@
 
     // type
     buf += '<span class="col typecol">';
-    buf += Dex.getTypeIcon(move.type);
+    buf += getRowTypeIcon(move.type);
     buf += Dex.getCategoryIcon(move.category);
     buf += "</span> ";
 
@@ -1273,7 +1331,7 @@
 
     // type
     buf += '<span class="col typecol">';
-    buf += Dex.getTypeIcon(move.type);
+    buf += getRowTypeIcon(move.type);
     buf += Dex.getCategoryIcon(move.category);
     buf += "</span> ";
 
@@ -1342,7 +1400,7 @@
 
     // type
     buf += '<span class="col typecol">';
-    buf += Dex.getTypeIcon(move.type);
+    buf += getRowTypeIcon(move.type);
     buf += Dex.getCategoryIcon(move.category);
     buf += "</span> ";
 
@@ -1418,7 +1476,7 @@
 
     // type
     buf += '<span class="col typecol">';
-    buf += Dex.getTypeIcon(type.name);
+    buf += getRowTypeIcon(type.name);
     buf += "</span> ";
 
     // error

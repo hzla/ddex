@@ -95,15 +95,23 @@
     return String(speciesRef || "");
   }
 
+  function getEvolutionData() {
+    if (typeof evoData !== "undefined" && evoData) return evoData;
+    if (typeof window !== "undefined" && window.evoData) return window.evoData;
+    return null;
+  }
+
   function formatPercent(value) {
     if (!Number.isFinite(value) || value <= 0) return "0%";
+    if (value < 0.05) return "<0.1%";
     if (value >= 100) return "100%";
-    return value.toFixed(value >= 10 ? 2 : 3).replace(/\.?0+$/, "") + "%";
+    return value.toFixed(1).replace(/\.?0+$/, "") + "%";
   }
 
   function formatWeight(value) {
     if (!Number.isFinite(value) || value <= 0) return "0%";
-    return String(value).replace(/\.?0+$/, "") + "%";
+    if (value < 0.05) return "<0.1%";
+    return Number(value).toFixed(1).replace(/\.?0+$/, "") + "%";
   }
 
   function isUnknownLocationName(locationName) {
@@ -148,10 +156,11 @@
     if (familyCache[speciesId]) return familyCache[speciesId];
 
     var speciesName = getSpeciesDisplayName(speciesRef);
-    var speciesRecord = window.evoData && speciesName ? window.evoData[speciesName] : null;
+    var evolutionData = getEvolutionData();
+    var speciesRecord = evolutionData && speciesName ? evolutionData[speciesName] : null;
     var ancestorName = speciesRecord && speciesRecord.anc ? speciesRecord.anc : speciesName;
     var ancestorRecord =
-      window.evoData && ancestorName ? window.evoData[ancestorName] : null;
+      evolutionData && ancestorName ? evolutionData[ancestorName] : null;
 
     var familyNames = [];
     if (ancestorName) familyNames.push(ancestorName);
