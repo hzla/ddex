@@ -215,6 +215,12 @@ var Dex = new ((function () {
           id = toID(name);
         }
         if (!window.BattleLocationdex) window.BattleLocationdex = {};
+        if (!window.BattleLocationdex[id] && window.BattleLocationAliasDex && window.BattleLocationAliasDex[id]) {
+          id = window.BattleLocationAliasDex[id];
+          if (window.BattleLocationdex[id] && window.BattleLocationdex[id].name) {
+            name = window.BattleLocationdex[id].name;
+          }
+        }
         var data = window.BattleLocationdex[id];
         if (data && typeof data.exists === "boolean") return data;
         if (!data) data = { exists: false };

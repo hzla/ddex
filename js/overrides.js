@@ -12,6 +12,7 @@ var params = new URLSearchParams(window.location.search);
 var gameParam = params.get("game");
 var GAME_SOURCE_ALIASES = {
   "sterlingsilver117": "sterlingsilver",
+  "unbound": "pokemonunbound",
 };
 var game = normalizeGameSourceKey(gameParam) || (isRomOverrideActive() ? null : normalizeGameSourceKey(localStorage.game));
 var gameTitles = {
@@ -24,6 +25,7 @@ var gameTitles = {
   "sterlingsilver": "Sterling Silver",
   "sterlingsilver117": "Sterling Silver",
   "pokemonnull": "Pokemon Null",
+  "pokemonunbound": "Pokemon Unbound",
   "reignitedruby": "Reignited Ruby",
   "platinumkaizo": "Platinum Kaizo",
   "cascadewhitedev": "Cascade White Dev",
@@ -102,6 +104,7 @@ function applySearchIndex(searchIndex, offsets, counts) {
   if (Array.isArray(searchIndex)) window.BattleSearchIndex = searchIndex;
   if (Array.isArray(offsets)) window.BattleSearchIndexOffset = offsets;
   if (counts && typeof counts === "object") window.BattleSearchCountIndex = counts;
+  applyLocationSearchAliasesToSearchIndex();
 }
 
 function applyRomOverridesFromCache() {
@@ -984,6 +987,7 @@ async function loadRequestedGameOverrides(gameName) {
 
   await checkAndLoadScript(`/data/overrides/${sourceGameName}_searchindex.js`, {
     onLoad: () => {
+      applyLocationSearchAliasesToSearchIndex();
       console.log(`search index loaded for ${sourceGameName}`);
     },
     onNotFound: (src) => console.log(`Not found: ${src}`),
@@ -1012,8 +1016,236 @@ function overrideDexData(dexOverides) {
 
 	console.log("Overriding enc data...")
 	BattleLocationdex = dexOverides.encs
+  applyPlatinumLocationAliases(BattleLocationdex)
 
 	encTypes = getEncounterTypes(BattleLocationdex)
+}
+
+function normalizeLocationAliasId(value) {
+  if (typeof toID === "function") {
+    return toID(value);
+  }
+  return String(value || "")
+    .toLowerCase()
+    .replace(/é/g, "e")
+    .replace(/[^a-z0-9]+/g, "");
+}
+
+function registerLocationAlias(aliasLookup, aliasName, locationId) {
+  const aliasId = normalizeLocationAliasId(aliasName);
+  if (!aliasId || aliasLookup[aliasId]) return;
+  aliasLookup[aliasId] = locationId;
+}
+
+function getApplicablePlatinumLocationAliases(locationDex) {
+  const aliasTable =
+    window.BattlePlatinumLocationAliases &&
+    typeof window.BattlePlatinumLocationAliases === "object"
+      ? window.BattlePlatinumLocationAliases
+      : {};
+  const groupedAliases = {};
+  const appliedAliases = {};
+
+  for (const locationId in aliasTable) {
+    if (!Object.prototype.hasOwnProperty.call(aliasTable, locationId)) continue;
+    const aliasRecord = aliasTable[locationId];
+    if (!aliasRecord || typeof aliasRecord !== "object") continue;
+    const locationNameId = Number.parseInt(aliasRecord.locationNameId, 10);
+    if (!Number.isFinite(locationNameId)) continue;
+    if (!groupedAliases[locationNameId]) {
+      groupedAliases[locationNameId] = {};
+    }
+    groupedAliases[locationNameId][locationId] = aliasRecord;
+  }
+
+  for (const locationNameIdKey in groupedAliases) {
+    if (!Object.prototype.hasOwnProperty.call(groupedAliases, locationNameIdKey)) continue;
+    const aliasGroup = groupedAliases[locationNameIdKey];
+    const currentGroupIds = [];
+
+    for (const locationId in locationDex || {}) {
+      if (locationId === "rates") continue;
+      if (!Object.prototype.hasOwnProperty.call(locationDex, locationId)) continue;
+      const location = locationDex[locationId];
+      if (!location || typeof location !== "object") continue;
+      const locationNameId = Number.parseInt(location.locationNameId, 10);
+      if (String(locationNameId) === String(locationNameIdKey)) {
+        currentGroupIds.push(locationId);
+      }
+    }
+
+    const aliasGroupIds = Object.keys(aliasGroup);
+    if (currentGroupIds.length !== aliasGroupIds.length) continue;
+
+    let allAliasLocationsExist = true;
+    for (let index = 0; index < aliasGroupIds.length; index += 1) {
+      if (!locationDex[aliasGroupIds[index]]) {
+        allAliasLocationsExist = false;
+        break;
+      }
+    }
+    if (!allAliasLocationsExist) continue;
+
+    for (let index = 0; index < aliasGroupIds.length; index += 1) {
+      const locationId = aliasGroupIds[index];
+      appliedAliases[locationId] = aliasGroup[locationId];
+    }
+  }
+
+  return appliedAliases;
+}
+
+function applyPlatinumLocationAliases(locationDex) {
+  const aliasLookup = {};
+  const appliedAliases = getApplicablePlatinumLocationAliases(locationDex);
+
+  for (const locationId in appliedAliases) {
+    if (!Object.prototype.hasOwnProperty.call(appliedAliases, locationId)) continue;
+    const aliasRecord = appliedAliases[locationId];
+    const location = locationDex && locationDex[locationId];
+    if (!location || !aliasRecord) continue;
+
+    const legacyNames = Array.isArray(aliasRecord.legacyNames)
+      ? aliasRecord.legacyNames.filter(Boolean)
+      : [];
+
+    if (aliasRecord.displayName) {
+      location.name = aliasRecord.displayName;
+      registerLocationAlias(aliasLookup, aliasRecord.displayName, locationId);
+    }
+    if (legacyNames.length) {
+      location.legacyNames = legacyNames.slice();
+      for (let index = 0; index < legacyNames.length; index += 1) {
+        registerLocationAlias(aliasLookup, legacyNames[index], locationId);
+      }
+    }
+  }
+
+  window.DDEX_APPLIED_PLATINUM_LOCATION_ALIASES = appliedAliases;
+  window.BattleLocationAliasDex = aliasLookup;
+  return appliedAliases;
+}
+
+function compareSearchIndexPair(pairA, pairB) {
+  const entryA = pairA.entry;
+  const entryB = pairB.entry;
+  if (entryA[0] !== entryB[0]) return entryA[0] < entryB[0] ? -1 : 1;
+  if (entryA[1] !== entryB[1]) return entryA[1] < entryB[1] ? -1 : 1;
+
+  const originalA =
+    pairA.dynamicAlias && pairA.originalId
+      ? pairA.originalId
+      : entryA.length > 2
+        ? String(entryA[2])
+        : "";
+  const originalB =
+    pairB.dynamicAlias && pairB.originalId
+      ? pairB.originalId
+      : entryB.length > 2
+        ? String(entryB[2])
+        : "";
+  if (originalA !== originalB) return originalA < originalB ? -1 : 1;
+
+  const offsetA = entryA.length > 3 ? Number(entryA[3]) || 0 : 0;
+  const offsetB = entryB.length > 3 ? Number(entryB[3]) || 0 : 0;
+  return offsetA - offsetB;
+}
+
+function applyLocationSearchAliasesToSearchIndex() {
+  if (!Array.isArray(window.BattleSearchIndex) || !window.BattleLocationdex) return;
+
+  const appliedAliases =
+    window.DDEX_APPLIED_PLATINUM_LOCATION_ALIASES &&
+    typeof window.DDEX_APPLIED_PLATINUM_LOCATION_ALIASES === "object"
+      ? window.DDEX_APPLIED_PLATINUM_LOCATION_ALIASES
+      : {};
+  const aliasLocationIds = Object.keys(appliedAliases);
+  if (!aliasLocationIds.length) return;
+
+  const offsets = Array.isArray(window.BattleSearchIndexOffset)
+    ? window.BattleSearchIndexOffset
+    : [];
+  const pairs = [];
+  const existingAliasKeys = {};
+
+  for (let index = 0; index < window.BattleSearchIndex.length; index += 1) {
+    const entry = window.BattleSearchIndex[index];
+    if (!Array.isArray(entry)) continue;
+    pairs.push({
+      entry: entry.slice(),
+      offset: offsets[index] || "",
+      dynamicAlias: false,
+      originalId: "",
+    });
+
+    if (entry[1] !== "location") continue;
+    const canonicalId =
+      entry.length > 3 &&
+      Array.isArray(window.BattleSearchIndex[entry[2]]) &&
+      window.BattleSearchIndex[entry[2]][1] === "location"
+        ? window.BattleSearchIndex[entry[2]][0]
+        : entry[0];
+    existingAliasKeys[`${entry[0]}|${canonicalId}`] = 1;
+  }
+
+  let addedAliasCount = 0;
+  for (let index = 0; index < aliasLocationIds.length; index += 1) {
+    const locationId = aliasLocationIds[index];
+    const location = window.BattleLocationdex[locationId];
+    if (!location) continue;
+
+    const aliasNames = [];
+    if (location.name) aliasNames.push(location.name);
+    if (Array.isArray(location.legacyNames)) {
+      for (let legacyIndex = 0; legacyIndex < location.legacyNames.length; legacyIndex += 1) {
+        aliasNames.push(location.legacyNames[legacyIndex]);
+      }
+    }
+
+    for (let aliasIndex = 0; aliasIndex < aliasNames.length; aliasIndex += 1) {
+      const aliasId = normalizeLocationAliasId(aliasNames[aliasIndex]);
+      if (!aliasId || aliasId === locationId) continue;
+      const aliasKey = `${aliasId}|${locationId}`;
+      if (existingAliasKeys[aliasKey]) continue;
+      existingAliasKeys[aliasKey] = 1;
+      pairs.push({
+        entry: [aliasId, "location", locationId, 0],
+        offset: "",
+        dynamicAlias: true,
+        originalId: locationId,
+      });
+      addedAliasCount += 1;
+    }
+  }
+
+  if (!addedAliasCount) return;
+
+  pairs.sort(compareSearchIndexPair);
+
+  const locationBaseIndexById = {};
+  for (let index = 0; index < pairs.length; index += 1) {
+    const pair = pairs[index];
+    if (pair.dynamicAlias) continue;
+    if (!Array.isArray(pair.entry) || pair.entry[1] !== "location") continue;
+    if (pair.entry.length !== 2) continue;
+    locationBaseIndexById[pair.entry[0]] = index;
+  }
+
+  const nextSearchIndex = [];
+  const nextSearchIndexOffset = [];
+  for (let index = 0; index < pairs.length; index += 1) {
+    const pair = pairs[index];
+    if (pair.dynamicAlias) {
+      const originalIndex = locationBaseIndexById[pair.originalId];
+      if (typeof originalIndex !== "number") continue;
+      pair.entry[2] = originalIndex;
+    }
+    nextSearchIndex.push(pair.entry);
+    nextSearchIndexOffset.push(pair.offset);
+  }
+
+  window.BattleSearchIndex = nextSearchIndex;
+  window.BattleSearchIndexOffset = nextSearchIndexOffset;
 }
 
 function getEncounterRateSlots(location, encType) {

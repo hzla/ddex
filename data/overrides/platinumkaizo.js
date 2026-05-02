@@ -76914,6 +76914,17 @@ var overrides = {
                         "mn": 1
                     }
                 ]
+            },
+            "egg": {
+                "rates": [
+                    100
+                ],
+                "encs": [
+                    {
+                        "s": "HAPPINY",
+                        "mn": 1
+                    }
+                ]
             }
         },
         "pastoriacity": {
@@ -77320,16 +77331,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -77341,15 +77360,7 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
@@ -78200,16 +78211,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -78221,42 +78240,34 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    25,
-                    25,
-                    25,
-                    25
+                    5,
+                    20,
+                    40,
+                    35
                 ],
                 "encs": [
-                    {
-                        "s": "PIKACHU",
-                        "mn": 17
-                    },
                     {
                         "s": "ELEKID",
                         "mn": 17
                     },
                     {
-                        "s": "PACHIRISU",
-                        "mn": 15
-                    },
-                    {
                         "s": "PICHU",
                         "mn": 8
+                    },
+                    {
+                        "s": "PIKACHU",
+                        "mn": 17
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
                     }
                 ]
             },
@@ -78457,16 +78468,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -78478,38 +78497,43 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11
+                    6,
+                    10,
+                    15,
+                    10,
+                    15,
+                    10,
+                    10,
+                    10,
+                    7,
+                    7
                 ],
                 "encs": [
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    },
                     {
                         "s": "TEDDIURSA",
                         "mn": 15
                     },
                     {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
                         "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "COMBEE",
                         "mn": 15
                     },
                     {
@@ -78518,10 +78542,6 @@ var overrides = {
                     },
                     {
                         "s": "ZIGZAGOON",
-                        "mn": 15
-                    },
-                    {
-                        "s": "CHERUBI",
                         "mn": 15
                     },
                     {
@@ -78535,10 +78555,6 @@ var overrides = {
                     {
                         "s": "STARLY",
                         "mn": 15
-                    },
-                    {
-                        "s": "SPINDA",
-                        "mn": 18
                     }
                 ]
             }
@@ -78812,16 +78828,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -78833,38 +78857,30 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    50,
-                    50
+                    22,
+                    78
                 ],
                 "encs": [
                     {
-                        "s": "MAGBY",
-                        "mn": 10
-                    },
-                    {
                         "s": "SCIZOR",
                         "mn": 55
+                    },
+                    {
+                        "s": "MAGBY",
+                        "mn": 10
                     }
                 ]
             }
         },
         "mtcoronet": {
-            "name": "Mt. Coronet",
+            "name": "Mt. Coronet 1F (South)",
             "locationNameId": 50,
             "grass": {
                 "encs": [
@@ -79129,10 +79145,13 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Mt. Coronet"
+            ]
         },
         "mtcoronetsection2": {
-            "name": "Mt. Coronet Section 2",
+            "name": "Mt. Coronet 1F (Central)",
             "locationNameId": 50,
             "grass": {
                 "encs": [
@@ -79313,10 +79332,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Mt. Coronet Section 2",
+                "Mt. Coronet"
+            ]
         },
         "mtcoronetsection3": {
-            "name": "Mt. Coronet Section 3",
+            "name": "Mt. Coronet B1F",
             "locationNameId": 50,
             "grass": {
                 "encs": [
@@ -79497,10 +79520,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Mt. Coronet Section 3",
+                "Mt. Coronet"
+            ]
         },
         "coronethighlands": {
-            "name": "Coronet Highlands",
+            "name": "Coronet Highlands (South Exterior)",
             "locationNameId": 115,
             "grass": {
                 "encs": [
@@ -79681,10 +79708,13 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Coronet Highlands"
+            ]
         },
         "coronethighlandssection2": {
-            "name": "Coronet Highlands Section 2",
+            "name": "Coronet Highlands 1F (Room 1/2)",
             "locationNameId": 115,
             "grass": {
                 "encs": [
@@ -79865,10 +79895,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Coronet Highlands Section 2",
+                "Coronet Highlands"
+            ]
         },
         "coronethighlandssection3": {
-            "name": "Coronet Highlands Section 3",
+            "name": "Coronet Highlands 1F (Room 3)",
             "locationNameId": 115,
             "grass": {
                 "encs": [
@@ -80133,10 +80167,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Coronet Highlands Section 3",
+                "Coronet Highlands"
+            ]
         },
         "coronethighlandssection4": {
-            "name": "Coronet Highlands Section 4",
+            "name": "Coronet Highlands (North Exterior)",
             "locationNameId": 115,
             "grass": {
                 "encs": [
@@ -80317,10 +80355,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Coronet Highlands Section 4",
+                "Coronet Highlands"
+            ]
         },
         "coronethighlandssection5": {
-            "name": "Coronet Highlands Section 5",
+            "name": "Coronet Highlands 2F",
             "locationNameId": 115,
             "grass": {
                 "encs": [
@@ -80501,10 +80543,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Coronet Highlands Section 5",
+                "Coronet Highlands"
+            ]
         },
         "coronethighlandssection6": {
-            "name": "Coronet Highlands Section 6",
+            "name": "Coronet Highlands 3F",
             "locationNameId": 115,
             "grass": {
                 "encs": [
@@ -80685,7 +80731,11 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Coronet Highlands Section 6",
+                "Coronet Highlands"
+            ]
         },
         "celesticaruins": {
             "name": "Celestica Ruins",
@@ -80872,7 +80922,7 @@ var overrides = {
             }
         },
         "mtcoronetsection4": {
-            "name": "Mt. Coronet Section 4",
+            "name": "Mt. Coronet 1F (North)",
             "locationNameId": 50,
             "grass": {
                 "encs": [
@@ -81137,10 +81187,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Mt. Coronet Section 4",
+                "Mt. Coronet"
+            ]
         },
         "mtcoronetsection5": {
-            "name": "Mt. Coronet Section 5",
+            "name": "Mt. Coronet 2F",
             "locationNameId": 50,
             "grass": {
                 "encs": [
@@ -81405,10 +81459,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Mt. Coronet Section 5",
+                "Mt. Coronet"
+            ]
         },
         "mtcoronetsection6": {
-            "name": "Mt. Coronet Section 6",
+            "name": "Mt. Coronet 3F",
             "locationNameId": 50,
             "grass": {
                 "encs": [
@@ -81673,10 +81731,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Mt. Coronet Section 6",
+                "Mt. Coronet"
+            ]
         },
         "greatmarsh": {
-            "name": "Great Marsh",
+            "name": "Great Marsh (Area 1)",
             "locationNameId": 52,
             "grass": {
                 "encs": [
@@ -81941,10 +82003,13 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Great Marsh"
+            ]
         },
         "greatmarshsection2": {
-            "name": "Great Marsh Section 2",
+            "name": "Great Marsh (Area 2)",
             "locationNameId": 52,
             "grass": {
                 "encs": [
@@ -82209,10 +82274,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Great Marsh Section 2",
+                "Great Marsh"
+            ]
         },
         "greatmarshsection3": {
-            "name": "Great Marsh Section 3",
+            "name": "Great Marsh (Area 3)",
             "locationNameId": 52,
             "grass": {
                 "encs": [
@@ -82477,10 +82546,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Great Marsh Section 3",
+                "Great Marsh"
+            ]
         },
         "greatmarshsection4": {
-            "name": "Great Marsh Section 4",
+            "name": "Great Marsh (Area 4)",
             "locationNameId": 52,
             "grass": {
                 "encs": [
@@ -82745,10 +82818,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Great Marsh Section 4",
+                "Great Marsh"
+            ]
         },
         "greatmarshsection5": {
-            "name": "Great Marsh Section 5",
+            "name": "Great Marsh (Area 5)",
             "locationNameId": 52,
             "grass": {
                 "encs": [
@@ -83013,10 +83090,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Great Marsh Section 5",
+                "Great Marsh"
+            ]
         },
         "greatmarshsection6": {
-            "name": "Great Marsh Section 6",
+            "name": "Great Marsh (Area 6)",
             "locationNameId": 52,
             "grass": {
                 "encs": [
@@ -83281,7 +83362,11 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Great Marsh Section 6",
+                "Great Marsh"
+            ]
         },
         "solaceonruins": {
             "name": "Solaceon Ruins",
@@ -86596,7 +86681,7 @@ var overrides = {
             }
         },
         "victoryroad": {
-            "name": "Victory Road",
+            "name": "Victory Road 1F",
             "locationNameId": 54,
             "grass": {
                 "encs": [
@@ -86777,10 +86862,13 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Victory Road"
+            ]
         },
         "victoryroadsection2": {
-            "name": "Victory Road Section 2",
+            "name": "Victory Road 2F",
             "locationNameId": 54,
             "grass": {
                 "encs": [
@@ -86961,10 +87049,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Victory Road Section 2",
+                "Victory Road"
+            ]
         },
         "victoryroadsection3": {
-            "name": "Victory Road Section 3",
+            "name": "Victory Road B1F",
             "locationNameId": 54,
             "grass": {
                 "encs": [
@@ -87229,10 +87321,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Victory Road Section 3",
+                "Victory Road"
+            ]
         },
         "victoryroadsection4": {
-            "name": "Victory Road Section 4",
+            "name": "Victory Road (Back Room 1)",
             "locationNameId": 54,
             "grass": {
                 "encs": [
@@ -87497,10 +87593,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Victory Road Section 4",
+                "Victory Road"
+            ]
         },
         "victoryroadsection5": {
-            "name": "Victory Road Section 5",
+            "name": "Victory Road (Back Room 2)",
             "locationNameId": 54,
             "grass": {
                 "encs": [
@@ -87681,10 +87781,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Victory Road Section 5",
+                "Victory Road"
+            ]
         },
         "victoryroadsection6": {
-            "name": "Victory Road Section 6",
+            "name": "Victory Road (Back Room 3)",
             "locationNameId": 54,
             "grass": {
                 "encs": [
@@ -87865,7 +87969,11 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Victory Road Section 6",
+                "Victory Road"
+            ]
         },
         "ravagedpath": {
             "name": "Ravaged Path",
@@ -88136,7 +88244,7 @@ var overrides = {
             }
         },
         "oreburghgate": {
-            "name": "Oreburgh Gate",
+            "name": "Oreburgh Gate 1F",
             "locationNameId": 59,
             "grass": {
                 "encs": [
@@ -88317,10 +88425,13 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Oreburgh Gate"
+            ]
         },
         "oreburghgatesection2": {
-            "name": "Oreburgh Gate Section 2",
+            "name": "Oreburgh Gate B1F",
             "locationNameId": 59,
             "grass": {
                 "encs": [
@@ -88585,7 +88696,11 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Oreburgh Gate Section 2",
+                "Oreburgh Gate"
+            ]
         },
         "starkmountain": {
             "name": "Stark Mountain",
@@ -98976,7 +99091,7 @@ var overrides = {
             }
         },
         "waywardcave": {
-            "name": "Wayward Cave",
+            "name": "Wayward Cave 1F",
             "locationNameId": 65,
             "grass": {
                 "encs": [
@@ -99157,10 +99272,13 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Wayward Cave"
+            ]
         },
         "waywardcavesection2": {
-            "name": "Wayward Cave Section 2",
+            "name": "Wayward Cave B1F",
             "locationNameId": 65,
             "grass": {
                 "encs": [
@@ -99341,7 +99459,11 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Wayward Cave Section 2",
+                "Wayward Cave"
+            ]
         },
         "ruinmaniaccave": {
             "name": "Ruin Maniac Cave",
@@ -104432,16 +104554,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -104453,39 +104583,47 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
+                    5,
+                    5,
+                    5,
+                    5,
                     10,
                     10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
+                    15,
+                    15,
+                    15,
+                    15
                 ],
                 "encs": [
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
                     {
                         "s": "URSARING",
                         "mn": 38
                     },
                     {
-                        "s": "BEEDRILL",
+                        "s": "MIMEJR",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHERRIM",
                         "mn": 40
                     },
                     {
@@ -104497,28 +104635,12 @@ var overrides = {
                         "mn": 35
                     },
                     {
-                        "s": "BUTTERFREE",
-                        "mn": 40
-                    },
-                    {
                         "s": "MOTHIM",
                         "mn": 40
                     },
                     {
-                        "s": "CHERRIM",
+                        "s": "BUTTERFREE",
                         "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
-                        "mn": 5
                     }
                 ]
             },
@@ -104744,16 +104866,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -104765,23 +104895,15 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    50,
-                    50
+                    22,
+                    78
                 ],
                 "encs": [
                     {
@@ -104980,16 +105102,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -105001,38 +105131,43 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11
+                    6,
+                    10,
+                    15,
+                    10,
+                    15,
+                    10,
+                    10,
+                    10,
+                    7,
+                    7
                 ],
                 "encs": [
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    },
                     {
                         "s": "TEDDIURSA",
                         "mn": 15
                     },
                     {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
                         "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "COMBEE",
                         "mn": 15
                     },
                     {
@@ -105041,10 +105176,6 @@ var overrides = {
                     },
                     {
                         "s": "ZIGZAGOON",
-                        "mn": 15
-                    },
-                    {
-                        "s": "CHERUBI",
                         "mn": 15
                     },
                     {
@@ -105058,10 +105189,6 @@ var overrides = {
                     {
                         "s": "STARLY",
                         "mn": 15
-                    },
-                    {
-                        "s": "SPINDA",
-                        "mn": 18
                     }
                 ]
             }
@@ -105251,9 +105378,9 @@ var overrides = {
             },
             "gift": {
                 "rates": [
-                    100,
-                    100,
-                    100
+                    0,
+                    0,
+                    0
                 ],
                 "encs": [
                     {
@@ -105261,11 +105388,11 @@ var overrides = {
                         "mn": 5
                     },
                     {
-                        "s": "PIPLUP",
+                        "s": "CHIMCHAR",
                         "mn": 5
                     },
                     {
-                        "s": "CHIMCHAR",
+                        "s": "PIPLUP",
                         "mn": 5
                     }
                 ]
@@ -105724,7 +105851,7 @@ var overrides = {
             }
         },
         "route204": {
-            "name": "Route 204",
+            "name": "Route 204 (South)",
             "locationNameId": 19,
             "grass": {
                 "encs": [
@@ -105989,10 +106116,13 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Route 204"
+            ]
         },
         "route204section2": {
-            "name": "Route 204 Section 2",
+            "name": "Route 204 (North)",
             "locationNameId": 19,
             "grass": {
                 "encs": [
@@ -106257,10 +106387,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Route 204 Section 2",
+                "Route 204"
+            ]
         },
         "route205": {
-            "name": "Route 205",
+            "name": "Route 205 (South)",
             "locationNameId": 20,
             "grass": {
                 "encs": [
@@ -106528,16 +106662,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -106549,38 +106691,43 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11
+                    6,
+                    10,
+                    15,
+                    10,
+                    15,
+                    10,
+                    10,
+                    10,
+                    7,
+                    7
                 ],
                 "encs": [
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    },
                     {
                         "s": "TEDDIURSA",
                         "mn": 15
                     },
                     {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
                         "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "COMBEE",
                         "mn": 15
                     },
                     {
@@ -106589,10 +106736,6 @@ var overrides = {
                     },
                     {
                         "s": "ZIGZAGOON",
-                        "mn": 15
-                    },
-                    {
-                        "s": "CHERUBI",
                         "mn": 15
                     },
                     {
@@ -106606,16 +106749,15 @@ var overrides = {
                     {
                         "s": "STARLY",
                         "mn": 15
-                    },
-                    {
-                        "s": "SPINDA",
-                        "mn": 18
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Route 205"
+            ]
         },
         "route205section2": {
-            "name": "Route 205 Section 2",
+            "name": "Route 205 (East)",
             "locationNameId": 20,
             "grass": {
                 "encs": [
@@ -106880,7 +107022,103 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "global_honey_tree": {
+                "rates": [
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
+                ],
+                "encs": [
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    6,
+                    10,
+                    15,
+                    10,
+                    15,
+                    10,
+                    10,
+                    10,
+                    7,
+                    7
+                ],
+                "encs": [
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    },
+                    {
+                        "s": "TEDDIURSA",
+                        "mn": 15
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SENTRET",
+                        "mn": 16
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "PIDGEY",
+                        "mn": 12
+                    },
+                    {
+                        "s": "SPEAROW",
+                        "mn": 12
+                    },
+                    {
+                        "s": "STARLY",
+                        "mn": 15
+                    }
+                ]
+            },
+            "legacyNames": [
+                "Route 205 Section 2",
+                "Route 205"
+            ]
         },
         "route206": {
             "name": "Route 206",
@@ -107067,16 +107305,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -107088,38 +107334,43 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11
+                    6,
+                    10,
+                    15,
+                    10,
+                    15,
+                    10,
+                    10,
+                    10,
+                    7,
+                    7
                 ],
                 "encs": [
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    },
                     {
                         "s": "TEDDIURSA",
                         "mn": 15
                     },
                     {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
                         "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "COMBEE",
                         "mn": 15
                     },
                     {
@@ -107128,10 +107379,6 @@ var overrides = {
                     },
                     {
                         "s": "ZIGZAGOON",
-                        "mn": 15
-                    },
-                    {
-                        "s": "CHERUBI",
                         "mn": 15
                     },
                     {
@@ -107145,10 +107392,6 @@ var overrides = {
                     {
                         "s": "STARLY",
                         "mn": 15
-                    },
-                    {
-                        "s": "SPINDA",
-                        "mn": 18
                     }
                 ]
             }
@@ -107338,16 +107581,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -107359,38 +107610,43 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11
+                    6,
+                    10,
+                    15,
+                    10,
+                    15,
+                    10,
+                    10,
+                    10,
+                    7,
+                    7
                 ],
                 "encs": [
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    },
                     {
                         "s": "TEDDIURSA",
                         "mn": 15
                     },
                     {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
                         "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "COMBEE",
                         "mn": 15
                     },
                     {
@@ -107399,10 +107655,6 @@ var overrides = {
                     },
                     {
                         "s": "ZIGZAGOON",
-                        "mn": 15
-                    },
-                    {
-                        "s": "CHERUBI",
                         "mn": 15
                     },
                     {
@@ -107416,10 +107668,6 @@ var overrides = {
                     {
                         "s": "STARLY",
                         "mn": 15
-                    },
-                    {
-                        "s": "SPINDA",
-                        "mn": 18
                     }
                 ]
             }
@@ -107693,16 +107941,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -107714,38 +107970,43 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11,
-                    11
+                    6,
+                    10,
+                    15,
+                    10,
+                    15,
+                    10,
+                    10,
+                    10,
+                    7,
+                    7
                 ],
                 "encs": [
+                    {
+                        "s": "SPINDA",
+                        "mn": 18
+                    },
                     {
                         "s": "TEDDIURSA",
                         "mn": 15
                     },
                     {
+                        "s": "CHERUBI",
+                        "mn": 15
+                    },
+                    {
                         "s": "PACHIRISU",
+                        "mn": 15
+                    },
+                    {
+                        "s": "COMBEE",
                         "mn": 15
                     },
                     {
@@ -107754,10 +108015,6 @@ var overrides = {
                     },
                     {
                         "s": "ZIGZAGOON",
-                        "mn": 15
-                    },
-                    {
-                        "s": "CHERUBI",
                         "mn": 15
                     },
                     {
@@ -107771,10 +108028,6 @@ var overrides = {
                     {
                         "s": "STARLY",
                         "mn": 15
-                    },
-                    {
-                        "s": "SPINDA",
-                        "mn": 18
                     }
                 ]
             }
@@ -108048,16 +108301,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -108069,39 +108330,47 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
+                    5,
+                    5,
+                    5,
+                    5,
                     10,
                     10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
+                    15,
+                    15,
+                    15,
+                    15
                 ],
                 "encs": [
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
                     {
                         "s": "URSARING",
                         "mn": 38
                     },
                     {
-                        "s": "BEEDRILL",
+                        "s": "MIMEJR",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHERRIM",
                         "mn": 40
                     },
                     {
@@ -108113,28 +108382,12 @@ var overrides = {
                         "mn": 35
                     },
                     {
-                        "s": "BUTTERFREE",
-                        "mn": 40
-                    },
-                    {
                         "s": "MOTHIM",
                         "mn": 40
                     },
                     {
-                        "s": "CHERRIM",
+                        "s": "BUTTERFREE",
                         "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
-                        "mn": 5
                     }
                 ]
             },
@@ -108151,7 +108404,7 @@ var overrides = {
             }
         },
         "losttower": {
-            "name": "Lost Tower",
+            "name": "Lost Tower 1F",
             "locationNameId": 118,
             "grass": {
                 "encs": [
@@ -108332,10 +108585,13 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Lost Tower"
+            ]
         },
         "losttowersection2": {
-            "name": "Lost Tower Section 2",
+            "name": "Lost Tower 2F",
             "locationNameId": 118,
             "grass": {
                 "encs": [
@@ -108516,10 +108772,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Lost Tower Section 2",
+                "Lost Tower"
+            ]
         },
         "losttowersection3": {
-            "name": "Lost Tower Section 3",
+            "name": "Lost Tower 3F",
             "locationNameId": 118,
             "grass": {
                 "encs": [
@@ -108700,10 +108960,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Lost Tower Section 3",
+                "Lost Tower"
+            ]
         },
         "losttowersection4": {
-            "name": "Lost Tower Section 4",
+            "name": "Lost Tower 4F",
             "locationNameId": 118,
             "grass": {
                 "encs": [
@@ -108884,10 +109148,14 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Lost Tower Section 4",
+                "Lost Tower"
+            ]
         },
         "losttowersection5": {
-            "name": "Lost Tower Section 5",
+            "name": "Lost Tower 5F",
             "locationNameId": 118,
             "grass": {
                 "encs": [
@@ -109068,7 +109336,11 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Lost Tower Section 5",
+                "Lost Tower"
+            ]
         },
         "route210": {
             "name": "Route 210",
@@ -109193,16 +109465,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -109214,39 +109494,47 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
+                    5,
+                    5,
+                    5,
+                    5,
                     10,
                     10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
+                    15,
+                    15,
+                    15,
+                    15
                 ],
                 "encs": [
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
                     {
                         "s": "URSARING",
                         "mn": 38
                     },
                     {
-                        "s": "BEEDRILL",
+                        "s": "MIMEJR",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHERRIM",
                         "mn": 40
                     },
                     {
@@ -109258,28 +109546,12 @@ var overrides = {
                         "mn": 35
                     },
                     {
-                        "s": "BUTTERFREE",
-                        "mn": 40
-                    },
-                    {
                         "s": "MOTHIM",
                         "mn": 40
                     },
                     {
-                        "s": "CHERRIM",
+                        "s": "BUTTERFREE",
                         "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
-                        "mn": 5
                     }
                 ]
             }
@@ -109553,7 +109825,7 @@ var overrides = {
             }
         },
         "route211": {
-            "name": "Route 211",
+            "name": "Route 211 (West)",
             "locationNameId": 26,
             "grass": {
                 "encs": [
@@ -109826,10 +110098,13 @@ var overrides = {
                         "mn": 5
                     }
                 ]
-            }
+            },
+            "legacyNames": [
+                "Route 211"
+            ]
         },
         "route211section2": {
-            "name": "Route 211 Section 2",
+            "name": "Route 211 (East)",
             "locationNameId": 26,
             "grass": {
                 "encs": [
@@ -110010,7 +110285,103 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            }
+            },
+            "global_honey_tree": {
+                "rates": [
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
+                ],
+                "encs": [
+                    {
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "KRICKETOT",
+                        "mn": 10
+                    },
+                    {
+                        "s": "BURMY",
+                        "mn": 10
+                    },
+                    {
+                        "s": "CATERPIE",
+                        "mn": 10
+                    }
+                ]
+            },
+            "local_honey_tree": {
+                "rates": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    10,
+                    10,
+                    15,
+                    15,
+                    15,
+                    15
+                ],
+                "encs": [
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
+                    {
+                        "s": "URSARING",
+                        "mn": 38
+                    },
+                    {
+                        "s": "MIMEJR",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHERRIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BEAUTIFLY",
+                        "mn": 35
+                    },
+                    {
+                        "s": "DUSTOX",
+                        "mn": 35
+                    },
+                    {
+                        "s": "MOTHIM",
+                        "mn": 40
+                    },
+                    {
+                        "s": "BUTTERFREE",
+                        "mn": 40
+                    }
+                ]
+            },
+            "legacyNames": [
+                "Route 211 Section 2",
+                "Route 211"
+            ]
         },
         "unknown160": {
             "name": "unknown_160",
@@ -110549,16 +110920,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -110570,72 +110949,54 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
+                    5,
+                    5,
                     10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
+                    14,
+                    15,
+                    15,
+                    16,
+                    20
                 ],
                 "encs": [
                     {
-                        "s": "URSARING",
-                        "mn": 38
+                        "s": "VESPIQUEN",
+                        "mn": 66
                     },
                     {
-                        "s": "BEEDRILL",
-                        "mn": 40
+                        "s": "SLAKOTH",
+                        "mn": 15
                     },
                     {
-                        "s": "BEAUTIFLY",
-                        "mn": 35
+                        "s": "AIPOM",
+                        "mn": 10
                     },
                     {
-                        "s": "DUSTOX",
-                        "mn": 35
+                        "s": "TAILLOW",
+                        "mn": 55
                     },
                     {
-                        "s": "BUTTERFREE",
-                        "mn": 40
+                        "s": "SCYTHER",
+                        "mn": 55
                     },
                     {
-                        "s": "MOTHIM",
-                        "mn": 40
+                        "s": "PINSIR",
+                        "mn": 55
                     },
                     {
-                        "s": "CHERRIM",
-                        "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
+                        "s": "ZANGOOSE",
                         "mn": 5
+                    },
+                    {
+                        "s": "PINECO",
+                        "mn": 55
                     }
                 ]
             }
@@ -110909,16 +111270,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -110930,15 +111299,7 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
@@ -111224,16 +111585,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -111245,39 +111614,47 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
+                    5,
+                    5,
+                    5,
+                    5,
                     10,
                     10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
+                    15,
+                    15,
+                    15,
+                    15
                 ],
                 "encs": [
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
                     {
                         "s": "URSARING",
                         "mn": 38
                     },
                     {
-                        "s": "BEEDRILL",
+                        "s": "MIMEJR",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHERRIM",
                         "mn": 40
                     },
                     {
@@ -111289,28 +111666,12 @@ var overrides = {
                         "mn": 35
                     },
                     {
-                        "s": "BUTTERFREE",
-                        "mn": 40
-                    },
-                    {
                         "s": "MOTHIM",
                         "mn": 40
                     },
                     {
-                        "s": "CHERRIM",
+                        "s": "BUTTERFREE",
                         "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
-                        "mn": 5
                     }
                 ]
             }
@@ -111500,16 +111861,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -111521,39 +111890,47 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
+                    5,
+                    5,
+                    5,
+                    5,
                     10,
                     10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
+                    15,
+                    15,
+                    15,
+                    15
                 ],
                 "encs": [
+                    {
+                        "s": "LICKITUNG",
+                        "mn": 35
+                    },
+                    {
+                        "s": "BEEDRILL",
+                        "mn": 40
+                    },
+                    {
+                        "s": "PIDGEOTTO",
+                        "mn": 42
+                    },
                     {
                         "s": "URSARING",
                         "mn": 38
                     },
                     {
-                        "s": "BEEDRILL",
+                        "s": "MIMEJR",
+                        "mn": 5
+                    },
+                    {
+                        "s": "CHERRIM",
                         "mn": 40
                     },
                     {
@@ -111565,28 +111942,12 @@ var overrides = {
                         "mn": 35
                     },
                     {
-                        "s": "BUTTERFREE",
-                        "mn": 40
-                    },
-                    {
                         "s": "MOTHIM",
                         "mn": 40
                     },
                     {
-                        "s": "CHERRIM",
+                        "s": "BUTTERFREE",
                         "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
-                        "mn": 5
                     }
                 ]
             }
@@ -112228,16 +112589,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -112249,72 +112618,54 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
+                    5,
+                    5,
                     10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
+                    14,
+                    15,
+                    15,
+                    16,
+                    20
                 ],
                 "encs": [
                     {
-                        "s": "URSARING",
-                        "mn": 38
+                        "s": "VESPIQUEN",
+                        "mn": 66
                     },
                     {
-                        "s": "BEEDRILL",
-                        "mn": 40
+                        "s": "SLAKOTH",
+                        "mn": 15
                     },
                     {
-                        "s": "BEAUTIFLY",
-                        "mn": 35
+                        "s": "AIPOM",
+                        "mn": 10
                     },
                     {
-                        "s": "DUSTOX",
-                        "mn": 35
+                        "s": "TAILLOW",
+                        "mn": 55
                     },
                     {
-                        "s": "BUTTERFREE",
-                        "mn": 40
+                        "s": "SCYTHER",
+                        "mn": 55
                     },
                     {
-                        "s": "MOTHIM",
-                        "mn": 40
+                        "s": "PINSIR",
+                        "mn": 55
                     },
                     {
-                        "s": "CHERRIM",
-                        "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
+                        "s": "ZANGOOSE",
                         "mn": 5
+                    },
+                    {
+                        "s": "PINECO",
+                        "mn": 55
                     }
                 ]
             }
@@ -112718,16 +113069,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -112739,15 +113098,7 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
@@ -113033,16 +113384,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -113054,72 +113413,54 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
+                    5,
+                    5,
                     10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
+                    14,
+                    15,
+                    15,
+                    16,
+                    20
                 ],
                 "encs": [
                     {
-                        "s": "URSARING",
-                        "mn": 38
+                        "s": "VESPIQUEN",
+                        "mn": 66
                     },
                     {
-                        "s": "BEEDRILL",
-                        "mn": 40
+                        "s": "SLAKOTH",
+                        "mn": 15
                     },
                     {
-                        "s": "BEAUTIFLY",
-                        "mn": 35
+                        "s": "AIPOM",
+                        "mn": 10
                     },
                     {
-                        "s": "DUSTOX",
-                        "mn": 35
+                        "s": "TAILLOW",
+                        "mn": 55
                     },
                     {
-                        "s": "BUTTERFREE",
-                        "mn": 40
+                        "s": "SCYTHER",
+                        "mn": 55
                     },
                     {
-                        "s": "MOTHIM",
-                        "mn": 40
+                        "s": "PINSIR",
+                        "mn": 55
                     },
                     {
-                        "s": "CHERRIM",
-                        "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
+                        "s": "ZANGOOSE",
                         "mn": 5
+                    },
+                    {
+                        "s": "PINECO",
+                        "mn": 55
                     }
                 ]
             }
@@ -116528,6 +116869,52 @@ var overrides = {
                         "mn": 1
                     }
                 ]
+            },
+            "egg": {
+                "rates": [
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12
+                ],
+                "encs": [
+                    {
+                        "s": "GROWLITHE",
+                        "mn": 1
+                    },
+                    {
+                        "s": "GIRAFARIG",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MAREEP",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MILTANK",
+                        "mn": 1
+                    },
+                    {
+                        "s": "SPOINK",
+                        "mn": 1
+                    },
+                    {
+                        "s": "PONYTA",
+                        "mn": 1
+                    },
+                    {
+                        "s": "MANKEY",
+                        "mn": 1
+                    },
+                    {
+                        "s": "TORCHIC",
+                        "mn": 1
+                    }
+                ]
             }
         },
         "snowpointcity": {
@@ -117616,16 +118003,24 @@ var overrides = {
             },
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -117637,28 +118032,25 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    50,
-                    50
+                    33,
+                    33,
+                    33
                 ],
                 "encs": [
                     {
-                        "s": "WORMADAM",
+                        "s": "BURMY",
                         "mn": 15
+                    },
+                    {
+                        "s": "WORMADAM",
+                        "mn": 16
                     },
                     {
                         "s": "MOTHIM",
@@ -117778,6 +118170,42 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "egg": {
+                "rates": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encs": [
+                    {
+                        "s": "KRABBY",
+                        "mn": 1
+                    },
+                    {
+                        "s": "CORPHISH",
+                        "mn": 1
+                    },
+                    {
+                        "s": "CHERUBI",
+                        "mn": 1
+                    },
+                    {
+                        "s": "EXEGGCUTE",
+                        "mn": 1
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 1
+                    },
+                    {
+                        "s": "FEEBAS",
+                        "mn": 1
+                    }
+                ]
             }
         },
         "theunderground": {
@@ -118640,6 +119068,37 @@ var overrides = {
                         "mn": 1
                     }
                 ]
+            },
+            "egg": {
+                "rates": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                ],
+                "encs": [
+                    {
+                        "s": "CACNEA",
+                        "mn": 1
+                    },
+                    {
+                        "s": "GULPIN",
+                        "mn": 1
+                    },
+                    {
+                        "s": "ZIGZAGOON",
+                        "mn": 1
+                    },
+                    {
+                        "s": "DROWZEE",
+                        "mn": 1
+                    },
+                    {
+                        "s": "POOCHYENA",
+                        "mn": 1
+                    }
+                ]
             }
         },
         "springpath": {
@@ -118946,11 +119405,11 @@ var overrides = {
                 ],
                 "encs": [
                     {
-                        "s": "SOLROCK",
+                        "s": "LUNATONE",
                         "mn": 40
                     },
                     {
-                        "s": "LUNATONE",
+                        "s": "SOLROCK",
                         "mn": 40
                     }
                 ]
@@ -119159,16 +119618,24 @@ var overrides = {
             "name": "Pokemon Mansion",
             "global_honey_tree": {
                 "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
+                    5,
+                    17,
+                    20,
+                    23,
+                    12,
+                    23
                 ],
                 "encs": [
                     {
-                        "s": "CATERPIE",
+                        "s": "WEEDLE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "COMBEE",
+                        "mn": 10
+                    },
+                    {
+                        "s": "WURMPLE",
                         "mn": 10
                     },
                     {
@@ -119180,32 +119647,24 @@ var overrides = {
                         "mn": 10
                     },
                     {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
+                        "s": "CATERPIE",
                         "mn": 10
                     }
                 ]
             },
             "local_honey_tree": {
                 "rates": [
-                    33,
-                    33,
-                    33
+                    6,
+                    50,
+                    44
                 ],
                 "encs": [
                     {
-                        "s": "CHATOT",
+                        "s": "LICKILICKY",
                         "mn": 55
                     },
                     {
-                        "s": "LICKILICKY",
+                        "s": "CHATOT",
                         "mn": 55
                     },
                     {

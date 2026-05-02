@@ -707,6 +707,152 @@
 	flex: 1 1 180px;
 }
 
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list li > a[data-entry^="pokemon|"] {
+	display: grid;
+	grid-template-columns: var(--ddex-pokemon-result-icon-width) minmax(0, 1fr) 92px minmax(0, 170px);
+	align-items: center;
+	column-gap: 10px;
+	min-height: var(--ddex-pokemon-result-icon-height);
+	height: auto;
+	padding-right: 12px;
+}
+
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .iconcol,
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .pokemonnamecol,
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .typecol,
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .abilitycol {
+	float: none;
+	min-width: 0;
+	width: auto;
+	height: auto;
+}
+
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .iconcol {
+	grid-column: 1;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: var(--ddex-pokemon-result-icon-width);
+	min-width: var(--ddex-pokemon-result-icon-width);
+	height: var(--ddex-pokemon-result-icon-height);
+}
+
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .iconcol span {
+	transform: translate(-10px, -16px) scale(var(--ddex-pokemon-result-icon-scale));
+	transform-origin: left top;
+}
+
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .pokemonnamecol {
+	grid-column: 2;
+	font-size: 13pt;
+	line-height: 1.1;
+}
+
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .typecol {
+	grid-column: 3;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	justify-content: flex-start;
+	width: 92px;
+	min-width: 92px;
+	max-width: 92px;
+}
+
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .typecol .ddex-row-type-icon,
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .typecol .ddex-row-type-icon-missing {
+	width: 40px;
+	height: 40px;
+}
+
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .abilitycol.ddex-stacked-abilitycol {
+	grid-column: 4;
+	display: block;
+	padding-top: 0;
+	white-space: normal;
+	line-height: 1.05;
+	text-align: left;
+	font-size: 13pt;
+}
+
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .statcol,
+.ddex-fixed-layout .ddex-detail-primary .utilichart.ddex-ability-pokemon-list .bstcol {
+	display: none;
+}
+
+.utilichart.ddex-ability-pokemon-list li > a[data-entry^="pokemon|"] {
+	display: grid;
+	grid-template-columns: var(--ddex-pokemon-result-icon-width) minmax(0, 1fr) 92px minmax(0, 170px);
+	align-items: center;
+	column-gap: 10px;
+	min-height: var(--ddex-pokemon-result-icon-height);
+	height: auto;
+	padding-right: 12px;
+}
+
+.utilichart.ddex-ability-pokemon-list .iconcol,
+.utilichart.ddex-ability-pokemon-list .pokemonnamecol,
+.utilichart.ddex-ability-pokemon-list .typecol,
+.utilichart.ddex-ability-pokemon-list .abilitycol {
+	float: none;
+	min-width: 0;
+	width: auto;
+	height: auto;
+}
+
+.utilichart.ddex-ability-pokemon-list .iconcol {
+	grid-column: 1;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: var(--ddex-pokemon-result-icon-width);
+	min-width: var(--ddex-pokemon-result-icon-width);
+	height: var(--ddex-pokemon-result-icon-height);
+}
+
+.utilichart.ddex-ability-pokemon-list .iconcol span {
+	transform: translate(-10px, -16px) scale(var(--ddex-pokemon-result-icon-scale));
+	transform-origin: left top;
+}
+
+.utilichart.ddex-ability-pokemon-list .pokemonnamecol {
+	grid-column: 2;
+	font-size: 13pt;
+	line-height: 1.1;
+}
+
+.utilichart.ddex-ability-pokemon-list .typecol {
+	grid-column: 3;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	justify-content: flex-start;
+	width: 92px;
+	min-width: 92px;
+	max-width: 92px;
+}
+
+.utilichart.ddex-ability-pokemon-list .typecol .ddex-row-type-icon,
+.utilichart.ddex-ability-pokemon-list .typecol .ddex-row-type-icon-missing {
+	width: 40px;
+	height: 40px;
+}
+
+.utilichart.ddex-ability-pokemon-list .abilitycol.ddex-stacked-abilitycol {
+	grid-column: 4;
+	display: block;
+	padding-top: 0;
+	white-space: normal;
+	line-height: 1.05;
+	text-align: left;
+	font-size: 13pt;
+}
+
+.utilichart.ddex-ability-pokemon-list .statcol,
+.utilichart.ddex-ability-pokemon-list .bstcol {
+	display: none !important;
+}
+
 .ddex-fixed-layout .ddex-encounter-sections-secondary .ddex-encounterchart li > a,
 .ddex-fixed-layout .ddex-encounter-sections-secondary .ddex-encounterchart li > div {
 	gap: 4px;
@@ -810,20 +956,44 @@
 	margin-right: 3px;
 }
 
-.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .typecol {
-	flex: 0 0 58px;
-	width: 58px;
+.ddex-fixed-layout .ddex-pokemon-move-list li > a {
+	min-height: 52px;
+	align-items: center;
+}
+
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-move-typecol,
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-move-categorycol {
+	flex: 0 0 40px;
+	width: 40px;
+	min-width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 0;
+}
+
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-move-typecol .ddex-row-type-icon,
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-move-typecol .ddex-row-type-icon-missing,
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-move-categorycol img {
+	width: 40px;
+	height: 40px;
+	margin: 0;
+}
+
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-move-typecol .ddex-row-type-icon,
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-move-categorycol img {
+	object-fit: contain;
 }
 
 .ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .labelcol {
-	flex: 0 0 32px;
-	width: 32px;
+	flex: 0 0 44px;
+	width: 44px;
 	font-size: 9pt;
 }
 
 .ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .pplabelcol {
-	flex: 0 0 24px;
-	width: 24px;
+	flex: 0 0 34px;
+	width: 34px;
 	padding-right: 0;
 	font-size: 9pt;
 }
@@ -831,6 +1001,21 @@
 .ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .labelcol em,
 .ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .pplabelcol em {
 	font-size: 6pt;
+}
+
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-powercol {
+	align-items: center;
+	justify-content: center;
+}
+
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-powercol em {
+	display: none;
+}
+
+.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .ddex-powercol .ddex-power-value {
+	font-size: 16pt;
+	font-weight: 700;
+	line-height: 1;
 }
 
 @media (max-width: 1400px) {

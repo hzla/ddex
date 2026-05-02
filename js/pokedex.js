@@ -321,7 +321,7 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 
     // pokemon
     buf += "<h3>Pok&eacute;mon with this ability</h3>";
-    buf += '<ul class="utilichart nokbd">';
+    buf += '<ul class="utilichart nokbd ddex-ability-pokemon-list">';
     buf += "</ul>";
 
     buf += "</div>";

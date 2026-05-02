@@ -306,6 +306,11 @@
 
       registerAlias(aliasToGroup, locationId, groupKey);
       registerAlias(aliasToGroup, location.name, groupKey);
+      if (Array.isArray(location.legacyNames)) {
+        for (var legacyIndex = 0; legacyIndex < location.legacyNames.length; legacyIndex++) {
+          registerAlias(aliasToGroup, location.legacyNames[legacyIndex], groupKey);
+        }
+      }
       registerAlias(aliasToGroup, stripSectionNameSuffix(location.name), groupKey);
       registerAlias(aliasToGroup, stripSectionIdSuffix(locationId), groupKey);
     }

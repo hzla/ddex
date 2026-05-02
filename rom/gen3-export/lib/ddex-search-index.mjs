@@ -134,15 +134,17 @@ export function buildDdexSearchIndex(overrides) {
 
   const battleSearchCountIndex = {};
   for (const type of Object.keys(battleTypeChart)) {
+    const normalizedType = toID(type);
     battleSearchCountIndex[`${type} move`] = Object.values(mergedMoves).filter(
-      (move) => move.type === type || move.t === type
+      (move) => toID(move.type || move.t || "") === normalizedType
     ).length;
   }
   for (const type of Object.keys(battleTypeChart)) {
+    const normalizedType = toID(type);
     battleSearchCountIndex[`${type} pokemon`] = Object.values(mergedPokedex).filter((species) => {
       if (species.isCosmeticForme) return false;
       const types = species.types || [];
-      return types.includes(type);
+      return types.some((entry) => toID(entry) === normalizedType);
     }).length;
   }
 

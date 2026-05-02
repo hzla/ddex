@@ -1398,18 +1398,21 @@
       return buf;
     }
 
-    // type
-    buf += '<span class="col typecol">';
+    // type + category
+    buf += '<span class="col typecol ddex-move-typecol">';
     buf += getRowTypeIcon(move.type);
+    buf += "</span> ";
+    buf += '<span class="col categorycol ddex-move-categorycol">';
     buf += Dex.getCategoryIcon(move.category);
     buf += "</span> ";
 
     // power, accuracy, pp
     buf +=
-      '<span class="col labelcol">' +
-      (move.category !== "Status"
-        ? "<em>Power</em><br />" + (move.basePower || "&mdash;")
-        : "") +
+      '<span class="col labelcol ddex-powercol">' +
+      "<em>Power</em>" +
+      '<span class="ddex-power-value">' +
+      (move.category !== "Status" ? move.basePower || "&mdash;" : "&mdash;") +
+      "</span>" +
       "</span> ";
     buf +=
       '<span class="col labelcol"><em>Acc</em><br />' +

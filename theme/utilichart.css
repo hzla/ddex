@@ -283,6 +283,13 @@ ul {
 	width: 70px;
 	padding: 0px;
 }
+.utilichart .categorycol {
+	width: 30px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .utilichart .abilitycol {
 	padding-top: 8px;
 	height: 21px;
@@ -336,6 +343,13 @@ ul {
 	margin-top: 6px;
 }
 
+.utilichart .categorycol img {
+	margin: 0;
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
+}
+
 
 .utilichart .typecol img.b {
 	opacity: 1;
@@ -367,6 +381,10 @@ ul {
 	height: 21px;
 	overflow: hidden;
 	color: #f8f8f2;
+}
+
+.utilichart .ddex-powercol .ddex-power-value {
+	display: block;
 }
 .utilichart .movedesccol {
 	width: 284px;
