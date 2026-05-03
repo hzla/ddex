@@ -77,7 +77,52 @@
     return shell;
   }
 
-  function buildEmptyDetailMarkup() {
+  function hasHomepageDexDirectoryState(app) {
+    if (!app || app.currentSidebarFragment !== "") return false;
+    var params = new URLSearchParams(window.location.search || "");
+    if (params.get("game")) return false;
+    return !(localStorage.romOverrides === "1" || (localStorage.overrides && localStorage.game));
+  }
+
+  function buildDexDirectoryMarkup() {
+    var entries = Object.entries(window.gameTitles || {})
+      .sort(function (left, right) {
+        var leftLabel = String(left[1] || "").toLowerCase();
+        var rightLabel = String(right[1] || "").toLowerCase();
+        if (leftLabel < rightLabel) return -1;
+        if (leftLabel > rightLabel) return 1;
+        return String(left[0] || "").localeCompare(String(right[0] || ""));
+      })
+      .map(function (entry) {
+        var slug = entry[0];
+        var label = entry[1];
+        var href = "/?game=" + encodeURIComponent(slug);
+        if (window.DDEXPaths && typeof window.DDEXPaths.withBase === "function") {
+          href = window.DDEXPaths.withBase(href);
+        }
+        return (
+          '<a class="ddex-dex-directory-card" href="' +
+          href +
+          '">' +
+          Dex.escapeHTML(label) +
+          "</a>"
+        );
+      })
+      .join("");
+
+    return (
+      '<div class="pfx-body dexentry ddex-empty-detail ddex-dex-directory">' +
+      '<div class="ddex-dex-directory-grid">' +
+      entries +
+      "</div>" +
+      "</div>"
+    );
+  }
+
+  function buildEmptyDetailMarkup(app) {
+    if (hasHomepageDexDirectoryState(app)) {
+      return buildDexDirectoryMarkup();
+    }
     return (
       '<div class="pfx-body dexentry ddex-empty-detail">' +
       '<div class="ddex-empty-detail-inner">' +
@@ -236,7 +281,7 @@
 
   var PokedexEmptyDetailPanel = (window.PokedexEmptyDetailPanel = Panels.Panel.extend({
     initialize: function () {
-      this.html(buildEmptyDetailMarkup());
+      this.html(buildEmptyDetailMarkup(this.app));
     },
   }));
 

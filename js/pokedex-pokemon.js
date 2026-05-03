@@ -165,8 +165,7 @@ function formatEncounterLocationLevel(minLevel, maxLevel) {
   if (!minLevel && !maxLevel) return "";
   if (!minLevel) minLevel = maxLevel;
   if (!maxLevel) maxLevel = minLevel;
-  if (minLevel === maxLevel) return "Lv " + minLevel;
-  return "Lv " + minLevel + "-" + maxLevel;
+  return "Lv " + Math.max(minLevel, maxLevel);
 }
 
 var DDEX_PENDING_POKEMON_LEVEL_KEY = "ddexPendingPokemonLevel";
