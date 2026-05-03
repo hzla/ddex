@@ -215,11 +215,13 @@
       types: 1,
       egggroups: 1,
       encounters: 1,
+      more: 1,
     };
     var listRoutes = {
       pokemon: 1,
       moves: 1,
       encounters: 1,
+      more: 1,
     };
     var isRoot = pathname === "/";
     var isDetailRoute = segments.length > 1 && !!topLevelRoutes[segments[0]];
@@ -262,7 +264,8 @@
       '<li><button class="button nav-first cur" type="button" data-fragment="">Search</button></li>' +
       '<li><button class="button" type="button" data-fragment="pokemon/">Mons</button></li>' +
       '<li><button class="button" type="button" data-fragment="encounters/">Areas</button></li>' +
-      '<li><button class="button nav-last" type="button" data-fragment="moves/">Moves</button></li>' +
+      '<li><button class="button" type="button" data-fragment="moves/">Moves</button></li>' +
+      '<li><button class="button nav-last" type="button" data-fragment="more/">More</button></li>' +
       "</ul>" +
       '<div class="searchboxwrapper">' +
       '<input class="textbox searchbox" type="search" autocomplete="off" placeholder="Search mons, moves, abilities, items, encounters or more" />' +

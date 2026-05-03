@@ -87,6 +87,46 @@
 	font-size: 18px;
 }
 
+.ddex-more-panel {
+	padding: 4px 0 0;
+}
+
+.ddex-more-card {
+	padding: 16px;
+	border: 1px solid rgba(255,255,255,0.14);
+	border-radius: 14px;
+	background: rgba(255,255,255,0.03);
+}
+
+.ddex-more-card h2 {
+	margin: 0 0 8px;
+	font-size: 18px;
+}
+
+.ddex-more-card p {
+	margin: 0 0 12px;
+	line-height: 1.45;
+	color: rgba(248, 248, 242, 0.86);
+}
+
+.ddex-more-actions {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.ddex-more-actions .button {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 12px;
+	text-align: center;
+}
+
+.ddex-more-status {
+	margin-bottom: 0;
+	font-size: 12px;
+}
+
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart li > a,
 .ddex-fixed-layout .ddex-sidebar-panel .results .utilichart li > div {
 	display: flex;

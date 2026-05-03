@@ -1,4 +1,9 @@
 const ROM_CACHE_FLAG = "romOverrides";
+const ROM_SOURCE_GEN_KEY = "ddexRomSourceGen";
+const DDEX_CALC_READY_MESSAGE_TYPE = "ddex:calc-ready";
+const DDEX_CALC_SYNC_MESSAGE_TYPE = "ddex:calc-sync";
+const DDEX_CALC_SYNC_STARTED_MESSAGE_TYPE = "ddex:calc-sync-started";
+const DDEX_CALC_SYNC_ERROR_MESSAGE_TYPE = "ddex:calc-sync-error";
 const ROM_KEYS = {
   overrides: "overrides",
   searchIndex: "searchindex",
@@ -7,6 +12,49 @@ const ROM_KEYS = {
   title: "gameTitle",
   expanded: "romExpanded",
 };
+
+window.DDEX_ROM_SOURCE_GEN = Number(localStorage.getItem(ROM_SOURCE_GEN_KEY) || "0") || null;
+
+const ddexCalcBridgeState = {
+  calcWindow: null,
+  calcReady: false,
+  pendingSyncPayload: null,
+  status: "",
+};
+
+function isLocalDdexCalcBridge() {
+  return window.location.hostname === "localhost" && window.location.port === "3000";
+}
+
+function getDdexCalcOrigin() {
+  if (isLocalDdexCalcBridge()) {
+    return "http://localhost:3001";
+  }
+  return "https://hzla.github.io";
+}
+
+function getDdexCalcPath() {
+  if (isLocalDdexCalcBridge()) {
+    return "/";
+  }
+  return "/Dynamic-Calc-Decomps/";
+}
+
+function emitCalcBridgeStateChange() {
+  if (!window.DDEXCalcBridge || typeof window.DDEXCalcBridge.getState !== "function") {
+    return;
+  }
+  window.dispatchEvent(
+    new CustomEvent("ddex:calc-bridge-state", {
+      detail: window.DDEXCalcBridge.getState(),
+    })
+  );
+}
+
+function setCalcBridgeStatus(status) {
+  ddexCalcBridgeState.status = String(status || "");
+  emitCalcBridgeStateChange();
+}
 
 var params = new URLSearchParams(window.location.search);
 var gameParam = params.get("game");
@@ -122,7 +170,9 @@ function applyRomOverridesFromCache() {
     const displayTitle = toTitleCaseWords(title);
     setDexTitle(displayTitle || title);
     maybeApplyRomFamilyFromTitle(title);
+    window.DDEX_ROM_SOURCE_GEN = Number(localStorage.getItem(ROM_SOURCE_GEN_KEY) || "0") || null;
     window.DDEX_ROM_OVERRIDES = { overrides, searchIndex, searchIndexOffset, searchIndexCount, title };
+    emitCalcBridgeStateChange();
     console.log("Loaded ROM overrides from cache");
     return true;
   } catch (e) {
@@ -166,6 +216,7 @@ async function applyGameOverridesFromCache() {
 
 function clearRomCache() {
   localStorage.removeItem(ROM_CACHE_FLAG);
+  localStorage.removeItem(ROM_SOURCE_GEN_KEY);
   localStorage.removeItem(ROM_KEYS.overrides);
   localStorage.removeItem(ROM_KEYS.searchIndex);
   localStorage.removeItem(ROM_KEYS.searchIndexOffset);
@@ -176,9 +227,11 @@ function clearRomCache() {
   localStorage.removeItem("romFamily");
   localStorage.removeItem("romVersion");
   localStorage.removeItem("gameTitle");
+  window.DDEX_ROM_SOURCE_GEN = null;
   window.DDEX_ROM_OVERRIDES = null;
   window.DDEX_ROM_BACKUP_DATA = null;
   window.DDEX_ROM_DEBUG = null;
+  emitCalcBridgeStateChange();
 }
 
 function clearMissedLocationCache() {
@@ -516,6 +569,191 @@ window.downloadRomBackupData = function (baseName, options) {
   return true;
 };
 
+function getRomSourceGen() {
+  if (window.DDEX_ROM_SOURCE_GEN === 3 || window.DDEX_ROM_SOURCE_GEN === 4) {
+    return window.DDEX_ROM_SOURCE_GEN;
+  }
+  const storedGen = Number(localStorage.getItem(ROM_SOURCE_GEN_KEY) || "0");
+  if (storedGen === 3 || storedGen === 4) return storedGen;
+  if (window.DDEX_ROM_BACKUP_DATA) {
+    return (localStorage.romFamily || "").trim() ? 4 : 3;
+  }
+  return null;
+}
+
+function getCalcBridgeConfig() {
+  const sourceGen = getRomSourceGen();
+  if (!sourceGen) return null;
+  const sharedConfig = {
+    gen: 8,
+    critGen: 3,
+    sourceType: "full",
+    baseGame: "",
+    mechanics: "vanilla",
+    customPoks: true,
+  };
+  if (sourceGen === 4) {
+    return {
+      ...sharedConfig,
+      damageGen: 4,
+      typeChart: 4,
+      switchIn: 4,
+      gameSwitchIn: 4,
+    };
+  }
+  return {
+    ...sharedConfig,
+    damageGen: 3,
+    typeChart: 3,
+    switchIn: 3,
+    gameSwitchIn: 3,
+  };
+}
+
+function getCalcBridgeBackupData() {
+  const payload = window.DDEX_ROM_BACKUP_DATA;
+  if (!payload) return null;
+  return normalizeBackupFormattedSetSpecies(
+    toggleBackupGlitchedSpeciesRedirects(
+      { ...payload, title: localStorage.romTitle || localStorage[ROM_KEYS.title] || payload.title || "rom" },
+      true
+    )
+  );
+}
+
+function getCalcBridgeScriptPayload() {
+  const backupPayload = getCalcBridgeBackupData();
+  if (!backupPayload) return null;
+  const exportTitle = backupPayload.title || localStorage.romTitle || localStorage[ROM_KEYS.title] || "rom";
+  const base = safeFileBase(exportTitle);
+  return {
+    title: exportTitle,
+    fileName: `${base}_npoint_data.js`,
+    scriptText: `var backup_data = ${formatBackupDataFile(backupPayload)};`,
+  };
+}
+
+function buildCalcBridgeUrl() {
+  const config = getCalcBridgeConfig();
+  if (!config) return null;
+  const url = new URL(getDdexCalcPath(), getDdexCalcOrigin());
+  url.searchParams.set("dev", "1");
+  url.searchParams.set("forceBlankConfig", "1");
+  url.searchParams.set("gen", String(config.gen));
+  url.searchParams.set("dmgGen", String(config.damageGen));
+  url.searchParams.set("types", String(config.typeChart));
+  url.searchParams.set("critGen", String(config.critGen));
+  url.searchParams.set("switchIn", String(config.switchIn));
+  url.searchParams.set("ddexBridgeOrigin", window.location.origin);
+  return url.toString();
+}
+
+function postCalcBridgePayload(payload) {
+  if (!ddexCalcBridgeState.calcWindow || ddexCalcBridgeState.calcWindow.closed) {
+    ddexCalcBridgeState.calcReady = false;
+    ddexCalcBridgeState.calcWindow = null;
+    ddexCalcBridgeState.pendingSyncPayload = null;
+    setCalcBridgeStatus("Open Calc first.");
+    return false;
+  }
+  ddexCalcBridgeState.calcWindow.postMessage(payload, getDdexCalcOrigin());
+  return true;
+}
+
+function handleCalcBridgeMessage(event) {
+  if (event.origin !== getDdexCalcOrigin()) return;
+  if (ddexCalcBridgeState.calcWindow && event.source !== ddexCalcBridgeState.calcWindow) return;
+  const data = event.data || {};
+  if (!data || typeof data.type !== "string") return;
+
+  if (data.type === DDEX_CALC_READY_MESSAGE_TYPE) {
+    ddexCalcBridgeState.calcWindow = event.source || ddexCalcBridgeState.calcWindow;
+    ddexCalcBridgeState.calcReady = true;
+    setCalcBridgeStatus("Calc ready.");
+    if (ddexCalcBridgeState.pendingSyncPayload) {
+      const pendingPayload = ddexCalcBridgeState.pendingSyncPayload;
+      ddexCalcBridgeState.pendingSyncPayload = null;
+      if (postCalcBridgePayload(pendingPayload)) {
+        setCalcBridgeStatus("Syncing calc data...");
+      }
+    }
+    return;
+  }
+
+  if (data.type === DDEX_CALC_SYNC_STARTED_MESSAGE_TYPE) {
+    setCalcBridgeStatus("Calc data synced. The calc is reloading.");
+    return;
+  }
+
+  if (data.type === DDEX_CALC_SYNC_ERROR_MESSAGE_TYPE) {
+    setCalcBridgeStatus(data.error ? `Sync failed: ${data.error}` : "Sync failed.");
+  }
+}
+
+window.addEventListener("message", handleCalcBridgeMessage);
+
+window.DDEXCalcBridge = {
+  getState: function () {
+    return {
+      calcReady: !!ddexCalcBridgeState.calcReady,
+      hasCalcWindow: !!(ddexCalcBridgeState.calcWindow && !ddexCalcBridgeState.calcWindow.closed),
+      hasCalcData: !!window.DDEX_ROM_BACKUP_DATA,
+      hasDexData: !!getRomOverridePayload(),
+      romSourceGen: getRomSourceGen(),
+      status: ddexCalcBridgeState.status,
+    };
+  },
+  openCalc: function () {
+    const url = buildCalcBridgeUrl();
+    if (!url) {
+      setCalcBridgeStatus("Load a Gen 3 or Gen 4 ROM first.");
+      return false;
+    }
+    const calcWindow = window.open(url, "ddex-dynamic-calc");
+    if (!calcWindow) {
+      setCalcBridgeStatus("The calc tab was blocked. Allow pop-ups and try again.");
+      return false;
+    }
+    ddexCalcBridgeState.calcWindow = calcWindow;
+    ddexCalcBridgeState.calcReady = false;
+    setCalcBridgeStatus("Opening calc tab...");
+    return true;
+  },
+  syncToCalc: function () {
+    const config = getCalcBridgeConfig();
+    const scriptPayload = getCalcBridgeScriptPayload();
+    if (!config || !scriptPayload) {
+      setCalcBridgeStatus("Load a ROM with calc export data first.");
+      return false;
+    }
+    const syncPayload = {
+      type: DDEX_CALC_SYNC_MESSAGE_TYPE,
+      config: config,
+      fileName: scriptPayload.fileName,
+      sourceGen: getRomSourceGen(),
+      scriptText: scriptPayload.scriptText,
+      title: scriptPayload.title,
+    };
+    if (!ddexCalcBridgeState.calcWindow || ddexCalcBridgeState.calcWindow.closed) {
+      setCalcBridgeStatus("Open Calc first.");
+      return false;
+    }
+    if (!ddexCalcBridgeState.calcReady) {
+      ddexCalcBridgeState.pendingSyncPayload = syncPayload;
+      setCalcBridgeStatus("Waiting for the calc tab to finish loading...");
+      return true;
+    }
+    ddexCalcBridgeState.pendingSyncPayload = null;
+    if (postCalcBridgePayload(syncPayload)) {
+      setCalcBridgeStatus("Syncing calc data...");
+      return true;
+    }
+    return false;
+  },
+};
+
+emitCalcBridgeStateChange();
+
 window.downloadRomGrowthsAndExpYields = function (baseName, options) {
   const payload = window.DDEX_ROM_INCLUDES;
   if (!payload || !Array.isArray(payload.growths) || !payload.expYields) {
@@ -679,6 +917,7 @@ function applyImportedRomPayload(result, options = {}) {
   const normalizedOverrides = normalizeOverrideSpeciesPayload(result.overrides);
   const rawRomTitle = String(result.title || options.fallbackTitle || "rom").trim() || "rom";
   const displayRomTitle = toTitleCaseWords(rawRomTitle);
+  const sourceGen = Number(options.sourceGen || result.sourceGen || 0) || null;
 
   window.__DDEX_LAST_ROM_BUFFER = options.lastRomBuffer || null;
   window.overrides = normalizedOverrides;
@@ -691,6 +930,7 @@ function applyImportedRomPayload(result, options = {}) {
   window.DDEX_ROM_BACKUP_DATA = result.backupData || null;
   window.DDEX_ROM_INCLUDES = result.includes || null;
   window.DDEX_ROM_DEBUG = result.debug || null;
+  window.DDEX_ROM_SOURCE_GEN = sourceGen;
   window.DDEX_ROM_OVERRIDES = {
     overrides: normalizedOverrides,
     searchIndex: result.searchIndex,
@@ -706,6 +946,11 @@ function applyImportedRomPayload(result, options = {}) {
   localStorage[ROM_KEYS.searchIndexCount] = JSON.stringify(result.searchIndexCount);
   localStorage[ROM_KEYS.title] = rawRomTitle;
   localStorage.romTitle = rawRomTitle;
+  if (sourceGen) {
+    localStorage.setItem(ROM_SOURCE_GEN_KEY, String(sourceGen));
+  } else {
+    localStorage.removeItem(ROM_SOURCE_GEN_KEY);
+  }
 
   if (result.romFamily) {
     localStorage.romFamily = result.romFamily;
@@ -723,6 +968,7 @@ function applyImportedRomPayload(result, options = {}) {
     localStorage.removeItem("romExpanded");
   }
   localStorage.removeItem("game");
+  emitCalcBridgeStateChange();
 }
 
 async function importGen4RomFiles(files) {
@@ -741,6 +987,7 @@ async function importGen4RomFiles(files) {
   applyImportedRomPayload(result, {
     fallbackTitle: rawRomName,
     lastRomBuffer: buf,
+    sourceGen: 4,
   });
 
   if (result.itemLocationStats) {
@@ -772,6 +1019,7 @@ async function importGen3RomFiles(files) {
   applyImportedRomPayload(result, {
     fallbackTitle: result.title || rawRomName,
     lastRomBuffer: null,
+    sourceGen: 3,
   });
 
   if (result.summary) {

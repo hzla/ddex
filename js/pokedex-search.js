@@ -13,6 +13,10 @@ var PokedexSearchPanel = Panels.Panel.extend({
     click: "click",
     "click .result a": "clickResult",
     "click .ddex-location-missed-toggle": "toggleMissedLocation",
+    "click .ddex-more-download-calc": "downloadCalcData",
+    "click .ddex-more-download-dex": "downloadDexData",
+    "click .ddex-more-open-calc": "openCalc",
+    "click .ddex-more-sync-calc": "syncCalc",
     "click .filter": "removeFilter",
     "mouseover .result a": "hoverlink",
   },
@@ -24,6 +28,9 @@ var PokedexSearchPanel = Panels.Panel.extend({
       typeof window.DDEX_NUZLOCKE_BOX.unsubscribe === "function"
     ) {
       window.DDEX_NUZLOCKE_BOX.unsubscribe(this.handleNuzlockeUpdate);
+    }
+    if (this.handleCalcBridgeStateChange) {
+      window.removeEventListener("ddex:calc-bridge-state", this.handleCalcBridgeStateChange);
     }
     Panels.Panel.prototype.remove.apply(this, arguments);
   },
@@ -48,8 +55,10 @@ var PokedexSearchPanel = Panels.Panel.extend({
     if (fragment === "moves") fragment = "moves/";
     if (fragment === "pokemon") fragment = "pokemon/";
     if (fragment === "encounters") fragment = "encounters/";
+    if (fragment === "more") fragment = "more/";
     if (questionIndex >= 0) fragment = fragment.slice(0, questionIndex);
     this.currentFragment = fragment;
+    this.isMorePanel = fragment === "more/";
     var buf = '<div class="pfx-body"><form class="pokedex">';
 
 
@@ -59,12 +68,15 @@ var PokedexSearchPanel = Panels.Panel.extend({
     buf += '<ul class="tabbar centered" style="margin-bottom: 7px"><li><button class="button nav-first' + (fragment === '' ? ' cur' : '') + '" value="">Search</button></li>';
     buf += '<li><button class="button' + (fragment === 'pokemon/' ? ' cur' : '') + '" value="pokemon/">Mons</button></li>';
     buf += '<li><button class="button' + (fragment === 'encounters/' ? ' cur' : '') + '" value="encounters/">Areas</button></li>';
-    buf += '<li><button class="button nav-last' + (fragment === 'moves/' ? ' cur' : '') + '" value="moves/">Moves</button></li></ul>';
+    buf += '<li><button class="button' + (fragment === 'moves/' ? ' cur' : '') + '" value="moves/">Moves</button></li>';
+    buf += '<li><button class="button nav-last' + (fragment === 'more/' ? ' cur' : '') + '" value="more/">More</button></li></ul>';
 
-    buf +=
-      '<div class="searchboxwrapper"><input class="textbox searchbox" type="search" name="q" value="' +
-      Dex.escapeHTML(this.$(".searchbox").val() || "") +
-      '" autocomplete="off" autofocus placeholder="Search mons, moves, abilities, items, encounters or more" /></div>';
+    if (!this.isMorePanel) {
+      buf +=
+        '<div class="searchboxwrapper"><input class="textbox searchbox" type="search" name="q" value="' +
+        Dex.escapeHTML(this.$(".searchbox").val() || "") +
+        '" autocomplete="off" autofocus placeholder="Search mons, moves, abilities, items, encounters or more" /></div>';
+    }
     buf += "</form>";
     buf += '<div class="results"></div>';
     buf += '<div class="ddex-search-footer">';
@@ -83,6 +95,15 @@ var PokedexSearchPanel = Panels.Panel.extend({
     this.$searchbox = $searchbox;
     this.$searchfilters = null;
     var results = this.$(".results");
+    this.$results = results;
+    if (this.isMorePanel) {
+      this.search = null;
+      this.renderMorePanel();
+      this.handleCalcBridgeStateChange = this.renderMorePanel.bind(this);
+      window.addEventListener("ddex:calc-bridge-state", this.handleCalcBridgeStateChange);
+      this.updateResultsState();
+      return;
+    }
     if (results.length) {
       var search = (this.search = new BattleSearch(results, this.$el));
       this.$el.on("scroll", function () {
@@ -131,7 +152,55 @@ var PokedexSearchPanel = Panels.Panel.extend({
       window.DDEX_NUZLOCKE_BOX.subscribe(this.handleNuzlockeUpdate);
     }
   },
+  renderMorePanel: function () {
+    if (!this.$results || !this.$results.length) return;
+    var bridgeState =
+      window.DDEXCalcBridge && typeof window.DDEXCalcBridge.getState === "function"
+        ? window.DDEXCalcBridge.getState()
+        : {
+            calcReady: false,
+            hasCalcWindow: false,
+            hasCalcData: false,
+            hasDexData: false,
+            romSourceGen: null,
+            status: "",
+          };
+    var hasRomLoaded = !!bridgeState.romSourceGen;
+    var syncDisabled = !bridgeState.hasCalcData || !bridgeState.hasCalcWindow;
+    var calcStatus = bridgeState.status || (bridgeState.hasCalcWindow ? "Calc tab open." : "Calc tab not open.");
+    var romSummary = hasRomLoaded
+      ? "Loaded ROM source: Gen " + bridgeState.romSourceGen + "."
+      : "Load a Gen 3 or Gen 4 ROM to enable calc export and sync.";
+
+    var buf = '<section class="ddex-more-panel">';
+    buf += '<div class="ddex-more-card">';
+    buf += "<h2>ROM Tools</h2>";
+    buf += "<p>" + Dex.escapeHTML(romSummary) + "</p>";
+    buf += '<div class="ddex-more-actions">';
+    buf +=
+      '<button type="button" class="button ddex-more-download-calc"' +
+      (bridgeState.hasCalcData ? "" : ' disabled') +
+      ">Download Calc Data</button>";
+    buf +=
+      '<button type="button" class="button ddex-more-download-dex"' +
+      (bridgeState.hasDexData ? "" : ' disabled') +
+      ">Download Dex Data</button>";
+    buf +=
+      '<button type="button" class="button ddex-more-open-calc"' +
+      (hasRomLoaded ? "" : ' disabled') +
+      ">Open Calc</button>";
+    buf +=
+      '<button type="button" class="button ddex-more-sync-calc"' +
+      (syncDisabled ? ' disabled' : "") +
+      ">Sync Data to Calc</button>";
+    buf += "</div>";
+    buf += '<p class="ddex-more-status">' + Dex.escapeHTML(calcStatus) + "</p>";
+    buf += "</div>";
+    buf += "</section>";
+    this.$results.html(buf);
+  },
   updateSearch: function (e) {
+    if (!this.search) return;
     this.find(e.currentTarget.value);
   },
   removeFilter: function (e) {
@@ -185,11 +254,13 @@ var PokedexSearchPanel = Panels.Panel.extend({
   },
   submit: function (e) {
     e.preventDefault();
+    if (!this.$searchbox || !this.$searchbox.length) return;
     this.$(".searchbox")
       .attr("placeholder", "Type in: Pokemon, move, item, ability...")
       .focus();
   },
   keyup: function (e) {
+    if (!this.$searchbox || !this.$searchbox.length) return;
     var val = this.$searchbox.val();
     var id = toID(val);
     if (!id) return;
@@ -222,6 +293,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
     }
   },
   keydown: function (e) {
+    if (!this.$searchbox || !this.$searchbox.length) return;
     switch (e.keyCode) {
       case 13: // enter
         e.preventDefault();
@@ -343,6 +415,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
       );
       return;
     }
+    if (!this.$searchbox || !this.$searchbox.length) return;
     var scrollLoc = this.$el.scrollTop();
     this.$searchbox.focus();
     this.$el.scrollTop(scrollLoc);
@@ -366,7 +439,41 @@ var PokedexSearchPanel = Panels.Panel.extend({
     ) {
       window.DDEX_NUZLOCKE_BOX.toggleLocationMissed(locationId);
     }
-    this.$searchbox.focus();
+    if (this.$searchbox && this.$searchbox.length) {
+      this.$searchbox.focus();
+    }
+  },
+  downloadCalcData: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (typeof window.downloadRomBackupData === "function") {
+      window.downloadRomBackupData();
+    }
+    this.renderMorePanel();
+  },
+  downloadDexData: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (typeof window.downloadRomOverrideFiles === "function") {
+      window.downloadRomOverrideFiles();
+    }
+    this.renderMorePanel();
+  },
+  openCalc: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (window.DDEXCalcBridge && typeof window.DDEXCalcBridge.openCalc === "function") {
+      window.DDEXCalcBridge.openCalc();
+    }
+    this.renderMorePanel();
+  },
+  syncCalc: function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (window.DDEXCalcBridge && typeof window.DDEXCalcBridge.syncToCalc === "function") {
+      window.DDEXCalcBridge.syncToCalc();
+    }
+    this.renderMorePanel();
   },
   hoverlink: function (e) {
     $(this.activeLink).removeClass("active");

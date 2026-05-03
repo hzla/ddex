@@ -18,6 +18,7 @@ var Pokedex = PokedexFixedLayoutApp.extend({
     "pokemon/": PokedexSearchPanel,
     "moves/": PokedexSearchPanel,
     "encounters/": PokedexSearchPanel,
+    "more/": PokedexSearchPanel,
     ":q": PokedexSearchPanel,
   },
   initialize: function () {
