@@ -27,7 +27,7 @@ Shows evolution parameters on pre-evolutions
 
 Added routing tab on pokemon pages for nuzlockers (optimizing encounter order to raise the chances of getting a pokemon)
 
-  <img width="913" height="897" alt="Screenshot 2026-05-03 at 1 28 42 PM" src="https://github.com/user-attachments/assets/1095241b-7de8-43c7-813c-de6f466b3cc1" />
+<img width="913" height="897" alt="Screenshot 2026-05-03 at 1 28 42 PM" src="https://github.com/user-attachments/assets/1095241b-7de8-43c7-813c-de6f466b3cc1" />
 
 
 ### Moves
@@ -62,21 +62,23 @@ Once a rom has been loaded, you can view a local Damage Calculator from the More
 
 <img width="314" height="299" alt="Screenshot 2026-05-03 at 1 34 45 PM" src="https://github.com/user-attachments/assets/2d7aed5b-fa54-4eac-93fb-14ddba4aa697" />
 
+
+
 If you are done developing your romhack and want to permanently host your Calc/Dex data so that users can view it without having to upload a rom, contact hzla on discord.
 
 ### Current Permanently hosted romhack dexes:
 
-Renegade Platinum
-Platinum Kaizo
-Blaze Black 2 Redux
-Vintage White Plus
-Sterling Silver
-Pokemon Null
-Pokemon Unbound
-Sacred Gold
-Autumn Red
-Cascade White 
-Blinding White
+- Renegade Platinum
+- Platinum Kaizo
+- Blaze Black 2 Redux
+- Vintage White Plus
+- Sterling Silver
+- Pokemon Null
+- Pokemon Unbound
+- Sacred Gold
+- Autumn Red
+- Cascade White 
+- Blinding White
 
 
 
