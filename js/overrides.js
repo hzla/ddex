@@ -930,6 +930,19 @@ function applyImportedRomPayload(result, options = {}) {
   window.DDEX_ROM_BACKUP_DATA = result.backupData || null;
   window.DDEX_ROM_INCLUDES = result.includes || null;
   window.DDEX_ROM_DEBUG = result.debug || null;
+  window.DDEX_ROM_SCRIPT_TEXTS = result.scriptTexts || null;
+  window.DDEX_ROM_ITEM_SCRIPT_DEBUG = result.debug && result.debug.itemScriptReferences
+    ? result.debug.itemScriptReferences
+    : null;
+  window.DDEX_ROM_ITEM_LOCATION_DEBUG = result.debug && result.debug.itemLocations
+    ? result.debug.itemLocations
+    : null;
+  window.DDEX_ROM_WILD_HELD_ITEM_DEBUG = result.debug && result.debug.wildHeldItemReferences
+    ? result.debug.wildHeldItemReferences
+    : null;
+  window.DDEX_ROM_MINING_DEBUG = result.debug && result.debug.miningTable
+    ? result.debug.miningTable
+    : null;
   window.DDEX_ROM_SOURCE_GEN = sourceGen;
   window.DDEX_ROM_OVERRIDES = {
     overrides: normalizedOverrides,
@@ -970,6 +983,453 @@ function applyImportedRomPayload(result, options = {}) {
   localStorage.removeItem("game");
   emitCalcBridgeStateChange();
 }
+
+function normalizeLoadedRomDebugItemKey(name) {
+  return String(name || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function normalizeLoadedRomDebugItemRequest(rawRequest) {
+  if (typeof rawRequest === "number" && Number.isFinite(rawRequest)) {
+    return { requestedItemId: rawRequest, requestedName: null };
+  }
+
+  if (typeof rawRequest === "string") {
+    const trimmed = rawRequest.trim();
+    if (/^\d+$/.test(trimmed)) {
+      return { requestedItemId: Number.parseInt(trimmed, 10), requestedName: null };
+    }
+    return { requestedItemId: null, requestedName: trimmed };
+  }
+
+  if (rawRequest && typeof rawRequest === "object") {
+    if (Number.isFinite(rawRequest.itemId)) {
+      return { requestedItemId: Number(rawRequest.itemId), requestedName: rawRequest.name || null };
+    }
+    if (typeof rawRequest.id === "number" && Number.isFinite(rawRequest.id)) {
+      return { requestedItemId: Number(rawRequest.id), requestedName: rawRequest.name || null };
+    }
+    if (typeof rawRequest.name === "string" && rawRequest.name.trim()) {
+      return { requestedItemId: null, requestedName: rawRequest.name.trim() };
+    }
+  }
+
+  return { requestedItemId: null, requestedName: String(rawRequest || "").trim() || null };
+}
+
+function getLoadedRomItemNames() {
+  const itemNames = window.DDEX_ROM_TEXTS && Array.isArray(window.DDEX_ROM_TEXTS.itemNames)
+    ? window.DDEX_ROM_TEXTS.itemNames
+    : null;
+  if (!itemNames || !itemNames.length) {
+    throw new Error("No loaded ROM item text table is available. Import a Gen 4 ROM first.");
+  }
+  return itemNames;
+}
+
+function getLoadedRomScriptTexts() {
+  const scriptTexts = window.DDEX_ROM_SCRIPT_TEXTS;
+  if (!scriptTexts || typeof scriptTexts !== "object") {
+    throw new Error("No loaded ROM script text export is available. Import a Gen 4 ROM first.");
+  }
+  return scriptTexts;
+}
+
+function getLoadedRomMiningDebug() {
+  const miningDebug = window.DDEX_ROM_MINING_DEBUG || (window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.miningTable);
+  if (!miningDebug || typeof miningDebug !== "object") {
+    throw new Error("No loaded ROM mining table debug data is available. Import a Gen 4 ROM first.");
+  }
+  return miningDebug;
+}
+
+function getLoadedRomItemLocationDebug() {
+  const itemLocationDebug = window.DDEX_ROM_ITEM_LOCATION_DEBUG || (window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.itemLocations);
+  return itemLocationDebug && itemLocationDebug.byItem ? itemLocationDebug : null;
+}
+
+function getLoadedRomWildHeldItemDebug() {
+  const wildHeldItemDebug =
+    window.DDEX_ROM_WILD_HELD_ITEM_DEBUG ||
+    (window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.wildHeldItemReferences);
+  return wildHeldItemDebug && wildHeldItemDebug.byItemId ? wildHeldItemDebug : null;
+}
+
+function cloneLoadedRomHeaderRecord(record) {
+  return record ? { ...record } : record;
+}
+
+function dedupeLoadedRomHeaderRecords(records) {
+  const normalized = Array.isArray(records) ? records : [];
+  const out = [];
+  const seen = new Set();
+  for (let i = 0; i < normalized.length; i += 1) {
+    const record = normalized[i];
+    if (!record) continue;
+    const key = [
+      record.headerID,
+      record.eventFileID,
+      record.scriptFileID,
+      record.locationRaw,
+    ].join("|");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(cloneLoadedRomHeaderRecord(record));
+  }
+  out.sort(function(a, b) {
+    const aHeader = Number.isFinite(a.headerID) ? a.headerID : Number.POSITIVE_INFINITY;
+    const bHeader = Number.isFinite(b.headerID) ? b.headerID : Number.POSITIVE_INFINITY;
+    if (aHeader !== bHeader) return aHeader - bHeader;
+    return String(a.locationRaw || "").localeCompare(String(b.locationRaw || ""));
+  });
+  return out;
+}
+
+function summarizeLoadedRomHeaderIds(records) {
+  const headerRecords = dedupeLoadedRomHeaderRecords(records);
+  const headerIds = [];
+  for (let i = 0; i < headerRecords.length; i += 1) {
+    const headerID = headerRecords[i].headerID;
+    if (Number.isFinite(headerID) && headerIds.indexOf(headerID) < 0) {
+      headerIds.push(headerID);
+    }
+  }
+  return headerIds;
+}
+
+function cloneLoadedRomItemLocationRecord(record) {
+  return record ? { ...record } : record;
+}
+
+function getLoadedRomScriptFileUsageDebugData() {
+  const itemScriptDebug = window.DDEX_ROM_ITEM_SCRIPT_DEBUG || (window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.itemScriptReferences);
+  if (!itemScriptDebug || !itemScriptDebug.byItemId) {
+    throw new Error("No loaded ROM script file usage debug data is available. Import a Gen 4 ROM first.");
+  }
+  if (itemScriptDebug.scriptFileUsageById) {
+    return itemScriptDebug.scriptFileUsageById;
+  }
+
+  const byScriptFileId = {};
+  for (const entry of Object.values(itemScriptDebug.byItemId)) {
+    if (!entry || !Array.isArray(entry.references)) continue;
+    for (let i = 0; i < entry.references.length; i += 1) {
+      const reference = entry.references[i];
+      if (!reference || !Number.isFinite(reference.scriptFileID)) continue;
+      const key = String(reference.scriptFileID);
+      if (!byScriptFileId[key]) byScriptFileId[key] = [];
+      const records = Array.isArray(reference.mapHeadersUsingScriptFile) ? reference.mapHeadersUsingScriptFile : [];
+      for (let j = 0; j < records.length; j += 1) {
+        byScriptFileId[key].push(records[j]);
+      }
+    }
+  }
+  return byScriptFileId;
+}
+
+function resolveLoadedRomItemIdFromDebugRequest(itemRequest, itemNames) {
+  const normalizedRequest = normalizeLoadedRomDebugItemRequest(itemRequest);
+  if (normalizedRequest.requestedItemId !== null && normalizedRequest.requestedItemId !== undefined) {
+    return normalizedRequest;
+  }
+
+  const requestedKey = normalizeLoadedRomDebugItemKey(normalizedRequest.requestedName);
+  if (!requestedKey) return normalizedRequest;
+
+  for (let itemId = 0; itemId < itemNames.length; itemId += 1) {
+    if (normalizeLoadedRomDebugItemKey(itemNames[itemId]) === requestedKey) {
+      return {
+        requestedItemId: itemId,
+        requestedName: normalizedRequest.requestedName,
+      };
+    }
+  }
+
+  return normalizedRequest;
+}
+
+function buildLoadedRomItemScriptDebugResult(itemNames) {
+  const debugData = window.DDEX_ROM_ITEM_SCRIPT_DEBUG || (window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.itemScriptReferences);
+  if (!debugData || !debugData.byItemKey) {
+    throw new Error("No ROM item script debug data is loaded. Import a Gen 4 ROM first.");
+  }
+  const itemLocationDebug = getLoadedRomItemLocationDebug();
+  const wildHeldItemDebug = getLoadedRomWildHeldItemDebug();
+  const loadedItemNames = getLoadedRomItemNames();
+
+  const requestedItems = Array.isArray(itemNames) && itemNames.length
+    ? itemNames
+    : ["RageCandyBar", { itemId: 103, name: "Old Amber" }];
+  const items = [];
+  const missing = [];
+
+  for (let i = 0; i < requestedItems.length; i += 1) {
+    const normalizedRequest = normalizeLoadedRomDebugItemRequest(requestedItems[i]);
+    const requestedName = normalizedRequest.requestedName;
+    const requestedItemId = normalizedRequest.requestedItemId;
+    const itemKey = requestedName ? normalizeLoadedRomDebugItemKey(requestedName) : null;
+    const entry = requestedItemId !== null && requestedItemId !== undefined
+      ? (debugData.byItemId && debugData.byItemId[String(requestedItemId)]) || null
+      : (itemKey ? debugData.byItemKey[itemKey] : null);
+    if (!entry) {
+      missing.push({
+        requestedName,
+        requestedItemId,
+        itemKey,
+        loadedItemName:
+          requestedItemId !== null &&
+          requestedItemId !== undefined &&
+          requestedItemId >= 0 &&
+          requestedItemId < loadedItemNames.length
+            ? loadedItemNames[requestedItemId]
+            : null,
+      });
+      continue;
+    }
+    items.push({
+      requestedName,
+      requestedItemId,
+      itemKey,
+      itemId: entry.itemId,
+      itemName: entry.itemName,
+      references: Array.isArray(entry.references)
+        ? entry.references.map(function(reference) {
+            const mapHeadersUsingScriptFile = dedupeLoadedRomHeaderRecords(reference.mapHeadersUsingScriptFile);
+            return {
+              ...reference,
+              mapHeadersUsingScriptFile,
+              headerIdsUsingScriptFile: summarizeLoadedRomHeaderIds(mapHeadersUsingScriptFile),
+            };
+          })
+        : [],
+      systemReferences: Array.isArray(entry.systemReferences) ? entry.systemReferences.slice() : [],
+      itemLocationRecords: itemLocationDebug && Array.isArray(itemLocationDebug.byItem[entry.itemKey])
+        ? itemLocationDebug.byItem[entry.itemKey].map(cloneLoadedRomItemLocationRecord)
+        : [],
+      groundItemLocations: itemLocationDebug && Array.isArray(itemLocationDebug.byItem[entry.itemKey])
+        ? itemLocationDebug.byItem[entry.itemKey]
+            .filter(function(record) { return record && record.foundMethod === "event_script_number"; })
+            .map(cloneLoadedRomItemLocationRecord)
+        : [],
+      scriptItemLocations: itemLocationDebug && Array.isArray(itemLocationDebug.byItem[entry.itemKey])
+        ? itemLocationDebug.byItem[entry.itemKey]
+            .filter(function(record) { return record && record.foundMethod === "script_parse"; })
+            .map(cloneLoadedRomItemLocationRecord)
+        : [],
+      wildHeldItemReferences:
+        wildHeldItemDebug &&
+        wildHeldItemDebug.byItemId &&
+        wildHeldItemDebug.byItemId[String(entry.itemId)] &&
+        Array.isArray(wildHeldItemDebug.byItemId[String(entry.itemId)].references)
+          ? wildHeldItemDebug.byItemId[String(entry.itemId)].references.map(function(reference) {
+              const mapHeadersUsingEncounterFile = dedupeLoadedRomHeaderRecords(reference.mapHeadersUsingEncounterFile);
+              return {
+                ...reference,
+                mapHeadersUsingEncounterFile,
+                headerIdsUsingEncounterFile: summarizeLoadedRomHeaderIds(mapHeadersUsingEncounterFile),
+              };
+            })
+          : [],
+    });
+  }
+
+  return {
+    romTitle: localStorage.romTitle || (window.DDEX_ROM_OVERRIDES && window.DDEX_ROM_OVERRIDES.title) || null,
+    romFamily: localStorage.romFamily || null,
+    requestedItems: requestedItems.slice(),
+    missing,
+    items,
+  };
+}
+
+window.debugLoadedRomItemScriptReferences = function(itemNames) {
+  const result = buildLoadedRomItemScriptDebugResult(itemNames);
+  if (typeof console !== "undefined") {
+    console.log("Loaded ROM item script references", result);
+  }
+  return result;
+};
+
+window.debugLoadedRomItemIdReferences = function(itemIds) {
+  const normalized = Array.isArray(itemIds) ? itemIds : [itemIds];
+  return window.debugLoadedRomItemScriptReferences(normalized);
+};
+
+window.debugLoadedRomScriptFileUsage = function(scriptFileIds) {
+  const usageById = getLoadedRomScriptFileUsageDebugData();
+  const normalizedIds = Array.isArray(scriptFileIds) ? scriptFileIds : [scriptFileIds];
+  const scriptFiles = [];
+  const missing = [];
+
+  for (let i = 0; i < normalizedIds.length; i += 1) {
+    const normalizedId = Number.parseInt(String(normalizedIds[i]), 10);
+    if (!Number.isFinite(normalizedId)) {
+      missing.push({
+        requestedScriptFileId: normalizedIds[i],
+        reason: "non_numeric_script_file_id",
+      });
+      continue;
+    }
+    const headerRecords = dedupeLoadedRomHeaderRecords(usageById[String(normalizedId)]);
+    if (!headerRecords.length) {
+      missing.push({
+        requestedScriptFileId: normalizedId,
+        reason: "script_file_not_found",
+      });
+      continue;
+    }
+    scriptFiles.push({
+      scriptFileID: normalizedId,
+      headerIds: summarizeLoadedRomHeaderIds(headerRecords),
+      mapHeaders: headerRecords,
+    });
+  }
+
+  const result = {
+    romTitle: localStorage.romTitle || (window.DDEX_ROM_OVERRIDES && window.DDEX_ROM_OVERRIDES.title) || null,
+    romFamily: localStorage.romFamily || null,
+    requestedScriptFileIds: normalizedIds.slice(),
+    missing,
+    scriptFiles,
+  };
+
+  if (typeof console !== "undefined") {
+    console.log("Loaded ROM script file usage", result);
+  }
+  return result;
+};
+
+window.debugLoadedRomItemTextTable = function() {
+  const itemNames = getLoadedRomItemNames();
+  const rows = itemNames.map(function(itemName, itemId) {
+    return { itemId: itemId, itemName: itemName };
+  });
+  if (typeof console !== "undefined") {
+    console.table(rows);
+  }
+  return rows;
+};
+
+window.debugLoadedRomMiningTable = function() {
+  const miningDebug = getLoadedRomMiningDebug();
+  if (typeof console !== "undefined") {
+    console.log("Loaded ROM mining table", miningDebug);
+  }
+  return miningDebug;
+};
+
+window.debugLoadedRomMiningItemOdds = function(itemRequest) {
+  const miningDebug = getLoadedRomMiningDebug();
+  if (!Array.isArray(miningDebug.entries) || miningDebug.status !== "ok") {
+    const unavailableResult = {
+      romTitle: localStorage.romTitle || (window.DDEX_ROM_OVERRIDES && window.DDEX_ROM_OVERRIDES.title) || null,
+      romFamily: localStorage.romFamily || null,
+      requestedName:
+        itemRequest && typeof itemRequest === "object" && typeof itemRequest.name === "string"
+          ? itemRequest.name
+          : (typeof itemRequest === "string" ? itemRequest : null),
+      requestedItemId:
+        typeof itemRequest === "number"
+          ? itemRequest
+          : (itemRequest && typeof itemRequest === "object" && Number.isFinite(itemRequest.itemId) ? itemRequest.itemId : null),
+      missing: true,
+      miningDebugStatus: miningDebug.status || "unknown",
+      failureReason: miningDebug.failureReason || "Mining table scan data is unavailable.",
+      overlayLength: miningDebug.overlayLength || null,
+    };
+    if (typeof console !== "undefined") {
+      console.log("Loaded ROM mining item odds", unavailableResult);
+    }
+    return unavailableResult;
+  }
+  const itemNames = getLoadedRomItemNames();
+  const normalizedRequest = resolveLoadedRomItemIdFromDebugRequest(itemRequest, itemNames);
+  const requestedItemId = normalizedRequest.requestedItemId;
+  const requestedName = normalizedRequest.requestedName;
+  const loadedItemName =
+    requestedItemId !== null &&
+    requestedItemId !== undefined &&
+    requestedItemId >= 0 &&
+    requestedItemId < itemNames.length
+      ? itemNames[requestedItemId]
+      : null;
+  const aggregate = requestedItemId !== null && requestedItemId !== undefined
+    ? miningDebug.aggregates &&
+      miningDebug.aggregates.byBagItemId &&
+      miningDebug.aggregates.byBagItemId[String(requestedItemId)]
+    : null;
+
+  const result = aggregate
+    ? {
+        romTitle: localStorage.romTitle || (window.DDEX_ROM_OVERRIDES && window.DDEX_ROM_OVERRIDES.title) || null,
+        romFamily: localStorage.romFamily || null,
+        requestedName,
+        requestedItemId,
+        itemId: aggregate.bagItemId,
+        itemName: aggregate.bagItemName,
+        miningObjectIds: Array.isArray(aggregate.miningObjectIds) ? aggregate.miningObjectIds.slice() : [],
+        entryIndexes: Array.isArray(aggregate.entryIndexes) ? aggregate.entryIndexes.slice() : [],
+        weights: { ...(aggregate.weights || {}) },
+        probabilities: { ...(aggregate.probabilities || {}) },
+        scenarioTotals: { ...(miningDebug.scenarioTotals || {}) },
+        buriedItemCountRange: miningDebug.buriedItemCountRange || null,
+        source: miningDebug.source || null,
+        tableOffset: miningDebug.tableOffset,
+      }
+    : {
+        romTitle: localStorage.romTitle || (window.DDEX_ROM_OVERRIDES && window.DDEX_ROM_OVERRIDES.title) || null,
+        romFamily: localStorage.romFamily || null,
+        requestedName,
+        requestedItemId,
+        loadedItemName,
+        missing: true,
+      };
+
+  if (typeof console !== "undefined") {
+    console.log("Loaded ROM mining item odds", result);
+  }
+  return result;
+};
+
+window.debugLoadedRomScriptFile = function(scriptFileId) {
+  const scriptTexts = getLoadedRomScriptTexts();
+  const normalizedId = Number.parseInt(String(scriptFileId), 10);
+  if (!Number.isFinite(normalizedId)) {
+    throw new Error("Pass a numeric script file id.");
+  }
+  const text = scriptTexts[String(normalizedId)];
+  if (typeof text !== "string") {
+    throw new Error(`No parsed script text was found for script file ${normalizedId}.`);
+  }
+  if (typeof console !== "undefined") {
+    console.log(`Loaded ROM script file ${normalizedId}`, text);
+  }
+  return text;
+};
+
+window.downloadLoadedRomScriptFile = function(scriptFileId) {
+  const text = window.debugLoadedRomScriptFile(scriptFileId);
+  const normalizedId = Number.parseInt(String(scriptFileId), 10);
+  const romTitle = localStorage.romTitle || (window.DDEX_ROM_OVERRIDES && window.DDEX_ROM_OVERRIDES.title) || "rom";
+  const fileName = `${String(romTitle).replace(/[^a-z0-9._-]+/gi, "_")}_script_${String(normalizedId).padStart(4, "0")}.txt`;
+  const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = fileName;
+  document.body.appendChild(anchor);
+  anchor.click();
+  document.body.removeChild(anchor);
+  setTimeout(function() {
+    URL.revokeObjectURL(url);
+  }, 0);
+  return { scriptFileId: normalizedId, fileName: fileName, length: text.length };
+};
+
+window.debugPlatinumKaizoItemReferences = function() {
+  return window.debugLoadedRomItemScriptReferences(["RageCandyBar", { itemId: 103, name: "Old Amber" }]);
+};
 
 async function importGen4RomFiles(files) {
   const file = findUploadedFile(files, /\.nds$/i);

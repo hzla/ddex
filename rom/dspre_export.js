@@ -882,6 +882,17 @@ function parseScriptText(text, options = {}) {
   const reverseFunctionCallers = new Map();
   const functionRefRegex = /\b(?:Jump\w*|Call\w*)\b.*\bFunction#(\d+)\b/i;
   const useScriptRegex = /\bUseScript_#(\d+)\b/i;
+  const commonScriptItemVarIds = new Set([0x8004, 32772]);
+  const commonScriptQuantityVarIds = new Set([0x8005, 32773]);
+
+  function parseSetVarLine(rawLine) {
+    const match = /^\s*SetVar\s+([^\s]+)\s+([^\s]+)\s*$/i.exec(rawLine);
+    if (!match) return null;
+    return {
+      varId: parseNumeric(match[1]),
+      value: parseNumeric(match[2]),
+    };
+  }
 
   function addReverseFunctionEdge(targetFn, callerBlock) {
     if (!reverseFunctionCallers.has(targetFn)) {
@@ -952,17 +963,19 @@ function parseScriptText(text, options = {}) {
     const commonScriptMatch = commonScriptRegex.exec(line);
     if (commonScriptMatch) {
       let itemId = null;
+      let quantity = null;
       for (let j = i - 1; j >= 0; j -= 1) {
-        const setVarMatch = /^\s*SetVar\s+0x8004\s+([^\s]+)\s*$/i.exec(lines[j]);
-        if (setVarMatch) {
-          itemId = parseNumeric(setVarMatch[1]);
-          break;
-        }
+        const setVar = parseSetVarLine(lines[j]);
+        if (!setVar) continue;
+        if (itemId === null && commonScriptItemVarIds.has(setVar.varId)) itemId = setVar.value;
+        if (quantity === null && commonScriptQuantityVarIds.has(setVar.varId)) quantity = setVar.value;
+        if (itemId !== null && quantity !== null) break;
       }
       if (itemId !== null) {
         found.push({
           source: "commonScript",
           itemId,
+          quantity,
           lineIndex: i,
           originScriptNumber: findOriginScriptForLine(i),
         });
@@ -1264,6 +1277,1243 @@ function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw
     totalRecords: Object.values(byItem).reduce((sum, list) => sum + list.length, 0),
     stats: { eventScriptCount, scriptParseCount, scriptFileFoundCount, scriptFileMissingCount },
   };
+}
+
+function decodeCommandParamValue(rawBytes) {
+  if (!rawBytes || !rawBytes.length) return null;
+  let value = 0;
+  for (let i = 0; i < rawBytes.length; i += 1) {
+    value |= (rawBytes[i] << (8 * i));
+  }
+  return value >>> 0;
+}
+
+function isItemLikeCommandParameter(commandInfo, index) {
+  const type = String(commandInfo?.parameterTypes?.[index] || "");
+  const value = String(commandInfo?.parameterValues?.[index] || "");
+  return /\bitem\b/i.test(type) || /\bitem\b/i.test(value);
+}
+
+function isExcludedRawItemIdParameter(commandInfo, index) {
+  const type = String(commandInfo?.parameterTypes?.[index] || "");
+  const value = String(commandInfo?.parameterValues?.[index] || "");
+  const commandName = String(commandInfo?.name || "");
+  const haystack = `${commandName} ${type} ${value}`.toLowerCase();
+  return /\b(function|message|text|string|script|variable|var|flag|badge|trainer|species|pokemon|move|sound|map|door|direction|comparison|menu|option|bank|action|movement)\b/.test(haystack);
+}
+
+function getItemGrantCommonScriptIdsForFamily(family) {
+  return family === "HGSS" ? new Set([2033, 2009]) : new Set([2016, 2044]);
+}
+
+function isCommonScriptItemArgVarId(varId) {
+  return varId === 0x8004 || varId === 32772;
+}
+
+function isCommonScriptQuantityArgVarId(varId) {
+  return varId === 0x8005 || varId === 32773;
+}
+
+function collectBlockCommonScriptItemGrantMatches(block, scriptCtx, itemNameById) {
+  const commonScriptIds = getItemGrantCommonScriptIdsForFamily(scriptCtx.family);
+  const matches = [];
+  const rawParamSkips = new Set();
+
+  for (let commandIndex = 0; commandIndex < (block?.commands || []).length; commandIndex += 1) {
+    const cmd = block.commands[commandIndex];
+    const commandInfo = scriptCtx.db.scrcmd.get(cmd.id);
+    if (!commandInfo || commandInfo.name !== "CommonScript") continue;
+    const commonScriptId = cmd.params.length ? decodeCommandParamValue(cmd.params[0]) : null;
+    if (commonScriptId === null || !commonScriptIds.has(commonScriptId)) continue;
+
+    let itemId = null;
+    let quantity = null;
+    let itemSourceCommandIndex = null;
+    let quantitySourceCommandIndex = null;
+
+    for (let prevIndex = commandIndex - 1; prevIndex >= 0; prevIndex -= 1) {
+      const prevCmd = block.commands[prevIndex];
+      const prevInfo = scriptCtx.db.scrcmd.get(prevCmd.id);
+      if (!prevInfo || prevInfo.name !== "SetVar" || prevCmd.params.length < 2) continue;
+      const varId = decodeCommandParamValue(prevCmd.params[0]);
+      const value = decodeCommandParamValue(prevCmd.params[1]);
+      if (varId === null || value === null) continue;
+
+      if (itemId === null && isCommonScriptItemArgVarId(varId)) {
+        itemId = value;
+        itemSourceCommandIndex = prevIndex;
+        rawParamSkips.add(`${prevIndex}|1|${value}`);
+      } else if (quantity === null && isCommonScriptQuantityArgVarId(varId)) {
+        quantity = value;
+        quantitySourceCommandIndex = prevIndex;
+      }
+
+      if (itemId !== null && quantity !== null) break;
+    }
+
+    if (itemId === null || !itemNameById.has(itemId)) continue;
+    matches.push({
+      commandIndex,
+      commonScriptId,
+      itemId,
+      itemName: itemNameById.get(itemId),
+      quantity,
+      itemSourceCommandIndex,
+      quantitySourceCommandIndex,
+    });
+  }
+
+  return { matches, rawParamSkips };
+}
+
+const PLATINUM_COMMON_MART_STOCK = [
+  { itemName: "Poke Ball", requiredBadges: 1 },
+  { itemName: "Great Ball", requiredBadges: 3 },
+  { itemName: "Ultra Ball", requiredBadges: 4 },
+  { itemName: "Potion", requiredBadges: 1 },
+  { itemName: "Super Potion", requiredBadges: 2 },
+  { itemName: "Hyper Potion", requiredBadges: 4 },
+  { itemName: "Max Potion", requiredBadges: 5 },
+  { itemName: "Full Restore", requiredBadges: 6 },
+  { itemName: "Revive", requiredBadges: 3 },
+  { itemName: "Antidote", requiredBadges: 1 },
+  { itemName: "Parlyz Heal", requiredBadges: 1 },
+  { itemName: "Awakening", requiredBadges: 2 },
+  { itemName: "Burn Heal", requiredBadges: 2 },
+  { itemName: "Ice Heal", requiredBadges: 2 },
+  { itemName: "Full Heal", requiredBadges: 4 },
+  { itemName: "Escape Rope", requiredBadges: 2 },
+  { itemName: "Repel", requiredBadges: 2 },
+  { itemName: "Super Repel", requiredBadges: 3 },
+  { itemName: "Max Repel", requiredBadges: 4 },
+];
+
+const PLATINUM_SPECIALTY_MART_STOCKS = [
+  { martId: 0, martLabel: "Jubilife Mart specialties", itemNames: ["Air Mail", "Heal Ball"] },
+  { martId: 1, martLabel: "Oreburgh Mart specialties", itemNames: ["Tunnel Mail", "Heal Ball", "Net Ball"] },
+  { martId: 2, martLabel: "Floaroma Mart specialties", itemNames: ["Bloom Mail", "Heal Ball", "Net Ball"] },
+  { martId: 3, martLabel: "Eterna Mart specialties", itemNames: ["Air Mail", "Heal Ball", "Net Ball", "Nest Ball"] },
+  { martId: 4, martLabel: "Eterna Herb Shop stock", itemNames: ["Heal Powder", "Energypowder", "Energy Root", "Revival Herb"] },
+  { martId: 5, martLabel: "Hearthome Mart specialties", itemNames: ["Heart Mail", "Heal Ball", "Net Ball", "Nest Ball"] },
+  { martId: 6, martLabel: "Solaceon Mart specialties", itemNames: ["Air Mail", "Net Ball", "Nest Ball", "Dusk Ball"] },
+  { martId: 7, martLabel: "Pastoria Mart specialties", itemNames: ["Air Mail", "Nest Ball", "Dusk Ball", "Quick Ball"] },
+  {
+    martId: 8,
+    martLabel: "Veilstone Dept. Store 1F right",
+    itemNames: [
+      "Potion",
+      "Super Potion",
+      "Hyper Potion",
+      "Max Potion",
+      "Revive",
+      "Antidote",
+      "Parlyz Heal",
+      "Burn Heal",
+      "Ice Heal",
+      "Awakening",
+      "Full Heal",
+    ],
+  },
+  {
+    martId: 9,
+    martLabel: "Veilstone Dept. Store 1F left",
+    itemNames: [
+      "Poke Ball",
+      "Great Ball",
+      "Ultra Ball",
+      "Escape Rope",
+      "Poke Doll",
+      "Repel",
+      "Super Repel",
+      "Max Repel",
+      "Grass Mail",
+      "Flame Mail",
+      "Bubble Mail",
+      "Space Mail",
+    ],
+  },
+  {
+    martId: 10,
+    martLabel: "Veilstone Dept. Store 2F upper",
+    itemNames: ["X Speed", "X Attack", "X Defense", "Guard Spec.", "Dire Hit", "X Accuracy", "X Special", "X Sp. Def"],
+  },
+  { martId: 11, martLabel: "Veilstone Dept. Store 2F middle", itemNames: ["Protein", "Iron", "Calcium", "Zinc", "Carbos", "HP Up"] },
+  { martId: 12, martLabel: "Veilstone Dept. Store 3F upper", itemNames: ["TM83", "TM17", "TM54", "TM20", "TM33", "TM16", "TM70"] },
+  { martId: 13, martLabel: "Veilstone Dept. Store 3F lower", itemNames: ["TM38", "TM25", "TM14", "TM22", "TM52", "TM15"] },
+  { martId: 14, martLabel: "Celestic Mart specialties", itemNames: ["Air Mail", "Dusk Ball", "Quick Ball", "Timer Ball"] },
+  { martId: 15, martLabel: "Snowpoint Mart specialties", itemNames: ["Snow Mail", "Dusk Ball", "Quick Ball", "Timer Ball"] },
+  { martId: 16, martLabel: "Canalave Mart specialties", itemNames: ["Air Mail", "Quick Ball", "Timer Ball", "Repeat Ball"] },
+  { martId: 17, martLabel: "Sunyshore Mart specialties", itemNames: ["Steel Mail", "Luxury Ball"] },
+  {
+    martId: 18,
+    martLabel: "Pokemon League Mart specialties",
+    itemNames: ["Heal Ball", "Net Ball", "Nest Ball", "Dusk Ball", "Quick Ball", "Timer Ball", "Repeat Ball", "Luxury Ball"],
+  },
+  { martId: 19, martLabel: "Veilstone Dept. Store B1F", itemNames: ["Figy Berry", "Wiki Berry", "Mago Berry", "Aguav Berry", "Iapapa Berry"] },
+];
+
+const PLATINUM_DECOR_MART_STOCKS = [
+  { martId: 0, martLabel: "Veilstone Dept. Store 4F upper decor", itemNames: ["Yellow Cushion", "Cupboard", "TV", "Refrigerator", "Pretty Sink"] },
+  { martId: 1, martLabel: "Veilstone Dept. Store 4F lower decor", itemNames: ["Munchlax Doll", "Bonsly Doll", "Mime Jr. Doll", "Mantyke Doll", "Buizel Doll", "Chatot Doll"] },
+];
+
+const PLATINUM_SEAL_MART_STOCKS = [
+  { martId: 0, martLabel: "Sunyshore Market Monday seals", itemNames: ["Heart Seal A", "Star Seal B", "Fire Seal A", "Song Seal A", "Line Seal C", "Ele Seal B", "Party Seal D"] },
+  { martId: 1, martLabel: "Sunyshore Market Tuesday seals", itemNames: ["Heart Seal B", "Star Seal C", "Fire Seal B", "Flora Seal A", "Song Seal B", "Line Seal D", "Ele Seal C"] },
+  { martId: 2, martLabel: "Sunyshore Market Wednesday seals", itemNames: ["Heart Seal C", "Star Seal D", "Fire Seal C", "Flora Seal B", "Song Seal C", "Smoke Seal A", "Ele Seal D"] },
+  { martId: 3, martLabel: "Sunyshore Market Thursday seals", itemNames: ["Heart Seal D", "Foamy Seal A", "Fire Seal D", "Flora Seal C", "Song Seal D", "Star Seal E", "Smoke Seal B"] },
+  { martId: 4, martLabel: "Sunyshore Market Friday seals", itemNames: ["Foamy Seal B", "Party Seal A", "Flora Seal D", "Song Seal E", "Heart Seal E", "Star Seal F", "Smoke Seal C"] },
+  { martId: 5, martLabel: "Sunyshore Market Saturday seals", itemNames: ["Foamy Seal C", "Party Seal B", "Flora Seal E", "Song Seal F", "Heart Seal F", "Line Seal A", "Smoke Seal D"] },
+  { martId: 6, martLabel: "Sunyshore Market Sunday seals", itemNames: ["Star Seal A", "Song Seal G", "Foamy Seal D", "Flora Seal F", "Line Seal B", "Ele Seal A", "Party Seal C"] },
+];
+
+const PLATINUM_UNDERGROUND_TREASURE_ITEMS = [
+  "Oval Stone",
+  "Odd Keystone",
+  "Sun Stone",
+  "Star Piece",
+  "Moon Stone",
+  "Hard Stone",
+  "Thunderstone",
+  "Everstone",
+  "Fire Stone",
+  "Water Stone",
+  "Leaf Stone",
+  "Nugget",
+  "Helix Fossil",
+  "Dome Fossil",
+  "Claw Fossil",
+  "Root Fossil",
+  "Old Amber",
+  "Rare Bone",
+  "Revive",
+  "Max Revive",
+  "Red Shard",
+  "Blue Shard",
+  "Yellow Shard",
+  "Green Shard",
+  "Heart Scale",
+  "Armor Fossil",
+  "Skull Fossil",
+  "Light Clay",
+  "Iron Ball",
+  "Icy Rock",
+  "Smooth Rock",
+  "Heat Rock",
+  "Damp Rock",
+  "Flame Plate",
+  "Splash Plate",
+  "Zap Plate",
+  "Meadow Plate",
+  "Icicle Plate",
+  "Fist Plate",
+  "Toxic Plate",
+  "Earth Plate",
+  "Sky Plate",
+  "Mind Plate",
+  "Insect Plate",
+  "Stone Plate",
+  "Spooky Plate",
+  "Draco Plate",
+  "Dread Plate",
+  "Iron Plate",
+];
+
+const PLATINUM_MINING_SPHERE_ITEMS = [
+  "Small Prism Sphere",
+  "Small Pale Sphere",
+  "Small Red Sphere",
+  "Small Blue Sphere",
+  "Small Green Sphere",
+  "Large Prism Sphere",
+  "Large Pale Sphere",
+  "Large Red Sphere",
+  "Large Blue Sphere",
+  "Large Green Sphere",
+];
+
+const PLATINUM_MINING_ROCK_ITEMS = [
+  "Rock 1",
+  "Rock 2",
+  "Rock 3",
+  "Rock 4",
+  "Rock 5",
+  "Rock 6",
+  "Rock 7",
+];
+
+const PLATINUM_MINING_OBJECT_SIZE = 20;
+const PLATINUM_MINING_WIDTH_OFFSET = 12;
+const PLATINUM_MINING_HEIGHT_OFFSET = 13;
+const PLATINUM_MINING_ITEM_ID_OFFSET = 14;
+const PLATINUM_MINING_SPHERE_COUNT = PLATINUM_MINING_SPHERE_ITEMS.length;
+const PLATINUM_MINING_TREASURE_START = 11;
+const PLATINUM_MINING_TREASURE_MAX = PLATINUM_MINING_TREASURE_START + PLATINUM_UNDERGROUND_TREASURE_ITEMS.length;
+const PLATINUM_MINING_ROCK_START = PLATINUM_MINING_TREASURE_MAX;
+const PLATINUM_MINING_ROCK_MAX = PLATINUM_MINING_ROCK_START + PLATINUM_MINING_ROCK_ITEMS.length - 1;
+
+function buildLoadedItemLookup(itemNamesRaw) {
+  const itemNameById = new Map();
+  const itemIdByKey = new Map();
+
+  for (let i = 0; i < itemNamesRaw.length; i += 1) {
+    const itemName = String(itemNamesRaw[i] || "").trim();
+    if (!itemName) continue;
+    const itemKey = normalizeName(itemName);
+    if (!itemKey) continue;
+    itemNameById.set(i, itemName);
+    if (!itemIdByKey.has(itemKey)) itemIdByKey.set(itemKey, i);
+  }
+
+  return { itemNameById, itemIdByKey };
+}
+
+function resolveLoadedItemIdByName(itemIdByKey, itemName) {
+  const key = normalizeName(itemName);
+  if (!key || !itemIdByKey.has(key)) return null;
+  return itemIdByKey.get(key);
+}
+
+function getPlatinumMiningObjectDisplayName(miningObjectId) {
+  if (miningObjectId >= 1 && miningObjectId <= PLATINUM_MINING_SPHERE_COUNT) {
+    return PLATINUM_MINING_SPHERE_ITEMS[miningObjectId - 1];
+  }
+  if (miningObjectId >= PLATINUM_MINING_TREASURE_START && miningObjectId < PLATINUM_MINING_TREASURE_MAX) {
+    return PLATINUM_UNDERGROUND_TREASURE_ITEMS[miningObjectId - PLATINUM_MINING_TREASURE_START];
+  }
+  if (miningObjectId >= PLATINUM_MINING_ROCK_START && miningObjectId <= PLATINUM_MINING_ROCK_MAX) {
+    return PLATINUM_MINING_ROCK_ITEMS[miningObjectId - PLATINUM_MINING_ROCK_START];
+  }
+  return `Mining Object ${miningObjectId}`;
+}
+
+function findPlatinumMiningTableOffset(overlayData) {
+  const signatures = [
+    {
+      matchType: "strict_prefix_12",
+      prefixItemIds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      prefixWidths: [4, 4, 4, 4, 4, 6, 6, 6, 6, 6, 6, 8],
+      prefixHeights: [4, 4, 4, 4, 4, 6, 6, 6, 6, 6, 6, 8],
+    },
+    {
+      matchType: "relaxed_sphere_prefix_10",
+      prefixItemIds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      prefixWidths: [4, 4, 4, 4, 4, 6, 6, 6, 6, 6],
+      prefixHeights: [4, 4, 4, 4, 4, 6, 6, 6, 6, 6],
+    },
+  ];
+
+  for (const signature of signatures) {
+    const maxOffset = overlayData.length - (PLATINUM_MINING_OBJECT_SIZE * signature.prefixItemIds.length);
+
+    for (let offset = 0; offset <= maxOffset; offset += 1) {
+      let matched = true;
+      for (let i = 0; i < signature.prefixItemIds.length; i += 1) {
+        const base = offset + (i * PLATINUM_MINING_OBJECT_SIZE);
+        if (overlayData[base + PLATINUM_MINING_ITEM_ID_OFFSET] !== signature.prefixItemIds[i]) {
+          matched = false;
+          break;
+        }
+        if (overlayData[base + PLATINUM_MINING_WIDTH_OFFSET] !== signature.prefixWidths[i]) {
+          matched = false;
+          break;
+        }
+        if (overlayData[base + PLATINUM_MINING_HEIGHT_OFFSET] !== signature.prefixHeights[i]) {
+          matched = false;
+          break;
+        }
+      }
+      if (matched) {
+        return { offset, matchType: signature.matchType };
+      }
+    }
+  }
+
+  return null;
+}
+
+function buildPlatinumMiningTableDebugData(overlay5, itemNamesRaw) {
+  const scenarios = [
+    { key: "preNatDexOddTID", weightField: "oddTIDWeight", nationalDex: false, trainerIdParity: "odd" },
+    { key: "preNatDexEvenTID", weightField: "evenTIDWeight", nationalDex: false, trainerIdParity: "even" },
+    { key: "postNatDexOddTID", weightField: "oddTIDNatDexWeight", nationalDex: true, trainerIdParity: "odd" },
+    { key: "postNatDexEvenTID", weightField: "evenTIDNatDexWeight", nationalDex: true, trainerIdParity: "even" },
+  ];
+
+  if (!overlay5 || !overlay5.data || !itemNamesRaw) {
+    return {
+      tableName: "Platinum Underground mining object table",
+      source: "overlay5_scan",
+      status: "not_available",
+      failureReason: "Overlay 5 or item name data was unavailable.",
+      entries: [],
+      scenarioTotals: Object.fromEntries(scenarios.map((scenario) => [scenario.key, 0])),
+      scenarios,
+      aggregates: { byBagItemId: {} },
+    };
+  }
+  const tableMatch = findPlatinumMiningTableOffset(overlay5.data);
+  if (!tableMatch) {
+    return {
+      tableName: "Platinum Underground mining object table",
+      source: "overlay5_scan",
+      status: "not_found",
+      failureReason: "No matching mining table signature was found in overlay 5.",
+      overlayLength: overlay5.data.length,
+      entries: [],
+      scenarioTotals: Object.fromEntries(scenarios.map((scenario) => [scenario.key, 0])),
+      scenarios,
+      aggregates: { byBagItemId: {} },
+    };
+  }
+  const tableOffset = tableMatch.offset;
+
+  const { itemIdByKey } = buildLoadedItemLookup(itemNamesRaw);
+  const entries = [];
+  const maxEntries = 128;
+  const reader = new Reader(overlay5.data);
+
+  for (let index = 0; index < maxEntries; index += 1) {
+    const entryOffset = tableOffset + (index * PLATINUM_MINING_OBJECT_SIZE);
+    if (entryOffset + PLATINUM_MINING_OBJECT_SIZE > overlay5.data.length) break;
+    reader.seek(entryOffset);
+
+    const shapePointer = reader.u32();
+    const oddTIDWeight = reader.u16();
+    const evenTIDWeight = reader.u16();
+    const oddTIDNatDexWeight = reader.u16();
+    const evenTIDNatDexWeight = reader.u16();
+    const width = reader.u8();
+    const height = reader.u8();
+    const miningObjectId = reader.u8();
+    const padding = reader.u8();
+    const spriteNarcIndex = reader.u16();
+    const paletteNarcIndex = reader.u16();
+
+    if (
+      miningObjectId < 1 ||
+      miningObjectId > PLATINUM_MINING_ROCK_MAX ||
+      width === 0 ||
+      height === 0 ||
+      width > 12 ||
+      height > 12
+    ) {
+      break;
+    }
+
+    let category = "unknown";
+    let bagItemName = null;
+    let bagItemId = null;
+    if (miningObjectId >= 1 && miningObjectId <= PLATINUM_MINING_SPHERE_COUNT) {
+      category = "sphere";
+    } else if (miningObjectId >= PLATINUM_MINING_TREASURE_START && miningObjectId < PLATINUM_MINING_TREASURE_MAX) {
+      category = "treasure";
+      bagItemName = PLATINUM_UNDERGROUND_TREASURE_ITEMS[miningObjectId - PLATINUM_MINING_TREASURE_START] || null;
+      bagItemId = bagItemName ? resolveLoadedItemIdByName(itemIdByKey, bagItemName) : null;
+    } else if (miningObjectId >= PLATINUM_MINING_ROCK_START && miningObjectId <= PLATINUM_MINING_ROCK_MAX) {
+      category = "rock";
+    }
+
+    entries.push({
+      index,
+      entryOffset,
+      shapePointer,
+      oddTIDWeight,
+      evenTIDWeight,
+      oddTIDNatDexWeight,
+      evenTIDNatDexWeight,
+      width,
+      height,
+      miningObjectId,
+      miningObjectName: getPlatinumMiningObjectDisplayName(miningObjectId),
+      category,
+      bagItemId,
+      bagItemName,
+      spriteNarcIndex,
+      paletteNarcIndex,
+      padding,
+    });
+  }
+
+  const pickableEntries = entries.filter((entry) => entry.miningObjectId < PLATINUM_MINING_TREASURE_MAX);
+  const scenarioTotals = {};
+  const aggregateByBagItemId = {};
+
+  for (const scenario of scenarios) {
+    scenarioTotals[scenario.key] = pickableEntries.reduce((sum, entry) => sum + (entry[scenario.weightField] || 0), 0);
+  }
+
+  for (const entry of entries) {
+    entry.scenarioWeights = {};
+    entry.scenarioProbabilities = {};
+    for (const scenario of scenarios) {
+      const weight = entry[scenario.weightField] || 0;
+      const totalWeight = scenarioTotals[scenario.key] || 0;
+      entry.scenarioWeights[scenario.key] = weight;
+      entry.scenarioProbabilities[scenario.key] = totalWeight > 0 ? (weight / totalWeight) : 0;
+    }
+
+    if (entry.category !== "treasure" || entry.bagItemId === null) continue;
+    const key = String(entry.bagItemId);
+    if (!aggregateByBagItemId[key]) {
+      aggregateByBagItemId[key] = {
+        bagItemId: entry.bagItemId,
+        bagItemName: entry.bagItemName,
+        miningObjectIds: [],
+        entryIndexes: [],
+        weights: {},
+        probabilities: {},
+      };
+      for (const scenario of scenarios) {
+        aggregateByBagItemId[key].weights[scenario.key] = 0;
+      }
+    }
+    aggregateByBagItemId[key].miningObjectIds.push(entry.miningObjectId);
+    aggregateByBagItemId[key].entryIndexes.push(entry.index);
+    for (const scenario of scenarios) {
+      aggregateByBagItemId[key].weights[scenario.key] += entry[scenario.weightField] || 0;
+    }
+  }
+
+  for (const aggregate of Object.values(aggregateByBagItemId)) {
+    for (const scenario of scenarios) {
+      const totalWeight = scenarioTotals[scenario.key] || 0;
+      aggregate.probabilities[scenario.key] = totalWeight > 0 ? (aggregate.weights[scenario.key] / totalWeight) : 0;
+    }
+  }
+
+  return {
+    tableName: "Platinum Underground mining object table",
+    source: "overlay5_scan",
+    status: "ok",
+    matchType: tableMatch.matchType,
+    tableOffset,
+    objectSize: PLATINUM_MINING_OBJECT_SIZE,
+    buriedItemCountRange: { min: 2, max: 4, firstTimeFixedCount: 3 },
+    entries,
+    scenarioTotals,
+    scenarios,
+    aggregates: {
+      byBagItemId: aggregateByBagItemId,
+    },
+  };
+}
+
+function resolvePlatMartCatalogItems(stockEntries, itemIdByKey) {
+  const resolved = [];
+  for (const stockEntry of stockEntries) {
+    const itemName = typeof stockEntry === "string" ? stockEntry : stockEntry.itemName;
+    const itemId = resolveLoadedItemIdByName(itemIdByKey, itemName);
+    if (itemId === null) continue;
+    resolved.push({
+      itemId,
+      itemName,
+      requiredBadges:
+        stockEntry && typeof stockEntry === "object" && Number.isFinite(stockEntry.requiredBadges)
+          ? stockEntry.requiredBadges
+          : null,
+    });
+  }
+  return resolved;
+}
+
+function buildPlatinumMartCatalogIndex(itemIdByKey) {
+  const specialtiesById = new Map();
+  const decorById = new Map();
+  const sealsById = new Map();
+
+  for (const stock of PLATINUM_SPECIALTY_MART_STOCKS) {
+    specialtiesById.set(stock.martId, {
+      martType: "specialties",
+      martId: stock.martId,
+      martLabel: stock.martLabel,
+      stockSource: "plat_source_default",
+      items: resolvePlatMartCatalogItems(stock.itemNames, itemIdByKey),
+    });
+  }
+  for (const stock of PLATINUM_DECOR_MART_STOCKS) {
+    decorById.set(stock.martId, {
+      martType: "decor",
+      martId: stock.martId,
+      martLabel: stock.martLabel,
+      stockSource: "plat_source_default",
+      items: resolvePlatMartCatalogItems(stock.itemNames, itemIdByKey),
+    });
+  }
+  for (const stock of PLATINUM_SEAL_MART_STOCKS) {
+    sealsById.set(stock.martId, {
+      martType: "seal",
+      martId: stock.martId,
+      martLabel: stock.martLabel,
+      stockSource: "plat_source_default",
+      items: resolvePlatMartCatalogItems(stock.itemNames, itemIdByKey),
+    });
+  }
+
+  return {
+    common: {
+      martType: "common",
+      martId: null,
+      martLabel: "Common Poke Mart stock",
+      stockSource: "plat_source_default",
+      items: resolvePlatMartCatalogItems(PLATINUM_COMMON_MART_STOCK, itemIdByKey),
+    },
+    specialtiesById,
+    decorById,
+    sealsById,
+  };
+}
+
+function getPlatinumMartCatalogForCommand(commandInfo, cmd, platMartCatalogs) {
+  const commandName = String(commandInfo?.name || "");
+  if (commandName === "PokeMartCommon") return platMartCatalogs.common;
+
+  const martId = cmd.params.length ? decodeCommandParamValue(cmd.params[0]) : null;
+  if (martId === null) return null;
+  if (commandName === "PokeMartSpecialties") return platMartCatalogs.specialtiesById.get(martId) || null;
+  if (commandName === "PokeMartDecor") return platMartCatalogs.decorById.get(martId) || null;
+  if (commandName === "PokeMartSeal") return platMartCatalogs.sealsById.get(martId) || null;
+  return null;
+}
+
+function buildPlatinumUndergroundSystemReferences(itemIdByKey) {
+  const byItemId = new Map();
+
+  for (const itemName of PLATINUM_UNDERGROUND_TREASURE_ITEMS) {
+    const itemId = resolveLoadedItemIdByName(itemIdByKey, itemName);
+    if (itemId === null) continue;
+    byItemId.set(itemId, [
+      {
+        referenceKind: "system_flow",
+        flowType: "underground_mining_spawn",
+        source: "plat_source_default",
+        title: "Underground mining treasure",
+        detail: `${itemName} is part of Platinum's Underground mining treasure pool.`,
+      },
+      {
+        referenceKind: "system_flow",
+        flowType: "underground_treasure_to_bag_item",
+        source: "plat_source_default",
+        title: "Underground treasure conversion",
+        detail: `${itemName} is converted from an Underground treasure slot into a bag item outside map scripts.`,
+      },
+      {
+        referenceKind: "system_flow",
+        flowType: "underground_treasure_vendor_flow",
+        source: "plat_source_default",
+        title: "Underground treasure vendor flow",
+        detail: `${itemName} participates in Underground treasure inventory/vendor flows rather than a normal map GiveItem script.`,
+      },
+    ]);
+  }
+
+  return byItemId;
+}
+
+function buildScriptFileUsageIndexes(groupedEventOverworlds, mapHeaders, locationNamesRaw) {
+  const mapHeadersByScriptFileID = new Map();
+  const overworldsByScriptKey = new Map();
+
+  function pushUnique(list, entry, keyBuilder) {
+    const key = keyBuilder(entry);
+    if (list.some((existing) => keyBuilder(existing) === key)) return;
+    list.push(entry);
+  }
+
+  for (const mapHeader of mapHeaders) {
+    const headerID = parseNumeric(mapHeader.HeaderID);
+    const eventFileID = String(mapHeader.EventFileID);
+    const scriptFileIDRaw = parseNumeric(mapHeader.ScriptFileID);
+    const scriptFileID = scriptFileIDRaw !== null ? (scriptFileIDRaw & 0xFFFF) : null;
+    if (scriptFileID === null) continue;
+
+    const mapNameIndex = parseNumeric(mapHeader.MapNameIndexInTextArchive);
+    const locationRaw =
+      mapNameIndex !== null && mapNameIndex >= 0 && mapNameIndex < locationNamesRaw.length
+        ? locationNamesRaw[mapNameIndex]
+        : `unknown_location_${mapNameIndex}`;
+    const locationName = normalizeName(locationRaw);
+    const mapHeaderRecord = {
+      headerID,
+      eventFileID,
+      scriptFileID,
+      locationName,
+      locationRaw,
+    };
+
+    if (!mapHeadersByScriptFileID.has(scriptFileID)) mapHeadersByScriptFileID.set(scriptFileID, []);
+    pushUnique(
+      mapHeadersByScriptFileID.get(scriptFileID),
+      mapHeaderRecord,
+      (entry) => `${entry.headerID}|${entry.eventFileID}|${entry.scriptFileID}|${entry.locationRaw}`
+    );
+
+    const eventEntries = groupedEventOverworlds[eventFileID] || [];
+    for (const eventEntry of eventEntries) {
+      const scriptNumber = parseNumeric(eventEntry.ScriptNumber);
+      if (scriptNumber === null) continue;
+      const scriptKey = `${scriptFileID}|${scriptNumber}`;
+      if (!overworldsByScriptKey.has(scriptKey)) overworldsByScriptKey.set(scriptKey, []);
+      pushUnique(
+        overworldsByScriptKey.get(scriptKey),
+        {
+          ...mapHeaderRecord,
+          scriptNumber,
+          overworldIndex: parseNumeric(eventEntry.OverworldIndex),
+          owID: parseNumeric(eventEntry.OwID),
+          overlayTableEntry: parseNumeric(
+            eventEntry.OverlayTableEntry ?? eventEntry.OverworldTableEntry ?? eventEntry.overworldTableEntry
+          ),
+          owSpriteID: parseNumeric(eventEntry.OwSpriteID ?? eventEntry.owSpriteID),
+          orientation: parseNumeric(eventEntry.Orientation ?? eventEntry.orientation),
+        },
+        (entry) =>
+          [
+            entry.headerID,
+            entry.eventFileID,
+            entry.scriptFileID,
+            entry.scriptNumber,
+            entry.overworldIndex,
+            entry.owID,
+          ].join("|")
+      );
+    }
+  }
+
+  return { mapHeadersByScriptFileID, overworldsByScriptKey };
+}
+
+function buildRootScriptResolver(parsedScript, scriptDb) {
+  const reverseCallers = new Map();
+
+  function addReverseEdge(targetKey, callerKey) {
+    if (!reverseCallers.has(targetKey)) reverseCallers.set(targetKey, new Set());
+    reverseCallers.get(targetKey).add(callerKey);
+  }
+
+  function readFunctionTargets(commands, commandInfoById) {
+    const targets = [];
+    for (const cmd of commands || []) {
+      const info = commandInfoById.get(cmd.id);
+      const types = info?.parameterTypes || [];
+      for (let i = 0; i < cmd.params.length; i += 1) {
+        if (types[i] !== "Function") continue;
+        const value = decodeCommandParamValue(cmd.params[i]);
+        if (value !== null && Number.isFinite(value) && value > 0) targets.push(value);
+      }
+    }
+    return targets;
+  }
+
+  function registerBlock(blockType, blockId, block) {
+    const callerKey = `${blockType}:${blockId}`;
+    if (block.usedScriptId > 0) {
+      addReverseEdge(`script:${block.usedScriptId}`, callerKey);
+      return;
+    }
+    const targets = readFunctionTargets(block.commands, scriptDb.scrcmd);
+    for (const target of targets) {
+      addReverseEdge(`function:${target}`, callerKey);
+    }
+  }
+
+  for (let i = 0; i < parsedScript.scripts.length; i += 1) {
+    registerBlock("script", i + 1, parsedScript.scripts[i]);
+  }
+  for (let i = 0; i < parsedScript.functions.length; i += 1) {
+    registerBlock("function", i + 1, parsedScript.functions[i]);
+  }
+
+  return function resolveRootScripts(blockType, blockId) {
+    const out = new Set();
+    const queue = [`${blockType}:${blockId}`];
+    const seen = new Set(queue);
+    if (blockType === "script") out.add(blockId);
+    while (queue.length > 0) {
+      const key = queue.shift();
+      const callers = reverseCallers.get(key);
+      if (!callers) continue;
+      for (const callerKey of callers) {
+        if (seen.has(callerKey)) continue;
+        seen.add(callerKey);
+        const [callerType, callerIdRaw] = callerKey.split(":");
+        const callerId = Number.parseInt(callerIdRaw, 10);
+        if (callerType === "script") out.add(callerId);
+        queue.push(callerKey);
+      }
+    }
+    return Array.from(out).sort((a, b) => a - b);
+  };
+}
+
+function buildItemScriptReferenceDebugData({
+  groupedEventOverworlds,
+  mapHeaders,
+  locationNamesRaw,
+  scriptsParsedMap,
+  scriptCtx,
+  itemNamesRaw,
+}) {
+  const { itemNameById, itemIdByKey } = buildLoadedItemLookup(itemNamesRaw);
+
+  const { mapHeadersByScriptFileID, overworldsByScriptKey } = buildScriptFileUsageIndexes(
+    groupedEventOverworlds,
+    mapHeaders,
+    locationNamesRaw
+  );
+
+  const platMartCatalogs = scriptCtx.family === "Plat" ? buildPlatinumMartCatalogIndex(itemIdByKey) : null;
+  const platUndergroundSystemRefs = scriptCtx.family === "Plat" ? buildPlatinumUndergroundSystemReferences(itemIdByKey) : new Map();
+
+  const byItemKey = {};
+  const byItemId = {};
+  const byItemRefKeys = new Map();
+
+  function ensureItemBucket(itemId, itemName) {
+    const itemKey = normalizeName(itemName);
+    if (!byItemKey[itemKey]) {
+      byItemKey[itemKey] = {
+        itemId,
+        itemKey,
+        itemName,
+        references: [],
+        systemReferences: [],
+      };
+      byItemRefKeys.set(itemKey, new Set());
+    }
+    byItemId[String(itemId)] = byItemKey[itemKey];
+    return byItemKey[itemKey];
+  }
+
+  function pushReference(bucket, dedupeKey, reference) {
+    const refKeySet = byItemRefKeys.get(bucket.itemKey);
+    if (refKeySet.has(dedupeKey)) return;
+    refKeySet.add(dedupeKey);
+    bucket.references.push(reference);
+  }
+
+  function pushSystemReference(itemId, itemName, systemReference) {
+    const bucket = ensureItemBucket(itemId, itemName);
+    const refKeySet = byItemRefKeys.get(bucket.itemKey);
+    const dedupeKey = [
+      "system",
+      systemReference.flowType || systemReference.title || systemReference.detail,
+      systemReference.source || "",
+    ].join("|");
+    if (refKeySet.has(dedupeKey)) return;
+    refKeySet.add(dedupeKey);
+    bucket.systemReferences.push({
+      itemId,
+      itemName,
+      ...systemReference,
+    });
+  }
+
+  for (const [scriptFileID, parsedScript] of scriptsParsedMap.entries()) {
+    if (!parsedScript || parsedScript.isLevelScript) continue;
+    const resolveRootScripts = buildRootScriptResolver(parsedScript, scriptCtx.db);
+
+    function scanBlock(blockType, blockId, block) {
+      if (!block || block.usedScriptId > 0) return;
+      const rootScripts = resolveRootScripts(blockType, blockId);
+      if (!rootScripts.length) return;
+      const commonScriptGrantData = collectBlockCommonScriptItemGrantMatches(block, scriptCtx, itemNameById);
+      const commonScriptGrantByCommandIndex = new Map(
+        commonScriptGrantData.matches.map((match) => [match.commandIndex, match])
+      );
+
+      for (let commandIndex = 0; commandIndex < (block.commands || []).length; commandIndex += 1) {
+        const cmd = block.commands[commandIndex];
+        const commandInfo = scriptCtx.db.scrcmd.get(cmd.id);
+        if (!commandInfo) continue;
+        const commandText = formatCommand(cmd, scriptCtx);
+        const martCatalog = platMartCatalogs
+          ? getPlatinumMartCatalogForCommand(commandInfo, cmd, platMartCatalogs)
+          : null;
+        const commonScriptGrant = commonScriptGrantByCommandIndex.get(commandIndex) || null;
+
+        const matchedParams = [];
+        const matchedParamIndexes = new Set();
+        for (let paramIndex = 0; paramIndex < cmd.params.length; paramIndex += 1) {
+          if (!isItemLikeCommandParameter(commandInfo, paramIndex)) continue;
+          const itemId = decodeCommandParamValue(cmd.params[paramIndex]);
+          if (itemId === null || !itemNameById.has(itemId)) continue;
+          matchedParamIndexes.add(paramIndex);
+          matchedParams.push({
+            paramIndex,
+            itemId,
+            itemName: itemNameById.get(itemId),
+            referenceKind: "direct_item_param",
+            matchConfidence: "high",
+            parameterType: String(commandInfo?.parameterTypes?.[paramIndex] || ""),
+            parameterValueLabel: String(commandInfo?.parameterValues?.[paramIndex] || ""),
+          });
+        }
+
+        for (let paramIndex = 0; paramIndex < cmd.params.length; paramIndex += 1) {
+          if (matchedParamIndexes.has(paramIndex)) continue;
+          if (isExcludedRawItemIdParameter(commandInfo, paramIndex)) continue;
+          const itemId = decodeCommandParamValue(cmd.params[paramIndex]);
+          if (itemId === null || !itemNameById.has(itemId)) continue;
+          if (commonScriptGrantData.rawParamSkips.has(`${commandIndex}|${paramIndex}|${itemId}`)) continue;
+          matchedParams.push({
+            paramIndex,
+            itemId,
+            itemName: itemNameById.get(itemId),
+            referenceKind: "raw_item_id_param",
+            matchConfidence: "low",
+            parameterType: String(commandInfo?.parameterTypes?.[paramIndex] || ""),
+            parameterValueLabel: String(commandInfo?.parameterValues?.[paramIndex] || ""),
+          });
+        }
+
+        for (const match of matchedParams) {
+          const bucket = ensureItemBucket(match.itemId, match.itemName);
+          for (const rootScriptNumber of rootScripts) {
+            const dedupeKey = [
+              scriptFileID,
+              rootScriptNumber,
+              match.referenceKind,
+              blockType,
+              blockId,
+              cmd.id,
+              match.paramIndex,
+              match.itemId,
+            ].join("|");
+
+            const scriptKey = `${scriptFileID}|${rootScriptNumber}`;
+            pushReference(bucket, dedupeKey, {
+              scriptFileID,
+              scriptNumber: rootScriptNumber,
+              referenceKind: match.referenceKind,
+              matchConfidence: match.matchConfidence,
+              sourceBlockType: blockType,
+              sourceBlockId: blockId,
+              commandId: cmd.id,
+              commandHex: `0x${cmd.id.toString(16).toUpperCase().padStart(4, "0")}`,
+              commandName: commandInfo.name || `CMD_${cmd.id.toString(16).toUpperCase()}`,
+              commandText,
+              matchedParamIndex: match.paramIndex,
+              matchedParamType: match.parameterType,
+              matchedParamValueLabel: match.parameterValueLabel,
+              itemId: match.itemId,
+              itemName: match.itemName,
+              mapHeadersUsingScriptFile: (mapHeadersByScriptFileID.get(scriptFileID) || []).slice(),
+              overworldsUsingScript: (overworldsByScriptKey.get(scriptKey) || []).slice(),
+            });
+          }
+        }
+
+        if (commonScriptGrant) {
+          const bucket = ensureItemBucket(commonScriptGrant.itemId, commonScriptGrant.itemName);
+          for (const rootScriptNumber of rootScripts) {
+            const dedupeKey = [
+              scriptFileID,
+              rootScriptNumber,
+              "common_script_item_grant",
+              blockType,
+              blockId,
+              cmd.id,
+              commonScriptGrant.commonScriptId,
+              commonScriptGrant.itemId,
+              commonScriptGrant.quantity,
+            ].join("|");
+            const scriptKey = `${scriptFileID}|${rootScriptNumber}`;
+            pushReference(bucket, dedupeKey, {
+              scriptFileID,
+              scriptNumber: rootScriptNumber,
+              referenceKind: "common_script_item_grant",
+              matchConfidence: "high",
+              sourceBlockType: blockType,
+              sourceBlockId: blockId,
+              commandId: cmd.id,
+              commandHex: `0x${cmd.id.toString(16).toUpperCase().padStart(4, "0")}`,
+              commandName: commandInfo.name || `CMD_${cmd.id.toString(16).toUpperCase()}`,
+              commandText,
+              matchedParamIndex: 0,
+              matchedParamType: "CommonScript",
+              matchedParamValueLabel: `CommonScript ${commonScriptGrant.commonScriptId}`,
+              itemId: commonScriptGrant.itemId,
+              itemName: commonScriptGrant.itemName,
+              quantity: commonScriptGrant.quantity,
+              commonScriptId: commonScriptGrant.commonScriptId,
+              itemSourceCommandIndex: commonScriptGrant.itemSourceCommandIndex,
+              quantitySourceCommandIndex: commonScriptGrant.quantitySourceCommandIndex,
+              mapHeadersUsingScriptFile: (mapHeadersByScriptFileID.get(scriptFileID) || []).slice(),
+              overworldsUsingScript: (overworldsByScriptKey.get(scriptKey) || []).slice(),
+            });
+          }
+        }
+
+        if (!martCatalog || !martCatalog.items.length) continue;
+        for (const stockItem of martCatalog.items) {
+          const bucket = ensureItemBucket(stockItem.itemId, stockItem.itemName);
+          for (const rootScriptNumber of rootScripts) {
+            const dedupeKey = [
+              scriptFileID,
+              rootScriptNumber,
+              "mart_stock",
+              martCatalog.martType,
+              martCatalog.martId,
+              stockItem.itemId,
+            ].join("|");
+            const scriptKey = `${scriptFileID}|${rootScriptNumber}`;
+            pushReference(bucket, dedupeKey, {
+              scriptFileID,
+              scriptNumber: rootScriptNumber,
+              referenceKind: "mart_stock",
+              matchConfidence: "medium",
+              sourceBlockType: blockType,
+              sourceBlockId: blockId,
+              commandId: cmd.id,
+              commandHex: `0x${cmd.id.toString(16).toUpperCase().padStart(4, "0")}`,
+              commandName: commandInfo.name || `CMD_${cmd.id.toString(16).toUpperCase()}`,
+              commandText,
+              matchedParamIndex: null,
+              matchedParamType: null,
+              matchedParamValueLabel: null,
+              itemId: stockItem.itemId,
+              itemName: stockItem.itemName,
+              martType: martCatalog.martType,
+              martId: martCatalog.martId,
+              martLabel: martCatalog.martLabel,
+              martStockSource: martCatalog.stockSource,
+              requiredBadges: stockItem.requiredBadges,
+              mapHeadersUsingScriptFile: (mapHeadersByScriptFileID.get(scriptFileID) || []).slice(),
+              overworldsUsingScript: (overworldsByScriptKey.get(scriptKey) || []).slice(),
+            });
+          }
+        }
+      }
+    }
+
+    for (let i = 0; i < parsedScript.scripts.length; i += 1) {
+      scanBlock("script", i + 1, parsedScript.scripts[i]);
+    }
+    for (let i = 0; i < parsedScript.functions.length; i += 1) {
+      scanBlock("function", i + 1, parsedScript.functions[i]);
+    }
+  }
+
+  for (const [itemId, itemName] of itemNameById.entries()) {
+    const systemReferences = platUndergroundSystemRefs.get(itemId);
+    if (!systemReferences || !systemReferences.length) continue;
+    for (const systemReference of systemReferences) {
+      pushSystemReference(itemId, itemName, systemReference);
+    }
+  }
+
+  for (const bucket of Object.values(byItemKey)) {
+    bucket.references.sort((a, b) => {
+      if (a.referenceKind !== b.referenceKind) return a.referenceKind.localeCompare(b.referenceKind);
+      if (a.scriptFileID !== b.scriptFileID) return a.scriptFileID - b.scriptFileID;
+      if (a.scriptNumber !== b.scriptNumber) return a.scriptNumber - b.scriptNumber;
+      if (a.commandId !== b.commandId) return a.commandId - b.commandId;
+      if (a.sourceBlockType !== b.sourceBlockType) return a.sourceBlockType.localeCompare(b.sourceBlockType);
+      return a.sourceBlockId - b.sourceBlockId;
+    });
+    bucket.systemReferences.sort((a, b) => {
+      const aKey = `${a.flowType || ""}|${a.title || ""}|${a.detail || ""}`;
+      const bKey = `${b.flowType || ""}|${b.title || ""}|${b.detail || ""}`;
+      return aKey.localeCompare(bKey);
+    });
+  }
+
+  const scriptFileUsageById = {};
+  for (const [scriptFileID, records] of mapHeadersByScriptFileID.entries()) {
+    scriptFileUsageById[String(scriptFileID)] = records.slice();
+  }
+
+  return { byItemKey, byItemId, scriptFileUsageById };
+}
+
+function buildWildHeldItemReferenceDebugData({
+  encounters,
+  mapHeaders,
+  locationNamesRaw,
+  itemNamesRaw,
+  pokemonNamesRaw,
+  personalEntries,
+}) {
+  const byItemKey = {};
+  const byItemId = {};
+  const byItemRefKeys = new Map();
+  const mapHeadersByEncounterFileID = new Map();
+  const speciesHeldItemsBySpeciesId = new Map();
+
+  function pushUnique(list, entry, keyBuilder) {
+    const key = keyBuilder(entry);
+    if (list.some((existing) => keyBuilder(existing) === key)) return;
+    list.push(entry);
+  }
+
+  function ensureItemBucket(itemId, itemName) {
+    const itemKey = normalizeName(itemName);
+    if (!byItemKey[itemKey]) {
+      byItemKey[itemKey] = {
+        itemId,
+        itemKey,
+        itemName,
+        references: [],
+      };
+      byItemRefKeys.set(itemKey, new Set());
+    }
+    byItemId[String(itemId)] = byItemKey[itemKey];
+    return byItemKey[itemKey];
+  }
+
+  function pushReference(bucket, dedupeKey, reference) {
+    const refKeySet = byItemRefKeys.get(bucket.itemKey);
+    if (refKeySet.has(dedupeKey)) return;
+    refKeySet.add(dedupeKey);
+    bucket.references.push(reference);
+  }
+
+  function makeHeaderRecord(mapHeader) {
+    const headerID = parseNumeric(mapHeader.HeaderID);
+    const eventFileID = String(mapHeader.EventFileID);
+    const scriptFileIDRaw = parseNumeric(mapHeader.ScriptFileID);
+    const scriptFileID = scriptFileIDRaw !== null ? (scriptFileIDRaw & 0xFFFF) : null;
+    const encounterFileIDRaw = parseNumeric(mapHeader.WildPokemonFileID);
+    const encounterFileID = encounterFileIDRaw !== null ? (encounterFileIDRaw & 0xFFFF) : null;
+    const mapNameIndex = parseNumeric(mapHeader.MapNameIndexInTextArchive);
+    const locationRaw =
+      mapNameIndex !== null && mapNameIndex >= 0 && mapNameIndex < locationNamesRaw.length
+        ? locationNamesRaw[mapNameIndex]
+        : `unknown_location_${mapNameIndex}`;
+    return {
+      headerID,
+      eventFileID,
+      scriptFileID,
+      encounterFileID,
+      locationName: normalizeName(locationRaw),
+      locationRaw,
+    };
+  }
+
+  function pushHeaderRecord(encounterFileID, record) {
+    if (!Number.isFinite(encounterFileID)) return;
+    if (!mapHeadersByEncounterFileID.has(encounterFileID)) mapHeadersByEncounterFileID.set(encounterFileID, []);
+    pushUnique(
+      mapHeadersByEncounterFileID.get(encounterFileID),
+      record,
+      (entry) => `${entry.headerID}|${entry.eventFileID}|${entry.scriptFileID}|${entry.encounterFileID}|${entry.locationRaw}`
+    );
+  }
+
+  function addSpeciesHeldItem(speciesId, itemId, heldItemSlot) {
+    if (!Number.isFinite(speciesId) || !Number.isFinite(itemId) || itemId <= 0 || itemId >= itemNamesRaw.length) return;
+    if (!speciesHeldItemsBySpeciesId.has(speciesId)) speciesHeldItemsBySpeciesId.set(speciesId, []);
+    const itemName = itemNamesRaw[itemId] ?? `ITEM_${itemId}`;
+    speciesHeldItemsBySpeciesId.get(speciesId).push({
+      itemId,
+      itemName,
+      heldItemSlot,
+      heldItemRole: heldItemSlot === 1 ? "common" : heldItemSlot === 2 ? "rare" : "other",
+    });
+  }
+
+  function buildGrassSlots(list, walkingLevels) {
+    if (!Array.isArray(list)) return [];
+    return list.map((record, index) => ({
+      ...record,
+      level: Array.isArray(walkingLevels) ? (walkingLevels[index] ?? null) : null,
+    }));
+  }
+
+  function scanSlotList(encounterFileID, encounterType, slots, mapHeadersUsingEncounterFile) {
+    if (!Array.isArray(slots) || !slots.length) return;
+    for (let i = 0; i < slots.length; i += 1) {
+      const slotRecord = slots[i];
+      if (!slotRecord) continue;
+      const speciesId = parseNumeric(slotRecord.species);
+      if (!Number.isFinite(speciesId) || speciesId <= 0) continue;
+      const heldItems = speciesHeldItemsBySpeciesId.get(speciesId) || [];
+      if (!heldItems.length) continue;
+      const speciesName =
+        String(slotRecord.speciesName || "").trim() ||
+        pokemonNamesRaw[speciesId] ||
+        `SPECIES_${speciesId}`;
+
+      for (let j = 0; j < heldItems.length; j += 1) {
+        const heldItem = heldItems[j];
+        const bucket = ensureItemBucket(heldItem.itemId, heldItem.itemName);
+        const dedupeKey = [
+          encounterFileID,
+          encounterType,
+          slotRecord.slot ?? i,
+          speciesId,
+          heldItem.itemId,
+          heldItem.heldItemSlot,
+          slotRecord.level ?? "",
+          slotRecord.minLv ?? "",
+          slotRecord.maxLv ?? "",
+        ].join("|");
+        pushReference(bucket, dedupeKey, {
+          encounterFileID,
+          encounterType,
+          slot: parseNumeric(slotRecord.slot ?? i),
+          speciesId,
+          speciesName,
+          heldItemSlot: heldItem.heldItemSlot,
+          heldItemRole: heldItem.heldItemRole,
+          level: parseNumeric(slotRecord.level),
+          minLv: parseNumeric(slotRecord.minLv),
+          maxLv: parseNumeric(slotRecord.maxLv),
+          mapHeadersUsingEncounterFile: mapHeadersUsingEncounterFile.slice(),
+        });
+      }
+    }
+  }
+
+  for (let i = 0; i < mapHeaders.length; i += 1) {
+    const record = makeHeaderRecord(mapHeaders[i]);
+    if (!Number.isFinite(record.encounterFileID)) continue;
+    pushHeaderRecord(record.encounterFileID, record);
+  }
+
+  for (let speciesId = 0; speciesId < personalEntries.length; speciesId += 1) {
+    const entry = personalEntries[speciesId];
+    if (!entry) continue;
+    addSpeciesHeldItem(speciesId, parseNumeric(entry.item1), 1);
+    addSpeciesHeldItem(speciesId, parseNumeric(entry.item2), 2);
+  }
+
+  const encounterList = Array.isArray(encounters) ? encounters : [];
+  for (let i = 0; i < encounterList.length; i += 1) {
+    const encounter = encounterList[i];
+    if (!encounter || encounter.blank) continue;
+    const encounterFileID = parseNumeric(encounter.fileId);
+    if (!Number.isFinite(encounterFileID)) continue;
+    const mapHeadersUsingEncounterFile = (mapHeadersByEncounterFileID.get(encounterFileID) || []).slice();
+
+    scanSlotList(encounterFileID, "walking", encounter.walking, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "time_day", encounter.timeSpecific && encounter.timeSpecific.day, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "time_night", encounter.timeSpecific && encounter.timeSpecific.night, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "grass_morning", buildGrassSlots(encounter.grass && encounter.grass.morning, encounter.walkingLevels), mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "grass_day", buildGrassSlots(encounter.grass && encounter.grass.day, encounter.walkingLevels), mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "grass_night", buildGrassSlots(encounter.grass && encounter.grass.night, encounter.walkingLevels), mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "surf", encounter.surf, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "rock_smash", encounter.rockSmash, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "old_rod", encounter.oldRod, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "good_rod", encounter.goodRod, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "super_rod", encounter.superRod, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "swarm", encounter.swarms, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "pokegear_hoenn", encounter.pokegearMusic && encounter.pokegearMusic.hoenn, mapHeadersUsingEncounterFile);
+    scanSlotList(encounterFileID, "pokegear_sinnoh", encounter.pokegearMusic && encounter.pokegearMusic.sinnoh, mapHeadersUsingEncounterFile);
+  }
+
+  for (const bucket of Object.values(byItemKey)) {
+    bucket.references.sort((a, b) => {
+      if (a.encounterFileID !== b.encounterFileID) return a.encounterFileID - b.encounterFileID;
+      if (a.encounterType !== b.encounterType) return a.encounterType.localeCompare(b.encounterType);
+      if (a.speciesName !== b.speciesName) return a.speciesName.localeCompare(b.speciesName);
+      if (a.slot !== b.slot) return (a.slot ?? Number.POSITIVE_INFINITY) - (b.slot ?? Number.POSITIVE_INFINITY);
+      return a.heldItemSlot - b.heldItemSlot;
+    });
+  }
+
+  return { byItemKey, byItemId };
 }
 
 function buildTrainerLocationIndex(groupedEventOverworlds, mapHeaders, locationNamesRaw, options = {}) {
@@ -2755,6 +4005,7 @@ function buildOverridesAndSearchIndex(data, options) {
           searchIndexOffset: BattleSearchIndexOffset,
           searchIndexCount: BattleSearchCountIndex,
           itemLocationStats: itemLocations.stats,
+          itemLocations,
         };
       });
 }
@@ -2778,7 +4029,11 @@ export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
     searchIndexOffset: built.searchIndexOffset,
     searchIndexCount: built.searchIndexCount,
     itemLocationStats: built.itemLocationStats || null,
-    debug: data.debug || null,
+    debug: {
+      ...(data.debug || {}),
+      itemLocations: built.itemLocations || null,
+    },
+    scriptTexts: data.scriptsTextMap ? Object.fromEntries(data.scriptsTextMap.entries()) : null,
     texts: data.texts,
     romTitle,
     romFamily: data.family,
@@ -3920,6 +5175,8 @@ async function loadScriptDatabase(family) {
       name: val.name || `CMD_${id.toString(16).toUpperCase()}`,
       parameters: (val.parameters || []).map((n) => Number(n)),
       parameterTypes: (val.parameter_types || []).map((t) => String(t)),
+      parameterValues: (val.parameter_values || []).map((t) => String(t)),
+      description: val.description || "",
     });
   }
 
@@ -5448,6 +6705,7 @@ async function collectDspreData(editor, { log }) {
 
   const scriptsEntries = [];
   const scriptsTextMap = new Map();
+  const scriptsParsedMap = new Map();
   try {
     const scriptsNarc = await editor.openNarcAtPath(paths.scripts);
     if (scriptsNarc.sizeMismatch || scriptsNarc.lenient) {
@@ -5463,6 +6721,7 @@ async function collectDspreData(editor, { log }) {
         const parsed = parseScriptFile(new Uint8Array(subfileBuffer), scriptCtx);
         if (parsed.isLevelScript) continue;
         if (!parsed.scripts.length) continue;
+        scriptsParsedMap.set(i, parsed);
         const txt = buildScriptText(parsed, scriptCtx, i);
         scriptsTextMap.set(i, txt);
         scriptsEntries.push({
@@ -5481,6 +6740,37 @@ async function collectDspreData(editor, { log }) {
       data: TEXT_ENCODER.encode(`Scripts export skipped due to error: ${e?.message || e}\n`),
     });
   }
+
+  const debugMapHeaders = parseCsvLines(mapHeadersCsv);
+  const debugEventOverworlds = parseCsvLines(eventOverworldCsv);
+  const debugGroupedEventOverworlds = groupEventOverworldsByEventFileID(debugEventOverworlds);
+  const itemLocations = buildItemLocationIndex(
+    debugGroupedEventOverworlds,
+    debugMapHeaders,
+    itemNames,
+    locationNames,
+    scriptsTextMap,
+    { commonScriptIds: family === "HGSS" ? [2033, 2009] : [2016, 2044] }
+  );
+  const itemScriptReferences = buildItemScriptReferenceDebugData({
+    groupedEventOverworlds: debugGroupedEventOverworlds,
+    mapHeaders: debugMapHeaders,
+    locationNamesRaw: locationNames,
+    scriptsParsedMap,
+    scriptCtx,
+    itemNamesRaw: itemNames,
+  });
+  const wildHeldItemReferences = buildWildHeldItemReferenceDebugData({
+    encounters,
+    mapHeaders: debugMapHeaders,
+    locationNamesRaw: locationNames,
+    itemNamesRaw: itemNames,
+    pokemonNamesRaw: pokemonNames,
+    personalEntries,
+  });
+  const miningTable = family === "Plat"
+    ? buildPlatinumMiningTableDebugData(overlay5, itemNames)
+    : null;
 
   return {
     romId,
@@ -5507,6 +6797,10 @@ async function collectDspreData(editor, { log }) {
     trainerCount,
     debug: {
       trainersWithNonZeroAbilitySlot,
+      itemScriptReferences,
+      itemLocations,
+      wildHeldItemReferences,
+      miningTable,
     },
     formattedSets,
     scriptsEntries,
