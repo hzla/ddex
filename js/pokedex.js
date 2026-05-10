@@ -1268,7 +1268,19 @@ var PokedexArticlePanel = PokedexResultPanel.extend({
   },
   initialize: function (id) {
     id = toID(id);
-    this.shortTitle = id;
+    var isUndergroundLootArticle = id === "undergroundloot";
+    var isGroundItemsArticle = id === "grounditems";
+    var isHiddenItemsArticle = id === "hiddenitems";
+    var isNpcItemsArticle = id === "npcitems";
+    this.shortTitle = isUndergroundLootArticle
+      ? "Underground Loot"
+      : isGroundItemsArticle
+        ? "Ground Items"
+      : isHiddenItemsArticle
+        ? "Hidden Items"
+        : isNpcItemsArticle
+          ? "NPC Items"
+        : id;
 
     var buf = '<div class="pfx-body dexentry">';
     buf +=
@@ -1277,12 +1289,30 @@ var PokedexArticlePanel = PokedexResultPanel.extend({
       '<h1><a href="/articles/' +
       id +
       '" data-target="push" class="subtle">' +
-      id +
+      Dex.escapeHTML(this.shortTitle) +
       "</a></h1>";
     buf += '<div class="article-content"><em>Loading...</em></div>';
     buf += "</div>";
 
     this.html(buf);
+
+    if (isUndergroundLootArticle) {
+      this.$(".article-content").html(buildUndergroundLootArticleHtml());
+      return;
+    }
+    if (isGroundItemsArticle) {
+      this.$(".article-content").html(buildGroundItemsArticleHtml());
+      return;
+    }
+    if (isHiddenItemsArticle) {
+      this.$(".article-content").html(buildHiddenItemsArticleHtml());
+      return;
+    }
+    if (isNpcItemsArticle) {
+      this.$(".article-content").html(buildNpcItemsArticleHtml());
+      renderNpcSprites(this.$el && this.$el[0]);
+      return;
+    }
 
     var self = this;
     $.get("/.articles-cached/" + id + ".html").done(function (html) {
@@ -1307,3 +1337,404 @@ var PokedexArticlePanel = PokedexResultPanel.extend({
     });
   },
 });
+
+function getUndergroundLootDebugData() {
+  var miningDebug =
+    window.DDEX_ROM_MINING_DEBUG ||
+    (window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.miningTable) ||
+    null;
+  if (!miningDebug || miningDebug.status !== "ok") return null;
+  return miningDebug;
+}
+
+function formatUndergroundProbabilityPercent(probability) {
+  var value = Number(probability || 0) * 100;
+  return value.toFixed(4) + "%";
+}
+
+function formatUndergroundProbabilityOdds(probability) {
+  var value = Number(probability || 0);
+  if (!value) return "N/A";
+  return "1 in " + (1 / value).toFixed(2);
+}
+
+function renderUndergroundProbabilityCell(weight, probability) {
+  return (
+    '<div class="ddex-underground-probability">' +
+      '<strong>' + Dex.escapeHTML(formatUndergroundProbabilityPercent(probability)) + "</strong>" +
+      '<span>weight ' + Dex.escapeHTML(String(weight || 0)) + "</span>" +
+      '<span>' + Dex.escapeHTML(formatUndergroundProbabilityOdds(probability)) + "</span>" +
+    "</div>"
+  );
+}
+
+function getUndergroundLootRows() {
+  var miningDebug = getUndergroundLootDebugData();
+  if (!miningDebug || !miningDebug.aggregates || !miningDebug.aggregates.byBagItemId) return [];
+  var itemNames =
+    window.DDEX_ROM_TEXTS && Array.isArray(window.DDEX_ROM_TEXTS.itemNames)
+      ? window.DDEX_ROM_TEXTS.itemNames
+      : [];
+  var rows = [];
+
+  for (var bagItemId in miningDebug.aggregates.byBagItemId) {
+    var aggregate = miningDebug.aggregates.byBagItemId[bagItemId];
+    if (!aggregate) continue;
+    var itemId = Number(bagItemId);
+    var itemName = itemNames[itemId] || aggregate.bagItemName || ("ITEM_" + bagItemId);
+    rows.push({
+      itemId: itemId,
+      itemName: itemName,
+      entryIndexes: Array.isArray(aggregate.entryIndexes) ? aggregate.entryIndexes.slice() : [],
+      weights: aggregate.weights || {},
+      probabilities: aggregate.probabilities || {},
+    });
+  }
+
+  rows.sort(function (a, b) {
+    var nameCmp = String(a.itemName || "").localeCompare(String(b.itemName || ""));
+    if (nameCmp) return nameCmp;
+    return a.itemId - b.itemId;
+  });
+  return rows;
+}
+
+function buildUndergroundLootArticleHtml() {
+  var miningDebug = getUndergroundLootDebugData();
+  if (!miningDebug) {
+    return (
+      '<div class="ddex-underground-loot">' +
+        "<p>Load a Platinum-family ROM with Underground mining data to view this page.</p>" +
+      "</div>"
+    );
+  }
+
+  var rows = getUndergroundLootRows();
+  var buf = '<div class="ddex-underground-loot">';
+  buf += '<table class="ddex-underground-table">';
+  buf += "<thead><tr>";
+  buf += "<th>Item</th>";
+  buf += "<th>Pre NatDex Odd TID</th>";
+  buf += "<th>Pre NatDex Even TID</th>";
+  buf += "<th>Post NatDex Odd TID</th>";
+  buf += "<th>Post NatDex Even TID</th>";
+  buf += "</tr></thead><tbody>";
+
+  for (var i = 0; i < rows.length; i += 1) {
+    var row = rows[i];
+    var itemHref = "/items/" + toID(row.itemName);
+    var mergedFrom = row.entryIndexes.length > 1
+      ? '<span class="ddex-underground-item-meta">Merged entries: ' + Dex.escapeHTML(row.entryIndexes.join(", ")) + "</span>"
+      : '<span class="ddex-underground-item-meta">Entry: ' + Dex.escapeHTML(String(row.entryIndexes[0])) + "</span>";
+    buf += "<tr>";
+    buf += '<th scope="row"><a href="' + itemHref + '" data-target="push">' + Dex.escapeHTML(row.itemName) + "</a>" +
+      '<span class="ddex-underground-item-meta">Item ID: ' + Dex.escapeHTML(String(row.itemId)) + "</span>" +
+      mergedFrom +
+      "</th>";
+    buf += "<td>" + renderUndergroundProbabilityCell(row.weights.preNatDexOddTID, row.probabilities.preNatDexOddTID) + "</td>";
+    buf += "<td>" + renderUndergroundProbabilityCell(row.weights.preNatDexEvenTID, row.probabilities.preNatDexEvenTID) + "</td>";
+    buf += "<td>" + renderUndergroundProbabilityCell(row.weights.postNatDexOddTID, row.probabilities.postNatDexOddTID) + "</td>";
+    buf += "<td>" + renderUndergroundProbabilityCell(row.weights.postNatDexEvenTID, row.probabilities.postNatDexEvenTID) + "</td>";
+    buf += "</tr>";
+  }
+
+  buf += "</tbody></table></div>";
+  return buf;
+}
+
+function getHiddenItemLocationDebugData() {
+  var itemLocationDebug =
+    window.DDEX_ROM_ITEM_LOCATION_DEBUG ||
+    (window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.itemLocations) ||
+    null;
+  if (!itemLocationDebug || !itemLocationDebug.byItem) return null;
+  return itemLocationDebug;
+}
+
+function getItemLocationDisplayNameMap() {
+  var itemNames =
+    window.DDEX_ROM_TEXTS && Array.isArray(window.DDEX_ROM_TEXTS.itemNames)
+      ? window.DDEX_ROM_TEXTS.itemNames
+      : [];
+  var byKey = {};
+  for (var i = 0; i < itemNames.length; i += 1) {
+    var itemName = String(itemNames[i] || "").trim();
+    if (!itemName) continue;
+    byKey[toID(itemName)] = itemName;
+  }
+  return byKey;
+}
+
+function getItemLocationRows(kind) {
+  var itemLocationDebug = getHiddenItemLocationDebugData();
+  if (!itemLocationDebug) return [];
+
+  var itemNamesByKey = getItemLocationDisplayNameMap();
+  var rows = [];
+  var matcher;
+
+  if (kind === "ground") {
+    matcher = function (record) {
+      return record && record.foundMethod === "event_script_number";
+    };
+  } else if (kind === "hidden") {
+    matcher = function (record) {
+      return record && record.foundMethod === "hidden_item";
+    };
+  } else if (kind === "npc") {
+    matcher = function (record) {
+      return record && record.foundMethod === "script_parse";
+    };
+  } else {
+    return [];
+  }
+
+  for (var itemKey in itemLocationDebug.byItem) {
+    if (!Object.prototype.hasOwnProperty.call(itemLocationDebug.byItem, itemKey)) continue;
+    var records = Array.isArray(itemLocationDebug.byItem[itemKey]) ? itemLocationDebug.byItem[itemKey] : [];
+    for (var i = 0; i < records.length; i += 1) {
+      var record = records[i];
+      if (!matcher(record)) continue;
+      var itemName = itemNamesByKey[itemKey] || record.itemName || itemKey;
+      rows.push({
+        itemKey: itemKey,
+        itemName: itemName,
+        quantity: Number(record.quantity || 0) || 1,
+        locationRaw: record.locationRaw || record.locationName || "Unknown location",
+        headerID: Number.isFinite(record.headerID) ? record.headerID : null,
+        eventFileID: record.eventFileID != null ? String(record.eventFileID) : "",
+        scriptFileID: Number.isFinite(record.scriptFileID) ? record.scriptFileID : null,
+        scriptNumber: Number.isFinite(record.scriptNumber) ? record.scriptNumber : null,
+        source: record.source || "",
+        owSpriteID: Number.isFinite(record.owSpriteID) ? record.owSpriteID : null,
+        orientation: Number.isFinite(record.orientation) ? record.orientation : 0,
+        hiddenItemFlag: Number.isFinite(record.hiddenItemFlag) ? record.hiddenItemFlag : null,
+        hiddenItemRange: Number.isFinite(record.hiddenItemRange) ? record.hiddenItemRange : null,
+        hiddenItemScriptIndex: Number.isFinite(record.hiddenItemScriptIndex) ? record.hiddenItemScriptIndex : null,
+        xCoord: Number.isFinite(record.xCoord) ? record.xCoord : null,
+        yCoord: Number.isFinite(record.yCoord) ? record.yCoord : null,
+        zPosition: Number.isFinite(record.zPosition) ? record.zPosition : null,
+      });
+    }
+  }
+
+  rows.sort(function (a, b) {
+    var locationCmp = String(a.locationRaw || "").localeCompare(String(b.locationRaw || ""));
+    if (locationCmp) return locationCmp;
+    var itemCmp = String(a.itemName || "").localeCompare(String(b.itemName || ""));
+    if (itemCmp) return itemCmp;
+    var aHeader = a.headerID === null ? Number.POSITIVE_INFINITY : a.headerID;
+    var bHeader = b.headerID === null ? Number.POSITIVE_INFINITY : b.headerID;
+    if (aHeader !== bHeader) return aHeader - bHeader;
+    if (a.xCoord !== b.xCoord) return (a.xCoord === null ? Number.POSITIVE_INFINITY : a.xCoord) - (b.xCoord === null ? Number.POSITIVE_INFINITY : b.xCoord);
+    return (a.yCoord === null ? Number.POSITIVE_INFINITY : a.yCoord) - (b.yCoord === null ? Number.POSITIVE_INFINITY : b.yCoord);
+  });
+
+  return rows;
+}
+
+function buildItemLocationCoordsLabel(row) {
+  var values = [];
+  if (row.xCoord !== null) values.push("x=" + row.xCoord);
+  if (row.yCoord !== null) values.push("y=" + row.yCoord);
+  if (row.zPosition !== null) values.push("z=" + row.zPosition);
+  return values.length ? values.join(", ") : "N/A";
+}
+
+function buildItemLocationArticleIntro(sourceGen, missingMessage) {
+  if (sourceGen !== 4) {
+    return (
+      '<div class="ddex-hidden-items">' +
+        "<p>Load a Gen 4 ROM to view resolved item locations.</p>" +
+      "</div>"
+    );
+  }
+
+  var itemLocationDebug = getHiddenItemLocationDebugData();
+  if (!itemLocationDebug) {
+    return (
+      '<div class="ddex-hidden-items">' +
+        "<p>" + Dex.escapeHTML(missingMessage) + "</p>" +
+      "</div>"
+    );
+  }
+
+  return null;
+}
+
+function renderNpcItemSpriteCell(row) {
+  if (row.owSpriteID === null) {
+    return '<span class="ddex-underground-item-meta">No sprite resolved</span>';
+  }
+  return (
+    '<div class="npc-row ddex-hidden-item-npc-row">' +
+      '<div class="npc-sprite" data-sprite-id="' + Dex.escapeHTML(String(row.owSpriteID)) + '" data-orientation="' + Dex.escapeHTML(String(row.orientation || 0)) + '" ' +
+      'style="width:32px;height:32px;background-repeat:no-repeat;image-rendering:pixelated;"></div>' +
+      '<span>Sprite ' + Dex.escapeHTML(String(row.owSpriteID)) + "</span>" +
+    "</div>"
+  );
+}
+
+function buildGroundItemsArticleHtml() {
+  var sourceGen =
+    Number(window.DDEX_ROM_SOURCE_GEN || localStorage.getItem("ddexRomSourceGen") || "0") || null;
+  var intro = buildItemLocationArticleIntro(
+    sourceGen,
+    "Ground item debug data isn't available for the currently loaded ROM. Reimport the ROM after rebuilding if needed."
+  );
+  if (intro) return intro;
+
+  var rows = getItemLocationRows("ground");
+  var buf = '<div class="ddex-hidden-items">';
+  buf += "<p>" + Dex.escapeHTML(String(rows.length)) + (rows.length === 1 ? " visible ground item location resolved." : " visible ground item locations resolved.") + "</p>";
+
+  if (!rows.length) {
+    buf += "<p>No visible ground items were resolved for this ROM.</p>";
+    buf += "</div>";
+    return buf;
+  }
+
+  buf += '<table class="ddex-underground-table ddex-hidden-items-table">';
+  buf += "<thead><tr>";
+  buf += "<th>Item</th>";
+  buf += "<th>Resolved Location</th>";
+  buf += "<th>Script</th>";
+  buf += "<th>Header</th>";
+  buf += "<th>Event</th>";
+  buf += "<th>Script File</th>";
+  buf += "</tr></thead><tbody>";
+
+  for (var i = 0; i < rows.length; i += 1) {
+    var row = rows[i];
+    buf += "<tr>";
+    buf += '<th scope="row"><a href="/items/' + toID(row.itemName) + '" data-target="push">' + Dex.escapeHTML(row.itemName) + "</a>";
+    buf += '<span class="ddex-underground-item-meta">Visible pickup</span>';
+    buf += "</th>";
+    buf += "<td>" + Dex.escapeHTML(String(row.locationRaw || "Unknown location")) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.scriptNumber === null ? "N/A" : String(row.scriptNumber)) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.headerID === null ? "N/A" : String(row.headerID)) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.eventFileID || "N/A") + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.scriptFileID === null ? "N/A" : String(row.scriptFileID)) + "</td>";
+    buf += "</tr>";
+  }
+
+  buf += "</tbody></table></div>";
+  return buf;
+}
+
+function buildHiddenItemsArticleHtml() {
+  var sourceGen =
+    Number(window.DDEX_ROM_SOURCE_GEN || localStorage.getItem("ddexRomSourceGen") || "0") || null;
+  var intro = buildItemLocationArticleIntro(
+    sourceGen,
+    "Hidden item debug data isn't available for the currently loaded ROM. Reimport the ROM after rebuilding if needed."
+  );
+  if (intro) return intro;
+
+  var itemLocationDebug = getHiddenItemLocationDebugData();
+  var rows = getItemLocationRows("hidden");
+  var hiddenCount =
+    itemLocationDebug.stats && Number.isFinite(itemLocationDebug.stats.hiddenItemCount)
+      ? itemLocationDebug.stats.hiddenItemCount
+      : rows.length;
+  var buf = '<div class="ddex-hidden-items">';
+  buf += "<p>";
+  buf += Dex.escapeHTML(String(hiddenCount));
+  buf += hiddenCount === 1 ? " hidden item location resolved." : " hidden item locations resolved.";
+  buf += "</p>";
+
+  if (!rows.length) {
+    buf += "<p>No hidden items were resolved for this ROM.</p>";
+    buf += "</div>";
+    return buf;
+  }
+
+  buf += '<table class="ddex-underground-table ddex-hidden-items-table">';
+  buf += "<thead><tr>";
+  buf += "<th>Item</th>";
+  buf += "<th>Resolved Location</th>";
+  buf += "<th>Qty</th>";
+  buf += "<th>Coords</th>";
+  buf += "<th>Header</th>";
+  buf += "<th>Event</th>";
+  buf += "<th>Flag</th>";
+  buf += "</tr></thead><tbody>";
+
+  for (var i = 0; i < rows.length; i += 1) {
+    var row = rows[i];
+    buf += "<tr>";
+    buf += '<th scope="row"><a href="/items/' + toID(row.itemName) + '" data-target="push">' + Dex.escapeHTML(row.itemName) + "</a>";
+    if (row.hiddenItemScriptIndex !== null || row.hiddenItemRange !== null) {
+      buf += '<span class="ddex-underground-item-meta">';
+      if (row.hiddenItemScriptIndex !== null) {
+        buf += "Hidden script " + Dex.escapeHTML(String(row.hiddenItemScriptIndex));
+      } else {
+        buf += "Hidden item";
+      }
+      if (row.hiddenItemRange !== null) {
+        buf += " | range " + Dex.escapeHTML(String(row.hiddenItemRange));
+      }
+      buf += "</span>";
+    }
+    buf += "</th>";
+    buf += "<td>" + Dex.escapeHTML(String(row.locationRaw || "Unknown location")) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(String(row.quantity || 1)) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(buildItemLocationCoordsLabel(row)) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.headerID === null ? "N/A" : String(row.headerID)) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.eventFileID || "N/A") + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.hiddenItemFlag === null ? "N/A" : String(row.hiddenItemFlag)) + "</td>";
+    buf += "</tr>";
+  }
+
+  buf += "</tbody></table></div>";
+  return buf;
+}
+
+function buildNpcItemsArticleHtml() {
+  var sourceGen =
+    Number(window.DDEX_ROM_SOURCE_GEN || localStorage.getItem("ddexRomSourceGen") || "0") || null;
+  var intro = buildItemLocationArticleIntro(
+    sourceGen,
+    "NPC item debug data isn't available for the currently loaded ROM. Reimport the ROM after rebuilding if needed."
+  );
+  if (intro) return intro;
+
+  var rows = getItemLocationRows("npc");
+  var buf = '<div class="ddex-hidden-items">';
+  buf += "<p>" + Dex.escapeHTML(String(rows.length)) + (rows.length === 1 ? " NPC item location resolved." : " NPC item locations resolved.") + "</p>";
+
+  if (!rows.length) {
+    buf += "<p>No NPC item gifts were resolved for this ROM.</p>";
+    buf += "</div>";
+    return buf;
+  }
+
+  buf += '<table class="ddex-underground-table ddex-hidden-items-table">';
+  buf += "<thead><tr>";
+  buf += "<th>Item</th>";
+  buf += "<th>NPC</th>";
+  buf += "<th>Resolved Location</th>";
+  buf += "<th>Grant Path</th>";
+  buf += "<th>Script</th>";
+  buf += "<th>Header</th>";
+  buf += "</tr></thead><tbody>";
+
+  for (var i = 0; i < rows.length; i += 1) {
+    var row = rows[i];
+    buf += "<tr>";
+    buf += '<th scope="row"><a href="/items/' + toID(row.itemName) + '" data-target="push">' + Dex.escapeHTML(row.itemName) + "</a>";
+    if (row.scriptNumber !== null) {
+      buf += '<span class="ddex-underground-item-meta">Script ' + Dex.escapeHTML(String(row.scriptNumber)) + "</span>";
+    }
+    buf += "</th>";
+    buf += "<td>" + renderNpcItemSpriteCell(row) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(String(row.locationRaw || "Unknown location")) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.source || "script_parse") + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.scriptFileID === null ? "N/A" : String(row.scriptFileID)) + ":" + Dex.escapeHTML(row.scriptNumber === null ? "N/A" : String(row.scriptNumber)) + "</td>";
+    buf += "<td>" + Dex.escapeHTML(row.headerID === null ? "N/A" : String(row.headerID)) + "</td>";
+    buf += "</tr>";
+  }
+
+  buf += "</tbody></table></div>";
+  return buf;
+}

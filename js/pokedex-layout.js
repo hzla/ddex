@@ -328,9 +328,14 @@
     },
     inferSidebarFragment: function (fragment) {
       fragment = fragmentWithoutQuery(fragment);
+      if (startsWithRoute(fragment, "articles/undergroundloot")) return "more/";
+      if (startsWithRoute(fragment, "articles/grounditems")) return "more/";
+      if (startsWithRoute(fragment, "articles/hiddenitems")) return "more/";
+      if (startsWithRoute(fragment, "articles/npcitems")) return "more/";
       if (startsWithRoute(fragment, "pokemon/")) return "pokemon/";
       if (startsWithRoute(fragment, "moves/")) return "moves/";
       if (startsWithRoute(fragment, "encounters/")) return "encounters/";
+      if (startsWithRoute(fragment, "more/")) return "more/";
       return "";
     },
     getBridgePanelType: function (fragment) {

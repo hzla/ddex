@@ -844,6 +844,16 @@ function groupEventOverworldsByEventFileID(eventOverworlds) {
   return grouped;
 }
 
+function groupHiddenItemEventsByEventFileID(hiddenItemEvents) {
+  const grouped = {};
+  for (const entry of hiddenItemEvents) {
+    const key = String(entry.EventFileID);
+    if (!grouped[key]) grouped[key] = [];
+    grouped[key].push(entry);
+  }
+  return grouped;
+}
+
 function parseScriptText(text, options = {}) {
   if (!text) return null;
   const lines = text.split(/\r?\n/);
@@ -1140,14 +1150,24 @@ function getOverworldEntityForScript(eventOverworldEntries, scriptNumber) {
       entry.OverlayTableEntry ?? entry.OverworldTableEntry ?? entry.overworldTableEntry ?? null,
     overworldIndex: entry.OverworldIndex ?? null,
     owSpriteID: entry.OwSpriteID ?? entry.owSpriteID ?? null,
+    orientation: entry.Orientation ?? entry.orientation ?? null,
     scriptNumber: parseNumeric(entry.ScriptNumber),
   };
 }
 
-function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw, locationNamesRaw, scriptsTextMap, options = {}) {
+function buildItemLocationIndex(
+  groupedEventOverworlds,
+  groupedHiddenItemEvents,
+  mapHeaders,
+  itemNamesRaw,
+  locationNamesRaw,
+  scriptsTextMap,
+  options = {}
+) {
   const itemData = {};
   const dedupe = new Set();
   let eventScriptCount = 0;
+  let hiddenItemCount = 0;
   let scriptParseCount = 0;
   let scriptFileFoundCount = 0;
   let scriptFileMissingCount = 0;
@@ -1186,10 +1206,19 @@ function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw
       overworldTableEntry: payload.overworldTableEntry ?? null,
       overworldIndex: payload.overworldIndex ?? null,
       owSpriteID: payload.owSpriteID ?? null,
+      orientation: payload.orientation ?? null,
+      quantity: payload.quantity ?? null,
+      hiddenItemScriptIndex: payload.hiddenItemScriptIndex ?? null,
+      hiddenItemFlag: payload.hiddenItemFlag ?? null,
+      hiddenItemRange: payload.hiddenItemRange ?? null,
+      xCoord: payload.xCoord ?? null,
+      yCoord: payload.yCoord ?? null,
+      zPosition: payload.zPosition ?? null,
       source: payload.source,
     };
     itemData[itemName].records.push(record);
     if (payload.foundMethod === "event_script_number") eventScriptCount += 1;
+    if (payload.foundMethod === "hidden_item") hiddenItemCount += 1;
     if (payload.foundMethod === "script_parse") scriptParseCount += 1;
   }
 
@@ -1206,12 +1235,13 @@ function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw
         : `unknown_location_${mapNameIndex}`;
 
     const eventEntries = groupedEventOverworlds[eventFileID] || [];
+    const hiddenItemEntries = groupedHiddenItemEvents[eventFileID] || [];
 
     for (const entry of eventEntries) {
       const scriptNumber = parseNumeric(entry.ScriptNumber);
       if (scriptNumber === null) continue;
-      if (scriptNumber >= 7000 && scriptNumber < 8000) {
-        const itemIndex = scriptNumber - 7000;
+      if (scriptNumber >= GEN4_VISIBLE_ITEM_SCRIPT_OFFSET && scriptNumber < GEN4_HIDDEN_ITEM_SCRIPT_OFFSET) {
+        const itemIndex = scriptNumber - GEN4_VISIBLE_ITEM_SCRIPT_OFFSET;
         if (itemIndex >= 0 && itemIndex < itemNamesRaw.length) {
           const itemRaw = itemNamesRaw[itemIndex];
           addRecord(itemRaw, locationRaw, {
@@ -1225,9 +1255,35 @@ function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw
               entry.OverlayTableEntry ?? entry.OverworldTableEntry ?? entry.overworldTableEntry ?? null,
             overworldIndex: entry.OverworldIndex ?? null,
             owSpriteID: entry.OwSpriteID ?? entry.owSpriteID ?? null,
+            orientation: entry.Orientation ?? entry.orientation ?? null,
           });
         }
       }
+    }
+
+    for (const entry of hiddenItemEntries) {
+      const itemIndex = parseNumeric(entry.ItemID);
+      if (itemIndex === null || itemIndex < 0 || itemIndex >= itemNamesRaw.length) continue;
+      const itemRaw = itemNamesRaw[itemIndex];
+      addRecord(itemRaw, locationRaw, {
+        foundMethod: "hidden_item",
+        source: "hidden_spawnable",
+        headerID,
+        eventFileID,
+        scriptFileID,
+        scriptNumber: parseNumeric(entry.ScriptNumber),
+        hiddenItemScriptIndex: parseNumeric(entry.HiddenItemScriptIndex),
+        hiddenItemFlag: parseNumeric(entry.HiddenItemFlag),
+        hiddenItemRange: parseNumeric(entry.Range),
+        quantity: parseNumeric(entry.Quantity),
+        xCoord: parseNumeric(entry.XCoord),
+        yCoord: parseNumeric(entry.YCoord),
+        zPosition: parseNumeric(entry.ZPosition),
+        overworldTableEntry: null,
+        overworldIndex: parseNumeric(entry.SpawnableIndex),
+        owSpriteID: null,
+        orientation: null,
+      });
     }
 
     if (scriptFileID === null) continue;
@@ -1260,6 +1316,7 @@ function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw
         overworldTableEntry: ow ? ow.overworldTableEntry : null,
         overworldIndex: ow ? ow.overworldIndex : null,
         owSpriteID: ow ? ow.owSpriteID : null,
+        orientation: ow ? ow.orientation : null,
       });
     }
   }
@@ -1275,7 +1332,7 @@ function buildItemLocationIndex(groupedEventOverworlds, mapHeaders, itemNamesRaw
     byItem,
     totalItems: Object.keys(byItem).length,
     totalRecords: Object.values(byItem).reduce((sum, list) => sum + list.length, 0),
-    stats: { eventScriptCount, scriptParseCount, scriptFileFoundCount, scriptFileMissingCount },
+    stats: { eventScriptCount, hiddenItemCount, scriptParseCount, scriptFileFoundCount, scriptFileMissingCount },
   };
 }
 
@@ -1632,6 +1689,22 @@ function findPlatinumMiningTableOffset(overlayData) {
   return null;
 }
 
+function countPlatinumMiningEntryValiditySignals(entry, overlay) {
+  let invalidSignals = 0;
+  const overlayStart = Number(overlay?.ramAddress || 0) >>> 0;
+  const overlayEnd = overlayStart + (Number(overlay?.ramSize || 0) >>> 0);
+  const shapePointer = Number(entry?.shapePointer || 0) >>> 0;
+
+  if (shapePointer !== 0) {
+    const pointerInOverlay = overlayStart > 0 && shapePointer >= overlayStart && shapePointer < overlayEnd;
+    if (!pointerInOverlay) invalidSignals += 1;
+  }
+  if ((entry?.padding || 0) !== 0) invalidSignals += 1;
+  if ((entry?.spriteNarcIndex || 0) > 255) invalidSignals += 1;
+  if ((entry?.paletteNarcIndex || 0) > 255) invalidSignals += 1;
+  return invalidSignals;
+}
+
 function buildPlatinumMiningTableDebugData(overlay5, itemNamesRaw) {
   const scenarios = [
     { key: "preNatDexOddTID", weightField: "oddTIDWeight", nationalDex: false, trainerIdParity: "odd" },
@@ -1643,9 +1716,9 @@ function buildPlatinumMiningTableDebugData(overlay5, itemNamesRaw) {
   if (!overlay5 || !overlay5.data || !itemNamesRaw) {
     return {
       tableName: "Platinum Underground mining object table",
-      source: "overlay5_scan",
+      source: "underground_overlay_scan",
       status: "not_available",
-      failureReason: "Overlay 5 or item name data was unavailable.",
+      failureReason: "The Platinum underground overlay or item name data was unavailable.",
       entries: [],
       scenarioTotals: Object.fromEntries(scenarios.map((scenario) => [scenario.key, 0])),
       scenarios,
@@ -1656,9 +1729,10 @@ function buildPlatinumMiningTableDebugData(overlay5, itemNamesRaw) {
   if (!tableMatch) {
     return {
       tableName: "Platinum Underground mining object table",
-      source: "overlay5_scan",
+      source: "underground_overlay_scan",
       status: "not_found",
-      failureReason: "No matching mining table signature was found in overlay 5.",
+      failureReason: "No matching mining table signature was found in the Platinum underground overlay.",
+      overlayId: overlay5.overlayId,
       overlayLength: overlay5.data.length,
       entries: [],
       scenarioTotals: Object.fromEntries(scenarios.map((scenario) => [scenario.key, 0])),
@@ -1701,6 +1775,14 @@ function buildPlatinumMiningTableDebugData(overlay5, itemNamesRaw) {
       break;
     }
 
+    const invalidSignalCount = countPlatinumMiningEntryValiditySignals({
+      shapePointer,
+      padding,
+      spriteNarcIndex,
+      paletteNarcIndex,
+    }, overlay5);
+    if (invalidSignalCount >= 2) break;
+
     let category = "unknown";
     let bagItemName = null;
     let bagItemId = null;
@@ -1732,6 +1814,7 @@ function buildPlatinumMiningTableDebugData(overlay5, itemNamesRaw) {
       spriteNarcIndex,
       paletteNarcIndex,
       padding,
+      invalidSignalCount,
     });
   }
 
@@ -1784,9 +1867,10 @@ function buildPlatinumMiningTableDebugData(overlay5, itemNamesRaw) {
 
   return {
     tableName: "Platinum Underground mining object table",
-    source: "overlay5_scan",
+    source: "underground_overlay_scan",
     status: "ok",
     matchType: tableMatch.matchType,
+    overlayId: overlay5.overlayId,
     tableOffset,
     objectSize: PLATINUM_MINING_OBJECT_SIZE,
     buriedItemCountRange: { min: 2, max: 4, firstTimeFixedCount: 3 },
@@ -3129,22 +3213,28 @@ function buildOverridesAndSearchIndex(data, options) {
   const tmhmData = parseCsvLines(data.csv.tmhm);
   const mapHeaders = parseCsvLines(data.csv.mapHeaders);
   const eventOverworlds = parseCsvLines(data.csv.eventOverworlds);
+  const hiddenItemEvents = Array.isArray(data.csv.hiddenItemEvents) ? parseCsvLines(data.csv.hiddenItemEvents) : [];
   if (log) {
-    log(`Parsed CSV rows: mapHeaders=${mapHeaders.length}, eventOverworlds=${eventOverworlds.length}`);
+    log(`Parsed CSV rows: mapHeaders=${mapHeaders.length}, eventOverworlds=${eventOverworlds.length}, hiddenItemEvents=${hiddenItemEvents.length}`);
     if (mapHeaders.length > 0) {
       log(`MapHeaders sample: ${JSON.stringify(mapHeaders[0])}`);
     }
     if (eventOverworlds.length > 0) {
       log(`EventOverworlds sample: ${JSON.stringify(eventOverworlds[0])}`);
     }
+    if (hiddenItemEvents.length > 0) {
+      log(`HiddenItemEvents sample: ${JSON.stringify(hiddenItemEvents[0])}`);
+    }
     log(`Scripts parsed: ${data.scriptsTextMap ? data.scriptsTextMap.size : 0}`);
     log(`Text banks: items=${data.texts.itemNames?.length ?? 0}, itemDesc=${data.texts.itemDescriptions?.length ?? 0}, abilities=${data.texts.abilityNames?.length ?? 0}, moves=${data.texts.moveNames?.length ?? 0}`);
   }
 
   const groupedEventOverworlds = groupEventOverworldsByEventFileID(eventOverworlds);
+  const groupedHiddenItemEvents = groupHiddenItemEventsByEventFileID(hiddenItemEvents);
   const commonScriptIds = data.family === "HGSS" ? [2033, 2009] : [2016, 2044];
   const itemLocations = buildItemLocationIndex(
     groupedEventOverworlds,
+    groupedHiddenItemEvents,
     mapHeaders,
     data.texts.itemNames,
     data.texts.locationNames,
@@ -3167,7 +3257,7 @@ function buildOverridesAndSearchIndex(data, options) {
     trainerLocations.byTrainer
   );
   if (log) {
-    log(`Item locations: ${itemLocations.totalRecords} records, ${itemLocations.totalItems} items (event=${itemLocations.stats.eventScriptCount}, script=${itemLocations.stats.scriptParseCount}).`);
+    log(`Item locations: ${itemLocations.totalRecords} records, ${itemLocations.totalItems} items (event=${itemLocations.stats.eventScriptCount}, hidden=${itemLocations.stats.hiddenItemCount}, script=${itemLocations.stats.scriptParseCount}).`);
     log(`Script files: found=${itemLocations.stats.scriptFileFoundCount}, missing=${itemLocations.stats.scriptFileMissingCount}`);
     if (!data.scriptsTextMap || data.scriptsTextMap.size === 0) {
       log("[warn] No script text files parsed; script-based item locations will be missing.");
@@ -3409,6 +3499,26 @@ function buildOverridesAndSearchIndex(data, options) {
           }
         }
 
+        const undergroundLocationKey = "theunderground";
+        const undergroundLocationName = "The Underground";
+        const miningTable =
+          data.family === "Plat" &&
+          data.debug &&
+          data.debug.miningTable &&
+          data.debug.miningTable.status === "ok"
+            ? data.debug.miningTable
+            : null;
+        const undergroundBagItemIds = new Set();
+        if (miningTable && miningTable.aggregates && miningTable.aggregates.byBagItemId) {
+          for (const [bagItemId, aggregate] of Object.entries(miningTable.aggregates.byBagItemId)) {
+            const weights = aggregate && aggregate.weights ? aggregate.weights : null;
+            const hasAnyWeight = weights
+              ? Object.values(weights).some((value) => Number(value || 0) > 0)
+              : false;
+            if (hasAnyWeight) undergroundBagItemIds.add(Number(bagItemId));
+          }
+        }
+
         const itemsOut = {};
         const byItem = itemLocations && itemLocations.byItem ? itemLocations.byItem : {};
         for (let i = 0; i < textsItems.length; i += 1) {
@@ -3423,27 +3533,44 @@ function buildOverridesAndSearchIndex(data, options) {
 
           const locationRecords = byItem[key] || [];
           const ground = new Set();
+          const hiddenGround = new Set();
           const npcs = [];
           const npcKeySet = new Set();
 
           for (const record of locationRecords) {
             if (record.foundMethod === "event_script_number" && record.locationName) {
               ground.add(record.locationName);
+            } else if (record.foundMethod === "hidden_item" && record.locationName) {
+              ground.add(record.locationName);
+              hiddenGround.add(record.locationName);
             } else if (record.foundMethod === "script_parse" && record.locationName) {
-              if (record.owSpriteID !== null && record.owSpriteID !== undefined) {
-                const spriteID = Number.parseInt(record.owSpriteID, 10);
-                const orientation = 0;
-                const npcKey = `${spriteID}|${record.locationName}|${orientation}`;
-                if (!npcKeySet.has(npcKey)) {
-                  npcKeySet.add(npcKey);
-                  npcs.push({ spriteID, location: record.locationName, orientation });
-                }
+              const spriteID =
+                record.owSpriteID !== null && record.owSpriteID !== undefined
+                  ? Number.parseInt(record.owSpriteID, 10)
+                  : null;
+              const orientation =
+                record.orientation !== null && record.orientation !== undefined
+                  ? Number.parseInt(record.orientation, 10)
+                  : null;
+              const npcKey = `${spriteID === null || Number.isNaN(spriteID) ? "nosprite" : spriteID}|${record.locationName}|${orientation === null || Number.isNaN(orientation) ? "na" : orientation}`;
+              if (!npcKeySet.has(npcKey)) {
+                npcKeySet.add(npcKey);
+                npcs.push({
+                  spriteID: spriteID === null || Number.isNaN(spriteID) ? null : spriteID,
+                  location: record.locationName,
+                  orientation: orientation === null || Number.isNaN(orientation) ? 0 : orientation,
+                });
               }
             }
           }
 
+          if (undergroundBagItemIds.has(i)) {
+            ground.add(undergroundLocationKey);
+          }
+
           const wildSet = itemToWilds[name];
           if (ground.size > 0) entry.ground_locations = Array.from(ground);
+          if (hiddenGround.size > 0) entry.hidden_ground_locations = Array.from(hiddenGround);
           if (wildSet && wildSet.size > 0) entry.wilds = Array.from(wildSet);
           if (npcs.length > 0) entry.npcs = npcs;
           itemsOut[key] = entry;
@@ -3760,6 +3887,14 @@ function buildOverridesAndSearchIndex(data, options) {
           };
         }
 
+        if (undergroundBagItemIds.size > 0 && !locationsOut[undergroundLocationKey]) {
+          locationsOut[undergroundLocationKey] = {
+            name: undergroundLocationName,
+            locationNameId: null,
+            synthetic: true,
+          };
+        }
+
         const ratesOut = {};
         for (const type of encounterTypes) {
           if (isHGSS && type === "swarm") continue;
@@ -4046,6 +4181,53 @@ export async function readRomFileByPath(arrayBuffer, path) {
   const editor = new RomBrowser(new Uint8Array(arrayBuffer));
   const file = editor.readFileByPath(path);
   return file.fileBuffer;
+}
+
+export async function readRomOverlayById(arrayBuffer, overlayId) {
+  const editor = new RomBrowser(new Uint8Array(arrayBuffer));
+  const header = editor.readHeader();
+  const ovtBytes = await editor.readBytes(header.arm9OvTOffset, header.arm9OvTSize);
+  const overlayTable = parseOverlayTable(new Uint8Array(ovtBytes.bytes));
+  const normalizedOverlayId = Number.parseInt(String(overlayId), 10);
+  if (!Number.isFinite(normalizedOverlayId)) {
+    throw new Error("Overlay id must be numeric.");
+  }
+  const overlay = await readOverlay(editor, overlayTable, normalizedOverlayId);
+  if (!overlay || !overlay.data) {
+    throw new Error(`Overlay ${normalizedOverlayId} not found in ROM.`);
+  }
+  return {
+    overlayId: normalizedOverlayId,
+    fileId: overlay.fileId,
+    compressed: !!(overlay.flags & 1),
+    ramAddress: overlay.ramAddress,
+    ramSize: overlay.ramSize,
+    data: overlay.data.buffer.slice(
+      overlay.data.byteOffset,
+      overlay.data.byteOffset + overlay.data.byteLength
+    ),
+  };
+}
+
+export async function listRomOverlays(arrayBuffer) {
+  const editor = new RomBrowser(new Uint8Array(arrayBuffer));
+  const header = editor.readHeader();
+  const ovtBytes = await editor.readBytes(header.arm9OvTOffset, header.arm9OvTSize);
+  const overlayTable = parseOverlayTable(new Uint8Array(ovtBytes.bytes));
+  return Array.from(overlayTable.entries())
+    .sort((a, b) => a[0] - b[0])
+    .map(([overlayId, entry]) => ({
+      overlayId,
+      fileId: entry.fileId,
+      ramAddress: entry.ramAddress,
+      ramSize: entry.ramSize,
+      bssSize: entry.bssSize,
+      staticInitStart: entry.staticInitStart,
+      staticInitEnd: entry.staticInitEnd,
+      compressedSize: entry.compressedSize,
+      flags: entry.flags,
+      compressed: !!(entry.flags & 1),
+    }));
 }
 
 function detectGame(romId) {
@@ -4886,10 +5068,44 @@ function exportEncountersJson(encounters, meta) {
   }, null, 2) + "\n";
 }
 
-function parseEventOverworlds(u8) {
+const GEN4_VISIBLE_ITEM_SCRIPT_OFFSET = 7000;
+const GEN4_HIDDEN_ITEM_SCRIPT_OFFSET = 8000;
+const GEN4_HIDDEN_ITEM_SCRIPT_LIMIT = 8800;
+const GEN4_HIDDEN_ITEM_FLAG_OFFSET = 730;
+const GEN4_HIDDEN_ITEM_TYPE = 2;
+
+function parseEventFileObjects(u8) {
   const r = new Reader(u8);
   const spawnablesCount = r.u32();
-  r.skip(spawnablesCount * 0x14);
+  const spawnables = [];
+  for (let i = 0; i < spawnablesCount; i += 1) {
+    const scriptNumber = r.u16();
+    const type = r.u16();
+    const xPosition = r.s16();
+    const unknown2 = r.u16();
+    const yPosition = r.s16();
+    const zPosition = r.u32();
+    const unknown4 = r.u16();
+    const dir = r.u16();
+    const unknown5 = r.u16();
+    const xMapPosition = xPosition % 32;
+    const yMapPosition = yPosition % 32;
+    const xMatrixPosition = Math.floor(xPosition / 32);
+    const yMatrixPosition = Math.floor(yPosition / 32);
+    spawnables.push({
+      scriptNumber,
+      type,
+      unknown2,
+      unknown4,
+      dir,
+      unknown5,
+      xMapPosition,
+      yMapPosition,
+      xMatrixPosition,
+      yMatrixPosition,
+      zPosition,
+    });
+  }
   const overworldsCount = r.u32();
   const overworlds = [];
   for (let i = 0; i < overworldsCount; i += 1) {
@@ -4932,7 +5148,137 @@ function parseEventOverworlds(u8) {
       zPosition,
     });
   }
-  return overworlds;
+  return { spawnables, overworlds };
+}
+
+function readHiddenItemTableEntry(dataView, offset) {
+  return {
+    itemId: dataView.getUint16(offset, true),
+    quantity: dataView.getUint8(offset + 2),
+    range: dataView.getUint8(offset + 3),
+    pad: dataView.getUint16(offset + 4, true),
+    scriptIndex: dataView.getUint16(offset + 6, true),
+  };
+}
+
+function isPlausibleHiddenItemTableEntry(entry, itemNamesRaw) {
+  return !!entry &&
+    Number.isFinite(entry.itemId) &&
+    entry.itemId > 0 &&
+    entry.itemId < itemNamesRaw.length &&
+    Number.isFinite(entry.quantity) &&
+    entry.quantity > 0 &&
+    entry.quantity <= 99 &&
+    Number.isFinite(entry.range) &&
+    entry.range <= 32 &&
+    entry.pad === 0 &&
+    Number.isFinite(entry.scriptIndex) &&
+    entry.scriptIndex < (GEN4_HIDDEN_ITEM_SCRIPT_LIMIT - GEN4_HIDDEN_ITEM_SCRIPT_OFFSET);
+}
+
+function extractGen4HiddenItemTable(arm9, itemNamesRaw, usedHiddenScriptIndexes, options = {}) {
+  const log = typeof options.log === "function" ? options.log : null;
+  const usedScripts = Array.from(new Set(
+    Array.from(usedHiddenScriptIndexes || [])
+      .map((value) => Number.parseInt(String(value), 10))
+      .filter((value) => Number.isFinite(value) && value >= 0 && value < (GEN4_HIDDEN_ITEM_SCRIPT_LIMIT - GEN4_HIDDEN_ITEM_SCRIPT_OFFSET))
+  )).sort((a, b) => a - b);
+  if (!arm9 || !arm9.length || !usedScripts.length) return new Map();
+
+  const dataView = new DataView(arm9.buffer, arm9.byteOffset, arm9.byteLength);
+  const seenStarts = new Set();
+  const runs = [];
+
+  function buildRun(startOffset) {
+    const entries = [];
+    let cursor = startOffset;
+    let prevScriptIndex = -1;
+    while (cursor + 8 <= arm9.byteLength) {
+      const entry = readHiddenItemTableEntry(dataView, cursor);
+      if (!isPlausibleHiddenItemTableEntry(entry, itemNamesRaw)) break;
+      if (prevScriptIndex >= 0 && entry.scriptIndex <= prevScriptIndex) break;
+      entries.push({ offset: cursor, ...entry });
+      prevScriptIndex = entry.scriptIndex;
+      cursor += 8;
+    }
+    return entries;
+  }
+
+  for (let offset = 0; offset + 8 <= arm9.byteLength; offset += 2) {
+    const entry = readHiddenItemTableEntry(dataView, offset);
+    if (!isPlausibleHiddenItemTableEntry(entry, itemNamesRaw)) continue;
+    if (!usedHiddenScriptIndexes.has(entry.scriptIndex)) continue;
+
+    let startOffset = offset;
+    let lowestScriptIndex = entry.scriptIndex;
+    let previousOffset = startOffset - 8;
+    while (previousOffset >= 0) {
+      const previousEntry = readHiddenItemTableEntry(dataView, previousOffset);
+      if (!isPlausibleHiddenItemTableEntry(previousEntry, itemNamesRaw)) break;
+      if (previousEntry.scriptIndex >= lowestScriptIndex) break;
+      startOffset = previousOffset;
+      lowestScriptIndex = previousEntry.scriptIndex;
+      previousOffset -= 8;
+    }
+
+    if (seenStarts.has(startOffset)) continue;
+    seenStarts.add(startOffset);
+
+    const entries = buildRun(startOffset);
+    if (!entries.length) continue;
+    const matchedScripts = entries
+      .filter((candidate) => usedHiddenScriptIndexes.has(candidate.scriptIndex))
+      .map((candidate) => candidate.scriptIndex);
+    if (!matchedScripts.length) continue;
+
+    runs.push({
+      startOffset,
+      entries,
+      matchedScripts,
+      matchedCount: matchedScripts.length,
+    });
+  }
+
+  runs.sort((a, b) => {
+    if (b.matchedCount !== a.matchedCount) return b.matchedCount - a.matchedCount;
+    if (b.entries.length !== a.entries.length) return b.entries.length - a.entries.length;
+    return a.startOffset - b.startOffset;
+  });
+
+  const bestRun = runs[0];
+  if (!bestRun) return new Map();
+
+  const matchedSet = new Set(bestRun.matchedScripts);
+  const requiredMatchCount = Math.min(3, usedScripts.length);
+  if (bestRun.matchedCount < requiredMatchCount) {
+    if (log) {
+      log(`[warn] Hidden item table scan found only ${bestRun.matchedCount} matched scripts (need ${requiredMatchCount}).`);
+    }
+    return new Map();
+  }
+
+  const table = new Map();
+  for (let i = 0; i < bestRun.entries.length; i += 1) {
+    const entry = bestRun.entries[i];
+    table.set(entry.scriptIndex, {
+      scriptIndex: entry.scriptIndex,
+      itemId: entry.itemId,
+      itemName: itemNamesRaw[entry.itemId] ?? `ITEM_${entry.itemId}`,
+      quantity: entry.quantity,
+      range: entry.range,
+      offset: entry.offset,
+    });
+  }
+
+  if (log) {
+    log(`[hidden-item-debug] tableStart=0x${bestRun.startOffset.toString(16).toUpperCase()} entries=${bestRun.entries.length} matched=${bestRun.matchedCount}/${usedScripts.length}`);
+    const missingScripts = usedScripts.filter((scriptIndex) => !matchedSet.has(scriptIndex));
+    if (missingScripts.length) {
+      log(`[hidden-item-debug] unmatched hidden scripts: ${missingScripts.join(",")}`);
+    }
+  }
+
+  return table;
 }
 
 function parseMapHeaderPlat(arm9, offset) {
@@ -5607,6 +5953,7 @@ async function collectDspreData(editor, { log }) {
   const overlayTable = parseOverlayTable(new Uint8Array(ovtBytes.bytes));
 
   const overlay5 = await readOverlay(editor, overlayTable, 5);
+  const overlay23 = await readOverlay(editor, overlayTable, 23);
   const overlay1 = await readOverlay(editor, overlayTable, 1);
   const overlay131 = await readOverlay(editor, overlayTable, 131);
 
@@ -6303,7 +6650,9 @@ async function collectDspreData(editor, { log }) {
 
   log("Parsing event overworlds...");
   const eventOverworldCsv = [];
+  const hiddenItemEventsCsv = [];
   eventOverworldCsv.push("EventFileID,OverworldIndex,OwID,OverlayTableEntry,OwSpriteID,Movement,Type,Flag,ScriptNumber,Orientation,SightRange,Unknown1,Unknown2,XRange,YRange,XMatrix,YMatrix,XMap,YMap,XCoord,YCoord,ZPosition,IsAlias");
+  hiddenItemEventsCsv.push("EventFileID,SpawnableIndex,SpawnableType,ScriptNumber,HiddenItemScriptIndex,HiddenItemFlag,ItemID,Quantity,Range,Direction,Unknown2,Unknown4,Unknown5,XMatrix,YMatrix,XMap,YMap,XCoord,YCoord,ZPosition");
   const eventNarc = await editor.openNarcAtPath(paths.eventFiles);
   const eventFileCount = eventNarc.fileCount;
 
@@ -6348,9 +6697,25 @@ async function collectDspreData(editor, { log }) {
     }
   }
 
+  const hiddenItemScriptIndexesUsed = new Set();
+  const parsedEventObjects = [];
+
   for (let i = 0; i < eventNarc.fileCount; i += 1) {
     const { subfileBuffer } = await editor.getNarcSubfile(eventNarc.handle, i);
-    const overworlds = parseEventOverworlds(new Uint8Array(subfileBuffer));
+    const parsed = parseEventFileObjects(new Uint8Array(subfileBuffer));
+    parsedEventObjects.push(parsed);
+    const overworlds = parsed.overworlds;
+    const spawnables = parsed.spawnables;
+    for (let j = 0; j < spawnables.length; j += 1) {
+      const spawnable = spawnables[j];
+      if (
+        spawnable.type === GEN4_HIDDEN_ITEM_TYPE &&
+        spawnable.scriptNumber >= GEN4_HIDDEN_ITEM_SCRIPT_OFFSET &&
+        spawnable.scriptNumber < GEN4_HIDDEN_ITEM_SCRIPT_LIMIT
+      ) {
+        hiddenItemScriptIndexesUsed.add(spawnable.scriptNumber - GEN4_HIDDEN_ITEM_SCRIPT_OFFSET);
+      }
+    }
     for (let j = 0; j < overworlds.length; j += 1) {
       const ow = overworlds[j];
       const xCoord = ow.xMapPosition + 32 * ow.xMatrixPosition;
@@ -6385,6 +6750,58 @@ async function collectDspreData(editor, { log }) {
         yCoord,
         ow.zPosition,
         isAlias,
+      ].join(","));
+    }
+  }
+
+  const hiddenItemTableByScriptIndex = extractGen4HiddenItemTable(
+    arm9,
+    itemNames,
+    hiddenItemScriptIndexesUsed,
+    { log }
+  );
+  if (hiddenItemScriptIndexesUsed.size > 0 && hiddenItemTableByScriptIndex.size === 0) {
+    log("[warn] Hidden item events were found, but the hidden item table could not be resolved from ARM9.");
+  }
+
+  for (let i = 0; i < parsedEventObjects.length; i += 1) {
+    const parsed = parsedEventObjects[i];
+    const spawnables = parsed && Array.isArray(parsed.spawnables) ? parsed.spawnables : [];
+    for (let j = 0; j < spawnables.length; j += 1) {
+      const spawnable = spawnables[j];
+      if (spawnable.type !== GEN4_HIDDEN_ITEM_TYPE) continue;
+      if (
+        spawnable.scriptNumber < GEN4_HIDDEN_ITEM_SCRIPT_OFFSET ||
+        spawnable.scriptNumber >= GEN4_HIDDEN_ITEM_SCRIPT_LIMIT
+      ) {
+        continue;
+      }
+      const xCoord = spawnable.xMapPosition + 32 * spawnable.xMatrixPosition;
+      const yCoord = spawnable.yMapPosition + 32 * spawnable.yMatrixPosition;
+      const hiddenItemScriptIndex = spawnable.scriptNumber - GEN4_HIDDEN_ITEM_SCRIPT_OFFSET;
+      const hiddenItem = hiddenItemTableByScriptIndex.get(hiddenItemScriptIndex) || null;
+      const hiddenItemFlag = hiddenItemScriptIndex + GEN4_HIDDEN_ITEM_FLAG_OFFSET;
+      hiddenItemEventsCsv.push([
+        i,
+        j,
+        spawnable.type,
+        spawnable.scriptNumber,
+        hiddenItemScriptIndex,
+        hiddenItemFlag,
+        hiddenItem ? hiddenItem.itemId : "",
+        hiddenItem ? hiddenItem.quantity : "",
+        hiddenItem ? hiddenItem.range : "",
+        spawnable.dir,
+        spawnable.unknown2,
+        spawnable.unknown4,
+        spawnable.unknown5,
+        spawnable.xMatrixPosition,
+        spawnable.yMatrixPosition,
+        spawnable.xMapPosition,
+        spawnable.yMapPosition,
+        xCoord,
+        yCoord,
+        spawnable.zPosition,
       ].join(","));
     }
   }
@@ -6743,9 +7160,12 @@ async function collectDspreData(editor, { log }) {
 
   const debugMapHeaders = parseCsvLines(mapHeadersCsv);
   const debugEventOverworlds = parseCsvLines(eventOverworldCsv);
+  const debugHiddenItemEvents = parseCsvLines(hiddenItemEventsCsv);
   const debugGroupedEventOverworlds = groupEventOverworldsByEventFileID(debugEventOverworlds);
+  const debugGroupedHiddenItemEvents = groupHiddenItemEventsByEventFileID(debugHiddenItemEvents);
   const itemLocations = buildItemLocationIndex(
     debugGroupedEventOverworlds,
+    debugGroupedHiddenItemEvents,
     debugMapHeaders,
     itemNames,
     locationNames,
@@ -6769,7 +7189,7 @@ async function collectDspreData(editor, { log }) {
     personalEntries,
   });
   const miningTable = family === "Plat"
-    ? buildPlatinumMiningTableDebugData(overlay5, itemNames)
+    ? buildPlatinumMiningTableDebugData(overlay23, itemNames)
     : null;
 
   return {
@@ -6790,6 +7210,7 @@ async function collectDspreData(editor, { log }) {
       tmhm: tmhmCsv,
       eggMoves: eggMoveCsv,
       eventOverworlds: eventOverworldCsv,
+      hiddenItemEvents: hiddenItemEventsCsv,
       mapHeaders: mapHeadersCsv,
     },
     encounters,

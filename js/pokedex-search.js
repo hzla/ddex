@@ -171,6 +171,20 @@ var PokedexSearchPanel = Panels.Panel.extend({
     var romSummary = hasRomLoaded
       ? "Loaded ROM source: Gen " + bridgeState.romSourceGen + "."
       : "Load a Gen 3 or Gen 4 ROM to enable calc export and sync.";
+    var miningDebug =
+      window.DDEX_ROM_MINING_DEBUG ||
+      (window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.miningTable) ||
+      null;
+    var loadedRomSourceGen =
+      Number(bridgeState.romSourceGen || window.DDEX_ROM_SOURCE_GEN || localStorage.getItem("ddexRomSourceGen") || "0") || null;
+    var isGen4Rom = loadedRomSourceGen === 4;
+    var isPlatinumRom = String(localStorage.romFamily || "").toLowerCase() === "plat";
+    var hasUndergroundLoot = !!(
+      miningDebug &&
+      miningDebug.status === "ok" &&
+      miningDebug.aggregates &&
+      miningDebug.aggregates.byBagItemId
+    );
 
     var buf = '<section class="ddex-more-panel">';
     buf += '<div class="ddex-more-card">';
@@ -196,6 +210,27 @@ var PokedexSearchPanel = Panels.Panel.extend({
     buf += "</div>";
     buf += '<p class="ddex-more-status">' + Dex.escapeHTML(calcStatus) + "</p>";
     buf += "</div>";
+    if (isGen4Rom) {
+      buf += '<div class="ddex-more-card">';
+      buf += "<h2>Item Info</h2>";
+      buf += "<p>Browse resolved visible pickups, hidden items, and NPC gifts from the loaded Gen 4 ROM.</p>";
+      buf +=
+        '<p><a class="button" href="/articles/grounditems" data-target="push">Ground Items</a></p>';
+      buf +=
+        '<p><a class="button" href="/articles/hiddenitems" data-target="push">Hidden Items</a></p>';
+      buf +=
+        '<p><a class="button" href="/articles/npcitems" data-target="push">NPC Items</a></p>';
+      if (isPlatinumRom) {
+        buf += "<p>Mining loot odds are merged by item, so duplicate Underground table entries are summed into one row.</p>";
+      }
+      if (hasUndergroundLoot) {
+        buf +=
+          '<p><a class="button" href="/articles/undergroundloot" data-target="push">Underground Loot</a></p>';
+      } else if (isPlatinumRom) {
+        buf += "<p>Underground loot data isn't available for the currently loaded ROM.</p>";
+      }
+      buf += "</div>";
+    }
     buf += "</section>";
     this.$results.html(buf);
   },

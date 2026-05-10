@@ -99,10 +99,56 @@ function parseValue(valueText) {
 }
 
 export function preprocessHmaToml(text) {
-  return text
-    .replace(/'''(.*?)'''/gs, (_match, body) => JSON.stringify(body))
+  return replaceLiteralStrings(text)
     .replace(/\bFalse\b/g, "false")
     .replace(/\bTrue\b/g, "true");
+}
+
+function replaceLiteralStrings(text) {
+  let output = "";
+  let cursor = 0;
+
+  while (cursor < text.length) {
+    const start = text.indexOf("'''", cursor);
+    if (start === -1) {
+      output += text.slice(cursor);
+      break;
+    }
+
+    output += text.slice(cursor, start);
+    let scan = start + 3;
+    let body = "";
+    let closed = false;
+
+    while (scan < text.length) {
+      if (text[scan] !== "'") {
+        body += text[scan];
+        scan += 1;
+        continue;
+      }
+
+      let quoteEnd = scan;
+      while (quoteEnd < text.length && text[quoteEnd] === "'") quoteEnd += 1;
+      const quoteCount = quoteEnd - scan;
+      if (quoteCount >= 3) {
+        body += "'".repeat(quoteCount - 3);
+        output += JSON.stringify(body);
+        cursor = quoteEnd;
+        closed = true;
+        break;
+      }
+
+      body += "'".repeat(quoteCount);
+      scan = quoteEnd;
+    }
+
+    if (!closed) {
+      output += text.slice(start);
+      break;
+    }
+  }
+
+  return output;
 }
 
 export function parseHmaToml(text) {

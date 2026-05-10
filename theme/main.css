@@ -135,3 +135,84 @@ a.subtle:hover {
 	background: #F1F4F9;
 	color: #224466;
 }
+
+.ddex-underground-loot {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+}
+
+.ddex-underground-table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	background: transparent;
+}
+
+.ddex-underground-table th,
+.ddex-underground-table td {
+	padding: 8px 10px;
+	border: 1px solid #758395;
+	vertical-align: top;
+	text-align: left;
+	background: #2d3642;
+	color: #eef4fb;
+}
+
+.ddex-underground-table thead th {
+	background: #46576b;
+	color: #f8fbff;
+	font-weight: 700;
+}
+
+.ddex-underground-table tbody th {
+	width: 22%;
+	background: #384556;
+}
+
+.ddex-underground-item-meta,
+.ddex-underground-probability span {
+	display: block;
+	font-size: 0.85em;
+	color: #b8c6d8;
+}
+
+.ddex-underground-probability {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.ddex-underground-table a {
+	color: #b995ff;
+}
+
+.ddex-underground-table a:hover {
+	color: #cfb8ff;
+}
+
+.ddex-hidden-items {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.ddex-hidden-items-table {
+	table-layout: auto;
+}
+
+.ddex-hidden-items-table th,
+.ddex-hidden-items-table td {
+	word-break: break-word;
+}
+
+.ddex-hidden-items-table tbody th {
+	width: 20%;
+}
+
+.ddex-hidden-item-npc-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	min-width: 120px;
+}

@@ -814,6 +814,77 @@ window.downloadRomLearnsetNarc = function (filename) {
   return window.downloadRomFileByPath("a/0/3/3", filename || "a_0_3_3.narc");
 };
 
+window.downloadLoadedRomOverlay = async function (overlayId, filename) {
+  if (!window.__DDEX_LAST_ROM_BUFFER) {
+    console.warn("No ROM buffer found. Load a ROM via file upload first.");
+    return false;
+  }
+  try {
+    await ensureGen4ExporterLoaded();
+    if (typeof window.readRomOverlayById !== "function") {
+      console.warn("ROM overlay reader not available. Ensure /rom/loader.js is loaded.");
+      return false;
+    }
+    const overlayInfo = await window.readRomOverlayById(window.__DDEX_LAST_ROM_BUFFER, overlayId);
+    const romTitle = localStorage.romTitle || (window.DDEX_ROM_OVERRIDES && window.DDEX_ROM_OVERRIDES.title) || "rom";
+    const normalizedOverlayId = Number.parseInt(String(overlayInfo.overlayId), 10);
+    const downloadName = filename || `${String(romTitle).replace(/[^a-z0-9._-]+/gi, "_")}_overlay_${String(normalizedOverlayId).padStart(4, "0")}.bin`;
+    const blob = new Blob([overlayInfo.data], { type: "application/octet-stream" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = downloadName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    const result = {
+      overlayId: normalizedOverlayId,
+      fileId: overlayInfo.fileId,
+      compressed: overlayInfo.compressed,
+      ramAddress: overlayInfo.ramAddress,
+      ramSize: overlayInfo.ramSize,
+      byteLength: overlayInfo.data.byteLength,
+      fileName: downloadName,
+    };
+    console.log(`Downloaded overlay ${normalizedOverlayId} as ${downloadName}`, result);
+    return result;
+  } catch (err) {
+    console.error(err);
+    return false;
+  }
+};
+
+window.downloadLoadedRomOverlay5 = function (filename) {
+  return window.downloadLoadedRomOverlay(5, filename);
+};
+
+window.downloadLoadedRomUndergroundOverlay = function (filename) {
+  return window.downloadLoadedRomOverlay(23, filename);
+};
+
+window.listLoadedRomOverlays = async function () {
+  if (!window.__DDEX_LAST_ROM_BUFFER) {
+    console.warn("No ROM buffer found. Load a ROM via file upload first.");
+    return [];
+  }
+  try {
+    await ensureGen4ExporterLoaded();
+    if (typeof window.listRomOverlays !== "function") {
+      console.warn("ROM overlay table reader not available. Ensure /rom/loader.js is loaded.");
+      return [];
+    }
+    const overlays = await window.listRomOverlays(window.__DDEX_LAST_ROM_BUFFER);
+    if (typeof console !== "undefined" && console.table) {
+      console.table(overlays);
+    }
+    return overlays;
+  } catch (err) {
+    console.error(err);
+    return [];
+  }
+};
+
 window.listRomTextBanks = function () {
   if (!window.DDEX_ROM_TEXTS) {
     console.warn("No ROM text banks found. Load a ROM via file upload first.");
@@ -1212,7 +1283,17 @@ function buildLoadedRomItemScriptDebugResult(itemNames) {
             .filter(function(record) { return record && record.foundMethod === "event_script_number"; })
             .map(cloneLoadedRomItemLocationRecord)
         : [],
+      hiddenGroundItemLocations: itemLocationDebug && Array.isArray(itemLocationDebug.byItem[entry.itemKey])
+        ? itemLocationDebug.byItem[entry.itemKey]
+            .filter(function(record) { return record && record.foundMethod === "hidden_item"; })
+            .map(cloneLoadedRomItemLocationRecord)
+        : [],
       scriptItemLocations: itemLocationDebug && Array.isArray(itemLocationDebug.byItem[entry.itemKey])
+        ? itemLocationDebug.byItem[entry.itemKey]
+            .filter(function(record) { return record && record.foundMethod === "script_parse"; })
+            .map(cloneLoadedRomItemLocationRecord)
+        : [],
+      npcItemLocations: itemLocationDebug && Array.isArray(itemLocationDebug.byItem[entry.itemKey])
         ? itemLocationDebug.byItem[entry.itemKey]
             .filter(function(record) { return record && record.foundMethod === "script_parse"; })
             .map(cloneLoadedRomItemLocationRecord)
@@ -1451,7 +1532,9 @@ async function importGen4RomFiles(files) {
   });
 
   if (result.itemLocationStats) {
-    setRomStatus(`Item locations (event=${result.itemLocationStats.eventScriptCount}, script=${result.itemLocationStats.scriptParseCount})`);
+    setRomStatus(
+      `Item locations (event=${result.itemLocationStats.eventScriptCount}, hidden=${result.itemLocationStats.hiddenItemCount || 0}, script=${result.itemLocationStats.scriptParseCount})`
+    );
   }
 }
 
