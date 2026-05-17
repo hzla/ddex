@@ -3222,7 +3222,7 @@ overrides = {
           ],
           [
             1,
-            "Peck"
+            "Chip Away"
           ],
           [
             5,
@@ -3238,7 +3238,7 @@ overrides = {
           ],
           [
             13,
-            "Chip Away"
+            "Brutal Swing"
           ],
           [
             17,
@@ -3266,7 +3266,7 @@ overrides = {
           ],
           [
             37,
-            "Hone Claws"
+            "U-turn"
           ],
           [
             40,
@@ -3409,7 +3409,7 @@ overrides = {
           ],
           [
             13,
-            "Chip Away"
+            "Brutal Swing"
           ],
           [
             17,
@@ -3437,7 +3437,7 @@ overrides = {
           ],
           [
             37,
-            "Hone Claws"
+            "U-turn"
           ],
           [
             40,
@@ -50593,11 +50593,11 @@ overrides = {
           ],
           [
             17,
-            "Chatter"
+            "Swift"
           ],
           [
             20,
-            "Stompin Tantrum"
+            "Chatter"
           ],
           [
             22,
@@ -50764,11 +50764,11 @@ overrides = {
           ],
           [
             17,
-            "Chatter"
+            "Swift"
           ],
           [
             20,
-            "Stompin Tantrum"
+            "Chatter"
           ],
           [
             22,
@@ -50957,11 +50957,11 @@ overrides = {
           ],
           [
             17,
-            "Chatter"
+            "Swift"
           ],
           [
             20,
-            "Stompin Tantrum"
+            "Chatter"
           ],
           [
             22,
@@ -56641,12 +56641,12 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 95,
-        "at": 95,
-        "df": 95,
-        "sa": 95,
-        "sd": 95,
-        "sp": 95
+        "hp": 90,
+        "at": 90,
+        "df": 90,
+        "sa": 90,
+        "sd": 90,
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -56704,7 +56704,7 @@ overrides = {
           ],
           [
             34,
-            "Teeter Dance"
+            "U-turn"
           ],
           [
             37,
@@ -56720,7 +56720,7 @@ overrides = {
           ],
           [
             42,
-            "Crush Claw"
+            "Teeter Dance"
           ],
           [
             45,
@@ -69388,7 +69388,7 @@ overrides = {
           ],
           [
             25,
-            "Lunge"
+            "U-turn"
           ],
           [
             27,
@@ -85569,7 +85569,7 @@ overrides = {
           ],
           [
             1,
-            "Ember"
+            "Flame Charge"
           ],
           [
             7,
@@ -117868,13 +117868,13 @@ overrides = {
       "t": "Fighting",
       "bp": 80,
       "cat": "Physical",
-      "pp": 5,
+      "pp": 10,
       "acc": 100,
       "prio": 0,
       "name": "Mega Punch",
       "num": 4,
-      "e_id": 276,
-      "desc": "The target is slugged by a punch thrown with muscle-packed power. It may also raise the user's Attack stat.",
+      "e_id": 140,
+      "desc": "The target is slugged by a punch thrown with muscle-packed power. It may also raise all the user's stats.",
       "oldDesc": "The target is slugged by a punch thrown with muscle-packed power.",
       "sf": true,
       "flags": {
@@ -120896,7 +120896,8 @@ overrides = {
       "name": "Megahorn",
       "num": 223,
       "e_id": 6,
-      "desc": "Using its tough and impressive horn, the user rams into the target with no letup.",
+      "desc": "Using its tough and impressive horn, the user rams into the target. The impact may leave the target paralyzed.",
+      "oldDesc": "Using its tough and impressive horn, the user rams into the target with no letup.",
       "sf": true
     },
     "Dragon Breath": {
@@ -121554,7 +121555,7 @@ overrides = {
     "Supercell Slam": {
       "t": "Electric",
       "bp": 130,
-      "cat": "physical",
+      "cat": "Physical",
       "pp": 10,
       "acc": 90,
       "prio": 0,
@@ -124001,8 +124002,8 @@ overrides = {
       "prio": 0,
       "name": "Charge Beam",
       "num": 450,
-      "e_id": 276,
-      "desc": "The user attacks with an electric charge. It may also raise the user's Sp. Atk stat.",
+      "e_id": 140,
+      "desc": "The user attacks with an electric charge. It may also raise all the user's stats.",
       "oldDesc": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
       "sf": true
     },
@@ -125382,8 +125383,9 @@ overrides = {
       "prio": 0,
       "name": "Fiery Dance",
       "num": 551,
-      "e_id": 276,
-      "desc": "Cloaked in flames, the user dances and flaps its wings. It may also raise the user's Sp. Atk stat.",
+      "e_id": 140,
+      "desc": "Cloaked in flames, the user dances and flaps its wings. It may also raise all the user's stats.",
+      "oldDesc": "Cloaked in flames, the user dances and flaps its wings. It may also raise the user's Sp. Atk stat.",
       "sf": true
     },
     "Meteor Beam": {
@@ -154386,11 +154388,6 @@ overrides = {
       "new": true,
       "location": "",
       "marts": [
-        "Stock No Badges",
-        "Stock 1+Badges",
-        "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 7+Badges",
         "Stock 8+Badges"
       ]
     },
@@ -154401,11 +154398,6 @@ overrides = {
       "new": true,
       "location": "",
       "marts": [
-        "Stock No Badges",
-        "Stock 1+Badges",
-        "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 7+Badges",
         "Stock 8+Badges"
       ]
     },
@@ -154477,7 +154469,8 @@ overrides = {
       "location": "",
       "marts": [
         "Stock 3+Badges",
-        "Stock 5+Badges"
+        "Stock 5+Badges",
+        "Stock 7+Badges"
       ]
     },
     "sacredash": {
@@ -154950,11 +154943,6 @@ overrides = {
       "desc": "Very sweet chocolate. It restores the HP of one Pokémon by only 20 points.",
       "location": "",
       "marts": [
-        "Stock No Badges",
-        "Stock 1+Badges",
-        "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 7+Badges",
         "Stock 8+Badges"
       ]
     },
@@ -155137,10 +155125,7 @@ overrides = {
         "PkMn Ranger Eddie - Victory Road"
       ],
       "marts": [
-        "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 7+Badges",
-        "Castelia City Upper Cashier"
+        "Stock 5+Badges"
       ]
     },
     "chestoberry": {
@@ -155152,10 +155137,7 @@ overrides = {
         "PkMn Ranger Louis - Chargestone Cave"
       ],
       "marts": [
-        "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 7+Badges",
-        "Castelia City Upper Cashier"
+        "Stock 5+Badges"
       ]
     },
     "pechaberry": {
@@ -155167,10 +155149,7 @@ overrides = {
         "PkMn Ranger Serenity - Lostlorn Forest"
       ],
       "marts": [
-        "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 7+Badges",
-        "Castelia City Upper Cashier"
+        "Stock 5+Badges"
       ]
     },
     "rawstberry": {
@@ -155190,10 +155169,7 @@ overrides = {
         "Darmanitan-Zen"
       ],
       "marts": [
-        "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 7+Badges",
-        "Castelia City Upper Cashier"
+        "Stock 5+Badges"
       ]
     },
     "aspearberry": {
@@ -155205,10 +155181,7 @@ overrides = {
         "PkMn Ranger Crofton - Route 11"
       ],
       "marts": [
-        "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 7+Badges",
-        "Castelia City Upper Cashier"
+        "Stock 5+Badges"
       ]
     },
     "leppaberry": {
@@ -155243,10 +155216,7 @@ overrides = {
         "PkMn Ranger Eliza - Reversal Mountain"
       ],
       "marts": [
-        "Stock 3+Badges",
-        "Stock 5+Badges",
-        "Stock 7+Badges",
-        "Castelia City Upper Cashier"
+        "Stock 5+Badges"
       ]
     },
     "lumberry": {
@@ -155268,6 +155238,7 @@ overrides = {
         "Shaymin-Sky"
       ],
       "marts": [
+        "Stock 7+Badges",
         "Stock 8+Badges"
       ]
     },
@@ -155286,7 +155257,6 @@ overrides = {
         "PkMn Ranger Hillary"
       ],
       "marts": [
-        "Stock 7+Badges",
         "Stock 8+Badges",
         "Lacunosa Town"
       ]
@@ -155297,6 +155267,8 @@ overrides = {
       "oldDesc": "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
       "location": "",
       "marts": [
+        "Stock 5+Badges",
+        "Stock 7+Badges",
         "Driftveil City Herb Shop"
       ]
     },
@@ -155710,9 +155682,6 @@ overrides = {
       "wilds": [
         "Poliwhirl",
         "Hariyama"
-      ],
-      "marts": [
-        "Castelia City Upper Cashier"
       ]
     },
     "silverpowder": {
@@ -156572,7 +156541,7 @@ overrides = {
       "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
       "location": "",
       "rewards": [
-        "Johto Leader Morty"
+        "Johto Leader Morty - Celestial Tower"
       ]
     },
     "tm31": {
@@ -156687,10 +156656,7 @@ overrides = {
       "name": "TM50",
       "desc": "The user attacks the target with a pulsing blast of water. It may confuse the target and can't miss.",
       "oldDesc": "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.",
-      "location": "",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": ""
     },
     "tm51": {
       "name": "TM51",
@@ -157984,10 +157950,7 @@ overrides = {
     "tm94": {
       "name": "TM94",
       "desc": "The user attacks with a punch that can shatter a rock. It may also lower the target's Defense stat.",
-      "location": "",
-      "marts": [
-        "Nimbasa TM Department"
-      ]
+      "location": ""
     },
     "tm95": {
       "name": "TM95",
