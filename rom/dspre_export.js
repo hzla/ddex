@@ -1139,6 +1139,151 @@ function extractScriptTutorData(scriptsTextMap, pokemonNames, { moveNames } = {}
   return { bySpecies, byScript, byScriptSpecies };
 }
 
+function extractPlatinumScriptedRockSmashEncounters(scriptsTextMap, pokemonNames, { log } = {}) {
+  if (!scriptsTextMap || scriptsTextMap.size === 0) return null;
+
+  const speciesByScriptToken = new Map();
+  for (let i = 0; i < pokemonNames.length; i += 1) {
+    const name = pokemonNames[i];
+    if (!name || name === "-----") continue;
+    speciesByScriptToken.set(`SPECIES_${formatStringForScripting(name)}`, canonicalizeExportSpeciesName(name));
+  }
+
+  function parseBlocks(text) {
+    const lines = String(text || "").split(/\r?\n/);
+    const blocks = [];
+    const byKey = new Map();
+    let current = null;
+
+    function finishBlock(end) {
+      if (!current) return;
+      current.end = end;
+      current.lines = lines.slice(current.start + 1, current.end + 1);
+      blocks.push(current);
+      byKey.set(`${current.type}:${current.id}`, current);
+    }
+
+    for (let i = 0; i < lines.length; i += 1) {
+      const scriptMatch = /^\s*Script\s+(\d+):\s*$/i.exec(lines[i]);
+      const functionMatch = /^\s*Function\s+(\d+):\s*$/i.exec(lines[i]);
+      if (!scriptMatch && !functionMatch) continue;
+      finishBlock(i - 1);
+      current = {
+        type: scriptMatch ? "script" : "function",
+        id: Number.parseInt((scriptMatch || functionMatch)[1], 10),
+        start: i,
+        end: lines.length - 1,
+        lines: [],
+      };
+    }
+    finishBlock(lines.length - 1);
+    return { blocks, byKey };
+  }
+
+  function collectReachableWildBattles(parsed, startBlocks) {
+    const queue = startBlocks.slice();
+    const seen = new Set();
+    const wilds = [];
+    const wildKeys = new Set();
+
+    while (queue.length > 0) {
+      const block = queue.shift();
+      const blockKey = `${block.type}:${block.id}`;
+      if (seen.has(blockKey)) continue;
+      seen.add(blockKey);
+
+      for (const rawLine of block.lines) {
+        const line = rawLine.trim();
+        if (!line) continue;
+
+        const wildMatch = /^\s*WildBattle\s+(SPECIES_[A-Z0-9_]+)\s+([^\s]+)\s*$/i.exec(line);
+        if (wildMatch) {
+          const speciesToken = wildMatch[1].toUpperCase();
+          const level = parseNumeric(wildMatch[2]);
+          const speciesName =
+            speciesByScriptToken.get(speciesToken) ||
+            canonicalizeExportSpeciesName(speciesToken.replace(/^SPECIES_/i, "").replace(/_/g, " "));
+          const key = `${speciesName}|${level ?? ""}`;
+          if (!wildKeys.has(key)) {
+            wildKeys.add(key);
+            wilds.push({
+              s: speciesName,
+              mn: level ?? 0,
+            });
+          }
+        }
+
+        const functionRefs = line.matchAll(/\b(?:Jump\w*|Call\w*)\b.*?\bFunction#(\d+)\b/gi);
+        for (const ref of functionRefs) {
+          const fnId = Number.parseInt(ref[1], 10);
+          if (Number.isNaN(fnId)) continue;
+          const target = parsed.byKey.get(`function:${fnId}`);
+          if (target) queue.push(target);
+        }
+      }
+    }
+
+    return wilds;
+  }
+
+  const candidates = [];
+  for (const [scriptFileId, text] of scriptsTextMap.entries()) {
+    if (!/\bCMD_670\s+1\b/i.test(text) || !/\bCreateJournalData\s+24\b/i.test(text)) continue;
+    const parsed = parseBlocks(text);
+    const startBlocks = parsed.blocks.filter((block) => {
+      const body = block.lines.join("\n");
+      return /\bCMD_670\s+1\b/i.test(body) && /\bCreateJournalData\s+24\b/i.test(body);
+    });
+    if (!startBlocks.length) continue;
+
+    const encs = collectReachableWildBattles(parsed, startBlocks);
+    if (!encs.length) continue;
+    candidates.push({ scriptFileId, encs });
+  }
+
+  if (!candidates.length) return null;
+  candidates.sort((a, b) => b.encs.length - a.encs.length || Number(a.scriptFileId) - Number(b.scriptFileId));
+  const best = candidates[0];
+  const rates = best.encs.map(() => 1);
+  if (log) {
+    log(`Platinum scripted Rock Smash encounters: script=${best.scriptFileId}, slots=${best.encs.length}`);
+  }
+  return {
+    scriptFileId: Number(best.scriptFileId),
+    encs: best.encs,
+    rates,
+  };
+}
+
+function getPlatinumRockSmashLocationKeys(mapHeaders, groupedEventOverworlds, locationNamesRaw) {
+  const wildLocationKeys = new Set();
+  const standaloneLocationNameIds = new Set();
+  let totalHeaders = 0;
+  for (const header of mapHeaders) {
+    const eventFileID = parseNumeric(header.EventFileID);
+    if (!Number.isFinite(eventFileID)) continue;
+    const overworlds = groupedEventOverworlds[String(eventFileID)] || [];
+    const hasRockSmashObject = overworlds.some((entry) => {
+      const owSpriteID = parseNumeric(entry.OwSpriteID ?? entry.owSpriteID);
+      const overlayTableEntry = parseNumeric(entry.OverlayTableEntry ?? entry.OverworldTableEntry ?? entry.overworldTableEntry);
+      return owSpriteID === 0x53 || overlayTableEntry === 0x53;
+    });
+    if (!hasRockSmashObject) continue;
+    totalHeaders += 1;
+    const locationNameId = parseNumeric(header.MapNameIndexInTextArchive);
+    if (!Number.isFinite(locationNameId) || locationNameId < 0 || locationNameId >= locationNamesRaw.length) {
+      continue;
+    }
+    const wildId = parseNumeric(header.WildPokemonFileID);
+    if (Number.isFinite(wildId) && wildId !== 65535) {
+      wildLocationKeys.add(`${wildId}|${locationNameId}`);
+    } else {
+      standaloneLocationNameIds.add(locationNameId);
+    }
+  }
+  return { wildLocationKeys, standaloneLocationNameIds, totalHeaders };
+}
+
 function getOverworldEntityForScript(eventOverworldEntries, scriptNumber) {
   if (scriptNumber === null || scriptNumber === undefined) return null;
   const entry = eventOverworldEntries.find(
@@ -3231,6 +3376,14 @@ function buildOverridesAndSearchIndex(data, options) {
 
   const groupedEventOverworlds = groupEventOverworldsByEventFileID(eventOverworlds);
   const groupedHiddenItemEvents = groupHiddenItemEventsByEventFileID(hiddenItemEvents);
+  const platinumRockSmashEncounters =
+    data.family === "Plat"
+      ? extractPlatinumScriptedRockSmashEncounters(data.scriptsTextMap, data.texts.pokemonNames, { log })
+      : null;
+  const platinumRockSmashLocationKeys =
+    platinumRockSmashEncounters && platinumRockSmashEncounters.encs.length
+      ? getPlatinumRockSmashLocationKeys(mapHeaders, groupedEventOverworlds, data.texts.locationNames)
+      : { wildLocationKeys: new Set(), standaloneLocationNameIds: new Set(), totalHeaders: 0 };
   const commonScriptIds = data.family === "HGSS" ? [2033, 2009] : [2016, 2044];
   const itemLocations = buildItemLocationIndex(
     groupedEventOverworlds,
@@ -3579,6 +3732,15 @@ function buildOverridesAndSearchIndex(data, options) {
         const isHGSS = data.family === "HGSS";
         const grassRates = [20, 20, 10, 10, 10, 10, 5, 5, 4, 4, 1, 1];
         const surfRates = [60, 30, 5, 4, 1];
+        const hasPlatinumRockSmash =
+          !isHGSS &&
+          platinumRockSmashEncounters &&
+          Array.isArray(platinumRockSmashEncounters.encs) &&
+          platinumRockSmashEncounters.encs.length > 0 &&
+          (
+            platinumRockSmashLocationKeys.wildLocationKeys.size > 0 ||
+            platinumRockSmashLocationKeys.standaloneLocationNameIds.size > 0
+          );
 
         const encounterTypes = isHGSS
           ? [
@@ -3609,6 +3771,7 @@ function buildOverridesAndSearchIndex(data, options) {
               "dual_emerald",
               "dual_fire_red",
               "dual_leaf_green",
+              ...(hasPlatinumRockSmash ? ["rock_smash"] : []),
             ];
 
         const defaultRates = isHGSS
@@ -3640,6 +3803,7 @@ function buildOverridesAndSearchIndex(data, options) {
               dual_emerald: [4, 4],
               dual_fire_red: [4, 4],
               dual_leaf_green: [4, 4],
+              ...(hasPlatinumRockSmash ? { rock_smash: platinumRockSmashEncounters.rates } : {}),
             };
 
         const locationNameRecords = [];
@@ -3729,6 +3893,23 @@ function buildOverridesAndSearchIndex(data, options) {
                 ? record.level
                 : 0;
           return { s: record.speciesName, mn };
+        }
+
+        function addPlatinumRockSmashEncounters(loc, wildId = null) {
+          if (!hasPlatinumRockSmash || !loc) return;
+          const locationNameId = parseNumeric(loc.locationNameId);
+          if (!Number.isFinite(locationNameId)) return;
+          const wildIdNumber = parseNumeric(wildId);
+          const hasWildLocation =
+            Number.isFinite(wildIdNumber) &&
+            platinumRockSmashLocationKeys.wildLocationKeys.has(`${wildIdNumber}|${locationNameId}`);
+          const hasStandaloneLocation =
+            !Number.isFinite(wildIdNumber) &&
+            platinumRockSmashLocationKeys.standaloneLocationNameIds.has(locationNameId);
+          if (!hasWildLocation && !hasStandaloneLocation) return;
+          loc.rock_smash = {
+            encs: platinumRockSmashEncounters.encs.map((enc) => ({ ...enc })),
+          };
         }
 
         const locationsOut = {};
@@ -3874,6 +4055,7 @@ function buildOverridesAndSearchIndex(data, options) {
               }
             }
 
+            addPlatinumRockSmashEncounters(loc, fileId);
             locationsOut[key] = loc;
           }
         }
@@ -3881,10 +4063,12 @@ function buildOverridesAndSearchIndex(data, options) {
         for (const locationInfo of locationNameInfoList) {
           const key = normName(locationInfo.name);
           if (!key || locationsOut[key]) continue;
-          locationsOut[key] = {
+          const loc = {
             name: locationInfo.name,
             locationNameId: locationInfo.locationNameId,
           };
+          addPlatinumRockSmashEncounters(loc);
+          locationsOut[key] = loc;
         }
 
         if (undergroundBagItemIds.size > 0 && !locationsOut[undergroundLocationKey]) {

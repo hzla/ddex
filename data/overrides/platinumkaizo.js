@@ -76914,6 +76914,38 @@ var overrides = {
                         "mn": 1
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "pastoriacity": {
@@ -77927,6 +77959,38 @@ var overrides = {
                     {
                         "s": "GEODUDE",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -79126,7 +79190,39 @@ var overrides = {
             },
             "legacyNames": [
                 "Mt. Coronet"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "mtcoronetsection2": {
             "name": "Mt. Coronet 1F (Central)",
@@ -79689,7 +79785,39 @@ var overrides = {
             },
             "legacyNames": [
                 "Coronet Highlands"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "coronethighlandssection2": {
             "name": "Coronet Highlands 1F (Room 1/2)",
@@ -79877,7 +80005,39 @@ var overrides = {
             "legacyNames": [
                 "Coronet Highlands Section 2",
                 "Coronet Highlands"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "coronethighlandssection3": {
             "name": "Coronet Highlands 1F (Room 3)",
@@ -80149,7 +80309,39 @@ var overrides = {
             "legacyNames": [
                 "Coronet Highlands Section 3",
                 "Coronet Highlands"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "coronethighlandssection4": {
             "name": "Coronet Highlands (North Exterior)",
@@ -80897,6 +81089,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "mtcoronetsection4": {
@@ -81441,7 +81665,39 @@ var overrides = {
             "legacyNames": [
                 "Mt. Coronet Section 5",
                 "Mt. Coronet"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "mtcoronetsection6": {
             "name": "Mt. Coronet 3F",
@@ -81713,7 +81969,39 @@ var overrides = {
             "legacyNames": [
                 "Mt. Coronet Section 6",
                 "Mt. Coronet"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "greatmarsh": {
             "name": "Great Marsh (Area 1)",
@@ -87031,7 +87319,39 @@ var overrides = {
             "legacyNames": [
                 "Victory Road Section 2",
                 "Victory Road"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "victoryroadsection3": {
             "name": "Victory Road B1F",
@@ -88219,6 +88539,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "oreburghgate": {
@@ -88406,7 +88758,39 @@ var overrides = {
             },
             "legacyNames": [
                 "Oreburgh Gate"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "oreburghgatesection2": {
             "name": "Oreburgh Gate B1F",
@@ -88678,7 +89062,39 @@ var overrides = {
             "legacyNames": [
                 "Oreburgh Gate Section 2",
                 "Oreburgh Gate"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "starkmountain": {
             "name": "Stark Mountain",
@@ -89046,6 +89462,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "starkmountainsection3": {
@@ -89228,6 +89676,38 @@ var overrides = {
                     {
                         "s": "RHYHORN",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -90234,6 +90714,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "turnbackcavesection2": {
@@ -90416,6 +90928,38 @@ var overrides = {
                     {
                         "s": "CHINGLING",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -90602,6 +91146,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "turnbackcavesection4": {
@@ -90784,6 +91360,38 @@ var overrides = {
                     {
                         "s": "CHINGLING",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -90970,6 +91578,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "turnbackcavesection6": {
@@ -91152,6 +91792,38 @@ var overrides = {
                     {
                         "s": "CHINGLING",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -91338,6 +92010,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "turnbackcavesection8": {
@@ -91520,6 +92224,38 @@ var overrides = {
                     {
                         "s": "CHINGLING",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -91706,6 +92442,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "turnbackcavesection10": {
@@ -91888,6 +92656,38 @@ var overrides = {
                     {
                         "s": "CHINGLING",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -92074,6 +92874,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "turnbackcavesection12": {
@@ -92256,6 +93088,38 @@ var overrides = {
                     {
                         "s": "CHINGLING",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -92442,6 +93306,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "turnbackcavesection14": {
@@ -92624,6 +93520,38 @@ var overrides = {
                     {
                         "s": "CHINGLING",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -92810,6 +93738,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "turnbackcavesection16": {
@@ -92994,6 +93954,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "turnbackcavesection17": {
@@ -93176,6 +94168,38 @@ var overrides = {
                     {
                         "s": "CHIMECHO",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -98514,6 +99538,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "snowpointtemplesection4": {
@@ -99253,7 +100309,39 @@ var overrides = {
             },
             "legacyNames": [
                 "Wayward Cave"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "waywardcavesection2": {
             "name": "Wayward Cave B1F",
@@ -106674,7 +107762,39 @@ var overrides = {
             },
             "legacyNames": [
                 "Route 205"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "route205section2": {
             "name": "Route 205 (East)",
@@ -107314,6 +108434,38 @@ var overrides = {
                         "mn": 15
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "route207": {
@@ -107587,6 +108739,38 @@ var overrides = {
                     },
                     {
                         "s": "STARLY",
+                        "mn": 15
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
                         "mn": 15
                     }
                 ]
@@ -107950,6 +109134,38 @@ var overrides = {
                         "mn": 15
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "route209": {
@@ -108308,6 +109524,38 @@ var overrides = {
                     {
                         "s": "BUTTERFREE",
                         "mn": 40
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -109731,6 +110979,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "route211": {
@@ -109918,7 +111198,39 @@ var overrides = {
             },
             "legacyNames": [
                 "Route 211"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "route211section2": {
             "name": "Route 211 (East)",
@@ -110198,7 +111510,39 @@ var overrides = {
             "legacyNames": [
                 "Route 211 Section 2",
                 "Route 211"
-            ]
+            ],
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "unknown160": {
             "name": "unknown_160",
@@ -111131,6 +112475,38 @@ var overrides = {
                         "mn": 44
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "route214": {
@@ -111491,6 +112867,38 @@ var overrides = {
                         "mn": 40
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "route215": {
@@ -111765,6 +113173,38 @@ var overrides = {
                     {
                         "s": "BUTTERFREE",
                         "mn": 40
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -113280,6 +114720,38 @@ var overrides = {
                         "mn": 55
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "route224": {
@@ -114350,6 +115822,38 @@ var overrides = {
                     {
                         "s": "SANDSLASH",
                         "mn": 0
+                    }
+                ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
                     }
                 ]
             }
@@ -115949,6 +117453,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "oreburghcity": {
@@ -117420,6 +118956,38 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "unknown194": {
@@ -118924,7 +120492,39 @@ var overrides = {
         },
         "veilstonestore": {
             "name": "Veilstone Store",
-            "locationNameId": 101
+            "locationNameId": 101,
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
+            }
         },
         "casino": {
             "name": "Casino",
@@ -119090,6 +120690,15 @@ var overrides = {
             "dual_leaf_green": [
                 4,
                 4
+            ],
+            "rock_smash": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
             ]
         }
     },

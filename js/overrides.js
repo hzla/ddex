@@ -59,6 +59,7 @@ function setCalcBridgeStatus(status) {
 var params = new URLSearchParams(window.location.search);
 var gameParam = params.get("game");
 var GAME_SOURCE_ALIASES = {
+  "platinumreduxhc": "platinumredux",
   "sterlingsilver117": "sterlingsilver",
   "unbound": "pokemonunbound",
 };
@@ -70,6 +71,7 @@ var gameTitles = {
 	"cascadewhite": "Cascade White",
 	"cascadewhite2": "Cascade White",
 	"renegadeplatinum": "Renegade Platinum",
+  "platinumredux": "Platinum Redux",
   "sterlingsilver": "Sterling Silver",
   "sterlingsilver117": "Sterling Silver",
   "pokemonnull": "Pokemon Null",
@@ -141,7 +143,7 @@ function setDexTitleFromStorage() {
 function maybeApplyRomFamilyFromTitle(title) {
   if (!title) return;
   const normalized = String(title).trim().toLowerCase();
-  if (normalized === "renegade platinum") {
+  if (normalized === "renegade platinum" || normalized === "platinum redux") {
     localStorage.romFamily = "Plat";
   } else if (normalized === "sterling silver") {
     localStorage.romFamily = "HGSS";
