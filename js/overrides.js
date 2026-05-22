@@ -256,11 +256,16 @@ function clearManualCaughtCache() {
   }
 }
 
+function clearNuzlockeEncounterCache() {
+  localStorage.removeItem("ddexNuzlockeEncounterCacheV1");
+}
+
 $(document).on('click', '#reset-cache', function() {
   delete localStorage.overrides
   clearRomCache();
   clearMissedLocationCache();
   clearManualCaughtCache();
+  clearNuzlockeEncounterCache();
   localStorage.removeItem("game");
   location.reload()
 })
