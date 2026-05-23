@@ -310,7 +310,8 @@ a.button {
     cursor: pointer;
 }	
 
-#rom-upload-panel {
+#rom-upload-panel,
+#override-upload-panel {
 	position: absolute;
 	bottom: 10px;
 	left: 150px;
@@ -324,11 +325,17 @@ a.button {
 	color: #e8e8e8;
 }
 
-#rom-upload-panel label {
+#override-upload-panel {
+	bottom: 60px;
+}
+
+#rom-upload-panel label,
+#override-upload-panel label {
 	font-size: 12px;
 }
 
-#rom-upload-panel input[type="file"] {
+#rom-upload-panel input[type="file"],
+#override-upload-panel input[type="file"] {
 	font-size: 12px;
 	color: #e8e8e8;
 	background: #2b2b2b;
@@ -337,7 +344,8 @@ a.button {
 	padding: 2px 6px;
 }
 
-#rom-upload-panel input[type="file"]::file-selector-button {
+#rom-upload-panel input[type="file"]::file-selector-button,
+#override-upload-panel input[type="file"]::file-selector-button {
 	border: 1px solid #B38CFF;
 	background: #2b2b2b;
 	color: #e8e8e8;
@@ -347,7 +355,8 @@ a.button {
 	cursor: pointer;
 }
 
-#rom-upload-panel input[type="file"]::-webkit-file-upload-button {
+#rom-upload-panel input[type="file"]::-webkit-file-upload-button,
+#override-upload-panel input[type="file"]::-webkit-file-upload-button {
 	border: 1px solid #B38CFF;
 	background: #2b2b2b;
 	color: #e8e8e8;
@@ -357,7 +366,8 @@ a.button {
 	cursor: pointer;
 }
 
-#rom-status {
+#rom-status,
+#override-upload-status {
 	margin-left: 6px;
 	font-size: 11px;
 	color: #cfcfcf;
@@ -365,14 +375,24 @@ a.button {
 	white-space: pre-wrap;
 }
 
+#rom-status.is-error,
+#override-upload-status.is-error {
+	color: #ff8a80;
+}
+
 @media (max-width: 520px) {
-	#rom-upload-panel {
+	#rom-upload-panel,
+	#override-upload-panel {
 		left: 10px;
 		right: 10px;
 		bottom: 60px;
 		flex-wrap: wrap;
 	}
-	#rom-status {
+	#override-upload-panel {
+		bottom: 120px;
+	}
+	#rom-status,
+	#override-upload-status {
 		width: 100%;
 		margin-left: 0;
 	}
@@ -509,7 +529,8 @@ body.ddex-fixed-layout {
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel #reset-cache,
-.ddex-fixed-layout .ddex-sidebar-panel #rom-upload-panel {
+.ddex-fixed-layout .ddex-sidebar-panel #rom-upload-panel,
+.ddex-fixed-layout .ddex-sidebar-panel #override-upload-panel {
 	position: static;
 	left: auto;
 	bottom: auto;
@@ -523,7 +544,8 @@ body.ddex-fixed-layout {
 	box-sizing: border-box;
 }
 
-.ddex-fixed-layout .ddex-sidebar-panel #rom-upload-panel {
+.ddex-fixed-layout .ddex-sidebar-panel #rom-upload-panel,
+.ddex-fixed-layout .ddex-sidebar-panel #override-upload-panel {
 	height: auto;
 	min-height: 52px;
 	box-sizing: border-box;

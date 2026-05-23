@@ -86,6 +86,11 @@ var PokedexSearchPanel = Panels.Panel.extend({
     buf += '<input type="file" id="rom-upload" accept=".nds,.gba,.toml,application/octet-stream,text/plain" multiple />';
     buf += '<div id="rom-status" style="display:none;"></div>';
     buf += "</div>";
+    buf += '<div id="override-upload-panel" class="ddex-upload-panel">';
+    buf += '<label class="ddex-rom-upload-trigger" for="override-upload">Load Override Files</label>';
+    buf += '<input type="file" id="override-upload" accept=".js,.zip,text/javascript,application/javascript,application/zip,application/x-zip-compressed" multiple />';
+    buf += '<div id="override-upload-status" style="display:none;"></div>';
+    buf += "</div>";
     buf += "</div></div>";
     this.$el.html(buf);
     if (typeof setDexTitleFromStorage === "function") {

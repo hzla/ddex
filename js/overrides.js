@@ -270,8 +270,28 @@ $(document).on('click', '#reset-cache', function() {
   location.reload()
 })
 
+function setUploadStatus(msg, isErr, selector) {
+  const statusEls = document.querySelectorAll(selector);
+  for (let i = 0; i < statusEls.length; i += 1) {
+    statusEls[i].textContent = msg || "";
+    statusEls[i].style.display = msg ? "block" : "none";
+    statusEls[i].classList.toggle("is-error", !!isErr);
+  }
+}
+
 function setRomStatus(msg, isErr) {
   const prefix = isErr ? "[error] " : "";
+  setUploadStatus(msg, isErr, "#rom-status");
+  if (isErr) {
+    console.error(`${prefix}${msg}`);
+    return;
+  }
+  console.log(msg);
+}
+
+function setOverrideUploadStatus(msg, isErr) {
+  const prefix = isErr ? "[error] " : "";
+  setUploadStatus(msg, isErr, "#override-upload-status");
   if (isErr) {
     console.error(`${prefix}${msg}`);
     return;
@@ -1519,6 +1539,304 @@ window.debugPlatinumKaizoItemReferences = function() {
   return window.debugLoadedRomItemScriptReferences(["RageCandyBar", { itemId: 103, name: "Old Amber" }]);
 };
 
+function readZipUint16(view, offset) {
+  if (offset + 2 > view.byteLength) throw new Error("Invalid ZIP file.");
+  return view.getUint16(offset, true);
+}
+
+function readZipUint32(view, offset) {
+  if (offset + 4 > view.byteLength) throw new Error("Invalid ZIP file.");
+  return view.getUint32(offset, true);
+}
+
+function findZipEndOfCentralDirectory(view) {
+  const minOffset = Math.max(0, view.byteLength - 0xffff - 22);
+  for (let offset = view.byteLength - 22; offset >= minOffset; offset -= 1) {
+    if (readZipUint32(view, offset) === 0x06054b50) return offset;
+  }
+  throw new Error("Invalid ZIP file: end of central directory was not found.");
+}
+
+function decodeZipName(bytes) {
+  try {
+    return new TextDecoder("utf-8").decode(bytes);
+  } catch (e) {
+    let out = "";
+    for (let i = 0; i < bytes.length; i += 1) {
+      out += String.fromCharCode(bytes[i]);
+    }
+    return out;
+  }
+}
+
+async function inflateZipDeflate(bytes) {
+  if (typeof DecompressionStream !== "function") {
+    throw new Error("This browser cannot decompress deflated ZIP entries.");
+  }
+
+  const formats = ["deflate-raw", "deflate"];
+  let lastError = null;
+  for (let i = 0; i < formats.length; i += 1) {
+    try {
+      const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream(formats[i]));
+      return new Uint8Array(await new Response(stream).arrayBuffer());
+    } catch (err) {
+      lastError = err;
+    }
+  }
+  throw lastError || new Error("Could not decompress deflated ZIP entry.");
+}
+
+async function extractZipEntryBytes(entry, allBytes, view) {
+  if (entry.encrypted) {
+    throw new Error(`Cannot read encrypted ZIP entry: ${entry.name}`);
+  }
+  if (entry.localHeaderOffset + 30 > allBytes.length) {
+    throw new Error(`Invalid ZIP entry: ${entry.name}`);
+  }
+  if (readZipUint32(view, entry.localHeaderOffset) !== 0x04034b50) {
+    throw new Error(`Invalid ZIP local header: ${entry.name}`);
+  }
+
+  const localNameLength = readZipUint16(view, entry.localHeaderOffset + 26);
+  const localExtraLength = readZipUint16(view, entry.localHeaderOffset + 28);
+  const dataStart = entry.localHeaderOffset + 30 + localNameLength + localExtraLength;
+  const dataEnd = dataStart + entry.compressedSize;
+  if (dataStart < 0 || dataEnd > allBytes.length) {
+    throw new Error(`Invalid ZIP entry data: ${entry.name}`);
+  }
+
+  const compressed = allBytes.subarray(dataStart, dataEnd);
+  let bytes;
+  if (entry.method === 0) {
+    bytes = compressed;
+  } else if (entry.method === 8) {
+    bytes = await inflateZipDeflate(compressed);
+  } else {
+    throw new Error(`Unsupported ZIP compression method ${entry.method} for ${entry.name}.`);
+  }
+
+  if (entry.uncompressedSize && bytes.length !== entry.uncompressedSize) {
+    throw new Error(`Invalid ZIP entry size for ${entry.name}.`);
+  }
+  return bytes;
+}
+
+async function extractZipJsEntries(file) {
+  const buffer = await file.arrayBuffer();
+  const allBytes = new Uint8Array(buffer);
+  const view = new DataView(buffer);
+  const eocdOffset = findZipEndOfCentralDirectory(view);
+  const diskNumber = readZipUint16(view, eocdOffset + 4);
+  const centralDisk = readZipUint16(view, eocdOffset + 6);
+  const entryCount = readZipUint16(view, eocdOffset + 10);
+  const centralSize = readZipUint32(view, eocdOffset + 12);
+  const centralOffset = readZipUint32(view, eocdOffset + 16);
+  if (diskNumber || centralDisk) {
+    throw new Error("Multi-disk ZIP files are not supported.");
+  }
+  if (centralOffset + centralSize > allBytes.length) {
+    throw new Error("Invalid ZIP file: central directory is out of range.");
+  }
+
+  const decoder = new TextDecoder("utf-8");
+  const entries = [];
+  let offset = centralOffset;
+  for (let i = 0; i < entryCount; i += 1) {
+    if (offset + 46 > allBytes.length || readZipUint32(view, offset) !== 0x02014b50) {
+      throw new Error("Invalid ZIP file: central directory entry is malformed.");
+    }
+
+    const flags = readZipUint16(view, offset + 8);
+    const method = readZipUint16(view, offset + 10);
+    const compressedSize = readZipUint32(view, offset + 20);
+    const uncompressedSize = readZipUint32(view, offset + 24);
+    const nameLength = readZipUint16(view, offset + 28);
+    const extraLength = readZipUint16(view, offset + 30);
+    const commentLength = readZipUint16(view, offset + 32);
+    const externalAttributes = readZipUint32(view, offset + 38);
+    const localHeaderOffset = readZipUint32(view, offset + 42);
+    const nameStart = offset + 46;
+    const nameEnd = nameStart + nameLength;
+    if (nameEnd > allBytes.length) throw new Error("Invalid ZIP file: entry name is out of range.");
+
+    const nameBytes = allBytes.subarray(nameStart, nameEnd);
+    const name = flags & 0x0800 ? decoder.decode(nameBytes) : decodeZipName(nameBytes);
+    const isDirectory = /\/$/.test(name) || ((externalAttributes >>> 16) & 0x4000) !== 0;
+    if (!isDirectory && /\.js$/i.test(name)) {
+      if (compressedSize === 0xffffffff || uncompressedSize === 0xffffffff || localHeaderOffset === 0xffffffff) {
+        throw new Error(`ZIP64 entries are not supported: ${name}`);
+      }
+      entries.push({
+        compressedSize,
+        encrypted: !!(flags & 0x0001),
+        localHeaderOffset,
+        method,
+        name,
+        sourceName: `${file.name}/${name}`,
+        uncompressedSize,
+      });
+    }
+
+    offset = nameEnd + extraLength + commentLength;
+  }
+
+  const textEntries = [];
+  for (let i = 0; i < entries.length; i += 1) {
+    const bytes = await extractZipEntryBytes(entries[i], allBytes, view);
+    textEntries.push({
+      name: entries[i].name,
+      sourceName: entries[i].sourceName,
+      text: decoder.decode(bytes),
+    });
+  }
+  return textEntries;
+}
+
+function parseUploadedOverrideScript(entry) {
+  const exports = {};
+  const module = { exports };
+  let parsed;
+  try {
+    const evaluate = new Function(
+      "exports",
+      "module",
+      [
+        '"use strict";',
+        "var overrides;",
+        entry.text,
+        "return {",
+        '  overrides: typeof overrides === "undefined" ? undefined : overrides,',
+        "  exports: module && module.exports ? module.exports : exports",
+        "};",
+      ].join("\n")
+    );
+    parsed = evaluate(exports, module);
+  } catch (err) {
+    return {
+      error: new Error(`Could not parse ${entry.sourceName || entry.name}: ${err.message || err}`),
+    };
+  }
+
+  const exported = parsed && parsed.exports ? parsed.exports : {};
+  const searchIndex = exported.BattleSearchIndex;
+  const searchIndexOffset = exported.BattleSearchIndexOffset;
+  const searchIndexCount = exported.BattleSearchCountIndex;
+  return {
+    overrides:
+      parsed && parsed.overrides && typeof parsed.overrides === "object"
+        ? parsed.overrides
+        : null,
+    searchPayload:
+      Array.isArray(searchIndex) &&
+      Array.isArray(searchIndexOffset) &&
+      searchIndexCount &&
+      typeof searchIndexCount === "object"
+        ? { searchIndex, searchIndexOffset, searchIndexCount }
+        : null,
+  };
+}
+
+async function readUploadedOverrideEntries(files) {
+  const entries = [];
+  for (let i = 0; i < files.length; i += 1) {
+    const file = files[i];
+    const name = String(file && file.name ? file.name : "");
+    if (/\.zip$/i.test(name)) {
+      const zipEntries = await extractZipJsEntries(file);
+      entries.push(...zipEntries);
+    } else if (/\.js$/i.test(name)) {
+      entries.push({
+        name,
+        sourceName: name,
+        text: await file.text(),
+      });
+    }
+  }
+  return entries;
+}
+
+function refreshSearchAfterOverrideUpload() {
+  const input = document.querySelector(".searchbox");
+  if (window.search && window.search.engine) {
+    window.search.engine.results = null;
+    window.search.engine.query = undefined;
+  }
+  if (input) {
+    input.dispatchEvent(new Event("input", { bubbles: true }));
+  }
+}
+
+async function loadUploadedOverrideFiles(rawFiles) {
+  const files = Array.from(rawFiles || []).filter(Boolean);
+  if (!files.length) return false;
+
+  setOverrideUploadStatus("Reading override files...");
+  const entries = await readUploadedOverrideEntries(files);
+  if (!entries.length) {
+    throw new Error("Select two `.js` files or one `.zip` containing an overrides file and a search index file.");
+  }
+
+  let overrideEntry = null;
+  let searchEntry = null;
+  const parseErrors = [];
+  for (let i = 0; i < entries.length; i += 1) {
+    const parsed = parseUploadedOverrideScript(entries[i]);
+    if (parsed.error) {
+      parseErrors.push(parsed.error.message);
+      continue;
+    }
+    if (parsed.overrides) {
+      if (overrideEntry) {
+        throw new Error(`Multiple override payloads found: ${overrideEntry.name} and ${entries[i].sourceName || entries[i].name}.`);
+      }
+      overrideEntry = {
+        name: entries[i].sourceName || entries[i].name,
+        fileName: entries[i].name,
+        overrides: parsed.overrides,
+      };
+    }
+    if (parsed.searchPayload) {
+      if (searchEntry) {
+        throw new Error(`Multiple search index payloads found: ${searchEntry.name} and ${entries[i].sourceName || entries[i].name}.`);
+      }
+      searchEntry = {
+        name: entries[i].sourceName || entries[i].name,
+        ...parsed.searchPayload,
+      };
+    }
+  }
+
+  if (!overrideEntry || !searchEntry) {
+    const missing = [];
+    if (!overrideEntry) missing.push("an overrides file");
+    if (!searchEntry) missing.push("a search index file");
+    const details = parseErrors.length ? ` Parse errors: ${parseErrors.join(" ")}` : "";
+    throw new Error(`Could not find ${missing.join(" and ")}.${details}`);
+  }
+
+  const zipFile = files.find((file) => /\.zip$/i.test(String(file && file.name)));
+  const titleSource = zipFile ? zipFile.name : overrideEntry.fileName;
+  const title = stripFileExtension(titleSource) || "uploaded overrides";
+  applyImportedRomPayload(
+    {
+      title,
+      overrides: overrideEntry.overrides,
+      searchIndex: searchEntry.searchIndex,
+      searchIndexOffset: searchEntry.searchIndexOffset,
+      searchIndexCount: searchEntry.searchIndexCount,
+    },
+    {
+      fallbackTitle: title,
+      lastRomBuffer: null,
+      sourceGen: null,
+    }
+  );
+  refreshSearchAfterOverrideUpload();
+  setOverrideUploadStatus(`Loaded override files: ${overrideEntry.name} and ${searchEntry.name}.`);
+  return true;
+}
+
 async function importGen4RomFiles(files) {
   const file = findUploadedFile(files, /\.nds$/i);
   if (!file) {
@@ -1588,6 +1906,18 @@ $(document).on('change', '#rom-upload', async function(e) {
     }
   } catch (err) {
     setRomStatus(err.message || String(err), true);
+  } finally {
+    e.target.value = "";
+  }
+});
+
+$(document).on('change', '#override-upload', async function(e) {
+  const files = getUploadedFiles(e.target);
+  if (!files.length) return;
+  try {
+    await loadUploadedOverrideFiles(files);
+  } catch (err) {
+    setOverrideUploadStatus(err.message || String(err), true);
   } finally {
     e.target.value = "";
   }
@@ -2426,6 +2756,7 @@ window.DDEX_OVERRIDES_API = {
   checkAndLoadScript,
   clearRomCache,
   hydrateCachedOverrides,
+  loadUploadedOverrideFiles,
   loadRequestedGameOverrides,
   overrideDexData,
   setDexTitleFromStorage,
