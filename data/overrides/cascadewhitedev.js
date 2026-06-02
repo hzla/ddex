@@ -6741,7 +6741,7 @@ overrides = {
       ],
       "evoParams": [
         "Moon Stone",
-        41
+        42
       ],
       "evoType": "level",
       "evoLevel": 18
@@ -6955,7 +6955,7 @@ overrides = {
       ],
       "evoType": "level",
       "evoItem": "Moon Stone",
-      "evoLevel": 41
+      "evoLevel": 42
     },
     "Zubat": {
       "name": "Zubat",
@@ -73333,13 +73333,16 @@ overrides = {
         "Aerilate"
       ],
       "evos": [
+        "Drifblim",
         "Drifblim"
       ],
       "evoMethods": [
-        "level"
+        "level",
+        "useItem"
       ],
       "evoParams": [
-        28
+        42,
+        "Fire Stone"
       ]
     },
     "Drifblim": {
@@ -73523,8 +73526,9 @@ overrides = {
         "Unburden",
         "Aerilate"
       ],
-      "evoType": "level",
-      "evoLevel": 28
+      "evoType": "useItem",
+      "evoLevel": 42,
+      "evoItem": "Fire Stone"
     },
     "Buneary": {
       "name": "Buneary",
@@ -74389,7 +74393,7 @@ overrides = {
         "level"
       ],
       "evoParams": [
-        28
+        32
       ]
     },
     "Purugly": {
@@ -74565,7 +74569,7 @@ overrides = {
         "Skill Link"
       ],
       "evoType": "level",
-      "evoLevel": 28
+      "evoLevel": 32
     },
     "Chingling": {
       "name": "Chingling",
@@ -74880,7 +74884,7 @@ overrides = {
         "level"
       ],
       "evoParams": [
-        28
+        32
       ]
     },
     "Skuntank": {
@@ -75063,7 +75067,7 @@ overrides = {
         "Intimidate"
       ],
       "evoType": "level",
-      "evoLevel": 28
+      "evoLevel": 32
     },
     "Bronzor": {
       "name": "Bronzor",
@@ -118254,7 +118258,7 @@ overrides = {
       "bp": 100,
       "cat": "Physical",
       "pp": 5,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Horn Drill",
       "num": 31,
@@ -118293,7 +118297,7 @@ overrides = {
       "bp": 100,
       "cat": "Physical",
       "pp": 5,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Wrap",
       "num": 34,
@@ -118960,7 +118964,7 @@ overrides = {
       "bp": 100,
       "cat": "Special",
       "pp": 5,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Fire Spin",
       "num": 82,
@@ -119050,7 +119054,7 @@ overrides = {
       "bp": 120,
       "cat": "Physical",
       "pp": 5,
-      "acc": 85,
+      "acc": 80,
       "prio": 0,
       "name": "Fissure",
       "num": 89,
@@ -119561,7 +119565,7 @@ overrides = {
       "bp": 100,
       "cat": "Physical",
       "pp": 5,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Clamp",
       "num": 127,
@@ -119618,7 +119622,7 @@ overrides = {
       "bp": 100,
       "cat": "Special",
       "pp": 5,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Infestation",
       "num": 131,
@@ -120150,7 +120154,7 @@ overrides = {
       "bp": 100,
       "cat": "Physical",
       "pp": 10,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Snap Trap",
       "num": 169,
@@ -120165,7 +120169,7 @@ overrides = {
       "bp": 100,
       "cat": "Special",
       "pp": 10,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Nightmare",
       "num": 170,
@@ -121229,7 +121233,7 @@ overrides = {
       "bp": 100,
       "cat": "Special",
       "pp": 10,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Whirlpool",
       "num": 249,
@@ -121652,7 +121656,7 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 3,
-      "acc": 100,
+      "acc": 90,
       "prio": 0,
       "name": "Yawn",
       "num": 280,
@@ -121718,7 +121722,7 @@ overrides = {
       "bp": 100,
       "cat": "Special",
       "pp": 5,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Imprison",
       "num": 285,
@@ -122317,7 +122321,7 @@ overrides = {
       "bp": 100,
       "cat": "Special",
       "pp": 5,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Sand Tomb",
       "num": 327,
@@ -122985,7 +122989,7 @@ overrides = {
       "bp": 100,
       "cat": "Special",
       "pp": 10,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Alluring Voice",
       "num": 376,
