@@ -68,6 +68,7 @@ var gameTitles = {
 	"vintagewhiteplus": "Vintage White+",
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
 	"blindingwhite2": "Blinding White 2",
+	"brutalblack": "Brutal Black",
 	"cascadewhite": "Cascade White",
 	"cascadewhite2": "Cascade White",
 	"renegadeplatinum": "Renegade Platinum",
