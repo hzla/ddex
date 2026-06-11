@@ -8,7 +8,7 @@ overrides = {
         "Poison"
       ],
       "items": [
-        "Pecha Berry",
+        "None",
         "None",
         "None"
       ],
@@ -305,7 +305,7 @@ overrides = {
         "at": 72,
         "df": 93,
         "sa": 115,
-        "sd": 10,
+        "sd": 100,
         "sp": 80
       },
       "learnset_info": {
@@ -435,7 +435,7 @@ overrides = {
         "Fire"
       ],
       "items": [
-        "Rawst Berry",
+        "None",
         "None",
         "None"
       ],
@@ -857,7 +857,7 @@ overrides = {
         "Water"
       ],
       "items": [
-        "Aspear Berry",
+        "None",
         "None",
         "None"
       ],
@@ -1342,7 +1342,7 @@ overrides = {
         "Psychic"
       ],
       "items": [
-        "SilverPowder",
+        "Silver Powder",
         "None",
         "None"
       ],
@@ -1809,7 +1809,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        15
+        16
       ]
     },
     "Pidgeotto": {
@@ -6219,6 +6219,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Baton Pass",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -7653,8 +7654,8 @@ overrides = {
         "Psychic"
       ],
       "items": [
-        "TwistedSpoon",
-        "TwistedSpoon",
+        "Twisted Spoon",
+        "Twisted Spoon",
         "None"
       ],
       "bs": {
@@ -7776,7 +7777,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "TwistedSpoon",
+        "Twisted Spoon",
         "None"
       ],
       "bs": {
@@ -7898,7 +7899,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "TwistedSpoon",
+        "Twisted Spoon",
         "None"
       ],
       "bs": {
@@ -10180,7 +10181,7 @@ overrides = {
         "at": 85,
         "df": 55,
         "sa": 35,
-        "sd": 5,
+        "sd": 55,
         "sp": 75
       },
       "learnset_info": {
@@ -12207,7 +12208,7 @@ overrides = {
         "Steel"
       ],
       "items": [
-        "None",
+        "Lum Berry",
         "None",
         "None"
       ],
@@ -12841,6 +12842,7 @@ overrides = {
           "Sunny Day",
           "Baton Pass",
           "Rain Dance",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Brick Break",
@@ -19503,14 +19505,18 @@ overrides = {
           ],
           [
             15,
+            "Headbutt"
+          ],
+          [
+            18,
             "Body Slam"
           ],
           [
-            20,
+            22,
             "Submission"
           ],
           [
-            25,
+            26,
             "Shadow Claw"
           ],
           [
@@ -19623,14 +19629,18 @@ overrides = {
           ],
           [
             15,
+            "Headbutt"
+          ],
+          [
+            18,
             "Body Slam"
           ],
           [
-            20,
+            22,
             "Submission"
           ],
           [
-            25,
+            26,
             "Shadow Claw"
           ],
           [
@@ -20174,7 +20184,7 @@ overrides = {
         "Dark"
       ],
       "items": [
-        "BlackGlasses",
+        "Black Glasses",
         "None",
         "None"
       ],
@@ -22032,7 +22042,7 @@ overrides = {
         "Normal"
       ],
       "items": [
-        "None",
+        "Pecha Berry",
         "None",
         "None"
       ],
@@ -24488,7 +24498,7 @@ overrides = {
         "Steel"
       ],
       "items": [
-        "None",
+        "Sitrus Berry",
         "None",
         "None"
       ],
@@ -25636,7 +25646,7 @@ overrides = {
         "Fighting"
       ],
       "items": [
-        "Lum Berry",
+        "None",
         "None",
         "None"
       ],
@@ -28219,14 +28229,14 @@ overrides = {
         "Hitmontop"
       ],
       "evoMethods": [
-        "Level Requirement + Atk Stat Less Than Def",
-        "Level Requirement + Atk Stat Greater Than Def",
-        "Level Requirement + Atk Stat Equal To Def"
+        "Item Use",
+        "Item Use",
+        "Item Use"
       ],
       "evoParams": [
-        20,
-        20,
-        20
+        "Dawn Stone",
+        "Dusk Stone",
+        "Shiny Stone"
       ]
     },
     "Hitmontop": {
@@ -30455,7 +30465,8 @@ overrides = {
       "name": "Sceptile",
       "num": 254,
       "types": [
-        "Grass"
+        "Grass",
+        "Dragon"
       ],
       "items": [
         "None",
@@ -31269,6 +31280,7 @@ overrides = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -31412,6 +31424,7 @@ overrides = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -33678,12 +33691,12 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 38,
+        "hp": 58,
         "at": 35,
-        "df": 35,
-        "sa": 65,
-        "sd": 55,
-        "sp": 50
+        "df": 55,
+        "sa": 95,
+        "sd": 75,
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -34409,7 +34422,7 @@ overrides = {
         "Normal"
       ],
       "items": [
-        "None",
+        "Aspear Berry",
         "None",
         "None"
       ],
@@ -34997,6 +35010,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Cut",
           "Fly"
         ]
@@ -35902,7 +35916,7 @@ overrides = {
         "Normal"
       ],
       "items": [
-        "None",
+        "Chesto Berry",
         "None",
         "None"
       ],
@@ -38790,6 +38804,7 @@ overrides = {
           "Baton Pass",
           "Earth Power",
           "Solar Beam",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -40845,6 +40860,7 @@ overrides = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Double Team",
@@ -41905,7 +41921,7 @@ overrides = {
         "Water"
       ],
       "items": [
-        "NeverMeltIce",
+        "Never-Melt Ice",
         "None",
         "None"
       ],
@@ -48258,7 +48274,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "Metronome",
+        "None",
         "None"
       ],
       "bs": {
@@ -48350,7 +48366,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "Metronome",
+        "None",
         "None"
       ],
       "bs": {
@@ -50162,7 +50178,7 @@ overrides = {
         "Normal"
       ],
       "items": [
-        "None",
+        "Rawst Berry",
         "None",
         "None"
       ],
@@ -53227,7 +53243,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "Haban Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -53307,6 +53323,7 @@ overrides = {
           "Baton Pass",
           "Rain Dance",
           "Dark Pulse",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -53436,6 +53453,7 @@ overrides = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -53566,6 +53584,7 @@ overrides = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -54079,6 +54098,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -54193,6 +54213,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Baton Pass",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -57034,6 +57055,7 @@ overrides = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -60553,6 +60575,7 @@ overrides = {
           "Blizzard",
           "Baton Pass",
           "Rain Dance",
+          "Smack Down",
           "Return",
           "Dig",
           "Double Team",
@@ -60693,6 +60716,7 @@ overrides = {
           "Blizzard",
           "Baton Pass",
           "Rain Dance",
+          "Smack Down",
           "Return",
           "Dig",
           "Double Team",
@@ -60834,6 +60858,7 @@ overrides = {
           "Hyper Beam",
           "Baton Pass",
           "Rain Dance",
+          "Smack Down",
           "Return",
           "Dig",
           "Double Team",
@@ -64028,6 +64053,7 @@ overrides = {
           "Hidden Power",
           "Baton Pass",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -64156,6 +64182,7 @@ overrides = {
           "Hyper Beam",
           "Baton Pass",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -75481,6 +75508,7 @@ overrides = {
           "Rain Dance",
           "Earth Power",
           "Safeguard",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Psychic",
@@ -75619,6 +75647,7 @@ overrides = {
           "Earth Power",
           "Safeguard",
           "Solar Beam",
+          "Smack Down",
           "Thunderbolt",
           "Earthquake",
           "Return",
@@ -76042,7 +76071,7 @@ overrides = {
       "name": "Rufflet",
       "num": 627,
       "types": [
-        "Fighting",
+        "Normal",
         "Flying"
       ],
       "items": [
@@ -76066,7 +76095,7 @@ overrides = {
           ],
           [
             6,
-            "Karate Chop"
+            "Tackle"
           ],
           [
             11,
@@ -76074,7 +76103,7 @@ overrides = {
           ],
           [
             18,
-            "Double Kick"
+            "Roost"
           ],
           [
             22,
@@ -76082,7 +76111,7 @@ overrides = {
           ],
           [
             27,
-            "Brick Break"
+            "Headbutt"
           ],
           [
             32,
@@ -76090,7 +76119,7 @@ overrides = {
           ],
           [
             38,
-            "Submission"
+            "Take Down"
           ],
           [
             42,
@@ -76102,19 +76131,19 @@ overrides = {
           ],
           [
             50,
-            "Crunch"
-          ],
-          [
-            52,
             "Tailwind"
           ],
           [
+            52,
+            "Superpower"
+          ],
+          [
             57,
-            "Brave Bird"
+            "Double-Edge"
           ],
           [
             62,
-            "Close Combat"
+            "Brave Bird"
           ]
         ],
         "tms": [
@@ -76150,8 +76179,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Defiant",
-        "Sheer Force",
+        "Rock Head",
+        "Reckless",
         "Hustle"
       ],
       "evos": [
@@ -76168,7 +76197,7 @@ overrides = {
       "name": "Braviary",
       "num": 628,
       "types": [
-        "Fighting",
+        "Normal",
         "Flying"
       ],
       "items": [
@@ -76182,7 +76211,7 @@ overrides = {
         "df": 90,
         "sa": 57,
         "sd": 75,
-        "sp": 90
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -76192,7 +76221,7 @@ overrides = {
           ],
           [
             6,
-            "Karate Chop"
+            "Tackle"
           ],
           [
             11,
@@ -76200,7 +76229,7 @@ overrides = {
           ],
           [
             18,
-            "Double Kick"
+            "Roost"
           ],
           [
             22,
@@ -76208,7 +76237,7 @@ overrides = {
           ],
           [
             27,
-            "Brick Break"
+            "Headbutt"
           ],
           [
             32,
@@ -76216,7 +76245,7 @@ overrides = {
           ],
           [
             38,
-            "Submission"
+            "Take Down"
           ],
           [
             42,
@@ -76228,19 +76257,19 @@ overrides = {
           ],
           [
             50,
-            "Crunch"
-          ],
-          [
-            52,
             "Tailwind"
           ],
           [
+            52,
+            "Superpower"
+          ],
+          [
             57,
-            "Brave Bird"
+            "Double-Edge"
           ],
           [
             62,
-            "Close Combat"
+            "Brave Bird"
           ]
         ],
         "tms": [
@@ -76278,8 +76307,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Defiant",
-        "Sheer Force",
+        "Rock Head",
+        "Reckless",
         "Hustle"
       ]
     },
@@ -76421,7 +76450,7 @@ overrides = {
       "bs": {
         "hp": 110,
         "at": 45,
-        "df": 115,
+        "df": 105,
         "sa": 90,
         "sd": 95,
         "sp": 80
@@ -85884,7 +85913,7 @@ overrides = {
     },
     "Struggle Bug": {
       "t": "Bug",
-      "bp": 30,
+      "bp": 50,
       "cat": "Special",
       "pp": 20,
       "acc": 100,
@@ -87815,20 +87844,18 @@ overrides = {
         "Shroomish",
         "Machop",
         "Snubbull",
-        "Buneary",
+        "Solosis",
         "Croagunk",
         "Riolu",
-        "Rufflet",
+        "Buneary",
         "Mankey",
         "Meditite",
         "Scraggy",
         "Mienfoo",
         "Sawk",
         "Throh",
-        "Darumaka",
-        "Cubchoo",
+        "FarfetchD",
         "Druddigon",
-        "Zangoose",
         "Smoochum",
         "Magby",
         "Elekid"
@@ -87874,11 +87901,11 @@ overrides = {
             "mn": 15
           },
           {
-            "s": "Buneary",
+            "s": "Solosis",
             "mn": 15
           },
           {
-            "s": "Buneary",
+            "s": "Solosis",
             "mn": 15
           },
           {
@@ -87920,7 +87947,7 @@ overrides = {
             "mn": 15
           },
           {
-            "s": "Rufflet",
+            "s": "Buneary",
             "mn": 15
           },
           {
@@ -87948,11 +87975,7 @@ overrides = {
             "mn": 15
           },
           {
-            "s": "Darumaka",
-            "mn": 15
-          },
-          {
-            "s": "Cubchoo",
+            "s": "Farfetch’d",
             "mn": 15
           },
           {
@@ -87960,7 +87983,11 @@ overrides = {
             "mn": 15
           },
           {
-            "s": "Zangoose",
+            "s": "Farfetch’d",
+            "mn": 15
+          },
+          {
+            "s": "Druddigon",
             "mn": 15
           }
         ]
@@ -88055,7 +88082,8 @@ overrides = {
         "Audino",
         "Basculin",
         "Goldeen",
-        "Seaking"
+        "Finneon",
+        "Chinchou"
       ],
       "grass": {
         "rates": [
@@ -88373,29 +88401,24 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Goldeen",
-            "mn": 35,
-            "mx": 60
+            "s": "Finneon",
+            "mn": 20
           },
           {
-            "s": "Basculin",
-            "mn": 35,
-            "mx": 60
+            "s": "Chinchou",
+            "mn": 20
           },
           {
-            "s": "Seaking",
-            "mn": 35,
-            "mx": 70
+            "s": "Finneon",
+            "mn": 20
           },
           {
-            "s": "Seaking",
-            "mn": 35,
-            "mx": 70
+            "s": "Finneon",
+            "mn": 20
           },
           {
-            "s": "Seaking",
-            "mn": 35,
-            "mx": 70
+            "s": "Finneon",
+            "mn": 20
           }
         ]
       }
@@ -98908,19 +98931,18 @@ overrides = {
     "wellspringcave": {
       "name": "Wellspring Cave",
       "wilds": [
-        "Butterfree",
-        "Beedrill",
-        "Ledyba",
-        "Spinarak",
-        "Wurmple",
-        "Kricketune",
-        "Venonat",
-        "Burmy",
-        "Combee",
-        "Nincada",
-        "Paras",
-        "Joltik",
+        "Geodude",
+        "Roggenrola",
+        "Bonsly",
+        "Dwebble",
         "Sandshrew",
+        "Onix",
+        "Nosepass",
+        "Aron",
+        "Lunatone",
+        "Solrock",
+        "Rhyhorn",
+        "Sableye",
         "Diglett",
         "Drilbur",
         "Relicanth",
@@ -98945,51 +98967,51 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Butterfree",
+            "s": "Geodude",
             "mn": 10
           },
           {
-            "s": "Beedrill",
+            "s": "Roggenrola",
             "mn": 10
           },
           {
-            "s": "Ledyba",
+            "s": "Bonsly",
             "mn": 10
           },
           {
-            "s": "Spinarak",
+            "s": "Dwebble",
             "mn": 10
           },
           {
-            "s": "Wurmple",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Kricketune",
+            "s": "Onix",
             "mn": 10
           },
           {
-            "s": "Venonat",
+            "s": "Nosepass",
             "mn": 10
           },
           {
-            "s": "Burmy",
+            "s": "Aron",
             "mn": 10
           },
           {
-            "s": "Combee",
+            "s": "Lunatone",
             "mn": 10
           },
           {
-            "s": "Nincada",
+            "s": "Solrock",
             "mn": 10
           },
           {
-            "s": "Paras",
+            "s": "Rhyhorn",
             "mn": 10
           },
           {
-            "s": "Joltik",
+            "s": "Sableye",
             "mn": 10
           }
         ]
@@ -106181,7 +106203,7 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.",
-      "location": "Driftveil City, Twist Mountain, Victory Road, Village Bridge, Route 7, Route 8, Moor of Icirrus, Route 14, Reward from Youngster Kevin, Reward from Lass Dana",
+      "location": "Reward from Youngster Kevin, Reward from Lass Dana",
       "rewards": [
         "Youngster Kevin",
         "Lass Dana"
@@ -106190,7 +106212,7 @@ overrides = {
     "greatball": {
       "name": "Great Ball",
       "desc": "A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.",
-      "location": "Striaton City, Not Pinwheel Forest, Route 2, Route 4"
+      "location": ""
     },
     "pokeball": {
       "name": "Poke Ball",
@@ -106205,12 +106227,12 @@ overrides = {
     "netball": {
       "name": "Net Ball",
       "desc": "A somewhat different Poké Ball that works especially well on Water- and Bug-type Pokémon.",
-      "location": "Not Pinwheel Forest, Cold Storage"
+      "location": ""
     },
     "diveball": {
       "name": "Dive Ball",
       "desc": "A somewhat different Poké Ball that works especially well on Pokémon that live underwater.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "nestball": {
       "name": "Nest Ball",
@@ -106225,7 +106247,7 @@ overrides = {
     "timerball": {
       "name": "Timer Ball",
       "desc": "A somewhat different Ball that becomes progressively better the more turns there are in a battle.",
-      "location": "Challenger's Cave"
+      "location": ""
     },
     "luxuryball": {
       "name": "Luxury Ball",
@@ -106245,7 +106267,7 @@ overrides = {
     "healball": {
       "name": "Heal Ball",
       "desc": "A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.",
-      "location": "Chargestone Cave"
+      "location": ""
     },
     "quickball": {
       "name": "Quick Ball",
@@ -106260,22 +106282,22 @@ overrides = {
     "potion": {
       "name": "Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points.",
-      "location": "Dreamyard, Route 2"
+      "location": ""
     },
     "antidote": {
       "name": "Antidote",
       "desc": "A spray-type medicine. It lifts the effect of poison from one Pokémon.",
-      "location": "Not Pinwheel Forest"
+      "location": ""
     },
     "burnheal": {
       "name": "Burn Heal",
       "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
-      "location": "Route 4"
+      "location": ""
     },
     "iceheal": {
       "name": "Ice Heal",
       "desc": "A spray-type medicine. It defrosts a Pokémon that has been frozen solid.",
-      "location": "Cold Storage"
+      "location": ""
     },
     "awakening": {
       "name": "Awakening",
@@ -106285,12 +106307,12 @@ overrides = {
     "parlyzheal": {
       "name": "Parlyz Heal",
       "desc": "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
-      "location": "Pinwheel Forest, Chargestone Cave"
+      "location": ""
     },
     "fullrestore": {
       "name": "Full Restore",
       "desc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
-      "location": "Victory Road, N's Castle, Route 9, Reward from Nurse Kirsten",
+      "location": "Reward from Nurse Kirsten",
       "rewards": [
         "Nurse Kirsten"
       ]
@@ -106298,32 +106320,32 @@ overrides = {
     "maxpotion": {
       "name": "Max Potion",
       "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
-      "location": "Relic Castle, Twist Mountain, Giant Chasm, N's Castle, Moor of Icirrus"
+      "location": ""
     },
     "hyperpotion": {
       "name": "Hyper Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points.",
-      "location": "Castelia City, Dreamyard, Pinwheel Forest, Cold Storage, Chargestone Cave, Dragonspiral Tower, Route 4, Route 5, Mistralton Cave, Celestial Tower, Route 11, Abundant Shrine"
+      "location": ""
     },
     "superpotion": {
       "name": "Super Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points.",
-      "location": "Desert Resort, Route 2"
+      "location": ""
     },
     "fullheal": {
       "name": "Full Heal",
       "desc": "A spray-type medicine. It heals all the status problems of a single Pokémon.",
-      "location": "Twist Mountain, Victory Road, Giant Chasm, Route 3, Route 8, Route 12"
+      "location": ""
     },
     "revive": {
       "name": "Revive",
       "desc": "A medicine that revives a fainted Pokémon. It restores half the Pokémon's maximum HP.",
-      "location": "Castelia City, Dreamyard, Relic Castle, Twist Mountain, Dragonspiral Tower, Giant Chasm, Route 5, Guidance Chamber, Celestial Tower, Route 12"
+      "location": ""
     },
     "maxrevive": {
       "name": "Max Revive",
       "desc": "A medicine that revives a fainted Pokémon. It fully restores the Pokémon's HP.",
-      "location": "Relic Castle, Victory Road, Giant Chasm, N's Castle, Moor of Icirrus, Reward from Doctor Jules",
+      "location": "Reward from Doctor Jules",
       "rewards": [
         "Doctor Jules"
       ]
@@ -106331,7 +106353,7 @@ overrides = {
     "freshwater": {
       "name": "Fresh Water",
       "desc": "Water with a high mineral content. It restores the HP of one Pokémon by 50 points.",
-      "location": "Desert Resort, Reward from Waiter Clint - Nimbasa City, Reward from Waitress Bonita",
+      "location": "Reward from Waiter Clint - Nimbasa City, Reward from Waitress Bonita",
       "rewards": [
         "Waiter Clint - Nimbasa City",
         "Waitress Bonita"
@@ -106381,7 +106403,7 @@ overrides = {
     "ether": {
       "name": "Ether",
       "desc": "It restores the PP of a Pokémon's selected move by a maximum of 10 points.",
-      "location": "Not Pinwheel Forest, Cold Storage, Twist Mountain, Route 4, Reward from Scientist Simon, Reward from Scientist Blythe",
+      "location": "Reward from Scientist Simon, Reward from Scientist Blythe",
       "rewards": [
         "Scientist Simon",
         "Scientist Blythe"
@@ -106390,17 +106412,17 @@ overrides = {
     "maxether": {
       "name": "Max Ether",
       "desc": "It fully restores the PP of a single selected move that has been learned by the target Pokémon.",
-      "location": "Route 1, Route 3, Route 7, Route 13"
+      "location": ""
     },
     "elixir": {
       "name": "Elixir",
       "desc": "It restores the PP of all the moves learned by the targeted Pokémon by 10 points each.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "maxelixir": {
       "name": "Max Elixir",
       "desc": "It fully restores the PP of all the moves learned by the targeted Pokémon.",
-      "location": "Dragonspiral Tower, Giant Chasm, Moor of Icirrus, Route 18"
+      "location": ""
     },
     "lavacookie": {
       "name": "Lava Cookie",
@@ -106431,7 +106453,7 @@ overrides = {
     "protein": {
       "name": "Protein",
       "desc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
-      "location": "Challenger's Cave"
+      "location": ""
     },
     "iron": {
       "name": "Iron",
@@ -106441,17 +106463,17 @@ overrides = {
     "carbos": {
       "name": "Carbos",
       "desc": "A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon.",
-      "location": "Giant Chasm"
+      "location": ""
     },
     "calcium": {
       "name": "Calcium",
       "desc": "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.",
-      "location": "Village Bridge"
+      "location": ""
     },
     "rarecandy": {
       "name": "Rare Candy",
       "desc": "A candy that is packed with energy. It raises the level of a single Pokémon by one.",
-      "location": "Icirrus City, Chargestone Cave, Victory Road, N's Castle, Route 2, Guidance Chamber, Abundant Shrine, Lostlorn Forest, Reward from Nursery Aide Leah",
+      "location": "Reward from Nursery Aide Leah",
       "rewards": [
         "Nursery Aide Leah"
       ]
@@ -106459,7 +106481,7 @@ overrides = {
     "ppup": {
       "name": "PP Up",
       "desc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.",
-      "location": "Challenger's Cave, Reward from Ace Trainer Lucille, Reward from Ace Trainer Charlie",
+      "location": "Reward from Ace Trainer Lucille, Reward from Ace Trainer Charlie",
       "rewards": [
         "Ace Trainer Lucille",
         "Ace Trainer Charlie"
@@ -106497,7 +106519,7 @@ overrides = {
     "xattack": {
       "name": "X Attack",
       "desc": "An item that raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
-      "location": "Nimbasa City"
+      "location": ""
     },
     "xdefend": {
       "name": "X Defend",
@@ -106507,7 +106529,7 @@ overrides = {
     "xspeed": {
       "name": "X Speed",
       "desc": "An item that raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
-      "location": "Striaton City"
+      "location": ""
     },
     "xaccuracy": {
       "name": "X Accuracy",
@@ -106597,7 +106619,7 @@ overrides = {
     "maxrepel": {
       "name": "Max Repel",
       "desc": "An item that prevents weak wild Pokémon from appearing for 250 steps after its use.",
-      "location": "Mistralton Cave, Reward from Backpacker Patty, Reward from Backpacker Alexander",
+      "location": "Reward from Backpacker Patty, Reward from Backpacker Alexander",
       "rewards": [
         "Backpacker Patty",
         "Backpacker Alexander"
@@ -106606,7 +106628,7 @@ overrides = {
     "escaperope": {
       "name": "Escape Rope",
       "desc": "A long, durable rope. Use it to escape instantly from a cave or a dungeon.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "repel": {
       "name": "Repel",
@@ -106616,7 +106638,7 @@ overrides = {
     "sunstone": {
       "name": "Sun Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
-      "location": "Relic Castle, Wild held by Petilil",
+      "location": "Wild held by Petilil",
       "wilds": [
         "Petilil"
       ]
@@ -106624,7 +106646,7 @@ overrides = {
     "moonstone": {
       "name": "Moon Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
-      "location": "Twist Mountain, Wild held by Cleffa, Wild held by Cottonee",
+      "location": "Wild held by Cleffa, Wild held by Cottonee",
       "wilds": [
         "Cleffa",
         "Cottonee"
@@ -106633,7 +106655,7 @@ overrides = {
     "firestone": {
       "name": "Fire Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.",
-      "location": "Desert Resort, Wild held by Darumaka",
+      "location": "Wild held by Darumaka",
       "wilds": [
         "Darumaka"
       ]
@@ -106641,7 +106663,7 @@ overrides = {
     "thunderstone": {
       "name": "Thunderstone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.",
-      "location": "Chargestone Cave, Wild held by Magneton",
+      "location": "Wild held by Magneton",
       "wilds": [
         "Magneton"
       ]
@@ -106649,7 +106671,7 @@ overrides = {
     "waterstone": {
       "name": "Water Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.",
-      "location": "Driftveil City, Wild held by Lombre",
+      "location": "Wild held by Lombre",
       "wilds": [
         "Lombre"
       ]
@@ -106657,7 +106679,7 @@ overrides = {
     "leafstone": {
       "name": "Leaf Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.",
-      "location": "Route 6, Wild held by Nuzleaf",
+      "location": "Wild held by Nuzleaf",
       "wilds": [
         "Nuzleaf"
       ]
@@ -106674,7 +106696,7 @@ overrides = {
     "bigmushroom": {
       "name": "Big Mushroom",
       "desc": "A large and rare mushroom. It is sought after by collectors.",
-      "location": "Lostlorn Forest, Wild held by Foongus, Wild held by Amoonguss",
+      "location": "Wild held by Foongus, Wild held by Amoonguss",
       "wilds": [
         "Foongus",
         "Amoonguss"
@@ -106683,12 +106705,12 @@ overrides = {
     "pearl": {
       "name": "Pearl",
       "desc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
-      "location": "Route 1"
+      "location": ""
     },
     "bigpearl": {
       "name": "Big Pearl",
       "desc": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.",
-      "location": "Driftveil City, Wild held by Gulpin, Reward from Socialite Emilia",
+      "location": "Wild held by Gulpin, Reward from Socialite Emilia",
       "rewards": [
         "Socialite Emilia"
       ],
@@ -106699,12 +106721,12 @@ overrides = {
     "stardust": {
       "name": "Stardust",
       "desc": "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.",
-      "location": "Desert Resort, Dragonspiral Tower"
+      "location": ""
     },
     "starpiece": {
       "name": "Star Piece",
       "desc": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.",
-      "location": "Dragonspiral Tower, Giant Chasm, Wild held by Jirachi, Wild held by Meloetta, Wild held by Alt Form",
+      "location": "Wild held by Jirachi, Wild held by Meloetta, Wild held by Alt Form",
       "wilds": [
         "Jirachi",
         "Meloetta",
@@ -106714,7 +106736,7 @@ overrides = {
     "nugget": {
       "name": "Nugget",
       "desc": "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.",
-      "location": "Twist Mountain, Not Pinwheel Forest, Victory Road, Challenger's Cave, Reward from Gentleman Renaud",
+      "location": "Reward from Gentleman Renaud",
       "rewards": [
         "Gentleman Renaud"
       ]
@@ -106801,12 +106823,12 @@ overrides = {
     "shinystone": {
       "name": "Shiny Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.",
-      "location": "Dragonspiral Tower"
+      "location": ""
     },
     "duskstone": {
       "name": "Dusk Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.",
-      "location": "Guidance Chamber, Wild held by Pawniard",
+      "location": "Wild held by Pawniard",
       "wilds": [
         "Pawniard"
       ]
@@ -106814,7 +106836,7 @@ overrides = {
     "dawnstone": {
       "name": "Dawn Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.",
-      "location": "Route 10, Wild held by Sigilyph",
+      "location": "Wild held by Sigilyph",
       "wilds": [
         "Sigilyph"
       ]
@@ -106822,7 +106844,7 @@ overrides = {
     "ovalstone": {
       "name": "Oval Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg.",
-      "location": "Challenger's Cave, Wild held by Happiny",
+      "location": "Wild held by Happiny",
       "wilds": [
         "Happiny"
       ]
@@ -106962,13 +106984,14 @@ overrides = {
     "chestoberry": {
       "name": "Chesto Berry",
       "desc": "If held by a Pokémon, it recovers from sleep.",
-      "location": "Wild held by Exploud, Wild held by Minccino, Wild held by Cinccino, Reward from PkMn Ranger Forrest - Pinwheel Forest, Reward from PkMn Ranger Audra - Pinwheel Forest",
+      "location": "Wild held by Exploud, Wild held by Skitty, Wild held by Minccino, Wild held by Cinccino, Reward from PkMn Ranger Forrest - Pinwheel Forest, Reward from PkMn Ranger Audra - Pinwheel Forest",
       "rewards": [
         "PkMn Ranger Forrest - Pinwheel Forest",
         "PkMn Ranger Audra - Pinwheel Forest"
       ],
       "wilds": [
         "Exploud",
+        "Skitty",
         "Minccino",
         "Cinccino"
       ]
@@ -106976,14 +106999,14 @@ overrides = {
     "pechaberry": {
       "name": "Pecha Berry",
       "desc": "If held by a Pokémon, it recovers from poison.",
-      "location": "Wild held by Bulbasaur, Wild held by Poochyena, Wild held by Mightyena, Reward from PkMn Ranger Irene, Reward from PkMn Ranger Lewis - Route 8, Reward from PkMn Ranger Annie - Route 8",
+      "location": "Wild held by Marill, Wild held by Poochyena, Wild held by Mightyena, Reward from PkMn Ranger Irene, Reward from PkMn Ranger Lewis - Route 8, Reward from PkMn Ranger Annie - Route 8",
       "rewards": [
         "PkMn Ranger Irene",
         "PkMn Ranger Lewis - Route 8",
         "PkMn Ranger Annie - Route 8"
       ],
       "wilds": [
-        "Bulbasaur",
+        "Marill",
         "Poochyena",
         "Mightyena"
       ]
@@ -106991,27 +107014,27 @@ overrides = {
     "rawstberry": {
       "name": "Rawst Berry",
       "desc": "If held by a Pokémon, it recovers from a burn.",
-      "location": "Wild held by Charmander, Wild held by Numel, Wild held by Camerupt, Wild held by Alt Form, Reward from PkMn Ranger Mylene",
+      "location": "Wild held by Numel, Wild held by Camerupt, Wild held by Buizel, Wild held by Alt Form, Reward from PkMn Ranger Mylene",
       "rewards": [
         "PkMn Ranger Mylene"
       ],
       "wilds": [
-        "Charmander",
         "Numel",
         "Camerupt",
+        "Buizel",
         "Alt Form"
       ]
     },
     "aspearberry": {
       "name": "Aspear Berry",
       "desc": "If held by a Pokémon, it defrosts it.",
-      "location": "Wild held by Squirtle, Reward from PkMn Ranger Pedro - Route 7, Reward from PkMn Ranger Mary - Route 7",
+      "location": "Wild held by Slakoth, Reward from PkMn Ranger Pedro - Route 7, Reward from PkMn Ranger Mary - Route 7",
       "rewards": [
         "PkMn Ranger Pedro - Route 7",
         "PkMn Ranger Mary - Route 7"
       ],
       "wilds": [
-        "Squirtle"
+        "Slakoth"
       ]
     },
     "leppaberry": {
@@ -107055,13 +107078,13 @@ overrides = {
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon, it recovers from any status problem.",
-      "location": "Wild held by Mew, Wild held by Heracross, Wild held by Celebi, Wild held by Shaymin, Wild held by Alt Form, Reward from PkMn Breeder Galen",
+      "location": "Wild held by Electrode, Wild held by Mew, Wild held by Celebi, Wild held by Shaymin, Wild held by Alt Form, Reward from PkMn Breeder Galen",
       "rewards": [
         "PkMn Breeder Galen"
       ],
       "wilds": [
+        "Electrode",
         "Mew",
-        "Heracross",
         "Celebi",
         "Shaymin",
         "Alt Form"
@@ -107070,7 +107093,7 @@ overrides = {
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon, it heals the user's HP a little.",
-      "location": "Wild held by Bibarel, Reward from PkMn Breeder Eustace - Route 12, Reward from PkMn Breeder Ethel - Route 12, Reward from PkMn Ranger Shelly - Route 15, Reward from PkMn Ranger Keith - Route 15, Reward from PkMn Ranger Harry",
+      "location": "Wild held by Forretress, Wild held by Bibarel, Reward from PkMn Breeder Eustace - Route 12, Reward from PkMn Breeder Ethel - Route 12, Reward from PkMn Ranger Shelly - Route 15, Reward from PkMn Ranger Keith - Route 15, Reward from PkMn Ranger Harry",
       "rewards": [
         "PkMn Breeder Eustace - Route 12",
         "PkMn Breeder Ethel - Route 12",
@@ -107079,6 +107102,7 @@ overrides = {
         "PkMn Ranger Harry"
       ],
       "wilds": [
+        "Forretress",
         "Bibarel"
       ]
     },
@@ -107320,10 +107344,7 @@ overrides = {
     "habanberry": {
       "name": "Haban Berry",
       "desc": "Weakens a supereffective Dragon-type attack against the holding Pokémon.",
-      "location": "Wild held by Gible",
-      "wilds": [
-        "Gible"
-      ]
+      "location": ""
     },
     "colburberry": {
       "name": "Colbur Berry",
@@ -107403,7 +107424,7 @@ overrides = {
     "brightpowder": {
       "name": "BrightPowder",
       "desc": "An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.",
-      "location": "Chargestone Cave"
+      "location": ""
     },
     "whiteherb": {
       "name": "White Herb",
@@ -107462,7 +107483,7 @@ overrides = {
     "silverpowder": {
       "name": "SilverPowder",
       "desc": "An item to be held by a Pokémon. It is a shiny, silver powder that ups the power of Bug-type moves.",
-      "location": "Pinwheel Forest, Wild held by Butterfree",
+      "location": "Wild held by Butterfree",
       "wilds": [
         "Butterfree"
       ]
@@ -107485,12 +107506,12 @@ overrides = {
     "deepseatooth": {
       "name": "DeepSeaTooth",
       "desc": "An item to be held by Clamperl. A fang that gleams a sharp silver, it raises the Sp. Atk stat.",
-      "location": "Route 17"
+      "location": ""
     },
     "deepseascale": {
       "name": "DeepSeaScale",
       "desc": "An item to be held by Clamperl. A scale that shines a faint pink, it raises the Sp. Def stat.",
-      "location": "Route 13"
+      "location": ""
     },
     "smokeball": {
       "name": "Smoke Ball",
@@ -107531,7 +107552,7 @@ overrides = {
     "metalcoat": {
       "name": "Metal Coat",
       "desc": "An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.",
-      "location": "Twist Mountain, Wild held by Magnezone",
+      "location": "Wild held by Magnezone",
       "wilds": [
         "Magnezone"
       ]
@@ -107547,7 +107568,7 @@ overrides = {
     "dragonscale": {
       "name": "Dragon Scale",
       "desc": "A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.",
-      "location": "Route 18"
+      "location": ""
     },
     "lightball": {
       "name": "Light Ball",
@@ -107565,7 +107586,7 @@ overrides = {
     "hardstone": {
       "name": "Hard Stone",
       "desc": "An item to be held by a Pokémon. It is an unbreakable stone that ups the power of Rock-type moves.",
-      "location": "Mistralton Cave, Wild held by Geodude, Wild held by Aggron",
+      "location": "Wild held by Geodude, Wild held by Aggron",
       "wilds": [
         "Geodude",
         "Aggron"
@@ -107574,7 +107595,7 @@ overrides = {
     "miracleseed": {
       "name": "Miracle Seed",
       "desc": "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
-      "location": "Pinwheel Forest, Wild held by Chikorita",
+      "location": "Wild held by Chikorita",
       "wilds": [
         "Chikorita"
       ]
@@ -107582,7 +107603,7 @@ overrides = {
     "blackglasses": {
       "name": "BlackGlasses",
       "desc": "An item to be held by a Pokémon. It is a shady-looking pair of glasses that boosts Dark-type moves.",
-      "location": "Desert Resort, Wild held by Spinarak",
+      "location": "Wild held by Spinarak",
       "wilds": [
         "Spinarak"
       ]
@@ -107590,7 +107611,7 @@ overrides = {
     "blackbelt": {
       "name": "Black Belt",
       "desc": "An item to be held by a Pokémon. It is a belt that boosts determination and Fighting-type moves.",
-      "location": "Challenger's Cave, Wild held by Ledyba",
+      "location": "Wild held by Ledyba",
       "wilds": [
         "Ledyba"
       ]
@@ -107606,7 +107627,7 @@ overrides = {
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
-      "location": "Wellspring Cave, Wild held by Totodile, Wild held by Alt Form",
+      "location": "Wild held by Totodile, Wild held by Alt Form",
       "wilds": [
         "Totodile",
         "Alt Form"
@@ -107632,7 +107653,7 @@ overrides = {
     "nevermeltice": {
       "name": "NeverMeltIce",
       "desc": "An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.",
-      "location": "Cold Storage, Wild held by Feebas",
+      "location": "Wild held by Feebas",
       "wilds": [
         "Feebas"
       ]
@@ -107640,7 +107661,7 @@ overrides = {
     "spelltag": {
       "name": "Spell Tag",
       "desc": "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
-      "location": "Celestial Tower, Wild held by Gastly",
+      "location": "Wild held by Gastly",
       "wilds": [
         "Gastly"
       ]
@@ -107648,7 +107669,7 @@ overrides = {
     "twistedspoon": {
       "name": "TwistedSpoon",
       "desc": "An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.",
-      "location": "Dreamyard, Wild held by Abra, Wild held by Kadabra, Wild held by Alakazam",
+      "location": "Wild held by Abra, Wild held by Kadabra, Wild held by Alakazam",
       "wilds": [
         "Abra",
         "Kadabra",
@@ -107658,7 +107679,7 @@ overrides = {
     "charcoal": {
       "name": "Charcoal",
       "desc": "An item to be held by a Pokémon. It is a combustible fuel that boosts the power of Fire-type moves.",
-      "location": "Route 16, Wild held by Cyndaquil",
+      "location": "Wild held by Cyndaquil",
       "wilds": [
         "Cyndaquil"
       ]
@@ -107666,7 +107687,7 @@ overrides = {
     "dragonfang": {
       "name": "Dragon Fang",
       "desc": "An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.",
-      "location": "Dragonspiral Tower, Wild held by Bagon, Wild held by Shelgon, Wild held by Salamence",
+      "location": "Wild held by Bagon, Wild held by Shelgon, Wild held by Salamence",
       "wilds": [
         "Bagon",
         "Shelgon",
@@ -107676,7 +107697,7 @@ overrides = {
     "silkscarf": {
       "name": "Silk Scarf",
       "desc": "An item to be held by a Pokémon. It is a sumptuous scarf that boosts the power of Normal-type moves.",
-      "location": "Route 6, Wild held by Sentret",
+      "location": "Wild held by Sentret",
       "wilds": [
         "Sentret"
       ]
@@ -107684,7 +107705,7 @@ overrides = {
     "upgrade": {
       "name": "Up-Grade",
       "desc": "A transparent device filled with all sorts of data. It was produced by Silph Co.",
-      "location": "Route 15"
+      "location": ""
     },
     "shellbell": {
       "name": "Shell Bell",
@@ -107852,13 +107873,9 @@ overrides = {
     "metronome": {
       "name": "Metronome",
       "desc": "A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.",
-      "location": "Wild held by Kricketot, Wild held by Kricketune, Reward from Psychic Low - Desert Resort",
+      "location": "Reward from Psychic Low - Desert Resort",
       "rewards": [
         "Psychic Low - Desert Resort"
-      ],
-      "wilds": [
-        "Kricketot",
-        "Kricketune"
       ]
     },
     "ironball": {
@@ -107970,7 +107987,7 @@ overrides = {
     "bigroot": {
       "name": "Big Root",
       "desc": "A Pokémon held item that boosts the power of HP-stealing moves to let the holder recover more HP.",
-      "location": "Pinwheel Forest, Wild held by Lileep, Wild held by Cradily",
+      "location": "Wild held by Lileep, Wild held by Cradily",
       "wilds": [
         "Lileep",
         "Cradily"
@@ -107984,7 +108001,7 @@ overrides = {
     "flameplate": {
       "name": "Flame Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fire-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "splashplate": {
       "name": "Splash Plate",
@@ -107994,57 +108011,57 @@ overrides = {
     "zapplate": {
       "name": "Zap Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Electric-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "meadowplate": {
       "name": "Meadow Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Grass-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "icicleplate": {
       "name": "Icicle Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ice-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "fistplate": {
       "name": "Fist Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "toxicplate": {
       "name": "Toxic Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Poison-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "earthplate": {
       "name": "Earth Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "skyplate": {
       "name": "Sky Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Flying-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "mindplate": {
       "name": "Mind Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Psychic-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "insectplate": {
       "name": "Insect Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "stoneplate": {
       "name": "Stone Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Rock-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "spookyplate": {
       "name": "Spooky Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ghost-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "dracoplate": {
       "name": "Draco Plate",
@@ -108054,12 +108071,12 @@ overrides = {
     "dreadplate": {
       "name": "Dread Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dark-type moves.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "ironplate": {
       "name": "Iron Plate",
       "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Steel-type moves.",
-      "location": "Abyssal Ruins, Wild held by Aron",
+      "location": "Wild held by Aron",
       "wilds": [
         "Aron"
       ]
@@ -108102,12 +108119,12 @@ overrides = {
     "protector": {
       "name": "Protector",
       "desc": "A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.",
-      "location": "Route 11"
+      "location": ""
     },
     "electirizer": {
       "name": "Electirizer",
       "desc": "A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.",
-      "location": "Route 13"
+      "location": ""
     },
     "magmarizer": {
       "name": "Magmarizer",
@@ -108117,22 +108134,22 @@ overrides = {
     "dubiousdisc": {
       "name": "Dubious Disc",
       "desc": "A transparent device overflowing with dubious data. Its producer is unknown.",
-      "location": "P2 Laboratory"
+      "location": ""
     },
     "reapercloth": {
       "name": "Reaper Cloth",
       "desc": "A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.",
-      "location": "Route 14"
+      "location": ""
     },
     "razorclaw": {
       "name": "Razor Claw",
       "desc": "An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.",
-      "location": "Route 13"
+      "location": ""
     },
     "razorfang": {
       "name": "Razor Fang",
       "desc": "An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.",
-      "location": "Abundant Shrine"
+      "location": ""
     },
     "tm01": {
       "name": "TM01",
@@ -108147,7 +108164,7 @@ overrides = {
     "tm03": {
       "name": "TM03",
       "desc": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
-      "location": "Giant Chasm, Route 16"
+      "location": ""
     },
     "tm04": {
       "name": "TM04",
@@ -108157,12 +108174,12 @@ overrides = {
     "tm05": {
       "name": "TM05",
       "desc": "The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.",
-      "location": "Route 10"
+      "location": ""
     },
     "tm06": {
       "name": "TM06",
       "desc": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
-      "location": "Route 17"
+      "location": ""
     },
     "tm07": {
       "name": "TM07",
@@ -108177,7 +108194,7 @@ overrides = {
     "tm09": {
       "name": "TM09",
       "desc": "The user drenches the target in a special poisonous liquid. Its power is doubled if the target is poisoned.",
-      "location": "Route 3, Route 15"
+      "location": ""
     },
     "tm10": {
       "name": "TM10",
@@ -108192,12 +108209,12 @@ overrides = {
     "tm12": {
       "name": "TM12",
       "desc": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
-      "location": "Victory Road"
+      "location": ""
     },
     "tm13": {
       "name": "TM13",
       "desc": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
-      "location": "Giant Chasm, Reward from Ace Trainer Beckett - Celestial Tower",
+      "location": "Reward from Ace Trainer Beckett - Celestial Tower",
       "rewards": [
         "Ace Trainer Beckett - Celestial Tower"
       ]
@@ -108245,17 +108262,17 @@ overrides = {
     "tm22": {
       "name": "TM22",
       "desc": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
-      "location": "Pinwheel Forest"
+      "location": ""
     },
     "tm23": {
       "name": "TM23",
       "desc": "The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when it's hit.",
-      "location": "Dreamyard"
+      "location": ""
     },
     "tm24": {
       "name": "TM24",
       "desc": "A strong electric blast is loosed at the target. It may also leave the target with paralysis.",
-      "location": "P2 Laboratory"
+      "location": ""
     },
     "tm25": {
       "name": "TM25",
@@ -108265,7 +108282,7 @@ overrides = {
     "tm26": {
       "name": "TM26",
       "desc": "The user sets off an earthquake that strikes every Pokémon around it.",
-      "location": "Relic Castle"
+      "location": ""
     },
     "tm27": {
       "name": "TM27",
@@ -108280,17 +108297,17 @@ overrides = {
     "tm29": {
       "name": "TM29",
       "desc": "The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.",
-      "location": "Chargestone Cave, Route 13"
+      "location": ""
     },
     "tm30": {
       "name": "TM30",
       "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
-      "location": "Chargestone Cave"
+      "location": ""
     },
     "tm31": {
       "name": "TM31",
       "desc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
-      "location": "Route 4"
+      "location": ""
     },
     "tm32": {
       "name": "TM32",
@@ -108305,12 +108322,12 @@ overrides = {
     "tm34": {
       "name": "TM34",
       "desc": "It swamps the area around the user with a giant sludge wave. It may also poison those hit.",
-      "location": "Route 8"
+      "location": ""
     },
     "tm35": {
       "name": "TM35",
       "desc": "The target is scorched with an intense blast of fire. It may also leave the target with a burn.",
-      "location": "Abundant Shrine, Reward from Ace Trainer Kassandra - Celestial Tower",
+      "location": "Reward from Ace Trainer Kassandra - Celestial Tower",
       "rewards": [
         "Ace Trainer Kassandra - Celestial Tower"
       ]
@@ -108318,7 +108335,7 @@ overrides = {
     "tm36": {
       "name": "TM36",
       "desc": "Unsanitary sludge is hurled at the target. It may also poison the target.",
-      "location": "Route 6"
+      "location": ""
     },
     "tm37": {
       "name": "TM37",
@@ -108333,17 +108350,17 @@ overrides = {
     "tm39": {
       "name": "TM39",
       "desc": "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
-      "location": "Route 3"
+      "location": ""
     },
     "tm40": {
       "name": "TM40",
       "desc": "The user confounds the target with speed, then slashes. The attack lands without fail.",
-      "location": "Route 5"
+      "location": ""
     },
     "tm41": {
       "name": "TM41",
       "desc": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
-      "location": "Route 4"
+      "location": ""
     },
     "tm42": {
       "name": "TM42",
@@ -108353,12 +108370,12 @@ overrides = {
     "tm43": {
       "name": "TM43",
       "desc": "The user cloaks itself with flame and attacks. Building up more power, it raises the user's Speed stat.",
-      "location": "Route 4"
+      "location": ""
     },
     "tm44": {
       "name": "TM44",
       "desc": "The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.",
-      "location": "Route 8"
+      "location": ""
     },
     "tm45": {
       "name": "TM45",
@@ -108368,12 +108385,12 @@ overrides = {
     "tm46": {
       "name": "TM46",
       "desc": "The user attacks and steals the target's held item simultaneously. It can't steal if the user holds an item.",
-      "location": "Route 2"
+      "location": ""
     },
     "tm47": {
       "name": "TM47",
       "desc": "The user attacks the target's legs swiftly, reducing the target's Speed stat.",
-      "location": "Not Pinwheel Forest"
+      "location": ""
     },
     "tm48": {
       "name": "TM48",
@@ -108388,7 +108405,7 @@ overrides = {
     "tm50": {
       "name": "TM50",
       "desc": "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.",
-      "location": "Victory Road, Route 11"
+      "location": ""
     },
     "tm51": {
       "name": "TM51",
@@ -108398,12 +108415,12 @@ overrides = {
     "tm52": {
       "name": "TM52",
       "desc": "The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "tm53": {
       "name": "TM53",
       "desc": "The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.",
-      "location": "Route 6, Route 12"
+      "location": ""
     },
     "tm54": {
       "name": "TM54",
@@ -108413,7 +108430,7 @@ overrides = {
     "tm55": {
       "name": "TM55",
       "desc": "The user shoots boiling hot water at its target. It may also leave the target with a burn.",
-      "location": "Cold Storage"
+      "location": ""
     },
     "tm56": {
       "name": "TM56",
@@ -108428,22 +108445,22 @@ overrides = {
     "tm58": {
       "name": "TM58",
       "desc": "The user hurls the target into the air, then drops it on the second turn. The target cannot attack while in the air.",
-      "location": "Mistralton City"
+      "location": ""
     },
     "tm59": {
       "name": "TM59",
       "desc": "The user attacks the target with fire. If the target is holding a Berry, the Berry becomes burnt up and unusable.",
-      "location": "Dreamyard"
+      "location": ""
     },
     "tm60": {
       "name": "TM60",
       "desc": "The user suppresses the target and makes its move go last.",
-      "location": "Route 7"
+      "location": ""
     },
     "tm61": {
       "name": "TM61",
       "desc": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
-      "location": "Route 10"
+      "location": ""
     },
     "tm62": {
       "name": "TM62",
@@ -108453,22 +108470,22 @@ overrides = {
     "tm63": {
       "name": "TM63",
       "desc": "It prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
-      "location": "Cold Storage"
+      "location": ""
     },
     "tm64": {
       "name": "TM64",
       "desc": "The user explodes to inflict damage on those around it. The user faints upon using this move.",
-      "location": "Route 3"
+      "location": ""
     },
     "tm65": {
       "name": "TM65",
       "desc": "The user slashes with a sharp claw made from shadows. It has a high critical-hit ratio.",
-      "location": "Celestial Tower"
+      "location": ""
     },
     "tm66": {
       "name": "TM66",
       "desc": "The user stores power, then attacks. If the user can use this attack after the target, its power is doubled.",
-      "location": "Route 16"
+      "location": ""
     },
     "tm67": {
       "name": "TM67",
@@ -108493,12 +108510,12 @@ overrides = {
     "tm71": {
       "name": "TM71",
       "desc": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
-      "location": "Twist Mountain, Challenger's Cave"
+      "location": ""
     },
     "tm72": {
       "name": "TM72",
       "desc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
-      "location": "Route 10"
+      "location": ""
     },
     "tm73": {
       "name": "TM73",
@@ -108518,17 +108535,17 @@ overrides = {
     "tm76": {
       "name": "TM76",
       "desc": "Resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.",
-      "location": "Dreamyard"
+      "location": ""
     },
     "tm77": {
       "name": "TM77",
       "desc": "The user hypnotizes itself into copying any stat change made by the target.",
-      "location": "Route 5"
+      "location": ""
     },
     "tm78": {
       "name": "TM78",
       "desc": "The user stomps down on the ground and attacks everything in the area. The targets' Speed stat is reduced.",
-      "location": "Route 3"
+      "location": ""
     },
     "tm79": {
       "name": "TM79",
@@ -108538,7 +108555,7 @@ overrides = {
     "tm80": {
       "name": "TM80",
       "desc": "Large boulders are hurled at the opposing team to inflict damage. They  may also make the targets flinch.",
-      "location": "Mistralton Cave"
+      "location": ""
     },
     "tm81": {
       "name": "TM81",
@@ -108548,7 +108565,7 @@ overrides = {
     "tm82": {
       "name": "TM82",
       "desc": "The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends.",
-      "location": "Pinwheel Forest"
+      "location": ""
     },
     "tm83": {
       "name": "TM83",
@@ -108558,47 +108575,47 @@ overrides = {
     "tm84": {
       "name": "TM84",
       "desc": "The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target.",
-      "location": "Route 6"
+      "location": ""
     },
     "tm85": {
       "name": "TM85",
       "desc": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user's HP.",
-      "location": "Dreamyard, Pinwheel Forest"
+      "location": ""
     },
     "tm86": {
       "name": "TM86",
       "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
-      "location": "Pinwheel Forest"
+      "location": ""
     },
     "tm87": {
       "name": "TM87",
       "desc": "The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.",
-      "location": "Twist Mountain"
+      "location": ""
     },
     "tm88": {
       "name": "TM88",
       "desc": "The user pecks the target. If the target is holding a Berry, the user plucks it and gains its effect.",
-      "location": "Dreamyard"
+      "location": ""
     },
     "tm89": {
       "name": "TM89",
       "desc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
-      "location": "Route 9"
+      "location": ""
     },
     "tm90": {
       "name": "TM90",
       "desc": "The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.",
-      "location": "Route 3"
+      "location": ""
     },
     "tm91": {
       "name": "TM91",
       "desc": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
-      "location": "Chargestone Cave"
+      "location": ""
     },
     "tm92": {
       "name": "TM92",
       "desc": "The user creates a bizarre space in which slower Pokémon get to move first for five turns.",
-      "location": "Route 10, Abundant Shrine"
+      "location": ""
     },
     "hm01": {
       "name": "HM01",
@@ -108623,7 +108640,7 @@ overrides = {
     "hm05": {
       "name": "HM05",
       "desc": "The user charges the target at an awesome speed. It can also be used to climb a waterfall.",
-      "location": "Chargestone Cave"
+      "location": ""
     },
     "hm06": {
       "name": "HM06",
@@ -109178,7 +109195,7 @@ overrides = {
     "prismscale": {
       "name": "Prism Scale",
       "desc": "A mysterious scale that evolves certain Pokémon. It shines in rainbow colors.",
-      "location": "Route 13"
+      "location": ""
     },
     "eviolite": {
       "name": "Eviolite",
@@ -109408,7 +109425,7 @@ overrides = {
     "bignugget": {
       "name": "Big Nugget",
       "desc": "A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.",
-      "location": "Undella Town"
+      "location": ""
     },
     "pearlstring": {
       "name": "Pearl String",
@@ -109418,7 +109435,7 @@ overrides = {
     "cometshard": {
       "name": "Comet Shard",
       "desc": "A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.",
-      "location": "Giant Chasm, Wild held by Cleffa",
+      "location": "Wild held by Cleffa",
       "wilds": [
         "Cleffa"
       ]
@@ -109426,37 +109443,37 @@ overrides = {
     "reliccopper": {
       "name": "Relic Copper",
       "desc": "A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "relicsilver": {
       "name": "Relic Silver",
       "desc": "A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "relicgold": {
       "name": "Relic Gold",
       "desc": "A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "relicvase": {
       "name": "Relic Vase",
       "desc": "A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "relicband": {
       "name": "Relic Band",
       "desc": "A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "relicstatue": {
       "name": "Relic Statue",
       "desc": "A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "reliccrown": {
       "name": "Relic Crown",
       "desc": "A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
-      "location": "Abyssal Ruins"
+      "location": ""
     },
     "casteliacone": {
       "name": "Casteliacone",
@@ -109606,7 +109623,7 @@ overrides = {
     "tm95": {
       "name": "TM95",
       "desc": "The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.",
-      "location": "Wellspring Cave"
+      "location": ""
     },
     "xtransceiver": {
       "name": "Xtransceiver",
