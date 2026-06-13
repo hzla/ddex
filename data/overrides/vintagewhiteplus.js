@@ -1356,7 +1356,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "SilverPowder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
@@ -8116,7 +8116,7 @@ overrides = {
           ],
           [
             28,
-            "Ice Beam"
+            "Ice Punch"
           ],
           [
             32,
@@ -8206,7 +8206,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "TwistedSpoon",
+        "Twisted Spoon",
         "None"
       ],
       "bs": {
@@ -8289,7 +8289,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "TwistedSpoon",
+        "Twisted Spoon",
         "None"
       ],
       "bs": {
@@ -8432,7 +8432,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "TwistedSpoon",
+        "Twisted Spoon",
         "None"
       ],
       "bs": {
@@ -19426,7 +19426,7 @@ overrides = {
       "abs": [
         "Pressure",
         "",
-        "Lightning Rod"
+        "Static"
       ]
     },
     "Moltres": {
@@ -30320,7 +30320,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "NeverMeltIce",
+        "Never-Melt Ice",
         "None"
       ],
       "bs": {
@@ -38117,7 +38117,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "SilverPowder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
@@ -55321,7 +55321,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "SilverPowder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
@@ -55433,7 +55433,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "SilverPowder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
@@ -61105,7 +61105,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "NeverMeltIce",
+        "Never-Melt Ice",
         "None"
       ],
       "bs": {
@@ -61218,7 +61218,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "NeverMeltIce",
+        "Never-Melt Ice",
         "None"
       ],
       "bs": {
@@ -81555,7 +81555,7 @@ overrides = {
       ],
       "items": [
         "None",
-        "NeverMeltIce",
+        "Never-Melt Ice",
         "None"
       ],
       "bs": {
@@ -84509,8 +84509,8 @@ overrides = {
         "Fire"
       ],
       "items": [
-        "SilverPowder",
-        "SilverPowder",
+        "Silver Powder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
