@@ -124890,7 +124890,8 @@ overrides = {
       "name": "Final Gambit",
       "num": 514,
       "e_id": 7,
-      "desc": "The user risks everything to attack its target. The user faints but does damage equal to the user's HP."
+      "desc": "The user risks everything on one last dastardly trick! Deals immense damage but causes the user to faint.",
+      "oldDesc": "The user risks everything to attack its target. The user faints but does damage equal to the user's HP."
     },
     "Bestow": {
       "t": "Normal",
@@ -151331,6 +151332,2628 @@ overrides = {
         ]
       }
     },
+    "Unknown Location33": {
+      "name": "Unknown Location33",
+      "grass": {
+        "encs": []
+      },
+      "grass_doubles": {
+        "encs": []
+      },
+      "grass_special": {
+        "encs": []
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Frillish",
+            "mn": 25,
+            "mx": 40
+          },
+          {
+            "s": "Staryu",
+            "mn": 25,
+            "mx": 40
+          },
+          {
+            "s": "Basculin",
+            "mn": 30,
+            "mx": 40
+          },
+          {
+            "s": "Frillish",
+            "mn": 30,
+            "mx": 40
+          },
+          {
+            "s": "Frillish",
+            "mn": 30,
+            "mx": 40
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Staryu",
+            "mn": 25,
+            "mx": 40
+          },
+          {
+            "s": "Jellicent",
+            "mn": 25,
+            "mx": 40
+          },
+          {
+            "s": "Basculin",
+            "mn": 30,
+            "mx": 40
+          },
+          {
+            "s": "Starmie",
+            "mn": 30,
+            "mx": 40
+          },
+          {
+            "s": "Starmie",
+            "mn": 30,
+            "mx": 40
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Luvdisc",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Shellder",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Luvdisc",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Luvdisc",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Luvdisc",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Shellder",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Luvdisc",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Shellder",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Cloyster",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Cloyster",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "route17": {
+      "name": "Route 17 ",
+      "grass": {
+        "encs": []
+      },
+      "grass_doubles": {
+        "encs": []
+      },
+      "grass_special": {
+        "encs": []
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Frillish",
+            "mn": 45,
+            "mx": 60
+          },
+          {
+            "s": "Frillish",
+            "mn": 45,
+            "mx": 60
+          },
+          {
+            "s": "Frillish",
+            "mn": 50,
+            "mx": 60
+          },
+          {
+            "s": "Frillish",
+            "mn": 50,
+            "mx": 60
+          },
+          {
+            "s": "Frillish",
+            "mn": 50,
+            "mx": 60
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Alomomola",
+            "mn": 45,
+            "mx": 60
+          },
+          {
+            "s": "Alomomola",
+            "mn": 45,
+            "mx": 60
+          },
+          {
+            "s": "Alomomola",
+            "mn": 50,
+            "mx": 60
+          },
+          {
+            "s": "Jellicent",
+            "mn": 50,
+            "mx": 60
+          },
+          {
+            "s": "Jellicent",
+            "mn": 50,
+            "mx": 60
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Finneon",
+            "mn": 50,
+            "mx": 60
+          },
+          {
+            "s": "Horsea",
+            "mn": 50,
+            "mx": 60
+          },
+          {
+            "s": "Finneon",
+            "mn": 60,
+            "mx": 70
+          },
+          {
+            "s": "Finneon",
+            "mn": 60,
+            "mx": 70
+          },
+          {
+            "s": "Finneon",
+            "mn": 60,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Horsea",
+            "mn": 50,
+            "mx": 60
+          },
+          {
+            "s": "Lumineon",
+            "mn": 50,
+            "mx": 60
+          },
+          {
+            "s": "Seadra",
+            "mn": 60,
+            "mx": 70
+          },
+          {
+            "s": "Kingdra",
+            "mn": 60,
+            "mx": 70
+          },
+          {
+            "s": "Kingdra",
+            "mn": 60,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "route21": {
+      "name": "Route 21 ",
+      "grass": {
+        "encs": [
+          {
+            "s": "Tropius",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Exeggutor",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Hippowdon",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Simisage",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Kingler",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Tangrowth",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Ambipom",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Ambipom",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Sealeo",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Tirtouga",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Sealeo",
+            "mn": 44,
+            "mx": 46
+          },
+          {
+            "s": "Tirtouga",
+            "mn": 44,
+            "mx": 46
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": []
+      },
+      "grass_special": {
+        "encs": []
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Alomomola",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Corsola",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Seadra",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Frillish",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Frillish",
+            "mn": 30,
+            "mx": 32
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Pidgeotto",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Pelipper",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Staryu",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Staryu",
+            "mn": 30,
+            "mx": 32
+          },
+          {
+            "s": "Wailmer",
+            "mn": 30,
+            "mx": 32
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Shellos",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Finneon",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Tentacool",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Lileep",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Lileep",
+            "mn": 10,
+            "mx": 12
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Remoraid",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Carvanha",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Mantyke",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Clamperl",
+            "mn": 10,
+            "mx": 12
+          },
+          {
+            "s": "Clamperl",
+            "mn": 10,
+            "mx": 12
+          }
+        ]
+      }
+    },
+    "Unknown Location34": {
+      "name": "Unknown Location34",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location35": {
+      "name": "Unknown Location35",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location36": {
+      "name": "Unknown Location36",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location37": {
+      "name": "Unknown Location37",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location38": {
+      "name": "Unknown Location38",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location39": {
+      "name": "Unknown Location39",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
+    "Unknown Location40": {
+      "name": "Unknown Location40",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
     "rates": {
       "grass": [
         20,
@@ -155180,14 +157803,18 @@ overrides = {
       "desc": "A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
       "location": ""
     },
-    "relicband": {
-      "name": "Relic Band",
-      "desc": "A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+    "sunkencrown": {
+      "name": "Sunken Crown",
+      "desc": "A crown made in a civilization about 3,000 years ago. Only of interest to archeologists.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
-    "relicstatue": {
-      "name": "Relic Statue",
-      "desc": "A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+    "desertcrown": {
+      "name": "Desert Crown",
+      "desc": "A crown made in a civilization about 3,000 years ago. Only of interest to archeologists.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "reliccrown": {
