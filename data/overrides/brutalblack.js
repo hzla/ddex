@@ -2888,7 +2888,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
+        "Volt Absorb",
         "Static",
         "Lightning Rod"
       ],
@@ -3030,7 +3030,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
+        "Volt Absorb",
         "Mold Breaker",
         "Lightning Rod"
       ]
@@ -12177,6 +12177,7 @@ overrides = {
           "Charge Beam",
           "Explosion",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Gyro Ball",
           "Self-Destruct",
@@ -12285,6 +12286,7 @@ overrides = {
           "Explosion",
           "Giga Impact",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Gyro Ball",
           "Self-Destruct",
@@ -16039,13 +16041,13 @@ overrides = {
         "Umbreon"
       ],
       "evoMethods": [
-        "Item Use",
-        "Item Use",
-        "Item Use",
-        "Item Use",
-        "Item Use",
-        "Item Use",
-        "Item Use"
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day"
       ],
       "evoParams": [
         "Miracle Seed",
@@ -16997,7 +16999,7 @@ overrides = {
       ],
       "bs": {
         "hp": 80,
-        "at": 105,
+        "at": 110,
         "df": 75,
         "sa": 60,
         "sd": 75,
@@ -17038,12 +17040,12 @@ overrides = {
             "Earthquake"
           ],
           [
-            51,
-            "Sky Drop"
+            52,
+            "Superpower"
           ],
           [
             56,
-            "Taunt"
+            "Aqua Tail"
           ],
           [
             62,
@@ -17957,7 +17959,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Multiscale",
+        "Thick Fat",
         "",
         "Multiscale"
       ]
@@ -32090,7 +32092,7 @@ overrides = {
         "at": 70,
         "df": 60,
         "sa": 120,
-        "sd": 65,
+        "sd": 70,
         "sp": 85
       },
       "learnset_info": {
@@ -32237,7 +32239,7 @@ overrides = {
       "bs": {
         "hp": 90,
         "at": 30,
-        "df": 80,
+        "df": 85,
         "sa": 100,
         "sd": 95,
         "sp": 65
@@ -32316,9 +32318,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Multiscale",
+        "Shield Dust",
         "",
-        "Compound Eyes"
+        "Multiscale"
       ]
     },
     "Lotad": {
@@ -33199,6 +33201,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Fly"
         ]
       },
@@ -33318,6 +33321,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Fly"
         ]
       },
@@ -37625,6 +37629,10 @@ overrides = {
             "Wild Charge"
           ],
           [
+            50,
+            "U-turn"
+          ],
+          [
             55,
             "Flare Blitz"
           ]
@@ -41518,7 +41526,7 @@ overrides = {
       },
       "abs": [
         "Poison Heal",
-        "Storm Drain",
+        "Water Absorb",
         "Storm Drain"
       ],
       "evos": [
@@ -41638,7 +41646,7 @@ overrides = {
       },
       "abs": [
         "Poison Heal",
-        "Storm Drain",
+        "Water Absorb",
         "Storm Drain"
       ]
     },
@@ -42111,9 +42119,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Multiscale",
+        "Water Absorb",
         "",
-        "Cute Charm"
+        "Multiscale"
       ]
     },
     "Castform": {
@@ -50315,7 +50323,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 85,
+        "hp": 95,
         "at": 105,
         "df": 55,
         "sa": 105,
@@ -50537,7 +50545,8 @@ overrides = {
       "name": "Cherrim",
       "num": 421,
       "types": [
-        "Grass"
+        "Grass",
+        "Fire"
       ],
       "items": [
         "None",
@@ -50733,7 +50742,7 @@ overrides = {
       },
       "abs": [
         "Poison Heal",
-        "Storm Drain",
+        "Water Absorb",
         "Sand Force"
       ],
       "evos": [
@@ -50861,7 +50870,7 @@ overrides = {
       },
       "abs": [
         "Poison Heal",
-        "Storm Drain",
+        "Water Absorb",
         "Sand Force"
       ]
     },
@@ -51871,7 +51880,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        38
+        34
       ]
     },
     "Purugly": {
@@ -52267,7 +52276,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        38
+        34
       ]
     },
     "Skuntank": {
@@ -55010,7 +55019,7 @@ overrides = {
       },
       "abs": [
         "Swift Swim",
-        "Storm Drain",
+        "Water Absorb",
         "Water Veil"
       ],
       "evos": [
@@ -55135,7 +55144,7 @@ overrides = {
       },
       "abs": [
         "Swift Swim",
-        "Storm Drain",
+        "Water Absorb",
         "Drizzle"
       ]
     },
@@ -60135,7 +60144,7 @@ overrides = {
           ],
           [
             33,
-            "Payback"
+            "Feint Attack"
           ],
           [
             36,
@@ -60152,6 +60161,10 @@ overrides = {
           [
             50,
             "Hammer Arm"
+          ],
+          [
+            55,
+            "Payback"
           ],
           [
             60,
@@ -60265,7 +60278,7 @@ overrides = {
           ],
           [
             33,
-            "Payback"
+            "Feint Attack"
           ],
           [
             36,
@@ -60282,6 +60295,10 @@ overrides = {
           [
             50,
             "Hammer Arm"
+          ],
+          [
+            55,
+            "Payback"
           ],
           [
             60,
@@ -60404,7 +60421,7 @@ overrides = {
           ],
           [
             33,
-            "Payback"
+            "Feint Attack"
           ],
           [
             36,
@@ -60421,6 +60438,10 @@ overrides = {
           [
             50,
             "Hammer Arm"
+          ],
+          [
+            55,
+            "Payback"
           ],
           [
             60,
@@ -68961,7 +68982,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 80,
+        "hp": 90,
         "at": 105,
         "df": 92,
         "sa": 60,
@@ -75026,7 +75047,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Storm Drain",
+        "Water Absorb",
         "",
         "Sand Veil"
       ]
