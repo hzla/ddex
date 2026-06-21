@@ -3273,8 +3273,8 @@ overrides = {
         "Sand Force"
       ]
     },
-    "Nidoran F": {
-      "name": "Nidoran F",
+    "Nidoran-F": {
+      "name": "Nidoran-F",
       "num": 29,
       "types": [
         "Poison"
@@ -3675,8 +3675,8 @@ overrides = {
         "Multiscale"
       ]
     },
-    "Nidoran M": {
-      "name": "Nidoran M",
+    "Nidoran-M": {
+      "name": "Nidoran-M",
       "num": 32,
       "types": [
         "Poison"
@@ -42139,9 +42139,9 @@ overrides = {
         "hp": 70,
         "at": 70,
         "df": 70,
-        "sa": 120,
+        "sa": 110,
         "sd": 70,
-        "sp": 120
+        "sp": 110
       },
       "learnset_info": {
         "learnset": [
@@ -42179,11 +42179,7 @@ overrides = {
           ],
           [
             40,
-            "Flamethrower"
-          ],
-          [
-            40,
-            "Ice Beam"
+            "Thunderbolt"
           ],
           [
             40,
@@ -42191,7 +42187,15 @@ overrides = {
           ],
           [
             40,
-            "Thunderbolt"
+            "Flamethrower"
+          ],
+          [
+            40,
+            "Ice Beam"
+          ],
+          [
+            50,
+            "Hydro Pump"
           ],
           [
             50,
@@ -42204,10 +42208,6 @@ overrides = {
           [
             50,
             "Blizzard"
-          ],
-          [
-            50,
-            "Hydro Pump"
           ],
           [
             50,
@@ -79027,8 +79027,145 @@ overrides = {
         ""
       ]
     },
-    "": {
-      "name": "",
+    "Deoxys-Attack": {
+      "name": "Deoxys-Attack",
+      "num": 650,
+      "types": [
+        "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 180,
+        "df": 20,
+        "sa": 180,
+        "sd": 20,
+        "sp": 150
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Wrap"
+          ],
+          [
+            9,
+            "Night Shade"
+          ],
+          [
+            17,
+            "Teleport"
+          ],
+          [
+            25,
+            "Taunt"
+          ],
+          [
+            33,
+            "Pursuit"
+          ],
+          [
+            41,
+            "Psychic"
+          ],
+          [
+            49,
+            "Superpower"
+          ],
+          [
+            57,
+            "Psycho Shift"
+          ],
+          [
+            65,
+            "Zen Headbutt"
+          ],
+          [
+            73,
+            "Cosmic Power"
+          ],
+          [
+            81,
+            "Zap Cannon"
+          ],
+          [
+            89,
+            "Psycho Boost"
+          ],
+          [
+            97,
+            "Hyper Beam"
+          ]
+        ],
+        "tms": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Water Pulse",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Natural Gift",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash",
+          "Cut",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Deoxys-Defense": {
+      "name": "Deoxys-Defense",
       "num": 651,
       "types": [
         "Psychic"
@@ -79168,6 +79305,1791 @@ overrides = {
       },
       "abs": [
         "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Deoxys-Speed": {
+      "name": "Deoxys-Speed",
+      "num": 652,
+      "types": [
+        "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 95,
+        "df": 90,
+        "sa": 95,
+        "sd": 90,
+        "sp": 180
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Wrap"
+          ],
+          [
+            9,
+            "Night Shade"
+          ],
+          [
+            17,
+            "Double Team"
+          ],
+          [
+            25,
+            "Knock Off"
+          ],
+          [
+            33,
+            "Pursuit"
+          ],
+          [
+            41,
+            "Psychic"
+          ],
+          [
+            49,
+            "Swift"
+          ],
+          [
+            57,
+            "Psycho Shift"
+          ],
+          [
+            65,
+            "Zen Headbutt"
+          ],
+          [
+            73,
+            "Agility"
+          ],
+          [
+            81,
+            "Recover"
+          ],
+          [
+            89,
+            "Psycho Boost"
+          ],
+          [
+            97,
+            "Extreme Speed"
+          ]
+        ],
+        "tms": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Water Pulse",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Natural Gift",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash",
+          "Cut",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Wormadam-Sandy": {
+      "name": "Wormadam-Sandy",
+      "num": 653,
+      "types": [
+        "Bug",
+        "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 109,
+        "df": 105,
+        "sa": 59,
+        "sd": 105,
+        "sp": 36
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Bug Bite"
+          ],
+          [
+            1,
+            "Protect"
+          ],
+          [
+            1,
+            "String Shot"
+          ],
+          [
+            20,
+            "Bulldoze"
+          ],
+          [
+            23,
+            "Fury Cutter"
+          ],
+          [
+            28,
+            "Leech Life"
+          ],
+          [
+            33,
+            "Dig"
+          ],
+          [
+            36,
+            "X-Scissor"
+          ],
+          [
+            40,
+            "Earthquake"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "Magical Leaf",
+          "Bulldoze",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Adaptability",
+        "",
+        "Overcoat"
+      ]
+    },
+    "Wormadam-Trash": {
+      "name": "Wormadam-Trash",
+      "num": 654,
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 89,
+        "df": 95,
+        "sa": 99,
+        "sd": 95,
+        "sp": 36
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Bug Bite"
+          ],
+          [
+            1,
+            "Protect"
+          ],
+          [
+            1,
+            "String Shot"
+          ],
+          [
+            20,
+            "Mirror Shot"
+          ],
+          [
+            23,
+            "Silver Wind"
+          ],
+          [
+            28,
+            "Signal Beam"
+          ],
+          [
+            33,
+            "Magnet Bomb"
+          ],
+          [
+            36,
+            "Bug Buzz"
+          ],
+          [
+            40,
+            "Flash Cannon"
+          ],
+          [
+            50,
+            "Metal Burst"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Safeguard",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift",
+          "Flash Cannon"
+        ]
+      },
+      "abs": [
+        "Overcoat",
+        "",
+        "Overcoat"
+      ]
+    },
+    "Shaymin-Sky": {
+      "name": "Shaymin-Sky",
+      "num": 655,
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "items": [
+        "Lum Berry",
+        "Lum Berry",
+        "None"
+      ],
+      "bs": {
+        "hp": 100,
+        "at": 103,
+        "df": 75,
+        "sa": 120,
+        "sd": 75,
+        "sp": 127
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Growth"
+          ],
+          [
+            10,
+            "Magical Leaf"
+          ],
+          [
+            19,
+            "Leech Seed"
+          ],
+          [
+            28,
+            "Quick Attack"
+          ],
+          [
+            37,
+            "Sweet Scent"
+          ],
+          [
+            46,
+            "Natural Gift"
+          ],
+          [
+            55,
+            "Worry Seed"
+          ],
+          [
+            64,
+            "Air Slash"
+          ],
+          [
+            73,
+            "Energy Ball"
+          ],
+          [
+            82,
+            "Sweet Kiss"
+          ],
+          [
+            91,
+            "Leaf Storm"
+          ],
+          [
+            100,
+            "Seed Flare"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Safeguard",
+          "Dark Pulse",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Magical Leaf",
+          "Grass Knot",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Serene Grace",
+        "",
+        ""
+      ]
+    },
+    "Giratina-Origin": {
+      "name": "Giratina-Origin",
+      "num": 656,
+      "types": [
+        "Ghost",
+        "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 150,
+        "at": 120,
+        "df": 100,
+        "sa": 120,
+        "sd": 100,
+        "sp": 90
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Dragon Breath"
+          ],
+          [
+            1,
+            "Scary Face"
+          ],
+          [
+            6,
+            "Ominous Wind"
+          ],
+          [
+            10,
+            "Ancient Power"
+          ],
+          [
+            15,
+            "Slash"
+          ],
+          [
+            19,
+            "Shadow Sneak"
+          ],
+          [
+            24,
+            "Destiny Bond"
+          ],
+          [
+            28,
+            "Dragon Claw"
+          ],
+          [
+            33,
+            "Earth Power"
+          ],
+          [
+            37,
+            "Aura Sphere"
+          ],
+          [
+            42,
+            "Shadow Claw"
+          ],
+          [
+            46,
+            "Shadow Force"
+          ],
+          [
+            50,
+            "Hex"
+          ]
+        ],
+        "tms": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Bulldoze",
+          "Dragon Tail",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift",
+          "Rock Smash",
+          "Cut",
+          "Fly",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        "Levitate"
+      ]
+    },
+    "Rotom-Heat": {
+      "name": "Rotom-Heat",
+      "num": 657,
+      "types": [
+        "Electric",
+        "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 107,
+        "sa": 105,
+        "sd": 107,
+        "sp": 86
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        ""
+      ]
+    },
+    "Rotom-Wash": {
+      "name": "Rotom-Wash",
+      "num": 658,
+      "types": [
+        "Electric",
+        "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 122,
+        "sa": 105,
+        "sd": 122,
+        "sp": 56
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        "Drizzle"
+      ]
+    },
+    "Rotom-Frost": {
+      "name": "Rotom-Frost",
+      "num": 659,
+      "types": [
+        "Electric",
+        "Ice"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 97,
+        "sa": 105,
+        "sd": 97,
+        "sp": 106
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        ""
+      ]
+    },
+    "Rotom-Fan": {
+      "name": "Rotom-Fan",
+      "num": 660,
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 82,
+        "sa": 105,
+        "sd": 82,
+        "sp": 136
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Motor Drive",
+        "",
+        ""
+      ]
+    },
+    "Rotom-Mow": {
+      "name": "Rotom-Mow",
+      "num": 661,
+      "types": [
+        "Electric",
+        "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 97,
+        "sa": 105,
+        "sd": 97,
+        "sp": 106
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        ""
+      ]
+    },
+    "Castform-Sunny": {
+      "name": "Castform-Sunny",
+      "num": 662,
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 70,
+        "df": 70,
+        "sa": 110,
+        "sd": 70,
+        "sp": 10
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        ""
+      ]
+    },
+    "Castform-Rainy": {
+      "name": "Castform-Rainy",
+      "num": 663,
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 70,
+        "df": 70,
+        "sa": 110,
+        "sd": 70,
+        "sp": 110
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        "Drizzle"
+      ]
+    },
+    "Castform-Snowy": {
+      "name": "Castform-Snowy",
+      "num": 664,
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 70,
+        "df": 70,
+        "sa": 110,
+        "sd": 70,
+        "sp": 110
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        ""
+      ]
+    },
+    "Basculin-Blue-Striped": {
+      "name": "Basculin-Blue-Striped",
+      "num": 665,
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 80,
+        "df": 70,
+        "sa": 112,
+        "sd": 70,
+        "sp": 98
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Water Gun"
+          ],
+          [
+            7,
+            "Bite"
+          ],
+          [
+            13,
+            "Scary Face"
+          ],
+          [
+            21,
+            "Snarl"
+          ],
+          [
+            25,
+            "Aurora Beam"
+          ],
+          [
+            30,
+            "Scald"
+          ],
+          [
+            36,
+            "Dark Pulse"
+          ],
+          [
+            40,
+            "Surf"
+          ],
+          [
+            60,
+            "Night Daze"
+          ],
+          [
+            70,
+            "Hydro Cannon"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Return",
+          "Double Team",
+          "Water Pulse",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Natural Gift",
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
+        ]
+      },
+      "abs": [
+        "Mold Breaker",
+        "Adaptability",
+        "Drizzle"
+      ]
+    },
+    "Darmanitan-Zen": {
+      "name": "Darmanitan-Zen",
+      "num": 666,
+      "types": [
+        "Fire",
+        "Psychic"
+      ],
+      "items": [
+        "Rawst Berry",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 105,
+        "at": 30,
+        "df": 105,
+        "sa": 140,
+        "sd": 105,
+        "sp": 55
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            1,
+            "Rollout"
+          ],
+          [
+            1,
+            "Incinerate"
+          ],
+          [
+            1,
+            "Rage"
+          ],
+          [
+            3,
+            "Rollout"
+          ],
+          [
+            6,
+            "Incinerate"
+          ],
+          [
+            9,
+            "Rage"
+          ],
+          [
+            11,
+            "Fire Fang"
+          ],
+          [
+            14,
+            "Headbutt"
+          ],
+          [
+            17,
+            "Swagger"
+          ],
+          [
+            19,
+            "Facade"
+          ],
+          [
+            22,
+            "Fire Punch"
+          ],
+          [
+            25,
+            "Work Up"
+          ],
+          [
+            27,
+            "Thrash"
+          ],
+          [
+            30,
+            "Belly Drum"
+          ],
+          [
+            33,
+            "Flare Blitz"
+          ],
+          [
+            35,
+            "Hammer Arm"
+          ],
+          [
+            39,
+            "Taunt"
+          ],
+          [
+            47,
+            "Superpower"
+          ],
+          [
+            54,
+            "Overheat"
+          ]
+        ],
+        "tms": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Baton Pass",
+          "Dark Pulse",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Self-Destruct",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Natural Gift",
+          "Rock Smash",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Sheer Force",
+        "",
+        "Zen Mode"
+      ]
+    },
+    "Meloetta-Pirouette": {
+      "name": "Meloetta-Pirouette",
+      "num": 667,
+      "types": [
+        "Normal",
+        "Fighting"
+      ],
+      "items": [
+        "Star Piece",
+        "Star Piece",
+        "None"
+      ],
+      "bs": {
+        "hp": 100,
+        "at": 128,
+        "df": 90,
+        "sa": 77,
+        "sd": 77,
+        "sp": 128
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Round"
+          ],
+          [
+            6,
+            "Quick Attack"
+          ],
+          [
+            11,
+            "Confusion"
+          ],
+          [
+            16,
+            "Sing"
+          ],
+          [
+            21,
+            "Teeter Dance"
+          ],
+          [
+            26,
+            "Acrobatics"
+          ],
+          [
+            31,
+            "Psybeam"
+          ],
+          [
+            36,
+            "Echoed Voice"
+          ],
+          [
+            43,
+            "U-turn"
+          ],
+          [
+            50,
+            "Wake-Up Slap"
+          ],
+          [
+            57,
+            "Psychic"
+          ],
+          [
+            64,
+            "Hyper Voice"
+          ],
+          [
+            71,
+            "Role Play"
+          ],
+          [
+            78,
+            "Close Combat"
+          ],
+          [
+            85,
+            "Perish Song"
+          ]
+        ],
+        "tms": [
+          "Hone Claws",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Natural Gift",
+          "Trick Room",
+          "Rock Smash",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Serene Grace",
         "",
         ""
       ]
@@ -106752,7 +108674,7 @@ overrides = {
     "starpiece": {
       "name": "Star Piece",
       "desc": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.",
-      "location": "Wild held by Jirachi, Wild held by Meloetta, Wild held by Alt Form",
+      "location": "Wild held by Jirachi, Wild held by Meloetta, Wild held by Meloetta-Pirouette",
       "wilds": [
         "Jirachi",
         "Meloetta",
@@ -107040,7 +108962,7 @@ overrides = {
     "rawstberry": {
       "name": "Rawst Berry",
       "desc": "If held by a Pokémon, it recovers from a burn.",
-      "location": "Wild held by Numel, Wild held by Camerupt, Wild held by Buizel, Wild held by Alt Form, Reward from PkMn Ranger Mylene",
+      "location": "Wild held by Numel, Wild held by Camerupt, Wild held by Buizel, Wild held by Darmanitan-Zen, Reward from PkMn Ranger Mylene",
       "rewards": [
         "PkMn Ranger Mylene"
       ],
@@ -107104,7 +109026,7 @@ overrides = {
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon, it recovers from any status problem.",
-      "location": "Wild held by Electrode, Wild held by Mew, Wild held by Celebi, Wild held by Shaymin, Wild held by Alt Form, Reward from PkMn Breeder Galen",
+      "location": "Wild held by Electrode, Wild held by Mew, Wild held by Celebi, Wild held by Shaymin, Wild held by Shaymin-Sky, Reward from PkMn Breeder Galen",
       "rewards": [
         "PkMn Breeder Galen"
       ],
@@ -107653,7 +109575,7 @@ overrides = {
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
-      "location": "Wild held by Totodile, Wild held by Alt Form",
+      "location": "Wild held by Totodile, Wild held by Castform-Sunny, Wild held by Castform-Rainy, Wild held by Castform-Snowy",
       "wilds": [
         "Totodile",
         "Alt Form"
