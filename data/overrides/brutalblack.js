@@ -5433,7 +5433,7 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 50,
+        "at": 60,
         "df": 125,
         "sa": 110,
         "sd": 80,
@@ -5840,19 +5840,19 @@ overrides = {
             "Psychic"
           ],
           [
+            33,
+            "U-turn"
+          ],
+          [
             35,
             "Bug Buzz"
           ],
           [
             44,
-            "U-turn"
-          ],
-          [
-            50,
             "Psycho Boost"
           ],
           [
-            60,
+            50,
             "Tailwind"
           ]
         ],
@@ -5954,19 +5954,19 @@ overrides = {
             "Psychic"
           ],
           [
+            33,
+            "U-turn"
+          ],
+          [
             35,
             "Bug Buzz"
           ],
           [
             44,
-            "U-turn"
-          ],
-          [
-            50,
             "Psycho Boost"
           ],
           [
-            60,
+            50,
             "Tailwind"
           ]
         ],
@@ -8630,7 +8630,7 @@ overrides = {
         "df": 80,
         "sa": 70,
         "sd": 80,
-        "sp": 85
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -21926,7 +21926,7 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 50,
+        "at": 60,
         "df": 80,
         "sa": 110,
         "sd": 125,
@@ -22572,6 +22572,10 @@ overrides = {
             "Air Slash"
           ],
           [
+            37,
+            "U-turn"
+          ],
+          [
             40,
             "Knock Off"
           ],
@@ -22584,14 +22588,6 @@ overrides = {
             "Aeroblast"
           ],
           [
-            52,
-            "U-turn"
-          ],
-          [
-            55,
-            "Encore"
-          ],
-          [
             65,
             "Leaf Storm"
           ]
@@ -22600,6 +22596,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
+          "Taunt",
           "Baton Pass",
           "Solar Beam",
           "Return",
@@ -22706,6 +22703,10 @@ overrides = {
             "Air Slash"
           ],
           [
+            37,
+            "U-turn"
+          ],
+          [
             40,
             "Knock Off"
           ],
@@ -22718,14 +22719,6 @@ overrides = {
             "Aeroblast"
           ],
           [
-            52,
-            "U-turn"
-          ],
-          [
-            55,
-            "Encore"
-          ],
-          [
             65,
             "Leaf Storm"
           ]
@@ -22734,6 +22727,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
+          "Taunt",
           "Baton Pass",
           "Solar Beam",
           "Return",
@@ -22840,6 +22834,10 @@ overrides = {
             "Air Slash"
           ],
           [
+            37,
+            "U-turn"
+          ],
+          [
             40,
             "Knock Off"
           ],
@@ -22852,14 +22850,6 @@ overrides = {
             "Aeroblast"
           ],
           [
-            52,
-            "U-turn"
-          ],
-          [
-            55,
-            "Encore"
-          ],
-          [
             65,
             "Leaf Storm"
           ]
@@ -22868,6 +22858,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
+          "Taunt",
           "Hyper Beam",
           "Baton Pass",
           "Solar Beam",
@@ -32268,7 +32259,7 @@ overrides = {
           ],
           [
             27,
-            "Signal Beam"
+            "U-turn"
           ],
           [
             32,
@@ -32284,7 +32275,7 @@ overrides = {
           ],
           [
             44,
-            "U-turn"
+            "Sludge Wave"
           ]
         ],
         "tms": [
@@ -35544,7 +35535,7 @@ overrides = {
           ],
           [
             40,
-            "Shadow Ball"
+            "Shadow Punch"
           ],
           [
             44,
@@ -35666,7 +35657,7 @@ overrides = {
           ],
           [
             40,
-            "Shadow Ball"
+            "Shadow Punch"
           ],
           [
             44,
@@ -44083,6 +44074,10 @@ overrides = {
             "Baton Pass"
           ],
           [
+            50,
+            "Protect"
+          ],
+          [
             55,
             "Sucker Punch"
           ]
@@ -44177,6 +44172,10 @@ overrides = {
           [
             44,
             "Baton Pass"
+          ],
+          [
+            50,
+            "Protect"
           ],
           [
             55,
@@ -51899,7 +51898,7 @@ overrides = {
         "hp": 81,
         "at": 102,
         "df": 84,
-        "sa": 44,
+        "sa": 52,
         "sd": 79,
         "sp": 112
       },
@@ -52294,9 +52293,9 @@ overrides = {
       "bs": {
         "hp": 103,
         "at": 71,
-        "df": 67,
+        "df": 70,
         "sa": 103,
-        "sd": 61,
+        "sd": 66,
         "sp": 97
       },
       "learnset_info": {
@@ -53243,7 +53242,7 @@ overrides = {
       },
       "abs": [
         "Unnerve",
-        "",
+        "Magic Bounce",
         "Wonder Guard"
       ]
     },
@@ -54976,16 +54975,16 @@ overrides = {
             "Muddy Water"
           ],
           [
+            47,
+            "U-turn"
+          ],
+          [
             50,
             "Tailwind"
           ],
           [
             55,
             "Thunder"
-          ],
-          [
-            60,
-            "U-turn"
           ]
         ],
         "tms": [
@@ -55099,16 +55098,16 @@ overrides = {
             "Muddy Water"
           ],
           [
+            47,
+            "U-turn"
+          ],
+          [
             50,
             "Tailwind"
           ],
           [
             55,
             "Thunder"
-          ],
-          [
-            60,
-            "U-turn"
           ]
         ],
         "tms": [
@@ -55398,7 +55397,7 @@ overrides = {
         "Ice"
       ],
       "items": [
-        "None",
+        "Lum Berry",
         "None",
         "None"
       ],
@@ -69144,6 +69143,10 @@ overrides = {
             "Dark Pulse"
           ],
           [
+            50,
+            "Aura Sphere"
+          ],
+          [
             60,
             "Night Daze"
           ],
@@ -69262,6 +69265,10 @@ overrides = {
             "Dark Pulse"
           ],
           [
+            50,
+            "Aura Sphere"
+          ],
+          [
             60,
             "Night Daze"
           ],
@@ -69285,6 +69292,7 @@ overrides = {
           "Return",
           "Dig",
           "Shadow Ball",
+          "Brick Break",
           "Double Team",
           "Flamethrower",
           "Aerial Ace",
@@ -72661,12 +72669,12 @@ overrides = {
             "Gear Grind"
           ],
           [
-            60,
-            "Earthquake"
+            55,
+            "Volt Switch"
           ],
           [
-            65,
-            "Volt Switch"
+            60,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -72775,12 +72783,12 @@ overrides = {
             "Gear Grind"
           ],
           [
-            60,
-            "Earthquake"
+            55,
+            "Volt Switch"
           ],
           [
-            65,
-            "Volt Switch"
+            60,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -72889,12 +72897,12 @@ overrides = {
             "Gear Grind"
           ],
           [
-            60,
-            "Earthquake"
+            55,
+            "Volt Switch"
           ],
           [
-            65,
-            "Volt Switch"
+            60,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -74664,6 +74672,10 @@ overrides = {
           [
             42,
             "Flash Cannon"
+          ],
+          [
+            48,
+            "Magnet Bomb"
           ],
           [
             60,
@@ -82830,10 +82842,10 @@ overrides = {
     },
     "Clamp": {
       "t": "Water",
-      "bp": 35,
+      "bp": 50,
       "cat": "Physical",
       "pp": 15,
-      "acc": 85,
+      "acc": 100,
       "prio": 0,
       "name": "Clamp",
       "num": 127,
@@ -86806,7 +86818,7 @@ overrides = {
       "bp": 120,
       "cat": "Physical",
       "pp": 10,
-      "acc": 85,
+      "acc": 95,
       "prio": 0,
       "name": "Power Whip",
       "num": 437,
@@ -101869,6 +101881,17 @@ overrides = {
             "mn": 22
           }
         ]
+      },
+      "gift": {
+        "rates": [
+          100
+        ],
+        "encs": [
+          {
+            "s": "Venusaur",
+            "mn": 100
+          }
+        ]
       }
     },
     "route6": {
@@ -108300,9 +108323,9 @@ overrides = {
     "freshwater": {
       "name": "Fresh Water",
       "desc": "Water with a high mineral content. It restores the HP of one Pokémon by 50 points.",
-      "location": "Reward from Waiter Clint - Nimbasa City, Reward from Waitress Bonita",
+      "location": "Reward from Waiter Clint, Reward from Waitress Bonita",
       "rewards": [
-        "Waiter Clint - Nimbasa City",
+        "Waiter Clint",
         "Waitress Bonita"
       ]
     },
@@ -108745,9 +108768,9 @@ overrides = {
     "oldamber": {
       "name": "Old Amber",
       "desc": "A piece of amber that contains the genetic material of an ancient Pokémon. It is clear with a reddish tint.",
-      "location": "Reward from Harlequin Ian - Route 7",
+      "location": "Reward from Harlequin Ian",
       "rewards": [
-        "Harlequin Ian - Route 7"
+        "Harlequin Ian"
       ]
     },
     "armorfossil": {
@@ -108815,17 +108838,17 @@ overrides = {
     "dousedrive": {
       "name": "Douse Drive",
       "desc": "A cassette to be held by Genesect. It changes Techno Blast to a Water-type move.",
-      "location": "Reward from Fisherman Lydon - Route 17",
+      "location": "Reward from Fisherman Lydon",
       "rewards": [
-        "Fisherman Lydon - Route 17"
+        "Fisherman Lydon"
       ]
     },
     "shockdrive": {
       "name": "Shock Drive",
       "desc": "A cassette to be held by Genesect. It changes Techno Blast to an Electric-type move.",
-      "location": "Reward from Swimmer  F Joyce - Route 17",
+      "location": "Reward from Swimmer  F Joyce",
       "rewards": [
-        "Swimmer  F Joyce - Route 17"
+        "Swimmer  F Joyce"
       ]
     },
     "burndrive": {
@@ -108836,10 +108859,10 @@ overrides = {
     "chilldrive": {
       "name": "Chill Drive",
       "desc": "A cassette to be held by Genesect. It changes Techno Blast to an Ice-type move.",
-      "location": "Reward from Swimmer  M Wright - Route 17, Reward from Hiker Jeremiah - Route 18",
+      "location": "Reward from Swimmer  M Wright, Reward from Hiker Jeremiah",
       "rewards": [
-        "Swimmer  M Wright - Route 17",
-        "Hiker Jeremiah - Route 18"
+        "Swimmer  M Wright",
+        "Hiker Jeremiah"
       ]
     },
     "sweetheart": {
@@ -108920,10 +108943,10 @@ overrides = {
     "cheriberry": {
       "name": "Cheri Berry",
       "desc": "If held by a Pokémon,  it recovers from paralysis.",
-      "location": "Wild held by Lillipup, Reward from PkMn Ranger Richard, Reward from PkMn Ranger Shanti - Route 6",
+      "location": "Wild held by Lillipup, Reward from PkMn Ranger Richard, Reward from PkMn Ranger Shanti",
       "rewards": [
         "PkMn Ranger Richard",
-        "PkMn Ranger Shanti - Route 6"
+        "PkMn Ranger Shanti"
       ],
       "wilds": [
         "Lillipup"
@@ -108932,10 +108955,10 @@ overrides = {
     "chestoberry": {
       "name": "Chesto Berry",
       "desc": "If held by a Pokémon, it recovers from sleep.",
-      "location": "Wild held by Exploud, Wild held by Skitty, Wild held by Minccino, Wild held by Cinccino, Reward from PkMn Ranger Forrest - Pinwheel Forest, Reward from PkMn Ranger Audra - Pinwheel Forest",
+      "location": "Wild held by Exploud, Wild held by Skitty, Wild held by Minccino, Wild held by Cinccino, Reward from PkMn Ranger Forrest, Reward from PkMn Ranger Audra",
       "rewards": [
-        "PkMn Ranger Forrest - Pinwheel Forest",
-        "PkMn Ranger Audra - Pinwheel Forest"
+        "PkMn Ranger Forrest",
+        "PkMn Ranger Audra"
       ],
       "wilds": [
         "Exploud",
@@ -108947,11 +108970,11 @@ overrides = {
     "pechaberry": {
       "name": "Pecha Berry",
       "desc": "If held by a Pokémon, it recovers from poison.",
-      "location": "Wild held by Marill, Wild held by Poochyena, Wild held by Mightyena, Reward from PkMn Ranger Irene, Reward from PkMn Ranger Lewis - Route 8, Reward from PkMn Ranger Annie - Route 8",
+      "location": "Wild held by Marill, Wild held by Poochyena, Wild held by Mightyena, Reward from PkMn Ranger Irene, Reward from PkMn Ranger Lewis, Reward from PkMn Ranger Annie",
       "rewards": [
         "PkMn Ranger Irene",
-        "PkMn Ranger Lewis - Route 8",
-        "PkMn Ranger Annie - Route 8"
+        "PkMn Ranger Lewis",
+        "PkMn Ranger Annie"
       ],
       "wilds": [
         "Marill",
@@ -108976,10 +108999,10 @@ overrides = {
     "aspearberry": {
       "name": "Aspear Berry",
       "desc": "If held by a Pokémon, it defrosts it.",
-      "location": "Wild held by Slakoth, Reward from PkMn Ranger Pedro - Route 7, Reward from PkMn Ranger Mary - Route 7",
+      "location": "Wild held by Slakoth, Reward from PkMn Ranger Pedro, Reward from PkMn Ranger Mary",
       "rewards": [
-        "PkMn Ranger Pedro - Route 7",
-        "PkMn Ranger Mary - Route 7"
+        "PkMn Ranger Pedro",
+        "PkMn Ranger Mary"
       ],
       "wilds": [
         "Slakoth"
@@ -108988,10 +109011,10 @@ overrides = {
     "leppaberry": {
       "name": "Leppa Berry",
       "desc": "If held by a Pokémon, it restores a move's PP by 10.",
-      "location": "Wild held by Cleffa, Wild held by Mime Jr., Reward from PkMn Ranger Thalia - Route 11, Reward from PkMn Ranger Crofton - Route 11",
+      "location": "Wild held by Cleffa, Wild held by Mime Jr., Reward from PkMn Ranger Thalia, Reward from PkMn Ranger Crofton",
       "rewards": [
-        "PkMn Ranger Thalia - Route 11",
-        "PkMn Ranger Crofton - Route 11"
+        "PkMn Ranger Thalia",
+        "PkMn Ranger Crofton"
       ],
       "wilds": [
         "Cleffa",
@@ -109001,9 +109024,9 @@ overrides = {
     "oranberry": {
       "name": "Oran Berry",
       "desc": "If held by a Pokémon,  it heals the user by just 10 HP.",
-      "location": "Wild held by Rattata, Wild held by Pichu, Wild held by Bibarel, Reward from PkMn Breeder Adelaide - Route 3",
+      "location": "Wild held by Rattata, Wild held by Pichu, Wild held by Bibarel, Reward from PkMn Breeder Adelaide",
       "rewards": [
-        "PkMn Breeder Adelaide - Route 3"
+        "PkMn Breeder Adelaide"
       ],
       "wilds": [
         "Rattata",
@@ -109026,7 +109049,7 @@ overrides = {
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon, it recovers from any status problem.",
-      "location": "Wild held by Electrode, Wild held by Mew, Wild held by Celebi, Wild held by Shaymin, Wild held by Shaymin-Sky, Reward from PkMn Breeder Galen",
+      "location": "Wild held by Electrode, Wild held by Mew, Wild held by Celebi, Wild held by Abomasnow, Wild held by Shaymin, Wild held by Shaymin-Sky, Reward from PkMn Breeder Galen",
       "rewards": [
         "PkMn Breeder Galen"
       ],
@@ -109034,6 +109057,7 @@ overrides = {
         "Electrode",
         "Mew",
         "Celebi",
+        "Abomasnow",
         "Shaymin",
         "Alt Form"
       ]
@@ -109041,12 +109065,12 @@ overrides = {
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon, it heals the user's HP a little.",
-      "location": "Wild held by Forretress, Wild held by Bibarel, Reward from PkMn Breeder Eustace - Route 12, Reward from PkMn Breeder Ethel - Route 12, Reward from PkMn Ranger Shelly - Route 15, Reward from PkMn Ranger Keith - Route 15, Reward from PkMn Ranger Harry",
+      "location": "Wild held by Forretress, Wild held by Bibarel, Reward from PkMn Breeder Eustace, Reward from PkMn Breeder Ethel, Reward from PkMn Ranger Shelly, Reward from PkMn Ranger Keith, Reward from PkMn Ranger Harry",
       "rewards": [
-        "PkMn Breeder Eustace - Route 12",
-        "PkMn Breeder Ethel - Route 12",
-        "PkMn Ranger Shelly - Route 15",
-        "PkMn Ranger Keith - Route 15",
+        "PkMn Breeder Eustace",
+        "PkMn Breeder Ethel",
+        "PkMn Ranger Shelly",
+        "PkMn Ranger Keith",
         "PkMn Ranger Harry"
       ],
       "wilds": [
@@ -109377,10 +109401,10 @@ overrides = {
     "whiteherb": {
       "name": "White Herb",
       "desc": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
-      "location": "Reward from Backpacker Elaine - Desert Resort, Reward from Harlequin Pat - Route 7",
+      "location": "Reward from Backpacker Elaine, Reward from Harlequin Pat",
       "rewards": [
-        "Backpacker Elaine - Desert Resort",
-        "Harlequin Pat - Route 7"
+        "Backpacker Elaine",
+        "Harlequin Pat"
       ]
     },
     "machobrace": {
@@ -109396,9 +109420,9 @@ overrides = {
     "quickclaw": {
       "name": "Quick Claw",
       "desc": "An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.",
-      "location": "Reward from Backpacker Liz - Desert Resort",
+      "location": "Reward from Backpacker Liz",
       "rewards": [
-        "Backpacker Liz - Desert Resort"
+        "Backpacker Liz"
       ]
     },
     "soothebell": {
@@ -109477,9 +109501,9 @@ overrides = {
     "focusband": {
       "name": "Focus Band",
       "desc": "An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.",
-      "location": "Reward from Backpacker Kelsey - Desert Resort",
+      "location": "Reward from Backpacker Kelsey",
       "rewards": [
-        "Backpacker Kelsey - Desert Resort"
+        "Backpacker Kelsey"
       ]
     },
     "luckyegg": {
@@ -109508,9 +109532,9 @@ overrides = {
     "leftovers": {
       "name": "Leftovers",
       "desc": "An item to be held by a Pokémon. The holder's HP is gradually restored during battle.",
-      "location": "Reward from Veteran Ray - Route 18",
+      "location": "Reward from Veteran Ray",
       "rewards": [
-        "Veteran Ray - Route 18"
+        "Veteran Ray"
       ]
     },
     "dragonscale": {
@@ -109658,9 +109682,9 @@ overrides = {
     "shellbell": {
       "name": "Shell Bell",
       "desc": "An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.",
-      "location": "Reward from Youngster Keita - Not Pinwheel Forest",
+      "location": "Reward from Youngster Keita",
       "rewards": [
-        "Youngster Keita - Not Pinwheel Forest"
+        "Youngster Keita"
       ]
     },
     "seaincense": {
@@ -109731,9 +109755,9 @@ overrides = {
     "widelens": {
       "name": "Wide Lens",
       "desc": "An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.",
-      "location": "Reward from Black Belt Kentaro - Not Pinwheel Forest",
+      "location": "Reward from Black Belt Kentaro",
       "rewards": [
-        "Black Belt Kentaro - Not Pinwheel Forest"
+        "Black Belt Kentaro"
       ]
     },
     "muscleband": {
@@ -109765,17 +109789,17 @@ overrides = {
     "lifeorb": {
       "name": "Life Orb",
       "desc": "An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.",
-      "location": "Reward from Scientist Nathan - P2 Laboratory",
+      "location": "Reward from Scientist Nathan",
       "rewards": [
-        "Scientist Nathan - P2 Laboratory"
+        "Scientist Nathan"
       ]
     },
     "powerherb": {
       "name": "Power Herb",
       "desc": "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.",
-      "location": "Reward from Backpacker Nate - Desert Resort",
+      "location": "Reward from Backpacker Nate",
       "rewards": [
-        "Backpacker Nate - Desert Resort"
+        "Backpacker Nate"
       ]
     },
     "toxicorb": {
@@ -109805,25 +109829,25 @@ overrides = {
     "focussash": {
       "name": "Focus Sash",
       "desc": "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
-      "location": "Reward from Lady Indigo - Route 10",
+      "location": "Reward from Lady Indigo",
       "rewards": [
-        "Lady Indigo - Route 10"
+        "Lady Indigo"
       ]
     },
     "zoomlens": {
       "name": "Zoom Lens",
       "desc": "An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.",
-      "location": "Reward from Battle Girl Lee - Not Pinwheel Forest",
+      "location": "Reward from Battle Girl Lee",
       "rewards": [
-        "Battle Girl Lee - Not Pinwheel Forest"
+        "Battle Girl Lee"
       ]
     },
     "metronome": {
       "name": "Metronome",
       "desc": "A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.",
-      "location": "Reward from Psychic Low - Desert Resort",
+      "location": "Reward from Psychic Low",
       "rewards": [
-        "Psychic Low - Desert Resort"
+        "Psychic Low"
       ]
     },
     "ironball": {
@@ -109927,9 +109951,9 @@ overrides = {
     "shedshell": {
       "name": "Shed Shell",
       "desc": "A tough, discarded carapace to be held by a Pokémon. It enables the holder to switch with a waiting Pokémon in battle.",
-      "location": "Reward from Nursery Aide Autumn - Route 3",
+      "location": "Reward from Nursery Aide Autumn",
       "rewards": [
-        "Nursery Aide Autumn - Route 3"
+        "Nursery Aide Autumn"
       ]
     },
     "bigroot": {
@@ -110162,9 +110186,9 @@ overrides = {
     "tm13": {
       "name": "TM13",
       "desc": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
-      "location": "Reward from Ace Trainer Beckett - Celestial Tower",
+      "location": "Reward from Ace Trainer Beckett",
       "rewards": [
-        "Ace Trainer Beckett - Celestial Tower"
+        "Ace Trainer Beckett"
       ]
     },
     "tm14": {
@@ -110179,12 +110203,12 @@ overrides = {
     },
     "tm16": {
       "name": "TM16",
-      "desc": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
+      "desc": "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.",
       "location": ""
     },
     "tm17": {
       "name": "TM17",
-      "desc": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+      "desc": "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
       "location": ""
     },
     "tm18": {
@@ -110194,7 +110218,7 @@ overrides = {
     },
     "tm19": {
       "name": "TM19",
-      "desc": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+      "desc": "The user makes the ground under the target erupt with power. It may also lower the target's Sp. Def.",
       "location": ""
     },
     "tm20": {
@@ -110204,7 +110228,7 @@ overrides = {
     },
     "tm21": {
       "name": "TM21",
-      "desc": "A full-power attack that grows more powerful the less the user likes its Trainer.",
+      "desc": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
       "location": ""
     },
     "tm22": {
@@ -110264,7 +110288,7 @@ overrides = {
     },
     "tm33": {
       "name": "TM33",
-      "desc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
+      "desc": "The user attacks the target with a pulsing blast of water. This attack never misses.",
       "location": ""
     },
     "tm34": {
@@ -110275,9 +110299,9 @@ overrides = {
     "tm35": {
       "name": "TM35",
       "desc": "The target is scorched with an intense blast of fire. It may also leave the target with a burn.",
-      "location": "Reward from Ace Trainer Kassandra - Celestial Tower",
+      "location": "Reward from Ace Trainer Kassandra",
       "rewards": [
-        "Ace Trainer Kassandra - Celestial Tower"
+        "Ace Trainer Kassandra"
       ]
     },
     "tm36": {
@@ -110487,7 +110511,7 @@ overrides = {
     },
     "tm77": {
       "name": "TM77",
-      "desc": "The user hypnotizes itself into copying any stat change made by the target.",
+      "desc": "The user scatters curious leaves that chase the target. This attack will not miss.",
       "location": ""
     },
     "tm78": {
@@ -110517,7 +110541,7 @@ overrides = {
     },
     "tm83": {
       "name": "TM83",
-      "desc": "The user is roused, and its Attack and Sp. Atk stats increase.",
+      "desc": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
       "location": ""
     },
     "tm84": {
@@ -110552,7 +110576,7 @@ overrides = {
     },
     "tm90": {
       "name": "TM90",
-      "desc": "The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.",
+      "desc": "The user draws power to attack by using its held Berry. The Berry determines its type and power.",
       "location": ""
     },
     "tm91": {
@@ -111148,9 +111172,9 @@ overrides = {
     "eviolite": {
       "name": "Eviolite",
       "desc": "A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def of a Pokémon that can still evolve.",
-      "location": "Reward from Youngster Zachary - Not Pinwheel Forest",
+      "location": "Reward from Youngster Zachary",
       "rewards": [
-        "Youngster Zachary - Not Pinwheel Forest"
+        "Youngster Zachary"
       ]
     },
     "floatstone": {
@@ -111166,9 +111190,9 @@ overrides = {
     "airballoon": {
       "name": "Air Balloon",
       "desc": "When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.",
-      "location": "Reward from Backpacker Lora - Route 16",
+      "location": "Reward from Backpacker Lora",
       "rewards": [
-        "Backpacker Lora - Route 16"
+        "Backpacker Lora"
       ]
     },
     "redcard": {
@@ -111189,9 +111213,9 @@ overrides = {
     "absorbbulb": {
       "name": "Absorb Bulb",
       "desc": "A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.",
-      "location": "Reward from PkMn Ranger Miguel - Pinwheel Forest",
+      "location": "Reward from PkMn Ranger Miguel",
       "rewards": [
-        "PkMn Ranger Miguel - Pinwheel Forest"
+        "PkMn Ranger Miguel"
       ]
     },
     "cellbattery": {
