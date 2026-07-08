@@ -15665,7 +15665,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 30,
+        "hp": 40,
         "at": 65,
         "df": 150,
         "sa": 45,
@@ -15831,7 +15831,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 50,
+        "hp": 70,
         "at": 105,
         "df": 180,
         "sa": 85,
@@ -20363,8 +20363,8 @@ overrides = {
       },
       "abs": [
         "Scrappy",
-        "Tough Claws",
-        "Rivalry"
+        "Rivalry",
+        "Tough Claws"
       ]
     },
     "Horsea": {
@@ -21804,7 +21804,7 @@ overrides = {
       "abs": [
         "Technician",
         "Swarm",
-        "Weak Armor"
+        "Sturdy"
       ],
       "evos": [
         "Scizor"
@@ -25482,7 +25482,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 41,
+        "hp": 61,
         "at": 64,
         "df": 45,
         "sa": 80,
@@ -37035,10 +37035,10 @@ overrides = {
       "bs": {
         "hp": 70,
         "at": 130,
-        "df": 100,
+        "df": 110,
         "sa": 55,
         "sd": 80,
-        "sp": 75
+        "sp": 65
       },
       "learnset_info": {
         "learnset": [
@@ -37178,8 +37178,8 @@ overrides = {
       },
       "abs": [
         "Technician",
-        "Swarm",
-        "Light Metal"
+        "Unburden",
+        "Sturdy"
       ],
       "evoType": "useItem",
       "evoItem": "Shiny Stone"
@@ -43038,7 +43038,7 @@ overrides = {
       "num": 247,
       "types": [
         "Rock",
-        "Ground"
+        "Dark"
       ],
       "items": [
         "None",
@@ -50407,9 +50407,9 @@ overrides = {
         "hp": 31,
         "at": 90,
         "df": 70,
-        "sa": 139,
+        "sa": 129,
         "sd": 70,
-        "sp": 105
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -50544,7 +50544,7 @@ overrides = {
       },
       "abs": [
         "Sturdy",
-        "Sturdy",
+        "Unburden",
         "Magic Guard"
       ],
       "evoType": "useItem",
@@ -56848,11 +56848,11 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 55,
+        "hp": 45,
         "at": 100,
-        "df": 55,
+        "df": 45,
         "sa": 45,
-        "sd": 55,
+        "sd": 45,
         "sp": 10
       },
       "learnset_info": {
@@ -61722,11 +61722,11 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 20,
-        "at": 40,
-        "df": 90,
-        "sa": 30,
-        "sd": 90,
+        "hp": 40,
+        "at": 65,
+        "df": 100,
+        "sa": 60,
+        "sd": 100,
         "sp": 25
       },
       "learnset_info": {
@@ -68890,7 +68890,7 @@ overrides = {
         "df": 50,
         "sa": 35,
         "sd": 50,
-        "sp": 31
+        "sp": 51
       },
       "learnset_info": {
         "learnset": [
@@ -71510,11 +71510,11 @@ overrides = {
       ],
       "bs": {
         "hp": 60,
-        "at": 70,
-        "df": 60,
-        "sa": 70,
-        "sd": 60,
-        "sp": 100
+        "at": 30,
+        "df": 42,
+        "sa": 30,
+        "sd": 42,
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -78131,7 +78131,7 @@ overrides = {
       "abs": [
         "Dry Skin",
         "Exploit",
-        "Dry Skin"
+        "Gooey"
       ],
       "evos": [
         "Toxicroak"
@@ -78332,7 +78332,7 @@ overrides = {
       "abs": [
         "Dry Skin",
         "Exploit",
-        "Dry Skin"
+        "Gooey"
       ],
       "evoType": "level",
       "evoLevel": 37
@@ -93157,9 +93157,9 @@ overrides = {
       ],
       "bs": {
         "hp": 65,
-        "at": 63,
-        "df": 90,
-        "sa": 50,
+        "at": 73,
+        "df": 100,
+        "sa": 60,
         "sd": 80,
         "sp": 42
       },
@@ -93293,7 +93293,7 @@ overrides = {
       "abs": [
         "Overcoat",
         "Regenerator",
-        "Swarm"
+        "Filter"
       ],
       "evoType": "level",
       "evoLevel": 20,
@@ -101556,11 +101556,11 @@ overrides = {
       ],
       "bs": {
         "hp": 50,
-        "at": 75,
-        "df": 45,
+        "at": 125,
+        "df": 70,
         "sa": 40,
-        "sd": 45,
-        "sp": 60
+        "sd": 70,
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -101681,17 +101681,17 @@ overrides = {
       },
       "abs": [
         "Swarm",
-        "Battle Armor",
-        "No Guard"
+        "No Guard",
+        "Volt Absorb"
       ],
       "evos": [
         "Escavalier"
       ],
       "evoMethods": [
-        "level"
+        "trade"
       ],
       "evoParams": [
-        40
+        ""
       ]
     },
     "Escavalier": {
@@ -101707,12 +101707,12 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 80,
+        "hp": 70,
         "at": 135,
         "df": 105,
         "sa": 60,
         "sd": 105,
-        "sp": 20
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -101858,10 +101858,9 @@ overrides = {
       "abs": [
         "Swarm",
         "Shell Armor",
-        "Justified"
+        "Light Metal"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evoType": "trade"
     },
     "Foongus": {
       "name": "Foongus",
@@ -106262,10 +106261,10 @@ overrides = {
       ],
       "bs": {
         "hp": 50,
-        "at": 40,
-        "df": 95,
-        "sa": 40,
-        "sd": 75,
+        "at": 65,
+        "df": 115,
+        "sa": 70,
+        "sd": 110,
         "sp": 25
       },
       "learnset_info": {
@@ -106395,18 +106394,18 @@ overrides = {
         ]
       },
       "abs": [
+        "Gooey",
         "Shell Armor",
-        "Swarm",
-        "Dry Skin"
+        "Volt Absorb"
       ],
       "evos": [
         "Accelgor"
       ],
       "evoMethods": [
-        "level"
+        "trade"
       ],
       "evoParams": [
-        40
+        ""
       ]
     },
     "Accelgor": {
@@ -106423,9 +106422,9 @@ overrides = {
       ],
       "bs": {
         "hp": 80,
-        "at": 70,
+        "at": 110,
         "df": 40,
-        "sa": 110,
+        "sa": 120,
         "sd": 60,
         "sp": 145
       },
@@ -106576,12 +106575,11 @@ overrides = {
         ]
       },
       "abs": [
-        "Infiltrator",
         "Swarm",
+        "Infiltrator",
         "Dry Skin"
       ],
-      "evoType": "level",
-      "evoLevel": 40
+      "evoType": "trade"
     },
     "Stunfisk": {
       "name": "Stunfisk",
@@ -107811,7 +107809,7 @@ overrides = {
       "abs": [
         "Defiant",
         "Hyper Cutter",
-        "Heavy Metal"
+        "Sturdy"
       ],
       "evos": [
         "Bisharp"
@@ -107985,7 +107983,7 @@ overrides = {
       "abs": [
         "Defiant",
         "Hyper Cutter",
-        "Heavy Metal"
+        "Sturdy"
       ],
       "evoType": "level",
       "evoLevel": 50
@@ -118399,7 +118397,7 @@ overrides = {
     },
     "Poison Sting": {
       "t": "Poison",
-      "bp": 40,
+      "bp": 50,
       "cat": "Physical",
       "pp": 35,
       "acc": 100,
@@ -118541,7 +118539,7 @@ overrides = {
       "bp": 120,
       "cat": "Special",
       "pp": 5,
-      "acc": 75,
+      "acc": 80,
       "prio": 0,
       "name": "Scorching Swarm",
       "num": 48,
@@ -118752,10 +118750,10 @@ overrides = {
     },
     "Drill Peck": {
       "t": "Flying",
-      "bp": 105,
+      "bp": 100,
       "cat": "Physical",
       "pp": 10,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Drill Peck",
       "num": 64,
@@ -120055,7 +120053,7 @@ overrides = {
     },
     "Tri Attack": {
       "t": "Normal",
-      "bp": 33,
+      "bp": 35,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
@@ -120808,7 +120806,7 @@ overrides = {
     },
     "Return": {
       "t": "Normal",
-      "bp": 102,
+      "bp": 105,
       "cat": "Physical",
       "pp": 20,
       "acc": 100,
@@ -121011,10 +121009,10 @@ overrides = {
     },
     "Iron Tail": {
       "t": "Steel",
-      "bp": 105,
+      "bp": 100,
       "cat": "Physical",
       "pp": 15,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Iron Tail",
       "num": 230,
@@ -121100,10 +121098,10 @@ overrides = {
     },
     "Cross Chop": {
       "t": "Fighting",
-      "bp": 105,
+      "bp": 100,
       "cat": "Physical",
       "pp": 10,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Cross Chop",
       "num": 237,
@@ -121194,7 +121192,7 @@ overrides = {
     },
     "Extreme Speed": {
       "t": "Normal",
-      "bp": 80,
+      "bp": 90,
       "cat": "Physical",
       "pp": 5,
       "acc": 100,
@@ -121299,7 +121297,7 @@ overrides = {
     },
     "Uproar": {
       "t": "Normal",
-      "bp": 75,
+      "bp": 80,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
@@ -121997,7 +121995,7 @@ overrides = {
     },
     "Hyper Voice": {
       "t": "Normal",
-      "bp": 90,
+      "bp": 95,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
@@ -122029,7 +122027,7 @@ overrides = {
     },
     "Crush Claw": {
       "t": "Normal",
-      "bp": 80,
+      "bp": 90,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
@@ -122441,7 +122439,7 @@ overrides = {
       "sf": true
     },
     "Block": {
-      "t": "Normal",
+      "t": "Rock",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
@@ -122540,7 +122538,7 @@ overrides = {
     },
     "Poison Tail": {
       "t": "Poison",
-      "bp": 55,
+      "bp": 100,
       "cat": "Physical",
       "pp": 25,
       "acc": 100,
@@ -122548,6 +122546,7 @@ overrides = {
       "name": "Poison Tail",
       "num": 341,
       "e_id": 209,
+      "tar": "allAdjacentFoes",
       "desc": "The user hits the target with its tail. It may also poison the target. Critical hits land more easily.",
       "sf": true
     },
@@ -123254,7 +123253,7 @@ overrides = {
       "cat": "Status",
       "pp": 1,
       "acc": 101,
-      "prio": 0,
+      "prio": 1,
       "name": "Magnet Rise",
       "num": 392,
       "e_id": 252,
@@ -123356,10 +123355,10 @@ overrides = {
     },
     "Aqua Tail": {
       "t": "Water",
-      "bp": 105,
+      "bp": 100,
       "cat": "Physical",
       "pp": 10,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Aqua Tail",
       "num": 400,
@@ -123437,10 +123436,10 @@ overrides = {
     },
     "Dragon Rush": {
       "t": "Dragon",
-      "bp": 105,
+      "bp": 100,
       "cat": "Physical",
       "pp": 10,
-      "acc": 85,
+      "acc": 90,
       "prio": 0,
       "name": "Dragon Rush",
       "num": 406,
@@ -123898,7 +123897,7 @@ overrides = {
       "bp": 120,
       "cat": "Physical",
       "pp": 5,
-      "acc": 95,
+      "acc": 100,
       "prio": 0,
       "name": "Gunk Shot",
       "num": 440,
@@ -123983,7 +123982,7 @@ overrides = {
     },
     "Chatter": {
       "t": "Flying",
-      "bp": 70,
+      "bp": 75,
       "cat": "Special",
       "pp": 20,
       "acc": 100,
@@ -124687,7 +124686,7 @@ overrides = {
     },
     "Chip Away": {
       "t": "Normal",
-      "bp": 75,
+      "bp": 80,
       "cat": "Physical",
       "pp": 20,
       "acc": 100,
@@ -124951,6 +124950,7 @@ overrides = {
       "name": "Water Pledge",
       "num": 517,
       "e_id": 324,
+      "tar": "allAdjacentFoes",
       "desc": "A column of water strikes the target. When combined with its fire equivalent, the damage increases and a rainbow appears."
     },
     "Fire Pledge": {
@@ -124963,6 +124963,7 @@ overrides = {
       "name": "Fire Pledge",
       "num": 518,
       "e_id": 325,
+      "tar": "allAdjacentFoes",
       "desc": "A column of fire hits opposing Pokémon. When used with its Grass equivalent, its damage increases into a vast sea of fire."
     },
     "Grass Pledge": {
@@ -124975,6 +124976,7 @@ overrides = {
       "name": "Grass Pledge",
       "num": 519,
       "e_id": 326,
+      "tar": "allAdjacentFoes",
       "desc": "A column of grass hits opposing Pokémon. When used with its water equivalent, its damage increases into a vast swamp."
     },
     "Volt Switch": {
@@ -146262,8 +146264,8 @@ overrides = {
         "encs": []
       }
     },
-    "celestialrooftop": {
-      "name": "Celestial Rooftop ",
+    "Unknown Location31": {
+      "name": "Unknown Location31",
       "grass": {
         "encs": [
           {
@@ -146432,8 +146434,8 @@ overrides = {
         "encs": []
       }
     },
-    "Unknown Location31": {
-      "name": "Unknown Location31",
+    "Unknown Location32": {
+      "name": "Unknown Location32",
       "grass": {
         "encs": [
           {
@@ -146517,8 +146519,8 @@ overrides = {
         "encs": []
       }
     },
-    "Unknown Location32": {
-      "name": "Unknown Location32",
+    "Unknown Location33": {
+      "name": "Unknown Location33",
       "grass": {
         "encs": [
           {
@@ -151357,8 +151359,8 @@ overrides = {
         ]
       }
     },
-    "Unknown Location33": {
-      "name": "Unknown Location33",
+    "Unknown Location34": {
+      "name": "Unknown Location34",
       "grass": {
         "encs": []
       },
@@ -151798,317 +151800,6 @@ overrides = {
             "s": "Clamperl",
             "mn": 10,
             "mx": 12
-          }
-        ]
-      }
-    },
-    "Unknown Location34": {
-      "name": "Unknown Location34",
-      "grass": {
-        "encs": [
-          {
-            "s": "Pidove",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Patrat",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Purrloin",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Patrat",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Pidove",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Purrloin",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sunkern",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Purrloin",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Sunkern",
-            "mn": 4,
-            "mx": 4
-          }
-        ]
-      },
-      "grass_doubles": {
-        "encs": [
-          {
-            "s": "Pidove",
-            "mn": 9,
-            "mx": 9
-          },
-          {
-            "s": "Venipede",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Patrat",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Purrloin",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Patrat",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Pidove",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Sewaddle",
-            "mn": 10,
-            "mx": 10
-          },
-          {
-            "s": "Purrloin",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Sunkern",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Purrloin",
-            "mn": 11,
-            "mx": 11
-          },
-          {
-            "s": "Sunkern",
-            "mn": 11,
-            "mx": 11
-          }
-        ]
-      },
-      "grass_special": {
-        "encs": [
-          {
-            "s": "Audino",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Audino",
-            "mn": 2,
-            "mx": 2
-          },
-          {
-            "s": "Audino",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Dunsparce",
-            "mn": 3,
-            "mx": 3
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          },
-          {
-            "s": "Audino",
-            "mn": 4,
-            "mx": 4
-          }
-        ]
-      },
-      "surf": {
-        "encs": [
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azurill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "surf_special": {
-        "encs": [
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Marill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Basculin",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azumarill",
-            "mn": 5,
-            "mx": 15
-          },
-          {
-            "s": "Azumarill",
-            "mn": 5,
-            "mx": 15
-          }
-        ]
-      },
-      "super_rod": {
-        "encs": [
-          {
-            "s": "Poliwag",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Basculin",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Poliwag",
-            "mn": 50,
-            "mx": 70
-          }
-        ]
-      },
-      "super_rod_special": {
-        "encs": [
-          {
-            "s": "Poliwhirl",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Basculin",
-            "mn": 40,
-            "mx": 60
-          },
-          {
-            "s": "Poliwhirl",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Politoed",
-            "mn": 50,
-            "mx": 70
-          },
-          {
-            "s": "Politoed",
-            "mn": 50,
-            "mx": 70
           }
         ]
       }
@@ -153979,6 +153670,317 @@ overrides = {
         ]
       }
     },
+    "Unknown Location41": {
+      "name": "Unknown Location41",
+      "grass": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Purrloin",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Patrat",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Pidove",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Purrloin",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Sunkern",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "grass_doubles": {
+        "encs": [
+          {
+            "s": "Pidove",
+            "mn": 9,
+            "mx": 9
+          },
+          {
+            "s": "Venipede",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Patrat",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Pidove",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Sewaddle",
+            "mn": 10,
+            "mx": 10
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Purrloin",
+            "mn": 11,
+            "mx": 11
+          },
+          {
+            "s": "Sunkern",
+            "mn": 11,
+            "mx": 11
+          }
+        ]
+      },
+      "grass_special": {
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 2,
+            "mx": 2
+          },
+          {
+            "s": "Audino",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Dunsparce",
+            "mn": 3,
+            "mx": 3
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          },
+          {
+            "s": "Audino",
+            "mn": 4,
+            "mx": 4
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azurill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "surf_special": {
+        "encs": [
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Marill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Basculin",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          },
+          {
+            "s": "Azumarill",
+            "mn": 5,
+            "mx": 15
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Poliwag",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Poliwag",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      },
+      "super_rod_special": {
+        "encs": [
+          {
+            "s": "Poliwhirl",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Basculin",
+            "mn": 40,
+            "mx": 60
+          },
+          {
+            "s": "Poliwhirl",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          },
+          {
+            "s": "Politoed",
+            "mn": 50,
+            "mx": 70
+          }
+        ]
+      }
+    },
     "rates": {
       "grass": [
         20,
@@ -154105,23 +154107,45 @@ overrides = {
         "Psychic Madhu",
         "Depot Agent Josh",
         "Dancer Davey",
-        "Musician Boris",
-        "Harlequin Charley",
         "Artist Pierre",
         "Policeman Jeff",
         "Maid Alica",
         "Parasol Lady Gwyneth"
+      ],
+      "marts": [
+        "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges",
+        "SM9 Middle Left Cashier"
       ]
     },
     "greatball": {
       "name": "Great Ball",
       "desc": "A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock No Badges",
+        "Stock 1+Badges",
+        "Stock 3+Badges",
+        "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges",
+        "SM9 Middle Left Cashier"
+      ]
     },
     "pokéball": {
       "name": "Poké Ball",
       "desc": "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock No Badges",
+        "Stock 1+Badges",
+        "Stock 3+Badges",
+        "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges",
+        "SM9 Middle Left Cashier"
+      ]
     },
     "safariball": {
       "name": "Safari Ball",
@@ -154131,7 +154155,13 @@ overrides = {
     "netball": {
       "name": "Net Ball",
       "desc": "A somewhat different Poké Ball that works especially well on Water- and Bug-type Pokémon.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Victory Road Upper",
+        "Victory Road Upper 2",
+        "SM9 Middle Left Cashier",
+        "Seigaiha City Upper Cashier"
+      ]
     },
     "diveball": {
       "name": "Dive Ball",
@@ -154139,27 +154169,56 @@ overrides = {
       "location": "",
       "rewards": [
         "Fisherman Devon"
+      ],
+      "marts": [
+        "Seigaiha City Upper Cashier"
       ]
     },
     "nestball": {
       "name": "Nest Ball",
       "desc": "A somewhat different Poké Ball that works especially well on weaker Pokémon in the wild.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Victory Road Upper",
+        "Victory Road Upper 2",
+        "SM9 Middle Left Cashier",
+        "Virbank City Lower Cashier",
+        "Yamaji Town Upper Cashier"
+      ]
     },
     "repeatball": {
       "name": "Repeat Ball",
       "desc": "A somewhat different Poké Ball that works especially well on Pokémon species that were previously caught.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Victory Road Upper",
+        "Victory Road Upper 2",
+        "Virbank City Lower Cashier"
+      ]
     },
     "timerball": {
       "name": "Timer Ball",
       "desc": "A somewhat different Ball that becomes progressively better the more turns there are in a battle.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Victory Road Upper",
+        "Victory Road Upper 2",
+        "SM9 Middle Left Cashier"
+      ]
     },
     "luxuryball": {
       "name": "Luxury Ball",
       "desc": "A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Victory Road Upper",
+        "Victory Road Upper 2",
+        "Seigaiha City Upper Cashier"
+      ]
     },
     "premierball": {
       "name": "Premier Ball",
@@ -154172,12 +154231,27 @@ overrides = {
       "location": "",
       "rewards": [
         "Roughneck Fletcher"
+      ],
+      "marts": [
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Victory Road Upper",
+        "Victory Road Upper 2",
+        "SM9 Middle Left Cashier",
+        "Yamaji Town Upper Cashier"
       ]
     },
     "healball": {
       "name": "Heal Ball",
       "desc": "A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Victory Road Upper",
+        "Victory Road Upper 2",
+        "SM9 Middle Left Cashier",
+        "Virbank City Lower Cashier",
+        "Yamaji Town Upper Cashier"
+      ]
     },
     "quickball": {
       "name": "Quick Ball",
@@ -154185,6 +154259,14 @@ overrides = {
       "location": "",
       "rewards": [
         "Pilot Leonard"
+      ],
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Victory Road Upper",
+        "Victory Road Upper 2",
+        "SM9 Middle Left Cashier"
       ]
     },
     "cherishball": {
@@ -154197,15 +154279,13 @@ overrides = {
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points.",
       "location": "",
       "rewards": [
-        "Smasher Elena",
-        "Linebacker Dan",
         "Hoopster Bobby",
-        "Cosplayer Cassie - Join Avenue",
+        "Cosplayer Cassie",
         "Linebacker Jonah",
         "Rival Benga",
         "Striker Marco",
         "Hoopster John",
-        "Cosplayer Amy - Join Avenue"
+        "Cosplayer Amy"
       ]
     },
     "antidote": {
@@ -154216,7 +154296,11 @@ overrides = {
     "burnheal": {
       "name": "Burn Heal",
       "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Scientist Dudley",
+        "Youngster Nicholas"
+      ]
     },
     "iceheal": {
       "name": "Ice Heal",
@@ -154231,24 +154315,35 @@ overrides = {
     "parlyzheal": {
       "name": "Parlyz Heal",
       "desc": "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Backpacker Walt"
+      ]
     },
     "fullrestore": {
       "name": "Full Restore",
       "desc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
       "location": "",
       "rewards": [
-        "Striker Roberto - Driftveil Drawbridge",
-        "Smasher Elena - Driftveil Drawbridge",
-        "Infielder Alex - Driftveil Drawbridge",
-        "Infielder Connor - Driftveil Drawbridge",
-        "Striker Marco - Driftveil Drawbridge",
-        "Linebacker Jonah - Driftveil Drawbridge",
-        "Linebacker Dan - Driftveil Drawbridge",
-        "Hoopster Lamarcus - Driftveil Drawbridge",
-        "Hoopster Bobby - Driftveil Drawbridge",
-        "Nurse Kirsten - Castelia Sewers",
-        "Smasher Aspen - Driftveil Drawbridge"
+        "Striker Roberto",
+        "Smasher Elena",
+        "Infielder Alex",
+        "Infielder Connor",
+        "Striker Marco",
+        "Linebacker Jonah",
+        "Linebacker Dan",
+        "Hoopster Lamarcus",
+        "Hoopster Bobby",
+        "Nurse Kirsten",
+        "Smasher Aspen"
+      ],
+      "marts": [
+        "Stock No Badges",
+        "Stock 1+Badges",
+        "Stock 3+Badges",
+        "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges"
       ]
     },
     "maxpotion": {
@@ -154256,10 +154351,20 @@ overrides = {
       "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
       "location": "",
       "rewards": [
-        "Cosplayer Anders - Join Avenue",
-        "Girl in Suit Donna - Join Avenue",
+        "Cosplayer Anders",
+        "Girl in Suit Donna",
         "Pokefan Colin",
-        "Pokefan Darcy"
+        "Pokefan Darcy",
+        "PkMn Ranger Jaden"
+      ],
+      "marts": [
+        "Stock No Badges",
+        "Stock 1+Badges",
+        "Stock 3+Badges",
+        "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges",
+        "SM9 Top Right Cashier"
       ]
     },
     "hyperpotion": {
@@ -154268,12 +154373,12 @@ overrides = {
       "location": "",
       "rewards": [
         "Smasher ",
-        "Hoopster John - Chargestone Cave",
-        "Guy in Suit Larry - Join Avenue",
+        "Hoopster John",
+        "Guy in Suit Larry",
         "Hoopster Bobby",
         "Linebacker Jonah",
         "Striker Marco",
-        "Cosplayer Miriam - Join Avenue"
+        "Cosplayer Miriam"
       ]
     },
     "superpotion": {
@@ -154281,7 +154386,7 @@ overrides = {
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points.",
       "location": "",
       "rewards": [
-        "Cosplayer Jared - Join Avenue",
+        "Cosplayer Jared",
         "Linebacker Dan",
         "Linebacker Jonah",
         "Team Plasma Shadow",
@@ -154293,7 +154398,15 @@ overrides = {
     "fullheal": {
       "name": "Full Heal",
       "desc": "A spray-type medicine. It heals all the status problems of a single Pokémon.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock No Badges",
+        "Stock 1+Badges",
+        "Stock 3+Badges",
+        "Stock 5+Badges",
+        "Stock 7+Badges",
+        "Stock 8+Badges"
+      ]
     },
     "revive": {
       "name": "Revive",
@@ -154318,21 +154431,27 @@ overrides = {
       "desc": "A fizzy soda drink. It restores the HP of one Pokémon by 1 point.",
       "oldDesc": null,
       "new": true,
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock 8+Badges"
+      ]
     },
     "+5soda": {
       "name": "+5 Soda",
       "desc": "A very sweet drink. It restores the HP of one Pokémon by 5 points.",
       "oldDesc": null,
       "new": true,
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock 8+Badges"
+      ]
     },
     "moomoomilk": {
       "name": "Moomoo Milk",
       "desc": "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.",
       "location": "",
       "rewards": [
-        "Waiter Clint - Nimbasa City",
+        "Waiter Clint",
         "Waitress Bonita",
         "Baker Lilly"
       ]
@@ -154340,15 +154459,20 @@ overrides = {
     "energypowder": {
       "name": "EnergyPowder",
       "desc": "A very bitter medicine powder. It restores the HP of one Pokémon by 50 points.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Herb Shop"
+      ]
     },
     "energyroot": {
       "name": "Energy Root",
       "desc": "A very bitter root. It restores the HP of one Pokémon by 200 points.",
       "location": "",
       "rewards": [
-        "Black Belt Lao",
-        "Battle Girl Janie"
+        "Black Belt Lao"
+      ],
+      "marts": [
+        "Driftveil City Herb Shop"
       ]
     },
     "healpowder": {
@@ -154364,10 +154488,7 @@ overrides = {
     "ether": {
       "name": "Ether",
       "desc": "It restores the PP of a Pokémon's selected move by a maximum of 10 points.",
-      "location": "",
-      "rewards": [
-        "Scientist Simon"
-      ]
+      "location": ""
     },
     "maxether": {
       "name": "Max Ether",
@@ -154392,7 +154513,12 @@ overrides = {
     "berryjuice": {
       "name": "Berry Juice",
       "desc": "A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock 3+Badges",
+        "Stock 5+Badges",
+        "Stock 7+Badges"
+      ]
     },
     "sacredash": {
       "name": "Sacred Ash",
@@ -154409,8 +154535,8 @@ overrides = {
       "desc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
       "location": "",
       "rewards": [
-        "Linebacker Dan - Nimbasa City",
-        "Linebacker Bob - Nimbasa City"
+        "Linebacker Dan",
+        "Linebacker Bob"
       ]
     },
     "unusualcandies": {
@@ -154432,7 +154558,7 @@ overrides = {
       "desc": "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.",
       "location": "",
       "rewards": [
-        "Hoopster John - Nimbasa City"
+        "Hoopster John"
       ]
     },
     "rarecandies": {
@@ -154442,9 +154568,7 @@ overrides = {
       "new": true,
       "location": "",
       "rewards": [
-        "PkMn Breeder Owen",
-        "PkMn Breeder Brooke",
-        "Nursery Aide Leah"
+        "PkMn Breeder Brooke"
       ]
     },
     "ppup": {
@@ -154520,10 +154644,7 @@ overrides = {
     "pokédoll": {
       "name": "Poké Doll",
       "desc": "A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
-      "location": "",
-      "rewards": [
-        "Preschooler Mia"
-      ]
+      "location": ""
     },
     "fluffytail": {
       "name": "Fluffy Tail",
@@ -154578,16 +154699,16 @@ overrides = {
       "desc": "A small blue shard. It appears to be from some sort of implement made long ago.",
       "location": "",
       "rewards": [
-        "Worker Matthew"
+        "Worker Matthew",
+        "Worker Tyler",
+        "Worker Herman",
+        "Harlequin Sanders"
       ]
     },
     "yellowshard": {
       "name": "Yellow Shard",
       "desc": "A small yellow shard. It appears to be from some sort of implement made long ago.",
-      "location": "",
-      "rewards": [
-        "Worker Tyler"
-      ]
+      "location": ""
     },
     "greenshard": {
       "name": "Green Shard",
@@ -154606,8 +154727,7 @@ overrides = {
       "rewards": [
         "PkMn Ranger Alain",
         "PkMn Ranger Heidi",
-        "Backpacker Patty",
-        "Backpacker Alexander"
+        "Backpacker Patty"
       ]
     },
     "escaperope": {
@@ -154625,32 +154745,50 @@ overrides = {
     "sunstone": {
       "name": "Sun Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Upper Cashier"
+      ]
     },
     "moonstone": {
       "name": "Moon Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Upper Cashier"
+      ]
     },
     "firestone": {
       "name": "Fire Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Upper Cashier"
+      ]
     },
     "thunderstone": {
       "name": "Thunderstone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Upper Cashier"
+      ]
     },
     "waterstone": {
       "name": "Water Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Upper Cashier"
+      ]
     },
     "leafstone": {
       "name": "Leaf Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Upper Cashier"
+      ]
     },
     "tinymushroom": {
       "name": "TinyMushroom",
@@ -154708,7 +154846,11 @@ overrides = {
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Scientist Lucy",
+        "Pokefan Jude"
+      ]
     },
     "honey": {
       "name": "Honey",
@@ -154778,17 +154920,26 @@ overrides = {
     "shinystone": {
       "name": "Shiny Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Undella Town"
+      ]
     },
     "duskstone": {
       "name": "Dusk Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Undella Town"
+      ]
     },
     "dawnstone": {
       "name": "Dawn Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Undella Town"
+      ]
     },
     "ovalstone": {
       "name": "Oval Stone",
@@ -154832,17 +154983,58 @@ overrides = {
       "desc": "A cassette to be held by Genesect. It changes Techno Blast to an Ice-type move.",
       "location": ""
     },
+    "attack": {
+      "name": "Attack",
+      "desc": "",
+      "oldDesc": null,
+      "new": true,
+      "location": ""
+    },
+    "defense": {
+      "name": "Defense",
+      "desc": "",
+      "oldDesc": null,
+      "new": true,
+      "location": ""
+    },
+    "specialattack": {
+      "name": "Special Attack",
+      "desc": "",
+      "oldDesc": null,
+      "new": true,
+      "location": ""
+    },
+    "specialdefense": {
+      "name": "Special Defense",
+      "desc": "",
+      "oldDesc": null,
+      "new": true,
+      "location": ""
+    },
+    "speed": {
+      "name": "Speed",
+      "desc": "",
+      "oldDesc": null,
+      "new": true,
+      "location": ""
+    },
     "sweetheart": {
       "name": "Sweet Heart",
       "desc": "Very sweet chocolate. It restores the HP of one Pokémon by only 20 points.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock 8+Badges"
+      ]
     },
     "fairydust": {
       "name": "Fairy Dust",
       "desc": "An item to be held by a Pokémon. It is a sparkling, enchanted dust that ups the power of Fairy-type moves.",
       "oldDesc": null,
       "new": true,
-      "location": ""
+      "location": "",
+      "rewards": [
+        "PkMn Ranger Forrest"
+      ]
     },
     "tricksterherb": {
       "name": "Trickster Herb",
@@ -154854,42 +155046,128 @@ overrides = {
     "greetmail": {
       "name": "Greet Mail",
       "desc": "Stationery designed for introductory greetings. Let a Pokémon hold it for delivery.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Nacrene City Upper Cashier",
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Black City",
+        "SM9 Middle Left Cashier",
+        "Aspertia City",
+        "Seigaiha City Upper Cashier",
+        "Yamaji Town Upper Cashier"
+      ]
     },
     "favoredmail": {
       "name": "Favored Mail",
       "desc": "Stationery designed for writing about your favorite things. Let a Pokémon hold it for delivery.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Nacrene City Upper Cashier",
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Undella Town",
+        "Black City",
+        "SM9 Middle Left Cashier",
+        "Aspertia City",
+        "Seigaiha City Upper Cashier",
+        "Yamaji Town Upper Cashier"
+      ]
     },
     "rsvpmail": {
       "name": "RSVP Mail",
       "desc": "Stationery designed for invitations. Let a Pokémon hold it for delivery.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Nacrene City Upper Cashier",
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Undella Town",
+        "Black City",
+        "SM9 Middle Left Cashier",
+        "Aspertia City",
+        "Seigaiha City Upper Cashier",
+        "Yamaji Town Upper Cashier"
+      ]
     },
     "thanksmail": {
       "name": "Thanks Mail",
       "desc": "Stationery designed for a thank-you note. Let a Pokémon hold it for delivery.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Nacrene City Upper Cashier",
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Undella Town",
+        "Black City",
+        "SM9 Middle Left Cashier",
+        "Aspertia City",
+        "Seigaiha City Upper Cashier",
+        "Yamaji Town Upper Cashier"
+      ]
     },
     "inquirymail": {
       "name": "Inquiry Mail",
       "desc": "Stationery designed for writing questions. Let a Pokémon hold it for delivery.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Nacrene City Upper Cashier",
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Undella Town",
+        "Black City",
+        "SM9 Middle Left Cashier",
+        "Aspertia City",
+        "Seigaiha City Upper Cashier",
+        "Yamaji Town Upper Cashier"
+      ]
     },
     "likemail": {
       "name": "Like Mail",
       "desc": "Stationery designed for writing recommendations. Let a Pokémon hold it for delivery.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Nacrene City Upper Cashier",
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Undella Town",
+        "Black City",
+        "SM9 Middle Left Cashier",
+        "Aspertia City",
+        "Seigaiha City Upper Cashier",
+        "Yamaji Town Upper Cashier"
+      ]
     },
     "replymail": {
       "name": "Reply Mail",
       "desc": "Stationery designed for writing a reply. Let a Pokémon hold it for delivery.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Accumula Town Upper Cashier",
+        "Nacrene City Upper Cashier",
+        "Icirrus City Upper Cashier",
+        "Opelucid City Upper Cashier",
+        "Undella Town",
+        "Black City",
+        "SM9 Middle Left Cashier",
+        "Aspertia City",
+        "Seigaiha City Upper Cashier",
+        "Yamaji Town Upper Cashier"
+      ]
     },
     "bridgemails": {
       "name": "BridgeMail S",
       "desc": "Stationery featuring a print of a sky-piercing bridge. Let a Pokémon hold it for use.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Nacrene City Upper Cashier"
+      ]
     },
     "bridgemaild": {
       "name": "BridgeMail D",
@@ -154899,26 +155177,37 @@ overrides = {
     "bridgemailt": {
       "name": "BridgeMail T",
       "desc": "Stationery featuring a print of a steel suspension bridge. Let a Pokémon hold it for use.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Icirrus City Upper Cashier"
+      ]
     },
     "bridgemailv": {
       "name": "BridgeMail V",
       "desc": "Stationery featuring a print of a brick bridge. Let a Pokémon hold it for use.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Opelucid City Upper Cashier"
+      ]
     },
     "bridgemailm": {
       "name": "BridgeMail M",
       "desc": "Stationery featuring a print of an arched bridge. Let a Pokémon hold it for use.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Black City"
+      ]
     },
     "cheriberry": {
       "name": "Cheri Berry",
       "desc": "If held by a Pokémon, it recovers from paralysis.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Lois - Route 5",
-        "PkMn Ranger Forrest - Lostlorn Forest",
-        "PkMn Ranger Eddie - Victory Road"
+        "Battle Girl Janie",
+        "PkMn Ranger Eddie"
+      ],
+      "marts": [
+        "Stock 5+Badges"
       ]
     },
     "chestoberry": {
@@ -154926,8 +155215,12 @@ overrides = {
       "desc": "If held by a Pokémon, it recovers from sleep.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Briana - Chargestone Cave",
-        "PkMn Ranger Louis - Chargestone Cave"
+        "Musician Boris",
+        "PkMn Ranger Briana",
+        "PkMn Ranger Louis"
+      ],
+      "marts": [
+        "Stock 5+Badges"
       ]
     },
     "pechaberry": {
@@ -154935,8 +155228,12 @@ overrides = {
       "desc": "If held by a Pokémon, it recovers from poison.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Richard - Route 6",
-        "PkMn Ranger Serenity - Lostlorn Forest"
+        "PkMn Ranger Richard",
+        "PkMn Ranger Serenity",
+        "Black Belt Jeriel"
+      ],
+      "marts": [
+        "Stock 5+Badges"
       ]
     },
     "rawstberry": {
@@ -154946,14 +155243,16 @@ overrides = {
       "rewards": [
         "PkMn Ranger Lewis",
         "PkMn Ranger Eliza",
-        "PkMn Ranger Elle - Victory Road",
-        "PkMn Ranger Jaden - Desert Resort",
-        "PkMn Ranger Anja - Desert Resort"
+        "PkMn Ranger Elle",
+        "PkMn Ranger Anja"
       ],
       "wilds": [
         "Darumaka",
         "Darmanitan",
         "Darmanitan-Zen"
+      ],
+      "marts": [
+        "Stock 5+Badges"
       ]
     },
     "aspearberry": {
@@ -154961,8 +155260,12 @@ overrides = {
       "desc": "If held by a Pokémon, it defrosts it.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Thalia - Route 11",
-        "PkMn Ranger Crofton - Route 11"
+        "PkMn Ranger Thalia",
+        "PkMn Ranger Crofton",
+        "Cyclist Lionel"
+      ],
+      "marts": [
+        "Stock 5+Badges"
       ]
     },
     "leppaberry": {
@@ -154971,23 +155274,32 @@ overrides = {
       "location": "",
       "rewards": [
         "PkMn Ranger Bret",
-        "PkMn Ranger Malory - Route 20"
+        "PkMn Ranger Malory"
+      ],
+      "marts": [
+        "Castelia City Upper Cashier"
       ]
     },
     "oranberry": {
       "name": "Oran Berry",
       "desc": "If held by a Pokémon, it heals the user by just 10 HP.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock 1+Badges"
+      ]
     },
     "persimberry": {
       "name": "Persim Berry",
       "desc": "If held by a Pokémon, it recovers from confusion.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Johan - Seaside Cave",
-        "PkMn Ranger Mikiko - Seaside Cave",
-        "PkMn Ranger Lewis - Reversal Mountain",
-        "PkMn Ranger Eliza - Reversal Mountain"
+        "PkMn Ranger Johan",
+        "PkMn Ranger Mikiko",
+        "PkMn Ranger Lewis",
+        "PkMn Ranger Eliza"
+      ],
+      "marts": [
+        "Stock 5+Badges"
       ]
     },
     "lumberry": {
@@ -154995,18 +155307,22 @@ overrides = {
       "desc": "If held by a Pokémon, it recovers from any status problem.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Rick - Route 1",
-        "PkMn Ranger Audra - Route 1",
-        "PkMn Ranger Terrakion - Clay Tunnel",
-        "PkMn Ranger Keldeo - Clay Tunnel",
-        "PkMn Ranger Parker - Moor of Icirrus",
-        "PkMn Ranger Elaine - Moor of Icirrus",
+        "PkMn Ranger Rick",
+        "PkMn Ranger Audra",
+        "PkMn Ranger Terrakion",
+        "PkMn Ranger Keldeo",
+        "PkMn Ranger Parker",
+        "PkMn Ranger Elaine",
         "PkMn Ranger Ralph",
         "PkMn Ranger Melita"
       ],
       "wilds": [
         "Shaymin",
         "Shaymin-Sky"
+      ],
+      "marts": [
+        "Stock 7+Badges",
+        "Stock 8+Badges"
       ]
     },
     "sitrusberry": {
@@ -155016,19 +155332,30 @@ overrides = {
       "rewards": [
         "PkMn Ranger Daryl",
         "PkMn Ranger Dianne",
-        "PkMn Ranger Leaf - Route 20",
-        "PkMn Ranger Naoko - Route 20",
-        "PkMn Ranger Lena - Route 23",
-        "PkMn Ranger Steve - Route 23",
+        "PkMn Ranger Leaf",
+        "PkMn Ranger Naoko",
+        "PkMn Ranger Lena",
+        "PkMn Ranger Steve",
         "PkMn Ranger Dwayne",
         "PkMn Ranger Hillary"
+      ],
+      "marts": [
+        "Stock 8+Badges",
+        "Lacunosa Town"
       ]
     },
     "figyberry": {
       "name": "Figy Berry",
       "desc": "If held by a Pokémon, it restores by a lot, but causes confusion.",
       "oldDesc": "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Backpacker Alexander",
+        "Pokefan Sachiko"
+      ],
+      "marts": [
+        "Stock 7+Badges"
+      ]
     },
     "marangaberry": {
       "name": "Maranga Berry",
@@ -155037,10 +155364,14 @@ overrides = {
       "new": true,
       "location": ""
     },
-    "magoberry": {
-      "name": "Mago Berry",
-      "desc": "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
-      "location": ""
+    "casteliacone": {
+      "name": "Casteliacone",
+      "desc": "Castelia City's specialty, soft-serve ice cream. It restores the HP of one Pokémon by 100 points, even in battle!",
+      "oldDesc": "Castelia City's specialty, soft-serve ice cream. It heals all the status problems of a single Pokémon.",
+      "location": "",
+      "rewards": [
+        "Harlequin Luigi"
+      ]
     },
     "keeberry": {
       "name": "Kee Berry",
@@ -155064,37 +155395,55 @@ overrides = {
       "name": "Bluk Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Fire",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "nanabberry": {
       "name": "Nanab Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Water",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "wepearberry": {
       "name": "Wepear Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Electric",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "pinapberry": {
       "name": "Pinap Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Grass",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "pomegberry": {
       "name": "Pomeg Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Ice",
       "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base HP.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "kelpsyberry": {
       "name": "Kelpsy Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Fighting",
       "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base Attack stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "qualotberry": {
       "name": "Qualot Berry",
@@ -155106,55 +155455,82 @@ overrides = {
       "name": "Hondew Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Ground",
       "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Atk stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "grepaberry": {
       "name": "Grepa Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Flying",
       "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Def stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "tamatoberry": {
       "name": "Tamato Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Psychic",
       "oldDesc": "Using it on a Pokémon makes it more friendly, but it also lowers its base Speed stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "cornnberry": {
       "name": "Cornn Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Bug",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "magostberry": {
       "name": "Magost Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Rock",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "rabutaberry": {
       "name": "Rabuta Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Ghost",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "nomelberry": {
       "name": "Nomel Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Dragon",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "spelonberry": {
       "name": "Spelon Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Dark",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "pamtreberry": {
       "name": "Pamtre Berry",
       "desc": "A Berry which is very rare in Unova. Natural Gift Power: 90 Natural Gift Type: Steel",
       "oldDesc": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Floccesy Town"
+      ]
     },
     "watmelberry": {
       "name": "Watmel Berry",
@@ -155207,7 +155583,10 @@ overrides = {
     "kebiaberry": {
       "name": "Kebia Berry",
       "desc": "Weakens a supereffective Poison-type attack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Dancer Dirk"
+      ]
     },
     "shucaberry": {
       "name": "Shuca Berry",
@@ -155247,7 +155626,10 @@ overrides = {
     "colburberry": {
       "name": "Colbur Berry",
       "desc": "Weakens a supereffective Dark-type attack against the holding Pokémon.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Worker Cairn"
+      ]
     },
     "babiriberry": {
       "name": "Babiri Berry",
@@ -155269,7 +155651,10 @@ overrides = {
       "name": "Ganlon Berry",
       "desc": "If held by a Pokémon, it raises its Defense stat in a pinch. A pinch is 1/2 health.",
       "oldDesc": "If held by a Pokémon, it raises its Defense stat in a pinch.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Cyclist Krissa"
+      ]
     },
     "salacberry": {
       "name": "Salac Berry",
@@ -155287,7 +155672,10 @@ overrides = {
       "name": "Apicot Berry",
       "desc": "If held by a Pokémon, it raises its Sp. Def stat in a pinch. A pinch is 1/2 health.",
       "oldDesc": "If held by a Pokémon, it raises its Sp. Def stat in a pinch.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Cyclist Hector"
+      ]
     },
     "roseliberry": {
       "name": "Roseli Berry",
@@ -155300,7 +155688,10 @@ overrides = {
       "name": "Starf Berry",
       "desc": "If held by a Pokémon, it sharply raises one of its stats when reduced below half health.",
       "oldDesc": "If held by a Pokémon, it sharply raises one of its stats in a pinch.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Harlequin Oswald"
+      ]
     },
     "enigmaberry": {
       "name": "Enigma Berry",
@@ -155310,9 +155701,13 @@ overrides = {
     },
     "micleberry": {
       "name": "Micle Berry",
-      "desc": "If held by a Pokémon, it raises the accuracy of a move just once in a pinch. A pinch is 1/2 health.",
+      "desc": "If held by a Pokémon, it raises the accuracy of a move just once.",
       "oldDesc": "If held by a Pokémon, it raises the accuracy of a move just once in a pinch.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock 7+Badges",
+        "Stock 8+Badges"
+      ]
     },
     "custapberry": {
       "name": "Custap Berry",
@@ -155323,12 +155718,25 @@ overrides = {
     "jabocaberry": {
       "name": "Jaboca Berry",
       "desc": "If held by a Pokémon and a physical attack lands, the attacker also takes damage.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "PkMn Ranger Lois"
+      ],
+      "marts": [
+        "SM9 Top Left Cashier"
+      ]
     },
     "rowapberry": {
       "name": "Rowap Berry",
       "desc": "If held by a Pokémon and a special attack lands, the attacker also takes damage.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Smasher Elena",
+        "Psychic Perry"
+      ],
+      "marts": [
+        "SM9 Top Left Cashier"
+      ]
     },
     "brightpowder": {
       "name": "BrightPowder",
@@ -155338,7 +155746,14 @@ overrides = {
     "whiteherb": {
       "name": "White Herb",
       "desc": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "PkMn Breeder Alice"
+      ],
+      "marts": [
+        "Stock 8+Badges",
+        "SM9 Top Left Cashier"
+      ]
     },
     "terabadge": {
       "name": "Tera Badge",
@@ -155365,7 +155780,12 @@ overrides = {
     "mentalherb": {
       "name": "Mental Herb",
       "desc": "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Stock 7+Badges",
+        "Stock 8+Badges",
+        "SM9 Top Left Cashier"
+      ]
     },
     "choiceband": {
       "name": "Choice Band",
@@ -155403,7 +155823,7 @@ overrides = {
     },
     "mascotbadge": {
       "name": "Mascot Badge",
-      "desc": "An item to be held by a Pokémon. It greatly boosts the offense, defense, and speed of first stage Pokémon.",
+      "desc": "An item to be held by a Pokémon. It greatly boosts the offense, defense, and speed of Pokémon with low stats.",
       "oldDesc": null,
       "new": true,
       "location": ""
@@ -155468,7 +155888,10 @@ overrides = {
       "name": "Light Ball",
       "desc": "An item to be held by Pikachu or Eevee. It is a puzzling orb that raises the Attack and Sp. Atk stat.",
       "oldDesc": "An item to be held by Pikachu. It is a puzzling orb that raises the Attack and Sp. Atk stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Inscense Shop"
+      ]
     },
     "softsand": {
       "name": "Soft Sand",
@@ -155486,12 +155909,21 @@ overrides = {
     "miracleseed": {
       "name": "Miracle Seed",
       "desc": "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Nursery Aide Leah"
+      ],
+      "marts": [
+        "Driftveil City Herb Shop"
+      ]
     },
     "blackglasses": {
       "name": "BlackGlasses",
       "desc": "An item to be held by a Pokémon. It is a shady-looking pair of glasses that boosts Dark-type moves.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Mistralton City TM Dept"
+      ]
     },
     "blackbelt": {
       "name": "Black Belt",
@@ -155501,17 +155933,26 @@ overrides = {
     "magnet": {
       "name": "Magnet",
       "desc": "An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Youngster Keita"
+      ]
     },
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Nursery Aide Kimya"
+      ]
     },
     "sharpbeak": {
       "name": "Sharp Beak",
       "desc": "An item to be held by a Pokémon. It is a long, sharp beak that boosts the power of Flying-type moves.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Mistralton City TM Dept"
+      ]
     },
     "poisonbarb": {
       "name": "Poison Barb",
@@ -155521,17 +155962,29 @@ overrides = {
     "nevermeltice": {
       "name": "NeverMeltIce",
       "desc": "An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Mistralton City TM Dept"
+      ]
     },
     "spelltag": {
       "name": "Spell Tag",
       "desc": "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Backers Kay & Ali"
+      ],
+      "marts": [
+        "Mistralton City TM Dept"
+      ]
     },
     "twistedspoon": {
       "name": "TwistedSpoon",
       "desc": "An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Mistralton City TM Dept"
+      ]
     },
     "charcoal": {
       "name": "Charcoal",
@@ -155541,7 +155994,10 @@ overrides = {
     "dragonfang": {
       "name": "Dragon Fang",
       "desc": "An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Mistralton City TM Dept"
+      ]
     },
     "silkscarf": {
       "name": "Silk Scarf",
@@ -155589,12 +156045,18 @@ overrides = {
     "thickclub": {
       "name": "Thick Club",
       "desc": "An item to be held by Cubone or Marowak. It is a hard bone of some sort that boosts the Attack stat.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Inscense Shop"
+      ]
     },
     "stick": {
       "name": "Stick",
       "desc": "An item to be held by Farfetch'd. It is a very long and stiff stalk of leek that boosts the critical-hit ratio.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Inscense Shop"
+      ]
     },
     "redscarf": {
       "name": "Red Scarf",
@@ -155629,12 +156091,18 @@ overrides = {
     "muscleband": {
       "name": "Muscle Band",
       "desc": "An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Castelia City Upper Cashier"
+      ]
     },
     "wiseglasses": {
       "name": "Wise Glasses",
       "desc": "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Castelia City Upper Cashier"
+      ]
     },
     "expertbelt": {
       "name": "Expert Belt",
@@ -155654,7 +156122,10 @@ overrides = {
     "powerherb": {
       "name": "Power Herb",
       "desc": "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Harlequin Otto"
+      ]
     },
     "toxicorb": {
       "name": "Toxic Orb",
@@ -155941,7 +156412,10 @@ overrides = {
     "fullincense": {
       "name": "Full Incense",
       "desc": "An item to be held by a Pokémon. It is an exotic-smelling incense that makes the holder bloated and slow moving.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Inscense Shop"
+      ]
     },
     "loadeddice": {
       "name": "Loaded Dice",
@@ -155960,12 +156434,18 @@ overrides = {
     "luckincense": {
       "name": "Luck Incense",
       "desc": "An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Inscense Shop"
+      ]
     },
     "pureincense": {
       "name": "Pure Incense",
       "desc": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Driftveil City Inscense Shop"
+      ]
     },
     "protector": {
       "name": "Protector",
@@ -156016,13 +156496,19 @@ overrides = {
     "tm03": {
       "name": "TM03",
       "desc": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Psychic Tommy"
+      ]
     },
     "tm04": {
       "name": "TM04",
       "desc": "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.",
       "oldDesc": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Striaton City Upper Cashier"
+      ]
     },
     "tm05": {
       "name": "TM05",
@@ -156046,7 +156532,10 @@ overrides = {
       "name": "TM08",
       "desc": "The target is hit with rhythmically launched punches. This attack never misses.",
       "oldDesc": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Striaton City Upper Cashier"
+      ]
     },
     "tm09": {
       "name": "TM09",
@@ -156064,7 +156553,8 @@ overrides = {
       "oldDesc": "The user intensifies the sun for five turns, powering up Fire-type moves.",
       "location": "",
       "rewards": [
-        "Johto Leader Falkner"
+        "Johto Leader Falkner",
+        "Nursery Aide Hollie"
       ]
     },
     "tm12": {
@@ -156080,13 +156570,19 @@ overrides = {
     "tm14": {
       "name": "TM14",
       "desc": "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "SM9 Middle Right Cashier"
+      ]
     },
     "tm15": {
       "name": "TM15",
       "desc": "The user tears at the target with blades formed by psychic power. Crit hits land more easily and this attack cannot miss.",
       "oldDesc": "The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Scientist Cleo"
+      ]
     },
     "tm16": {
       "name": "TM16",
@@ -156109,7 +156605,10 @@ overrides = {
       "name": "TM19",
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
       "oldDesc": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Musician Preston"
+      ]
     },
     "tm20": {
       "name": "TM20",
@@ -156142,7 +156641,10 @@ overrides = {
     "tm25": {
       "name": "TM25",
       "desc": "A wicked thunderbolt is dropped on the target to inflict damage. It may also leave the target with paralysis.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "SM9 Middle Right Cashier"
+      ]
     },
     "tm26": {
       "name": "TM26",
@@ -156152,14 +156654,17 @@ overrides = {
     "tm27": {
       "name": "TM27",
       "desc": "A full-power attack that grows more powerful the more the user likes its Trainer.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Nimbasa TM Department"
+      ]
     },
     "tm28": {
       "name": "TM28",
       "desc": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
       "location": "",
       "rewards": [
-        "Hoenn Leader Roxanne - Clay Tunnel"
+        "Hoenn Leader Roxanne"
       ]
     },
     "tm29": {
@@ -156172,13 +156677,16 @@ overrides = {
       "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
       "location": "",
       "rewards": [
-        "Johto Leader Morty - Celestial Tower"
+        "Johto Leader Morty"
       ]
     },
     "tm31": {
       "name": "TM31",
       "desc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Motorcyclist Duke"
+      ]
     },
     "tm32": {
       "name": "TM32",
@@ -156215,12 +156723,18 @@ overrides = {
     "tm38": {
       "name": "TM38",
       "desc": "The target is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "SM9 Middle Right Cashier"
+      ]
     },
     "tm39": {
       "name": "TM39",
       "desc": "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Lass Daya"
+      ]
     },
     "tm40": {
       "name": "TM40",
@@ -156482,7 +156996,11 @@ overrides = {
     "tm86": {
       "name": "TM86",
       "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "PkMn Breeder Owen",
+        "PkMn Breeder Micah"
+      ]
     },
     "tm87": {
       "name": "TM87",
@@ -156896,12 +157414,18 @@ overrides = {
     "friendball": {
       "name": "Friend Ball",
       "desc": "A Poké Ball that makes caught Pokémon more friendly.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Castelia City Upper Cashier"
+      ]
     },
     "moonball": {
       "name": "Moon Ball",
       "desc": "A Poké Ball for catching Pokémon that evolve using the Moon Stone.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "Virbank City Lower Cashier"
+      ]
     },
     "sportball": {
       "name": "Sport Ball",
@@ -157113,7 +157637,11 @@ overrides = {
       "desc": "An item that can be administered to a Pokémon to maximize one of their IVs.",
       "oldDesc": null,
       "new": true,
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Preschooler Mia",
+        "Preschooler Jojo"
+      ]
     },
     "ivmaximizer": {
       "name": "IV Maximizer",
@@ -157172,7 +157700,13 @@ overrides = {
     "airballoon": {
       "name": "Air Balloon",
       "desc": "When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Harlequin Oz"
+      ],
+      "marts": [
+        "SM9 Top Left Cashier"
+      ]
     },
     "redcard": {
       "name": "Red Card",
@@ -157196,7 +157730,10 @@ overrides = {
     "absorbbulb": {
       "name": "Absorb Bulb",
       "desc": "A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Lass Flo"
+      ]
     },
     "cellbattery": {
       "name": "Cell Battery",
@@ -157291,7 +157828,10 @@ overrides = {
     "normalgem": {
       "name": "Normal Gem",
       "desc": "A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move only once.",
-      "location": ""
+      "location": "",
+      "marts": [
+        "SM9 Bottom Section"
+      ]
     },
     "healthwing": {
       "name": "Health Wing",
@@ -157433,9 +157973,11 @@ overrides = {
       "desc": "A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
       "location": ""
     },
-    "casteliacone": {
-      "name": "Casteliacone",
+    "casteliasundae": {
+      "name": "Castelia Sundae",
       "desc": "Castelia City's specialty, soft-serve ice cream. It heals all the status problems of a single Pokémon.",
+      "oldDesc": null,
+      "new": true,
       "location": ""
     },
     "direhit2": {
