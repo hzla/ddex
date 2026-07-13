@@ -24,35 +24,23 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Vine Whip"
           ],
           [
-            1,
-            "Growl"
-          ],
-          [
-            3,
-            "Poison Powder"
-          ],
-          [
-            5,
-            "Mega Drain"
+            4,
+            "Sweet Scent"
           ],
           [
             7,
             "Leech Seed"
           ],
           [
-            9,
-            "Vine Whip"
-          ],
-          [
-            11,
-            "Sweet Scent"
+            10,
+            "Mega Drain"
           ],
           [
             13,
-            "Sleep Powder"
+            "Poison Powder"
           ],
           [
             13,
@@ -67,11 +55,7 @@ overrides = {
             "Leaf Tornado"
           ],
           [
-            21,
-            "Gastro Acid"
-          ],
-          [
-            24,
+            23,
             "Bulldoze"
           ],
           [
@@ -192,32 +176,20 @@ overrides = {
             "Tackle"
           ],
           [
-            1,
-            "Growl"
-          ],
-          [
-            3,
-            "Poison Powder"
-          ],
-          [
-            5,
-            "Mega Drain"
+            4,
+            "Sweet Scent"
           ],
           [
             7,
             "Leech Seed"
           ],
           [
-            9,
-            "Vine Whip"
-          ],
-          [
-            11,
-            "Sweet Scent"
+            10,
+            "Mega Drain"
           ],
           [
             13,
-            "Sleep Powder"
+            "Poison Powder"
           ],
           [
             13,
@@ -232,11 +204,7 @@ overrides = {
             "Leaf Tornado"
           ],
           [
-            21,
-            "Gastro Acid"
-          ],
-          [
-            24,
+            23,
             "Bulldoze"
           ],
           [
@@ -253,7 +221,7 @@ overrides = {
           ],
           [
             40,
-            "Toxic"
+            "Sleep Powder"
           ],
           [
             43,
@@ -376,35 +344,23 @@ overrides = {
         "learnset": [
           [
             1,
-            "Spit Up"
+            "Wrap"
           ],
           [
             1,
-            "Petal Dance"
-          ],
-          [
-            3,
-            "Poison Powder"
-          ],
-          [
-            5,
-            "Mega Drain"
-          ],
-          [
-            7,
-            "Leech Seed"
-          ],
-          [
-            9,
-            "Vine Whip"
-          ],
-          [
-            11,
             "Sweet Scent"
           ],
           [
+            1,
+            "Leech Seed"
+          ],
+          [
+            1,
+            "Spit Up"
+          ],
+          [
             13,
-            "Sleep Powder"
+            "Poison Powder"
           ],
           [
             13,
@@ -419,11 +375,7 @@ overrides = {
             "Leaf Tornado"
           ],
           [
-            21,
-            "Gastro Acid"
-          ],
-          [
-            24,
+            23,
             "Bulldoze"
           ],
           [
@@ -440,7 +392,7 @@ overrides = {
           ],
           [
             40,
-            "Toxic"
+            "Sleep Powder"
           ],
           [
             43,
@@ -469,10 +421,6 @@ overrides = {
           [
             70,
             "Hyper Beam"
-          ],
-          [
-            78,
-            "Frenzy Plant"
           ]
         ],
         "tms": [
@@ -2672,7 +2620,7 @@ overrides = {
         "level"
       ],
       "evoParams": [
-        36
+        32
       ]
     },
     "Pidgeot": {
@@ -2845,7 +2793,7 @@ overrides = {
         "Aerilate"
       ],
       "evoType": "level",
-      "evoLevel": 36
+      "evoLevel": 32
     },
     "Rattata": {
       "name": "Rattata",
@@ -3031,7 +2979,7 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 96,
+        "at": 101,
         "df": 60,
         "sa": 50,
         "sd": 70,
@@ -6370,9 +6318,9 @@ overrides = {
         "hp": 73,
         "at": 76,
         "df": 75,
-        "sa": 101,
-        "sd": 100,
-        "sp": 100
+        "sa": 106,
+        "sd": 105,
+        "sp": 105
       },
       "learnset_info": {
         "learnset": [
@@ -11027,7 +10975,7 @@ overrides = {
         "at": 35,
         "df": 30,
         "sa": 120,
-        "sd": 70,
+        "sd": 80,
         "sp": 120
       },
       "learnset_info": {
@@ -11198,7 +11146,7 @@ overrides = {
         "at": 50,
         "df": 45,
         "sa": 135,
-        "sd": 95,
+        "sd": 105,
         "sp": 135
       },
       "learnset_info": {
@@ -14075,7 +14023,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 25,
+        "hp": 40,
         "at": 35,
         "df": 70,
         "sa": 95,
@@ -14227,7 +14175,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 50,
+        "hp": 65,
         "at": 60,
         "df": 95,
         "sa": 120,
@@ -16566,7 +16514,7 @@ overrides = {
         "at": 105,
         "df": 160,
         "sa": 30,
-        "sd": 80,
+        "sd": 55,
         "sp": 110
       },
       "learnset_info": {
@@ -19447,8 +19395,8 @@ overrides = {
       ],
       "bs": {
         "hp": 80,
-        "at": 85,
-        "df": 95,
+        "at": 110,
+        "df": 105,
         "sa": 30,
         "sd": 55,
         "sp": 25
@@ -19615,7 +19563,7 @@ overrides = {
         "level"
       ],
       "evoParams": [
-        30
+        40
       ]
     },
     "Rhydon": {
@@ -19806,15 +19754,18 @@ overrides = {
         "Sturdy"
       ],
       "evoType": "level",
-      "evoLevel": 30,
+      "evoLevel": 40,
       "evos": [
+        "Rhyperior",
         "Rhyperior"
       ],
       "evoMethods": [
-        "level"
+        "level",
+        "useItem"
       ],
       "evoParams": [
-        50
+        50,
+        "Protector"
       ]
     },
     "Chansey": {
@@ -20721,7 +20672,7 @@ overrides = {
       ],
       "bs": {
         "hp": 45,
-        "at": 82,
+        "at": 87,
         "df": 60,
         "sa": 35,
         "sd": 50,
@@ -20886,7 +20837,7 @@ overrides = {
       ],
       "bs": {
         "hp": 80,
-        "at": 102,
+        "at": 107,
         "df": 65,
         "sa": 65,
         "sd": 80,
@@ -21830,8 +21781,8 @@ overrides = {
       ],
       "bs": {
         "hp": 75,
-        "at": 40,
-        "df": 35,
+        "at": 50,
+        "df": 55,
         "sa": 125,
         "sd": 95,
         "sp": 105
@@ -22747,7 +22698,7 @@ overrides = {
         "hp": 95,
         "at": 125,
         "df": 79,
-        "sa": 100,
+        "sa": 110,
         "sd": 100,
         "sp": 81
       },
@@ -23108,7 +23059,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 130,
+        "hp": 110,
         "at": 48,
         "df": 48,
         "sa": 48,
@@ -25483,11 +25434,11 @@ overrides = {
       ],
       "bs": {
         "hp": 61,
-        "at": 64,
+        "at": 54,
         "df": 45,
         "sa": 80,
         "sd": 50,
-        "sp": 50
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -25650,11 +25601,11 @@ overrides = {
       ],
       "bs": {
         "hp": 81,
-        "at": 84,
+        "at": 64,
         "df": 65,
         "sa": 110,
         "sd": 70,
-        "sp": 70
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -30645,7 +30596,7 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 50,
+        "at": 40,
         "df": 85,
         "sa": 80,
         "sd": 105,
@@ -32711,7 +32662,7 @@ overrides = {
         "df": 40,
         "sa": 35,
         "sd": 55,
-        "sp": 90
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -33049,7 +33000,7 @@ overrides = {
         "df": 70,
         "sa": 55,
         "sd": 95,
-        "sp": 110
+        "sp": 120
       },
       "learnset_info": {
         "learnset": [
@@ -36288,7 +36239,7 @@ overrides = {
         "hp": 75,
         "at": 105,
         "df": 200,
-        "sa": 55,
+        "sa": 30,
         "sd": 80,
         "sp": 30
       },
@@ -41627,7 +41578,7 @@ overrides = {
       "bs": {
         "hp": 65,
         "at": 30,
-        "df": 25,
+        "df": 35,
         "sa": 95,
         "sd": 65,
         "sp": 75
@@ -49405,7 +49356,7 @@ overrides = {
       "bs": {
         "hp": 60,
         "at": 130,
-        "df": 90,
+        "df": 95,
         "sa": 80,
         "sd": 60,
         "sp": 80
@@ -53096,7 +53047,7 @@ overrides = {
         "df": 55,
         "sa": 90,
         "sd": 55,
-        "sp": 65
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -54537,7 +54488,7 @@ overrides = {
         "df": 45,
         "sa": 110,
         "sd": 80,
-        "sp": 85
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -60803,9 +60754,9 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 100,
+        "at": 105,
         "df": 79,
-        "sa": 100,
+        "sa": 105,
         "sd": 125,
         "sp": 81
       },
@@ -70053,7 +70004,7 @@ overrides = {
         "df": 35,
         "sa": 90,
         "sd": 70,
-        "sp": 65
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -76445,7 +76396,7 @@ overrides = {
         "hp": 68,
         "at": 110,
         "df": 80,
-        "sa": 60,
+        "sa": 70,
         "sd": 70,
         "sp": 82
       },
@@ -79587,7 +79538,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 85,
         "at": 70,
         "df": 115,
         "sa": 130,
@@ -80133,8 +80084,9 @@ overrides = {
         "Determined",
         "Bulletproof"
       ],
-      "evoType": "level",
-      "evoLevel": 50
+      "evoType": "useItem",
+      "evoLevel": 50,
+      "evoItem": "Protector"
     },
     "Tangrowth": {
       "name": "Tangrowth",
@@ -85173,7 +85125,7 @@ overrides = {
       ],
       "bs": {
         "hp": 60,
-        "at": 60,
+        "at": 70,
         "df": 75,
         "sa": 72,
         "sd": 75,
@@ -85367,7 +85319,7 @@ overrides = {
       ],
       "bs": {
         "hp": 90,
-        "at": 75,
+        "at": 85,
         "df": 95,
         "sa": 92,
         "sd": 95,
@@ -87904,7 +87856,7 @@ overrides = {
         "df": 48,
         "sa": 65,
         "sd": 48,
-        "sp": 64
+        "sp": 74
       },
       "learnset_info": {
         "learnset": [
@@ -88078,7 +88030,7 @@ overrides = {
         "df": 63,
         "sa": 103,
         "sd": 63,
-        "sp": 101
+        "sp": 111
       },
       "learnset_info": {
         "learnset": [
@@ -88271,7 +88223,7 @@ overrides = {
         "df": 48,
         "sa": 65,
         "sd": 48,
-        "sp": 64
+        "sp": 74
       },
       "learnset_info": {
         "learnset": [
@@ -88447,7 +88399,7 @@ overrides = {
         "df": 63,
         "sa": 103,
         "sd": 63,
-        "sp": 101
+        "sp": 111
       },
       "learnset_info": {
         "learnset": [
@@ -88642,7 +88594,7 @@ overrides = {
         "df": 48,
         "sa": 65,
         "sd": 48,
-        "sp": 64
+        "sp": 74
       },
       "learnset_info": {
         "learnset": [
@@ -88819,7 +88771,7 @@ overrides = {
         "df": 63,
         "sa": 103,
         "sd": 63,
-        "sp": 101
+        "sp": 111
       },
       "learnset_info": {
         "learnset": [
@@ -96376,9 +96328,9 @@ overrides = {
       "bs": {
         "hp": 50,
         "at": 75,
-        "df": 70,
+        "df": 85,
         "sa": 35,
-        "sd": 70,
+        "sd": 85,
         "sp": 48
       },
       "learnset_info": {
@@ -98018,9 +97970,9 @@ overrides = {
       "bs": {
         "hp": 50,
         "at": 85,
-        "df": 62,
+        "df": 72,
         "sa": 40,
-        "sd": 62,
+        "sd": 72,
         "sp": 65
       },
       "learnset_info": {
@@ -107677,11 +107629,11 @@ overrides = {
       ],
       "bs": {
         "hp": 45,
-        "at": 85,
+        "at": 100,
         "df": 70,
         "sa": 40,
         "sd": 40,
-        "sp": 60
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -118521,7 +118473,7 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 10,
-      "acc": 65,
+      "acc": 75,
       "prio": 0,
       "name": "Supersonic",
       "num": 47,
@@ -121995,7 +121947,7 @@ overrides = {
     },
     "Hyper Voice": {
       "t": "Normal",
-      "bp": 95,
+      "bp": 90,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
@@ -154285,21 +154237,24 @@ overrides = {
         "Rival Benga",
         "Striker Marco",
         "Hoopster John",
-        "Cosplayer Amy"
+        "Cosplayer Amy",
+        "Lass Flo"
       ]
     },
     "antidote": {
       "name": "Antidote",
       "desc": "A spray-type medicine. It lifts the effect of poison from one Pokémon.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Preschooler Evan"
+      ]
     },
     "burnheal": {
       "name": "Burn Heal",
       "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
       "location": "",
       "rewards": [
-        "Scientist Dudley",
-        "Youngster Nicholas"
+        "Scientist Dudley"
       ]
     },
     "iceheal": {
@@ -154355,6 +154310,7 @@ overrides = {
         "Girl in Suit Donna",
         "Pokefan Colin",
         "Pokefan Darcy",
+        "Youngster Nicholas",
         "PkMn Ranger Jaden"
       ],
       "marts": [
@@ -154691,7 +154647,8 @@ overrides = {
       "desc": "A small red shard. It appears to be from some sort of implement made long ago.",
       "location": "",
       "rewards": [
-        "Hiker Russel"
+        "Hiker Russel",
+        "Hiker Tobias"
       ]
     },
     "blueshard": {
@@ -155336,6 +155293,7 @@ overrides = {
         "PkMn Ranger Naoko",
         "PkMn Ranger Lena",
         "PkMn Ranger Steve",
+        "Backpacker Annie",
         "PkMn Ranger Dwayne",
         "PkMn Ranger Hillary"
       ],
@@ -156100,6 +156058,9 @@ overrides = {
       "name": "Wise Glasses",
       "desc": "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
       "location": "",
+      "rewards": [
+        "Youngster Kenny"
+      ],
       "marts": [
         "Castelia City Upper Cashier"
       ]
@@ -156553,8 +156514,7 @@ overrides = {
       "oldDesc": "The user intensifies the sun for five turns, powering up Fire-type moves.",
       "location": "",
       "rewards": [
-        "Johto Leader Falkner",
-        "Nursery Aide Hollie"
+        "Johto Leader Falkner"
       ]
     },
     "tm12": {
@@ -157028,7 +156988,10 @@ overrides = {
     "tm91": {
       "name": "TM91",
       "desc": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
-      "location": ""
+      "location": "",
+      "rewards": [
+        "Hiker Keith"
+      ]
     },
     "tm92": {
       "name": "TM92",
@@ -157730,10 +157693,7 @@ overrides = {
     "absorbbulb": {
       "name": "Absorb Bulb",
       "desc": "A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.",
-      "location": "",
-      "rewards": [
-        "Lass Flo"
-      ]
+      "location": ""
     },
     "cellbattery": {
       "name": "Cell Battery",
@@ -157896,10 +157856,7 @@ overrides = {
     "pokétoy": {
       "name": "Poké Toy",
       "desc": "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
-      "location": "",
-      "rewards": [
-        "Preschooler Evan"
-      ]
+      "location": ""
     },
     "propcase": {
       "name": "Prop Case",
