@@ -6136,7 +6136,7 @@ overrides = {
       ],
       "bs": {
         "hp": 53,
-        "at": 46,
+        "at": 56,
         "df": 55,
         "sa": 76,
         "sd": 75,
@@ -9989,11 +9989,11 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 70,
+        "at": 80,
         "df": 55,
         "sa": 70,
-        "sd": 60,
-        "sp": 70
+        "sd": 55,
+        "sp": 75
       },
       "learnset_info": {
         "learnset": [
@@ -10161,7 +10161,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 80,
+        "hp": 90,
         "at": 110,
         "df": 80,
         "sa": 100,
@@ -27090,7 +27090,7 @@ overrides = {
       },
       "abs": [
         "Blaze",
-        "Sand Rush",
+        "Flash Fire",
         "Turboblaze"
       ],
       "evos": [
@@ -27264,7 +27264,7 @@ overrides = {
       },
       "abs": [
         "Blaze",
-        "Sand Rush",
+        "Flash Fire",
         "Turboblaze"
       ],
       "evoType": "level",
@@ -27452,7 +27452,7 @@ overrides = {
       },
       "abs": [
         "Blaze",
-        "Sand Rush",
+        "Flash Fire",
         "Turboblaze"
       ],
       "evoType": "level",
@@ -44210,7 +44210,7 @@ overrides = {
         "at": 100,
         "df": 65,
         "sa": 105,
-        "sd": 80,
+        "sd": 85,
         "sp": 120
       },
       "learnset_info": {
@@ -44413,7 +44413,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Pluck"
           ],
           [
             1,
@@ -44421,7 +44421,7 @@ overrides = {
           ],
           [
             4,
-            "Pluck"
+            "Quick Attack"
           ],
           [
             7,
@@ -44429,7 +44429,7 @@ overrides = {
           ],
           [
             10,
-            "Quick Attack"
+            "Natural Gift"
           ],
           [
             13,
@@ -44437,11 +44437,11 @@ overrides = {
           ],
           [
             16,
-            "Double Kick"
+            "Sky Uppercut"
           ],
           [
             19,
-            "Aerial Ace"
+            "Bounce"
           ],
           [
             22,
@@ -44453,15 +44453,15 @@ overrides = {
           ],
           [
             28,
-            "Sky Uppercut"
+            "Jump Kick"
           ],
           [
             31,
-            "Bounce"
+            "Fire Spin"
           ],
           [
             34,
-            "Jump Kick"
+            "Air Slash"
           ],
           [
             40,
@@ -44473,7 +44473,7 @@ overrides = {
           ],
           [
             47,
-            "Fire Spin"
+            "Acrobatics"
           ]
         ],
         "tms": [
@@ -44585,7 +44585,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Pluck"
           ],
           [
             1,
@@ -44593,7 +44593,7 @@ overrides = {
           ],
           [
             4,
-            "Pluck"
+            "Quick Attack"
           ],
           [
             7,
@@ -44601,7 +44601,7 @@ overrides = {
           ],
           [
             10,
-            "Quick Attack"
+            "Natural Gift"
           ],
           [
             13,
@@ -44609,11 +44609,11 @@ overrides = {
           ],
           [
             16,
-            "Double Kick"
+            "Sky Uppercut"
           ],
           [
             19,
-            "Aerial Ace"
+            "Bounce"
           ],
           [
             22,
@@ -44625,15 +44625,15 @@ overrides = {
           ],
           [
             28,
-            "Sky Uppercut"
+            "Jump Kick"
           ],
           [
             31,
-            "Bounce"
+            "Fire Spin"
           ],
           [
             34,
-            "Jump Kick"
+            "Air Slash"
           ],
           [
             40,
@@ -44645,11 +44645,11 @@ overrides = {
           ],
           [
             47,
-            "Fire Spin"
+            "Acrobatics"
           ],
           [
             51,
-            "Acrobatics"
+            "Blaze Kick"
           ],
           [
             57,
@@ -44775,7 +44775,7 @@ overrides = {
           ],
           [
             4,
-            "Pluck"
+            "Quick Attack"
           ],
           [
             7,
@@ -44783,7 +44783,7 @@ overrides = {
           ],
           [
             10,
-            "Quick Attack"
+            "Natural Gift"
           ],
           [
             13,
@@ -44795,7 +44795,7 @@ overrides = {
           ],
           [
             19,
-            "Aerial Ace"
+            "Bounce"
           ],
           [
             22,
@@ -44807,15 +44807,15 @@ overrides = {
           ],
           [
             28,
-            "Sky Uppercut"
+            "Jump Kick"
           ],
           [
             31,
-            "Bounce"
+            "Fire Spin"
           ],
           [
             34,
-            "Jump Kick"
+            "Air Slash"
           ],
           [
             40,
@@ -44827,11 +44827,11 @@ overrides = {
           ],
           [
             47,
-            "Fire Spin"
+            "Acrobatics"
           ],
           [
             51,
-            "Acrobatics"
+            "Blaze Kick"
           ],
           [
             57,
@@ -44839,7 +44839,7 @@ overrides = {
           ],
           [
             61,
-            "Blaze Kick"
+            "Supercell Slam"
           ],
           [
             65,
@@ -67328,7 +67328,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Covet"
           ],
           [
             1,
@@ -67340,7 +67340,7 @@ overrides = {
           ],
           [
             8,
-            "Covet"
+            "Mach Punch"
           ],
           [
             10,
@@ -67348,11 +67348,11 @@ overrides = {
           ],
           [
             14,
-            "Mach Punch"
+            "Poison Jab"
           ],
           [
             17,
-            "Counter"
+            "Switcheroo"
           ],
           [
             20,
@@ -67360,7 +67360,7 @@ overrides = {
           ],
           [
             23,
-            "Screech"
+            "Acrobatics"
           ],
           [
             27,
@@ -67384,7 +67384,7 @@ overrides = {
           ],
           [
             41,
-            "Switcheroo"
+            "U-turn"
           ]
         ],
         "tms": [
@@ -67499,7 +67499,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Covet"
           ],
           [
             1,
@@ -67511,7 +67511,7 @@ overrides = {
           ],
           [
             8,
-            "Covet"
+            "Mach Punch"
           ],
           [
             10,
@@ -67519,11 +67519,11 @@ overrides = {
           ],
           [
             14,
-            "Mach Punch"
+            "Poison Jab"
           ],
           [
             17,
-            "Counter"
+            "Switcheroo"
           ],
           [
             20,
@@ -67531,7 +67531,7 @@ overrides = {
           ],
           [
             23,
-            "Screech"
+            "Acrobatics"
           ],
           [
             27,
@@ -67555,7 +67555,7 @@ overrides = {
           ],
           [
             41,
-            "Switcheroo"
+            "U-turn"
           ],
           [
             44,
@@ -67704,7 +67704,7 @@ overrides = {
           ],
           [
             8,
-            "Covet"
+            "Mach Punch"
           ],
           [
             10,
@@ -67712,11 +67712,11 @@ overrides = {
           ],
           [
             14,
-            "Mach Punch"
+            "Poison Jab"
           ],
           [
             17,
-            "Counter"
+            "Switcheroo"
           ],
           [
             20,
@@ -67724,7 +67724,7 @@ overrides = {
           ],
           [
             23,
-            "Screech"
+            "Acrobatics"
           ],
           [
             27,
@@ -67748,7 +67748,7 @@ overrides = {
           ],
           [
             41,
-            "Switcheroo"
+            "U-turn"
           ],
           [
             44,
@@ -67771,16 +67771,16 @@ overrides = {
             "Encore"
           ],
           [
-            65,
+            62,
             "Flare Blitz"
           ],
           [
-            70,
-            "Nasty Plot"
+            67,
+            "Close Combat"
           ],
           [
-            74,
-            "Close Combat"
+            72,
+            "Meteor Mash"
           ],
           [
             79,
@@ -67899,7 +67899,7 @@ overrides = {
           ],
           [
             8,
-            "Aqua Jet"
+            "Icy Wind"
           ],
           [
             11,
@@ -67915,7 +67915,7 @@ overrides = {
           ],
           [
             19,
-            "Icy Wind"
+            "Freeze-Dry"
           ],
           [
             22,
@@ -67927,7 +67927,7 @@ overrides = {
           ],
           [
             28,
-            "Aurora Beam"
+            "Ice Beam"
           ],
           [
             31,
@@ -68057,7 +68057,7 @@ overrides = {
           ],
           [
             8,
-            "Aqua Jet"
+            "Icy Wind"
           ],
           [
             11,
@@ -68073,7 +68073,7 @@ overrides = {
           ],
           [
             19,
-            "Icy Wind"
+            "Freeze-Dry"
           ],
           [
             22,
@@ -68085,7 +68085,7 @@ overrides = {
           ],
           [
             28,
-            "Aurora Beam"
+            "Ice Beam"
           ],
           [
             31,
@@ -68238,7 +68238,7 @@ overrides = {
           ],
           [
             1,
-            "Freeze-Dry"
+            "Sheer Cold"
           ],
           [
             11,
@@ -68254,7 +68254,7 @@ overrides = {
           ],
           [
             19,
-            "Icy Wind"
+            "Freeze-Dry"
           ],
           [
             22,
@@ -68266,7 +68266,7 @@ overrides = {
           ],
           [
             28,
-            "Aurora Beam"
+            "Ice Beam"
           ],
           [
             31,
@@ -118531,7 +118531,7 @@ overrides = {
     },
     "Ember": {
       "t": "Fire",
-      "bp": 40,
+      "bp": 50,
       "cat": "Special",
       "pp": 25,
       "acc": 100,
@@ -119007,7 +119007,7 @@ overrides = {
     },
     "Rock Throw": {
       "t": "Rock",
-      "bp": 50,
+      "bp": 60,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
@@ -119401,7 +119401,7 @@ overrides = {
       "bp": 70,
       "cat": "Physical",
       "pp": 10,
-      "acc": 100,
+      "acc": 101,
       "prio": 0,
       "name": "Hidden Force",
       "num": 116,
@@ -121041,7 +121041,7 @@ overrides = {
       "bp": 70,
       "cat": "Special",
       "pp": 15,
-      "acc": 100,
+      "acc": 101,
       "prio": 0,
       "name": "Hidden Power",
       "num": 236,
@@ -124630,7 +124630,7 @@ overrides = {
       "prio": 0,
       "name": "Echoed Voice",
       "num": 496,
-      "e_id": 0,
+      "e_id": 302,
       "desc": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.",
       "flags": {
         "sound": true
