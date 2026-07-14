@@ -118177,7 +118177,7 @@ overrides = {
     },
     "Psychic": {
       "t": "Psychic",
-      "bp": 95,
+      "bp": 90,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
