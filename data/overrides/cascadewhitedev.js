@@ -124281,10 +124281,10 @@ overrides = {
     },
     "Psystrike": {
       "t": "Psychic",
-      "bp": 105,
+      "bp": 100,
       "cat": "Special",
       "pp": 10,
-      "acc": 85,
+      "acc": 100,
       "prio": 0,
       "name": "Psystrike",
       "num": 539,
