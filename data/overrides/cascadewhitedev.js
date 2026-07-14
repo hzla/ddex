@@ -85191,7 +85191,7 @@ overrides = {
           ],
           [
             55,
-            "Blaze Kick"
+            "Flare Blitz"
           ],
           [
             60,
@@ -85203,7 +85203,7 @@ overrides = {
           ],
           [
             67,
-            "Flare Blitz"
+            "Sucker Punch"
           ],
           [
             70,
