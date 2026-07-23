@@ -26388,7 +26388,7 @@ overrides = {
       },
       "abs": [
         "Blaze",
-        "Flash Fire",
+        "Sand Rush",
         "Turboblaze"
       ],
       "evoType": "level",
@@ -26572,7 +26572,7 @@ overrides = {
       },
       "abs": [
         "Blaze",
-        "Flash Fire",
+        "Sand Rush",
         "Turboblaze"
       ],
       "evoType": "level",
@@ -114156,7 +114156,7 @@ overrides = {
       "bp": 60,
       "cat": "Physical",
       "pp": 20,
-      "acc": 100,
+      "acc": 101,
       "prio": 0,
       "name": "Rolling Kick",
       "num": 26,
@@ -116911,7 +116911,7 @@ overrides = {
       "bp": 60,
       "cat": "Physical",
       "pp": 20,
-      "acc": 100,
+      "acc": 101,
       "prio": 0,
       "name": "Pursuit",
       "num": 227,
@@ -118889,7 +118889,7 @@ overrides = {
     },
     "Assurance": {
       "t": "Dark",
-      "bp": 60,
+      "bp": 70,
       "cat": "Physical",
       "pp": 10,
       "acc": 100,
@@ -118897,6 +118897,7 @@ overrides = {
       "name": "Assurance",
       "num": 371,
       "e_id": 231,
+      "tar": "allAdjacentFoes",
       "desc": "If the target has already taken some damage in the same turn, this attack's power is doubled."
     },
     "1st Impression": {
