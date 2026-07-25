@@ -819,6 +819,119 @@ function normalizeBackupItemName(value) {
   return text;
 }
 
+const HGE_SAVE_SPECIES_NAMES_BY_ID = {
+  496: "deoxysattack",
+  497: "deoxysdefense",
+  498: "deoxysspeed",
+  499: "wormadamsandy",
+  500: "wormadamtrashy",
+  501: "giratinaorigin",
+  502: "shayminsky",
+  503: "rotomheat",
+  504: "rotomwash",
+  505: "rotomfrost",
+  506: "rotomfan",
+  507: "rotommow",
+};
+
+const HGE_SAVE_SPECIES_NAME_REPLACEMENTS = {
+  flechinder: "fletchinder",
+  crabomnabl: "crabominable",
+  blacefalon: "blacephalon",
+  corvsquire: "corvisquire",
+  corviknite: "corviknight",
+  baraskewda: "barraskewda",
+  centskorch: "centiskorch",
+  poltegeist: "polteageist",
+  stonjorner: "stonjourner",
+  basclegion: "basculegion",
+  mewscarada: "meowscarada",
+  squawkbily: "squawkabilly",
+  kilowatrel: "kilowattrel",
+  bramblgast: "brambleghast",
+  dudunspars: "dudunsparce",
+  brutebonet: "brutebonnet",
+  fluttrmane: "fluttermane",
+  slithrwing: "slitherwing",
+  sandyshock: "sandyshocks",
+  ironneck: "ironjugulis",
+  roarinmoon: "roaringmoon",
+  ironvalor: "ironvaliant",
+  walkngwake: "walkingwake",
+  polchgeist: "poltchageist",
+  fezanditi: "fezandipiti",
+  gouginfire: "gougingfire",
+  ironbolder: "ironboulder",
+};
+
+const HGE_CALC_SPECIES_DISPLAY_NAMES = {
+  deoxysattack: "Deoxys-Attack",
+  deoxysdefense: "Deoxys-Defense",
+  deoxysspeed: "Deoxys-Speed",
+  wormadamsandy: "Wormadam-Sandy",
+  wormadamtrashy: "Wormadam-Trash",
+  giratinaorigin: "Giratina-Origin",
+  shayminsky: "Shaymin-Sky",
+  rotomheat: "Rotom-Heat",
+  rotomwash: "Rotom-Wash",
+  rotomfrost: "Rotom-Frost",
+  rotomfan: "Rotom-Fan",
+  rotommow: "Rotom-Mow",
+  fletchinder: "Fletchinder",
+  aegislash: "Aegislash-Shield",
+  crabominable: "Crabominable",
+  blacephalon: "Blacephalon",
+  corvisquire: "Corvisquire",
+  corviknight: "Corviknight",
+  barraskewda: "Barraskewda",
+  centiskorch: "Centiskorch",
+  polteageist: "Polteageist",
+  stonjourner: "Stonjourner",
+  basculegion: "Basculegion",
+  meowscarada: "Meowscarada",
+  squawkabilly: "Squawkabilly",
+  kilowattrel: "Kilowattrel",
+  brambleghast: "Brambleghast",
+  dudunsparce: "Dudunsparce",
+  brutebonnet: "Brute Bonnet",
+  fluttermane: "Flutter Mane",
+  slitherwing: "Slither Wing",
+  sandyshocks: "Sandy Shocks",
+  ironjugulis: "Iron Jugulis",
+  roaringmoon: "Roaring Moon",
+  ironvaliant: "Iron Valiant",
+  walkingwake: "Walking Wake",
+  poltchageist: "Poltchageist",
+  fezandipiti: "Fezandipiti",
+  gougingfire: "Gouging Fire",
+  ironboulder: "Iron Boulder",
+};
+
+function normalizeHgeSaveSpeciesName(name, index) {
+  if (Object.prototype.hasOwnProperty.call(HGE_SAVE_SPECIES_NAMES_BY_ID, index)) {
+    return HGE_SAVE_SPECIES_NAMES_BY_ID[index];
+  }
+  const speciesId = toID(normalizeBackupPokemonName(name));
+  return HGE_SAVE_SPECIES_NAME_REPLACEMENTS[speciesId] || speciesId;
+}
+
+function canonicalizeHgeExportSpeciesName(name, index) {
+  const speciesId = normalizeHgeSaveSpeciesName(name, index);
+  return HGE_CALC_SPECIES_DISPLAY_NAMES[speciesId] ||
+    canonicalizeExportSpeciesName(speciesId);
+}
+
+function normalizeSaveDexDisplayName(collectionName, name, normalize) {
+  const text = normalize(name);
+  if (!text) return "";
+  const collection =
+    typeof window !== "undefined" && window[collectionName]
+      ? window[collectionName]
+      : null;
+  const entry = collection && collection[toID(text)];
+  return entry && entry.name ? entry.name : text;
+}
+
 function normalizeName(value) {
   if (!value) return "";
   return String(value)
@@ -3340,7 +3453,13 @@ function toID(text) {
     .replace(/[^a-z0-9]+/g, "");
 }
 
-function buildRomGrowthsAndExpYields(personalEntries, pokemonNames) {
+export function buildRomSaveIncludes({
+  personalEntries,
+  pokemonNames,
+  moveNames,
+  itemNames,
+  abilityNames,
+}) {
   const growths = [];
   const expYields = {};
 
@@ -3353,7 +3472,43 @@ function buildRomGrowthsAndExpYields(personalEntries, pokemonNames) {
     expYields[speciesId] = Number.isFinite(entry.givenExp) ? entry.givenExp : 0;
   }
 
-  return { growths, expYields };
+  const normalizeIndexedNames = (names, normalize, zeroFallback) =>
+    (Array.isArray(names) ? names : []).map((name, index) => {
+      const normalized = normalize(name, index);
+      if (normalized) return normalized;
+      if (index === 0 && zeroFallback) return zeroFallback;
+      return String(index);
+    });
+
+  return {
+    poks: normalizeIndexedNames(
+      pokemonNames,
+      normalizeHgeSaveSpeciesName,
+      "none"
+    ),
+    moves: normalizeIndexedNames(
+      moveNames,
+      (name) => normalizeSaveDexDisplayName("BattleMovedex", name, normalizeBackupMoveName),
+      "-"
+    ),
+    items: normalizeIndexedNames(
+      itemNames,
+      (name) => normalizeSaveDexDisplayName("BattleItems", name, normalizeBackupItemName),
+      "None"
+    ),
+    growths,
+    abilities: normalizeIndexedNames(
+      abilityNames,
+      (name) =>
+        normalizeSaveDexDisplayName(
+          "BattleAbilities",
+          name,
+          (value) => String(value || "").trim()
+        ),
+      "None"
+    ),
+    expYields,
+  };
 }
 
 function buildOverridesAndSearchIndex(data, options) {
@@ -4344,13 +4499,14 @@ export async function buildOverridesFromRom(arrayBuffer, { log } = {}) {
   const romTitle = titleRaw.replace(/\0/g, "").trim() || header.romId;
   const data = await collectDspreData(editor, { log: log || (() => {}) });
   const built = await buildOverridesAndSearchIndex(data, { log });
+  const includes = data.includes || null;
   const backupData = built.backupData
-    ? { ...built.backupData, title: romTitle }
+    ? { ...built.backupData, title: romTitle, ...(includes ? { includes } : {}) }
     : null;
   return {
     overrides: built.overrides,
     backupData,
-    includes: data.includes || null,
+    includes,
     searchIndex: built.searchIndex,
     searchIndexOffset: built.searchIndexOffset,
     searchIndexCount: built.searchIndexCount,
@@ -5605,10 +5761,10 @@ function deriveTrainerPidMod({
   const genderOverride = override & 0x0F;
   const abilityOverride = (override >> 4) & 0x0F;
 
-  if (mode === "JAK7" && override !== 0) {
+  if (mode === "LHEA_OLD" && override !== 0) {
     pidMod = Number(speciesId) || 0;
-    if (genderOverride === 1) pidMod += 2;
-    else if (genderOverride === 2) pidMod -= 2;
+    if (genderOverride === 1) pidMod = (Number(speciesGenderRatio) || 0) + 2;
+    else if (genderOverride === 2) pidMod = (Number(speciesGenderRatio) || 0) - 2;
   } else if (override !== 0 && genderOverride !== 0) {
     pidMod = Number(speciesGenderRatio) || 0;
     if (genderOverride === 1) pidMod += 2;
@@ -6424,6 +6580,13 @@ async function collectDspreData(editor, { log }) {
   }
 
   pokemonNames = appendForms(pokemonNames, personalEntries.length);
+  const expandedHgssLearnsets = family === "HGSS" && personalEntries.length > 700;
+  if (expandedHgssLearnsets) {
+    pokemonNames = pokemonNames.map((name, index) =>
+      canonicalizeHgeExportSpeciesName(name, index)
+    );
+    log(`Detected HG-Engine ROM (expanded learnsets). personal entries=${personalEntries.length}`);
+  }
 
   if (typeof window !== "undefined" && window.BattleAliases && pokemonNames.length) {
     let removedAliasCount = 0;
@@ -6437,11 +6600,6 @@ async function collectDspreData(editor, { log }) {
     if (removedAliasCount) {
       log(`Removed ${removedAliasCount} BattleAliases entries matching ROM species names.`);
     }
-  }
-
-  const expandedHgssLearnsets = family === "HGSS" && personalEntries.length > 700;
-  if (expandedHgssLearnsets) {
-    log(`Detected HG-Engine ROM (expanded learnsets). personal entries=${personalEntries.length}`);
   }
 
   const isValidAbilityId = (id) => {
@@ -7248,11 +7406,13 @@ async function collectDspreData(editor, { log }) {
     return genderTableArm9[id] ?? 0;
   };
 
-  const aiBackportEnabled = family === "Plat" && arm9.subarray(0x793B8, 0x793BC).every((b, idx) => b === [0xF0, 0xB5, 0x93, 0xB0][idx]);
-  const trainerPidMode = romId === "JAK7"
-    ? "JAK7"
+  const arm9Matches = (offset, bytes) => bytes.every((value, idx) => arm9[offset + idx] === value);
+  const aiBackportEnabled = family === "Plat" && arm9Matches(0x793B8, [0xF0, 0xB5, 0x93, 0xB0]);
+  const oldLheaTrainerBackport = aiBackportEnabled && arm9Matches(0x795A2, [0x1D, 0x1C, 0x0F, 0x23]);
+  const trainerPidMode = oldLheaTrainerBackport
+    ? "LHEA_OLD"
     : (family === "HGSS" || aiBackportEnabled ? "HGSS" : "DPPT");
-  log(`[trainer-debug] family=${family} romId=${romId} aiBackportEnabled=${aiBackportEnabled} trainerPidMode=${trainerPidMode}`);
+  log(`[trainer-debug] family=${family} romId=${romId} aiBackportEnabled=${aiBackportEnabled} oldLheaTrainerBackport=${oldLheaTrainerBackport} trainerPidMode=${trainerPidMode}`);
   const trainerClassNameSeen = new Map();
 
   for (let i = 1; i < trainerPartyNarc.fileCount; i += 1) {
@@ -7530,7 +7690,13 @@ async function collectDspreData(editor, { log }) {
     family,
     version,
     expandedHgssLearnsets,
-    includes: buildRomGrowthsAndExpYields(personalEntries, pokemonNames),
+    includes: buildRomSaveIncludes({
+      personalEntries,
+      pokemonNames,
+      moveNames,
+      itemNames,
+      abilityNames,
+    }),
     tutors: {
       moves: tutorMoves,
       compat: tutorCompat,

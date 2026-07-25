@@ -47,6 +47,18 @@ Recommended wrapper:
 var overrides = { ... };
 ```
 
+To hide the ROM's numeric battle-effect descriptions from move pages, declare
+this global immediately before the override payload:
+
+```js
+var hideEffectIds = true;
+var overrides = { ... };
+```
+
+The setting defaults to `false`, applies only to the `Effect ID ...` paragraph,
+and is cached with the selected game so it still applies on later page loads.
+Numeric, nonzero effect chances continue to display independently.
+
 Shipped override files currently work with either:
 
 ```js

@@ -1,5 +1,6 @@
 const ROM_CACHE_FLAG = "romOverrides";
 const ROM_SOURCE_GEN_KEY = "ddexRomSourceGen";
+const HIDE_EFFECT_IDS_CACHE_KEY = "ddexHideEffectIds";
 const DDEX_CALC_READY_MESSAGE_TYPE = "ddex:calc-ready";
 const DDEX_CALC_SYNC_MESSAGE_TYPE = "ddex:calc-sync";
 const DDEX_CALC_SYNC_STARTED_MESSAGE_TYPE = "ddex:calc-sync-started";
@@ -14,6 +15,20 @@ const ROM_KEYS = {
 };
 
 window.DDEX_ROM_SOURCE_GEN = Number(localStorage.getItem(ROM_SOURCE_GEN_KEY) || "0") || null;
+if (typeof window.hideEffectIds !== "boolean") {
+  window.hideEffectIds = false;
+}
+
+function setHideEffectIds(value, persist = false) {
+  window.hideEffectIds = value === true;
+  if (persist) {
+    localStorage.setItem(HIDE_EFFECT_IDS_CACHE_KEY, window.hideEffectIds ? "1" : "0");
+  }
+}
+
+function restoreCachedHideEffectIds() {
+  setHideEffectIds(localStorage.getItem(HIDE_EFFECT_IDS_CACHE_KEY) === "1");
+}
 
 const ddexCalcBridgeState = {
   calcWindow: null,
@@ -161,6 +176,7 @@ function applySearchIndex(searchIndex, offsets, counts) {
 function applyRomOverridesFromCache() {
   if (!isRomOverrideActive()) return false;
   try {
+    setHideEffectIds(false);
     const overrides = normalizeOverrideSpeciesPayload(JSON.parse(localStorage[ROM_KEYS.overrides] || "null"));
     window.overrides = overrides
     const searchIndex = JSON.parse(localStorage[ROM_KEYS.searchIndex] || "null");
@@ -201,6 +217,7 @@ async function applyGameOverridesFromCache() {
   try {
     let parsedOverrides = JSON.parse(localStorage.overrides || "null");
     if (!parsedOverrides) return false;
+    restoreCachedHideEffectIds();
     parsedOverrides = normalizeOverrideSpeciesPayload(parsedOverrides);
     parsedOverrides = await loadOptionalCustomDescriptionOverrides(sourceGameKey, parsedOverrides);
     window.overrides = parsedOverrides;
@@ -263,6 +280,8 @@ function clearNuzlockeEncounterCache() {
 
 $(document).on('click', '#reset-cache', function() {
   delete localStorage.overrides
+  localStorage.removeItem(HIDE_EFFECT_IDS_CACHE_KEY);
+  setHideEffectIds(false);
   clearRomCache();
   clearMissedLocationCache();
   clearManualCaughtCache();
@@ -621,12 +640,15 @@ function getRomSourceGen() {
 function getCalcBridgeConfig() {
   const sourceGen = getRomSourceGen();
   if (!sourceGen) return null;
+  const romFamily = String(localStorage.romFamily || "").trim().toUpperCase();
+  const hasExpandedHgssData = localStorage.getItem(ROM_KEYS.expanded) === "1";
+  const isHgeFamilyRom = sourceGen === 4 && romFamily === "HGSS" && hasExpandedHgssData;
   const sharedConfig = {
     gen: 8,
     critGen: 3,
     sourceType: "full",
-    baseGame: "",
-    mechanics: "vanilla",
+    baseGame: isHgeFamilyRom ? "HGSS" : "",
+    mechanics: isHgeFamilyRom ? "hge" : "vanilla",
     customPoks: true,
   };
   if (sourceGen === 4) {
@@ -636,6 +658,8 @@ function getCalcBridgeConfig() {
       typeChart: 4,
       switchIn: 4,
       gameSwitchIn: 4,
+      readIncludes: isHgeFamilyRom,
+      saveExpansion: isHgeFamilyRom,
     };
   }
   return {
@@ -650,9 +674,14 @@ function getCalcBridgeConfig() {
 function getCalcBridgeBackupData() {
   const payload = window.DDEX_ROM_BACKUP_DATA;
   if (!payload) return null;
+  const includes = window.DDEX_ROM_INCLUDES;
   return normalizeBackupFormattedSetSpecies(
     toggleBackupGlitchedSpeciesRedirects(
-      { ...payload, title: localStorage.romTitle || localStorage[ROM_KEYS.title] || payload.title || "rom" },
+      {
+        ...payload,
+        ...(includes ? { includes } : {}),
+        title: localStorage.romTitle || localStorage[ROM_KEYS.title] || payload.title || "rom",
+      },
       true
     )
   );
@@ -681,6 +710,12 @@ function buildCalcBridgeUrl() {
   url.searchParams.set("types", String(config.typeChart));
   url.searchParams.set("critGen", String(config.critGen));
   url.searchParams.set("switchIn", String(config.switchIn));
+  if (config.baseGame) {
+    url.searchParams.set("baseGame", String(config.baseGame));
+  }
+  url.searchParams.set("mechanics", String(config.mechanics || "vanilla"));
+  url.searchParams.set("readIncludes", config.readIncludes ? "1" : "0");
+  url.searchParams.set("saveExpansion", config.saveExpansion ? "1" : "0");
   url.searchParams.set("ddexBridgeOrigin", window.location.origin);
   return url.toString();
 }
@@ -1027,6 +1062,7 @@ function applyImportedRomPayload(result, options = {}) {
   const displayRomTitle = toTitleCaseWords(rawRomTitle);
   const sourceGen = Number(options.sourceGen || result.sourceGen || 0) || null;
 
+  setHideEffectIds(false);
   window.__DDEX_LAST_ROM_BUFFER = options.lastRomBuffer || null;
   window.overrides = normalizedOverrides;
   overrideDexData(normalizedOverrides);
@@ -1036,7 +1072,10 @@ function applyImportedRomPayload(result, options = {}) {
 
   window.DDEX_ROM_TEXTS = result.texts || null;
   window.DDEX_ROM_BACKUP_DATA = result.backupData
-    ? normalizeBackupFormattedSetSpecies(result.backupData)
+    ? normalizeBackupFormattedSetSpecies({
+        ...result.backupData,
+        ...(result.includes ? { includes: result.includes } : {}),
+      })
     : null;
   window.DDEX_ROM_INCLUDES = result.includes || null;
   window.DDEX_ROM_DEBUG = result.debug || null;
@@ -2111,10 +2150,12 @@ async function loadRequestedGameOverrides(gameName) {
     setGameDexTitle(gameName);
   }
 
+  setHideEffectIds(false);
   const overridesLoaded = await checkAndLoadScript(`/data/overrides/${sourceGameName}.js`, {
     onNotFound: (src) => console.log(`Not found: ${src}`),
   });
   if (!overridesLoaded) return false;
+  setHideEffectIds(window.hideEffectIds, true);
 
   let normalizedOverrides = normalizeOverrideSpeciesPayload(overrides);
   normalizedOverrides = await loadOptionalCustomDescriptionOverrides(sourceGameName, normalizedOverrides);

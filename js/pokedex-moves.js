@@ -9,6 +9,7 @@ function hasMoveField(move, fieldName) {
   return (
     move &&
     Object.prototype.hasOwnProperty.call(move, fieldName) &&
+    typeof move[fieldName] !== "undefined" &&
     move[fieldName] !== null &&
     move[fieldName] !== ""
   );
@@ -225,7 +226,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
     }
 
     var effectId = getMoveField(move, overrideData, "e_id");
-    if (effectId !== null) {
+    if (!window.hideEffectIds && effectId !== null) {
       var effectDesc =
         typeof window.describeBattleEffect === "function"
           ? window.describeBattleEffect(Number(effectId))
@@ -241,7 +242,12 @@ var PokedexMovePanel = PokedexResultPanel.extend({
     }
 
     var effectChance = getMoveField(move, overrideData, "e_chance");
-    if (effectChance !== null && Number(effectChance) !== 0) {
+    var numericEffectChance = Number(effectChance);
+    if (
+      effectChance !== null &&
+      Number.isFinite(numericEffectChance) &&
+      numericEffectChance !== 0
+    ) {
       buf +=
         "<p><strong>Effect Chance</strong> " +
         Dex.escapeHTML(String(effectChance)) +
