@@ -798,7 +798,12 @@ class ExportContext {
   }
 
   moveDescriptions() {
-    return this.pointerStringTable("data.pokemon.moves.descriptions", lastBracketSuffix(this.layout.anchor("data.pokemon.moves.descriptions").format));
+    try {
+      return this.pointerStringTable("data.pokemon.moves.descriptions", lastBracketSuffix(this.layout.anchor("data.pokemon.moves.descriptions").format));
+    } catch (err) {
+      console.warn("Could not load move descriptions:", err);
+      return [];
+    }
   }
 
   itemStats() {

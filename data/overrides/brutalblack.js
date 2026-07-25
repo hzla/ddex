@@ -522,6 +522,7 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -662,6 +663,7 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -804,6 +806,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -934,7 +937,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -1063,7 +1066,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -1193,7 +1196,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -2080,7 +2083,11 @@ overrides = {
             "Poison Fang"
           ],
           [
-            13,
+            15,
+            "Headbutt"
+          ],
+          [
+            18,
             "Hyper Fang"
           ],
           [
@@ -2104,15 +2111,15 @@ overrides = {
             "Poison Jab"
           ],
           [
-            32,
+            36,
             "Take Down"
           ],
           [
-            36,
+            44,
             "Double-Edge"
           ],
           [
-            44,
+            50,
             "Gunk Shot"
           ],
           [
@@ -2184,7 +2191,7 @@ overrides = {
       ],
       "bs": {
         "hp": 65,
-        "at": 103,
+        "at": 98,
         "df": 70,
         "sa": 50,
         "sd": 70,
@@ -2209,7 +2216,11 @@ overrides = {
             "Poison Fang"
           ],
           [
-            13,
+            15,
+            "Headbutt"
+          ],
+          [
+            18,
             "Hyper Fang"
           ],
           [
@@ -2233,15 +2244,15 @@ overrides = {
             "Poison Jab"
           ],
           [
-            32,
+            36,
             "Take Down"
           ],
           [
-            36,
+            44,
             "Double-Edge"
           ],
           [
-            44,
+            50,
             "Gunk Shot"
           ],
           [
@@ -2606,6 +2617,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
@@ -2729,6 +2741,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
@@ -2888,7 +2901,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
+        "Static",
         "Static",
         "Lightning Rod"
       ],
@@ -3030,7 +3043,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Lightning Rod",
+        "Mold Breaker",
         "Mold Breaker",
         "Lightning Rod"
       ]
@@ -3273,8 +3286,8 @@ overrides = {
         "Sand Force"
       ]
     },
-    "Nidoran F": {
-      "name": "Nidoran F",
+    "Nidoran-F": {
+      "name": "Nidoran-F",
       "num": 29,
       "types": [
         "Poison"
@@ -3508,6 +3521,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Shadow Claw",
+          "Bulldoze",
           "Poison Jab",
           "Swagger",
           "Natural Gift",
@@ -3675,8 +3689,8 @@ overrides = {
         "Multiscale"
       ]
     },
-    "Nidoran M": {
-      "name": "Nidoran M",
+    "Nidoran-M": {
+      "name": "Nidoran-M",
       "num": 32,
       "types": [
         "Poison"
@@ -5433,7 +5447,7 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 50,
+        "at": 60,
         "df": 125,
         "sa": 110,
         "sd": 80,
@@ -5654,7 +5668,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Dry Skin",
+        "Water Absorb",
         "",
         "Damp"
       ],
@@ -5776,7 +5790,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Dry Skin",
+        "Water Absorb",
         "",
         "Damp"
       ]
@@ -5840,19 +5854,19 @@ overrides = {
             "Psychic"
           ],
           [
+            33,
+            "U-turn"
+          ],
+          [
             35,
             "Bug Buzz"
           ],
           [
             44,
-            "U-turn"
-          ],
-          [
-            50,
             "Psycho Boost"
           ],
           [
-            60,
+            50,
             "Tailwind"
           ]
         ],
@@ -5954,19 +5968,19 @@ overrides = {
             "Psychic"
           ],
           [
+            33,
+            "U-turn"
+          ],
+          [
             35,
             "Bug Buzz"
           ],
           [
             44,
-            "U-turn"
-          ],
-          [
-            50,
             "Psycho Boost"
           ],
           [
-            60,
+            50,
             "Tailwind"
           ]
         ],
@@ -6041,23 +6055,23 @@ overrides = {
             "Growl"
           ],
           [
-            9,
+            7,
             "Endure"
           ],
           [
-            15,
+            10,
             "Bulldoze"
           ],
           [
-            20,
+            15,
             "Rock Smash"
           ],
           [
-            23,
+            20,
             "Rock Slide"
           ],
           [
-            26,
+            27,
             "Dig"
           ],
           [
@@ -6168,23 +6182,23 @@ overrides = {
             "Growl"
           ],
           [
-            9,
+            7,
             "Endure"
           ],
           [
-            15,
+            10,
             "Bulldoze"
           ],
           [
-            20,
+            15,
             "Rock Smash"
           ],
           [
-            23,
+            20,
             "Rock Slide"
           ],
           [
-            26,
+            27,
             "Dig"
           ],
           [
@@ -6372,6 +6386,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Cut"
         ]
       },
@@ -6511,6 +6526,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Cut"
         ]
       },
@@ -6604,7 +6620,6 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -6734,7 +6749,6 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -7126,6 +7140,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -7259,6 +7274,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -7369,7 +7385,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -7480,7 +7495,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -7601,7 +7615,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Bulk Up",
           "Hidden Power",
           "Ice Beam",
@@ -8630,7 +8643,7 @@ overrides = {
         "df": 80,
         "sa": 70,
         "sd": 80,
-        "sp": 85
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -8794,7 +8807,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Venoshock",
           "Hidden Power",
           "Ice Beam",
@@ -8912,7 +8924,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Venoshock",
           "Hidden Power",
           "Ice Beam",
@@ -9637,7 +9648,6 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -9767,7 +9777,6 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -10161,7 +10170,7 @@ overrides = {
       "abs": [
         "Defiant",
         "",
-        "Defiant"
+        "Super Luck"
       ]
     },
     "Doduo": {
@@ -10487,7 +10496,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -10611,7 +10620,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -10975,7 +10984,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -11084,7 +11092,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -11939,7 +11946,6 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -12052,7 +12058,6 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -12177,6 +12182,7 @@ overrides = {
           "Charge Beam",
           "Explosion",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Gyro Ball",
           "Self-Destruct",
@@ -12285,6 +12291,7 @@ overrides = {
           "Explosion",
           "Giga Impact",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Gyro Ball",
           "Self-Destruct",
@@ -13697,7 +13704,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -13944,7 +13951,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -14059,7 +14066,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -14161,7 +14168,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -14264,7 +14271,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -14280,6 +14286,7 @@ overrides = {
           "Scald",
           "Poison Jab",
           "Swagger",
+          "Pluck",
           "Natural Gift",
           "Surf",
           "Waterfall",
@@ -14365,7 +14372,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -14383,6 +14389,7 @@ overrides = {
           "Giga Impact",
           "Poison Jab",
           "Swagger",
+          "Pluck",
           "Natural Gift",
           "Surf",
           "Waterfall",
@@ -14476,7 +14483,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -14602,7 +14608,6 @@ overrides = {
         "tms": [
           "Psyshock",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -14883,7 +14888,7 @@ overrides = {
         "Scizor"
       ],
       "evoMethods": [
-        "Item Use"
+        "Level with Item + Day"
       ],
       "evoParams": [
         "Metal Coat"
@@ -14976,7 +14981,6 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -15014,7 +15018,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Dry Skin",
+        "Water Absorb",
         "Trace",
         "Dry Skin"
       ]
@@ -15095,7 +15099,7 @@ overrides = {
           ],
           [
             48,
-            "Earthquake"
+            "Drain Punch"
           ],
           [
             56,
@@ -15677,7 +15681,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -15792,7 +15795,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -15925,7 +15928,7 @@ overrides = {
           "Calm Mind",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Bulk Up",
           "Venoshock",
           "Hidden Power",
@@ -16037,22 +16040,22 @@ overrides = {
         "Umbreon"
       ],
       "evoMethods": [
-        "Item Use",
-        "Item Use",
-        "Item Use",
-        "Item Use",
-        "Item Use",
-        "Item Use",
-        "Item Use"
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day",
+        "Level with Item + Day"
       ],
       "evoParams": [
-        "Leaf Stone",
-        "Shiny Stone",
-        "Thunderstone",
-        "Water Stone",
-        "Fire Stone",
-        "Sun Stone",
-        "Moon Stone"
+        "Miracle Seed",
+        "NeverMeltIce",
+        "Magnet",
+        "Mystic Water",
+        "Charcoal",
+        "TwistedSpoon",
+        "BlackGlasses"
       ]
     },
     "Vaporeon": {
@@ -16128,7 +16131,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -16576,7 +16578,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -16690,7 +16691,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -16811,7 +16811,6 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -16937,7 +16936,6 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -16995,7 +16993,7 @@ overrides = {
       ],
       "bs": {
         "hp": 80,
-        "at": 105,
+        "at": 110,
         "df": 75,
         "sa": 60,
         "sd": 75,
@@ -17036,12 +17034,12 @@ overrides = {
             "Earthquake"
           ],
           [
-            51,
-            "Sky Drop"
+            52,
+            "Superpower"
           ],
           [
             56,
-            "Taunt"
+            "Aqua Tail"
           ],
           [
             62,
@@ -17304,7 +17302,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -17656,7 +17654,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -17780,7 +17778,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -17908,7 +17906,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -17955,7 +17953,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Multiscale",
+        "Thick Fat",
         "",
         "Multiscale"
       ]
@@ -18058,7 +18056,7 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
@@ -18203,7 +18201,7 @@ overrides = {
           "Calm Mind",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Bulk Up",
           "Venoshock",
           "Hidden Power",
@@ -19154,7 +19152,7 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -19287,7 +19285,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -19422,7 +19420,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -20599,7 +20597,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -20716,7 +20713,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -21271,10 +21267,10 @@ overrides = {
         "Togekiss"
       ],
       "evoMethods": [
-        "Item Use"
+        "Level Requirement"
       ],
       "evoParams": [
-        "Shiny Stone"
+        55
       ]
     },
     "Natu": {
@@ -21628,6 +21624,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Shock Wave",
           "Baton Pass",
@@ -21746,6 +21743,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Shock Wave",
           "Baton Pass",
@@ -21870,6 +21868,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
@@ -21922,7 +21921,7 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 50,
+        "at": 60,
         "df": 80,
         "sa": 110,
         "sd": 125,
@@ -22111,7 +22110,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -22142,7 +22140,7 @@ overrides = {
       "abs": [
         "Huge Power",
         "Huge Power",
-        "Sap Sipper"
+        "Huge Power"
       ],
       "evos": [
         "Azumarill"
@@ -22231,7 +22229,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -22266,7 +22263,7 @@ overrides = {
       "abs": [
         "Huge Power",
         "Huge Power",
-        "Sap Sipper"
+        "Huge Power"
       ]
     },
     "Sudowoodo": {
@@ -22336,7 +22333,7 @@ overrides = {
           ],
           [
             55,
-            "Rock Wrecker"
+            "Head Smash"
           ],
           [
             60,
@@ -22377,7 +22374,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Sap Sipper",
+        "Solid Rock",
         "Rock Head",
         "Rattled"
       ]
@@ -22455,7 +22452,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -22568,6 +22564,10 @@ overrides = {
             "Air Slash"
           ],
           [
+            37,
+            "U-turn"
+          ],
+          [
             40,
             "Knock Off"
           ],
@@ -22580,14 +22580,6 @@ overrides = {
             "Aeroblast"
           ],
           [
-            52,
-            "U-turn"
-          ],
-          [
-            55,
-            "Encore"
-          ],
-          [
             65,
             "Leaf Storm"
           ]
@@ -22596,6 +22588,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
+          "Taunt",
           "Baton Pass",
           "Solar Beam",
           "Return",
@@ -22702,6 +22695,10 @@ overrides = {
             "Air Slash"
           ],
           [
+            37,
+            "U-turn"
+          ],
+          [
             40,
             "Knock Off"
           ],
@@ -22714,14 +22711,6 @@ overrides = {
             "Aeroblast"
           ],
           [
-            52,
-            "U-turn"
-          ],
-          [
-            55,
-            "Encore"
-          ],
-          [
             65,
             "Leaf Storm"
           ]
@@ -22730,6 +22719,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
+          "Taunt",
           "Baton Pass",
           "Solar Beam",
           "Return",
@@ -22836,6 +22826,10 @@ overrides = {
             "Air Slash"
           ],
           [
+            37,
+            "U-turn"
+          ],
+          [
             40,
             "Knock Off"
           ],
@@ -22848,14 +22842,6 @@ overrides = {
             "Aeroblast"
           ],
           [
-            52,
-            "U-turn"
-          ],
-          [
-            55,
-            "Encore"
-          ],
-          [
             65,
             "Leaf Storm"
           ]
@@ -22864,6 +22850,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
+          "Taunt",
           "Hyper Beam",
           "Baton Pass",
           "Solar Beam",
@@ -23318,6 +23305,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -23423,7 +23411,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -23538,7 +23525,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -24003,7 +23989,6 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -24368,7 +24353,7 @@ overrides = {
       "abs": [
         "Adaptability",
         "",
-        "Sap Sipper"
+        "Adaptability"
       ]
     },
     "Pineco": {
@@ -25370,7 +25355,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Venoshock",
           "Hidden Power",
           "Taunt",
@@ -25851,7 +25835,6 @@ overrides = {
           "Hone Claws",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -26451,7 +26434,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -26570,7 +26552,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -26672,7 +26653,6 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -26822,7 +26802,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Storm Drain",
+        "Water Absorb",
         "Sniper",
         "Moody"
       ],
@@ -26951,7 +26931,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Storm Drain",
+        "Water Absorb",
         "Skill Link",
         "Moody"
       ]
@@ -27037,7 +27017,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -27140,7 +27119,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -27608,7 +27586,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -27772,7 +27750,7 @@ overrides = {
           ],
           [
             1,
-            "Growl"
+            "Baton Pass"
           ],
           [
             9,
@@ -27966,7 +27944,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        50
+        55
       ]
     },
     "Stantler": {
@@ -28087,8 +28065,8 @@ overrides = {
       },
       "abs": [
         "Intimidate",
-        "Sap Sipper",
-        "Sap Sipper"
+        "",
+        "Intimidate"
       ]
     },
     "Smeargle": {
@@ -28234,9 +28212,9 @@ overrides = {
         "Item Use"
       ],
       "evoParams": [
-        "Dawn Stone",
-        "Dusk Stone",
-        "Shiny Stone"
+        "Fire Stone",
+        "Leaf Stone",
+        "Water Stone"
       ]
     },
     "Hitmontop": {
@@ -28430,7 +28408,6 @@ overrides = {
           "Psyshock",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -28461,7 +28438,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Dry Skin",
+        "Water Absorb",
         "Trace",
         "Hydration"
       ],
@@ -28551,7 +28528,7 @@ overrides = {
           ],
           [
             48,
-            "Earthquake"
+            "Drain Punch"
           ],
           [
             56,
@@ -28948,7 +28925,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -29333,7 +29310,7 @@ overrides = {
           "Calm Mind",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -29516,7 +29493,7 @@ overrides = {
         "hp": 90,
         "at": 94,
         "df": 90,
-        "sa": 65,
+        "sa": 55,
         "sd": 70,
         "sp": 51
       },
@@ -29626,7 +29603,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Tyranitar": {
@@ -29861,7 +29838,7 @@ overrides = {
           "Calm Mind",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -30202,6 +30179,10 @@ overrides = {
         "learnset": [
           [
             1,
+            "Fake Out"
+          ],
+          [
+            1,
             "Pound"
           ],
           [
@@ -30271,6 +30252,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -30305,7 +30287,7 @@ overrides = {
       },
       "abs": [
         "Technician",
-        "Unburden",
+        "Overgrow",
         "Unburden"
       ],
       "evos": [
@@ -30342,6 +30324,10 @@ overrides = {
         "learnset": [
           [
             1,
+            "Fake Out"
+          ],
+          [
+            1,
             "Pound"
           ],
           [
@@ -30411,6 +30397,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -30448,7 +30435,7 @@ overrides = {
       },
       "abs": [
         "Technician",
-        "Unburden",
+        "Overgrow",
         "Unburden"
       ],
       "evos": [
@@ -30483,6 +30470,10 @@ overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Fake Out"
+          ],
           [
             1,
             "Pound"
@@ -30557,6 +30548,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -30599,7 +30591,7 @@ overrides = {
       },
       "abs": [
         "Technician",
-        "Unburden",
+        "Overgrow",
         "Unburden"
       ]
     },
@@ -30911,9 +30903,9 @@ overrides = {
         "hp": 85,
         "at": 130,
         "df": 85,
-        "sa": 75,
+        "sa": 70,
         "sd": 85,
-        "sp": 90
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -31136,7 +31128,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -31273,7 +31264,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -31416,7 +31406,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -32088,7 +32077,7 @@ overrides = {
         "at": 70,
         "df": 60,
         "sa": 120,
-        "sd": 65,
+        "sd": 70,
         "sp": 85
       },
       "learnset_info": {
@@ -32235,7 +32224,7 @@ overrides = {
       "bs": {
         "hp": 90,
         "at": 30,
-        "df": 80,
+        "df": 85,
         "sa": 100,
         "sd": 95,
         "sp": 65
@@ -32264,7 +32253,7 @@ overrides = {
           ],
           [
             27,
-            "Signal Beam"
+            "U-turn"
           ],
           [
             32,
@@ -32280,7 +32269,7 @@ overrides = {
           ],
           [
             44,
-            "U-turn"
+            "Sludge Wave"
           ]
         ],
         "tms": [
@@ -32314,9 +32303,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Multiscale",
+        "Shield Dust",
         "",
-        "Compound Eyes"
+        "Multiscale"
       ]
     },
     "Lotad": {
@@ -32400,7 +32389,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -32526,7 +32514,6 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -32657,7 +32644,6 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -33154,7 +33140,7 @@ overrides = {
           ],
           [
             35,
-            "Echoed Voice"
+            "U-turn"
           ],
           [
             38,
@@ -33197,6 +33183,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Fly"
         ]
       },
@@ -33271,7 +33258,7 @@ overrides = {
           ],
           [
             35,
-            "Echoed Voice"
+            "U-turn"
           ],
           [
             38,
@@ -33316,6 +33303,7 @@ overrides = {
           "Pluck",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Fly"
         ]
       },
@@ -33402,7 +33390,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -33519,7 +33506,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -33801,7 +33787,7 @@ overrides = {
         "Item Use"
       ],
       "evoParams": [
-        30,
+        36,
         "Dawn Stone"
       ]
     },
@@ -33991,6 +33977,10 @@ overrides = {
             "Bug Buzz"
           ],
           [
+            38,
+            "Muddy Water"
+          ],
+          [
             40,
             "Hurricane"
           ],
@@ -34048,7 +34038,7 @@ overrides = {
       "num": 284,
       "types": [
         "Bug",
-        "Flying"
+        "Water"
       ],
       "items": [
         "None",
@@ -34108,6 +34098,10 @@ overrides = {
           [
             35,
             "Bug Buzz"
+          ],
+          [
+            38,
+            "Muddy Water"
           ],
           [
             40,
@@ -35538,7 +35532,7 @@ overrides = {
           ],
           [
             40,
-            "Shadow Ball"
+            "Shadow Punch"
           ],
           [
             44,
@@ -35660,7 +35654,7 @@ overrides = {
           ],
           [
             40,
-            "Shadow Ball"
+            "Shadow Punch"
           ],
           [
             44,
@@ -35766,7 +35760,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -35791,7 +35785,7 @@ overrides = {
       "abs": [
         "Thick Fat",
         "Huge Power",
-        "Sap Sipper"
+        "Huge Power"
       ]
     },
     "Nosepass": {
@@ -37564,7 +37558,7 @@ overrides = {
         "hp": 95,
         "at": 103,
         "df": 85,
-        "sa": 47,
+        "sa": 42,
         "sd": 85,
         "sp": 95
       },
@@ -37621,6 +37615,10 @@ overrides = {
           [
             48,
             "Wild Charge"
+          ],
+          [
+            50,
+            "U-turn"
           ],
           [
             55,
@@ -37687,7 +37685,7 @@ overrides = {
         "hp": 75,
         "at": 47,
         "df": 55,
-        "sa": 113,
+        "sa": 108,
         "sd": 105,
         "sp": 115
       },
@@ -37747,6 +37745,7 @@ overrides = {
           ]
         ],
         "tms": [
+          "Psyshock",
           "Toxic",
           "Hidden Power",
           "Sunny Day",
@@ -37757,6 +37756,7 @@ overrides = {
           "Thunderbolt",
           "Thunder",
           "Return",
+          "Psychic",
           "Shadow Ball",
           "Brick Break",
           "Double Team",
@@ -37766,6 +37766,7 @@ overrides = {
           "Attract",
           "Thief",
           "Round",
+          "Energy Ball",
           "Fling",
           "Charge Beam",
           "Acrobatics",
@@ -37927,9 +37928,9 @@ overrides = {
       "bs": {
         "hp": 70,
         "at": 43,
-        "df": 53,
-        "sa": 43,
-        "sd": 53,
+        "df": 73,
+        "sa": 73,
+        "sd": 73,
         "sp": 40
       },
       "learnset_info": {
@@ -38006,9 +38007,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Liquid Ooze",
-        "Sticky Hold",
-        "Gluttony"
+        "Regenerator",
+        "Regenerator",
+        "Regenerator"
       ],
       "evos": [
         "Swalot"
@@ -38200,7 +38201,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -38321,7 +38321,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -38433,7 +38432,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -38546,7 +38544,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -39338,7 +39335,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 45,
+        "hp": 55,
         "at": 100,
         "df": 45,
         "sa": 45,
@@ -39406,6 +39403,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -39527,6 +39525,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -39566,7 +39565,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Flygon": {
@@ -39652,6 +39651,7 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -39951,9 +39951,9 @@ overrides = {
         "hp": 65,
         "at": 40,
         "df": 60,
-        "sa": 70,
+        "sa": 80,
         "sd": 85,
-        "sp": 50
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -39978,11 +39978,11 @@ overrides = {
             "Swift"
           ],
           [
-            22,
+            21,
             "Dragon Breath"
           ],
           [
-            29,
+            26,
             "Air Slash"
           ],
           [
@@ -39990,16 +39990,16 @@ overrides = {
             "Dragon Pulse"
           ],
           [
-            40,
+            38,
             "Roost"
           ],
           [
-            44,
-            "Tailwind"
+            42,
+            "Aeroblast"
           ],
           [
-            50,
-            "Aeroblast"
+            48,
+            "Tailwind"
           ],
           [
             55,
@@ -40016,6 +40016,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -40098,11 +40099,11 @@ overrides = {
             "Swift"
           ],
           [
-            22,
+            21,
             "Dragon Breath"
           ],
           [
-            29,
+            26,
             "Air Slash"
           ],
           [
@@ -40110,16 +40111,16 @@ overrides = {
             "Dragon Pulse"
           ],
           [
-            40,
+            38,
             "Roost"
           ],
           [
-            44,
-            "Tailwind"
+            42,
+            "Aeroblast"
           ],
           [
-            50,
-            "Aeroblast"
+            48,
+            "Tailwind"
           ],
           [
             55,
@@ -40139,6 +40140,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -40172,9 +40174,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Filter",
+        "Cloud Nine",
         "",
-        "Cloud Nine"
+        "Filter"
       ]
     },
     "Zangoose": {
@@ -40195,7 +40197,7 @@ overrides = {
         "df": 70,
         "sa": 80,
         "sd": 70,
-        "sp": 90
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -40327,7 +40329,7 @@ overrides = {
         "df": 70,
         "sa": 80,
         "sd": 70,
-        "sp": 90
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -40742,7 +40744,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -40852,7 +40853,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -40976,7 +40976,6 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -41113,7 +41112,6 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -41516,7 +41514,7 @@ overrides = {
       },
       "abs": [
         "Poison Heal",
-        "Storm Drain",
+        "Water Absorb",
         "Storm Drain"
       ],
       "evos": [
@@ -41636,7 +41634,7 @@ overrides = {
       },
       "abs": [
         "Poison Heal",
-        "Storm Drain",
+        "Water Absorb",
         "Storm Drain"
       ]
     },
@@ -41703,12 +41701,16 @@ overrides = {
             "Protect"
           ],
           [
-            44,
+            43,
             "Drill Run"
           ],
           [
-            48,
-            "Rock Climb"
+            46,
+            "Rock Blast"
+          ],
+          [
+            49,
+            "Pin Missile"
           ],
           [
             52,
@@ -41723,12 +41725,8 @@ overrides = {
             "Superpower"
           ],
           [
-            65,
-            "Rock Blast"
-          ],
-          [
-            65,
-            "Pin Missile"
+            62,
+            "Spike Cannon"
           ]
         ],
         "tms": [
@@ -41841,12 +41839,16 @@ overrides = {
             "Protect"
           ],
           [
-            44,
+            43,
             "Drill Run"
           ],
           [
-            48,
-            "Rock Climb"
+            46,
+            "Rock Blast"
+          ],
+          [
+            49,
+            "Pin Missile"
           ],
           [
             52,
@@ -41861,12 +41863,8 @@ overrides = {
             "Superpower"
           ],
           [
-            65,
-            "Rock Blast"
-          ],
-          [
-            65,
-            "Pin Missile"
+            62,
+            "Spike Cannon"
           ]
         ],
         "tms": [
@@ -41953,7 +41951,7 @@ overrides = {
           ],
           [
             35,
-            "Mirror Coat"
+            "Recover"
           ],
           [
             40,
@@ -41965,7 +41963,7 @@ overrides = {
           ],
           [
             50,
-            "Psychic"
+            "Mirror Coat"
           ],
           [
             55,
@@ -41978,7 +41976,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -42056,7 +42054,7 @@ overrides = {
           ],
           [
             35,
-            "Mirror Coat"
+            "Recover"
           ],
           [
             40,
@@ -42068,7 +42066,7 @@ overrides = {
           ],
           [
             50,
-            "Psychic"
+            "Mirror Coat"
           ],
           [
             55,
@@ -42081,7 +42079,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -42109,9 +42107,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Multiscale",
+        "Water Absorb",
         "",
-        "Cute Charm"
+        "Multiscale"
       ]
     },
     "Castform": {
@@ -42129,9 +42127,9 @@ overrides = {
         "hp": 70,
         "at": 70,
         "df": 70,
-        "sa": 120,
+        "sa": 110,
         "sd": 70,
-        "sp": 120
+        "sp": 110
       },
       "learnset_info": {
         "learnset": [
@@ -42169,11 +42167,7 @@ overrides = {
           ],
           [
             40,
-            "Flamethrower"
-          ],
-          [
-            40,
-            "Ice Beam"
+            "Thunderbolt"
           ],
           [
             40,
@@ -42181,7 +42175,15 @@ overrides = {
           ],
           [
             40,
-            "Thunderbolt"
+            "Flamethrower"
+          ],
+          [
+            40,
+            "Ice Beam"
+          ],
+          [
+            50,
+            "Hydro Pump"
           ],
           [
             50,
@@ -42197,16 +42199,12 @@ overrides = {
           ],
           [
             50,
-            "Hydro Pump"
-          ],
-          [
-            50,
             "Hurricane"
           ]
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -42904,7 +42902,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        50
+        55
       ]
     },
     "Tropius": {
@@ -42993,6 +42991,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -43145,6 +43144,7 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Natural Gift",
+          "Flash Cannon",
           "Trick Room"
         ]
       },
@@ -43172,7 +43172,7 @@ overrides = {
         "df": 70,
         "sa": 75,
         "sd": 70,
-        "sp": 90
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -43241,7 +43241,6 @@ overrides = {
           "Hone Claws",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -43421,7 +43420,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -43529,7 +43527,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -43649,7 +43646,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -43774,7 +43770,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -43899,7 +43894,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -43975,7 +43969,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -44073,13 +44067,17 @@ overrides = {
             "Baton Pass"
           ],
           [
+            50,
+            "Protect"
+          ],
+          [
             55,
             "Sucker Punch"
           ]
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -44169,13 +44167,17 @@ overrides = {
             "Baton Pass"
           ],
           [
+            50,
+            "Protect"
+          ],
+          [
             55,
             "Sludge Wave"
           ]
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -44296,7 +44298,6 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -44410,7 +44411,7 @@ overrides = {
         "tms": [
           "Psyshock",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -44523,6 +44524,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -44646,6 +44648,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -44683,7 +44686,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Salamence": {
@@ -44770,6 +44773,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -45016,7 +45020,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Metagross": {
@@ -45328,7 +45332,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -45883,7 +45887,7 @@ overrides = {
           "Calm Mind",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -46716,7 +46720,7 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 109,
+        "at": 119,
         "df": 110,
         "sa": 85,
         "sd": 85,
@@ -47370,7 +47374,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -47497,7 +47501,7 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -47629,7 +47633,7 @@ overrides = {
           "Hone Claws",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -48006,7 +48010,7 @@ overrides = {
       },
       "abs": [
         "Intimidate",
-        "",
+        "Reckless",
         "Reckless"
       ]
     },
@@ -49134,6 +49138,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -49171,8 +49176,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Mold Breaker",
         "Sheer Force",
+        "",
         "Sheer Force"
       ],
       "evos": [
@@ -49264,6 +49269,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -49309,8 +49315,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Mold Breaker",
         "Sheer Force",
+        "",
         "Sheer Force"
       ]
     },
@@ -49677,7 +49683,7 @@ overrides = {
           ],
           [
             1,
-            "String Shot"
+            "Baton Pass"
           ],
           [
             20,
@@ -50184,10 +50190,10 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 65,
-        "df": 35,
-        "sa": 60,
-        "sd": 30,
+        "at": 75,
+        "df": 45,
+        "sa": 70,
+        "sd": 40,
         "sp": 85
       },
       "learnset_info": {
@@ -50206,7 +50212,7 @@ overrides = {
           ],
           [
             10,
-            "Headbutt"
+            "Quick Attack"
           ],
           [
             15,
@@ -50255,7 +50261,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Bulk Up",
           "Hidden Power",
           "Ice Beam",
@@ -50275,6 +50281,7 @@ overrides = {
           "Echoed Voice",
           "Scald",
           "Retaliate",
+          "Bulldoze",
           "Swagger",
           "Natural Gift",
           "Rock Smash",
@@ -50312,7 +50319,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 85,
+        "hp": 95,
         "at": 105,
         "df": 55,
         "sa": 105,
@@ -50335,7 +50342,7 @@ overrides = {
           ],
           [
             10,
-            "Headbutt"
+            "Quick Attack"
           ],
           [
             15,
@@ -50385,7 +50392,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Bulk Up",
           "Hidden Power",
           "Taunt",
@@ -50411,6 +50418,7 @@ overrides = {
           "Payback",
           "Retaliate",
           "Giga Impact",
+          "Bulldoze",
           "Swagger",
           "Natural Gift",
           "Rock Smash",
@@ -50533,7 +50541,8 @@ overrides = {
       "name": "Cherrim",
       "num": 421,
       "types": [
-        "Grass"
+        "Grass",
+        "Fire"
       ],
       "items": [
         "None",
@@ -50706,7 +50715,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -50729,7 +50737,7 @@ overrides = {
       },
       "abs": [
         "Poison Heal",
-        "Storm Drain",
+        "Water Absorb",
         "Sand Force"
       ],
       "evos": [
@@ -50819,7 +50827,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -50857,7 +50864,7 @@ overrides = {
       },
       "abs": [
         "Poison Heal",
-        "Storm Drain",
+        "Water Absorb",
         "Sand Force"
       ]
     },
@@ -51867,7 +51874,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        38
+        34
       ]
     },
     "Purugly": {
@@ -51886,7 +51893,7 @@ overrides = {
         "hp": 81,
         "at": 102,
         "df": 84,
-        "sa": 44,
+        "sa": 52,
         "sd": 79,
         "sp": 112
       },
@@ -52263,7 +52270,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        38
+        34
       ]
     },
     "Skuntank": {
@@ -52281,9 +52288,9 @@ overrides = {
       "bs": {
         "hp": 103,
         "at": 71,
-        "df": 67,
+        "df": 70,
         "sa": 103,
-        "sd": 61,
+        "sd": 66,
         "sp": 97
       },
       "learnset_info": {
@@ -52720,7 +52727,7 @@ overrides = {
           ],
           [
             55,
-            "Rock Wrecker"
+            "Head Smash"
           ],
           [
             60,
@@ -52753,7 +52760,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Sap Sipper",
+        "Solid Rock",
         "Rock Head",
         "Rattled"
       ],
@@ -52959,7 +52966,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
@@ -53230,7 +53237,7 @@ overrides = {
       },
       "abs": [
         "Unnerve",
-        "",
+        "Magic Bounce",
         "Wonder Guard"
       ]
     },
@@ -53318,6 +53325,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -53448,6 +53456,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
@@ -53491,7 +53500,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Garchomp": {
@@ -53578,6 +53587,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -53837,6 +53847,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
@@ -53973,6 +53984,7 @@ overrides = {
           "Calm Mind",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
@@ -54644,7 +54656,7 @@ overrides = {
       },
       "abs": [
         "Poison Touch",
-        "Dry Skin",
+        "Water Absorb",
         "Poison Touch"
       ],
       "evos": [
@@ -54786,7 +54798,7 @@ overrides = {
       },
       "abs": [
         "Poison Touch",
-        "Dry Skin",
+        "Water Absorb",
         "Swift Swim"
       ]
     },
@@ -54963,21 +54975,21 @@ overrides = {
             "Muddy Water"
           ],
           [
+            47,
+            "U-turn"
+          ],
+          [
             50,
             "Tailwind"
           ],
           [
             55,
             "Thunder"
-          ],
-          [
-            60,
-            "U-turn"
           ]
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -54985,6 +54997,8 @@ overrides = {
           "Baton Pass",
           "Rain Dance",
           "Safeguard",
+          "Thunderbolt",
+          "Thunder",
           "Return",
           "Double Team",
           "Water Pulse",
@@ -55006,7 +55020,7 @@ overrides = {
       },
       "abs": [
         "Swift Swim",
-        "Storm Drain",
+        "Water Absorb",
         "Water Veil"
       ],
       "evos": [
@@ -55086,21 +55100,21 @@ overrides = {
             "Muddy Water"
           ],
           [
+            47,
+            "U-turn"
+          ],
+          [
             50,
             "Tailwind"
           ],
           [
             55,
             "Thunder"
-          ],
-          [
-            60,
-            "U-turn"
           ]
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -55109,6 +55123,8 @@ overrides = {
           "Baton Pass",
           "Rain Dance",
           "Safeguard",
+          "Thunderbolt",
+          "Thunder",
           "Return",
           "Double Team",
           "Water Pulse",
@@ -55131,7 +55147,7 @@ overrides = {
       },
       "abs": [
         "Swift Swim",
-        "Storm Drain",
+        "Water Absorb",
         "Drizzle"
       ]
     },
@@ -55212,7 +55228,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -55334,7 +55350,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -55385,7 +55400,7 @@ overrides = {
         "Ice"
       ],
       "items": [
-        "None",
+        "Lum Berry",
         "None",
         "None"
       ],
@@ -55458,7 +55473,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -55578,7 +55592,6 @@ overrides = {
           "Hone Claws",
           "Calm Mind",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -56189,7 +56202,7 @@ overrides = {
           ],
           [
             48,
-            "Earthquake"
+            "Drain Punch"
           ],
           [
             56,
@@ -56536,7 +56549,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Struggle Bug"
+            "Baton Pass"
           ],
           [
             10,
@@ -56589,6 +56602,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
@@ -56801,7 +56815,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -57046,7 +57059,6 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -57660,7 +57672,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -58364,7 +58375,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
@@ -58965,7 +58976,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -59073,7 +59084,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -59427,7 +59438,7 @@ overrides = {
           "Calm Mind",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -59701,7 +59712,7 @@ overrides = {
           ],
           [
             26,
-            "Magical Leaf"
+            "Giga Drain"
           ],
           [
             32,
@@ -59709,7 +59720,7 @@ overrides = {
           ],
           [
             36,
-            "Giga Drain"
+            "Magical Leaf"
           ],
           [
             42,
@@ -59747,6 +59758,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -59793,7 +59805,8 @@ overrides = {
       "name": "Servine",
       "num": 496,
       "types": [
-        "Grass"
+        "Grass",
+        "Dragon"
       ],
       "items": [
         "None",
@@ -59844,7 +59857,7 @@ overrides = {
           ],
           [
             26,
-            "Magical Leaf"
+            "Giga Drain"
           ],
           [
             32,
@@ -59852,7 +59865,7 @@ overrides = {
           ],
           [
             36,
-            "Giga Drain"
+            "Magical Leaf"
           ],
           [
             42,
@@ -59890,6 +59903,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -59988,7 +60002,7 @@ overrides = {
           ],
           [
             26,
-            "Magical Leaf"
+            "Giga Drain"
           ],
           [
             32,
@@ -59996,7 +60010,7 @@ overrides = {
           ],
           [
             36,
-            "Giga Drain"
+            "Magical Leaf"
           ],
           [
             42,
@@ -60034,6 +60048,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -60131,7 +60146,7 @@ overrides = {
           ],
           [
             33,
-            "Payback"
+            "Feint Attack"
           ],
           [
             36,
@@ -60148,6 +60163,10 @@ overrides = {
           [
             50,
             "Hammer Arm"
+          ],
+          [
+            55,
+            "Payback"
           ],
           [
             60,
@@ -60261,7 +60280,7 @@ overrides = {
           ],
           [
             33,
-            "Payback"
+            "Feint Attack"
           ],
           [
             36,
@@ -60278,6 +60297,10 @@ overrides = {
           [
             50,
             "Hammer Arm"
+          ],
+          [
+            55,
+            "Payback"
           ],
           [
             60,
@@ -60400,7 +60423,7 @@ overrides = {
           ],
           [
             33,
-            "Payback"
+            "Feint Attack"
           ],
           [
             36,
@@ -60417,6 +60440,10 @@ overrides = {
           [
             50,
             "Hammer Arm"
+          ],
+          [
+            55,
+            "Payback"
           ],
           [
             60,
@@ -60523,7 +60550,7 @@ overrides = {
           ],
           [
             20,
-            "Revenge"
+            "Brick Break"
           ],
           [
             23,
@@ -60531,7 +60558,7 @@ overrides = {
           ],
           [
             26,
-            "Icy Wind"
+            "Vital Throw"
           ],
           [
             29,
@@ -60568,7 +60595,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -60578,12 +60605,14 @@ overrides = {
           "Smack Down",
           "Return",
           "Dig",
+          "Brick Break",
           "Double Team",
           "Water Pulse",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
+          "Low Sweep",
           "Round",
           "False Swipe",
           "Scald",
@@ -60664,7 +60693,7 @@ overrides = {
           ],
           [
             20,
-            "Revenge"
+            "Brick Break"
           ],
           [
             23,
@@ -60672,7 +60701,7 @@ overrides = {
           ],
           [
             26,
-            "Icy Wind"
+            "Vital Throw"
           ],
           [
             29,
@@ -60709,7 +60738,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -60719,12 +60748,14 @@ overrides = {
           "Smack Down",
           "Return",
           "Dig",
+          "Brick Break",
           "Double Team",
           "Water Pulse",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
+          "Low Sweep",
           "Round",
           "False Swipe",
           "Scald",
@@ -60805,7 +60836,7 @@ overrides = {
           ],
           [
             20,
-            "Revenge"
+            "Brick Break"
           ],
           [
             23,
@@ -60813,7 +60844,7 @@ overrides = {
           ],
           [
             26,
-            "Icy Wind"
+            "Vital Throw"
           ],
           [
             29,
@@ -60850,7 +60881,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -60861,12 +60892,14 @@ overrides = {
           "Smack Down",
           "Return",
           "Dig",
+          "Brick Break",
           "Double Team",
           "Water Pulse",
           "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
+          "Low Sweep",
           "Round",
           "False Swipe",
           "Scald",
@@ -62380,7 +62413,7 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -62515,7 +62548,7 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -63010,8 +63043,8 @@ overrides = {
         ]
       },
       "abs": [
+        "Big Pecks",
         "Unburden",
-        "Super Luck",
         "Rivalry"
       ],
       "evos": [
@@ -63233,9 +63266,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Sap Sipper",
+        "Reckless",
         "Motor Drive",
-        "Sap Sipper"
+        "Rock Head"
       ],
       "evos": [
         "Zebstrika"
@@ -63356,9 +63389,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Sap Sipper",
+        "Reckless",
         "Motor Drive",
-        "Sap Sipper"
+        "Rock Head"
       ]
     },
     "Roggenrola": {
@@ -63603,11 +63636,11 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 85,
+        "hp": 95,
         "at": 60,
-        "df": 130,
+        "df": 135,
         "sa": 135,
-        "sd": 70,
+        "sd": 80,
         "sp": 25
       },
       "learnset_info": {
@@ -64619,7 +64652,7 @@ overrides = {
         "hp": 105,
         "at": 140,
         "df": 105,
-        "sa": 55,
+        "sa": 65,
         "sd": 65,
         "sp": 45
       },
@@ -64810,7 +64843,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Baton Pass",
           "Rain Dance",
@@ -64923,7 +64955,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Baton Pass",
           "Rain Dance",
@@ -65038,7 +65069,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Venoshock",
           "Hidden Power",
           "Hyper Beam",
@@ -66574,7 +66604,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -67404,7 +67433,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Storm Drain",
+        "Water Absorb",
         "Iron Barbs",
         "Sand Veil"
       ]
@@ -67730,6 +67759,10 @@ overrides = {
             "Drain Punch"
           ],
           [
+            45,
+            "Vital Throw"
+          ],
+          [
             50,
             "Detect"
           ],
@@ -67872,6 +67905,10 @@ overrides = {
           [
             39,
             "Drain Punch"
+          ],
+          [
+            45,
+            "Vital Throw"
           ],
           [
             50,
@@ -68957,7 +68994,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 80,
+        "hp": 90,
         "at": 105,
         "df": 92,
         "sa": 60,
@@ -69119,6 +69156,10 @@ overrides = {
             "Dark Pulse"
           ],
           [
+            50,
+            "Aura Sphere"
+          ],
+          [
             60,
             "Night Daze"
           ],
@@ -69237,6 +69278,10 @@ overrides = {
             "Dark Pulse"
           ],
           [
+            50,
+            "Aura Sphere"
+          ],
+          [
             60,
             "Night Daze"
           ],
@@ -69260,6 +69305,7 @@ overrides = {
           "Return",
           "Dig",
           "Shadow Ball",
+          "Brick Break",
           "Double Team",
           "Flamethrower",
           "Aerial Ace",
@@ -70416,7 +70462,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Baton Pass",
@@ -70534,7 +70580,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Hyper Beam",
@@ -70632,7 +70678,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -70739,7 +70784,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -70848,7 +70892,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -71251,7 +71294,7 @@ overrides = {
       "abs": [
         "Motor Drive",
         "",
-        "Motor Drive"
+        "Lightning Rod"
       ]
     },
     "Karrablast": {
@@ -71810,7 +71853,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -71932,7 +71974,6 @@ overrides = {
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Taunt",
           "Ice Beam",
@@ -72055,7 +72096,7 @@ overrides = {
         "tms": [
           "Calm Mind",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -72636,12 +72677,12 @@ overrides = {
             "Gear Grind"
           ],
           [
-            60,
-            "Earthquake"
+            55,
+            "Volt Switch"
           ],
           [
-            65,
-            "Volt Switch"
+            60,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -72750,12 +72791,12 @@ overrides = {
             "Gear Grind"
           ],
           [
-            60,
-            "Earthquake"
+            55,
+            "Volt Switch"
           ],
           [
-            65,
-            "Volt Switch"
+            60,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -72864,12 +72905,12 @@ overrides = {
             "Gear Grind"
           ],
           [
-            60,
-            "Earthquake"
+            55,
+            "Volt Switch"
           ],
           [
-            65,
-            "Volt Switch"
+            60,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -73065,11 +73106,11 @@ overrides = {
           ],
           [
             30,
-            "Poison Jab"
+            "Sludge Bomb"
           ],
           [
             30,
-            "Sludge Bomb"
+            "Poison Jab"
           ],
           [
             35,
@@ -73106,6 +73147,7 @@ overrides = {
         ],
         "tms": [
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Shock Wave",
           "Baton Pass",
@@ -73198,11 +73240,11 @@ overrides = {
           ],
           [
             30,
-            "Poison Jab"
+            "Sludge Bomb"
           ],
           [
             30,
-            "Sludge Bomb"
+            "Poison Jab"
           ],
           [
             35,
@@ -73242,6 +73284,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
@@ -73793,7 +73836,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        50
+        55
       ]
     },
     "Chandelure": {
@@ -74005,6 +74048,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -74142,6 +74186,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -74186,7 +74231,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Haxorus": {
@@ -74205,7 +74250,7 @@ overrides = {
         "hp": 96,
         "at": 147,
         "df": 100,
-        "sa": 60,
+        "sa": 70,
         "sd": 90,
         "sp": 97
       },
@@ -74281,6 +74326,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -74408,7 +74454,6 @@ overrides = {
         "tms": [
           "Hone Claws",
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -74535,7 +74580,6 @@ overrides = {
           "Hone Claws",
           "Roar",
           "Toxic",
-          "Hail",
           "Bulk Up",
           "Hidden Power",
           "Taunt",
@@ -74641,13 +74685,16 @@ overrides = {
             "Flash Cannon"
           ],
           [
+            48,
+            "Magnet Bomb"
+          ],
+          [
             60,
             "Sheer Cold"
           ]
         ],
         "tms": [
           "Toxic",
-          "Hail",
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
@@ -75022,7 +75069,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Storm Drain",
+        "Water Absorb",
         "",
         "Sand Veil"
       ]
@@ -75152,7 +75199,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        50
+        35
       ]
     },
     "Mienshao": {
@@ -75284,7 +75331,7 @@ overrides = {
         "Fighting"
       ],
       "items": [
-        "None",
+        "Berry Juice",
         "None",
         "None"
       ],
@@ -75364,6 +75411,7 @@ overrides = {
           "Dragon Claw",
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -75699,9 +75747,9 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 45,
-        "at": 85,
-        "df": 70,
+        "hp": 75,
+        "at": 95,
+        "df": 80,
         "sa": 40,
         "sd": 40,
         "sp": 60
@@ -75749,7 +75797,7 @@ overrides = {
             "Night Slash"
           ],
           [
-            48,
+            50,
             "Feint Attack"
           ],
           [
@@ -75818,7 +75866,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        52
+        50
       ]
     },
     "Bisharp": {
@@ -75884,7 +75932,7 @@ overrides = {
             "Night Slash"
           ],
           [
-            48,
+            50,
             "Feint Attack"
           ],
           [
@@ -76063,7 +76111,7 @@ overrides = {
       },
       "abs": [
         "Rock Head",
-        "Sap Sipper",
+        "",
         "Soundproof"
       ]
     },
@@ -76869,6 +76917,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -76987,6 +77036,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -77024,7 +77074,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        64
+        65
       ]
     },
     "Hydreigon": {
@@ -77105,6 +77155,7 @@ overrides = {
         "tms": [
           "Roar",
           "Toxic",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Taunt",
@@ -77456,7 +77507,7 @@ overrides = {
           ],
           [
             49,
-            "Swords Dance"
+            "Aura Sphere"
           ],
           [
             55,
@@ -77464,7 +77515,7 @@ overrides = {
           ],
           [
             61,
-            "Work Up"
+            "Iron Tail"
           ],
           [
             67,
@@ -77581,15 +77632,11 @@ overrides = {
           ],
           [
             49,
-            "Swords Dance"
+            "Earthquake"
           ],
           [
             55,
             "Quick Guard"
-          ],
-          [
-            61,
-            "Work Up"
           ],
           [
             67,
@@ -77687,7 +77734,7 @@ overrides = {
           ],
           [
             19,
-            "Take Down"
+            "Frenzy Plant"
           ],
           [
             25,
@@ -77695,7 +77742,7 @@ overrides = {
           ],
           [
             31,
-            "Retaliate"
+            "Aura Sphere"
           ],
           [
             37,
@@ -77707,7 +77754,7 @@ overrides = {
           ],
           [
             49,
-            "Swords Dance"
+            "Needle Arm"
           ],
           [
             55,
@@ -77715,7 +77762,7 @@ overrides = {
           ],
           [
             61,
-            "Work Up"
+            "Leaf Storm"
           ],
           [
             67,
@@ -77842,7 +77889,7 @@ overrides = {
           ],
           [
             61,
-            "Rain Dance"
+            "Aeroblast"
           ],
           [
             67,
@@ -78550,7 +78597,7 @@ overrides = {
           "Hone Claws",
           "Dragon Claw",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
@@ -78677,7 +78724,7 @@ overrides = {
           "Calm Mind",
           "Roar",
           "Toxic",
-          "Hail",
+          "Dragon Pulse",
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
@@ -79002,8 +79049,145 @@ overrides = {
         ""
       ]
     },
-    "": {
-      "name": "",
+    "Deoxys-Attack": {
+      "name": "Deoxys-Attack",
+      "num": 650,
+      "types": [
+        "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 180,
+        "df": 20,
+        "sa": 180,
+        "sd": 20,
+        "sp": 150
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Wrap"
+          ],
+          [
+            9,
+            "Night Shade"
+          ],
+          [
+            17,
+            "Teleport"
+          ],
+          [
+            25,
+            "Taunt"
+          ],
+          [
+            33,
+            "Pursuit"
+          ],
+          [
+            41,
+            "Psychic"
+          ],
+          [
+            49,
+            "Superpower"
+          ],
+          [
+            57,
+            "Psycho Shift"
+          ],
+          [
+            65,
+            "Zen Headbutt"
+          ],
+          [
+            73,
+            "Cosmic Power"
+          ],
+          [
+            81,
+            "Zap Cannon"
+          ],
+          [
+            89,
+            "Psycho Boost"
+          ],
+          [
+            97,
+            "Hyper Beam"
+          ]
+        ],
+        "tms": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Water Pulse",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Natural Gift",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash",
+          "Cut",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Deoxys-Defense": {
+      "name": "Deoxys-Defense",
       "num": 651,
       "types": [
         "Psychic"
@@ -79147,86 +79331,1788 @@ overrides = {
         ""
       ]
     },
-    "Alt Form": {
-      "name": "Alt Form",
-      "num": 668,
+    "Deoxys-Speed": {
+      "name": "Deoxys-Speed",
+      "num": 652,
       "types": [
-        "231",
-        "Poison"
+        "Psychic"
       ],
       "items": [
-        "999",
-        "999",
-        "999"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
-        "hp": 231,
-        "at": 3,
-        "df": 231,
-        "sa": 231,
-        "sd": 3,
-        "sp": 3
+        "hp": 50,
+        "at": 95,
+        "df": 90,
+        "sa": 95,
+        "sd": 90,
+        "sp": 180
       },
       "learnset_info": {
-        "learnset": [],
+        "learnset": [
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Wrap"
+          ],
+          [
+            9,
+            "Night Shade"
+          ],
+          [
+            17,
+            "Double Team"
+          ],
+          [
+            25,
+            "Knock Off"
+          ],
+          [
+            33,
+            "Pursuit"
+          ],
+          [
+            41,
+            "Psychic"
+          ],
+          [
+            49,
+            "Swift"
+          ],
+          [
+            57,
+            "Psycho Shift"
+          ],
+          [
+            65,
+            "Zen Headbutt"
+          ],
+          [
+            73,
+            "Agility"
+          ],
+          [
+            81,
+            "Recover"
+          ],
+          [
+            89,
+            "Psycho Boost"
+          ],
+          [
+            97,
+            "Extreme Speed"
+          ]
+        ],
         "tms": [
-          "Hone Claws",
-          "Dragon Claw",
           "Psyshock",
+          "Calm Mind",
           "Toxic",
-          "Hail",
-          "Bulk Up",
-          "Venoshock",
           "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Shock Wave",
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
           "Solar Beam",
-          "Smack Down",
           "Thunderbolt",
           "Thunder",
-          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
           "Water Pulse",
-          "Sludge Wave",
-          "Flamethrower",
-          "Fire Blast",
           "Rock Tomb",
           "Aerial Ace",
           "Torment",
           "Facade",
-          "Echoed Voice",
-          "Overheat",
+          "Rest",
+          "Low Sweep",
+          "Round",
           "Ally Switch",
-          "False Swipe",
-          "Scald",
+          "Focus Blast",
+          "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Sky Drop",
-          "Shadow Claw",
-          "Payback",
-          "Retaliate",
+          "Giga Impact",
           "Flash",
-          "Stone Edge",
-          "Volt Switch",
           "Thunder Wave",
-          "Gyro Ball",
-          "X-Scissor",
-          "Dragon Tail",
-          "Self-Destruct",
+          "Magical Leaf",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
           "Grass Knot",
           "Swagger",
-          "Pluck",
-          "U-turn",
           "Natural Gift",
-          "Fly",
-          "Surf",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash",
+          "Cut",
           "Strength"
         ]
       },
       "abs": [
-        "231",
-        "Speed Boost",
-        "231"
+        "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Wormadam-Sandy": {
+      "name": "Wormadam-Sandy",
+      "num": 653,
+      "types": [
+        "Bug",
+        "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 109,
+        "df": 105,
+        "sa": 59,
+        "sd": 105,
+        "sp": 36
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Bug Bite"
+          ],
+          [
+            1,
+            "Protect"
+          ],
+          [
+            1,
+            "String Shot"
+          ],
+          [
+            20,
+            "Bulldoze"
+          ],
+          [
+            23,
+            "Fury Cutter"
+          ],
+          [
+            28,
+            "Leech Life"
+          ],
+          [
+            33,
+            "Dig"
+          ],
+          [
+            36,
+            "X-Scissor"
+          ],
+          [
+            40,
+            "Earthquake"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "Magical Leaf",
+          "Bulldoze",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Adaptability",
+        "",
+        "Overcoat"
+      ]
+    },
+    "Wormadam-Trash": {
+      "name": "Wormadam-Trash",
+      "num": 654,
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 89,
+        "df": 95,
+        "sa": 99,
+        "sd": 95,
+        "sp": 36
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Bug Bite"
+          ],
+          [
+            1,
+            "Protect"
+          ],
+          [
+            1,
+            "String Shot"
+          ],
+          [
+            20,
+            "Mirror Shot"
+          ],
+          [
+            23,
+            "Silver Wind"
+          ],
+          [
+            28,
+            "Signal Beam"
+          ],
+          [
+            33,
+            "Magnet Bomb"
+          ],
+          [
+            36,
+            "Bug Buzz"
+          ],
+          [
+            40,
+            "Flash Cannon"
+          ],
+          [
+            50,
+            "Metal Burst"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Safeguard",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift",
+          "Flash Cannon"
+        ]
+      },
+      "abs": [
+        "Overcoat",
+        "",
+        "Overcoat"
+      ]
+    },
+    "Shaymin-Sky": {
+      "name": "Shaymin-Sky",
+      "num": 655,
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "items": [
+        "Lum Berry",
+        "Lum Berry",
+        "None"
+      ],
+      "bs": {
+        "hp": 100,
+        "at": 103,
+        "df": 75,
+        "sa": 120,
+        "sd": 75,
+        "sp": 127
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Growth"
+          ],
+          [
+            10,
+            "Magical Leaf"
+          ],
+          [
+            19,
+            "Leech Seed"
+          ],
+          [
+            28,
+            "Quick Attack"
+          ],
+          [
+            37,
+            "Sweet Scent"
+          ],
+          [
+            46,
+            "Natural Gift"
+          ],
+          [
+            55,
+            "Worry Seed"
+          ],
+          [
+            64,
+            "Air Slash"
+          ],
+          [
+            73,
+            "Energy Ball"
+          ],
+          [
+            82,
+            "Sweet Kiss"
+          ],
+          [
+            91,
+            "Leaf Storm"
+          ],
+          [
+            100,
+            "Seed Flare"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Safeguard",
+          "Dark Pulse",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Magical Leaf",
+          "Grass Knot",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Serene Grace",
+        "",
+        ""
+      ]
+    },
+    "Giratina-Origin": {
+      "name": "Giratina-Origin",
+      "num": 656,
+      "types": [
+        "Ghost",
+        "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 150,
+        "at": 120,
+        "df": 100,
+        "sa": 120,
+        "sd": 100,
+        "sp": 90
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Dragon Breath"
+          ],
+          [
+            1,
+            "Scary Face"
+          ],
+          [
+            6,
+            "Ominous Wind"
+          ],
+          [
+            10,
+            "Ancient Power"
+          ],
+          [
+            15,
+            "Slash"
+          ],
+          [
+            19,
+            "Shadow Sneak"
+          ],
+          [
+            24,
+            "Destiny Bond"
+          ],
+          [
+            28,
+            "Dragon Claw"
+          ],
+          [
+            33,
+            "Earth Power"
+          ],
+          [
+            37,
+            "Aura Sphere"
+          ],
+          [
+            42,
+            "Shadow Claw"
+          ],
+          [
+            46,
+            "Shadow Force"
+          ],
+          [
+            50,
+            "Hex"
+          ]
+        ],
+        "tms": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Bulldoze",
+          "Dragon Tail",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift",
+          "Rock Smash",
+          "Cut",
+          "Fly",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        "Levitate"
+      ]
+    },
+    "Rotom-Heat": {
+      "name": "Rotom-Heat",
+      "num": 657,
+      "types": [
+        "Electric",
+        "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 107,
+        "sa": 105,
+        "sd": 107,
+        "sp": 86
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        ""
+      ]
+    },
+    "Rotom-Wash": {
+      "name": "Rotom-Wash",
+      "num": 658,
+      "types": [
+        "Electric",
+        "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 122,
+        "sa": 105,
+        "sd": 122,
+        "sp": 56
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        "Drizzle"
+      ]
+    },
+    "Rotom-Frost": {
+      "name": "Rotom-Frost",
+      "num": 659,
+      "types": [
+        "Electric",
+        "Ice"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 97,
+        "sa": 105,
+        "sd": 97,
+        "sp": 106
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        ""
+      ]
+    },
+    "Rotom-Fan": {
+      "name": "Rotom-Fan",
+      "num": 660,
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 82,
+        "sa": 105,
+        "sd": 82,
+        "sp": 136
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Motor Drive",
+        "",
+        ""
+      ]
+    },
+    "Rotom-Mow": {
+      "name": "Rotom-Mow",
+      "num": 661,
+      "types": [
+        "Electric",
+        "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 97,
+        "sa": 105,
+        "sd": 97,
+        "sp": 106
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        ""
+      ]
+    },
+    "Castform-Sunny": {
+      "name": "Castform-Sunny",
+      "num": 662,
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 70,
+        "df": 70,
+        "sa": 110,
+        "sd": 70,
+        "sp": 110
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Dragon Pulse",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        ""
+      ]
+    },
+    "Castform-Rainy": {
+      "name": "Castform-Rainy",
+      "num": 663,
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 70,
+        "df": 70,
+        "sa": 110,
+        "sd": 70,
+        "sp": 110
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Dragon Pulse",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        "Drizzle"
+      ]
+    },
+    "Castform-Snowy": {
+      "name": "Castform-Snowy",
+      "num": 664,
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 70,
+        "df": 70,
+        "sa": 110,
+        "sd": 70,
+        "sp": 110
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Dragon Pulse",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        ""
+      ]
+    },
+    "Basculin-Blue-Striped": {
+      "name": "Basculin-Blue-Striped",
+      "num": 665,
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 80,
+        "df": 70,
+        "sa": 112,
+        "sd": 70,
+        "sp": 98
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Water Gun"
+          ],
+          [
+            7,
+            "Bite"
+          ],
+          [
+            13,
+            "Scary Face"
+          ],
+          [
+            21,
+            "Snarl"
+          ],
+          [
+            25,
+            "Aurora Beam"
+          ],
+          [
+            30,
+            "Scald"
+          ],
+          [
+            36,
+            "Dark Pulse"
+          ],
+          [
+            40,
+            "Surf"
+          ],
+          [
+            60,
+            "Night Daze"
+          ],
+          [
+            70,
+            "Hydro Cannon"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Return",
+          "Double Team",
+          "Water Pulse",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Natural Gift",
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
+        ]
+      },
+      "abs": [
+        "Mold Breaker",
+        "Adaptability",
+        "Drizzle"
+      ]
+    },
+    "Darmanitan-Zen": {
+      "name": "Darmanitan-Zen",
+      "num": 666,
+      "types": [
+        "Fire",
+        "Psychic"
+      ],
+      "items": [
+        "Rawst Berry",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 105,
+        "at": 30,
+        "df": 105,
+        "sa": 140,
+        "sd": 105,
+        "sp": 55
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            1,
+            "Rollout"
+          ],
+          [
+            1,
+            "Incinerate"
+          ],
+          [
+            1,
+            "Rage"
+          ],
+          [
+            3,
+            "Rollout"
+          ],
+          [
+            6,
+            "Incinerate"
+          ],
+          [
+            9,
+            "Rage"
+          ],
+          [
+            11,
+            "Fire Fang"
+          ],
+          [
+            14,
+            "Headbutt"
+          ],
+          [
+            17,
+            "Swagger"
+          ],
+          [
+            19,
+            "Facade"
+          ],
+          [
+            22,
+            "Fire Punch"
+          ],
+          [
+            25,
+            "Work Up"
+          ],
+          [
+            27,
+            "Thrash"
+          ],
+          [
+            30,
+            "Belly Drum"
+          ],
+          [
+            33,
+            "Flare Blitz"
+          ],
+          [
+            35,
+            "Hammer Arm"
+          ],
+          [
+            39,
+            "Taunt"
+          ],
+          [
+            47,
+            "Superpower"
+          ],
+          [
+            54,
+            "Overheat"
+          ]
+        ],
+        "tms": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Baton Pass",
+          "Dark Pulse",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Self-Destruct",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Natural Gift",
+          "Rock Smash",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Sheer Force",
+        "",
+        "Zen Mode"
+      ]
+    },
+    "Meloetta-Pirouette": {
+      "name": "Meloetta-Pirouette",
+      "num": 667,
+      "types": [
+        "Normal",
+        "Fighting"
+      ],
+      "items": [
+        "Star Piece",
+        "Star Piece",
+        "None"
+      ],
+      "bs": {
+        "hp": 100,
+        "at": 128,
+        "df": 90,
+        "sa": 77,
+        "sd": 77,
+        "sp": 128
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Round"
+          ],
+          [
+            6,
+            "Quick Attack"
+          ],
+          [
+            11,
+            "Confusion"
+          ],
+          [
+            16,
+            "Sing"
+          ],
+          [
+            21,
+            "Teeter Dance"
+          ],
+          [
+            26,
+            "Acrobatics"
+          ],
+          [
+            31,
+            "Psybeam"
+          ],
+          [
+            36,
+            "Echoed Voice"
+          ],
+          [
+            43,
+            "U-turn"
+          ],
+          [
+            50,
+            "Wake-Up Slap"
+          ],
+          [
+            57,
+            "Psychic"
+          ],
+          [
+            64,
+            "Hyper Voice"
+          ],
+          [
+            71,
+            "Role Play"
+          ],
+          [
+            78,
+            "Close Combat"
+          ],
+          [
+            85,
+            "Perish Song"
+          ]
+        ],
+        "tms": [
+          "Hone Claws",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Natural Gift",
+          "Trick Room",
+          "Rock Smash",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Serene Grace",
+        "",
+        ""
       ]
     }
   },
@@ -79328,7 +81214,7 @@ overrides = {
       "num": 6,
       "desc": "The target is punched with a fiery fist. It may also leave the target with a burn.",
       "e_id": 4,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -79344,7 +81230,7 @@ overrides = {
       "num": 7,
       "desc": "The target is punched with an icy fist. It may also leave the target frozen.",
       "e_id": 5,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -79360,7 +81246,7 @@ overrides = {
       "num": 8,
       "desc": "The target is punched with an electrified fist. It may also leave the target with paralysis.",
       "e_id": 6,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -79412,8 +81298,7 @@ overrides = {
       "num": 12,
       "desc": "Bird power, this attack harshly reduces  the user's Sp. Atk.",
       "e_id": 39,
-      "tar": "allAdjacentFoes",
-      "sf": true
+      "tar": "allAdjacentFoes"
     },
     "Swords Dance": {
       "t": "Normal",
@@ -79426,7 +81311,7 @@ overrides = {
       "num": 13,
       "desc": "A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.",
       "e_id": 50,
-      "sf": true
+      "secondaries": true
     },
     "Cut": {
       "t": "Bug",
@@ -79499,7 +81384,7 @@ overrides = {
       "num": 19,
       "desc": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.",
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Slam": {
       "t": "Normal",
@@ -79600,7 +81485,7 @@ overrides = {
       "num": 27,
       "desc": "Sand is hurled in the target's face, reducing its accuracy.",
       "e_id": 23,
-      "sf": true
+      "secondaries": true
     },
     "Headbutt": {
       "t": "Normal",
@@ -79652,8 +81537,7 @@ overrides = {
       "name": "Horn Drill",
       "num": 31,
       "desc": "The user stabs the target with a horn that rotates like a drill. It also cuts the user's Defense and Sp. Def. ",
-      "e_id": 198,
-      "sf": true
+      "e_id": 198
     },
     "Tackle": {
       "t": "Normal",
@@ -79678,7 +81562,7 @@ overrides = {
       "num": 33,
       "desc": "The user drops onto the target with its full body weight. It may also leave the target with paralysis.",
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Wrap": {
       "t": "Normal",
@@ -79691,7 +81575,7 @@ overrides = {
       "num": 34,
       "desc": "A long body or vines are used to wrap and squeeze the target for four to five turns.",
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Take Down": {
       "t": "Normal",
@@ -79745,7 +81629,7 @@ overrides = {
       "desc": "The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat.",
       "e_id": 19,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Poison Sting": {
       "t": "Poison",
@@ -79758,7 +81642,7 @@ overrides = {
       "num": 39,
       "desc": "The user stabs the target with a poisonous stinger. This may also poison the target.",
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Twineedle": {
       "t": "Bug",
@@ -79775,7 +81659,7 @@ overrides = {
         2,
         2
       ],
-      "sf": true
+      "secondaries": true
     },
     "Pin Missile": {
       "t": "Bug",
@@ -79805,7 +81689,7 @@ overrides = {
       "desc": "The opposing team gains an intimidating leer with sharp eyes. The opposing team's Defense stats are reduced.",
       "e_id": 19,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Bite": {
       "t": "Dark",
@@ -79823,7 +81707,7 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 40,
+      "pp": 3,
       "acc": 100,
       "prio": 0,
       "name": "Growl",
@@ -79831,7 +81715,7 @@ overrides = {
       "desc": "The user growls in an endearing way, making the opposing team less wary. The foes' Attack stats are lowered.",
       "e_id": 18,
       "tar": "allAdjacentFoes",
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -79862,7 +81746,7 @@ overrides = {
       "num": 46,
       "desc": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
       "e_id": 1,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -79878,7 +81762,7 @@ overrides = {
       "num": 47,
       "desc": "The user generates odd sound waves from its body. It may confuse the target.",
       "e_id": 49,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -79905,7 +81789,8 @@ overrides = {
       "name": "Disable",
       "num": 49,
       "desc": "For four turns, this move prevents the target from using the move it last used.",
-      "e_id": 86
+      "e_id": 86,
+      "secondaries": true
     },
     "Acid": {
       "t": "Poison",
@@ -79919,7 +81804,7 @@ overrides = {
       "desc": "The opposing team is attacked with a spray of harsh acid. The acid may also lower the targets' Sp. Def stats.",
       "e_id": 72,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Ember": {
       "t": "Fire",
@@ -79932,7 +81817,7 @@ overrides = {
       "num": 51,
       "desc": "The target is attacked with small flames. It may also leave the target with a burn.",
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Flamethrower": {
       "t": "Fire",
@@ -79945,7 +81830,7 @@ overrides = {
       "num": 52,
       "desc": "The target is scorched with an intense blast of fire. It may also leave the target with a burn.",
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Mist": {
       "t": "Ice",
@@ -80007,7 +81892,7 @@ overrides = {
       "num": 57,
       "desc": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
       "e_id": 5,
-      "sf": true
+      "secondaries": true
     },
     "Blizzard": {
       "t": "Ice",
@@ -80021,7 +81906,7 @@ overrides = {
       "desc": "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.",
       "e_id": 260,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Psybeam": {
       "t": "Psychic",
@@ -80034,7 +81919,7 @@ overrides = {
       "num": 59,
       "desc": "The target is attacked with a peculiar ray. It may also cause confusion.",
       "e_id": 76,
-      "sf": true
+      "secondaries": true
     },
     "Bubble Beam": {
       "t": "Water",
@@ -80047,7 +81932,7 @@ overrides = {
       "num": 60,
       "desc": "A spray of bubbles is forcefully ejected at the opposing team. It may also lower their Speed stats.",
       "e_id": 70,
-      "sf": true
+      "secondaries": true
     },
     "Aurora Beam": {
       "t": "Ice",
@@ -80060,7 +81945,7 @@ overrides = {
       "num": 61,
       "desc": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
       "e_id": 68,
-      "sf": true
+      "secondaries": true
     },
     "Hyper Beam": {
       "t": "Normal",
@@ -80193,7 +82078,7 @@ overrides = {
       "num": 72,
       "desc": "A seed is planted on the target. It steals some HP from the target every turn.",
       "e_id": 84,
-      "sf": true
+      "secondaries": true
     },
     "Growth": {
       "t": "Normal",
@@ -80206,7 +82091,7 @@ overrides = {
       "num": 73,
       "desc": "The user's body grows all at once, raising the Attack and Sp. Atk stats.",
       "e_id": 316,
-      "sf": true
+      "secondaries": true
     },
     "Razor Leaf": {
       "t": "Grass",
@@ -80244,7 +82129,7 @@ overrides = {
       "num": 76,
       "desc": "The user scatters a cloud of poisonous dust on the target. It may poison the target.",
       "e_id": 66,
-      "sf": true
+      "secondaries": true
     },
     "Stun Spore": {
       "t": "Grass",
@@ -80257,7 +82142,7 @@ overrides = {
       "num": 77,
       "desc": "The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.",
       "e_id": 67,
-      "sf": true
+      "secondaries": true
     },
     "Sleep Powder": {
       "t": "Grass",
@@ -80270,7 +82155,7 @@ overrides = {
       "num": 78,
       "desc": "The user scatters a big cloud of sleep-inducing dust around the target.",
       "e_id": 1,
-      "sf": true
+      "secondaries": true
     },
     "Petal Dance": {
       "t": "Grass",
@@ -80296,7 +82181,7 @@ overrides = {
       "desc": "The targets are bound with silk blown from the user's mouth. This silk reduces the targets' Speed stat.",
       "e_id": 20,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Dragon Rage": {
       "t": "Dragon",
@@ -80321,7 +82206,7 @@ overrides = {
       "num": 82,
       "desc": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Thunder Shock": {
       "t": "Electric",
@@ -80334,7 +82219,7 @@ overrides = {
       "num": 83,
       "desc": "A jolt of electricity is hurled at the target to inflict damage. It may also leave the target with paralysis.",
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Thunderbolt": {
       "t": "Electric",
@@ -80347,7 +82232,7 @@ overrides = {
       "num": 84,
       "desc": "A strong electric blast is loosed at the target. It may also leave the target with paralysis.",
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Thunder Wave": {
       "t": "Electric",
@@ -80360,7 +82245,7 @@ overrides = {
       "num": 85,
       "desc": "A weak electric charge is launched at the target. It causes paralysis if it hits.",
       "e_id": 67,
-      "sf": true
+      "secondaries": true
     },
     "Thunder": {
       "t": "Electric",
@@ -80373,7 +82258,7 @@ overrides = {
       "num": 86,
       "desc": "A wicked thunderbolt is dropped on the target to inflict damage. It may also leave the target with paralysis.",
       "e_id": 152,
-      "sf": true
+      "secondaries": true
     },
     "Rock Throw": {
       "t": "Rock",
@@ -80410,8 +82295,7 @@ overrides = {
       "name": "Fissure",
       "num": 89,
       "desc": "The user opens up a fissure in the groundand drops the target in. It also  cuts the user's Defense and Sp. Def. ",
-      "e_id": 198,
-      "sf": true
+      "e_id": 198
     },
     "Dig": {
       "t": "Ground",
@@ -80436,7 +82320,7 @@ overrides = {
       "num": 91,
       "desc": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
       "e_id": 33,
-      "sf": true
+      "secondaries": true
     },
     "Confusion": {
       "t": "Psychic",
@@ -80449,7 +82333,7 @@ overrides = {
       "num": 92,
       "desc": "The target is hit by a weak telekinetic force. It may also leave the target confused.",
       "e_id": 76,
-      "sf": true
+      "secondaries": true
     },
     "Psychic": {
       "t": "Psychic",
@@ -80462,7 +82346,7 @@ overrides = {
       "num": 93,
       "desc": "The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.",
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Hypnosis": {
       "t": "Psychic",
@@ -80475,7 +82359,7 @@ overrides = {
       "num": 94,
       "desc": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
       "e_id": 1,
-      "sf": true
+      "secondaries": true
     },
     "Meditate": {
       "t": "Psychic",
@@ -80488,7 +82372,7 @@ overrides = {
       "num": 95,
       "desc": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
       "e_id": 10,
-      "sf": true
+      "secondaries": true
     },
     "Agility": {
       "t": "Psychic",
@@ -80501,7 +82385,7 @@ overrides = {
       "num": 96,
       "desc": "The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.",
       "e_id": 52,
-      "sf": true
+      "secondaries": true
     },
     "Quick Attack": {
       "t": "Normal",
@@ -80574,7 +82458,7 @@ overrides = {
       "num": 102,
       "desc": "An earsplitting screech harshly reduces the target's Defense stat.",
       "e_id": 59,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -80590,7 +82474,7 @@ overrides = {
       "num": 103,
       "desc": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
       "e_id": 16,
-      "sf": true
+      "secondaries": true
     },
     "Recover": {
       "t": "Normal",
@@ -80615,7 +82499,7 @@ overrides = {
       "num": 105,
       "desc": "The user stiffens all the muscles in its body to raise its Defense stat.",
       "e_id": 11,
-      "sf": true
+      "secondaries": true
     },
     "Minimize": {
       "t": "Normal",
@@ -80628,7 +82512,7 @@ overrides = {
       "num": 106,
       "desc": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
       "e_id": 108,
-      "sf": true
+      "secondaries": true
     },
     "Smokescreen": {
       "t": "Normal",
@@ -80641,7 +82525,7 @@ overrides = {
       "num": 107,
       "desc": "The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.",
       "e_id": 23,
-      "sf": true
+      "secondaries": true
     },
     "Confuse Ray": {
       "t": "Ghost",
@@ -80654,7 +82538,7 @@ overrides = {
       "num": 108,
       "desc": "The target is exposed to a sinister ray that triggers confusion.",
       "e_id": 49,
-      "sf": true
+      "secondaries": true
     },
     "Withdraw": {
       "t": "Water",
@@ -80667,7 +82551,7 @@ overrides = {
       "num": 109,
       "desc": "The user withdraws its body into its hard shell, raising its Defense stat.",
       "e_id": 11,
-      "sf": true
+      "secondaries": true
     },
     "Defense Curl": {
       "t": "Normal",
@@ -80680,7 +82564,7 @@ overrides = {
       "num": 110,
       "desc": "The user curls up to conceal weak spots and raise its Defense stat.",
       "e_id": 156,
-      "sf": true
+      "secondaries": true
     },
     "Barrier": {
       "t": "Psychic",
@@ -80693,7 +82577,7 @@ overrides = {
       "num": 111,
       "desc": "The user throws up a sturdy wall that sharply raises its Defense stat.",
       "e_id": 51,
-      "sf": true
+      "secondaries": true
     },
     "Light Screen": {
       "t": "Psychic",
@@ -80816,7 +82700,7 @@ overrides = {
       "num": 121,
       "desc": "The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.",
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Smog": {
       "t": "Poison",
@@ -80829,7 +82713,7 @@ overrides = {
       "num": 122,
       "desc": "The target is attacked with a discharge of filthy gases. It always poisons the target.",
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Sludge": {
       "t": "Poison",
@@ -80842,7 +82726,7 @@ overrides = {
       "num": 123,
       "desc": "Unsanitary sludge is hurled at the target. It may also poison the target.",
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Bone Club": {
       "t": "Ground",
@@ -80867,7 +82751,7 @@ overrides = {
       "num": 125,
       "desc": "The target is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Waterfall": {
       "t": "Water",
@@ -80883,16 +82767,16 @@ overrides = {
     },
     "Clamp": {
       "t": "Water",
-      "bp": 35,
+      "bp": 50,
       "cat": "Physical",
       "pp": 15,
-      "acc": 85,
+      "acc": 100,
       "prio": 0,
       "name": "Clamp",
       "num": 127,
       "desc": "The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns.",
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Swift": {
       "t": "Normal",
@@ -80946,7 +82830,7 @@ overrides = {
       "num": 131,
       "desc": "The target is attacked with long, creeping tentacles or vines. It may also lower the target's Speed stat.",
       "e_id": 70,
-      "sf": true
+      "secondaries": true
     },
     "Amnesia": {
       "t": "Psychic",
@@ -80959,7 +82843,7 @@ overrides = {
       "num": 132,
       "desc": "The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.",
       "e_id": 54,
-      "sf": true
+      "secondaries": true
     },
     "Kinesis": {
       "t": "Psychic",
@@ -80972,7 +82856,7 @@ overrides = {
       "num": 133,
       "desc": "The user distracts the target by bending a spoon. It lowers the target's accuracy.",
       "e_id": 23,
-      "sf": true
+      "secondaries": true
     },
     "Soft-Boiled": {
       "t": "Normal",
@@ -81009,7 +82893,7 @@ overrides = {
       "num": 136,
       "desc": "The user intimidates the target with the pattern on its belly to cause paralysis.",
       "e_id": 67,
-      "sf": true
+      "secondaries": true
     },
     "Dream Eater": {
       "t": "Psychic",
@@ -81028,14 +82912,14 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 40,
-      "acc": 80,
+      "acc": 100,
       "prio": 0,
       "name": "Poison Gas",
       "num": 138,
       "desc": "A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.",
       "e_id": 66,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Barrage": {
       "t": "Normal",
@@ -81076,7 +82960,7 @@ overrides = {
       "num": 141,
       "desc": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep.",
       "e_id": 1,
-      "sf": true
+      "secondaries": true
     },
     "Sky Attack": {
       "t": "Flying",
@@ -81114,7 +82998,7 @@ overrides = {
       "desc": "A spray of countless bubbles is jetted at the opposing team. It may also lower the targets' Speed stats.",
       "e_id": 70,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Dizzy Punch": {
       "t": "Normal",
@@ -81127,7 +83011,7 @@ overrides = {
       "num": 145,
       "desc": "The target is hit with rhythmically launched punches that may also leave it confused.",
       "e_id": 76,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -81143,7 +83027,7 @@ overrides = {
       "num": 146,
       "desc": "The user scatters bursts of spores that induce sleep.",
       "e_id": 1,
-      "sf": true
+      "secondaries": true
     },
     "Flash": {
       "t": "Normal",
@@ -81156,7 +83040,7 @@ overrides = {
       "num": 147,
       "desc": "The user flashes a bright light that cuts the target's accuracy. It can also be used to illuminate caves.",
       "e_id": 23,
-      "sf": true
+      "secondaries": true
     },
     "Psywave": {
       "t": "Psychic",
@@ -81193,7 +83077,7 @@ overrides = {
       "num": 150,
       "desc": "The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.",
       "e_id": 51,
-      "sf": true
+      "secondaries": true
     },
     "Crabhammer": {
       "t": "Water",
@@ -81301,7 +83185,7 @@ overrides = {
       "num": 158,
       "desc": "The user reduces its polygon count to make itself more jagged, raising the Attack stat.",
       "e_id": 10,
-      "sf": true
+      "secondaries": true
     },
     "Conversion": {
       "t": "Normal",
@@ -81326,7 +83210,7 @@ overrides = {
       "num": 160,
       "desc": "The user strikes with a simultaneous three-beam attack. May also burn, freeze, or leave the target with paralysis.",
       "e_id": 36,
-      "sf": true
+      "secondaries": true
     },
     "Super Fang": {
       "t": "Normal",
@@ -81451,7 +83335,7 @@ overrides = {
       "num": 170,
       "desc": "A sleeping target sees a nightmare that inflicts some damage every turn.",
       "e_id": 107,
-      "sf": true
+      "secondaries": true
     },
     "Flame Wheel": {
       "t": "Fire",
@@ -81464,7 +83348,7 @@ overrides = {
       "num": 171,
       "desc": "The user cloaks itself in fire and charges at the target. It may also leave the target with a burn.",
       "e_id": 125,
-      "sf": true
+      "secondaries": true
     },
     "Snore": {
       "t": "Normal",
@@ -81540,7 +83424,7 @@ overrides = {
       "num": 177,
       "desc": "The user releases cotton-like spores that cling to the target, harshly reducing its Speed stat.",
       "e_id": 60,
-      "sf": true
+      "secondaries": true
     },
     "Reversal": {
       "t": "Fighting",
@@ -81578,7 +83462,7 @@ overrides = {
       "desc": "The user attacks with a chilling gust of powdery snow. It may also freeze the targets.",
       "e_id": 5,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Protect": {
       "t": "Normal",
@@ -81618,7 +83502,7 @@ overrides = {
       "num": 183,
       "desc": "The user frightens the target with a scary face to harshly reduce its Speed stat.",
       "e_id": 60,
-      "sf": true
+      "secondaries": true
     },
     "Feint Attack": {
       "t": "Dark",
@@ -81643,7 +83527,7 @@ overrides = {
       "num": 185,
       "desc": "The user kisses the target with a sweet, angelic cuteness that causes confusion.",
       "e_id": 49,
-      "sf": true
+      "secondaries": true
     },
     "Belly Drum": {
       "t": "Normal",
@@ -81668,7 +83552,7 @@ overrides = {
       "num": 187,
       "desc": "Unsanitary sludge is hurled at the target. It may also poison the target.",
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Mud-Slap": {
       "t": "Ground",
@@ -81681,7 +83565,7 @@ overrides = {
       "num": 188,
       "desc": "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Octazooka": {
       "t": "Water",
@@ -81694,7 +83578,7 @@ overrides = {
       "num": 189,
       "desc": "The user attacks by spraying ink in the target's face or eyes. It always lowers the target's Sp.Def.",
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Spikes": {
       "t": "Ground",
@@ -81717,9 +83601,9 @@ overrides = {
       "prio": 0,
       "name": "Zap Cannon",
       "num": 191,
-      "desc": "The user fires an electric blast like a cannon to inflict damage. This attack harshly reduces the user's Sp. Atk. ",
+      "desc": "The user fires an electric blast like a cannon to inflict damage. This atk harshly reduces the user's Sp. Atk. ",
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Foresight": {
       "t": "Normal",
@@ -81732,7 +83616,7 @@ overrides = {
       "num": 192,
       "desc": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. It also enables an evasive target to be hit.",
       "e_id": 113,
-      "sf": true
+      "secondaries": true
     },
     "Destiny Bond": {
       "t": "Ghost",
@@ -81757,7 +83641,6 @@ overrides = {
       "num": 194,
       "desc": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
       "e_id": 114,
-      "sf": true,
       "flags": {
         "sound": true
       }
@@ -81774,7 +83657,7 @@ overrides = {
       "desc": "The user attacks with a gust of chilled air. It also reduces the targets' Speed stat.",
       "e_id": 70,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Detect": {
       "t": "Fighting",
@@ -81868,14 +83751,14 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 20,
+      "pp": 2,
       "acc": 100,
       "prio": 0,
       "name": "Charm",
       "num": 203,
       "desc": "The user gazes at the target rather charmingly, making it less wary. The target's Attack is harshly lowered.",
       "e_id": 58,
-      "sf": true
+      "secondaries": true
     },
     "Rollout": {
       "t": "Rock",
@@ -81912,7 +83795,7 @@ overrides = {
       "num": 206,
       "desc": "The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.",
       "e_id": 118,
-      "sf": true
+      "secondaries": true
     },
     "Milk Drink": {
       "t": "Normal",
@@ -81937,7 +83820,7 @@ overrides = {
       "num": 208,
       "desc": "The user throws an electrically charged tackle at the target. It may also leave the target with paralysis.",
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Fury Cutter": {
       "t": "Bug",
@@ -81962,7 +83845,7 @@ overrides = {
       "num": 210,
       "desc": "The target is hit with wings of steel. It may also raise the user's Defense stat.",
       "e_id": 138,
-      "sf": true
+      "secondaries": true
     },
     "Mean Look": {
       "t": "Normal",
@@ -81987,7 +83870,7 @@ overrides = {
       "num": 212,
       "desc": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
       "e_id": 120,
-      "sf": true
+      "secondaries": true
     },
     "Sleep Talk": {
       "t": "Normal",
@@ -82087,7 +83970,7 @@ overrides = {
       "num": 220,
       "desc": "The target is razed with a mystical fire of great intensity. It may also leave the target with a burn.",
       "e_id": 125,
-      "sf": true
+      "secondaries": true
     },
     "Magnitude": {
       "t": "Ground",
@@ -82113,7 +83996,7 @@ overrides = {
       "num": 222,
       "desc": "The user punches the target with full, concentrated power. It confuses the target if it hits.",
       "e_id": 76,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -82141,7 +84024,7 @@ overrides = {
       "num": 224,
       "desc": "The user exhales a mighty gust that inflicts damage. It may also leave the target with paralysis.",
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Baton Pass": {
       "t": "Normal",
@@ -82190,7 +84073,7 @@ overrides = {
       "num": 228,
       "desc": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
       "e_id": 129,
-      "sf": true
+      "secondaries": true
     },
     "Sweet Scent": {
       "t": "Normal",
@@ -82204,7 +84087,7 @@ overrides = {
       "desc": "A sweet scent that lowers the opposing team's evasiveness. It also lures wild Pokémon if used in grass, etc.",
       "e_id": 24,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Iron Tail": {
       "t": "Steel",
@@ -82217,7 +84100,7 @@ overrides = {
       "num": 230,
       "desc": "The target is slammed with a steel-hard tail. It may also lower the target's Defense stat.",
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Metal Claw": {
       "t": "Steel",
@@ -82230,7 +84113,7 @@ overrides = {
       "num": 231,
       "desc": "The target is raked with steel claws. It may also raise the user's Attack stat.",
       "e_id": 139,
-      "sf": true
+      "secondaries": true
     },
     "Vital Throw": {
       "t": "Fighting",
@@ -82352,7 +84235,7 @@ overrides = {
       "num": 241,
       "desc": "The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.",
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Mirror Coat": {
       "t": "Psychic",
@@ -82401,7 +84284,7 @@ overrides = {
       "num": 245,
       "desc": "The user attacks with a prehistoric power. It may also raise all the user's stats at once.",
       "e_id": 140,
-      "sf": true
+      "secondaries": true
     },
     "Shadow Ball": {
       "t": "Ghost",
@@ -82414,7 +84297,7 @@ overrides = {
       "num": 246,
       "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Future Sight": {
       "t": "Psychic",
@@ -82439,7 +84322,7 @@ overrides = {
       "num": 248,
       "desc": "The user attacks with a punch that can shatter a rock. It always lowers the target's Defense stat.",
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Whirlpool": {
       "t": "Water",
@@ -82452,7 +84335,7 @@ overrides = {
       "num": 249,
       "desc": "Traps foes in a violent swirling whirlpool for four to five turns.",
       "e_id": 261,
-      "sf": true
+      "secondaries": true
     },
     "Beat Up": {
       "t": "Dark",
@@ -82545,7 +84428,7 @@ overrides = {
       "desc": "The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.",
       "e_id": 4,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Hail": {
       "t": "Ice",
@@ -82570,7 +84453,7 @@ overrides = {
       "num": 258,
       "desc": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
       "e_id": 165,
-      "sf": true
+      "secondaries": true
     },
     "Flatter": {
       "t": "Dark",
@@ -82583,7 +84466,7 @@ overrides = {
       "num": 259,
       "desc": "Flattery is used to confuse the target. However, it also raises the target's Sp. Atk stat.",
       "e_id": 166,
-      "sf": true
+      "secondaries": true
     },
     "Will-O-Wisp": {
       "t": "Fire",
@@ -82596,7 +84479,7 @@ overrides = {
       "num": 260,
       "desc": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
       "e_id": 167,
-      "sf": true
+      "secondaries": true
     },
     "Memento": {
       "t": "Dark",
@@ -82684,7 +84567,7 @@ overrides = {
       "num": 267,
       "desc": "The user boosts the power of the Electric move it uses on the next turn. It also raises the user's Sp. Def stat.",
       "e_id": 174,
-      "sf": true
+      "secondaries": true
     },
     "Taunt": {
       "t": "Dark",
@@ -82768,8 +84651,7 @@ overrides = {
       "name": "Ingrain",
       "num": 274,
       "desc": "The user lays roots that restore its HP on every turn. Because it is rooted, it can't switch out.",
-      "e_id": 181,
-      "sf": true
+      "e_id": 181
     },
     "Superpower": {
       "t": "Fighting",
@@ -82846,7 +84728,7 @@ overrides = {
       "num": 280,
       "desc": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
       "e_id": 187,
-      "sf": true
+      "secondaries": true
     },
     "Knock Off": {
       "t": "Dark",
@@ -83008,7 +84890,7 @@ overrides = {
       "num": 293,
       "desc": "The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat.",
       "e_id": 321,
-      "sf": true
+      "secondaries": true
     },
     "Luster Purge": {
       "t": "Psychic",
@@ -83020,8 +84902,7 @@ overrides = {
       "name": "Luster Purge",
       "num": 294,
       "desc": "The user lets loose a damaging burst of light. It also cuts the user's Defense and Sp. Def. ",
-      "e_id": 72,
-      "sf": true
+      "e_id": 72
     },
     "Mist Ball": {
       "t": "Psychic",
@@ -83034,7 +84915,7 @@ overrides = {
       "num": 295,
       "desc": "A mistlike flurry of down envelops and damages the target. It always lowers the target's Sp. Atk.",
       "e_id": 71,
-      "sf": true
+      "secondaries": true
     },
     "Featherdance": {
       "t": "Flying",
@@ -83047,7 +84928,7 @@ overrides = {
       "num": 296,
       "desc": "The user covers the target's body with a mass of down that harshly lowers its Attack stat.",
       "e_id": 58,
-      "sf": true
+      "secondaries": true
     },
     "Teeter Dance": {
       "t": "Normal",
@@ -83061,7 +84942,7 @@ overrides = {
       "desc": "The user performs a wobbly dance that confuses the Pokémon around it.",
       "e_id": 199,
       "tar": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Blaze Kick": {
       "t": "Fire",
@@ -83074,7 +84955,7 @@ overrides = {
       "num": 298,
       "desc": "The user launches a kick that lands a critical hit more easily. It may also leave the target with a burn.",
       "e_id": 200,
-      "sf": true
+      "secondaries": true
     },
     "Mud Sport": {
       "t": "Ground",
@@ -83136,7 +85017,7 @@ overrides = {
       "desc": "The user lets loose a horribly echoing shout with the power to inflict damage. It may also lower the target's Sp. Def.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -83152,7 +85033,7 @@ overrides = {
       "num": 304,
       "desc": "The user bites the target with toxic fangs. It may also leave the target badly poisoned.",
       "e_id": 202,
-      "sf": true
+      "secondaries": true
     },
     "Crush Claw": {
       "t": "Normal",
@@ -83165,7 +85046,7 @@ overrides = {
       "num": 305,
       "desc": "The user slashes the target with hard and sharp claws. It may also lower the target's Defense.",
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Blast Burn": {
       "t": "Fire",
@@ -83177,8 +85058,7 @@ overrides = {
       "name": "Blast Burn",
       "num": 306,
       "desc": "The target is razed by a fiery explosion. It also cuts the user's Defense  and Sp. Def. ",
-      "e_id": 198,
-      "sf": true
+      "e_id": 198
     },
     "Hydro Cannon": {
       "t": "Water",
@@ -83190,8 +85070,7 @@ overrides = {
       "name": "Hydro Cannon",
       "num": 307,
       "desc": "The target is hit with a watery blast. The attack's recoil harshly reduces the user's Sp. Atk stat. ",
-      "e_id": 204,
-      "sf": true
+      "e_id": 204
     },
     "Meteor Mash": {
       "t": "Steel",
@@ -83204,7 +85083,7 @@ overrides = {
       "num": 308,
       "desc": "The target is hit with a hard punch fired like a meteor. It may also raise the user's Attack.",
       "e_id": 139,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -83256,7 +85135,7 @@ overrides = {
       "num": 312,
       "desc": "The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.",
       "e_id": 62,
-      "sf": true
+      "secondaries": true
     },
     "Air Cutter": {
       "t": "Flying",
@@ -83281,8 +85160,7 @@ overrides = {
       "name": "Overheat",
       "num": 314,
       "desc": "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.",
-      "e_id": 204,
-      "sf": true
+      "e_id": 204
     },
     "Odor Sleuth": {
       "t": "Normal",
@@ -83295,7 +85173,7 @@ overrides = {
       "num": 315,
       "desc": "Enables a Ghost-type target to be hit with Normal- and Fighting-type attacks. It also enables an evasive target to be hit.",
       "e_id": 113,
-      "sf": true
+      "secondaries": true
     },
     "Rock Tomb": {
       "t": "Rock",
@@ -83308,7 +85186,7 @@ overrides = {
       "num": 316,
       "desc": "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
       "e_id": 70,
-      "sf": true
+      "secondaries": true
     },
     "Silver Wind": {
       "t": "Bug",
@@ -83321,7 +85199,7 @@ overrides = {
       "num": 317,
       "desc": "The target is attacked with powdery scales blown by wind. It may also raise all the user's stats.",
       "e_id": 140,
-      "sf": true
+      "secondaries": true
     },
     "Metal Sound": {
       "t": "Steel",
@@ -83334,7 +85212,7 @@ overrides = {
       "num": 318,
       "desc": "A horrible sound like scraping metal harshly reduces the target's Sp. Def stat.",
       "e_id": 62,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -83350,7 +85228,7 @@ overrides = {
       "num": 319,
       "desc": "The user plays a pleasant melody that lulls the target into a deep sleep.",
       "e_id": 1,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -83366,7 +85244,7 @@ overrides = {
       "num": 320,
       "desc": "The user tickles the target into laughing, reducing its Attack and Defense stats.",
       "e_id": 205,
-      "sf": true
+      "secondaries": true
     },
     "Cosmic Power": {
       "t": "Psychic",
@@ -83379,7 +85257,7 @@ overrides = {
       "num": 321,
       "desc": "The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.",
       "e_id": 206,
-      "sf": true
+      "secondaries": true
     },
     "Water Spout": {
       "t": "Water",
@@ -83405,7 +85283,7 @@ overrides = {
       "num": 323,
       "desc": "The user attacks with a sinister beam of light. It may also confuse the target.",
       "e_id": 76,
-      "sf": true
+      "secondaries": true
     },
     "Shadow Punch": {
       "t": "Ghost",
@@ -83460,7 +85338,7 @@ overrides = {
       "num": 327,
       "desc": "The user traps the target inside a harshly raging sandstorm for four to five turns.",
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Sheer Cold": {
       "t": "Ice",
@@ -83472,8 +85350,7 @@ overrides = {
       "name": "Sheer Cold",
       "num": 328,
       "desc": "The target is attacked with a blast of absolute-zero cold. This attack harshly reduces the user's Sp. Atk.",
-      "e_id": 198,
-      "sf": true
+      "e_id": 198
     },
     "Muddy Water": {
       "t": "Water",
@@ -83487,7 +85364,7 @@ overrides = {
       "desc": "The user attacks by shooting muddy water at the opposing team. It may also lower the targets' Atk.",
       "e_id": 73,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Bullet Seed": {
       "t": "Grass",
@@ -83544,7 +85421,7 @@ overrides = {
       "num": 333,
       "desc": "The user hardens its body's surface like iron, sharply raising its Defense stat.",
       "e_id": 51,
-      "sf": true
+      "secondaries": true
     },
     "Block": {
       "t": "Normal",
@@ -83569,7 +85446,7 @@ overrides = {
       "num": 335,
       "desc": "The user howls loudly to raise its spirit, boosting its Attack stat.",
       "e_id": 10,
-      "sf": true
+      "secondaries": true
     },
     "Dragon Claw": {
       "t": "Dragon",
@@ -83582,7 +85459,7 @@ overrides = {
       "num": 336,
       "desc": "The user slashes the target with huge, sharp claws. It may also raise the user's Attack stat.",
       "e_id": 0,
-      "sf": true
+      "secondaries": true
     },
     "Frenzy Plant": {
       "t": "Grass",
@@ -83594,8 +85471,7 @@ overrides = {
       "name": "Frenzy Plant",
       "num": 337,
       "desc": "The user slams the target with an enormous tree. It also cuts the user's Defense and Sp. Def. ",
-      "e_id": 198,
-      "sf": true
+      "e_id": 198
     },
     "Bulk Up": {
       "t": "Fighting",
@@ -83608,7 +85484,7 @@ overrides = {
       "num": 338,
       "desc": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
       "e_id": 208,
-      "sf": true
+      "secondaries": true
     },
     "Bounce": {
       "t": "Flying",
@@ -83621,7 +85497,7 @@ overrides = {
       "num": 339,
       "desc": "The user bounces up high, then drops on the target on the second turn. It may also leave the target with paralysis.",
       "e_id": 263,
-      "sf": true
+      "secondaries": true
     },
     "Mud Shot": {
       "t": "Ground",
@@ -83634,7 +85510,7 @@ overrides = {
       "num": 340,
       "desc": "The user attacks by hurling a blob of mud at the target. It also reduces the target's Speed.",
       "e_id": 70,
-      "sf": true
+      "secondaries": true
     },
     "Poison Tail": {
       "t": "Poison",
@@ -83647,7 +85523,7 @@ overrides = {
       "num": 341,
       "desc": "The user hits the target with its tail. It may also poison the target. Critical hits land more easily.",
       "e_id": 209,
-      "sf": true
+      "secondaries": true
     },
     "Covet": {
       "t": "Normal",
@@ -83676,7 +85552,7 @@ overrides = {
         33,
         100
       ],
-      "sf": true
+      "secondaries": true
     },
     "Magical Leaf": {
       "t": "Grass",
@@ -83713,7 +85589,7 @@ overrides = {
       "num": 346,
       "desc": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
       "e_id": 211,
-      "sf": true
+      "secondaries": true
     },
     "Leaf Blade": {
       "t": "Grass",
@@ -83738,7 +85614,7 @@ overrides = {
       "num": 348,
       "desc": "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
       "e_id": 212,
-      "sf": true
+      "secondaries": true
     },
     "Rock Blast": {
       "t": "Rock",
@@ -83778,7 +85654,8 @@ overrides = {
       "name": "Water Pulse",
       "num": 351,
       "desc": "The user attacks the target with a pulsing blast of water. This attack never misses.",
-      "e_id": 76
+      "e_id": 76,
+      "secondaries": true
     },
     "Doom Desire": {
       "t": "Steel",
@@ -83802,8 +85679,7 @@ overrides = {
       "name": "Psycho Boost",
       "num": 353,
       "desc": "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.",
-      "e_id": 204,
-      "sf": true
+      "e_id": 204
     },
     "Roost": {
       "t": "Flying",
@@ -83840,7 +85716,7 @@ overrides = {
       "num": 356,
       "desc": "Enables a Dark-type target to be hit by Psychic-type attacks. It also enables an evasive target to be hit.",
       "e_id": 216,
-      "sf": true
+      "secondaries": true
     },
     "Wake-Up Slap": {
       "t": "Fighting",
@@ -83865,7 +85741,6 @@ overrides = {
       "num": 358,
       "desc": "The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however.",
       "e_id": 218,
-      "sf": true,
       "flags": {
         "punch": true
       }
@@ -84000,8 +85875,7 @@ overrides = {
       "name": "Close Combat",
       "num": 369,
       "desc": "The user fights the target up close without guarding itself. It also cuts the user's Defense and Sp. Def.",
-      "e_id": 198,
-      "sf": true
+      "e_id": 198
     },
     "Payback": {
       "t": "Dark",
@@ -84038,7 +85912,7 @@ overrides = {
       "num": 372,
       "desc": "It prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
       "e_id": 232,
-      "sf": true
+      "secondaries": true
     },
     "Fling": {
       "t": "Dark",
@@ -84088,7 +85962,7 @@ overrides = {
       "desc": "For five turns, the user prevents the opposing team from using any moves, Abilities, or held items that recover HP.",
       "e_id": 236,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Wring Out": {
       "t": "Normal",
@@ -84297,7 +86171,7 @@ overrides = {
         33,
         100
       ],
-      "sf": true
+      "secondaries": true
     },
     "Force Palm": {
       "t": "Fighting",
@@ -84310,7 +86184,7 @@ overrides = {
       "num": 394,
       "desc": "The target is attacked with a shock wave. It may also leave the target with paralysis.",
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Aura Sphere": {
       "t": "Fighting",
@@ -84335,7 +86209,7 @@ overrides = {
       "num": 396,
       "desc": "The user polishes its body to reduce drag. It can sharply raise the Speed stat.",
       "e_id": 52,
-      "sf": true
+      "secondaries": true
     },
     "Poison Jab": {
       "t": "Poison",
@@ -84348,7 +86222,7 @@ overrides = {
       "num": 397,
       "desc": "The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target.",
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Dark Pulse": {
       "t": "Dark",
@@ -84437,7 +86311,7 @@ overrides = {
       "num": 404,
       "desc": "The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.",
       "e_id": 72,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -84453,7 +86327,7 @@ overrides = {
       "num": 405,
       "desc": "The target is attacked with a shock wave generated by the user's gaping mouth. It may also lower the target's Sp. Def.",
       "e_id": 0,
-      "sf": true
+      "secondaries": true
     },
     "Dragon Rush": {
       "t": "Dragon",
@@ -84517,7 +86391,7 @@ overrides = {
       "num": 410,
       "desc": "The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.",
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Energy Ball": {
       "t": "Grass",
@@ -84530,7 +86404,7 @@ overrides = {
       "num": 411,
       "desc": "The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.",
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Brave Bird": {
       "t": "Flying",
@@ -84559,7 +86433,7 @@ overrides = {
       "num": 413,
       "desc": "The user makes the ground under the target erupt with power. It may also lower the target's Sp. Def.",
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Switcheroo": {
       "t": "Dark",
@@ -84596,7 +86470,7 @@ overrides = {
       "num": 416,
       "desc": "The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.",
       "e_id": 53,
-      "sf": true
+      "secondaries": true
     },
     "Bullet Punch": {
       "t": "Steel",
@@ -84660,7 +86534,7 @@ overrides = {
       "num": 421,
       "desc": "The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.",
       "e_id": 275,
-      "sf": true
+      "secondaries": true
     },
     "Ice Fang": {
       "t": "Ice",
@@ -84673,7 +86547,7 @@ overrides = {
       "num": 422,
       "desc": "The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen.",
       "e_id": 274,
-      "sf": true
+      "secondaries": true
     },
     "Fire Fang": {
       "t": "Fire",
@@ -84686,7 +86560,7 @@ overrides = {
       "num": 423,
       "desc": "The user bites with flame-cloaked fangs. It may also make the target flinch or leave it burned.",
       "e_id": 273,
-      "sf": true
+      "secondaries": true
     },
     "Shadow Sneak": {
       "t": "Ghost",
@@ -84711,7 +86585,7 @@ overrides = {
       "num": 425,
       "desc": "The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy.",
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Psycho Cut": {
       "t": "Psychic",
@@ -84748,7 +86622,7 @@ overrides = {
       "num": 428,
       "desc": "The user looses a flash of energy at the target from its polished body. It may also lower the target's accuracy.",
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Flash Cannon": {
       "t": "Steel",
@@ -84761,7 +86635,7 @@ overrides = {
       "num": 429,
       "desc": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Rock Climb": {
       "t": "Rock",
@@ -84774,7 +86648,7 @@ overrides = {
       "num": 430,
       "desc": "The user attacks the target by smashing into it with incredible force. It may also confuse the target.",
       "e_id": 76,
-      "sf": true
+      "secondaries": true
     },
     "Defog": {
       "t": "Flying",
@@ -84810,8 +86684,7 @@ overrides = {
       "name": "Draco Meteor",
       "num": 433,
       "desc": "Comets are summoned down from the sky onto the target. The attack's recoil harshly reduces the user's Sp. Atk stat.",
-      "e_id": 204,
-      "sf": true
+      "e_id": 204
     },
     "Discharge": {
       "t": "Electric",
@@ -84825,7 +86698,7 @@ overrides = {
       "desc": "A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.",
       "e_id": 6,
       "tar": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Lava Plume": {
       "t": "Fire",
@@ -84839,7 +86712,7 @@ overrides = {
       "desc": "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.",
       "e_id": 4,
       "tar": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Leaf Storm": {
       "t": "Grass",
@@ -84851,15 +86724,14 @@ overrides = {
       "name": "Leaf Storm",
       "num": 436,
       "desc": "The user whips up a storm of leaves around the target. The attack's recoil harshly reduces the user's Sp. Atk stat.",
-      "e_id": 204,
-      "sf": true
+      "e_id": 204
     },
     "Power Whip": {
       "t": "Grass",
       "bp": 120,
       "cat": "Physical",
       "pp": 10,
-      "acc": 85,
+      "acc": 95,
       "prio": 0,
       "name": "Power Whip",
       "num": 437,
@@ -84889,7 +86761,7 @@ overrides = {
       "num": 439,
       "desc": "A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.",
       "e_id": 209,
-      "sf": true
+      "secondaries": true
     },
     "Gunk Shot": {
       "t": "Poison",
@@ -84902,7 +86774,7 @@ overrides = {
       "num": 440,
       "desc": "The user shoots filthy garbage at the target to attack. It may also poison the target.",
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Iron Head": {
       "t": "Steel",
@@ -84919,7 +86791,7 @@ overrides = {
     "Magnet Bomb": {
       "t": "Steel",
       "bp": 80,
-      "cat": "Physical",
+      "cat": "Special",
       "pp": 20,
       "acc": 101,
       "prio": 0,
@@ -84952,7 +86824,7 @@ overrides = {
       "desc": "If it is the opposite gender of the user, the target is charmed into harshly lowering its Sp. Atk stat.",
       "e_id": 265,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Stealth Rock": {
       "t": "Rock",
@@ -84989,7 +86861,7 @@ overrides = {
       "num": 447,
       "desc": "The user attacks using a sound wave based on words it has learned. It may also confuse the target.",
       "e_id": 267,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -85029,7 +86901,7 @@ overrides = {
       "num": 450,
       "desc": "The user attacks with an electric charge. The user uses any remaining electricity to raise its Sp. Atk stat.",
       "e_id": 276,
-      "sf": true
+      "secondaries": true
     },
     "Wood Hammer": {
       "t": "Grass",
@@ -85082,7 +86954,7 @@ overrides = {
       "num": 454,
       "desc": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
       "e_id": 206,
-      "sf": true
+      "secondaries": true
     },
     "Heal Order": {
       "t": "Bug",
@@ -85187,21 +87059,21 @@ overrides = {
       "num": 462,
       "desc": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Dark Void": {
       "t": "Dark",
       "bp": 0,
       "cat": "Status",
       "pp": 10,
-      "acc": 80,
+      "acc": 85,
       "prio": 0,
       "name": "Dark Void",
       "num": 463,
       "desc": "Opposing Pokémon are dragged into a world of total darkness that makes them sleep.",
       "e_id": 1,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Seed Flare": {
       "t": "Grass",
@@ -85214,7 +87086,7 @@ overrides = {
       "num": 464,
       "desc": "The user emits a shock wave from its body to attack its target. It may harshly lower the target's Sp. Def.",
       "e_id": 271,
-      "sf": true
+      "secondaries": true
     },
     "Ominous Wind": {
       "t": "Ghost",
@@ -85227,7 +87099,7 @@ overrides = {
       "num": 465,
       "desc": "The user blasts the target with a gust of repulsive wind. It may also raise all the user's stats at once.",
       "e_id": 140,
-      "sf": true
+      "secondaries": true
     },
     "Shadow Force": {
       "t": "Ghost",
@@ -85252,7 +87124,7 @@ overrides = {
       "num": 467,
       "desc": "The user sharpens its claws to boost its Attack stat and accuracy.",
       "e_id": 277,
-      "sf": true
+      "secondaries": true
     },
     "Wide Guard": {
       "t": "Rock",
@@ -85337,7 +87209,7 @@ overrides = {
       "num": 474,
       "desc": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
       "e_id": 284,
-      "sf": true
+      "secondaries": true
     },
     "Rage Powder": {
       "t": "Bug",
@@ -85362,7 +87234,7 @@ overrides = {
       "num": 476,
       "desc": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
       "e_id": 285,
-      "sf": true
+      "secondaries": true
     },
     "Magic Room": {
       "t": "Psychic",
@@ -85386,7 +87258,8 @@ overrides = {
       "name": "Smack Down",
       "num": 478,
       "desc": "The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when hit.",
-      "e_id": 287
+      "e_id": 287,
+      "secondaries": true
     },
     "Storm Throw": {
       "t": "Fighting",
@@ -85425,7 +87298,7 @@ overrides = {
       "desc": "It swamps the area around the user with a giant sludge wave. It may also poison those hit.",
       "e_id": 2,
       "tar": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Quiver Dance": {
       "t": "Bug",
@@ -85438,7 +87311,7 @@ overrides = {
       "num": 482,
       "desc": "The user lightly performs a beautiful, mystic dance. It boosts the user's Sp. Atk, Sp. Def, and Speed stats.",
       "e_id": 290,
-      "sf": true
+      "secondaries": true
     },
     "Heavy Slam": {
       "t": "Steel",
@@ -85500,7 +87373,7 @@ overrides = {
       "num": 487,
       "desc": "The user cloaks itself with flame and attacks. Building up more power, it raises the user's Speed stat.",
       "e_id": 295,
-      "sf": true
+      "secondaries": true
     },
     "Coil": {
       "t": "Poison",
@@ -85513,7 +87386,7 @@ overrides = {
       "num": 488,
       "desc": "The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.",
       "e_id": 322,
-      "sf": true
+      "secondaries": true
     },
     "Low Sweep": {
       "t": "Fighting",
@@ -85526,7 +87399,7 @@ overrides = {
       "num": 489,
       "desc": "The user attacks the target's legs swiftly, reducing the target's Speed stat.",
       "e_id": 20,
-      "sf": true
+      "secondaries": true
     },
     "Acid Spray": {
       "t": "Poison",
@@ -85539,7 +87412,7 @@ overrides = {
       "num": 490,
       "desc": "The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat.",
       "e_id": 296,
-      "sf": true
+      "secondaries": true
     },
     "Foul Play": {
       "t": "Dark",
@@ -85690,7 +87563,7 @@ overrides = {
       "num": 502,
       "desc": "The user shoots boiling hot water at its target. It may also leave the target with a burn.",
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Shell Smash": {
       "t": "Normal",
@@ -85751,7 +87624,7 @@ overrides = {
       "num": 507,
       "desc": "The user rotates its gears, raising its Attack and sharply raising its Speed.",
       "e_id": 312,
-      "sf": true
+      "secondaries": true
     },
     "Circle Throw": {
       "t": "Fighting",
@@ -85861,7 +87734,7 @@ overrides = {
       "num": 516,
       "desc": "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.",
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Water Pledge": {
       "t": "Water",
@@ -85923,7 +87796,7 @@ overrides = {
       "desc": "While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.",
       "e_id": 71,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Bulldoze": {
       "t": "Ground",
@@ -85937,7 +87810,7 @@ overrides = {
       "desc": "The user stomps down on the ground and attacks everything in the area. Hit Pokémon's Speed stat is reduced.",
       "e_id": 70,
       "tar": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Frost Breath": {
       "t": "Ice",
@@ -85975,7 +87848,7 @@ overrides = {
       "num": 525,
       "desc": "The user is roused, and its Attack and Sp. Atk stats increase.",
       "e_id": 327,
-      "sf": true
+      "secondaries": true
     },
     "Electroweb": {
       "t": "Electric",
@@ -85989,7 +87862,7 @@ overrides = {
       "desc": "The user captures and attacks opposing Pokémon by using an electric net. It reduces the targets' Speed stat.",
       "e_id": 20,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Wild Charge": {
       "t": "Electric",
@@ -86078,7 +87951,7 @@ overrides = {
       "num": 533,
       "desc": "The user cuts its target with sharp shells. This attack may also lower the target's Defense stat.",
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Heat Crash": {
       "t": "Fire",
@@ -86104,7 +87977,7 @@ overrides = {
       "desc": "The user attacks its target by encircling it in sharp leaves. This attack may also lower the target's accuracy.",
       "e_id": 73,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Steamroller": {
       "t": "Bug",
@@ -86129,7 +88002,7 @@ overrides = {
       "num": 537,
       "desc": "The user protects itself by wrapping its body in soft cotton, drastically raising the user's Defense stat.",
       "e_id": 328,
-      "sf": true
+      "secondaries": true
     },
     "Night Daze": {
       "t": "Dark",
@@ -86141,8 +88014,7 @@ overrides = {
       "name": "Night Daze",
       "num": 538,
       "desc": "The user lets loose a pitch-black shock wave at its target. It also cuts the user's Defense and Sp. Def. ",
-      "e_id": 73,
-      "sf": true
+      "e_id": 73
     },
     "Psystrike": {
       "t": "Psychic",
@@ -86183,7 +88055,7 @@ overrides = {
       "num": 541,
       "desc": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. It may also confuse the target.",
       "e_id": 337,
-      "sf": true
+      "secondaries": true
     },
     "Head Charge": {
       "t": "Normal",
@@ -86229,7 +88101,7 @@ overrides = {
       "desc": "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.",
       "e_id": 4,
       "tar": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Techno Blast": {
       "t": "Normal",
@@ -86255,7 +88127,7 @@ overrides = {
       "desc": "The user sings an ancient song and attacks by appealing to the hearts of those listening. It may also induce sleep.",
       "e_id": 329,
       "tar": "allAdjacentFoes",
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -86284,7 +88156,7 @@ overrides = {
       "desc": "The user attacks by blowing freezing cold air at opposing Pokémon. This attack reduces the targets' Speed stat.",
       "e_id": 330,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Bolt Strike": {
       "t": "Electric",
@@ -86297,7 +88169,7 @@ overrides = {
       "num": 549,
       "desc": "The user charges its target, surrounding itself with a great amount of electricity. It may leave the target with paralysis.",
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Blue Flare": {
       "t": "Fire",
@@ -86310,7 +88182,7 @@ overrides = {
       "num": 550,
       "desc": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. It may leave the target with a burn.",
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Fiery Dance": {
       "t": "Fire",
@@ -86323,7 +88195,7 @@ overrides = {
       "num": 551,
       "desc": "Cloaked in flames, the user dances and flaps its wings. It may also raise the user's Sp. Atk stat.",
       "e_id": 276,
-      "sf": true
+      "secondaries": true
     },
     "Freeze Shock": {
       "t": "Ice",
@@ -86336,7 +88208,7 @@ overrides = {
       "num": 552,
       "desc": "On the second turn, the user hits the target with electrically charged ice. It may leave the target with paralysis.",
       "e_id": 331,
-      "sf": true
+      "secondaries": true
     },
     "Ice Burn": {
       "t": "Ice",
@@ -86349,7 +88221,7 @@ overrides = {
       "num": 553,
       "desc": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
       "e_id": 332,
-      "sf": true
+      "secondaries": true
     },
     "Snarl": {
       "t": "Dark",
@@ -86363,7 +88235,7 @@ overrides = {
       "desc": "The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.",
       "e_id": 71,
       "tar": "allAdjacentFoes",
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -86390,8 +88262,7 @@ overrides = {
       "name": "V-create",
       "num": 556,
       "desc": "With a hot flame on its forehead, the user hurls itself at its target. It lowers the user's Defense, Sp. Def, and Speed stats.",
-      "e_id": 334,
-      "sf": true
+      "e_id": 334
     },
     "Fusion Flare": {
       "t": "Fire",
@@ -87508,7 +89379,7 @@ overrides = {
         "Solosis",
         "Gothita",
         "Exeggcute",
-        "Elgyem",
+        "Spinda",
         "Mr Mime",
         "Girafarig",
         "Watchog",
@@ -87575,7 +89446,7 @@ overrides = {
             "mn": 5
           },
           {
-            "s": "Elgyem",
+            "s": "Spinda",
             "mn": 5
           },
           {
@@ -87738,11 +89609,11 @@ overrides = {
             "mn": 10
           },
           {
-            "s": "Pansage",
+            "s": "Pansear",
             "mn": 10
           },
           {
-            "s": "Pansear",
+            "s": "Pansage",
             "mn": 10
           }
         ]
@@ -87839,7 +89710,7 @@ overrides = {
       "name": "Not Pinwheel Forest",
       "wilds": [
         "Timburr",
-        "Tyrogue",
+        "Buneary",
         "Makuhita",
         "Shroomish",
         "Machop",
@@ -87847,7 +89718,7 @@ overrides = {
         "Solosis",
         "Croagunk",
         "Riolu",
-        "Buneary",
+        "Tyrogue",
         "Mankey",
         "Meditite",
         "Scraggy",
@@ -87881,7 +89752,7 @@ overrides = {
             "mn": 15
           },
           {
-            "s": "Tyrogue",
+            "s": "Buneary",
             "mn": 15
           },
           {
@@ -87947,7 +89818,7 @@ overrides = {
             "mn": 15
           },
           {
-            "s": "Buneary",
+            "s": "Tyrogue",
             "mn": 15
           },
           {
@@ -90165,51 +92036,63 @@ overrides = {
         "encs": [
           {
             "s": "Krokorok",
-            "mn": 47
+            "mn": 47,
+            "mx": 50
           },
           {
             "s": "Sandslash",
-            "mn": 47
-          },
-          {
-            "s": "Cofagrigus",
-            "mn": 48
-          },
-          {
-            "s": "Onix",
-            "mn": 48
+            "mn": 47,
+            "mx": 49
           },
           {
             "s": "Krokorok",
-            "mn": 48
+            "mn": 47,
+            "mx": 50
           },
           {
             "s": "Sandslash",
-            "mn": 49
+            "mn": 47,
+            "mx": 49
           },
           {
             "s": "Cofagrigus",
-            "mn": 49
+            "mn": 48,
+            "mx": 50
+          },
+          {
+            "s": "Cofagrigus",
+            "mn": 48,
+            "mx": 50
+          },
+          {
+            "s": "Krokorok",
+            "mn": 47,
+            "mx": 50
           },
           {
             "s": "Onix",
-            "mn": 49
+            "mn": 48,
+            "mx": 49
           },
           {
-            "s": "Krokorok",
-            "mn": 49
+            "s": "Onix",
+            "mn": 48,
+            "mx": 49
           },
           {
-            "s": "Cofagrigus",
-            "mn": 50
+            "s": "Onix",
+            "mn": 48,
+            "mx": 49
           },
           {
-            "s": "Krokorok",
-            "mn": 50
+            "s": "Onix",
+            "mn": 48,
+            "mx": 49
           },
           {
-            "s": "Cofagrigus",
-            "mn": 50
+            "s": "Onix",
+            "mn": 48,
+            "mx": 49
           }
         ]
       }
@@ -90886,8 +92769,12 @@ overrides = {
     "reliccastle25": {
       "name": "Relic Castle 25",
       "wilds": [
-        "Krokorok",
-        "Cofagrigus"
+        "Omanyte",
+        "Kabuto",
+        "Lileep",
+        "Anorith",
+        "Cranidos",
+        "Shieldon"
       ],
       "grass": {
         "rates": [
@@ -90906,52 +92793,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Krokorok",
-            "mn": 34
+            "s": "Omanyte",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 34
+            "s": "Kabuto",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 35
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 35
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           }
         ]
       }
@@ -90959,8 +92846,12 @@ overrides = {
     "reliccastle26": {
       "name": "Relic Castle 26",
       "wilds": [
-        "Krokorok",
-        "Cofagrigus"
+        "Omanyte",
+        "Kabuto",
+        "Lileep",
+        "Anorith",
+        "Cranidos",
+        "Shieldon"
       ],
       "grass": {
         "rates": [
@@ -90979,52 +92870,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Krokorok",
-            "mn": 34
+            "s": "Omanyte",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 34
+            "s": "Kabuto",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 35
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 35
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           }
         ]
       }
@@ -91032,8 +92923,12 @@ overrides = {
     "reliccastle27": {
       "name": "Relic Castle 27",
       "wilds": [
-        "Krokorok",
-        "Cofagrigus"
+        "Omanyte",
+        "Kabuto",
+        "Lileep",
+        "Anorith",
+        "Cranidos",
+        "Shieldon"
       ],
       "grass": {
         "rates": [
@@ -91052,52 +92947,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Krokorok",
-            "mn": 34
+            "s": "Omanyte",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 34
+            "s": "Kabuto",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 35
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 35
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           }
         ]
       }
@@ -91105,8 +93000,12 @@ overrides = {
     "reliccastle28": {
       "name": "Relic Castle 28",
       "wilds": [
-        "Krokorok",
-        "Cofagrigus"
+        "Omanyte",
+        "Kabuto",
+        "Lileep",
+        "Anorith",
+        "Cranidos",
+        "Shieldon"
       ],
       "grass": {
         "rates": [
@@ -91125,52 +93024,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Krokorok",
-            "mn": 34
+            "s": "Omanyte",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 34
+            "s": "Kabuto",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 35
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 35
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           }
         ]
       }
@@ -91178,8 +93077,12 @@ overrides = {
     "reliccastle29": {
       "name": "Relic Castle 29",
       "wilds": [
-        "Krokorok",
-        "Cofagrigus"
+        "Omanyte",
+        "Kabuto",
+        "Lileep",
+        "Anorith",
+        "Cranidos",
+        "Shieldon"
       ],
       "grass": {
         "rates": [
@@ -91198,52 +93101,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Krokorok",
-            "mn": 34
+            "s": "Omanyte",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 34
+            "s": "Kabuto",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 35
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 35
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 36
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 36
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 37
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 37
+            "s": "Shieldon",
+            "mn": 30
           }
         ]
       }
@@ -91251,8 +93154,12 @@ overrides = {
     "reliccastle30": {
       "name": "Relic Castle 30",
       "wilds": [
-        "Sandile",
-        "Yamask"
+        "Omanyte",
+        "Kabuto",
+        "Lileep",
+        "Anorith",
+        "Cranidos",
+        "Shieldon"
       ],
       "grass": {
         "rates": [
@@ -91271,52 +93178,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Sandile",
-            "mn": 19
+            "s": "Omanyte",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19
+            "s": "Kabuto",
+            "mn": 30
           },
           {
-            "s": "Sandile",
-            "mn": 20
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 20
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Sandile",
-            "mn": 21
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 21
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Sandile",
-            "mn": 21
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 21
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Sandile",
-            "mn": 22
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 22
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Sandile",
-            "mn": 22
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 22
+            "s": "Shieldon",
+            "mn": 30
           }
         ]
       }
@@ -91324,8 +93231,12 @@ overrides = {
     "reliccastle31": {
       "name": "Relic Castle 31",
       "wilds": [
-        "Sandile",
-        "Yamask"
+        "Omanyte",
+        "Kabuto",
+        "Lileep",
+        "Anorith",
+        "Cranidos",
+        "Shieldon"
       ],
       "grass": {
         "rates": [
@@ -91344,64 +93255,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Sandile",
-            "mn": 19,
-            "mx": 22
+            "s": "Omanyte",
+            "mn": 30
           },
           {
-            "s": "Sandile",
-            "mn": 19,
-            "mx": 22
+            "s": "Kabuto",
+            "mn": 30
           },
           {
-            "s": "Sandile",
-            "mn": 19,
-            "mx": 22
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19,
-            "mx": 22
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19,
-            "mx": 22
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19,
-            "mx": 22
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19,
-            "mx": 22
+            "s": "Lileep",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19,
-            "mx": 22
+            "s": "Anorith",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19,
-            "mx": 22
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19,
-            "mx": 22
+            "s": "Shieldon",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19,
-            "mx": 22
+            "s": "Cranidos",
+            "mn": 30
           },
           {
-            "s": "Yamask",
-            "mn": 19,
-            "mx": 22
+            "s": "Shieldon",
+            "mn": 30
           }
         ]
       }
@@ -92679,6 +94578,72 @@ overrides = {
         "Rampardos"
       ],
       "grass": {
+        "rates": [
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          5,
+          5,
+          4,
+          4,
+          1,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Kingdra",
+            "mn": 55
+          },
+          {
+            "s": "Druddigon",
+            "mn": 55
+          },
+          {
+            "s": "Tropius",
+            "mn": 55
+          },
+          {
+            "s": "Tropius",
+            "mn": 55
+          },
+          {
+            "s": "Arbok",
+            "mn": 55
+          },
+          {
+            "s": "Arbok",
+            "mn": 55
+          },
+          {
+            "s": "Kangaskhan",
+            "mn": 55
+          },
+          {
+            "s": "Kangaskhan",
+            "mn": 55
+          },
+          {
+            "s": "Kangaskhan",
+            "mn": 55
+          },
+          {
+            "s": "Kangaskhan",
+            "mn": 55
+          },
+          {
+            "s": "Kangaskhan",
+            "mn": 55
+          },
+          {
+            "s": "Kangaskhan",
+            "mn": 55
+          }
+        ]
+      },
+      "grass_doubles": {
         "rates": [
           20,
           20,
@@ -97523,14 +99488,14 @@ overrides = {
       "name": "Driftveil Drawbridge",
       "wilds": [
         "Castform",
-        "Delibird",
+        "Chatot",
         "Jumpluff",
         "Staraptor",
         "Gliscor",
         "Swellow",
         "Altaria",
         "Pelipper",
-        "Chatot",
+        "Delibird",
         "Drifblim",
         "Emolga",
         "Pidgeot"
@@ -97556,7 +99521,7 @@ overrides = {
             "mn": 35
           },
           {
-            "s": "Delibird",
+            "s": "Chatot",
             "mn": 35
           },
           {
@@ -97584,7 +99549,7 @@ overrides = {
             "mn": 35
           },
           {
-            "s": "Chatot",
+            "s": "Delibird",
             "mn": 35
           },
           {
@@ -98058,7 +100023,7 @@ overrides = {
         "Munchlax",
         "Slakoth",
         "Whismur",
-        "Buneary",
+        "Spinda",
         "Dragonair",
         "Pupitar",
         "Shelgon",
@@ -98139,7 +100104,7 @@ overrides = {
             "mn": 3
           },
           {
-            "s": "Buneary",
+            "s": "Spinda",
             "mn": 3
           }
         ]
@@ -98397,17 +100362,6 @@ overrides = {
           {
             "s": "Krabby",
             "mn": 5
-          }
-        ]
-      },
-      "gift": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Electrode",
-            "mn": 1
           }
         ]
       }
@@ -99714,9 +101668,7 @@ overrides = {
         "Duskull",
         "Kecleon",
         "Spiritomb",
-        "Audino",
-        "Emolga",
-        "Cinccino"
+        "Audino"
       ],
       "grass": {
         "rates": [
@@ -99868,58 +101820,62 @@ overrides = {
         "encs": [
           {
             "s": "Audino",
-            "mn": 19,
-            "mx": 22
+            "mn": 30
           },
           {
             "s": "Audino",
-            "mn": 19,
-            "mx": 22
+            "mn": 30
           },
           {
             "s": "Audino",
-            "mn": 19,
-            "mx": 22
+            "mn": 30
           },
           {
-            "s": "Audino",
-            "mn": 19,
-            "mx": 22
+            "s": "Kecleon",
+            "mn": 30
           },
           {
-            "s": "Audino",
-            "mn": 19,
-            "mx": 22
+            "s": "Kecleon",
+            "mn": 30
           },
           {
-            "s": "Audino",
-            "mn": 19,
-            "mx": 22
+            "s": "Kecleon",
+            "mn": 30
           },
           {
-            "s": "Audino",
-            "mn": 19,
-            "mx": 22
+            "s": "Kecleon",
+            "mn": 30
           },
           {
-            "s": "Emolga",
-            "mn": 20
+            "s": "Kecleon",
+            "mn": 30
           },
           {
-            "s": "Emolga",
-            "mn": 20
+            "s": "Kecleon",
+            "mn": 30
           },
           {
-            "s": "Cinccino",
-            "mn": 22
+            "s": "Kecleon",
+            "mn": 30
           },
           {
-            "s": "Emolga",
-            "mn": 20
+            "s": "Kecleon",
+            "mn": 30
           },
           {
-            "s": "Cinccino",
-            "mn": 22
+            "s": "Kecleon",
+            "mn": 30
+          }
+        ]
+      },
+      "gift": {
+        "rates": [
+          100
+        ],
+        "encs": [
+          {
+            "s": "Venusaur",
+            "mn": 100
           }
         ]
       }
@@ -106167,7 +108123,7 @@ overrides = {
             "mn": 50
           },
           {
-            "s": "Zekrom",
+            "s": "Unown",
             "mn": 50
           }
         ]
@@ -106432,9 +108388,10 @@ overrides = {
     "berryjuice": {
       "name": "Berry Juice",
       "desc": "A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points.",
-      "location": "Wild held by Shuckle",
+      "location": "Wild held by Shuckle, Wild held by Druddigon",
       "wilds": [
-        "Shuckle"
+        "Shuckle",
+        "Druddigon"
       ]
     },
     "sacredash": {
@@ -106726,7 +108683,7 @@ overrides = {
     "starpiece": {
       "name": "Star Piece",
       "desc": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.",
-      "location": "Wild held by Jirachi, Wild held by Meloetta, Wild held by Alt Form",
+      "location": "Wild held by Jirachi, Wild held by Meloetta, Wild held by Meloetta-Pirouette",
       "wilds": [
         "Jirachi",
         "Meloetta",
@@ -106972,10 +108929,10 @@ overrides = {
     "cheriberry": {
       "name": "Cheri Berry",
       "desc": "If held by a Pokémon,  it recovers from paralysis.",
-      "location": "Wild held by Lillipup, Reward from PkMn Ranger Richard, Reward from PkMn Ranger Shanti - Route 6",
+      "location": "Wild held by Lillipup, Reward from Pkmn Ranger Richard, Reward from Pkmn Ranger Shanti - Route 6",
       "rewards": [
-        "PkMn Ranger Richard",
-        "PkMn Ranger Shanti - Route 6"
+        "Pkmn Ranger Richard",
+        "Pkmn Ranger Shanti - Route 6"
       ],
       "wilds": [
         "Lillipup"
@@ -106984,10 +108941,10 @@ overrides = {
     "chestoberry": {
       "name": "Chesto Berry",
       "desc": "If held by a Pokémon, it recovers from sleep.",
-      "location": "Wild held by Exploud, Wild held by Skitty, Wild held by Minccino, Wild held by Cinccino, Reward from PkMn Ranger Forrest - Pinwheel Forest, Reward from PkMn Ranger Audra - Pinwheel Forest",
+      "location": "Wild held by Exploud, Wild held by Skitty, Wild held by Minccino, Wild held by Cinccino, Reward from Pkmn Ranger Forrest - Pinwheel Forest, Reward from Pkmn Ranger Audra - Pinwheel Forest",
       "rewards": [
-        "PkMn Ranger Forrest - Pinwheel Forest",
-        "PkMn Ranger Audra - Pinwheel Forest"
+        "Pkmn Ranger Forrest - Pinwheel Forest",
+        "Pkmn Ranger Audra - Pinwheel Forest"
       ],
       "wilds": [
         "Exploud",
@@ -106999,11 +108956,11 @@ overrides = {
     "pechaberry": {
       "name": "Pecha Berry",
       "desc": "If held by a Pokémon, it recovers from poison.",
-      "location": "Wild held by Marill, Wild held by Poochyena, Wild held by Mightyena, Reward from PkMn Ranger Irene, Reward from PkMn Ranger Lewis - Route 8, Reward from PkMn Ranger Annie - Route 8",
+      "location": "Wild held by Marill, Wild held by Poochyena, Wild held by Mightyena, Reward from Pkmn Ranger Irene, Reward from Pkmn Ranger Lewis - Route 8, Reward from Pkmn Ranger Annie - Route 8",
       "rewards": [
-        "PkMn Ranger Irene",
-        "PkMn Ranger Lewis - Route 8",
-        "PkMn Ranger Annie - Route 8"
+        "Pkmn Ranger Irene",
+        "Pkmn Ranger Lewis - Route 8",
+        "Pkmn Ranger Annie - Route 8"
       ],
       "wilds": [
         "Marill",
@@ -107014,9 +108971,9 @@ overrides = {
     "rawstberry": {
       "name": "Rawst Berry",
       "desc": "If held by a Pokémon, it recovers from a burn.",
-      "location": "Wild held by Numel, Wild held by Camerupt, Wild held by Buizel, Wild held by Alt Form, Reward from PkMn Ranger Mylene",
+      "location": "Wild held by Numel, Wild held by Camerupt, Wild held by Buizel, Wild held by Darmanitan-Zen, Reward from Pkmn Ranger Mylene",
       "rewards": [
-        "PkMn Ranger Mylene"
+        "Pkmn Ranger Mylene"
       ],
       "wilds": [
         "Numel",
@@ -107028,10 +108985,10 @@ overrides = {
     "aspearberry": {
       "name": "Aspear Berry",
       "desc": "If held by a Pokémon, it defrosts it.",
-      "location": "Wild held by Slakoth, Reward from PkMn Ranger Pedro - Route 7, Reward from PkMn Ranger Mary - Route 7",
+      "location": "Wild held by Slakoth, Reward from Pkmn Ranger Pedro - Route 7, Reward from Pkmn Ranger Mary - Route 7",
       "rewards": [
-        "PkMn Ranger Pedro - Route 7",
-        "PkMn Ranger Mary - Route 7"
+        "Pkmn Ranger Pedro - Route 7",
+        "Pkmn Ranger Mary - Route 7"
       ],
       "wilds": [
         "Slakoth"
@@ -107040,10 +108997,10 @@ overrides = {
     "leppaberry": {
       "name": "Leppa Berry",
       "desc": "If held by a Pokémon, it restores a move's PP by 10.",
-      "location": "Wild held by Cleffa, Wild held by Mime Jr., Reward from PkMn Ranger Thalia - Route 11, Reward from PkMn Ranger Crofton - Route 11",
+      "location": "Wild held by Cleffa, Wild held by Mime Jr., Reward from Pkmn Ranger Thalia - Route 11, Reward from Pkmn Ranger Crofton - Route 11",
       "rewards": [
-        "PkMn Ranger Thalia - Route 11",
-        "PkMn Ranger Crofton - Route 11"
+        "Pkmn Ranger Thalia - Route 11",
+        "Pkmn Ranger Crofton - Route 11"
       ],
       "wilds": [
         "Cleffa",
@@ -107053,9 +109010,9 @@ overrides = {
     "oranberry": {
       "name": "Oran Berry",
       "desc": "If held by a Pokémon,  it heals the user by just 10 HP.",
-      "location": "Wild held by Rattata, Wild held by Pichu, Wild held by Bibarel, Reward from PkMn Breeder Adelaide - Route 3",
+      "location": "Wild held by Rattata, Wild held by Pichu, Wild held by Bibarel, Reward from Pkmn Breeder Adelaide - Route 3",
       "rewards": [
-        "PkMn Breeder Adelaide - Route 3"
+        "Pkmn Breeder Adelaide - Route 3"
       ],
       "wilds": [
         "Rattata",
@@ -107066,10 +109023,10 @@ overrides = {
     "persimberry": {
       "name": "Persim Berry",
       "desc": "If held by a Pokémon, it recovers from confusion.",
-      "location": "Wild held by Zigzagoon, Reward from PkMn Ranger Brenda, Reward from PkMn Ranger Claude",
+      "location": "Wild held by Zigzagoon, Reward from Pkmn Ranger Brenda, Reward from Pkmn Ranger Claude",
       "rewards": [
-        "PkMn Ranger Brenda",
-        "PkMn Ranger Claude"
+        "Pkmn Ranger Brenda",
+        "Pkmn Ranger Claude"
       ],
       "wilds": [
         "Zigzagoon"
@@ -107078,14 +109035,15 @@ overrides = {
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon, it recovers from any status problem.",
-      "location": "Wild held by Electrode, Wild held by Mew, Wild held by Celebi, Wild held by Shaymin, Wild held by Alt Form, Reward from PkMn Breeder Galen",
+      "location": "Wild held by Electrode, Wild held by Mew, Wild held by Celebi, Wild held by Abomasnow, Wild held by Shaymin, Wild held by Shaymin-Sky, Reward from Pkmn Breeder Galen",
       "rewards": [
-        "PkMn Breeder Galen"
+        "Pkmn Breeder Galen"
       ],
       "wilds": [
         "Electrode",
         "Mew",
         "Celebi",
+        "Abomasnow",
         "Shaymin",
         "Alt Form"
       ]
@@ -107093,13 +109051,13 @@ overrides = {
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon, it heals the user's HP a little.",
-      "location": "Wild held by Forretress, Wild held by Bibarel, Reward from PkMn Breeder Eustace - Route 12, Reward from PkMn Breeder Ethel - Route 12, Reward from PkMn Ranger Shelly - Route 15, Reward from PkMn Ranger Keith - Route 15, Reward from PkMn Ranger Harry",
+      "location": "Wild held by Forretress, Wild held by Bibarel, Reward from Pkmn Breeder Eustace - Route 12, Reward from Pkmn Breeder Ethel - Route 12, Reward from Pkmn Ranger Shelly - Route 15, Reward from Pkmn Ranger Keith - Route 15, Reward from Pkmn Ranger Harry",
       "rewards": [
-        "PkMn Breeder Eustace - Route 12",
-        "PkMn Breeder Ethel - Route 12",
-        "PkMn Ranger Shelly - Route 15",
-        "PkMn Ranger Keith - Route 15",
-        "PkMn Ranger Harry"
+        "Pkmn Breeder Eustace - Route 12",
+        "Pkmn Breeder Ethel - Route 12",
+        "Pkmn Ranger Shelly - Route 15",
+        "Pkmn Ranger Keith - Route 15",
+        "Pkmn Ranger Harry"
       ],
       "wilds": [
         "Forretress",
@@ -107627,7 +109585,7 @@ overrides = {
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
-      "location": "Wild held by Totodile, Wild held by Alt Form",
+      "location": "Wild held by Totodile, Wild held by Castform-Sunny, Wild held by Castform-Rainy, Wild held by Castform-Snowy",
       "wilds": [
         "Totodile",
         "Alt Form"
@@ -107710,9 +109668,9 @@ overrides = {
     "shellbell": {
       "name": "Shell Bell",
       "desc": "An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.",
-      "location": "Reward from Youngster Zachary - Not Pinwheel Forest",
+      "location": "Reward from Youngster Keita - Not Pinwheel Forest",
       "rewards": [
-        "Youngster Zachary - Not Pinwheel Forest"
+        "Youngster Keita - Not Pinwheel Forest"
       ]
     },
     "seaincense": {
@@ -108183,7 +110141,7 @@ overrides = {
     },
     "tm07": {
       "name": "TM07",
-      "desc": "Summons a hailstorm that lasts for five turns. The hailstorm damages all types except Ice.",
+      "desc": "The target is attacked with a shock wave generated by the user's gaping mouth. It may also lower the target's Sp. Def.",
       "location": ""
     },
     "tm08": {
@@ -108231,12 +110189,12 @@ overrides = {
     },
     "tm16": {
       "name": "TM16",
-      "desc": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
+      "desc": "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.",
       "location": ""
     },
     "tm17": {
       "name": "TM17",
-      "desc": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+      "desc": "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
       "location": ""
     },
     "tm18": {
@@ -108246,7 +110204,7 @@ overrides = {
     },
     "tm19": {
       "name": "TM19",
-      "desc": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+      "desc": "The user makes the ground under the target erupt with power. It may also lower the target's Sp. Def.",
       "location": ""
     },
     "tm20": {
@@ -108256,7 +110214,7 @@ overrides = {
     },
     "tm21": {
       "name": "TM21",
-      "desc": "A full-power attack that grows more powerful the less the user likes its Trainer.",
+      "desc": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
       "location": ""
     },
     "tm22": {
@@ -108316,7 +110274,7 @@ overrides = {
     },
     "tm33": {
       "name": "TM33",
-      "desc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
+      "desc": "The user attacks the target with a pulsing blast of water. This attack never misses.",
       "location": ""
     },
     "tm34": {
@@ -108539,7 +110497,7 @@ overrides = {
     },
     "tm77": {
       "name": "TM77",
-      "desc": "The user hypnotizes itself into copying any stat change made by the target.",
+      "desc": "The user scatters curious leaves that chase the target. This attack will not miss.",
       "location": ""
     },
     "tm78": {
@@ -108569,7 +110527,7 @@ overrides = {
     },
     "tm83": {
       "name": "TM83",
-      "desc": "The user is roused, and its Attack and Sp. Atk stats increase.",
+      "desc": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
       "location": ""
     },
     "tm84": {
@@ -108604,7 +110562,7 @@ overrides = {
     },
     "tm90": {
       "name": "TM90",
-      "desc": "The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.",
+      "desc": "The user draws power to attack by using its held Berry. The Berry determines its type and power.",
       "location": ""
     },
     "tm91": {
@@ -109200,7 +111158,10 @@ overrides = {
     "eviolite": {
       "name": "Eviolite",
       "desc": "A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def of a Pokémon that can still evolve.",
-      "location": ""
+      "location": "Reward from Youngster Zachary - Not Pinwheel Forest",
+      "rewards": [
+        "Youngster Zachary - Not Pinwheel Forest"
+      ]
     },
     "floatstone": {
       "name": "Float Stone",
@@ -109238,9 +111199,9 @@ overrides = {
     "absorbbulb": {
       "name": "Absorb Bulb",
       "desc": "A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.",
-      "location": "Reward from PkMn Ranger Miguel - Pinwheel Forest",
+      "location": "Reward from Pkmn Ranger Miguel - Pinwheel Forest",
       "rewards": [
-        "PkMn Ranger Miguel - Pinwheel Forest"
+        "Pkmn Ranger Miguel - Pinwheel Forest"
       ]
     },
     "cellbattery": {
