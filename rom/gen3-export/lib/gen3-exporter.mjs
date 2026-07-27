@@ -16,6 +16,27 @@ const PHYSICAL_TYPES_GEN3 = new Set([
   "Steel",
 ]);
 
+const GBA_TYPE_NAMES = [
+  "Normal",
+  "Fighting",
+  "Flying",
+  "Poison",
+  "Ground",
+  "Rock",
+  "Bug",
+  "Ghost",
+  "Steel",
+  "???",
+  "Fire",
+  "Water",
+  "Grass",
+  "Electric",
+  "Psychic",
+  "Ice",
+  "Dragon",
+  "Dark",
+];
+
 const GEN3_TYPE_NAME_ALIASES = {
   normal: "Normal",
   fight: "Fighting",
@@ -409,6 +430,26 @@ function normalizeTypeName(name) {
   return cleaned === cleaned.toUpperCase() ? capitalizeWords(cleaned) : cleaned;
 }
 
+function usesCompactTypeNameTable(typeNames) {
+  return typeNames[9] === "Fire" && typeNames[10] === "Water";
+}
+
+function typeNameIndexForGbaTypeId(typeNames, typeId) {
+  return usesCompactTypeNameTable(typeNames) && typeId > 9 ? typeId - 1 : typeId;
+}
+
+function isKnownGen3TypeId(typeNames, typeId) {
+  if (!Number.isInteger(typeId) || typeId < 0) return false;
+  const index = typeNameIndexForGbaTypeId(typeNames, typeId);
+  return index < typeNames.length || typeId < GBA_TYPE_NAMES.length;
+}
+
+function resolveGen3TypeName(typeNames, typeId) {
+  if (!isKnownGen3TypeId(typeNames, typeId)) return "";
+  const index = typeNameIndexForGbaTypeId(typeNames, typeId);
+  return typeNames[index] || GBA_TYPE_NAMES[typeId] || "";
+}
+
 function normalizeCalcMoveComparisonName(name) {
   const cleaned = normalizeDisplayText(name);
   return splitMoveNameSubstitutions(cleaned === cleaned.toUpperCase() ? capitalizeWords(cleaned) : cleaned);
@@ -583,7 +624,7 @@ function evoToDdex(methodName, arg, extra, itemNames, moveNames, typeNames) {
   if (methodName.includes("Happiness")) return ["levelFriendship", ""];
   if (methodName.includes("Trade")) return ["trade", arg ? (itemNames[arg] || "") : ""];
   if (methodName.includes("Item") || methodName.includes("Stone")) return ["item", itemNames[arg] || arg];
-  if (methodName.includes("Type")) return ["levelExtra", `${methodName}: ${typeNames[arg] || String(arg)}`];
+  if (methodName.includes("Type")) return ["levelExtra", `${methodName}: ${resolveGen3TypeName(typeNames, arg) || String(arg)}`];
   if (normalized.startsWith("level") && arg) return ["levelExtra", `L${arg} ${methodName}`];
   return ["levelExtra", arg ? `${methodName}: ${arg}` : methodName];
 }
@@ -874,10 +915,10 @@ class ExportContext {
       const shiftedPp = this.reader.readU8(start + 5);
       const shiftedCategory = this.reader.readU8(start + 10);
 
-      if (standardType < typeNames.length && (standardAccuracy <= 100 || standardAccuracy === 255) && standardPp <= 64) {
+      if (isKnownGen3TypeId(typeNames, standardType) && (standardAccuracy <= 100 || standardAccuracy === 255) && standardPp <= 64) {
         standardScore += 1;
       }
-      if (shiftedType < typeNames.length && (shiftedAccuracy <= 100 || shiftedAccuracy === 255) && shiftedPp <= 64) {
+      if (isKnownGen3TypeId(typeNames, shiftedType) && (shiftedAccuracy <= 100 || shiftedAccuracy === 255) && shiftedPp <= 64) {
         shiftedScore += 1;
         if (shiftedCategory < 3) shiftedCategoryScore += 1;
       }
@@ -1256,7 +1297,7 @@ function buildCalcOutput(ctx, title) {
     poks[species.name] = {
       bs: species.bs,
       types: dedupePreserveOrder(
-        species.typeIds.filter((typeId) => typeId >= 0 && typeId < typeNames.length).map((typeId) => typeNames[typeId])
+        species.typeIds.map((typeId) => resolveGen3TypeName(typeNames, typeId)).filter(Boolean)
       ).slice(0, 2),
       abilities: slots,
     };
@@ -1264,7 +1305,7 @@ function buildCalcOutput(ctx, title) {
 
   const moves = {};
   for (const move of moveStats.slice(1)) {
-    const moveType = typeNames[move.typeId] || "Normal";
+    const moveType = resolveGen3TypeName(typeNames, move.typeId) || "Normal";
     let category = move.category;
     if (!category) category = move.power === 0 ? "Status" : (PHYSICAL_TYPES_GEN3.has(moveType) ? "Physical" : "Special");
     moves[move.name] = {
@@ -1403,7 +1444,7 @@ function buildDexOutput(ctx) {
       name: species.name,
       num: species.num,
       types: dedupePreserveOrder(
-        species.typeIds.filter((typeId) => typeId >= 0 && typeId < typeNames.length).map((typeId) => typeNames[typeId])
+        species.typeIds.map((typeId) => resolveGen3TypeName(typeNames, typeId)).filter(Boolean)
       ).slice(0, 2),
       bs: species.bs,
       abs: orderedAbilities,
@@ -1434,7 +1475,7 @@ function buildDexOutput(ctx) {
 
   const moves = {};
   for (const move of moveStats.slice(1)) {
-    const moveType = typeNames[move.typeId] || "Normal";
+    const moveType = resolveGen3TypeName(typeNames, move.typeId) || "Normal";
     let category = move.category;
     if (!category) category = move.power === 0 ? "Status" : (PHYSICAL_TYPES_GEN3.has(moveType) ? "Physical" : "Special");
     moves[move.name] = {
