@@ -16,6 +16,26 @@ const PHYSICAL_TYPES_GEN3 = new Set([
   "Steel",
 ]);
 
+const HIDDEN_POWER_MOVE_TYPES = [
+  "Bug",
+  "Dark",
+  "Dragon",
+  "Electric",
+  "Fairy",
+  "Fighting",
+  "Fire",
+  "Flying",
+  "Ghost",
+  "Grass",
+  "Ground",
+  "Ice",
+  "Poison",
+  "Psychic",
+  "Rock",
+  "Steel",
+  "Water",
+];
+
 const GBA_TYPE_NAMES = [
   "Normal",
   "Fighting",
@@ -339,6 +359,29 @@ function toId(text) {
   return String(text).toLowerCase().replace(/é/g, "e").replace(/[^a-z0-9]+/g, "");
 }
 
+const HIDDEN_POWER_MOVE_TYPES_BY_ID = HIDDEN_POWER_MOVE_TYPES.reduce((acc, typeName) => {
+  acc[toId(typeName)] = typeName;
+  return acc;
+}, {});
+
+function normalizeHiddenPowerMoveName(name) {
+  const text = String(name || "").replace(/\s+/g, " ").trim();
+  if (!text) return text;
+  const spacedMatch = text.match(/^(?:hp|hidden power)\s+(.+)$/i);
+  if (spacedMatch) {
+    const typeName = spacedMatch[1].replace(/^\[|\]$/g, "").trim();
+    const typeId = toId(typeName);
+    return `HP ${HIDDEN_POWER_MOVE_TYPES_BY_ID[typeId] || capitalizeWords(addWordBreaks(typeName))}`;
+  }
+  const compactId = toId(text);
+  for (const [typeId, typeName] of Object.entries(HIDDEN_POWER_MOVE_TYPES_BY_ID)) {
+    if (compactId === `hp${typeId}` || compactId === `hiddenpower${typeId}`) {
+      return `HP ${typeName}`;
+    }
+  }
+  return text;
+}
+
 function resolveNameWithDefaults(rawName, defaults, options = {}) {
   const normalized = addWordBreaks(normalizeDisplayText(rawName));
   const key = toId(normalized);
@@ -404,7 +447,9 @@ function normalizeSpeciesName(name) {
 
 function normalizeMoveName(name) {
   const cleaned = normalizeDisplayText(name);
-  return resolveNameWithDefaults(cleaned === cleaned.toUpperCase() ? capitalizeWords(cleaned) : cleaned, movesById);
+  return normalizeHiddenPowerMoveName(
+    resolveNameWithDefaults(cleaned === cleaned.toUpperCase() ? capitalizeWords(cleaned) : cleaned, movesById)
+  );
 }
 
 function normalizeItemName(name) {
@@ -452,7 +497,9 @@ function resolveGen3TypeName(typeNames, typeId) {
 
 function normalizeCalcMoveComparisonName(name) {
   const cleaned = normalizeDisplayText(name);
-  return splitMoveNameSubstitutions(cleaned === cleaned.toUpperCase() ? capitalizeWords(cleaned) : cleaned);
+  return normalizeHiddenPowerMoveName(
+    splitMoveNameSubstitutions(cleaned === cleaned.toUpperCase() ? capitalizeWords(cleaned) : cleaned)
+  );
 }
 
 function normalizeCalcSpeciesComparisonName(name) {

@@ -62,6 +62,10 @@ Once a rom has been loaded, you can view a local Damage Calculator from the More
 
 <img width="314" height="299" alt="Screenshot 2026-05-03 at 1 34 45 PM" src="https://github.com/user-attachments/assets/2d7aed5b-fa54-4eac-93fb-14ddba4aa697" />
 
+### Local Vercel Dev
+
+Use `npm run dev:vercel` instead of invoking `vercel dev` directly. The wrapper disables the Vercel CLI update notifier, which can crash with `spawn EBADF` after the local server starts on Vercel CLI 48.12.0.
+
 
 
 If you are done developing your romhack and want to permanently host your Calc/Dex data so that users can view it without having to upload a rom, contact hzla on discord.
@@ -79,7 +83,6 @@ If you are done developing your romhack and want to permanently host your Calc/D
 - Autumn Red
 - Cascade White 
 - Blinding White
-
 
 
 

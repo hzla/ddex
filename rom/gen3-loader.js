@@ -17,6 +17,7 @@ export function buildOverridesFromGen3Rom(romBytes, tomlText, options = {}) {
     slug: artifacts.slug,
     title: artifacts.title,
     summary: artifacts.summary,
+    backupData: artifacts.calcOutput,
     overrides: artifacts.dexOutput,
     searchIndex: artifacts.searchIndex.BattleSearchIndex,
     searchIndexOffset: artifacts.searchIndex.BattleSearchIndexOffset,

@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev:vercel": "node scripts/vercel-dev.mjs",
     "build": "npm run build:vercel",
     "build:vercel": "DDEX_TARGET=vercel node scripts/build.mjs",
     "build:pages": "DDEX_TARGET=github-pages node scripts/build.mjs",

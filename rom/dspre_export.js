@@ -788,6 +788,49 @@ const BACKUP_MOVE_NAME_REPLACEMENTS_LOWER = Object.keys(BACKUP_MOVE_NAME_REPLACE
   return acc;
 }, {});
 
+const HIDDEN_POWER_MOVE_TYPES = [
+  "Bug",
+  "Dark",
+  "Dragon",
+  "Electric",
+  "Fairy",
+  "Fighting",
+  "Fire",
+  "Flying",
+  "Ghost",
+  "Grass",
+  "Ground",
+  "Ice",
+  "Poison",
+  "Psychic",
+  "Rock",
+  "Steel",
+  "Water",
+];
+
+const HIDDEN_POWER_MOVE_TYPES_BY_ID = HIDDEN_POWER_MOVE_TYPES.reduce((acc, typeName) => {
+  acc[toID(typeName)] = typeName;
+  return acc;
+}, {});
+
+function normalizeHiddenPowerMoveName(value) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (!text) return text;
+  const spacedMatch = text.match(/^(?:hp|hidden power)\s+(.+)$/i);
+  if (spacedMatch) {
+    const typeName = spacedMatch[1].replace(/^\[|\]$/g, "").trim();
+    const typeId = toID(typeName);
+    return `HP ${HIDDEN_POWER_MOVE_TYPES_BY_ID[typeId] || titleCaseWord(typeName)}`;
+  }
+  const compactId = toID(text);
+  for (const [typeId, typeName] of Object.entries(HIDDEN_POWER_MOVE_TYPES_BY_ID)) {
+    if (compactId === `hp${typeId}` || compactId === `hiddenpower${typeId}`) {
+      return `HP ${typeName}`;
+    }
+  }
+  return text;
+}
+
 const BACKUP_ITEM_NAME_REPLACEMENTS_LOWER = Object.keys(BACKUP_ITEM_NAME_REPLACEMENTS).reduce((acc, key) => {
   acc[key.toLowerCase()] = BACKUP_ITEM_NAME_REPLACEMENTS[key];
   return acc;
@@ -803,7 +846,7 @@ function normalizeBackupMoveName(value) {
   if (Object.prototype.hasOwnProperty.call(BACKUP_MOVE_NAME_REPLACEMENTS_LOWER, lowered)) {
     return BACKUP_MOVE_NAME_REPLACEMENTS_LOWER[lowered];
   }
-  return text;
+  return normalizeHiddenPowerMoveName(text);
 }
 
 function normalizeBackupItemName(value) {

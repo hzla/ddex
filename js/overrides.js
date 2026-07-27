@@ -393,6 +393,59 @@ function normalizePokemonNamePunctuation(value) {
     .replace(/\bSirfetch'd\b/gi, (match) => `${match.slice(0, -2)}’d`);
 }
 
+const HIDDEN_POWER_MOVE_TYPES = [
+  "Bug",
+  "Dark",
+  "Dragon",
+  "Electric",
+  "Fairy",
+  "Fighting",
+  "Fire",
+  "Flying",
+  "Ghost",
+  "Grass",
+  "Ground",
+  "Ice",
+  "Poison",
+  "Psychic",
+  "Rock",
+  "Steel",
+  "Water",
+];
+
+const HIDDEN_POWER_MOVE_TYPES_BY_ID = HIDDEN_POWER_MOVE_TYPES.reduce((acc, typeName) => {
+  acc[String(typeName).toLowerCase().replace(/[^a-z0-9]+/g, "")] = typeName;
+  return acc;
+}, {});
+
+function titleCaseMoveFragment(value) {
+  return String(value || "")
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(/(\s+|-)/)
+    .map((part) => (part && !/^\s+$/.test(part) && part !== "-" ? part.slice(0, 1).toUpperCase() + part.slice(1).toLowerCase() : part))
+    .join("");
+}
+
+function normalizeHiddenPowerMoveName(value) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (!text) return text;
+  const spacedMatch = text.match(/^(?:hp|hidden power)\s+(.+)$/i);
+  if (spacedMatch) {
+    const typeName = spacedMatch[1].replace(/^\[|\]$/g, "").trim();
+    const typeId = String(typeName).toLowerCase().replace(/[^a-z0-9]+/g, "");
+    return `HP ${HIDDEN_POWER_MOVE_TYPES_BY_ID[typeId] || titleCaseMoveFragment(typeName)}`;
+  }
+  const compactId = text.toLowerCase().replace(/[^a-z0-9]+/g, "");
+  for (const [typeId, typeName] of Object.entries(HIDDEN_POWER_MOVE_TYPES_BY_ID)) {
+    if (compactId === `hp${typeId}` || compactId === `hiddenpower${typeId}`) {
+      return `HP ${typeName}`;
+    }
+  }
+  return text;
+}
+
 function normalizeOverrideSpeciesPayload(overridesData) {
   if (!overridesData || typeof overridesData !== "object") return overridesData;
   const nextOverrides = { ...overridesData };
@@ -458,10 +511,102 @@ function normalizeBackupFormattedSetSpecies(backupData) {
     return normalizedMap;
   }
 
+  function normalizeMoveReference(value) {
+    if (value == null) return value;
+    const text = String(value).trim();
+    if (!text || text === "-") return value;
+    return normalizeHiddenPowerMoveName(text);
+  }
+
+  function normalizeMoveList(moves) {
+    if (!Array.isArray(moves)) return moves;
+    return moves.map((move) => normalizeMoveReference(move));
+  }
+
+  function normalizeLearnsetInfo(info) {
+    if (!info || typeof info !== "object" || Array.isArray(info)) return info;
+    const nextInfo = { ...info };
+    if (Array.isArray(info.learnset)) {
+      nextInfo.learnset = info.learnset.map((row) => (
+        Array.isArray(row) ? [row[0], normalizeMoveReference(row[1])] : row
+      ));
+    }
+    if (Array.isArray(info.tms)) nextInfo.tms = normalizeMoveList(info.tms);
+    if (Array.isArray(info.tutors)) nextInfo.tutors = normalizeMoveList(info.tutors);
+    if (info.tutorsBySource && typeof info.tutorsBySource === "object" && !Array.isArray(info.tutorsBySource)) {
+      nextInfo.tutorsBySource = {};
+      for (const [source, moves] of Object.entries(info.tutorsBySource)) {
+        nextInfo.tutorsBySource[source] = normalizeMoveList(moves);
+      }
+    }
+    return nextInfo;
+  }
+
+  function normalizeFormattedSetMoves(mapValue) {
+    if (!mapValue || typeof mapValue !== "object") return mapValue;
+    const nextMap = {};
+    for (const [speciesName, sets] of Object.entries(mapValue)) {
+      if (!sets || typeof sets !== "object" || Array.isArray(sets)) {
+        nextMap[speciesName] = sets;
+        continue;
+      }
+      const nextSets = {};
+      for (const [setName, setData] of Object.entries(sets)) {
+        nextSets[setName] = setData && typeof setData === "object" && !Array.isArray(setData)
+          ? { ...setData, moves: normalizeMoveList(setData.moves) }
+          : setData;
+      }
+      nextMap[speciesName] = nextSets;
+    }
+    return nextMap;
+  }
+
+  function normalizePoksMoveReferences(mapValue) {
+    if (!mapValue || typeof mapValue !== "object") return mapValue;
+    const nextMap = {};
+    for (const [speciesName, speciesData] of Object.entries(mapValue)) {
+      nextMap[speciesName] = speciesData && typeof speciesData === "object" && !Array.isArray(speciesData)
+        ? { ...speciesData, learnset_info: normalizeLearnsetInfo(speciesData.learnset_info) }
+        : speciesData;
+    }
+    return nextMap;
+  }
+
+  function normalizeMoveMap(mapValue) {
+    if (!mapValue || typeof mapValue !== "object") return mapValue;
+    const nextMap = {};
+    for (const [moveName, moveData] of Object.entries(mapValue)) {
+      const normalizedMoveName = normalizeMoveReference(moveName);
+      const nextMoveData = moveData && typeof moveData === "object" && !Array.isArray(moveData)
+        ? { ...moveData }
+        : moveData;
+      if (nextMoveData && typeof nextMoveData === "object" && !Array.isArray(nextMoveData) && typeof nextMoveData.name !== "undefined") {
+        nextMoveData.name = normalizeMoveReference(nextMoveData.name);
+      }
+      nextMap[normalizedMoveName] = nextMoveData;
+    }
+    return nextMap;
+  }
+
+  function normalizeMoveReplacements(mapValue) {
+    if (!mapValue || typeof mapValue !== "object") return mapValue;
+    const nextMap = {};
+    for (const [moveName, replacementName] of Object.entries(mapValue)) {
+      nextMap[normalizeMoveReference(moveName)] =
+        typeof replacementName === "string" ? normalizeMoveReference(replacementName) : replacementName;
+    }
+    return nextMap;
+  }
+
+  const formattedSets = normalizeSpeciesKeyMap(backupData.formatted_sets);
+  const poks = normalizeSpeciesKeyMap(backupData.poks);
+
   return {
     ...backupData,
-    formatted_sets: normalizeSpeciesKeyMap(backupData.formatted_sets),
-    poks: normalizeSpeciesKeyMap(backupData.poks),
+    formatted_sets: normalizeFormattedSetMoves(formattedSets),
+    poks: normalizePoksMoveReferences(poks),
+    moves: normalizeMoveMap(backupData.moves),
+    move_replacements: normalizeMoveReplacements(backupData.move_replacements),
   };
 }
 
@@ -1061,6 +1206,7 @@ function applyImportedRomPayload(result, options = {}) {
   const rawRomTitle = String(result.title || options.fallbackTitle || "rom").trim() || "rom";
   const displayRomTitle = toTitleCaseWords(rawRomTitle);
   const sourceGen = Number(options.sourceGen || result.sourceGen || 0) || null;
+  const backupData = result.backupData || result.calcOutput || null;
 
   setHideEffectIds(false);
   window.__DDEX_LAST_ROM_BUFFER = options.lastRomBuffer || null;
@@ -1071,11 +1217,14 @@ function applyImportedRomPayload(result, options = {}) {
   maybeApplyRomFamilyFromTitle(rawRomTitle);
 
   window.DDEX_ROM_TEXTS = result.texts || null;
-  window.DDEX_ROM_BACKUP_DATA = result.backupData
+  window.DDEX_ROM_BACKUP_DATA = backupData
     ? normalizeBackupFormattedSetSpecies({
-        ...result.backupData,
+        ...backupData,
         ...(result.includes ? { includes: result.includes } : {}),
       })
+    : null;
+  window.DDEX_ROM_CALC_FILE = result.generatedFiles && result.generatedFiles.calc
+    ? result.generatedFiles.calc
     : null;
   window.DDEX_ROM_INCLUDES = result.includes || null;
   window.DDEX_ROM_DEBUG = result.debug || null;
