@@ -17435,9 +17435,9 @@ overrides = {
         "Ground"
       ],
       "items": [
-        "None",
-        "None",
-        "None"
+        "Thick Club",
+        "Thick Club",
+        "Thick Club"
       ],
       "bs": {
         "hp": 60,
@@ -17495,7 +17495,7 @@ overrides = {
           ],
           [
             37,
-            "Stompin Tantrum"
+            "Perish Song"
           ],
           [
             41,
@@ -17612,17 +17612,17 @@ overrides = {
         "Ghost"
       ],
       "items": [
-        "None",
-        "None",
-        "None"
+        "Thick Club",
+        "Thick Club",
+        "Thick Club"
       ],
       "bs": {
         "hp": 75,
-        "at": 80,
+        "at": 90,
         "df": 110,
         "sa": 50,
         "sd": 90,
-        "sp": 45
+        "sp": 55
       },
       "learnset_info": {
         "learnset": [
@@ -17672,7 +17672,7 @@ overrides = {
           ],
           [
             37,
-            "Stompin Tantrum"
+            "Perish Song"
           ],
           [
             41,
@@ -17696,7 +17696,7 @@ overrides = {
           ],
           [
             58,
-            "Perish Song"
+            "Night Shade"
           ],
           [
             63,
@@ -47119,7 +47119,7 @@ overrides = {
         "useItem"
       ],
       "evoParams": [
-        30,
+        36,
         "Dawn Stone"
       ]
     },
@@ -47299,7 +47299,7 @@ overrides = {
         "Pixilate"
       ],
       "evoType": "level",
-      "evoLevel": 30
+      "evoLevel": 36
     },
     "Surskit": {
       "name": "Surskit",
@@ -50386,9 +50386,9 @@ overrides = {
       ],
       "bs": {
         "hp": 50,
-        "at": 118,
+        "at": 123,
         "df": 75,
-        "sa": 113,
+        "sa": 118,
         "sd": 65,
         "sp": 114
       },
@@ -55446,9 +55446,9 @@ overrides = {
       ],
       "bs": {
         "hp": 50,
-        "at": 85,
+        "at": 95,
         "df": 40,
-        "sa": 85,
+        "sa": 95,
         "sd": 40,
         "sp": 75
       },
@@ -69152,10 +69152,10 @@ overrides = {
       ],
       "bs": {
         "hp": 60,
-        "at": 30,
-        "df": 42,
-        "sa": 30,
-        "sd": 42,
+        "at": 50,
+        "df": 50,
+        "sa": 50,
+        "sd": 50,
         "sp": 70
       },
       "learnset_info": {
@@ -89620,8 +89620,8 @@ overrides = {
       },
       "abs": [
         "Patient",
-        "Rivalry",
-        "Mold Breaker"
+        "Mold Breaker",
+        "Guts"
       ]
     },
     "Sawk": {
@@ -89776,8 +89776,8 @@ overrides = {
       },
       "abs": [
         "Sturdy",
-        "Quick Feet",
-        "Mold Breaker"
+        "Mold Breaker",
+        "Quick Feet"
       ]
     },
     "Sewaddle": {
@@ -93432,10 +93432,10 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 38,
+        "hp": 48,
         "at": 30,
         "df": 102,
-        "sa": 65,
+        "sa": 75,
         "sd": 85,
         "sp": 30
       },
@@ -93598,10 +93598,10 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 58,
+        "hp": 68,
         "at": 50,
         "df": 145,
-        "sa": 95,
+        "sa": 105,
         "sd": 115,
         "sp": 30
       },
@@ -98245,11 +98245,11 @@ overrides = {
           ],
           [
             41,
-            "Sucker Punch"
+            "Brutal Swing"
           ],
           [
             44,
-            "Infestation"
+            "1st Impression"
           ],
           [
             47,
@@ -98257,7 +98257,7 @@ overrides = {
           ],
           [
             53,
-            "Foul Play"
+            "Snap Trap"
           ],
           [
             58,
@@ -98316,7 +98316,7 @@ overrides = {
       "abs": [
         "Regenerator",
         "Contagious",
-        "Toxic Boost"
+        "Prankster"
       ],
       "evos": [
         "Amoonguss"
@@ -98404,11 +98404,11 @@ overrides = {
           ],
           [
             41,
-            "Sucker Punch"
+            "Brutal Swing"
           ],
           [
             44,
-            "Infestation"
+            "1st Impression"
           ],
           [
             47,
@@ -98416,7 +98416,7 @@ overrides = {
           ],
           [
             53,
-            "Foul Play"
+            "Snap Trap"
           ],
           [
             58,
@@ -98479,7 +98479,7 @@ overrides = {
       "abs": [
         "Regenerator",
         "Contagious",
-        "Toxic Boost"
+        "Prankster"
       ],
       "evoType": "level",
       "evoLevel": 39
@@ -104874,7 +104874,7 @@ overrides = {
           ],
           [
             29,
-            "Torment"
+            "Fire Lash"
           ],
           [
             34,
@@ -104902,7 +104902,7 @@ overrides = {
           ],
           [
             47,
-            "Fire Lash"
+            "Fire Spin"
           ],
           [
             52,
@@ -104910,7 +104910,7 @@ overrides = {
           ],
           [
             57,
-            "Fire Spin"
+            "Steel Beam"
           ],
           [
             60,
@@ -105008,7 +105008,7 @@ overrides = {
         "at": 109,
         "df": 112,
         "sa": 48,
-        "sd": 48,
+        "sd": 88,
         "sp": 119
       },
       "learnset_info": {
@@ -105143,7 +105143,7 @@ overrides = {
       },
       "abs": [
         "Hustle",
-        "Swarm",
+        "Rivalry",
         "Heatproof"
       ]
     },
@@ -115415,8 +115415,7 @@ overrides = {
       "name": "Metronome",
       "num": 117,
       "e_id": 83,
-      "desc": "The user waggles a finger and stimulates its brain into randomly using nearly any two moves.",
-      "oldDesc": "The user waggles a finger and stimulates its brain into randomly using nearly any move."
+      "desc": "The user waggles a finger and stimulates its brain into randomly using nearly any move."
     },
     "Mirror Move": {
       "t": "Flying",
@@ -115765,7 +115764,7 @@ overrides = {
       "name": "Phantom Strike",
       "num": 143,
       "e_id": 76,
-      "desc": "The user attacks by possessing foes, thrashing their bodies around violently. May confuse targets.",
+      "desc": "The user attacks by possessing the target, thrashing their body around violently. It may confuse the target.",
       "oldDesc": null,
       "new": true,
       "sf": true
@@ -117486,7 +117485,8 @@ overrides = {
       "name": "Helping Hand",
       "num": 269,
       "e_id": 176,
-      "desc": "The user assists an ally by boosting the power of its attack."
+      "desc": "The user assists an ally by doubling the power of its attack.",
+      "oldDesc": "The user assists an ally by boosting the power of its attack."
     },
     "Weather Crash": {
       "t": "Normal",
@@ -117610,7 +117610,8 @@ overrides = {
       "name": "Revenge",
       "num": 278,
       "e_id": 0,
-      "desc": "An attack move that inflicts double the damage if the user has been hurt by the opponent in the same turn."
+      "desc": "A powerful attack fueled by resentment. If the user moves after the target, this attack's power will be doubled.",
+      "oldDesc": "An attack move that inflicts double the damage if the user has been hurt by the opponent in the same turn."
     },
     "Brick Break": {
       "t": "Fighting",
@@ -117653,7 +117654,7 @@ overrides = {
       "desc": "The user slaps down the target's held item, preventing that item from being used in the battle."
     },
     "Endeavor": {
-      "t": "Normal",
+      "t": "Dark",
       "bp": 1,
       "cat": "Physical",
       "pp": 5,
@@ -117984,7 +117985,7 @@ overrides = {
       "name": "Crush Claw",
       "num": 305,
       "e_id": 19,
-      "desc": "The user slashes through targets with hard and sharp claws. It may also lower the target's Defense.",
+      "desc": " The user slashes through the target with hard and sharp claws. It also lowers the target's Defense.",
       "oldDesc": "The user slashes the target with hard and sharp claws. It may also lower the target's Defense.",
       "sf": true
     },
@@ -119559,7 +119560,8 @@ overrides = {
       "name": "Avalanche",
       "num": 418,
       "e_id": 0,
-      "desc": "An attack move that inflicts double the damage if the user has been hurt by the target in the same turn."
+      "desc": "Bury the target in an avalanche of ice. If the user moves after the target, this attack's power will be doubled.",
+      "oldDesc": "An attack move that inflicts double the damage if the user has been hurt by the target in the same turn."
     },
     "Ice Shard": {
       "t": "Ice",
@@ -119891,8 +119893,7 @@ overrides = {
       "name": "Stone Edge",
       "num": 443,
       "e_id": 43,
-      "desc": "The user stabs all foes with sharpened stones from below. It has a high critical-hit ratio.",
-      "oldDesc": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio."
+      "desc": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio."
     },
     "Captivate": {
       "t": "Fairy",
@@ -120645,7 +120646,7 @@ overrides = {
       "name": "Chip Away",
       "num": 497,
       "e_id": 303,
-      "desc": "Looking for an opening, the user strikes continually. Always deals neutral damage, even to Ghost type Pokémon. ",
+      "desc": "Looking for an opening, the user strikes continually. This attack always has neutral effectiveness on its target.",
       "oldDesc": "Looking for an opening, the user strikes continually. The target's stat changes don't affect this attack's damage."
     },
     "Clear Smog": {
@@ -121102,7 +121103,8 @@ overrides = {
       "name": "Sacred Sword",
       "num": 532,
       "e_id": 303,
-      "desc": "The user attacks by slicing with its long horns. The target's stat changes don't affect this attack's damage."
+      "desc": "The user attacks by slicing with a sword. Stat changes don't affect this attack's damage, and it can damage Ghost-types.",
+      "oldDesc": "The user attacks by slicing with its long horns. The target's stat changes don't affect this attack's damage."
     },
     "Razor Shell": {
       "t": "Water",
@@ -121240,11 +121242,13 @@ overrides = {
       "name": "Head Charge",
       "num": 542,
       "e_id": 198,
-      "desc": "The user charges its head into its target, using its powerful guard hair. It also damages the user a little.",
+      "desc": "The user charges its head into its target with such force it may paralyze them. It also damages the user a little.",
+      "oldDesc": "The user charges its head into its target, using its powerful guard hair. It also damages the user a little.",
       "recoil": [
         33,
         100
-      ]
+      ],
+      "sf": true
     },
     "Gear Grind": {
       "t": "Steel",
@@ -121272,8 +121276,8 @@ overrides = {
       "name": "Searing Shot",
       "num": 544,
       "e_id": 4,
-      "desc": "An inferno of scarlet flames torches everything around the user. Always leaves the target with a burn.",
-      "oldDesc": "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.",
+      "tar": "allAdjacent",
+      "desc": "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.",
       "sf": true
     },
     "Techno Blast": {
@@ -121904,7 +121908,7 @@ overrides = {
     },
     "ironfist": {
       "name": "Iron Fist",
-      "desc": "Boosts punching moves, and prevents contact.",
+      "desc": "Boosts punching moves by 1.3x.",
       "oldDesc": "Boosts the power of punching moves."
     },
     "poisonheal": {
@@ -152006,6 +152010,10 @@ overrides = {
       "name": "Thick Club",
       "desc": "An item to be held by Cubone or Marowak. It is a hard bone of some sort that boosts the Attack stat.",
       "location": "",
+      "wilds": [
+        "Cubone",
+        "Marowak"
+      ],
       "marts": [
         "Driftveil City Inscense Shop"
       ]
