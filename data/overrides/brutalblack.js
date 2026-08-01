@@ -506,10 +506,6 @@ overrides = {
             "Overheat"
           ],
           [
-            62,
-            "Leaf Storm"
-          ],
-          [
             65,
             "Draco Meteor"
           ],
@@ -645,10 +641,6 @@ overrides = {
           [
             62,
             "Overheat"
-          ],
-          [
-            62,
-            "Leaf Storm"
           ],
           [
             65,
@@ -787,10 +779,6 @@ overrides = {
           [
             62,
             "Overheat"
-          ],
-          [
-            62,
-            "Leaf Storm"
           ],
           [
             65,
@@ -2647,7 +2635,7 @@ overrides = {
       },
       "abs": [
         "Intimidate",
-        "Unnerve",
+        "Intimidate",
         "Unnerve"
       ],
       "evos": [
@@ -2774,7 +2762,7 @@ overrides = {
       },
       "abs": [
         "Intimidate",
-        "Unnerve",
+        "Intimidate",
         "Unnerve"
       ]
     },
@@ -6844,6 +6832,10 @@ overrides = {
             "Night Slash"
           ],
           [
+            40,
+            "Drain Punch"
+          ],
+          [
             44,
             "Submission"
           ],
@@ -6976,6 +6968,10 @@ overrides = {
           [
             35,
             "Night Slash"
+          ],
+          [
+            40,
+            "Drain Punch"
           ],
           [
             44,
@@ -7573,6 +7569,10 @@ overrides = {
             "Mach Punch"
           ],
           [
+            1,
+            "Pound"
+          ],
+          [
             5,
             "Water Gun"
           ],
@@ -7599,6 +7599,10 @@ overrides = {
           [
             35,
             "Waterfall"
+          ],
+          [
+            39,
+            "Drain Punch"
           ],
           [
             43,
@@ -9695,11 +9699,11 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement",
-        "Trade with Held Item"
+        "Item Use"
       ],
       "evoParams": [
         37,
-        "King's Rock"
+        "Water Stone"
       ]
     },
     "Slowbro": {
@@ -12933,6 +12937,10 @@ overrides = {
           [
             40,
             "Detect"
+          ],
+          [
+            42,
+            "Drain Punch"
           ],
           [
             44,
@@ -27413,7 +27421,7 @@ overrides = {
       "bs": {
         "hp": 75,
         "at": 105,
-        "df": 50,
+        "df": 60,
         "sa": 115,
         "sd": 80,
         "sp": 100
@@ -27709,7 +27717,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Quick Feet",
+        "Battle Armor",
         "Battle Armor",
         "Sand Veil"
       ],
@@ -27740,7 +27748,7 @@ overrides = {
         "df": 120,
         "sa": 60,
         "sd": 60,
-        "sp": 65
+        "sp": 50
       },
       "learnset_info": {
         "learnset": [
@@ -27821,7 +27829,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Quick Feet",
+        "Battle Armor",
         "Battle Armor",
         "Sand Veil"
       ]
@@ -30177,10 +30185,6 @@ overrides = {
       },
       "learnset_info": {
         "learnset": [
-          [
-            1,
-            "Fake Out"
-          ],
           [
             1,
             "Pound"
@@ -35531,8 +35535,12 @@ overrides = {
             "Rock Slide"
           ],
           [
-            40,
+            35,
             "Shadow Punch"
+          ],
+          [
+            40,
+            "Drain Punch"
           ],
           [
             44,
@@ -35653,8 +35661,12 @@ overrides = {
             "Rock Slide"
           ],
           [
-            40,
+            35,
             "Shadow Punch"
+          ],
+          [
+            40,
+            "Drain Punch"
           ],
           [
             44,
@@ -36894,6 +36906,10 @@ overrides = {
             "Low Kick"
           ],
           [
+            50,
+            "Drain Punch"
+          ],
+          [
             62,
             "Close Combat"
           ],
@@ -37026,6 +37042,10 @@ overrides = {
           [
             45,
             "Low Kick"
+          ],
+          [
+            50,
+            "Drain Punch"
           ],
           [
             62,
@@ -40308,7 +40328,7 @@ overrides = {
       "abs": [
         "Toxic Boost",
         "",
-        "Toxic Boost"
+        "Scrappy"
       ]
     },
     "Seviper": {
@@ -40770,7 +40790,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Mold Breaker",
+        "Adaptability",
         "Adaptability",
         "Hydration"
       ],
@@ -40886,7 +40906,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Mold Breaker",
+        "Adaptability",
         "Adaptability",
         "Drizzle"
       ]
@@ -42167,11 +42187,7 @@ overrides = {
           ],
           [
             40,
-            "Thunderbolt"
-          ],
-          [
-            40,
-            "Aeroblast"
+            "Ice Beam"
           ],
           [
             40,
@@ -42179,7 +42195,15 @@ overrides = {
           ],
           [
             40,
-            "Ice Beam"
+            "Thunderbolt"
+          ],
+          [
+            40,
+            "Aeroblast"
+          ],
+          [
+            50,
+            "Blizzard"
           ],
           [
             50,
@@ -42192,10 +42216,6 @@ overrides = {
           [
             50,
             "Fire Blast"
-          ],
-          [
-            50,
-            "Blizzard"
           ],
           [
             50,
@@ -42243,7 +42263,7 @@ overrides = {
       "abs": [
         "Forecast",
         "",
-        ""
+        "Trace"
       ]
     },
     "Kecleon": {
@@ -43144,7 +43164,6 @@ overrides = {
           "Grass Knot",
           "Swagger",
           "Natural Gift",
-          "Flash Cannon",
           "Trick Room"
         ]
       },
@@ -47031,15 +47050,15 @@ overrides = {
           ],
           [
             32,
-            "Fire Punch"
-          ],
-          [
-            32,
             "Thunder Punch"
           ],
           [
             32,
             "Ice Punch"
+          ],
+          [
+            32,
+            "Fire Punch"
           ],
           [
             36,
@@ -47051,7 +47070,7 @@ overrides = {
           ],
           [
             44,
-            "Taunt"
+            "Drain Punch"
           ],
           [
             50,
@@ -47189,15 +47208,15 @@ overrides = {
           ],
           [
             32,
-            "Ice Punch"
-          ],
-          [
-            32,
             "Fire Punch"
           ],
           [
             32,
             "Thunder Punch"
+          ],
+          [
+            32,
+            "Ice Punch"
           ],
           [
             36,
@@ -47209,7 +47228,7 @@ overrides = {
           ],
           [
             44,
-            "Taunt"
+            "Drain Punch"
           ],
           [
             50,
@@ -47904,7 +47923,7 @@ overrides = {
         "Level Requirement"
       ],
       "evoParams": [
-        34
+        36
       ]
     },
     "Staraptor": {
@@ -51859,6 +51878,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Snarl",
           "Cut"
         ]
       },
@@ -51997,6 +52017,7 @@ overrides = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Snarl",
           "Cut"
         ]
       },
@@ -53805,7 +53826,7 @@ overrides = {
           ],
           [
             21,
-            "Rock Smash"
+            "Drain Punch"
           ],
           [
             26,
@@ -53940,7 +53961,7 @@ overrides = {
           ],
           [
             21,
-            "Rock Smash"
+            "Drain Punch"
           ],
           [
             26,
@@ -57803,7 +57824,7 @@ overrides = {
       "abs": [
         "Levitate",
         "",
-        ""
+        "Levitate"
       ]
     },
     "Uxie": {
@@ -59724,7 +59745,7 @@ overrides = {
           ],
           [
             42,
-            "Helping Hand"
+            "Fling"
           ],
           [
             46,
@@ -59869,7 +59890,7 @@ overrides = {
           ],
           [
             42,
-            "Helping Hand"
+            "Fling"
           ],
           [
             46,
@@ -59959,8 +59980,8 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 90,
-        "at": 45,
+        "hp": 75,
+        "at": 60,
         "df": 95,
         "sa": 112,
         "sd": 95,
@@ -60014,7 +60035,7 @@ overrides = {
           ],
           [
             42,
-            "Helping Hand"
+            "Fling"
           ],
           [
             46,
@@ -64305,6 +64326,10 @@ overrides = {
             "Soft-Boiled"
           ],
           [
+            40,
+            "Wish"
+          ],
+          [
             44,
             "Icy Wind"
           ],
@@ -66627,7 +66652,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Rock Head",
+        "Mold Breaker",
         "Adaptability",
         "Mold Breaker"
       ]
@@ -68659,8 +68684,8 @@ overrides = {
             "Rock Climb"
           ],
           [
-            44,
-            "Fly"
+            45,
+            "Fling"
           ],
           [
             50,
@@ -68705,6 +68730,7 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
+          "Fling",
           "Acrobatics",
           "Shadow Claw",
           "Rock Polish",
@@ -68748,11 +68774,11 @@ overrides = {
       ],
       "bs": {
         "hp": 75,
-        "at": 140,
+        "at": 150,
         "df": 65,
-        "sa": 112,
+        "sa": 110,
         "sd": 65,
-        "sp": 110
+        "sp": 112
       },
       "learnset_info": {
         "learnset": [
@@ -68793,8 +68819,8 @@ overrides = {
             "Rock Climb"
           ],
           [
-            44,
-            "Fly"
+            45,
+            "Fling"
           ],
           [
             50,
@@ -68841,6 +68867,7 @@ overrides = {
           "Attract",
           "Round",
           "Focus Blast",
+          "Fling",
           "Acrobatics",
           "Shadow Claw",
           "Giga Impact",
@@ -89128,34 +89155,23 @@ overrides = {
         "encs": [
           {
             "s": "Clamperl",
-            "mn": 35
+            "mn": 30
           },
           {
             "s": "Clamperl",
-            "mn": 35
+            "mn": 30
           },
           {
             "s": "Clamperl",
-            "mn": 35
+            "mn": 30
           },
           {
             "s": "Clamperl",
-            "mn": 35
+            "mn": 30
           },
           {
             "s": "Clamperl",
-            "mn": 35
-          }
-        ]
-      },
-      "gift": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Electrode",
-            "mn": 1
+            "mn": 30
           }
         ]
       }
@@ -91021,32 +91037,12 @@ overrides = {
       },
       "gift": {
         "rates": [
-          100,
-          100,
-          100,
-          100,
           100
         ],
         "encs": [
           {
-            "s": "Ivysaur",
-            "mn": 1
-          },
-          {
-            "s": "Ivysaur",
-            "mn": 4
-          },
-          {
             "s": "Zorua",
             "mn": 10
-          },
-          {
-            "s": "Clefairy",
-            "mn": 40
-          },
-          {
-            "s": "Nidorina",
-            "mn": 1
           }
         ]
       }
@@ -91529,17 +91525,6 @@ overrides = {
           {
             "s": "Infernape",
             "mn": 60
-          }
-        ]
-      },
-      "gift": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Ludicolo",
-            "mn": 1
           }
         ]
       }
@@ -93671,17 +93656,6 @@ overrides = {
           {
             "s": "Sandslash",
             "mn": 40
-          }
-        ]
-      },
-      "gift": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Electrode",
-            "mn": 100
           }
         ]
       }
@@ -101867,17 +101841,6 @@ overrides = {
             "mn": 30
           }
         ]
-      },
-      "gift": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Venusaur",
-            "mn": 100
-          }
-        ]
       }
     },
     "route6": {
@@ -102880,17 +102843,6 @@ overrides = {
           {
             "s": "Emolga",
             "mn": 40
-          }
-        ]
-      },
-      "gift": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Electrode",
-            "mn": 10
           }
         ]
       }
@@ -107861,17 +107813,6 @@ overrides = {
             "mx": 70
           }
         ]
-      },
-      "gift": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Charmeleon",
-            "mn": 56
-          }
-        ]
       }
     },
     "route17": {
@@ -108014,41 +107955,6 @@ overrides = {
         ]
       }
     },
-    "nacrenecity": {
-      "name": "Nacrene City",
-      "wilds": [],
-      "gift": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Electrode",
-            "mn": 1
-          }
-        ]
-      }
-    },
-    "battlesubway": {
-      "name": "Battle Subway",
-      "wilds": [],
-      "gift": {
-        "rates": [
-          100,
-          100
-        ],
-        "encs": [
-          {
-            "s": "Pikachu",
-            "mn": 1
-          },
-          {
-            "s": "Poliwag",
-            "mn": 1
-          }
-        ]
-      }
-    },
     "ruminationfield": {
       "name": "Rumination Field",
       "wilds": [],
@@ -108114,14 +108020,9 @@ overrides = {
       "wilds": [],
       "static": {
         "rates": [
-          100,
           100
         ],
         "encs": [
-          {
-            "s": "Reshiram",
-            "mn": 50
-          },
           {
             "s": "Unown",
             "mn": 50
@@ -110141,7 +110042,7 @@ overrides = {
     },
     "tm07": {
       "name": "TM07",
-      "desc": "The target is attacked with a shock wave generated by the user's gaping mouth. It may also lower the target's Sp. Def.",
+      "desc": "Summons a hailstorm that lasts for five turns. The hailstorm damages all types except Ice.",
       "location": ""
     },
     "tm08": {
