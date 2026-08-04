@@ -3108,7 +3108,7 @@ overrides = {
           ],
           [
             5,
-            "Screech"
+            "Pursuit"
           ],
           [
             7,
@@ -3278,7 +3278,7 @@ overrides = {
           ],
           [
             5,
-            "Screech"
+            "Pursuit"
           ],
           [
             7,
@@ -10251,11 +10251,11 @@ overrides = {
           ],
           [
             31,
-            "Drain Punch"
+            "Double Slap"
           ],
           [
             34,
-            "Double Slap"
+            "Submission"
           ]
         ],
         "tms": [
@@ -10406,11 +10406,11 @@ overrides = {
           ],
           [
             31,
-            "Drain Punch"
+            "Double Slap"
           ],
           [
             34,
-            "Double Slap"
+            "Submission"
           ],
           [
             37,
@@ -10422,7 +10422,7 @@ overrides = {
           ],
           [
             43,
-            "Submission"
+            "Drain Punch"
           ],
           [
             46,
@@ -10582,11 +10582,11 @@ overrides = {
           ],
           [
             31,
-            "Focus Punch"
+            "Double Slap"
           ],
           [
             34,
-            "Double Slap"
+            "Submission"
           ],
           [
             37,
@@ -10598,7 +10598,7 @@ overrides = {
           ],
           [
             43,
-            "Submission"
+            "Focus Punch"
           ],
           [
             46,
@@ -11239,11 +11239,15 @@ overrides = {
           ],
           [
             38,
-            "Ice Punch"
+            "Blizzard"
           ],
           [
             38,
-            "Thunder Punch"
+            "Fire Blast"
+          ],
+          [
+            38,
+            "Thunder"
           ],
           [
             43,
@@ -11363,7 +11367,7 @@ overrides = {
           ],
           [
             1,
-            "Tickle"
+            "Encore"
           ],
           [
             7,
@@ -11403,11 +11407,15 @@ overrides = {
           ],
           [
             38,
-            "Ice Punch"
+            "Blizzard"
           ],
           [
             38,
-            "Thunder Punch"
+            "Fire Blast"
+          ],
+          [
+            38,
+            "Thunder"
           ],
           [
             43,
@@ -11415,15 +11423,31 @@ overrides = {
           ],
           [
             46,
-            "Helping Hand"
+            "Focus Blast"
           ],
           [
             49,
-            "Dynamic Punch"
+            "Helping Hand"
+          ],
+          [
+            54,
+            "Mach Punch"
           ],
           [
             58,
-            "Mach Punch"
+            "Dynamic Punch"
+          ],
+          [
+            62,
+            "Superpower"
+          ],
+          [
+            68,
+            "Spirit Break"
+          ],
+          [
+            75,
+            "Bulk Up"
           ]
         ],
         "tms": [
@@ -11525,7 +11549,7 @@ overrides = {
         "hp": 90,
         "at": 130,
         "df": 80,
-        "sa": 65,
+        "sa": 85,
         "sd": 85,
         "sp": 75
       },
@@ -11577,11 +11601,15 @@ overrides = {
           ],
           [
             38,
-            "Ice Punch"
+            "Blizzard"
           ],
           [
             38,
-            "Thunder Punch"
+            "Fire Blast"
+          ],
+          [
+            38,
+            "Thunder"
           ],
           [
             43,
@@ -11589,15 +11617,19 @@ overrides = {
           ],
           [
             46,
-            "Helping Hand"
+            "Focus Blast"
           ],
           [
             49,
-            "Dynamic Punch"
+            "Helping Hand"
+          ],
+          [
+            54,
+            "Mach Punch"
           ],
           [
             58,
-            "Mach Punch"
+            "Dynamic Punch"
           ],
           [
             62,
@@ -11682,7 +11714,7 @@ overrides = {
       "abs": [
         "Guts",
         "No Guard",
-        "Strong Body"
+        "Battle Armor"
       ],
       "evoType": "level",
       "evoLevel": 42
@@ -18181,19 +18213,19 @@ overrides = {
           ],
           [
             30,
-            "Counter"
+            "Mirror Coat"
           ],
           [
             32,
-            "Helping Hand"
+            "Rolling Kick"
           ],
           [
             35,
-            "Agility"
+            "Helping Hand"
           ],
           [
             39,
-            "Sucker Punch"
+            "Follow Me"
           ],
           [
             43,
@@ -18213,7 +18245,7 @@ overrides = {
           ],
           [
             60,
-            "Close Combat"
+            "High Jump Kick"
           ],
           [
             66,
@@ -18309,11 +18341,11 @@ overrides = {
           ],
           [
             1,
-            "Bulk Up"
+            "Wicked Blow"
           ],
           [
             1,
-            "Rapid Spin"
+            "Ice Hammer"
           ],
           [
             8,
@@ -18341,23 +18373,23 @@ overrides = {
           ],
           [
             26,
-            "Focus Punch"
+            "Mega Punch"
           ],
           [
             30,
-            "Counter"
-          ],
-          [
-            32,
-            "Helping Hand"
-          ],
-          [
-            35,
             "Block"
           ],
           [
+            32,
+            "Focus Punch"
+          ],
+          [
+            35,
+            "Helping Hand"
+          ],
+          [
             39,
-            "Sucker Punch"
+            "Follow Me"
           ],
           [
             43,
@@ -18439,7 +18471,7 @@ overrides = {
       },
       "abs": [
         "Iron Fist",
-        "Battle Armor",
+        "Scrappy",
         "Savant"
       ],
       "evoType": "level",
@@ -19771,7 +19803,7 @@ overrides = {
           ],
           [
             30,
-            "Glare"
+            "Mega Punch"
           ],
           [
             33,
@@ -21522,7 +21554,7 @@ overrides = {
           ],
           [
             5,
-            "Low Kick"
+            "Arm Thrust"
           ],
           [
             9,
@@ -21542,7 +21574,7 @@ overrides = {
           ],
           [
             22,
-            "Mach Punch"
+            "Dual Chop"
           ],
           [
             25,
@@ -21550,7 +21582,7 @@ overrides = {
           ],
           [
             27,
-            "Focus Punch"
+            "Brick Break"
           ],
           [
             30,
@@ -21558,23 +21590,35 @@ overrides = {
           ],
           [
             33,
-            "Fire Punch"
+            "Flamethrower"
           ],
           [
             36,
             "Wide Guard"
           ],
           [
-            41,
+            39,
             "Cross Chop"
           ],
           [
+            42,
+            "Discharge"
+          ],
+          [
             46,
-            "Follow Me"
+            "Protect"
           ],
           [
             49,
-            "Zap Cannon"
+            "Rolling Kick"
+          ],
+          [
+            53,
+            "Double-Edge"
+          ],
+          [
+            58,
+            "Wild Charge"
           ]
         ],
         "tms": [
@@ -23211,7 +23255,7 @@ overrides = {
           ],
           [
             17,
-            "Thrash"
+            "Double Kick"
           ],
           [
             21,
@@ -27688,15 +27732,15 @@ overrides = {
           ],
           [
             12,
-            "Moonlight"
+            "Dual Wingbeat"
           ],
           [
             14,
             "Safeguard"
           ],
           [
-            17,
-            "Dual Wingbeat"
+            18,
+            "Moonlight"
           ],
           [
             21,
@@ -27876,15 +27920,15 @@ overrides = {
           ],
           [
             12,
-            "Moonlight"
+            "Dual Wingbeat"
           ],
           [
             14,
             "Safeguard"
           ],
           [
-            17,
-            "Dual Wingbeat"
+            18,
+            "Moonlight"
           ],
           [
             21,
@@ -27939,7 +27983,7 @@ overrides = {
             "Meteor Mash"
           ],
           [
-            58,
+            52,
             "Superpower"
           ]
         ],
@@ -31258,7 +31302,7 @@ overrides = {
       "abs": [
         "Rock Head",
         "Prankster",
-        "Sap Sipper"
+        "Rattled"
       ],
       "evoType": "level",
       "evoLevel": 26
@@ -35108,7 +35152,7 @@ overrides = {
           ],
           [
             13,
-            "Lick"
+            "Super Fang"
           ],
           [
             16,
@@ -35116,11 +35160,15 @@ overrides = {
           ],
           [
             19,
-            "Submission"
+            "Retaliate"
           ],
           [
             22,
             "Dizzy Punch"
+          ],
+          [
+            25,
+            "Submission"
           ],
           [
             27,
@@ -35287,7 +35335,7 @@ overrides = {
           ],
           [
             13,
-            "Lick"
+            "Super Fang"
           ],
           [
             16,
@@ -35295,11 +35343,15 @@ overrides = {
           ],
           [
             19,
-            "Submission"
+            "Retaliate"
           ],
           [
             22,
             "Dizzy Punch"
+          ],
+          [
+            25,
+            "Submission"
           ],
           [
             27,
@@ -35999,7 +36051,7 @@ overrides = {
           ],
           [
             40,
-            "Brick Break"
+            "Submission"
           ],
           [
             43,
@@ -39847,7 +39899,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Rolling Kick"
+            "Arm Thrust"
           ],
           [
             4,
@@ -40032,15 +40084,15 @@ overrides = {
           ],
           [
             32,
-            "Helping Hand"
-          ],
-          [
-            35,
             "Rapid Spin"
           ],
           [
+            35,
+            "Helping Hand"
+          ],
+          [
             39,
-            "Sucker Punch"
+            "Follow Me"
           ],
           [
             43,
@@ -40048,7 +40100,7 @@ overrides = {
           ],
           [
             46,
-            "Triple Kick"
+            "Storm Throw"
           ],
           [
             49,
@@ -40060,7 +40112,7 @@ overrides = {
           ],
           [
             60,
-            "Close Combat"
+            "Triple Kick"
           ],
           [
             66,
@@ -40335,7 +40387,7 @@ overrides = {
           ],
           [
             5,
-            "Low Kick"
+            "Arm Thrust"
           ],
           [
             9,
@@ -40355,7 +40407,7 @@ overrides = {
           ],
           [
             22,
-            "Mach Punch"
+            "Dual Chop"
           ],
           [
             25,
@@ -40363,7 +40415,7 @@ overrides = {
           ],
           [
             27,
-            "Focus Punch"
+            "Brick Break"
           ],
           [
             30,
@@ -40371,19 +40423,19 @@ overrides = {
           ],
           [
             33,
-            "Fire Punch"
+            "Flamethrower"
           ],
           [
             36,
             "Wide Guard"
           ],
           [
-            41,
+            39,
             "Cross Chop"
           ],
           [
-            46,
-            "Follow Me"
+            42,
+            "Discharge"
           ]
         ],
         "tms": [
@@ -49003,7 +49055,7 @@ overrides = {
           ],
           [
             37,
-            "Stockpile"
+            "Sand Attack"
           ]
         ],
         "tms": [
@@ -49108,7 +49160,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "High Horsepower"
+            "Swallow"
           ],
           [
             1,
@@ -49156,19 +49208,23 @@ overrides = {
           ],
           [
             37,
-            "Stockpile"
-          ],
-          [
-            41,
             "Sand Attack"
           ],
           [
-            44,
+            41,
             "Heavy Slam"
+          ],
+          [
+            44,
+            "Rolling Kick"
           ],
           [
             47,
             "Lucky Chant"
+          ],
+          [
+            50,
+            "Vital Throw"
           ],
           [
             53,
@@ -59160,7 +59216,7 @@ overrides = {
           ],
           [
             37,
-            "Focus Punch"
+            "Mega Punch"
           ],
           [
             40,
@@ -59324,7 +59380,7 @@ overrides = {
           ],
           [
             37,
-            "Focus Punch"
+            "Mega Punch"
           ],
           [
             40,
@@ -63653,7 +63709,7 @@ overrides = {
           ],
           [
             36,
-            "Sky Uppercut"
+            "Rolling Kick"
           ],
           [
             41,
@@ -63820,7 +63876,7 @@ overrides = {
           ],
           [
             36,
-            "Sky Uppercut"
+            "Rolling Kick"
           ],
           [
             41,
@@ -63965,7 +64021,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Focus Energy"
+            "Sky Uppercut"
           ],
           [
             1,
@@ -64009,7 +64065,7 @@ overrides = {
           ],
           [
             36,
-            "Sky Uppercut"
+            "Rolling Kick"
           ],
           [
             41,
@@ -65767,7 +65823,7 @@ overrides = {
           ],
           [
             13,
-            "Snarl"
+            "Double Kick"
           ],
           [
             15,
@@ -65920,7 +65976,7 @@ overrides = {
           ],
           [
             13,
-            "Snarl"
+            "Double Kick"
           ],
           [
             15,
@@ -66094,7 +66150,7 @@ overrides = {
           ],
           [
             13,
-            "Snarl"
+            "Double Kick"
           ],
           [
             15,
@@ -69793,7 +69849,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Brutal Swing"
+            "Retaliate"
           ],
           [
             1,
@@ -71611,7 +71667,7 @@ overrides = {
       "abs": [
         "Solid Rock",
         "Prankster",
-        "Sap Sipper"
+        "Rattled"
       ],
       "evos": [
         "Sudowoodo"
@@ -72965,12 +73021,16 @@ overrides = {
             "Heal Pulse"
           ],
           [
-            33,
+            31,
             "Metal Claw"
           ],
           [
-            36,
+            33,
             "Final Gambit"
+          ],
+          [
+            36,
+            "Double Kick"
           ],
           [
             39,
@@ -73127,12 +73187,16 @@ overrides = {
             "Heal Pulse"
           ],
           [
-            33,
+            31,
             "Metal Claw"
           ],
           [
-            36,
+            33,
             "Final Gambit"
+          ],
+          [
+            36,
+            "Double Kick"
           ],
           [
             39,
@@ -76154,15 +76218,15 @@ overrides = {
         "learnset": [
           [
             1,
-            "Spark"
+            "Zap Cannon"
           ],
           [
             1,
-            "Karate Chop"
+            "Mach Punch"
           ],
           [
             5,
-            "Low Kick"
+            "Arm Thrust"
           ],
           [
             9,
@@ -76182,7 +76246,7 @@ overrides = {
           ],
           [
             22,
-            "Mach Punch"
+            "Dual Chop"
           ],
           [
             25,
@@ -76190,7 +76254,7 @@ overrides = {
           ],
           [
             27,
-            "Focus Punch"
+            "Brick Break"
           ],
           [
             30,
@@ -76198,23 +76262,27 @@ overrides = {
           ],
           [
             33,
-            "Fire Punch"
+            "Flamethrower"
           ],
           [
             36,
             "Wide Guard"
           ],
           [
-            41,
+            39,
             "Cross Chop"
           ],
           [
+            42,
+            "Discharge"
+          ],
+          [
             46,
-            "Follow Me"
+            "Protect"
           ],
           [
             49,
-            "Zap Cannon"
+            "Rolling Kick"
           ],
           [
             53,
@@ -76222,18 +76290,22 @@ overrides = {
           ],
           [
             58,
-            "Close Combat"
-          ],
-          [
-            61,
             "Wild Charge"
           ],
           [
-            66,
+            61,
+            "Follow Me"
+          ],
+          [
+            64,
             "Supercell Slam"
           ],
           [
-            71,
+            70,
+            "Close Combat"
+          ],
+          [
+            74,
             "Hyper Beam"
           ]
         ],
@@ -77736,7 +77808,7 @@ overrides = {
           ],
           [
             1,
-            "Teleport"
+            "Guillotine"
           ],
           [
             6,
@@ -77792,7 +77864,7 @@ overrides = {
           ],
           [
             46,
-            "Cross Poison"
+            "Leaf Blade"
           ],
           [
             49,
@@ -78163,7 +78235,7 @@ overrides = {
           ],
           [
             37,
-            "Focus Punch"
+            "Mega Punch"
           ],
           [
             40,
@@ -87015,7 +87087,7 @@ overrides = {
           ],
           [
             15,
-            "Rolling Kick"
+            "Vital Throw"
           ],
           [
             20,
@@ -87027,7 +87099,7 @@ overrides = {
           ],
           [
             28,
-            "Strength"
+            "Rolling Kick"
           ],
           [
             33,
@@ -100455,7 +100527,7 @@ overrides = {
           ],
           [
             9,
-            "Rolling Kick"
+            "Low Kick"
           ],
           [
             13,
@@ -100635,7 +100707,7 @@ overrides = {
           ],
           [
             1,
-            "Brutal Swing"
+            "Low Kick"
           ],
           [
             17,
@@ -100992,7 +101064,7 @@ overrides = {
           ],
           [
             7,
-            "Sand Attack"
+            "Metal Sound"
           ],
           [
             10,
@@ -101024,7 +101096,7 @@ overrides = {
           ],
           [
             33,
-            "Focus Punch"
+            "Mega Punch"
           ],
           [
             36,
@@ -101206,7 +101278,7 @@ overrides = {
           ],
           [
             33,
-            "Focus Punch"
+            "Mega Punch"
           ],
           [
             36,
@@ -108821,7 +108893,7 @@ overrides = {
     },
     "Fire Punch": {
       "t": "Fire",
-      "bp": 85,
+      "bp": 80,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
@@ -108837,7 +108909,7 @@ overrides = {
     },
     "Ice Punch": {
       "t": "Ice",
-      "bp": 85,
+      "bp": 80,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
@@ -108853,7 +108925,7 @@ overrides = {
     },
     "Thunder Punch": {
       "t": "Electric",
-      "bp": 85,
+      "bp": 80,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
@@ -109036,7 +109108,7 @@ overrides = {
     },
     "Vine Whip": {
       "t": "Grass",
-      "bp": 40,
+      "bp": 45,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
@@ -109109,16 +109181,15 @@ overrides = {
     },
     "Rolling Kick": {
       "t": "Fighting",
-      "bp": 60,
+      "bp": 90,
       "cat": "Physical",
       "pp": 20,
-      "acc": 101,
+      "acc": 100,
       "prio": 0,
       "name": "Rolling Kick",
       "num": 26,
-      "e_id": 128,
-      "desc": "The user lashes out with a quick, spinning kick. inflicts double damage if used on a target switching out of battle.",
-      "oldDesc": "The user lashes out with a quick, spinning kick. It may also make the target flinch."
+      "e_id": 31,
+      "desc": "The user lashes out with a quick, spinning kick. It may also make the target flinch."
     },
     "Sand Attack": {
       "t": "Ground",
@@ -109645,7 +109716,7 @@ overrides = {
     },
     "Drill Peck": {
       "t": "Flying",
-      "bp": 100,
+      "bp": 105,
       "cat": "Physical",
       "pp": 10,
       "acc": 90,
@@ -109678,15 +109749,16 @@ overrides = {
     },
     "Low Kick": {
       "t": "Fighting",
-      "bp": 1,
+      "bp": 20,
       "cat": "Physical",
       "pp": 20,
       "acc": 100,
       "prio": 0,
       "name": "Low Kick",
       "num": 66,
-      "e_id": 196,
-      "desc": "A powerful low kick that makes the target fall over. It inflicts greater damage on heavier targets."
+      "e_id": 128,
+      "desc": "Trip the target, dealing damage based on their weight. Inflicts maximum damage if used on a target switching out of battle.",
+      "oldDesc": "A powerful low kick that makes the target fall over. It inflicts greater damage on heavier targets."
     },
     "Counter": {
       "t": "Fighting",
@@ -110965,7 +111037,7 @@ overrides = {
       "sf": true
     },
     "Super Fang": {
-      "t": "Normal",
+      "t": "Dark",
       "bp": 1,
       "cat": "Physical",
       "pp": 10,
@@ -111028,7 +111100,7 @@ overrides = {
     },
     "Triple Kick": {
       "t": "Fighting",
-      "bp": 35,
+      "bp": 40,
       "cat": "Physical",
       "pp": 10,
       "acc": 95,
@@ -111267,7 +111339,7 @@ overrides = {
       }
     },
     "Scary Face": {
-      "t": "Normal",
+      "t": "Ghost",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
@@ -111908,7 +111980,7 @@ overrides = {
     },
     "Iron Tail": {
       "t": "Steel",
-      "bp": 100,
+      "bp": 105,
       "cat": "Physical",
       "pp": 15,
       "acc": 90,
@@ -111997,7 +112069,7 @@ overrides = {
     },
     "Cross Chop": {
       "t": "Fighting",
-      "bp": 100,
+      "bp": 105,
       "cat": "Physical",
       "pp": 10,
       "acc": 90,
@@ -112335,7 +112407,7 @@ overrides = {
     },
     "Facade": {
       "t": "Normal",
-      "bp": 70,
+      "bp": 75,
       "cat": "Physical",
       "pp": 20,
       "acc": 100,
@@ -113787,7 +113859,7 @@ overrides = {
       "desc": "The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns."
     },
     "Acupressure": {
-      "t": "Normal",
+      "t": "Fighting",
       "bp": 0,
       "cat": "Status",
       "pp": 5,
@@ -114260,7 +114332,7 @@ overrides = {
     },
     "Aqua Tail": {
       "t": "Water",
-      "bp": 100,
+      "bp": 105,
       "cat": "Physical",
       "pp": 10,
       "acc": 90,
@@ -114342,7 +114414,7 @@ overrides = {
     },
     "Dragon Rush": {
       "t": "Dragon",
-      "bp": 100,
+      "bp": 105,
       "cat": "Physical",
       "pp": 10,
       "acc": 90,
@@ -114876,15 +114948,16 @@ overrides = {
     },
     "Grass Knot": {
       "t": "Grass",
-      "bp": 1,
+      "bp": 20,
       "cat": "Special",
       "pp": 20,
       "acc": 100,
       "prio": 0,
       "name": "Grass Knot",
       "num": 446,
-      "e_id": 196,
-      "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage."
+      "e_id": 128,
+      "desc": "Snare the target, dealing damage based on their weight. Inflicts maximum damage if used on a target switching out of battle.",
+      "oldDesc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage."
     },
     "Chatter": {
       "t": "Flying",
@@ -115530,7 +115603,7 @@ overrides = {
       "new": true
     },
     "Entrainment": {
-      "t": "Normal",
+      "t": "Psychic",
       "bp": 0,
       "cat": "Status",
       "pp": 15,
@@ -115667,7 +115740,7 @@ overrides = {
       "sf": true
     },
     "Shell Smash": {
-      "t": "Normal",
+      "t": "Rock",
       "bp": 0,
       "cat": "Status",
       "pp": 1,
@@ -147956,7 +148029,7 @@ overrides = {
       "oldDesc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
       "location": "",
       "rewards": [
-        "Policeman Jeff - Undella Town"
+        "Policeman Lester - Undella Town"
       ]
     },
     "tm90": {
