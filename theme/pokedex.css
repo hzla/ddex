@@ -1076,6 +1076,10 @@
 		grid-template-columns: minmax(0, 1fr);
 	}
 
+	.ddex-fixed-layout .ddex-detail-shell.ddex-encounter-layout {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
 	.ddex-fixed-layout .ddex-detail-secondary {
 		min-width: 0;
 	}
