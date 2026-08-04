@@ -862,7 +862,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     // learnset
     if (pokemon.tier === "obtainable") {
       buf +=
-        '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li><li><button class="button nav-last" value="advanced-routing">Advanced Routing</button></li></ul>';
+        '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li><li class="ddex-advanced-routing-tab"><button class="button nav-last" value="advanced-routing">Advanced Routing</button></li></ul>';
     } else {
       buf +=
         '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li></ul>';

@@ -748,9 +748,10 @@ var PokedexMovePanel = PokedexResultPanel.extend({
   },
   renderDistribution: function () {
     var results = this.getDistribution();
+    var rowHeight = this.distributionRowHeight;
     this.$chart = this.$(".utilichart");
 
-    if (results.length > 1600 / 33) {
+    if (results.length > 1600 / rowHeight) {
       this.streamLoading = true;
       this.$el.on("scroll", this.handleScroll.bind(this));
 
@@ -759,8 +760,8 @@ var PokedexMovePanel = PokedexResultPanel.extend({
       var chartTop = this.$chart.offset().top;
       var scrollLoc = (this.scrollLoc = this.$el.scrollTop());
 
-      var start = Math.floor((scrollLoc - (chartTop - panelTop)) / 33 - 35);
-      var end = Math.floor(start + 35 + panelHeight / 33 + 35);
+      var start = Math.floor((scrollLoc - (chartTop - panelTop)) / rowHeight - 35);
+      var end = Math.floor(start + 35 + panelHeight / rowHeight + 35);
       if (start < 0) start = 0;
       if (end > results.length - 1) end = results.length - 1;
       (this.start = start), (this.end = end);
@@ -806,17 +807,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
       }
       return '<pre>error: "' + results[i] + '"</pre>';
     } else if (offscreen) {
-      return (
-        "" +
-        template.name +
-        " " +
-        template.abilities["0"] +
-        " " +
-        (template.abilities["1"] || "") +
-        " " +
-        (template.abilities["H"] || "") +
-        ""
-      );
+      return '<span class="ddex-move-row-placeholder" aria-hidden="true"></span>';
     } else {
       var desc = "";
       switch (results[i].charAt(0)) {
@@ -859,9 +850,10 @@ var PokedexMovePanel = PokedexResultPanel.extend({
       });
     }
   },
+  distributionRowHeight: 47,
   handleScroll: function () {
     var scrollLoc = this.$el.scrollTop();
-    if (Math.abs(scrollLoc - this.scrollLoc) > 20 * 33) {
+    if (Math.abs(scrollLoc - this.scrollLoc) > 20 * this.distributionRowHeight) {
       this.renderUpdateDistribution();
     }
   },
@@ -879,9 +871,11 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 
     var results = this.results;
 
-    var rowFit = Math.floor(panelHeight / 33);
+    var rowFit = Math.floor(panelHeight / this.distributionRowHeight);
 
-    var start = Math.floor((scrollLoc - (chartTop - panelTop)) / 33 - 35);
+    var start = Math.floor(
+      (scrollLoc - (chartTop - panelTop)) / this.distributionRowHeight - 35,
+    );
     var end = start + 35 + rowFit + 35;
     if (start < 0) start = 0;
     if (end > results.length - 1) end = results.length - 1;

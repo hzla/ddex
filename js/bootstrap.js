@@ -265,7 +265,7 @@
       '<li><button class="button" type="button" data-fragment="pokemon/">Mons</button></li>' +
       '<li><button class="button" type="button" data-fragment="encounters/">Areas</button></li>' +
       '<li><button class="button" type="button" data-fragment="moves/">Moves</button></li>' +
-      '<li><button class="button nav-last" type="button" data-fragment="more/">More</button></li>' +
+      '<li class="ddex-more-tab"><button class="button nav-last" type="button" data-fragment="more/">More</button></li>' +
       "</ul>" +
       '<div class="searchboxwrapper">' +
       '<input class="textbox searchbox" type="search" autocomplete="off" placeholder="Search mons, moves, abilities, items, encounters or more" />' +

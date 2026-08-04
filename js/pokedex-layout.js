@@ -84,6 +84,10 @@
     return !(localStorage.romOverrides === "1" || (localStorage.overrides && localStorage.game));
   }
 
+  function getEmptyDetailTitle() {
+    return String(window.DDEX_DEX_TITLE || "Dynamic Dex");
+  }
+
   function buildDexDirectoryMarkup() {
     var entries = Object.entries(window.gameTitles || {})
       .sort(function (left, right) {
@@ -126,7 +130,7 @@
     return (
       '<div class="pfx-body dexentry ddex-empty-detail">' +
       '<div class="ddex-empty-detail-inner">' +
-      "<h1>Dynamic Dex</h1>" +
+      '<h1 class="ddex-empty-detail-title">' + Dex.escapeHTML(getEmptyDetailTitle()) + "</h1>" +
       "<p>Search or select a result to view details here.</p>" +
       "</div>" +
       "</div>"

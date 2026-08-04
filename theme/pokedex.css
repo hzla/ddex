@@ -467,6 +467,12 @@
 	max-width: none;
 }
 
+.ddex-move-distribution-list .ddex-move-row-placeholder {
+	display: block;
+	height: 46px;
+	visibility: hidden;
+}
+
 .ddex-fixed-layout .ddex-detail-secondary .utilichart li > a,
 .ddex-fixed-layout .ddex-detail-secondary .utilichart li > div {
 	display: flex;
@@ -1070,14 +1076,26 @@
 		grid-template-columns: minmax(0, 1fr);
 	}
 
+	.ddex-fixed-layout .ddex-detail-secondary {
+		min-width: 0;
+	}
+
 	.ddex-fixed-layout .ddex-sidebar-panel .pokedex h1,
 	.ddex-fixed-layout .ddex-sidebar-panel .pokedex.aboveresults h1 {
-		padding-bottom: 8px;
-		font-size: 18pt;
+		display: none;
 	}
 
 	.ddex-fixed-layout .ddex-sidebar-panel .tabbar {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		width: 100%;
+		box-sizing: border-box;
 		padding-bottom: 8px;
+	}
+
+	.ddex-fixed-layout .ddex-sidebar-panel .tabbar .ddex-more-tab {
+		display: none;
 	}
 
 	.ddex-fixed-layout .ddex-sidebar-panel .tabbar .button {
@@ -1094,19 +1112,24 @@
 		margin-bottom: 6px;
 	}
 
-	.ddex-fixed-layout .ddex-sidebar-panel .sortrow,
-	.ddex-fixed-layout .ddex-sidebar-panel .utilichart .sortrow {
-		height: 16px;
-		padding-top: 0;
-		padding-bottom: 0;
+	.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart li.ddex-sort-row > .sortrow {
+		min-height: 20px;
+		height: 20px;
+		gap: 0;
+		padding: 0;
+		align-items: center;
 	}
 
-	.ddex-fixed-layout .ddex-sidebar-panel .sortrow .col,
-	.ddex-fixed-layout .ddex-sidebar-panel .utilichart .sortrow .col {
+	.ddex-fixed-layout .ddex-sidebar-panel .utilichart li.ddex-sort-row {
+		min-height: 0;
 		padding-top: 0;
-		height: 16px;
+	}
+
+	.ddex-fixed-layout .ddex-sidebar-panel .results .utilichart li.ddex-sort-row > .sortrow .sortcol {
+		padding-top: 0;
+		height: 20px;
 		font-size: 8pt;
-		line-height: 16px;
+		line-height: 20px;
 	}
 
 	.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .labelcol,
@@ -1118,6 +1141,42 @@
 		flex: 1 1 0;
 		width: auto;
 		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .movedesccol {
+		display: none;
+	}
+
+	.ddex-fixed-layout .ddex-detail-secondary .ddex-move-distribution-list,
+	.ddex-fixed-layout .ddex-detail-secondary .ddex-pokemon-move-list {
+		width: 100%;
+		max-width: 100%;
+		overflow: hidden;
+	}
+
+	.ddex-fixed-layout .ddex-detail-secondary .ddex-move-distribution-list li > a,
+	.ddex-fixed-layout .ddex-detail-secondary .ddex-pokemon-move-list li > a {
+		max-width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+		padding-right: 8px;
+	}
+
+	.ddex-fixed-layout .ddex-detail-secondary .ddex-move-distribution-list .shortpokemonnamecol {
+		flex-basis: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.ddex-fixed-layout .ddex-detail-secondary .ddex-move-distribution-list .abilitycol,
+	.ddex-fixed-layout .ddex-content-panel .ddex-route-toggle-button,
+	.ddex-fixed-layout .ddex-content-panel .ddex-route-panel,
+	.ddex-fixed-layout .ddex-content-panel .tabbar .ddex-advanced-routing-tab {
+		display: none;
 	}
 
 	.ddex-fixed-layout .ddex-detail-secondary .utilichart.ddex-pokemon-move-list .typecol {

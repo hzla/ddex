@@ -84,6 +84,7 @@ var gameTitles = {
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
 	"blindingwhite2": "Blinding White 2",
 	"brutalblack": "Brutal Black",
+	"badem": "Emerald but Bad",
 	"cascadewhite": "Cascade White",
 	"cascadewhite2": "Cascade White",
 	"renegadeplatinum": "Renegade Platinum",
@@ -129,7 +130,11 @@ function isRomOverrideActive() {
 
 function setDexTitle(title) {
   const fullTitle = title ? `${title} Dex` : "Dynamic Dex";
+  window.DDEX_DEX_TITLE = fullTitle;
   document.title = fullTitle;
+  document.querySelectorAll(".ddex-empty-detail-title").forEach(function(el) {
+    el.textContent = fullTitle;
+  });
   if (!title) return;
   const el = document.getElementById("dex-title");
   if (el) {

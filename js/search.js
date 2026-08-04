@@ -461,7 +461,7 @@
     return "Error: not found";
   };
   Search.prototype.renderPokemonSortRow = function () {
-    var buf = '<li class="result"><div class="sortrow">';
+    var buf = '<li class="result ddex-sort-row"><div class="sortrow">';
     buf +=
       '<button class="sortcol numsortcol' +
       (!this.sortCol ? " cur" : "") +
@@ -519,7 +519,7 @@
     return buf;
   };
   Search.prototype.renderMoveSortRow = function () {
-    var buf = '<li class="result"><div class="sortrow">';
+    var buf = '<li class="result ddex-sort-row"><div class="sortrow">';
     buf +=
       '<button class="sortcol movenamesortcol' +
       (this.sortCol === "name" ? " cur" : "") +
