@@ -2433,7 +2433,7 @@ overrides = {
         "hp": 63,
         "at": 60,
         "df": 63,
-        "sa": 85,
+        "sa": 84,
         "sd": 58,
         "sp": 81
       },
@@ -2596,7 +2596,7 @@ overrides = {
         "hp": 83,
         "at": 80,
         "df": 75,
-        "sa": 111,
+        "sa": 110,
         "sd": 70,
         "sp": 101
       },
@@ -2763,7 +2763,7 @@ overrides = {
         "at": 66,
         "df": 50,
         "sa": 25,
-        "sd": 50,
+        "sd": 60,
         "sp": 92
       },
       "learnset_info": {
@@ -2927,7 +2927,7 @@ overrides = {
         "at": 101,
         "df": 60,
         "sa": 50,
-        "sd": 70,
+        "sd": 80,
         "sp": 117
       },
       "learnset_info": {
@@ -3128,7 +3128,7 @@ overrides = {
           ],
           [
             20,
-            "Aerial Ace"
+            "Retaliate"
           ],
           [
             23,
@@ -3144,7 +3144,7 @@ overrides = {
           ],
           [
             33,
-            "Dual Wingbeat"
+            "Aerial Ace"
           ],
           [
             37,
@@ -3260,7 +3260,7 @@ overrides = {
       ],
       "bs": {
         "hp": 65,
-        "at": 101,
+        "at": 111,
         "df": 65,
         "sa": 61,
         "sd": 61,
@@ -3298,7 +3298,7 @@ overrides = {
           ],
           [
             20,
-            "Aerial Ace"
+            "Retaliate"
           ],
           [
             23,
@@ -3314,7 +3314,7 @@ overrides = {
           ],
           [
             33,
-            "Dual Wingbeat"
+            "Aerial Ace"
           ],
           [
             37,
@@ -4873,7 +4873,7 @@ overrides = {
       "bs": {
         "hp": 90,
         "at": 92,
-        "df": 102,
+        "df": 97,
         "sa": 85,
         "sd": 100,
         "sp": 76
@@ -5501,7 +5501,7 @@ overrides = {
       ],
       "bs": {
         "hp": 81,
-        "at": 117,
+        "at": 112,
         "df": 77,
         "sa": 100,
         "sd": 75,
@@ -11239,15 +11239,15 @@ overrides = {
           ],
           [
             38,
-            "Blizzard"
+            "Ice Punch"
           ],
           [
             38,
-            "Fire Blast"
+            "Fire Punch"
           ],
           [
             38,
-            "Thunder"
+            "Thunder Punch"
           ],
           [
             43,
@@ -11255,7 +11255,7 @@ overrides = {
           ],
           [
             46,
-            "Helping Hand"
+            "Storm Throw"
           ]
         ],
         "tms": [
@@ -11407,15 +11407,15 @@ overrides = {
           ],
           [
             38,
-            "Blizzard"
+            "Ice Punch"
           ],
           [
             38,
-            "Fire Blast"
+            "Fire Punch"
           ],
           [
             38,
-            "Thunder"
+            "Thunder Punch"
           ],
           [
             43,
@@ -11423,7 +11423,7 @@ overrides = {
           ],
           [
             46,
-            "Focus Blast"
+            "Storm Throw"
           ],
           [
             49,
@@ -11549,7 +11549,7 @@ overrides = {
         "hp": 90,
         "at": 130,
         "df": 80,
-        "sa": 85,
+        "sa": 65,
         "sd": 85,
         "sp": 75
       },
@@ -11601,15 +11601,15 @@ overrides = {
           ],
           [
             38,
-            "Blizzard"
+            "Ice Punch"
           ],
           [
             38,
-            "Fire Blast"
+            "Fire Punch"
           ],
           [
             38,
-            "Thunder"
+            "Thunder Punch"
           ],
           [
             43,
@@ -11617,7 +11617,7 @@ overrides = {
           ],
           [
             46,
-            "Focus Blast"
+            "Storm Throw"
           ],
           [
             49,
@@ -11965,7 +11965,7 @@ overrides = {
           ],
           [
             51,
-            "Spore"
+            "Sleep Powder"
           ],
           [
             55,
@@ -12144,7 +12144,7 @@ overrides = {
           ],
           [
             51,
-            "Spore"
+            "Sleep Powder"
           ],
           [
             55,
@@ -13288,7 +13288,7 @@ overrides = {
           ],
           [
             1,
-            "Growl"
+            "Flame Charge"
           ],
           [
             9,
@@ -13637,7 +13637,7 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 125,
+        "at": 120,
         "df": 110,
         "sa": 75,
         "sd": 80,
@@ -14150,7 +14150,7 @@ overrides = {
         "at": 65,
         "df": 80,
         "sa": 113,
-        "sd": 90,
+        "sd": 82,
         "sp": 85
       },
       "learnset_info": {
@@ -15366,7 +15366,7 @@ overrides = {
         "hp": 40,
         "at": 65,
         "df": 150,
-        "sa": 45,
+        "sa": 30,
         "sd": 25,
         "sp": 50
       },
@@ -15390,7 +15390,7 @@ overrides = {
           ],
           [
             11,
-            "Icicle Spear"
+            "Aqua Jet"
           ],
           [
             15,
@@ -15410,7 +15410,7 @@ overrides = {
           ],
           [
             28,
-            "Frost Breath"
+            "Icicle Spear"
           ],
           [
             31,
@@ -15418,7 +15418,7 @@ overrides = {
           ],
           [
             35,
-            "Surf"
+            "Liquidation"
           ],
           [
             38,
@@ -15430,11 +15430,11 @@ overrides = {
           ],
           [
             46,
-            "Hydro Pump"
+            "Clamp"
           ],
           [
             48,
-            "Ice Beam"
+            "Icicle Crash"
           ],
           [
             51,
@@ -15528,7 +15528,7 @@ overrides = {
         "hp": 70,
         "at": 105,
         "df": 180,
-        "sa": 85,
+        "sa": 55,
         "sd": 45,
         "sp": 70
       },
@@ -15540,7 +15540,7 @@ overrides = {
           ],
           [
             1,
-            "Sheer Cold"
+            "Chilling Water"
           ],
           [
             4,
@@ -15552,7 +15552,7 @@ overrides = {
           ],
           [
             11,
-            "Icicle Spear"
+            "Aqua Jet"
           ],
           [
             15,
@@ -15572,7 +15572,7 @@ overrides = {
           ],
           [
             28,
-            "Frost Breath"
+            "Icicle Spear"
           ],
           [
             31,
@@ -15580,7 +15580,7 @@ overrides = {
           ],
           [
             35,
-            "Surf"
+            "Liquidation"
           ],
           [
             38,
@@ -15592,11 +15592,11 @@ overrides = {
           ],
           [
             46,
-            "Hydro Pump"
+            "Clamp"
           ],
           [
             48,
-            "Ice Beam"
+            "Icicle Crash"
           ],
           [
             51,
@@ -15604,7 +15604,7 @@ overrides = {
           ],
           [
             54,
-            "Clamp"
+            "Spin Out"
           ],
           [
             60,
@@ -15612,14 +15612,14 @@ overrides = {
           ],
           [
             65,
-            "Hydro Cannon"
+            "Spiky Shield"
           ],
           [
             72,
             "Body Press"
           ],
           [
-            81,
+            82,
             "Shell Smash"
           ]
         ],
@@ -16444,23 +16444,23 @@ overrides = {
           ],
           [
             25,
-            "Night Shade"
+            "Psywave"
           ],
           [
             27,
-            "Focus Punch"
+            "Force Palm"
           ],
           [
             30,
             "Assist"
           ],
           [
-            33,
-            "Dream Eater"
+            32,
+            "Smog"
           ],
           [
-            36,
-            "Smog"
+            35,
+            "Dream Eater"
           ],
           [
             39,
@@ -16472,15 +16472,31 @@ overrides = {
           ],
           [
             45,
-            "Meditate"
+            "Night Shade"
           ],
           [
             48,
-            "Spirit Break"
+            "Meditate"
           ],
           [
             52,
             "Psychic"
+          ],
+          [
+            55,
+            "Swagger"
+          ],
+          [
+            60,
+            "Sludge Wave"
+          ],
+          [
+            65,
+            "Dark Void"
+          ],
+          [
+            81,
+            "Nasty Plot"
           ]
         ],
         "tms": [
@@ -16592,9 +16608,9 @@ overrides = {
       ],
       "bs": {
         "hp": 85,
-        "at": 93,
+        "at": 73,
         "df": 70,
-        "sa": 103,
+        "sa": 113,
         "sd": 115,
         "sp": 67
       },
@@ -16638,23 +16654,23 @@ overrides = {
           ],
           [
             25,
-            "Night Shade"
+            "Psywave"
           ],
           [
             27,
-            "Focus Punch"
+            "Force Palm"
           ],
           [
             30,
             "Assist"
           ],
           [
-            33,
-            "Dream Eater"
+            32,
+            "Smog"
           ],
           [
-            36,
-            "Smog"
+            35,
+            "Dream Eater"
           ],
           [
             39,
@@ -16666,11 +16682,11 @@ overrides = {
           ],
           [
             45,
-            "Meditate"
+            "Night Shade"
           ],
           [
             48,
-            "Spirit Break"
+            "Meditate"
           ],
           [
             52,
@@ -16687,6 +16703,10 @@ overrides = {
           [
             65,
             "Dark Void"
+          ],
+          [
+            81,
+            "Nasty Plot"
           ]
         ],
         "tms": [
@@ -17278,7 +17298,7 @@ overrides = {
         "hp": 60,
         "at": 105,
         "df": 70,
-        "sa": 105,
+        "sa": 100,
         "sd": 80,
         "sp": 135
       },
@@ -18705,7 +18725,7 @@ overrides = {
           ],
           [
             7,
-            "Psywave"
+            "Psybeam"
           ],
           [
             10,
@@ -18729,7 +18749,7 @@ overrides = {
           ],
           [
             25,
-            "Flame Burst"
+            "Psywave"
           ],
           [
             28,
@@ -18737,7 +18757,7 @@ overrides = {
           ],
           [
             32,
-            "Toxic"
+            "Haze"
           ],
           [
             36,
@@ -18868,7 +18888,7 @@ overrides = {
           ],
           [
             7,
-            "Psywave"
+            "Psybeam"
           ],
           [
             10,
@@ -18892,7 +18912,7 @@ overrides = {
           ],
           [
             25,
-            "Flame Burst"
+            "Psywave"
           ],
           [
             28,
@@ -18900,7 +18920,7 @@ overrides = {
           ],
           [
             32,
-            "Toxic"
+            "Haze"
           ],
           [
             36,
@@ -19015,7 +19035,7 @@ overrides = {
         "at": 110,
         "df": 105,
         "sa": 30,
-        "sd": 55,
+        "sd": 50,
         "sp": 25
       },
       "learnset_info": {
@@ -19201,7 +19221,7 @@ overrides = {
         "at": 130,
         "df": 120,
         "sa": 45,
-        "sd": 65,
+        "sd": 60,
         "sp": 40
       },
       "learnset_info": {
@@ -20607,7 +20627,7 @@ overrides = {
         "hp": 50,
         "at": 45,
         "df": 55,
-        "sa": 95,
+        "sa": 90,
         "sd": 55,
         "sp": 95
       },
@@ -20659,7 +20679,7 @@ overrides = {
           ],
           [
             32,
-            "Minimize"
+            "Psywave"
           ],
           [
             34,
@@ -20691,7 +20711,7 @@ overrides = {
           ],
           [
             64,
-            "Psystrike"
+            "Minimize"
           ],
           [
             68,
@@ -20800,7 +20820,7 @@ overrides = {
         "hp": 80,
         "at": 60,
         "df": 85,
-        "sa": 115,
+        "sa": 110,
         "sd": 85,
         "sp": 115
       },
@@ -20852,7 +20872,7 @@ overrides = {
           ],
           [
             32,
-            "Minimize"
+            "Psywave"
           ],
           [
             34,
@@ -20884,7 +20904,7 @@ overrides = {
           ],
           [
             64,
-            "Psystrike"
+            "Minimize"
           ],
           [
             68,
@@ -20984,7 +21004,7 @@ overrides = {
         "hp": 55,
         "at": 100,
         "df": 105,
-        "sa": 40,
+        "sa": 35,
         "sd": 120,
         "sp": 90
       },
@@ -21047,20 +21067,24 @@ overrides = {
             "Heart Stamp"
           ],
           [
-            38,
-            "Wide Guard"
+            39,
+            "Psywave"
           ],
           [
-            40,
+            42,
             "Teeter Dance"
           ],
           [
-            44,
+            45,
             "Zen Headbutt"
           ],
           [
             48,
             "Double Slap"
+          ],
+          [
+            52,
+            "Wide Guard"
           ],
           [
             55,
@@ -21892,12 +21916,12 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 75,
+        "hp": 65,
         "at": 125,
         "df": 100,
         "sa": 55,
         "sd": 70,
-        "sp": 85
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -22471,10 +22495,10 @@ overrides = {
       ],
       "bs": {
         "hp": 130,
-        "at": 95,
-        "df": 90,
+        "at": 85,
+        "df": 80,
         "sa": 95,
-        "sd": 105,
+        "sd": 95,
         "sp": 60
       },
       "learnset_info": {
@@ -22950,10 +22974,6 @@ overrides = {
           [
             70,
             "Hydro Cannon"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -23123,10 +23143,6 @@ overrides = {
           [
             70,
             "Zap Cannon"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -23296,10 +23312,6 @@ overrides = {
           [
             70,
             "Blast Burn"
-          ],
-          [
-            80,
-            "Giga Impact"
           ]
         ],
         "tms": [
@@ -23457,7 +23469,11 @@ overrides = {
             "Double-Edge"
           ],
           [
-            44,
+            42,
+            "Psywave"
+          ],
+          [
+            45,
             "Foul Play"
           ],
           [
@@ -26154,7 +26170,7 @@ overrides = {
           ],
           [
             57,
-            "Extreme Speed"
+            "Flame Charge"
           ]
         ],
         "tms": [
@@ -26331,7 +26347,7 @@ overrides = {
           ],
           [
             57,
-            "Blast Burn"
+            "Flame Charge"
           ],
           [
             64,
@@ -28703,9 +28719,9 @@ overrides = {
       "bs": {
         "hp": 125,
         "at": 58,
-        "df": 73,
-        "sa": 91,
-        "sd": 86,
+        "df": 68,
+        "sa": 86,
+        "sd": 91,
         "sp": 67
       },
       "learnset_info": {
@@ -29539,7 +29555,7 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 70,
+        "at": 40,
         "df": 85,
         "sa": 80,
         "sd": 105,
@@ -29573,7 +29589,7 @@ overrides = {
           ],
           [
             22,
-            "Heart Stamp"
+            "Draining Kiss"
           ],
           [
             25,
@@ -30420,7 +30436,7 @@ overrides = {
       ],
       "bs": {
         "hp": 90,
-        "at": 110,
+        "at": 100,
         "df": 85,
         "sa": 115,
         "sd": 100,
@@ -30506,7 +30522,7 @@ overrides = {
           ],
           [
             58,
-            "Supercell Slam"
+            "Thunder"
           ]
         ],
         "tms": [
@@ -30614,7 +30630,7 @@ overrides = {
           ],
           [
             1,
-            "Growth"
+            "Triple Axel"
           ],
           [
             4,
@@ -30654,7 +30670,7 @@ overrides = {
           ],
           [
             43,
-            "Double Slap"
+            "Heart Stamp"
           ],
           [
             45,
@@ -30666,11 +30682,11 @@ overrides = {
           ],
           [
             51,
-            "Play Rough"
+            "Weather Crash"
           ],
           [
             55,
-            "Weather Crash"
+            "Play Rough"
           ],
           [
             60,
@@ -32308,7 +32324,7 @@ overrides = {
       "bs": {
         "hp": 75,
         "at": 75,
-        "df": 65,
+        "df": 75,
         "sa": 105,
         "sd": 105,
         "sp": 70
@@ -33033,10 +33049,6 @@ overrides = {
           [
             70,
             "Psycho Boost"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -33212,10 +33224,6 @@ overrides = {
           [
             70,
             "Night Daze"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -33472,7 +33480,7 @@ overrides = {
         "hp": 95,
         "at": 75,
         "df": 80,
-        "sa": 125,
+        "sa": 120,
         "sd": 110,
         "sp": 30
       },
@@ -33728,7 +33736,7 @@ overrides = {
           ],
           [
             46,
-            "Aura Sphere"
+            "Psywave"
           ],
           [
             50,
@@ -35310,7 +35318,7 @@ overrides = {
       "bs": {
         "hp": 90,
         "at": 120,
-        "df": 95,
+        "df": 90,
         "sa": 60,
         "sd": 60,
         "sp": 70
@@ -38619,7 +38627,7 @@ overrides = {
           ],
           [
             1,
-            "Leer"
+            "Flame Charge"
           ],
           [
             5,
@@ -38699,7 +38707,7 @@ overrides = {
           ],
           [
             71,
-            "Overheat"
+            "Blue Flare"
           ]
         ],
         "tms": [
@@ -39346,7 +39354,11 @@ overrides = {
             "Double-Edge"
           ],
           [
-            44,
+            42,
+            "Psywave"
+          ],
+          [
+            45,
             "Foul Play"
           ],
           [
@@ -46885,7 +46897,7 @@ overrides = {
       "bs": {
         "hp": 50,
         "at": 30,
-        "df": 50,
+        "df": 49,
         "sa": 85,
         "sd": 80,
         "sp": 80
@@ -47014,7 +47026,7 @@ overrides = {
       "bs": {
         "hp": 70,
         "at": 60,
-        "df": 70,
+        "df": 69,
         "sa": 105,
         "sd": 100,
         "sp": 100
@@ -47329,7 +47341,7 @@ overrides = {
       "bs": {
         "hp": 60,
         "at": 130,
-        "df": 95,
+        "df": 90,
         "sa": 60,
         "sd": 80,
         "sp": 80
@@ -48153,7 +48165,7 @@ overrides = {
       ],
       "bs": {
         "hp": 61,
-        "at": 119,
+        "at": 120,
         "df": 45,
         "sa": 50,
         "sd": 50,
@@ -48163,15 +48175,15 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Spin Out"
+          ],
+          [
+            19,
+            "Final Gambit"
           ],
           [
             20,
             "Razor Winds"
-          ],
-          [
-            20,
-            "Quick Attack"
           ],
           [
             23,
@@ -48182,7 +48194,7 @@ overrides = {
             "Double Team"
           ],
           [
-            31,
+            32,
             "Night Slash"
           ],
           [
@@ -48195,7 +48207,7 @@ overrides = {
           ],
           [
             40,
-            "Spin Out"
+            "Dig"
           ],
           [
             42,
@@ -48303,10 +48315,10 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 31,
-        "at": 90,
+        "hp": 51,
+        "at": 70,
         "df": 70,
-        "sa": 129,
+        "sa": 130,
         "sd": 70,
         "sp": 95
       },
@@ -48314,11 +48326,11 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Aura Sphere"
           ],
           [
-            20,
-            "Shadow Claw"
+            19,
+            "Final Gambit"
           ],
           [
             20,
@@ -48333,7 +48345,7 @@ overrides = {
             "Safeguard"
           ],
           [
-            31,
+            32,
             "Scorching Sands"
           ],
           [
@@ -48342,7 +48354,7 @@ overrides = {
           ],
           [
             37,
-            "Bug Buzz"
+            "Silver Wind"
           ],
           [
             40,
@@ -48362,11 +48374,11 @@ overrides = {
           ],
           [
             50,
-            "Flail"
+            "Healing Wish"
           ],
           [
             54,
-            "Shadow Ball"
+            "Ominous Wind"
           ],
           [
             59,
@@ -48462,7 +48474,7 @@ overrides = {
         "hp": 64,
         "at": 51,
         "df": 53,
-        "sa": 76,
+        "sa": 81,
         "sd": 53,
         "sp": 58
       },
@@ -48498,7 +48510,7 @@ overrides = {
           ],
           [
             20,
-            "Rage"
+            "Supersonic"
           ],
           [
             22,
@@ -48626,9 +48638,9 @@ overrides = {
       ],
       "bs": {
         "hp": 84,
-        "at": 71,
+        "at": 61,
         "df": 63,
-        "sa": 86,
+        "sa": 91,
         "sd": 63,
         "sp": 68
       },
@@ -48664,7 +48676,7 @@ overrides = {
           ],
           [
             20,
-            "Rage"
+            "Supersonic"
           ],
           [
             22,
@@ -48814,9 +48826,9 @@ overrides = {
       ],
       "bs": {
         "hp": 104,
-        "at": 91,
+        "at": 71,
         "df": 83,
-        "sa": 106,
+        "sa": 111,
         "sd": 83,
         "sp": 88
       },
@@ -48852,7 +48864,7 @@ overrides = {
           ],
           [
             20,
-            "Rage"
+            "Supersonic"
           ],
           [
             22,
@@ -51308,11 +51320,11 @@ overrides = {
           ],
           [
             13,
-            "Dig"
+            "Eerie Impulse"
           ],
           [
             15,
-            "Eerie Impulse"
+            "Charge"
           ],
           [
             17,
@@ -51320,7 +51332,7 @@ overrides = {
           ],
           [
             20,
-            "Charge"
+            "Dig"
           ],
           [
             23,
@@ -51448,7 +51460,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Leer"
+            "Flame Charge"
           ],
           [
             1,
@@ -51468,11 +51480,11 @@ overrides = {
           ],
           [
             13,
-            "Dig"
+            "Eerie Impulse"
           ],
           [
             15,
-            "Eerie Impulse"
+            "Charge"
           ],
           [
             17,
@@ -51480,7 +51492,7 @@ overrides = {
           ],
           [
             20,
-            "Charge"
+            "Dig"
           ],
           [
             23,
@@ -51613,7 +51625,7 @@ overrides = {
       "bs": {
         "hp": 80,
         "at": 50,
-        "df": 85,
+        "df": 75,
         "sa": 105,
         "sd": 75,
         "sp": 120
@@ -51788,9 +51800,9 @@ overrides = {
       "bs": {
         "hp": 95,
         "at": 40,
-        "df": 95,
+        "df": 90,
         "sa": 95,
-        "sd": 95,
+        "sd": 90,
         "sp": 95
       },
       "learnset_info": {
@@ -51966,7 +51978,7 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 75,
+        "at": 72,
         "df": 95,
         "sa": 75,
         "sd": 95,
@@ -52835,7 +52847,7 @@ overrides = {
         "hp": 45,
         "at": 90,
         "df": 20,
-        "sa": 85,
+        "sa": 80,
         "sd": 20,
         "sp": 85
       },
@@ -52992,7 +53004,7 @@ overrides = {
         "hp": 70,
         "at": 120,
         "df": 40,
-        "sa": 115,
+        "sa": 110,
         "sd": 40,
         "sp": 105
       },
@@ -53995,7 +54007,7 @@ overrides = {
         "hp": 70,
         "at": 70,
         "df": 70,
-        "sa": 45,
+        "sa": 25,
         "sd": 80,
         "sp": 60
       },
@@ -54023,7 +54035,7 @@ overrides = {
           ],
           [
             13,
-            "Dark Pulse"
+            "Pursuit"
           ],
           [
             15,
@@ -54047,7 +54059,7 @@ overrides = {
           ],
           [
             32,
-            "Night Daze"
+            "Feint Attack"
           ],
           [
             35,
@@ -54167,7 +54179,7 @@ overrides = {
         "hp": 95,
         "at": 105,
         "df": 80,
-        "sa": 65,
+        "sa": 45,
         "sd": 110,
         "sp": 90
       },
@@ -54195,7 +54207,7 @@ overrides = {
           ],
           [
             13,
-            "Dark Pulse"
+            "Pursuit"
           ],
           [
             15,
@@ -54219,7 +54231,7 @@ overrides = {
           ],
           [
             32,
-            "Night Daze"
+            "Feint Attack"
           ],
           [
             35,
@@ -55069,7 +55081,7 @@ overrides = {
         "df": 40,
         "sa": 95,
         "sd": 40,
-        "sp": 75
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -55242,7 +55254,7 @@ overrides = {
         "df": 60,
         "sa": 115,
         "sd": 60,
-        "sp": 95
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -55605,7 +55617,7 @@ overrides = {
       ],
       "bs": {
         "hp": 75,
-        "at": 100,
+        "at": 95,
         "df": 105,
         "sa": 100,
         "sd": 110,
@@ -56169,7 +56181,7 @@ overrides = {
           ],
           [
             1,
-            "Sand Tomb"
+            "Rock Polish"
           ],
           [
             1,
@@ -56185,11 +56197,11 @@ overrides = {
           ],
           [
             17,
-            "Rock Polish"
+            "Teleport"
           ],
           [
             20,
-            "Teleport"
+            "Psywave"
           ],
           [
             25,
@@ -56217,11 +56229,11 @@ overrides = {
           ],
           [
             50,
-            "Starburst"
+            "Imprison"
           ],
           [
             53,
-            "Psychic"
+            "Starburst"
           ],
           [
             57,
@@ -56338,7 +56350,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Imprison"
+            "Rock Polish"
           ],
           [
             1,
@@ -56358,11 +56370,11 @@ overrides = {
           ],
           [
             17,
-            "Rock Polish"
+            "Scorching Sands"
           ],
           [
             20,
-            "Scorching Sands"
+            "Reflect Type"
           ],
           [
             25,
@@ -56382,7 +56394,7 @@ overrides = {
           ],
           [
             42,
-            "Reflect Type"
+            "Psywave"
           ],
           [
             46,
@@ -56394,7 +56406,7 @@ overrides = {
           ],
           [
             53,
-            "Psychic"
+            "Imprison"
           ],
           [
             57,
@@ -57688,7 +57700,7 @@ overrides = {
       ],
       "bs": {
         "hp": 116,
-        "at": 81,
+        "at": 61,
         "df": 97,
         "sa": 96,
         "sd": 107,
@@ -59689,7 +59701,7 @@ overrides = {
         "df": 90,
         "sa": 100,
         "sd": 95,
-        "sp": 95
+        "sp": 85
       },
       "learnset_info": {
         "learnset": [
@@ -59870,7 +59882,7 @@ overrides = {
       "bs": {
         "hp": 65,
         "at": 130,
-        "df": 100,
+        "df": 95,
         "sa": 95,
         "sd": 75,
         "sp": 95
@@ -63142,10 +63154,6 @@ overrides = {
           ],
           [
             1,
-            "Mega Drain"
-          ],
-          [
-            1,
             "Harden"
           ],
           [
@@ -63153,20 +63161,8 @@ overrides = {
             "Razor Leaf"
           ],
           [
-            7,
-            "Razor Leaf"
-          ],
-          [
             10,
             "Stomp"
-          ],
-          [
-            10,
-            "Stomp"
-          ],
-          [
-            13,
-            "Bite"
           ],
           [
             13,
@@ -63177,20 +63173,8 @@ overrides = {
             "Stompin Tantrum"
           ],
           [
-            16,
-            "Stompin Tantrum"
-          ],
-          [
             19,
             "Giga Drain"
-          ],
-          [
-            19,
-            "Giga Drain"
-          ],
-          [
-            22,
-            "Razor Shell"
           ],
           [
             22,
@@ -63201,28 +63185,12 @@ overrides = {
             "Crunch"
           ],
           [
-            25,
-            "Crunch"
-          ],
-          [
-            29,
-            "Seed Bomb"
-          ],
-          [
             29,
             "Seed Bomb"
           ],
           [
             32,
             "Wide Guard"
-          ],
-          [
-            32,
-            "Wide Guard"
-          ],
-          [
-            36,
-            "Head Charge"
           ],
           [
             36,
@@ -64541,7 +64509,7 @@ overrides = {
         "df": 88,
         "sa": 111,
         "sd": 101,
-        "sp": 85
+        "sp": 75
       },
       "learnset_info": {
         "learnset": [
@@ -65000,7 +64968,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 95,
+        "hp": 85,
         "at": 120,
         "df": 70,
         "sa": 50,
@@ -65630,8 +65598,8 @@ overrides = {
         "hp": 77,
         "at": 90,
         "df": 51,
-        "sa": 95,
-        "sd": 75,
+        "sa": 94,
+        "sd": 65,
         "sp": 107
       },
       "learnset_info": {
@@ -66439,8 +66407,8 @@ overrides = {
       "bs": {
         "hp": 60,
         "at": 70,
-        "df": 55,
-        "sa": 125,
+        "df": 65,
+        "sa": 135,
         "sd": 105,
         "sp": 105
       },
@@ -67877,7 +67845,7 @@ overrides = {
         "df": 130,
         "sa": 95,
         "sd": 130,
-        "sp": 40
+        "sp": 10
       },
       "learnset_info": {
         "learnset": [
@@ -69500,9 +69468,9 @@ overrides = {
       "bs": {
         "hp": 150,
         "at": 100,
-        "df": 55,
+        "df": 54,
         "sa": 105,
-        "sd": 65,
+        "sd": 64,
         "sp": 80
       },
       "learnset_info": {
@@ -70028,8 +69996,8 @@ overrides = {
             "Dream Eater"
           ],
           [
-            6,
-            "Disarming Voice"
+            1,
+            "Aura Sphere"
           ],
           [
             11,
@@ -70073,7 +70041,7 @@ overrides = {
           ],
           [
             46,
-            "Aura Sphere"
+            "Psywave"
           ],
           [
             50,
@@ -70676,7 +70644,7 @@ overrides = {
         "df": 60,
         "sa": 70,
         "sd": 65,
-        "sp": 65
+        "sp": 55
       },
       "learnset_info": {
         "learnset": [
@@ -71164,7 +71132,7 @@ overrides = {
           ],
           [
             3,
-            "Confuse Ray"
+            "Sparkle"
           ],
           [
             7,
@@ -71200,7 +71168,7 @@ overrides = {
           ],
           [
             31,
-            "Heal Bell"
+            "Confuse Ray"
           ],
           [
             33,
@@ -71220,11 +71188,11 @@ overrides = {
           ],
           [
             45,
-            "Iron Defense"
+            "Psywave"
           ],
           [
             47,
-            "Future Sight"
+            "Heal Bell"
           ],
           [
             50,
@@ -71332,11 +71300,11 @@ overrides = {
         "learnset": [
           [
             1,
-            "Stored Power"
+            "Future Sight"
           ],
           [
             3,
-            "Confuse Ray"
+            "Sparkle"
           ],
           [
             7,
@@ -71372,7 +71340,7 @@ overrides = {
           ],
           [
             31,
-            "Heal Bell"
+            "Confuse Ray"
           ],
           [
             33,
@@ -71392,11 +71360,11 @@ overrides = {
           ],
           [
             45,
-            "Iron Defense"
+            "Psywave"
           ],
           [
             47,
-            "Future Sight"
+            "Heal Bell"
           ],
           [
             50,
@@ -71758,11 +71726,11 @@ overrides = {
             "Heart Stamp"
           ],
           [
-            38,
-            "Wide Guard"
+            39,
+            "Psywave"
           ],
           [
-            40,
+            42,
             "Teeter Dance"
           ]
         ],
@@ -72017,9 +71985,9 @@ overrides = {
       "bs": {
         "hp": 76,
         "at": 65,
-        "df": 65,
+        "df": 60,
         "sa": 117,
-        "sd": 65,
+        "sd": 60,
         "sp": 106
       },
       "learnset_info": {
@@ -74974,11 +74942,11 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 80,
-        "at": 75,
+        "hp": 75,
+        "at": 82,
         "df": 70,
-        "sa": 75,
-        "sd": 80,
+        "sa": 82,
+        "sd": 75,
         "sp": 40
       },
       "learnset_info": {
@@ -75135,10 +75103,10 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 110,
-        "at": 105,
-        "df": 100,
-        "sa": 105,
+        "hp": 105,
+        "at": 112,
+        "df": 95,
+        "sa": 112,
         "sd": 100,
         "sp": 60
       },
@@ -75486,7 +75454,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 85,
+        "hp": 80,
         "at": 70,
         "df": 115,
         "sa": 130,
@@ -75849,7 +75817,7 @@ overrides = {
         "at": 140,
         "df": 130,
         "sa": 55,
-        "sd": 75,
+        "sd": 70,
         "sp": 40
       },
       "learnset_info": {
@@ -76579,7 +76547,7 @@ overrides = {
       ],
       "bs": {
         "hp": 85,
-        "at": 80,
+        "at": 50,
         "df": 95,
         "sa": 120,
         "sd": 115,
@@ -76613,7 +76581,7 @@ overrides = {
           ],
           [
             22,
-            "Heart Stamp"
+            "Draining Kiss"
           ],
           [
             25,
@@ -76757,7 +76725,7 @@ overrides = {
       "bs": {
         "hp": 86,
         "at": 76,
-        "df": 106,
+        "df": 86,
         "sa": 116,
         "sd": 76,
         "sp": 95
@@ -76916,7 +76884,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 85,
+        "hp": 65,
         "at": 150,
         "df": 95,
         "sa": 60,
@@ -77000,10 +76968,6 @@ overrides = {
           [
             70,
             "Frenzy Plant"
-          ],
-          [
-            80,
-            "Giga Impact"
           ]
         ],
         "tms": [
@@ -77184,10 +77148,6 @@ overrides = {
           [
             70,
             "Sheer Cold"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -77688,7 +77648,11 @@ overrides = {
             "Double-Edge"
           ],
           [
-            44,
+            42,
+            "Psywave"
+          ],
+          [
+            45,
             "Foul Play"
           ],
           [
@@ -83519,6 +83483,10 @@ overrides = {
             "Healing Wish"
           ],
           [
+            45,
+            "Psywave"
+          ],
+          [
             47,
             "Moonlight"
           ],
@@ -83686,6 +83654,10 @@ overrides = {
           [
             42,
             "Healing Wish"
+          ],
+          [
+            45,
+            "Psywave"
           ],
           [
             47,
@@ -85890,10 +85862,10 @@ overrides = {
       ],
       "bs": {
         "hp": 75,
-        "at": 90,
-        "df": 75,
+        "at": 95,
+        "df": 80,
         "sa": 25,
-        "sd": 60,
+        "sd": 55,
         "sp": 35
       },
       "learnset_info": {
@@ -86047,9 +86019,9 @@ overrides = {
       "bs": {
         "hp": 85,
         "at": 105,
-        "df": 85,
+        "df": 90,
         "sa": 40,
-        "sd": 70,
+        "sd": 65,
         "sp": 40
       },
       "learnset_info": {
@@ -86209,9 +86181,9 @@ overrides = {
       "bs": {
         "hp": 105,
         "at": 140,
-        "df": 125,
+        "df": 115,
         "sa": 55,
-        "sd": 80,
+        "sd": 75,
         "sp": 45
       },
       "learnset_info": {
@@ -86903,11 +86875,11 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 130,
+        "hp": 120,
         "at": 110,
-        "df": 95,
+        "df": 100,
         "sa": 30,
-        "sd": 95,
+        "sd": 100,
         "sp": 45
       },
       "learnset_info": {
@@ -87064,7 +87036,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 95,
+        "hp": 85,
         "at": 125,
         "df": 90,
         "sa": 30,
@@ -89908,8 +89880,8 @@ overrides = {
         "hp": 75,
         "at": 86,
         "df": 67,
-        "sa": 116,
-        "sd": 107,
+        "sa": 117,
+        "sd": 97,
         "sp": 84
       },
       "learnset_info": {
@@ -90128,7 +90100,7 @@ overrides = {
           ],
           [
             37,
-            "Counter"
+            "Refresh"
           ],
           [
             42,
@@ -90136,7 +90108,7 @@ overrides = {
           ],
           [
             46,
-            "Rest"
+            "Earthquake"
           ],
           [
             49,
@@ -90251,7 +90223,7 @@ overrides = {
         "hp": 70,
         "at": 105,
         "df": 145,
-        "sa": 45,
+        "sa": 65,
         "sd": 75,
         "sp": 45
       },
@@ -90307,7 +90279,7 @@ overrides = {
           ],
           [
             37,
-            "Counter"
+            "Refresh"
           ],
           [
             42,
@@ -90315,7 +90287,7 @@ overrides = {
           ],
           [
             46,
-            "Rest"
+            "Earthquake"
           ],
           [
             49,
@@ -90613,7 +90585,7 @@ overrides = {
         "df": 115,
         "sa": 45,
         "sd": 115,
-        "sp": 70
+        "sp": 68
       },
       "learnset_info": {
         "learnset": [
@@ -90820,7 +90792,7 @@ overrides = {
           ],
           [
             22,
-            "Scorching Sands"
+            "Psywave"
           ],
           [
             25,
@@ -93589,7 +93561,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Stored Power"
+            "Telekinesis"
           ],
           [
             5,
@@ -93617,7 +93589,7 @@ overrides = {
           ],
           [
             20,
-            "Telekinesis"
+            "Psywave"
           ],
           [
             24,
@@ -93629,7 +93601,7 @@ overrides = {
           ],
           [
             31,
-            "Imprison"
+            "Psyshock"
           ],
           [
             35,
@@ -93759,7 +93731,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Stored Power"
+            "Telekinesis"
           ],
           [
             5,
@@ -93787,7 +93759,7 @@ overrides = {
           ],
           [
             20,
-            "Telekinesis"
+            "Psywave"
           ],
           [
             24,
@@ -93799,7 +93771,7 @@ overrides = {
           ],
           [
             31,
-            "Imprison"
+            "Psyshock"
           ],
           [
             35,
@@ -93827,7 +93799,7 @@ overrides = {
           ],
           [
             53,
-            "Psystrike"
+            "Imprison"
           ],
           [
             58,
@@ -93971,7 +93943,7 @@ overrides = {
           ],
           [
             20,
-            "Telekinesis"
+            "Psywave"
           ],
           [
             24,
@@ -93983,7 +93955,7 @@ overrides = {
           ],
           [
             31,
-            "Imprison"
+            "Psyshock"
           ],
           [
             35,
@@ -94011,7 +93983,7 @@ overrides = {
           ],
           [
             53,
-            "Psystrike"
+            "Imprison"
           ],
           [
             58,
@@ -95273,10 +95245,10 @@ overrides = {
       "bs": {
         "hp": 55,
         "at": 115,
-        "df": 70,
-        "sa": 122,
-        "sd": 70,
-        "sp": 103
+        "df": 60,
+        "sa": 117,
+        "sd": 60,
+        "sp": 113
       },
       "learnset_info": {
         "learnset": [
@@ -97021,7 +96993,7 @@ overrides = {
       },
       "abs": [
         "Iron Barbs",
-        " -",
+        "Sturdy",
         " -"
       ],
       "evos": [
@@ -97190,7 +97162,7 @@ overrides = {
       },
       "abs": [
         "Iron Barbs",
-        " -",
+        "Sturdy",
         " -"
       ],
       "evoType": "level",
@@ -99099,7 +99071,7 @@ overrides = {
       "abs": [
         "Mold Breaker",
         "Rivalry",
-        "Hyper Cutter"
+        "Unnerve"
       ],
       "evos": [
         "Fraxure"
@@ -99276,7 +99248,7 @@ overrides = {
       "abs": [
         "Mold Breaker",
         "Rivalry",
-        "Hyper Cutter"
+        "Unnerve"
       ],
       "evoType": "level",
       "evoLevel": 38,
@@ -99851,7 +99823,7 @@ overrides = {
       "bs": {
         "hp": 80,
         "at": 50,
-        "df": 80,
+        "df": 50,
         "sa": 105,
         "sd": 135,
         "sp": 105
@@ -101236,7 +101208,7 @@ overrides = {
         "df": 80,
         "sa": 55,
         "sd": 80,
-        "sp": 85
+        "sp": 75
       },
       "learnset_info": {
         "learnset": [
@@ -102057,9 +102029,9 @@ overrides = {
       "bs": {
         "hp": 100,
         "at": 123,
-        "df": 100,
+        "df": 105,
         "sa": 57,
-        "sd": 85,
+        "sd": 75,
         "sp": 80
       },
       "learnset_info": {
@@ -102372,7 +102344,7 @@ overrides = {
       ],
       "bs": {
         "hp": 110,
-        "at": 100,
+        "at": 95,
         "df": 105,
         "sa": 55,
         "sd": 95,
@@ -102533,9 +102505,9 @@ overrides = {
       ],
       "bs": {
         "hp": 85,
-        "at": 109,
+        "at": 113,
         "df": 85,
-        "sa": 105,
+        "sa": 60,
         "sd": 96,
         "sp": 75
       },
@@ -102547,7 +102519,7 @@ overrides = {
           ],
           [
             1,
-            "Magma Storm"
+            "Flame Charge"
           ],
           [
             7,
@@ -102555,7 +102527,7 @@ overrides = {
           ],
           [
             10,
-            "Incinerate"
+            "Flame Wheel"
           ],
           [
             13,
@@ -102571,7 +102543,7 @@ overrides = {
           ],
           [
             23,
-            "Grudge"
+            "Dig"
           ],
           [
             26,
@@ -102590,32 +102562,28 @@ overrides = {
             "Swallow"
           ],
           [
-            34,
-            "Spit Up"
-          ],
-          [
-            38,
+            37,
             "Sucker Punch"
           ],
           [
-            41,
+            40,
             "Cross Chop"
           ],
           [
-            44,
+            43,
             "Iron Tail"
           ],
           [
-            47,
-            "Fire Spin"
+            46,
+            "Fire Lash"
           ],
           [
-            52,
-            "Hone Claws"
+            50,
+            "Haze"
           ],
           [
             57,
-            "Steel Beam"
+            "Meteor Mash"
           ],
           [
             60,
@@ -102623,7 +102591,7 @@ overrides = {
           ],
           [
             65,
-            "Overheat"
+            "Blast Burn"
           ]
         ],
         "tms": [
@@ -102723,7 +102691,7 @@ overrides = {
         "at": 109,
         "df": 112,
         "sa": 48,
-        "sd": 88,
+        "sd": 68,
         "sp": 119
       },
       "learnset_info": {
@@ -110267,7 +110235,7 @@ overrides = {
       "t": "Rock",
       "bp": 0,
       "cat": "Status",
-      "pp": 2,
+      "pp": 1,
       "acc": 101,
       "prio": 0,
       "name": "Harden",
@@ -110338,7 +110306,7 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 2,
+      "pp": 1,
       "acc": 101,
       "prio": 0,
       "name": "Defense Curl",
@@ -110352,7 +110320,7 @@ overrides = {
       "t": "Psychic",
       "bp": 0,
       "cat": "Status",
-      "pp": 2,
+      "pp": 1,
       "acc": 101,
       "prio": 0,
       "name": "Barrier",
@@ -145249,13 +145217,13 @@ overrides = {
       "location": "",
       "rewards": [
         "Hoopster Bobby",
-        "Cosplayer Cassie - Join Avenue",
+        "Cosplayer Cassie",
         "Linebacker Jonah",
         "Rival Benga",
         "Striker Marco",
         "Hoopster John",
-        "Cosplayer Amy - Join Avenue",
-        "Lass Flo - Route 7"
+        "Cosplayer Amy",
+        "Lass Flo"
       ]
     },
     "antidote": {
@@ -145271,7 +145239,7 @@ overrides = {
       "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
       "location": "",
       "rewards": [
-        "Scientist Dudley - Virbank Complex"
+        "Scientist Dudley"
       ]
     },
     "iceheal": {
@@ -145289,7 +145257,7 @@ overrides = {
       "desc": "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
       "location": "",
       "rewards": [
-        "Backpacker Walt - Desert Resort"
+        "Backpacker Walt"
       ]
     },
     "fullrestore": {
@@ -145297,17 +145265,17 @@ overrides = {
       "desc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
       "location": "",
       "rewards": [
-        "Striker Roberto - Driftveil Drawbridge",
-        "Smasher Elena - Driftveil Drawbridge",
-        "Infielder Alex - Driftveil Drawbridge",
-        "Infielder Connor - Driftveil Drawbridge",
-        "Striker Marco - Driftveil Drawbridge",
-        "Linebacker Jonah - Driftveil Drawbridge",
-        "Linebacker Dan - Driftveil Drawbridge",
-        "Hoopster Lamarcus - Driftveil Drawbridge",
-        "Hoopster Bobby - Driftveil Drawbridge",
-        "Nurse Kirsten - Castelia Sewers",
-        "Smasher Aspen - Driftveil Drawbridge"
+        "Striker Roberto",
+        "Smasher Elena",
+        "Infielder Alex",
+        "Infielder Connor",
+        "Striker Marco",
+        "Linebacker Jonah",
+        "Linebacker Dan",
+        "Hoopster Lamarcus",
+        "Hoopster Bobby",
+        "Nurse Kirsten",
+        "Smasher Aspen"
       ],
       "marts": [
         "Stock No Badges",
@@ -145323,10 +145291,10 @@ overrides = {
       "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
       "location": "",
       "rewards": [
-        "Cosplayer Anders - Join Avenue",
-        "Girl in Suit Donna - Join Avenue",
+        "Cosplayer Anders",
+        "Girl in Suit Donna",
         "Pokefan Darcy",
-        "Youngster Nicholas - Route 7"
+        "Youngster Nicholas"
       ],
       "marts": [
         "Stock No Badges",
@@ -145344,12 +145312,12 @@ overrides = {
       "location": "",
       "rewards": [
         "Smasher ",
-        "Hoopster John - Chargestone Cave",
-        "Guy in Suit Larry - Join Avenue",
+        "Hoopster John",
+        "Guy in Suit Larry",
         "Hoopster Bobby",
         "Linebacker Jonah",
         "Striker Marco",
-        "Cosplayer Miriam - Join Avenue"
+        "Cosplayer Miriam"
       ]
     },
     "superpotion": {
@@ -145357,7 +145325,7 @@ overrides = {
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points.",
       "location": "",
       "rewards": [
-        "Cosplayer Jared - Join Avenue",
+        "Cosplayer Jared",
         "Linebacker Dan",
         "Linebacker Jonah",
         "Team Plasma Shadow",
@@ -145416,7 +145384,7 @@ overrides = {
       "desc": "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.",
       "location": "",
       "rewards": [
-        "Waiter Clint - Nimbasa City",
+        "Waiter Clint",
         "Waitress Bonita",
         "Baker Lilly"
       ]
@@ -145508,8 +145476,8 @@ overrides = {
       "desc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
       "location": "",
       "rewards": [
-        "Linebacker Dan - Nimbasa City",
-        "Linebacker Bob - Nimbasa City"
+        "Linebacker Dan",
+        "Linebacker Bob"
       ]
     },
     "unusualcandies": {
@@ -145531,7 +145499,7 @@ overrides = {
       "desc": "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.",
       "location": "",
       "rewards": [
-        "Hoopster John - Nimbasa City"
+        "Hoopster John"
       ]
     },
     "rarecandies": {
@@ -145664,9 +145632,9 @@ overrides = {
       "desc": "A small red shard. It appears to be from some sort of implement made long ago.",
       "location": "",
       "rewards": [
-        "Lass Patty - Nimbasa City",
+        "Lass Patty",
         "Hiker Russel",
-        "Hiker Tobias - Relic Passage"
+        "Hiker Tobias"
       ]
     },
     "blueshard": {
@@ -145675,11 +145643,11 @@ overrides = {
       "location": "",
       "rewards": [
         "Worker Matthew",
-        "Worker Tyler - Driftveil City",
+        "Worker Tyler",
         "Worker Herman",
-        "Worker Gus - Twist Mountain",
+        "Worker Gus",
         "Harlequin Sanders",
-        "Backpacker Corin - Route 15"
+        "Backpacker Corin"
       ]
     },
     "yellowshard": {
@@ -145824,8 +145792,8 @@ overrides = {
       "desc": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
       "location": "",
       "rewards": [
-        "Scientist Lucy - Relic Passage",
-        "Pokefan Jude - Celestial Tower"
+        "Scientist Lucy",
+        "Pokefan Jude"
       ]
     },
     "honey": {
@@ -145894,7 +145862,7 @@ overrides = {
       "oldDesc": "A bone that is extremely valuable for Pokémon archeology. It can be sold for a high price to shops.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Jaden - Desert Resort"
+        "PkMn Ranger Jaden"
       ]
     },
     "shinystone": {
@@ -146010,7 +145978,7 @@ overrides = {
       "new": true,
       "location": "",
       "rewards": [
-        "PkMn Ranger Forrest - Lostlorn Forest"
+        "PkMn Ranger Forrest"
       ]
     },
     "tricksterherb": {
@@ -146181,7 +146149,7 @@ overrides = {
       "location": "",
       "rewards": [
         "Battle Girl Janie",
-        "PkMn Ranger Eddie - Victory Road"
+        "PkMn Ranger Eddie"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -146193,9 +146161,9 @@ overrides = {
       "desc": "If held by a Pokémon, it recovers from sleep.",
       "location": "",
       "rewards": [
-        "Musician Boris - Castelia City",
-        "PkMn Ranger Briana - Chargestone Cave",
-        "PkMn Ranger Louis - Chargestone Cave"
+        "Musician Boris",
+        "PkMn Ranger Briana",
+        "PkMn Ranger Louis"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -146207,9 +146175,9 @@ overrides = {
       "desc": "If held by a Pokémon, it recovers from poison.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Richard - Route 6",
-        "PkMn Ranger Serenity - Lostlorn Forest",
-        "Black Belt Jeriel - Route 12"
+        "PkMn Ranger Richard",
+        "PkMn Ranger Serenity",
+        "Black Belt Jeriel"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -146223,8 +146191,8 @@ overrides = {
       "rewards": [
         "PkMn Ranger Lewis",
         "PkMn Ranger Eliza",
-        "PkMn Ranger Elle - Victory Road",
-        "PkMn Ranger Anja - Desert Resort"
+        "PkMn Ranger Elle",
+        "PkMn Ranger Anja"
       ],
       "wilds": [
         "Darumaka",
@@ -146241,9 +146209,9 @@ overrides = {
       "desc": "If held by a Pokémon, it defrosts it.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Thalia - Route 11",
-        "PkMn Ranger Crofton - Route 11",
-        "Cyclist Lionel - Route 4"
+        "PkMn Ranger Thalia",
+        "PkMn Ranger Crofton",
+        "Cyclist Lionel"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -146256,7 +146224,7 @@ overrides = {
       "location": "",
       "rewards": [
         "PkMn Ranger Bret",
-        "PkMn Ranger Malory - Route 20"
+        "PkMn Ranger Malory"
       ],
       "marts": [
         "Castelia City Upper Cashier"
@@ -146275,10 +146243,10 @@ overrides = {
       "desc": "If held by a Pokémon, it recovers from confusion.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Johan - Seaside Cave",
-        "PkMn Ranger Mikiko - Seaside Cave",
-        "PkMn Ranger Lewis - Reversal Mountain",
-        "PkMn Ranger Eliza - Reversal Mountain"
+        "PkMn Ranger Johan",
+        "PkMn Ranger Mikiko",
+        "PkMn Ranger Lewis",
+        "PkMn Ranger Eliza"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -146290,12 +146258,12 @@ overrides = {
       "desc": "If held by a Pokémon, it recovers from any status problem.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Rick - Route 1",
-        "PkMn Ranger Audra - Route 1",
-        "PkMn Ranger Terrakion - Clay Tunnel",
-        "PkMn Ranger Keldeo - Clay Tunnel",
-        "PkMn Ranger Parker - Moor of Icirrus",
-        "PkMn Ranger Elaine - Moor of Icirrus",
+        "PkMn Ranger Rick",
+        "PkMn Ranger Audra",
+        "PkMn Ranger Terrakion",
+        "PkMn Ranger Keldeo",
+        "PkMn Ranger Parker",
+        "PkMn Ranger Elaine",
         "PkMn Ranger Ralph",
         "PkMn Ranger Melita"
       ],
@@ -146314,11 +146282,11 @@ overrides = {
       "rewards": [
         "PkMn Ranger Daryl",
         "PkMn Ranger Dianne",
-        "PkMn Ranger Leaf - Route 20",
-        "PkMn Ranger Naoko - Route 20",
-        "PkMn Ranger Lena - Route 23",
-        "PkMn Ranger Steve - Route 23",
-        "Backpacker Annie - Relic Passage",
+        "PkMn Ranger Leaf",
+        "PkMn Ranger Naoko",
+        "PkMn Ranger Lena",
+        "PkMn Ranger Steve",
+        "Backpacker Annie",
         "PkMn Ranger Dwayne",
         "PkMn Ranger Hillary"
       ],
@@ -146334,8 +146302,8 @@ overrides = {
       "oldDesc": "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
       "location": "",
       "rewards": [
-        "Backpacker Alexander - Relic Passage",
-        "Pokefan Sachiko - Route 4"
+        "Backpacker Alexander",
+        "Pokefan Sachiko"
       ]
     },
     "marangaberry": {
@@ -146351,7 +146319,7 @@ overrides = {
       "oldDesc": "Castelia City's specialty, soft-serve ice cream. It heals all the status problems of a single Pokémon.",
       "location": "",
       "rewards": [
-        "Harlequin Luigi - Nimbasa City"
+        "Harlequin Luigi"
       ]
     },
     "keeberry": {
@@ -146566,7 +146534,7 @@ overrides = {
       "desc": "Weakens a supereffective Poison-type attack against the holding Pokémon.",
       "location": "",
       "rewards": [
-        "Dancer Dirk - Virbank City"
+        "Dancer Dirk"
       ]
     },
     "shucaberry": {
@@ -146609,7 +146577,7 @@ overrides = {
       "desc": "Weakens a supereffective Dark-type attack against the holding Pokémon.",
       "location": "",
       "rewards": [
-        "Worker Cairn - Clay Tunnel"
+        "Worker Cairn"
       ]
     },
     "babiriberry": {
@@ -146634,7 +146602,7 @@ overrides = {
       "oldDesc": "If held by a Pokémon, it raises its Defense stat in a pinch.",
       "location": "",
       "rewards": [
-        "Cyclist Krissa - Route 16"
+        "Cyclist Krissa"
       ]
     },
     "salacberry": {
@@ -146655,7 +146623,7 @@ overrides = {
       "oldDesc": "If held by a Pokémon, it raises its Sp. Def stat in a pinch.",
       "location": "",
       "rewards": [
-        "Cyclist Hector - Route 16"
+        "Cyclist Hector"
       ]
     },
     "roseliberry": {
@@ -146671,7 +146639,7 @@ overrides = {
       "oldDesc": "If held by a Pokémon, it sharply raises one of its stats in a pinch.",
       "location": "",
       "rewards": [
-        "Harlequin Oswald - Route 7"
+        "Harlequin Oswald"
       ]
     },
     "enigmaberry": {
@@ -146697,7 +146665,7 @@ overrides = {
       "desc": "If held by a Pokémon and a physical attack lands, the attacker also takes damage.",
       "location": "",
       "rewards": [
-        "PkMn Ranger Lois - Route 5"
+        "PkMn Ranger Lois"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -146708,8 +146676,8 @@ overrides = {
       "desc": "If held by a Pokémon and a special attack lands, the attacker also takes damage.",
       "location": "",
       "rewards": [
-        "Smasher Elena - Aspertia Gate",
-        "Psychic Perry - Relic Castle"
+        "Smasher Elena",
+        "Psychic Perry"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -146725,7 +146693,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
       "location": "",
       "rewards": [
-        "PkMn Breeder Alice - Floccesy Ranch"
+        "PkMn Breeder Alice"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -146887,7 +146855,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
       "location": "",
       "rewards": [
-        "Nursery Aide Leah - Virbank Preschool"
+        "Nursery Aide Leah"
       ],
       "marts": [
         "Driftveil City Herb Shop"
@@ -146908,7 +146876,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.",
       "location": "",
       "rewards": [
-        "Youngster Keita - Virbank Complex"
+        "Youngster Keita"
       ]
     },
     "mysticwater": {
@@ -146916,7 +146884,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
       "location": "",
       "rewards": [
-        "Nursery Aide Kimya - Route 20"
+        "Nursery Aide Kimya"
       ]
     },
     "sharpbeak": {
@@ -146939,7 +146907,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
       "location": "",
       "rewards": [
-        "Backers Kay & Ali - Route 5"
+        "Backers Kay & Ali"
       ]
     },
     "twistedspoon": {
@@ -147059,7 +147027,7 @@ overrides = {
       "desc": "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
       "location": "",
       "rewards": [
-        "Youngster Kenny - Floccesy Ranch"
+        "Youngster Kenny"
       ],
       "marts": [
         "Castelia City Upper Cashier"
@@ -147085,7 +147053,7 @@ overrides = {
       "desc": "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.",
       "location": "",
       "rewards": [
-        "Harlequin Otto - Route 3"
+        "Harlequin Otto"
       ]
     },
     "toxicorb": {
@@ -147459,7 +147427,7 @@ overrides = {
       "desc": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
       "location": "",
       "rewards": [
-        "Psychic Tommy - Desert Resort"
+        "Psychic Tommy"
       ],
       "marts": [
         "Mistralton City TM Dept"
@@ -147545,7 +147513,7 @@ overrides = {
       "oldDesc": "The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
       "location": "",
       "rewards": [
-        "Scientist Cleo - Complex Exterior"
+        "Scientist Cleo"
       ],
       "marts": [
         "Nimbasa TM Department"
@@ -147580,7 +147548,7 @@ overrides = {
       "oldDesc": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
       "location": "",
       "rewards": [
-        "Musician Preston - Driftveil City"
+        "Musician Preston"
       ]
     },
     "tm20": {
@@ -147636,7 +147604,7 @@ overrides = {
       "oldDesc": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
       "location": "",
       "rewards": [
-        "Hoenn Leader Roxanne - Clay Tunnel"
+        "Hoenn Leader Roxanne"
       ]
     },
     "tm29": {
@@ -147649,7 +147617,7 @@ overrides = {
       "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
       "location": "",
       "rewards": [
-        "Johto Leader Morty - Celestial Tower"
+        "Johto Leader Morty"
       ]
     },
     "tm31": {
@@ -147709,7 +147677,7 @@ overrides = {
       "desc": "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
       "location": "",
       "rewards": [
-        "Lass Daya - Virbank Complex"
+        "Lass Daya"
       ],
       "marts": [
         "Nimbasa TM Department"
@@ -147847,7 +147815,7 @@ overrides = {
       "desc": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
       "location": "",
       "rewards": [
-        "Harlequin Chester - Driftveil City"
+        "Harlequin Chester"
       ]
     },
     "tm63": {
@@ -148002,7 +147970,7 @@ overrides = {
       "location": "",
       "rewards": [
         "PkMn Breeder Owen",
-        "PkMn Breeder Micah - Castelia Gardens"
+        "PkMn Breeder Micah"
       ],
       "marts": [
         "Mistralton City TM Dept"
@@ -148020,7 +147988,7 @@ overrides = {
       "oldDesc": "The user pecks the target. If the target is holding a Berry, the user plucks it and gains its effect.",
       "location": "",
       "rewards": [
-        "Pilot Leonard - Mistralton City"
+        "Pilot Leonard"
       ]
     },
     "tm89": {
@@ -148029,7 +147997,7 @@ overrides = {
       "oldDesc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
       "location": "",
       "rewards": [
-        "Policeman Lester - Undella Town"
+        "Policeman Lester"
       ]
     },
     "tm90": {
@@ -148046,7 +148014,7 @@ overrides = {
       "desc": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
       "location": "",
       "rewards": [
-        "Hiker Keith - Relic Passage"
+        "Hiker Keith"
       ]
     },
     "tm92": {
@@ -148661,8 +148629,8 @@ overrides = {
       "new": true,
       "location": "",
       "rewards": [
-        "Preschooler Mia - Route 6",
-        "Preschooler Jojo - Route 6"
+        "Preschooler Mia",
+        "Preschooler Jojo"
       ]
     },
     "ivmaximizer": {
@@ -148724,7 +148692,7 @@ overrides = {
       "desc": "When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.",
       "location": "",
       "rewards": [
-        "Harlequin Oz - Nimbasa City"
+        "Harlequin Oz"
       ],
       "marts": [
         "SM9 Top Left Cashier"
