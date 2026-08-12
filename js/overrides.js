@@ -84,6 +84,7 @@ var gameTitles = {
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
 	"blindingwhite2": "Blinding White 2",
 	"brutalblack": "Brutal Black",
+	"wishywashywhite2redux": "Wishy Washy White 2 Redux",
 	"badem": "Emerald but Bad",
 	"cascadewhite": "Cascade White",
 	"cascadewhite2": "Cascade White",
@@ -2823,7 +2824,16 @@ function overrideMonData(monOverrides) {
 		// console.log(BattleLearnsets[speciesId].learnset)
 
 		// Set optional fields
-		for (let field of ["evoLevel", "evoType", "evoCondition"]) {
+		for (let field of [
+			"evoLevel",
+			"evoType",
+			"evoCondition",
+			"baseSpecies",
+			"baseForme",
+			"forme",
+			"otherFormes",
+			"formeOrder",
+		]) {
 			if (typeof monData[field] != "undefined") {
 				BattlePokedex[speciesId][field] = monData[field]
 			}

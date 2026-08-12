@@ -200,15 +200,24 @@ These fields describe outgoing evolutions from this species:
 
 - `evos: string[]`
 - `evoMethods: string[]`
+- `evoMethodIds: number[]`
 - `evoParams: any[]`
 
 These arrays are positional. Index `i` in all three arrays describes the same branch:
 
 - `evos[i]` = target species name
 - `evoMethods[i]` = method code
+- `evoMethodIds[i]` = numeric in-ROM method ID when the exporter has it
 - `evoParams[i]` = method-specific parameter
 
 Keep them aligned exactly.
+
+Battle-counter methods use their BW2 numeric IDs so the renderer can preserve
+their compact requirements:
+
+- `29` (KO Count) renders threshold `5` as `K5`.
+- `30` (Battle Count) renders threshold `6` as `B6`.
+- `31` (Battles Used Count) also uses the compact battle form, such as `B6`.
 
 Important:
 
@@ -263,6 +272,20 @@ These fields are copied from the override into `BattlePokedex` if present:
 - `evoCondition`
 
 These fields are mainly useful for compatibility with the standard species shape used by `battledata.js`.
+
+### Alternate-form relationship fields
+
+Exported non-cosmetic forms may additionally use:
+
+- `baseSpecies: string` on each alternate form
+- `forme: string` on each alternate form
+- `baseForme: string` on the base species
+- `otherFormes: string[]` on the base species
+- `formeOrder: string[]` on the base species
+
+DDex copies these fields into `BattlePokedex`. This makes forms added as new
+personal records appear in the base species page's Formes section even when no
+custom sprite asset exists.
 
 ### Optional fields defined in base Dex data but not merged from override records
 

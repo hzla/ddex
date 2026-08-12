@@ -1306,6 +1306,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         return "Lv in Route 217";
       case 27:
         return "Lv near Moss Rock";
+      case 29:
+        return `K${displayValue}`;
+      case 30:
+      case 31:
+        return `B${displayValue}`;
       default:
         return this.formatFallbackEvolutionBranchDisplay(evoSource, branchIndex, displayValue);
     }
