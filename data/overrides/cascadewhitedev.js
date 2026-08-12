@@ -8937,7 +8937,7 @@ overrides = {
       "abs": [
         "Pickup",
         "Technician",
-        "Exploit"
+        "Unnerve"
       ],
       "evos": [
         "Persian"
@@ -9197,7 +9197,7 @@ overrides = {
           ],
           [
             34,
-            "Aqua Tail"
+            "Aqua Cutter"
           ],
           [
             36,
@@ -9393,7 +9393,7 @@ overrides = {
           ],
           [
             34,
-            "Aqua Tail"
+            "Aqua Cutter"
           ],
           [
             36,
@@ -20035,11 +20035,11 @@ overrides = {
           ],
           [
             27,
-            "Smog"
+            "Bubble Beam"
           ],
           [
             30,
-            "Aqua Tail"
+            "Smog"
           ],
           [
             33,
@@ -20055,7 +20055,7 @@ overrides = {
           ],
           [
             43,
-            "Sludge Bomb"
+            "Aqua Tail"
           ],
           [
             46,
@@ -20196,11 +20196,11 @@ overrides = {
           ],
           [
             27,
-            "Smog"
+            "Bubble Beam"
           ],
           [
             30,
-            "Aqua Tail"
+            "Smog"
           ],
           [
             33,
@@ -20216,7 +20216,7 @@ overrides = {
           ],
           [
             43,
-            "Sludge Bomb"
+            "Aqua Tail"
           ],
           [
             46,
@@ -21983,7 +21983,7 @@ overrides = {
           ],
           [
             22,
-            "Scary Face"
+            "Block"
           ],
           [
             25,
@@ -23986,7 +23986,7 @@ overrides = {
           ],
           [
             32,
-            "Liquidation"
+            "Razor Shell"
           ],
           [
             36,
@@ -24002,7 +24002,7 @@ overrides = {
           ],
           [
             45,
-            "Aqua Tail"
+            "Aqua Cutter"
           ],
           [
             49,
@@ -24165,7 +24165,7 @@ overrides = {
           ],
           [
             32,
-            "Liquidation"
+            "Razor Shell"
           ],
           [
             36,
@@ -24181,7 +24181,7 @@ overrides = {
           ],
           [
             45,
-            "Aqua Tail"
+            "Aqua Cutter"
           ],
           [
             49,
@@ -25468,7 +25468,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Bullet Seed"
           ],
           [
             1,
@@ -25484,7 +25484,7 @@ overrides = {
           ],
           [
             13,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             15,
@@ -25627,7 +25627,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Bullet Seed"
           ],
           [
             1,
@@ -25643,7 +25643,7 @@ overrides = {
           ],
           [
             13,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             15,
@@ -25820,7 +25820,7 @@ overrides = {
           ],
           [
             13,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             15,
@@ -30942,7 +30942,7 @@ overrides = {
           ],
           [
             50,
-            "Waterfall"
+            "Hydro Pump"
           ]
         ],
         "tms": [
@@ -31123,7 +31123,7 @@ overrides = {
           ],
           [
             50,
-            "Waterfall"
+            "Hydro Pump"
           ],
           [
             54,
@@ -33192,7 +33192,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Chlorophyll",
+        "Air Lock",
         "Magic Bounce",
         "Solar Power"
       ],
@@ -33520,7 +33520,7 @@ overrides = {
       "abs": [
         "Distracting",
         "Prankster",
-        "Exploit"
+        "Pickup"
       ],
       "evos": [
         "Honchkrow",
@@ -34155,7 +34155,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Regenerator",
+        "Magic Bounce",
         " -",
         " -"
       ],
@@ -38910,11 +38910,11 @@ overrides = {
           ],
           [
             27,
-            "Smog"
+            "Bubble Beam"
           ],
           [
             30,
-            "Aqua Tail"
+            "Smog"
           ],
           [
             33,
@@ -38930,7 +38930,7 @@ overrides = {
           ],
           [
             43,
-            "Sludge Bomb"
+            "Aqua Tail"
           ],
           [
             46,
@@ -46778,7 +46778,7 @@ overrides = {
         "useItem"
       ],
       "evoParams": [
-        36,
+        30,
         "Dawn Stone"
       ]
     },
@@ -46967,7 +46967,7 @@ overrides = {
         "Pixilate"
       ],
       "evoType": "level",
-      "evoLevel": 36
+      "evoLevel": 30
     },
     "Surskit": {
       "name": "Surskit",
@@ -49731,7 +49731,7 @@ overrides = {
       ],
       "bs": {
         "hp": 50,
-        "at": 65,
+        "at": 70,
         "df": 65,
         "sa": 65,
         "sd": 65,
@@ -49919,7 +49919,7 @@ overrides = {
       ],
       "bs": {
         "hp": 70,
-        "at": 95,
+        "at": 100,
         "df": 95,
         "sa": 95,
         "sd": 95,
@@ -50257,7 +50257,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Magic Guard",
+        "Magic Bounce",
         "Hyper Cutter",
         "Exploit"
       ]
@@ -55355,19 +55355,19 @@ overrides = {
           ],
           [
             1,
-            "Teeter Dance"
+            "Vine Whip"
           ],
           [
             1,
-            "Spikes"
+            "Wicked Blow"
           ],
           [
             1,
             "Baneful Bunker"
           ],
           [
-            1,
-            "Wicked Blow"
+            9,
+            "Pin Missile"
           ],
           [
             13,
@@ -55423,11 +55423,19 @@ overrides = {
           ],
           [
             58,
-            "Leaf Storm"
+            "Teeter Dance"
           ],
           [
             64,
             "Shadow Force"
+          ],
+          [
+            68,
+            "Leaf Storm"
+          ],
+          [
+            73,
+            "Spikes"
           ]
         ],
         "tms": [
@@ -60241,7 +60249,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Regenerator",
+        "Magic Bounce",
         " -",
         " -"
       ],
@@ -61912,7 +61920,7 @@ overrides = {
           ],
           [
             11,
-            "Scary Face"
+            "Rage"
           ],
           [
             14,
@@ -62067,7 +62075,7 @@ overrides = {
           ],
           [
             11,
-            "Scary Face"
+            "Rage"
           ],
           [
             14,
@@ -62233,7 +62241,7 @@ overrides = {
           ],
           [
             11,
-            "Scary Face"
+            "Rage"
           ],
           [
             14,
@@ -65841,9 +65849,9 @@ overrides = {
       "bs": {
         "hp": 60,
         "at": 65,
-        "df": 50,
+        "df": 49,
         "sa": 40,
-        "sd": 50,
+        "sd": 49,
         "sp": 45
       },
       "learnset_info": {
@@ -65854,7 +65862,7 @@ overrides = {
           ],
           [
             1,
-            "Nuzzle"
+            "Thunder Shock"
           ],
           [
             4,
@@ -65862,23 +65870,23 @@ overrides = {
           ],
           [
             7,
-            "Charge"
+            "Swift"
           ],
           [
             10,
-            "Thunder Wave"
+            "Assist"
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            15,
             "Spark"
           ],
           [
+            15,
+            "Double Kick"
+          ],
+          [
             18,
-            "Scary Face"
+            "Charge"
           ],
           [
             21,
@@ -65886,7 +65894,7 @@ overrides = {
           ],
           [
             25,
-            "Screech"
+            "Nuzzle"
           ],
           [
             28,
@@ -65901,12 +65909,16 @@ overrides = {
             "Thunder Fang"
           ],
           [
+            32,
+            "Quick Attack"
+          ],
+          [
             35,
             "Crunch"
           ],
           [
             40,
-            "Psychic Fangs"
+            "Roar"
           ]
         ],
         "tms": [
@@ -65994,9 +66006,9 @@ overrides = {
       "bs": {
         "hp": 80,
         "at": 85,
-        "df": 70,
+        "df": 69,
         "sa": 60,
-        "sd": 70,
+        "sd": 69,
         "sp": 60
       },
       "learnset_info": {
@@ -66007,7 +66019,7 @@ overrides = {
           ],
           [
             1,
-            "Nuzzle"
+            "Thunder Shock"
           ],
           [
             4,
@@ -66015,23 +66027,23 @@ overrides = {
           ],
           [
             7,
-            "Charge"
+            "Swift"
           ],
           [
             10,
-            "Thunder Wave"
+            "Assist"
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            15,
             "Spark"
           ],
           [
+            15,
+            "Double Kick"
+          ],
+          [
             18,
-            "Scary Face"
+            "Charge"
           ],
           [
             21,
@@ -66039,7 +66051,7 @@ overrides = {
           ],
           [
             25,
-            "Screech"
+            "Nuzzle"
           ],
           [
             28,
@@ -66054,12 +66066,16 @@ overrides = {
             "Thunder Fang"
           ],
           [
-            37,
+            32,
+            "Quick Attack"
+          ],
+          [
+            35,
             "Crunch"
           ],
           [
             40,
-            "Psychic Fangs"
+            "Roar"
           ],
           [
             42,
@@ -66168,9 +66184,9 @@ overrides = {
       "bs": {
         "hp": 100,
         "at": 120,
-        "df": 90,
+        "df": 89,
         "sa": 95,
-        "sd": 90,
+        "sd": 89,
         "sp": 70
       },
       "learnset_info": {
@@ -66193,19 +66209,19 @@ overrides = {
           ],
           [
             10,
-            "Thunder Wave"
+            "Assist"
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            15,
             "Spark"
           ],
           [
+            15,
+            "Double Kick"
+          ],
+          [
             18,
-            "Scary Face"
+            "Charge"
           ],
           [
             21,
@@ -66213,7 +66229,7 @@ overrides = {
           ],
           [
             25,
-            "Screech"
+            "Nuzzle"
           ],
           [
             28,
@@ -66228,12 +66244,16 @@ overrides = {
             "Thunder Fang"
           ],
           [
-            37,
+            32,
+            "Quick Attack"
+          ],
+          [
+            35,
             "Crunch"
           ],
           [
             40,
-            "Psychic Fangs"
+            "Roar"
           ],
           [
             42,
@@ -75085,7 +75105,7 @@ overrides = {
           ],
           [
             27,
-            "Grass Knot"
+            "Magical Leaf"
           ],
           [
             30,
@@ -75246,7 +75266,7 @@ overrides = {
           ],
           [
             27,
-            "Grass Knot"
+            "Magical Leaf"
           ],
           [
             30,
@@ -77039,7 +77059,7 @@ overrides = {
           ],
           [
             36,
-            "Zing Zap"
+            "Aqua Cutter"
           ],
           [
             40,
@@ -79669,7 +79689,7 @@ overrides = {
           ],
           [
             30,
-            "Nature Power"
+            "Magical Leaf"
           ],
           [
             32,
@@ -79843,7 +79863,7 @@ overrides = {
           ],
           [
             30,
-            "Nature Power"
+            "Magical Leaf"
           ],
           [
             32,
@@ -80035,7 +80055,7 @@ overrides = {
           ],
           [
             30,
-            "Nature Power"
+            "Magical Leaf"
           ],
           [
             32,
@@ -82498,7 +82518,7 @@ overrides = {
           ],
           [
             11,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             14,
@@ -82664,7 +82684,7 @@ overrides = {
           ],
           [
             11,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             14,
@@ -83683,9 +83703,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Forewarn",
+        "Bad Dreams",
         "Magic Bounce",
-        "Neutralizing Gas"
+        "Synchronize"
       ],
       "evos": [
         "Musharna"
@@ -83868,7 +83888,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Forewarn",
+        "Bad Dreams",
         "Magic Bounce",
         "Neutralizing Gas"
       ],
@@ -88957,7 +88977,7 @@ overrides = {
           ],
           [
             32,
-            "Aqua Tail"
+            "Waterfall"
           ],
           [
             35,
@@ -89780,8 +89800,8 @@ overrides = {
       },
       "abs": [
         "Hustle",
-        "Flame Body",
-        "Inner Focus"
+        "Inner Focus",
+        " -"
       ],
       "evos": [
         "Darmanitan",
@@ -89982,7 +90002,7 @@ overrides = {
       "abs": [
         "Sheer Force",
         "Turboblaze",
-        "Sturdy"
+        " -"
       ],
       "evoType": "useItem",
       "evoLevel": 50,
@@ -92593,9 +92613,9 @@ overrides = {
         ]
       },
       "abs": [
-        "Prankster",
+        "Trace",
         "Infiltrator",
-        "Exploit"
+        "Prankster"
       ],
       "evos": [
         "Zoroark"
@@ -96308,7 +96328,7 @@ overrides = {
       "abs": [
         "Water Absorb",
         "Merciless",
-        "Gourmand"
+        "Cursed Body"
       ],
       "evos": [
         "Jellicent"
@@ -96478,7 +96498,7 @@ overrides = {
       "abs": [
         "Water Absorb",
         "Merciless",
-        "Gourmand"
+        "Cursed Body"
       ],
       "evoType": "level",
       "evoLevel": 40
@@ -99102,7 +99122,7 @@ overrides = {
           ],
           [
             33,
-            "Dragon Tail"
+            "Dual Chop"
           ],
           [
             36,
@@ -99114,11 +99134,11 @@ overrides = {
           ],
           [
             44,
-            "Psyblade"
+            "Refresh"
           ],
           [
             48,
-            "Dual Chop"
+            "Dragon Claw"
           ],
           [
             53,
@@ -99267,7 +99287,7 @@ overrides = {
           ],
           [
             33,
-            "Dragon Tail"
+            "Dual Chop"
           ],
           [
             36,
@@ -99279,11 +99299,11 @@ overrides = {
           ],
           [
             44,
-            "Psyblade"
+            "Refresh"
           ],
           [
             48,
-            "Dual Chop"
+            "Dragon Claw"
           ],
           [
             53,
@@ -99446,7 +99466,7 @@ overrides = {
           ],
           [
             33,
-            "Dragon Tail"
+            "Dual Chop"
           ],
           [
             36,
@@ -99458,11 +99478,11 @@ overrides = {
           ],
           [
             44,
-            "Psyblade"
+            "Refresh"
           ],
           [
             48,
-            "Dual Chop"
+            "Dragon Claw"
           ],
           [
             53,
@@ -101535,7 +101555,7 @@ overrides = {
           ],
           [
             11,
-            "Power Trip"
+            "Retaliate"
           ],
           [
             19,
@@ -101555,7 +101575,7 @@ overrides = {
           ],
           [
             30,
-            "Iron Defense"
+            "Thunder Wave"
           ],
           [
             34,
@@ -101571,7 +101591,7 @@ overrides = {
           ],
           [
             44,
-            "Scary Face"
+            "Metal Sound"
           ],
           [
             47,
@@ -101642,7 +101662,7 @@ overrides = {
       },
       "abs": [
         "Defiant",
-        "Hyper Cutter",
+        "Inner Focus",
         "Sturdy"
       ],
       "evos": [
@@ -101691,7 +101711,7 @@ overrides = {
           ],
           [
             11,
-            "Power Trip"
+            "Retaliate"
           ],
           [
             19,
@@ -101711,7 +101731,7 @@ overrides = {
           ],
           [
             30,
-            "Iron Defense"
+            "Thunder Wave"
           ],
           [
             34,
@@ -101727,7 +101747,7 @@ overrides = {
           ],
           [
             44,
-            "Scary Face"
+            "Metal Sound"
           ],
           [
             47,
@@ -108344,7 +108364,7 @@ overrides = {
           ],
           [
             32,
-            "Aqua Tail"
+            "Waterfall"
           ],
           [
             35,
@@ -108631,7 +108651,7 @@ overrides = {
       "abs": [
         "Sheer Force",
         "Solid Rock",
-        "Inner Focus"
+        " -"
       ]
     },
     "Meloetta-Pirouette": {
@@ -113675,7 +113695,7 @@ overrides = {
       "num": 345,
       "e_id": 288,
       "willCrit": true,
-      "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
+      "desc": "The user strikes the target with a fierce blow. This attack damages the user and always results in a critical hit.",
       "oldDesc": null,
       "new": true,
       "recoil": [
@@ -116159,7 +116179,7 @@ overrides = {
       "num": 527,
       "e_id": 6,
       "tar": "allAdjacentFoes",
-      "desc": "The user shrouds itself in electricity and smashes into all foes. It may paralyze targets.",
+      "desc": "The user shrouds itself in electricity and smashes into all foes. Damages the user and may paralyze targets.",
       "oldDesc": "The user shrouds itself in electricity and smashes into its target. It also damages the user a little.",
       "recoil": [
         25,
