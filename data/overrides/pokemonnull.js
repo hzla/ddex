@@ -71,12 +71,20 @@ var overrides = {
             "Discharge"
           ],
           [
+            45,
+            "Alluring Voice"
+          ],
+          [
             50,
-            "Wild Charge"
+            "Surf"
           ],
           [
             53,
             "Thunderbolt"
+          ],
+          [
+            55,
+            "Wild Charge"
           ],
           [
             58,
@@ -107,6 +115,7 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -123,7 +132,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -137,7 +147,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -242,7 +253,7 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Charm"
+            "Tail Whip"
           ],
           [
             1,
@@ -250,15 +261,63 @@ var overrides = {
           ],
           [
             5,
-            "Tail Whip"
+            "Growl"
+          ],
+          [
+            7,
+            "Play Nice"
           ],
           [
             10,
-            "Sweet Kiss"
+            "Quick Attack"
+          ],
+          [
+            13,
+            "Electro Ball"
           ],
           [
             18,
             "Thunder Wave"
+          ],
+          [
+            21,
+            "Fake Out"
+          ],
+          [
+            26,
+            "Spark"
+          ],
+          [
+            34,
+            "Nuzzle"
+          ],
+          [
+            38,
+            "Discharge"
+          ],
+          [
+            45,
+            "Alluring Voice"
+          ],
+          [
+            50,
+            "Surf"
+          ],
+          [
+            53,
+            "Thunderbolt"
+          ],
+          [
+            55,
+            "Wild Charge"
+          ],
+          [
+            58,
+            "Thunder"
+          ],
+          [
+            65,
+            "Zippy Zap"
           ]
         ],
         "tms": [
@@ -280,6 +339,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -294,7 +354,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -306,7 +367,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -899,6 +961,10 @@ var overrides = {
             "Body Slam"
           ],
           [
+            33,
+            "Rock Smash"
+          ],
+          [
             37,
             "Muddy Water"
           ],
@@ -951,8 +1017,16 @@ var overrides = {
             "Spikes"
           ],
           [
+            85,
+            "Recover"
+          ],
+          [
             90,
             "Memento"
+          ],
+          [
+            95,
+            "Water Sport"
           ]
         ],
         "tms": [
@@ -1135,6 +1209,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Body Press",
           "Brick Break",
@@ -1146,6 +1221,7 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Shadow Claw",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
@@ -1175,7 +1251,9 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press",
@@ -1204,7 +1282,9 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -1326,10 +1406,12 @@ var overrides = {
           "Solar Beam"
         ],
         "tutors": [
+          "Air Slash",
           "Bug Bite",
           "Hurricane",
           "Infestation",
-          "Laser Focus"
+          "Laser Focus",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -1342,6 +1424,10 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
             "Laser Focus"
@@ -1351,6 +1437,10 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -1493,7 +1583,7 @@ var overrides = {
           ],
           [
             69,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             72,
@@ -1543,6 +1633,7 @@ var overrides = {
         "tutors": [
           "Bind",
           "Brick Break",
+          "Laser Focus",
           "Rock Slide",
           "Stomping Tantrum"
         ],
@@ -1550,10 +1641,16 @@ var overrides = {
           "Mauville Trap Tutor": [
             "Bind"
           ],
+          "Petalburg Tutor": [
+            "Laser Focus"
+          ],
           "Slateport Tutor": [
             "Brick Break",
             "Rock Slide",
             "Stomping Tantrum"
+          ],
+          "Poke Menu: Petalburg": [
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -1633,6 +1730,7 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Embargo",
           "Helping Hand",
           "Hurricane"
@@ -1645,12 +1743,18 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Helping Hand"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -1900,12 +2004,20 @@ var overrides = {
             "Hyper Voice"
           ],
           [
+            84,
+            "Gravity"
+          ],
+          [
             86,
             "Protect"
           ],
           [
             90,
             "Draco Meteor"
+          ],
+          [
+            90,
+            "Fleur Cannon"
           ],
           [
             90,
@@ -1916,12 +2028,20 @@ var overrides = {
             "Overheat"
           ],
           [
+            90,
+            "Psycho Boost"
+          ],
+          [
             95,
             "Boomburst"
           ],
           [
             99,
             "Explosion"
+          ],
+          [
+            99,
+            "Misty Explosion"
           ],
           [
             100,
@@ -1942,6 +2062,7 @@ var overrides = {
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Misty Explosion",
           "Return",
           "Rock Smash",
           "Rock Tomb",
@@ -1952,13 +2073,27 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
+          "Embargo",
+          "Helping Hand",
           "Laser Focus",
+          "Magic Room",
           "Rock Slide",
-          "Shadow Claw"
+          "Shadow Claw",
+          "Signal Beam",
+          "Telekinesis",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Laser Focus"
+            "After You",
+            "Embargo",
+            "Helping Hand",
+            "Laser Focus",
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Rock Slide"
@@ -1966,14 +2101,28 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "After You",
+            "Embargo",
+            "Helping Hand",
+            "Laser Focus",
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
           ],
           "Poke Menu: Petalburg 2": [
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -2069,8 +2218,12 @@ var overrides = {
             "Acrobatics"
           ],
           [
-            43,
+            41,
             "Earth Power"
+          ],
+          [
+            45,
+            "U-turn"
           ],
           [
             47,
@@ -2093,8 +2246,16 @@ var overrides = {
             "Rapid Spin"
           ],
           [
+            72,
+            "Endure"
+          ],
+          [
             75,
             "Explosion"
+          ],
+          [
+            75,
+            "Misty Explosion"
           ],
           [
             77,
@@ -2105,12 +2266,28 @@ var overrides = {
             "Stealth Rock"
           ],
           [
+            83,
+            "Sky Drop"
+          ],
+          [
             85,
             "U-turn"
           ],
           [
             90,
             "Accelerock"
+          ],
+          [
+            95,
+            "Rock Climb"
+          ],
+          [
+            99,
+            "Protect"
+          ],
+          [
+            100,
+            "Meteor Beam"
           ]
         ],
         "tms": [
@@ -2128,24 +2305,34 @@ var overrides = {
           "Stone Edge"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
           "Magic Room",
           "Rock Slide",
           "Telekinesis"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Magic Room",
             "Telekinesis"
           ],
           "Slateport Tutor": [
             "Rock Slide"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Magic Room",
             "Telekinesis"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -2221,6 +2408,10 @@ var overrides = {
           ],
           [
             1,
+            "Moonblast"
+          ],
+          [
+            1,
             "Psybeam"
           ],
           [
@@ -2256,8 +2447,16 @@ var overrides = {
             "Eerie Impulse"
           ],
           [
+            50,
+            "Zap Cannon"
+          ],
+          [
             55,
             "Dazzling Gleam"
+          ],
+          [
+            60,
+            "Lock-On"
           ],
           [
             65,
@@ -2323,6 +2522,7 @@ var overrides = {
           "Embargo",
           "Helping Hand",
           "Magic Room",
+          "Signal Beam",
           "Wonder Room"
         ],
         "tutorsBySource": {
@@ -2336,6 +2536,9 @@ var overrides = {
           "Slateport Tutor": [
             "Brick Break"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
@@ -2345,6 +2548,9 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -2441,7 +2647,7 @@ var overrides = {
           ],
           [
             47,
-            "Entrainment"
+            "Skill Swap"
           ],
           [
             53,
@@ -2450,6 +2656,10 @@ var overrides = {
           [
             56,
             "Alluring Voice"
+          ],
+          [
+            59,
+            "Lovely Kiss"
           ],
           [
             62,
@@ -2476,6 +2686,10 @@ var overrides = {
             "Ally Switch"
           ],
           [
+            90,
+            "Gravity"
+          ],
+          [
             94,
             "Draining Kiss"
           ],
@@ -2486,14 +2700,17 @@ var overrides = {
         ],
         "tms": [
           "Dazzling Gleam",
+          "Defog",
           "Draining Kiss",
           "Endure",
           "Energy Ball",
           "Facade",
+          "Hidden Power",
           "Magical Leaf",
           "Misty Explosion",
           "Play Rough",
           "Psychic",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
@@ -2501,6 +2718,7 @@ var overrides = {
           "Helping Hand",
           "Magic Room",
           "Mystical Fire",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -2512,6 +2730,9 @@ var overrides = {
             "Telekinesis",
             "Wonder Room"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Mystical Fire"
           ],
@@ -2521,6 +2742,9 @@ var overrides = {
             "Magic Room",
             "Telekinesis",
             "Wonder Room"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -2970,6 +3194,10 @@ var overrides = {
             "Sludge Bomb"
           ],
           [
+            60,
+            "Ingrain"
+          ],
+          [
             65,
             "Energy Ball"
           ],
@@ -2980,6 +3208,10 @@ var overrides = {
           [
             72,
             "Synthesis"
+          ],
+          [
+            77,
+            "Grassy Glide"
           ],
           [
             80,
@@ -2994,8 +3226,16 @@ var overrides = {
             "Earth Power"
           ],
           [
+            95,
+            "Sludge Wave"
+          ],
+          [
             99,
             "Leech Seed"
+          ],
+          [
+            100,
+            "Scary Face"
           ]
         ],
         "tms": [
@@ -3505,16 +3745,28 @@ var overrides = {
             "Air Slash"
           ],
           [
+            50,
+            "Will-O-Wisp"
+          ],
+          [
             55,
             "Tailwind"
           ],
           [
-            63,
+            60,
+            "Sky Uppercut"
+          ],
+          [
+            64,
             "Fire Blast"
           ],
           [
             68,
             "Fly"
+          ],
+          [
+            71,
+            "Heat Wave"
           ],
           [
             74,
@@ -3537,8 +3789,16 @@ var overrides = {
             "Defog"
           ],
           [
+            93,
+            "Sky Drop"
+          ],
+          [
             96,
             "Overheat"
+          ],
+          [
+            100,
+            "Fling"
           ]
         ],
         "tms": [
@@ -3564,6 +3824,7 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
@@ -3599,6 +3860,7 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Starter": [
@@ -3625,6 +3887,7 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -4088,6 +4351,10 @@ var overrides = {
           ],
           [
             40,
+            "Roar"
+          ],
+          [
+            40,
             "Water Pulse"
           ],
           [
@@ -4095,12 +4362,32 @@ var overrides = {
             "Surf"
           ],
           [
+            52,
+            "Yawn"
+          ],
+          [
             55,
             "Rapid Spin"
           ],
           [
-            67,
+            59,
+            "Mirror Coat"
+          ],
+          [
+            61,
+            "Body Press"
+          ],
+          [
+            66,
+            "Soak"
+          ],
+          [
+            68,
             "Ice Beam"
+          ],
+          [
+            70,
+            "Weather Ball"
           ],
           [
             73,
@@ -4123,6 +4410,14 @@ var overrides = {
             "Water Spout"
           ],
           [
+            87,
+            "Fake Out"
+          ],
+          [
+            89,
+            "Mud Sport"
+          ],
+          [
             92,
             "Aura Sphere"
           ],
@@ -4131,12 +4426,17 @@ var overrides = {
             "Haze"
           ],
           [
-            100,
+            99,
             "Origin Pulse"
+          ],
+          [
+            100,
+            "Scary Face"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Dark Pulse",
           "Dive",
           "Earthquake",
@@ -4164,6 +4464,7 @@ var overrides = {
           "Ice Punch",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Weather Ball",
           "Whirlpool"
         ],
@@ -4185,7 +4486,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -4207,7 +4509,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -4449,8 +4752,16 @@ var overrides = {
             "Skill Swap"
           ],
           [
+            85,
+            "Aeroblast"
+          ],
+          [
             90,
             "Powder"
+          ],
+          [
+            95,
+            "Silk Trap"
           ]
         ],
         "tms": [
@@ -4471,10 +4782,12 @@ var overrides = {
           "Solar Beam"
         ],
         "tutors": [
+          "Air Slash",
           "Bug Bite",
           "Hurricane",
           "Infestation",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -4487,7 +4800,9 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
@@ -4499,7 +4814,9 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -4705,6 +5022,10 @@ var overrides = {
           [
             65,
             "Twineedle"
+          ],
+          [
+            67,
+            "Round"
           ],
           [
             72,
@@ -5012,15 +5333,23 @@ var overrides = {
           "Endure",
           "Facade",
           "Fly",
+          "Focus Blast",
           "Hidden Power",
           "Return"
         ],
         "tutors": [
+          "After You",
           "Natural Gift"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "After You"
+          ],
           "Route 120 Tutor": [
             "Natural Gift"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You"
           ],
           "Poke Menu: Route 120": [
             "Natural Gift"
@@ -5132,6 +5461,10 @@ var overrides = {
             "Tailwind"
           ],
           [
+            53,
+            "Round"
+          ],
+          [
             56,
             "Mirror Move"
           ],
@@ -5146,6 +5479,14 @@ var overrides = {
           [
             71,
             "Brave Bird"
+          ],
+          [
+            74,
+            "Weather Ball"
+          ],
+          [
+            77,
+            "Terrain Pulse"
           ],
           [
             82,
@@ -5169,6 +5510,7 @@ var overrides = {
           "Defog",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Fly",
           "Focus Blast",
           "Hidden Power",
@@ -5522,12 +5864,24 @@ var overrides = {
             "Poison Tail"
           ],
           [
+            25,
+            "Clear Smog"
+          ],
+          [
             28,
             "Acid Spray"
           ],
           [
             34,
             "Poison Jab"
+          ],
+          [
+            36,
+            "Gastro Acid"
+          ],
+          [
+            38,
+            "Giga Drain"
           ],
           [
             38,
@@ -5542,8 +5896,16 @@ var overrides = {
             "Dark Pulse"
           ],
           [
+            45,
+            "Foul Play"
+          ],
+          [
             46,
-            "Gastro Acid"
+            "Disable"
+          ],
+          [
+            51,
+            "Haze"
           ],
           [
             53,
@@ -5551,15 +5913,27 @@ var overrides = {
           ],
           [
             57,
-            "Haze"
+            "Baneful Bunker"
           ],
           [
             64,
             "Earthquake"
           ],
           [
-            70,
-            "Gunk Shot"
+            68,
+            "Throat Chop"
+          ],
+          [
+            71,
+            "Glare"
+          ],
+          [
+            73,
+            "Aqua Tail"
+          ],
+          [
+            77,
+            "Toxic"
           ],
           [
             80,
@@ -5699,6 +6073,10 @@ var overrides = {
             "Poison Tail"
           ],
           [
+            25,
+            "Clear Smog"
+          ],
+          [
             28,
             "Acid Spray"
           ],
@@ -5707,8 +6085,20 @@ var overrides = {
             "Poison Jab"
           ],
           [
+            36,
+            "Gastro Acid"
+          ],
+          [
+            38,
+            "Giga Drain"
+          ],
+          [
             38,
             "Seed Bomb"
+          ],
+          [
+            39,
+            "Fissure"
           ],
           [
             41,
@@ -5719,8 +6109,16 @@ var overrides = {
             "Dark Pulse"
           ],
           [
+            45,
+            "Foul Play"
+          ],
+          [
             46,
-            "Gastro Acid"
+            "Disable"
+          ],
+          [
+            51,
+            "Haze"
           ],
           [
             53,
@@ -5728,18 +6126,30 @@ var overrides = {
           ],
           [
             57,
-            "Haze"
+            "Baneful Bunker"
+          ],
+          [
+            60,
+            "Poison Jab"
           ],
           [
             64,
             "Earthquake"
           ],
           [
-            70,
+            68,
             "Throat Chop"
           ],
           [
-            75,
+            71,
+            "Glare"
+          ],
+          [
+            73,
+            "Aqua Tail"
+          ],
+          [
+            77,
             "Toxic"
           ],
           [
@@ -5752,11 +6162,15 @@ var overrides = {
           ],
           [
             90,
+            "Toxic Spikes"
+          ],
+          [
+            95,
             "Gunk Shot"
           ],
           [
             99,
-            "Toxic Spikes"
+            "Coil"
           ]
         ],
         "tms": [
@@ -5911,8 +6325,16 @@ var overrides = {
             "Knock Off"
           ],
           [
+            67,
+            "Yawn"
+          ],
+          [
             74,
             "Volt Tackle"
+          ],
+          [
+            77,
+            "Fake Out"
           ],
           [
             82,
@@ -5923,8 +6345,20 @@ var overrides = {
             "Follow Me"
           ],
           [
+            90,
+            "Magnet Rise"
+          ],
+          [
             95,
             "Spotlight"
+          ],
+          [
+            99,
+            "Bestow"
+          ],
+          [
+            100,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -5953,6 +6387,7 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -5969,7 +6404,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -5983,7 +6419,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -6080,7 +6517,7 @@ var overrides = {
           ],
           [
             70,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             75,
@@ -6268,7 +6705,7 @@ var overrides = {
           ],
           [
             72,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             77,
@@ -6279,12 +6716,16 @@ var overrides = {
             "Knock Off"
           ],
           [
-            89,
+            85,
             "Precipice Blades"
           ],
           [
-            95,
+            92,
             "Toxic"
+          ],
+          [
+            100,
+            "Spikes"
           ]
         ],
         "tms": [
@@ -6467,7 +6908,6 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Shadow Claw",
@@ -6488,7 +6928,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Petalburg 2": [
@@ -6637,7 +7076,6 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Shadow Claw",
@@ -6662,7 +7100,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -6732,6 +7169,10 @@ var overrides = {
             "Sucker Punch"
           ],
           [
+            1,
+            "Torment"
+          ],
+          [
             7,
             "Toxic"
           ],
@@ -6796,8 +7237,16 @@ var overrides = {
             "Earth Power"
           ],
           [
+            64,
+            "Sludge Bomb"
+          ],
+          [
             68,
             "Sludge Wave"
+          ],
+          [
+            72,
+            "Roar"
           ],
           [
             75,
@@ -6858,7 +7307,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
@@ -6902,7 +7350,6 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -7052,7 +7499,6 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Shadow Claw",
@@ -7073,7 +7519,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Petalburg 2": [
@@ -7221,7 +7666,6 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Shadow Claw",
@@ -7246,7 +7690,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -7316,6 +7759,10 @@ var overrides = {
             "Sucker Punch"
           ],
           [
+            1,
+            "Torment"
+          ],
+          [
             7,
             "Toxic"
           ],
@@ -7380,8 +7827,16 @@ var overrides = {
             "Earth Power"
           ],
           [
+            64,
+            "Sludge Bomb"
+          ],
+          [
             68,
             "Sludge Wave"
+          ],
+          [
+            72,
+            "Roar"
           ],
           [
             75,
@@ -7441,7 +7896,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
@@ -7485,7 +7939,6 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -7671,6 +8124,7 @@ var overrides = {
           "Ice Punch",
           "Mystical Fire",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -7695,7 +8149,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -7718,7 +8173,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -7830,11 +8286,19 @@ var overrides = {
           ],
           [
             52,
-            "Meteor Mash"
+            "Whirlwind"
+          ],
+          [
+            55,
+            "Alluring Voice"
           ],
           [
             58,
             "Knock Off"
+          ],
+          [
+            60,
+            "Counter"
           ],
           [
             64,
@@ -7846,11 +8310,15 @@ var overrides = {
           ],
           [
             77,
-            "Air Slash"
+            "Snatch"
           ],
           [
             82,
             "Follow Me"
+          ],
+          [
+            84,
+            "Bestow"
           ],
           [
             86,
@@ -7861,8 +8329,16 @@ var overrides = {
             "Moonlight"
           ],
           [
+            92,
+            "Lovely Kiss"
+          ],
+          [
             95,
             "Draining Kiss"
+          ],
+          [
+            97,
+            "Aeroblast"
           ],
           [
             99,
@@ -7875,6 +8351,7 @@ var overrides = {
         ],
         "tms": [
           "Dazzling Gleam",
+          "Defog",
           "Disarming Voice",
           "Draining Kiss",
           "Dual Wingbeat",
@@ -7903,6 +8380,7 @@ var overrides = {
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Blizzard",
           "Brick Break",
           "Fire Blast",
@@ -7913,6 +8391,7 @@ var overrides = {
           "Magic Room",
           "Mystical Fire",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -7939,7 +8418,9 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -7964,7 +8445,9 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -8139,7 +8622,7 @@ var overrides = {
         "Fairy"
       ],
       "abs": [
-        "Friend Guard",
+        "Competitive",
         "Competitive",
         "Cute Charm"
       ],
@@ -8157,7 +8640,144 @@ var overrides = {
         "sd": 25
       },
       "learnset_info": {
-        "learnset": [],
+        "learnset": [
+          [
+            1,
+            "Sing"
+          ],
+          [
+            5,
+            "Double Slap"
+          ],
+          [
+            9,
+            "Encore"
+          ],
+          [
+            12,
+            "Tri Attack"
+          ],
+          [
+            15,
+            "Draining Kiss"
+          ],
+          [
+            18,
+            "Copycat"
+          ],
+          [
+            21,
+            "Icy Wind"
+          ],
+          [
+            24,
+            "Hyper Voice"
+          ],
+          [
+            27,
+            "Thunderbolt"
+          ],
+          [
+            30,
+            "Perish Song"
+          ],
+          [
+            33,
+            "Energy Ball"
+          ],
+          [
+            36,
+            "Dazzling Gleam"
+          ],
+          [
+            39,
+            "Protect"
+          ],
+          [
+            42,
+            "Play Rough"
+          ],
+          [
+            45,
+            "Wish"
+          ],
+          [
+            47,
+            "Alluring Voice"
+          ],
+          [
+            50,
+            "Flamethrower"
+          ],
+          [
+            52,
+            "Skill Swap"
+          ],
+          [
+            54,
+            "Protect"
+          ],
+          [
+            57,
+            "Teleport"
+          ],
+          [
+            59,
+            "Moonblast"
+          ],
+          [
+            62,
+            "Aura Sphere"
+          ],
+          [
+            65,
+            "Teleport"
+          ],
+          [
+            68,
+            "Ice Beam"
+          ],
+          [
+            72,
+            "Grass Knot"
+          ],
+          [
+            74,
+            "Thunder"
+          ],
+          [
+            77,
+            "Magic Coat"
+          ],
+          [
+            79,
+            "Stealth Rock"
+          ],
+          [
+            82,
+            "Knock Off"
+          ],
+          [
+            84,
+            "Ally Switch"
+          ],
+          [
+            86,
+            "Stealth Rock"
+          ],
+          [
+            88,
+            "Fleur Cannon"
+          ],
+          [
+            91,
+            "Grass Knot"
+          ],
+          [
+            95,
+            "Light of Ruin"
+          ]
+        ],
         "tms": [
           "Chilling Water",
           "Dark Pulse",
@@ -8263,7 +8883,7 @@ var overrides = {
         "Fairy"
       ],
       "abs": [
-        "Friend Guard",
+        "Competitive",
         "Competitive",
         "Cute Charm"
       ],
@@ -8281,7 +8901,144 @@ var overrides = {
         "sa": 85
       },
       "learnset_info": {
-        "learnset": [],
+        "learnset": [
+          [
+            1,
+            "Sing"
+          ],
+          [
+            5,
+            "Double Slap"
+          ],
+          [
+            9,
+            "Encore"
+          ],
+          [
+            12,
+            "Tri Attack"
+          ],
+          [
+            15,
+            "Draining Kiss"
+          ],
+          [
+            18,
+            "Copycat"
+          ],
+          [
+            21,
+            "Icy Wind"
+          ],
+          [
+            24,
+            "Hyper Voice"
+          ],
+          [
+            27,
+            "Thunderbolt"
+          ],
+          [
+            30,
+            "Perish Song"
+          ],
+          [
+            33,
+            "Energy Ball"
+          ],
+          [
+            36,
+            "Dazzling Gleam"
+          ],
+          [
+            39,
+            "Protect"
+          ],
+          [
+            42,
+            "Play Rough"
+          ],
+          [
+            45,
+            "Wish"
+          ],
+          [
+            47,
+            "Alluring Voice"
+          ],
+          [
+            50,
+            "Flamethrower"
+          ],
+          [
+            52,
+            "Skill Swap"
+          ],
+          [
+            54,
+            "Protect"
+          ],
+          [
+            57,
+            "Teleport"
+          ],
+          [
+            59,
+            "Moonblast"
+          ],
+          [
+            62,
+            "Aura Sphere"
+          ],
+          [
+            65,
+            "Teleport"
+          ],
+          [
+            68,
+            "Ice Beam"
+          ],
+          [
+            72,
+            "Grass Knot"
+          ],
+          [
+            74,
+            "Thunder"
+          ],
+          [
+            77,
+            "Magic Coat"
+          ],
+          [
+            79,
+            "Stealth Rock"
+          ],
+          [
+            82,
+            "Knock Off"
+          ],
+          [
+            84,
+            "Ally Switch"
+          ],
+          [
+            86,
+            "Stealth Rock"
+          ],
+          [
+            88,
+            "Fleur Cannon"
+          ],
+          [
+            91,
+            "Grass Knot"
+          ],
+          [
+            95,
+            "Light of Ruin"
+          ]
+        ],
         "tms": [
           "Chilling Water",
           "Dark Pulse",
@@ -8444,7 +9201,7 @@ var overrides = {
           ],
           [
             32,
-            "Dual Wingbeat"
+            "Air Slash"
           ],
           [
             35,
@@ -8464,7 +9221,7 @@ var overrides = {
           ],
           [
             43,
-            "Air Slash"
+            "Dual Wingbeat"
           ],
           [
             45,
@@ -8545,6 +9302,7 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Aqua Cutter",
           "Natural Gift"
         ],
@@ -8553,12 +9311,14 @@ var overrides = {
             "Aqua Cutter"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg 2": [
             "Aqua Cutter"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -8698,13 +9458,16 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Natural Gift"
         ],
         "tutorsBySource": {
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -8782,35 +9545,35 @@ var overrides = {
             "Mega Drain"
           ],
           [
-            23,
+            24,
             "Lucky Chant"
           ],
           [
-            27,
+            29,
             "Moonlight"
           ],
           [
-            30,
+            34,
             "Giga Drain"
           ],
           [
-            35,
+            39,
             "Toxic"
           ],
           [
-            39,
+            44,
             "Natural Gift"
           ],
           [
-            43,
-            "Moonblast"
+            49,
+            "Petal Blizzard"
           ],
           [
-            47,
+            54,
             "Energy Ball"
           ],
           [
-            51,
+            59,
             "Petal Dance"
           ]
         ],
@@ -8823,6 +9586,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Return",
           "Sludge Bomb",
           "Solar Beam"
@@ -8966,6 +9730,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Return",
           "Sludge Bomb",
           "Solar Beam"
@@ -9117,7 +9882,7 @@ var overrides = {
           ],
           [
             70,
-            "Aromatherapy"
+            "Tickle"
           ],
           [
             75,
@@ -9134,6 +9899,10 @@ var overrides = {
           [
             90,
             "Sludge Wave"
+          ],
+          [
+            95,
+            "Healing Wish"
           ]
         ],
         "tms": [
@@ -9145,6 +9914,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Return",
           "Sludge Bomb",
           "Solar Beam"
@@ -9384,7 +10154,8 @@ var overrides = {
         "tutors": [
           "Bug Bite",
           "Infestation",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -9394,7 +10165,8 @@ var overrides = {
             "Bug Bite"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
@@ -9403,7 +10175,8 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -9463,9 +10236,11 @@ var overrides = {
           "Solar Beam"
         ],
         "tutors": [
+          "Air Slash",
           "Bug Bite",
           "Infestation",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -9475,7 +10250,9 @@ var overrides = {
             "Bug Bite"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
@@ -9484,7 +10261,9 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -9691,11 +10470,11 @@ var overrides = {
           ],
           [
             1,
-            "Growl"
+            "Scratch"
           ],
           [
             1,
-            "Scratch"
+            "Sweet Scent"
           ],
           [
             6,
@@ -9735,7 +10514,7 @@ var overrides = {
           ],
           [
             41,
-            "Assurance"
+            "Torment"
           ],
           [
             46,
@@ -9851,15 +10630,7 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Acrobatics"
-          ],
-          [
-            1,
             "Entrainment"
-          ],
-          [
-            1,
-            "Growl"
           ],
           [
             1,
@@ -9868,6 +10639,10 @@ var overrides = {
           [
             1,
             "Spite"
+          ],
+          [
+            1,
+            "Sweet Scent"
           ],
           [
             1,
@@ -9910,8 +10685,16 @@ var overrides = {
             "Endeavor"
           ],
           [
-            41,
-            "Assurance"
+            40,
+            "Torment"
+          ],
+          [
+            42,
+            "Acrobatics"
+          ],
+          [
+            44,
+            "Return"
           ],
           [
             46,
@@ -9923,11 +10706,19 @@ var overrides = {
           ],
           [
             50,
-            "Return"
+            "Tail Slap"
+          ],
+          [
+            55,
+            "Roar"
           ],
           [
             59,
             "Power Gem"
+          ],
+          [
+            63,
+            "Triple Kick"
           ],
           [
             65,
@@ -9942,8 +10733,16 @@ var overrides = {
             "Dig"
           ],
           [
+            76,
+            "Grassy Glide"
+          ],
+          [
             80,
             "Double-Edge"
+          ],
+          [
+            85,
+            "Spotlight"
           ],
           [
             90,
@@ -9962,6 +10761,7 @@ var overrides = {
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Foul Play",
           "Hidden Power",
@@ -9981,12 +10781,14 @@ var overrides = {
           "Natural Gift",
           "Seed Bomb",
           "Shadow Claw",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Petalburg High-Crit Tutor": [
             "Aqua Cutter",
@@ -10001,7 +10803,8 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Petalburg 2": [
             "Aqua Cutter",
@@ -10073,6 +10876,7 @@ var overrides = {
           "Ice Punch",
           "Natural Gift",
           "Shadow Claw",
+          "Signal Beam",
           "Telekinesis",
           "Whirlpool",
           "Wonder Room"
@@ -10098,7 +10902,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -10120,7 +10925,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -10196,6 +11002,7 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Shadow Claw",
+          "Signal Beam",
           "Telekinesis",
           "Whirlpool",
           "Wonder Room"
@@ -10222,7 +11029,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -10245,7 +11053,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -10471,6 +11280,10 @@ var overrides = {
           ],
           [
             1,
+            "Knock Off"
+          ],
+          [
+            1,
             "Low Kick"
           ],
           [
@@ -10512,6 +11325,10 @@ var overrides = {
           [
             38,
             "Body Slam"
+          ],
+          [
+            39,
+            "Sky Uppercut"
           ],
           [
             41,
@@ -10897,6 +11714,10 @@ var overrides = {
             "Wild Charge"
           ],
           [
+            68,
+            "Extreme Speed"
+          ],
+          [
             70,
             "Morning Sun"
           ],
@@ -10911,6 +11732,10 @@ var overrides = {
           [
             82,
             "Knock Off"
+          ],
+          [
+            84,
+            "Scary Face"
           ],
           [
             86,
@@ -10949,7 +11774,8 @@ var overrides = {
           "Fire Spin",
           "Helping Hand",
           "Laser Focus",
-          "Natural Gift"
+          "Natural Gift",
+          "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -10958,6 +11784,9 @@ var overrides = {
           "Petalburg Tutor": [
             "Helping Hand",
             "Laser Focus"
+          ],
+          "Slateport Tutor": [
+            "Stomping Tantrum"
           ],
           "Route 119 Tutor": [
             "Fire Blast"
@@ -10968,6 +11797,9 @@ var overrides = {
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Laser Focus"
+          ],
+          "Poke Menu: Slateport": [
+            "Stomping Tantrum"
           ],
           "Poke Menu: Mauville": [
             "Fire Spin"
@@ -11324,7 +12156,7 @@ var overrides = {
           ],
           [
             41,
-            "Mind Reader"
+            "Mach Punch"
           ],
           [
             53,
@@ -11335,12 +12167,16 @@ var overrides = {
             "Hypnosis"
           ],
           [
+            59,
+            "Soak"
+          ],
+          [
             60,
             "Waterfall"
           ],
           [
             64,
-            "Low Kick"
+            "Close Combat"
           ],
           [
             70,
@@ -11355,16 +12191,29 @@ var overrides = {
             "Knock Off"
           ],
           [
+            82,
+            "Fling"
+          ],
+          [
             85,
-            "Close Combat"
+            "Low Kick"
           ],
           [
             90,
             "Upper Hand"
+          ],
+          [
+            95,
+            "Counter"
+          ],
+          [
+            99,
+            "Surging Strikes"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Dive",
           "Earth Power",
           "Earthquake",
@@ -11497,6 +12346,7 @@ var overrides = {
           "Ice Punch",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -11514,7 +12364,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
@@ -11528,7 +12379,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -11689,6 +12541,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -11709,7 +12562,8 @@ var overrides = {
             "Psycho Cut"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
@@ -11726,7 +12580,8 @@ var overrides = {
             "Psycho Cut"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -11772,6 +12627,10 @@ var overrides = {
           [
             1,
             "Aura Sphere"
+          ],
+          [
+            1,
+            "Snatch"
           ],
           [
             1,
@@ -11842,8 +12701,16 @@ var overrides = {
             "Knock Off"
           ],
           [
+            67,
+            "Round"
+          ],
+          [
             71,
             "Taunt"
+          ],
+          [
+            74,
+            "Role Play"
           ],
           [
             77,
@@ -11854,7 +12721,15 @@ var overrides = {
             "Future Sight"
           ],
           [
-            85,
+            82,
+            "Torment"
+          ],
+          [
+            84,
+            "Fling"
+          ],
+          [
+            86,
             "Foul Play"
           ],
           [
@@ -11868,6 +12743,10 @@ var overrides = {
           [
             99,
             "Psychic"
+          ],
+          [
+            100,
+            "Psystrike"
           ]
         ],
         "tms": [
@@ -11897,6 +12776,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -11918,7 +12798,8 @@ var overrides = {
             "Psycho Cut"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
@@ -11936,7 +12817,8 @@ var overrides = {
             "Psycho Cut"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -11988,7 +12870,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
@@ -12013,7 +12894,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -12091,7 +12971,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
@@ -12118,7 +12997,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -12199,7 +13077,6 @@ var overrides = {
           "Cross Poison",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
@@ -12229,7 +13106,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -12700,7 +13576,11 @@ var overrides = {
             "Gastro Acid"
           ],
           [
-            60,
+            59,
+            "Syrup Bomb"
+          ],
+          [
+            61,
             "Knock Off"
           ],
           [
@@ -12728,6 +13608,14 @@ var overrides = {
             "Nature Power"
           ],
           [
+            73,
+            "Grassy Glide"
+          ],
+          [
+            75,
+            "Sleep Powder"
+          ],
+          [
             77,
             "Weather Ball"
           ],
@@ -12746,6 +13634,10 @@ var overrides = {
           [
             90,
             "Seed Flare"
+          ],
+          [
+            95,
+            "Sleep Powder"
           ]
         ],
         "tms": [
@@ -12756,7 +13648,9 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Poison Jab",
+          "Pounce",
           "Return",
           "Sludge Bomb",
           "Solar Beam"
@@ -13059,6 +13953,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            56,
+            "Tickle"
+          ],
+          [
             60,
             "Scald"
           ],
@@ -13067,20 +13965,28 @@ var overrides = {
             "Rapid Spin"
           ],
           [
-            70,
+            69,
             "Ice Beam"
           ],
           [
-            72,
+            71,
             "Surf"
           ],
           [
-            74,
+            73,
             "Weather Ball"
+          ],
+          [
+            75,
+            "Reflect Type"
           ],
           [
             77,
             "Giga Drain"
+          ],
+          [
+            79,
+            "Mirror Coat"
           ],
           [
             81,
@@ -13093,6 +13999,18 @@ var overrides = {
           [
             90,
             "Sludge Wave"
+          ],
+          [
+            95,
+            "Haze"
+          ],
+          [
+            99,
+            "Bouncy Bubble"
+          ],
+          [
+            100,
+            "Octolock"
           ]
         ],
         "tms": [
@@ -13105,6 +14023,7 @@ var overrides = {
           "Ice Beam",
           "Icy Wind",
           "Poison Jab",
+          "Pounce",
           "Return",
           "Sludge Bomb",
           "Surf",
@@ -13118,13 +14037,17 @@ var overrides = {
           "Hydro Pump",
           "Infestation",
           "Natural Gift",
-          "Whirlpool"
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Bind",
             "Infestation",
             "Whirlpool"
+          ],
+          "Petalburg Tutor": [
+            "Wonder Room"
           ],
           "Petalburg High-Crit Tutor": [
             "Aqua Cutter",
@@ -13136,6 +14059,9 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Bind",
@@ -13165,7 +14091,7 @@ var overrides = {
       ],
       "abs": [
         "Rock Head",
-        "Sturdy",
+        "Rock Head",
         "Sand Veil"
       ],
       "items": [
@@ -13317,7 +14243,7 @@ var overrides = {
       ],
       "abs": [
         "Rock Head",
-        "Sturdy",
+        "Rock Head",
         "Sand Veil"
       ],
       "items": [
@@ -13552,7 +14478,7 @@ var overrides = {
           ],
           [
             53,
-            "Double-Edge"
+            "Flare Blitz"
           ],
           [
             56,
@@ -13597,6 +14523,10 @@ var overrides = {
           [
             95,
             "Roar"
+          ],
+          [
+            100,
+            "Counter"
           ]
         ],
         "tms": [
@@ -13608,6 +14538,7 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Focus Blast",
+          "Hard Press",
           "Hidden Power",
           "Return",
           "Rock Smash",
@@ -13881,7 +14812,7 @@ var overrides = {
           ],
           [
             54,
-            "Yawn"
+            "Hypnosis"
           ],
           [
             58,
@@ -13935,6 +14866,7 @@ var overrides = {
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Weather Ball",
           "Whirlpool",
@@ -13957,7 +14889,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
@@ -13975,7 +14908,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -13984,12 +14918,12 @@ var overrides = {
         "Slowking"
       ],
       "evoMethods": [
-        "level",
-        "useItem"
+        "levelExtra",
+        "levelExtra"
       ],
       "evoParams": [
-        37,
-        "Water Stone"
+        "Level 37 (Silcoon branch)",
+        "Level 37 (Cascoon branch)"
       ]
     },
     "Slowbro": {
@@ -14057,7 +14991,15 @@ var overrides = {
           ],
           [
             36,
-            "Life Dew"
+            "Slack Off"
+          ],
+          [
+            39,
+            "Screech"
+          ],
+          [
+            42,
+            "Psybeam"
           ],
           [
             45,
@@ -14065,7 +15007,11 @@ var overrides = {
           ],
           [
             49,
-            "Psybeam"
+            "Psyshock"
+          ],
+          [
+            52,
+            "Scald"
           ],
           [
             54,
@@ -14073,31 +15019,51 @@ var overrides = {
           ],
           [
             58,
-            "Heal Pulse"
-          ],
-          [
-            65,
-            "Scald"
-          ],
-          [
-            70,
             "Psychic"
           ],
           [
-            75,
+            65,
+            "Surf"
+          ],
+          [
+            69,
+            "Future Sight"
+          ],
+          [
+            72,
+            "Surf"
+          ],
+          [
+            73,
             "Slack Off"
           ],
           [
+            75,
+            "Weather Ball"
+          ],
+          [
+            77,
+            "Grass Knot"
+          ],
+          [
             80,
-            "Future Sight"
+            "Ice Beam"
           ],
           [
             85,
             "Body Press"
           ],
           [
+            90,
+            "Slack Off"
+          ],
+          [
             93,
             "Thunder Wave"
+          ],
+          [
+            99,
+            "Ally Switch"
           ]
         ],
         "tms": [
@@ -14138,6 +15104,7 @@ var overrides = {
           "Hydro Pump",
           "Ice Punch",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Weather Ball",
           "Whirlpool",
@@ -14164,7 +15131,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -14189,7 +15157,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -14318,6 +15287,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -14328,7 +15298,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -14337,7 +15308,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -14478,26 +15450,32 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Natural Gift",
-          "Thunder"
+          "Signal Beam",
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -14553,7 +15531,7 @@ var overrides = {
           "Solar Blade"
         ],
         "tutors": [
-          "Focus Energy",
+          "Air Slash",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift"
@@ -14564,14 +15542,15 @@ var overrides = {
             "Laser Focus"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -14812,6 +15791,7 @@ var overrides = {
           "Blizzard",
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -14825,7 +15805,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -14837,7 +15818,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -14966,6 +15948,10 @@ var overrides = {
             "Surf"
           ],
           [
+            61,
+            "Entrainment"
+          ],
+          [
             65,
             "Rest"
           ],
@@ -14995,6 +15981,7 @@ var overrides = {
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Dive",
           "Endure",
           "Facade",
@@ -15012,6 +15999,7 @@ var overrides = {
           "Blizzard",
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -15028,7 +16016,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -15043,7 +16032,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -15537,6 +16527,10 @@ var overrides = {
             "Explosion"
           ],
           [
+            72,
+            "Pin Missile"
+          ],
+          [
             75,
             "Icicle Spear"
           ],
@@ -15555,6 +16549,10 @@ var overrides = {
           [
             82,
             "Rapid Spin"
+          ],
+          [
+            85,
+            "Torment"
           ],
           [
             88,
@@ -15594,6 +16592,7 @@ var overrides = {
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Weather Ball",
           "Whirlpool"
         ],
@@ -15613,7 +16612,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -15630,7 +16630,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -15680,7 +16681,7 @@ var overrides = {
           ],
           [
             12,
-            "Curse"
+            "Hex"
           ],
           [
             15,
@@ -15717,6 +16718,10 @@ var overrides = {
           [
             58,
             "Shadow Ball"
+          ],
+          [
+            61,
+            "Curse"
           ],
           [
             65,
@@ -15865,7 +16870,7 @@ var overrides = {
           ],
           [
             12,
-            "Curse"
+            "Hex"
           ],
           [
             15,
@@ -15902,6 +16907,10 @@ var overrides = {
           [
             58,
             "Shadow Ball"
+          ],
+          [
+            61,
+            "Curse"
           ],
           [
             65,
@@ -16054,6 +17063,10 @@ var overrides = {
           ],
           [
             1,
+            "Fling"
+          ],
+          [
+            1,
             "Hypnosis"
           ],
           [
@@ -16065,6 +17078,10 @@ var overrides = {
             "Psychic"
           ],
           [
+            1,
+            "Snatch"
+          ],
+          [
             5,
             "Spite"
           ],
@@ -16074,7 +17091,7 @@ var overrides = {
           ],
           [
             12,
-            "Curse"
+            "Hex"
           ],
           [
             15,
@@ -16113,6 +17130,10 @@ var overrides = {
             "Shadow Ball"
           ],
           [
+            61,
+            "Curse"
+          ],
+          [
             65,
             "Energy Ball"
           ],
@@ -16121,16 +17142,36 @@ var overrides = {
             "Toxic"
           ],
           [
+            79,
+            "Perish Song"
+          ],
+          [
             81,
             "Imprison"
+          ],
+          [
+            83,
+            "Reflect Type"
           ],
           [
             86,
             "Sludge Wave"
           ],
           [
+            90,
+            "Psychic Noise"
+          ],
+          [
             92,
             "Focus Blast"
+          ],
+          [
+            95,
+            "Torment"
+          ],
+          [
+            99,
+            "Power Split"
           ],
           [
             100,
@@ -16441,6 +17482,7 @@ var overrides = {
           "Ice Punch",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch"
         ],
@@ -16457,7 +17499,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -16471,7 +17514,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -16541,6 +17585,7 @@ var overrides = {
           "Ice Punch",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch"
         ],
@@ -16557,7 +17602,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -16574,7 +17620,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -16866,6 +17913,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            84,
+            "Fling"
+          ],
+          [
             86,
             "Ally Switch"
           ],
@@ -16883,6 +17934,7 @@ var overrides = {
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Cut",
           "Dive",
           "Endure",
@@ -17060,6 +18112,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -17070,7 +18123,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -17079,7 +18133,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -17124,15 +18179,15 @@ var overrides = {
         "learnset": [
           [
             1,
+            "Protect"
+          ],
+          [
+            1,
             "Recycle"
           ],
           [
             1,
             "Tackle"
-          ],
-          [
-            1,
-            "Torment"
           ],
           [
             3,
@@ -17196,11 +18251,19 @@ var overrides = {
           ],
           [
             75,
-            "Thunder Cage"
+            "Electro Drift"
+          ],
+          [
+            77,
+            "Reflect Type"
           ],
           [
             80,
             "Explosion"
+          ],
+          [
+            82,
+            "Torment"
           ],
           [
             85,
@@ -17209,6 +18272,14 @@ var overrides = {
           [
             90,
             "Zap Cannon"
+          ],
+          [
+            95,
+            "Thunderclap"
+          ],
+          [
+            100,
+            "Electro Shot"
           ]
         ],
         "tms": [
@@ -17226,30 +18297,42 @@ var overrides = {
         ],
         "tutors": [
           "Helping Hand",
+          "Laser Focus",
+          "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
-            "Telekinesis"
+            "Laser Focus",
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
-            "Telekinesis"
+            "Laser Focus",
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -17509,6 +18592,10 @@ var overrides = {
             "Psychic"
           ],
           [
+            61,
+            "Gravity"
+          ],
+          [
             64,
             "Low Kick"
           ],
@@ -17521,8 +18608,16 @@ var overrides = {
             "Wood Hammer"
           ],
           [
+            73,
+            "Grassy Glide"
+          ],
+          [
             76,
             "Future Sight"
+          ],
+          [
+            79,
+            "Psychic Noise"
           ],
           [
             82,
@@ -17531,6 +18626,10 @@ var overrides = {
           [
             86,
             "Explosion"
+          ],
+          [
+            90,
+            "Giga Drain"
           ],
           [
             99,
@@ -17739,7 +18838,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Natural Gift",
           "Rock Slide",
           "Stomping Tantrum",
@@ -17759,9 +18857,6 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -17904,11 +18999,15 @@ var overrides = {
           ],
           [
             70,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             76,
             "Knock Off"
+          ],
+          [
+            79,
+            "Iron Tail"
           ],
           [
             81,
@@ -17921,6 +19020,14 @@ var overrides = {
           [
             90,
             "Perish Song"
+          ],
+          [
+            95,
+            "Counter"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -17948,7 +19055,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Laser Focus",
           "Natural Gift",
           "Rock Slide",
@@ -17974,7 +19080,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
@@ -18105,12 +19210,20 @@ var overrides = {
             "Knock Off"
           ],
           [
+            84,
+            "Fling"
+          ],
+          [
             86,
             "Role Play"
           ],
           [
             90,
             "Feint"
+          ],
+          [
+            95,
+            "Coaching"
           ]
         ],
         "tms": [
@@ -18131,17 +19244,18 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
           "Rock Slide",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -18152,9 +19266,9 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -18278,12 +19392,20 @@ var overrides = {
             "Knock Off"
           ],
           [
+            84,
+            "Fling"
+          ],
+          [
             86,
             "Role Play"
           ],
           [
             90,
             "Feint"
+          ],
+          [
+            95,
+            "Coaching"
           ]
         ],
         "tms": [
@@ -18304,18 +19426,19 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Laser Focus",
           "Natural Gift",
           "Rock Slide",
-          "Thunder Punch"
+          "Thunder Punch",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -18328,9 +19451,9 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -18728,11 +19851,15 @@ var overrides = {
           ],
           [
             46,
-            "Belch"
+            "Acid Spray"
           ],
           [
             49,
             "Pain Split"
+          ],
+          [
+            54,
+            "Acid Spray"
           ],
           [
             58,
@@ -18753,6 +19880,10 @@ var overrides = {
           [
             82,
             "Corrosive Gas"
+          ],
+          [
+            86,
+            "Ally Switch"
           ],
           [
             90,
@@ -18783,25 +19914,35 @@ var overrides = {
           "Fire Blast",
           "Infestation",
           "Natural Gift",
-          "Thunder"
+          "Thunder",
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Infestation"
           ],
+          "Petalburg Tutor": [
+            "Wonder Room"
+          ],
           "Route 119 Tutor": [
             "Fire Blast",
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
           ],
           "Route 120 Tutor": [
             "Natural Gift"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
           ],
           "Poke Menu: Route 119": [
             "Fire Blast",
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
           ],
           "Poke Menu: Route 120": [
             "Natural Gift"
@@ -18890,7 +20031,7 @@ var overrides = {
           ],
           [
             55,
-            "Rock Slide"
+            "Metal Sound"
           ],
           [
             60,
@@ -19061,7 +20202,7 @@ var overrides = {
           ],
           [
             55,
-            "Rock Slide"
+            "Metal Sound"
           ],
           [
             60,
@@ -19427,9 +20568,9 @@ var overrides = {
         "Grass"
       ],
       "abs": [
-        "Chlorophyll",
+        "Regenerator",
         "",
-        "Regenerator"
+        "Leaf Guard"
       ],
       "items": [
         null,
@@ -19503,6 +20644,10 @@ var overrides = {
             "Tickle"
           ],
           [
+            49,
+            "Energy Ball"
+          ],
+          [
             55,
             "Power Whip"
           ],
@@ -19523,6 +20668,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Return",
           "Rock Smash",
           "Shock Wave",
@@ -19533,16 +20679,23 @@ var overrides = {
           "Bind",
           "Infestation",
           "Natural Gift",
-          "Seed Bomb"
+          "Seed Bomb",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Bind",
             "Infestation"
           ],
+          "Petalburg Tutor": [
+            "Wonder Room"
+          ],
           "Route 120 Tutor": [
             "Natural Gift",
             "Seed Bomb"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Bind",
@@ -19670,8 +20823,16 @@ var overrides = {
             "Sucker Punch"
           ],
           [
+            67,
+            "Counter"
+          ],
+          [
             70,
             "Body Slam"
+          ],
+          [
+            73,
+            "Grassy Glide"
           ],
           [
             75,
@@ -19696,11 +20857,20 @@ var overrides = {
           [
             95,
             "Spite"
+          ],
+          [
+            99,
+            "Lucky Chant"
+          ],
+          [
+            100,
+            "Last Resort"
           ]
         ],
         "tms": [
           "Aerial Ace",
           "Bulldoze",
+          "Chilling Water",
           "Cut",
           "Earthquake",
           "Endure",
@@ -19728,7 +20898,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Ice Punch",
@@ -19766,7 +20935,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -19883,9 +21051,9 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
-          "Focus Energy",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -19897,10 +21065,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -19910,7 +21076,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -20017,10 +21184,10 @@ var overrides = {
         "tutors": [
           "Aqua Cutter",
           "Blizzard",
-          "Focus Energy",
           "Hydro Pump",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -20038,10 +21205,10 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Mauville": [
@@ -20055,7 +21222,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -20114,6 +21282,7 @@ var overrides = {
           "Blizzard",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -20125,7 +21294,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -20135,7 +21305,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -20194,6 +21365,7 @@ var overrides = {
           "Blizzard",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -20205,7 +21377,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -20215,7 +21388,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -20371,6 +21545,7 @@ var overrides = {
           "Blizzard",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Whirlpool"
         ],
@@ -20384,7 +21559,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -20395,7 +21571,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -20527,8 +21704,20 @@ var overrides = {
             "Blizzard"
           ],
           [
-            72,
+            71,
             "Nature Power"
+          ],
+          [
+            73,
+            "Reflect Type"
+          ],
+          [
+            75,
+            "Rapid Spin"
+          ],
+          [
+            75,
+            "Recover"
           ],
           [
             77,
@@ -20545,6 +21734,10 @@ var overrides = {
           [
             90,
             "Waterfall"
+          ],
+          [
+            93,
+            "Zen Headbutt"
           ],
           [
             95,
@@ -20581,8 +21774,10 @@ var overrides = {
           "Aqua Cutter",
           "Blizzard",
           "Hydro Pump",
+          "Magic Room",
           "Natural Gift",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Whirlpool",
@@ -20593,6 +21788,7 @@ var overrides = {
             "Whirlpool"
           ],
           "Petalburg Tutor": [
+            "Magic Room",
             "Telekinesis",
             "Wonder Room"
           ],
@@ -20606,9 +21802,11 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
+            "Magic Room",
             "Telekinesis",
             "Wonder Room"
           ],
@@ -20625,7 +21823,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -20754,6 +21953,10 @@ var overrides = {
             "Fake Out"
           ],
           [
+            55,
+            "Magic Powder"
+          ],
+          [
             60,
             "Moonblast"
           ],
@@ -20788,6 +21991,10 @@ var overrides = {
           [
             95,
             "Spotlight"
+          ],
+          [
+            99,
+            "Fling"
           ]
         ],
         "tms": [
@@ -20803,6 +22010,7 @@ var overrides = {
           "Hidden Power",
           "Icy Wind",
           "Magical Leaf",
+          "Misty Explosion",
           "Psychic",
           "Return",
           "Seismic Toss",
@@ -20823,6 +22031,7 @@ var overrides = {
           "Magic Room",
           "Mystical Fire",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -20848,7 +22057,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -20872,7 +22082,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -20946,7 +22157,7 @@ var overrides = {
           ],
           [
             40,
-            "Bug Bite"
+            "Pounce"
           ],
           [
             45,
@@ -20990,10 +22201,10 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Bug Bite",
           "Cross Poison",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
@@ -21013,11 +22224,11 @@ var overrides = {
             "Psycho Cut"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -21029,6 +22240,7 @@ var overrides = {
             "Psycho Cut"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -21100,6 +22312,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -21121,7 +22334,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -21140,7 +22354,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -21241,7 +22456,7 @@ var overrides = {
           ],
           [
             65,
-            "Fire Punch"
+            "Flamethrower"
           ]
         ],
         "tms": [
@@ -21268,6 +22483,7 @@ var overrides = {
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -21285,7 +22501,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -21300,7 +22517,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -21432,7 +22650,6 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Thunder Punch"
@@ -21456,7 +22673,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -21615,6 +22831,10 @@ var overrides = {
             "Giga Impact"
           ],
           [
+            99,
+            "Fling"
+          ],
+          [
             100,
             "Extreme Speed"
           ]
@@ -21624,6 +22844,7 @@ var overrides = {
           "Cut",
           "Earthquake",
           "Endure",
+          "Feint Attack",
           "Focus Blast",
           "Hard Press",
           "Hidden Power",
@@ -21639,7 +22860,6 @@ var overrides = {
           "Bind",
           "Brick Break",
           "Bug Bite",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Rock Slide"
@@ -21661,7 +22881,6 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -21794,6 +23013,10 @@ var overrides = {
           [
             88,
             "Horn Drill"
+          ],
+          [
+            94,
+            "Low Kick"
           ]
         ],
         "tms": [
@@ -21957,7 +23180,7 @@ var overrides = {
           ],
           [
             55,
-            "Body Slam"
+            "Jump Kick"
           ],
           [
             60,
@@ -21972,6 +23195,10 @@ var overrides = {
             "Close Combat"
           ],
           [
+            70,
+            "Triple Kick"
+          ],
+          [
             77,
             "Wild Charge"
           ],
@@ -21982,6 +23209,10 @@ var overrides = {
           [
             88,
             "Substitute"
+          ],
+          [
+            94,
+            "Low Kick"
           ]
         ],
         "tms": [
@@ -21990,8 +23221,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball",
@@ -22149,6 +23382,10 @@ var overrides = {
           [
             88,
             "Will-O-Wisp"
+          ],
+          [
+            94,
+            "Low Kick"
           ]
         ],
         "tms": [
@@ -22157,8 +23394,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball",
@@ -22316,6 +23555,10 @@ var overrides = {
           [
             88,
             "Chilling Water"
+          ],
+          [
+            94,
+            "Low Kick"
           ]
         ],
         "tms": [
@@ -22324,8 +23567,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball",
@@ -22467,6 +23712,10 @@ var overrides = {
         "learnset": [
           [
             1,
+            "Dragon Cheer"
+          ],
+          [
+            1,
             "Earthquake"
           ],
           [
@@ -22550,8 +23799,16 @@ var overrides = {
             "Roar"
           ],
           [
+            88,
+            "Screech"
+          ],
+          [
             90,
             "Flamethrower"
+          ],
+          [
+            92,
+            "Scary Face"
           ],
           [
             95,
@@ -22559,7 +23816,7 @@ var overrides = {
           ],
           [
             99,
-            "Outrage"
+            "Dragon Ascent"
           ],
           [
             100,
@@ -22591,7 +23848,6 @@ var overrides = {
         "tutors": [
           "Blizzard",
           "Fire Blast",
-          "Focus Energy",
           "Helping Hand",
           "Hurricane",
           "Hydro Pump",
@@ -22621,7 +23877,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -22670,6 +23925,10 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Dragon Cheer"
+          ],
           [
             1,
             "Growl"
@@ -22783,12 +24042,21 @@ var overrides = {
             "Glaciate"
           ],
           [
+            95,
+            "Lucky Chant"
+          ],
+          [
+            99,
+            "Perish Song"
+          ],
+          [
             100,
             "Charm"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Disarming Voice",
           "Dive",
           "Endure",
@@ -22813,6 +24081,7 @@ var overrides = {
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Weather Ball",
           "Whirlpool"
@@ -22831,7 +24100,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -22849,7 +24119,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -22957,7 +24228,6 @@ var overrides = {
           "Shadow Ball"
         ],
         "tutors": [
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
@@ -22975,7 +24245,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -23135,6 +24404,10 @@ var overrides = {
           [
             95,
             "Trump Card"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -23156,13 +24429,14 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Weather Ball",
-          "Whirlpool"
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -23170,7 +24444,8 @@ var overrides = {
           ],
           "Petalburg Tutor": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Blizzard",
@@ -23178,12 +24453,13 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -23194,7 +24470,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -23235,7 +24512,7 @@ var overrides = {
           ],
           [
             1,
-            "Thunder"
+            "Thunder Cage"
           ],
           [
             1,
@@ -23316,10 +24593,15 @@ var overrides = {
           [
             95,
             "Trump Card"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
           "Disarming Voice",
+          "Electroweb",
           "Endure",
           "Facade",
           "Flash",
@@ -23333,10 +24615,10 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Weather Ball"
         ],
@@ -23350,10 +24632,10 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -23362,7 +24644,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -23484,6 +24767,10 @@ var overrides = {
           [
             95,
             "Trump Card"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -23501,7 +24788,6 @@ var overrides = {
         "tutors": [
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Mystical Fire",
@@ -23527,7 +24813,6 @@ var overrides = {
             "Mystical Fire"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -23588,7 +24873,7 @@ var overrides = {
           ],
           [
             31,
-            "Embargo"
+            "Ally Switch"
           ],
           [
             33,
@@ -23668,6 +24953,7 @@ var overrides = {
         "tutors": [
           "Blizzard",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -23682,7 +24968,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Telekinesis",
@@ -23693,7 +24980,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -23970,6 +25258,10 @@ var overrides = {
             "Power Gem"
           ],
           [
+            67,
+            "Protect"
+          ],
+          [
             70,
             "Knock Off"
           ],
@@ -23995,6 +25287,7 @@ var overrides = {
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Dive",
           "Earth Power",
           "Endure",
@@ -24334,6 +25627,10 @@ var overrides = {
             "Stone Edge"
           ],
           [
+            67,
+            "Aqua Jet"
+          ],
+          [
             70,
             "Knock Off"
           ],
@@ -24360,6 +25657,7 @@ var overrides = {
         ],
         "tms": [
           "Aerial Ace",
+          "Chilling Water",
           "Cut",
           "Dive",
           "Earth Power",
@@ -24493,6 +25791,10 @@ var overrides = {
           ],
           [
             1,
+            "Wide Guard"
+          ],
+          [
+            1,
             "Wing Attack"
           ],
           [
@@ -24532,8 +25834,12 @@ var overrides = {
             "Dual Wingbeat"
           ],
           [
+            67,
+            "Round"
+          ],
+          [
             70,
-            "Rock Slide"
+            "Torment"
           ],
           [
             75,
@@ -24554,6 +25860,10 @@ var overrides = {
           [
             95,
             "Roost"
+          ],
+          [
+            100,
+            "Head Smash"
           ]
         ],
         "tms": [
@@ -24724,18 +26034,24 @@ var overrides = {
             "Double-Edge"
           ],
           [
+            90,
+            "Counter"
+          ],
+          [
             93,
             "Rest"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Disarming Voice",
           "Earthquake",
           "Endure",
           "Facade",
           "Flamethrower",
           "Focus Blast",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Ice Beam",
@@ -24767,14 +26083,16 @@ var overrides = {
           "Stomping Tantrum",
           "Thunder",
           "Thunder Punch",
-          "Whirlpool"
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Whirlpool"
           ],
           "Petalburg Tutor": [
-            "After You"
+            "After You",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -24798,7 +26116,8 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "After You"
+            "After You",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -24918,6 +26237,10 @@ var overrides = {
           [
             95,
             "Sheer Cold"
+          ],
+          [
+            100,
+            "Glaciate"
           ]
         ],
         "tms": [
@@ -24933,11 +26256,13 @@ var overrides = {
           "Rock Smash"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Helping Hand",
           "Hurricane",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -24951,7 +26276,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -24963,7 +26290,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -25062,6 +26391,10 @@ var overrides = {
           [
             95,
             "Zap Cannon"
+          ],
+          [
+            100,
+            "Wildbolt Storm"
           ]
         ],
         "tms": [
@@ -25079,10 +26412,12 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Weather Ball"
         ],
@@ -25097,7 +26432,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -25109,7 +26446,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -25208,6 +26547,10 @@ var overrides = {
           [
             95,
             "Burn Up"
+          ],
+          [
+            100,
+            "Searing Shot"
           ]
         ],
         "tms": [
@@ -25224,6 +26567,7 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Fire Blast",
           "Fire Spin",
           "Helping Hand",
@@ -25247,6 +26591,7 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Starter": [
@@ -25265,6 +26610,7 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -25673,6 +27019,10 @@ var overrides = {
           ],
           [
             99,
+            "Iron Tail"
+          ],
+          [
+            100,
             "Dragon Pulse"
           ]
         ],
@@ -25707,6 +27057,7 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Aqua Cutter",
           "Bind",
           "Blizzard",
@@ -25754,6 +27105,7 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Starter": [
@@ -25786,6 +27138,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -25850,6 +27203,10 @@ var overrides = {
           [
             1,
             "Close Combat"
+          ],
+          [
+            1,
+            "Conversion"
           ],
           [
             1,
@@ -25964,8 +27321,16 @@ var overrides = {
             "Transform"
           ],
           [
+            92,
+            "Acid Spray"
+          ],
+          [
             95,
             "Future Sight"
+          ],
+          [
+            99,
+            "Flame Charge"
           ],
           [
             100,
@@ -26032,6 +27397,7 @@ var overrides = {
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Bind",
           "Blizzard",
           "Body Press",
@@ -26042,7 +27408,6 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Hurricane",
           "Hydro Pump",
@@ -26058,6 +27423,7 @@ var overrides = {
           "Sand Tomb",
           "Seed Bomb",
           "Shadow Claw",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
@@ -26107,8 +27473,10 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press",
@@ -26118,7 +27486,6 @@ var overrides = {
             "After You",
             "Bug Bite",
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus",
             "Magic Room",
@@ -26155,8 +27522,10 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -26518,6 +27887,10 @@ var overrides = {
           ],
           [
             1,
+            "Lucky Chant"
+          ],
+          [
+            1,
             "Spotlight"
           ],
           [
@@ -26597,6 +27970,10 @@ var overrides = {
             "Dazzling Gleam"
           ],
           [
+            79,
+            "Poison Powder"
+          ],
+          [
             82,
             "Healing Wish"
           ],
@@ -26605,8 +27982,16 @@ var overrides = {
             "Moonblast"
           ],
           [
+            88,
+            "Counter"
+          ],
+          [
             90,
             "Draining Kiss"
+          ],
+          [
+            95,
+            "Giga Drain"
           ],
           [
             99,
@@ -26627,6 +28012,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Misty Explosion",
           "Return",
           "Rock Smash",
           "Solar Beam",
@@ -26636,11 +28022,13 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Seed Bomb",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Stomping Tantrum"
@@ -26650,7 +28038,8 @@ var overrides = {
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Stomping Tantrum"
@@ -27042,6 +28431,14 @@ var overrides = {
           [
             90,
             "Fling"
+          ],
+          [
+            93,
+            "Searing Shot"
+          ],
+          [
+            96,
+            "Magma Storm"
           ]
         ],
         "tms": [
@@ -27200,7 +28597,7 @@ var overrides = {
           ],
           [
             31,
-            "Chip Away"
+            "Aqua Cutter"
           ],
           [
             38,
@@ -27378,7 +28775,7 @@ var overrides = {
           ],
           [
             31,
-            "Chip Away"
+            "Aqua Cutter"
           ],
           [
             38,
@@ -27566,7 +28963,7 @@ var overrides = {
           ],
           [
             31,
-            "Chip Away"
+            "Aqua Cutter"
           ],
           [
             38,
@@ -27589,16 +28986,24 @@ var overrides = {
             "Superpower"
           ],
           [
+            54,
+            "Fling"
+          ],
+          [
             57,
-            "Hydro Pump"
+            "Waterfall"
           ],
           [
             63,
             "Outrage"
           ],
           [
+            68,
+            "Counter"
+          ],
+          [
             73,
-            "Waterfall"
+            "Liquidation"
           ],
           [
             77,
@@ -27610,11 +29015,11 @@ var overrides = {
           ],
           [
             85,
-            "Liquidation"
+            "Dragon Hammer"
           ],
           [
             90,
-            "Dragon Hammer"
+            "Soak"
           ],
           [
             95,
@@ -27628,6 +29033,7 @@ var overrides = {
         "tms": [
           "Aerial Ace",
           "Bulldoze",
+          "Chilling Water",
           "Cut",
           "Dive",
           "Dragon Claw",
@@ -27956,6 +29362,7 @@ var overrides = {
           "Shadow Ball"
         ],
         "tutors": [
+          "Air Slash",
           "Hurricane",
           "Natural Gift"
         ],
@@ -27964,12 +29371,14 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -28029,6 +29438,7 @@ var overrides = {
           "Shadow Ball"
         ],
         "tutors": [
+          "Air Slash",
           "Hurricane",
           "Laser Focus",
           "Natural Gift"
@@ -28041,6 +29451,7 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
@@ -28050,6 +29461,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -28267,7 +29679,8 @@ var overrides = {
         "tutors": [
           "Bug Bite",
           "Infestation",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -28277,7 +29690,8 @@ var overrides = {
             "Bug Bite"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
@@ -28286,7 +29700,8 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -28348,6 +29763,7 @@ var overrides = {
           "Bug Bite",
           "Infestation",
           "Natural Gift",
+          "Signal Beam",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
@@ -28361,7 +29777,8 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
@@ -28373,7 +29790,8 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -28561,6 +29979,7 @@ var overrides = {
           "Dual Wingbeat",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Fly",
           "Hidden Power",
           "Return",
@@ -28570,11 +29989,16 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
           "Cross Poison",
           "Hurricane",
           "Natural Gift"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "After You"
+          ],
           "Petalburg High-Crit Tutor": [
             "Cross Poison"
           ],
@@ -28582,7 +30006,11 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You"
           ],
           "Poke Menu: Petalburg 2": [
             "Cross Poison"
@@ -28591,6 +30019,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -28720,6 +30149,7 @@ var overrides = {
           "Blizzard",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Whirlpool"
         ],
@@ -28733,7 +30163,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -28744,7 +30175,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -28889,11 +30321,16 @@ var overrides = {
             "Aqua Ring"
           ],
           [
+            99,
+            "Volt Switch"
+          ],
+          [
             100,
             "Mimic"
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Dazzling Gleam",
           "Dive",
           "Endure",
@@ -28913,6 +30350,7 @@ var overrides = {
           "Blizzard",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Whirlpool"
         ],
@@ -28926,7 +30364,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -28937,7 +30376,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -29086,6 +30526,7 @@ var overrides = {
           "Fire Blast",
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -29100,7 +30541,8 @@ var overrides = {
             "Fire Blast"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
@@ -29112,7 +30554,8 @@ var overrides = {
             "Fire Blast"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -29137,7 +30580,7 @@ var overrides = {
         "Fairy"
       ],
       "abs": [
-        "Friend Guard",
+        "Competitive",
         "Competitive",
         "Cute Charm"
       ],
@@ -29328,6 +30771,7 @@ var overrides = {
           "Helping Hand",
           "Mystical Fire",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -29340,7 +30784,8 @@ var overrides = {
             "Fire Blast"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -29354,7 +30799,8 @@ var overrides = {
             "Fire Blast"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -29515,6 +30961,7 @@ var overrides = {
           "Helping Hand",
           "Mystical Fire",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -29530,7 +30977,8 @@ var overrides = {
             "Fire Blast"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -29547,7 +30995,8 @@ var overrides = {
             "Fire Blast"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -29704,8 +31153,10 @@ var overrides = {
           "Thunder Wave"
         ],
         "tutors": [
+          "Air Slash",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -29714,14 +31165,18 @@ var overrides = {
             "Telekinesis"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Magic Room",
             "Telekinesis"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -29866,12 +31321,28 @@ var overrides = {
             "Future Sight"
           ],
           [
+            77,
+            "Copycat"
+          ],
+          [
+            82,
+            "Simple Beam"
+          ],
+          [
             86,
             "Imprison"
           ],
           [
+            90,
+            "Teleport"
+          ],
+          [
             95,
             "Psycho Boost"
+          ],
+          [
+            99,
+            "Esper Wing"
           ]
         ],
         "tms": [
@@ -29881,6 +31352,7 @@ var overrides = {
           "Dual Wingbeat",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Fly",
           "Foul Play",
@@ -29894,9 +31366,11 @@ var overrides = {
           "Thunder Wave"
         ],
         "tutors": [
+          "Air Slash",
           "Laser Focus",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -29906,7 +31380,9 @@ var overrides = {
             "Telekinesis"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Laser Focus",
@@ -29914,7 +31390,9 @@ var overrides = {
             "Telekinesis"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -30008,10 +31486,6 @@ var overrides = {
           [
             57,
             "Thunderbolt"
-          ],
-          [
-            80,
-            "Volt Switch"
           ]
         ],
         "tms": [
@@ -30030,6 +31504,7 @@ var overrides = {
           "After You",
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -30041,7 +31516,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
@@ -30051,7 +31527,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -30157,10 +31634,6 @@ var overrides = {
           [
             57,
             "Thunderbolt"
-          ],
-          [
-            90,
-            "Volt Switch"
           ]
         ],
         "tms": [
@@ -30186,6 +31659,7 @@ var overrides = {
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -30204,7 +31678,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
@@ -30220,7 +31695,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -30332,24 +31808,64 @@ var overrides = {
             "Light Screen"
           ],
           [
+            52,
+            "Reflect"
+          ],
+          [
+            55,
+            "Thunder Wave"
+          ],
+          [
             57,
             "Thunderbolt"
           ],
           [
+            61,
+            "Gravity"
+          ],
+          [
             65,
+            "Aura Sphere"
+          ],
+          [
+            70,
+            "Volt Switch"
+          ],
+          [
+            73,
             "Focus Blast"
+          ],
+          [
+            75,
+            "Terrain Pulse"
           ],
           [
             76,
             "Thunder"
           ],
           [
+            77,
+            "Rising Voltage"
+          ],
+          [
             82,
             "Knock Off"
           ],
           [
+            86,
+            "Dragon Cheer"
+          ],
+          [
             90,
             "Draco Meteor"
+          ],
+          [
+            95,
+            "Thunder Cage"
+          ],
+          [
+            99,
+            "Roar"
           ],
           [
             100,
@@ -30382,6 +31898,7 @@ var overrides = {
           "Ice Punch",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Stomping Tantrum",
           "Thunder",
           "Thunder Punch"
@@ -30403,7 +31920,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
@@ -30421,7 +31939,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -30539,6 +32058,10 @@ var overrides = {
           [
             90,
             "Lunar Dance"
+          ],
+          [
+            95,
+            "Chloroblast"
           ]
         ],
         "tms": [
@@ -30551,6 +32074,7 @@ var overrides = {
           "Grass Knot",
           "Hidden Power",
           "Magical Leaf",
+          "Misty Explosion",
           "Play Rough",
           "Return",
           "Sludge Bomb",
@@ -30660,10 +32184,6 @@ var overrides = {
             "Bubble Beam"
           ],
           [
-            16,
-            "Helping Hand"
-          ],
-          [
             21,
             "Draining Kiss"
           ],
@@ -30674,6 +32194,10 @@ var overrides = {
           [
             31,
             "Aqua Ring"
+          ],
+          [
+            31,
+            "Safeguard"
           ],
           [
             35,
@@ -30877,10 +32401,6 @@ var overrides = {
             "Bubble Beam"
           ],
           [
-            16,
-            "Helping Hand"
-          ],
-          [
             21,
             "Draining Kiss"
           ],
@@ -30893,6 +32413,10 @@ var overrides = {
             "Aqua Ring"
           ],
           [
+            31,
+            "Safeguard"
+          ],
+          [
             35,
             "Perish Song"
           ],
@@ -30903,6 +32427,10 @@ var overrides = {
           [
             46,
             "Superpower"
+          ],
+          [
+            51,
+            "Copycat"
           ],
           [
             55,
@@ -30931,6 +32459,10 @@ var overrides = {
           [
             85,
             "Aqua Tail"
+          ],
+          [
+            87,
+            "Lucky Chant"
           ],
           [
             90,
@@ -31203,6 +32735,14 @@ var overrides = {
             "Ice Beam"
           ],
           [
+            59,
+            "Soak"
+          ],
+          [
+            61,
+            "Copycat"
+          ],
+          [
             67,
             "Lovely Kiss"
           ],
@@ -31219,16 +32759,29 @@ var overrides = {
             "Knock Off"
           ],
           [
+            82,
+            "Fling"
+          ],
+          [
             85,
             "Swagger"
           ],
           [
             90,
             "Upper Hand"
+          ],
+          [
+            95,
+            "Mirror Coat"
+          ],
+          [
+            99,
+            "Steam Eruption"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Disarming Voice",
           "Dive",
           "Earth Power",
@@ -31949,6 +33502,10 @@ var overrides = {
             "Ancient Power"
           ],
           [
+            38,
+            "Play Nice"
+          ],
+          [
             40,
             "Screech"
           ],
@@ -31978,7 +33535,7 @@ var overrides = {
           ],
           [
             70,
-            "Giga Drain"
+            "U-turn"
           ],
           [
             75,
@@ -32011,20 +33568,23 @@ var overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Bug Bite"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -32305,9 +33865,11 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Sludge Bomb",
@@ -32440,8 +34002,24 @@ var overrides = {
             "Liquidation"
           ],
           [
+            54,
+            "Soak"
+          ],
+          [
+            57,
+            "Eerie Impulse"
+          ],
+          [
             62,
             "Sludge Bomb"
+          ],
+          [
+            66,
+            "Life Dew"
+          ],
+          [
+            69,
+            "Glaciate"
           ],
           [
             74,
@@ -32458,6 +34036,10 @@ var overrides = {
           [
             91,
             "Yawn"
+          ],
+          [
+            95,
+            "Counter"
           ]
         ],
         "tms": [
@@ -32660,6 +34242,10 @@ var overrides = {
           [
             95,
             "Trump Card"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -32681,39 +34267,43 @@ var overrides = {
           "Thunder Wave"
         ],
         "tutors": [
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
-          "Weather Ball"
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
             "Laser Focus",
             "Magic Room",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus",
             "Magic Room",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -32782,7 +34372,7 @@ var overrides = {
           ],
           [
             35,
-            "Body Slam"
+            "Scary Face"
           ],
           [
             40,
@@ -32831,6 +34421,10 @@ var overrides = {
           [
             95,
             "Trump Card"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -32839,6 +34433,7 @@ var overrides = {
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Foul Play",
           "Hidden Power",
@@ -32851,7 +34446,6 @@ var overrides = {
           "Thunder Wave"
         ],
         "tutors": [
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Lash Out",
@@ -32875,7 +34469,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus",
             "Wonder Room"
@@ -32928,6 +34521,10 @@ var overrides = {
             "Peck"
           ],
           [
+            1,
+            "Torment"
+          ],
+          [
             5,
             "Pursuit"
           ],
@@ -32972,6 +34569,10 @@ var overrides = {
             "Dual Wingbeat"
           ],
           [
+            59,
+            "Mirror Move"
+          ],
+          [
             61,
             "Night Slash"
           ],
@@ -32998,6 +34599,10 @@ var overrides = {
           [
             75,
             "Brave Bird"
+          ],
+          [
+            82,
+            "Quash"
           ],
           [
             86,
@@ -33033,27 +34638,39 @@ var overrides = {
           "Thunder Wave"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
           "Embargo",
           "Hurricane",
-          "Natural Gift"
+          "Magic Room",
+          "Natural Gift",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Embargo"
+            "After You",
+            "Embargo",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "After You",
+            "Embargo",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -33099,11 +34716,11 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Flip Turn"
+            "Tackle"
           ],
           [
             1,
-            "Tackle"
+            "Yawn"
           ],
           [
             5,
@@ -33135,7 +34752,7 @@ var overrides = {
           ],
           [
             38,
-            "Slack Off"
+            "Life Dew"
           ],
           [
             41,
@@ -33143,7 +34760,7 @@ var overrides = {
           ],
           [
             43,
-            "Yawn"
+            "Hypnosis"
           ],
           [
             45,
@@ -33154,8 +34771,12 @@ var overrides = {
             "Psychic"
           ],
           [
-            54,
-            "Surf"
+            52,
+            "Slack Off"
+          ],
+          [
+            56,
+            "Scald"
           ],
           [
             60,
@@ -33163,7 +34784,7 @@ var overrides = {
           ],
           [
             68,
-            "Hydro Pump"
+            "Surf"
           ],
           [
             76,
@@ -33178,8 +34799,20 @@ var overrides = {
             "Ice Beam"
           ],
           [
+            90,
+            "Slack Off"
+          ],
+          [
             93,
             "Thunder Wave"
+          ],
+          [
+            95,
+            "Teleport"
+          ],
+          [
+            99,
+            "Ally Switch"
           ]
         ],
         "tms": [
@@ -33222,6 +34855,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Weather Ball",
@@ -33253,7 +34887,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
@@ -33279,7 +34914,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -33622,6 +35258,7 @@ var overrides = {
           "Helping Hand",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
@@ -33641,7 +35278,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -33656,7 +35294,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -33876,6 +35515,10 @@ var overrides = {
             "Body Press"
           ],
           [
+            68,
+            "Pin Missile"
+          ],
+          [
             72,
             "Heavy Slam"
           ],
@@ -33898,6 +35541,10 @@ var overrides = {
           [
             95,
             "Earthquake"
+          ],
+          [
+            99,
+            "Rest"
           ],
           [
             100,
@@ -33931,6 +35578,7 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Seed Bomb",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -33945,7 +35593,8 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -33961,7 +35610,8 @@ var overrides = {
           ],
           "Poke Menu: Route 120": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -34111,6 +35761,7 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "Air Slash",
           "Bind",
           "Blizzard",
           "Fire Blast",
@@ -34137,6 +35788,7 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
@@ -34155,6 +35807,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -34245,7 +35898,7 @@ var overrides = {
           ],
           [
             58,
-            "Stomping Tantrum"
+            "Metal Sound"
           ],
           [
             62,
@@ -34802,6 +36455,10 @@ var overrides = {
             "Taunt"
           ],
           [
+            61,
+            "Torment"
+          ],
+          [
             64,
             "Thunder Wave"
           ],
@@ -34810,8 +36467,16 @@ var overrides = {
             "Earthquake"
           ],
           [
+            72,
+            "Roar"
+          ],
+          [
             75,
             "Trailblaze"
+          ],
+          [
+            77,
+            "Grassy Glide"
           ],
           [
             82,
@@ -34824,6 +36489,10 @@ var overrides = {
           [
             90,
             "Healing Wish"
+          ],
+          [
+            95,
+            "Iron Tail"
           ]
         ],
         "tms": [
@@ -34833,6 +36502,7 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Focus Blast",
           "Hidden Power",
@@ -35006,6 +36676,10 @@ var overrides = {
             "Gunk Shot"
           ],
           [
+            69,
+            "Wave Crash"
+          ],
+          [
             74,
             "Spikes"
           ],
@@ -35051,6 +36725,7 @@ var overrides = {
           "Blizzard",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -35065,7 +36740,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -35078,7 +36754,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -35164,7 +36841,7 @@ var overrides = {
           ],
           [
             40,
-            "Bug Bite"
+            "Pounce"
           ],
           [
             45,
@@ -35221,6 +36898,10 @@ var overrides = {
           [
             95,
             "Iron Head"
+          ],
+          [
+            99,
+            "Pursuit"
           ]
         ],
         "tms": [
@@ -35238,10 +36919,10 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Bug Bite",
           "Cross Poison",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
@@ -35265,11 +36946,11 @@ var overrides = {
             "Psycho Cut"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -35284,6 +36965,7 @@ var overrides = {
             "Psycho Cut"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -35374,7 +37056,7 @@ var overrides = {
           ],
           [
             42,
-            "Bug Bite"
+            "Pounce"
           ],
           [
             45,
@@ -35402,19 +37084,31 @@ var overrides = {
           ],
           [
             70,
-            "Infestation"
+            "Lunge"
           ],
           [
             75,
             "Toxic"
           ],
           [
+            81,
+            "Pounce"
+          ],
+          [
             86,
             "Disable"
           ],
           [
-            97,
+            90,
+            "Power Trick"
+          ],
+          [
+            95,
             "Encore"
+          ],
+          [
+            100,
+            "Stealth Rock"
           ]
         ],
         "tms": [
@@ -35578,6 +37272,10 @@ var overrides = {
             "Low Kick"
           ],
           [
+            64,
+            "Sky Uppercut"
+          ],
+          [
             69,
             "Megahorn"
           ],
@@ -35598,16 +37296,36 @@ var overrides = {
             "Bullet Seed"
           ],
           [
+            79,
+            "Arm Thrust"
+          ],
+          [
+            80,
+            "Rock Blast"
+          ],
+          [
             82,
             "Knock Off"
+          ],
+          [
+            84,
+            "Pin Missile"
           ],
           [
             86,
             "Leech Life"
           ],
           [
+            88,
+            "Bullet Seed"
+          ],
+          [
             91,
             "Feint"
+          ],
+          [
+            91,
+            "Pursuit"
           ],
           [
             95,
@@ -35762,6 +37480,10 @@ var overrides = {
           [
             47,
             "Ice Shard"
+          ],
+          [
+            51,
+            "Assurance"
           ],
           [
             55,
@@ -36018,7 +37740,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
@@ -36046,7 +37767,6 @@ var overrides = {
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -36192,7 +37912,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Laser Focus",
@@ -36224,7 +37943,6 @@ var overrides = {
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -36498,18 +38216,22 @@ var overrides = {
           ],
           [
             43,
-            "Body Slam"
-          ],
-          [
-            47,
             "Recover"
           ],
           [
-            54,
+            47,
             "Flamethrower"
           ],
           [
-            60,
+            51,
+            "Will-O-Wisp"
+          ],
+          [
+            55,
+            "Overheat"
+          ],
+          [
+            62,
             "Power Gem"
           ],
           [
@@ -36519,6 +38241,10 @@ var overrides = {
           [
             70,
             "Magma Storm"
+          ],
+          [
+            74,
+            "Yawn"
           ],
           [
             78,
@@ -37034,8 +38760,16 @@ var overrides = {
             "Flail"
           ],
           [
+            55,
+            "Scald"
+          ],
+          [
             60,
-            "Head Smash"
+            "Power Gem"
+          ],
+          [
+            65,
+            "Liquidation"
           ],
           [
             70,
@@ -37046,12 +38780,21 @@ var overrides = {
             "Recover"
           ],
           [
+            80,
+            "Head Smash"
+          ],
+          [
             85,
             "Rest"
+          ],
+          [
+            90,
+            "Frustration"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Earth Power",
           "Earthquake",
           "Endure",
@@ -37218,11 +38961,11 @@ var overrides = {
         "tutors": [
           "Blizzard",
           "Fire Blast",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
           "Seed Bomb",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -37239,10 +38982,10 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Mauville": [
@@ -37255,7 +38998,8 @@ var overrides = {
           ],
           "Poke Menu: Route 120": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       },
@@ -37399,6 +39143,10 @@ var overrides = {
             "Aqua Jet"
           ],
           [
+            90,
+            "Lock-On"
+          ],
+          [
             100,
             "Steam Eruption"
           ]
@@ -37426,11 +39174,11 @@ var overrides = {
           "Bind",
           "Blizzard",
           "Fire Blast",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
           "Seed Bomb",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -37451,10 +39199,10 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Mauville": [
@@ -37471,7 +39219,8 @@ var overrides = {
           ],
           "Poke Menu: Route 120": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -37519,12 +39268,14 @@ var overrides = {
           "Seismic Toss"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Brick Break",
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
           "Seed Bomb",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -37540,8 +39291,10 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -37555,8 +39308,10 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -37712,6 +39467,7 @@ var overrides = {
         "tms": [
           "Aerial Ace",
           "Bulldoze",
+          "Chilling Water",
           "Defog",
           "Dive",
           "Dual Wingbeat",
@@ -37728,6 +39484,7 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Body Press",
           "Helping Hand",
@@ -37736,14 +39493,17 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Seed Bomb",
-          "Whirlpool"
+          "Signal Beam",
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Whirlpool"
           ],
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Rock Slide"
@@ -37754,14 +39514,17 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
@@ -37775,8 +39538,10 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -37790,8 +39555,8 @@ var overrides = {
       ],
       "abs": [
         "Keen Eye",
-        "Sturdy",
-        "Weak Armor"
+        "Keen Eye",
+        "Sturdy"
       ],
       "items": [
         null,
@@ -37915,6 +39680,10 @@ var overrides = {
           [
             99,
             "Brave Bird"
+          ],
+          [
+            100,
+            "Counter"
           ]
         ],
         "tms": [
@@ -37937,23 +39706,32 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Body Press",
           "Natural Gift",
           "Rock Slide",
-          "Sand Tomb"
+          "Sand Tomb",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Sand Tomb"
           ],
+          "Petalburg Tutor": [
+            "Wonder Room"
+          ],
           "Slateport Tutor": [
             "Rock Slide"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Starter": [
             "Body Press"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
@@ -37962,6 +39740,7 @@ var overrides = {
             "Sand Tomb"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -38268,20 +40047,40 @@ var overrides = {
             "Night Daze"
           ],
           [
-            80,
+            79,
             "Comeuppance"
           ],
           [
-            85,
+            82,
+            "Knock Off"
+          ],
+          [
+            84,
+            "Flamethrower"
+          ],
+          [
+            86,
             "Fiery Wrath"
+          ],
+          [
+            88,
+            "Heat Wave"
           ],
           [
             90,
             "Taunt"
           ],
           [
+            93,
+            "Solar Beam"
+          ],
+          [
             95,
             "Ruination"
+          ],
+          [
+            99,
+            "Flame Charge"
           ]
         ],
         "tms": [
@@ -38289,6 +40088,7 @@ var overrides = {
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Foul Play",
           "Hidden Power",
@@ -38421,6 +40221,10 @@ var overrides = {
             "Dragon Pulse"
           ],
           [
+            47,
+            "Icy Wind"
+          ],
+          [
             52,
             "Ice Beam"
           ],
@@ -38453,11 +40257,20 @@ var overrides = {
             "Yawn"
           ],
           [
+            88,
+            "Eternabeam"
+          ],
+          [
             91,
             "Wave Crash"
+          ],
+          [
+            95,
+            "Hydro Cannon"
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Dive",
           "Endure",
           "Facade",
@@ -38472,11 +40285,11 @@ var overrides = {
         "tutors": [
           "Aqua Cutter",
           "Blizzard",
-          "Focus Energy",
           "Hurricane",
           "Hydro Pump",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -38495,10 +40308,10 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Mauville": [
@@ -38513,7 +40326,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -38741,6 +40555,10 @@ var overrides = {
             "Rapid Spin"
           ],
           [
+            66,
+            "Rock Polish"
+          ],
+          [
             68,
             "Earthquake"
           ],
@@ -38863,7 +40681,7 @@ var overrides = {
           ],
           [
             31,
-            "Embargo"
+            "Ally Switch"
           ],
           [
             33,
@@ -38928,6 +40746,10 @@ var overrides = {
           [
             90,
             "Psychic"
+          ],
+          [
+            95,
+            "Teleport"
           ]
         ],
         "tms": [
@@ -38951,6 +40773,7 @@ var overrides = {
         "tutors": [
           "Blizzard",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -38965,7 +40788,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Telekinesis",
@@ -38976,7 +40800,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -39141,6 +40966,7 @@ var overrides = {
           "Helping Hand",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -39152,7 +40978,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -39162,7 +40989,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -39241,11 +41069,11 @@ var overrides = {
           ],
           [
             1,
-            "Foresight"
+            "Focus Energy"
           ],
           [
             1,
-            "Helping Hand"
+            "Foresight"
           ],
           [
             1,
@@ -39278,7 +41106,6 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
@@ -39297,7 +41124,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -39441,12 +41267,20 @@ var overrides = {
             "Knock Off"
           ],
           [
+            84,
+            "Fling"
+          ],
+          [
             86,
             "Role Play"
           ],
           [
             90,
             "Feint"
+          ],
+          [
+            95,
+            "Coaching"
           ]
         ],
         "tms": [
@@ -39466,16 +41300,17 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
-          "Rock Slide"
+          "Rock Slide",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -39485,9 +41320,9 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -39547,6 +41382,7 @@ var overrides = {
           "Ice Punch",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Wonder Room"
         ],
         "tutorsBySource": {
@@ -39562,7 +41398,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -39576,7 +41413,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -39697,6 +41535,7 @@ var overrides = {
           "Helping Hand",
           "Ice Punch",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -39714,7 +41553,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -39729,7 +41569,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -39846,7 +41687,6 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Thunder Punch"
@@ -39870,7 +41710,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -40146,6 +41985,10 @@ var overrides = {
           [
             95,
             "Hyper Beam"
+          ],
+          [
+            99,
+            "Gravity"
           ]
         ],
         "tms": [
@@ -40189,13 +42032,15 @@ var overrides = {
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
-          "Thunder Punch"
+          "Thunder Punch",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
             "Laser Focus",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -40216,7 +42061,8 @@ var overrides = {
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Laser Focus",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -40351,6 +42197,7 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Weather Ball"
         ],
@@ -40364,7 +42211,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -40375,7 +42223,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -40650,11 +42499,13 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Helping Hand",
           "Hydro Pump",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Weather Ball",
           "Whirlpool"
         ],
@@ -40672,7 +42523,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -40687,7 +42540,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -40792,7 +42647,6 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Rock Slide",
@@ -40815,7 +42669,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -40944,7 +42797,6 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Rock Slide",
@@ -40967,7 +42819,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -41026,6 +42877,10 @@ var overrides = {
           [
             1,
             "Bite"
+          ],
+          [
+            1,
+            "Counter"
           ],
           [
             1,
@@ -41096,8 +42951,12 @@ var overrides = {
             "Payback"
           ],
           [
-            80,
+            79,
             "Stone Edge"
+          ],
+          [
+            82,
+            "Iron Tail"
           ],
           [
             85,
@@ -41114,11 +42973,16 @@ var overrides = {
           [
             99,
             "Accelerock"
+          ],
+          [
+            100,
+            "Pursuit"
           ]
         ],
         "tms": [
           "Aerial Ace",
           "Bulldoze",
+          "Chilling Water",
           "Cut",
           "Dark Pulse",
           "Dragon Claw",
@@ -41129,6 +42993,7 @@ var overrides = {
           "Flamethrower",
           "Focus Blast",
           "Foul Play",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Ice Beam",
@@ -41152,7 +43017,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Ice Punch",
@@ -41199,7 +43063,6 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -41286,12 +43149,14 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Helping Hand",
           "Hurricane",
           "Hydro Pump",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Weather Ball",
@@ -41316,7 +43181,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -41335,7 +43202,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -41393,12 +43262,14 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Fire Blast",
           "Fire Spin",
           "Helping Hand",
           "Laser Focus",
           "Mystical Fire",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Weather Ball"
         ],
@@ -41416,7 +43287,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -41434,7 +43307,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -41591,6 +43466,7 @@ var overrides = {
           "Natural Gift",
           "Psycho Cut",
           "Seed Bomb",
+          "Signal Beam",
           "Telekinesis",
           "Weather Ball",
           "Wonder Room"
@@ -41611,7 +43487,8 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -41628,7 +43505,8 @@ var overrides = {
           ],
           "Poke Menu: Route 120": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -42105,9 +43983,9 @@ var overrides = {
         "Fire"
       ],
       "abs": [
-        "Blaze",
+        "Speed Boost",
         "",
-        "Speed Boost"
+        "Blaze"
       ],
       "items": [
         null,
@@ -42192,7 +44070,6 @@ var overrides = {
         "tutors": [
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Rock Slide",
@@ -42218,7 +44095,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -42259,9 +44135,9 @@ var overrides = {
         "Fighting"
       ],
       "abs": [
-        "Blaze",
+        "Speed Boost",
         "",
-        "Speed Boost"
+        "Blaze"
       ],
       "items": [
         null,
@@ -42350,7 +44226,6 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Rock Slide",
@@ -42380,7 +44255,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -42424,9 +44298,9 @@ var overrides = {
         "Fighting"
       ],
       "abs": [
-        "Blaze",
+        "Speed Boost",
         "",
-        "Speed Boost"
+        "Blaze"
       ],
       "items": [
         null,
@@ -42516,8 +44390,12 @@ var overrides = {
             "Flare Blitz"
           ],
           [
+            82,
+            "Defog"
+          ],
+          [
             84,
-            "Close Combat"
+            "High Jump Kick"
           ],
           [
             90,
@@ -42525,7 +44403,15 @@ var overrides = {
           ],
           [
             95,
-            "High Jump Kick"
+            "Roar"
+          ],
+          [
+            99,
+            "Close Combat"
+          ],
+          [
+            100,
+            "Blast Burn"
           ]
         ],
         "tms": [
@@ -42555,7 +44441,6 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
@@ -42587,7 +44472,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -43081,6 +44965,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            85,
+            "Water Sport"
+          ],
+          [
             89,
             "Headlong Rush"
           ],
@@ -43091,16 +44979,26 @@ var overrides = {
           [
             99,
             "Yawn"
+          ],
+          [
+            100,
+            "Counter"
+          ],
+          [
+            100,
+            "Mirror Coat"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Dive",
           "Earth Power",
           "Earthquake",
           "Endure",
           "Facade",
           "Focus Blast",
+          "Hard Press",
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
@@ -43646,7 +45544,8 @@ var overrides = {
           "Bug Bite",
           "Infestation",
           "Laser Focus",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -43657,7 +45556,8 @@ var overrides = {
             "Laser Focus"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -43667,7 +45567,8 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -43771,7 +45672,8 @@ var overrides = {
           "Bug Bite",
           "Infestation",
           "Laser Focus",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -43782,7 +45684,8 @@ var overrides = {
             "Laser Focus"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -43792,7 +45695,8 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -44306,11 +46210,16 @@ var overrides = {
             "Focus Blast"
           ],
           [
+            92,
+            "Fling"
+          ],
+          [
             95,
             "Synthesis"
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Disarming Voice",
           "Dive",
           "Endure",
@@ -44322,6 +46231,7 @@ var overrides = {
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Magical Leaf",
           "Return",
           "Rock Smash",
           "Seismic Toss",
@@ -44640,6 +46550,10 @@ var overrides = {
             "Fling"
           ],
           [
+            1,
+            "Tailwind"
+          ],
+          [
             10,
             "Mega Drain"
           ],
@@ -44712,6 +46626,10 @@ var overrides = {
             "Solar Blade"
           ],
           [
+            73,
+            "Grassy Glide"
+          ],
+          [
             75,
             "Hurricane"
           ],
@@ -44730,6 +46648,10 @@ var overrides = {
           [
             82,
             "Will-O-Wisp"
+          ],
+          [
+            83,
+            "Leaf Blade"
           ],
           [
             86,
@@ -44761,6 +46683,7 @@ var overrides = {
           "Energy Ball",
           "Explosion",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Focus Blast",
           "Foul Play",
@@ -44768,6 +46691,7 @@ var overrides = {
           "Hidden Power",
           "Icy Wind",
           "Low Kick",
+          "Magical Leaf",
           "Return",
           "Rock Smash",
           "Rock Tomb",
@@ -44778,6 +46702,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Aqua Cutter",
           "Brick Break",
           "Embargo",
@@ -44803,6 +46728,7 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift",
             "Seed Bomb"
           ],
@@ -44821,6 +46747,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift",
             "Seed Bomb"
           ]
@@ -44989,6 +46916,7 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Helping Hand",
           "Hurricane",
@@ -45005,6 +46933,7 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
@@ -45016,6 +46945,7 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -45078,6 +47008,7 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Helping Hand",
           "Hurricane",
@@ -45101,6 +47032,7 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift",
             "Seed Bomb"
           ],
@@ -45117,6 +47049,7 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift",
             "Seed Bomb"
           ]
@@ -45247,6 +47180,7 @@ var overrides = {
           "Ice Punch",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -45264,7 +47198,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -45278,7 +47213,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -45419,6 +47355,7 @@ var overrides = {
           "Ice Punch",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -45436,7 +47373,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -45450,7 +47388,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -45591,7 +47530,15 @@ var overrides = {
             "Future Sight"
           ],
           [
-            85,
+            82,
+            "Psychic Noise"
+          ],
+          [
+            84,
+            "Torment"
+          ],
+          [
+            86,
             "Hyper Voice"
           ],
           [
@@ -45605,6 +47552,10 @@ var overrides = {
           [
             99,
             "Hyper Beam"
+          ],
+          [
+            100,
+            "Gravity"
           ]
         ],
         "tms": [
@@ -45640,6 +47591,7 @@ var overrides = {
           "Magic Room",
           "Mystical Fire",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -45658,7 +47610,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -45676,7 +47629,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -45741,6 +47695,10 @@ var overrides = {
             "Bubble Beam"
           ],
           [
+            23,
+            "Sweet Scent"
+          ],
+          [
             40,
             "Bug Buzz"
           ],
@@ -45771,7 +47729,8 @@ var overrides = {
           "Helping Hand",
           "Hydro Pump",
           "Infestation",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -45786,7 +47745,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -45800,7 +47760,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -45846,11 +47807,11 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Air Slash"
+            "Mud Sport"
           ],
           [
             1,
-            "Mud Sport"
+            "Roost"
           ],
           [
             1,
@@ -45877,6 +47838,10 @@ var overrides = {
             "Bubble Beam"
           ],
           [
+            23,
+            "Sweet Scent"
+          ],
+          [
             26,
             "Gust"
           ],
@@ -45894,7 +47859,7 @@ var overrides = {
           ],
           [
             39,
-            "Acrobatics"
+            "Air Slash"
           ],
           [
             41,
@@ -45910,7 +47875,7 @@ var overrides = {
           ],
           [
             53,
-            "Air Slash"
+            "Aeroblast"
           ],
           [
             55,
@@ -45925,12 +47890,20 @@ var overrides = {
             "Whirlwind"
           ],
           [
+            64,
+            "Tailwind"
+          ],
+          [
             66,
             "Hydro Pump"
           ],
           [
             70,
             "Hurricane"
+          ],
+          [
+            72,
+            "Power Split"
           ],
           [
             75,
@@ -45947,6 +47920,10 @@ var overrides = {
           [
             90,
             "Sticky Web"
+          ],
+          [
+            95,
+            "Soak"
           ]
         ],
         "tms": [
@@ -45970,13 +47947,15 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Bug Bite",
           "Helping Hand",
           "Hurricane",
           "Hydro Pump",
           "Infestation",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -45992,7 +47971,9 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -46007,7 +47988,9 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -46219,6 +48202,10 @@ var overrides = {
             "Endure"
           ],
           [
+            83,
+            "Fling"
+          ],
+          [
             85,
             "Trailblaze"
           ],
@@ -46229,6 +48216,10 @@ var overrides = {
           [
             95,
             "Leaf Blade"
+          ],
+          [
+            99,
+            "Arm Thrust"
           ]
         ],
         "tms": [
@@ -46855,6 +48846,10 @@ var overrides = {
             "Aqua Cutter"
           ],
           [
+            59,
+            "Round"
+          ],
+          [
             60,
             "Tailwind"
           ],
@@ -46906,6 +48901,7 @@ var overrides = {
           "Dual Wingbeat",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Hidden Power",
           "Return",
@@ -46914,6 +48910,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Bug Bite",
           "Laser Focus",
           "Natural Gift"
@@ -46924,6 +48921,7 @@ var overrides = {
             "Laser Focus"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
@@ -46931,6 +48929,7 @@ var overrides = {
             "Laser Focus"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -46963,6 +48962,10 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Ally Switch"
+          ],
           [
             1,
             "Harden"
@@ -47020,6 +49023,10 @@ var overrides = {
             "Poltergeist"
           ],
           [
+            90,
+            "Shadow Force"
+          ],
+          [
             95,
             "Protect"
           ],
@@ -47033,6 +49040,7 @@ var overrides = {
           "Cut",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Hidden Power",
           "Return",
@@ -47043,6 +49051,7 @@ var overrides = {
         ],
         "tutors": [
           "Bug Bite",
+          "Laser Focus",
           "Natural Gift",
           "Shadow Claw",
           "Telekinesis"
@@ -47050,6 +49059,7 @@ var overrides = {
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Bug Bite",
+            "Laser Focus",
             "Telekinesis"
           ],
           "Petalburg High-Crit Tutor": [
@@ -47060,6 +49070,7 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
+            "Laser Focus",
             "Telekinesis"
           ],
           "Poke Menu: Petalburg 2": [
@@ -47694,6 +49705,10 @@ var overrides = {
             "Coaching"
           ],
           [
+            80,
+            "Arm Thrust"
+          ],
+          [
             83,
             "Fake Out"
           ],
@@ -47706,6 +49721,10 @@ var overrides = {
             "Feint"
           ],
           [
+            95,
+            "Triple Kick"
+          ],
+          [
             99,
             "Counter"
           ]
@@ -47716,6 +49735,7 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Focus Blast",
           "Heavy Slam",
           "Hidden Power",
@@ -47843,7 +49863,7 @@ var overrides = {
           ],
           [
             16,
-            "Helping Hand"
+            "Safeguard"
           ],
           [
             21,
@@ -47953,6 +49973,10 @@ var overrides = {
           [
             1,
             "Tackle"
+          ],
+          [
+            5,
+            "Rock Smash"
           ],
           [
             7,
@@ -48093,8 +50117,8 @@ var overrides = {
         "Wonder Skin"
       ],
       "items": [
-        null,
-        null,
+        "King's Rock",
+        "King's Rock",
         null
       ],
       "bs": {
@@ -48265,8 +50289,8 @@ var overrides = {
         "Wonder Skin"
       ],
       "items": [
-        null,
-        null,
+        "King's Rock",
+        "King's Rock",
         null
       ],
       "bs": {
@@ -48281,11 +50305,11 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Growl"
+            "Endure"
           ],
           [
             1,
-            "Skill Swap"
+            "Growl"
           ],
           [
             1,
@@ -48344,12 +50368,32 @@ var overrides = {
             "Sucker Punch"
           ],
           [
+            39,
+            "Low Kick"
+          ],
+          [
+            42,
+            "Skill Swap"
+          ],
+          [
             45,
             "Play Rough"
           ],
           [
+            48,
+            "Fling"
+          ],
+          [
+            51,
+            "Instruct"
+          ],
+          [
             53,
             "Frustration"
+          ],
+          [
+            56,
+            "Roar"
           ],
           [
             60,
@@ -48364,8 +50408,16 @@ var overrides = {
             "Fake Tears"
           ],
           [
+            67,
+            "Lucky Chant"
+          ],
+          [
             70,
             "Double-Edge"
+          ],
+          [
+            73,
+            "Grassy Glide"
           ],
           [
             75,
@@ -48382,12 +50434,21 @@ var overrides = {
           [
             90,
             "Thunder Wave"
+          ],
+          [
+            95,
+            "Lovely Kiss"
+          ],
+          [
+            99,
+            "Explosion"
           ]
         ],
         "tms": [
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Grass Knot",
           "Hidden Power",
@@ -48408,12 +50469,14 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Stomping Tantrum",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Stomping Tantrum"
@@ -48427,7 +50490,8 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Stomping Tantrum"
@@ -48578,6 +50642,10 @@ var overrides = {
             "Fake Out"
           ],
           [
+            78,
+            "Metal Burst"
+          ],
+          [
             80,
             "Knock Off"
           ],
@@ -48596,6 +50664,10 @@ var overrides = {
           [
             99,
             "Thunder Wave"
+          ],
+          [
+            100,
+            "Torment"
           ]
         ],
         "tms": [
@@ -48635,6 +50707,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Shadow Claw",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -48658,7 +50731,8 @@ var overrides = {
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
@@ -48678,7 +50752,8 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -48725,6 +50800,10 @@ var overrides = {
           [
             1,
             "Metal Claw"
+          ],
+          [
+            1,
+            "Snatch"
           ],
           [
             1,
@@ -48775,12 +50854,20 @@ var overrides = {
             "Fire Fang"
           ],
           [
+            50,
+            "Counter"
+          ],
+          [
             52,
             "Psychic Fangs"
           ],
           [
             56,
             "Iron Head"
+          ],
+          [
+            59,
+            "Roar"
           ],
           [
             60,
@@ -48791,8 +50878,16 @@ var overrides = {
             "Play Rough"
           ],
           [
+            67,
+            "Lucky Chant"
+          ],
+          [
             70,
             "Sucker Punch"
+          ],
+          [
+            75,
+            "Torment"
           ],
           [
             80,
@@ -48824,6 +50919,7 @@ var overrides = {
           "Draining Kiss",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Focus Blast",
           "Foul Play",
@@ -49329,8 +51425,20 @@ var overrides = {
             "Rock Climb"
           ],
           [
+            87,
+            "Scary Face"
+          ],
+          [
             90,
             "Roar"
+          ],
+          [
+            95,
+            "Metal Burst"
+          ],
+          [
+            99,
+            "Metal Sound"
           ]
         ],
         "tms": [
@@ -49512,6 +51620,10 @@ var overrides = {
             "Power Trick"
           ],
           [
+            59,
+            "Sky Uppercut"
+          ],
+          [
             64,
             "Recover"
           ],
@@ -49556,6 +51668,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -49575,7 +51688,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -49591,7 +51705,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -49649,6 +51764,10 @@ var overrides = {
           ],
           [
             1,
+            "Knock Off"
+          ],
+          [
+            1,
             "Low Kick"
           ],
           [
@@ -49700,6 +51819,10 @@ var overrides = {
             "Power Trick"
           ],
           [
+            59,
+            "Sky Uppercut"
+          ],
+          [
             64,
             "Recover"
           ],
@@ -49710,6 +51833,14 @@ var overrides = {
           [
             72,
             "Jump Kick"
+          ],
+          [
+            74,
+            "Copycat"
+          ],
+          [
+            76,
+            "Grassy Glide"
           ],
           [
             78,
@@ -49766,6 +51897,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -49786,7 +51918,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -49803,7 +51936,8 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -49929,6 +52063,7 @@ var overrides = {
         ],
         "tutors": [
           "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -49936,13 +52071,15 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -50096,28 +52233,34 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "After You",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Laser Focus"
           ],
           "Route 119 Tutor": [
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Laser Focus"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -50165,6 +52308,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -50179,7 +52323,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -50191,7 +52336,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -50238,6 +52384,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -50252,7 +52399,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -50264,7 +52412,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -50318,6 +52467,7 @@ var overrides = {
           "Ice Punch",
           "Infestation",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -50338,7 +52488,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -50356,7 +52507,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -50461,7 +52613,7 @@ var overrides = {
         "Poison"
       ],
       "abs": [
-        "Natural Cure",
+        "Leaf Guard",
         "Leaf Guard",
         "Poison Point"
       ],
@@ -50623,8 +52775,8 @@ var overrides = {
         "Liquid Ooze"
       ],
       "items": [
-        null,
-        null,
+        "Iapapa Berry",
+        "Iapapa Berry",
         null
       ],
       "bs": {
@@ -50900,6 +53052,10 @@ var overrides = {
             "Gunk Shot"
           ],
           [
+            60,
+            "Counter"
+          ],
+          [
             64,
             "Recover"
           ],
@@ -50918,6 +53074,14 @@ var overrides = {
           [
             85,
             "Encore"
+          ],
+          [
+            90,
+            "Lucky Chant"
+          ],
+          [
+            94,
+            "Stuff Cheeks"
           ],
           [
             97,
@@ -51108,7 +53272,6 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
-          "Focus Energy",
           "Hydro Pump",
           "Natural Gift",
           "Whirlpool"
@@ -51123,9 +53286,6 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -51274,6 +53434,10 @@ var overrides = {
           [
             95,
             "Torment"
+          ],
+          [
+            99,
+            "Endure"
           ]
         ],
         "tms": [
@@ -51299,7 +53463,6 @@ var overrides = {
         "tutors": [
           "Aqua Cutter",
           "Blizzard",
-          "Focus Energy",
           "Hydro Pump",
           "Natural Gift",
           "Whirlpool"
@@ -51317,9 +53480,6 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -51770,8 +53930,12 @@ var overrides = {
             "Flamethrower"
           ],
           [
-            56,
+            55,
             "Flash Cannon"
+          ],
+          [
+            59,
+            "Roar"
           ],
           [
             61,
@@ -51894,6 +54058,10 @@ var overrides = {
           ],
           [
             1,
+            "Heat Wave"
+          ],
+          [
+            1,
             "Hydro Steam"
           ],
           [
@@ -51949,8 +54117,12 @@ var overrides = {
             "Flamethrower"
           ],
           [
-            56,
+            55,
             "Flash Cannon"
+          ],
+          [
+            59,
+            "Roar"
           ],
           [
             61,
@@ -51962,15 +54134,19 @@ var overrides = {
           ],
           [
             72,
-            "Explosion"
+            "Eruption"
           ],
           [
             77,
-            "Eruption"
+            "Explosion"
           ],
           [
             82,
             "Magma Storm"
+          ],
+          [
+            86,
+            "Searing Shot"
           ],
           [
             90,
@@ -52082,7 +54258,7 @@ var overrides = {
           ],
           [
             1,
-            "Yawn"
+            "Protect"
           ],
           [
             4,
@@ -52149,12 +54325,24 @@ var overrides = {
             "Heat Wave"
           ],
           [
-            85,
+            82,
+            "Yawn"
+          ],
+          [
+            86,
             "Overheat"
+          ],
+          [
+            88,
+            "Power Split"
           ],
           [
             90,
             "Eruption"
+          ],
+          [
+            95,
+            "Explosion"
           ]
         ],
         "tms": [
@@ -52276,6 +54464,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -52284,14 +54473,16 @@ var overrides = {
             "Telekinesis"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Telekinesis"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -52367,6 +54558,7 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Seed Bomb",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder Punch"
@@ -52386,7 +54578,8 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -52405,7 +54598,8 @@ var overrides = {
           ],
           "Poke Menu: Route 120": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -52509,8 +54703,16 @@ var overrides = {
             "Fake Out"
           ],
           [
+            77,
+            "Fling"
+          ],
+          [
             80,
             "Trick Room"
+          ],
+          [
+            83,
+            "Lucky Chant"
           ],
           [
             86,
@@ -52519,12 +54721,17 @@ var overrides = {
           [
             90,
             "Mimic"
+          ],
+          [
+            95,
+            "Explosion"
           ]
         ],
         "tms": [
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Hidden Power",
           "Icy Wind",
@@ -52647,10 +54854,10 @@ var overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Focus Energy",
           "Natural Gift",
           "Rock Slide",
-          "Sand Tomb"
+          "Sand Tomb",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -52663,11 +54870,11 @@ var overrides = {
             "Rock Slide"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Bug Bite",
-            "Focus Energy"
+            "Bug Bite"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
@@ -52676,7 +54883,8 @@ var overrides = {
             "Sand Tomb"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -52762,7 +54970,7 @@ var overrides = {
           ],
           [
             51,
-            "Stomping Tantrum"
+            "Dig"
           ],
           [
             55,
@@ -52814,11 +55022,12 @@ var overrides = {
           "Strength"
         ],
         "tutors": [
+          "Air Slash",
           "Bug Bite",
-          "Focus Energy",
           "Natural Gift",
           "Rock Slide",
-          "Sand Tomb"
+          "Sand Tomb",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -52831,11 +55040,12 @@ var overrides = {
             "Rock Slide"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Bug Bite",
-            "Focus Energy"
+            "Bug Bite"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
@@ -52844,7 +55054,9 @@ var overrides = {
             "Sand Tomb"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -52902,6 +55114,14 @@ var overrides = {
           ],
           [
             1,
+            "Dragon Cheer"
+          ],
+          [
+            1,
+            "Dragon Hammer"
+          ],
+          [
+            1,
             "Tailwind"
           ],
           [
@@ -52942,7 +55162,7 @@ var overrides = {
           ],
           [
             51,
-            "Stomping Tantrum"
+            "Dig"
           ],
           [
             55,
@@ -52981,12 +55201,20 @@ var overrides = {
             "Outrage"
           ],
           [
-            85,
+            84,
+            "Psychic Noise"
+          ],
+          [
+            86,
             "Feint"
           ],
           [
             90,
             "Headlong Rush"
+          ],
+          [
+            95,
+            "Dragon Hammer"
           ]
         ],
         "tms": [
@@ -52999,6 +55227,7 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Fly",
           "Hidden Power",
@@ -53010,15 +55239,16 @@ var overrides = {
           "Strength"
         ],
         "tutors": [
+          "Air Slash",
           "Bug Bite",
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Laser Focus",
           "Natural Gift",
           "Rock Slide",
           "Sand Tomb",
+          "Signal Beam",
           "Thunder Punch"
         ],
         "tutorsBySource": {
@@ -53039,11 +55269,12 @@ var overrides = {
             "Fire Blast"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
@@ -53059,7 +55290,9 @@ var overrides = {
             "Fire Blast"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -53346,15 +55579,11 @@ var overrides = {
           ],
           [
             55,
-            "Moonblast"
+            "Alluring Voice"
           ],
           [
             62,
             "Dragon Pulse"
-          ],
-          [
-            80,
-            "Hyper Voice"
           ]
         ],
         "tms": [
@@ -53573,6 +55802,10 @@ var overrides = {
           [
             99,
             "Roost"
+          ],
+          [
+            100,
+            "Sky Drop"
           ]
         ],
         "tms": [
@@ -53585,10 +55818,12 @@ var overrides = {
           "Dual Wingbeat",
           "Earthquake",
           "Endure",
+          "Facade",
           "Flamethrower",
           "Fly",
           "Hidden Power",
           "Ice Beam",
+          "Misty Explosion",
           "Play Rough",
           "Return",
           "Rock Smash",
@@ -53596,6 +55831,7 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Fire Blast",
           "Fire Spin",
           "Helping Hand",
@@ -53616,6 +55852,7 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
@@ -53630,6 +55867,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -53891,7 +56129,7 @@ var overrides = {
           ],
           [
             17,
-            "Embargo"
+            "Lunar Dance"
           ],
           [
             21,
@@ -53923,7 +56161,7 @@ var overrides = {
           ],
           [
             60,
-            "Magic Room"
+            "Magic Powder"
           ],
           [
             65,
@@ -53934,7 +56172,11 @@ var overrides = {
             "Moonlight"
           ],
           [
-            75,
+            73,
+            "Gravity"
+          ],
+          [
+            77,
             "Meteor Beam"
           ],
           [
@@ -53942,8 +56184,20 @@ var overrides = {
             "Explosion"
           ],
           [
+            85,
+            "Ally Switch"
+          ],
+          [
             90,
             "Frustration"
+          ],
+          [
+            93,
+            "Lunar Dance"
+          ],
+          [
+            96,
+            "Stealth Rock"
           ]
         ],
         "tms": [
@@ -53974,6 +56228,7 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Sand Tomb",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Weather Ball"
@@ -53998,7 +56253,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
@@ -54019,7 +56275,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -54080,7 +56337,7 @@ var overrides = {
           ],
           [
             17,
-            "Embargo"
+            "Healing Wish"
           ],
           [
             21,
@@ -54112,7 +56369,7 @@ var overrides = {
           ],
           [
             60,
-            "Wonder Room"
+            "Magic Powder"
           ],
           [
             65,
@@ -54123,7 +56380,11 @@ var overrides = {
             "Morning Sun"
           ],
           [
-            75,
+            73,
+            "Gravity"
+          ],
+          [
+            77,
             "Photon Geyser"
           ],
           [
@@ -54131,8 +56392,20 @@ var overrides = {
             "Explosion"
           ],
           [
+            85,
+            "Ally Switch"
+          ],
+          [
             90,
             "Frustration"
+          ],
+          [
+            93,
+            "Healing Wish"
+          ],
+          [
+            96,
+            "Trick Room"
           ]
         ],
         "tms": [
@@ -54164,6 +56437,7 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Sand Tomb",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Weather Ball",
@@ -54190,7 +56464,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
@@ -54212,7 +56487,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -54266,7 +56542,7 @@ var overrides = {
           ],
           [
             13,
-            "Mud Bomb"
+            "Earth Power"
           ],
           [
             17,
@@ -54443,7 +56719,7 @@ var overrides = {
           ],
           [
             13,
-            "Mud Bomb"
+            "Earth Power"
           ],
           [
             17,
@@ -54486,8 +56762,24 @@ var overrides = {
             "Future Sight"
           ],
           [
+            52,
+            "Yawn"
+          ],
+          [
+            55,
+            "Sleep Talk"
+          ],
+          [
+            59,
+            "Soak"
+          ],
+          [
             60,
             "Earthquake"
+          ],
+          [
+            64,
+            "Superpower"
           ],
           [
             68,
@@ -54506,8 +56798,16 @@ var overrides = {
             "Wave Crash"
           ],
           [
+            86,
+            "Follow Me"
+          ],
+          [
             90,
-            "Flip Turn"
+            "Headlong Rush"
+          ],
+          [
+            95,
+            "Spikes"
           ]
         ],
         "tms": [
@@ -54615,16 +56915,8 @@ var overrides = {
             "Bubble"
           ],
           [
-            1,
-            "Mud Sport"
-          ],
-          [
-            1,
-            "Water Sport"
-          ],
-          [
             7,
-            "Vise Grip"
+            "Water Sport"
           ],
           [
             10,
@@ -54794,10 +57086,6 @@ var overrides = {
           ],
           [
             1,
-            "Mud Sport"
-          ],
-          [
-            1,
             "Sleep Talk"
           ],
           [
@@ -54805,12 +57093,8 @@ var overrides = {
             "Trump Card"
           ],
           [
-            1,
-            "Water Sport"
-          ],
-          [
             7,
-            "Vise Grip"
+            "Water Sport"
           ],
           [
             10,
@@ -54861,6 +57145,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            58,
+            "Mud Sport"
+          ],
+          [
             62,
             "Superpower"
           ],
@@ -54903,11 +57191,13 @@ var overrides = {
         ],
         "tms": [
           "Aerial Ace",
+          "Chilling Water",
           "Cut",
           "Dark Pulse",
           "Dive",
           "Endure",
           "Facade",
+          "Hard Press",
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
@@ -55098,6 +57388,7 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Sand Tomb",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -55113,7 +57404,8 @@ var overrides = {
             "Rock Slide"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Telekinesis",
@@ -55126,7 +57418,8 @@ var overrides = {
             "Sand Tomb"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -55293,6 +57586,7 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Sand Tomb",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -55308,7 +57602,8 @@ var overrides = {
             "Rock Slide"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -55324,7 +57619,8 @@ var overrides = {
             "Sand Tomb"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -55366,7 +57662,7 @@ var overrides = {
           ],
           [
             5,
-            "Acid"
+            "Chilling Water"
           ],
           [
             9,
@@ -55544,7 +57840,7 @@ var overrides = {
           ],
           [
             5,
-            "Acid"
+            "Chilling Water"
           ],
           [
             9,
@@ -55595,6 +57891,10 @@ var overrides = {
             "Power Whip"
           ],
           [
+            67,
+            "Chilling Water"
+          ],
+          [
             70,
             "Mirror Coat"
           ],
@@ -55604,15 +57904,15 @@ var overrides = {
           ],
           [
             80,
-            "Toxic"
+            "Recover"
           ],
           [
             85,
-            "Solar Beam"
+            "Whirlpool"
           ],
           [
             90,
-            "Recover"
+            "Toxic"
           ],
           [
             95,
@@ -55621,6 +57921,7 @@ var overrides = {
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Earth Power",
           "Earthquake",
           "Endure",
@@ -55629,6 +57930,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Return",
           "Rock Smash",
           "Rock Tomb",
@@ -55711,7 +58013,7 @@ var overrides = {
           ],
           [
             7,
-            "Aqua Jet"
+            "Accelerock"
           ],
           [
             10,
@@ -55755,7 +58057,7 @@ var overrides = {
           ],
           [
             60,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             70,
@@ -55855,6 +58157,10 @@ var overrides = {
         "learnset": [
           [
             1,
+            "First Impression"
+          ],
+          [
+            1,
             "Rock Throw"
           ],
           [
@@ -55862,16 +58168,12 @@ var overrides = {
             "Scratch"
           ],
           [
-            1,
-            "Superpower"
-          ],
-          [
             5,
             "Rapid Spin"
           ],
           [
             7,
-            "Aqua Jet"
+            "Accelerock"
           ],
           [
             10,
@@ -55895,7 +58197,7 @@ var overrides = {
           ],
           [
             29,
-            "Brine"
+            "Rock Blast"
           ],
           [
             34,
@@ -55911,7 +58213,7 @@ var overrides = {
           ],
           [
             53,
-            "Aqua Tail"
+            "Superpower"
           ],
           [
             57,
@@ -55926,12 +58228,16 @@ var overrides = {
             "Earthquake"
           ],
           [
+            67,
+            "Rapid Spin"
+          ],
+          [
             70,
             "Leech Life"
           ],
           [
             75,
-            "Stone Edge"
+            "Mighty Cleave"
           ],
           [
             80,
@@ -55939,7 +58245,7 @@ var overrides = {
           ],
           [
             85,
-            "Solar Blade"
+            "Roar"
           ],
           [
             90,
@@ -55953,6 +58259,7 @@ var overrides = {
         "tms": [
           "Aerial Ace",
           "Bulldoze",
+          "Chilling Water",
           "Cut",
           "Earth Power",
           "Earthquake",
@@ -56232,12 +58539,17 @@ var overrides = {
             "Haze"
           ],
           [
+            95,
+            "Dragon Cheer"
+          ],
+          [
             100,
             "Origin Pulse"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Dazzling Gleam",
           "Dive",
           "Endure",
@@ -56259,7 +58571,8 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Weather Ball",
-          "Whirlpool"
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -56268,7 +58581,8 @@ var overrides = {
           ],
           "Petalburg Tutor": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Blizzard",
@@ -56280,7 +58594,8 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Bind",
@@ -56461,6 +58776,7 @@ var overrides = {
           "Cut",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Flash",
           "Foul Play",
@@ -56610,7 +58926,7 @@ var overrides = {
           ],
           [
             34,
-            "Embargo"
+            "Role Play"
           ],
           [
             39,
@@ -56789,7 +59105,7 @@ var overrides = {
           ],
           [
             34,
-            "Embargo"
+            "Role Play"
           ],
           [
             39,
@@ -56824,6 +59140,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            74,
+            "Me First"
+          ],
+          [
             77,
             "Encore"
           ],
@@ -56832,12 +59152,32 @@ var overrides = {
             "Destiny Bond"
           ],
           [
-            85,
+            82,
+            "Burning Jealousy"
+          ],
+          [
+            84,
+            "Torment"
+          ],
+          [
+            86,
             "Thunder Wave"
+          ],
+          [
+            88,
+            "Lucky Chant"
           ],
           [
             91,
             "Gunk Shot"
+          ],
+          [
+            95,
+            "Gravity"
+          ],
+          [
+            99,
+            "Shadow Sneak"
           ],
           [
             100,
@@ -56865,6 +59205,7 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "After You",
           "Embargo",
           "Helping Hand",
           "Infestation",
@@ -56879,6 +59220,7 @@ var overrides = {
             "Infestation"
           ],
           "Petalburg Tutor": [
+            "After You",
             "Embargo",
             "Helping Hand",
             "Magic Room",
@@ -56894,6 +59236,7 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Embargo",
             "Helping Hand",
             "Magic Room",
@@ -57303,6 +59646,7 @@ var overrides = {
           "Strength"
         ],
         "tutors": [
+          "Air Slash",
           "Body Press",
           "Helping Hand",
           "Hurricane",
@@ -57321,6 +59665,7 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift",
             "Seed Bomb"
           ],
@@ -57337,6 +59682,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift",
             "Seed Bomb"
           ]
@@ -57473,11 +59819,19 @@ var overrides = {
             "Shadow Ball"
           ],
           [
+            62,
+            "Yawn"
+          ],
+          [
             65,
             "Synchronoise"
           ],
           [
-            70,
+            67,
+            "Lumina Crash"
+          ],
+          [
+            71,
             "Grass Knot"
           ],
           [
@@ -57485,8 +59839,16 @@ var overrides = {
             "Future Sight"
           ],
           [
+            77,
+            "Gravity"
+          ],
+          [
             82,
             "Knock Off"
+          ],
+          [
+            84,
+            "Perish Song"
           ],
           [
             86,
@@ -57499,6 +59861,10 @@ var overrides = {
           [
             95,
             "Stored Power"
+          ],
+          [
+            99,
+            "Steel Beam"
           ],
           [
             100,
@@ -57516,6 +59882,7 @@ var overrides = {
           "Grass Knot",
           "Hidden Power",
           "Icy Wind",
+          "Misty Explosion",
           "Psychic",
           "Return",
           "Shadow Ball",
@@ -57530,6 +59897,7 @@ var overrides = {
           "Laser Focus",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -57545,7 +59913,8 @@ var overrides = {
             "Wonder Room"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -57558,7 +59927,8 @@ var overrides = {
             "Bind"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -57678,6 +60048,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            82,
+            "Iron Tail"
+          ],
+          [
             85,
             "Phantom Force"
           ],
@@ -57690,8 +60064,16 @@ var overrides = {
             "Foul Play"
           ],
           [
+            97,
+            "Sucker Punch"
+          ],
+          [
             99,
             "Focus Energy"
+          ],
+          [
+            100,
+            "Torment"
           ]
         ],
         "tms": [
@@ -57700,6 +60082,7 @@ var overrides = {
           "Dark Pulse",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Flash",
           "Foul Play",
@@ -57721,10 +60104,10 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Aqua Cutter",
           "Blizzard",
           "Fire Blast",
-          "Focus Energy",
           "Laser Focus",
           "Natural Gift",
           "Psycho Cut",
@@ -57750,10 +60133,10 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
@@ -57770,6 +60153,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -58016,20 +60400,32 @@ var overrides = {
             "Freeze-Dry"
           ],
           [
-            50,
+            48,
+            "Aurora Veil"
+          ],
+          [
+            51,
             "Earthquake"
           ],
           [
-            55,
+            54,
+            "Body Slam"
+          ],
+          [
+            58,
             "Trailblaze"
           ],
           [
-            60,
+            61,
             "Return"
           ],
           [
             65,
             "Self-Destruct"
+          ],
+          [
+            67,
+            "Round"
           ],
           [
             70,
@@ -58050,12 +60446,25 @@ var overrides = {
           [
             90,
             "Sheer Cold"
+          ],
+          [
+            95,
+            "Hyper Beam"
+          ],
+          [
+            99,
+            "Extreme Speed"
+          ],
+          [
+            100,
+            "Lucky Chant"
           ]
         ],
         "tms": [
           "Bulldoze",
           "Chilling Water",
           "Dark Pulse",
+          "Defog",
           "Earthquake",
           "Endure",
           "Explosion",
@@ -58074,6 +60483,7 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -58086,7 +60496,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -58097,7 +60508,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -58226,6 +60638,7 @@ var overrides = {
           "Blizzard",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -58239,7 +60652,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
@@ -58251,7 +60665,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -58396,6 +60811,7 @@ var overrides = {
           "Blizzard",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -58409,7 +60825,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
@@ -58421,7 +60838,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -58534,6 +60952,10 @@ var overrides = {
             "Frost Breath"
           ],
           [
+            48,
+            "Water Sport"
+          ],
+          [
             53,
             "Liquidation"
           ],
@@ -58546,8 +60968,16 @@ var overrides = {
             "Freeze-Dry"
           ],
           [
+            65,
+            "Body Press"
+          ],
+          [
             71,
             "Ice Beam"
+          ],
+          [
+            74,
+            "Aqua Ring"
           ],
           [
             79,
@@ -58558,12 +60988,21 @@ var overrides = {
             "Encore"
           ],
           [
+            90,
+            "Rapid Spin"
+          ],
+          [
             95,
             "Sheer Cold"
+          ],
+          [
+            100,
+            "Glaciate"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Dive",
           "Earthquake",
           "Endure",
@@ -58587,6 +61026,7 @@ var overrides = {
           "Hydro Pump",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Whirlpool"
         ],
@@ -58603,7 +61043,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -58620,7 +61061,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -58797,8 +61239,16 @@ var overrides = {
             "Ice Beam"
           ],
           [
+            60,
+            "Sucker Punch"
+          ],
+          [
             65,
             "Hydro Pump"
+          ],
+          [
+            70,
+            "Snatch"
           ],
           [
             75,
@@ -58809,6 +61259,10 @@ var overrides = {
             "Mud Sport"
           ],
           [
+            85,
+            "Confuse Ray"
+          ],
+          [
             90,
             "Frustration"
           ]
@@ -58817,6 +61271,7 @@ var overrides = {
           "Dive",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
@@ -58934,15 +61389,23 @@ var overrides = {
           ],
           [
             50,
-            "Surf"
+            "Sparkling Aria"
           ],
           [
             55,
             "Ice Beam"
           ],
           [
+            60,
+            "Vacuum Wave"
+          ],
+          [
             65,
             "Hydro Pump"
+          ],
+          [
+            70,
+            "Ally Switch"
           ],
           [
             75,
@@ -58951,6 +61414,10 @@ var overrides = {
           [
             80,
             "Mud Sport"
+          ],
+          [
+            85,
+            "Supersonic"
           ],
           [
             90,
@@ -58975,6 +61442,7 @@ var overrides = {
           "Blizzard",
           "Infestation",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -58987,7 +61455,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Mauville": [
             "Bind",
@@ -58998,7 +61467,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -59079,6 +61549,10 @@ var overrides = {
             "Double-Edge"
           ],
           [
+            56,
+            "Earthquake"
+          ],
+          [
             60,
             "Liquidation"
           ],
@@ -59107,12 +61581,17 @@ var overrides = {
             "Scald"
           ],
           [
+            91,
+            "Mud Sport"
+          ],
+          [
             95,
             "Yawn"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Dive",
           "Earth Power",
           "Earthquake",
@@ -59298,6 +61777,10 @@ var overrides = {
           [
             85,
             "Heal Pulse"
+          ],
+          [
+            90,
+            "Frustration"
           ]
         ],
         "tms": [
@@ -59404,6 +61887,14 @@ var overrides = {
           [
             42,
             "Scary Face"
+          ],
+          [
+            45,
+            "Flamethrower"
+          ],
+          [
+            50,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -59412,7 +61903,6 @@ var overrides = {
           "Disarming Voice",
           "Dragon Claw",
           "Endure",
-          "Facade",
           "Flamethrower",
           "Hidden Power",
           "Return",
@@ -59424,7 +61914,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
@@ -59453,7 +61942,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -59549,6 +62037,14 @@ var overrides = {
           [
             42,
             "Scary Face"
+          ],
+          [
+            45,
+            "Flamethrower"
+          ],
+          [
+            50,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -59557,7 +62053,6 @@ var overrides = {
           "Disarming Voice",
           "Dragon Claw",
           "Endure",
-          "Facade",
           "Flamethrower",
           "Hidden Power",
           "Return",
@@ -59569,7 +62064,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
@@ -59598,7 +62092,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -59662,6 +62155,14 @@ var overrides = {
         "learnset": [
           [
             1,
+            "Draco Meteor"
+          ],
+          [
+            1,
+            "Dragon Cheer"
+          ],
+          [
+            1,
             "Fire Fang"
           ],
           [
@@ -59714,7 +62215,7 @@ var overrides = {
           ],
           [
             50,
-            "Fly"
+            "Earthquake"
           ],
           [
             55,
@@ -59722,7 +62223,7 @@ var overrides = {
           ],
           [
             60,
-            "Earthquake"
+            "Fly"
           ],
           [
             65,
@@ -59753,6 +62254,10 @@ var overrides = {
             "Hyper Voice"
           ],
           [
+            99,
+            "Round"
+          ],
+          [
             100,
             "Outrage"
           ]
@@ -59777,11 +62282,11 @@ var overrides = {
           "Strength"
         ],
         "tutors": [
+          "Air Slash",
           "Aqua Cutter",
           "Brick Break",
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Hurricane",
           "Hydro Pump",
@@ -59812,10 +62317,10 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -59836,6 +62341,7 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -60007,6 +62513,7 @@ var overrides = {
           "Natural Gift",
           "Psycho Cut",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch"
         ],
@@ -60024,7 +62531,8 @@ var overrides = {
             "Psycho Cut"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Telekinesis"
@@ -60039,7 +62547,8 @@ var overrides = {
             "Psycho Cut"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -60148,6 +62657,10 @@ var overrides = {
             "Safeguard"
           ],
           [
+            77,
+            "Grass Knot"
+          ],
+          [
             80,
             "Focus Punch"
           ],
@@ -60170,6 +62683,10 @@ var overrides = {
           [
             99,
             "Psychic Fangs"
+          ],
+          [
+            100,
+            "Pursuit"
           ]
         ],
         "tms": [
@@ -60200,6 +62717,7 @@ var overrides = {
           "Natural Gift",
           "Psycho Cut",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder Punch"
@@ -60220,7 +62738,8 @@ var overrides = {
             "Psycho Cut"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -60240,7 +62759,8 @@ var overrides = {
             "Psycho Cut"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -60313,7 +62833,7 @@ var overrides = {
           ],
           [
             65,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             75,
@@ -60322,6 +62842,10 @@ var overrides = {
           [
             80,
             "Gravity"
+          ],
+          [
+            85,
+            "Counter"
           ],
           [
             90,
@@ -60340,6 +62864,7 @@ var overrides = {
           "Explosion",
           "Facade",
           "Focus Blast",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Return",
@@ -60484,6 +63009,10 @@ var overrides = {
             "Gravity"
           ],
           [
+            85,
+            "Mirror Coat"
+          ],
+          [
             90,
             "Glaciate"
           ],
@@ -60518,6 +63047,7 @@ var overrides = {
           "Ice Punch",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Thunder",
           "Thunder Punch"
@@ -60535,7 +63065,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -60549,7 +63080,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -60633,6 +63165,10 @@ var overrides = {
             "Gravity"
           ],
           [
+            85,
+            "Metal Burst"
+          ],
+          [
             90,
             "Iron Head"
           ],
@@ -60649,6 +63185,7 @@ var overrides = {
           "Explosion",
           "Facade",
           "Focus Blast",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Return",
@@ -60851,6 +63388,7 @@ var overrides = {
         "tms": [
           "Aerial Ace",
           "Bulldoze",
+          "Chilling Water",
           "Cut",
           "Defog",
           "Dive",
@@ -60877,6 +63415,7 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Laser Focus",
           "Magic Room",
@@ -60906,6 +63445,7 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Starter": [
@@ -60928,6 +63468,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -61067,6 +63608,7 @@ var overrides = {
         "tms": [
           "Aerial Ace",
           "Bulldoze",
+          "Chilling Water",
           "Cut",
           "Defog",
           "Dive",
@@ -61093,6 +63635,7 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Laser Focus",
           "Mystical Fire",
@@ -61122,6 +63665,7 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Starter": [
@@ -61144,6 +63688,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -61203,6 +63748,7 @@ var overrides = {
           "Hydro Pump",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Thunder",
           "Whirlpool"
         ],
@@ -61223,7 +63769,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -61241,7 +63788,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -61430,6 +63978,7 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Bind",
           "Blizzard",
           "Brick Break",
@@ -61466,6 +64015,7 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
@@ -61490,6 +64040,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -61525,6 +64076,10 @@ var overrides = {
           [
             1,
             "Confusion"
+          ],
+          [
+            1,
+            "Draco Meteor"
           ],
           [
             1,
@@ -61599,7 +64154,11 @@ var overrides = {
             "Flash Cannon"
           ],
           [
-            70,
+            69,
+            "Toxic"
+          ],
+          [
+            73,
             "Psychic"
           ],
           [
@@ -61641,6 +64200,7 @@ var overrides = {
           "Grass Knot",
           "Hidden Power",
           "Icy Wind",
+          "Misty Explosion",
           "Play Rough",
           "Psychic",
           "Return",
@@ -61656,6 +64216,7 @@ var overrides = {
           "Ice Punch",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch"
@@ -61675,7 +64236,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -61691,7 +64253,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -61757,6 +64320,7 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
@@ -61784,7 +64348,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Laser Focus",
@@ -61806,7 +64371,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -61863,7 +64429,7 @@ var overrides = {
           ],
           [
             45,
-            "Stomping Tantrum"
+            "Dig"
           ],
           [
             51,
@@ -61981,7 +64547,7 @@ var overrides = {
           ],
           [
             45,
-            "Stomping Tantrum"
+            "Dig"
           ],
           [
             51,
@@ -62112,7 +64678,7 @@ var overrides = {
           ],
           [
             45,
-            "Stomping Tantrum"
+            "Dig"
           ],
           [
             51,
@@ -62133,6 +64699,10 @@ var overrides = {
           [
             72,
             "Earthquake"
+          ],
+          [
+            74,
+            "Grassy Glide"
           ],
           [
             77,
@@ -62173,7 +64743,9 @@ var overrides = {
           "Facade",
           "Flash",
           "Grass Knot",
+          "Hard Press",
           "Hidden Power",
+          "Magical Leaf",
           "Return",
           "Rock Smash",
           "Rock Tomb",
@@ -62182,12 +64754,18 @@ var overrides = {
           "Strength"
         ],
         "tutors": [
+          "Laser Focus",
           "Natural Gift",
           "Rock Slide",
           "Seed Bomb",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Laser Focus",
+            "Wonder Room"
+          ],
           "Slateport Tutor": [
             "Rock Slide",
             "Stomping Tantrum"
@@ -62195,6 +64773,10 @@ var overrides = {
           "Route 120 Tutor": [
             "Natural Gift",
             "Seed Bomb"
+          ],
+          "Poke Menu: Petalburg": [
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide",
@@ -62329,7 +64911,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Shadow Claw",
@@ -62354,7 +64935,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -62488,6 +65068,10 @@ var overrides = {
           [
             70,
             "Flare Blitz"
+          ],
+          [
+            90,
+            "Overheat"
           ]
         ],
         "tms": [
@@ -62512,7 +65096,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Natural Gift",
           "Rock Slide",
@@ -62539,7 +65122,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -62601,10 +65183,6 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Fake Out"
-          ],
-          [
-            1,
             "Fling"
           ],
           [
@@ -62614,6 +65192,10 @@ var overrides = {
           [
             1,
             "Mach Punch"
+          ],
+          [
+            1,
+            "Overheat"
           ],
           [
             1,
@@ -62680,6 +65262,10 @@ var overrides = {
             "Acrobatics"
           ],
           [
+            60,
+            "Fake Out"
+          ],
+          [
             65,
             "Aura Sphere"
           ],
@@ -62710,6 +65296,10 @@ var overrides = {
           [
             91,
             "Upper Hand"
+          ],
+          [
+            93,
+            "Torment"
           ],
           [
             95,
@@ -62750,7 +65340,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
@@ -62779,7 +65368,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -62906,6 +65494,7 @@ var overrides = {
           "Blizzard",
           "Brick Break",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -62922,7 +65511,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
@@ -62937,7 +65527,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -63061,6 +65652,7 @@ var overrides = {
           "Brick Break",
           "Natural Gift",
           "Shadow Claw",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -63078,7 +65670,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
@@ -63094,7 +65687,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -63239,13 +65833,18 @@ var overrides = {
             "Roost"
           ],
           [
-            100,
+            99,
             "Make It Rain"
+          ],
+          [
+            100,
+            "Hydro Cannon"
           ]
         ],
         "tms": [
           "Aerial Ace",
           "Bulldoze",
+          "Chilling Water",
           "Cut",
           "Defog",
           "Dive",
@@ -63272,6 +65871,7 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Shadow Claw",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -63293,7 +65893,8 @@ var overrides = {
             "Blizzard"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Laser Focus"
@@ -63313,7 +65914,8 @@ var overrides = {
             "Blizzard"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -63440,6 +66042,7 @@ var overrides = {
           "Return"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane",
           "Natural Gift"
@@ -63452,6 +66055,7 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
@@ -63461,6 +66065,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -63600,6 +66205,7 @@ var overrides = {
           "Return"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane",
           "Natural Gift"
@@ -63612,6 +66218,7 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
@@ -63621,6 +66228,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -63788,8 +66396,8 @@ var overrides = {
           "Return"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Hurricane",
           "Laser Focus",
@@ -63807,10 +66415,10 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -63821,6 +66429,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -63834,7 +66443,7 @@ var overrides = {
       ],
       "abs": [
         "Simple",
-        "",
+        "Unaware",
         "Moody"
       ],
       "items": [
@@ -63938,7 +66547,7 @@ var overrides = {
           ],
           [
             100,
-            "Sharpen"
+            "Swords Dance"
           ]
         ],
         "tms": [
@@ -64001,7 +66610,7 @@ var overrides = {
       ],
       "abs": [
         "Simple",
-        "",
+        "Unaware",
         "Moody"
       ],
       "items": [
@@ -64050,6 +66659,10 @@ var overrides = {
           [
             13,
             "Headbutt"
+          ],
+          [
+            15,
+            "Scald"
           ],
           [
             17,
@@ -64112,6 +66725,14 @@ var overrides = {
             "Double-Edge"
           ],
           [
+            66,
+            "Yawn"
+          ],
+          [
+            70,
+            "Aqua Tail"
+          ],
+          [
             75,
             "Wave Crash"
           ],
@@ -64128,16 +66749,23 @@ var overrides = {
             "Amnesia"
           ],
           [
+            95,
+            "Knock Off"
+          ],
+          [
             99,
             "Extreme Speed"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Cut",
+          "Defog",
           "Dive",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Grass Knot",
           "Hidden Power",
           "Ice Beam",
@@ -64294,7 +66922,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Bug Bite",
-          "Focus Energy",
           "Helping Hand",
           "Infestation",
           "Laser Focus",
@@ -64317,7 +66944,6 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -64374,6 +67000,10 @@ var overrides = {
           [
             5,
             "Baby-Doll Eyes"
+          ],
+          [
+            5,
+            "Sweet Scent"
           ],
           [
             13,
@@ -64439,6 +67069,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -64449,7 +67080,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -64458,7 +67090,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -64518,6 +67151,10 @@ var overrides = {
             "Baby-Doll Eyes"
           ],
           [
+            5,
+            "Sweet Scent"
+          ],
+          [
             13,
             "Spark"
           ],
@@ -64581,6 +67218,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -64591,7 +67229,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -64600,7 +67239,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -64645,15 +67285,15 @@ var overrides = {
         "learnset": [
           [
             1,
+            "Fusion Bolt"
+          ],
+          [
+            1,
             "Leer"
           ],
           [
             1,
             "Nuzzle"
-          ],
-          [
-            1,
-            "Supercell Slam"
           ],
           [
             1,
@@ -64666,6 +67306,10 @@ var overrides = {
           [
             5,
             "Baby-Doll Eyes"
+          ],
+          [
+            5,
+            "Sweet Scent"
           ],
           [
             13,
@@ -64693,11 +67337,15 @@ var overrides = {
           ],
           [
             35,
-            "Thunder Fang"
+            "Thunder Punch"
           ],
           [
             40,
             "Crunch"
+          ],
+          [
+            42,
+            "Zing Zap"
           ],
           [
             45,
@@ -64720,8 +67368,8 @@ var overrides = {
             "Superpower"
           ],
           [
-            67,
-            "Zing Zap"
+            69,
+            "Supercell Slam"
           ],
           [
             75,
@@ -64734,6 +67382,10 @@ var overrides = {
           [
             86,
             "Trailblaze"
+          ],
+          [
+            91,
+            "Fake Tears"
           ],
           [
             95,
@@ -64756,6 +67408,7 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -64767,7 +67420,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -64777,7 +67431,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -64790,7 +67445,7 @@ var overrides = {
         "Poison"
       ],
       "abs": [
-        "Natural Cure",
+        "Leaf Guard",
         "Leaf Guard",
         "Poison Point"
       ],
@@ -65044,6 +67699,10 @@ var overrides = {
             "Weather Ball"
           ],
           [
+            79,
+            "Petal Dance"
+          ],
+          [
             82,
             "Corrosive Gas"
           ],
@@ -65078,30 +67737,39 @@ var overrides = {
         ],
         "tutors": [
           "Laser Focus",
+          "Magic Room",
           "Natural Gift",
           "Seed Bomb",
-          "Weather Ball"
+          "Signal Beam",
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Laser Focus"
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Weather Ball"
           ],
           "Route 120 Tutor": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -65210,7 +67878,6 @@ var overrides = {
           "Blizzard",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Natural Gift",
           "Rock Slide",
           "Thunder",
@@ -65229,9 +67896,6 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Fire Punch",
@@ -65348,12 +68012,20 @@ var overrides = {
             "Stone Edge"
           ],
           [
-            75,
+            73,
+            "Grassy Glide"
+          ],
+          [
+            76,
             "Supercell Slam"
           ],
           [
-            80,
+            82,
             "Head Smash"
+          ],
+          [
+            83,
+            "Zen Headbutt"
           ],
           [
             86,
@@ -65362,6 +68034,10 @@ var overrides = {
           [
             91,
             "Iron Tail"
+          ],
+          [
+            95,
+            "Rock Climb"
           ]
         ],
         "tms": [
@@ -65390,7 +68066,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Punch",
-          "Focus Energy",
           "Laser Focus",
           "Natural Gift",
           "Rock Slide",
@@ -65425,7 +68100,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
@@ -65557,7 +68231,6 @@ var overrides = {
         "tutors": [
           "Blizzard",
           "Fire Blast",
-          "Focus Energy",
           "Natural Gift",
           "Rock Slide",
           "Thunder"
@@ -65573,9 +68246,6 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
@@ -65675,8 +68345,16 @@ var overrides = {
             "Body Press"
           ],
           [
+            67,
+            "Torment"
+          ],
+          [
             71,
             "Foul Play"
+          ],
+          [
+            74,
+            "Power Split"
           ],
           [
             76,
@@ -65687,12 +68365,20 @@ var overrides = {
             "Stone Edge"
           ],
           [
+            84,
+            "Metal Sound"
+          ],
+          [
             86,
             "Wide Guard"
           ],
           [
             91,
             "Roar"
+          ],
+          [
+            95,
+            "Rock Climb"
           ]
         ],
         "tms": [
@@ -65702,6 +68388,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hard Press",
           "Hidden Power",
           "Ice Beam",
           "Return",
@@ -65716,7 +68403,6 @@ var overrides = {
         "tutors": [
           "Blizzard",
           "Fire Blast",
-          "Focus Energy",
           "Natural Gift",
           "Rock Slide",
           "Stomping Tantrum",
@@ -65734,9 +68420,6 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide",
@@ -65800,6 +68483,7 @@ var overrides = {
           "Infestation",
           "Natural Gift",
           "Seed Bomb",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -65812,7 +68496,8 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -65823,7 +68508,8 @@ var overrides = {
           ],
           "Poke Menu: Route 120": [
             "Natural Gift",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -65873,7 +68559,8 @@ var overrides = {
         "tutors": [
           "Bug Bite",
           "Infestation",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -65883,7 +68570,8 @@ var overrides = {
             "Bug Bite"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
@@ -65892,7 +68580,8 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -66109,6 +68798,10 @@ var overrides = {
             "Aromatic Mist"
           ],
           [
+            95,
+            "Whirlwind"
+          ],
+          [
             100,
             "Substitute"
           ]
@@ -66129,13 +68822,15 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Bug Bite",
           "Cross Poison",
           "Helping Hand",
           "Hurricane",
           "Infestation",
           "Laser Focus",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -66153,7 +68848,9 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -66170,7 +68867,9 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -66332,7 +69031,7 @@ var overrides = {
           ],
           [
             37,
-            "Razor Wind"
+            "Rock Smash"
           ],
           [
             43,
@@ -66524,7 +69223,7 @@ var overrides = {
           ],
           [
             37,
-            "Razor Wind"
+            "Rock Smash"
           ],
           [
             43,
@@ -66559,11 +69258,19 @@ var overrides = {
             "Fling"
           ],
           [
+            77,
+            "Fake Out"
+          ],
+          [
             80,
             "Taunt"
           ],
           [
-            85,
+            82,
+            "Torment"
+          ],
+          [
+            86,
             "Triple Dive"
           ],
           [
@@ -66831,6 +69538,10 @@ var overrides = {
             "Fling"
           ],
           [
+            62,
+            "Pursuit"
+          ],
+          [
             65,
             "Upper Hand"
           ],
@@ -66863,7 +69574,19 @@ var overrides = {
             "Spite"
           ],
           [
+            89,
+            "Fling"
+          ],
+          [
+            91,
+            "Endeavor"
+          ],
+          [
             93,
+            "Triple Axel"
+          ],
+          [
+            97,
             "Flail"
           ]
         ],
@@ -67062,7 +69785,6 @@ var overrides = {
         "tutors": [
           "Bind",
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
           "Mystical Fire",
           "Natural Gift",
@@ -67091,7 +69813,6 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Telekinesis"
           ],
@@ -67162,6 +69883,10 @@ var overrides = {
           [
             1,
             "Psycho Shift"
+          ],
+          [
+            1,
+            "Tailwind"
           ],
           [
             8,
@@ -67242,6 +69967,10 @@ var overrides = {
           [
             99,
             "Misty Explosion"
+          ],
+          [
+            100,
+            "Sky Drop"
           ]
         ],
         "tms": [
@@ -67265,9 +69994,9 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Bind",
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
           "Magic Room",
           "Mystical Fire",
@@ -67293,6 +70022,7 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Starter": [
@@ -67300,7 +70030,6 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Magic Room",
             "Telekinesis",
@@ -67314,6 +70043,7 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -67595,6 +70325,10 @@ var overrides = {
             "Fake Out"
           ],
           [
+            82,
+            "Fling"
+          ],
+          [
             85,
             "Jump Kick"
           ],
@@ -67648,13 +70382,15 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Thunder",
-          "Thunder Punch"
+          "Thunder Punch",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "After You",
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Fire Punch",
@@ -67671,7 +70407,8 @@ var overrides = {
           "Poke Menu: Petalburg": [
             "After You",
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Fire Punch",
@@ -67786,7 +70523,11 @@ var overrides = {
             "Energy Ball"
           ],
           [
-            75,
+            74,
+            "Me First"
+          ],
+          [
+            76,
             "Thunderbolt"
           ],
           [
@@ -67798,12 +70539,24 @@ var overrides = {
             "Moonblast"
           ],
           [
-            85,
+            84,
+            "Psychic Noise"
+          ],
+          [
+            86,
             "Moongeist Beam"
+          ],
+          [
+            88,
+            "Curse"
           ],
           [
             90,
             "Moonlight"
+          ],
+          [
+            95,
+            "Torment"
           ]
         ],
         "tms": [
@@ -67821,6 +70574,7 @@ var overrides = {
           "Hidden Power",
           "Icy Wind",
           "Magical Leaf",
+          "Misty Explosion",
           "Psychic",
           "Return",
           "Shadow Ball",
@@ -67929,6 +70683,10 @@ var overrides = {
             "Superpower"
           ],
           [
+            1,
+            "Torment"
+          ],
+          [
             5,
             "Pursuit"
           ],
@@ -67965,12 +70723,20 @@ var overrides = {
             "Foul Play"
           ],
           [
-            50,
+            48,
             "Tailwind"
+          ],
+          [
+            52,
+            "Whirlwind"
           ],
           [
             55,
             "Dual Wingbeat"
+          ],
+          [
+            59,
+            "Mirror Move"
           ],
           [
             61,
@@ -68005,6 +70771,14 @@ var overrides = {
             "Focus Energy"
           ],
           [
+            82,
+            "Quash"
+          ],
+          [
+            84,
+            "Psychic Noise"
+          ],
+          [
             86,
             "Knock Off"
           ],
@@ -68015,6 +70789,10 @@ var overrides = {
           [
             95,
             "Oblivion Wing"
+          ],
+          [
+            99,
+            "Sky Drop"
           ]
         ],
         "tms": [
@@ -68024,6 +70802,7 @@ var overrides = {
           "Defog",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Fly",
           "Foul Play",
           "Hidden Power",
@@ -68035,30 +70814,42 @@ var overrides = {
           "Thunder Wave"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
           "Embargo",
           "Helping Hand",
           "Hurricane",
-          "Natural Gift"
+          "Magic Room",
+          "Natural Gift",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Natural Gift"
           ]
         }
@@ -68076,8 +70867,8 @@ var overrides = {
         "Own Tempo"
       ],
       "items": [
-        null,
-        null,
+        "Adrenaline Orb",
+        "Adrenaline Orb",
         null
       ],
       "bs": {
@@ -68100,7 +70891,7 @@ var overrides = {
           ],
           [
             5,
-            "Scratch"
+            "Sweet Scent"
           ],
           [
             8,
@@ -68213,8 +71004,8 @@ var overrides = {
         "Own Tempo"
       ],
       "items": [
-        null,
-        null,
+        "Adrenaline Orb",
+        "Adrenaline Orb",
         null
       ],
       "bs": {
@@ -68237,7 +71028,7 @@ var overrides = {
           ],
           [
             5,
-            "Scratch"
+            "Sweet Scent"
           ],
           [
             8,
@@ -68276,6 +71067,10 @@ var overrides = {
             "Body Slam"
           ],
           [
+            39,
+            "Return"
+          ],
+          [
             41,
             "Sucker Punch"
           ],
@@ -68292,12 +71087,24 @@ var overrides = {
             "Knock Off"
           ],
           [
+            53,
+            "Torment"
+          ],
+          [
             56,
             "Acrobatics"
           ],
           [
+            59,
+            "Rock Tomb"
+          ],
+          [
             62,
             "Double-Edge"
+          ],
+          [
+            66,
+            "Upper Hand"
           ],
           [
             67,
@@ -68306,6 +71113,10 @@ var overrides = {
           [
             72,
             "Play Rough"
+          ],
+          [
+            77,
+            "Grassy Glide"
           ],
           [
             80,
@@ -68318,15 +71129,21 @@ var overrides = {
           [
             90,
             "Psych Up"
+          ],
+          [
+            95,
+            "Explosion"
           ]
         ],
         "tms": [
           "Aerial Ace",
           "Bulldoze",
           "Cut",
+          "Defog",
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Foul Play",
           "Hidden Power",
@@ -68339,12 +71156,18 @@ var overrides = {
         ],
         "tutors": [
           "Aqua Cutter",
+          "Helping Hand",
           "Natural Gift",
           "Shadow Claw",
           "Stomping Tantrum",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Helping Hand",
+            "Wonder Room"
+          ],
           "Slateport Tutor": [
             "Stomping Tantrum"
           ],
@@ -68357,6 +71180,10 @@ var overrides = {
           ],
           "Route 120 Tutor": [
             "Natural Gift"
+          ],
+          "Poke Menu: Petalburg": [
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Stomping Tantrum"
@@ -68554,6 +71381,7 @@ var overrides = {
           "Bind",
           "Helping Hand",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -68565,7 +71393,8 @@ var overrides = {
             "Telekinesis"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -68575,7 +71404,8 @@ var overrides = {
             "Bind"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -68720,7 +71550,6 @@ var overrides = {
         ],
         "tutors": [
           "Fire Blast",
-          "Focus Energy",
           "Helping Hand",
           "Lash Out",
           "Natural Gift",
@@ -68743,7 +71572,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -68857,6 +71685,10 @@ var overrides = {
             "Flamethrower"
           ],
           [
+            41,
+            "Roar"
+          ],
+          [
             47,
             "Poison Jab"
           ],
@@ -68919,7 +71751,6 @@ var overrides = {
         "tutors": [
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Lash Out",
           "Natural Gift",
@@ -68945,7 +71776,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -69102,6 +71932,7 @@ var overrides = {
           "Helping Hand",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Wonder Room"
@@ -69117,7 +71948,8 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -69129,7 +71961,8 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -69246,6 +72079,10 @@ var overrides = {
             "Heal Block"
           ],
           [
+            55,
+            "Psychic Noise"
+          ],
+          [
             58,
             "Iron Head"
           ],
@@ -69256,6 +72093,10 @@ var overrides = {
           [
             68,
             "Psychic"
+          ],
+          [
+            71,
+            "Gravity"
           ],
           [
             75,
@@ -69310,6 +72151,7 @@ var overrides = {
           "Helping Hand",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Weather Ball",
@@ -69329,7 +72171,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
@@ -69347,7 +72190,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -69575,6 +72419,7 @@ var overrides = {
           "Infestation",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -69596,7 +72441,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -69614,7 +72460,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -69965,6 +72812,10 @@ var overrides = {
             "Foul Play"
           ],
           [
+            82,
+            "Torment"
+          ],
+          [
             85,
             "Phantom Force"
           ],
@@ -69979,12 +72830,17 @@ var overrides = {
           [
             99,
             "Destiny Bond"
+          ],
+          [
+            100,
+            "Baddy Bad"
           ]
         ],
         "tms": [
           "Dark Pulse",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Foul Play",
           "Hidden Power",
@@ -70126,7 +72982,7 @@ var overrides = {
           ],
           [
             75,
-            "High Horsepower"
+            "Land's Wrath"
           ],
           [
             80,
@@ -70307,7 +73163,7 @@ var overrides = {
           ],
           [
             75,
-            "High Horsepower"
+            "Land's Wrath"
           ],
           [
             80,
@@ -70503,7 +73359,7 @@ var overrides = {
           ],
           [
             75,
-            "Stomping Tantrum"
+            "Land's Wrath"
           ],
           [
             78,
@@ -70520,6 +73376,10 @@ var overrides = {
           [
             90,
             "Earthquake"
+          ],
+          [
+            93,
+            "Flamethrower"
           ],
           [
             95,
@@ -70813,6 +73673,10 @@ var overrides = {
         "learnset": [
           [
             1,
+            "Copycat"
+          ],
+          [
+            1,
             "Quick Attack"
           ],
           [
@@ -70886,10 +73750,6 @@ var overrides = {
           [
             80,
             "Extreme Speed"
-          ],
-          [
-            85,
-            "Close Combat"
           ]
         ],
         "tms": [
@@ -70909,7 +73769,6 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Laser Focus",
@@ -70936,7 +73795,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -70994,6 +73852,14 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Coaching"
+          ],
+          [
+            1,
+            "Copycat"
+          ],
           [
             1,
             "Follow Me"
@@ -71079,20 +73945,44 @@ var overrides = {
             "Aura Sphere"
           ],
           [
-            75,
+            70,
+            "Jump Kick"
+          ],
+          [
+            74,
             "Meteor Mash"
+          ],
+          [
+            77,
+            "Dark Pulse"
           ],
           [
             80,
             "Extreme Speed"
           ],
           [
-            85,
-            "Close Combat"
+            83,
+            "Superpower"
+          ],
+          [
+            86,
+            "Role Play"
+          ],
+          [
+            90,
+            "Bullet Punch"
+          ],
+          [
+            90,
+            "Flash Cannon"
           ],
           [
             90,
             "Focus Blast"
+          ],
+          [
+            90,
+            "Vacuum Wave"
           ],
           [
             95,
@@ -71101,6 +73991,10 @@ var overrides = {
           [
             99,
             "Final Gambit"
+          ],
+          [
+            100,
+            "Close Combat"
           ]
         ],
         "tms": [
@@ -71124,7 +74018,6 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Laser Focus",
@@ -71151,7 +74044,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -71198,19 +74090,11 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Bite"
-          ],
-          [
-            1,
             "Sand Attack"
           ],
           [
             1,
             "Tackle"
-          ],
-          [
-            1,
-            "Yawn"
           ],
           [
             7,
@@ -71243,6 +74127,10 @@ var overrides = {
           [
             50,
             "Double-Edge"
+          ],
+          [
+            55,
+            "Roar"
           ],
           [
             60,
@@ -71370,10 +74258,6 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Bite"
-          ],
-          [
-            1,
             "Fire Fang"
           ],
           [
@@ -71391,10 +74275,6 @@ var overrides = {
           [
             1,
             "Thunder Fang"
-          ],
-          [
-            1,
-            "Yawn"
           ],
           [
             7,
@@ -71427,6 +74307,10 @@ var overrides = {
           [
             50,
             "Double-Edge"
+          ],
+          [
+            55,
+            "Roar"
           ],
           [
             60,
@@ -71468,6 +74352,7 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Return",
@@ -71775,6 +74660,10 @@ var overrides = {
             "Night Slash"
           ],
           [
+            41,
+            "Roar"
+          ],
+          [
             43,
             "Scary Face"
           ],
@@ -71785,6 +74674,10 @@ var overrides = {
           [
             52,
             "Poison Jab"
+          ],
+          [
+            56,
+            "Bulldoze"
           ],
           [
             60,
@@ -71817,6 +74710,10 @@ var overrides = {
           [
             95,
             "Whirlwind"
+          ],
+          [
+            99,
+            "Fling"
           ]
         ],
         "tms": [
@@ -71849,7 +74746,8 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Sand Tomb",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -71857,7 +74755,8 @@ var overrides = {
             "Sand Tomb"
           ],
           "Petalburg Tutor": [
-            "Bug Bite"
+            "Bug Bite",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -71872,7 +74771,8 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Bug Bite"
+            "Bug Bite",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -72230,6 +75130,10 @@ var overrides = {
             "Cross Chop"
           ],
           [
+            67,
+            "Fling"
+          ],
+          [
             70,
             "Gunk Shot"
           ],
@@ -72244,6 +75148,10 @@ var overrides = {
           [
             82,
             "Corrosive Gas"
+          ],
+          [
+            84,
+            "Triple Kick"
           ],
           [
             86,
@@ -72268,6 +75176,7 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Focus Blast",
           "Foul Play",
           "Hidden Power",
@@ -72527,6 +75436,7 @@ var overrides = {
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -72541,7 +75451,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -72554,7 +75465,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -72680,6 +75592,14 @@ var overrides = {
           [
             90,
             "Spotlight"
+          ],
+          [
+            95,
+            "Splash"
+          ],
+          [
+            99,
+            "Frustration"
           ]
         ],
         "tms": [
@@ -72699,10 +75619,12 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -72717,7 +75639,9 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -72730,7 +75654,9 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -72870,11 +75796,13 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Helping Hand",
           "Hydro Pump",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -72892,7 +75820,9 @@ var overrides = {
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -72908,7 +75838,9 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       },
@@ -73188,6 +76120,10 @@ var overrides = {
             "Giga Drain"
           ],
           [
+            47,
+            "Aurora Veil"
+          ],
+          [
             50,
             "Earth Power"
           ],
@@ -73208,16 +76144,28 @@ var overrides = {
             "Ice Beam"
           ],
           [
+            67,
+            "Weather Ball"
+          ],
+          [
             70,
             "Blizzard"
           ],
           [
-            75,
+            73,
+            "Grassy Glide"
+          ],
+          [
+            76,
             "Leaf Storm"
           ],
           [
             80,
             "Frost Breath"
+          ],
+          [
+            82,
+            "Iron Tail"
           ],
           [
             85,
@@ -73235,6 +76183,7 @@ var overrides = {
         "tms": [
           "Bulldoze",
           "Chilling Water",
+          "Defog",
           "Earth Power",
           "Earthquake",
           "Endure",
@@ -73243,6 +76192,7 @@ var overrides = {
           "Flash",
           "Focus Blast",
           "Grass Knot",
+          "Hard Press",
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
@@ -73261,6 +76211,7 @@ var overrides = {
           "Brick Break",
           "Helping Hand",
           "Ice Punch",
+          "Magic Room",
           "Natural Gift",
           "Rock Slide",
           "Seed Bomb",
@@ -73269,7 +76220,8 @@ var overrides = {
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -73289,7 +76241,8 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -73404,6 +76357,10 @@ var overrides = {
             "Ice Shard"
           ],
           [
+            51,
+            "Assurance"
+          ],
+          [
             55,
             "Throat Chop"
           ],
@@ -73438,6 +76395,10 @@ var overrides = {
           [
             90,
             "Fake Tears"
+          ],
+          [
+            93,
+            "Beat Up"
           ],
           [
             96,
@@ -73668,6 +76629,10 @@ var overrides = {
             "Eerie Impulse"
           ],
           [
+            99,
+            "Zap Cannon"
+          ],
+          [
             100,
             "Volt Switch"
           ]
@@ -73678,6 +76643,7 @@ var overrides = {
           "Explosion",
           "Facade",
           "Flash",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Return",
@@ -73689,29 +76655,35 @@ var overrides = {
           "Body Press",
           "Helping Hand",
           "Natural Gift",
-          "Thunder"
+          "Signal Beam",
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -73925,7 +76897,7 @@ var overrides = {
           ],
           [
             55,
-            "Rock Slide"
+            "Metal Sound"
           ],
           [
             60,
@@ -73938,6 +76910,10 @@ var overrides = {
           [
             66,
             "Hammer Arm"
+          ],
+          [
+            68,
+            "Counter"
           ],
           [
             70,
@@ -73982,6 +76958,7 @@ var overrides = {
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Cut",
           "Earth Power",
           "Earthquake",
@@ -74170,6 +77147,10 @@ var overrides = {
             "Tickle"
           ],
           [
+            49,
+            "Energy Ball"
+          ],
+          [
             55,
             "Power Whip"
           ],
@@ -74182,8 +77163,16 @@ var overrides = {
             "Leaf Storm"
           ],
           [
+            73,
+            "Grassy Glide"
+          ],
+          [
             76,
             "Earthquake"
+          ],
+          [
+            79,
+            "Frenzy Plant"
           ],
           [
             82,
@@ -74196,6 +77185,10 @@ var overrides = {
           [
             91,
             "Synthesis"
+          ],
+          [
+            95,
+            "Leech Seed"
           ]
         ],
         "tms": [
@@ -74211,6 +77204,7 @@ var overrides = {
           "Grass Knot",
           "Hard Press",
           "Hidden Power",
+          "Magical Leaf",
           "Poison Jab",
           "Return",
           "Rock Smash",
@@ -74228,12 +77222,16 @@ var overrides = {
           "Natural Gift",
           "Rock Slide",
           "Seed Bomb",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Bind",
             "Infestation"
+          ],
+          "Petalburg Tutor": [
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -74243,6 +77241,9 @@ var overrides = {
           "Route 120 Tutor": [
             "Natural Gift",
             "Seed Bomb"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -74371,6 +77372,10 @@ var overrides = {
             "Flamethrower"
           ],
           [
+            68,
+            "Round"
+          ],
+          [
             70,
             "Fusion Bolt"
           ],
@@ -74383,6 +77388,10 @@ var overrides = {
             "Follow Me"
           ],
           [
+            82,
+            "Fling"
+          ],
+          [
             86,
             "Bolt Strike"
           ],
@@ -74393,6 +77402,10 @@ var overrides = {
           [
             95,
             "Giga Impact"
+          ],
+          [
+            99,
+            "Torment"
           ],
           [
             100,
@@ -74427,6 +77440,7 @@ var overrides = {
           "Ice Punch",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Thunder",
           "Thunder Punch",
@@ -74449,7 +77463,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -74467,7 +77482,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -74579,6 +77595,10 @@ var overrides = {
             "Fire Blast"
           ],
           [
+            68,
+            "Round"
+          ],
+          [
             70,
             "Fusion Flare"
           ],
@@ -74589,6 +77609,10 @@ var overrides = {
           [
             80,
             "Follow Me"
+          ],
+          [
+            82,
+            "Fling"
           ],
           [
             86,
@@ -74603,6 +77627,10 @@ var overrides = {
             "Belch"
           ],
           [
+            99,
+            "Torment"
+          ],
+          [
             100,
             "Blue Flare"
           ]
@@ -74612,6 +77640,7 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Focus Blast",
           "Hidden Power",
@@ -74631,7 +77660,6 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Mystical Fire",
           "Natural Gift",
@@ -74665,7 +77693,6 @@ var overrides = {
             "Mystical Fire"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -74800,6 +77827,10 @@ var overrides = {
             "Follow Me"
           ],
           [
+            79,
+            "Lucky Chant"
+          ],
+          [
             81,
             "Healing Wish"
           ],
@@ -74810,6 +77841,14 @@ var overrides = {
           [
             90,
             "Flamethrower"
+          ],
+          [
+            95,
+            "Alluring Voice"
+          ],
+          [
+            99,
+            "Counter"
           ],
           [
             100,
@@ -74842,12 +77881,14 @@ var overrides = {
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Brick Break",
           "Fire Blast",
           "Helping Hand",
           "Laser Focus",
           "Mystical Fire",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -74864,7 +77905,9 @@ var overrides = {
             "Fire Blast"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -74882,7 +77925,9 @@ var overrides = {
             "Fire Blast"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -74928,6 +77973,10 @@ var overrides = {
           ],
           [
             1,
+            "Roost"
+          ],
+          [
+            1,
             "Struggle Bug"
           ],
           [
@@ -74959,6 +78008,10 @@ var overrides = {
             "Ancient Power"
           ],
           [
+            38,
+            "Play Nice"
+          ],
+          [
             40,
             "Screech"
           ],
@@ -74975,6 +78028,10 @@ var overrides = {
             "Air Slash"
           ],
           [
+            59,
+            "Psychic Noise"
+          ],
+          [
             62,
             "Bug Buzz"
           ],
@@ -74987,8 +78044,12 @@ var overrides = {
             "Tailwind"
           ],
           [
-            70,
+            69,
             "Giga Drain"
+          ],
+          [
+            72,
+            "Aeroblast"
           ],
           [
             75,
@@ -75018,6 +78079,7 @@ var overrides = {
           "Facade",
           "Flash",
           "Hidden Power",
+          "Pounce",
           "Psychic",
           "Return",
           "Shadow Ball",
@@ -75027,7 +78089,8 @@ var overrides = {
           "Bug Bite",
           "Infestation",
           "Laser Focus",
-          "Natural Gift"
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -75038,7 +78101,8 @@ var overrides = {
             "Laser Focus"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -75048,7 +78112,8 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -75166,6 +78231,10 @@ var overrides = {
           [
             95,
             "Trump Card"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -75187,17 +78256,18 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
           "Seed Bomb",
-          "Weather Ball"
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Weather Ball"
@@ -75207,9 +78277,9 @@ var overrides = {
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Weather Ball"
@@ -75250,10 +78320,6 @@ var overrides = {
           [
             1,
             "Glaciate"
-          ],
-          [
-            1,
-            "Helping Hand"
           ],
           [
             1,
@@ -75317,7 +78383,7 @@ var overrides = {
           ],
           [
             70,
-            "Weather Ball"
+            "Aura Sphere"
           ],
           [
             75,
@@ -75338,6 +78404,10 @@ var overrides = {
           [
             95,
             "Trump Card"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -75355,10 +78425,10 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -75371,10 +78441,10 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -75383,7 +78453,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -75418,6 +78489,10 @@ var overrides = {
           [
             1,
             "Defog"
+          ],
+          [
+            1,
+            "Fling"
           ],
           [
             1,
@@ -75469,7 +78544,7 @@ var overrides = {
           ],
           [
             58,
-            "Stomping Tantrum"
+            "Power Trick"
           ],
           [
             62,
@@ -75488,6 +78563,10 @@ var overrides = {
             "Dual Wingbeat"
           ],
           [
+            76,
+            "Acrobatics"
+          ],
+          [
             80,
             "Knock Off"
           ],
@@ -75500,12 +78579,16 @@ var overrides = {
             "Feint"
           ],
           [
+            93,
+            "Dig"
+          ],
+          [
             95,
             "Guillotine"
           ],
           [
             99,
-            "Acrobatics"
+            "Sky Drop"
           ],
           [
             100,
@@ -75538,7 +78621,8 @@ var overrides = {
           "Brick Break",
           "Bug Bite",
           "Natural Gift",
-          "Rock Slide"
+          "Rock Slide",
+          "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
@@ -75546,7 +78630,8 @@ var overrides = {
           ],
           "Slateport Tutor": [
             "Brick Break",
-            "Rock Slide"
+            "Rock Slide",
+            "Stomping Tantrum"
           ],
           "Petalburg High-Crit Tutor": [
             "Aqua Cutter"
@@ -75559,7 +78644,8 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
-            "Rock Slide"
+            "Rock Slide",
+            "Stomping Tantrum"
           ],
           "Poke Menu: Petalburg 2": [
             "Aqua Cutter"
@@ -75670,16 +78756,24 @@ var overrides = {
             "Superpower"
           ],
           [
-            70,
+            68,
             "Icicle Crash"
+          ],
+          [
+            72,
+            "Dig"
           ],
           [
             75,
             "Knock Off"
           ],
           [
-            80,
+            79,
             "Earthquake"
+          ],
+          [
+            82,
+            "Ice Shard"
           ],
           [
             85,
@@ -75807,7 +78901,7 @@ var overrides = {
           ],
           [
             31,
-            "Embargo"
+            "Ally Switch"
           ],
           [
             33,
@@ -75846,7 +78940,11 @@ var overrides = {
             "Tri Attack"
           ],
           [
-            70,
+            67,
+            "Round"
+          ],
+          [
+            71,
             "Magic Coat"
           ],
           [
@@ -75868,6 +78966,14 @@ var overrides = {
           [
             90,
             "Trick Room"
+          ],
+          [
+            95,
+            "Conversion"
+          ],
+          [
+            99,
+            "Techno Blast"
           ]
         ],
         "tms": [
@@ -75893,6 +78999,7 @@ var overrides = {
           "Blizzard",
           "Embargo",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -75908,7 +79015,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
@@ -75920,7 +79028,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -76021,6 +79130,10 @@ var overrides = {
             "Low Kick"
           ],
           [
+            45,
+            "Sky Uppercut"
+          ],
+          [
             48,
             "Zen Headbutt"
           ],
@@ -76045,7 +79158,15 @@ var overrides = {
             "Psyblade"
           ],
           [
-            85,
+            82,
+            "Psychic Noise"
+          ],
+          [
+            84,
+            "Torment"
+          ],
+          [
+            86,
             "Close Combat"
           ],
           [
@@ -76059,6 +79180,10 @@ var overrides = {
           [
             99,
             "Meteor Assault"
+          ],
+          [
+            100,
+            "Gravity"
           ]
         ],
         "tms": [
@@ -76098,11 +79223,11 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Aqua Cutter",
           "Brick Break",
           "Cross Poison",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Laser Focus",
@@ -76112,6 +79237,7 @@ var overrides = {
           "Psycho Cut",
           "Rock Slide",
           "Shadow Claw",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -76139,10 +79265,11 @@ var overrides = {
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus",
             "Magic Room",
@@ -76164,7 +79291,9 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Air Slash",
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -76211,6 +79340,10 @@ var overrides = {
           [
             1,
             "Tackle"
+          ],
+          [
+            5,
+            "Rock Smash"
           ],
           [
             7,
@@ -76281,12 +79414,20 @@ var overrides = {
             "Thunderbolt"
           ],
           [
+            77,
+            "Power Gem"
+          ],
+          [
             78,
             "Metal Sound"
           ],
           [
             82,
             "Rock Climb"
+          ],
+          [
+            84,
+            "Gravity"
           ],
           [
             86,
@@ -76398,7 +79539,7 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Fake Out"
+            "Gravity"
           ],
           [
             1,
@@ -76442,7 +79583,7 @@ var overrides = {
           ],
           [
             60,
-            "Gravity"
+            "Fake Out"
           ],
           [
             65,
@@ -76461,12 +79602,28 @@ var overrides = {
             "Phantom Force"
           ],
           [
+            82,
+            "Knock Off"
+          ],
+          [
+            84,
+            "Counter"
+          ],
+          [
             85,
             "Dynamic Punch"
           ],
           [
+            88,
+            "Gravity"
+          ],
+          [
             90,
             "Shadow Force"
+          ],
+          [
+            92,
+            "Destiny Bond"
           ],
           [
             95,
@@ -76483,8 +79640,10 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Focus Blast",
+          "Hard Press",
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
@@ -76666,6 +79825,10 @@ var overrides = {
             "Spikes"
           ],
           [
+            72,
+            "Round"
+          ],
+          [
             76,
             "Disable"
           ],
@@ -76675,7 +79838,7 @@ var overrides = {
           ],
           [
             85,
-            "Spite"
+            "Curse"
           ],
           [
             90,
@@ -76688,6 +79851,10 @@ var overrides = {
           [
             99,
             "Sheer Cold"
+          ],
+          [
+            100,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -76715,16 +79882,19 @@ var overrides = {
           "Ice Punch",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
-          "Weather Ball"
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Embargo",
             "Helping Hand",
             "Laser Focus",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Ice Punch"
@@ -76735,13 +79905,15 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Helping Hand",
             "Laser Focus",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Ice Punch"
@@ -76752,7 +79924,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -76864,6 +80037,10 @@ var overrides = {
             "Thunder"
           ],
           [
+            78,
+            "Curse"
+          ],
+          [
             80,
             "Toxic"
           ],
@@ -76901,6 +80078,7 @@ var overrides = {
           "Helping Hand",
           "Magic Room",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -76916,7 +80094,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -76928,7 +80107,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -76961,6 +80141,10 @@ var overrides = {
           [
             1,
             "Confusion"
+          ],
+          [
+            1,
+            "Fling"
           ],
           [
             1,
@@ -77036,7 +80220,11 @@ var overrides = {
           ],
           [
             97,
-            "Mystical Power"
+            "Trick Room"
+          ],
+          [
+            100,
+            "Mist Ball"
           ]
         ],
         "tms": [
@@ -77067,6 +80255,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -77092,7 +80281,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -77113,7 +80303,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -77146,6 +80337,10 @@ var overrides = {
           [
             1,
             "Confusion"
+          ],
+          [
+            1,
+            "Fling"
           ],
           [
             1,
@@ -77214,6 +80409,10 @@ var overrides = {
           [
             97,
             "Mystical Power"
+          ],
+          [
+            100,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -77244,6 +80443,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -77270,7 +80470,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -77292,7 +80493,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -77325,6 +80527,10 @@ var overrides = {
           [
             1,
             "Confusion"
+          ],
+          [
+            1,
+            "Fling"
           ],
           [
             1,
@@ -77393,6 +80599,10 @@ var overrides = {
           [
             97,
             "Flamethrower"
+          ],
+          [
+            100,
+            "Luster Purge"
           ]
         ],
         "tms": [
@@ -77425,6 +80635,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -77451,7 +80662,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -77473,7 +80685,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -77803,6 +81016,7 @@ var overrides = {
           "Explosion",
           "Facade",
           "Flamethrower",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Pounce",
@@ -77968,6 +81182,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Focus Blast",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Icy Wind",
@@ -78146,6 +81361,10 @@ var overrides = {
           ],
           [
             1,
+            "Gravity"
+          ],
+          [
+            1,
             "Moonlight"
           ],
           [
@@ -78209,6 +81428,10 @@ var overrides = {
             "Skill Swap"
           ],
           [
+            99,
+            "Power Shift"
+          ],
+          [
             100,
             "Trick Room"
           ]
@@ -78223,6 +81446,7 @@ var overrides = {
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Misty Explosion",
           "Psychic",
           "Return",
           "Shadow Ball",
@@ -78236,6 +81460,7 @@ var overrides = {
           "Magic Room",
           "Natural Gift",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis",
           "Thunder"
         ],
@@ -78252,7 +81477,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -78266,7 +81492,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -78351,6 +81578,10 @@ var overrides = {
           [
             95,
             "Acid Armor"
+          ],
+          [
+            97,
+            "Fling"
           ]
         ],
         "tms": [
@@ -78370,33 +81601,45 @@ var overrides = {
         "tutors": [
           "Blizzard",
           "Helping Hand",
+          "Hydro Pump",
+          "Magic Room",
           "Natural Gift",
-          "Whirlpool"
+          "Signal Beam",
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Whirlpool"
           ],
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
-            "Blizzard"
+            "Blizzard",
+            "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
           ],
           "Poke Menu: Route 119": [
-            "Blizzard"
+            "Blizzard",
+            "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -78495,6 +81738,10 @@ var overrides = {
             "Liquidation"
           ],
           [
+            97,
+            "Fling"
+          ],
+          [
             100,
             "Lucky Chant"
           ]
@@ -78522,25 +81769,33 @@ var overrides = {
           "Blizzard",
           "Helping Hand",
           "Hydro Pump",
+          "Magic Room",
           "Natural Gift",
-          "Whirlpool"
+          "Signal Beam",
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Whirlpool"
           ],
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Blizzard",
             "Hydro Pump"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -78550,7 +81805,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -78645,6 +81901,10 @@ var overrides = {
             "Night Daze"
           ],
           [
+            94,
+            "Pursuit"
+          ],
+          [
             100,
             "Dark Void"
           ]
@@ -78655,6 +81915,7 @@ var overrides = {
           "Dark Pulse",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Focus Blast",
           "Foul Play",
@@ -78776,8 +82037,16 @@ var overrides = {
             "Leech Seed"
           ],
           [
+            25,
+            "Air Cutter"
+          ],
+          [
             30,
             "Sweet Scent"
+          ],
+          [
+            35,
+            "Purify"
           ],
           [
             40,
@@ -78808,11 +82077,11 @@ var overrides = {
             "Synthesis"
           ],
           [
-            80,
-            "Air Slash"
+            83,
+            "Lucky Chant"
           ],
           [
-            85,
+            86,
             "Seed Flare"
           ],
           [
@@ -78830,6 +82099,10 @@ var overrides = {
           [
             99,
             "Healing Wish"
+          ],
+          [
+            100,
+            "Lovely Kiss"
           ]
         ],
         "tms": [
@@ -78850,19 +82123,25 @@ var overrides = {
         ],
         "tutors": [
           "Laser Focus",
+          "Magic Room",
           "Natural Gift",
-          "Seed Bomb"
+          "Seed Bomb",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Laser Focus"
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Route 120 Tutor": [
             "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Route 120": [
             "Natural Gift",
@@ -78912,6 +82191,10 @@ var overrides = {
           [
             1,
             "Future Sight"
+          ],
+          [
+            1,
+            "Imprison"
           ],
           [
             1,
@@ -79030,11 +82313,11 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Magic Room",
           "Mystical Fire",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -79061,12 +82344,14 @@ var overrides = {
             "Fire Blast",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Mystical Fire"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus",
             "Magic Room",
@@ -79084,6 +82369,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Fire Blast",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -79511,8 +82799,16 @@ var overrides = {
             "Nature Power"
           ],
           [
+            79,
+            "Snatch"
+          ],
+          [
             82,
             "Dragon Pulse"
+          ],
+          [
+            84,
+            "Torment"
           ],
           [
             86,
@@ -79521,6 +82817,14 @@ var overrides = {
           [
             90,
             "Frenzy Plant"
+          ],
+          [
+            95,
+            "Mirror Coat"
+          ],
+          [
+            100,
+            "Scary Face"
           ]
         ],
         "tms": [
@@ -79532,6 +82836,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Return",
           "Rock Smash",
           "Solar Beam",
@@ -79540,14 +82845,27 @@ var overrides = {
         ],
         "tutors": [
           "Bind",
-          "Seed Bomb"
+          "Laser Focus",
+          "Magic Room",
+          "Seed Bomb",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Bind"
           ],
+          "Petalburg Tutor": [
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
+          ],
           "Route 120 Tutor": [
             "Seed Bomb"
+          ],
+          "Poke Menu: Petalburg": [
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Bind"
@@ -79970,6 +83288,10 @@ var overrides = {
             "Burn Up"
           ],
           [
+            74,
+            "Iron Tail"
+          ],
+          [
             77,
             "Grass Knot"
           ],
@@ -79984,6 +83306,10 @@ var overrides = {
           [
             90,
             "Blast Burn"
+          ],
+          [
+            95,
+            "Reversal"
           ]
         ],
         "tms": [
@@ -79993,6 +83319,7 @@ var overrides = {
           "Flamethrower",
           "Focus Blast",
           "Grass Knot",
+          "Hard Press",
           "Hidden Power",
           "Low Kick",
           "Poison Jab",
@@ -80151,8 +83478,8 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump"
         ],
@@ -80164,13 +83491,18 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -80294,9 +83626,9 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump"
         ],
@@ -80311,8 +83643,10 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -80321,6 +83655,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -80462,6 +83799,10 @@ var overrides = {
           [
             95,
             "Upper Hand"
+          ],
+          [
+            99,
+            "Copycat"
           ]
         ],
         "tms": [
@@ -80486,6 +83827,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Aqua Cutter",
           "Blizzard",
           "Brick Break",
@@ -80506,6 +83848,9 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
@@ -80518,6 +83863,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -80647,6 +83995,7 @@ var overrides = {
           "Ice Punch",
           "Laser Focus",
           "Seed Bomb",
+          "Signal Beam",
           "Stomping Tantrum",
           "Thunder",
           "Thunder Punch"
@@ -80667,7 +84016,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
@@ -80684,7 +84034,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -81034,6 +84385,10 @@ var overrides = {
             "Roar"
           ],
           [
+            33,
+            "Superpower"
+          ],
+          [
             36,
             "Retaliate"
           ],
@@ -81054,6 +84409,10 @@ var overrides = {
             "Last Resort"
           ],
           [
+            54,
+            "Return"
+          ],
+          [
             59,
             "Giga Impact"
           ],
@@ -81063,15 +84422,19 @@ var overrides = {
           ],
           [
             66,
-            "Superpower"
+            "Close Combat"
           ],
           [
             70,
             "Double-Edge"
           ],
           [
+            74,
+            "Grassy Glide"
+          ],
+          [
             78,
-            "Close Combat"
+            "Knock Off"
           ],
           [
             82,
@@ -81084,6 +84447,10 @@ var overrides = {
           [
             91,
             "Roar"
+          ],
+          [
+            95,
+            "Explosion"
           ],
           [
             100,
@@ -81110,13 +84477,15 @@ var overrides = {
         "tutors": [
           "After You",
           "Helping Hand",
+          "Laser Focus",
           "Stomping Tantrum",
           "Thunder"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "After You",
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Slateport Tutor": [
             "Stomping Tantrum"
@@ -81126,7 +84495,8 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Stomping Tantrum"
@@ -81425,6 +84795,10 @@ var overrides = {
             "Play Rough"
           ],
           [
+            60,
+            "Simple Beam"
+          ],
+          [
             66,
             "Foul Play"
           ],
@@ -81437,8 +84811,16 @@ var overrides = {
             "Natural Gift"
           ],
           [
+            74,
+            "Burning Jealousy"
+          ],
+          [
             77,
             "Knock Off"
+          ],
+          [
+            79,
+            "Yawn"
           ],
           [
             82,
@@ -81468,6 +84850,7 @@ var overrides = {
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Foul Play",
           "Grass Knot",
           "Hidden Power",
@@ -81479,6 +84862,7 @@ var overrides = {
           "Thunder Wave"
         ],
         "tutors": [
+          "After You",
           "Embargo",
           "Laser Focus",
           "Lash Out",
@@ -81488,6 +84872,7 @@ var overrides = {
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Embargo",
             "Laser Focus"
           ],
@@ -81502,6 +84887,7 @@ var overrides = {
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Embargo",
             "Laser Focus"
           ],
@@ -82055,6 +85441,7 @@ var overrides = {
           "After You",
           "Helping Hand",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -82068,6 +85455,9 @@ var overrides = {
           "Slateport Tutor": [
             "Rock Slide"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Helping Hand",
@@ -82076,6 +85466,9 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -82137,6 +85530,7 @@ var overrides = {
           "After You",
           "Helping Hand",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -82150,6 +85544,9 @@ var overrides = {
           "Slateport Tutor": [
             "Rock Slide"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Helping Hand",
@@ -82158,6 +85555,9 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -82201,11 +85601,14 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
-          "Focus Energy"
+          "Air Slash"
         ],
         "tutorsBySource": {
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -82261,11 +85664,14 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
-          "Focus Energy"
+          "Air Slash"
         ],
         "tutorsBySource": {
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -82321,18 +85727,21 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
-          "Focus Energy",
+          "Air Slash",
           "Hurricane"
         ],
         "tutorsBySource": {
           "Route 119 Tutor": [
             "Hurricane"
           ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
+          "Route 120 Tutor": [
+            "Air Slash"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -82471,14 +85880,21 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -82606,12 +86022,24 @@ var overrides = {
             "Supercell Slam"
           ],
           [
+            69,
+            "Me First"
+          ],
+          [
             72,
             "High Horsepower"
           ],
           [
-            77,
+            75,
+            "Terrain Pulse"
+          ],
+          [
+            76,
             "Thunder"
+          ],
+          [
+            77,
+            "Rising Voltage"
           ],
           [
             82,
@@ -82647,20 +86075,33 @@ var overrides = {
         ],
         "tutors": [
           "Laser Focus",
-          "Thunder"
+          "Signal Beam",
+          "Thunder",
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
+          ],
+          "Route 120 Tutor": [
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -82704,6 +86145,10 @@ var overrides = {
             "Headbutt"
           ],
           [
+            12,
+            "Rock Throw"
+          ],
+          [
             14,
             "Rock Blast"
           ],
@@ -82718,6 +86163,10 @@ var overrides = {
           [
             27,
             "Rock Tomb"
+          ],
+          [
+            31,
+            "Sand Tomb"
           ],
           [
             40,
@@ -82854,6 +86303,10 @@ var overrides = {
             "Headbutt"
           ],
           [
+            12,
+            "Rock Throw"
+          ],
+          [
             14,
             "Rock Blast"
           ],
@@ -82868,6 +86321,14 @@ var overrides = {
           [
             27,
             "Rock Tomb"
+          ],
+          [
+            31,
+            "Sand Tomb"
+          ],
+          [
+            36,
+            "Rock Smash"
           ],
           [
             40,
@@ -83015,6 +86476,10 @@ var overrides = {
             "Headbutt"
           ],
           [
+            12,
+            "Rock Throw"
+          ],
+          [
             14,
             "Rock Blast"
           ],
@@ -83029,6 +86494,14 @@ var overrides = {
           [
             27,
             "Rock Tomb"
+          ],
+          [
+            31,
+            "Sand Tomb"
+          ],
+          [
+            36,
+            "Rock Smash"
           ],
           [
             40,
@@ -83067,12 +86540,24 @@ var overrides = {
             "Explosion"
           ],
           [
+            76,
+            "Mud Sport"
+          ],
+          [
             80,
             "Stone Edge"
           ],
           [
+            85,
+            "Lock-On"
+          ],
+          [
             90,
             "Rock Climb"
+          ],
+          [
+            95,
+            "Body Press"
           ]
         ],
         "tms": [
@@ -83098,14 +86583,16 @@ var overrides = {
           "Rock Slide",
           "Sand Tomb",
           "Stomping Tantrum",
-          "Weather Ball"
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Sand Tomb"
           ],
           "Petalburg Tutor": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Rock Slide",
@@ -83118,7 +86605,8 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide",
@@ -83180,9 +86668,11 @@ var overrides = {
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Embargo",
           "Helping Hand",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -83195,6 +86685,10 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Psycho Cut"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
@@ -83203,6 +86697,10 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Psycho Cut"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       },
@@ -83266,10 +86764,12 @@ var overrides = {
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Embargo",
           "Helping Hand",
           "Laser Focus",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -83283,6 +86783,10 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Psycho Cut"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
@@ -83292,6 +86796,10 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Psycho Cut"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -83564,6 +87072,10 @@ var overrides = {
           [
             99,
             "Hard Press"
+          ],
+          [
+            100,
+            "Fling"
           ]
         ],
         "tms": [
@@ -83649,10 +87161,6 @@ var overrides = {
           ],
           [
             1,
-            "Helping Hand"
-          ],
-          [
-            1,
             "Last Resort"
           ],
           [
@@ -83728,6 +87236,10 @@ var overrides = {
             "Dazzling Gleam"
           ],
           [
+            67,
+            "Lovely Kiss"
+          ],
+          [
             70,
             "Flamethrower"
           ],
@@ -83745,7 +87257,7 @@ var overrides = {
           ],
           [
             85,
-            "Healing Wish"
+            "Gravity"
           ],
           [
             90,
@@ -83754,9 +87266,18 @@ var overrides = {
           [
             95,
             "Spotlight"
+          ],
+          [
+            99,
+            "Healing Wish"
+          ],
+          [
+            100,
+            "Follow Me"
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Dazzling Gleam",
           "Disarming Voice",
           "Draining Kiss",
@@ -83769,6 +87290,7 @@ var overrides = {
           "Ice Beam",
           "Icy Wind",
           "Low Kick",
+          "Misty Explosion",
           "Psychic",
           "Return",
           "Shadow Ball",
@@ -83787,6 +87309,7 @@ var overrides = {
           "Ice Punch",
           "Laser Focus",
           "Magic Room",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
@@ -83813,6 +87336,9 @@ var overrides = {
             "Fire Blast",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Helping Hand",
@@ -83831,6 +87357,9 @@ var overrides = {
             "Blizzard",
             "Fire Blast",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -83972,7 +87501,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Rock Slide",
@@ -83990,7 +87518,6 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -84152,7 +87679,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Rock Slide",
@@ -84170,7 +87696,6 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -84221,6 +87746,10 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Defog"
+          ],
           [
             1,
             "Hard Press"
@@ -84278,6 +87807,10 @@ var overrides = {
             "Hammer Arm"
           ],
           [
+            51,
+            "Bullet Punch"
+          ],
+          [
             56,
             "Stone Edge"
           ],
@@ -84290,8 +87823,16 @@ var overrides = {
             "Poison Jab"
           ],
           [
+            69,
+            "Wide Guard"
+          ],
+          [
             72,
             "Superpower"
+          ],
+          [
+            74,
+            "Counter"
           ],
           [
             77,
@@ -84339,7 +87880,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Rock Slide",
@@ -84359,7 +87899,6 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -84756,6 +88295,10 @@ var overrides = {
             "Fling"
           ],
           [
+            70,
+            "Surf"
+          ],
+          [
             73,
             "Weather Ball"
           ],
@@ -84770,6 +88313,10 @@ var overrides = {
           [
             82,
             "Knock Off"
+          ],
+          [
+            86,
+            "Taunt"
           ],
           [
             90,
@@ -84801,6 +88348,7 @@ var overrides = {
         ],
         "tutors": [
           "After You",
+          "Aqua Cutter",
           "Brick Break",
           "Hydro Pump",
           "Ice Punch",
@@ -84822,6 +88370,9 @@ var overrides = {
             "Rock Slide",
             "Stomping Tantrum"
           ],
+          "Petalburg High-Crit Tutor": [
+            "Aqua Cutter"
+          ],
           "Route 119 Tutor": [
             "Hydro Pump",
             "Weather Ball"
@@ -84837,6 +88388,9 @@ var overrides = {
           ],
           "Poke Menu: Mauville": [
             "Infestation"
+          ],
+          "Poke Menu: Petalburg 2": [
+            "Aqua Cutter"
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump",
@@ -84892,7 +88446,6 @@ var overrides = {
           "Bind",
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Laser Focus",
@@ -84917,7 +88470,6 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -84981,7 +88533,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Laser Focus",
@@ -85001,7 +88552,6 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -85024,7 +88574,7 @@ var overrides = {
       ],
       "abs": [
         "Leaf Guard",
-        "Chlorophyll",
+        "Leaf Guard",
         "Overcoat"
       ],
       "items": [
@@ -85088,20 +88638,23 @@ var overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Seed Bomb"
+          "Seed Bomb",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Bug Bite"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       },
@@ -85127,7 +88680,7 @@ var overrides = {
       ],
       "abs": [
         "Leaf Guard",
-        "Chlorophyll",
+        "Leaf Guard",
         "Overcoat"
       ],
       "items": [
@@ -85199,20 +88752,23 @@ var overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Seed Bomb"
+          "Seed Bomb",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Bug Bite"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       },
@@ -85298,26 +88854,42 @@ var overrides = {
           ],
           [
             35,
-            "X-Scissor"
+            "Attack Order"
           ],
           [
             40,
             "Entrainment"
           ],
           [
+            42,
+            "Giga Drain"
+          ],
+          [
             45,
             "Screech"
+          ],
+          [
+            49,
+            "Lunge"
           ],
           [
             50,
             "Leaf Blade"
           ],
           [
+            52,
+            "Horn Leech"
+          ],
+          [
             55,
             "Sacred Sword"
           ],
           [
-            60,
+            58,
+            "X-Scissor"
+          ],
+          [
+            61,
             "Psycho Cut"
           ],
           [
@@ -85329,11 +88901,23 @@ var overrides = {
             "Confide"
           ],
           [
+            67,
+            "Leech Life"
+          ],
+          [
             70,
             "Knock Off"
           ],
           [
-            76,
+            73,
+            "Protect"
+          ],
+          [
+            75,
+            "Grassy Glide"
+          ],
+          [
+            77,
             "Leaf Storm"
           ],
           [
@@ -85366,6 +88950,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Poison Jab",
           "Return",
           "Solar Beam",
@@ -85378,7 +88963,8 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Seed Bomb",
-          "Shadow Claw"
+          "Shadow Claw",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
@@ -85391,7 +88977,8 @@ var overrides = {
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -85403,7 +88990,8 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -85438,6 +89026,10 @@ var overrides = {
           [
             1,
             "Poison Sting"
+          ],
+          [
+            5,
+            "Fury Cutter"
           ],
           [
             8,
@@ -85481,7 +89073,7 @@ var overrides = {
           ],
           [
             56,
-            "Stomping Tantrum"
+            "Metal Sound"
           ],
           [
             61,
@@ -85500,7 +89092,8 @@ var overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Infestation"
+          "Infestation",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -85509,11 +89102,17 @@ var overrides = {
           "Petalburg Tutor": [
             "Bug Bite"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -85562,6 +89161,10 @@ var overrides = {
             "Poison Sting"
           ],
           [
+            5,
+            "Fury Cutter"
+          ],
+          [
             8,
             "Screech"
           ],
@@ -85599,11 +89202,11 @@ var overrides = {
           ],
           [
             52,
-            "Smart Strike"
+            "Protect"
           ],
           [
             56,
-            "Stomping Tantrum"
+            "Metal Sound"
           ],
           [
             61,
@@ -85622,7 +89225,8 @@ var overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Infestation"
+          "Infestation",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -85631,11 +89235,17 @@ var overrides = {
           "Petalburg Tutor": [
             "Bug Bite"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -85705,6 +89315,10 @@ var overrides = {
           ],
           [
             5,
+            "Fury Cutter"
+          ],
+          [
+            5,
             "Poison Sting"
           ],
           [
@@ -85714,6 +89328,10 @@ var overrides = {
           [
             12,
             "Pursuit"
+          ],
+          [
+            15,
+            "Endure"
           ],
           [
             19,
@@ -85728,12 +89346,24 @@ var overrides = {
             "Venoshock"
           ],
           [
+            34,
+            "Aqua Tail"
+          ],
+          [
             39,
             "Steamroller"
           ],
           [
+            42,
+            "Cross Poison"
+          ],
+          [
             45,
             "Screech"
+          ],
+          [
+            46,
+            "Pin Missile"
           ],
           [
             49,
@@ -85745,18 +89375,26 @@ var overrides = {
           ],
           [
             56,
-            "Stomping Tantrum"
+            "Metal Sound"
           ],
           [
-            61,
+            59,
             "X-Scissor"
+          ],
+          [
+            62,
+            "Lunge"
           ],
           [
             65,
             "Superpower"
           ],
           [
-            70,
+            68,
+            "Twineedle"
+          ],
+          [
+            71,
             "Earthquake"
           ],
           [
@@ -85768,6 +89406,10 @@ var overrides = {
             "Iron Head"
           ],
           [
+            79,
+            "Snatch"
+          ],
+          [
             81,
             "Megahorn"
           ],
@@ -85777,7 +89419,7 @@ var overrides = {
           ],
           [
             90,
-            "Twineedle"
+            "Leech Life"
           ],
           [
             95,
@@ -85810,6 +89452,7 @@ var overrides = {
           "Cross Poison",
           "Infestation",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
@@ -85826,6 +89469,9 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Cross Poison"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
@@ -85838,6 +89484,9 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Cross Poison"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -86086,6 +89735,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            72,
+            "Copycat"
+          ],
+          [
             76,
             "Leaf Storm"
           ],
@@ -86102,8 +89755,16 @@ var overrides = {
             "Moonblast"
           ],
           [
+            95,
+            "Endeavor"
+          ],
+          [
             99,
             "Misty Explosion"
+          ],
+          [
+            100,
+            "Beat Up"
           ]
         ],
         "tms": [
@@ -86115,6 +89776,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Play Rough",
           "Psychic",
           "Return",
@@ -86186,6 +89848,10 @@ var overrides = {
             "Absorb"
           ],
           [
+            5,
+            "Sweet Scent"
+          ],
+          [
             10,
             "Sleep Powder"
           ],
@@ -86215,7 +89881,7 @@ var overrides = {
           ],
           [
             31,
-            "Helping Hand"
+            "Safeguard"
           ],
           [
             50,
@@ -86307,6 +89973,10 @@ var overrides = {
             "Leaf Storm"
           ],
           [
+            5,
+            "Sweet Scent"
+          ],
+          [
             10,
             "Sleep Powder"
           ],
@@ -86336,7 +90006,7 @@ var overrides = {
           ],
           [
             31,
-            "Helping Hand"
+            "Safeguard"
           ],
           [
             35,
@@ -86389,6 +90059,10 @@ var overrides = {
           [
             95,
             "Solar Beam"
+          ],
+          [
+            99,
+            "Chloroblast"
           ]
         ],
         "tms": [
@@ -86646,7 +90320,7 @@ var overrides = {
           ],
           [
             22,
-            "Embargo"
+            "Bulldoze"
           ],
           [
             25,
@@ -86709,7 +90383,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
           "Lash Out",
           "Rock Slide",
@@ -86736,7 +90409,6 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -86827,7 +90499,7 @@ var overrides = {
           ],
           [
             22,
-            "Embargo"
+            "Bulldoze"
           ],
           [
             25,
@@ -86895,7 +90567,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
           "Lash Out",
           "Rock Slide",
@@ -86922,7 +90593,6 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -87021,7 +90691,7 @@ var overrides = {
           ],
           [
             22,
-            "Embargo"
+            "Bulldoze"
           ],
           [
             25,
@@ -87060,6 +90730,10 @@ var overrides = {
             "Me First"
           ],
           [
+            67,
+            "Counter"
+          ],
+          [
             70,
             "Darkest Lariat"
           ],
@@ -87082,6 +90756,10 @@ var overrides = {
           [
             95,
             "Torment"
+          ],
+          [
+            99,
+            "Pursuit"
           ]
         ],
         "tms": [
@@ -87110,7 +90788,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
           "Lash Out",
           "Rock Slide",
@@ -87137,7 +90814,6 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -87245,7 +90921,6 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Rock Slide"
         ],
         "tutorsBySource": {
@@ -87259,9 +90934,6 @@ var overrides = {
           ],
           "Route 119 Tutor": [
             "Fire Blast"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -87385,11 +91057,15 @@ var overrides = {
           ],
           [
             75,
-            "Earthquake"
+            "Flare Blitz"
+          ],
+          [
+            78,
+            "Torment"
           ],
           [
             81,
-            "U-turn"
+            "Earthquake"
           ],
           [
             86,
@@ -87397,7 +91073,7 @@ var overrides = {
           ],
           [
             90,
-            "Flare Blitz"
+            "U-turn"
           ],
           [
             95,
@@ -87405,11 +91081,11 @@ var overrides = {
           ],
           [
             99,
-            "Stone Edge"
+            "Fling"
           ],
           [
             100,
-            "Fling"
+            "V-create"
           ]
         ],
         "tms": [
@@ -87438,7 +91114,6 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Laser Focus",
           "Mystical Fire",
           "Rock Slide"
@@ -87463,7 +91138,6 @@ var overrides = {
             "Mystical Fire"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
@@ -87811,12 +91485,24 @@ var overrides = {
             "Rock Wrecker"
           ],
           [
+            81,
+            "Lunge"
+          ],
+          [
             85,
             "Rock Climb"
           ],
           [
             90,
             "Wide Guard"
+          ],
+          [
+            95,
+            "Protect"
+          ],
+          [
+            99,
+            "Rest"
           ]
         ],
         "tms": [
@@ -87957,7 +91643,7 @@ var overrides = {
           ],
           [
             53,
-            "Brick Break"
+            "Sky Uppercut"
           ],
           [
             55,
@@ -87968,11 +91654,7 @@ var overrides = {
             "Super Fang"
           ],
           [
-            65,
-            "Foul Play"
-          ],
-          [
-            72,
+            66,
             "Close Combat"
           ]
         ],
@@ -88115,12 +91797,16 @@ var overrides = {
             "Facade"
           ],
           [
+            45,
+            "Entrainment"
+          ],
+          [
             48,
             "Low Sweep"
           ],
           [
             53,
-            "Brick Break"
+            "Sky Uppercut"
           ],
           [
             55,
@@ -88131,8 +91817,16 @@ var overrides = {
             "Super Fang"
           ],
           [
+            61,
+            "Fake Out"
+          ],
+          [
             65,
             "Foul Play"
+          ],
+          [
+            68,
+            "Acid Spray"
           ],
           [
             72,
@@ -88145,6 +91839,10 @@ var overrides = {
           [
             82,
             "Knock Off"
+          ],
+          [
+            84,
+            "Fake Out"
           ],
           [
             86,
@@ -88161,6 +91859,14 @@ var overrides = {
           [
             99,
             "Head Smash"
+          ],
+          [
+            100,
+            "Beat Up"
+          ],
+          [
+            100,
+            "Wicked Blow"
           ]
         ],
         "tms": [
@@ -88168,6 +91874,7 @@ var overrides = {
           "Dragon Claw",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Focus Blast",
           "Foul Play",
           "Grass Knot",
@@ -88331,7 +92038,15 @@ var overrides = {
           ],
           [
             90,
+            "Aeroblast"
+          ],
+          [
+            95,
             "Healing Wish"
+          ],
+          [
+            99,
+            "Esper Wing"
           ]
         ],
         "tms": [
@@ -88357,8 +92072,10 @@ var overrides = {
           "Thunder Wave"
         ],
         "tutors": [
+          "Air Slash",
           "Magic Room",
           "Psycho Cut",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -88369,12 +92086,20 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Psycho Cut"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Magic Room",
             "Telekinesis"
           ],
           "Poke Menu: Petalburg 2": [
             "Psycho Cut"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -88614,6 +92339,10 @@ var overrides = {
             "Curse"
           ],
           [
+            77,
+            "Lucky Chant"
+          ],
+          [
             80,
             "Destiny Bond"
           ],
@@ -88624,6 +92353,10 @@ var overrides = {
           [
             90,
             "Trick Room"
+          ],
+          [
+            95,
+            "Torment"
           ],
           [
             99,
@@ -88775,7 +92508,7 @@ var overrides = {
           ],
           [
             70,
-            "Rock Slide"
+            "Soak"
           ],
           [
             75,
@@ -88940,7 +92673,7 @@ var overrides = {
           ],
           [
             70,
-            "Rock Slide"
+            "Soak"
           ],
           [
             75,
@@ -88957,10 +92690,19 @@ var overrides = {
           [
             90,
             "Scald"
+          ],
+          [
+            93,
+            "Guard Swap"
+          ],
+          [
+            96,
+            "Rock Climb"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Dive",
           "Earth Power",
           "Earthquake",
@@ -88984,11 +92726,15 @@ var overrides = {
           "Blizzard",
           "Hydro Pump",
           "Rock Slide",
-          "Whirlpool"
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Whirlpool"
+          ],
+          "Petalburg Tutor": [
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Rock Slide"
@@ -88996,6 +92742,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
@@ -89273,6 +93022,14 @@ var overrides = {
             "Aeroblast"
           ],
           [
+            93,
+            "Endeavor"
+          ],
+          [
+            96,
+            "Rock Climb"
+          ],
+          [
             100,
             "Meteor Beam"
           ]
@@ -89298,11 +93055,18 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
+          "Laser Focus",
           "Lash Out",
           "Rock Slide",
           "Shadow Claw"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "After You",
+            "Laser Focus"
+          ],
           "Slateport Tutor": [
             "Lash Out",
             "Rock Slide"
@@ -89310,12 +93074,22 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You",
+            "Laser Focus"
+          ],
           "Poke Menu: Slateport": [
             "Lash Out",
             "Rock Slide"
           ],
           "Poke Menu: Petalburg 2": [
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -89761,6 +93535,10 @@ var overrides = {
             "Memento"
           ],
           [
+            93,
+            "Scary Face"
+          ],
+          [
             96,
             "Dark Void"
           ]
@@ -89772,6 +93550,7 @@ var overrides = {
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Focus Blast",
           "Foul Play",
@@ -90024,6 +93803,7 @@ var overrides = {
           "Helping Hand",
           "Magic Room",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -90036,6 +93816,9 @@ var overrides = {
           "Slateport Tutor": [
             "Rock Slide"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Helping Hand",
@@ -90044,6 +93827,9 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -90110,6 +93896,7 @@ var overrides = {
           "Helping Hand",
           "Magic Room",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -90122,6 +93909,9 @@ var overrides = {
           "Slateport Tutor": [
             "Rock Slide"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Helping Hand",
@@ -90130,6 +93920,9 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -90199,6 +93992,7 @@ var overrides = {
           "Laser Focus",
           "Magic Room",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -90213,6 +94007,9 @@ var overrides = {
             "Brick Break",
             "Rock Slide"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Helping Hand",
@@ -90223,6 +94020,9 @@ var overrides = {
           "Poke Menu: Slateport": [
             "Brick Break",
             "Rock Slide"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -90359,6 +94159,7 @@ var overrides = {
           "Helping Hand",
           "Infestation",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -90380,6 +94181,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
@@ -90395,6 +94199,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -90547,6 +94354,7 @@ var overrides = {
           "Helping Hand",
           "Infestation",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -90568,6 +94376,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
@@ -90583,6 +94394,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -90716,6 +94530,10 @@ var overrides = {
           [
             95,
             "Focus Blast"
+          ],
+          [
+            99,
+            "Psystrike"
           ]
         ],
         "tms": [
@@ -90747,6 +94565,7 @@ var overrides = {
           "Laser Focus",
           "Magic Room",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -90774,6 +94593,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
@@ -90794,6 +94616,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -90859,7 +94684,7 @@ var overrides = {
           ],
           [
             19,
-            "Bubble Beam"
+            "Scald"
           ],
           [
             21,
@@ -90882,16 +94707,20 @@ var overrides = {
             "Aqua Jet"
           ],
           [
+            39,
+            "Muddy Water"
+          ],
+          [
             43,
             "Tailwind"
           ],
           [
-            50,
-            "Hydro Pump"
+            45,
+            "Dual Wingbeat"
           ],
           [
-            55,
-            "Brave Bird"
+            49,
+            "Hydro Pump"
           ],
           [
             60,
@@ -90955,10 +94784,6 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Alluring Voice"
-          ],
-          [
-            1,
             "Ice Beam"
           ],
           [
@@ -90995,7 +94820,7 @@ var overrides = {
           ],
           [
             19,
-            "Bubble Beam"
+            "Scald"
           ],
           [
             21,
@@ -91019,23 +94844,43 @@ var overrides = {
           ],
           [
             39,
-            "Scald"
+            "Muddy Water"
           ],
           [
             43,
             "Tailwind"
           ],
           [
-            50,
+            45,
+            "Dual Wingbeat"
+          ],
+          [
+            49,
             "Hydro Pump"
+          ],
+          [
+            51,
+            "Alluring Voice"
+          ],
+          [
+            53,
+            "Sing"
           ],
           [
             55,
             "Brave Bird"
           ],
           [
+            58,
+            "Tailwind"
+          ],
+          [
             60,
             "Hurricane"
+          ],
+          [
+            64,
+            "Me First"
           ],
           [
             68,
@@ -91068,6 +94913,7 @@ var overrides = {
         ],
         "tms": [
           "Aerial Ace",
+          "Chilling Water",
           "Defog",
           "Dive",
           "Facade",
@@ -91079,7 +94925,24 @@ var overrides = {
           "Return",
           "Surf"
         ],
-        "tutors": []
+        "tutors": [
+          "After You",
+          "Whirlpool"
+        ],
+        "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Whirlpool"
+          ],
+          "Petalburg Tutor": [
+            "After You"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You"
+          ],
+          "Poke Menu: Mauville": [
+            "Whirlpool"
+          ]
+        }
       }
     },
     "Vanillite": {
@@ -91120,14 +94983,21 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
-          "Blizzard"
+          "Blizzard",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Route 119 Tutor": [
             "Blizzard"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Route 119": [
             "Blizzard"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -91182,14 +95052,21 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
-          "Blizzard"
+          "Blizzard",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Route 119 Tutor": [
             "Blizzard"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Route 119": [
             "Blizzard"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -91245,6 +95122,7 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -91252,9 +95130,15 @@ var overrides = {
             "Blizzard",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Route 119": [
             "Blizzard",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -91376,7 +95260,9 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -91386,11 +95272,19 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -91483,7 +95377,8 @@ var overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Infestation"
+          "Infestation",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -91492,11 +95387,17 @@ var overrides = {
           "Petalburg Tutor": [
             "Bug Bite"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -91633,6 +95534,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            85,
+            "Acid Spray"
+          ],
+          [
             88,
             "Leech Life"
           ],
@@ -91651,6 +95556,7 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Feint Attack",
           "Focus Blast",
           "Hard Press",
           "Hidden Power",
@@ -91661,24 +95567,34 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "After You",
           "Bug Bite",
           "Infestation",
-          "Laser Focus"
+          "Laser Focus",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Infestation"
           ],
           "Petalburg Tutor": [
+            "After You",
             "Bug Bite",
             "Laser Focus"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Bug Bite",
             "Laser Focus"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -91713,14 +95629,6 @@ var overrides = {
           [
             1,
             "Absorb"
-          ],
-          [
-            1,
-            "Astonish"
-          ],
-          [
-            1,
-            "Bide"
           ],
           [
             8,
@@ -91885,15 +95793,7 @@ var overrides = {
           ],
           [
             1,
-            "Astonish"
-          ],
-          [
-            1,
-            "Bide"
-          ],
-          [
-            1,
-            "Leaf Storm"
+            "Strength Sap"
           ],
           [
             8,
@@ -91932,6 +95832,10 @@ var overrides = {
             "Synthesis"
           ],
           [
+            39,
+            "Pounce"
+          ],
+          [
             43,
             "Clear Smog"
           ],
@@ -91942,6 +95846,10 @@ var overrides = {
           [
             49,
             "Sludge Bomb"
+          ],
+          [
+            53,
+            "Energy Ball"
           ],
           [
             54,
@@ -91956,12 +95864,24 @@ var overrides = {
             "Spore"
           ],
           [
+            66,
+            "Grass Knot"
+          ],
+          [
             67,
-            "Energy Ball"
+            "Leaf Storm"
+          ],
+          [
+            70,
+            "Grass Knot"
           ],
           [
             73,
             "Foul Play"
+          ],
+          [
+            75,
+            "Clear Smog"
           ],
           [
             77,
@@ -91972,12 +95892,32 @@ var overrides = {
             "Corrosive Gas"
           ],
           [
+            83,
+            "Giga Drain"
+          ],
+          [
+            85,
+            "Sweet Scent"
+          ],
+          [
             86,
             "First Impression"
           ],
           [
+            88,
+            "Synthesis"
+          ],
+          [
             90,
             "Leaf Storm"
+          ],
+          [
+            95,
+            "Toxic"
+          ],
+          [
+            99,
+            "Strength Sap"
           ]
         ],
         "tms": [
@@ -91995,12 +95935,18 @@ var overrides = {
         ],
         "tutors": [
           "After You",
+          "Bind",
+          "Magic Room",
           "Seed Bomb",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Bind"
+          ],
           "Petalburg Tutor": [
-            "After You"
+            "After You",
+            "Magic Room"
           ],
           "Slateport Tutor": [
             "Stomping Tantrum"
@@ -92009,10 +95955,14 @@ var overrides = {
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "After You"
+            "After You",
+            "Magic Room"
           ],
           "Poke Menu: Slateport": [
             "Stomping Tantrum"
+          ],
+          "Poke Menu: Mauville": [
+            "Bind"
           ],
           "Poke Menu: Route 120": [
             "Seed Bomb"
@@ -92338,6 +96288,7 @@ var overrides = {
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Dark Pulse",
           "Dazzling Gleam",
           "Dive",
@@ -92594,7 +96545,8 @@ var overrides = {
         "tutors": [
           "Bug Bite",
           "Cross Poison",
-          "Infestation"
+          "Infestation",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -92606,6 +96558,9 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Cross Poison"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
@@ -92614,6 +96569,9 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Cross Poison"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -92660,6 +96618,10 @@ var overrides = {
           [
             1,
             "Absorb"
+          ],
+          [
+            1,
+            "Silk Trap"
           ],
           [
             1,
@@ -92735,7 +96697,15 @@ var overrides = {
           ],
           [
             75,
+            "Terrain Pulse"
+          ],
+          [
+            76,
             "Thunder"
+          ],
+          [
+            77,
+            "Rising Voltage"
           ],
           [
             80,
@@ -92748,6 +96718,10 @@ var overrides = {
           [
             90,
             "Sticky Web"
+          ],
+          [
+            95,
+            "Rage Powder"
           ]
         ],
         "tms": [
@@ -92756,6 +96730,7 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Hidden Power",
           "Poison Jab",
@@ -92766,17 +96741,22 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Bind",
           "Bug Bite",
           "Cross Poison",
           "Infestation",
+          "Laser Focus",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
+            "Bind",
             "Infestation"
           ],
           "Petalburg Tutor": [
-            "Bug Bite"
+            "Bug Bite",
+            "Laser Focus"
           ],
           "Petalburg High-Crit Tutor": [
             "Cross Poison"
@@ -92784,10 +96764,15 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
-            "Bug Bite"
+            "Bug Bite",
+            "Laser Focus"
           ],
           "Poke Menu: Mauville": [
+            "Bind",
             "Infestation"
           ],
           "Poke Menu: Petalburg 2": [
@@ -92795,6 +96780,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -93084,11 +97072,17 @@ var overrides = {
         ],
         "tutors": [
           "Body Press",
+          "Laser Focus",
           "Seed Bomb",
           "Shadow Claw",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Laser Focus",
+            "Wonder Room"
+          ],
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
           ],
@@ -93100,6 +97094,10 @@ var overrides = {
           ],
           "Poke Menu: Starter": [
             "Body Press"
+          ],
+          "Poke Menu: Petalburg": [
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Petalburg 2": [
             "Shadow Claw"
@@ -93151,6 +97149,7 @@ var overrides = {
         ],
         "tutors": [
           "Bind",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -93160,11 +97159,17 @@ var overrides = {
           "Petalburg Tutor": [
             "Telekinesis"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Telekinesis"
           ],
           "Poke Menu: Mauville": [
             "Bind"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -93219,6 +97224,7 @@ var overrides = {
         ],
         "tutors": [
           "Bind",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -93228,11 +97234,17 @@ var overrides = {
           "Petalburg Tutor": [
             "Telekinesis"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Telekinesis"
           ],
           "Poke Menu: Mauville": [
             "Bind"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -93287,6 +97299,7 @@ var overrides = {
         ],
         "tutors": [
           "Bind",
+          "Signal Beam",
           "Telekinesis",
           "Thunder"
         ],
@@ -93300,6 +97313,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Telekinesis"
           ],
@@ -93308,6 +97324,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -93466,6 +97485,7 @@ var overrides = {
         ],
         "tutors": [
           "Bind",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -93475,11 +97495,17 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Mauville": [
             "Bind"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -93577,7 +97603,11 @@ var overrides = {
             "Drain Punch"
           ],
           [
-            57,
+            55,
+            "U-turn"
+          ],
+          [
+            58,
             "Aqua Tail"
           ],
           [
@@ -93593,12 +97623,20 @@ var overrides = {
             "Grass Knot"
           ],
           [
-            75,
+            73,
+            "Thunderclap"
+          ],
+          [
+            77,
             "Supercell Slam"
           ],
           [
             80,
             "Knock Off"
+          ],
+          [
+            82,
+            "Iron Tail"
           ],
           [
             85,
@@ -93611,6 +97649,10 @@ var overrides = {
           [
             95,
             "Volt Switch"
+          ],
+          [
+            99,
+            "Bolt Strike"
           ]
         ],
         "tms": [
@@ -93641,6 +97683,7 @@ var overrides = {
           "Fire Punch",
           "Ice Punch",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Thunder",
           "Thunder Punch"
@@ -93660,6 +97703,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -93676,6 +97722,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -93726,6 +97775,7 @@ var overrides = {
           "After You",
           "Embargo",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -93739,6 +97789,9 @@ var overrides = {
           "Slateport Tutor": [
             "Rock Slide"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
@@ -93747,6 +97800,9 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -93809,6 +97865,7 @@ var overrides = {
           "After You",
           "Embargo",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -93822,6 +97879,9 @@ var overrides = {
           "Slateport Tutor": [
             "Rock Slide"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
@@ -93830,6 +97890,9 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -94315,12 +98378,15 @@ var overrides = {
         ],
         "tms": [
           "Dark Pulse",
+          "Disarming Voice",
           "Endure",
           "Energy Ball",
           "Facade",
           "Flamethrower",
           "Flash",
           "Hidden Power",
+          "Icy Wind",
+          "Magical Leaf",
           "Psychic",
           "Return",
           "Shadow Ball",
@@ -94483,7 +98549,6 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Shadow Claw",
           "Stomping Tantrum"
         ],
@@ -94494,9 +98559,6 @@ var overrides = {
           ],
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -94632,7 +98694,6 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Shadow Claw",
           "Stomping Tantrum"
         ],
@@ -94643,9 +98704,6 @@ var overrides = {
           ],
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -94780,8 +98838,24 @@ var overrides = {
             "Dragon Hammer"
           ],
           [
+            84,
+            "Fling"
+          ],
+          [
             86,
             "Outrage"
+          ],
+          [
+            91,
+            "Roar"
+          ],
+          [
+            95,
+            "Dragon Cheer"
+          ],
+          [
+            99,
+            "Iron Tail"
           ],
           [
             100,
@@ -94814,7 +98888,6 @@ var overrides = {
           "Aqua Cutter",
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Laser Focus",
           "Psycho Cut",
           "Rock Slide",
@@ -94837,7 +98910,6 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
@@ -94907,6 +98979,10 @@ var overrides = {
           [
             19,
             "Ice Shard"
+          ],
+          [
+            23,
+            "Roar"
           ],
           [
             26,
@@ -95077,6 +99153,10 @@ var overrides = {
             "Ice Shard"
           ],
           [
+            23,
+            "Roar"
+          ],
+          [
             26,
             "Chilling Water"
           ],
@@ -95113,12 +99193,28 @@ var overrides = {
             "Icicle Crash"
           ],
           [
+            54,
+            "Ice Shard"
+          ],
+          [
+            56,
+            "Icicle Spear"
+          ],
+          [
             59,
             "Liquidation"
           ],
           [
+            61,
+            "Yawn"
+          ],
+          [
             66,
             "Close Combat"
+          ],
+          [
+            68,
+            "Trailblaze"
           ],
           [
             70,
@@ -95127,6 +99223,14 @@ var overrides = {
           [
             75,
             "Mountain Gale"
+          ],
+          [
+            77,
+            "Triple Dive"
+          ],
+          [
+            80,
+            "Upper Hand"
           ],
           [
             85,
@@ -95245,7 +99349,8 @@ var overrides = {
         "tutors": [
           "Bind",
           "Blizzard",
-          "Laser Focus"
+          "Laser Focus",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -95257,6 +99362,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Blizzard"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Laser Focus"
           ],
@@ -95265,6 +99373,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Blizzard"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -95276,7 +99387,7 @@ var overrides = {
         "Bug"
       ],
       "abs": [
-        "Hydration",
+        "Shell Armor",
         "Shell Armor",
         "Overcoat"
       ],
@@ -95316,7 +99427,7 @@ var overrides = {
             "Mega Drain"
           ],
           [
-            25,
+            26,
             "Swift"
           ],
           [
@@ -95334,7 +99445,8 @@ var overrides = {
         ],
         "tutors": [
           "Bug Bite",
-          "Infestation"
+          "Infestation",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -95343,11 +99455,17 @@ var overrides = {
           "Petalburg Tutor": [
             "Bug Bite"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -95419,7 +99537,7 @@ var overrides = {
             "Mega Drain"
           ],
           [
-            25,
+            26,
             "Swift"
           ],
           [
@@ -95455,7 +99573,11 @@ var overrides = {
             "Power Swap"
           ],
           [
-            69,
+            67,
+            "Round"
+          ],
+          [
+            70,
             "Final Gambit"
           ],
           [
@@ -95481,6 +99603,10 @@ var overrides = {
           [
             95,
             "Feint"
+          ],
+          [
+            99,
+            "Pursuit"
           ]
         ],
         "tms": [
@@ -95493,24 +99619,37 @@ var overrides = {
           "Sludge Bomb"
         ],
         "tutors": [
+          "After You",
           "Bug Bite",
           "Infestation",
-          "Laser Focus"
+          "Laser Focus",
+          "Signal Beam",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Infestation"
           ],
           "Petalburg Tutor": [
+            "After You",
             "Bug Bite",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
+          ],
+          "Route 120 Tutor": [
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Bug Bite",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -95523,8 +99662,8 @@ var overrides = {
         "Electric"
       ],
       "abs": [
-        "Sand Veil",
-        "Limber",
+        "Own Tempo",
+        "Own Tempo",
         "Static"
       ],
       "items": [
@@ -95572,11 +99711,11 @@ var overrides = {
           ],
           [
             13,
-            "Mud Shot"
+            "Camouflage"
           ],
           [
             17,
-            "Camouflage"
+            "Mud Shot"
           ],
           [
             21,
@@ -95611,20 +99750,40 @@ var overrides = {
             "Earth Power"
           ],
           [
-            61,
-            "Fissure"
+            59,
+            "Round"
+          ],
+          [
+            63,
+            "Yawn"
+          ],
+          [
+            66,
+            "Entrainment"
           ],
           [
             70,
             "Earthquake"
           ],
           [
+            75,
+            "Nature Power"
+          ],
+          [
             80,
             "Knock Off"
           ],
           [
+            85,
+            "Follow Me"
+          ],
+          [
             90,
             "Foul Play"
+          ],
+          [
+            95,
+            "Stealth Rock"
           ]
         ],
         "tms": [
@@ -95752,7 +99911,7 @@ var overrides = {
           ],
           [
             56,
-            "Rock Slide"
+            "Me First"
           ],
           [
             62,
@@ -95805,21 +99964,22 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
+          "Laser Focus",
           "Rock Slide"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Slateport Tutor": [
             "Brick Break",
             "Rock Slide"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -95907,8 +100067,12 @@ var overrides = {
             "Aura Sphere"
           ],
           [
-            44,
+            43,
             "Acrobatics"
+          ],
+          [
+            45,
+            "Sky Uppercut"
           ],
           [
             46,
@@ -95924,7 +100088,7 @@ var overrides = {
           ],
           [
             56,
-            "Rock Slide"
+            "Me First"
           ],
           [
             62,
@@ -95951,12 +100115,28 @@ var overrides = {
             "Triple Axel"
           ],
           [
+            85,
+            "Wide Guard"
+          ],
+          [
             90,
             "Close Combat"
           ],
           [
+            92,
+            "Fake Out"
+          ],
+          [
             95,
             "High Jump Kick"
+          ],
+          [
+            99,
+            "Fling"
+          ],
+          [
+            100,
+            "Triple Kick"
           ]
         ],
         "tms": [
@@ -95976,14 +100156,15 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "After You",
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Rock Slide"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -95992,7 +100173,7 @@ var overrides = {
             "Rock Slide"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
+            "After You",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -96110,12 +100291,20 @@ var overrides = {
             "Sucker Punch"
           ],
           [
+            68,
+            "Iron Tail"
+          ],
+          [
             71,
             "Aqua Tail"
           ],
           [
-            76,
-            "Outrage"
+            73,
+            "Grassy Glide"
+          ],
+          [
+            77,
+            "Glaive Rush"
           ],
           [
             79,
@@ -96126,8 +100315,20 @@ var overrides = {
             "Dragon Hammer"
           ],
           [
+            84,
+            "Torment"
+          ],
+          [
             86,
             "Gunk Shot"
+          ],
+          [
+            90,
+            "Pursuit"
+          ],
+          [
+            95,
+            "Outrage"
           ],
           [
             98,
@@ -96144,6 +100345,7 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Focus Blast",
           "Hard Press",
@@ -96249,7 +100451,7 @@ var overrides = {
           ],
           [
             21,
-            "Stomping Tantrum"
+            "Dig"
           ],
           [
             25,
@@ -96324,6 +100526,7 @@ var overrides = {
           "Helping Hand",
           "Ice Punch",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder Punch"
@@ -96341,6 +100544,9 @@ var overrides = {
             "Stomping Tantrum",
             "Thunder Punch"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Telekinesis"
@@ -96352,6 +100558,9 @@ var overrides = {
             "Rock Slide",
             "Stomping Tantrum",
             "Thunder Punch"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -96421,7 +100630,7 @@ var overrides = {
           ],
           [
             21,
-            "Stomping Tantrum"
+            "Dig"
           ],
           [
             25,
@@ -96446,6 +100655,10 @@ var overrides = {
           [
             55,
             "Drain Punch"
+          ],
+          [
+            55,
+            "Sky Uppercut"
           ],
           [
             60,
@@ -96490,6 +100703,7 @@ var overrides = {
           "Fly",
           "Focus Blast",
           "Grass Knot",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Ice Beam",
@@ -96512,15 +100726,20 @@ var overrides = {
           "Fire Punch",
           "Helping Hand",
           "Ice Punch",
+          "Magic Room",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
-          "Thunder Punch"
+          "Thunder Punch",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
-            "Telekinesis"
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -96530,12 +100749,17 @@ var overrides = {
             "Stomping Tantrum",
             "Thunder Punch"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
-            "Telekinesis"
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -96544,6 +100768,9 @@ var overrides = {
             "Rock Slide",
             "Stomping Tantrum",
             "Thunder Punch"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -96656,6 +100883,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Embargo",
           "Lash Out",
@@ -96674,6 +100902,9 @@ var overrides = {
             "Psycho Cut",
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo"
           ],
@@ -96684,6 +100915,9 @@ var overrides = {
           "Poke Menu: Petalburg 2": [
             "Psycho Cut",
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -96789,27 +101023,7 @@ var overrides = {
           ],
           [
             70,
-            "Metal Burst"
-          ],
-          [
-            75,
-            "Knock Off"
-          ],
-          [
-            80,
-            "Foul Play"
-          ],
-          [
-            85,
-            "Hard Press"
-          ],
-          [
-            90,
-            "Payback"
-          ],
-          [
-            95,
-            "Guillotine"
+            "Magnet Rise"
           ]
         ],
         "tms": [
@@ -96818,6 +101032,7 @@ var overrides = {
           "Dark Pulse",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Focus Blast",
           "Foul Play",
           "Grass Knot",
@@ -96833,6 +101048,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Embargo",
           "Laser Focus",
@@ -96853,6 +101069,9 @@ var overrides = {
             "Psycho Cut",
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Laser Focus"
@@ -96864,6 +101083,9 @@ var overrides = {
           "Poke Menu: Petalburg 2": [
             "Psycho Cut",
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -96924,7 +101146,6 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
-          "Focus Energy",
           "Lash Out",
           "Rock Slide",
           "Stomping Tantrum"
@@ -96934,9 +101155,6 @@ var overrides = {
             "Lash Out",
             "Rock Slide",
             "Stomping Tantrum"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Lash Out",
@@ -97061,6 +101279,7 @@ var overrides = {
           "Strength"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane",
           "Rock Slide",
@@ -97079,6 +101298,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
@@ -97090,6 +101312,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -97212,6 +101437,10 @@ var overrides = {
           [
             90,
             "Feather Dance"
+          ],
+          [
+            95,
+            "Crush Grip"
           ]
         ],
         "tms": [
@@ -97229,6 +101458,7 @@ var overrides = {
           "Strength"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane",
           "Laser Focus",
@@ -97249,6 +101479,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Laser Focus"
@@ -97261,6 +101494,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -97399,6 +101635,7 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Embargo",
           "Lash Out"
         ],
@@ -97409,11 +101646,17 @@ var overrides = {
           "Slateport Tutor": [
             "Lash Out"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo"
           ],
           "Poke Menu: Slateport": [
             "Lash Out"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -97459,10 +101702,6 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Fury Attack"
-          ],
-          [
-            1,
             "Gust"
           ],
           [
@@ -97472,10 +101711,6 @@ var overrides = {
           [
             1,
             "Leer"
-          ],
-          [
-            1,
-            "Pluck"
           ],
           [
             1,
@@ -97550,12 +101785,24 @@ var overrides = {
             "Defog"
           ],
           [
-            85,
+            84,
+            "Scary Face"
+          ],
+          [
+            86,
             "Brave Bird"
+          ],
+          [
+            90,
+            "Torment"
           ],
           [
             95,
             "U-turn"
+          ],
+          [
+            99,
+            "Snatch"
           ]
         ],
         "tms": [
@@ -97566,6 +101813,7 @@ var overrides = {
           "Dual Wingbeat",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Fly",
           "Foul Play",
           "Hidden Power",
@@ -97576,21 +101824,41 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Embargo",
-          "Lash Out"
+          "Infestation",
+          "Lash Out",
+          "Magic Room",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Infestation"
+          ],
           "Petalburg Tutor": [
-            "Embargo"
+            "Embargo",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Lash Out"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "Embargo",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Lash Out"
+          ],
+          "Poke Menu: Mauville": [
+            "Infestation"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -97655,7 +101923,7 @@ var overrides = {
           ],
           [
             26,
-            "Snatch"
+            "Will-O-Wisp"
           ],
           [
             31,
@@ -97667,7 +101935,7 @@ var overrides = {
           ],
           [
             41,
-            "Slash"
+            "Sucker Punch"
           ],
           [
             44,
@@ -97675,7 +101943,7 @@ var overrides = {
           ],
           [
             47,
-            "Amnesia"
+            "Gastro Acid"
           ],
           [
             50,
@@ -97683,23 +101951,19 @@ var overrides = {
           ],
           [
             56,
-            "Spit Up"
-          ],
-          [
-            56,
-            "Stockpile"
-          ],
-          [
-            56,
-            "Swallow"
+            "Upper Hand"
           ],
           [
             61,
             "Flare Blitz"
           ],
           [
-            66,
-            "Inferno"
+            68,
+            "Snatch"
+          ],
+          [
+            72,
+            "Magma Storm"
           ],
           [
             77,
@@ -97707,11 +101971,15 @@ var overrides = {
           ],
           [
             81,
-            "Fire Blast"
+            "Knock Off"
           ],
           [
             86,
             "Taunt"
+          ],
+          [
+            90,
+            "Belch"
           ],
           [
             95,
@@ -97727,6 +101995,7 @@ var overrides = {
           "Cut",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Focus Blast",
           "Hidden Power",
@@ -97897,7 +102166,7 @@ var overrides = {
           ],
           [
             70,
-            "Rock Slide"
+            "Swagger"
           ],
           [
             75,
@@ -97918,6 +102187,10 @@ var overrides = {
           [
             95,
             "Guillotine"
+          ],
+          [
+            99,
+            "Metal Sound"
           ]
         ],
         "tms": [
@@ -97926,6 +102199,7 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Feint Attack",
           "Hard Press",
           "Hidden Power",
           "Return",
@@ -98073,14 +102347,7 @@ var overrides = {
           "Taunt",
           "Thunder Wave"
         ],
-        "tutors": [
-          "Focus Energy"
-        ],
-        "tutorsBySource": {
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
-          ]
-        }
+        "tutors": []
       },
       "evos": [
         "Zweilous"
@@ -98208,7 +102475,6 @@ var overrides = {
           "Thunder Wave"
         ],
         "tutors": [
-          "Focus Energy",
           "Helping Hand",
           "Stomping Tantrum"
         ],
@@ -98220,7 +102486,6 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -98402,10 +102667,10 @@ var overrides = {
         "tutors": [
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
@@ -98423,8 +102688,10 @@ var overrides = {
             "Fire Blast",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -98437,6 +102704,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Fire Blast",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -98490,7 +102760,7 @@ var overrides = {
           ],
           [
             40,
-            "Bug Bite"
+            "Pounce"
           ],
           [
             50,
@@ -98507,6 +102777,10 @@ var overrides = {
           [
             77,
             "Wild Charge"
+          ],
+          [
+            95,
+            "Flame Charge"
           ],
           [
             100,
@@ -98527,7 +102801,8 @@ var overrides = {
         "tutors": [
           "Bug Bite",
           "Fire Blast",
-          "Fire Spin"
+          "Fire Spin",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -98539,6 +102814,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Fire Blast"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
           ],
@@ -98547,6 +102825,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -98700,11 +102981,13 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Bug Bite",
           "Fire Blast",
           "Fire Spin",
           "Hurricane",
-          "Mystical Fire"
+          "Mystical Fire",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -98716,6 +102999,10 @@ var overrides = {
           "Route 119 Tutor": [
             "Fire Blast",
             "Hurricane"
+          ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -98729,6 +103016,10 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Fire Blast",
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -98866,11 +103157,16 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
+          "Bind",
           "Brick Break",
           "Helping Hand",
           "Laser Focus"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Bind"
+          ],
           "Petalburg Tutor": [
             "Helping Hand",
             "Laser Focus"
@@ -98878,12 +103174,21 @@ var overrides = {
           "Slateport Tutor": [
             "Brick Break"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
+          ],
+          "Poke Menu: Mauville": [
+            "Bind"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -98973,7 +103278,7 @@ var overrides = {
           ],
           [
             70,
-            "Rock Slide"
+            "Power Gem"
           ],
           [
             75,
@@ -99020,6 +103325,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Helping Hand",
           "Laser Focus",
@@ -99036,6 +103342,9 @@ var overrides = {
             "Rock Slide",
             "Stomping Tantrum"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Laser Focus"
@@ -99044,6 +103353,9 @@ var overrides = {
             "Brick Break",
             "Rock Slide",
             "Stomping Tantrum"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -99185,6 +103497,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Helping Hand",
           "Laser Focus",
@@ -99199,6 +103512,7 @@ var overrides = {
             "Brick Break"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
@@ -99209,6 +103523,7 @@ var overrides = {
             "Brick Break"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Seed Bomb"
           ]
         }
@@ -99309,8 +103624,12 @@ var overrides = {
             "Knock Off"
           ],
           [
+            84,
+            "Scary Face"
+          ],
+          [
             88,
-            "Heat Wave"
+            "Aeroblast"
           ],
           [
             91,
@@ -99322,7 +103641,7 @@ var overrides = {
           ],
           [
             100,
-            "Aeroblast"
+            "Heat Wave"
           ]
         ],
         "tms": [
@@ -99346,15 +103665,21 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
           "Brick Break",
           "Embargo",
+          "Helping Hand",
           "Hurricane",
           "Lash Out",
+          "Natural Gift",
           "Weather Ball"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Embargo"
+            "After You",
+            "Embargo",
+            "Helping Hand"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -99364,8 +103689,14 @@ var overrides = {
             "Hurricane",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "After You",
+            "Embargo",
+            "Helping Hand"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -99374,6 +103705,10 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Hurricane",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -99474,6 +103809,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            84,
+            "Scary Face"
+          ],
+          [
             88,
             "Wild Charge"
           ],
@@ -99512,16 +103851,22 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
           "Brick Break",
           "Embargo",
+          "Helping Hand",
           "Lash Out",
+          "Natural Gift",
           "Thunder",
           "Thunder Punch",
           "Weather Ball"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Embargo"
+            "After You",
+            "Embargo",
+            "Helping Hand"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -99532,8 +103877,14 @@ var overrides = {
             "Thunder",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "After You",
+            "Embargo",
+            "Helping Hand"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -99543,6 +103894,10 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Thunder",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -99698,6 +104053,7 @@ var overrides = {
           "Laser Focus",
           "Rock Slide",
           "Shadow Claw",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch",
           "Weather Ball"
@@ -99718,6 +104074,9 @@ var overrides = {
             "Thunder",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -99735,6 +104094,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Thunder",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -99843,6 +104205,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            84,
+            "Scary Face"
+          ],
+          [
             88,
             "Earthquake"
           ],
@@ -99880,7 +104246,11 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
           "Brick Break",
+          "Helping Hand",
+          "Natural Gift",
           "Rock Slide",
           "Sand Tomb",
           "Stomping Tantrum",
@@ -99890,6 +104260,10 @@ var overrides = {
           "Mauville Trap Tutor": [
             "Sand Tomb"
           ],
+          "Petalburg Tutor": [
+            "After You",
+            "Helping Hand"
+          ],
           "Slateport Tutor": [
             "Brick Break",
             "Rock Slide",
@@ -99897,6 +104271,14 @@ var overrides = {
           ],
           "Route 119 Tutor": [
             "Weather Ball"
+          ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You",
+            "Helping Hand"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -99908,6 +104290,10 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -100047,6 +104433,7 @@ var overrides = {
           "Laser Focus",
           "Rock Slide",
           "Shadow Claw",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -100064,6 +104451,9 @@ var overrides = {
             "Blizzard",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -100080,6 +104470,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -100220,13 +104613,16 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Helping Hand",
-          "Hydro Pump"
+          "Hydro Pump",
+          "Laser Focus"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Slateport Tutor": [
             "Brick Break"
@@ -100234,14 +104630,21 @@ var overrides = {
           "Route 119 Tutor": [
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -100275,6 +104678,10 @@ var overrides = {
           [
             1,
             "Confusion"
+          ],
+          [
+            1,
+            "Fling"
           ],
           [
             1,
@@ -100353,8 +104760,16 @@ var overrides = {
             "Superpower"
           ],
           [
+            92,
+            "Lucky Chant"
+          ],
+          [
             95,
             "Hyper Beam"
+          ],
+          [
+            95,
+            "Round"
           ],
           [
             99,
@@ -100401,6 +104816,7 @@ var overrides = {
           "Laser Focus",
           "Magic Room",
           "Shadow Claw",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -100427,6 +104843,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Helping Hand",
@@ -100446,6 +104865,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -100487,6 +104909,10 @@ var overrides = {
           ],
           [
             1,
+            "Flame Charge"
+          ],
+          [
+            1,
             "Ice Beam"
           ],
           [
@@ -100523,7 +104949,7 @@ var overrides = {
           ],
           [
             33,
-            "Extreme Speed"
+            "Ally Switch"
           ],
           [
             40,
@@ -100539,7 +104965,7 @@ var overrides = {
           ],
           [
             59,
-            "Metal Sound"
+            "Flamethrower"
           ],
           [
             65,
@@ -100551,26 +104977,34 @@ var overrides = {
           ],
           [
             75,
-            "Flamethrower"
+            "Metal Sound"
           ],
           [
-            80,
+            79,
             "Flash Cannon"
           ],
           [
-            84,
-            "Techno Blast"
+            82,
+            "Extreme Speed"
+          ],
+          [
+            85,
+            "Gravity"
           ],
           [
             88,
+            "Techno Blast"
+          ],
+          [
+            91,
             "Bug Buzz"
           ],
           [
-            92,
+            94,
             "Iron Head"
           ],
           [
-            96,
+            97,
             "U-turn"
           ],
           [
@@ -100604,9 +105038,12 @@ var overrides = {
           "Blizzard",
           "Bug Bite",
           "Infestation",
+          "Magic Room",
           "Shadow Claw",
+          "Signal Beam",
           "Telekinesis",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -100614,7 +105051,9 @@ var overrides = {
           ],
           "Petalburg Tutor": [
             "Bug Bite",
-            "Telekinesis"
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
@@ -100623,9 +105062,14 @@ var overrides = {
             "Blizzard",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
-            "Telekinesis"
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
@@ -100636,6 +105080,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -101092,8 +105539,16 @@ var overrides = {
             "Close Combat"
           ],
           [
+            95,
+            "Worry Seed"
+          ],
+          [
             99,
             "Trop Kick"
+          ],
+          [
+            100,
+            "Horn Leech"
           ]
         ],
         "tms": [
@@ -101495,15 +105950,15 @@ var overrides = {
           ],
           [
             1,
+            "Mist Ball"
+          ],
+          [
+            1,
             "Psycho Shift"
           ],
           [
             1,
             "Recover"
-          ],
-          [
-            1,
-            "Recycle"
           ],
           [
             1,
@@ -101606,8 +106061,16 @@ var overrides = {
             "Future Sight"
           ],
           [
+            95,
+            "Teleport"
+          ],
+          [
             99,
             "Trick Room"
+          ],
+          [
+            100,
+            "Luster Purge"
           ]
         ],
         "tms": [
@@ -101639,6 +106102,7 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -101662,6 +106126,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Fire Blast"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Helping Hand",
@@ -101679,6 +106146,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -102128,8 +106598,16 @@ var overrides = {
             "Gunk Shot"
           ],
           [
+            95,
+            "Fling"
+          ],
+          [
             99,
             "Upper Hand"
+          ],
+          [
+            100,
+            "Storm Throw"
           ]
         ],
         "tms": [
@@ -102140,6 +106618,7 @@ var overrides = {
           "Dive",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Grass Knot",
           "Hidden Power",
           "Ice Beam",
@@ -102161,6 +106640,8 @@ var overrides = {
           "Helping Hand",
           "Hydro Pump",
           "Ice Punch",
+          "Lash Out",
+          "Night Slash",
           "Rock Slide"
         ],
         "tutorsBySource": {
@@ -102170,10 +106651,12 @@ var overrides = {
           "Slateport Tutor": [
             "Brick Break",
             "Ice Punch",
+            "Lash Out",
             "Rock Slide"
           ],
           "Petalburg High-Crit Tutor": [
-            "Aqua Cutter"
+            "Aqua Cutter",
+            "Night Slash"
           ],
           "Route 119 Tutor": [
             "Blizzard",
@@ -102185,10 +106668,12 @@ var overrides = {
           "Poke Menu: Slateport": [
             "Brick Break",
             "Ice Punch",
+            "Lash Out",
             "Rock Slide"
           ],
           "Poke Menu: Petalburg 2": [
-            "Aqua Cutter"
+            "Aqua Cutter",
+            "Night Slash"
           ],
           "Poke Menu: Route 119": [
             "Blizzard",
@@ -102460,6 +106945,10 @@ var overrides = {
             "Frustration"
           ],
           [
+            71,
+            "Follow Me"
+          ],
+          [
             75,
             "Earthquake"
           ],
@@ -102482,6 +106971,10 @@ var overrides = {
           [
             95,
             "U-turn"
+          ],
+          [
+            99,
+            "Fling"
           ]
         ],
         "tms": [
@@ -102506,6 +106999,7 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Fire Punch",
+          "Helping Hand",
           "Ice Punch",
           "Rock Slide",
           "Sand Tomb",
@@ -102516,6 +107010,9 @@ var overrides = {
           "Mauville Trap Tutor": [
             "Sand Tomb"
           ],
+          "Petalburg Tutor": [
+            "Helping Hand"
+          ],
           "Slateport Tutor": [
             "Brick Break",
             "Fire Punch",
@@ -102523,6 +107020,9 @@ var overrides = {
             "Rock Slide",
             "Stomping Tantrum",
             "Thunder Punch"
+          ],
+          "Poke Menu: Petalburg": [
+            "Helping Hand"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -102631,14 +107131,21 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Hurricane"
         ],
         "tutorsBySource": {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -102757,6 +107264,7 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Fire Blast",
           "Fire Spin",
           "Hurricane"
@@ -102769,12 +107277,18 @@ var overrides = {
             "Fire Blast",
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Mauville": [
             "Fire Spin"
           ],
           "Poke Menu: Route 119": [
             "Fire Blast",
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -102946,6 +107460,7 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Fire Blast",
           "Fire Spin",
           "Hurricane"
@@ -102958,12 +107473,18 @@ var overrides = {
             "Fire Blast",
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Mauville": [
             "Fire Spin"
           ],
           "Poke Menu: Route 119": [
             "Fire Blast",
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -103107,6 +107628,10 @@ var overrides = {
           [
             1,
             "Leer"
+          ],
+          [
+            1,
+            "Sweet Scent"
           ],
           [
             1,
@@ -103295,6 +107820,10 @@ var overrides = {
             "Ember"
           ],
           [
+            5,
+            "Sweet Scent"
+          ],
+          [
             11,
             "Headbutt"
           ],
@@ -103343,11 +107872,19 @@ var overrides = {
             "Heat Wave"
           ],
           [
+            61,
+            "Entrainment"
+          ],
+          [
             65,
             "Overheat"
           ],
           [
-            70,
+            68,
+            "Round"
+          ],
+          [
+            72,
             "Double-Edge"
           ],
           [
@@ -103365,6 +107902,10 @@ var overrides = {
           [
             90,
             "Hyper Beam"
+          ],
+          [
+            95,
+            "Blast Burn"
           ]
         ],
         "tms": [
@@ -103386,26 +107927,36 @@ var overrides = {
         "tutors": [
           "Fire Blast",
           "Fire Spin",
-          "Helping Hand"
+          "Helping Hand",
+          "Laser Focus",
+          "Natural Gift"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Fire Spin"
           ],
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Route 119 Tutor": [
             "Fire Blast"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Poke Menu: Mauville": [
             "Fire Spin"
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -103695,6 +108246,7 @@ var overrides = {
           "Grass Knot",
           "Hidden Power",
           "Magical Leaf",
+          "Misty Explosion",
           "Psychic",
           "Return",
           "Skill Swap",
@@ -103837,8 +108389,16 @@ var overrides = {
             "Moonblast"
           ],
           [
+            74,
+            "Psychic Noise"
+          ],
+          [
             77,
             "Grass Knot"
+          ],
+          [
+            82,
+            "Defog"
           ],
           [
             86,
@@ -103870,6 +108430,7 @@ var overrides = {
           "Grass Knot",
           "Hidden Power",
           "Magical Leaf",
+          "Misty Explosion",
           "Psychic",
           "Return",
           "Skill Swap",
@@ -104221,7 +108782,6 @@ var overrides = {
           "Brick Break",
           "Embargo",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Infestation",
@@ -104255,7 +108815,6 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -104359,6 +108918,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -104369,11 +108929,17 @@ var overrides = {
             "Telekinesis",
             "Wonder Room"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Magic Room",
             "Telekinesis",
             "Wonder Room"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -104497,6 +109063,10 @@ var overrides = {
             "Fake Tears"
           ],
           [
+            53,
+            "Destiny Bond"
+          ],
+          [
             55,
             "Psychic"
           ],
@@ -104509,8 +109079,16 @@ var overrides = {
             "Future Sight"
           ],
           [
+            70,
+            "Psychic Noise"
+          ],
+          [
             75,
             "Gravity"
+          ],
+          [
+            77,
+            "Role Play"
           ],
           [
             80,
@@ -104550,6 +109128,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -104560,11 +109139,17 @@ var overrides = {
             "Telekinesis",
             "Wonder Room"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Magic Room",
             "Telekinesis",
             "Wonder Room"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -104884,6 +109469,10 @@ var overrides = {
           ],
           [
             1,
+            "Power Split"
+          ],
+          [
+            1,
             "Spirit Shackle"
           ],
           [
@@ -104978,6 +109567,7 @@ var overrides = {
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Brick Break",
           "Laser Focus",
           "Psycho Cut",
@@ -104997,6 +109587,9 @@ var overrides = {
             "Psycho Cut",
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Laser Focus"
@@ -105008,6 +109601,9 @@ var overrides = {
           "Poke Menu: Petalburg 2": [
             "Psycho Cut",
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -105586,6 +110182,10 @@ var overrides = {
             "Zen Headbutt"
           ],
           [
+            73,
+            "Skill Swap"
+          ],
+          [
             75,
             "Knock Off"
           ],
@@ -105604,6 +110204,14 @@ var overrides = {
           [
             90,
             "Destiny Bond"
+          ],
+          [
+            95,
+            "Torment"
+          ],
+          [
+            99,
+            "Psychic Noise"
           ]
         ],
         "tms": [
@@ -105631,6 +110239,7 @@ var overrides = {
           "Magic Room",
           "Psycho Cut",
           "Rock Slide",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -105652,6 +110261,9 @@ var overrides = {
             "Aqua Cutter",
             "Psycho Cut"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Magic Room",
@@ -105668,6 +110280,9 @@ var overrides = {
           "Poke Menu: Petalburg 2": [
             "Aqua Cutter",
             "Psycho Cut"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -105993,6 +110608,7 @@ var overrides = {
         "tms": [
           "Aerial Ace",
           "Bulldoze",
+          "Chilling Water",
           "Cut",
           "Dive",
           "Dragon Claw",
@@ -106334,6 +110950,10 @@ var overrides = {
             "Screech"
           ],
           [
+            42,
+            "Dragon Breath"
+          ],
+          [
             45,
             "Flamethrower"
           ],
@@ -106383,6 +111003,7 @@ var overrides = {
           "Dive",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Focus Blast",
           "Hidden Power",
           "Icy Wind",
@@ -106398,12 +111019,25 @@ var overrides = {
         ],
         "tutors": [
           "Hydro Pump",
-          "Thunder"
+          "Laser Focus",
+          "Magic Room",
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
+          ],
           "Route 119 Tutor": [
             "Hydro Pump",
             "Thunder"
+          ],
+          "Poke Menu: Petalburg": [
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump",
@@ -106665,6 +111299,18 @@ var overrides = {
           [
             90,
             "Aqua Jet"
+          ],
+          [
+            95,
+            "Aura Sphere"
+          ],
+          [
+            95,
+            "Dark Pulse"
+          ],
+          [
+            95,
+            "Dragon Pulse"
           ]
         ],
         "tms": [
@@ -106759,6 +111405,10 @@ var overrides = {
           ],
           [
             1,
+            "Sweet Scent"
+          ],
+          [
+            1,
             "Tail Whip"
           ],
           [
@@ -106857,6 +111507,7 @@ var overrides = {
         ],
         "tutors": [
           "Rock Slide",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -106866,11 +111517,17 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Slateport": [
             "Rock Slide"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -106928,6 +111585,10 @@ var overrides = {
           [
             1,
             "Pound"
+          ],
+          [
+            1,
+            "Sweet Scent"
           ],
           [
             1,
@@ -106996,6 +111657,10 @@ var overrides = {
           [
             67,
             "Weather Ball"
+          ],
+          [
+            69,
+            "Round"
           ],
           [
             71,
@@ -107063,6 +111728,7 @@ var overrides = {
           "Fire Punch",
           "Rock Slide",
           "Seed Bomb",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch",
           "Weather Ball"
@@ -107078,7 +111744,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Slateport": [
             "Fire Punch",
@@ -107090,7 +111757,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -107136,7 +111804,7 @@ var overrides = {
           ],
           [
             18,
-            "Rock Blast"
+            "Bite"
           ],
           [
             24,
@@ -107144,7 +111812,7 @@ var overrides = {
           ],
           [
             27,
-            "Bite"
+            "Rock Blast"
           ],
           [
             33,
@@ -107172,7 +111840,7 @@ var overrides = {
           ],
           [
             60,
-            "Rock Slide"
+            "Psychic Fangs"
           ]
         ],
         "tms": [
@@ -107272,7 +111940,7 @@ var overrides = {
           ],
           [
             18,
-            "Rock Blast"
+            "Bite"
           ],
           [
             24,
@@ -107280,7 +111948,7 @@ var overrides = {
           ],
           [
             27,
-            "Bite"
+            "Rock Blast"
           ],
           [
             33,
@@ -107308,15 +111976,23 @@ var overrides = {
           ],
           [
             60,
-            "Rock Slide"
+            "Psychic Fangs"
           ],
           [
             65,
             "Earthquake"
           ],
           [
+            68,
+            "Flare Blitz"
+          ],
+          [
             71,
             "Roar"
+          ],
+          [
+            73,
+            "Rock Tomb"
           ],
           [
             76,
@@ -107359,16 +112035,23 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
+          "Laser Focus",
           "Lash Out",
           "Rock Slide",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Laser Focus"
+          ],
           "Slateport Tutor": [
             "Brick Break",
             "Lash Out",
             "Rock Slide",
             "Stomping Tantrum"
+          ],
+          "Poke Menu: Petalburg": [
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -107640,8 +112323,16 @@ var overrides = {
             "Blizzard"
           ],
           [
+            68,
+            "Echoed Voice"
+          ],
+          [
             71,
             "Roar"
+          ],
+          [
+            73,
+            "Rock Tomb"
           ],
           [
             76,
@@ -107658,6 +112349,10 @@ var overrides = {
           [
             86,
             "Roar"
+          ],
+          [
+            90,
+            "Gravity"
           ],
           [
             95,
@@ -107686,11 +112381,15 @@ var overrides = {
         ],
         "tutors": [
           "Blizzard",
+          "Laser Focus",
           "Rock Slide",
           "Thunder",
           "Weather Ball"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Laser Focus"
+          ],
           "Slateport Tutor": [
             "Rock Slide"
           ],
@@ -107698,6 +112397,9 @@ var overrides = {
             "Blizzard",
             "Thunder",
             "Weather Ball"
+          ],
+          "Poke Menu: Petalburg": [
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide"
@@ -107823,6 +112525,10 @@ var overrides = {
           [
             95,
             "Trump Card"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -107844,18 +112550,19 @@ var overrides = {
           "Skill Swap"
         ],
         "tutors": [
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Mystical Fire",
           "Telekinesis",
-          "Weather Ball"
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
             "Laser Focus",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Weather Ball"
@@ -107864,10 +112571,10 @@ var overrides = {
             "Mystical Fire"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Weather Ball"
@@ -107944,11 +112651,11 @@ var overrides = {
           ],
           [
             32,
-            "Flying Press"
+            "Cross Chop"
           ],
           [
             36,
-            "Cross Chop"
+            "Flying Press"
           ],
           [
             40,
@@ -107971,6 +112678,10 @@ var overrides = {
             "Acrobatics"
           ],
           [
+            65,
+            "Round"
+          ],
+          [
             70,
             "Submission"
           ],
@@ -107983,6 +112694,10 @@ var overrides = {
             "Throat Chop"
           ],
           [
+            82,
+            "Sky Uppercut"
+          ],
+          [
             85,
             "Me First"
           ],
@@ -107991,8 +112706,16 @@ var overrides = {
             "Brave Bird"
           ],
           [
+            92,
+            "Torment"
+          ],
+          [
             95,
             "Jump Kick"
+          ],
+          [
+            97,
+            "Fling"
           ],
           [
             99,
@@ -108107,6 +112830,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Seed Bomb",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -108121,7 +112845,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
@@ -108133,7 +112858,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -108248,6 +112974,10 @@ var overrides = {
           [
             85,
             "Endeavor"
+          ],
+          [
+            87,
+            "Power Split"
           ],
           [
             90,
@@ -108685,14 +113415,16 @@ var overrides = {
           "Stomping Tantrum",
           "Thunder",
           "Thunder Punch",
-          "Weather Ball"
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Infestation"
           ],
           "Petalburg Tutor": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Fire Punch",
@@ -108711,7 +113443,8 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Fire Punch",
@@ -108774,6 +113507,10 @@ var overrides = {
           [
             1,
             "Magnet Rise"
+          ],
+          [
+            1,
+            "Protect"
           ],
           [
             1,
@@ -108860,6 +113597,10 @@ var overrides = {
             "Swagger"
           ],
           [
+            67,
+            "Draining Kiss"
+          ],
+          [
             70,
             "Psychic"
           ],
@@ -108868,12 +113609,28 @@ var overrides = {
             "Foul Play"
           ],
           [
-            80,
+            78,
+            "Spikes"
+          ],
+          [
+            82,
             "Trick Room"
           ],
           [
+            84,
+            "Metal Sound"
+          ],
+          [
+            86,
+            "Ally Switch"
+          ],
+          [
             90,
-            "Spikes"
+            "Steel Beam"
+          ],
+          [
+            95,
+            "Imprison"
           ]
         ],
         "tms": [
@@ -108885,20 +113642,41 @@ var overrides = {
           "Facade",
           "Foul Play",
           "Hidden Power",
+          "Misty Explosion",
           "Play Rough",
           "Psychic",
           "Return",
           "Thunder Wave"
         ],
         "tutors": [
-          "Magic Room"
+          "Bind",
+          "Magic Room",
+          "Telekinesis",
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Bind"
+          ],
           "Petalburg Tutor": [
-            "Magic Room"
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
+          ],
+          "Route 119 Tutor": [
+            "Weather Ball"
           ],
           "Poke Menu: Petalburg": [
-            "Magic Room"
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
+          ],
+          "Poke Menu: Mauville": [
+            "Bind"
+          ],
+          "Poke Menu: Route 119": [
+            "Weather Ball"
           ]
         }
       }
@@ -108980,7 +113758,7 @@ var overrides = {
           ],
           [
             64,
-            "Shadow Claw"
+            "Burning Jealousy"
           ],
           [
             66,
@@ -109177,7 +113955,7 @@ var overrides = {
           ],
           [
             64,
-            "Shadow Claw"
+            "Burning Jealousy"
           ],
           [
             66,
@@ -109210,6 +113988,10 @@ var overrides = {
           [
             99,
             "Ally Switch"
+          ],
+          [
+            100,
+            "Bestow"
           ]
         ],
         "tms": [
@@ -109220,6 +114002,7 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Feint Attack",
           "Focus Blast",
           "Foul Play",
           "Grass Knot",
@@ -109353,7 +114136,7 @@ var overrides = {
           ],
           [
             64,
-            "Shadow Claw"
+            "Mystical Fire"
           ],
           [
             66,
@@ -109553,7 +114336,7 @@ var overrides = {
           ],
           [
             64,
-            "Shadow Claw"
+            "Mystical Fire"
           ],
           [
             66,
@@ -109562,6 +114345,10 @@ var overrides = {
           [
             70,
             "Synthesis"
+          ],
+          [
+            73,
+            "Grassy Glide"
           ],
           [
             75,
@@ -109586,6 +114373,10 @@ var overrides = {
           [
             99,
             "Ally Switch"
+          ],
+          [
+            100,
+            "Bestow"
           ]
         ],
         "tms": [
@@ -109600,6 +114391,7 @@ var overrides = {
           "Foul Play",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Psychic",
           "Return",
           "Rock Smash",
@@ -109679,8 +114471,8 @@ var overrides = {
         "Ice Body"
       ],
       "items": [
-        null,
-        null,
+        "Ice Stone",
+        "Ice Stone",
         null
       ],
       "bs": {
@@ -109861,7 +114653,7 @@ var overrides = {
           ],
           [
             55,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             60,
@@ -109876,7 +114668,11 @@ var overrides = {
             "Mountain Gale"
           ],
           [
-            75,
+            73,
+            "Scary Face"
+          ],
+          [
+            76,
             "Rapid Spin"
           ],
           [
@@ -109888,8 +114684,24 @@ var overrides = {
             "Body Press"
           ],
           [
-            90,
+            88,
+            "Avalanche"
+          ],
+          [
+            91,
             "Wide Guard"
+          ],
+          [
+            95,
+            "Haze"
+          ],
+          [
+            99,
+            "Rest"
+          ],
+          [
+            100,
+            "Counter"
           ]
         ],
         "tms": [
@@ -109899,6 +114711,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Flash",
+          "Hard Press",
           "Heavy Slam",
           "Hidden Power",
           "Ice Beam",
@@ -110059,6 +114872,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Hurricane",
           "Shadow Claw"
@@ -110073,6 +114887,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Slateport": [
             "Brick Break"
           ],
@@ -110081,6 +114898,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -110205,8 +115025,16 @@ var overrides = {
             "Hurricane"
           ],
           [
+            66,
+            "Psychic Noise"
+          ],
+          [
             70,
             "Dragon Pulse"
+          ],
+          [
+            73,
+            "Me First"
           ],
           [
             75,
@@ -110221,6 +115049,10 @@ var overrides = {
             "Dragon Rush"
           ],
           [
+            84,
+            "Tailwind"
+          ],
+          [
             86,
             "Torment"
           ],
@@ -110231,6 +115063,10 @@ var overrides = {
           [
             95,
             "Aeroblast"
+          ],
+          [
+            99,
+            "Sky Drop"
           ],
           [
             100,
@@ -110259,6 +115095,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Hurricane",
           "Laser Focus",
@@ -110277,6 +115114,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Laser Focus"
           ],
@@ -110288,6 +115128,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -110412,6 +115255,7 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Embargo",
           "Hurricane",
           "Laser Focus",
@@ -110434,6 +115278,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Laser Focus"
@@ -110447,6 +115294,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -110477,6 +115327,10 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Body Press"
+          ],
           [
             1,
             "Mystical Fire"
@@ -110542,11 +115396,19 @@ var overrides = {
             "Misty Explosion"
           ],
           [
+            83,
+            "Power Split"
+          ],
+          [
             85,
             "Play Rough"
           ],
           [
-            93,
+            90,
+            "Power Gem"
+          ],
+          [
+            95,
             "Gravity"
           ],
           [
@@ -110743,6 +115605,10 @@ var overrides = {
             "Hyperspace Fury"
           ],
           [
+            99,
+            "Psychic Noise"
+          ],
+          [
             100,
             "Destiny Bond"
           ]
@@ -110774,6 +115640,7 @@ var overrides = {
           "Ice Punch",
           "Laser Focus",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -110792,6 +115659,9 @@ var overrides = {
             "Ice Punch",
             "Thunder Punch"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Laser Focus",
@@ -110804,6 +115674,9 @@ var overrides = {
             "Fire Punch",
             "Ice Punch",
             "Thunder Punch"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -110953,7 +115826,6 @@ var overrides = {
           "Brick Break",
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
           "Hydro Pump",
           "Rock Slide",
           "Stomping Tantrum",
@@ -110975,9 +115847,6 @@ var overrides = {
           ],
           "Poke Menu: Starter": [
             "Body Press"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -111109,6 +115978,7 @@ var overrides = {
           "Solar Beam"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Psycho Cut",
           "Seed Bomb",
@@ -111123,6 +115993,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
@@ -111133,6 +116004,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Seed Bomb"
           ]
         }
@@ -111264,6 +116136,7 @@ var overrides = {
           "Solar Beam"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Psycho Cut",
           "Seed Bomb",
@@ -111278,6 +116151,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
@@ -111288,6 +116162,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Seed Bomb"
           ]
         }
@@ -111437,6 +116312,10 @@ var overrides = {
             "Poltergeist"
           ],
           [
+            92,
+            "Destiny Bond"
+          ],
+          [
             95,
             "Defog"
           ],
@@ -111465,17 +116344,22 @@ var overrides = {
           "Solar Blade"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane",
           "Laser Focus",
+          "Magic Room",
           "Psycho Cut",
           "Seed Bomb",
-          "Shadow Claw"
+          "Shadow Claw",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Petalburg High-Crit Tutor": [
             "Psycho Cut",
@@ -111485,11 +116369,14 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Petalburg 2": [
             "Psycho Cut",
@@ -111499,6 +116386,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Seed Bomb"
           ]
         }
@@ -111900,6 +116788,10 @@ var overrides = {
             "Cross Chop"
           ],
           [
+            69,
+            "Roar"
+          ],
+          [
             72,
             "Darkest Lariat"
           ],
@@ -111912,12 +116804,24 @@ var overrides = {
             "Knock Off"
           ],
           [
+            84,
+            "Taunt"
+          ],
+          [
             88,
             "Flare Blitz"
           ],
           [
+            91,
+            "Scary Face"
+          ],
+          [
             95,
             "Close Combat"
+          ],
+          [
+            99,
+            "Fake Out"
           ],
           [
             100,
@@ -111948,6 +116852,7 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
+          "Helping Hand",
           "Lash Out",
           "Shadow Claw",
           "Stomping Tantrum",
@@ -111959,7 +116864,8 @@ var overrides = {
             "Fire Spin"
           ],
           "Petalburg Tutor": [
-            "Embargo"
+            "Embargo",
+            "Helping Hand"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -111975,7 +116881,8 @@ var overrides = {
             "Fire Blast"
           ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "Embargo",
+            "Helping Hand"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -112386,7 +117293,7 @@ var overrides = {
           ],
           [
             85,
-            "Hydro Pump"
+            "Psychic Noise"
           ],
           [
             90,
@@ -112397,8 +117304,12 @@ var overrides = {
             "Haze"
           ],
           [
-            100,
+            99,
             "Encore"
+          ],
+          [
+            100,
+            "Hydro Cannon"
           ]
         ],
         "tms": [
@@ -113126,16 +118037,20 @@ var overrides = {
             "Signal Beam"
           ],
           [
-            37,
+            34,
             "Dig"
           ],
           [
-            39,
-            "Screech"
+            37,
+            "Sky Drop"
           ],
           [
-            42,
+            40,
             "Air Slash"
+          ],
+          [
+            43,
+            "Screech"
           ],
           [
             45,
@@ -113176,6 +118091,10 @@ var overrides = {
           [
             91,
             "Sticky Web"
+          ],
+          [
+            95,
+            "Buzzy Buzz"
           ]
         ],
         "tms": [
@@ -113188,6 +118107,7 @@ var overrides = {
           "Fly",
           "Hidden Power",
           "Poison Jab",
+          "Pounce",
           "Return",
           "Shock Wave",
           "Solar Beam",
@@ -113196,8 +118116,10 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Bug Bite",
           "Laser Focus",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -113208,12 +118130,20 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
             "Laser Focus"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -113468,6 +118398,10 @@ var overrides = {
             "Drain Punch"
           ],
           [
+            53,
+            "Sky Uppercut"
+          ],
+          [
             55,
             "Earthquake"
           ],
@@ -113523,6 +118457,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Focus Blast",
+          "Hard Press",
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
@@ -113711,6 +118646,7 @@ var overrides = {
           "Helping Hand",
           "Infestation",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -113726,6 +118662,9 @@ var overrides = {
             "Telekinesis",
             "Wonder Room"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Bug Bite",
@@ -113736,6 +118675,9 @@ var overrides = {
           ],
           "Poke Menu: Mauville": [
             "Infestation"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -113782,6 +118724,10 @@ var overrides = {
           [
             1,
             "Absorb"
+          ],
+          [
+            1,
+            "Bestow"
           ],
           [
             1,
@@ -113852,8 +118798,16 @@ var overrides = {
             "Weather Ball"
           ],
           [
+            74,
+            "Copycat"
+          ],
+          [
             76,
             "Moonblast"
+          ],
+          [
+            82,
+            "Defog"
           ],
           [
             86,
@@ -113862,6 +118816,10 @@ var overrides = {
           [
             90,
             "Healing Wish"
+          ],
+          [
+            93,
+            "Pollen Puff"
           ],
           [
             96,
@@ -113885,6 +118843,7 @@ var overrides = {
           "Magical Leaf",
           "Misty Explosion",
           "Play Rough",
+          "Pounce",
           "Psychic",
           "Return",
           "Skill Swap",
@@ -113896,6 +118855,7 @@ var overrides = {
           "Helping Hand",
           "Infestation",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -113911,6 +118871,9 @@ var overrides = {
             "Telekinesis",
             "Wonder Room"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Bug Bite",
@@ -113921,6 +118884,9 @@ var overrides = {
           ],
           "Poke Menu: Mauville": [
             "Infestation"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -114008,6 +118974,10 @@ var overrides = {
             "Sucker Punch"
           ],
           [
+            57,
+            "Dig"
+          ],
+          [
             60,
             "Accelerock"
           ],
@@ -114029,11 +118999,19 @@ var overrides = {
           ],
           [
             85,
-            "Quick Guard"
+            "Upper Hand"
           ],
           [
             90,
             "Play Rough"
+          ],
+          [
+            95,
+            "Iron Tail"
+          ],
+          [
+            100,
+            "Protect"
           ]
         ],
         "tms": [
@@ -114053,12 +119031,14 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Helping Hand",
+          "Laser Focus",
           "Rock Slide",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -114066,7 +119046,8 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -114229,8 +119210,12 @@ var overrides = {
             "Knock Off"
           ],
           [
-            86,
+            84,
             "Pain Split"
+          ],
+          [
+            86,
+            "Life Dew"
           ],
           [
             90,
@@ -114330,11 +119315,23 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Pain Split"
+            "Aqua Ring"
+          ],
+          [
+            1,
+            "Magic Coat"
           ],
           [
             1,
             "Poison Sting"
+          ],
+          [
+            1,
+            "Power Split"
+          ],
+          [
+            1,
+            "Spite"
           ],
           [
             5,
@@ -114393,20 +119390,40 @@ var overrides = {
             "Knock Off"
           ],
           [
-            86,
+            84,
             "Pain Split"
+          ],
+          [
+            86,
+            "Life Dew"
+          ],
+          [
+            88,
+            "Lunge"
           ],
           [
             90,
             "Scald"
           ],
           [
+            92,
+            "Sludge Wave"
+          ],
+          [
             95,
             "Haze"
           ],
           [
+            97,
+            "Scary Face"
+          ],
+          [
             99,
             "Recover"
+          ],
+          [
+            100,
+            "Gunk Shot"
           ]
         ],
         "tms": [
@@ -114496,11 +119513,11 @@ var overrides = {
           ],
           [
             10,
-            "Bulldoze"
+            "Double Kick"
           ],
           [
             15,
-            "Double Kick"
+            "Bulldoze"
           ],
           [
             17,
@@ -114723,11 +119740,15 @@ var overrides = {
           "Lash Out",
           "Rock Slide",
           "Sand Tomb",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Sand Tomb"
+          ],
+          "Petalburg Tutor": [
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Lash Out",
@@ -114736,6 +119757,9 @@ var overrides = {
           ],
           "Poke Menu: Starter": [
             "Body Press"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Lash Out",
@@ -114878,6 +119902,7 @@ var overrides = {
           "Bug Bite",
           "Infestation",
           "Magic Room",
+          "Signal Beam",
           "Wonder Room"
         ],
         "tutorsBySource": {
@@ -114892,6 +119917,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Blizzard"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
             "Magic Room",
@@ -114902,6 +119930,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Blizzard"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -115018,6 +120049,10 @@ var overrides = {
             "Entrainment"
           ],
           [
+            65,
+            "Power Split"
+          ],
+          [
             70,
             "Mirror Coat"
           ],
@@ -115034,11 +120069,16 @@ var overrides = {
             "Ice Beam"
           ],
           [
+            90,
+            "Iron Defense"
+          ],
+          [
             95,
             "Sticky Web"
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Dive",
           "Endure",
           "Facade",
@@ -115059,6 +120099,7 @@ var overrides = {
           "Infestation",
           "Laser Focus",
           "Magic Room",
+          "Signal Beam",
           "Wonder Room"
         ],
         "tutorsBySource": {
@@ -115075,6 +120116,9 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
             "Laser Focus",
@@ -115087,6 +120131,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -115133,6 +120180,7 @@ var overrides = {
         "tutors": [
           "Bug Bite",
           "Seed Bomb",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -115143,7 +120191,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite"
@@ -115152,7 +120201,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       },
@@ -115217,6 +120267,7 @@ var overrides = {
           "Laser Focus",
           "Psycho Cut",
           "Seed Bomb",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -115235,7 +120286,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -115252,7 +120304,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -115403,6 +120456,7 @@ var overrides = {
           "After You",
           "Magic Room",
           "Seed Bomb",
+          "Signal Beam",
           "Wonder Room"
         ],
         "tutorsBySource": {
@@ -115412,7 +120466,8 @@ var overrides = {
             "Wonder Room"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
@@ -115420,7 +120475,8 @@ var overrides = {
             "Wonder Room"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       },
@@ -115581,6 +120637,10 @@ var overrides = {
             "Confuse Ray"
           ],
           [
+            95,
+            "Misty Explosion"
+          ],
+          [
             99,
             "Recycle"
           ]
@@ -115594,6 +120654,7 @@ var overrides = {
           "Flash",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
           "Return",
           "Sludge Bomb",
           "Solar Beam",
@@ -115603,6 +120664,7 @@ var overrides = {
           "After You",
           "Magic Room",
           "Seed Bomb",
+          "Signal Beam",
           "Weather Ball",
           "Wonder Room"
         ],
@@ -115616,7 +120678,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
@@ -115627,7 +120690,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -115877,6 +120941,10 @@ var overrides = {
             "Heat Wave"
           ],
           [
+            66,
+            "Nature's Madness"
+          ],
+          [
             68,
             "Sludge Wave"
           ],
@@ -115903,6 +120971,14 @@ var overrides = {
           [
             90,
             "Destiny Bond"
+          ],
+          [
+            95,
+            "Dragon Cheer"
+          ],
+          [
+            100,
+            "Fling"
           ]
         ],
         "tms": [
@@ -116187,6 +121263,10 @@ var overrides = {
             "Brick Break"
           ],
           [
+            39,
+            "Sky Uppercut"
+          ],
+          [
             43,
             "Rock Smash"
           ],
@@ -116225,6 +121305,10 @@ var overrides = {
           [
             90,
             "Close Combat"
+          ],
+          [
+            95,
+            "Drain Punch"
           ]
         ],
         "tms": [
@@ -116708,7 +121792,6 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Laser Focus",
           "Rock Slide",
           "Seed Bomb"
@@ -116725,7 +121808,6 @@ var overrides = {
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
@@ -116926,6 +122008,7 @@ var overrides = {
         ],
         "tms": [
           "Aerial Ace",
+          "Chilling Water",
           "Dark Pulse",
           "Dive",
           "Endure",
@@ -117249,6 +122332,10 @@ var overrides = {
           [
             90,
             "Sandsear Storm"
+          ],
+          [
+            95,
+            "Curse"
           ]
         ],
         "tms": [
@@ -117417,14 +122504,23 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
-          "Helping Hand"
+          "Helping Hand",
+          "Magic Room",
+          "Telekinesis",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ]
         }
       }
@@ -117529,6 +122625,10 @@ var overrides = {
           [
             90,
             "Roar"
+          ],
+          [
+            95,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -117546,21 +122646,53 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "After You",
+          "Air Slash",
+          "Embargo",
+          "Helping Hand",
+          "Magic Room",
           "Rock Slide",
-          "Shadow Claw"
+          "Shadow Claw",
+          "Signal Beam",
+          "Telekinesis",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "After You",
+            "Embargo",
+            "Helping Hand",
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
+          ],
           "Slateport Tutor": [
             "Rock Slide"
           ],
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You",
+            "Embargo",
+            "Helping Hand",
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
+          ],
           "Poke Menu: Slateport": [
             "Rock Slide"
           ],
           "Poke Menu: Petalburg 2": [
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       },
@@ -117725,16 +122857,32 @@ var overrides = {
             "Dragon Pulse"
           ],
           [
+            48,
+            "Dragon Claw"
+          ],
+          [
             51,
             "Scorching Sands"
+          ],
+          [
+            55,
+            "Heat Crash"
           ],
           [
             59,
             "Shell Trap"
           ],
           [
+            61,
+            "Heavy Slam"
+          ],
+          [
             64,
             "Heat Wave"
+          ],
+          [
+            67,
+            "Rapid Spin"
           ],
           [
             70,
@@ -117787,11 +122935,15 @@ var overrides = {
           "Fire Blast",
           "Fire Spin",
           "Lash Out",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Fire Spin"
+          ],
+          "Petalburg Tutor": [
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Lash Out",
@@ -117802,6 +122954,9 @@ var overrides = {
           ],
           "Poke Menu: Starter": [
             "Body Press"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Lash Out",
@@ -117843,10 +122998,6 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
-          [
-            1,
-            "Fake Out"
-          ],
           [
             1,
             "Fell Stinger"
@@ -117905,7 +123056,7 @@ var overrides = {
           ],
           [
             45,
-            "Pin Missile"
+            "Fake Out"
           ],
           [
             49,
@@ -117932,16 +123083,24 @@ var overrides = {
             "Gravity"
           ],
           [
+            79,
+            "Zing Zap"
+          ],
+          [
             81,
             "Endeavor"
           ],
           [
             86,
-            "Zing Zap"
+            "Fake Out"
           ],
           [
             90,
             "Hard Press"
+          ],
+          [
+            94,
+            "Fling"
           ]
         ],
         "tms": [
@@ -117962,19 +123121,22 @@ var overrides = {
         "tutors": [
           "After You",
           "Helping Hand",
+          "Laser Focus",
           "Thunder"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "After You",
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Route 119 Tutor": [
             "Thunder"
           ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
@@ -118073,8 +123235,16 @@ var overrides = {
             "Leech Life"
           ],
           [
-            80,
+            78,
+            "Burning Jealousy"
+          ],
+          [
+            81,
             "Play Rough"
+          ],
+          [
+            83,
+            "Curse"
           ],
           [
             85,
@@ -118104,6 +123274,7 @@ var overrides = {
           "Draining Kiss",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Hidden Power",
           "Play Rough",
@@ -118126,7 +123297,8 @@ var overrides = {
           "Night Slash",
           "Shadow Claw",
           "Telekinesis",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -118136,7 +123308,8 @@ var overrides = {
             "After You",
             "Embargo",
             "Magic Room",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Petalburg High-Crit Tutor": [
             "Night Slash",
@@ -118149,7 +123322,8 @@ var overrides = {
             "After You",
             "Embargo",
             "Magic Room",
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
@@ -118244,6 +123418,14 @@ var overrides = {
             "Flip Turn"
           ],
           [
+            48,
+            "Superpower"
+          ],
+          [
+            52,
+            "Skill Swap"
+          ],
+          [
             55,
             "Follow Me"
           ],
@@ -118260,11 +123442,19 @@ var overrides = {
             "Wave Crash"
           ],
           [
-            75,
+            73,
+            "Copycat"
+          ],
+          [
+            77,
             "Crunch"
           ],
           [
-            80,
+            79,
+            "Psychic Noise"
+          ],
+          [
+            82,
             "Aqua Jet"
           ],
           [
@@ -118302,6 +123492,7 @@ var overrides = {
           "Embargo",
           "Hydro Pump",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -118320,6 +123511,9 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
@@ -118333,6 +123527,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -118345,9 +123542,9 @@ var overrides = {
         "Dragon"
       ],
       "abs": [
-        "Berserk",
-        "Berserk",
-        "Sap Sipper"
+        "Thick Fat",
+        "Thick Fat",
+        "Berserk"
       ],
       "items": [
         null,
@@ -118370,11 +123567,11 @@ var overrides = {
           ],
           [
             1,
-            "Play Nice"
+            "Endure"
           ],
           [
             1,
-            "Tailwind"
+            "Play Nice"
           ],
           [
             1,
@@ -118413,6 +123610,10 @@ var overrides = {
             "Hyper Voice"
           ],
           [
+            51,
+            "Tailwind"
+          ],
+          [
             53,
             "Flamethrower"
           ],
@@ -118422,7 +123623,7 @@ var overrides = {
           ],
           [
             59,
-            "Icy Wind"
+            "Dragon Tail"
           ],
           [
             61,
@@ -118433,12 +123634,28 @@ var overrides = {
             "Surf"
           ],
           [
+            64,
+            "Vacuum Wave"
+          ],
+          [
             66,
             "Roost"
           ],
           [
-            70,
+            69,
             "Energy Ball"
+          ],
+          [
+            72,
+            "Round"
+          ],
+          [
+            74,
+            "Hurricane"
+          ],
+          [
+            75,
+            "Thunder"
           ],
           [
             77,
@@ -118457,12 +123674,17 @@ var overrides = {
             "Tickle"
           ],
           [
+            95,
+            "Glare"
+          ],
+          [
             99,
             "Dragon Energy"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Defog",
           "Disarming Voice",
           "Dragon Claw",
@@ -118497,6 +123719,7 @@ var overrides = {
           "Lash Out",
           "Rock Slide",
           "Shadow Claw",
+          "Signal Beam",
           "Stomping Tantrum",
           "Thunder"
         ],
@@ -118519,6 +123742,9 @@ var overrides = {
             "Hydro Pump",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
@@ -118536,6 +123762,9 @@ var overrides = {
             "Hurricane",
             "Hydro Pump",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -118647,6 +123876,10 @@ var overrides = {
             "Anchor Shot"
           ],
           [
+            75,
+            "Grassy Glide"
+          ],
+          [
             77,
             "Knock Off"
           ],
@@ -118691,6 +123924,7 @@ var overrides = {
           "Heavy Slam",
           "Hidden Power",
           "Liquidation",
+          "Magical Leaf",
           "Return",
           "Rock Smash",
           "Shadow Ball",
@@ -118830,7 +124064,7 @@ var overrides = {
           ],
           [
             64,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             68,
@@ -118981,7 +124215,7 @@ var overrides = {
           ],
           [
             64,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             68,
@@ -119164,7 +124398,7 @@ var overrides = {
           ],
           [
             64,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             68,
@@ -119175,7 +124409,11 @@ var overrides = {
             "Vacuum Wave"
           ],
           [
-            75,
+            74,
+            "Superpower"
+          ],
+          [
+            76,
             "Clanging Scales"
           ],
           [
@@ -119199,8 +124437,20 @@ var overrides = {
             "Close Combat"
           ],
           [
+            92,
+            "Fling"
+          ],
+          [
             95,
             "Scale Shot"
+          ],
+          [
+            99,
+            "Dragon Cheer"
+          ],
+          [
+            100,
+            "Counter"
           ]
         ],
         "tms": [
@@ -119370,6 +124620,14 @@ var overrides = {
           [
             90,
             "Torment"
+          ],
+          [
+            95,
+            "Electrify"
+          ],
+          [
+            100,
+            "Play Rough"
           ]
         ],
         "tms": [
@@ -119383,6 +124641,7 @@ var overrides = {
           "Fly",
           "Grass Knot",
           "Hidden Power",
+          "Misty Explosion",
           "Return",
           "Shock Wave",
           "Taunt",
@@ -119390,12 +124649,16 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "After You",
+          "Laser Focus",
           "Telekinesis",
           "Thunder",
           "Thunder Punch"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
+            "Laser Focus",
             "Telekinesis"
           ],
           "Slateport Tutor": [
@@ -119405,6 +124668,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
+            "Laser Focus",
             "Telekinesis"
           ],
           "Poke Menu: Slateport": [
@@ -119518,6 +124783,14 @@ var overrides = {
           [
             90,
             "Torment"
+          ],
+          [
+            95,
+            "Magic Powder"
+          ],
+          [
+            100,
+            "Mist Ball"
           ]
         ],
         "tms": [
@@ -119529,6 +124802,7 @@ var overrides = {
           "Focus Blast",
           "Grass Knot",
           "Hidden Power",
+          "Misty Explosion",
           "Play Rough",
           "Psychic",
           "Return",
@@ -119538,6 +124812,7 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "After You",
           "Magic Room",
           "Psycho Cut",
           "Telekinesis",
@@ -119546,6 +124821,7 @@ var overrides = {
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Magic Room",
             "Telekinesis",
             "Wonder Room"
@@ -119557,6 +124833,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Magic Room",
             "Telekinesis",
             "Wonder Room"
@@ -119668,6 +124945,14 @@ var overrides = {
           [
             90,
             "Torment"
+          ],
+          [
+            95,
+            "Leech Seed"
+          ],
+          [
+            100,
+            "Flower Trick"
           ]
         ],
         "tms": [
@@ -119678,6 +124963,8 @@ var overrides = {
           "Focus Blast",
           "Grass Knot",
           "Hidden Power",
+          "Magical Leaf",
+          "Misty Explosion",
           "Return",
           "Rock Smash",
           "Rock Tomb",
@@ -119686,6 +124973,7 @@ var overrides = {
           "Taunt"
         ],
         "tutors": [
+          "After You",
           "Brick Break",
           "Rock Slide",
           "Seed Bomb",
@@ -119693,6 +124981,7 @@ var overrides = {
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Telekinesis"
           ],
           "Slateport Tutor": [
@@ -119703,6 +124992,7 @@ var overrides = {
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Telekinesis"
           ],
           "Poke Menu: Slateport": [
@@ -119817,6 +125107,14 @@ var overrides = {
           [
             90,
             "Torment"
+          ],
+          [
+            95,
+            "Water Sport"
+          ],
+          [
+            100,
+            "Mist"
           ]
         ],
         "tms": [
@@ -119830,6 +125128,7 @@ var overrides = {
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Misty Explosion",
           "Play Rough",
           "Return",
           "Shadow Ball",
@@ -119838,6 +125137,7 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "After You",
           "Blizzard",
           "Hydro Pump",
           "Ice Punch",
@@ -119851,6 +125151,7 @@ var overrides = {
             "Whirlpool"
           ],
           "Petalburg Tutor": [
+            "After You",
             "Magic Room",
             "Telekinesis",
             "Wonder Room"
@@ -119863,6 +125164,7 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Magic Room",
             "Telekinesis",
             "Wonder Room"
@@ -120096,11 +125398,13 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Helping Hand",
           "Magic Room",
           "Psycho Cut",
           "Shadow Claw",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -120120,6 +125424,10 @@ var overrides = {
             "Blizzard",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Magic Room",
@@ -120133,6 +125441,10 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -120429,7 +125741,7 @@ var overrides = {
           ],
           [
             79,
-            "Sky Uppercut"
+            "Hammer Arm"
           ],
           [
             83,
@@ -120462,7 +125774,6 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Bug Bite",
-          "Focus Energy",
           "Ice Punch",
           "Rock Slide",
           "Stomping Tantrum",
@@ -120480,8 +125791,7 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Petalburg": [
-            "Bug Bite",
-            "Focus Energy"
+            "Bug Bite"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -120637,7 +125947,8 @@ var overrides = {
           "Blizzard",
           "Brick Break",
           "Bug Bite",
-          "Laser Focus"
+          "Laser Focus",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
@@ -120650,6 +125961,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Blizzard"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
             "Laser Focus"
@@ -120659,6 +125973,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Blizzard"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -120802,18 +126119,29 @@ var overrides = {
         ],
         "tutors": [
           "Bind",
+          "Signal Beam",
           "Thunder",
-          "Thunder Punch"
+          "Thunder Punch",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Bind"
+          ],
+          "Petalburg Tutor": [
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Thunder Punch"
           ],
           "Route 119 Tutor": [
             "Thunder"
+          ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Thunder Punch"
@@ -120823,6 +126151,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -120971,6 +126302,7 @@ var overrides = {
           "Stone Edge"
         ],
         "tutors": [
+          "Air Slash",
           "Fire Blast",
           "Rock Slide",
           "Seed Bomb",
@@ -120985,6 +126317,7 @@ var overrides = {
             "Fire Blast"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Seed Bomb"
           ],
           "Poke Menu: Slateport": [
@@ -120995,6 +126328,7 @@ var overrides = {
             "Fire Blast"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Seed Bomb"
           ]
         }
@@ -121134,13 +126468,16 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Laser Focus",
-          "Psycho Cut"
+          "Psycho Cut",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break"
@@ -121148,14 +126485,21 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Psycho Cut"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
           ],
           "Poke Menu: Petalburg 2": [
             "Psycho Cut"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -121370,10 +126714,6 @@ var overrides = {
         "learnset": [
           [
             1,
-            "Charge Beam"
-          ],
-          [
-            1,
             "Future Sight"
           ],
           [
@@ -121385,44 +126725,88 @@ var overrides = {
             "Morning Sun"
           ],
           [
-            5,
+            2,
+            "Charge Beam"
+          ],
+          [
+            3,
             "Imprison"
           ],
           [
-            15,
+            5,
             "Stored Power"
           ],
           [
-            25,
+            7,
             "Thunder Wave"
           ],
           [
-            35,
+            13,
+            "Confusion"
+          ],
+          [
+            19,
+            "Reflect"
+          ],
+          [
+            23,
+            "Light Screen"
+          ],
+          [
+            29,
+            "Psychic Fangs"
+          ],
+          [
+            31,
+            "Lumina Crash"
+          ],
+          [
+            37,
+            "Torment"
+          ],
+          [
+            43,
             "Earth Power"
           ],
           [
-            45,
+            47,
             "Gravity"
           ],
           [
-            55,
+            53,
+            "Earth Power"
+          ],
+          [
+            59,
             "Autotomize"
           ],
           [
-            65,
+            61,
             "Knock Off"
           ],
           [
-            75,
+            67,
             "Photon Geyser"
           ],
           [
-            85,
+            73,
             "Heat Wave"
           ],
           [
-            95,
+            79,
+            "Toxic"
+          ],
+          [
+            83,
             "Prismatic Laser"
+          ],
+          [
+            89,
+            "Ally Switch"
+          ],
+          [
+            97,
+            "Stealth Rock"
           ]
         ],
         "tms": [
@@ -121454,6 +126838,7 @@ var overrides = {
           "Psycho Cut",
           "Rock Slide",
           "Shadow Claw",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -121472,6 +126857,9 @@ var overrides = {
             "Psycho Cut",
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Magic Room",
@@ -121485,6 +126873,9 @@ var overrides = {
           "Poke Menu: Petalburg 2": [
             "Psycho Cut",
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -121580,6 +126971,14 @@ var overrides = {
             "Shadow Punch"
           ],
           [
+            84,
+            "Curse"
+          ],
+          [
+            86,
+            "Fling"
+          ],
+          [
             88,
             "Force Palm"
           ],
@@ -121609,17 +127008,21 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "After You",
           "Brick Break",
           "Fire Punch",
           "Ice Punch",
           "Laser Focus",
           "Rock Slide",
           "Shadow Claw",
-          "Thunder Punch"
+          "Thunder Punch",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Laser Focus"
+            "After You",
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -121632,7 +127035,9 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "After You",
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -121754,14 +127159,21 @@ var overrides = {
           "Sludge Bomb"
         ],
         "tutors": [
-          "Helping Hand"
+          "Helping Hand",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       },
@@ -121920,11 +127332,13 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Cross Poison",
           "Fire Blast",
           "Helping Hand",
           "Laser Focus",
-          "Shadow Claw"
+          "Shadow Claw",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
@@ -121938,6 +127352,10 @@ var overrides = {
           "Route 119 Tutor": [
             "Fire Blast"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Laser Focus"
@@ -121948,6 +127366,10 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -122222,7 +127644,7 @@ var overrides = {
           ],
           [
             53,
-            "Hex"
+            "Curse"
           ],
           [
             59,
@@ -122385,7 +127807,7 @@ var overrides = {
           ],
           [
             36,
-            "Wild Charge"
+            "Zing Zap"
           ],
           [
             50,
@@ -122422,6 +127844,10 @@ var overrides = {
           [
             95,
             "Blaze Kick"
+          ],
+          [
+            99,
+            "Fling"
           ],
           [
             100,
@@ -122529,7 +127955,7 @@ var overrides = {
             "Thunder Wave"
           ],
           [
-            80,
+            75,
             "Gyro Ball"
           ]
         ],
@@ -122624,12 +128050,20 @@ var overrides = {
             "Thunder Wave"
           ],
           [
+            75,
+            "Gyro Ball"
+          ],
+          [
             84,
             "Heavy Slam"
           ],
           [
             89,
             "Body Press"
+          ],
+          [
+            92,
+            "Gravity"
           ],
           [
             95,
@@ -122646,6 +128080,7 @@ var overrides = {
           "Facade",
           "Hard Press",
           "Heavy Slam",
+          "Hidden Power",
           "Ice Beam",
           "Rock Smash",
           "Rock Tomb",
@@ -122766,24 +128201,25 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Magical Leaf",
+          "Return",
           "Solar Beam",
           "Solar Blade",
           "Taunt"
         ],
         "tutors": [
-          "Focus Energy",
+          "Natural Gift",
           "Seed Bomb"
         ],
         "tutorsBySource": {
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
-          ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -122881,24 +128317,25 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Magical Leaf",
+          "Return",
           "Solar Beam",
           "Solar Blade",
           "Taunt"
         ],
         "tutors": [
-          "Focus Energy",
+          "Natural Gift",
           "Seed Bomb"
         ],
         "tutorsBySource": {
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
-          ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -123020,7 +128457,7 @@ var overrides = {
           ],
           [
             82,
-            "Earthquake"
+            "Fake Out"
           ],
           [
             86,
@@ -123032,7 +128469,11 @@ var overrides = {
           ],
           [
             95,
-            "Fake Out"
+            "Earthquake"
+          ],
+          [
+            100,
+            "U-turn"
           ]
         ],
         "tms": [
@@ -123044,10 +128485,13 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Feint Attack",
           "Focus Blast",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Magical Leaf",
+          "Return",
           "Rock Smash",
           "Solar Beam",
           "Solar Blade",
@@ -123057,7 +128501,7 @@ var overrides = {
           "After You",
           "Body Press",
           "Brick Break",
-          "Focus Energy",
+          "Natural Gift",
           "Seed Bomb",
           "Stomping Tantrum"
         ],
@@ -123070,20 +128514,21 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "After You",
-            "Focus Energy"
+            "After You"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
             "Stomping Tantrum"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -123160,15 +128605,17 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Taunt"
         ],
         "tutors": [
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
-          "Helping Hand"
+          "Helping Hand",
+          "Natural Gift"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -123180,8 +128627,10 @@ var overrides = {
           "Route 119 Tutor": [
             "Fire Blast"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Mauville": [
@@ -123189,6 +128638,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       },
@@ -123276,15 +128728,17 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Taunt"
         ],
         "tutors": [
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
-          "Helping Hand"
+          "Helping Hand",
+          "Natural Gift"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -123296,8 +128750,10 @@ var overrides = {
           "Route 119 Tutor": [
             "Fire Blast"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Mauville": [
@@ -123305,6 +128761,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       },
@@ -123362,6 +128821,10 @@ var overrides = {
           [
             1,
             "Feint"
+          ],
+          [
+            1,
+            "Fling"
           ],
           [
             1,
@@ -123436,6 +128899,14 @@ var overrides = {
             "High Jump Kick"
           ],
           [
+            90,
+            "Fake Tears"
+          ],
+          [
+            93,
+            "Court Change"
+          ],
+          [
             96,
             "Ally Switch"
           ],
@@ -123448,9 +128919,12 @@ var overrides = {
           "Cut",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Focus Blast",
+          "Hidden Power",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Taunt",
@@ -123461,8 +128935,8 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
-          "Helping Hand"
+          "Helping Hand",
+          "Natural Gift"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -123478,9 +128952,11 @@ var overrides = {
           "Route 119 Tutor": [
             "Fire Blast"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -123491,6 +128967,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -123583,12 +129062,15 @@ var overrides = {
           "Dive",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Liquidation",
+          "Return",
           "Surf",
           "Waterfall"
         ],
         "tutors": [
           "Hydro Pump",
+          "Natural Gift",
           "Weather Ball",
           "Whirlpool"
         ],
@@ -123600,12 +129082,18 @@ var overrides = {
             "Hydro Pump",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Mauville": [
             "Whirlpool"
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       },
@@ -123710,12 +129198,15 @@ var overrides = {
           "Dive",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Liquidation",
+          "Return",
           "Surf",
           "Waterfall"
         ],
         "tutors": [
           "Hydro Pump",
+          "Natural Gift",
           "Weather Ball",
           "Whirlpool"
         ],
@@ -123727,12 +129218,18 @@ var overrides = {
             "Hydro Pump",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Mauville": [
             "Whirlpool"
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       },
@@ -123852,8 +129349,20 @@ var overrides = {
             "Taunt"
           ],
           [
+            86,
+            "Haze"
+          ],
+          [
             90,
             "Snipe Shot"
+          ],
+          [
+            95,
+            "Hydro Cannon"
+          ],
+          [
+            99,
+            "Fling"
           ],
           [
             100,
@@ -123867,9 +129376,12 @@ var overrides = {
           "Dive",
           "Endure",
           "Facade",
+          "Feint Attack",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Surf",
@@ -123878,9 +129390,10 @@ var overrides = {
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Blizzard",
-          "Focus Energy",
           "Hydro Pump",
+          "Natural Gift",
           "Weather Ball",
           "Whirlpool"
         ],
@@ -123896,9 +129409,12 @@ var overrides = {
             "Hydro Pump",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
-            "After You",
-            "Focus Energy"
+            "After You"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -123907,6 +129423,10 @@ var overrides = {
             "Blizzard",
             "Hydro Pump",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -123940,7 +129460,8 @@ var overrides = {
         "tms": [
           "Disarming Voice",
           "Endure",
-          "Facade"
+          "Facade",
+          "Hidden Power"
         ],
         "tutors": [
           "Seed Bomb"
@@ -123998,7 +129519,8 @@ var overrides = {
           "Disarming Voice",
           "Earthquake",
           "Endure",
-          "Facade"
+          "Facade",
+          "Hidden Power"
         ],
         "tutors": [
           "Body Press",
@@ -124097,14 +129619,19 @@ var overrides = {
           "Endure",
           "Facade",
           "Fly",
+          "Hidden Power",
+          "Return",
           "Taunt"
         ],
         "tutors": [
-          "Focus Energy"
+          "Air Slash"
         ],
         "tutorsBySource": {
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -124198,22 +129725,27 @@ var overrides = {
           "Endure",
           "Facade",
           "Fly",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Taunt"
         ],
         "tutors": [
-          "Focus Energy",
+          "Air Slash",
           "Hurricane"
         ],
         "tutorsBySource": {
           "Route 119 Tutor": [
             "Hurricane"
           ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
+          "Route 120 Tutor": [
+            "Air Slash"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -124358,12 +129890,24 @@ var overrides = {
             "Reflect"
           ],
           [
+            88,
+            "Hard Press"
+          ],
+          [
             90,
             "Spite"
           ],
           [
             95,
             "U-turn"
+          ],
+          [
+            99,
+            "Scary Face"
+          ],
+          [
+            100,
+            "Metal Sound"
           ]
         ],
         "tms": [
@@ -124372,18 +129916,22 @@ var overrides = {
           "Dual Wingbeat",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Fly",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Taunt"
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Aqua Cutter",
           "Body Press",
           "Embargo",
-          "Focus Energy",
-          "Hurricane"
+          "Hurricane",
+          "Natural Gift"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
@@ -124396,19 +129944,26 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Embargo",
-            "Focus Energy"
+            "Embargo"
           ],
           "Poke Menu: Petalburg 2": [
             "Aqua Cutter"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -124512,7 +130067,9 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Hidden Power",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap",
           "Solar Beam"
@@ -124656,6 +130213,10 @@ var overrides = {
             "Psychic"
           ],
           [
+            60,
+            "Guard Swap"
+          ],
+          [
             62,
             "Sticky Web"
           ],
@@ -124694,7 +130255,10 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Flash",
+          "Hidden Power",
+          "Pounce",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap",
           "Solar Beam"
@@ -124704,6 +130268,7 @@ var overrides = {
           "Body Press",
           "Helping Hand",
           "Magic Room",
+          "Natural Gift",
           "Psycho Cut",
           "Wonder Room"
         ],
@@ -124717,6 +130282,9 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Psycho Cut"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -124728,6 +130296,9 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Psycho Cut"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -124762,6 +130333,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Play Rough",
           "Taunt"
         ],
@@ -124822,6 +130394,7 @@ var overrides = {
           "Facade",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Play Rough",
           "Psychic",
           "Shadow Ball",
@@ -124902,24 +130475,36 @@ var overrides = {
             "Leaf Tornado"
           ],
           [
+            25,
+            "Synthesis"
+          ],
+          [
             27,
             "Cotton Spore"
           ],
           [
             31,
-            "Hyper Voice"
+            "Giga Drain"
+          ],
+          [
+            35,
+            "Fake Tears"
           ],
           [
             38,
-            "Aromatherapy"
+            "Energy Ball"
+          ],
+          [
+            41,
+            "Worry Seed"
           ],
           [
             45,
-            "Grass Knot"
+            "Quick Guard"
           ],
           [
             47,
-            "Energy Ball"
+            "Grass Knot"
           ],
           [
             52,
@@ -124927,19 +130512,27 @@ var overrides = {
           ],
           [
             55,
-            "Giga Drain"
+            "Defog"
           ],
           [
             59,
             "Stun Spore"
           ],
           [
+            61,
+            "Lucky Chant"
+          ],
+          [
             64,
-            "Synthesis"
+            "Chloroblast"
           ],
           [
             68,
             "Pollen Puff"
+          ],
+          [
+            71,
+            "Rapid Spin"
           ],
           [
             73,
@@ -124964,6 +130557,14 @@ var overrides = {
           [
             90,
             "Healing Wish"
+          ],
+          [
+            95,
+            "Cotton Guard"
+          ],
+          [
+            99,
+            "Endure"
           ]
         ],
         "tms": [
@@ -124972,7 +130573,9 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
@@ -125032,19 +130635,15 @@ var overrides = {
           ],
           [
             1,
+            "Endure"
+          ],
+          [
+            1,
             "Leafage"
           ],
           [
             1,
             "Sing"
-          ],
-          [
-            1,
-            "Synthesis"
-          ],
-          [
-            1,
-            "Worry Seed"
           ],
           [
             4,
@@ -125067,24 +130666,36 @@ var overrides = {
             "Leaf Tornado"
           ],
           [
+            25,
+            "Synthesis"
+          ],
+          [
             27,
             "Cotton Spore"
           ],
           [
             31,
-            "Hyper Voice"
+            "Giga Drain"
+          ],
+          [
+            35,
+            "Fake Tears"
           ],
           [
             38,
-            "Aromatherapy"
+            "Energy Ball"
+          ],
+          [
+            41,
+            "Worry Seed"
           ],
           [
             45,
-            "Grass Knot"
+            "Quick Guard"
           ],
           [
             47,
-            "Energy Ball"
+            "Grass Knot"
           ],
           [
             52,
@@ -125092,19 +130703,27 @@ var overrides = {
           ],
           [
             55,
-            "Giga Drain"
+            "Defog"
           ],
           [
             59,
             "Stun Spore"
           ],
           [
+            61,
+            "Lucky Chant"
+          ],
+          [
             64,
-            "Synthesis"
+            "Chloroblast"
           ],
           [
             68,
             "Pollen Puff"
+          ],
+          [
+            71,
+            "Rapid Spin"
           ],
           [
             73,
@@ -125129,44 +130748,65 @@ var overrides = {
           [
             90,
             "Healing Wish"
+          ],
+          [
+            95,
+            "Cotton Guard"
+          ],
+          [
+            99,
+            "Endure"
           ]
         ],
         "tms": [
           "Cut",
+          "Defog",
           "Disarming Voice",
           "Endure",
           "Energy Ball",
           "Facade",
           "Flash",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
+          "Skill Swap",
           "Solar Beam"
         ],
         "tutors": [
           "After You",
+          "Embargo",
           "Helping Hand",
+          "Natural Gift",
           "Seed Bomb",
-          "Weather Ball"
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "After You",
-            "Helping Hand"
+            "Embargo",
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Weather Ball"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Helping Hand"
+            "Embargo",
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Weather Ball"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -125198,6 +130838,14 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Rock Smash"
+          ],
+          [
+            1,
+            "Sweet Scent"
+          ],
           [
             1,
             "Tackle"
@@ -125298,6 +130946,8 @@ var overrides = {
         "tms": [
           "Endure",
           "Facade",
+          "Hidden Power",
+          "Return",
           "Thunder Wave"
         ],
         "tutors": []
@@ -125348,6 +130998,10 @@ var overrides = {
           [
             1,
             "Sleep Talk"
+          ],
+          [
+            1,
+            "Sweet Scent"
           ],
           [
             1,
@@ -125446,6 +131100,10 @@ var overrides = {
             "Double-Edge"
           ],
           [
+            79,
+            "Roar"
+          ],
+          [
             82,
             "Toxic"
           ],
@@ -125456,11 +131114,18 @@ var overrides = {
           [
             90,
             "Last Resort"
+          ],
+          [
+            95,
+            "Counter"
           ]
         ],
         "tms": [
           "Endure",
           "Facade",
+          "Hidden Power",
+          "Return",
+          "Rock Smash",
           "Thunder Wave"
         ],
         "tutors": [
@@ -125468,6 +131133,7 @@ var overrides = {
           "Body Press",
           "Embargo",
           "Magic Room",
+          "Natural Gift",
           "Wonder Room"
         ],
         "tutorsBySource": {
@@ -125477,6 +131143,9 @@ var overrides = {
             "Magic Room",
             "Wonder Room"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -125485,6 +131154,9 @@ var overrides = {
             "Embargo",
             "Magic Room",
             "Wonder Room"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -125573,8 +131245,10 @@ var overrides = {
           "Dive",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Liquidation",
           "Poison Jab",
+          "Return",
           "Surf",
           "Waterfall"
         ],
@@ -125709,6 +131383,10 @@ var overrides = {
             "Wave Crash"
           ],
           [
+            84,
+            "Roar"
+          ],
+          [
             88,
             "Rock Climb"
           ],
@@ -125725,9 +131403,12 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Feint Attack",
+          "Hidden Power",
           "Ice Beam",
           "Liquidation",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -125739,6 +131420,7 @@ var overrides = {
           "Body Press",
           "Embargo",
           "Hydro Pump",
+          "Natural Gift",
           "Rock Slide",
           "Sand Tomb",
           "Stomping Tantrum",
@@ -125760,6 +131442,9 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -125777,6 +131462,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -125883,7 +131571,9 @@ var overrides = {
         "tms": [
           "Endure",
           "Facade",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Thunder Wave",
           "Thunderbolt"
         ],
@@ -125982,12 +131672,32 @@ var overrides = {
             "Crunch"
           ],
           [
+            38,
+            "Parabolic Charge"
+          ],
+          [
+            38,
+            "Zing Zap"
+          ],
+          [
             41,
             "Psychic Fangs"
           ],
           [
+            44,
+            "Eerie Impulse"
+          ],
+          [
+            45,
+            "Poison Fang"
+          ],
+          [
             46,
             "Thunder Fang"
+          ],
+          [
+            49,
+            "Sweet Scent"
           ],
           [
             52,
@@ -125998,8 +131708,20 @@ var overrides = {
             "Ice Fang"
           ],
           [
+            59,
+            "Endure"
+          ],
+          [
             63,
             "Play Rough"
+          ],
+          [
+            65,
+            "Thunderclap"
+          ],
+          [
+            67,
+            "Round"
           ],
           [
             69,
@@ -126014,8 +131736,24 @@ var overrides = {
             "Thunder"
           ],
           [
+            80,
+            "Focus Energy"
+          ],
+          [
             82,
             "Volt Tackle"
+          ],
+          [
+            84,
+            "Misty Explosion"
+          ],
+          [
+            86,
+            "Quash"
+          ],
+          [
+            90,
+            "Electrify"
           ],
           [
             95,
@@ -126024,35 +131762,58 @@ var overrides = {
         ],
         "tms": [
           "Cut",
+          "Defog",
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flash",
+          "Hidden Power",
           "Play Rough",
+          "Return",
+          "Rock Smash",
+          "Shock Wave",
           "Thunder Wave",
           "Thunderbolt"
         ],
         "tutors": [
           "After You",
-          "Focus Energy",
+          "Embargo",
           "Helping Hand",
-          "Thunder"
+          "Laser Focus",
+          "Magic Room",
+          "Natural Gift",
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "After You",
-            "Helping Hand"
+            "Embargo",
+            "Helping Hand",
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Focus Energy",
-            "Helping Hand"
+            "Embargo",
+            "Helping Hand",
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -126128,6 +131889,8 @@ var overrides = {
           "Bulldoze",
           "Endure",
           "Facade",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -126279,6 +132042,8 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -126410,8 +132175,16 @@ var overrides = {
             "Fire Punch"
           ],
           [
-            54,
+            52,
             "Rock Slide"
+          ],
+          [
+            58,
+            "Lucky Chant"
+          ],
+          [
+            63,
+            "Burn Up"
           ],
           [
             63,
@@ -126422,8 +132195,16 @@ var overrides = {
             "Body Press"
           ],
           [
+            68,
+            "Rock Climb"
+          ],
+          [
             71,
             "Power Gem"
+          ],
+          [
+            75,
+            "Scald"
           ],
           [
             80,
@@ -126439,11 +132220,11 @@ var overrides = {
           ],
           [
             95,
-            "Reflect"
+            "Steam Eruption"
           ],
           [
-            100,
-            "Burn Up"
+            99,
+            "Reflect"
           ],
           [
             100,
@@ -126458,6 +132239,8 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Solar Beam",
@@ -126669,6 +132452,10 @@ var overrides = {
             "Sucker Punch"
           ],
           [
+            65,
+            "Superpower"
+          ],
+          [
             70,
             "Substitute"
           ],
@@ -126677,8 +132464,20 @@ var overrides = {
             "Dragon Energy"
           ],
           [
+            77,
+            "Grassy Glide"
+          ],
+          [
             82,
             "Dragon Rush"
+          ],
+          [
+            86,
+            "Follow Me"
+          ],
+          [
+            90,
+            "Worry Seed"
           ]
         ],
         "tms": [
@@ -126687,25 +132486,44 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Feint Attack",
           "Fly",
           "Grass Knot",
           "Heavy Slam",
+          "Hidden Power",
           "Magical Leaf",
           "Pounce",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
-          "Focus Energy",
-          "Seed Bomb"
+          "Air Slash",
+          "Laser Focus",
+          "Natural Gift",
+          "Seed Bomb",
+          "Stomping Tantrum"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Laser Focus"
+          ],
+          "Slateport Tutor": [
+            "Stomping Tantrum"
+          ],
           "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy"
+            "Laser Focus"
+          ],
+          "Poke Menu: Slateport": [
+            "Stomping Tantrum"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -126807,6 +132625,10 @@ var overrides = {
             "Leaf Storm"
           ],
           [
+            65,
+            "Body Press"
+          ],
+          [
             70,
             "Draco Meteor"
           ],
@@ -126815,8 +132637,20 @@ var overrides = {
             "Dragon Tail"
           ],
           [
+            77,
+            "Grassy Glide"
+          ],
+          [
             82,
             "Endure"
+          ],
+          [
+            86,
+            "Follow Me"
+          ],
+          [
+            90,
+            "Worry Seed"
           ]
         ],
         "tms": [
@@ -126827,36 +132661,44 @@ var overrides = {
           "Facade",
           "Grass Knot",
           "Heavy Slam",
+          "Hidden Power",
           "Magical Leaf",
           "Pounce",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
           "Body Press",
           "Helping Hand",
+          "Magic Room",
+          "Natural Gift",
           "Seed Bomb",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room"
           ],
           "Slateport Tutor": [
             "Stomping Tantrum"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room"
           ],
           "Poke Menu: Slateport": [
             "Stomping Tantrum"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -126894,6 +132736,7 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Rock Tomb",
           "Stone Edge"
         ],
@@ -126961,6 +132804,7 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Rock Tomb",
           "Stone Edge"
         ],
@@ -127027,12 +132871,14 @@ var overrides = {
           "Endure",
           "Facade",
           "Fly",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Surf"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Hurricane",
           "Hydro Pump",
@@ -127049,6 +132895,9 @@ var overrides = {
             "Hydro Pump",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Mauville": [
             "Whirlpool"
           ],
@@ -127057,6 +132906,9 @@ var overrides = {
             "Hurricane",
             "Hydro Pump",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -127097,14 +132949,15 @@ var overrides = {
           "Dive",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Liquidation",
           "Poison Jab",
+          "Return",
           "Surf",
           "Waterfall"
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Hydro Pump",
           "Whirlpool"
         ],
@@ -127117,9 +132970,6 @@ var overrides = {
           ],
           "Route 119 Tutor": [
             "Hydro Pump"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
@@ -127228,7 +133078,11 @@ var overrides = {
             "Drill Run"
           ],
           [
-            68,
+            67,
+            "Round"
+          ],
+          [
+            69,
             "Aqua Tail"
           ],
           [
@@ -127248,6 +133102,10 @@ var overrides = {
             "Wave Crash"
           ],
           [
+            90,
+            "Fake Tears"
+          ],
+          [
             95,
             "Throat Chop"
           ],
@@ -127263,10 +133121,12 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Surf",
           "Waterfall"
@@ -127277,8 +133137,8 @@ var overrides = {
           "Blizzard",
           "Brick Break",
           "Embargo",
-          "Focus Energy",
           "Hydro Pump",
+          "Natural Gift",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -127299,10 +133159,12 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Embargo",
-            "Focus Energy"
+            "Embargo"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
@@ -127316,6 +133178,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -127519,6 +133384,10 @@ var overrides = {
             "Boomburst"
           ],
           [
+            67,
+            "Round"
+          ],
+          [
             69,
             "Parabolic Charge"
           ],
@@ -127535,19 +133404,34 @@ var overrides = {
             "Overdrive"
           ],
           [
+            82,
+            "Psychic Noise"
+          ],
+          [
             85,
             "Thunder Cage"
           ],
           [
             90,
             "Volt Switch"
+          ],
+          [
+            95,
+            "Toxic Thread"
+          ],
+          [
+            99,
+            "Fling"
           ]
         ],
         "tms": [
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
+          "Hidden Power",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Sludge Bomb",
           "Taunt",
@@ -127717,6 +133601,10 @@ var overrides = {
             "Boomburst"
           ],
           [
+            67,
+            "Round"
+          ],
+          [
             69,
             "Parabolic Charge"
           ],
@@ -127733,19 +133621,33 @@ var overrides = {
             "Overdrive"
           ],
           [
+            82,
+            "Psychic Noise"
+          ],
+          [
             85,
             "Thunder Cage"
           ],
           [
             90,
             "Volt Switch"
+          ],
+          [
+            95,
+            "Toxic Thread"
+          ],
+          [
+            99,
+            "Fling"
           ]
         ],
         "tms": [
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Sludge Bomb",
           "Taunt",
@@ -127753,7 +133655,9 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "After You",
           "Brick Break",
+          "Embargo",
           "Fire Punch",
           "Helping Hand",
           "Thunder",
@@ -127761,6 +133665,8 @@ var overrides = {
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
+            "Embargo",
             "Helping Hand"
           ],
           "Slateport Tutor": [
@@ -127772,6 +133678,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
+            "Embargo",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -127881,7 +133789,9 @@ var overrides = {
           "Cut",
           "Endure",
           "Facade",
-          "Flash"
+          "Flash",
+          "Hidden Power",
+          "Return"
         ],
         "tutors": [
           "Bind",
@@ -128032,6 +133942,10 @@ var overrides = {
           ],
           [
             99,
+            "Sizzly Slide"
+          ],
+          [
+            100,
             "Fire Lash"
           ]
         ],
@@ -128039,8 +133953,12 @@ var overrides = {
           "Cut",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Flamethrower",
           "Flash",
+          "Hidden Power",
+          "Pounce",
+          "Return",
           "Solar Beam",
           "Will-O-Wisp",
           "X-Scissor"
@@ -128050,7 +133968,8 @@ var overrides = {
           "Bind",
           "Fire Blast",
           "Fire Spin",
-          "Mystical Fire"
+          "Mystical Fire",
+          "Natural Gift"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -128062,6 +133981,9 @@ var overrides = {
           ],
           "Route 119 Tutor": [
             "Fire Blast"
+          ],
+          "Route 120 Tutor": [
+            "Natural Gift"
           ],
           "Poke Menu: Starter": [
             "Mystical Fire"
@@ -128075,6 +133997,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -128110,6 +134035,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Focus Blast",
+          "Hidden Power",
           "Liquidation",
           "Taunt",
           "Waterfall"
@@ -128172,6 +134098,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Focus Blast",
+          "Hidden Power",
           "Liquidation",
           "Surf",
           "Taunt",
@@ -128242,10 +134169,6 @@ var overrides = {
           ],
           [
             1,
-            "Baton Pass"
-          ],
-          [
-            1,
             "Imprison"
           ],
           [
@@ -128298,7 +134221,7 @@ var overrides = {
           ],
           [
             85,
-            "Foul Play"
+            "Will-O-Wisp"
           ]
         ],
         "tms": [
@@ -128306,8 +134229,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Magical Leaf",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap",
           "Will-O-Wisp"
@@ -128409,7 +134334,7 @@ var overrides = {
           ],
           [
             72,
-            "Memento"
+            "Teatime"
           ],
           [
             75,
@@ -128430,6 +134355,14 @@ var overrides = {
           [
             95,
             "Confuse Ray"
+          ],
+          [
+            99,
+            "Protect"
+          ],
+          [
+            100,
+            "Moongeist Beam"
           ]
         ],
         "tms": [
@@ -128437,8 +134370,11 @@ var overrides = {
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Magical Leaf",
+          "Pounce",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap",
           "Will-O-Wisp"
@@ -128575,9 +134511,11 @@ var overrides = {
           "Draining Kiss",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Magical Leaf",
           "Play Rough",
           "Psychic",
+          "Return",
           "Skill Swap",
           "Thunder Wave"
         ],
@@ -128706,9 +134644,11 @@ var overrides = {
           "Draining Kiss",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Magical Leaf",
           "Play Rough",
           "Psychic",
+          "Return",
           "Skill Swap",
           "Thunder Wave"
         ],
@@ -128886,10 +134826,12 @@ var overrides = {
           "Draining Kiss",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Magical Leaf",
           "Misty Explosion",
           "Play Rough",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap",
           "Thunder Wave"
@@ -129039,8 +134981,10 @@ var overrides = {
           "Feint Attack",
           "Flash",
           "Foul Play",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
+          "Return",
           "Taunt",
           "Thunder Wave"
         ],
@@ -129182,8 +135126,10 @@ var overrides = {
           "Feint Attack",
           "Flash",
           "Foul Play",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
+          "Return",
           "Taunt",
           "Thunder Wave"
         ],
@@ -129353,6 +135299,10 @@ var overrides = {
             "Darkest Lariat"
           ],
           [
+            79,
+            "Burning Jealousy"
+          ],
+          [
             82,
             "Play Rough"
           ],
@@ -129371,6 +135321,10 @@ var overrides = {
           [
             95,
             "Thunder Wave"
+          ],
+          [
+            97,
+            "Light of Ruin"
           ],
           [
             99,
@@ -129393,8 +135347,11 @@ var overrides = {
           "Flash",
           "Focus Blast",
           "Foul Play",
+          "Hidden Power",
           "Low Kick",
+          "Misty Explosion",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Taunt",
           "Thunder Wave"
@@ -129405,9 +135362,9 @@ var overrides = {
           "Brick Break",
           "Embargo",
           "Fire Punch",
-          "Focus Energy",
           "Ice Punch",
           "Lash Out",
+          "Natural Gift",
           "Shadow Claw",
           "Stomping Tantrum",
           "Thunder Punch",
@@ -129430,13 +135387,15 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
-            "Focus Energy",
             "Wonder Room"
           ],
           "Poke Menu: Slateport": [
@@ -129449,6 +135408,9 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -129577,6 +135539,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            79,
+            "Assurance"
+          ],
+          [
             82,
             "Close Combat"
           ],
@@ -129599,9 +135565,14 @@ var overrides = {
           [
             99,
             "Giga Impact"
+          ],
+          [
+            100,
+            "Fling"
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Cut",
           "Disarming Voice",
           "Endure",
@@ -129609,9 +135580,11 @@ var overrides = {
           "Feint Attack",
           "Grass Knot",
           "Hard Press",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Surf",
@@ -129629,10 +135602,10 @@ var overrides = {
           "Cross Poison",
           "Embargo",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Lash Out",
+          "Natural Gift",
           "Seed Bomb",
           "Shadow Claw",
           "Stomping Tantrum",
@@ -129667,6 +135640,7 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Starter": [
@@ -129675,7 +135649,6 @@ var overrides = {
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -129699,6 +135672,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -129833,6 +135807,10 @@ var overrides = {
           [
             95,
             "Flail"
+          ],
+          [
+            99,
+            "Iron Tail"
           ]
         ],
         "tms": [
@@ -129845,7 +135823,9 @@ var overrides = {
           "Feint Attack",
           "Foul Play",
           "Heavy Slam",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Taunt",
@@ -130014,18 +135994,25 @@ var overrides = {
           [
             95,
             "Confuse Ray"
+          ],
+          [
+            99,
+            "Meteor Beam"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Earth Power",
           "Earthquake",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball",
@@ -130039,14 +136026,16 @@ var overrides = {
           "Hydro Pump",
           "Rock Slide",
           "Stomping Tantrum",
-          "Whirlpool"
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Whirlpool"
           ],
           "Petalburg Tutor": [
-            "Embargo"
+            "Embargo",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Rock Slide",
@@ -130057,7 +136046,8 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "Embargo",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide",
@@ -130103,12 +136093,13 @@ var overrides = {
           "Dual Wingbeat",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Poison Jab",
+          "Return",
           "Solar Blade"
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand"
         ],
         "tutorsBySource": {
@@ -130119,7 +136110,6 @@ var overrides = {
             "Brick Break"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -130184,6 +136174,10 @@ var overrides = {
             "Safeguard"
           ],
           [
+            4,
+            "Copycat"
+          ],
+          [
             5,
             "Baton Pass"
           ],
@@ -130236,6 +136230,10 @@ var overrides = {
             "Teeter Dance"
           ],
           [
+            56,
+            "Follow Me"
+          ],
+          [
             60,
             "Ice Beam"
           ],
@@ -130270,6 +136268,10 @@ var overrides = {
           [
             95,
             "Spotlight"
+          ],
+          [
+            99,
+            "Fling"
           ]
         ],
         "tms": [
@@ -130280,9 +136282,12 @@ var overrides = {
           "Focus Blast",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Misty Explosion",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap",
           "Solar Beam",
@@ -130442,12 +136447,24 @@ var overrides = {
             "Will-O-Wisp"
           ],
           [
+            77,
+            "Lucky Chant"
+          ],
+          [
+            80,
+            "Curse"
+          ],
+          [
             83,
             "Poltergeist"
           ],
           [
             90,
             "Imprison"
+          ],
+          [
+            95,
+            "Torment"
           ],
           [
             99,
@@ -130463,7 +136480,9 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball",
@@ -130635,7 +136654,9 @@ var overrides = {
           "Dazzling Gleam",
           "Draining Kiss",
           "Endure",
-          "Facade"
+          "Facade",
+          "Hidden Power",
+          "Return"
         ],
         "tutors": [
           "Helping Hand"
@@ -130741,6 +136762,10 @@ var overrides = {
             "First Impression"
           ],
           [
+            41,
+            "Sky Uppercut"
+          ],
+          [
             45,
             "Screech"
           ],
@@ -130751,6 +136776,10 @@ var overrides = {
           [
             53,
             "Close Combat"
+          ],
+          [
+            56,
+            "Focus Energy"
           ],
           [
             60,
@@ -130765,7 +136794,11 @@ var overrides = {
             "Knock Off"
           ],
           [
-            74,
+            73,
+            "Detect"
+          ],
+          [
+            77,
             "Leaf Blade"
           ],
           [
@@ -130795,6 +136828,10 @@ var overrides = {
           [
             99,
             "Endeavor"
+          ],
+          [
+            100,
+            "Fake Out"
           ]
         ],
         "tms": [
@@ -130803,7 +136840,9 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Focus Blast",
+          "Hidden Power",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Rock Tomb"
         ],
@@ -130813,7 +136852,6 @@ var overrides = {
           "Body Press",
           "Brick Break",
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Night Slash",
@@ -130842,7 +136880,6 @@ var overrides = {
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -130888,6 +136925,7 @@ var overrides = {
           "Chilling Water",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Liquidation",
           "Poison Jab",
           "Surf",
@@ -130953,6 +136991,7 @@ var overrides = {
         "tms": [
           "Endure",
           "Facade",
+          "Hidden Power",
           "Icy Wind",
           "Pounce"
         ],
@@ -131103,16 +137142,20 @@ var overrides = {
           "Dual Wingbeat",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Play Rough",
-          "Pounce"
+          "Pounce",
+          "Return"
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Blizzard",
           "Helping Hand",
           "Hurricane",
+          "Natural Gift",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -131125,6 +137168,10 @@ var overrides = {
             "Hurricane",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Helping Hand"
@@ -131133,6 +137180,10 @@ var overrides = {
             "Blizzard",
             "Hurricane",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -131223,6 +137274,10 @@ var overrides = {
             "Earthquake"
           ],
           [
+            76,
+            "Lucky Chant"
+          ],
+          [
             82,
             "Knock Off"
           ],
@@ -131237,6 +137292,10 @@ var overrides = {
           [
             95,
             "Explosion"
+          ],
+          [
+            100,
+            "Stealth Rock"
           ]
         ],
         "tms": [
@@ -131245,8 +137304,11 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hard Press",
           "Heavy Slam",
+          "Hidden Power",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge"
@@ -131365,6 +137427,10 @@ var overrides = {
             "Iron Head"
           ],
           [
+            52,
+            "Aurora Veil"
+          ],
+          [
             54,
             "Waterfall"
           ],
@@ -131397,18 +137463,29 @@ var overrides = {
             "Glaciate"
           ],
           [
+            88,
+            "Soak"
+          ],
+          [
+            90,
+            "Yawn"
+          ],
+          [
             95,
             "Mountain Gale"
           ]
         ],
         "tms": [
           "Chilling Water",
+          "Defog",
           "Dive",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
+          "Return",
           "Surf",
           "Waterfall"
         ],
@@ -131418,14 +137495,16 @@ var overrides = {
           "Hydro Pump",
           "Ice Punch",
           "Weather Ball",
-          "Whirlpool"
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Whirlpool"
           ],
           "Petalburg Tutor": [
-            "After You"
+            "After You",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Ice Punch"
@@ -131436,7 +137515,8 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Petalburg": [
-            "After You"
+            "After You",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Ice Punch"
@@ -131486,6 +137566,7 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Hidden Power",
           "Magical Leaf",
           "Play Rough",
           "Psychic",
@@ -131544,6 +137625,10 @@ var overrides = {
           [
             1,
             "Foul Play"
+          ],
+          [
+            1,
+            "Parting Shot"
           ],
           [
             1,
@@ -131614,6 +137699,10 @@ var overrides = {
             "Obstruct"
           ],
           [
+            66,
+            "Fake Out"
+          ],
+          [
             72,
             "Knock Off"
           ],
@@ -131638,6 +137727,10 @@ var overrides = {
             "Endeavor"
           ],
           [
+            99,
+            "Torment"
+          ],
+          [
             100,
             "Fling"
           ]
@@ -131649,6 +137742,9 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Foul Play",
+          "Hidden Power",
+          "Return",
+          "Shock Wave",
           "Taunt",
           "Thunder Wave",
           "Thunderbolt"
@@ -131658,6 +137754,7 @@ var overrides = {
           "Brick Break",
           "Embargo",
           "Lash Out",
+          "Natural Gift",
           "Seed Bomb",
           "Stomping Tantrum",
           "Thunder",
@@ -131678,6 +137775,7 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
@@ -131694,6 +137792,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -131766,6 +137865,10 @@ var overrides = {
             "Iron Head"
           ],
           [
+            48,
+            "Metal Sound"
+          ],
+          [
             51,
             "Play Rough"
           ],
@@ -131793,7 +137896,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge"
@@ -131912,6 +138017,10 @@ var overrides = {
             "Iron Head"
           ],
           [
+            48,
+            "Metal Sound"
+          ],
+          [
             51,
             "Play Rough"
           ],
@@ -131928,6 +138037,10 @@ var overrides = {
             "High Horsepower"
           ],
           [
+            61,
+            "Hard Press"
+          ],
+          [
             65,
             "Superpower"
           ],
@@ -131936,12 +138049,24 @@ var overrides = {
             "Heavy Slam"
           ],
           [
+            74,
+            "Horn Leech"
+          ],
+          [
             76,
             "Heat Crash"
           ],
           [
             78,
             "Knock Off"
+          ],
+          [
+            80,
+            "Scary Face"
+          ],
+          [
+            80,
+            "Screech"
           ],
           [
             82,
@@ -131956,6 +138081,10 @@ var overrides = {
             "Outrage"
           ],
           [
+            91,
+            "Explosion"
+          ],
+          [
             95,
             "Stealth Rock"
           ]
@@ -131966,8 +138095,11 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hard Press",
           "Heavy Slam",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -131977,12 +138109,14 @@ var overrides = {
           "Body Press",
           "Brick Break",
           "Embargo",
+          "Laser Focus",
           "Rock Slide",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Embargo"
+            "Embargo",
+            "Laser Focus"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -131993,7 +138127,8 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "Embargo",
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -132111,12 +138246,20 @@ var overrides = {
             "Bolt Beak"
           ],
           [
+            74,
+            "Dragon Tail"
+          ],
+          [
             77,
             "Draco Meteor"
           ],
           [
             82,
-            "Dragon Rush"
+            "Thunder Cage"
+          ],
+          [
+            86,
+            "Dragon Hammer"
           ],
           [
             90,
@@ -132132,9 +138275,12 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Flash",
+          "Hidden Power",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
+          "Shock Wave",
           "Stone Edge",
           "Taunt",
           "Thunder Wave",
@@ -132143,6 +138289,7 @@ var overrides = {
         "tutors": [
           "Fire Blast",
           "Fire Spin",
+          "Natural Gift",
           "Rock Slide",
           "Stomping Tantrum",
           "Thunder",
@@ -132161,6 +138308,9 @@ var overrides = {
             "Fire Blast",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Slateport": [
             "Rock Slide",
             "Stomping Tantrum",
@@ -132172,6 +138322,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Fire Blast",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -132249,11 +138402,15 @@ var overrides = {
           ],
           [
             49,
-            "Stomping Tantrum"
+            "Roar"
           ],
           [
             53,
             "Bolt Beak"
+          ],
+          [
+            56,
+            "Ice Shard"
           ],
           [
             65,
@@ -132264,6 +138421,10 @@ var overrides = {
             "Supercell Slam"
           ],
           [
+            74,
+            "Icy Wind"
+          ],
+          [
             77,
             "Blizzard"
           ],
@@ -132272,21 +138433,30 @@ var overrides = {
             "Knock Off"
           ],
           [
+            86,
+            "Glaciate"
+          ],
+          [
             90,
             "Freeze Shock"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
+          "Defog",
           "Disarming Voice",
           "Endure",
           "Facade",
           "Flash",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
+          "Shock Wave",
           "Stone Edge",
           "Surf",
           "Taunt",
@@ -132296,6 +138466,7 @@ var overrides = {
         "tutors": [
           "Blizzard",
           "Hydro Pump",
+          "Natural Gift",
           "Rock Slide",
           "Stomping Tantrum",
           "Thunder",
@@ -132312,6 +138483,9 @@ var overrides = {
             "Hydro Pump",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Slateport": [
             "Rock Slide",
             "Stomping Tantrum",
@@ -132321,6 +138495,9 @@ var overrides = {
             "Blizzard",
             "Hydro Pump",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -132378,7 +138555,7 @@ var overrides = {
           ],
           [
             15,
-            "Charge"
+            "Roar"
           ],
           [
             21,
@@ -132421,12 +138598,20 @@ var overrides = {
             "Fishious Rend"
           ],
           [
+            74,
+            "Roar"
+          ],
+          [
             78,
             "Psychic Fangs"
           ],
           [
             82,
             "Dragon Rush"
+          ],
+          [
+            86,
+            "Dragon Hammer"
           ],
           [
             90,
@@ -132441,8 +138626,10 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Liquidation",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -132451,6 +138638,7 @@ var overrides = {
         ],
         "tutors": [
           "Hydro Pump",
+          "Natural Gift",
           "Rock Slide",
           "Stomping Tantrum",
           "Whirlpool"
@@ -132466,6 +138654,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Slateport": [
             "Rock Slide",
             "Stomping Tantrum"
@@ -132475,6 +138666,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -132563,6 +138757,10 @@ var overrides = {
             "Wave Crash"
           ],
           [
+            74,
+            "Rock Tomb"
+          ],
+          [
             77,
             "Ice Beam"
           ],
@@ -132572,7 +138770,7 @@ var overrides = {
           ],
           [
             86,
-            "Stone Edge"
+            "Glaciate"
           ],
           [
             90,
@@ -132580,13 +138778,16 @@ var overrides = {
           ]
         ],
         "tms": [
+          "Chilling Water",
           "Cut",
           "Dive",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -132596,6 +138797,7 @@ var overrides = {
         "tutors": [
           "Blizzard",
           "Hydro Pump",
+          "Natural Gift",
           "Rock Slide",
           "Whirlpool"
         ],
@@ -132610,6 +138812,9 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Slateport": [
             "Rock Slide"
           ],
@@ -132619,6 +138824,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -132688,7 +138896,7 @@ var overrides = {
           ],
           [
             40,
-            "Metal Burst"
+            "Mirror Coat"
           ],
           [
             45,
@@ -132723,6 +138931,10 @@ var overrides = {
             "Flash Cannon"
           ],
           [
+            85,
+            "Thunder Wave"
+          ],
+          [
             90,
             "Draco Meteor"
           ]
@@ -132734,6 +138946,8 @@ var overrides = {
           "Facade",
           "Foul Play",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Solar Beam",
@@ -132889,6 +139103,8 @@ var overrides = {
         "tms": [
           "Endure",
           "Facade",
+          "Hidden Power",
+          "Return",
           "Thunder Wave"
         ],
         "tutors": [
@@ -133017,7 +139233,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Pounce",
+          "Return",
           "Shadow Ball",
           "Surf",
           "Thunder Wave",
@@ -133099,6 +139317,10 @@ var overrides = {
           ],
           [
             1,
+            "Dragon Cheer"
+          ],
+          [
+            1,
             "Flamethrower"
           ],
           [
@@ -133175,7 +139397,7 @@ var overrides = {
           ],
           [
             85,
-            "Breaking Swipe"
+            "Dragon Darts"
           ],
           [
             90,
@@ -133187,7 +139409,7 @@ var overrides = {
           ],
           [
             99,
-            "Dragon Darts"
+            "Draco Meteor"
           ]
         ],
         "tms": [
@@ -133198,7 +139420,9 @@ var overrides = {
           "Feint Attack",
           "Flamethrower",
           "Fly",
+          "Hidden Power",
           "Pounce",
+          "Return",
           "Shadow Ball",
           "Solar Beam",
           "Surf",
@@ -133269,13 +139493,14 @@ var overrides = {
           "Endure",
           "Facade",
           "Focus Blast",
+          "Hidden Power",
           "Play Rough",
           "Poison Jab",
           "Solar Blade"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Psycho Cut"
         ],
@@ -133289,8 +139514,10 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Psycho Cut"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -133298,6 +139525,9 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Psycho Cut"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -133334,6 +139564,7 @@ var overrides = {
           "Facade",
           "Focus Blast",
           "Heavy Slam",
+          "Hidden Power",
           "Play Rough",
           "Solar Beam",
           "Stone Edge"
@@ -133341,7 +139572,6 @@ var overrides = {
         "tutors": [
           "Body Press",
           "Brick Break",
-          "Focus Energy",
           "Helping Hand"
         ],
         "tutorsBySource": {
@@ -133355,7 +139585,6 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -133395,6 +139624,7 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Fly",
+          "Hidden Power",
           "Poison Jab",
           "Shadow Ball",
           "Sludge Bomb",
@@ -133509,13 +139739,14 @@ var overrides = {
           "Aerial Ace",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Low Kick",
+          "Return",
           "Rock Smash"
         ],
         "tutors": [
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Thunder Punch"
@@ -133531,7 +139762,6 @@ var overrides = {
             "Thunder Punch"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -133657,8 +139887,10 @@ var overrides = {
           "Facade",
           "Focus Blast",
           "Foul Play",
+          "Hidden Power",
           "Low Kick",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -133668,7 +139900,6 @@ var overrides = {
           "Body Press",
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Lash Out",
@@ -133691,7 +139922,6 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -133797,7 +140027,7 @@ var overrides = {
           ],
           [
             84,
-            "Seed Bomb"
+            "Leaf Blade"
           ],
           [
             90,
@@ -133821,8 +140051,10 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Magical Leaf",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Solar Beam",
@@ -133835,6 +140067,8 @@ var overrides = {
           "Embargo",
           "Helping Hand",
           "Lash Out",
+          "Magic Room",
+          "Natural Gift",
           "Rock Slide",
           "Seed Bomb",
           "Stomping Tantrum"
@@ -133843,7 +140077,8 @@ var overrides = {
           "Petalburg Tutor": [
             "After You",
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -133852,12 +140087,14 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -133866,6 +140103,7 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -133959,6 +140197,10 @@ var overrides = {
           [
             90,
             "Thunderbolt"
+          ],
+          [
+            95,
+            "Round"
           ]
         ],
         "tms": [
@@ -133966,18 +140208,37 @@ var overrides = {
           "Endure",
           "Facade",
           "Flash",
+          "Hidden Power",
+          "Return",
           "Thunder Wave",
           "Thunderbolt"
         ],
         "tutors": [
-          "Thunder"
+          "After You",
+          "Bind",
+          "Thunder",
+          "Weather Ball"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Bind"
+          ],
+          "Petalburg Tutor": [
+            "After You"
+          ],
           "Route 119 Tutor": [
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You"
+          ],
+          "Poke Menu: Mauville": [
+            "Bind"
           ],
           "Poke Menu: Route 119": [
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
           ]
         }
       }
@@ -134066,6 +140327,10 @@ var overrides = {
           [
             90,
             "Draco Meteor"
+          ],
+          [
+            95,
+            "Round"
           ]
         ],
         "tms": [
@@ -134074,26 +140339,36 @@ var overrides = {
           "Earth Power",
           "Earthquake",
           "Endure",
-          "Facade"
+          "Facade",
+          "Hidden Power",
+          "Return"
         ],
         "tutors": [
+          "Bind",
           "Fire Spin",
-          "Focus Energy",
-          "Laser Focus"
+          "Laser Focus",
+          "Weather Ball"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
+            "Bind",
             "Fire Spin"
           ],
           "Petalburg Tutor": [
             "Laser Focus"
           ],
+          "Route 119 Tutor": [
+            "Weather Ball"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Mauville": [
+            "Bind",
             "Fire Spin"
+          ],
+          "Poke Menu: Route 119": [
+            "Weather Ball"
           ]
         }
       }
@@ -134183,6 +140458,10 @@ var overrides = {
           [
             90,
             "Endeavor"
+          ],
+          [
+            95,
+            "Mist"
           ]
         ],
         "tms": [
@@ -134190,34 +140469,46 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash",
           "Taunt"
         ],
         "tutors": [
           "Blizzard",
           "Body Press",
+          "Brick Break",
           "Lash Out",
+          "Natural Gift",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Slateport Tutor": [
+            "Brick Break",
             "Lash Out",
             "Stomping Tantrum"
           ],
           "Route 119 Tutor": [
             "Blizzard"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Slateport": [
+            "Brick Break",
             "Lash Out",
             "Stomping Tantrum"
           ],
           "Poke Menu: Route 119": [
             "Blizzard"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -134286,7 +140577,7 @@ var overrides = {
           ],
           [
             45,
-            "Thrash"
+            "Curse"
           ],
           [
             55,
@@ -134307,6 +140598,10 @@ var overrides = {
           [
             90,
             "Destiny Bond"
+          ],
+          [
+            95,
+            "Haze"
           ]
         ],
         "tms": [
@@ -134316,7 +140611,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Taunt",
@@ -134324,16 +140621,29 @@ var overrides = {
         ],
         "tutors": [
           "Lash Out",
+          "Magic Room",
           "Psycho Cut",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Telekinesis",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
+          ],
           "Slateport Tutor": [
             "Lash Out",
             "Stomping Tantrum"
           ],
           "Petalburg High-Crit Tutor": [
             "Psycho Cut"
+          ],
+          "Poke Menu: Petalburg": [
+            "Magic Room",
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Lash Out",
@@ -134405,7 +140715,7 @@ var overrides = {
           ],
           [
             32,
-            "Helping Hand"
+            "Safeguard"
           ],
           [
             40,
@@ -134432,6 +140742,10 @@ var overrides = {
             "Solar Beam"
           ],
           [
+            74,
+            "Copycat"
+          ],
+          [
             77,
             "Heal Pulse"
           ],
@@ -134440,8 +140754,16 @@ var overrides = {
             "Future Sight"
           ],
           [
-            88,
+            86,
+            "Gravity"
+          ],
+          [
+            91,
             "Leech Seed"
+          ],
+          [
+            95,
+            "Healing Wish"
           ]
         ],
         "tms": [
@@ -134450,8 +140772,10 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
           "Psychic",
+          "Return",
           "Skill Swap",
           "Solar Beam",
           "Solar Blade"
@@ -134460,6 +140784,7 @@ var overrides = {
           "Body Press",
           "Helping Hand",
           "Magic Room",
+          "Natural Gift",
           "Seed Bomb",
           "Wonder Room"
         ],
@@ -134470,6 +140795,7 @@ var overrides = {
             "Wonder Room"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Starter": [
@@ -134481,6 +140807,7 @@ var overrides = {
             "Wonder Room"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -134618,8 +140945,16 @@ var overrides = {
             "Psycho Shift"
           ],
           [
+            79,
+            "Lucky Chant"
+          ],
+          [
             82,
             "Gravity"
+          ],
+          [
+            85,
+            "Ally Switch"
           ],
           [
             89,
@@ -134628,6 +140963,14 @@ var overrides = {
           [
             94,
             "Hyper Beam"
+          ],
+          [
+            99,
+            "Destiny Bond"
+          ],
+          [
+            100,
+            "Present"
           ]
         ],
         "tms": [
@@ -134637,7 +140980,9 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Hidden Power",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Skill Swap",
@@ -134649,6 +140994,7 @@ var overrides = {
           "Embargo",
           "Helping Hand",
           "Magic Room",
+          "Natural Gift",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -134664,6 +141010,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Helping Hand",
@@ -134673,6 +141022,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -134758,7 +141110,7 @@ var overrides = {
           ],
           [
             40,
-            "Bug Bite"
+            "Pounce"
           ],
           [
             45,
@@ -134774,7 +141126,7 @@ var overrides = {
           ],
           [
             60,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             65,
@@ -134794,7 +141146,7 @@ var overrides = {
           ],
           [
             77,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             80,
@@ -134814,7 +141166,11 @@ var overrides = {
           ],
           [
             95,
-            "Rock Slide"
+            "Rock Climb"
+          ],
+          [
+            99,
+            "Pursuit"
           ]
         ],
         "tms": [
@@ -134822,17 +141178,20 @@ var overrides = {
           "Cut",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Pounce",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
+          "Natural Gift",
           "Psycho Cut",
           "Rock Slide"
         ],
@@ -134848,8 +141207,11 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Psycho Cut"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -134859,6 +141221,10 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Psycho Cut"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -134890,6 +141256,10 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Fling"
+          ],
           [
             1,
             "Gunk Shot"
@@ -134959,6 +141329,10 @@ var overrides = {
             "Dig"
           ],
           [
+            78,
+            "Scary Face"
+          ],
+          [
             81,
             "Double-Edge"
           ],
@@ -134967,12 +141341,24 @@ var overrides = {
             "Yawn"
           ],
           [
+            88,
+            "Roar"
+          ],
+          [
             90,
             "High Horsepower"
           ],
           [
+            92,
+            "Counter"
+          ],
+          [
             95,
             "Last Resort"
+          ],
+          [
+            97,
+            "Torment"
           ],
           [
             99,
@@ -134991,10 +141377,14 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Focus Blast",
+          "Hard Press",
           "Heavy Slam",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -135004,10 +141394,10 @@ var overrides = {
           "Body Press",
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Laser Focus",
+          "Natural Gift",
           "Rock Slide",
           "Seed Bomb",
           "Shadow Claw",
@@ -135031,13 +141421,13 @@ var overrides = {
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -135053,6 +141443,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -135084,6 +141475,10 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Fling"
+          ],
           [
             1,
             "Focus Blast"
@@ -135153,6 +141548,10 @@ var overrides = {
             "Moonlight"
           ],
           [
+            78,
+            "Scary Face"
+          ],
+          [
             81,
             "Blood Moon"
           ],
@@ -135161,12 +141560,24 @@ var overrides = {
             "Yawn"
           ],
           [
+            88,
+            "Roar"
+          ],
+          [
             90,
             "Earth Power"
           ],
           [
+            92,
+            "Mirror Coat"
+          ],
+          [
             95,
             "Trailblaze"
+          ],
+          [
+            97,
+            "Torment"
           ],
           [
             99,
@@ -135285,8 +141696,16 @@ var overrides = {
             "Phantom Force"
           ],
           [
-            80,
+            78,
+            "Curse"
+          ],
+          [
+            81,
             "Wave Crash"
+          ],
+          [
+            83,
+            "Imprison"
           ],
           [
             85,
@@ -135297,6 +141716,10 @@ var overrides = {
             "Origin Pulse"
           ],
           [
+            93,
+            "Destiny Bond"
+          ],
+          [
             95,
             "Final Gambit"
           ]
@@ -135304,10 +141727,13 @@ var overrides = {
         "tms": [
           "Chilling Water",
           "Facade",
+          "Feint Attack",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Surf",
           "Waterfall"
@@ -135316,11 +141742,15 @@ var overrides = {
           "Aqua Cutter",
           "Blizzard",
           "Hydro Pump",
+          "Telekinesis",
           "Whirlpool"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Whirlpool"
+          ],
+          "Petalburg Tutor": [
+            "Telekinesis"
           ],
           "Petalburg High-Crit Tutor": [
             "Aqua Cutter"
@@ -135328,6 +141758,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Petalburg": [
+            "Telekinesis"
           ],
           "Poke Menu: Mauville": [
             "Whirlpool"
@@ -135509,8 +141942,10 @@ var overrides = {
           "Feint Attack",
           "Focus Blast",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball",
@@ -135522,7 +141957,7 @@ var overrides = {
           "Aqua Cutter",
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
+          "Natural Gift",
           "Rock Slide",
           "Shadow Claw"
         ],
@@ -135536,8 +141971,8 @@ var overrides = {
             "Aqua Cutter",
             "Shadow Claw"
           ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
+          "Route 120 Tutor": [
+            "Natural Gift"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -135547,6 +141982,9 @@ var overrides = {
           "Poke Menu: Petalburg 2": [
             "Aqua Cutter",
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -135677,6 +142115,10 @@ var overrides = {
           [
             90,
             "Self-Destruct"
+          ],
+          [
+            95,
+            "Foul Play"
           ]
         ],
         "tms": [
@@ -135685,10 +142127,12 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Poison Jab",
+          "Return",
           "Shadow Ball",
           "Sludge Bomb",
           "Surf",
@@ -135696,11 +142140,16 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "After You",
           "Aqua Cutter",
           "Blizzard",
-          "Hydro Pump"
+          "Hydro Pump",
+          "Natural Gift"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "After You"
+          ],
           "Petalburg High-Crit Tutor": [
             "Aqua Cutter"
           ],
@@ -135708,12 +142157,21 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You"
+          ],
           "Poke Menu: Petalburg 2": [
             "Aqua Cutter"
           ],
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -135814,12 +142272,16 @@ var overrides = {
             "Knock Off"
           ],
           [
+            84,
+            "Scary Face"
+          ],
+          [
             88,
             "Superpower"
           ],
           [
             91,
-            "Draining Kiss"
+            "Moonblast"
           ],
           [
             95,
@@ -135840,18 +142302,40 @@ var overrides = {
           "Fly",
           "Focus Blast",
           "Grass Knot",
+          "Hidden Power",
           "Play Rough",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Sludge Bomb",
           "Taunt"
         ],
         "tutors": [
-          "Mystical Fire"
+          "After You",
+          "Air Slash",
+          "Helping Hand",
+          "Mystical Fire",
+          "Natural Gift"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "After You",
+            "Helping Hand"
+          ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Mystical Fire"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You",
+            "Helping Hand"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -137583,6 +144067,10 @@ var overrides = {
             "Discharge"
           ],
           [
+            38,
+            "Extrasensory"
+          ],
+          [
             41,
             "Speed Swap"
           ],
@@ -137604,7 +144092,7 @@ var overrides = {
           ],
           [
             58,
-            "Alluring Voice"
+            "Ice Beam"
           ],
           [
             62,
@@ -137612,11 +144100,23 @@ var overrides = {
           ],
           [
             66,
-            "Psychic"
+            "Psystrike"
+          ],
+          [
+            69,
+            "Fling"
           ],
           [
             73,
             "Thunder"
+          ],
+          [
+            75,
+            "Rising Voltage"
+          ],
+          [
+            77,
+            "Fake Out"
           ],
           [
             79,
@@ -137624,15 +144124,27 @@ var overrides = {
           ],
           [
             82,
-            "Body Slam"
+            "Psycho Boost"
           ],
           [
             85,
             "Follow Me"
           ],
           [
+            90,
+            "Gravity"
+          ],
+          [
             95,
             "Spotlight"
+          ],
+          [
+            99,
+            "Bestow"
+          ],
+          [
+            100,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -137660,6 +144172,7 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch"
@@ -137678,6 +144191,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Laser Focus",
@@ -137690,6 +144206,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -137947,6 +144466,14 @@ var overrides = {
             "Avalanche"
           ],
           [
+            75,
+            "Knock Off"
+          ],
+          [
+            75,
+            "Rapid Spin"
+          ],
+          [
             80,
             "Hard Press"
           ],
@@ -138051,10 +144578,6 @@ var overrides = {
           [
             4,
             "Tail Whip"
-          ],
-          [
-            7,
-            "Roar"
           ],
           [
             9,
@@ -138217,10 +144740,6 @@ var overrides = {
             "Tail Whip"
           ],
           [
-            7,
-            "Roar"
-          ],
-          [
             9,
             "Baby-Doll Eyes"
           ],
@@ -138282,11 +144801,11 @@ var overrides = {
           ],
           [
             47,
-            "Captivate"
+            "Lucky Chant"
           ],
           [
             50,
-            "Sheer Cold"
+            "Aurora Veil"
           ],
           [
             60,
@@ -138305,8 +144824,16 @@ var overrides = {
             "Solar Beam"
           ],
           [
+            74,
+            "Copycat"
+          ],
+          [
             77,
             "Blizzard"
+          ],
+          [
+            80,
+            "Defog"
           ],
           [
             83,
@@ -138315,6 +144842,10 @@ var overrides = {
           [
             89,
             "Encore"
+          ],
+          [
+            95,
+            "Roar"
           ],
           [
             99,
@@ -138328,23 +144859,29 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Feint Attack",
           "Flash",
           "Foul Play",
           "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Misty Explosion",
           "Return",
           "Solar Beam"
         ],
         "tutors": [
+          "After You",
           "Blizzard",
           "Laser Focus",
+          "Magic Room",
           "Weather Ball",
           "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Laser Focus",
+            "Magic Room",
             "Wonder Room"
           ],
           "Route 119 Tutor": [
@@ -138352,7 +144889,9 @@ var overrides = {
             "Weather Ball"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Laser Focus",
+            "Magic Room",
             "Wonder Room"
           ],
           "Poke Menu: Route 119": [
@@ -138841,6 +145380,7 @@ var overrides = {
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Feint Attack",
           "Foul Play",
           "Hidden Power",
           "Icy Wind",
@@ -138858,12 +145398,14 @@ var overrides = {
           "Helping Hand",
           "Seed Bomb",
           "Shadow Claw",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Petalburg High-Crit Tutor": [
             "Aqua Cutter",
@@ -138877,7 +145419,8 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Petalburg 2": [
             "Aqua Cutter",
@@ -138901,7 +145444,7 @@ var overrides = {
       ],
       "abs": [
         "Galvanize",
-        "Sturdy",
+        "Galvanize",
         "Magnet Pull"
       ],
       "items": [
@@ -139066,7 +145609,7 @@ var overrides = {
       ],
       "abs": [
         "Galvanize",
-        "Sturdy",
+        "Galvanize",
         "Magnet Pull"
       ],
       "items": [
@@ -139365,6 +145908,10 @@ var overrides = {
           [
             95,
             "Roar"
+          ],
+          [
+            100,
+            "Counter"
           ]
         ],
         "tms": [
@@ -139377,6 +145924,7 @@ var overrides = {
           "Flamethrower",
           "Flash",
           "Focus Blast",
+          "Hard Press",
           "Hidden Power",
           "Return",
           "Rock Smash",
@@ -139669,6 +146217,10 @@ var overrides = {
           ],
           [
             1,
+            "Torment"
+          ],
+          [
+            1,
             "Venom Drench"
           ],
           [
@@ -139724,12 +146276,24 @@ var overrides = {
             "Dig"
           ],
           [
+            63,
+            "Pursuit"
+          ],
+          [
             65,
             "Knock Off"
           ],
           [
+            68,
+            "Scary Face"
+          ],
+          [
             71,
             "Drain Punch"
+          ],
+          [
+            74,
+            "Assurance"
           ],
           [
             77,
@@ -139920,6 +146484,14 @@ var overrides = {
             "Draco Meteor"
           ],
           [
+            61,
+            "Gravity"
+          ],
+          [
+            64,
+            "Low Kick"
+          ],
+          [
             69,
             "Leaf Storm"
           ],
@@ -139928,8 +146500,16 @@ var overrides = {
             "Wood Hammer"
           ],
           [
+            73,
+            "Grassy Glide"
+          ],
+          [
             76,
             "Flamethrower"
+          ],
+          [
+            79,
+            "Psychic Noise"
           ],
           [
             82,
@@ -139938,6 +146518,10 @@ var overrides = {
           [
             86,
             "Explosion"
+          ],
+          [
+            90,
+            "Giga Drain"
           ],
           [
             95,
@@ -140117,6 +146701,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            79,
+            "Iron Tail"
+          ],
+          [
             81,
             "Poltergeist"
           ],
@@ -140127,6 +146715,14 @@ var overrides = {
           [
             90,
             "Perish Song"
+          ],
+          [
+            95,
+            "Counter"
+          ],
+          [
+            99,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -140158,7 +146754,6 @@ var overrides = {
           "Fire Blast",
           "Fire Punch",
           "Fire Spin",
-          "Focus Energy",
           "Laser Focus",
           "Rock Slide",
           "Stomping Tantrum",
@@ -140185,7 +146780,6 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
@@ -140313,7 +146907,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Taunt",
@@ -140452,7 +147048,15 @@ var overrides = {
           ],
           [
             45,
+            "Alluring Voice"
+          ],
+          [
+            45,
             "Dazzling Gleam"
+          ],
+          [
+            47,
+            "Skill Swap"
           ],
           [
             50,
@@ -140475,7 +147079,11 @@ var overrides = {
             "Synchronoise"
           ],
           [
-            70,
+            68,
+            "Psycho Shift"
+          ],
+          [
+            71,
             "High Horsepower"
           ],
           [
@@ -140500,9 +147108,11 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
-          "Psychic"
+          "Psychic",
+          "Return"
         ],
         "tutors": [
           "Mystical Fire"
@@ -140615,11 +147225,23 @@ var overrides = {
           ],
           [
             45,
+            "Alluring Voice"
+          ],
+          [
+            45,
             "Dazzling Gleam"
           ],
           [
+            47,
+            "Skill Swap"
+          ],
+          [
             50,
-            "Psychic"
+            "Psychic Fangs"
+          ],
+          [
+            52,
+            "Gravity"
           ],
           [
             55,
@@ -140638,12 +147260,20 @@ var overrides = {
             "Synchronoise"
           ],
           [
-            70,
+            68,
+            "Psycho Shift"
+          ],
+          [
+            71,
             "High Horsepower"
           ],
           [
+            73,
+            "Copycat"
+          ],
+          [
             75,
-            "Psychic Fangs"
+            "Photon Geyser"
           ],
           [
             80,
@@ -140658,8 +147288,16 @@ var overrides = {
             "Megahorn"
           ],
           [
+            92,
+            "Glitzy Glow"
+          ],
+          [
             95,
             "Horn Drill"
+          ],
+          [
+            99,
+            "Misty Explosion"
           ],
           [
             100,
@@ -140671,21 +147309,28 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Low Kick",
+          "Misty Explosion",
           "Play Rough",
           "Poison Jab",
           "Psychic",
+          "Return",
           "Rock Smash"
         ],
         "tutors": [
+          "After You",
           "Magic Room",
           "Mystical Fire",
           "Psycho Cut",
+          "Telekinesis",
           "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Magic Room",
+            "Telekinesis",
             "Wonder Room"
           ],
           "Petalburg High-Crit Tutor": [
@@ -140695,7 +147340,9 @@ var overrides = {
             "Mystical Fire"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Magic Room",
+            "Telekinesis",
             "Wonder Room"
           ],
           "Poke Menu: Petalburg 2": [
@@ -140806,10 +147453,12 @@ var overrides = {
           "Flash",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap",
           "Surf",
@@ -140967,6 +147616,10 @@ var overrides = {
             "Psychic"
           ],
           [
+            59,
+            "Acid Spray"
+          ],
+          [
             65,
             "Shell Side Arm"
           ],
@@ -140987,8 +147640,20 @@ var overrides = {
             "Imprison"
           ],
           [
+            90,
+            "Psychic Noise"
+          ],
+          [
             93,
             "Thunder Wave"
+          ],
+          [
+            95,
+            "Slack Off"
+          ],
+          [
+            99,
+            "Trick Room"
           ]
         ],
         "tms": [
@@ -141003,11 +147668,13 @@ var overrides = {
           "Focus Blast",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Poison Jab",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Skill Swap",
@@ -141099,12 +147766,12 @@ var overrides = {
           "Dual Wingbeat",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Poison Jab",
           "Solar Blade"
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand"
         ],
         "tutorsBySource": {
@@ -141115,7 +147782,6 @@ var overrides = {
             "Brick Break"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -141235,6 +147901,10 @@ var overrides = {
             "Strange Steam"
           ],
           [
+            63,
+            "Acid Spray"
+          ],
+          [
             70,
             "Clear Smog"
           ],
@@ -141253,6 +147923,10 @@ var overrides = {
           [
             90,
             "Acid Spray"
+          ],
+          [
+            95,
+            "Toxic"
           ]
         ],
         "tms": [
@@ -141261,8 +147935,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Misty Explosion",
           "Play Rough",
+          "Return",
           "Shadow Ball",
           "Sludge Bomb",
           "Taunt",
@@ -141271,23 +147947,29 @@ var overrides = {
         ],
         "tutors": [
           "Fire Blast",
+          "Magic Room",
           "Thunder",
+          "Weather Ball",
           "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "Magic Room",
             "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Fire Blast",
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
           ],
           "Poke Menu: Petalburg": [
+            "Magic Room",
             "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Fire Blast",
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
           ]
         }
       }
@@ -141322,6 +148004,10 @@ var overrides = {
           [
             1,
             "Pound"
+          ],
+          [
+            4,
+            "Copycat"
           ],
           [
             5,
@@ -141376,6 +148062,10 @@ var overrides = {
             "Teeter Dance"
           ],
           [
+            56,
+            "Follow Me"
+          ],
+          [
             60,
             "Ice Beam"
           ],
@@ -141410,6 +148100,10 @@ var overrides = {
           [
             95,
             "Spotlight"
+          ],
+          [
+            99,
+            "Fling"
           ]
         ],
         "tms": [
@@ -141420,9 +148114,12 @@ var overrides = {
           "Focus Blast",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Misty Explosion",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap",
           "Solar Beam",
@@ -141493,6 +148190,7 @@ var overrides = {
       ],
       "abs": [
         "Serene Grace",
+        "",
         "Competitive"
       ],
       "items": [
@@ -141569,6 +148267,10 @@ var overrides = {
           [
             97,
             "Future Sight"
+          ],
+          [
+            100,
+            "Luster Purge"
           ]
         ],
         "tms": [
@@ -141577,13 +148279,17 @@ var overrides = {
           "Endure",
           "Facade",
           "Fly",
+          "Hidden Power",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane",
+          "Laser Focus",
           "Magic Room",
           "Psycho Cut",
           "Wonder Room"
@@ -141591,6 +148297,7 @@ var overrides = {
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand",
+            "Laser Focus",
             "Magic Room",
             "Wonder Room"
           ],
@@ -141600,8 +148307,12 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
+            "Laser Focus",
             "Magic Room",
             "Wonder Room"
           ],
@@ -141610,6 +148321,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -141623,6 +148337,7 @@ var overrides = {
       ],
       "abs": [
         "Limber",
+        "",
         "Defiant"
       ],
       "items": [
@@ -141699,6 +148414,10 @@ var overrides = {
           [
             97,
             "Close Combat"
+          ],
+          [
+            100,
+            "Acrobatics"
           ]
         ],
         "tms": [
@@ -141707,20 +148426,23 @@ var overrides = {
           "Endure",
           "Facade",
           "Fly",
+          "Hidden Power",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Taunt"
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Hurricane",
+          "Laser Focus",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -141730,8 +148452,8 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -141829,6 +148551,10 @@ var overrides = {
           [
             97,
             "Foul Play"
+          ],
+          [
+            100,
+            "Ruination"
           ]
         ],
         "tms": [
@@ -141840,17 +148566,22 @@ var overrides = {
           "Facade",
           "Fly",
           "Foul Play",
+          "Hidden Power",
+          "Return",
           "Shadow Ball",
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane",
+          "Laser Focus",
           "Lash Out"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Slateport Tutor": [
             "Lash Out"
@@ -141858,14 +148589,21 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Lash Out"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -141963,11 +148701,15 @@ var overrides = {
           ],
           [
             52,
-            "Poison Jab"
+            "Sludge Bomb"
           ],
           [
             55,
             "Psychic"
+          ],
+          [
+            59,
+            "Acid Spray"
           ],
           [
             65,
@@ -141990,8 +148732,16 @@ var overrides = {
             "Imprison"
           ],
           [
+            90,
+            "Psychic Noise"
+          ],
+          [
             93,
             "Thunder Wave"
+          ],
+          [
+            99,
+            "Ally Switch"
           ]
         ],
         "tms": [
@@ -142005,11 +148755,13 @@ var overrides = {
           "Focus Blast",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Poison Jab",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Skill Swap",
@@ -142106,6 +148858,10 @@ var overrides = {
           ],
           [
             1,
+            "Strength Sap"
+          ],
+          [
+            1,
             "Tackle"
           ],
           [
@@ -142169,20 +148925,31 @@ var overrides = {
             "Destiny Bond"
           ],
           [
+            85,
+            "Reflect"
+          ],
+          [
+            90,
+            "Light Screen"
+          ],
+          [
             95,
             "Strength Sap"
           ]
         ],
         "tms": [
           "Bulldoze",
+          "Chilling Water",
           "Earth Power",
           "Earthquake",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball",
@@ -142336,8 +149103,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Surf",
@@ -142502,8 +149271,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Surf",
@@ -142664,22 +149435,20 @@ var overrides = {
           "Endure",
           "Flamethrower",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
+          "Return",
           "Rock Smash",
           "Taunt"
         ],
         "tutors": [
           "Blizzard",
-          "Fire Blast",
-          "Focus Energy"
+          "Fire Blast"
         ],
         "tutorsBySource": {
           "Route 119 Tutor": [
             "Blizzard",
             "Fire Blast"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Route 119": [
             "Blizzard",
@@ -142820,8 +149589,10 @@ var overrides = {
           "Flamethrower",
           "Focus Blast",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Stone Edge",
           "Taunt"
@@ -142830,7 +149601,6 @@ var overrides = {
           "Blizzard",
           "Body Press",
           "Fire Blast",
-          "Focus Energy",
           "Lash Out"
         ],
         "tutorsBySource": {
@@ -142843,9 +149613,6 @@ var overrides = {
           ],
           "Poke Menu: Starter": [
             "Body Press"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Lash Out"
@@ -142962,7 +149729,9 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Energy Ball",
+          "Hidden Power",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap"
         ],
@@ -143025,11 +149794,11 @@ var overrides = {
           ],
           [
             10,
-            "Mud Shot"
+            "Revenge"
           ],
           [
             15,
-            "Revenge"
+            "Mud Shot"
           ],
           [
             20,
@@ -143064,16 +149833,40 @@ var overrides = {
             "Fissure"
           ],
           [
+            59,
+            "Round"
+          ],
+          [
+            63,
+            "Yawn"
+          ],
+          [
+            66,
+            "Entrainment"
+          ],
+          [
             70,
             "Earthquake"
+          ],
+          [
+            75,
+            "Reflect Type"
           ],
           [
             80,
             "Knock Off"
           ],
           [
+            85,
+            "Thunder Wave"
+          ],
+          [
             90,
             "Hard Press"
+          ],
+          [
+            95,
+            "Stealth Rock"
           ]
         ],
         "tms": [
@@ -143081,19 +149874,34 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Foul Play",
+          "Hidden Power",
+          "Return",
           "Sludge Bomb",
           "Stone Edge",
           "Surf"
         ],
         "tutors": [
-          "Lash Out"
+          "Infestation",
+          "Lash Out",
+          "Rock Slide",
+          "Stomping Tantrum"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Infestation"
+          ],
           "Slateport Tutor": [
-            "Lash Out"
+            "Lash Out",
+            "Rock Slide",
+            "Stomping Tantrum"
           ],
           "Poke Menu: Slateport": [
-            "Lash Out"
+            "Lash Out",
+            "Rock Slide",
+            "Stomping Tantrum"
+          ],
+          "Poke Menu: Mauville": [
+            "Infestation"
           ]
         }
       }
@@ -143235,7 +150043,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -143402,6 +150212,10 @@ var overrides = {
             "Temper Flare"
           ],
           [
+            68,
+            "Extreme Speed"
+          ],
+          [
             72,
             "Burn Up"
           ],
@@ -143412,6 +150226,10 @@ var overrides = {
           [
             80,
             "Head Smash"
+          ],
+          [
+            83,
+            "Scary Face"
           ],
           [
             86,
@@ -143433,7 +150251,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Solar Beam",
@@ -143580,7 +150400,9 @@ var overrides = {
           "Facade",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Solar Beam",
           "Taunt",
           "Thunder Wave",
@@ -143721,8 +150543,16 @@ var overrides = {
             "Chloroblast"
           ],
           [
+            77,
+            "Reflect Type"
+          ],
+          [
             80,
             "Explosion"
+          ],
+          [
+            82,
+            "Torment"
           ],
           [
             85,
@@ -143731,6 +150561,14 @@ var overrides = {
           [
             90,
             "Zap Cannon"
+          ],
+          [
+            95,
+            "Thunderclap"
+          ],
+          [
+            100,
+            "Electro Shot"
           ]
         ],
         "tms": [
@@ -143739,27 +150577,46 @@ var overrides = {
           "Facade",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
+          "Shock Wave",
           "Solar Beam",
           "Taunt",
           "Thunder Wave",
           "Thunderbolt"
         ],
         "tutors": [
+          "Laser Focus",
+          "Magic Room",
+          "Natural Gift",
           "Seed Bomb",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
+          ],
           "Route 119 Tutor": [
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
+          ],
+          "Poke Menu: Petalburg": [
+            "Laser Focus",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -143881,6 +150738,10 @@ var overrides = {
             "Destiny Bond"
           ],
           [
+            93,
+            "Searing Shot"
+          ],
+          [
             96,
             "Eruption"
           ]
@@ -143893,8 +150754,10 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Focus Blast",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Solar Beam",
@@ -144072,10 +150935,12 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Poison Jab",
+          "Return",
           "Shadow Ball",
           "Sludge Bomb",
           "Surf",
@@ -144236,8 +151101,10 @@ var overrides = {
           "Feint Attack",
           "Focus Blast",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Sludge Bomb",
@@ -144247,7 +151114,6 @@ var overrides = {
         "tutors": [
           "Aqua Cutter",
           "Brick Break",
-          "Focus Energy",
           "Shadow Claw"
         ],
         "tutorsBySource": {
@@ -144257,9 +151123,6 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Aqua Cutter",
             "Shadow Claw"
-          ],
-          "Poke Menu: Petalburg": [
-            "Focus Energy"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
@@ -144409,6 +151272,10 @@ var overrides = {
           [
             95,
             "Upper Hand"
+          ],
+          [
+            99,
+            "Copycat"
           ]
         ],
         "tms": [
@@ -144420,10 +151287,12 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Surf",
           "Taunt",
@@ -144431,10 +151300,10 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Aqua Cutter",
           "Blizzard",
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Psycho Cut"
@@ -144454,8 +151323,10 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -144468,6 +151339,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -144508,6 +151382,10 @@ var overrides = {
             "Upper Hand"
           ],
           [
+            5,
+            "Sweet Scent"
+          ],
+          [
             10,
             "Sleep Powder"
           ],
@@ -144537,7 +151415,7 @@ var overrides = {
           ],
           [
             31,
-            "Helping Hand"
+            "Safeguard"
           ],
           [
             35,
@@ -144558,6 +151436,10 @@ var overrides = {
           [
             55,
             "Low Kick"
+          ],
+          [
+            55,
+            "Sky Uppercut"
           ],
           [
             63,
@@ -144590,6 +151472,10 @@ var overrides = {
           [
             95,
             "Solar Blade"
+          ],
+          [
+            99,
+            "Triple Kick"
           ]
         ],
         "tms": [
@@ -144598,15 +151484,17 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Magical Leaf",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Solar Beam"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
           "Hurricane",
           "Laser Focus",
@@ -144624,10 +151512,10 @@ var overrides = {
             "Hurricane"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -144638,6 +151526,7 @@ var overrides = {
             "Hurricane"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Seed Bomb"
           ]
         }
@@ -144769,7 +151658,9 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Foul Play",
+          "Hidden Power",
           "Icy Wind",
+          "Return",
           "Shadow Ball",
           "Sludge Bomb",
           "Taunt",
@@ -144927,6 +151818,10 @@ var overrides = {
             "Hyper Beam"
           ],
           [
+            93,
+            "Scary Face"
+          ],
+          [
             96,
             "Astral Barrage"
           ]
@@ -144942,9 +151837,11 @@ var overrides = {
           "Focus Blast",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Icy Wind",
           "Low Kick",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Sludge Bomb",
@@ -144952,13 +151849,19 @@ var overrides = {
           "Will-O-Wisp"
         ],
         "tutors": [
+          "After You",
           "Brick Break",
           "Helping Hand",
-          "Shadow Claw"
+          "Magic Room",
+          "Shadow Claw",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "After You",
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break"
@@ -144967,7 +151870,10 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Petalburg": [
-            "Helping Hand"
+            "After You",
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
@@ -145084,6 +151990,10 @@ var overrides = {
           [
             90,
             "Future Sight"
+          ],
+          [
+            95,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -145093,13 +152003,16 @@ var overrides = {
           "Endure",
           "Facade",
           "Fly",
+          "Hidden Power",
           "Icy Wind",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane",
           "Magic Room",
@@ -145125,6 +152038,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Starter": [
             "Mystical Fire"
           ],
@@ -145142,6 +152058,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -145259,7 +152178,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Ice Beam",
+          "Return",
           "Rock Tomb",
           "Sludge Bomb",
           "Thunderbolt"
@@ -145405,6 +152326,10 @@ var overrides = {
           [
             99,
             "Draco Meteor"
+          ],
+          [
+            100,
+            "Life Dew"
           ]
         ],
         "tms": [
@@ -145416,7 +152341,9 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Heavy Slam",
+          "Hidden Power",
           "Ice Beam",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Sludge Bomb",
@@ -145432,9 +152359,13 @@ var overrides = {
           "Rock Slide",
           "Stomping Tantrum",
           "Thunder",
-          "Thunder Punch"
+          "Thunder Punch",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Wonder Room"
+          ],
           "Slateport Tutor": [
             "Fire Punch",
             "Rock Slide",
@@ -145449,6 +152380,9 @@ var overrides = {
           ],
           "Poke Menu: Starter": [
             "Body Press"
+          ],
+          "Poke Menu: Petalburg": [
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Fire Punch",
@@ -145534,7 +152468,7 @@ var overrides = {
           ],
           [
             55,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             60,
@@ -145549,7 +152483,11 @@ var overrides = {
             "Mountain Gale"
           ],
           [
-            75,
+            73,
+            "Scary Face"
+          ],
+          [
+            76,
             "Rapid Spin"
           ],
           [
@@ -145561,8 +152499,24 @@ var overrides = {
             "Body Press"
           ],
           [
-            90,
+            88,
+            "Avalanche"
+          ],
+          [
+            91,
             "Wide Guard"
+          ],
+          [
+            95,
+            "Haze"
+          ],
+          [
+            99,
+            "Rest"
+          ],
+          [
+            100,
+            "Counter"
           ]
         ],
         "tms": [
@@ -145572,9 +152526,12 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hard Press",
           "Heavy Slam",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge"
@@ -145748,6 +152705,10 @@ var overrides = {
             "Close Combat"
           ],
           [
+            92,
+            "Destiny Bond"
+          ],
+          [
             95,
             "Defog"
           ],
@@ -145763,24 +152724,30 @@ var overrides = {
           "Facade",
           "Focus Blast",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Magical Leaf",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Solar Beam",
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
+          "Magic Room",
           "Psycho Cut",
           "Seed Bomb",
-          "Shadow Claw"
+          "Shadow Claw",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break"
@@ -145790,11 +152757,13 @@ var overrides = {
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
+            "Air Slash",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
-            "Helping Hand"
+            "Helping Hand",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
@@ -145804,6 +152773,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
+            "Air Slash",
             "Seed Bomb"
           ]
         }
@@ -146207,6 +153177,7 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
+          "Signal Beam",
           "Thunder",
           "Thunder Punch"
         ],
@@ -146223,7 +153194,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
@@ -146237,7 +153209,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -147226,6 +154199,7 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
@@ -147249,7 +154223,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Laser Focus",
@@ -147268,7 +154243,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -147332,6 +154308,7 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
@@ -147355,7 +154332,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Laser Focus",
@@ -147374,7 +154352,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -147441,6 +154420,7 @@ var overrides = {
           "Laser Focus",
           "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
@@ -147468,7 +154448,8 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Laser Focus",
@@ -147490,7 +154471,8 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -147626,6 +154608,7 @@ var overrides = {
           "Bug Bite",
           "Infestation",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -147637,7 +154620,8 @@ var overrides = {
             "Telekinesis"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -147647,7 +154631,8 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -147695,6 +154680,7 @@ var overrides = {
           "Bug Bite",
           "Infestation",
           "Natural Gift",
+          "Signal Beam",
           "Telekinesis"
         ],
         "tutorsBySource": {
@@ -147706,7 +154692,8 @@ var overrides = {
             "Telekinesis"
           ],
           "Route 120 Tutor": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Bug Bite",
@@ -147716,7 +154703,8 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Natural Gift"
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -148949,9 +155937,8 @@ var overrides = {
         "Flying"
       ],
       "abs": [
-        "Unnerve",
-        "",
-        "Regenerator"
+        "Regenerator",
+        ""
       ],
       "items": [
         null,
@@ -149087,6 +156074,7 @@ var overrides = {
           "Laser Focus",
           "Rock Slide",
           "Shadow Claw",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -149104,6 +156092,9 @@ var overrides = {
             "Blizzard",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -149120,6 +156111,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -149178,6 +156172,7 @@ var overrides = {
           "Laser Focus",
           "Rock Slide",
           "Shadow Claw",
+          "Signal Beam",
           "Weather Ball"
         ],
         "tutorsBySource": {
@@ -149195,6 +156190,9 @@ var overrides = {
             "Blizzard",
             "Weather Ball"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -149211,6 +156209,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -150439,6 +157440,7 @@ var overrides = {
           "Grass Knot",
           "Hidden Power",
           "Magical Leaf",
+          "Misty Explosion",
           "Psychic",
           "Return",
           "Skill Swap",
@@ -151286,6 +158288,10 @@ var overrides = {
             "Hyperspace Fury"
           ],
           [
+            99,
+            "Psychic Noise"
+          ],
+          [
             100,
             "Destiny Bond"
           ]
@@ -151317,6 +158323,7 @@ var overrides = {
           "Ice Punch",
           "Laser Focus",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Thunder Punch",
           "Wonder Room"
@@ -151335,6 +158342,9 @@ var overrides = {
             "Ice Punch",
             "Thunder Punch"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Laser Focus",
@@ -151347,6 +158357,9 @@ var overrides = {
             "Fire Punch",
             "Ice Punch",
             "Thunder Punch"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -151562,6 +158575,10 @@ var overrides = {
             "Sucker Punch"
           ],
           [
+            57,
+            "Dig"
+          ],
+          [
             60,
             "Cross Chop"
           ],
@@ -151588,6 +158605,14 @@ var overrides = {
           [
             90,
             "Play Rough"
+          ],
+          [
+            95,
+            "Iron Tail"
+          ],
+          [
+            100,
+            "Fake Out"
           ]
         ],
         "tms": [
@@ -151732,6 +158757,10 @@ var overrides = {
             "Sucker Punch"
           ],
           [
+            57,
+            "Dig"
+          ],
+          [
             60,
             "Accelerock"
           ],
@@ -151749,11 +158778,19 @@ var overrides = {
           ],
           [
             80,
-            "Play Rough"
+            "Scary Face"
           ],
           [
             85,
             "Quick Guard"
+          ],
+          [
+            90,
+            "Play Rough"
+          ],
+          [
+            95,
+            "Iron Tail"
           ],
           [
             100,
@@ -151776,14 +158813,15 @@ var overrides = {
         ],
         "tutors": [
           "Brick Break",
-          "Focus Energy",
           "Helping Hand",
+          "Laser Focus",
           "Rock Slide",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Slateport Tutor": [
             "Brick Break",
@@ -151791,8 +158829,8 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
-            "Helping Hand"
+            "Helping Hand",
+            "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
@@ -153387,7 +160425,6 @@ var overrides = {
           "Body Press",
           "Brick Break",
           "Fire Punch",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Rock Slide",
@@ -153412,7 +160449,6 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
@@ -153683,13 +160719,16 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
           "Play Rough",
+          "Return",
           "Solar Beam",
           "Taunt"
         ],
         "tutors": [
           "Helping Hand",
+          "Natural Gift",
           "Seed Bomb",
           "Shadow Claw"
         ],
@@ -153701,6 +160740,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
@@ -153710,6 +160750,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -153810,15 +160851,18 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Magical Leaf",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Solar Beam",
           "Taunt"
         ],
         "tutors": [
           "Helping Hand",
+          "Natural Gift",
           "Seed Bomb",
           "Shadow Claw",
           "Thunder Punch"
@@ -153834,6 +160878,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
@@ -153846,6 +160891,7 @@ var overrides = {
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -153890,6 +160936,10 @@ var overrides = {
       },
       "learnset_info": {
         "learnset": [
+          [
+            1,
+            "Fling"
+          ],
           [
             1,
             "Low Sweep"
@@ -153979,8 +161029,16 @@ var overrides = {
             "Flower Trick"
           ],
           [
+            86,
+            "Fake Tears"
+          ],
+          [
             90,
             "Triple Axel"
+          ],
+          [
+            93,
+            "Skill Swap"
           ],
           [
             96,
@@ -154005,9 +161063,11 @@ var overrides = {
           "Flash",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Magical Leaf",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Skill Swap",
@@ -154018,12 +161078,14 @@ var overrides = {
           "After You",
           "Brick Break",
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
+          "Lash Out",
           "Magic Room",
+          "Natural Gift",
           "Seed Bomb",
           "Shadow Claw",
+          "Signal Beam",
           "Thunder Punch",
           "Wonder Room"
         ],
@@ -154038,18 +161100,20 @@ var overrides = {
           ],
           "Slateport Tutor": [
             "Brick Break",
+            "Lash Out",
             "Thunder Punch"
           ],
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus",
             "Magic Room",
@@ -154057,13 +161121,16 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
+            "Lash Out",
             "Thunder Punch"
           ],
           "Poke Menu: Petalburg 2": [
             "Shadow Claw"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -154176,6 +161243,8 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
+          "Return",
           "Will-O-Wisp"
         ],
         "tutors": [
@@ -154339,6 +161408,8 @@ var overrides = {
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
+          "Return",
           "Will-O-Wisp"
         ],
         "tutors": [
@@ -154443,6 +161514,10 @@ var overrides = {
           ],
           [
             1,
+            "Lucky Chant"
+          ],
+          [
+            1,
             "Sleep Talk"
           ],
           [
@@ -154522,8 +161597,16 @@ var overrides = {
             "Earth Power"
           ],
           [
+            93,
+            "Yawn"
+          ],
+          [
             96,
             "Overheat"
+          ],
+          [
+            100,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -154534,6 +161617,8 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Flash",
+          "Hidden Power",
+          "Return",
           "Shadow Ball",
           "Solar Beam",
           "Will-O-Wisp"
@@ -154541,11 +161626,11 @@ var overrides = {
         "tutors": [
           "Fire Blast",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Seed Bomb",
           "Shadow Claw",
+          "Signal Beam",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
@@ -154566,10 +161651,10 @@ var overrides = {
             "Fire Blast"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -154586,7 +161671,8 @@ var overrides = {
             "Fire Blast"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -154672,14 +161758,18 @@ var overrides = {
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Liquidation",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Surf"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hydro Pump",
+          "Natural Gift",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -154692,6 +161782,10 @@ var overrides = {
           "Route 119 Tutor": [
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
@@ -154700,6 +161794,10 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       },
@@ -154797,14 +161895,18 @@ var overrides = {
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Liquidation",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Surf"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hydro Pump",
+          "Natural Gift",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -154817,6 +161919,10 @@ var overrides = {
           "Route 119 Tutor": [
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
@@ -154825,6 +161931,10 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       },
@@ -154953,6 +162063,10 @@ var overrides = {
             "Liquidation"
           ],
           [
+            75,
+            "Roost"
+          ],
+          [
             80,
             "Knock Off"
           ],
@@ -154985,19 +162099,23 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Icy Wind",
           "Liquidation",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Surf",
           "Taunt"
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Brick Break",
           "Helping Hand",
           "Hurricane",
           "Hydro Pump",
+          "Natural Gift",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -155015,6 +162133,10 @@ var overrides = {
             "Hurricane",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Helping Hand"
@@ -155028,6 +162150,10 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Hurricane",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -155064,6 +162190,7 @@ var overrides = {
           "Disarming Voice",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Play Rough"
         ],
         "tutors": [
@@ -155132,6 +162259,7 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Hidden Power",
           "Play Rough"
         ],
         "tutors": [
@@ -155225,6 +162353,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Poison Jab",
           "Pounce",
           "X-Scissor"
@@ -155285,6 +162414,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Poison Jab",
           "Pounce",
@@ -155411,10 +162541,22 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Pounce",
+          "Return",
           "X-Scissor"
         ],
-        "tutors": []
+        "tutors": [
+          "Signal Beam"
+        ],
+        "tutorsBySource": {
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
+          ]
+        }
       },
       "evos": [
         "Lokix"
@@ -155533,6 +162675,10 @@ var overrides = {
             "Axe Kick"
           ],
           [
+            70,
+            "Darkest Lariat"
+          ],
+          [
             75,
             "Knock Off"
           ],
@@ -155560,8 +162706,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Low Kick",
           "Pounce",
+          "Return",
           "Rock Smash",
           "Taunt",
           "X-Scissor"
@@ -155569,8 +162717,9 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Embargo",
-          "Focus Energy",
-          "Laser Focus"
+          "Laser Focus",
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
@@ -155580,13 +162729,20 @@ var overrides = {
           "Slateport Tutor": [
             "Brick Break"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -155654,6 +162810,10 @@ var overrides = {
             "Dig"
           ],
           [
+            26,
+            "Fake Out"
+          ],
+          [
             29,
             "Thunder Wave"
           ],
@@ -155707,7 +162867,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Flash",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Thunder Wave",
           "Thunderbolt"
@@ -155865,9 +163027,12 @@ var overrides = {
           "Endure",
           "Facade",
           "Flash",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
+          "Return",
           "Rock Smash",
+          "Shock Wave",
           "Thunder Wave",
           "Thunderbolt"
         ],
@@ -156022,11 +163187,15 @@ var overrides = {
             "Supercell Slam"
           ],
           [
-            71,
+            70,
+            "Sky Uppercut"
+          ],
+          [
+            72,
             "Seed Bomb"
           ],
           [
-            74,
+            77,
             "Close Combat"
           ],
           [
@@ -156044,6 +163213,14 @@ var overrides = {
           [
             95,
             "Thunderous Kick"
+          ],
+          [
+            99,
+            "Fling"
+          ],
+          [
+            100,
+            "Triple Kick"
           ]
         ],
         "tms": [
@@ -156054,8 +163231,10 @@ var overrides = {
           "Flash",
           "Focus Blast",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Thunder Wave",
@@ -156068,6 +163247,7 @@ var overrides = {
           "Fire Punch",
           "Helping Hand",
           "Ice Punch",
+          "Natural Gift",
           "Seed Bomb",
           "Thunder",
           "Thunder Punch"
@@ -156087,6 +163267,7 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Starter": [
@@ -156106,6 +163287,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -156143,6 +163325,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
           "Taunt",
@@ -156219,6 +163402,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
           "Taunt",
@@ -156388,7 +163572,9 @@ var overrides = {
           "Dazzling Gleam",
           "Endure",
           "Facade",
-          "Play Rough"
+          "Hidden Power",
+          "Play Rough",
+          "Return"
         ],
         "tutors": [
           "Helping Hand",
@@ -156586,15 +163772,18 @@ var overrides = {
           "Draining Kiss",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Misty Explosion",
           "Play Rough",
+          "Return",
           "Rock Smash"
         ],
         "tutors": [
           "Body Press",
-          "Focus Energy",
           "Helping Hand",
           "Magic Room",
+          "Natural Gift",
+          "Signal Beam",
           "Stomping Tantrum",
           "Wonder Room"
         ],
@@ -156607,17 +163796,24 @@ var overrides = {
           "Slateport Tutor": [
             "Stomping Tantrum"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift",
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Magic Room",
             "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Stomping Tantrum"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -156698,6 +163894,10 @@ var overrides = {
             "Hyper Voice"
           ],
           [
+            57,
+            "Absorb"
+          ],
+          [
             59,
             "Lunar Dance"
           ],
@@ -156748,7 +163948,9 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
@@ -156859,6 +164061,10 @@ var overrides = {
             "Hyper Voice"
           ],
           [
+            57,
+            "Absorb"
+          ],
+          [
             59,
             "Lunar Dance"
           ],
@@ -156909,7 +164115,9 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
@@ -156977,6 +164185,10 @@ var overrides = {
           ],
           [
             1,
+            "Mega Drain"
+          ],
+          [
+            1,
             "Mirror Coat"
           ],
           [
@@ -157032,6 +164244,10 @@ var overrides = {
             "Hyper Voice"
           ],
           [
+            57,
+            "Absorb"
+          ],
+          [
             59,
             "Lunar Dance"
           ],
@@ -157042,6 +164258,10 @@ var overrides = {
           [
             65,
             "Healing Wish"
+          ],
+          [
+            67,
+            "Weather Ball"
           ],
           [
             71,
@@ -157056,8 +164276,16 @@ var overrides = {
             "Weather Ball"
           ],
           [
+            79,
+            "Mirror Coat"
+          ],
+          [
             82,
             "Mega Drain"
+          ],
+          [
+            84,
+            "Jungle Healing"
           ],
           [
             86,
@@ -157070,6 +164298,10 @@ var overrides = {
           [
             96,
             "Giga Drain"
+          ],
+          [
+            96,
+            "Lunar Dance"
           ],
           [
             100,
@@ -157086,14 +164318,17 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
-          "Seed Bomb"
+          "Natural Gift",
+          "Seed Bomb",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
@@ -157101,15 +164336,18 @@ var overrides = {
             "Helping Hand"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Helping Hand"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -157148,10 +164386,12 @@ var overrides = {
           "Facade",
           "Fly",
           "Foul Play",
+          "Hidden Power",
           "Pounce",
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Helping Hand",
           "Hurricane"
         ],
@@ -157162,11 +164402,17 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -157358,6 +164604,8 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Stone Edge"
         ],
@@ -157490,6 +164738,8 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Stone Edge"
         ],
@@ -157645,6 +164895,14 @@ var overrides = {
           [
             85,
             "Hammer Arm"
+          ],
+          [
+            90,
+            "Rock Climb"
+          ],
+          [
+            95,
+            "Gravity"
           ]
         ],
         "tms": [
@@ -157654,6 +164912,8 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge"
@@ -157767,6 +165027,8 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Flash",
+          "Hidden Power",
+          "Return",
           "Will-O-Wisp"
         ],
         "tutors": [
@@ -157916,6 +165178,10 @@ var overrides = {
             "Will-O-Wisp"
           ],
           [
+            76,
+            "Terrain Pulse"
+          ],
+          [
             80,
             "Destiny Bond"
           ],
@@ -157929,7 +165195,7 @@ var overrides = {
           ],
           [
             95,
-            "Confuse Ray"
+            "Teleport"
           ],
           [
             100,
@@ -157944,7 +165210,9 @@ var overrides = {
           "Flamethrower",
           "Flash",
           "Focus Blast",
+          "Hidden Power",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Solar Beam",
           "Taunt",
@@ -157955,6 +165223,7 @@ var overrides = {
           "Fire Spin",
           "Helping Hand",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -157971,6 +165240,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Fire Blast"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Magic Room",
@@ -157982,6 +165254,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -158086,6 +165361,10 @@ var overrides = {
             "Will-O-Wisp"
           ],
           [
+            76,
+            "Grassy Glide"
+          ],
+          [
             80,
             "Destiny Bond"
           ],
@@ -158113,7 +165392,9 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Flash",
+          "Hidden Power",
           "Poison Jab",
+          "Return",
           "Shadow Ball",
           "Taunt",
           "Will-O-Wisp",
@@ -158279,6 +165560,8 @@ var overrides = {
           "Electroweb",
           "Endure",
           "Flash",
+          "Hidden Power",
+          "Return",
           "Thunder Wave",
           "Thunderbolt"
         ],
@@ -158436,22 +165719,38 @@ var overrides = {
           "Electroweb",
           "Endure",
           "Flash",
+          "Hidden Power",
+          "Return",
+          "Shock Wave",
           "Thunder Wave",
           "Thunderbolt"
         ],
         "tutors": [
-          "Focus Energy",
+          "Helping Hand",
+          "Natural Gift",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Helping Hand"
+          ],
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
-            "Focus Energy"
+            "Helping Hand"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -158584,10 +165883,13 @@ var overrides = {
           "Facade",
           "Flash",
           "Fly",
+          "Hidden Power",
+          "Return",
           "Thunder Wave",
           "Thunderbolt"
         ],
         "tutors": [
+          "Air Slash",
           "Hurricane",
           "Thunder"
         ],
@@ -158596,9 +165898,15 @@ var overrides = {
             "Hurricane",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Route 119": [
             "Hurricane",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       },
@@ -158731,12 +166039,20 @@ var overrides = {
             "Nature Power"
           ],
           [
+            77,
+            "Tailwind"
+          ],
+          [
             79,
             "Endeavor"
           ],
           [
             84,
             "Tailwind"
+          ],
+          [
+            89,
+            "Fake Tears"
           ],
           [
             95,
@@ -158756,13 +166072,16 @@ var overrides = {
           "Facade",
           "Flash",
           "Fly",
+          "Hidden Power",
+          "Return",
           "Thunder Wave",
           "Thunderbolt"
         ],
         "tutors": [
           "After You",
-          "Focus Energy",
+          "Air Slash",
           "Hurricane",
+          "Natural Gift",
           "Thunder"
         ],
         "tutorsBySource": {
@@ -158773,13 +166092,20 @@ var overrides = {
             "Hurricane",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
-            "After You",
-            "Focus Energy"
+            "After You"
           ],
           "Poke Menu: Route 119": [
             "Hurricane",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -158896,18 +166222,27 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Taunt"
         ],
         "tutors": [
-          "Helping Hand"
+          "Helping Hand",
+          "Natural Gift"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Helping Hand"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       },
@@ -159023,8 +166358,16 @@ var overrides = {
             "Comeuppance"
           ],
           [
+            56,
+            "Taunt"
+          ],
+          [
             62,
             "Psychic Fangs"
+          ],
+          [
+            66,
+            "Entrainment"
           ],
           [
             70,
@@ -159043,6 +166386,10 @@ var overrides = {
             "Destiny Bond"
           ],
           [
+            90,
+            "Foul Play"
+          ],
+          [
             95,
             "Trailblaze"
           ],
@@ -159057,16 +166404,20 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Taunt"
         ],
         "tutors": [
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
-          "Seed Bomb"
+          "Lash Out",
+          "Natural Gift",
+          "Seed Bomb",
+          "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
@@ -159074,16 +166425,25 @@ var overrides = {
             "Helping Hand",
             "Laser Focus"
           ],
+          "Slateport Tutor": [
+            "Lash Out",
+            "Stomping Tantrum"
+          ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
+          "Poke Menu: Slateport": [
+            "Lash Out",
+            "Stomping Tantrum"
+          ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -159127,6 +166487,10 @@ var overrides = {
           [
             5,
             "Acid Spray"
+          ],
+          [
+            5,
+            "Sweet Scent"
           ],
           [
             8,
@@ -159201,8 +166565,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Poison Jab",
           "Pounce",
+          "Return",
           "Sludge Bomb",
           "Taunt"
         ],
@@ -159275,6 +166641,10 @@ var overrides = {
             "Acid Spray"
           ],
           [
+            5,
+            "Sweet Scent"
+          ],
+          [
             8,
             "Bite"
           ],
@@ -159295,8 +166665,20 @@ var overrides = {
             "Slash"
           ],
           [
+            29,
+            "Follow Me"
+          ],
+          [
             35,
             "Doodle"
+          ],
+          [
+            37,
+            "Flail"
+          ],
+          [
+            38,
+            "Reversal"
           ],
           [
             42,
@@ -159305,6 +166687,10 @@ var overrides = {
           [
             46,
             "Return"
+          ],
+          [
+            50,
+            "Torment"
           ],
           [
             55,
@@ -159327,8 +166713,20 @@ var overrides = {
             "Dig"
           ],
           [
+            76,
+            "Super Fang"
+          ],
+          [
+            78,
+            "Upper Hand"
+          ],
+          [
             80,
             "Knock Off"
+          ],
+          [
+            83,
+            "Fling"
           ],
           [
             85,
@@ -159345,28 +166743,37 @@ var overrides = {
           [
             99,
             "Parting Shot"
+          ],
+          [
+            100,
+            "Fling"
           ]
         ],
         "tms": [
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Low Kick",
           "Poison Jab",
           "Pounce",
+          "Return",
           "Rock Smash",
           "Sludge Bomb",
           "Taunt",
           "X-Scissor"
         ],
         "tutors": [
+          "After You",
           "Helping Hand",
           "Magic Room",
+          "Natural Gift",
           "Shadow Claw",
           "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
             "Helping Hand",
             "Magic Room",
             "Wonder Room"
@@ -159374,13 +166781,20 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Helping Hand",
             "Magic Room",
             "Wonder Room"
           ],
           "Poke Menu: Petalburg 2": [
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -159462,7 +166876,7 @@ var overrides = {
           ],
           [
             55,
-            "Power Whip"
+            "Seed Bomb"
           ]
         ],
         "tms": [
@@ -159471,7 +166885,9 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Pounce",
+          "Return",
           "Shadow Ball",
           "Solar Beam"
         ],
@@ -159608,12 +167024,24 @@ var overrides = {
             "Grassy Glide"
           ],
           [
+            79,
+            "Power Whip"
+          ],
+          [
             82,
             "Spikes"
           ],
           [
             86,
             "Beat Up"
+          ],
+          [
+            90,
+            "Shadow Force"
+          ],
+          [
+            92,
+            "Destiny Bond"
           ],
           [
             95,
@@ -159627,7 +167055,10 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
+          "Magical Leaf",
           "Pounce",
+          "Return",
           "Shadow Ball",
           "Solar Beam"
         ],
@@ -159635,7 +167066,9 @@ var overrides = {
           "Embargo",
           "Infestation",
           "Magic Room",
+          "Natural Gift",
           "Seed Bomb",
+          "Signal Beam",
           "Wonder Room"
         ],
         "tutorsBySource": {
@@ -159648,7 +167081,9 @@ var overrides = {
             "Wonder Room"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
@@ -159659,7 +167094,9 @@ var overrides = {
             "Infestation"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -159778,7 +167215,9 @@ var overrides = {
           "Energy Ball",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Sludge Bomb",
           "Solar Beam",
           "Taunt"
@@ -159928,8 +167367,16 @@ var overrides = {
             "Spore"
           ],
           [
-            64,
+            62,
+            "Screech"
+          ],
+          [
+            66,
             "Grass Knot"
+          ],
+          [
+            67,
+            "Lucky Chant"
           ],
           [
             70,
@@ -159948,8 +167395,16 @@ var overrides = {
             "Scary Face"
           ],
           [
+            90,
+            "Chloroblast"
+          ],
+          [
             95,
             "Substitute"
+          ],
+          [
+            100,
+            "Octolock"
           ]
         ],
         "tms": [
@@ -159960,7 +167415,10 @@ var overrides = {
           "Energy Ball",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
+          "Ice Beam",
           "Magical Leaf",
+          "Return",
           "Sludge Bomb",
           "Solar Beam",
           "Taunt"
@@ -159968,7 +167426,9 @@ var overrides = {
         "tutors": [
           "Bind",
           "Magic Room",
+          "Natural Gift",
           "Seed Bomb",
+          "Signal Beam",
           "Wonder Room"
         ],
         "tutorsBySource": {
@@ -159980,7 +167440,9 @@ var overrides = {
             "Wonder Room"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Magic Room",
@@ -159990,7 +167452,9 @@ var overrides = {
             "Bind"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -160078,12 +167542,20 @@ var overrides = {
             "High Horsepower"
           ],
           [
+            51,
+            "Fake Tears"
+          ],
+          [
             56,
             "Crabhammer"
           ],
           [
             65,
             "Temper Flare"
+          ],
+          [
+            70,
+            "Wide Guard"
           ],
           [
             75,
@@ -160099,6 +167571,10 @@ var overrides = {
           ],
           [
             90,
+            "Fling"
+          ],
+          [
+            95,
             "Guillotine"
           ]
         ],
@@ -160108,6 +167584,8 @@ var overrides = {
           "Earth Power",
           "Endure",
           "Facade",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -160116,6 +167594,7 @@ var overrides = {
         "tutors": [
           "Brick Break",
           "Helping Hand",
+          "Natural Gift",
           "Rock Slide",
           "Shadow Claw",
           "Stomping Tantrum"
@@ -160132,6 +167611,9 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
@@ -160142,6 +167624,9 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -160227,11 +167712,14 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
           "Helping Hand",
+          "Natural Gift",
           "Seed Bomb",
           "Stomping Tantrum"
         ],
@@ -160243,6 +167731,7 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
@@ -160252,6 +167741,7 @@ var overrides = {
             "Stomping Tantrum"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -160377,6 +167867,14 @@ var overrides = {
             "Fire Lash"
           ],
           [
+            55,
+            "Spicy Extract"
+          ],
+          [
+            58,
+            "Lava Plume"
+          ],
+          [
             60,
             "Flamethrower"
           ],
@@ -160428,14 +167926,19 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Solar Beam",
           "Will-O-Wisp"
         ],
         "tutors": [
           "Fire Blast",
           "Helping Hand",
+          "Lash Out",
+          "Natural Gift",
           "Seed Bomb",
+          "Signal Beam",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
@@ -160443,25 +167946,31 @@ var overrides = {
             "Helping Hand"
           ],
           "Slateport Tutor": [
+            "Lash Out",
             "Stomping Tantrum"
           ],
           "Route 119 Tutor": [
             "Fire Blast"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
+            "Lash Out",
             "Stomping Tantrum"
           ],
           "Poke Menu: Route 119": [
             "Fire Blast"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -160495,7 +168004,9 @@ var overrides = {
         "tms": [
           "Endure",
           "Facade",
+          "Hidden Power",
           "Pounce",
+          "Return",
           "Rock Tomb",
           "Sludge Bomb",
           "X-Scissor"
@@ -160548,8 +168059,10 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Facade",
+          "Hidden Power",
           "Pounce",
           "Psychic",
+          "Return",
           "Rock Tomb",
           "Shadow Ball",
           "Skill Swap",
@@ -160659,6 +168172,10 @@ var overrides = {
             "Dazzling Gleam"
           ],
           [
+            46,
+            "Protect"
+          ],
+          [
             49,
             "Psychic"
           ],
@@ -160680,8 +168197,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Pounce",
           "Psychic",
+          "Return",
           "Skill Swap"
         ],
         "tutors": [
@@ -160833,11 +168352,19 @@ var overrides = {
             "Energy Ball"
           ],
           [
+            73,
+            "Role Play"
+          ],
+          [
             75,
             "Tailwind"
           ],
           [
-            80,
+            78,
+            "Lumina Crash"
+          ],
+          [
+            82,
             "Gravity"
           ],
           [
@@ -160849,7 +168376,11 @@ var overrides = {
             "Defog"
           ],
           [
-            100,
+            95,
+            "Protect"
+          ],
+          [
+            99,
             "Psycho Boost"
           ]
         ],
@@ -160863,19 +168394,21 @@ var overrides = {
           "Facade",
           "Flash",
           "Foul Play",
+          "Hidden Power",
           "Low Kick",
           "Pounce",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Skill Swap"
         ],
         "tutors": [
           "After You",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Magic Room",
           "Seed Bomb",
+          "Signal Beam",
           "Telekinesis",
           "Wonder Room"
         ],
@@ -160889,11 +168422,11 @@ var overrides = {
             "Wonder Room"
           ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus",
             "Magic Room",
@@ -160901,7 +168434,8 @@ var overrides = {
             "Wonder Room"
           ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -161000,8 +168534,10 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Foul Play",
+          "Hidden Power",
           "Play Rough",
           "Pounce",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Skill Swap",
@@ -161134,8 +168670,10 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Foul Play",
+          "Hidden Power",
           "Play Rough",
           "Pounce",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Skill Swap",
@@ -161273,6 +168811,10 @@ var overrides = {
             "Knock Off"
           ],
           [
+            56,
+            "Swagger"
+          ],
+          [
             60,
             "Iron Head"
           ],
@@ -161309,8 +168851,16 @@ var overrides = {
             "Play Rough"
           ],
           [
+            97,
+            "Fling"
+          ],
+          [
             99,
             "Endeavor"
+          ],
+          [
+            100,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -161320,9 +168870,13 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Foul Play",
+          "Hard Press",
           "Heavy Slam",
+          "Hidden Power",
+          "Misty Explosion",
           "Play Rough",
           "Pounce",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Skill Swap",
@@ -161391,6 +168945,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Ice Beam",
           "Liquidation",
           "Surf"
@@ -161470,6 +169025,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Foul Play",
+          "Hidden Power",
           "Ice Beam",
           "Liquidation",
           "Surf"
@@ -161593,7 +169149,7 @@ var overrides = {
           ],
           [
             60,
-            "Rock Slide"
+            "Rock Climb"
           ],
           [
             69,
@@ -161614,6 +169170,10 @@ var overrides = {
           [
             90,
             "Sky Attack"
+          ],
+          [
+            95,
+            "Accelerock"
           ]
         ],
         "tms": [
@@ -161627,15 +169187,20 @@ var overrides = {
           "Feint Attack",
           "Fly",
           "Foul Play",
+          "Hidden Power",
           "Icy Wind",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Embargo",
           "Hurricane",
+          "Lash Out",
+          "Natural Gift",
           "Rock Slide"
         ],
         "tutorsBySource": {
@@ -161643,19 +169208,29 @@ var overrides = {
             "Embargo"
           ],
           "Slateport Tutor": [
+            "Lash Out",
             "Rock Slide"
           ],
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo"
           ],
           "Poke Menu: Slateport": [
+            "Lash Out",
             "Rock Slide"
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -161744,9 +169319,11 @@ var overrides = {
           "Draining Kiss",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
+          "Return",
           "Surf",
           "Waterfall"
         ],
@@ -161801,10 +169378,10 @@ var overrides = {
         null
       ],
       "bs": {
-        "at": 160,
-        "df": 97,
-        "sa": 106,
-        "sd": 100,
+        "at": 70,
+        "df": 72,
+        "sa": 53,
+        "sd": 62,
         "hp": 100,
         "sp": 100
       },
@@ -161901,6 +169478,10 @@ var overrides = {
           [
             99,
             "Fling"
+          ],
+          [
+            100,
+            "Endeavor"
           ]
         ],
         "tms": [
@@ -161912,9 +169493,12 @@ var overrides = {
           "Facade",
           "Focus Blast",
           "Grass Knot",
+          "Hard Press",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
+          "Return",
           "Rock Smash",
           "Surf",
           "Taunt",
@@ -161925,6 +169509,7 @@ var overrides = {
           "Helping Hand",
           "Hydro Pump",
           "Ice Punch",
+          "Natural Gift",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -161941,6 +169526,9 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand"
           ],
@@ -161953,8 +169541,40 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
+      }
+    },
+    "Palafin-Hero": {
+      "name": "Palafin-Hero",
+      "num": null,
+      "types": [
+        "Water"
+      ],
+      "abs": [
+        "Zero to Hero",
+        ""
+      ],
+      "items": [
+        null,
+        null,
+        null
+      ],
+      "bs": {
+        "at": 160,
+        "df": 97,
+        "sa": 106,
+        "sd": 100,
+        "hp": 100,
+        "sp": 100
+      },
+      "learnset_info": {
+        "learnset": [],
+        "tms": [],
+        "tutors": []
       }
     },
     "Varoom": {
@@ -162045,7 +169665,9 @@ var overrides = {
           "Bulldoze",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Poison Jab",
+          "Return",
           "Sludge Bomb",
           "Taunt"
         ],
@@ -162180,6 +169802,10 @@ var overrides = {
             "Magical Torque"
           ],
           [
+            79,
+            "Metal Sound"
+          ],
+          [
             82,
             "Noxious Torque"
           ],
@@ -162189,7 +169815,15 @@ var overrides = {
           ],
           [
             90,
+            "Torment"
+          ],
+          [
+            95,
             "Gunk Shot"
+          ],
+          [
+            99,
+            "Acid Spray"
           ]
         ],
         "tms": [
@@ -162198,18 +169832,22 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Poison Jab",
+          "Return",
+          "Rock Smash",
+          "Rock Tomb",
           "Sludge Bomb",
           "Taunt"
         ],
         "tutors": [
           "After You",
-          "Focus Energy",
           "Laser Focus",
           "Lash Out",
           "Night Slash",
           "Rock Slide",
-          "Sand Tomb"
+          "Sand Tomb",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -162217,7 +169855,8 @@ var overrides = {
           ],
           "Petalburg Tutor": [
             "After You",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Lash Out",
@@ -162228,8 +169867,8 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Focus Energy",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Lash Out",
@@ -162352,6 +169991,10 @@ var overrides = {
             "Earthquake"
           ],
           [
+            73,
+            "Me First"
+          ],
+          [
             75,
             "Endeavor"
           ],
@@ -162388,6 +170031,8 @@ var overrides = {
           "Endure",
           "Facade",
           "Flash",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Taunt",
           "Thunderbolt"
@@ -162397,9 +170042,10 @@ var overrides = {
           "Aqua Cutter",
           "Embargo",
           "Fire Spin",
-          "Focus Energy",
           "Helping Hand",
-          "Laser Focus"
+          "Laser Focus",
+          "Natural Gift",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -162414,10 +170060,13 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Aqua Cutter"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -162426,6 +170075,10 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Aqua Cutter"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -162509,6 +170162,10 @@ var overrides = {
             "Heavy Slam"
           ],
           [
+            65,
+            "Metal Sound"
+          ],
+          [
             70,
             "Metal Burst"
           ],
@@ -162518,7 +170175,7 @@ var overrides = {
           ],
           [
             82,
-            "Metal Sound"
+            "Knock Off"
           ],
           [
             86,
@@ -162527,6 +170184,10 @@ var overrides = {
           [
             90,
             "Hard Press"
+          ],
+          [
+            95,
+            "Body Press"
           ]
         ],
         "tms": [
@@ -162534,9 +170195,12 @@ var overrides = {
           "Earth Power",
           "Earthquake",
           "Endure",
+          "Explosion",
           "Facade",
           "Hard Press",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb"
         ],
@@ -162546,7 +170210,8 @@ var overrides = {
           "Embargo",
           "Helping Hand",
           "Rock Slide",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -162554,7 +170219,8 @@ var overrides = {
           ],
           "Petalburg Tutor": [
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Rock Slide",
@@ -162565,7 +170231,8 @@ var overrides = {
           ],
           "Poke Menu: Petalburg": [
             "Embargo",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide",
@@ -162685,6 +170352,8 @@ var overrides = {
           "Dazzling Gleam",
           "Endure",
           "Facade",
+          "Hidden Power",
+          "Return",
           "Rock Tomb",
           "Sludge Bomb",
           "Stone Edge"
@@ -162802,6 +170471,10 @@ var overrides = {
             "Confuse Ray"
           ],
           [
+            77,
+            "Acid Spray"
+          ],
+          [
             80,
             "Earth Power"
           ],
@@ -162829,6 +170502,8 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Flash",
+          "Hidden Power",
+          "Return",
           "Rock Tomb",
           "Sludge Bomb",
           "Solar Beam",
@@ -162836,8 +170511,10 @@ var overrides = {
         ],
         "tutors": [
           "Magic Room",
+          "Natural Gift",
           "Rock Slide",
-          "Sand Tomb"
+          "Sand Tomb",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -162849,6 +170526,10 @@ var overrides = {
           "Slateport Tutor": [
             "Rock Slide"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Magic Room"
           ],
@@ -162857,6 +170538,10 @@ var overrides = {
           ],
           "Poke Menu: Mauville": [
             "Sand Tomb"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -162933,7 +170618,7 @@ var overrides = {
           ],
           [
             41,
-            "Helping Hand"
+            "Mist"
           ],
           [
             46,
@@ -162957,7 +170642,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Flash",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Shadow Ball"
         ],
         "tutors": [
@@ -163072,7 +170759,7 @@ var overrides = {
           ],
           [
             41,
-            "Helping Hand"
+            "Mist"
           ],
           [
             46,
@@ -163117,6 +170804,10 @@ var overrides = {
           [
             95,
             "Roar"
+          ],
+          [
+            100,
+            "Last Respects"
           ]
         ],
         "tms": [
@@ -163125,16 +170816,18 @@ var overrides = {
           "Endure",
           "Facade",
           "Flash",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Will-O-Wisp"
         ],
         "tutors": [
           "Body Press",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
+          "Lash Out",
           "Magic Room",
           "Stomping Tantrum",
           "Wonder Room"
@@ -163147,19 +170840,20 @@ var overrides = {
             "Wonder Room"
           ],
           "Slateport Tutor": [
+            "Lash Out",
             "Stomping Tantrum"
           ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus",
             "Magic Room",
             "Wonder Room"
           ],
           "Poke Menu: Slateport": [
+            "Lash Out",
             "Stomping Tantrum"
           ]
         }
@@ -163198,20 +170892,28 @@ var overrides = {
           "Endure",
           "Facade",
           "Fly",
+          "Hidden Power",
           "Liquidation",
           "Low Kick",
           "Pounce",
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Hurricane"
         ],
         "tutorsBySource": {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -163327,15 +171029,16 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
-          "Play Rough"
+          "Play Rough",
+          "Return"
         ],
         "tutors": [
           "Blizzard",
           "Body Press",
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Stomping Tantrum"
@@ -163355,7 +171058,6 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -163515,20 +171217,23 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hard Press",
           "Heavy Slam",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Play Rough",
+          "Return",
           "Rock Smash"
         ],
         "tutors": [
           "Blizzard",
           "Body Press",
-          "Focus Energy",
           "Helping Hand",
           "Ice Punch",
           "Laser Focus",
+          "Natural Gift",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
@@ -163543,11 +171248,13 @@ var overrides = {
           "Route 119 Tutor": [
             "Blizzard"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -163557,6 +171264,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Blizzard"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -163649,6 +171359,10 @@ var overrides = {
             "Liquidation"
           ],
           [
+            76,
+            "Grassy Glide"
+          ],
+          [
             85,
             "Pain Split"
           ],
@@ -163661,10 +171375,12 @@ var overrides = {
           "Chilling Water",
           "Cut",
           "Endure",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Liquidation",
           "Psychic",
+          "Return",
           "Surf",
           "Waterfall"
         ],
@@ -163673,6 +171389,7 @@ var overrides = {
           "Hydro Pump",
           "Laser Focus",
           "Magic Room",
+          "Natural Gift",
           "Wonder Room"
         ],
         "tutorsBySource": {
@@ -163685,6 +171402,9 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
             "Laser Focus",
             "Magic Room",
@@ -163693,6 +171413,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -163796,6 +171519,10 @@ var overrides = {
             "Tickle"
           ],
           [
+            84,
+            "Scary Face"
+          ],
+          [
             86,
             "Rest"
           ],
@@ -163806,6 +171533,10 @@ var overrides = {
           [
             95,
             "Soak"
+          ],
+          [
+            100,
+            "Yawn"
           ]
         ],
         "tms": [
@@ -163816,16 +171547,18 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Liquidation",
+          "Return",
           "Rock Smash",
           "Surf",
           "Waterfall"
         ],
         "tutors": [
           "Body Press",
-          "Focus Energy",
           "Hydro Pump",
           "Laser Focus",
+          "Natural Gift",
           "Rock Slide",
           "Stomping Tantrum",
           "Whirlpool"
@@ -163844,11 +171577,13 @@ var overrides = {
           "Route 119 Tutor": [
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Laser Focus"
           ],
           "Poke Menu: Slateport": [
@@ -163860,6 +171595,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -163964,8 +171702,16 @@ var overrides = {
             "Power Gem"
           ],
           [
+            75,
+            "Dynamax Cannon"
+          ],
+          [
             77,
             "Alluring Voice"
+          ],
+          [
+            79,
+            "Mirror Coat"
           ],
           [
             81,
@@ -163973,32 +171719,39 @@ var overrides = {
           ],
           [
             86,
-            "Memento"
+            "Draco Meteor"
           ],
           [
             91,
-            "Draco Meteor"
+            "Memento"
           ],
           [
             95,
             "Fling"
+          ],
+          [
+            99,
+            "Spacial Rend"
           ]
         ],
         "tms": [
           "Chilling Water",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Icy Wind",
+          "Return",
           "Surf",
           "Taunt"
         ],
         "tutors": [
           "After You",
           "Embargo",
-          "Focus Energy",
           "Helping Hand",
           "Hydro Pump",
           "Laser Focus",
+          "Natural Gift",
+          "Signal Beam",
           "Whirlpool"
         ],
         "tutorsBySource": {
@@ -164014,10 +171767,13 @@ var overrides = {
           "Route 119 Tutor": [
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Embargo",
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -164026,6 +171782,10 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -164150,8 +171910,16 @@ var overrides = {
             "Drain Punch"
           ],
           [
+            88,
+            "Destiny Bond"
+          ],
+          [
             90,
             "Phantom Force"
+          ],
+          [
+            92,
+            "Scary Face"
           ],
           [
             95,
@@ -164160,6 +171928,10 @@ var overrides = {
           [
             99,
             "Shadow Sneak"
+          ],
+          [
+            100,
+            "Counter"
           ]
         ],
         "tms": [
@@ -164168,8 +171940,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Focus Blast",
+          "Hidden Power",
           "Low Kick",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball",
@@ -164183,7 +171957,9 @@ var overrides = {
           "Fire Punch",
           "Helping Hand",
           "Ice Punch",
+          "Lash Out",
           "Magic Room",
+          "Natural Gift",
           "Rock Slide",
           "Seed Bomb",
           "Shadow Claw",
@@ -164203,6 +171979,7 @@ var overrides = {
             "Brick Break",
             "Fire Punch",
             "Ice Punch",
+            "Lash Out",
             "Rock Slide",
             "Stomping Tantrum",
             "Thunder Punch"
@@ -164214,6 +171991,7 @@ var overrides = {
             "Thunder"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Petalburg": [
@@ -164226,6 +172004,7 @@ var overrides = {
             "Brick Break",
             "Fire Punch",
             "Ice Punch",
+            "Lash Out",
             "Rock Slide",
             "Stomping Tantrum",
             "Thunder Punch"
@@ -164237,6 +172016,7 @@ var overrides = {
             "Thunder"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -164322,6 +172102,10 @@ var overrides = {
             "Earthquake"
           ],
           [
+            64,
+            "Acid Spray"
+          ],
+          [
             68,
             "Liquidation"
           ],
@@ -164342,6 +172126,10 @@ var overrides = {
             "Yawn"
           ],
           [
+            94,
+            "Soak"
+          ],
+          [
             98,
             "Spikes"
           ]
@@ -164354,9 +172142,11 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Liquidation",
           "Low Kick",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Sludge Bomb",
@@ -164365,14 +172155,22 @@ var overrides = {
           "Waterfall"
         ],
         "tutors": [
+          "After You",
           "Body Press",
           "Helping Hand",
           "Hydro Pump",
+          "Infestation",
           "Rock Slide",
-          "Stomping Tantrum"
+          "Stomping Tantrum",
+          "Whirlpool"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Infestation",
+            "Whirlpool"
+          ],
           "Petalburg Tutor": [
+            "After You",
             "Helping Hand"
           ],
           "Slateport Tutor": [
@@ -164386,11 +172184,16 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Helping Hand"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide",
             "Stomping Tantrum"
+          ],
+          "Poke Menu: Mauville": [
+            "Infestation",
+            "Whirlpool"
           ],
           "Poke Menu: Route 119": [
             "Hydro Pump"
@@ -164506,20 +172309,52 @@ var overrides = {
             "Psychic"
           ],
           [
-            70,
+            68,
+            "Round"
+          ],
+          [
+            71,
             "Grass Knot"
+          ],
+          [
+            73,
+            "Mirror Coat"
           ],
           [
             75,
             "Future Sight"
           ],
           [
+            78,
+            "Psychic Noise"
+          ],
+          [
             80,
             "Substitute"
           ],
           [
+            83,
+            "Wish"
+          ],
+          [
+            86,
+            "Psystrike"
+          ],
+          [
             90,
             "Rest"
+          ],
+          [
+            95,
+            "Psycho Boost"
+          ],
+          [
+            99,
+            "Healing Wish"
+          ],
+          [
+            100,
+            "Psycho Shift"
           ]
         ],
         "tms": [
@@ -164533,8 +172368,10 @@ var overrides = {
           "Flash",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Low Kick",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Skill Swap",
@@ -164545,6 +172382,8 @@ var overrides = {
           "After You",
           "Helping Hand",
           "Magic Room",
+          "Natural Gift",
+          "Signal Beam",
           "Stomping Tantrum",
           "Thunder",
           "Wonder Room"
@@ -164562,6 +172401,10 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Helping Hand",
@@ -164573,6 +172416,10 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -164681,6 +172528,10 @@ var overrides = {
           ],
           [
             55,
+            "Poison Fang"
+          ],
+          [
+            55,
             "Yawn"
           ],
           [
@@ -164690,6 +172541,10 @@ var overrides = {
           [
             65,
             "Tailwind"
+          ],
+          [
+            67,
+            "Lucky Chant"
           ],
           [
             70,
@@ -164706,6 +172561,10 @@ var overrides = {
           [
             82,
             "Trump Card"
+          ],
+          [
+            86,
+            "Follow Me"
           ],
           [
             90,
@@ -164730,9 +172589,11 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Heavy Slam",
+          "Hidden Power",
           "Ice Beam",
           "Poison Jab",
           "Pounce",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Shadow Ball",
@@ -164741,11 +172602,13 @@ var overrides = {
           "Thunderbolt"
         ],
         "tutors": [
+          "Air Slash",
           "Blizzard",
           "Body Press",
           "Fire Blast",
           "Helping Hand",
           "Hurricane",
+          "Natural Gift",
           "Rock Slide",
           "Stomping Tantrum",
           "Thunder"
@@ -164764,6 +172627,10 @@ var overrides = {
             "Hurricane",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -164779,6 +172646,10 @@ var overrides = {
             "Fire Blast",
             "Hurricane",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -164887,6 +172758,10 @@ var overrides = {
             "Throat Chop"
           ],
           [
+            70,
+            "Magnet Rise"
+          ],
+          [
             75,
             "Kowtow Cleave"
           ],
@@ -164907,8 +172782,20 @@ var overrides = {
             "Hard Press"
           ],
           [
+            92,
+            "Metal Sound"
+          ],
+          [
             95,
             "Payback"
+          ],
+          [
+            97,
+            "Torment"
+          ],
+          [
+            99,
+            "Pursuit"
           ],
           [
             100,
@@ -164926,8 +172813,10 @@ var overrides = {
           "Foul Play",
           "Grass Knot",
           "Hard Press",
+          "Hidden Power",
           "Low Kick",
           "Poison Jab",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -164936,6 +172825,7 @@ var overrides = {
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Embargo",
           "Laser Focus",
@@ -164956,6 +172846,9 @@ var overrides = {
             "Psycho Cut",
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Embargo",
             "Laser Focus"
@@ -164967,6 +172860,9 @@ var overrides = {
           "Poke Menu: Petalburg 2": [
             "Psycho Cut",
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -165027,7 +172923,7 @@ var overrides = {
           ],
           [
             14,
-            "Stomping Tantrum"
+            "Dig"
           ],
           [
             20,
@@ -165078,6 +172974,10 @@ var overrides = {
             "Headlong Rush"
           ],
           [
+            99,
+            "Mud Sport"
+          ],
+          [
             100,
             "Megahorn"
           ]
@@ -165090,7 +172990,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -165099,22 +173001,36 @@ var overrides = {
         "tutors": [
           "Body Press",
           "Brick Break",
+          "Helping Hand",
+          "Natural Gift",
           "Rock Slide",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Helping Hand"
+          ],
           "Slateport Tutor": [
             "Brick Break",
             "Rock Slide",
             "Stomping Tantrum"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
+          ],
+          "Poke Menu: Petalburg": [
+            "Helping Hand"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
             "Rock Slide",
             "Stomping Tantrum"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -165159,15 +173075,15 @@ var overrides = {
           ],
           [
             1,
-            "Perish Song"
-          ],
-          [
-            1,
             "Pound"
           ],
           [
             1,
             "Sing"
+          ],
+          [
+            1,
+            "Super Fang"
           ],
           [
             7,
@@ -165226,6 +173142,10 @@ var overrides = {
             "Psychic"
           ],
           [
+            99,
+            "Magic Powder"
+          ],
+          [
             100,
             "Encore"
           ]
@@ -165239,10 +173159,12 @@ var overrides = {
           "Flash",
           "Focus Blast",
           "Grass Knot",
+          "Hidden Power",
           "Ice Beam",
           "Misty Explosion",
           "Play Rough",
           "Psychic",
+          "Return",
           "Rock Tomb",
           "Thunder Wave",
           "Thunderbolt"
@@ -165254,6 +173176,7 @@ var overrides = {
           "Helping Hand",
           "Ice Punch",
           "Magic Room",
+          "Signal Beam",
           "Stomping Tantrum",
           "Telekinesis",
           "Thunder",
@@ -165278,6 +173201,9 @@ var overrides = {
             "Fire Blast",
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Magic Room",
@@ -165294,6 +173220,9 @@ var overrides = {
             "Blizzard",
             "Fire Blast",
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -165405,6 +173334,10 @@ var overrides = {
             "Synthesis"
           ],
           [
+            99,
+            "Topsy-Turvy"
+          ],
+          [
             100,
             "Foul Play"
           ]
@@ -165417,21 +173350,27 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Solar Beam",
           "Taunt"
         ],
         "tutors": [
           "Body Press",
           "Embargo",
+          "Lash Out",
+          "Magic Room",
           "Seed Bomb",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Embargo"
+            "Embargo",
+            "Magic Room"
           ],
           "Slateport Tutor": [
+            "Lash Out",
             "Stomping Tantrum"
           ],
           "Route 120 Tutor": [
@@ -165441,9 +173380,11 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "Embargo",
+            "Magic Room"
           ],
           "Poke Menu: Slateport": [
+            "Lash Out",
             "Stomping Tantrum"
           ],
           "Poke Menu: Route 120": [
@@ -165551,6 +173492,10 @@ var overrides = {
             "Imprison"
           ],
           [
+            99,
+            "Curse"
+          ],
+          [
             100,
             "Moonblast"
           ]
@@ -165563,8 +173508,10 @@ var overrides = {
           "Endure",
           "Energy Ball",
           "Flash",
+          "Hidden Power",
           "Icy Wind",
           "Magical Leaf",
+          "Return",
           "Shadow Ball",
           "Taunt",
           "Thunder Wave",
@@ -165573,6 +173520,7 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Wonder Room"
@@ -165587,6 +173535,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Magic Room",
@@ -165595,6 +173546,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -165704,6 +173658,14 @@ var overrides = {
           [
             95,
             "U-turn"
+          ],
+          [
+            99,
+            "Rage Powder"
+          ],
+          [
+            100,
+            "Flying Press"
           ]
         ],
         "tms": [
@@ -165714,7 +173676,9 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Will-O-Wisp"
         ],
@@ -165723,6 +173687,7 @@ var overrides = {
           "Brick Break",
           "Hurricane",
           "Lash Out",
+          "Signal Beam",
           "Stomping Tantrum"
         ],
         "tutorsBySource": {
@@ -165734,6 +173699,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -165744,6 +173712,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -165855,6 +173826,10 @@ var overrides = {
             "Gravity"
           ],
           [
+            99,
+            "Thunder Wave"
+          ],
+          [
             100,
             "Spikes"
           ]
@@ -165868,6 +173843,9 @@ var overrides = {
           "Facade",
           "Flash",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
+          "Shock Wave",
           "Thunder Wave",
           "Thunderbolt"
         ],
@@ -165875,11 +173853,13 @@ var overrides = {
           "Body Press",
           "Stomping Tantrum",
           "Telekinesis",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Stomping Tantrum"
@@ -165891,7 +173871,8 @@ var overrides = {
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Telekinesis"
+            "Telekinesis",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Stomping Tantrum"
@@ -166009,6 +173990,10 @@ var overrides = {
             "Hard Press"
           ],
           [
+            99,
+            "Mud Sport"
+          ],
+          [
             100,
             "Megahorn"
           ]
@@ -166019,17 +174004,24 @@ var overrides = {
           "Earthquake",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge"
         ],
         "tutors": [
           "Body Press",
+          "Helping Hand",
+          "Natural Gift",
           "Rock Slide",
           "Stomping Tantrum",
           "Thunder"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "Helping Hand"
+          ],
           "Slateport Tutor": [
             "Rock Slide",
             "Stomping Tantrum"
@@ -166037,8 +174029,14 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
+          ],
+          "Poke Menu: Petalburg": [
+            "Helping Hand"
           ],
           "Poke Menu: Slateport": [
             "Rock Slide",
@@ -166046,6 +174044,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -166106,7 +174107,7 @@ var overrides = {
           ],
           [
             14,
-            "Helping Hand"
+            "Mist"
           ],
           [
             20,
@@ -166146,15 +174147,19 @@ var overrides = {
           ],
           [
             85,
-            "Hydro Pump"
+            "Brine"
           ],
           [
             90,
-            "Blizzard"
+            "Haze"
           ],
           [
             95,
             "Ice Beam"
+          ],
+          [
+            99,
+            "Soak"
           ],
           [
             100,
@@ -166165,9 +174170,11 @@ var overrides = {
           "Chilling Water",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
           "Play Rough",
+          "Return",
           "Taunt"
         ],
         "tutors": [
@@ -166176,7 +174183,9 @@ var overrides = {
           "Helping Hand",
           "Hydro Pump",
           "Ice Punch",
-          "Whirlpool"
+          "Signal Beam",
+          "Whirlpool",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -166184,7 +174193,8 @@ var overrides = {
           ],
           "Petalburg Tutor": [
             "After You",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Ice Punch"
@@ -166193,9 +174203,13 @@ var overrides = {
             "Blizzard",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Ice Punch"
@@ -166206,6 +174220,9 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Blizzard",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -166317,6 +174334,10 @@ var overrides = {
             "Supercell Slam"
           ],
           [
+            99,
+            "Plasma Fists"
+          ],
+          [
             100,
             "Close Combat"
           ]
@@ -166328,11 +174349,15 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Focus Blast",
+          "Hard Press",
           "Heavy Slam",
+          "Hidden Power",
           "Low Kick",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
+          "Shock Wave",
           "Thunderbolt"
         ],
         "tutors": [
@@ -166466,7 +174491,7 @@ var overrides = {
           ],
           [
             80,
-            "Air Slash"
+            "Torment"
           ],
           [
             85,
@@ -166474,11 +174499,15 @@ var overrides = {
           ],
           [
             90,
-            "Weather Ball"
+            "Terrain Pulse"
           ],
           [
             95,
             "Aeroblast"
+          ],
+          [
+            99,
+            "Me First"
           ],
           [
             100,
@@ -166495,31 +174524,53 @@ var overrides = {
           "Flamethrower",
           "Fly",
           "Focus Blast",
+          "Hidden Power",
+          "Return",
           "Rock Tomb",
           "Taunt"
         ],
         "tutors": [
+          "Air Slash",
           "Embargo",
           "Fire Blast",
           "Hurricane",
-          "Hydro Pump"
+          "Hydro Pump",
+          "Lash Out",
+          "Signal Beam",
+          "Weather Ball"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Embargo"
           ],
+          "Slateport Tutor": [
+            "Lash Out"
+          ],
           "Route 119 Tutor": [
             "Fire Blast",
             "Hurricane",
-            "Hydro Pump"
+            "Hydro Pump",
+            "Weather Ball"
+          ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Embargo"
           ],
+          "Poke Menu: Slateport": [
+            "Lash Out"
+          ],
           "Poke Menu: Route 119": [
             "Fire Blast",
             "Hurricane",
-            "Hydro Pump"
+            "Hydro Pump",
+            "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -166631,6 +174682,10 @@ var overrides = {
             "Fiery Dance"
           ],
           [
+            99,
+            "Toxic Thread"
+          ],
+          [
             100,
             "Burn Up"
           ]
@@ -166641,16 +174696,21 @@ var overrides = {
           "Energy Ball",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
           "Pounce",
           "Psychic",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
           "After You",
+          "Air Slash",
           "Fire Blast",
           "Fire Spin",
           "Helping Hand",
-          "Hurricane"
+          "Hurricane",
+          "Signal Beam",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
@@ -166658,15 +174718,21 @@ var overrides = {
           ],
           "Petalburg Tutor": [
             "After You",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Route 119 Tutor": [
             "Fire Blast",
             "Hurricane"
           ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
-            "Helping Hand"
+            "Helping Hand",
+            "Wonder Room"
           ],
           "Poke Menu: Mauville": [
             "Fire Spin"
@@ -166674,6 +174740,10 @@ var overrides = {
           "Poke Menu: Route 119": [
             "Fire Blast",
             "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Signal Beam"
           ]
         }
       }
@@ -166785,6 +174855,10 @@ var overrides = {
             "Stealth Rock"
           ],
           [
+            99,
+            "Double Shock"
+          ],
+          [
             100,
             "Gravity"
           ]
@@ -166801,10 +174875,13 @@ var overrides = {
           "Flash",
           "Focus Blast",
           "Heavy Slam",
+          "Hidden Power",
           "Ice Beam",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
+          "Shock Wave",
           "Stone Edge",
           "Taunt",
           "Thunder Wave",
@@ -166959,8 +175036,10 @@ var overrides = {
           "Dragon Claw",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash"
         ],
         "tutors": [
@@ -167100,8 +175179,10 @@ var overrides = {
           "Dragon Claw",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash"
         ],
         "tutors": [
@@ -167280,8 +175361,10 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Ice Beam",
           "Icy Wind",
+          "Return",
           "Rock Smash"
         ],
         "tutors": [
@@ -167374,6 +175457,8 @@ var overrides = {
         "tms": [
           "Endure",
           "Flash",
+          "Hidden Power",
+          "Return",
           "Shadow Ball"
         ],
         "tutors": [
@@ -167558,8 +175643,10 @@ var overrides = {
           "Flash",
           "Focus Blast",
           "Heavy Slam",
+          "Hidden Power",
           "Low Kick",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Surf",
           "Thunder Wave",
@@ -167570,6 +175657,7 @@ var overrides = {
           "Helping Hand",
           "Laser Focus",
           "Magic Room",
+          "Signal Beam",
           "Telekinesis",
           "Thunder",
           "Thunder Punch",
@@ -167590,6 +175678,9 @@ var overrides = {
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "After You",
             "Helping Hand",
@@ -167603,6 +175694,9 @@ var overrides = {
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -167712,29 +175806,51 @@ var overrides = {
           "Feint Attack",
           "Foul Play",
           "Grass Knot",
+          "Hidden Power",
           "Magical Leaf",
+          "Return",
           "Solar Beam",
           "Taunt"
         ],
         "tutors": [
+          "Bind",
           "Body Press",
           "Embargo",
+          "Lash Out",
+          "Magic Room",
+          "Natural Gift",
           "Seed Bomb"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Bind"
+          ],
           "Petalburg Tutor": [
-            "Embargo"
+            "Embargo",
+            "Magic Room"
+          ],
+          "Slateport Tutor": [
+            "Lash Out"
           ],
           "Route 120 Tutor": [
+            "Natural Gift",
             "Seed Bomb"
           ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "Embargo",
+            "Magic Room"
+          ],
+          "Poke Menu: Slateport": [
+            "Lash Out"
+          ],
+          "Poke Menu: Mauville": [
+            "Bind"
           ],
           "Poke Menu: Route 120": [
+            "Natural Gift",
             "Seed Bomb"
           ]
         }
@@ -167843,20 +175959,26 @@ var overrides = {
           "Endure",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
           "Icy Wind",
+          "Return",
           "Taunt"
         ],
         "tutors": [
           "Blizzard",
           "Brick Break",
-          "Embargo"
+          "Embargo",
+          "Lash Out",
+          "Stomping Tantrum"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
             "Embargo"
           ],
           "Slateport Tutor": [
-            "Brick Break"
+            "Brick Break",
+            "Lash Out",
+            "Stomping Tantrum"
           ],
           "Route 119 Tutor": [
             "Blizzard"
@@ -167865,7 +175987,9 @@ var overrides = {
             "Embargo"
           ],
           "Poke Menu: Slateport": [
-            "Brick Break"
+            "Brick Break",
+            "Lash Out",
+            "Stomping Tantrum"
           ],
           "Poke Menu: Route 119": [
             "Blizzard"
@@ -167942,7 +176066,7 @@ var overrides = {
           ],
           [
             40,
-            "Stomping Tantrum"
+            "Dig"
           ],
           [
             50,
@@ -167978,6 +176102,8 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Stone Edge",
@@ -167986,6 +176112,7 @@ var overrides = {
         "tutors": [
           "Body Press",
           "Embargo",
+          "Lash Out",
           "Rock Slide",
           "Stomping Tantrum"
         ],
@@ -167994,6 +176121,7 @@ var overrides = {
             "Embargo"
           ],
           "Slateport Tutor": [
+            "Lash Out",
             "Rock Slide",
             "Stomping Tantrum"
           ],
@@ -168004,6 +176132,7 @@ var overrides = {
             "Embargo"
           ],
           "Poke Menu: Slateport": [
+            "Lash Out",
             "Rock Slide",
             "Stomping Tantrum"
           ]
@@ -168112,27 +176241,39 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Flamethrower",
+          "Hidden Power",
           "Psychic",
+          "Return",
           "Taunt",
           "Will-O-Wisp"
         ],
         "tutors": [
           "Embargo",
           "Fire Blast",
-          "Fire Spin"
+          "Fire Spin",
+          "Lash Out",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Fire Spin"
           ],
           "Petalburg Tutor": [
-            "Embargo"
+            "Embargo",
+            "Wonder Room"
+          ],
+          "Slateport Tutor": [
+            "Lash Out"
           ],
           "Route 119 Tutor": [
             "Fire Blast"
           ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "Embargo",
+            "Wonder Room"
+          ],
+          "Poke Menu: Slateport": [
+            "Lash Out"
           ],
           "Poke Menu: Mauville": [
             "Fire Spin"
@@ -168250,6 +176391,10 @@ var overrides = {
             "Outrage"
           ],
           [
+            99,
+            "Torment"
+          ],
+          [
             100,
             "Taunt"
           ]
@@ -168266,12 +176411,15 @@ var overrides = {
           "Feint Attack",
           "Flamethrower",
           "Fly",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Stone Edge",
           "Taunt",
           "X-Scissor"
         ],
         "tutors": [
+          "Air Slash",
           "Body Press",
           "Brick Break",
           "Embargo",
@@ -168279,6 +176427,7 @@ var overrides = {
           "Fire Spin",
           "Hurricane",
           "Hydro Pump",
+          "Lash Out",
           "Rock Slide",
           "Shadow Claw",
           "Stomping Tantrum"
@@ -168292,6 +176441,7 @@ var overrides = {
           ],
           "Slateport Tutor": [
             "Brick Break",
+            "Lash Out",
             "Rock Slide",
             "Stomping Tantrum"
           ],
@@ -168303,6 +176453,9 @@ var overrides = {
             "Hurricane",
             "Hydro Pump"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Starter": [
             "Body Press"
           ],
@@ -168311,6 +176464,7 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
+            "Lash Out",
             "Rock Slide",
             "Stomping Tantrum"
           ],
@@ -168324,6 +176478,9 @@ var overrides = {
             "Fire Blast",
             "Hurricane",
             "Hydro Pump"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -168435,6 +176592,10 @@ var overrides = {
             "Close Combat"
           ],
           [
+            99,
+            "Magic Powder"
+          ],
+          [
             100,
             "Taunt"
           ]
@@ -168450,12 +176611,15 @@ var overrides = {
           "Flash",
           "Focus Blast",
           "Grass Knot",
+          "Hidden Power",
           "Icy Wind",
           "Liquidation",
           "Low Kick",
           "Magical Leaf",
+          "Misty Explosion",
           "Poison Jab",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Shadow Ball",
           "Skill Swap",
@@ -168471,6 +176635,7 @@ var overrides = {
           "Ice Punch",
           "Magic Room",
           "Shadow Claw",
+          "Signal Beam",
           "Thunder Punch",
           "Wonder Room"
         ],
@@ -168489,6 +176654,9 @@ var overrides = {
           "Petalburg High-Crit Tutor": [
             "Shadow Claw"
           ],
+          "Route 120 Tutor": [
+            "Signal Beam"
+          ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Magic Room",
@@ -168502,6 +176670,9 @@ var overrides = {
           ],
           "Poke Menu: Petalburg 2": [
             "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -168541,6 +176712,7 @@ var overrides = {
           "Flamethrower",
           "Focus Blast",
           "Heavy Slam",
+          "Hidden Power",
           "Low Kick",
           "Solar Beam",
           "Taunt"
@@ -168626,6 +176798,7 @@ var overrides = {
           "Endure",
           "Facade",
           "Heavy Slam",
+          "Hidden Power",
           "Solar Beam",
           "Taunt",
           "Thunder Wave",
@@ -168758,22 +176931,34 @@ var overrides = {
             "Hydro Steam"
           ],
           [
+            99,
+            "Soak"
+          ],
+          [
             100,
             "Flip Turn"
           ]
         ],
         "tms": [
           "Chilling Water",
+          "Defog",
           "Dragon Claw",
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
+          "Icy Wind",
+          "Liquidation",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Surf",
-          "Waterfall"
+          "Waterfall",
+          "Will-O-Wisp"
         ],
         "tutors": [
+          "After You",
+          "Fire Spin",
           "Helping Hand",
           "Hurricane",
           "Hydro Pump",
@@ -168782,9 +176967,11 @@ var overrides = {
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
+            "Fire Spin",
             "Whirlpool"
           ],
           "Petalburg Tutor": [
+            "After You",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -168793,10 +176980,12 @@ var overrides = {
             "Hydro Pump"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
             "Helping Hand",
             "Laser Focus"
           ],
           "Poke Menu: Mauville": [
+            "Fire Spin",
             "Whirlpool"
           ],
           "Poke Menu: Route 119": [
@@ -168913,47 +177102,71 @@ var overrides = {
             "Solar Blade"
           ],
           [
+            99,
+            "Leech Seed"
+          ],
+          [
             100,
             "Wood Hammer"
           ]
         ],
         "tms": [
-          "Chilling Water",
+          "Aerial Ace",
           "Cut",
-          "Dragon Claw",
-          "Endure",
-          "Facade",
-          "Flamethrower",
-          "Low Kick",
-          "Rock Smash",
-          "Surf",
-          "Waterfall"
+          "Electroweb",
+          "Energy Ball",
+          "Grass Knot",
+          "Hidden Power",
+          "Magical Leaf",
+          "Return",
+          "Rock Tomb",
+          "Seismic Toss",
+          "Solar Beam",
+          "Solar Blade",
+          "X-Scissor"
         ],
         "tutors": [
-          "Hurricane",
-          "Hydro Pump",
+          "After You",
+          "Air Slash",
+          "Brick Break",
+          "Helping Hand",
           "Laser Focus",
           "Magic Room",
+          "Night Slash",
           "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
+            "After You",
+            "Helping Hand",
             "Laser Focus",
             "Magic Room",
             "Wonder Room"
           ],
-          "Route 119 Tutor": [
-            "Hurricane",
-            "Hydro Pump"
+          "Slateport Tutor": [
+            "Brick Break"
+          ],
+          "Petalburg High-Crit Tutor": [
+            "Night Slash"
+          ],
+          "Route 120 Tutor": [
+            "Air Slash"
           ],
           "Poke Menu: Petalburg": [
+            "After You",
+            "Helping Hand",
             "Laser Focus",
             "Magic Room",
             "Wonder Room"
           ],
-          "Poke Menu: Route 119": [
-            "Hurricane",
-            "Hydro Pump"
+          "Poke Menu: Slateport": [
+            "Brick Break"
+          ],
+          "Poke Menu: Petalburg 2": [
+            "Night Slash"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -169053,9 +177266,14 @@ var overrides = {
         "tms": [
           "Endure",
           "Facade",
+          "Hidden Power",
+          "Magical Leaf",
+          "Pounce",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
+          "Bug Bite",
           "Infestation",
           "Seed Bomb"
         ],
@@ -169063,8 +177281,14 @@ var overrides = {
           "Mauville Trap Tutor": [
             "Infestation"
           ],
+          "Petalburg Tutor": [
+            "Bug Bite"
+          ],
           "Route 120 Tutor": [
             "Seed Bomb"
+          ],
+          "Poke Menu: Petalburg": [
+            "Bug Bite"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
@@ -169181,6 +177405,8 @@ var overrides = {
         ],
         "tms": [
           "Endure",
+          "Hidden Power",
+          "Return",
           "Shadow Ball",
           "Solar Beam"
         ],
@@ -169305,10 +177531,19 @@ var overrides = {
           [
             95,
             "Spite"
+          ],
+          [
+            99,
+            "Stun Spore"
           ]
         ],
         "tms": [
           "Endure",
+          "Energy Ball",
+          "Hidden Power",
+          "Magical Leaf",
+          "Pounce",
+          "Return",
           "Shadow Ball",
           "Solar Beam"
         ],
@@ -169451,6 +177686,10 @@ var overrides = {
           [
             100,
             "Close Combat"
+          ],
+          [
+            100,
+            "Roar"
           ]
         ],
         "tms": [
@@ -169458,7 +177697,10 @@ var overrides = {
           "Facade",
           "Feint Attack",
           "Focus Blast",
+          "Hard Press",
+          "Hidden Power",
           "Low Kick",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Sludge Bomb",
@@ -169468,6 +177710,8 @@ var overrides = {
           "Brick Break",
           "Fire Punch",
           "Ice Punch",
+          "Lash Out",
+          "Stomping Tantrum",
           "Thunder Punch"
         ],
         "tutorsBySource": {
@@ -169475,12 +177719,16 @@ var overrides = {
             "Brick Break",
             "Fire Punch",
             "Ice Punch",
+            "Lash Out",
+            "Stomping Tantrum",
             "Thunder Punch"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
             "Fire Punch",
             "Ice Punch",
+            "Lash Out",
+            "Stomping Tantrum",
             "Thunder Punch"
           ]
         }
@@ -169576,18 +177824,56 @@ var overrides = {
           [
             100,
             "Future Sight"
+          ],
+          [
+            100,
+            "Instruct"
           ]
         ],
         "tms": [
           "Endure",
           "Facade",
           "Focus Blast",
+          "Grass Knot",
+          "Hidden Power",
+          "Poison Jab",
           "Psychic",
+          "Return",
           "Shadow Ball",
           "Sludge Bomb",
           "Taunt"
         ],
-        "tutors": []
+        "tutors": [
+          "After You",
+          "Lash Out",
+          "Magic Room",
+          "Shadow Claw",
+          "Wonder Room"
+        ],
+        "tutorsBySource": {
+          "Petalburg Tutor": [
+            "After You",
+            "Magic Room",
+            "Wonder Room"
+          ],
+          "Slateport Tutor": [
+            "Lash Out"
+          ],
+          "Petalburg High-Crit Tutor": [
+            "Shadow Claw"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You",
+            "Magic Room",
+            "Wonder Room"
+          ],
+          "Poke Menu: Slateport": [
+            "Lash Out"
+          ],
+          "Poke Menu: Petalburg 2": [
+            "Shadow Claw"
+          ]
+        }
       }
     },
     "Fezandipiti": {
@@ -169680,29 +177966,85 @@ var overrides = {
           [
             100,
             "Roost"
+          ],
+          [
+            100,
+            "Whirlwind"
           ]
         ],
         "tms": [
           "Aerial Ace",
+          "Dark Pulse",
+          "Dazzling Gleam",
           "Dual Wingbeat",
           "Endure",
           "Facade",
           "Fly",
+          "Hidden Power",
           "Icy Wind",
           "Play Rough",
+          "Poison Jab",
+          "Return",
           "Shadow Ball",
           "Sludge Bomb",
           "Taunt"
         ],
         "tutors": [
-          "Embargo"
+          "Air Slash",
+          "Bind",
+          "Cross Poison",
+          "Embargo",
+          "Hurricane",
+          "Lash Out",
+          "Magic Room",
+          "Natural Gift",
+          "Shadow Claw",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Bind"
+          ],
           "Petalburg Tutor": [
-            "Embargo"
+            "Embargo",
+            "Magic Room",
+            "Wonder Room"
+          ],
+          "Slateport Tutor": [
+            "Lash Out"
+          ],
+          "Petalburg High-Crit Tutor": [
+            "Cross Poison",
+            "Shadow Claw"
+          ],
+          "Route 119 Tutor": [
+            "Hurricane"
+          ],
+          "Route 120 Tutor": [
+            "Air Slash",
+            "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Embargo"
+            "Embargo",
+            "Magic Room",
+            "Wonder Room"
+          ],
+          "Poke Menu: Slateport": [
+            "Lash Out"
+          ],
+          "Poke Menu: Mauville": [
+            "Bind"
+          ],
+          "Poke Menu: Petalburg 2": [
+            "Cross Poison",
+            "Shadow Claw"
+          ],
+          "Poke Menu: Route 119": [
+            "Hurricane"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash",
+            "Natural Gift"
           ]
         }
       }
@@ -169771,7 +178113,7 @@ var overrides = {
           ],
           [
             60,
-            "Stomping Tantrum"
+            "Bullet Seed"
           ],
           [
             65,
@@ -169783,7 +178125,7 @@ var overrides = {
           ],
           [
             75,
-            "Seed Bomb"
+            "Fling"
           ],
           [
             80,
@@ -169802,16 +178144,25 @@ var overrides = {
             "Solar Blade"
           ],
           [
-            100,
+            99,
             "Ivy Cudgel"
+          ],
+          [
+            100,
+            "Wood Hammer"
           ]
         ],
         "tms": [
           "Endure",
+          "Energy Ball",
           "Facade",
           "Feint Attack",
+          "Hidden Power",
+          "Liquidation",
           "Low Kick",
+          "Magical Leaf",
           "Play Rough",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Solar Beam",
@@ -169821,22 +178172,41 @@ var overrides = {
         "tutors": [
           "After You",
           "Brick Break",
-          "Stomping Tantrum"
+          "Lash Out",
+          "Magic Room",
+          "Natural Gift",
+          "Rock Slide",
+          "Stomping Tantrum",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "After You"
+            "After You",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
+            "Lash Out",
+            "Rock Slide",
             "Stomping Tantrum"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
-            "After You"
+            "After You",
+            "Magic Room",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
+            "Lash Out",
+            "Rock Slide",
             "Stomping Tantrum"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -170116,7 +178486,7 @@ var overrides = {
           ],
           [
             40,
-            "Metal Burst"
+            "Mirror Coat"
           ],
           [
             45,
@@ -170163,6 +178533,14 @@ var overrides = {
             "Scary Face"
           ],
           [
+            97,
+            "Roar of Time"
+          ],
+          [
+            99,
+            "Metal Sound"
+          ],
+          [
             100,
             "Electro Shot"
           ]
@@ -170172,38 +178550,53 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Foul Play",
+          "Hard Press",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Solar Beam",
+          "Stone Edge",
           "Thunder Wave",
           "Thunderbolt"
         ],
         "tutors": [
           "Brick Break",
           "Laser Focus",
+          "Night Slash",
           "Rock Slide",
           "Stomping Tantrum",
-          "Thunder"
+          "Thunder",
+          "Wonder Room"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Slateport Tutor": [
             "Brick Break",
             "Rock Slide",
             "Stomping Tantrum"
           ],
+          "Petalburg High-Crit Tutor": [
+            "Night Slash"
+          ],
           "Route 119 Tutor": [
             "Thunder"
           ],
           "Poke Menu: Petalburg": [
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
           ],
           "Poke Menu: Slateport": [
             "Brick Break",
             "Rock Slide",
             "Stomping Tantrum"
+          ],
+          "Poke Menu: Petalburg 2": [
+            "Night Slash"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
@@ -170311,6 +178704,10 @@ var overrides = {
             "Draco Meteor"
           ],
           [
+            90,
+            "Sucker Punch"
+          ],
+          [
             95,
             "Body Press"
           ]
@@ -170319,24 +178716,48 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hidden Power",
+          "Magical Leaf",
+          "Pounce",
+          "Return",
           "Solar Beam"
         ],
         "tutors": [
+          "Aqua Cutter",
+          "Bug Bite",
           "Infestation",
-          "Seed Bomb"
+          "Natural Gift",
+          "Seed Bomb",
+          "Signal Beam"
         ],
         "tutorsBySource": {
           "Mauville Trap Tutor": [
             "Infestation"
           ],
+          "Petalburg Tutor": [
+            "Bug Bite"
+          ],
+          "Petalburg High-Crit Tutor": [
+            "Aqua Cutter"
+          ],
           "Route 120 Tutor": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
+          ],
+          "Poke Menu: Petalburg": [
+            "Bug Bite"
           ],
           "Poke Menu: Mauville": [
             "Infestation"
           ],
+          "Poke Menu: Petalburg 2": [
+            "Aqua Cutter"
+          ],
           "Poke Menu: Route 120": [
-            "Seed Bomb"
+            "Natural Gift",
+            "Seed Bomb",
+            "Signal Beam"
           ]
         }
       }
@@ -170448,37 +178869,64 @@ var overrides = {
             "Flare Blitz"
           ],
           [
+            99,
+            "Will-O-Wisp"
+          ],
+          [
             100,
             "Extreme Speed"
           ]
         ],
         "tms": [
+          "Bulldoze",
           "Dragon Claw",
           "Earthquake",
           "Endure",
           "Facade",
           "Flamethrower",
+          "Hidden Power",
+          "Return",
           "Rock Smash"
         ],
         "tutors": [
           "Fire Blast",
+          "Fire Spin",
           "Helping Hand",
-          "Laser Focus"
+          "Laser Focus",
+          "Stomping Tantrum",
+          "Weather Ball",
+          "Wonder Room"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Fire Spin"
+          ],
           "Petalburg Tutor": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
+          ],
+          "Slateport Tutor": [
+            "Stomping Tantrum"
           ],
           "Route 119 Tutor": [
-            "Fire Blast"
+            "Fire Blast",
+            "Weather Ball"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
-            "Laser Focus"
+            "Laser Focus",
+            "Wonder Room"
+          ],
+          "Poke Menu: Slateport": [
+            "Stomping Tantrum"
+          ],
+          "Poke Menu: Mauville": [
+            "Fire Spin"
           ],
           "Poke Menu: Route 119": [
-            "Fire Blast"
+            "Fire Blast",
+            "Weather Ball"
           ]
         }
       }
@@ -170583,11 +179031,15 @@ var overrides = {
           ],
           [
             90,
-            "Weather Ball"
+            "Terrain Pulse"
           ],
           [
             95,
             "Draco Meteor"
+          ],
+          [
+            99,
+            "Magnet Rise"
           ],
           [
             100,
@@ -170599,6 +179051,9 @@ var overrides = {
           "Electroweb",
           "Endure",
           "Facade",
+          "Heavy Slam",
+          "Hidden Power",
+          "Return",
           "Rock Smash",
           "Shock Wave",
           "Solar Beam",
@@ -170609,7 +179064,9 @@ var overrides = {
         "tutors": [
           "Helping Hand",
           "Laser Focus",
-          "Thunder"
+          "Signal Beam",
+          "Thunder",
+          "Weather Ball"
         ],
         "tutorsBySource": {
           "Petalburg Tutor": [
@@ -170617,14 +179074,22 @@ var overrides = {
             "Laser Focus"
           ],
           "Route 119 Tutor": [
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
+          ],
+          "Route 120 Tutor": [
+            "Signal Beam"
           ],
           "Poke Menu: Petalburg": [
             "Helping Hand",
             "Laser Focus"
           ],
           "Poke Menu: Route 119": [
-            "Thunder"
+            "Thunder",
+            "Weather Ball"
+          ],
+          "Poke Menu: Route 120": [
+            "Signal Beam"
           ]
         }
       }
@@ -170736,6 +179201,10 @@ var overrides = {
             "Mighty Cleave"
           ],
           [
+            99,
+            "Wide Guard"
+          ],
+          [
             100,
             "Accelerock"
           ]
@@ -170746,7 +179215,9 @@ var overrides = {
           "Earthquake",
           "Endure",
           "Facade",
+          "Hidden Power",
           "Psychic",
+          "Return",
           "Rock Smash",
           "Rock Tomb",
           "Taunt"
@@ -170884,6 +179355,10 @@ var overrides = {
             "Tachyon Cutter"
           ],
           [
+            99,
+            "Iron Defense"
+          ],
+          [
             100,
             "Steel Beam"
           ]
@@ -170891,10 +179366,17 @@ var overrides = {
         "tms": [
           "Endure",
           "Facade",
+          "Focus Blast",
+          "Heavy Slam",
+          "Hidden Power",
+          "Poison Jab",
           "Psychic",
-          "Rock Smash"
+          "Return",
+          "Rock Smash",
+          "Solar Blade"
         ],
         "tutors": [
+          "Air Slash",
           "Brick Break",
           "Laser Focus",
           "Magic Room",
@@ -170909,6 +179391,9 @@ var overrides = {
           "Slateport Tutor": [
             "Brick Break"
           ],
+          "Route 120 Tutor": [
+            "Air Slash"
+          ],
           "Poke Menu: Petalburg": [
             "Laser Focus",
             "Magic Room",
@@ -170916,6 +179401,9 @@ var overrides = {
           ],
           "Poke Menu: Slateport": [
             "Brick Break"
+          ],
+          "Poke Menu: Route 120": [
+            "Air Slash"
           ]
         }
       }
@@ -171048,27 +179536,52 @@ var overrides = {
           "Facade",
           "Flamethrower",
           "Flash",
+          "Hidden Power",
           "Ice Beam",
+          "Return",
           "Solar Beam",
           "Surf",
           "Thunderbolt"
         ],
         "tutors": [
+          "After You",
+          "Helping Hand",
+          "Magic Room",
+          "Natural Gift",
           "Rock Slide",
+          "Signal Beam",
           "Thunder"
         ],
         "tutorsBySource": {
+          "Petalburg Tutor": [
+            "After You",
+            "Helping Hand",
+            "Magic Room"
+          ],
           "Slateport Tutor": [
             "Rock Slide"
           ],
           "Route 119 Tutor": [
             "Thunder"
           ],
+          "Route 120 Tutor": [
+            "Natural Gift",
+            "Signal Beam"
+          ],
+          "Poke Menu: Petalburg": [
+            "After You",
+            "Helping Hand",
+            "Magic Room"
+          ],
           "Poke Menu: Slateport": [
             "Rock Slide"
           ],
           "Poke Menu: Route 119": [
             "Thunder"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift",
+            "Signal Beam"
           ]
         }
       }
@@ -171235,21 +179748,60 @@ var overrides = {
           "Endure",
           "Feint Attack",
           "Foul Play",
+          "Hidden Power",
+          "Return",
           "Shadow Ball",
           "Sludge Bomb"
         ],
         "tutors": [
+          "After You",
+          "Bind",
+          "Cross Poison",
+          "Helping Hand",
+          "Lash Out",
           "Magic Room",
+          "Natural Gift",
+          "Shadow Claw",
           "Wonder Room"
         ],
         "tutorsBySource": {
+          "Mauville Trap Tutor": [
+            "Bind"
+          ],
           "Petalburg Tutor": [
+            "After You",
+            "Helping Hand",
             "Magic Room",
             "Wonder Room"
           ],
+          "Slateport Tutor": [
+            "Lash Out"
+          ],
+          "Petalburg High-Crit Tutor": [
+            "Cross Poison",
+            "Shadow Claw"
+          ],
+          "Route 120 Tutor": [
+            "Natural Gift"
+          ],
           "Poke Menu: Petalburg": [
+            "After You",
+            "Helping Hand",
             "Magic Room",
             "Wonder Room"
+          ],
+          "Poke Menu: Slateport": [
+            "Lash Out"
+          ],
+          "Poke Menu: Mauville": [
+            "Bind"
+          ],
+          "Poke Menu: Petalburg 2": [
+            "Cross Poison",
+            "Shadow Claw"
+          ],
+          "Poke Menu: Route 120": [
+            "Natural Gift"
           ]
         }
       }
@@ -171446,6 +179998,7 @@ var overrides = {
         "Flying"
       ],
       "abs": [
+        "Tough Claws",
         "Tough Claws",
         "Tough Claws"
       ],
@@ -173418,7 +181971,6 @@ var overrides = {
           "Shadow Ball"
         ],
         "tutors": [
-          "Focus Energy",
           "Helping Hand",
           "Laser Focus",
           "Natural Gift",
@@ -173436,7 +181988,6 @@ var overrides = {
             "Natural Gift"
           ],
           "Poke Menu: Petalburg": [
-            "Focus Energy",
             "Helping Hand",
             "Laser Focus"
           ],
@@ -173580,7 +182131,7 @@ var overrides = {
       "pp": 15,
       "acc": 100,
       "prio": 0,
-      "desc": "An icy punch that may leave the foe with frostbite.",
+      "desc": "An icy punch that may freeze the foe.",
       "tar": "MOVE_TARGET_SELECTED",
       "flags": {
         "contact": true,
@@ -174249,7 +182800,7 @@ var overrides = {
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "desc": "Blasts the foe with an icy beam. May cause frostbite.",
+      "desc": "Blasts the foe with an icy beam that may freeze it.",
       "tar": "MOVE_TARGET_SELECTED"
     },
     "Blizzard": {
@@ -174260,7 +182811,7 @@ var overrides = {
       "pp": 5,
       "acc": 80,
       "prio": 0,
-      "desc": "Hits the foe with an icy storm. May cause frostbite.",
+      "desc": "Hits the foe with an icy storm that may freeze it.",
       "tar": "MOVE_TARGET_BOTH",
       "flags": {
         "wind": true
@@ -175679,7 +184230,7 @@ var overrides = {
       "acc": 0,
       "prio": 0,
       "desc": "Makes the user resistant to the last attack's type.",
-      "tar": "MOVE_TARGET_USER"
+      "tar": "MOVE_TARGET_SELECTED"
     },
     "Aeroblast": {
       "name": "Aeroblast",
@@ -177127,7 +185678,7 @@ var overrides = {
     "Luster Purge": {
       "name": "Luster Purge",
       "t": "Psychic",
-      "bp": 70,
+      "bp": 95,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
@@ -177138,7 +185689,7 @@ var overrides = {
     "Mist Ball": {
       "name": "Mist Ball",
       "t": "Psychic",
-      "bp": 70,
+      "bp": 95,
       "cat": "Special",
       "pp": 5,
       "acc": 100,
@@ -177253,7 +185804,7 @@ var overrides = {
     "Poison Fang": {
       "name": "Poison Fang",
       "t": "Poison",
-      "bp": 50,
+      "bp": 65,
       "cat": "Physical",
       "pp": 15,
       "acc": 100,
@@ -181862,7 +190413,7 @@ var overrides = {
       "t": "Electric",
       "bp": 80,
       "cat": "Physical",
-      "pp": 10,
+      "pp": 1,
       "acc": 100,
       "prio": 2,
       "desc": "Electric bursts always go first and land a critical hit.",
@@ -182715,7 +191266,7 @@ var overrides = {
       "t": "Grass",
       "bp": 0,
       "cat": "Status",
-      "pp": 10,
+      "pp": 5,
       "acc": 0,
       "prio": 0,
       "desc": "Heals HP and status of itself and allies in battle.",
@@ -182785,7 +191336,7 @@ var overrides = {
       "pp": 10,
       "acc": 100,
       "prio": 0,
-      "desc": "Shoots psychic power from the eyes. May frostbite.",
+      "desc": "Shoots psychic power from the eyes. May freeze the foe.",
       "tar": "MOVE_TARGET_SELECTED"
     },
     "Fiery Wrath": {
@@ -182937,10 +191488,7 @@ var overrides = {
       "acc": 100,
       "prio": 0,
       "desc": "A rampage of 2 to 3 turns that confuses the user.",
-      "tar": "MOVE_TARGET_RANDOM",
-      "flags": {
-        "contact": true
-      }
+      "tar": "MOVE_TARGET_RANDOM"
     },
     "Wave Crash": {
       "name": "Wave Crash",
@@ -183165,7 +191713,7 @@ var overrides = {
       "t": "Bug",
       "bp": 0,
       "cat": "Status",
-      "pp": 5,
+      "pp": 1,
       "acc": 0,
       "prio": 4,
       "desc": "Protects itself, lowering Speed on contact.",
@@ -183350,7 +191898,7 @@ var overrides = {
       "pp": 15,
       "acc": 100,
       "prio": 0,
-      "desc": "Erases trap moves and Leech Seed. Poisons adjecent foes.",
+      "desc": "Erases hazards and Leech Seed. Poisons adjecent foes.",
       "tar": "MOVE_TARGET_BOTH",
       "flags": {
         "contact": true
@@ -184889,7 +193437,7 @@ var overrides = {
     },
     "snowwarning": {
       "name": "Snow Warning",
-      "desc": "Summons a Hailstorm."
+      "desc": "Summons a Snowstorm."
     },
     "honeygather": {
       "name": "Honey Gather",
@@ -186807,6 +195355,9 @@ var overrides = {
     "icestone": {
       "name": "Ice Stone",
       "desc": "Makes certain species of Pokémon evolve.",
+      "wilds": [
+        "Bergmite"
+      ],
       "ground_locations": [
         "Granite Cave B 2 F"
       ]
@@ -188431,6 +196982,10 @@ var overrides = {
     "kingsrock": {
       "name": "King's Rock",
       "desc": "A hold item that may cause flinching when the foe is hit.",
+      "wilds": [
+        "Delcatty",
+        "Skitty"
+      ],
       "npcs": [
         {
           "location": "Rustboro City Pokemon School"
@@ -188745,6 +197300,10 @@ var overrides = {
     "adrenalineorb": {
       "name": "Adrenaline Orb",
       "desc": "Boosts Speed if the user is intimidated, but only one time.",
+      "wilds": [
+        "Glameow",
+        "Purugly"
+      ],
       "ground_locations": [
         "Route 109"
       ]
@@ -188924,6 +197483,9 @@ var overrides = {
     "iapapaberry": {
       "name": "Iapapa Berry",
       "desc": "A hold item that restores HP but may confuse.",
+      "wilds": [
+        "Gulpin"
+      ],
       "npcs": [
         {
           "location": "Sootopolis City"
@@ -192703,110 +201265,6 @@ var overrides = {
         ]
       }
     },
-    "route124": {
-      "name": "Route 124",
-      "surf": {
-        "encs": [
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          }
-        ]
-      },
-      "old_rod": {
-        "encs": [
-          {
-            "s": "None",
-            "mn": 5,
-            "mx": 10
-          },
-          {
-            "s": "None",
-            "mn": 5,
-            "mx": 10
-          }
-        ]
-      },
-      "good_rod": {
-        "encs": [
-          {
-            "s": "None",
-            "mn": 10,
-            "mx": 30
-          },
-          {
-            "s": "None",
-            "mn": 10,
-            "mx": 30
-          },
-          {
-            "s": "None",
-            "mn": 10,
-            "mx": 30
-          }
-        ]
-      },
-      "super_rod": {
-        "encs": [
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          },
-          {
-            "s": "None",
-            "mn": 60,
-            "mx": 60
-          }
-        ]
-      }
-    },
     "petalburgwoods": {
       "name": "Petalburg Woods",
       "land": {
@@ -193307,8 +201765,8 @@ var overrides = {
           },
           {
             "s": "Carracosta",
-            "mn": 5,
-            "mx": 5
+            "mn": 60,
+            "mx": 60
           }
         ]
       }
@@ -193574,6 +202032,35 @@ var overrides = {
           },
           {
             "s": "Fuecoco",
+            "mn": 50,
+            "mx": 50
+          }
+        ]
+      },
+      "rock_smash": {
+        "encs": [
+          {
+            "s": "Magmortar",
+            "mn": 50,
+            "mx": 50
+          },
+          {
+            "s": "Electivire",
+            "mn": 50,
+            "mx": 50
+          },
+          {
+            "s": "Lycanroc",
+            "mn": 50,
+            "mx": 50
+          },
+          {
+            "s": "Pyroar",
+            "mn": 50,
+            "mx": 50
+          },
+          {
+            "s": "Ampharos",
             "mn": 50,
             "mx": 50
           }
@@ -196244,12 +204731,12 @@ var overrides = {
             "mx": 65
           },
           {
-            "s": "Clawitzer",
+            "s": "Octillery",
             "mn": 65,
             "mx": 65
           },
           {
-            "s": "Octillery",
+            "s": "Clawitzer",
             "mn": 65,
             "mx": 65
           },
@@ -197109,33 +205596,33 @@ var overrides = {
         "encs": [
           {
             "s": "Barbaracle",
-            "mn": 25,
-            "mx": 30
+            "mn": 65,
+            "mx": 65
           },
           {
             "s": "Starmie",
-            "mn": 30,
-            "mx": 35
+            "mn": 65,
+            "mx": 65
           },
           {
             "s": "Feraligatr",
-            "mn": 20,
-            "mx": 25
+            "mn": 65,
+            "mx": 65
           },
           {
             "s": "Malamar",
-            "mn": 35,
-            "mx": 40
+            "mn": 65,
+            "mx": 65
           },
           {
             "s": "Eelektross",
-            "mn": 40,
-            "mx": 45
+            "mn": 65,
+            "mx": 65
           },
           {
             "s": "Eelektross",
-            "mn": 5,
-            "mx": 5
+            "mn": 65,
+            "mx": 65
           }
         ]
       }
@@ -197910,28 +206397,28 @@ var overrides = {
         "encs": [
           {
             "s": "Tyranitar",
-            "mn": 30,
-            "mx": 40
+            "mn": 85,
+            "mx": 85
           },
           {
             "s": "Metagross",
-            "mn": 30,
-            "mx": 40
+            "mn": 85,
+            "mx": 85
           },
           {
             "s": "Mawile",
-            "mn": 35,
-            "mx": 40
+            "mn": 85,
+            "mx": 85
           },
           {
             "s": "Glimmora",
-            "mn": 35,
-            "mx": 40
+            "mn": 85,
+            "mx": 85
           },
           {
             "s": "Diancie",
-            "mn": 35,
-            "mx": 40
+            "mn": 85,
+            "mx": 85
           }
         ]
       }
@@ -199754,33 +208241,33 @@ var overrides = {
       "old_rod": {
         "encs": [
           {
-            "s": "Magikarp",
-            "mn": 5,
-            "mx": 10
+            "s": "None",
+            "mn": 70,
+            "mx": 70
           },
           {
-            "s": "Tentacool",
-            "mn": 5,
-            "mx": 10
+            "s": "None",
+            "mn": 70,
+            "mx": 70
           }
         ]
       },
       "good_rod": {
         "encs": [
           {
-            "s": "Magikarp",
-            "mn": 10,
-            "mx": 30
+            "s": "None",
+            "mn": 70,
+            "mx": 70
           },
           {
-            "s": "Luvdisc",
-            "mn": 10,
-            "mx": 30
+            "s": "None",
+            "mn": 70,
+            "mx": 70
           },
           {
-            "s": "Wailmer",
-            "mn": 10,
-            "mx": 30
+            "s": "None",
+            "mn": 70,
+            "mx": 70
           }
         ]
       },
@@ -201634,32 +210121,32 @@ var overrides = {
           {
             "s": "Grafaiai",
             "mn": 40,
-            "mx": 50
+            "mx": 40
           },
           {
             "s": "Grafaiai",
             "mn": 40,
-            "mx": 50
+            "mx": 40
           },
           {
             "s": "Bewear",
             "mn": 40,
-            "mx": 50
+            "mx": 40
           },
           {
             "s": "Diggersby",
             "mn": 40,
-            "mx": 50
+            "mx": 40
           },
           {
             "s": "Arboliva",
             "mn": 40,
-            "mx": 50
+            "mx": 40
           },
           {
             "s": "Pyroar",
             "mn": 40,
-            "mx": 50
+            "mx": 40
           },
           {
             "s": "Wyrdeer",
@@ -201684,12 +210171,12 @@ var overrides = {
           {
             "s": "Chansey",
             "mn": 40,
-            "mx": 50
+            "mx": 40
           },
           {
             "s": "Chansey",
             "mn": 40,
-            "mx": 50
+            "mx": 40
           }
         ]
       }
@@ -203105,7 +211592,7 @@ var overrides = {
             "mx": 15
           },
           {
-            "s": "Luxio",
+            "s": "Purrloin",
             "mn": 15,
             "mx": 15
           },
@@ -203115,7 +211602,108 @@ var overrides = {
             "mx": 15
           },
           {
-            "s": "Pikachu",
+            "s": "Pichu",
+            "mn": 15,
+            "mx": 15
+          }
+        ]
+      },
+      "surf": {
+        "encs": [
+          {
+            "s": "Kangaskhan",
+            "mn": 45,
+            "mx": 45
+          },
+          {
+            "s": "Hariyama",
+            "mn": 45,
+            "mx": 45
+          },
+          {
+            "s": "Avalugg-Hisui",
+            "mn": 45,
+            "mx": 45
+          },
+          {
+            "s": "Eiscue",
+            "mn": 45,
+            "mx": 45
+          },
+          {
+            "s": "Raichu",
+            "mn": 45,
+            "mx": 45
+          },
+          {
+            "s": "Raichu-Alola",
+            "mn": 45,
+            "mx": 45
+          }
+        ]
+      },
+      "old_rod": {
+        "encs": [
+          {
+            "s": "None",
+            "mn": 5,
+            "mx": 5
+          },
+          {
+            "s": "None",
+            "mn": 5,
+            "mx": 5
+          }
+        ]
+      },
+      "good_rod": {
+        "encs": [
+          {
+            "s": "None",
+            "mn": 5,
+            "mx": 5
+          },
+          {
+            "s": "None",
+            "mn": 5,
+            "mx": 5
+          },
+          {
+            "s": "None",
+            "mn": 5,
+            "mx": 5
+          }
+        ]
+      },
+      "super_rod": {
+        "encs": [
+          {
+            "s": "Totodile",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Inkay",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Clauncher",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Buizel",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Lotad",
+            "mn": 15,
+            "mx": 15
+          },
+          {
+            "s": "Seel",
             "mn": 15,
             "mx": 15
           }
@@ -203268,7 +211856,7 @@ var overrides = {
           {
             "s": "Joltik",
             "mn": 34,
-            "mx": 40
+            "mx": 34
           },
           {
             "s": "Manectric",
@@ -203517,7 +212105,7 @@ var overrides = {
           },
           {
             "s": "Dudunsparce",
-            "mn": 5,
+            "mn": 56,
             "mx": 56
           },
           {
@@ -204540,7 +213128,7 @@ var overrides = {
             "mx": 40
           },
           {
-            "s": "Probopass",
+            "s": "Duraludon",
             "mn": 40,
             "mx": 40
           },

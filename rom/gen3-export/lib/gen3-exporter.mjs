@@ -103,14 +103,8 @@ const NATURES = [
   "Calm", "Gentle", "Sassy", "Careful", "Quirky",
 ];
 
-const ASCII_TABLE = {
-  " ": 0, A: 187, B: 188, C: 189, D: 190, E: 191, F: 192, G: 193, H: 194, I: 195, J: 196,
-  K: 197, L: 198, M: 199, N: 200, O: 201, P: 202, Q: 203, R: 204, S: 205, T: 206, U: 207,
-  V: 208, W: 209, X: 210, Y: 211, Z: 212, a: 213, b: 214, c: 215, d: 216, e: 217, f: 218,
-  g: 219, h: 220, i: 221, j: 222, k: 223, l: 224, m: 225, n: 226, o: 227, p: 228, q: 229,
-  r: 230, s: 231, t: 232, u: 233, v: 234, w: 235, x: 236, y: 237, z: 238, 2: 163, "-": 174,
-  "♂": 181, "♀": 182, "&": 45, "+": 46, "=": 53, ";": 54, ".": 173, "’": 180,
-};
+const GEN3_EFFECT_RECOIL = 48;
+const GEN3_EFFECT_DOUBLE_EDGE = 198;
 
 const SPECIES_DEFAULT_ID_ALIASES = {
   fletchindr: "fletchinder",
@@ -166,6 +160,7 @@ const ABILITY_DISPLAY_OVERRIDES = {
 
 const PCS_SPECIAL = {
   0x00: " ",
+  0x2D: "&",
   0xAB: "!",
   0xAC: "?",
   0xAD: ".",
@@ -270,6 +265,16 @@ class RomReader {
 
   readBytes(offset, size) {
     return this.rom.slice(offset, offset + size);
+  }
+
+  sumEncodedString(offset, size) {
+    let total = 0;
+    for (let index = 0; index < size; index += 1) {
+      const value = this.rom[offset + index];
+      if (value === 0xFF) break;
+      total += value;
+    }
+    return total;
   }
 
   decodeFixedString(offset, size) {
@@ -576,25 +581,17 @@ function ivByteToStatIv(value) {
   return Math.min(31, Math.max(0, Math.floor((value * 31 / 255) + 0.5)));
 }
 
-function computeTrainerHash(name) {
-  let total = 0;
-  for (const char of String(name).toUpperCase()) total += ASCII_TABLE[char] || 0;
-  return total;
+function gen3MoveEffectFields(effectId) {
+  if (effectId === GEN3_EFFECT_RECOIL) return { recoil: [25, 100] };
+  if (effectId === GEN3_EFFECT_DOUBLE_EDGE) return { recoil: [33, 100] };
+  return {};
 }
 
-function computeTrainerNatures(trainerName, pokemonNames, typeValue) {
-  const trainerHash = computeTrainerHash(trainerName);
+function computeTrainerNatures(trainerHash, pokemonNameHashes, typeValue) {
   let accumulatedHash = 0;
   const results = [];
-  for (const pokemonName of pokemonNames) {
-    let pokemonHash = accumulatedHash;
-    const normalized = String(pokemonName)
-      .toUpperCase()
-      .replaceAll("-M", "♂")
-      .replaceAll("-F", "♀")
-      .replaceAll("'", "’");
-    for (const char of normalized) pokemonHash += ASCII_TABLE[char] || 0;
-    const totalHash = pokemonHash + trainerHash;
+  for (const pokemonNameHash of pokemonNameHashes) {
+    const totalHash = accumulatedHash + trainerHash + pokemonNameHash;
     accumulatedHash = totalHash;
     const pid = (totalHash * 256) + typeValue;
     results.push({ nature: NATURES[pid % 25], pid, totalHash });
@@ -834,6 +831,19 @@ class ExportContext {
     return this.fixedStringTable("data.pokemon.names").map((value) => normalizeSpeciesName(value));
   }
 
+  speciesNameHashes() {
+    if (this._cache.speciesNameHashes) return this._cache.speciesNameHashes;
+    const anchor = this.layout.anchor("data.pokemon.names");
+    const count = this.resolveCount("data.pokemon.names");
+    const size = extractFixedStringLength(anchor.format);
+    const hashes = [];
+    for (let index = 0; index < count; index += 1) {
+      hashes.push(this.reader.sumEncodedString(anchor.address + index * size, size));
+    }
+    this._cache.speciesNameHashes = hashes;
+    return hashes;
+  }
+
   speciesNamesByNationalDex() {
     if (this._cache.speciesNamesByNationalDex) return this._cache.speciesNamesByNationalDex;
     const names = this.speciesNames();
@@ -934,6 +944,7 @@ class ExportContext {
       moves.push({
         name: names[index],
         num: index,
+        effectId: shiftedLayout ? this.reader.readU16(start) : this.reader.readU8(start),
         typeId: this.reader.readU8(start + typeOffset),
         power: this.reader.readU8(start + powerOffset),
         accuracy: this.reader.readU8(start + accuracyOffset),
@@ -1112,6 +1123,7 @@ class ExportContext {
         structType: this.reader.readU8(start),
         classId: this.reader.readU8(start + 1),
         name: normalizeDisplayText(this.reader.decodeFixedString(start + 4, 12)),
+        nameHash: this.reader.sumEncodedString(start + 4, 12),
         introGender: this.reader.readU8(start + 2),
         itemIds: [0, 1, 2, 3].map((slot) => this.reader.readU16(start + 16 + slot * 2)),
         isDouble: this.reader.readU32(start + 24) !== 0,
@@ -1314,6 +1326,7 @@ class ExportContext {
 function buildCalcOutput(ctx, title) {
   const rawMoveNames = ctx.fixedStringTable("data.pokemon.moves.names");
   const speciesNames = ctx.speciesNames();
+  const speciesNameHashes = ctx.speciesNameHashes();
   const moveNames = ctx.moveNames();
   const typeNames = ctx.typeNames();
   const abilityNames = ctx.abilityNames();
@@ -1363,6 +1376,7 @@ function buildCalcOutput(ctx, title) {
       accuracy: move.accuracy,
       priority: move.priority,
       e_id: move.num,
+      ...gen3MoveEffectFields(move.effectId),
     };
   }
 
@@ -1377,11 +1391,11 @@ function buildCalcOutput(ctx, title) {
     if (visibleCounts[visibleName] > 1) {
       visibleName = ensureNumberedTrainerSuffixSpacing(`${visibleName} ${visibleCounts[visibleName]}`);
     }
-    const typeValue = trainer.isDouble ? 0x80 : ((trainer.introGender & 1) ? 0x78 : 0x88);
+    const typeValue = trainer.isDouble ? 0x80 : ((trainer.introGender & 0x80) ? 0x78 : 0x88);
     const party = ctx.trainerParty(trainer);
     const trainerResults = computeTrainerNatures(
-      trainer.name,
-      party.filter((member) => member.speciesId < speciesNames.length).map((member) => speciesNames[member.speciesId]),
+      trainer.nameHash,
+      party.map((member) => speciesNameHashes[member.speciesId] || 0),
       typeValue
     );
     let extraRow = null;
@@ -1535,6 +1549,7 @@ function buildDexOutput(ctx) {
       prio: move.priority,
       desc: move.num > 0 && move.num - 1 < moveDescriptions.length ? moveDescriptions[move.num - 1] : "",
       e_id: move.num,
+      ...gen3MoveEffectFields(move.effectId),
     };
   }
 
