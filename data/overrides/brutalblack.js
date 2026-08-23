@@ -105,7 +105,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -139,6 +139,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -249,7 +252,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -283,6 +286,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -395,7 +401,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -521,7 +527,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -560,6 +566,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -658,7 +667,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -697,6 +706,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -798,7 +810,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -929,7 +941,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -965,6 +977,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -1058,7 +1073,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -1093,6 +1108,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -1189,7 +1207,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -1274,6 +1292,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         7
       ]
@@ -1320,6 +1341,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         10
@@ -1406,7 +1430,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -1526,6 +1550,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         7
       ]
@@ -1573,6 +1600,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         10
@@ -1651,7 +1681,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Brick Break",
@@ -1768,7 +1798,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunder",
           "Return",
@@ -1798,6 +1828,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -1886,7 +1919,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunder",
           "Return",
@@ -1916,6 +1949,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -2005,7 +2041,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunder",
           "Return",
@@ -2122,7 +2158,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -2160,6 +2196,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -2257,7 +2296,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -2377,7 +2416,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -2408,6 +2447,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -2497,7 +2539,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -2609,7 +2651,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -2643,6 +2685,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -2734,7 +2779,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -2860,7 +2905,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -2898,6 +2943,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Thunderstone"
@@ -2999,7 +3047,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -3112,7 +3160,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Earthquake",
           "Return",
@@ -3152,6 +3200,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -3234,7 +3285,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Smack Down",
           "Earthquake",
@@ -3361,7 +3412,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -3397,6 +3448,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -3490,7 +3544,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -3528,6 +3582,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -3624,7 +3681,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -3780,7 +3837,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -3816,6 +3873,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -3925,7 +3985,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -3961,6 +4021,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -4073,7 +4136,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -4208,7 +4271,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -4255,6 +4318,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -4344,7 +4410,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -4464,7 +4530,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Return",
@@ -4498,6 +4564,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Fire Stone"
@@ -4582,7 +4651,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -4696,7 +4765,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -4744,6 +4813,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -4831,7 +4903,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -4920,7 +4992,11 @@ overrides = {
             "Mega Drain"
           ],
           [
-            15,
+            13,
+            "Air Cutter"
+          ],
+          [
+            16,
             "Bite"
           ],
           [
@@ -4932,12 +5008,20 @@ overrides = {
             "Crunch"
           ],
           [
+            32,
+            "Air Slash"
+          ],
+          [
             35,
             "Aerial Ace"
           ],
           [
             39,
             "Taunt"
+          ],
+          [
+            42,
+            "Sludge Bomb"
           ],
           [
             44,
@@ -4950,6 +5034,10 @@ overrides = {
           [
             52,
             "Haze"
+          ],
+          [
+            54,
+            "Aeroblast"
           ],
           [
             56,
@@ -4974,7 +5062,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Shadow Ball",
@@ -5006,6 +5094,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -5054,7 +5145,11 @@ overrides = {
             "Mega Drain"
           ],
           [
-            15,
+            13,
+            "Air Cutter"
+          ],
+          [
+            16,
             "Bite"
           ],
           [
@@ -5066,12 +5161,20 @@ overrides = {
             "Crunch"
           ],
           [
+            32,
+            "Air Slash"
+          ],
+          [
             35,
             "Aerial Ace"
           ],
           [
             39,
             "Taunt"
+          ],
+          [
+            42,
+            "Sludge Bomb"
           ],
           [
             44,
@@ -5084,6 +5187,10 @@ overrides = {
           [
             52,
             "Haze"
+          ],
+          [
+            54,
+            "Aeroblast"
           ],
           [
             56,
@@ -5109,7 +5216,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Shadow Ball",
@@ -5142,6 +5249,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -5247,7 +5357,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -5277,6 +5387,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         21
@@ -5382,7 +5495,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -5415,6 +5528,10 @@ overrides = {
       "evoMethods": [
         "Level Requirement",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        4,
+        8
       ],
       "evoParams": [
         35,
@@ -5522,7 +5639,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -5628,7 +5745,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -5665,6 +5782,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -5749,7 +5869,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -5864,7 +5984,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -5892,6 +6012,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -5979,7 +6102,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -6092,7 +6215,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earthquake",
           "Return",
           "Dig",
@@ -6130,6 +6253,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         26
@@ -6220,7 +6346,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Earthquake",
           "Return",
@@ -6347,7 +6473,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -6388,6 +6514,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         28
@@ -6485,7 +6614,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -6611,7 +6740,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -6648,6 +6777,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -6741,7 +6873,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -6863,7 +6995,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -6910,6 +7042,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -7002,7 +7137,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -7139,7 +7274,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Return",
           "Dig",
@@ -7175,6 +7310,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Fire Stone"
@@ -7274,7 +7412,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -7384,7 +7522,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -7414,6 +7552,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -7494,7 +7635,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -7532,6 +7673,10 @@ overrides = {
       "evoMethods": [
         "Item Use",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8,
+        8
       ],
       "evoParams": [
         "Water Stone",
@@ -7624,7 +7769,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -7727,7 +7872,7 @@ overrides = {
           ],
           [
             50,
-            "Luster Purge"
+            "Psystrike"
           ],
           [
             62,
@@ -7742,7 +7887,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -7781,6 +7926,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -7849,7 +7997,7 @@ overrides = {
           ],
           [
             50,
-            "Luster Purge"
+            "Psystrike"
           ],
           [
             62,
@@ -7864,7 +8012,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -7903,6 +8051,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -7971,7 +8122,7 @@ overrides = {
           ],
           [
             50,
-            "Luster Purge"
+            "Psystrike"
           ],
           [
             62,
@@ -7987,7 +8138,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -8104,7 +8255,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -8146,6 +8297,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -8231,7 +8385,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -8273,6 +8427,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -8359,7 +8516,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -8479,7 +8636,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -8509,6 +8666,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -8594,7 +8754,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -8624,6 +8784,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -8710,7 +8873,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -8815,7 +8978,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -8850,6 +9013,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -8933,7 +9099,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -9048,7 +9214,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -9088,6 +9254,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -9176,7 +9345,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -9216,6 +9385,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -9306,7 +9478,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -9423,7 +9595,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -9458,6 +9630,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -9543,7 +9718,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -9656,7 +9831,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -9700,6 +9875,10 @@ overrides = {
       "evoMethods": [
         "Level Requirement",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        4,
+        8
       ],
       "evoParams": [
         37,
@@ -9786,7 +9965,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -9910,7 +10089,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -9944,6 +10123,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -10030,7 +10212,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -10065,6 +10247,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -10145,7 +10330,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Brick Break",
           "Double Team",
@@ -10260,7 +10445,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -10293,6 +10478,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         31
@@ -10383,7 +10571,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -10504,7 +10692,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -10535,6 +10723,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         34
       ]
@@ -10552,7 +10743,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 100,
+        "hp": 110,
         "at": 65,
         "df": 70,
         "sa": 110,
@@ -10629,7 +10820,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -10742,7 +10933,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -10783,6 +10974,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         38
@@ -10874,7 +11068,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -10991,7 +11185,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -11018,6 +11212,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Water Stone"
@@ -11100,7 +11297,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -11204,7 +11401,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -11212,6 +11409,7 @@ overrides = {
           "Psychic",
           "Shadow Ball",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Torment",
           "Facade",
@@ -11241,6 +11439,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -11323,7 +11524,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -11331,6 +11532,7 @@ overrides = {
           "Psychic",
           "Shadow Ball",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Torment",
           "Facade",
@@ -11363,6 +11565,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -11446,7 +11651,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -11456,6 +11661,7 @@ overrides = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Torment",
           "Facade",
@@ -11472,6 +11678,7 @@ overrides = {
           "Shadow Claw",
           "Payback",
           "Giga Impact",
+          "Self-Destruct",
           "Poison Jab",
           "Dream Eater",
           "Swagger",
@@ -11584,7 +11791,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -11624,6 +11831,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -11719,7 +11929,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -11755,6 +11965,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         26
@@ -11851,7 +12064,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -11953,7 +12166,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -11991,6 +12204,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -12066,7 +12282,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -12171,7 +12387,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -12205,6 +12421,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -12279,7 +12498,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -12389,7 +12608,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -12425,6 +12644,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Leaf Stone"
@@ -12511,7 +12733,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -12620,7 +12842,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Smack Down",
@@ -12663,6 +12885,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         28
@@ -12746,7 +12971,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Smack Down",
@@ -12851,7 +13076,7 @@ overrides = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -12960,7 +13185,7 @@ overrides = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -13062,7 +13287,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -13113,6 +13338,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -13191,7 +13419,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -13229,6 +13457,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -13308,7 +13539,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -13429,7 +13660,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -13471,6 +13702,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -13563,7 +13797,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -13614,6 +13848,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -13719,7 +13956,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -13842,7 +14079,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -13876,6 +14113,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -13965,7 +14205,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -14078,7 +14318,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -14106,6 +14346,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -14181,7 +14424,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -14210,6 +14453,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         44
@@ -14282,7 +14528,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -14311,6 +14557,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -14384,7 +14633,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -14470,7 +14719,7 @@ overrides = {
           ],
           [
             56,
-            "Luster Purge"
+            "Psycho Boost"
           ],
           [
             70,
@@ -14495,7 +14744,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -14529,6 +14778,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Water Stone"
@@ -14594,7 +14846,7 @@ overrides = {
           ],
           [
             56,
-            "Luster Purge"
+            "Psycho Boost"
           ],
           [
             70,
@@ -14621,7 +14873,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -14746,7 +14998,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -14863,7 +15115,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -14897,6 +15149,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level with Item + Day"
+      ],
+      "evoMethodIds": [
+        19
       ],
       "evoParams": [
         "Metal Coat"
@@ -14995,7 +15250,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Psychic",
@@ -15127,7 +15382,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -15165,6 +15420,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -15255,6 +15513,10 @@ overrides = {
           [
             65,
             "Focus Blast"
+          ],
+          [
+            70,
+            "Inferno"
           ]
         ],
         "tms": [
@@ -15262,7 +15524,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Psychic",
@@ -15299,6 +15561,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -15385,7 +15650,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -15478,8 +15743,16 @@ overrides = {
             "Close Combat"
           ],
           [
+            52,
+            "Double-Edge"
+          ],
+          [
             55,
             "Rock Climb"
+          ],
+          [
+            57,
+            "Superpower"
           ],
           [
             60,
@@ -15497,7 +15770,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
@@ -15615,6 +15888,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         20
       ]
@@ -15694,7 +15970,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -15808,7 +16084,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -15946,7 +16222,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -16056,6 +16332,15 @@ overrides = {
         "Level with Item + Day",
         "Level with Item + Day"
       ],
+      "evoMethodIds": [
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
       "evoParams": [
         "Miracle Seed",
         "NeverMeltIce",
@@ -16144,7 +16429,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -16253,7 +16538,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -16363,7 +16648,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -16386,6 +16671,7 @@ overrides = {
           "Self-Destruct",
           "Swagger",
           "Natural Gift",
+          "Wild Charge",
           "Rock Smash",
           "Strength"
         ]
@@ -16475,7 +16761,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -16512,6 +16798,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -16589,7 +16878,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -16625,6 +16914,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -16703,7 +16995,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -16822,7 +17114,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -16857,6 +17149,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -16948,7 +17243,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -17067,7 +17362,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -17186,7 +17481,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Smack Down",
@@ -17316,7 +17611,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -17430,7 +17725,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -17548,7 +17843,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -17669,7 +17964,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -17701,6 +17996,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -17793,7 +18091,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -17825,6 +18123,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -17921,7 +18222,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -18073,7 +18374,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -18219,7 +18520,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -18406,7 +18707,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -18438,6 +18739,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -18538,7 +18842,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -18572,6 +18876,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -18673,7 +18980,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -18788,7 +19095,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Dig",
@@ -18820,6 +19127,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         14
@@ -18909,7 +19219,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Dig",
@@ -18944,6 +19254,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -19034,7 +19347,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -19164,7 +19477,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -19200,6 +19513,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -19297,7 +19613,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -19335,6 +19651,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -19433,7 +19752,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -19552,7 +19871,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -19591,6 +19910,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -19678,7 +20000,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -19802,7 +20124,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -19835,6 +20157,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -19925,7 +20250,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -20031,7 +20356,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -20066,6 +20391,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -20148,7 +20476,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -20259,7 +20587,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -20291,6 +20619,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -20374,7 +20705,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -20446,6 +20777,10 @@ overrides = {
             "Mega Drain"
           ],
           [
+            13,
+            "Air Cutter"
+          ],
+          [
             16,
             "Bite"
           ],
@@ -20458,12 +20793,20 @@ overrides = {
             "Crunch"
           ],
           [
+            32,
+            "Air Slash"
+          ],
+          [
             35,
             "Aerial Ace"
           ],
           [
             39,
             "Taunt"
+          ],
+          [
+            42,
+            "Sludge Bomb"
           ],
           [
             44,
@@ -20476,6 +20819,10 @@ overrides = {
           [
             52,
             "Haze"
+          ],
+          [
+            54,
+            "Aeroblast"
           ],
           [
             56,
@@ -20501,7 +20848,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -20609,7 +20956,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -20643,6 +20990,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -20726,7 +21076,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -20807,7 +21157,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -20892,7 +21242,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -20980,7 +21330,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -21101,7 +21451,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -21141,6 +21491,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -21231,7 +21584,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -21276,6 +21629,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -21375,7 +21731,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -21414,6 +21770,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -21514,7 +21873,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -21635,7 +21994,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -21666,6 +22025,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -21754,7 +22116,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -21790,6 +22152,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -21880,7 +22245,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -22012,7 +22377,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -22121,7 +22486,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -22155,6 +22520,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -22241,7 +22609,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -22354,7 +22722,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Earthquake",
           "Return",
@@ -22464,7 +22832,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -22597,7 +22965,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -22627,6 +22995,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -22728,7 +23099,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -22758,6 +23129,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -22860,7 +23234,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -22966,7 +23340,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -23088,7 +23462,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -23119,6 +23493,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -23208,7 +23585,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -23316,7 +23693,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -23345,6 +23722,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -23422,7 +23802,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -23459,6 +23839,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -23537,7 +23920,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -23657,7 +24040,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -23766,7 +24149,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -23854,7 +24237,7 @@ overrides = {
             "Tailwind"
           ],
           [
-            46,
+            44,
             "Night Slash"
           ],
           [
@@ -23880,7 +24263,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -23917,6 +24300,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Dusk Stone"
@@ -24002,7 +24388,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -24112,6 +24498,10 @@ overrides = {
           [
             50,
             "Future Sight"
+          ],
+          [
+            65,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -24120,7 +24510,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -24159,6 +24549,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Dusk Stone"
@@ -24315,7 +24708,11 @@ overrides = {
             "Psychic"
           ],
           [
-            60,
+            58,
+            "Psycho Boost"
+          ],
+          [
+            65,
             "Luster Purge"
           ]
         ],
@@ -24326,7 +24723,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -24444,7 +24841,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -24478,6 +24875,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         31
@@ -24565,7 +24965,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -24685,7 +25085,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
@@ -24814,7 +25214,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -24863,6 +25263,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -24966,7 +25369,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -25090,7 +25493,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -25137,6 +25540,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         23
@@ -25229,7 +25635,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -25368,7 +25774,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Shadow Ball",
@@ -25476,7 +25882,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -25595,7 +26001,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Smack Down",
@@ -25727,7 +26133,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -25848,7 +26254,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -25895,6 +26301,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -25983,7 +26392,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -26024,6 +26433,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -26113,7 +26525,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -26220,7 +26632,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Double Team",
@@ -26252,6 +26664,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         38
@@ -26325,7 +26740,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Smack Down",
@@ -26446,7 +26861,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -26477,6 +26892,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -26565,7 +26983,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -26598,6 +27016,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         50
@@ -26666,7 +27087,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -26783,7 +27204,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -26819,6 +27240,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -26906,7 +27330,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -27028,7 +27452,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -27131,7 +27555,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -27175,10 +27599,10 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 80,
         "at": 100,
         "df": 140,
-        "sa": 55,
+        "sa": 45,
         "sd": 70,
         "sp": 70
       },
@@ -27243,7 +27667,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Double Team",
           "Sandstorm",
@@ -27273,7 +27697,7 @@ overrides = {
       },
       "abs": [
         "Rock Head",
-        "Battle Armor",
+        "Filter",
         "Weak Armor"
       ]
     },
@@ -27362,7 +27786,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -27401,6 +27825,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -27492,7 +27919,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -27599,7 +28026,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -27696,7 +28123,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -27726,6 +28153,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -27803,7 +28233,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -27913,7 +28343,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -27950,6 +28380,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -28030,8 +28463,12 @@ overrides = {
             "Wonder Room"
           ],
           [
-            60,
+            55,
             "Double-Edge"
+          ],
+          [
+            60,
+            "Luster Purge"
           ]
         ],
         "tms": [
@@ -28041,7 +28478,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -28182,7 +28619,7 @@ overrides = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -28218,6 +28655,11 @@ overrides = {
         "Item Use",
         "Item Use",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8,
+        8,
+        8
       ],
       "evoParams": [
         "Fire Stone",
@@ -28296,7 +28738,7 @@ overrides = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -28420,7 +28862,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Psychic",
@@ -28455,6 +28897,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -28555,7 +29000,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -28589,6 +29034,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -28679,13 +29127,17 @@ overrides = {
           [
             65,
             "Focus Blast"
+          ],
+          [
+            70,
+            "Inferno"
           ]
         ],
         "tms": [
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Psychic",
@@ -28718,6 +29170,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -28800,7 +29255,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -28940,7 +29395,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -29075,7 +29530,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -29197,7 +29652,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -29324,7 +29779,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -29442,7 +29897,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -29480,6 +29935,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -29570,7 +30028,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -29609,6 +30067,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -29704,7 +30165,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -29853,7 +30314,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -29992,7 +30453,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -30125,7 +30586,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -30259,7 +30720,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -30299,6 +30760,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -30404,7 +30868,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -30447,6 +30911,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -30556,7 +31023,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -30698,7 +31165,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Double Team",
@@ -30736,6 +31203,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -30842,7 +31312,7 @@ overrides = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -30886,6 +31356,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -30994,7 +31467,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -31135,7 +31608,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -31170,6 +31643,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -31271,7 +31747,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -31311,6 +31787,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -31414,7 +31893,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -31537,7 +32016,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -31570,6 +32049,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -31660,7 +32142,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -31784,7 +32266,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -31822,6 +32304,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -31922,7 +32407,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -32008,6 +32493,10 @@ overrides = {
         "Level Requirement + PID Greater Than 5",
         "Level Requirement + PID Less Than 5"
       ],
+      "evoMethodIds": [
+        12,
+        13
+      ],
       "evoParams": [
         7,
         7
@@ -32059,6 +32548,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         10
@@ -32133,7 +32625,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -32209,6 +32701,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         10
       ]
@@ -32283,7 +32778,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -32397,7 +32892,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -32431,6 +32926,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         14
@@ -32522,7 +33020,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -32561,6 +33059,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -32653,7 +33154,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -32776,7 +33277,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -32810,6 +33311,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         14
@@ -32903,7 +33407,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -32949,6 +33453,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -33042,7 +33549,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -33171,7 +33678,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -33201,6 +33708,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -33290,7 +33800,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -33398,7 +33908,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -33428,6 +33938,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -33515,7 +34028,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -33624,7 +34137,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -33664,6 +34177,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -33747,7 +34263,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -33789,6 +34305,10 @@ overrides = {
       "evoMethods": [
         "Level Requirement",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        4,
+        8
       ],
       "evoParams": [
         36,
@@ -33875,7 +34395,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -34003,7 +34523,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -34032,6 +34552,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -34127,7 +34650,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -34245,7 +34768,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -34275,6 +34798,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         23
@@ -34374,7 +34900,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -34499,7 +35025,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -34539,6 +35065,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -34632,7 +35161,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -34676,6 +35205,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -34770,7 +35302,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Smack Down",
@@ -34881,7 +35413,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -34911,6 +35443,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -34985,7 +35520,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -35096,7 +35631,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Solar Beam",
@@ -35202,7 +35737,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -35234,6 +35769,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -35313,7 +35851,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -35355,6 +35893,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -35436,7 +35977,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -35560,7 +36101,7 @@ overrides = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -35598,6 +36139,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         24
@@ -35687,7 +36231,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -35777,7 +36321,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -35872,7 +36416,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Thunderbolt",
@@ -35910,6 +36454,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         50
@@ -36009,7 +36556,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -36051,6 +36598,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -36151,7 +36701,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -36278,7 +36828,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -36413,7 +36963,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -36538,7 +37088,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -36572,6 +37122,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -36658,7 +37211,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -36693,6 +37246,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         42
@@ -36784,7 +37340,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Smack Down",
@@ -36883,7 +37439,7 @@ overrides = {
           ],
           [
             30,
-            "Ice Punch"
+            "Fire Punch"
           ],
           [
             30,
@@ -36891,7 +37447,7 @@ overrides = {
           ],
           [
             30,
-            "Fire Punch"
+            "Ice Punch"
           ],
           [
             35,
@@ -36910,6 +37466,10 @@ overrides = {
             "Drain Punch"
           ],
           [
+            56,
+            "Luster Purge"
+          ],
+          [
             62,
             "Close Combat"
           ],
@@ -36926,7 +37486,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Psychic",
@@ -36964,6 +37524,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         37
@@ -37048,6 +37611,10 @@ overrides = {
             "Drain Punch"
           ],
           [
+            56,
+            "Luster Purge"
+          ],
+          [
             62,
             "Close Combat"
           ],
@@ -37065,7 +37632,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Psychic",
@@ -37189,7 +37756,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -37224,6 +37791,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -37318,7 +37888,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -37424,7 +37994,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -37534,7 +38104,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -37650,7 +38220,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -37728,10 +38298,6 @@ overrides = {
             "Moonlight"
           ],
           [
-            17,
-            "Encore"
-          ],
-          [
             21,
             "Psybeam"
           ],
@@ -37770,7 +38336,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -37896,7 +38462,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -37929,6 +38495,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Shiny Stone"
@@ -38006,7 +38575,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -38036,6 +38605,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         26
@@ -38114,7 +38686,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Earthquake",
@@ -38225,7 +38797,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -38258,6 +38830,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -38346,7 +38921,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -38455,7 +39030,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -38468,6 +39043,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Scald",
+          "Explosion",
           "Bulldoze",
           "Self-Destruct",
           "Swagger",
@@ -38489,6 +39065,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -38568,7 +39147,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -38581,6 +39160,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Scald",
+          "Explosion",
           "Giga Impact",
           "Bulldoze",
           "Self-Destruct",
@@ -38686,7 +39266,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -38724,6 +39304,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         33
@@ -38818,7 +39401,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Smack Down",
@@ -38934,7 +39517,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -39062,7 +39645,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -39096,6 +39679,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -39193,7 +39779,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -39284,12 +39870,16 @@ overrides = {
             "Superpower"
           ],
           [
+            38,
+            "Double-Edge"
+          ],
+          [
             40,
             "Psycho Boost"
           ],
           [
-            40,
-            "Double-Edge"
+            42,
+            "Luster Purge"
           ],
           [
             44,
@@ -39306,7 +39896,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -39427,7 +40017,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -39459,6 +40049,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -39549,7 +40142,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -39583,6 +40176,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -39675,7 +40271,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -39796,7 +40392,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -39830,6 +40426,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -39920,7 +40519,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -40040,7 +40639,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -40071,6 +40670,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -40165,7 +40767,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -40287,7 +40889,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -40416,7 +41018,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -40525,7 +41127,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -40650,7 +41252,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Smack Down",
@@ -40767,7 +41369,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -40799,6 +41401,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -40877,7 +41482,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -41000,7 +41605,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -41041,6 +41646,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -41137,7 +41745,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -41258,7 +41866,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -41304,6 +41912,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -41389,7 +42000,7 @@ overrides = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -41506,7 +42117,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Solar Beam",
@@ -41542,6 +42153,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -41619,7 +42233,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Solar Beam",
@@ -41754,7 +42368,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Smack Down",
           "Return",
@@ -41791,6 +42405,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -41893,7 +42510,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Smack Down",
           "Earthquake",
@@ -42001,7 +42618,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -42029,6 +42646,10 @@ overrides = {
       "evoMethods": [
         "Level Requirement",
         "Trade with Held Item"
+      ],
+      "evoMethodIds": [
+        4,
+        6
       ],
       "evoParams": [
         20,
@@ -42104,7 +42725,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -42149,7 +42770,7 @@ overrides = {
         "df": 70,
         "sa": 110,
         "sd": 70,
-        "sp": 110
+        "sp": 120
       },
       "learnset_info": {
         "learnset": [
@@ -42187,27 +42808,19 @@ overrides = {
           ],
           [
             40,
-            "Ice Beam"
-          ],
-          [
-            40,
             "Flamethrower"
           ],
           [
             40,
-            "Thunderbolt"
+            "Ice Beam"
           ],
           [
             40,
             "Aeroblast"
           ],
           [
-            50,
-            "Blizzard"
-          ],
-          [
-            50,
-            "Hydro Pump"
+            40,
+            "Thunderbolt"
           ],
           [
             50,
@@ -42216,6 +42829,14 @@ overrides = {
           [
             50,
             "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ],
+          [
+            50,
+            "Hydro Pump"
           ],
           [
             50,
@@ -42230,7 +42851,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
@@ -42264,6 +42885,18 @@ overrides = {
         "Forecast",
         "",
         "Trace"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Castform-Sunny",
+        "Castform-Rainy",
+        "Castform-Snowy"
+      ],
+      "formeOrder": [
+        "Castform",
+        "Castform-Sunny",
+        "Castform-Rainy",
+        "Castform-Snowy"
       ]
     },
     "Kecleon": {
@@ -42348,7 +42981,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -42474,7 +43107,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -42510,6 +43143,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         37
@@ -42597,7 +43233,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -42735,7 +43371,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -42770,6 +43406,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -42878,7 +43517,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -42920,6 +43559,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -43015,7 +43657,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Earthquake",
@@ -43142,7 +43784,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -43177,8 +43819,7 @@ overrides = {
       "name": "Absol",
       "num": 359,
       "types": [
-        "Dark",
-        "Psychic"
+        "Dark"
       ],
       "items": [
         "None",
@@ -43210,6 +43851,10 @@ overrides = {
           [
             13,
             "Quick Attack"
+          ],
+          [
+            15,
+            "Psybeam"
           ],
           [
             17,
@@ -43244,6 +43889,10 @@ overrides = {
             "Leaf Blade"
           ],
           [
+            51,
+            "Luster Purge"
+          ],
+          [
             55,
             "Perish Song"
           ],
@@ -43266,7 +43915,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -43311,8 +43960,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Defiant",
-        "Magic Bounce",
+        "Rattled",
+        "Justified",
         "Super Luck"
       ]
     },
@@ -43379,6 +44028,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         15
       ]
@@ -43443,7 +44095,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -43471,6 +44123,10 @@ overrides = {
       "evoMethods": [
         "Level Requirement",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        4,
+        8
       ],
       "evoParams": [
         30,
@@ -43551,7 +44207,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -43668,7 +44324,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -43702,6 +44358,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -43792,7 +44451,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -43827,6 +44486,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         32
       ]
@@ -43844,7 +44506,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 100,
+        "hp": 110,
         "at": 110,
         "df": 130,
         "sa": 65,
@@ -43898,6 +44560,10 @@ overrides = {
             "Avalanche"
           ],
           [
+            46,
+            "Toxic"
+          ],
+          [
             50,
             "Slack Off"
           ],
@@ -43917,7 +44583,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -43992,7 +44658,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -44021,6 +44687,10 @@ overrides = {
       "evoMethods": [
         "Item Use",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8,
+        8
       ],
       "evoParams": [
         "Dusk Stone",
@@ -44101,7 +44771,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -44201,7 +44871,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -44321,7 +44991,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Smack Down",
@@ -44364,7 +45034,7 @@ overrides = {
         "Psychic"
       ],
       "items": [
-        "Heart Scale",
+        "None",
         "None",
         "None"
       ],
@@ -44434,7 +45104,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -44546,7 +45216,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -44579,6 +45249,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -44670,7 +45343,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -44703,6 +45376,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -44796,7 +45472,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -44898,6 +45574,10 @@ overrides = {
             "Meteor Mash"
           ],
           [
+            60,
+            "Luster Purge"
+          ],
+          [
             65,
             "Heavy Slam"
           ]
@@ -44914,6 +45594,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -44986,6 +45669,10 @@ overrides = {
             "Meteor Mash"
           ],
           [
+            60,
+            "Luster Purge"
+          ],
+          [
             65,
             "Heavy Slam"
           ]
@@ -44997,7 +45684,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -45037,6 +45724,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -45109,6 +45799,10 @@ overrides = {
             "Meteor Mash"
           ],
           [
+            60,
+            "Luster Purge"
+          ],
+          [
             65,
             "Heavy Slam"
           ]
@@ -45120,7 +45814,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -45236,7 +45930,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Smack Down",
@@ -45356,7 +46050,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -45482,7 +46176,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -45629,7 +46323,7 @@ overrides = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -45782,7 +46476,7 @@ overrides = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -45911,7 +46605,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -46029,7 +46723,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -46162,7 +46856,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -46308,7 +47002,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -46435,7 +47129,7 @@ overrides = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -46482,6 +47176,18 @@ overrides = {
         "Pressure",
         "",
         ""
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Deoxys-Attack",
+        "Deoxys-Defense",
+        "Deoxys-Speed"
+      ],
+      "formeOrder": [
+        "Deoxys",
+        "Deoxys-Attack",
+        "Deoxys-Defense",
+        "Deoxys-Speed"
       ]
     },
     "Turtwig": {
@@ -46566,7 +47272,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -46598,6 +47304,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -46686,7 +47395,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -46720,6 +47429,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -46810,7 +47522,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -46952,7 +47664,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -46993,6 +47705,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -47104,7 +47819,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -47151,6 +47866,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -47208,15 +47926,15 @@ overrides = {
           ],
           [
             32,
-            "Fire Punch"
-          ],
-          [
-            32,
             "Thunder Punch"
           ],
           [
             32,
             "Ice Punch"
+          ],
+          [
+            32,
+            "Fire Punch"
           ],
           [
             36,
@@ -47265,7 +47983,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -47397,7 +48115,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -47434,6 +48152,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -47524,7 +48245,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -47564,6 +48285,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -47657,7 +48381,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -47778,7 +48502,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -47807,6 +48531,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         14
@@ -47891,7 +48618,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -47921,6 +48648,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -48006,7 +48736,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -48118,7 +48848,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -48155,6 +48885,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -48247,7 +48980,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -48376,6 +49109,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         10
       ]
@@ -48462,7 +49198,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -48585,7 +49321,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -48618,6 +49354,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -48715,7 +49454,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -48748,6 +49487,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -48846,7 +49588,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -48928,7 +49670,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -49049,7 +49791,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -49162,7 +49904,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Thunderbolt",
@@ -49205,6 +49947,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         30
       ]
@@ -49224,10 +49969,10 @@ overrides = {
       "bs": {
         "hp": 97,
         "at": 150,
-        "df": 80,
-        "sa": 65,
-        "sd": 60,
-        "sp": 78
+        "df": 100,
+        "sa": 15,
+        "sd": 80,
+        "sp": 88
       },
       "learnset_info": {
         "learnset": [
@@ -49294,7 +50039,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -49422,7 +50167,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Thunderbolt",
@@ -49454,7 +50199,7 @@ overrides = {
       },
       "abs": [
         "Shield Dust",
-        "Soundproof",
+        "",
         "Soundproof"
       ],
       "evos": [
@@ -49462,6 +50207,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -49551,7 +50299,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Thunderbolt",
@@ -49584,7 +50332,7 @@ overrides = {
       },
       "abs": [
         "Shield Dust",
-        "Soundproof",
+        "",
         "Soundproof"
       ]
     },
@@ -49665,6 +50413,10 @@ overrides = {
         "Level Requirement + Female",
         "Level Requirement + Male"
       ],
+      "evoMethodIds": [
+        24,
+        23
+      ],
       "evoParams": [
         20,
         20
@@ -49739,7 +50491,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -49767,6 +50519,16 @@ overrides = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Wormadam-Sandy",
+        "Wormadam-Trash"
+      ],
+      "formeOrder": [
+        "Wormadam",
+        "Wormadam-Sandy",
+        "Wormadam-Trash"
       ]
     },
     "Mothim": {
@@ -49846,7 +50608,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -49962,6 +50724,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         21
       ]
@@ -50044,7 +50809,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -50162,7 +50927,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -50235,11 +51000,11 @@ overrides = {
           ],
           [
             15,
-            "Bubble Beam"
+            "Whirlpool"
           ],
           [
             19,
-            "Soak"
+            "Swift"
           ],
           [
             23,
@@ -50250,16 +51015,20 @@ overrides = {
             "Crunch"
           ],
           [
+            29,
+            "Icy Wind"
+          ],
+          [
             31,
+            "Scald"
+          ],
+          [
+            33,
             "Waterfall"
           ],
           [
             35,
-            "Swift"
-          ],
-          [
-            38,
-            "Icy Wind"
+            "Fake Out"
           ],
           [
             42,
@@ -50268,10 +51037,6 @@ overrides = {
           [
             50,
             "Aqua Tail"
-          ],
-          [
-            55,
-            "Fake Out"
           ],
           [
             62,
@@ -50285,7 +51050,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -50320,6 +51085,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         26
@@ -50365,11 +51133,11 @@ overrides = {
           ],
           [
             15,
-            "Bubble Beam"
+            "Whirlpool"
           ],
           [
             19,
-            "Soak"
+            "Swift"
           ],
           [
             23,
@@ -50380,16 +51148,20 @@ overrides = {
             "Crunch"
           ],
           [
+            29,
+            "Icy Wind"
+          ],
+          [
             31,
+            "Scald"
+          ],
+          [
+            33,
             "Waterfall"
           ],
           [
             35,
-            "Swift"
-          ],
-          [
-            38,
-            "Icy Wind"
+            "Fake Out"
           ],
           [
             42,
@@ -50398,10 +51170,6 @@ overrides = {
           [
             50,
             "Aqua Tail"
-          ],
-          [
-            55,
-            "Fake Out"
           ],
           [
             62,
@@ -50418,7 +51186,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -50523,7 +51291,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -50551,6 +51319,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -50628,7 +51399,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -50737,7 +51508,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -50764,6 +51535,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -50850,7 +51624,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -50968,7 +51742,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -51013,6 +51787,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -51098,7 +51875,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -51140,6 +51917,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         28
@@ -51226,7 +52006,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -51360,7 +52140,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Return",
@@ -51394,6 +52174,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -51497,7 +52280,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -51597,6 +52380,10 @@ overrides = {
           [
             50,
             "Future Sight"
+          ],
+          [
+            65,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -51607,7 +52394,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -51699,7 +52486,7 @@ overrides = {
             "Tailwind"
           ],
           [
-            46,
+            44,
             "Night Slash"
           ],
           [
@@ -51726,7 +52513,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -51851,7 +52638,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -51892,6 +52679,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -51988,7 +52778,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -52122,7 +52912,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -52155,6 +52945,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -52251,7 +53044,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -52289,6 +53082,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -52386,7 +53182,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -52509,7 +53305,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -52549,6 +53345,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         33
@@ -52641,7 +53440,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -52760,7 +53559,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Return",
           "Dig",
@@ -52790,6 +53589,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -52897,7 +53699,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -52938,6 +53740,9 @@ overrides = {
       ],
       "evoMethods": [
         "After Learning Specific Move"
+      ],
+      "evoMethodIds": [
+        21
       ],
       "evoParams": [
         "Mimic"
@@ -52991,7 +53796,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -53029,6 +53834,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level with Item + Day"
+      ],
+      "evoMethodIds": [
+        19
       ],
       "evoParams": [
         "Oval Stone"
@@ -53123,7 +53931,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -53227,7 +54035,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -53349,7 +54157,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -53388,6 +54196,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         24
@@ -53480,7 +54291,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -53519,6 +54330,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -53612,7 +54426,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -53735,7 +54549,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -53778,6 +54592,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -53872,7 +54689,7 @@ overrides = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -53912,6 +54729,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -54010,7 +54830,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -54130,7 +54950,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Earthquake",
           "Return",
@@ -54160,6 +54980,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -54245,7 +55068,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Earthquake",
           "Return",
@@ -54367,7 +55190,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -54409,6 +55232,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -54510,7 +55336,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -54639,7 +55465,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -54685,6 +55511,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -54777,7 +55606,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -54874,6 +55703,10 @@ overrides = {
             "Synthesis"
           ],
           [
+            35,
+            "Knock Off"
+          ],
+          [
             37,
             "Crunch"
           ],
@@ -54899,7 +55732,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -55015,7 +55848,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -55049,6 +55882,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         31
@@ -55141,7 +55977,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -55253,7 +56089,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -55285,6 +56121,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level With Party Member"
+      ],
+      "evoMethodIds": [
+        22
       ],
       "evoParams": [
         "Remoraid"
@@ -55375,7 +56214,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -55408,6 +56247,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -55499,7 +56341,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -55619,7 +56461,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -55745,7 +56587,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -55846,7 +56688,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -55983,7 +56825,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -56106,7 +56948,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -56244,7 +57086,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -56370,6 +57212,10 @@ overrides = {
           [
             65,
             "Focus Blast"
+          ],
+          [
+            70,
+            "Inferno"
           ]
         ],
         "tms": [
@@ -56378,7 +57224,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Solar Beam",
@@ -56505,7 +57351,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -56627,7 +57473,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -56730,7 +57576,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -56841,7 +57687,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -56956,7 +57802,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -57085,7 +57931,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -57194,7 +58040,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -57299,6 +58145,10 @@ overrides = {
             "Wide Guard"
           ],
           [
+            58,
+            "Luster Purge"
+          ],
+          [
             62,
             "Close Combat"
           ],
@@ -57317,7 +58167,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -57445,7 +58295,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Thunderbolt",
@@ -57585,7 +58435,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -57698,7 +58548,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -57791,6 +58641,10 @@ overrides = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -57798,7 +58652,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -57818,13 +58672,30 @@ overrides = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
-        "Levitate"
+        "Telepathy"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Rotom-Heat",
+        "Rotom-Wash",
+        "Rotom-Frost",
+        "Rotom-Fan",
+        "Rotom-Mow"
+      ],
+      "formeOrder": [
+        "Rotom",
+        "Rotom-Heat",
+        "Rotom-Wash",
+        "Rotom-Frost",
+        "Rotom-Fan",
+        "Rotom-Mow"
       ]
     },
     "Uxie": {
@@ -57905,7 +58776,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -58024,7 +58895,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -58141,7 +59012,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -58271,7 +59142,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -58403,7 +59274,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -58531,7 +59402,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Earthquake",
@@ -58773,7 +59644,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -58814,6 +59685,14 @@ overrides = {
         "Pressure",
         "",
         "Telepathy"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Giratina-Origin"
+      ],
+      "formeOrder": [
+        "Giratina",
+        "Giratina-Origin"
       ]
     },
     "Cresselia": {
@@ -58895,7 +59774,7 @@ overrides = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -59001,7 +59880,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -59111,7 +59990,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -59223,7 +60102,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -59348,7 +60227,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -59372,6 +60251,14 @@ overrides = {
         "Natural Cure",
         "",
         ""
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Shaymin-Sky"
+      ],
+      "formeOrder": [
+        "Shaymin",
+        "Shaymin-Sky"
       ]
     },
     "Arceus": {
@@ -59466,7 +60353,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -59632,7 +60519,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -59783,7 +60670,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -59817,6 +60704,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         17
@@ -59928,7 +60818,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -59962,6 +60852,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -60074,7 +60967,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -60200,7 +61093,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -60236,6 +61129,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         17
@@ -60334,7 +61230,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -60379,6 +61275,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -60479,7 +61378,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Smack Down",
@@ -60621,7 +61520,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -60661,6 +61560,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         17
@@ -60764,7 +61666,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -60804,6 +61706,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -60908,7 +61813,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -61033,7 +61938,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Return",
@@ -61064,6 +61969,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -61158,7 +62066,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -61282,7 +62190,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Return",
@@ -61316,6 +62224,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -61408,7 +62319,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Return",
@@ -61445,6 +62356,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -61538,7 +62452,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -61657,7 +62571,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -61694,6 +62608,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -61784,7 +62701,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -61911,7 +62828,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -61949,6 +62866,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -62047,7 +62967,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -62173,7 +63093,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -62214,6 +63134,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -62308,7 +63231,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -62439,7 +63362,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -62479,6 +63402,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -62575,7 +63501,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -62699,7 +63625,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -62737,6 +63663,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -62827,7 +63756,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -62937,7 +63866,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -62956,8 +63885,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Big Pecks",
         "Unburden",
+        "",
         "Rivalry"
       ],
       "evos": [
@@ -62965,6 +63894,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -63045,7 +63977,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -63064,8 +63996,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Big Pecks",
         "Unburden",
+        "",
         "Rivalry"
       ],
       "evos": [
@@ -63073,6 +64005,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -63155,7 +64090,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -63177,8 +64112,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Big Pecks",
         "Unburden",
+        "",
         "Super Luck"
       ]
     },
@@ -63265,7 +64200,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -63296,6 +64231,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -63385,7 +64323,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -63406,7 +64344,8 @@ overrides = {
           "Swagger",
           "Natural Gift",
           "Wild Charge",
-          "Rock Smash"
+          "Rock Smash",
+          "Strength"
         ]
       },
       "abs": [
@@ -63462,11 +64401,11 @@ overrides = {
           ],
           [
             29,
-            "Power Gem"
+            "Flash Cannon"
           ],
           [
             33,
-            "Flash Cannon"
+            "Power Gem"
           ],
           [
             36,
@@ -63488,7 +64427,7 @@ overrides = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Thunderbolt",
@@ -63525,6 +64464,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -63577,11 +64519,11 @@ overrides = {
           ],
           [
             29,
-            "Power Gem"
+            "Flash Cannon"
           ],
           [
             33,
-            "Flash Cannon"
+            "Power Gem"
           ],
           [
             36,
@@ -63603,7 +64545,7 @@ overrides = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Thunderbolt",
@@ -63640,6 +64582,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -63692,11 +64637,11 @@ overrides = {
           ],
           [
             29,
-            "Power Gem"
+            "Flash Cannon"
           ],
           [
             33,
-            "Flash Cannon"
+            "Power Gem"
           ],
           [
             36,
@@ -63719,7 +64664,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Smack Down",
@@ -63844,7 +64789,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -63887,6 +64832,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -63983,7 +64931,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -64105,7 +65053,7 @@ overrides = {
           "Hone Claws",
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -64145,6 +65093,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -64234,7 +65185,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -64336,6 +65287,10 @@ overrides = {
           [
             50,
             "Follow Me"
+          ],
+          [
+            60,
+            "Protect"
           ]
         ],
         "tms": [
@@ -64348,7 +65303,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -64483,7 +65438,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -64521,6 +65476,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -64618,7 +65576,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -64656,6 +65614,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -64755,7 +65716,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -64869,7 +65830,7 @@ overrides = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -64898,6 +65859,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -64981,7 +65945,7 @@ overrides = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -65012,6 +65976,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -65097,7 +66064,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -65216,7 +66183,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -65336,7 +66303,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -65452,7 +66419,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -65483,6 +66450,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -65568,7 +66538,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -65599,6 +66569,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -65686,7 +66659,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -65802,7 +66775,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -65832,6 +66805,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -65917,7 +66893,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -65947,6 +66923,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -66033,7 +67012,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -66154,7 +67133,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -66183,6 +67162,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Sun Stone"
@@ -66276,7 +67258,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -66398,7 +67380,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -66430,6 +67412,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Sun Stone"
@@ -66526,7 +67511,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -66591,12 +67576,20 @@ overrides = {
             "Aqua Jet"
           ],
           [
+            1,
+            "Water Gun"
+          ],
+          [
             7,
             "Bite"
           ],
           [
             13,
             "Screech"
+          ],
+          [
+            21,
+            "Snarl"
           ],
           [
             21,
@@ -66607,6 +67600,10 @@ overrides = {
             "Ice Fang"
           ],
           [
+            25,
+            "Aurora Beam"
+          ],
+          [
             30,
             "Scald"
           ],
@@ -66615,8 +67612,20 @@ overrides = {
             "Crunch"
           ],
           [
+            36,
+            "Dark Pulse"
+          ],
+          [
+            36,
+            "Surf"
+          ],
+          [
             40,
             "Waterfall"
+          ],
+          [
+            60,
+            "Night Daze"
           ],
           [
             60,
@@ -66625,6 +67634,10 @@ overrides = {
           [
             70,
             "Reversal"
+          ],
+          [
+            70,
+            "Hydro Cannon"
           ]
         ],
         "tms": [
@@ -66632,7 +67645,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -66652,9 +67665,17 @@ overrides = {
         ]
       },
       "abs": [
-        "Mold Breaker",
         "Adaptability",
+        "",
         "Mold Breaker"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Basculin-Blue-Striped"
+      ],
+      "formeOrder": [
+        "Basculin",
+        "Basculin-Blue-Striped"
       ]
     },
     "Sandile": {
@@ -66665,7 +67686,7 @@ overrides = {
         "Dark"
       ],
       "items": [
-        "None",
+        "Leppa Berry",
         "None",
         "None"
       ],
@@ -66713,11 +67734,11 @@ overrides = {
           ],
           [
             30,
-            "Thunder Punch"
+            "Fire Punch"
           ],
           [
             30,
-            "Fire Punch"
+            "Thunder Punch"
           ],
           [
             33,
@@ -66754,7 +67775,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Earthquake",
@@ -66793,6 +67814,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -66895,7 +67919,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Earthquake",
@@ -66941,6 +67965,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -67046,7 +68073,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Smack Down",
@@ -67173,7 +68200,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -67213,6 +68240,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -67301,7 +68331,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Smack Down",
           "Earthquake",
@@ -67344,6 +68374,14 @@ overrides = {
         "Sheer Force",
         "",
         "Zen Mode"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Darmanitan-Zen"
+      ],
+      "formeOrder": [
+        "Darmanitan",
+        "Darmanitan-Zen"
       ]
     },
     "Maractus": {
@@ -67437,7 +68475,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -67546,7 +68584,7 @@ overrides = {
           "Hone Claws",
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Smack Down",
           "Earthquake",
@@ -67586,6 +68624,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -67675,7 +68716,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Smack Down",
@@ -67812,7 +68853,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -67856,6 +68897,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         39
@@ -67961,7 +69005,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -68102,7 +69146,7 @@ overrides = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -68216,7 +69260,7 @@ overrides = {
           "Calm Mind",
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -68251,6 +69295,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         46
@@ -68336,7 +69383,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -68457,7 +69504,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -68495,6 +69542,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         37
@@ -68589,7 +69639,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -68715,7 +69765,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -68756,6 +69806,9 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         37
       ]
@@ -68774,11 +69827,11 @@ overrides = {
       ],
       "bs": {
         "hp": 75,
-        "at": 150,
+        "at": 140,
         "df": 65,
-        "sa": 110,
+        "sa": 112,
         "sd": 65,
-        "sp": 112
+        "sp": 110
       },
       "learnset_info": {
         "learnset": [
@@ -68851,7 +69904,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -68886,7 +69939,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Klutz",
+        "Run Away",
         "",
         ""
       ]
@@ -68975,7 +70028,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -69003,6 +70056,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -69093,7 +70149,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Smack Down",
@@ -69203,7 +70259,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -69241,6 +70297,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -69326,7 +70385,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -69454,7 +70513,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -69487,6 +70546,9 @@ overrides = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Shiny Stone"
@@ -69580,7 +70642,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -69701,7 +70763,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -69742,6 +70804,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -69837,7 +70902,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -69878,6 +70943,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         41
@@ -69974,7 +71042,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -70103,7 +71171,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -70141,6 +71209,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -70235,7 +71306,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -70273,6 +71344,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         41
@@ -70368,7 +71442,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -70492,7 +71566,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -70521,6 +71595,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -70611,7 +71688,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -70710,7 +71787,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -70738,6 +71815,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -70816,7 +71896,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -70845,6 +71925,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         47
@@ -70925,7 +72008,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -71038,7 +72121,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -71073,6 +72156,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -71166,7 +72252,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -71293,7 +72379,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -71409,7 +72495,7 @@ overrides = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -71439,6 +72525,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         45
@@ -71531,7 +72620,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -71652,12 +72741,13 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
           "Return",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Facade",
           "Rest",
@@ -71682,6 +72772,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         39
@@ -71780,12 +72873,13 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
           "Return",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Facade",
           "Rest",
@@ -71884,7 +72978,7 @@ overrides = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -71915,7 +73009,7 @@ overrides = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Rain Dish",
         "Damp"
       ],
       "evos": [
@@ -71923,6 +73017,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -72006,7 +73103,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -72038,7 +73135,7 @@ overrides = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Rain Dish",
         "Damp"
       ]
     },
@@ -72127,7 +73224,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -72237,7 +73334,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -72272,6 +73369,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -72361,7 +73461,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -72478,7 +73578,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Thunderbolt",
           "Return",
@@ -72510,6 +73610,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         50
@@ -72600,7 +73703,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Thunderbolt",
           "Thunder",
@@ -72716,7 +73819,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Thunderbolt",
           "Earthquake",
           "Return",
@@ -72747,6 +73850,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -72830,7 +73936,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Thunderbolt",
           "Earthquake",
           "Return",
@@ -72861,6 +73967,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         49
@@ -72944,7 +74053,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Thunderbolt",
           "Thunder",
           "Earthquake",
@@ -73025,11 +74134,11 @@ overrides = {
           ],
           [
             30,
-            "Sludge Bomb"
+            "Poison Jab"
           ],
           [
             30,
-            "Poison Jab"
+            "Sludge Bomb"
           ],
           [
             35,
@@ -73077,8 +74186,11 @@ overrides = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
-        39
+        25
       ]
     },
     "Eelektrik": {
@@ -73177,7 +74289,7 @@ overrides = {
           "Dragon Pulse",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -73210,6 +74322,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         44
@@ -73315,7 +74430,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -73442,7 +74557,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -73485,6 +74600,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         42
@@ -73576,7 +74694,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -73697,7 +74815,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -73736,6 +74854,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -73822,7 +74943,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -73861,6 +74982,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -73948,7 +75072,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -74079,7 +75203,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -74116,6 +75240,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -74217,7 +75344,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -74256,6 +75383,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -74358,7 +75488,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -74484,7 +75614,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -74519,6 +75649,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         37
@@ -74613,7 +75746,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -74726,7 +75859,7 @@ overrides = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -74839,7 +75972,7 @@ overrides = {
           "Toxic",
           "Venoshock",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -74864,6 +75997,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         45
@@ -74957,7 +76093,7 @@ overrides = {
           "Venoshock",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -75066,7 +76202,7 @@ overrides = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -75180,7 +76316,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -75224,6 +76360,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -75309,7 +76448,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -75443,7 +76582,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -75579,7 +76718,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -75620,6 +76759,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         43
@@ -75717,7 +76859,7 @@ overrides = {
           "Hidden Power",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -75845,7 +76987,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -75891,6 +77033,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         50
@@ -75981,7 +77126,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -76106,7 +77251,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -76227,7 +77372,7 @@ overrides = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -76263,6 +77408,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         45
@@ -76354,7 +77502,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -76467,7 +77615,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -76505,6 +77653,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         45
@@ -76591,7 +77742,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -76715,7 +77866,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -76831,7 +77982,7 @@ overrides = {
           "Hone Claws",
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Double Team",
@@ -76948,7 +78099,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -76980,6 +78131,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -77067,7 +78221,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -77099,6 +78253,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -77187,7 +78344,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -77316,7 +78473,7 @@ overrides = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -77350,6 +78507,9 @@ overrides = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         59
@@ -77440,7 +78600,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -77561,7 +78721,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Return",
@@ -77681,7 +78841,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Smack Down",
@@ -77809,7 +78969,7 @@ overrides = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -77941,7 +79101,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -78078,7 +79238,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -78218,7 +79378,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -78354,7 +79514,7 @@ overrides = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -78495,7 +79655,7 @@ overrides = {
           "Bulk Up",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Smack Down",
           "Earthquake",
@@ -78631,7 +79791,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -78755,7 +79915,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -78883,7 +80043,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -78929,6 +80089,14 @@ overrides = {
         "Serene Grace",
         "",
         ""
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Meloetta-Pirouette"
+      ],
+      "formeOrder": [
+        "Meloetta",
+        "Meloetta-Pirouette"
       ]
     },
     "Genesect": {
@@ -79038,7 +80206,7 @@ overrides = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Thunderbolt",
@@ -79164,7 +80332,7 @@ overrides = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -79211,7 +80379,9 @@ overrides = {
         "Pressure",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Deoxys",
+      "forme": "Attack"
     },
     "Deoxys-Defense": {
       "name": "Deoxys-Defense",
@@ -79309,7 +80479,7 @@ overrides = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -79356,7 +80526,9 @@ overrides = {
         "Pressure",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Deoxys",
+      "forme": "Defense"
     },
     "Deoxys-Speed": {
       "name": "Deoxys-Speed",
@@ -79446,7 +80618,7 @@ overrides = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -79493,7 +80665,9 @@ overrides = {
         "Pressure",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Deoxys",
+      "forme": "Speed"
     },
     "Wormadam-Sandy": {
       "name": "Wormadam-Sandy",
@@ -79560,7 +80734,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -79591,7 +80765,9 @@ overrides = {
         "Adaptability",
         "",
         "Overcoat"
-      ]
+      ],
+      "baseSpecies": "Wormadam",
+      "forme": "Sandy"
     },
     "Wormadam-Trash": {
       "name": "Wormadam-Trash",
@@ -79662,7 +80838,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -79689,7 +80865,9 @@ overrides = {
         "Overcoat",
         "",
         "Overcoat"
-      ]
+      ],
+      "baseSpecies": "Wormadam",
+      "forme": "Trash"
     },
     "Shaymin-Sky": {
       "name": "Shaymin-Sky",
@@ -79767,7 +80945,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -79791,7 +80969,9 @@ overrides = {
         "Serene Grace",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Shaymin",
+      "forme": "Sky"
     },
     "Giratina-Origin": {
       "name": "Giratina-Origin",
@@ -79877,7 +81057,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -79918,7 +81098,9 @@ overrides = {
         "Levitate",
         "",
         "Levitate"
-      ]
+      ],
+      "baseSpecies": "Giratina",
+      "forme": "Origin"
     },
     "Rotom-Heat": {
       "name": "Rotom-Heat",
@@ -79981,6 +81163,10 @@ overrides = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -79988,7 +81174,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -80008,14 +81194,17 @@ overrides = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Heat"
     },
     "Rotom-Wash": {
       "name": "Rotom-Wash",
@@ -80078,6 +81267,10 @@ overrides = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -80085,7 +81278,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -80105,14 +81298,17 @@ overrides = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
         "Drizzle"
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Wash"
     },
     "Rotom-Frost": {
       "name": "Rotom-Frost",
@@ -80175,6 +81371,10 @@ overrides = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -80182,7 +81382,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -80202,14 +81402,17 @@ overrides = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Frost"
     },
     "Rotom-Fan": {
       "name": "Rotom-Fan",
@@ -80272,6 +81475,10 @@ overrides = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -80279,7 +81486,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -80299,14 +81506,17 @@ overrides = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Motor Drive",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Fan"
     },
     "Rotom-Mow": {
       "name": "Rotom-Mow",
@@ -80369,6 +81579,10 @@ overrides = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -80376,7 +81590,7 @@ overrides = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -80396,14 +81610,17 @@ overrides = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Mow"
     },
     "Castform-Sunny": {
       "name": "Castform-Sunny",
@@ -80423,7 +81640,7 @@ overrides = {
         "df": 70,
         "sa": 110,
         "sd": 70,
-        "sp": 110
+        "sp": 120
       },
       "learnset_info": {
         "learnset": [
@@ -80483,7 +81700,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -80516,7 +81733,9 @@ overrides = {
         "Forecast",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Castform",
+      "forme": "Sunny"
     },
     "Castform-Rainy": {
       "name": "Castform-Rainy",
@@ -80536,7 +81755,7 @@ overrides = {
         "df": 70,
         "sa": 110,
         "sd": 70,
-        "sp": 110
+        "sp": 120
       },
       "learnset_info": {
         "learnset": [
@@ -80596,7 +81815,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -80629,7 +81848,9 @@ overrides = {
         "Forecast",
         "",
         "Drizzle"
-      ]
+      ],
+      "baseSpecies": "Castform",
+      "forme": "Rainy"
     },
     "Castform-Snowy": {
       "name": "Castform-Snowy",
@@ -80649,7 +81870,7 @@ overrides = {
         "df": 70,
         "sa": 110,
         "sd": 70,
-        "sp": 110
+        "sp": 120
       },
       "learnset_info": {
         "learnset": [
@@ -80709,7 +81930,7 @@ overrides = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -80742,7 +81963,9 @@ overrides = {
         "Forecast",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Castform",
+      "forme": "Snowy"
     },
     "Basculin-Blue-Striped": {
       "name": "Basculin-Blue-Striped",
@@ -80776,6 +81999,10 @@ overrides = {
           ],
           [
             1,
+            "Aqua Jet"
+          ],
+          [
+            1,
             "Water Gun"
           ],
           [
@@ -80784,15 +82011,23 @@ overrides = {
           ],
           [
             13,
-            "Scary Face"
+            "Screech"
           ],
           [
             21,
             "Snarl"
           ],
           [
+            21,
+            "Feint Attack"
+          ],
+          [
             25,
             "Aurora Beam"
+          ],
+          [
+            25,
+            "Ice Fang"
           ],
           [
             30,
@@ -80800,15 +82035,31 @@ overrides = {
           ],
           [
             36,
+            "Crunch"
+          ],
+          [
+            36,
             "Dark Pulse"
           ],
           [
-            40,
+            36,
             "Surf"
+          ],
+          [
+            40,
+            "Waterfall"
           ],
           [
             60,
             "Night Daze"
+          ],
+          [
+            60,
+            "Aqua Tail"
+          ],
+          [
+            70,
+            "Reversal"
           ],
           [
             70,
@@ -80820,7 +82071,7 @@ overrides = {
           "Hidden Power",
           "Taunt",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -80840,10 +82091,12 @@ overrides = {
         ]
       },
       "abs": [
-        "Mold Breaker",
         "Adaptability",
+        "",
         "Drizzle"
-      ]
+      ],
+      "baseSpecies": "Basculin",
+      "forme": "Blue-Striped"
     },
     "Darmanitan-Zen": {
       "name": "Darmanitan-Zen",
@@ -80956,7 +82209,7 @@ overrides = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Smack Down",
@@ -81000,7 +82253,9 @@ overrides = {
         "Sheer Force",
         "",
         "Zen Mode"
-      ]
+      ],
+      "baseSpecies": "Darmanitan",
+      "forme": "Zen"
     },
     "Meloetta-Pirouette": {
       "name": "Meloetta-Pirouette",
@@ -81094,7 +82349,7 @@ overrides = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -81140,7 +82395,9 @@ overrides = {
         "Serene Grace",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Meloetta",
+      "forme": "Pirouette"
     }
   },
   "moves": {
@@ -83816,7 +85073,7 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 15,
-      "acc": 90,
+      "acc": 100,
       "prio": 0,
       "name": "Swagger",
       "num": 206,
@@ -84922,7 +86179,7 @@ overrides = {
     "Luster Purge": {
       "t": "Psychic",
       "bp": 120,
-      "cat": "Special",
+      "cat": "Physical",
       "pp": 5,
       "acc": 100,
       "prio": 0,
@@ -85933,7 +87190,7 @@ overrides = {
       "bp": 0,
       "cat": "Status",
       "pp": 15,
-      "acc": 100,
+      "acc": 101,
       "prio": 0,
       "name": "Embargo",
       "num": 372,
@@ -87841,7 +89098,7 @@ overrides = {
     },
     "Frost Breath": {
       "t": "Ice",
-      "bp": 50,
+      "bp": 40,
       "cat": "Special",
       "pp": 10,
       "acc": 100,
@@ -87933,7 +89190,7 @@ overrides = {
     },
     "Heart Stamp": {
       "t": "Psychic",
-      "bp": 60,
+      "bp": 70,
       "cat": "Physical",
       "pp": 25,
       "acc": 100,
@@ -88906,6 +90163,17 @@ overrides = {
     "striatoncity": {
       "name": "Striaton City",
       "wilds": [
+        "Shroomish",
+        "Sunkern",
+        "Tangela",
+        "Deerling",
+        "Snover",
+        "Cherubi",
+        "Petilil",
+        "Cottonee",
+        "Maractus",
+        "Tropius",
+        "Audino",
         "Jellicent",
         "Corsola",
         "Empoleon",
@@ -88916,6 +90184,138 @@ overrides = {
         "Psyduck",
         "Remoraid"
       ],
+      "grass": {
+        "rates": [
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          5,
+          5,
+          4,
+          4,
+          1,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Shroomish",
+            "mn": 5
+          },
+          {
+            "s": "Sunkern",
+            "mn": 5
+          },
+          {
+            "s": "Tangela",
+            "mn": 5
+          },
+          {
+            "s": "Deerling",
+            "mn": 5
+          },
+          {
+            "s": "Snover",
+            "mn": 5
+          },
+          {
+            "s": "Cherubi",
+            "mn": 5
+          },
+          {
+            "s": "Petilil",
+            "mn": 5
+          },
+          {
+            "s": "Cottonee",
+            "mn": 5
+          },
+          {
+            "s": "Maractus",
+            "mn": 5
+          },
+          {
+            "s": "Tropius",
+            "mn": 5
+          },
+          {
+            "s": "Maractus",
+            "mn": 5
+          },
+          {
+            "s": "Tropius",
+            "mn": 5
+          }
+        ]
+      },
+      "grass_special": {
+        "rates": [
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          5,
+          5,
+          4,
+          4,
+          1,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          },
+          {
+            "s": "Audino",
+            "mn": 10
+          }
+        ]
+      },
       "surf": {
         "rates": [
           60,
@@ -89389,11 +90789,11 @@ overrides = {
         "Munna",
         "Ralts",
         "Drowzee",
-        "Spoink",
+        "Elgyem",
         "Chingling",
         "Abra",
         "Solosis",
-        "Gothita",
+        "Baltoy",
         "Exeggcute",
         "Spinda",
         "Mr Mime",
@@ -89438,7 +90838,7 @@ overrides = {
             "mn": 5
           },
           {
-            "s": "Spoink",
+            "s": "Elgyem",
             "mn": 5
           },
           {
@@ -89454,7 +90854,7 @@ overrides = {
             "mn": 5
           },
           {
-            "s": "Gothita",
+            "s": "Baltoy",
             "mn": 5
           },
           {
@@ -91527,6 +92927,17 @@ overrides = {
             "mn": 60
           }
         ]
+      },
+      "gift": {
+        "rates": [
+          100
+        ],
+        "encs": [
+          {
+            "s": "Blastoise",
+            "mn": 8
+          }
+        ]
       }
     },
     "reliccastle10": {
@@ -92385,10 +93796,14 @@ overrides = {
     "reliccastle20": {
       "name": "Relic Castle 20",
       "wilds": [
-        "Krokorok",
-        "Sandslash",
-        "Cofagrigus",
-        "Onix"
+        "Tyrogue",
+        "Mime Jr",
+        "Jigglypuff",
+        "Clefairy",
+        "Chingling",
+        "Roselia",
+        "Mantine",
+        "Munchlax"
       ],
       "grass": {
         "rates": [
@@ -92407,52 +93822,139 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Krokorok",
-            "mn": 47
+            "s": "Tyrogue",
+            "mn": 30
           },
           {
-            "s": "Sandslash",
-            "mn": 47
+            "s": "Mime Jr.",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 48
+            "s": "Jigglypuff",
+            "mn": 30
           },
           {
-            "s": "Onix",
-            "mn": 48
+            "s": "Clefairy",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 48
+            "s": "Chingling",
+            "mn": 30
           },
           {
-            "s": "Sandslash",
-            "mn": 49
+            "s": "Roselia",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 49
+            "s": "Mantine",
+            "mn": 30
           },
           {
-            "s": "Onix",
-            "mn": 49
+            "s": "Mantine",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 49
+            "s": "Munchlax",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 50
+            "s": "Munchlax",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 50
+            "s": "Munchlax",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 50
+            "s": "Munchlax",
+            "mn": 30
+          }
+        ]
+      }
+    },
+    "ruminationfield": {
+      "name": "Rumination Field",
+      "wilds": [
+        "Forretress",
+        "Slowpoke",
+        "Donphan",
+        "Burmy",
+        "Stunfisk"
+      ],
+      "grass": {
+        "rates": [
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          5,
+          5,
+          4,
+          4,
+          1,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Forretress",
+            "mn": 30
+          },
+          {
+            "s": "Slowpoke",
+            "mn": 40
+          },
+          {
+            "s": "Donphan",
+            "mn": 40
+          },
+          {
+            "s": "Donphan",
+            "mn": 40
+          },
+          {
+            "s": "Burmy",
+            "mn": 30
+          },
+          {
+            "s": "Burmy",
+            "mn": 30
+          },
+          {
+            "s": "Stunfisk",
+            "mn": 40
+          },
+          {
+            "s": "Stunfisk",
+            "mn": 40
+          },
+          {
+            "s": "Stunfisk",
+            "mn": 40
+          },
+          {
+            "s": "Stunfisk",
+            "mn": 40
+          },
+          {
+            "s": "Stunfisk",
+            "mn": 40
+          },
+          {
+            "s": "Stunfisk",
+            "mn": 40
+          }
+        ]
+      },
+      "static": {
+        "rates": [
+          100
+        ],
+        "encs": [
+          {
+            "s": "Virizion",
+            "mn": 42
           }
         ]
       }
@@ -92460,10 +93962,11 @@ overrides = {
     "reliccastle21": {
       "name": "Relic Castle 21",
       "wilds": [
-        "Krokorok",
-        "Sandslash",
-        "Cofagrigus",
-        "Onix"
+        "Forretress",
+        "Slowpoke",
+        "Donphan",
+        "Burmy",
+        "Stunfisk"
       ],
       "grass": {
         "rates": [
@@ -92482,52 +93985,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Krokorok",
-            "mn": 47
+            "s": "Forretress",
+            "mn": 30
           },
           {
-            "s": "Sandslash",
-            "mn": 47
+            "s": "Slowpoke",
+            "mn": 40
           },
           {
-            "s": "Cofagrigus",
-            "mn": 48
+            "s": "Donphan",
+            "mn": 40
           },
           {
-            "s": "Onix",
-            "mn": 48
+            "s": "Donphan",
+            "mn": 40
           },
           {
-            "s": "Krokorok",
-            "mn": 48
+            "s": "Burmy",
+            "mn": 30
           },
           {
-            "s": "Sandslash",
-            "mn": 49
+            "s": "Burmy",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 49
+            "s": "Stunfisk",
+            "mn": 40
           },
           {
-            "s": "Onix",
-            "mn": 49
+            "s": "Stunfisk",
+            "mn": 40
           },
           {
-            "s": "Krokorok",
-            "mn": 49
+            "s": "Stunfisk",
+            "mn": 40
           },
           {
-            "s": "Cofagrigus",
-            "mn": 50
+            "s": "Stunfisk",
+            "mn": 40
           },
           {
-            "s": "Krokorok",
-            "mn": 50
+            "s": "Stunfisk",
+            "mn": 40
           },
           {
-            "s": "Cofagrigus",
-            "mn": 50
+            "s": "Stunfisk",
+            "mn": 40
           }
         ]
       }
@@ -94540,8 +96043,8 @@ overrides = {
         ]
       }
     },
-    "notpinwheelforest2": {
-      "name": "Not Pinwheel Forest 2",
+    "notdragonspiraltower": {
+      "name": "Not Dragonspiral Tower",
       "wilds": [
         "Kingdra",
         "Druddigon",
@@ -94750,8 +96253,8 @@ overrides = {
         ]
       }
     },
-    "notdragonspiraltower": {
-      "name": "Not Dragonspiral Tower",
+    "notdragonspiraltower2": {
+      "name": "Not Dragonspiral Tower 2",
       "wilds": [
         "Kingdra",
         "Druddigon",
@@ -95332,6 +96835,17 @@ overrides = {
           {
             "s": "Metagross",
             "mn": 70
+          }
+        ]
+      },
+      "static": {
+        "rates": [
+          100
+        ],
+        "encs": [
+          {
+            "s": "Terrakion",
+            "mn": 42
           }
         ]
       }
@@ -97762,8 +99276,8 @@ overrides = {
         ]
       }
     },
-    "trialchamber": {
-      "name": "Trial Chamber",
+    "victoryroad16": {
+      "name": "Victory Road 16",
       "wilds": [
         "Durant",
         "Boldore",
@@ -97899,17 +99413,6 @@ overrides = {
           },
           {
             "s": "Excadrill",
-            "mn": 42
-          }
-        ]
-      },
-      "static": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Terrakion",
             "mn": 42
           }
         ]
@@ -98948,7 +100451,7 @@ overrides = {
     "p2laboratory": {
       "name": "P2 Laboratory",
       "wilds": [
-        "Scizor",
+        "Scyther",
         "Manectric",
         "Ampharos",
         "Mawile",
@@ -98979,7 +100482,7 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Scizor",
+            "s": "Scyther",
             "mn": 40
           },
           {
@@ -99466,13 +100969,13 @@ overrides = {
         "Jumpluff",
         "Staraptor",
         "Gliscor",
-        "Swellow",
+        "Pidgeot",
         "Altaria",
         "Pelipper",
         "Delibird",
         "Drifblim",
-        "Emolga",
-        "Pidgeot"
+        "Swellow",
+        "Emolga"
       ],
       "grass_special": {
         "rates": [
@@ -99511,7 +101014,7 @@ overrides = {
             "mn": 35
           },
           {
-            "s": "Swellow",
+            "s": "Pidgeot",
             "mn": 35
           },
           {
@@ -99531,11 +101034,11 @@ overrides = {
             "mn": 35
           },
           {
-            "s": "Emolga",
+            "s": "Swellow",
             "mn": 35
           },
           {
-            "s": "Pidgeot",
+            "s": "Emolga",
             "mn": 35
           }
         ]
@@ -100343,13 +101846,13 @@ overrides = {
     "route2": {
       "name": "Route 2",
       "wilds": [
-        "Pidgey",
-        "Hoothoot",
-        "Taillow",
-        "Starly",
         "Pidove",
+        "Wingull",
         "Spearow",
-        "Woobat",
+        "Taillow",
+        "Hoothoot",
+        "Starly",
+        "Doduo",
         "Swablu",
         "Natu",
         "Hoppip",
@@ -100376,23 +101879,11 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Pidgey",
-            "mn": 5
-          },
-          {
-            "s": "Hoothoot",
-            "mn": 5
-          },
-          {
-            "s": "Taillow",
-            "mn": 5
-          },
-          {
-            "s": "Starly",
-            "mn": 5
-          },
-          {
             "s": "Pidove",
+            "mn": 5
+          },
+          {
+            "s": "Wingull",
             "mn": 5
           },
           {
@@ -100400,7 +101891,19 @@ overrides = {
             "mn": 5
           },
           {
-            "s": "Woobat",
+            "s": "Taillow",
+            "mn": 5
+          },
+          {
+            "s": "Hoothoot",
+            "mn": 5
+          },
+          {
+            "s": "Starly",
+            "mn": 5
+          },
+          {
+            "s": "Doduo",
             "mn": 5
           },
           {
@@ -100871,8 +102374,6 @@ overrides = {
         "Solrock",
         "Rhyhorn",
         "Sableye",
-        "Diglett",
-        "Drilbur",
         "Relicanth",
         "Cloyster",
         "Wooper",
@@ -100977,35 +102478,35 @@ overrides = {
             "mn": 10
           },
           {
-            "s": "Diglett",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Diglett",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Diglett",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Diglett",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Drilbur",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Drilbur",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Drilbur",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Drilbur",
+            "s": "Sandshrew",
             "mn": 10
           }
         ]
@@ -101150,8 +102651,6 @@ overrides = {
         "Solrock",
         "Rhyhorn",
         "Sableye",
-        "Diglett",
-        "Drilbur",
         "Relicanth",
         "Cloyster",
         "Wooper",
@@ -101256,35 +102755,35 @@ overrides = {
             "mn": 10
           },
           {
-            "s": "Diglett",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Diglett",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Diglett",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Diglett",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Drilbur",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Drilbur",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Drilbur",
+            "s": "Sandshrew",
             "mn": 10
           },
           {
-            "s": "Drilbur",
+            "s": "Sandshrew",
             "mn": 10
           }
         ]
@@ -102324,6 +103823,17 @@ overrides = {
           {
             "s": "Aggron",
             "mn": 50
+          }
+        ]
+      },
+      "gift": {
+        "rates": [
+          100
+        ],
+        "encs": [
+          {
+            "s": "Rotom",
+            "mn": 1
           }
         ]
       }
@@ -106730,7 +108240,7 @@ overrides = {
         "Darumaka",
         "Larvesta",
         "Audino",
-        "Sunflora"
+        "Heatmor"
       ],
       "grass": {
         "rates": [
@@ -106893,39 +108403,39 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Sunflora",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Sunflora",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Sunflora",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Sunflora",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Sunflora",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Sunflora",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Sunflora",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Sunflora",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Sunflora",
+            "s": "Heatmor",
             "mn": 30
           }
         ]
@@ -107955,21 +109465,6 @@ overrides = {
         ]
       }
     },
-    "ruminationfield": {
-      "name": "Rumination Field",
-      "wilds": [],
-      "static": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Virizion",
-            "mn": 42
-          }
-        ]
-      }
-    },
     "libertygarden": {
       "name": "Liberty Garden",
       "wilds": [],
@@ -108026,21 +109521,6 @@ overrides = {
           {
             "s": "Unown",
             "mn": 50
-          }
-        ]
-      }
-    },
-    "nuvematown": {
-      "name": "Nuvema Town",
-      "wilds": [],
-      "gift": {
-        "rates": [
-          100
-        ],
-        "encs": [
-          {
-            "s": "Oshawott",
-            "mn": 5
           }
         ]
       }
@@ -108602,10 +110082,7 @@ overrides = {
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
-      "location": "Wild held by Luvdisc",
-      "wilds": [
-        "Luvdisc"
-      ]
+      "location": ""
     },
     "honey": {
       "name": "Honey",
@@ -108898,14 +110375,15 @@ overrides = {
     "leppaberry": {
       "name": "Leppa Berry",
       "desc": "If held by a Pokémon, it restores a move's PP by 10.",
-      "location": "Wild held by Cleffa, Wild held by Mime Jr., Reward from Pkmn Ranger Thalia - Route 11, Reward from Pkmn Ranger Crofton - Route 11",
+      "location": "Wild held by Cleffa, Wild held by Mime Jr., Wild held by Sandile, Reward from Pkmn Ranger Thalia - Route 11, Reward from Pkmn Ranger Crofton - Route 11",
       "rewards": [
         "Pkmn Ranger Thalia - Route 11",
         "Pkmn Ranger Crofton - Route 11"
       ],
       "wilds": [
         "Cleffa",
-        "Mime Jr."
+        "Mime Jr.",
+        "Sandile"
       ]
     },
     "oranberry": {
@@ -110095,7 +111573,7 @@ overrides = {
     },
     "tm17": {
       "name": "TM17",
-      "desc": "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
+      "desc": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitate.",
       "location": ""
     },
     "tm18": {
