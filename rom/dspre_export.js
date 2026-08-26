@@ -5086,6 +5086,135 @@ function parseLearnset(u8, { expanded = false } = {}) {
   return list;
 }
 
+function readExpandedLearnsetPair(u8, pairIndex) {
+  const off = pairIndex * 4;
+  return {
+    move: u8[off] | (u8[off + 1] << 8),
+    level: u8[off + 2] | (u8[off + 3] << 8),
+  };
+}
+
+function parsePackedLearnsetBlock(u8, blockIndex, blockPairs) {
+  const list = [];
+  const basePair = blockIndex * blockPairs;
+  for (let j = 0; j < blockPairs; j += 1) {
+    const pairIndex = basePair + j;
+    if ((pairIndex + 1) * 4 > u8.length) break;
+    const { move, level } = readExpandedLearnsetPair(u8, pairIndex);
+    if (move === 0xFFFF || level === 0xFFFF) break;
+    if (move === 0) continue;
+    list.push({ level, move });
+  }
+  return list;
+}
+
+function isPlausiblePackedLearnsetLayout(u8, blockPairs, blockCount, monCount) {
+  if (!Number.isInteger(blockPairs) || blockPairs <= 0) return false;
+  if (!Number.isInteger(blockCount) || blockCount < monCount) return false;
+
+  let populatedPairs = 0;
+  const sampleBlocks = Math.min(monCount, 64);
+  for (let i = 0; i < sampleBlocks; i += 1) {
+    let terminated = false;
+    for (let j = 0; j < blockPairs; j += 1) {
+      const { move, level } = readExpandedLearnsetPair(u8, i * blockPairs + j);
+      if (move === 0xFFFF || level === 0xFFFF) {
+        terminated = true;
+        continue;
+      }
+      if (move === 0) continue;
+      if (terminated || level > 100) return false;
+      populatedPairs += 1;
+    }
+  }
+  return populatedPairs > 0;
+}
+
+function inferPackedHgEngineLearnsetLayout(u8, monCount) {
+  const pairCount = Math.floor(u8.length / 4);
+  if (!Number.isInteger(monCount) || monCount <= 0 || pairCount <= 0) return null;
+
+  if (pairCount % monCount === 0) {
+    return { blockPairs: pairCount / monCount, blockCount: monCount, reservedCapacity: false };
+  }
+  if (pairCount % (monCount + 1) === 0) {
+    return { blockPairs: pairCount / (monCount + 1), blockCount: monCount + 1, reservedCapacity: false };
+  }
+
+  // Packed HG-Engine tables can be allocated for more species than the
+  // personal NARC currently contains. Species 0 is empty, so the first real
+  // move pair also marks the fixed record width.
+  let firstDataPair = 0;
+  while (firstDataPair < pairCount) {
+    const { move, level } = readExpandedLearnsetPair(u8, firstDataPair);
+    if (move !== 0 && move !== 0xFFFF && level !== 0xFFFF) break;
+    firstDataPair += 1;
+  }
+  if (firstDataPair <= 0 || pairCount % firstDataPair !== 0) return null;
+
+  const blockCount = pairCount / firstDataPair;
+  if (!isPlausiblePackedLearnsetLayout(u8, firstDataPair, blockCount, monCount)) return null;
+  return { blockPairs: firstDataPair, blockCount, reservedCapacity: blockCount > monCount };
+}
+
+export function parsePackedHgEngineLearnsets(u8, monCount, { log } = {}) {
+  const pairCount = Math.floor(u8.length / 4);
+  const layout = inferPackedHgEngineLearnsetLayout(u8, monCount);
+  const learnsets = [];
+
+  if (layout) {
+    const { blockPairs, blockCount, reservedCapacity } = layout;
+    if (log) {
+      if (reservedCapacity) {
+        log(`HG-Engine packed learnsets detected with reserved capacity (blockPairs=${blockPairs}, blocks=${blockCount}, mons=${monCount}).`);
+      } else {
+        log(`HG-Engine packed learnsets detected (blockPairs=${blockPairs}, blocks=${blockCount}).`);
+      }
+    }
+
+    const allBlocks = [];
+    for (let i = 0; i < blockCount; i += 1) {
+      allBlocks.push(parsePackedLearnsetBlock(u8, i, blockPairs));
+    }
+
+    if (allBlocks.length === monCount + 1) {
+      const firstEmpty = allBlocks[0].length === 0;
+      const lastEmpty = allBlocks[allBlocks.length - 1].length === 0;
+      if (firstEmpty && !lastEmpty) {
+        allBlocks.shift();
+        if (log) log("HG-Engine packed learnsets: dropped empty leading block.");
+      } else if (lastEmpty && !firstEmpty) {
+        allBlocks.pop();
+        if (log) log("HG-Engine packed learnsets: dropped empty trailing block.");
+      }
+    }
+
+    learnsets.push(...allBlocks.slice(0, monCount));
+  } else {
+    if (log) {
+      log(`[warn] HG-Engine packed learnsets: unable to infer block size (pairCount=${pairCount}, mons=${monCount}). Falling back to terminator scan.`);
+    }
+    const r = new Reader(u8);
+    for (let i = 0; i < monCount && r.off + 4 <= u8.length; i += 1) {
+      const list = [];
+      while (r.off + 4 <= u8.length) {
+        const move = r.u16();
+        const level = r.u16();
+        if (move === 0xFFFF || level === 0xFFFF) break;
+        if (move === 0) continue;
+        list.push({ level, move });
+      }
+      learnsets.push(list);
+    }
+  }
+
+  if (learnsets.length < monCount) {
+    if (log) log(`[warn] HG-Engine packed learnsets ended early (${learnsets.length}/${monCount}).`);
+    while (learnsets.length < monCount) learnsets.push([]);
+  }
+  return learnsets;
+}
+
 function learnsetAtLevel(list, level) {
   const moves = [];
   for (const entry of list) {
@@ -6748,72 +6877,9 @@ async function collectDspreData(editor, { log }) {
   }
   if (expandedHgssLearnsets && learnsetNarc.fileCount === 1) {
     const { subfileBuffer } = await editor.getNarcSubfile(learnsetNarc.handle, 0);
-    const byteLen = subfileBuffer?.byteLength ?? 0;
-    // log(`HG-Engine learnset subfile[0] size=${byteLen} (packed mode)`);
     const u8 = new Uint8Array(subfileBuffer);
-    const pairCount = Math.floor(u8.length / 4);
     const monCount = personalEntries.length;
-    let blockPairs = null;
-    let blockCount = null;
-    if (pairCount % monCount === 0) {
-      blockPairs = pairCount / monCount;
-      blockCount = monCount;
-    } else if (pairCount % (monCount + 1) === 0) {
-      blockPairs = pairCount / (monCount + 1);
-      blockCount = monCount + 1;
-    }
-
-    if (blockPairs) {
-      log(`HG-Engine packed learnsets detected (blockPairs=${blockPairs}, blocks=${blockCount}).`);
-      const allBlocks = [];
-      for (let i = 0; i < blockCount; i += 1) {
-        const list = [];
-        const base = i * blockPairs * 4;
-        for (let j = 0; j < blockPairs; j += 1) {
-          const off = base + j * 4;
-          if (off + 4 > u8.length) break;
-          const move = u8[off] | (u8[off + 1] << 8);
-          const level = u8[off + 2] | (u8[off + 3] << 8);
-          if (move === 0xFFFF || level === 0xFFFF) break;
-          if (move === 0) continue;
-          list.push({ level, move });
-        }
-        allBlocks.push(list);
-      }
-
-      if (allBlocks.length === monCount + 1) {
-        const firstEmpty = allBlocks[0].length === 0;
-        const lastEmpty = allBlocks[allBlocks.length - 1].length === 0;
-        if (firstEmpty && !lastEmpty) {
-          allBlocks.shift();
-          log("HG-Engine packed learnsets: dropped empty leading block.");
-        } else if (lastEmpty && !firstEmpty) {
-          allBlocks.pop();
-          log("HG-Engine packed learnsets: dropped empty trailing block.");
-        }
-      }
-
-      learnsets.push(...allBlocks.slice(0, monCount));
-    } else {
-      log(`[warn] HG-Engine packed learnsets: unable to infer block size (pairCount=${pairCount}, mons=${monCount}). Falling back to terminator scan.`);
-      const r = new Reader(u8);
-      for (let i = 0; i < monCount && r.off + 4 <= u8.length; i += 1) {
-        const list = [];
-        while (r.off + 4 <= u8.length) {
-          const move = r.u16();
-          const level = r.u16();
-          if (move === 0xFFFF || level === 0xFFFF) break;
-          if (move === 0) continue;
-          list.push({ level, move });
-        }
-        learnsets.push(list);
-      }
-    }
-
-    if (learnsets.length < monCount) {
-      log(`[warn] HG-Engine packed learnsets ended early (${learnsets.length}/${monCount}).`);
-      while (learnsets.length < monCount) learnsets.push([]);
-    }
+    learnsets.push(...parsePackedHgEngineLearnsets(u8, monCount, { log }));
   } else {
     for (let i = 0; i < learnsetNarc.fileCount; i += 1) {
       const { subfileBuffer } = await editor.getNarcSubfile(learnsetNarc.handle, i);
