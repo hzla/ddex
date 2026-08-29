@@ -491,7 +491,10 @@ If `BattleMovedex[moveId]` does not exist, the merger synthesizes a new move and
 - `new`
 - `flags`
 - `multihit`
+- `critRatio`
 - `recoil`
+- `drain`
+- `heal`
 - `sf`
 - `tar`
 - `willCrit`
@@ -501,7 +504,9 @@ If `BattleMovedex[moveId]` does not exist, the merger synthesizes a new move and
 Important nuance:
 
 - some of these appear in shipped data
-- `overrideMoveData(...)` does not copy all of them into existing base moves
+- `overrideMoveData(...)` copies `critRatio`, `recoil`, `drain`, `heal`, and `willCrit` when present; omission preserves the base move value
+- fraction fields use Showdown-style `[numerator, denominator]` values (for example, `[1, 4]` is 25%)
+- `overrideMoveData(...)` does not copy every other optional field into existing base moves
 - the move page can still use `oldDesc` from raw override data for old/new diff rendering
 
 ## Abilities

@@ -117629,7 +117629,8 @@ overrides = {
       "name": "Karate Chop",
       "num": 1,
       "desc": "The target is attacked with a sharp chop. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Double Slap": {
       "t": "Fairy",
@@ -117695,7 +117696,8 @@ overrides = {
       "oldDesc": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
       "desc": "Numerous coins are hurled at the target. This attack always results in a critical hit.",
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Fire Punch": {
       "t": "Fire",
@@ -117830,7 +117832,8 @@ overrides = {
       "name": "Cut",
       "num": 14,
       "desc": "The target is cut with a scythe or a claw. It can also be used to cut down thin trees.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Gust": {
       "t": "Flying",
@@ -118039,7 +118042,11 @@ overrides = {
       "oldDesc": null,
       "new": true,
       "desc": "The user bears into the target with their gaping maw. Heals the user for damage dealt.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Fire Lash": {
       "t": "Fire",
@@ -118122,8 +118129,8 @@ overrides = {
       "e_id": 0,
       "tar": "allAdjacentFoes",
       "recoil": [
-        10,
-        100
+        1,
+        10
       ]
     },
     "Thrash": {
@@ -118351,7 +118358,11 @@ overrides = {
       "new": true,
       "desc": "The user attacks everything around it. The user's HP is restored by half the damage taken by those hit.",
       "e_id": 3,
-      "tar": "allAdjacent"
+      "tar": "allAdjacent",
+      "drain": [
+        1,
+        2
+      ]
     },
     "Ember": {
       "t": "Fire",
@@ -118508,8 +118519,8 @@ overrides = {
       "desc": "The target is attacked with a powerful beam. Cannot be used twice in a row.",
       "e_id": 0,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Peck": {
@@ -118522,7 +118533,8 @@ overrides = {
       "name": "Peck",
       "num": 63,
       "desc": "The target is jabbed with a sharply pointed beak or horn.",
-      "e_id": 0
+      "e_id": 0,
+      "critRatio": 2
     },
     "Drill Peck": {
       "t": "Flying",
@@ -118551,8 +118563,8 @@ overrides = {
       "desc": "The user grabs the target and recklessly dives for the ground. It also hurts the user slightly.",
       "e_id": 48,
       "recoil": [
-        10,
-        100
+        1,
+        4
       ]
     },
     "Low Kick": {
@@ -118614,7 +118626,11 @@ overrides = {
       "name": "Absorb",
       "num": 70,
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Mega Drain": {
       "t": "Grass",
@@ -118626,7 +118642,11 @@ overrides = {
       "name": "Mega Drain",
       "num": 71,
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Leech Seed": {
       "t": "Grass",
@@ -118665,7 +118685,8 @@ overrides = {
       "num": 74,
       "desc": "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Solar Beam": {
       "t": "Grass",
@@ -119004,7 +119025,11 @@ overrides = {
       "name": "Night Shade",
       "num": 100,
       "desc": "The user makes the target see a frightening mirage. It inflicts damage matching the user's level.",
-      "e_id": 87
+      "e_id": 87,
+      "drain": [
+        1,
+        1
+      ]
     },
     "Psychic Noise": {
       "t": "Psychic",
@@ -119065,7 +119090,11 @@ overrides = {
       "name": "Recover",
       "num": 104,
       "desc": "Restoring its own cells, the user restores its own HP by half of its max HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Harden": {
       "t": "Rock",
@@ -119470,7 +119499,11 @@ overrides = {
       "name": "Soft-Boiled",
       "num": 134,
       "desc": "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "High Jump Kick": {
       "t": "Fighting",
@@ -119509,7 +119542,11 @@ overrides = {
       "oldDesc": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user's HP.",
       "desc": "Consume the enemy team's dreams, healing themselves with damage dealt. Deals huge to sleeping targets, waking them up.",
       "e_id": 3,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "drain": [
+        1,
+        2
+      ]
     },
     "Poison Gas": {
       "t": "Poison",
@@ -119552,7 +119589,11 @@ overrides = {
       "name": "Leech Life",
       "num": 140,
       "desc": "The user drains the target's blood. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Lovely Kiss": {
       "t": "Fairy",
@@ -119708,7 +119749,8 @@ overrides = {
       "num": 151,
       "oldDesc": "The target is hammered with a large pincer. Critical hits land more easily.",
       "desc": "The target is hammered with a large pincer. This may also lower the target's Defense stat.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Explosion": {
       "t": "Normal",
@@ -119739,7 +119781,8 @@ overrides = {
       "multihit": [
         2,
         5
-      ]
+      ],
+      "critRatio": 2
     },
     "Bonemerang": {
       "t": "Ground",
@@ -119864,7 +119907,8 @@ overrides = {
       "oldDesc": "The target is attacked with a slash of claws or blades. Critical hits land more easily.",
       "desc": "The target is attacked with a slash of claws or blades. Always lands a critical hit.",
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Substitute": {
       "t": "Normal",
@@ -120054,7 +120098,8 @@ overrides = {
       "name": "Aeroblast",
       "num": 176,
       "desc": "A vortex of air is shot at the target to inflict damage. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Cotton Spore": {
       "t": "Grass",
@@ -120178,7 +120223,11 @@ overrides = {
       "oldDesc": null,
       "new": true,
       "desc": "The user steals the target's energy with a kiss, healing themselves with damage dealt.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Belly Drum": {
       "t": "Normal",
@@ -120232,7 +120281,8 @@ overrides = {
       "desc": "The user attacks by spraying ink. This attack always results in a critical hit.",
       "e_id": 288,
       "willCrit": true,
-      "sf": true
+      "sf": true,
+      "critRatio": 7
     },
     "Spikes": {
       "t": "Ground",
@@ -120259,8 +120309,8 @@ overrides = {
       "desc": "The user fires an electric blast like a cannon. This attack damages the user.",
       "e_id": 269,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Electro Shot": {
@@ -120405,7 +120455,11 @@ overrides = {
       "name": "Giga Drain",
       "num": 201,
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Endure": {
       "t": "Normal",
@@ -120482,7 +120536,11 @@ overrides = {
       "name": "Milk Drink",
       "num": 207,
       "desc": "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Spark": {
       "t": "Electric",
@@ -120828,7 +120886,11 @@ overrides = {
       "name": "Morning Sun",
       "num": 233,
       "desc": "The user restores its own HP. The amount of HP regained varies with the weather.",
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Synthesis": {
       "t": "Grass",
@@ -120840,7 +120902,11 @@ overrides = {
       "name": "Synthesis",
       "num": 234,
       "desc": "The user restores its own HP. The amount of HP regained varies with the weather.",
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Moonlight": {
       "t": "Fairy",
@@ -120852,7 +120918,11 @@ overrides = {
       "name": "Moonlight",
       "num": 235,
       "desc": "The user restores its own HP. The amount of HP regained varies with the weather.",
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hidden Power": {
       "t": "Normal",
@@ -120878,7 +120948,8 @@ overrides = {
       "oldDesc": "The user delivers a double chop with its forearms crossed. Critical hits land more easily.",
       "desc": "The user delivers a double chop with its forearms crossed. Hits all enemies. Critical hits land more easily.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Twister": {
       "t": "Dragon",
@@ -121119,7 +121190,11 @@ overrides = {
       "num": 255,
       "oldDesc": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
       "desc": "The user swallows a held berry, restoring half its max HP, curing status, and activating the effect of the berry. ",
-      "e_id": 162
+      "e_id": 162,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Heat Wave": {
       "t": "Fire",
@@ -121162,7 +121237,8 @@ overrides = {
       "sf": true,
       "flags": {
         "sound": true
-      }
+      },
+      "critRatio": 2
     },
     "Flatter": {
       "t": "Dark",
@@ -121281,7 +121357,11 @@ overrides = {
       "num": 267,
       "oldDesc": "The user boosts the power of the Electric move it uses on the next turn. It also raises the user's Sp. Def stat.",
       "desc": "The user boosts the power of the Electric move it uses on the next turn. It also heals the user slightly.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Taunt": {
       "t": "Dark",
@@ -121417,7 +121497,11 @@ overrides = {
       "num": 277,
       "oldDesc": "The user recycles a held item that has been used in battle so it can be used again.",
       "desc": "The user scrounges for scraps, healing slightly and recovering a held item used in battle so it can be used again.",
-      "e_id": 184
+      "e_id": 184,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Revenge": {
       "t": "Fighting",
@@ -121534,7 +121618,11 @@ overrides = {
       "num": 286,
       "oldDesc": "The user rests to cure itself of a poisoning, burn, or paralysis.",
       "desc": "The user rests to heal slightly and cure itself of a poisoning, burn, or paralysis.",
-      "e_id": 193
+      "e_id": 193,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Grudge": {
       "t": "Ghost",
@@ -121647,7 +121735,8 @@ overrides = {
       "desc": "The user strikes opposing foes by emitting a dazzling flash.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
-      "sf": true
+      "sf": true,
+      "critRatio": 2
     },
     "Moonblast": {
       "t": "Fairy",
@@ -121703,7 +121792,8 @@ overrides = {
       "num": 298,
       "desc": "The user launches a kick that lands a critical hit more easily. It may also leave the target with a burn.",
       "e_id": 200,
-      "sf": true
+      "sf": true,
+      "critRatio": 2
     },
     "Esper Wing": {
       "t": "Psychic",
@@ -121759,7 +121849,11 @@ overrides = {
       "name": "Slack Off",
       "num": 302,
       "desc": "The user slacks off, restoring its own HP by up to half of its maximum HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hyper Voice": {
       "t": "Normal",
@@ -121820,7 +121914,7 @@ overrides = {
       "e_id": 198,
       "tar": "allAdjacentFoes",
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -121838,7 +121932,7 @@ overrides = {
       "e_id": 198,
       "tar": "allAdjacentFoes",
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -121923,7 +122017,8 @@ overrides = {
       "desc": "The user launches razor-like wind to slash the opposing team. Always critically hits.",
       "e_id": 288,
       "tar": "allAdjacentFoes",
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Overheat": {
       "t": "Fire",
@@ -122259,7 +122354,7 @@ overrides = {
       "e_id": 198,
       "tar": "allAdjacentFoes",
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -122313,7 +122408,8 @@ overrides = {
       "num": 341,
       "desc": "The user hits the target with its tail. It may also poison the target. Critical hits land more easily.",
       "e_id": 209,
-      "sf": true
+      "sf": true,
+      "critRatio": 2
     },
     "Covet": {
       "t": "Fairy",
@@ -122376,7 +122472,8 @@ overrides = {
       ],
       "flags": {
         "punch": true
-      }
+      },
+      "critRatio": 7
     },
     "Calm Mind": {
       "t": "Psychic",
@@ -122401,7 +122498,8 @@ overrides = {
       "name": "Leaf Blade",
       "num": 347,
       "desc": "The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Dragon Dance": {
       "t": "Dragon",
@@ -122482,7 +122580,7 @@ overrides = {
       "desc": "The user unleashes true psychic power. This attack damages the user. ",
       "e_id": 269,
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -122496,7 +122594,11 @@ overrides = {
       "name": "Roost",
       "num": 354,
       "desc": "The user lands and rests its body. It restores the user's HP by up to half of its max HP.",
-      "e_id": 214
+      "e_id": 214,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Gravity": {
       "t": "Psychic",
@@ -123002,7 +123104,11 @@ overrides = {
       "num": 391,
       "oldDesc": "The user envelops itself in a veil made of water. It regains some HP on every turn.",
       "desc": "The user envelops itself in a veil made of water. Heals the user slightly, and continue to regain some HP on each turn. ",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Magnet Rise": {
       "t": "Electric",
@@ -123108,7 +123214,8 @@ overrides = {
       "oldDesc": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
       "desc": "The user slashes the target the instant an opportunity arises. This attack always results in a critical hit.",
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Aqua Tail": {
       "t": "Water",
@@ -123122,7 +123229,8 @@ overrides = {
       "oldDesc": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
       "desc": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm. Hits all enemies.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Seed Bomb": {
       "t": "Grass",
@@ -123230,7 +123338,11 @@ overrides = {
       "e_id": 3,
       "flags": {
         "punch": true
-      }
+      },
+      "drain": [
+        1,
+        2
+      ]
     },
     "Vacuum Wave": {
       "t": "Fighting",
@@ -123387,7 +123499,8 @@ overrides = {
       "num": 420,
       "oldDesc": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
       "desc": "The user slashes the target with a sharp claw made from shadows. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 4
     },
     "Thunder Fang": {
       "t": "Electric",
@@ -123464,7 +123577,8 @@ overrides = {
       "num": 426,
       "oldDesc": "The user tears at the target with blades formed by psychic power. Critical hits land more easily.",
       "desc": "The user tears at the target with blades formed by psychic power. Crit hits land more easily and this attack cannot miss.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Zen Headbutt": {
       "t": "Psychic",
@@ -123628,8 +123742,8 @@ overrides = {
       "desc": "The user launches a huge boulder at the target to attack. This attack damages the user.",
       "e_id": 269,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Cross Poison": {
@@ -123645,7 +123759,8 @@ overrides = {
       "desc": "A slashing attack with a poisonous blade that may also leave the target poisoned. Always critically hits.",
       "e_id": 288,
       "willCrit": true,
-      "sf": true
+      "sf": true,
+      "critRatio": 7
     },
     "Gunk Shot": {
       "t": "Poison",
@@ -123696,7 +123811,8 @@ overrides = {
       "oldDesc": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
       "desc": "The user stabs all foes with sharpened stones from below. It has a high critical-hit ratio.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Captivate": {
       "t": "Fairy",
@@ -123834,7 +123950,8 @@ overrides = {
       "oldDesc": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
       "desc": "The user calls out its underlings to pummel the enemy team. Critical hits land more easily.",
       "e_id": 0,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Defend Order": {
       "t": "Bug",
@@ -123859,7 +123976,11 @@ overrides = {
       "name": "Heal Order",
       "num": 455,
       "desc": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Head Smash": {
       "t": "Rock",
@@ -123908,8 +124029,8 @@ overrides = {
       "desc": "Drawing power from the stars, the user unleashes a powerful supernova of light. This attack damages the user.",
       "e_id": 269,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Steel Beam": {
@@ -123926,8 +124047,8 @@ overrides = {
       "desc": "The user fires a beam of steel that it collected from its entire body. This attack damages the user.",
       "e_id": 198,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Pollen Puff": {
@@ -124204,7 +124325,8 @@ overrides = {
       "num": 479,
       "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Flame Burst": {
       "t": "Fire",
@@ -124535,7 +124657,11 @@ overrides = {
       "name": "Heal Pulse",
       "num": 504,
       "desc": "The user emits a healing pulse which restores the target's HP by up to half of its max HP.",
-      "e_id": 309
+      "e_id": 309,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hex": {
       "t": "Ghost",
@@ -124777,7 +124903,8 @@ overrides = {
       "num": 523,
       "desc": "The user blows a cold breath on the target. This attack always results in a critical hit.",
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Dragon Tail": {
       "t": "Dragon",
@@ -124832,8 +124959,8 @@ overrides = {
       "e_id": 48,
       "tar": "allAdjacentFoes",
       "recoil": [
-        25,
-        100
+        1,
+        4
       ]
     },
     "Drill Run": {
@@ -124846,7 +124973,8 @@ overrides = {
       "name": "Drill Run",
       "num": 528,
       "desc": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Dual Chop": {
       "t": "Dragon",
@@ -124874,7 +125002,8 @@ overrides = {
       "name": "Heart Stamp",
       "num": 530,
       "desc": "The user unleashes a vicious blow after its cute act makes the target less wary. It may also make the target flinch.",
-      "e_id": 31
+      "e_id": 31,
+      "critRatio": 2
     },
     "Horn Leech": {
       "t": "Grass",
@@ -124886,7 +125015,11 @@ overrides = {
       "name": "Horn Leech",
       "num": 531,
       "desc": "The user drains the target's energy with its horns. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Sacred Sword": {
       "t": "Fighting",
@@ -124981,7 +125114,7 @@ overrides = {
       "desc": "The user lets loose a pitch-black shock wave at its target. This attack damages the user and may lower accuracy.",
       "e_id": 269,
       "recoil": [
-        50,
+        33,
         100
       ]
     },

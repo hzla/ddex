@@ -21,6 +21,24 @@ function getMoveField(move, overrideData, fieldName) {
   return null;
 }
 
+function formatMoveFractionPercent(value) {
+  if (!Array.isArray(value) || value.length < 2) return null;
+
+  var numerator = Number(value[0]);
+  var denominator = Number(value[1]);
+  if (
+    !Number.isFinite(numerator) ||
+    !Number.isFinite(denominator) ||
+    denominator === 0
+  ) {
+    return null;
+  }
+
+  var percent = (numerator / denominator) * 100;
+  if (!Number.isFinite(percent) || percent <= 0) return null;
+  return String(Math.round(percent * 100) / 100) + "%";
+}
+
 var PokedexMovePanel = PokedexResultPanel.extend({
   applyDetailLayout: function () {
     if (window.DDEX_DETAIL_LAYOUT) {
@@ -254,7 +272,37 @@ var PokedexMovePanel = PokedexResultPanel.extend({
         "%</p>";
     }
 
-    
+    var critRatio = Number(getMoveField(move, overrideData, "critRatio"));
+    var willCrit = getMoveField(move, overrideData, "willCrit") === true;
+    if (willCrit || (Number.isFinite(critRatio) && critRatio > 1)) {
+      var critRateText = willCrit
+        ? Number.isFinite(critRatio) && critRatio > 1
+          ? String(critRatio) + " (always)"
+          : "Always"
+        : String(critRatio);
+      buf +=
+        "<p><strong>Crit Ratio</strong> " +
+        Dex.escapeHTML(critRateText) +
+        "</p>";
+    }
+
+    [
+      ["Recoil", "recoil"],
+      ["Drain", "drain"],
+      ["Heal", "heal"],
+    ].forEach(function (field) {
+      var percentText = formatMoveFractionPercent(
+        getMoveField(move, overrideData, field[1]),
+      );
+      if (percentText !== null) {
+        buf +=
+          "<p><strong>" +
+          field[0] +
+          "</strong> " +
+          Dex.escapeHTML(percentText) +
+          "</p>";
+      }
+    });
 
 
 

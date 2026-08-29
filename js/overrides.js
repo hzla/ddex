@@ -2674,6 +2674,16 @@ function overrideItemData(itemOverrides) {
 	}
 }
 
+function copyOptionalMoveOverrideFields(target, source) {
+	var optionalFields = ["critRatio", "recoil", "drain", "heal", "willCrit"]
+	for (var i = 0; i < optionalFields.length; i++) {
+		var field = optionalFields[i]
+		if (Object.prototype.hasOwnProperty.call(source, field)) {
+			target[field] = source[field]
+		}
+	}
+}
+
 function overrideMoveData(moveOverrides) {
 	let movCount = 934
 	let customMoveCount = 0
@@ -2696,6 +2706,7 @@ function overrideMoveData(moveOverrides) {
 			if (Object.prototype.hasOwnProperty.call(moveData, "e_chance")) {
 				BattleMovedex[moveId].e_chance = moveData.e_chance
 			}
+			copyOptionalMoveOverrideFields(BattleMovedex[moveId], moveData)
 		} else {
 			customMoveCount += 1
 			BattleMovedex[moveId] = {}
@@ -2721,6 +2732,7 @@ function overrideMoveData(moveOverrides) {
 			if (Object.prototype.hasOwnProperty.call(moveData, "e_chance")) {
 				BattleMovedex[moveId].e_chance = moveData.e_chance
 			}
+			copyOptionalMoveOverrideFields(BattleMovedex[moveId], moveData)
 		}
 
 	}
