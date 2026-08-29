@@ -1953,6 +1953,10 @@ overrides = {
             "Mirror Move"
           ],
           [
+            40,
+            "Double-Edge"
+          ],
+          [
             42,
             "Air Slash"
           ],
@@ -2102,6 +2106,10 @@ overrides = {
             "Mirror Move"
           ],
           [
+            40,
+            "Double-Edge"
+          ],
+          [
             42,
             "Air Slash"
           ],
@@ -2249,6 +2257,10 @@ overrides = {
           [
             37,
             "Mirror Move"
+          ],
+          [
+            40,
+            "Double-Edge"
           ],
           [
             42,
@@ -7734,7 +7746,7 @@ overrides = {
         "df": 60,
         "sa": 105,
         "sd": 65,
-        "sp": 125
+        "sp": 115
       },
       "learnset_info": {
         "learnset": [
@@ -8915,7 +8927,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Torrent",
+        "Resilient",
         "Swift Swim",
         "Water Absorb",
         "Drizzle",
@@ -9064,7 +9076,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Torrent",
+        "Resilient",
         "Swift Swim",
         "Water Absorb",
         "Drizzle",
@@ -9237,7 +9249,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Torrent",
+        "Resilient",
         "Swift Swim",
         "Water Absorb",
         "Drizzle",
@@ -20152,7 +20164,7 @@ overrides = {
           ],
           [
             14,
-            "Volt Switch"
+            "Shock Wave"
           ],
           [
             17,
@@ -20168,7 +20180,7 @@ overrides = {
           ],
           [
             30,
-            "Discharge"
+            "Charge Beam"
           ],
           [
             36,
@@ -30974,7 +30986,7 @@ overrides = {
         "df": 95,
         "sa": 65,
         "sd": 55,
-        "sp": 95
+        "sp": 100
       },
       "learnset_info": {
         "learnset": [
@@ -34486,11 +34498,11 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 95,
+        "hp": 98,
         "at": 105,
-        "df": 85,
+        "df": 87,
         "sa": 105,
-        "sd": 65,
+        "sd": 75,
         "sp": 85
       },
       "learnset_info": {
@@ -34556,20 +34568,24 @@ overrides = {
             "Zen Headbutt"
           ],
           [
+            43,
+            "Phantom Strike"
+          ],
+          [
             46,
             "Jump Kick"
           ],
           [
             49,
-            "Nightmare"
+            "Psycho Boost"
           ],
           [
             53,
-            "Head Charge"
+            "Nightmare"
           ],
           [
             58,
-            "Psycho Boost"
+            "Head Charge"
           ],
           [
             60,
@@ -48454,7 +48470,7 @@ overrides = {
           ],
           [
             24,
-            "Uproar"
+            "Chatter"
           ],
           [
             29,
@@ -48485,7 +48501,11 @@ overrides = {
             "Safeguard"
           ],
           [
-            52,
+            51,
+            "Relic Song"
+          ],
+          [
+            53,
             "Dragon Rush"
           ],
           [
@@ -48543,7 +48563,7 @@ overrides = {
       },
       "abs": [
         "Natural Cure",
-        "Pixilate",
+        "Amplifier",
         "Cloud Nine",
         "Fluffy",
         "Overcoat",
@@ -48586,7 +48606,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Relic Song"
+            "Clanging Scales"
           ],
           [
             1,
@@ -48622,7 +48642,7 @@ overrides = {
           ],
           [
             24,
-            "Uproar"
+            "Chatter"
           ],
           [
             29,
@@ -48653,7 +48673,11 @@ overrides = {
             "Safeguard"
           ],
           [
-            52,
+            51,
+            "Relic Song"
+          ],
+          [
+            53,
             "Dragon Rush"
           ],
           [
@@ -48666,7 +48690,7 @@ overrides = {
           ],
           [
             64,
-            "Sky Drop"
+            "Boomburst"
           ],
           [
             68,
@@ -48727,7 +48751,7 @@ overrides = {
       },
       "abs": [
         "Levitate",
-        "Pixilate",
+        "Amplifier",
         "Cloud Nine",
         "Fluffy",
         "Overcoat",
@@ -51875,7 +51899,7 @@ overrides = {
       ],
       "bs": {
         "hp": 55,
-        "at": 95,
+        "at": 85,
         "df": 130,
         "sa": 80,
         "sd": 130,
@@ -52718,7 +52742,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Refrigerate",
+        "Inner Focus",
         "Ice Body",
         "Rattled",
         "Sturdy",
@@ -53333,7 +53357,7 @@ overrides = {
       },
       "abs": [
         "Ice Body",
-        "Resilient",
+        "Intimidate",
         "Guts",
         "Snow Warning",
         "Snow Cloak",
