@@ -3279,7 +3279,7 @@ overrides = {
           ],
           [
             31,
-            "Zing Zap"
+            "Thunder Punch"
           ],
           [
             34,
@@ -3287,7 +3287,7 @@ overrides = {
           ],
           [
             37,
-            "Slam"
+            "Light Screen"
           ],
           [
             40,
@@ -3295,7 +3295,7 @@ overrides = {
           ],
           [
             43,
-            "Light Screen"
+            "Slam"
           ],
           [
             46,
@@ -3450,7 +3450,7 @@ overrides = {
           ],
           [
             31,
-            "Zing Zap"
+            "Thunder Punch"
           ],
           [
             34,
@@ -3458,7 +3458,7 @@ overrides = {
           ],
           [
             37,
-            "Slam"
+            "Light Screen"
           ],
           [
             40,
@@ -3466,7 +3466,7 @@ overrides = {
           ],
           [
             43,
-            "Light Screen"
+            "Slam"
           ],
           [
             46,
@@ -5304,7 +5304,7 @@ overrides = {
           ],
           [
             25,
-            "Curse"
+            "Grudge"
           ],
           [
             29,
@@ -5312,7 +5312,7 @@ overrides = {
           ],
           [
             32,
-            "Grudge"
+            "Curse"
           ],
           [
             34,
@@ -5461,7 +5461,7 @@ overrides = {
           ],
           [
             25,
-            "Curse"
+            "Grudge"
           ],
           [
             29,
@@ -5469,7 +5469,7 @@ overrides = {
           ],
           [
             32,
-            "Grudge"
+            "Curse"
           ],
           [
             34,
@@ -17771,7 +17771,7 @@ overrides = {
           ],
           [
             34,
-            "Return"
+            "Rage"
           ],
           [
             37,
@@ -17929,7 +17929,7 @@ overrides = {
           ],
           [
             34,
-            "Return"
+            "Rage"
           ],
           [
             37,
@@ -20038,7 +20038,7 @@ overrides = {
           ],
           [
             1,
-            "Charm"
+            "Soak"
           ],
           [
             4,
@@ -20050,7 +20050,7 @@ overrides = {
           ],
           [
             10,
-            "Refresh"
+            "Attract"
           ],
           [
             14,
@@ -20066,7 +20066,7 @@ overrides = {
           ],
           [
             25,
-            "Barrier"
+            "Aqua Ring"
           ],
           [
             30,
@@ -20081,11 +20081,19 @@ overrides = {
             "Wish"
           ],
           [
-            46,
-            "Muddy Water"
+            43,
+            "Clanging Scales"
           ],
           [
-            53,
+            46,
+            "Surf"
+          ],
+          [
+            50,
+            "Acid Armor"
+          ],
+          [
+            54,
             "Ice Beam"
           ],
           [
@@ -20180,7 +20188,7 @@ overrides = {
           ],
           [
             1,
-            "Charm"
+            "Baton Pass"
           ],
           [
             4,
@@ -20192,7 +20200,7 @@ overrides = {
           ],
           [
             10,
-            "Refresh"
+            "Supersonic"
           ],
           [
             14,
@@ -20208,7 +20216,7 @@ overrides = {
           ],
           [
             25,
-            "Baton Pass"
+            "Eerie Impulse"
           ],
           [
             30,
@@ -20223,11 +20231,19 @@ overrides = {
             "Spiky Shield"
           ],
           [
+            43,
+            "Dark Pulse"
+          ],
+          [
             46,
             "Thunderbolt"
           ],
           [
-            53,
+            50,
+            "Double Team"
+          ],
+          [
+            54,
             "Energy Ball"
           ],
           [
@@ -20329,11 +20345,11 @@ overrides = {
           ],
           [
             7,
-            "Swift"
+            "Quick Attack"
           ],
           [
             10,
-            "Refresh"
+            "Entrainment"
           ],
           [
             14,
@@ -20361,14 +20377,22 @@ overrides = {
           ],
           [
             40,
-            "Cotton Guard"
+            "Wish"
+          ],
+          [
+            43,
+            "Heart Stamp"
           ],
           [
             46,
             "Fire Lash"
           ],
           [
-            53,
+            50,
+            "Scary Face"
+          ],
+          [
+            54,
             "Superpower"
           ],
           [
@@ -28812,7 +28836,7 @@ overrides = {
           ],
           [
             1,
-            "Charm"
+            "Psycho Shift"
           ],
           [
             4,
@@ -28824,7 +28848,7 @@ overrides = {
           ],
           [
             10,
-            "Refresh"
+            "Magic Coat"
           ],
           [
             14,
@@ -28836,7 +28860,7 @@ overrides = {
           ],
           [
             21,
-            "Draining Kiss"
+            "Force Palm"
           ],
           [
             25,
@@ -28855,16 +28879,24 @@ overrides = {
             "Morning Sun"
           ],
           [
+            43,
+            "Nightmare"
+          ],
+          [
             46,
             "Psychic"
           ],
           [
-            53,
+            50,
+            "Gravity"
+          ],
+          [
+            54,
             "Solar Beam"
           ],
           [
             59,
-            "Esper Wing"
+            "Focus Blast"
           ],
           [
             65,
@@ -28936,11 +28968,11 @@ overrides = {
       ],
       "bs": {
         "hp": 95,
-        "at": 65,
+        "at": 60,
         "df": 110,
-        "sa": 90,
+        "sa": 85,
         "sd": 130,
-        "sp": 55
+        "sp": 65
       },
       "learnset_info": {
         "learnset": [
@@ -28958,7 +28990,7 @@ overrides = {
           ],
           [
             1,
-            "Charm"
+            "Zap Cannon"
           ],
           [
             4,
@@ -28970,7 +29002,7 @@ overrides = {
           ],
           [
             10,
-            "Refresh"
+            "Mean Look"
           ],
           [
             14,
@@ -28986,7 +29018,7 @@ overrides = {
           ],
           [
             25,
-            "Taunt"
+            "Lovely Kiss"
           ],
           [
             30,
@@ -29001,20 +29033,28 @@ overrides = {
             "Moonlight"
           ],
           [
+            43,
+            "Night Shade"
+          ],
+          [
             46,
             "Dark Pulse"
           ],
           [
-            53,
+            50,
+            "Swagger"
+          ],
+          [
+            54,
             "Starburst"
           ],
           [
             59,
-            "Foul Play"
+            "Sludge Wave"
           ],
           [
             65,
-            "Parting Shot"
+            "Toxic"
           ],
           [
             70,
@@ -29023,6 +29063,7 @@ overrides = {
         ],
         "tms": [
           "Psychic Fangs",
+          "Psyshock",
           "Payback",
           "Hidden Power",
           "Taunt",
@@ -52418,7 +52459,7 @@ overrides = {
       "bs": {
         "hp": 65,
         "at": 130,
-        "df": 95,
+        "df": 100,
         "sa": 95,
         "sd": 75,
         "sp": 95
@@ -52490,7 +52531,11 @@ overrides = {
             "Healing Wish"
           ],
           [
-            54,
+            52,
+            "Doom Desire"
+          ],
+          [
+            55,
             "Perish Song"
           ],
           [
@@ -52503,7 +52548,7 @@ overrides = {
           ],
           [
             67,
-            "Doom Desire"
+            "Night Daze"
           ],
           [
             75,
@@ -67599,7 +67644,7 @@ overrides = {
           ],
           [
             1,
-            "Charm"
+            "Worry Seed"
           ],
           [
             4,
@@ -67607,11 +67652,11 @@ overrides = {
           ],
           [
             7,
-            "Swift"
+            "Quick Attack"
           ],
           [
             10,
-            "Refresh"
+            "Leech Seed"
           ],
           [
             14,
@@ -67623,11 +67668,11 @@ overrides = {
           ],
           [
             21,
-            "Nature Power"
+            "Dual Chop"
           ],
           [
             25,
-            "Encore"
+            "Grass Whistle"
           ],
           [
             30,
@@ -67642,20 +67687,28 @@ overrides = {
             "Synthesis"
           ],
           [
+            43,
+            "Weather Crash"
+          ],
+          [
             46,
             "Solar Blade"
           ],
           [
-            53,
-            "Leaf Blade"
+            50,
+            "Aromatherapy"
+          ],
+          [
+            54,
+            "Aerial Ace"
           ],
           [
             59,
-            "Wood Hammer"
+            "Leaf Blade"
           ],
           [
             65,
-            "Worry Seed"
+            "Sunny Day"
           ],
           [
             70,
@@ -67788,14 +67841,22 @@ overrides = {
           ],
           [
             40,
-            "Recover"
+            "Mirror Coat"
+          ],
+          [
+            43,
+            "Shadow Ball"
           ],
           [
             46,
             "Ice Beam"
           ],
           [
-            53,
+            50,
+            "Recover"
+          ],
+          [
+            54,
             "Steel Beam"
           ],
           [
@@ -97011,7 +97072,7 @@ overrides = {
       "prio": 0,
       "name": "Aqua Cutter",
       "num": 63,
-      "desc": "The user expels pressurized water to slice forward. Critical hits land more easily and it may leave the target paralyzed.",
+      "desc": "The user expels pressurized water to slice forward at their target. Critical hits land more easily.",
       "e_id": 43
     },
     "Drill Peck": {
@@ -101259,7 +101320,7 @@ overrides = {
       "prio": 0,
       "name": "Worry Seed",
       "num": 387,
-      "desc": "A seed that causes worry is planted on all foes. It prevents sleep by making its Ability Insomnia.",
+      "desc": "A seed that causes worry is planted on all foes, giving the ability Rattled.",
       "e_id": 247,
       "tar": "allAdjacentFoes"
     },
@@ -137153,9 +137214,9 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.",
-      "location": "Reward from Youngster Kevin - Marvelous Bridge, Reward from Clerk  M Fredric, Reward from Lass Dana, Reward from School Kid Alan, Reward from School Kid Sally, Reward from Psychic Gerard, Reward from Psychic Madhu, Reward from Depot Agent Josh, Reward from Dancer Davey, Reward from Artist Pierre, Reward from Maid Alica, Reward from Parasol Lady Gwyneth, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Middle Left Cashier",
+      "location": "Reward from Youngster Kevin, Reward from Clerk  M Fredric, Reward from Lass Dana, Reward from School Kid Alan, Reward from School Kid Sally, Reward from Psychic Gerard, Reward from Psychic Madhu, Reward from Depot Agent Josh, Reward from Dancer Davey, Reward from Artist Pierre, Reward from Maid Alica, Reward from Parasol Lady Gwyneth, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Middle Left Cashier",
       "rewards": [
-        "Youngster Kevin - Marvelous Bridge",
+        "Youngster Kevin",
         "Clerk  M Fredric",
         "Lass Dana",
         "School Kid Alan",
@@ -137327,16 +137388,16 @@ overrides = {
     "potion": {
       "name": "Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points.",
-      "location": "Reward from Hoopster Bobby, Reward from Cosplayer Cassie - Join Avenue, Reward from Linebacker Jonah, Reward from Rival Benga, Reward from Striker Marco, Reward from Hoopster John, Reward from Cosplayer Amy - Join Avenue, Reward from Lass Flo - Route 7",
+      "location": "Reward from Hoopster Bobby, Reward from Cosplayer Cassie, Reward from Linebacker Jonah, Reward from Rival Benga, Reward from Striker Marco, Reward from Hoopster John, Reward from Cosplayer Amy, Reward from Lass Flo",
       "rewards": [
         "Hoopster Bobby",
-        "Cosplayer Cassie - Join Avenue",
+        "Cosplayer Cassie",
         "Linebacker Jonah",
         "Rival Benga",
         "Striker Marco",
         "Hoopster John",
-        "Cosplayer Amy - Join Avenue",
-        "Lass Flo - Route 7"
+        "Cosplayer Amy",
+        "Lass Flo"
       ]
     },
     "antidote": {
@@ -137350,9 +137411,9 @@ overrides = {
     "burnheal": {
       "name": "Burn Heal",
       "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
-      "location": "Reward from Scientist Dudley - Virbank Complex",
+      "location": "Reward from Scientist Dudley",
       "rewards": [
-        "Scientist Dudley - Virbank Complex"
+        "Scientist Dudley"
       ]
     },
     "iceheal": {
@@ -137368,27 +137429,27 @@ overrides = {
     "parlyzheal": {
       "name": "Parlyz Heal",
       "desc": "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
-      "location": "Reward from Backpacker Walt - Desert Resort",
+      "location": "Reward from Backpacker Walt",
       "rewards": [
-        "Backpacker Walt - Desert Resort"
+        "Backpacker Walt"
       ]
     },
     "fullrestore": {
       "name": "Full Restore",
       "desc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
-      "location": "Reward from Striker Roberto - Driftveil Drawbridge, Reward from Smasher Elena - Driftveil Drawbridge, Reward from Infielder Alex - Nimbasa City, Reward from Infielder Connor - Nimbasa City, Reward from Striker Marco - Nimbasa City, Reward from Linebacker Jonah - Nimbasa City, Reward from Linebacker Dan - Driftveil Drawbridge, Reward from Hoopster Lamarcus - Nimbasa City, Reward from Hoopster Bobby - Nimbasa City, Reward from Nurse Kirsten - Castelia Sewers, Reward from Smasher Aspen - Driftveil Drawbridge, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges",
+      "location": "Reward from Striker Roberto, Reward from Smasher Elena, Reward from Infielder Alex, Reward from Infielder Connor, Reward from Striker Marco, Reward from Linebacker Jonah, Reward from Linebacker Dan, Reward from Hoopster Lamarcus, Reward from Hoopster Bobby, Reward from Nurse Kirsten, Reward from Smasher Aspen, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges",
       "rewards": [
-        "Striker Roberto - Driftveil Drawbridge",
-        "Smasher Elena - Driftveil Drawbridge",
-        "Infielder Alex - Nimbasa City",
-        "Infielder Connor - Nimbasa City",
-        "Striker Marco - Nimbasa City",
-        "Linebacker Jonah - Nimbasa City",
-        "Linebacker Dan - Driftveil Drawbridge",
-        "Hoopster Lamarcus - Nimbasa City",
-        "Hoopster Bobby - Nimbasa City",
-        "Nurse Kirsten - Castelia Sewers",
-        "Smasher Aspen - Driftveil Drawbridge"
+        "Striker Roberto",
+        "Smasher Elena",
+        "Infielder Alex",
+        "Infielder Connor",
+        "Striker Marco",
+        "Linebacker Jonah",
+        "Linebacker Dan",
+        "Hoopster Lamarcus",
+        "Hoopster Bobby",
+        "Nurse Kirsten",
+        "Smasher Aspen"
       ],
       "marts": [
         "Stock No Badges",
@@ -137402,12 +137463,12 @@ overrides = {
     "maxpotion": {
       "name": "Max Potion",
       "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
-      "location": "Reward from Cosplayer Anders - Nimbasa City, Reward from Girl in Suit Donna - Nimbasa City, Reward from Pokefan Darcy, Reward from Youngster Nicholas - Route 7, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Top Right Cashier",
+      "location": "Reward from Cosplayer Anders, Reward from Girl in Suit Donna, Reward from Pokefan Darcy, Reward from Youngster Nicholas, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Top Right Cashier",
       "rewards": [
-        "Cosplayer Anders - Nimbasa City",
-        "Girl in Suit Donna - Nimbasa City",
+        "Cosplayer Anders",
+        "Girl in Suit Donna",
         "Pokefan Darcy",
-        "Youngster Nicholas - Route 7"
+        "Youngster Nicholas"
       ],
       "marts": [
         "Stock No Badges",
@@ -137422,28 +137483,28 @@ overrides = {
     "hyperpotion": {
       "name": "Hyper Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points.",
-      "location": "Reward from Smasher, Reward from Hoopster John - Pokestar Studios, Reward from Guy in Suit Larry - Join Avenue, Reward from Hoopster Bobby, Reward from Linebacker Jonah, Reward from Striker Marco, Reward from Cosplayer Miriam - Join Avenue",
+      "location": "Reward from Smasher, Reward from Hoopster John, Reward from Guy in Suit Larry, Reward from Hoopster Bobby, Reward from Linebacker Jonah, Reward from Striker Marco, Reward from Cosplayer Miriam",
       "rewards": [
         "Smasher",
-        "Hoopster John - Pokestar Studios",
-        "Guy in Suit Larry - Join Avenue",
+        "Hoopster John",
+        "Guy in Suit Larry",
         "Hoopster Bobby",
         "Linebacker Jonah",
         "Striker Marco",
-        "Cosplayer Miriam - Join Avenue"
+        "Cosplayer Miriam"
       ]
     },
     "superpotion": {
       "name": "Super Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points.",
-      "location": "Reward from Cosplayer Jared - Join Avenue, Reward from Linebacker Dan - Castelia City, Reward from Policeman Petrel - Virbank City, Reward from Policeman Rosco - Virbank City, Reward from Linebacker Jonah, Reward from Team Plasma Shadow - Marine Tube, Reward from Striker Roberto, Reward from Striker Marco, Reward from Hoopster John",
+      "location": "Reward from Cosplayer Jared, Reward from Linebacker Dan, Reward from Policeman Petrel, Reward from Policeman Rosco, Reward from Linebacker Jonah, Reward from Team Plasma Shadow, Reward from Striker Roberto, Reward from Striker Marco, Reward from Hoopster John",
       "rewards": [
-        "Cosplayer Jared - Join Avenue",
-        "Linebacker Dan - Castelia City",
-        "Policeman Petrel - Virbank City",
-        "Policeman Rosco - Virbank City",
+        "Cosplayer Jared",
+        "Linebacker Dan",
+        "Policeman Petrel",
+        "Policeman Rosco",
         "Linebacker Jonah",
-        "Team Plasma Shadow - Marine Tube",
+        "Team Plasma Shadow",
         "Striker Roberto",
         "Striker Marco",
         "Hoopster John"
@@ -137493,9 +137554,9 @@ overrides = {
     "moomoomilk": {
       "name": "Moomoo Milk",
       "desc": "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.",
-      "location": "Reward from Waiter Clint - Nimbasa City, Reward from Waitress Bonita, Reward from Baker Lilly",
+      "location": "Reward from Waiter Clint, Reward from Waitress Bonita, Reward from Baker Lilly",
       "rewards": [
-        "Waiter Clint - Nimbasa City",
+        "Waiter Clint",
         "Waitress Bonita",
         "Baker Lilly"
       ]
@@ -137585,10 +137646,10 @@ overrides = {
     "protein": {
       "name": "Protein",
       "desc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
-      "location": "Reward from Linebacker Dan - Nimbasa City, Reward from Linebacker Bob - Nimbasa City",
+      "location": "Reward from Linebacker Dan, Reward from Linebacker Bob",
       "rewards": [
-        "Linebacker Dan - Nimbasa City",
-        "Linebacker Bob - Nimbasa City"
+        "Linebacker Dan",
+        "Linebacker Bob"
       ]
     },
     "unusualcandies": {
@@ -137604,9 +137665,9 @@ overrides = {
     "calcium": {
       "name": "Calcium",
       "desc": "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.",
-      "location": "Reward from Hoopster John - Nimbasa City",
+      "location": "Reward from Hoopster John",
       "rewards": [
-        "Hoopster John - Nimbasa City"
+        "Hoopster John"
       ]
     },
     "rarecandies": {
@@ -137634,9 +137695,9 @@ overrides = {
     "ppmax": {
       "name": "PP Max",
       "desc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon.",
-      "location": "Reward from Veteran Arlen - Mistralton City, Reward from Veteran Sayuri",
+      "location": "Reward from Veteran Arlen, Reward from Veteran Sayuri",
       "rewards": [
-        "Veteran Arlen - Mistralton City",
+        "Veteran Arlen",
         "Veteran Sayuri"
       ]
     },
@@ -137733,24 +137794,24 @@ overrides = {
     "redshard": {
       "name": "Red Shard",
       "desc": "A small red shard. It appears to be from some sort of implement made long ago.",
-      "location": "Reward from Lass Patty - Nimbasa City, Reward from Hiker Russel, Reward from Hiker Tobias - Relic Passage",
+      "location": "Reward from Lass Patty, Reward from Hiker Russel, Reward from Hiker Tobias",
       "rewards": [
-        "Lass Patty - Nimbasa City",
+        "Lass Patty",
         "Hiker Russel",
-        "Hiker Tobias - Relic Passage"
+        "Hiker Tobias"
       ]
     },
     "blueshard": {
       "name": "Blue Shard",
       "desc": "A small blue shard. It appears to be from some sort of implement made long ago.",
-      "location": "Reward from Worker Matthew, Reward from Worker Tyler - Driftveil City, Reward from Worker Herman, Reward from Worker Gus - Driftveil City, Reward from Harlequin Sanders, Reward from Backpacker Corin - Reversal Mountain",
+      "location": "Reward from Worker Matthew, Reward from Worker Tyler, Reward from Worker Herman, Reward from Worker Gus, Reward from Harlequin Sanders, Reward from Backpacker Corin",
       "rewards": [
         "Worker Matthew",
-        "Worker Tyler - Driftveil City",
+        "Worker Tyler",
         "Worker Herman",
-        "Worker Gus - Driftveil City",
+        "Worker Gus",
         "Harlequin Sanders",
-        "Backpacker Corin - Reversal Mountain"
+        "Backpacker Corin"
       ]
     },
     "yellowshard": {
@@ -137848,9 +137909,9 @@ overrides = {
     "pearl": {
       "name": "Pearl",
       "desc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
-      "location": "Reward from Lady Sophie - Nuvema Town",
+      "location": "Reward from Lady Sophie",
       "rewards": [
-        "Lady Sophie - Nuvema Town"
+        "Lady Sophie"
       ]
     },
     "bigpearl": {
@@ -137891,10 +137952,10 @@ overrides = {
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
-      "location": "Reward from Scientist Lucy - Relic Passage, Reward from Pokefan Jude - Celestial Tower",
+      "location": "Reward from Scientist Lucy, Reward from Pokefan Jude",
       "rewards": [
-        "Scientist Lucy - Relic Passage",
-        "Pokefan Jude - Celestial Tower"
+        "Scientist Lucy",
+        "Pokefan Jude"
       ]
     },
     "honey": {
@@ -137960,9 +138021,9 @@ overrides = {
     "rarebone": {
       "name": "Rare Bone",
       "desc": "A bone that is extremely valuable for Pokémon archeology. Fling Power: 130 BP",
-      "location": "Reward from Pkmn Ranger Jaden - Desert Resort",
+      "location": "Reward from Pkmn Ranger Jaden",
       "rewards": [
-        "Pkmn Ranger Jaden - Desert Resort"
+        "Pkmn Ranger Jaden"
       ]
     },
     "shinystone": {
@@ -138062,9 +138123,9 @@ overrides = {
     "fairydust": {
       "name": "Fairy Dust",
       "desc": "An item to be held by a Pokémon. It is a sparkling, enchanted dust that ups the power of Fairy-type moves.",
-      "location": "Reward from Pkmn Ranger Forrest - Lostlorn Forest",
+      "location": "Reward from Pkmn Ranger Forrest",
       "rewards": [
-        "Pkmn Ranger Forrest - Lostlorn Forest"
+        "Pkmn Ranger Forrest"
       ]
     },
     "tricksterherb": {
@@ -138230,10 +138291,10 @@ overrides = {
     "cheriberry": {
       "name": "Cheri Berry",
       "desc": "If held by a Pokémon, it recovers from paralysis.",
-      "location": "Reward from Battle Girl Janie - Pokestar Studios, Reward from Pkmn Ranger Eddie - Victory Road, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Battle Girl Janie, Reward from Pkmn Ranger Eddie, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
-        "Battle Girl Janie - Pokestar Studios",
-        "Pkmn Ranger Eddie - Victory Road"
+        "Battle Girl Janie",
+        "Pkmn Ranger Eddie"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -138243,11 +138304,11 @@ overrides = {
     "chestoberry": {
       "name": "Chesto Berry",
       "desc": "If held by a Pokémon, it recovers from sleep.",
-      "location": "Reward from Musician Boris - Castelia City, Reward from Pkmn Ranger Briana - Chargestone Cave, Reward from Pkmn Ranger Louis - Chargestone Cave, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Musician Boris, Reward from Pkmn Ranger Briana, Reward from Pkmn Ranger Louis, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
-        "Musician Boris - Castelia City",
-        "Pkmn Ranger Briana - Chargestone Cave",
-        "Pkmn Ranger Louis - Chargestone Cave"
+        "Musician Boris",
+        "Pkmn Ranger Briana",
+        "Pkmn Ranger Louis"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -138257,11 +138318,11 @@ overrides = {
     "pechaberry": {
       "name": "Pecha Berry",
       "desc": "If held by a Pokémon, it recovers from poison.",
-      "location": "Reward from Pkmn Ranger Richard - Route 6, Reward from Pkmn Ranger Serenity - Lostlorn Forest, Reward from Black Belt Jeriel - Route 12, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Pkmn Ranger Richard, Reward from Pkmn Ranger Serenity, Reward from Black Belt Jeriel, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
-        "Pkmn Ranger Richard - Route 6",
-        "Pkmn Ranger Serenity - Lostlorn Forest",
-        "Black Belt Jeriel - Route 12"
+        "Pkmn Ranger Richard",
+        "Pkmn Ranger Serenity",
+        "Black Belt Jeriel"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -138271,12 +138332,12 @@ overrides = {
     "rawstberry": {
       "name": "Rawst Berry",
       "desc": "If held by a Pokémon, it recovers from a burn.",
-      "location": "Wild held by Darumaka, Wild held by Darmanitan, Wild held by Darmanitan-Zen, Reward from Pkmn Ranger Lewis, Reward from Pkmn Ranger Eliza, Reward from Pkmn Ranger Elle - Victory Road, Reward from Pkmn Ranger Anja - Desert Resort, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Wild held by Darumaka, Wild held by Darmanitan, Wild held by Darmanitan-Zen, Reward from Pkmn Ranger Lewis, Reward from Pkmn Ranger Eliza, Reward from Pkmn Ranger Elle, Reward from Pkmn Ranger Anja, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
         "Pkmn Ranger Lewis",
         "Pkmn Ranger Eliza",
-        "Pkmn Ranger Elle - Victory Road",
-        "Pkmn Ranger Anja - Desert Resort"
+        "Pkmn Ranger Elle",
+        "Pkmn Ranger Anja"
       ],
       "wilds": [
         "Darumaka",
@@ -138291,11 +138352,11 @@ overrides = {
     "aspearberry": {
       "name": "Aspear Berry",
       "desc": "If held by a Pokémon, it defrosts it.",
-      "location": "Reward from Pkmn Ranger Thalia - Route 11, Reward from Pkmn Ranger Crofton - Route 11, Reward from Cyclist Lionel - Village Bridge, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Pkmn Ranger Thalia, Reward from Pkmn Ranger Crofton, Reward from Cyclist Lionel, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
-        "Pkmn Ranger Thalia - Route 11",
-        "Pkmn Ranger Crofton - Route 11",
-        "Cyclist Lionel - Village Bridge"
+        "Pkmn Ranger Thalia",
+        "Pkmn Ranger Crofton",
+        "Cyclist Lionel"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -138305,10 +138366,10 @@ overrides = {
     "leppaberry": {
       "name": "Leppa Berry",
       "desc": "If held by a Pokémon, it restores a move's PP by 10.",
-      "location": "Reward from Pkmn Ranger Bret, Reward from Pkmn Ranger Malory - Route 20, Sold at Castelia City Upper Cashier",
+      "location": "Reward from Pkmn Ranger Bret, Reward from Pkmn Ranger Malory, Sold at Castelia City Upper Cashier",
       "rewards": [
         "Pkmn Ranger Bret",
-        "Pkmn Ranger Malory - Route 20"
+        "Pkmn Ranger Malory"
       ],
       "marts": [
         "Castelia City Upper Cashier"
@@ -138325,29 +138386,25 @@ overrides = {
     "persimberry": {
       "name": "Persim Berry",
       "desc": "If held by a Pokémon, it recovers from confusion.",
-      "location": "Reward from Pkmn Ranger Johan - Seaside Cave, Reward from Pkmn Ranger Mikiko - Seaside Cave, Reward from Pkmn Ranger Lewis - Reversal Mountain, Reward from Pkmn Ranger Eliza - Reversal Mountain, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Pkmn Ranger Johan, Reward from Pkmn Ranger Mikiko, Reward from Pkmn Ranger Lewis, Reward from Pkmn Ranger Eliza",
       "rewards": [
-        "Pkmn Ranger Johan - Seaside Cave",
-        "Pkmn Ranger Mikiko - Seaside Cave",
-        "Pkmn Ranger Lewis - Reversal Mountain",
-        "Pkmn Ranger Eliza - Reversal Mountain"
-      ],
-      "marts": [
-        "Stock 5+Badges",
-        "Stock 7+Badges"
+        "Pkmn Ranger Johan",
+        "Pkmn Ranger Mikiko",
+        "Pkmn Ranger Lewis",
+        "Pkmn Ranger Eliza"
       ]
     },
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon, it recovers from any status problem.",
-      "location": "Wild held by Shaymin, Wild held by Shaymin-Sky, Reward from Pkmn Ranger Rick - Route 1, Reward from Pkmn Ranger Audra - Route 1, Reward from Pkmn Ranger Terrakion - Clay Tunnel, Reward from Pkmn Ranger Keldeo - Clay Tunnel, Reward from Pkmn Ranger Parker - Moor of Icirrus, Reward from Pkmn Ranger Elaine - Moor of Icirrus, Reward from Pkmn Ranger Ralph, Reward from Pkmn Ranger Melita, Sold at Stock 8+Badges",
+      "location": "Wild held by Shaymin, Wild held by Shaymin-Sky, Reward from Pkmn Ranger Rick, Reward from Pkmn Ranger Audra, Reward from Pkmn Ranger Terrakion, Reward from Pkmn Ranger Keldeo, Reward from Pkmn Ranger Parker, Reward from Pkmn Ranger Elaine, Reward from Pkmn Ranger Ralph, Reward from Pkmn Ranger Melita, Sold at Stock 8+Badges",
       "rewards": [
-        "Pkmn Ranger Rick - Route 1",
-        "Pkmn Ranger Audra - Route 1",
-        "Pkmn Ranger Terrakion - Clay Tunnel",
-        "Pkmn Ranger Keldeo - Clay Tunnel",
-        "Pkmn Ranger Parker - Moor of Icirrus",
-        "Pkmn Ranger Elaine - Moor of Icirrus",
+        "Pkmn Ranger Rick",
+        "Pkmn Ranger Audra",
+        "Pkmn Ranger Terrakion",
+        "Pkmn Ranger Keldeo",
+        "Pkmn Ranger Parker",
+        "Pkmn Ranger Elaine",
         "Pkmn Ranger Ralph",
         "Pkmn Ranger Melita"
       ],
@@ -138362,15 +138419,15 @@ overrides = {
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon, it heals the user's HP a little.",
-      "location": "Reward from Pkmn Ranger Daryl, Reward from Pkmn Ranger Dianne, Reward from Pkmn Ranger Leaf - Route 20, Reward from Pkmn Ranger Naoko - Route 20, Reward from Pkmn Ranger Lena - Route 23, Reward from Pkmn Ranger Steve - Route 23, Reward from Backpacker Annie - Relic Passage, Reward from Pkmn Ranger Dwayne, Reward from Pkmn Ranger Hillary, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at Lacunosa Town",
+      "location": "Reward from Pkmn Ranger Daryl, Reward from Pkmn Ranger Dianne, Reward from Pkmn Ranger Leaf, Reward from Pkmn Ranger Naoko, Reward from Pkmn Ranger Lena, Reward from Pkmn Ranger Steve, Reward from Backpacker Annie, Reward from Pkmn Ranger Dwayne, Reward from Pkmn Ranger Hillary, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at Lacunosa Town",
       "rewards": [
         "Pkmn Ranger Daryl",
         "Pkmn Ranger Dianne",
-        "Pkmn Ranger Leaf - Route 20",
-        "Pkmn Ranger Naoko - Route 20",
-        "Pkmn Ranger Lena - Route 23",
-        "Pkmn Ranger Steve - Route 23",
-        "Backpacker Annie - Relic Passage",
+        "Pkmn Ranger Leaf",
+        "Pkmn Ranger Naoko",
+        "Pkmn Ranger Lena",
+        "Pkmn Ranger Steve",
+        "Backpacker Annie",
         "Pkmn Ranger Dwayne",
         "Pkmn Ranger Hillary"
       ],
@@ -138383,10 +138440,10 @@ overrides = {
     "figyberry": {
       "name": "Figy Berry",
       "desc": "If held by a Pokémon, it restores by a lot, but causes confusion.",
-      "location": "Reward from Backpacker Alexander - Relic Passage, Reward from Pokefan Sachiko - Route 4",
+      "location": "Reward from Backpacker Alexander, Reward from Pokefan Sachiko",
       "rewards": [
-        "Backpacker Alexander - Relic Passage",
-        "Pokefan Sachiko - Route 4"
+        "Backpacker Alexander",
+        "Pokefan Sachiko"
       ]
     },
     "marangaberry": {
@@ -138397,9 +138454,9 @@ overrides = {
     "casteliacone": {
       "name": "Casteliacone",
       "desc": "Castelia City's specialty, soft-serve ice cream. It restores the HP of one Pokémon by 100 points, even in battle!",
-      "location": "Reward from Harlequin Luigi - Nimbasa City",
+      "location": "Reward from Harlequin Luigi",
       "rewards": [
-        "Harlequin Luigi - Nimbasa City"
+        "Harlequin Luigi"
       ]
     },
     "keeberry": {
@@ -138590,9 +138647,9 @@ overrides = {
     "kebiaberry": {
       "name": "Kebia Berry",
       "desc": "Weakens a supereffective Poison-type attack against the holding Pokémon.",
-      "location": "Reward from Dancer Dirk - Virbank City",
+      "location": "Reward from Dancer Dirk",
       "rewards": [
-        "Dancer Dirk - Virbank City"
+        "Dancer Dirk"
       ]
     },
     "shucaberry": {
@@ -138633,9 +138690,9 @@ overrides = {
     "colburberry": {
       "name": "Colbur Berry",
       "desc": "Weakens a supereffective Dark-type attack against the holding Pokémon.",
-      "location": "Reward from Worker Cairn - Twist Mountain",
+      "location": "Reward from Worker Cairn",
       "rewards": [
-        "Worker Cairn - Twist Mountain"
+        "Worker Cairn"
       ]
     },
     "babiriberry": {
@@ -138656,9 +138713,9 @@ overrides = {
     "ganlonberry": {
       "name": "Ganlon Berry",
       "desc": "If held by a Pokémon, it raises its Defense stat in a pinch. A pinch is 1/2 health.",
-      "location": "Reward from Cyclist Krissa - Route 16",
+      "location": "Reward from Cyclist Krissa",
       "rewards": [
-        "Cyclist Krissa - Route 16"
+        "Cyclist Krissa"
       ]
     },
     "salacberry": {
@@ -138674,9 +138731,9 @@ overrides = {
     "apicotberry": {
       "name": "Apicot Berry",
       "desc": "If held by a Pokémon, it raises its Sp. Def stat in a pinch. A pinch is 1/2 health.",
-      "location": "Reward from Cyclist Hector - Route 16",
+      "location": "Reward from Cyclist Hector",
       "rewards": [
-        "Cyclist Hector - Route 16"
+        "Cyclist Hector"
       ]
     },
     "roseliberry": {
@@ -138687,9 +138744,9 @@ overrides = {
     "starfberry": {
       "name": "Starf Berry",
       "desc": "If held by a Pokémon, it sharply raises one of its stats when reduced below half health.",
-      "location": "Reward from Harlequin Oswald - Twist Mountain",
+      "location": "Reward from Harlequin Oswald",
       "rewards": [
-        "Harlequin Oswald - Twist Mountain"
+        "Harlequin Oswald"
       ]
     },
     "enigmaberry": {
@@ -138710,9 +138767,9 @@ overrides = {
     "jabocaberry": {
       "name": "Jaboca Berry",
       "desc": "If held by a Pokémon and a physical attack lands, the attacker also takes damage.",
-      "location": "Reward from Pkmn Ranger Lois - Route 5, Sold at SM9 Top Left Cashier",
+      "location": "Reward from Pkmn Ranger Lois, Sold at SM9 Top Left Cashier",
       "rewards": [
-        "Pkmn Ranger Lois - Route 5"
+        "Pkmn Ranger Lois"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -138721,10 +138778,10 @@ overrides = {
     "rowapberry": {
       "name": "Rowap Berry",
       "desc": "If held by a Pokémon and a special attack lands, the attacker also takes damage.",
-      "location": "Reward from Smasher Elena - Aspertia Gate, Reward from Psychic Perry - Desert Resort, Sold at SM9 Top Left Cashier",
+      "location": "Reward from Smasher Elena, Reward from Psychic Perry, Sold at SM9 Top Left Cashier",
       "rewards": [
-        "Smasher Elena - Aspertia Gate",
-        "Psychic Perry - Desert Resort"
+        "Smasher Elena",
+        "Psychic Perry"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -138738,9 +138795,9 @@ overrides = {
     "whiteherb": {
       "name": "White Herb",
       "desc": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
-      "location": "Reward from Pkmn Breeder Alice - Floccesy Ranch, Sold at SM9 Top Left Cashier",
+      "location": "Reward from Pkmn Breeder Alice, Sold at SM9 Top Left Cashier",
       "rewards": [
-        "Pkmn Breeder Alice - Floccesy Ranch"
+        "Pkmn Breeder Alice"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -138890,9 +138947,9 @@ overrides = {
     "miracleseed": {
       "name": "Miracle Seed",
       "desc": "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
-      "location": "Reward from Nursery Aide Leah - Virbank Preschool, Sold at Driftveil City Herb Shop",
+      "location": "Reward from Nursery Aide Leah, Sold at Driftveil City Herb Shop",
       "rewards": [
-        "Nursery Aide Leah - Virbank Preschool"
+        "Nursery Aide Leah"
       ],
       "marts": [
         "Driftveil City Herb Shop"
@@ -138911,17 +138968,17 @@ overrides = {
     "magnet": {
       "name": "Magnet",
       "desc": "An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.",
-      "location": "Reward from Youngster Keita - Virbank Complex",
+      "location": "Reward from Youngster Keita",
       "rewards": [
-        "Youngster Keita - Virbank Complex"
+        "Youngster Keita"
       ]
     },
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
-      "location": "Reward from Nursery Aide Kimya - Route 20",
+      "location": "Reward from Nursery Aide Kimya",
       "rewards": [
-        "Nursery Aide Kimya - Route 20"
+        "Nursery Aide Kimya"
       ]
     },
     "sharpbeak": {
@@ -138942,9 +138999,9 @@ overrides = {
     "spelltag": {
       "name": "Spell Tag",
       "desc": "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
-      "location": "Reward from Backers Kay & Ali - Route 5",
+      "location": "Reward from Backers Kay & Ali",
       "rewards": [
-        "Backers Kay & Ali - Route 5"
+        "Backers Kay & Ali"
       ]
     },
     "twistedspoon": {
@@ -139054,9 +139111,9 @@ overrides = {
     "wiseglasses": {
       "name": "Wise Glasses",
       "desc": "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
-      "location": "Reward from Youngster Kenny - Floccesy Ranch, Sold at Castelia City Upper Cashier",
+      "location": "Reward from Youngster Kenny, Sold at Castelia City Upper Cashier",
       "rewards": [
-        "Youngster Kenny - Floccesy Ranch"
+        "Youngster Kenny"
       ],
       "marts": [
         "Castelia City Upper Cashier"
@@ -139080,9 +139137,9 @@ overrides = {
     "powerherb": {
       "name": "Power Herb",
       "desc": "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.",
-      "location": "Reward from Harlequin Otto - Nimbasa City",
+      "location": "Reward from Harlequin Otto",
       "rewards": [
-        "Harlequin Otto - Nimbasa City"
+        "Harlequin Otto"
       ]
     },
     "toxicorb": {
@@ -139351,12 +139408,18 @@ overrides = {
     "electirizer": {
       "name": "Electirizer",
       "desc": "A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.",
-      "location": ""
+      "location": "Sold at Undella Town",
+      "marts": [
+        "Undella Town"
+      ]
     },
     "magmarizer": {
       "name": "Magmarizer",
       "desc": "A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.",
-      "location": ""
+      "location": "Sold at Undella Town",
+      "marts": [
+        "Undella Town"
+      ]
     },
     "dubiousdisc": {
       "name": "Dubious Disc",
@@ -139391,9 +139454,9 @@ overrides = {
     "tm03": {
       "name": "TM03",
       "desc": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
-      "location": "Reward from Psychic Tommy - Desert Resort, Sold at Mistralton City TM Dept",
+      "location": "Reward from Psychic Tommy, Sold at Mistralton City TM Dept",
       "rewards": [
-        "Psychic Tommy - Desert Resort"
+        "Psychic Tommy"
       ],
       "marts": [
         "Mistralton City TM Dept"
@@ -139444,9 +139507,9 @@ overrides = {
     "tm11": {
       "name": "TM11",
       "desc": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
-      "location": "Reward from Johto Leader Falkner - Route 14",
+      "location": "Reward from Johto Leader Falkner",
       "rewards": [
-        "Johto Leader Falkner - Route 14"
+        "Johto Leader Falkner"
       ]
     },
     "tm12": {
@@ -139470,9 +139533,9 @@ overrides = {
     "tm15": {
       "name": "TM15",
       "desc": "The user tears at the target with blades formed by psychic power. Crit hits land more easily and this attack cannot miss.",
-      "location": "Reward from Scientist Cleo - Virbank City, Sold at Nimbasa TM Department",
+      "location": "Reward from Scientist Cleo, Sold at Nimbasa TM Department",
       "rewards": [
-        "Scientist Cleo - Virbank City"
+        "Scientist Cleo"
       ],
       "marts": [
         "Nimbasa TM Department"
@@ -139502,9 +139565,9 @@ overrides = {
     "tm19": {
       "name": "TM19",
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "location": "Reward from Musician Preston - Driftveil City",
+      "location": "Reward from Musician Preston",
       "rewards": [
-        "Musician Preston - Driftveil City"
+        "Musician Preston"
       ]
     },
     "tm20": {
@@ -139553,9 +139616,9 @@ overrides = {
     "tm28": {
       "name": "TM28",
       "desc": "The user burrows, then attacks on the second turn. This attack cannot miss. Will catch a Pokémon trying to swich out!",
-      "location": "Reward from Hoenn Leader Roxanne - Clay Tunnel",
+      "location": "Reward from Hoenn Leader Roxanne",
       "rewards": [
-        "Hoenn Leader Roxanne - Clay Tunnel"
+        "Hoenn Leader Roxanne"
       ]
     },
     "tm29": {
@@ -139566,17 +139629,17 @@ overrides = {
     "tm30": {
       "name": "TM30",
       "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
-      "location": "Reward from Johto Leader Morty - Celestial Tower",
+      "location": "Reward from Johto Leader Morty",
       "rewards": [
-        "Johto Leader Morty - Celestial Tower"
+        "Johto Leader Morty"
       ]
     },
     "tm31": {
       "name": "TM31",
       "desc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
-      "location": "Reward from Motorcyclist Duke - Driftveil City",
+      "location": "Reward from Motorcyclist Duke",
       "rewards": [
-        "Motorcyclist Duke - Driftveil City"
+        "Motorcyclist Duke"
       ]
     },
     "tm32": {
@@ -139623,9 +139686,9 @@ overrides = {
     "tm39": {
       "name": "TM39",
       "desc": "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
-      "location": "Reward from Lass Daya - Virbank Complex, Sold at Nimbasa TM Department",
+      "location": "Reward from Lass Daya, Sold at Nimbasa TM Department",
       "rewards": [
-        "Lass Daya - Virbank Complex"
+        "Lass Daya"
       ],
       "marts": [
         "Nimbasa TM Department"
@@ -139747,9 +139810,9 @@ overrides = {
     "tm62": {
       "name": "TM62",
       "desc": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
-      "location": "Reward from Harlequin Chester - Driftveil City",
+      "location": "Reward from Harlequin Chester",
       "rewards": [
-        "Harlequin Chester - Driftveil City"
+        "Harlequin Chester"
       ]
     },
     "tm63": {
@@ -139888,10 +139951,10 @@ overrides = {
     "tm86": {
       "name": "TM86",
       "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
-      "location": "Reward from Pkmn Breeder Owen, Reward from Pkmn Breeder Micah - Castelia Gardens, Sold at Mistralton City TM Dept",
+      "location": "Reward from Pkmn Breeder Owen, Reward from Pkmn Breeder Micah, Sold at Mistralton City TM Dept",
       "rewards": [
         "Pkmn Breeder Owen",
-        "Pkmn Breeder Micah - Castelia Gardens"
+        "Pkmn Breeder Micah"
       ],
       "marts": [
         "Mistralton City TM Dept"
@@ -139905,17 +139968,17 @@ overrides = {
     "tm88": {
       "name": "TM88",
       "desc": "The user attacks by shooting muddy water at the opposing team. It may also lower the targets' accuracy.",
-      "location": "Reward from Pilot Leonard - Mistralton City",
+      "location": "Reward from Pilot Leonard",
       "rewards": [
-        "Pilot Leonard - Mistralton City"
+        "Pilot Leonard"
       ]
     },
     "tm89": {
       "name": "TM89",
       "desc": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
-      "location": "Reward from Policeman Lester - Undella Town",
+      "location": "Reward from Policeman Lester",
       "rewards": [
-        "Policeman Lester - Undella Town"
+        "Policeman Lester"
       ]
     },
     "tm90": {
@@ -139929,9 +139992,9 @@ overrides = {
     "tm91": {
       "name": "TM91",
       "desc": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
-      "location": "Reward from Hiker Keith - Relic Passage",
+      "location": "Reward from Hiker Keith",
       "rewards": [
-        "Hiker Keith - Relic Passage"
+        "Hiker Keith"
       ]
     },
     "tm92": {
@@ -140488,10 +140551,10 @@ overrides = {
     "ivenhancer": {
       "name": "IV Enhancer",
       "desc": "An item that can be administered to a Pokémon to maximize one of their IVs.",
-      "location": "Reward from Preschooler Mia - Route 6, Reward from Preschooler Jojo - Route 6",
+      "location": "Reward from Preschooler Mia, Reward from Preschooler Jojo",
       "rewards": [
-        "Preschooler Mia - Route 6",
-        "Preschooler Jojo - Route 6"
+        "Preschooler Mia",
+        "Preschooler Jojo"
       ]
     },
     "ivmaximizer": {
@@ -140547,9 +140610,9 @@ overrides = {
     "airballoon": {
       "name": "Air Balloon",
       "desc": "When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.",
-      "location": "Reward from Harlequin Oz - Nimbasa City, Sold at SM9 Top Left Cashier",
+      "location": "Reward from Harlequin Oz, Sold at SM9 Top Left Cashier",
       "rewards": [
-        "Harlequin Oz - Nimbasa City"
+        "Harlequin Oz"
       ],
       "marts": [
         "SM9 Top Left Cashier"
