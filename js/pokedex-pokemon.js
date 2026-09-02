@@ -1242,8 +1242,65 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     }
     return evoData;
   },
+  formatNamedEvolutionBranchDisplay: function (methodName, displayValue) {
+    var normalizedMethod = String(methodName || "").trim().toLowerCase();
+
+    switch (normalizedMethod) {
+      case "item":
+      case "item use":
+      case "useitem":
+        return String(displayValue);
+      case "item use + male":
+        return `${displayValue} + Male`;
+      case "item use + female":
+        return `${displayValue} + Female`;
+      case "level requirement":
+        return `Lv ${displayValue}`;
+      case "level requirement + atk stat greater than def":
+        return `Lv ${displayValue} + Atk > Def`;
+      case "level requirement + atk stat equal to def":
+        return `Lv ${displayValue} + Atk = Def`;
+      case "level requirement + atk stat less than def":
+        return `Lv ${displayValue} + Atk < Def`;
+      case "level requirement + pid greater than 5":
+        return `Lv ${displayValue} + PID > 5`;
+      case "level requirement + pid less than 5":
+        return `Lv ${displayValue} + PID < 5`;
+      case "level requirement (ninjask)":
+        return `Lv ${displayValue} (Ninjask)`;
+      case "level requirement + empty party slot/pokeball":
+        return `Lv ${displayValue} + Empty Party Slot`;
+      case "level requirement + male":
+        return `Lv ${displayValue} + Male`;
+      case "level requirement + female":
+        return `Lv ${displayValue} + Female`;
+      case "max beauty":
+        return "Max Beauty";
+      case "trade with held item":
+        return `Trade holding ${displayValue}`;
+      case "level with item + day":
+        return `Lv w/ ${displayValue} During Day`;
+      case "level with item + night":
+        return `Lv w/ ${displayValue} During Night`;
+      case "after learning specific move":
+      case "levelmove":
+        return `Lv while knowing ${displayValue}`;
+      case "level with party member":
+        return `Lv w/ ${displayValue} in party`;
+      default:
+        return null;
+    }
+  },
   getEvolutionBranchDisplay: function (evoSource, branchIndex, targetTemplate, evoData) {
     var displayValue = this.normalizeEvolutionDisplayValue(evoData);
+    // Method IDs are ROM-engine-specific, while exported method names retain
+    // the intended meaning. Only fall back to the numeric Gen 4 table when a
+    // method name is absent or too generic to format on its own.
+    var methodNames = evoSource && Array.isArray(evoSource.evoMethods) ? evoSource.evoMethods : null;
+    var methodName = methodNames ? methodNames[branchIndex] : null;
+    var namedDisplay = this.formatNamedEvolutionBranchDisplay(methodName, displayValue);
+    if (namedDisplay !== null) return namedDisplay;
+
     var methodIds = evoSource && Array.isArray(evoSource.evoMethodIds) ? evoSource.evoMethodIds : null;
     var methodId = methodIds ? methodIds[branchIndex] : null;
 

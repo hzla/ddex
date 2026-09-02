@@ -17995,7 +17995,7 @@ var overrides = {
                 "STARMIE"
             ],
             "evoMethods": [
-                "levelExtra"
+                "useItem"
             ],
             "evoParams": [
                 "Water Stone"
@@ -18122,7 +18122,7 @@ var overrides = {
                 "-"
             ],
             "catchRate": 78,
-            "evoType": "levelExtra"
+            "evoType": "useItem"
         },
         "MR. MIME": {
             "name": "MR. MIME",
