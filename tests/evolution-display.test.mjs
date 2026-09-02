@@ -45,8 +45,8 @@ function loadOverride(file) {
 
 const panel = loadPokemonPanel();
 
-function formatBranch(evoSource, evoData) {
-  return panel.getEvolutionBranchDisplay.call(panel, evoSource, 0, {}, evoData);
+function formatBranch(evoSource, evoData, branchIndex = 0) {
+  return panel.getEvolutionBranchDisplay.call(panel, evoSource, branchIndex, {}, evoData);
 }
 
 test("prefers named item-use methods over ROM-local numeric method IDs", () => {
@@ -81,13 +81,29 @@ test("uses descriptive Gen 5 method names for shifted numeric IDs", () => {
   );
 });
 
-test("keeps numeric-only special methods as a compatibility fallback", () => {
+test("keeps method names authoritative and numeric-only IDs as a compatibility fallback", () => {
   assert.equal(
     formatBranch({ evoMethods: ["levelExtra"], evoMethodIds: [19] }, "Razor Fang"),
+    "Razor Fang",
+  );
+  assert.equal(
+    formatBranch({ evoMethodIds: [19] }, "Razor Fang"),
     "Lv w/ Razor Fang During Night",
   );
+  assert.equal(formatBranch({ evoMethods: ["level"], evoMethodIds: [22] }, 35), "L35");
+  assert.equal(formatBranch({ evoMethodIds: [8] }, 20), "Lv 20 + Atk > Def");
+  assert.equal(formatBranch({ evoMethodIds: [10] }, 20), "Lv 20 + Atk < Def");
   assert.equal(formatBranch({ evoMethodIds: [29] }, 5), "K5");
   assert.equal(formatBranch({ evoMethodIds: [30] }, 6), "B6");
+});
+
+test("formats canonical cross-generation methods without consulting IDs", () => {
+  assert.equal(formatBranch({ evoMethods: ["trade"] }, ""), "Trade");
+  assert.equal(formatBranch({ evoMethods: ["tradeItem"] }, "Metal Coat"), "Trade holding Metal Coat");
+  assert.equal(formatBranch({ evoMethods: ["levelFriendshipNight"] }, ""), "Max Happiness During Night");
+  assert.equal(formatBranch({ evoMethods: ["levelMoveType"] }, "Fairy"), "Lv while knowing a Fairy-type move");
+  assert.equal(formatBranch({ evoMethods: ["criticalHits"], evoMethodIds: [36] }, 3), "3 Critical Hits in One Battle");
+  assert.equal(formatBranch({ evoMethods: ["damageTaken"], evoMethodIds: [37] }, 49), "Take 49 Damage in Battle");
 });
 
 test("affected shipped overrides expose item use semantically", () => {
@@ -98,4 +114,48 @@ test("affected shipped overrides expose item use semantically", () => {
 
   assert.equal(formatBranch(staryu, staryu.evoParams[0]), "Water Stone");
   assert.equal(formatBranch(petilil, petilil.evoParams[0]), "Sun Stone");
+});
+
+test("all shipped override evolution arrays stay aligned and named methods are recognized", () => {
+  const overrideDir = path.join(root, "data", "overrides");
+  const files = fs.readdirSync(overrideDir).filter((file) =>
+    file.endsWith(".js") && !file.includes("searchindex") && !file.includes("customdesc")
+  );
+
+  for (const file of files) {
+    const override = loadOverride(file);
+    for (const [speciesName, species] of Object.entries(override?.poks || {})) {
+      if (!Array.isArray(species.evos)) continue;
+      for (const field of ["evoMethods", "evoMethodIds", "evoParams"]) {
+        if (!Array.isArray(species[field])) continue;
+        assert.equal(
+          species[field].length,
+          species.evos.length,
+          `${file}:${speciesName} has a misaligned ${field}`,
+        );
+      }
+
+      for (let index = 0; index < species.evos.length; index += 1) {
+        const method = species.evoMethods?.[index];
+        if (!method) continue;
+        const displayValue = panel.normalizeEvolutionDisplayValue.call(
+          panel,
+          species.evoParams?.[index] ?? "",
+        );
+        assert.notEqual(
+          panel.formatNamedEvolutionBranchDisplay.call(panel, method, displayValue),
+          null,
+          `${file}:${speciesName} uses unrecognized evolution method ${method}`,
+        );
+
+        if (["item", "item use", "useitem"].includes(String(method).toLowerCase())) {
+          assert.equal(
+            formatBranch(species, species.evoParams?.[index] ?? "", index),
+            String(displayValue),
+            `${file}:${speciesName} adds an extra condition to direct item use`,
+          );
+        }
+      }
+    }
+  }
 });

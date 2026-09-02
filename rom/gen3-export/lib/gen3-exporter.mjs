@@ -655,20 +655,97 @@ function defaultMoveNames(levelUp, moveNames, level) {
   return available.slice(-4);
 }
 
-function evoToDdex(methodName, arg, extra, itemNames, moveNames, typeNames) {
-  const normalized = methodName.toLowerCase();
-  if (methodName === "Happiness") return ["levelFriendship", ""];
-  if (methodName === "Happy Day" || methodName === "Happy Night") return ["levelExtra", methodName];
-  if (methodName === "Level") return ["level", arg];
-  if (methodName === "Trade") return ["trade", ""];
-  if (methodName === "Trade Item") return ["trade", itemNames[arg] || arg];
-  if (methodName === "Stone" || methodName === "Use Item") return ["useItem", itemNames[arg] || arg];
-  if (methodName.includes("Move")) return ["levelMove", moveNames[arg] || arg];
-  if (methodName === "Beauty") return ["levelExtra", "Beauty"];
-  if (methodName.includes("Happiness")) return ["levelFriendship", ""];
-  if (methodName.includes("Trade")) return ["trade", arg ? (itemNames[arg] || "") : ""];
-  if (methodName.includes("Item") || methodName.includes("Stone")) return ["item", itemNames[arg] || arg];
-  if (methodName.includes("Type")) return ["levelExtra", `${methodName}: ${resolveGen3TypeName(typeNames, arg) || String(arg)}`];
+export function evoToDdex(methodName, arg, extra, itemNames, moveNames, typeNames, speciesNames = []) {
+  const normalized = String(methodName || "").trim().toLowerCase();
+  const itemName = itemNames[arg] || arg;
+  const moveName = moveNames[arg] || arg;
+  const typeName = resolveGen3TypeName(typeNames, arg) || String(arg);
+  const speciesName = speciesNames[arg] || arg;
+
+  switch (normalized) {
+    case "none":
+      return ["none", ""];
+    case "happiness":
+      return ["levelFriendship", ""];
+    case "happy day":
+      return ["levelFriendshipDay", ""];
+    case "happy night":
+      return ["levelFriendshipNight", ""];
+    case "level":
+      return ["level", arg];
+    case "trade":
+      return ["trade", ""];
+    case "trade item":
+      return ["tradeItem", itemName];
+    case "stone":
+    case "use item":
+      return ["useItem", itemName];
+    case "level high attack":
+      return ["levelAttackGreater", arg];
+    case "level attack matches defense":
+      return ["levelAttackEqual", arg];
+    case "level high defense":
+      return ["levelAttackLess", arg];
+    case "level odd personality":
+      return ["levelPersonalityOdd", arg];
+    case "level even personality":
+      return ["levelPersonalityEven", arg];
+    case "level and new pokemon":
+      return ["levelNinjask", arg];
+    case "level but new pokemon":
+      return ["levelShedinja", arg];
+    case "beauty":
+      return ["beauty", arg];
+    case "rain or fog":
+      return ["levelWeather", arg || ""];
+    case "move type":
+      return ["levelMoveType", typeName];
+    case "type in party":
+      return ["levelPartyType", typeName];
+    case "map":
+      return ["levelLocation", `Map ${arg}`];
+    case "male":
+      return ["levelMale", arg];
+    case "female":
+      return ["levelFemale", arg];
+    case "level night":
+      return ["levelNight", arg];
+    case "level day":
+      return ["levelDay", arg];
+    case "hold item night":
+      return ["levelHoldNight", itemName];
+    case "hold item day":
+      return ["levelHoldDay", itemName];
+    case "move name":
+      return ["levelMove", moveName];
+    case "mon in party":
+      return ["levelParty", speciesName];
+    case "level time range":
+      return ["levelTimeRange", extra ? `${arg}-${extra}` : arg];
+    case "flag set":
+      return ["flagSet", arg];
+    case "3 critical hits in one battle":
+      return ["criticalHits", arg || 3];
+    case "nature high":
+      return ["levelNatureHigh", arg];
+    case "nature low":
+      return ["levelNatureLow", arg];
+    case "damage location":
+      return ["damageLocation", extra ? `${arg}:${extra}` : arg];
+    case "item location":
+      return ["itemLocation", extra ? `${arg}:${extra}` : arg];
+    case "gigantamax":
+      return ["gigantamax", ""];
+    case "mega":
+      return ["mega", itemName];
+    default:
+      break;
+  }
+
+  if (normalized.includes("happiness")) return ["levelFriendship", ""];
+  if (normalized.includes("trade")) return [arg ? "tradeItem" : "trade", arg ? itemName : ""];
+  if (normalized.includes("move")) return ["levelMove", moveName];
+  if (normalized.includes("type")) return ["levelExtra", `${methodName}: ${typeName}`];
   if (normalized.startsWith("level") && arg) return ["levelExtra", `L${arg} ${methodName}`];
   return ["levelExtra", arg ? `${methodName}: ${arg}` : methodName];
 }
@@ -1521,7 +1598,15 @@ function buildDexOutput(ctx) {
     const evoParams = [];
     for (const evo of evolutions[species.num]) {
       const methodName = evolutionNames[evo.method] || `Method ${evo.method}`;
-      const [method, param] = evoToDdex(methodName, evo.arg, evo.extra, itemNames, moveNames, typeNames);
+      const [method, param] = evoToDdex(
+        methodName,
+        evo.arg,
+        evo.extra,
+        itemNames,
+        moveNames,
+        typeNames,
+        speciesNames,
+      );
       evoTargets.push(speciesNames[evo.target] || String(evo.target));
       evoMethods.push(method);
       evoParams.push(param);

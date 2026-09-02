@@ -532,6 +532,25 @@ const EVOLUTION_METHOD_NAMES = [
   "Loc_MossRock",
 ];
 
+// HG-Engine keeps the vanilla method IDs through 26, then assigns newer
+// evolution conditions to IDs that mean something else in other DS engines.
+// Keep the method name in the export so downstream display never has to guess
+// which numeric table a ROM used.
+const HG_ENGINE_EVOLUTION_METHOD_NAMES = [
+  ...EVOLUTION_METHOD_NAMES.slice(0, 27),
+  "LevelingUp_Day",
+  "LevelingUp_Night",
+  "LevelingUp_Dusk",
+  "LevelingUp_Rain",
+  "KnowsMoveType",
+  "PartyType_Dark",
+  "Trade_SpecificPokemon",
+  "LevelingUp_NatureAmped",
+  "LevelingUp_NatureLowKey",
+  "CriticalHits",
+  "DamageTaken",
+];
+
 const EVOLUTION_PARAM_MEANING = {
   None: "Ignored",
   Friendship220: "Ignored",
@@ -561,6 +580,59 @@ const EVOLUTION_PARAM_MEANING = {
   Loc_EternaForest: "Ignored",
   Loc_Route217: "Ignored",
   Loc_MossRock: "Ignored",
+  LevelingUp_Day: "FromLevel",
+  LevelingUp_Night: "FromLevel",
+  LevelingUp_Dusk: "FromLevel",
+  LevelingUp_Rain: "FromLevel",
+  KnowsMoveType: "TypeName",
+  PartyType_Dark: "FromLevel",
+  Trade_SpecificPokemon: "PokemonName",
+  LevelingUp_NatureAmped: "FromLevel",
+  LevelingUp_NatureLowKey: "FromLevel",
+  CriticalHits: "Count",
+  DamageTaken: "DamageValue",
+};
+
+const EVOLUTION_METHOD_TO_DDEX = {
+  None: "none",
+  Friendship220: "levelFriendship",
+  Friendship220_Day: "levelFriendshipDay",
+  Friendship220_Night: "levelFriendshipNight",
+  LevelingUp: "level",
+  Trade: "trade",
+  Trade_HeldItem: "tradeItem",
+  Item: "useItem",
+  Atk_Greater_Def: "levelAttackGreater",
+  Atk_Equal_Def: "levelAttackEqual",
+  Def_Greater_Atk: "levelAttackLess",
+  Personality1: "levelPersonalityLow",
+  Personality2: "levelPersonalityHigh",
+  FreeSpaceCheck: "levelNinjask",
+  Shedinja: "levelShedinja",
+  BeautyThreshold: "beauty",
+  ItemMale: "useItemMale",
+  ItemFemale: "useItemFemale",
+  HeldItem_Day: "levelHoldDay",
+  HeldItem_Night: "levelHoldNight",
+  KnowsMove: "levelMove",
+  PartyPokemonPresence: "levelParty",
+  LevelingUp_Male: "levelMale",
+  LevelingUp_Female: "levelFemale",
+  Loc_MtCoronet: "levelMtCoronet",
+  Loc_EternaForest: "levelEternaForest",
+  Loc_Route217: "levelRoute217",
+  Loc_MossRock: "levelMossRock",
+  LevelingUp_Day: "levelDay",
+  LevelingUp_Night: "levelNight",
+  LevelingUp_Dusk: "levelDusk",
+  LevelingUp_Rain: "levelRain",
+  KnowsMoveType: "levelMoveType",
+  PartyType_Dark: "levelDarkParty",
+  Trade_SpecificPokemon: "tradeSpecies",
+  LevelingUp_NatureAmped: "levelNatureAmped",
+  LevelingUp_NatureLowKey: "levelNatureLowKey",
+  CriticalHits: "criticalHits",
+  DamageTaken: "damageTaken",
 };
 
 const OW_3D_ENTRIES = new Set([
@@ -3117,14 +3189,29 @@ function parseEvolutionCell(raw) {
   return { method: parts[0], param: parts[1], target: parts[2] };
 }
 
-function mapEvoMethod(method) {
+export function mapEvoMethod(method) {
   const m = String(method || "");
+  if (Object.prototype.hasOwnProperty.call(EVOLUTION_METHOD_TO_DDEX, m)) {
+    return EVOLUTION_METHOD_TO_DDEX[m];
+  }
   if (m.includes("Friendship")) return "levelFriendship";
+  if (m.includes("Trade") && m.includes("Item")) return "tradeItem";
   if (m.includes("Trade")) return "trade";
-  if (m === "Item") return "useItem";
+  if (m.includes("Item")) return "useItem";
   if (m.includes("KnowsMove")) return "levelMove";
   if (m.includes("LevelingUp")) return "level";
   return "levelExtra";
+}
+
+export function evolutionMethodName(methodId, { hgEngine = false } = {}) {
+  const names = hgEngine ? HG_ENGINE_EVOLUTION_METHOD_NAMES : EVOLUTION_METHOD_NAMES;
+  return names[methodId] ?? String(methodId);
+}
+
+function evolutionMethodId(methodName) {
+  const vanillaId = EVOLUTION_METHOD_NAMES.indexOf(methodName);
+  if (vanillaId >= 0) return vanillaId;
+  return HG_ENGINE_EVOLUTION_METHOD_NAMES.indexOf(methodName);
 }
 
 function normalizeEvoParam(raw) {
@@ -3154,7 +3241,7 @@ function buildSpeciesData(personalData, learnsetData, evolutionData, tmhmData, {
     for (const column of evoColumns) {
       const parsed = parseEvolutionCell(evoEntry[column]);
       if (!parsed) continue;
-      const methodId = EVOLUTION_METHOD_NAMES.indexOf(parsed.method);
+      const methodId = evolutionMethodId(parsed.method);
       const mappedMethod = mapEvoMethod(parsed.method);
       const param = normalizeEvoParam(parsed.param);
       const target = canonicalizeExportSpeciesName(parsed.target);
@@ -4764,7 +4851,7 @@ function battleEffectDesc(effectId) {
   return describeBattleEffect(effectId);
 }
 
-function formatEvolutionParam(methodName, param, names) {
+export function formatEvolutionParam(methodName, param, names) {
   const meaning = EVOLUTION_PARAM_MEANING[methodName] || "Ignored";
   if (meaning === "Ignored") return "Ignored";
   if (meaning === "FromLevel") return String(param);
@@ -4772,6 +4859,8 @@ function formatEvolutionParam(methodName, param, names) {
   if (meaning === "ItemName") return names.itemNames[param] ?? `ITEM_${param}`;
   if (meaning === "MoveName") return names.moveNames[param] ?? `MOVE_${param}`;
   if (meaning === "PokemonName") return names.pokemonNames[param] ?? `SPECIES_${param}`;
+  if (meaning === "TypeName") return names.typeNames[param] ?? `TYPE_${param}`;
+  if (meaning === "Count" || meaning === "DamageValue") return String(param);
   return String(param);
 }
 
@@ -7007,8 +7096,13 @@ async function collectDspreData(editor, { log }) {
     const row = [String(i), pokemonNames[i] ?? `UNKNOWN_${i}`];
     for (const evo of list) {
       if (evo.target === 0) break;
-      const methodName = EVOLUTION_METHOD_NAMES[evo.method] ?? String(evo.method);
-      const paramString = formatEvolutionParam(methodName, evo.param, { itemNames, moveNames, pokemonNames });
+      const methodName = evolutionMethodName(evo.method, { hgEngine: expandedHgssLearnsets });
+      const paramString = formatEvolutionParam(methodName, evo.param, {
+        itemNames,
+        moveNames,
+        pokemonNames,
+        typeNames,
+      });
       const targetName = pokemonNames[evo.target] ?? `UNKNOWN_${evo.target}`;
       row.push(`[${methodName}|${paramString}|${targetName}]`);
     }

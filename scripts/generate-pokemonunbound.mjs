@@ -729,16 +729,16 @@ function mapEvolution(rawMethod, rawCondition) {
     return { method: "trade", param: "" };
   }
   if (method === "EVO_TRADE_ITEM") {
-    return { method: "trade", param: canonicalItemNameFromDefine(condition) || prettifyDefine(condition) };
+    return { method: "tradeItem", param: canonicalItemNameFromDefine(condition) || prettifyDefine(condition) };
   }
   if (method === "EVO_FRIENDSHIP") {
     return { method: "levelFriendship", param: "" };
   }
   if (method === "EVO_FRIENDSHIP_DAY") {
-    return { method: "levelExtra", param: "Max Happiness (Day)" };
+    return { method: "levelFriendshipDay", param: "" };
   }
   if (method === "EVO_FRIENDSHIP_NIGHT") {
-    return { method: "levelExtra", param: "Max Happiness (Night)" };
+    return { method: "levelFriendshipNight", param: "" };
   }
   if (method.startsWith("EVO_LEVEL_")) {
     const conditionText = Number.isFinite(numericCondition) ? `Level ${numericCondition}` : "Level Up";

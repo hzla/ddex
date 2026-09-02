@@ -1246,47 +1246,140 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     var normalizedMethod = String(methodName || "").trim().toLowerCase();
 
     switch (normalizedMethod) {
+      case "none":
+        return "";
       case "item":
       case "item use":
       case "useitem":
         return String(displayValue);
+      case "useitemmale":
       case "item use + male":
         return `${displayValue} + Male`;
+      case "useitemfemale":
       case "item use + female":
         return `${displayValue} + Female`;
+      case "level":
+        return `L${displayValue}`;
       case "level requirement":
         return `Lv ${displayValue}`;
+      case "levelattackgreater":
       case "level requirement + atk stat greater than def":
         return `Lv ${displayValue} + Atk > Def`;
+      case "levelattackequal":
       case "level requirement + atk stat equal to def":
         return `Lv ${displayValue} + Atk = Def`;
+      case "levelattackless":
       case "level requirement + atk stat less than def":
         return `Lv ${displayValue} + Atk < Def`;
+      case "levelpersonalityhigh":
+        return `Lv ${displayValue} + PID >= 5`;
       case "level requirement + pid greater than 5":
         return `Lv ${displayValue} + PID > 5`;
+      case "levelpersonalitylow":
       case "level requirement + pid less than 5":
         return `Lv ${displayValue} + PID < 5`;
+      case "levelpersonalityodd":
+        return `Lv ${displayValue} + PID Odd`;
+      case "levelpersonalityeven":
+        return `Lv ${displayValue} + PID Even`;
+      case "levelninjask":
       case "level requirement (ninjask)":
         return `Lv ${displayValue} (Ninjask)`;
+      case "levelshedinja":
       case "level requirement + empty party slot/pokeball":
         return `Lv ${displayValue} + Empty Party Slot`;
+      case "levelmale":
       case "level requirement + male":
         return `Lv ${displayValue} + Male`;
+      case "levelfemale":
       case "level requirement + female":
         return `Lv ${displayValue} + Female`;
+      case "beauty":
+        return displayValue === "" ? "Max Beauty" : `Beauty ${displayValue}`;
       case "max beauty":
         return "Max Beauty";
+      case "levelfriendship":
+      case "max happiness":
+        return "Max Happiness";
+      case "levelfriendshipday":
+        return "Max Happiness During Day";
+      case "levelfriendshipnight":
+        return "Max Happiness During Night";
+      case "trade":
+        return displayValue === "" ? "Trade" : `Trade holding ${displayValue}`;
+      case "tradeitem":
       case "trade with held item":
         return `Trade holding ${displayValue}`;
+      case "tradespecies":
+        return `Trade for ${displayValue}`;
+      case "levelholdday":
       case "level with item + day":
         return `Lv w/ ${displayValue} During Day`;
+      case "levelholdnight":
       case "level with item + night":
         return `Lv w/ ${displayValue} During Night`;
       case "after learning specific move":
       case "levelmove":
         return `Lv while knowing ${displayValue}`;
+      case "levelmovetype":
+        return `Lv while knowing a ${displayValue}-type move`;
+      case "levelparty":
       case "level with party member":
         return `Lv w/ ${displayValue} in party`;
+      case "levelpartytype":
+        return `Lv w/ a ${displayValue}-type Pokemon in party`;
+      case "leveldarkparty":
+        return `Lv ${displayValue} w/ a Dark-type Pokemon in party`;
+      case "levellocation":
+        return `Lv at ${displayValue}`;
+      case "levelmtcoronet":
+        return "Lv in Mt. Coronet";
+      case "leveleternaforest":
+        return "Lv in Eterna Forest";
+      case "levelroute217":
+        return "Lv in Route 217";
+      case "levelmagneticfield":
+        return "Lv in a Magnetic Field";
+      case "levelmossrock":
+        return "Lv near a Moss Rock";
+      case "levelicerock":
+        return "Lv near an Ice Rock";
+      case "levelday":
+        return `Lv ${displayValue} During Day`;
+      case "levelnight":
+        return `Lv ${displayValue} During Night`;
+      case "leveldusk":
+        return `Lv ${displayValue} During Dusk`;
+      case "levelrain":
+        return `Lv ${displayValue} During Rain`;
+      case "levelweather":
+        return displayValue === "" ? "Lv During Rain or Fog" : `Lv ${displayValue} During Rain or Fog`;
+      case "levelnatureamped":
+        return `Lv ${displayValue} + Amped Nature`;
+      case "levelnaturelowkey":
+        return `Lv ${displayValue} + Low Key Nature`;
+      case "levelnaturehigh":
+        return `Lv ${displayValue} + High Nature`;
+      case "levelnaturelow":
+        return `Lv ${displayValue} + Low Nature`;
+      case "criticalhits":
+        return `${displayValue || 3} Critical Hits in One Battle`;
+      case "damagetaken":
+        return `Take ${displayValue} Damage in Battle`;
+      case "leveltimerange":
+        return `Lv During Time Range ${displayValue}`;
+      case "flagset":
+        return `Flag ${displayValue} Set`;
+      case "damagelocation":
+        return `Take Damage at Location ${displayValue}`;
+      case "itemlocation":
+        return `Use Item at Location ${displayValue}`;
+      case "gigantamax":
+        return "Gigantamax";
+      case "mega":
+        return displayValue === "" ? "Mega Evolution" : `Mega Evolution w/ ${displayValue}`;
+      case "levelextra":
+        return typeof displayValue === "number" ? `L${displayValue}` : displayValue;
       default:
         return null;
     }
@@ -1295,7 +1388,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     var displayValue = this.normalizeEvolutionDisplayValue(evoData);
     // Method IDs are ROM-engine-specific, while exported method names retain
     // the intended meaning. Only fall back to the numeric Gen 4 table when a
-    // method name is absent or too generic to format on its own.
+    // method name is absent.
     var methodNames = evoSource && Array.isArray(evoSource.evoMethods) ? evoSource.evoMethods : null;
     var methodName = methodNames ? methodNames[branchIndex] : null;
     var namedDisplay = this.formatNamedEvolutionBranchDisplay(methodName, displayValue);
@@ -1324,15 +1417,15 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
       case 7:
         return String(displayValue);
       case 8:
-        return `Lv ${displayValue} + Atk < Def`;
+        return `Lv ${displayValue} + Atk > Def`;
       case 9:
         return `Lv ${displayValue} + Atk = Def`;
       case 10:
-        return `Lv ${displayValue} + Atk > Def`;
+        return `Lv ${displayValue} + Atk < Def`;
       case 11:
-        return `Lv ${displayValue} + PID > 5`;
-      case 12:
         return `Lv ${displayValue} + PID < 5`;
+      case 12:
+        return `Lv ${displayValue} + PID >= 5`;
       case 13:
         return `Lv ${displayValue} (Ninjask)`;
       case 14:

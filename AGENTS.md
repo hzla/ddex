@@ -212,8 +212,13 @@ These arrays are positional. Index `i` in all three arrays describes the same br
 
 Keep them aligned exactly.
 
-Battle-counter methods use their BW2 numeric IDs so the renderer can preserve
-their compact requirements:
+Numeric method IDs are ROM-engine-specific. The renderer treats `evoMethods`
+as authoritative and only uses `evoMethodIds` when a branch has no method name.
+Do not infer a condition from an ID in an exporter; emit one of the semantic
+method names below. This is especially important for expanded Gen 3 and
+HG-Engine ROMs, whose newer IDs overlap other engines' meanings.
+
+Legacy numeric-only battle-counter methods retain their compact requirements:
 
 - `29` (KO Count) renders threshold `5` as `K5`.
 - `30` (Battle Count) renders threshold `6` as `B6`.
@@ -228,11 +233,28 @@ Important:
 
 - `level`
 - `levelFriendship`
+- `levelFriendshipDay`
+- `levelFriendshipNight`
 - `levelMove`
 - `trade`
+- `tradeItem`
 - `useItem`
 - `item`
 - `levelExtra`
+
+Exporters may also use these semantic special-condition methods:
+
+- `useItemMale`, `useItemFemale`
+- `levelAttackGreater`, `levelAttackEqual`, `levelAttackLess`
+- `levelPersonalityLow`, `levelPersonalityHigh`, `levelPersonalityOdd`, `levelPersonalityEven`
+- `levelNinjask`, `levelShedinja`, `beauty`
+- `levelHoldDay`, `levelHoldNight`
+- `levelMoveType`, `levelParty`, `levelPartyType`, `levelDarkParty`
+- `levelMale`, `levelFemale`
+- `levelLocation`, `levelMtCoronet`, `levelEternaForest`, `levelRoute217`, `levelMossRock`, `levelIceRock`
+- `levelDay`, `levelNight`, `levelDusk`, `levelRain`, `levelWeather`
+- `tradeSpecies`, `levelNatureAmped`, `levelNatureLowKey`, `levelNatureHigh`, `levelNatureLow`, `criticalHits`, `damageTaken`
+- `levelTimeRange`, `flagSet`, `damageLocation`, `itemLocation`, `gigantamax`, `mega`
 
 #### `evoParam` expectations by method
 
