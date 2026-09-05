@@ -107,6 +107,33 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Seed Bomb",
+          "Cross Poison",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heavy Slam",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -257,6 +284,33 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Seed Bomb",
+          "Cross Poison",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heavy Slam",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -419,6 +473,33 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Seed Bomb",
+          "Cross Poison",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heavy Slam",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -567,6 +648,36 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "Draco Meteor",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -727,6 +838,36 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "Draco Meteor",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -895,6 +1036,36 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "Draco Meteor",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -1022,6 +1193,34 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Seismic Toss",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -1174,6 +1373,34 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Seismic Toss",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -1342,6 +1569,34 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Seismic Toss",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -1398,6 +1653,32 @@ overrides = {
         "tms": [
           "Hidden Power",
           "Hidden Force"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -1454,6 +1735,32 @@ overrides = {
         "tms": [
           "Hidden Power",
           "Hidden Force"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -1608,6 +1915,33 @@ overrides = {
           "Incinerate",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -1665,7 +1999,8 @@ overrides = {
         "tms": [
           "Hidden Power",
           "Hidden Force"
-        ]
+        ],
+        "tutors": []
       },
       "abs": [
         "Shield Dust",
@@ -1722,6 +2057,35 @@ overrides = {
         "tms": [
           "Hidden Power",
           "Hidden Force"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -1864,6 +2228,35 @@ overrides = {
           "Torment",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -2005,6 +2398,28 @@ overrides = {
           "Incinerate",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -2158,6 +2573,28 @@ overrides = {
           "Incinerate",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -2323,6 +2760,28 @@ overrides = {
           "Incinerate",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -2458,6 +2917,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -2613,6 +3095,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -2751,6 +3256,32 @@ overrides = {
           "Torment",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Drill Run",
+          "Bounce",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -2901,6 +3432,32 @@ overrides = {
           "Torment",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Drill Run",
+          "Bounce",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -3037,6 +3594,31 @@ overrides = {
           "Torment",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -3201,6 +3783,31 @@ overrides = {
           "Torment",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -3355,6 +3962,31 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -3534,6 +4166,32 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -3661,6 +4319,30 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -3823,6 +4505,32 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -3985,6 +4693,45 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -4167,6 +4914,45 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -4370,6 +5156,45 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -4532,6 +5357,45 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -4714,6 +5578,45 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -4917,6 +5820,45 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -5063,6 +6005,46 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -5237,6 +6219,46 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -5378,6 +6400,29 @@ overrides = {
           "Dark Pulse",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Lucky Chant",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -5547,6 +6592,29 @@ overrides = {
           "Dark Pulse",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Lucky Chant",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -5713,6 +6781,44 @@ overrides = {
           "Incinerate",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -5895,6 +7001,44 @@ overrides = {
           "Incinerate",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -6010,6 +7154,28 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Bounce",
+          "Cross Poison",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -6161,6 +7327,28 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Bounce",
+          "Cross Poison",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -6332,6 +7520,28 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Focus Punch",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Seismic Toss",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -6507,6 +7717,28 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Focus Punch",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Seismic Toss",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -6698,6 +7930,28 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Focus Punch",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Seismic Toss",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -6834,6 +8088,27 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Cross Poison",
+          "Double-Edge",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -7010,6 +8285,27 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Cross Poison",
+          "Double-Edge",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -7147,6 +8443,35 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Cross Poison",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -7316,6 +8641,35 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Cross Poison",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -7433,6 +8787,27 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -7582,6 +8957,27 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -7721,6 +9117,32 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Cross Poison",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -7884,6 +9306,32 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Cross Poison",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -8039,6 +9487,41 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -8214,6 +9697,41 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -8354,6 +9872,35 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -8518,6 +10065,35 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -8659,6 +10235,32 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -8820,6 +10422,32 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -8940,6 +10568,34 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -9089,6 +10745,34 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -9262,6 +10946,34 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -9344,6 +11056,35 @@ overrides = {
           "Grass Knot",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -9490,6 +11231,35 @@ overrides = {
           "Grass Knot",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -9656,6 +11426,35 @@ overrides = {
           "Grass Knot",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -9795,6 +11594,29 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -9970,6 +11792,29 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -10145,6 +11990,29 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -10278,6 +12146,25 @@ overrides = {
           "Solar Blade",
           "Rock Smash",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -10439,6 +12326,25 @@ overrides = {
           "Solar Blade",
           "Rock Smash",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -10604,6 +12510,25 @@ overrides = {
           "Solar Blade",
           "Rock Smash",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -10746,6 +12671,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Cross Poison",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -10908,6 +12856,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Cross Poison",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -11044,6 +13015,32 @@ overrides = {
           "Rock Climb",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -11204,6 +13201,32 @@ overrides = {
           "Rock Climb",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -11368,6 +13391,32 @@ overrides = {
           "Rock Climb",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -11501,6 +13550,30 @@ overrides = {
           "Incinerate",
           "Wild Charge",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -11663,6 +13736,30 @@ overrides = {
           "Incinerate",
           "Wild Charge",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -11810,6 +13907,43 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -11989,6 +14123,43 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -12110,6 +14281,26 @@ overrides = {
           "Incinerate",
           "Flash Cannon",
           "Wild Charge"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -12267,6 +14458,26 @@ overrides = {
           "Incinerate",
           "Flash Cannon",
           "Wild Charge"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -12437,6 +14648,36 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -12582,6 +14823,29 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -12743,6 +15007,29 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -12876,6 +15163,26 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Drill Run",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -13041,6 +15348,26 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Drill Run",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -13175,6 +15502,36 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -13345,6 +15702,36 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -13475,6 +15862,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Safeguard",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -13642,6 +16051,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Safeguard",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -13784,6 +16215,28 @@ overrides = {
           "Poison Jab",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Gastro Acid",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -13942,6 +16395,28 @@ overrides = {
           "Poison Jab",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Gastro Acid",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -14116,6 +16591,28 @@ overrides = {
           "Poison Jab",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Gastro Acid",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -14262,6 +16759,24 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -14442,6 +16957,42 @@ overrides = {
           "Incinerate",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -14622,6 +17173,42 @@ overrides = {
           "Incinerate",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -14756,6 +17343,29 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -14918,6 +17528,29 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -15040,6 +17673,28 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Torment"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -15190,6 +17845,28 @@ overrides = {
           "Flash Cannon",
           "Wild Charge",
           "Torment"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -15334,6 +18011,30 @@ overrides = {
           "Solar Blade",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Gravity",
+          "Recycle",
+          "Gastro Acid",
+          "Detect",
+          "Defense Curl",
+          "Worry Seed",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Swift",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -15510,6 +18211,30 @@ overrides = {
           "Solar Blade",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Gravity",
+          "Recycle",
+          "Gastro Acid",
+          "Detect",
+          "Defense Curl",
+          "Worry Seed",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Swift",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -15653,6 +18378,38 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -15821,6 +18578,38 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -15962,6 +18751,29 @@ overrides = {
           "Poison Jab",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -16103,6 +18915,29 @@ overrides = {
           "Poison Jab",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -16256,6 +19091,38 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -16401,6 +19268,27 @@ overrides = {
           "Endure",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -16562,6 +19450,27 @@ overrides = {
           "Endure",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -16716,6 +19625,32 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -16890,6 +19825,32 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -17046,6 +20007,38 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -17209,6 +20202,29 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Focus Punch",
+          "Thunder Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Chilling Water",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -17377,6 +20393,37 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -17509,6 +20556,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Signal Beam",
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -17669,6 +20739,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Signal Beam",
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -17831,6 +20924,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -17989,6 +21102,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -18145,6 +21278,34 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -18317,6 +21478,34 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -18485,6 +21674,42 @@ overrides = {
           "Incinerate",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -18626,6 +21851,35 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -18789,6 +22043,35 @@ overrides = {
           "Grass Knot",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Recycle",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -18936,6 +22219,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -19094,6 +22401,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Scary Face",
+          "Recycle",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -19260,6 +22591,31 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Double-Edge",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -19413,6 +22769,28 @@ overrides = {
           "Torment",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -19462,7 +22840,10 @@ overrides = {
             "Bounce"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": [
+          "Bounce"
+        ]
       },
       "abs": [
         "Swift Swim",
@@ -19630,6 +23011,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -19792,6 +23195,32 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Safeguard",
+          "Double-Edge",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Heavy Slam",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -19829,7 +23258,8 @@ overrides = {
             "Reflect Type"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Imposter",
@@ -19956,6 +23386,32 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Torment"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -20142,6 +23598,34 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -20291,6 +23775,35 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Torment"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -20446,6 +23959,42 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -20572,6 +24121,29 @@ overrides = {
           "Endure",
           "Wild Charge",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -20710,6 +24282,32 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -20872,6 +24470,32 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -21020,6 +24644,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Earth Power",
+          "Knock Off",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -21192,6 +24841,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Earth Power",
+          "Knock Off",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -21343,6 +25017,30 @@ overrides = {
           "Torment",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -21503,6 +25201,41 @@ overrides = {
           "Torment",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -21541,7 +25274,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Ice Body",
@@ -21579,7 +25313,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Lightning Rod",
@@ -21669,7 +25404,8 @@ overrides = {
             "Sunny Day"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Turboblaze",
@@ -21804,6 +25540,41 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -21963,6 +25734,41 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -22143,6 +25949,41 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -22180,7 +26021,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Magic Guard",
@@ -22217,7 +26059,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Magic Guard",
@@ -22340,6 +26183,35 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Seed Bomb",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Fake Tears",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -22492,6 +26364,35 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Seed Bomb",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Fake Tears",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -22648,6 +26549,35 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Seed Bomb",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Fake Tears",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -22790,6 +26720,32 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -22949,6 +26905,32 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -23116,6 +27098,32 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -23257,6 +27265,35 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -23423,6 +27460,35 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -23589,6 +27655,35 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -23735,6 +27830,40 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Skill Swap",
+          "Foul Play",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -23909,6 +28038,40 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Skill Swap",
+          "Foul Play",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -24050,6 +28213,30 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -24211,6 +28398,30 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -24358,6 +28569,41 @@ overrides = {
           "Poison Jab",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Signal Beam",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -24525,6 +28771,41 @@ overrides = {
           "Poison Jab",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Signal Beam",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -24645,6 +28926,27 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Signal Beam",
+          "Bounce",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -24797,6 +29099,27 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Signal Beam",
+          "Bounce",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -24956,6 +29279,28 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Bounce",
+          "Cross Poison",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -25079,6 +29424,24 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Electroweb",
+          "Chilling Water",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -25234,6 +29597,24 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Electroweb",
+          "Chilling Water",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -25348,6 +29729,31 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -25486,6 +29892,46 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -25664,6 +30110,44 @@ overrides = {
           "Incinerate",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -25802,6 +30286,32 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Fly"
+        ],
+        "tutors": [
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Double-Edge",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -25957,6 +30467,32 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Fly"
+        ],
+        "tutors": [
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Double-Edge",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -26116,6 +30652,35 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Earth Power",
+          "Gravity",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -26275,6 +30840,35 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Earth Power",
+          "Gravity",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -26408,6 +31002,32 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Signal Beam",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Helping Hand",
+          "Last Resort",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -26566,6 +31186,32 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Signal Beam",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Helping Hand",
+          "Last Resort",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -26732,6 +31378,32 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Signal Beam",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Helping Hand",
+          "Last Resort",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -26885,6 +31557,30 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Seismic Toss",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -27031,6 +31727,33 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -27197,6 +31920,33 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -27353,6 +32103,39 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Worry Seed",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -27510,6 +32293,34 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -27643,6 +32454,29 @@ overrides = {
           "Solar Blade",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -27792,6 +32626,29 @@ overrides = {
           "Solar Blade",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -27949,6 +32806,29 @@ overrides = {
           "Solar Blade",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -28065,6 +32945,33 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -28205,6 +33112,30 @@ overrides = {
           "Incinerate",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -28353,6 +33284,30 @@ overrides = {
           "Incinerate",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -28476,6 +33431,26 @@ overrides = {
           "X-Scissor",
           "Endure",
           "Dark Pulse"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Psychic Noise",
+          "Bounce",
+          "Roost",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -28623,6 +33598,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Focus Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Defog",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -28790,6 +33785,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Focus Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Defog",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -28944,6 +33959,36 @@ overrides = {
           "Dark Pulse",
           "Rock Smash",
           "Torment"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -29093,6 +34138,39 @@ overrides = {
           "Dark Pulse",
           "Rock Smash",
           "Torment"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -29223,6 +34301,31 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -29403,6 +34506,43 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -29540,6 +34680,26 @@ overrides = {
           "Dark Pulse",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Gravity",
+          "Helping Hand",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -29691,6 +34851,32 @@ overrides = {
           "Incinerate",
           "Flash Cannon",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -29788,7 +34974,14 @@ overrides = {
             "Teleport"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Safeguard",
+          "Detect",
+          "Lucky Chant"
+        ]
       },
       "abs": [
         "Magic Bounce",
@@ -29947,6 +35140,38 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -30074,6 +35299,27 @@ overrides = {
           "Flash Cannon",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -30238,6 +35484,27 @@ overrides = {
           "Flash Cannon",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -30394,6 +35661,33 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -30540,6 +35834,26 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -30698,6 +36012,24 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -30850,6 +36182,35 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -31034,6 +36395,35 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -31173,6 +36563,34 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Defog",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -31314,6 +36732,35 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -31459,6 +36906,23 @@ overrides = {
           "Rock Climb",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Earth Power",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -31616,6 +37080,32 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Electroweb",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -31758,6 +37248,29 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -31924,6 +37437,38 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -32102,6 +37647,38 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -32240,6 +37817,23 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Earth Power",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -32398,6 +37992,23 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Earth Power",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -32531,6 +38142,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -32688,6 +38323,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -32862,6 +38521,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Safeguard",
+          "Earth Power",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -33019,6 +38700,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Bounce",
+          "Cross Poison",
+          "Scary Face",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -33205,6 +38909,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Bounce",
+          "Cross Poison",
+          "Scary Face",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -33348,6 +39075,34 @@ overrides = {
           "Torment",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Roost",
+          "Double-Edge",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -33490,6 +39245,27 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -33633,6 +39409,24 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Roost",
+          "Double-Edge",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Defog",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -33771,6 +39565,25 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -33941,6 +39754,25 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -34101,6 +39933,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Signal Beam",
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -34239,6 +40094,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -34393,6 +40270,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -34539,6 +40438,29 @@ overrides = {
           "Endure",
           "Wild Charge",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -34719,6 +40641,32 @@ overrides = {
           "Wild Charge",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -34894,6 +40842,75 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Fire Pledge",
+          "Water Pledge",
+          "Frenzy Plant",
+          "Blast Burn",
+          "Hydro Cannon",
+          "Draco Meteor",
+          "U-turn",
+          "Seed Bomb",
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Worry Seed",
+          "Overheat",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -34991,6 +41008,29 @@ overrides = {
           "Poison Jab",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -35164,6 +41204,29 @@ overrides = {
           "Poison Jab",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -35303,6 +41366,35 @@ overrides = {
           "Grass Knot",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Recycle",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -35446,6 +41538,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -35596,6 +41712,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Scary Face",
+          "Recycle",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -35762,6 +41902,41 @@ overrides = {
           "Rock Smash",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -35914,6 +42089,38 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -35951,7 +42158,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Volt Absorb",
@@ -35988,7 +42196,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Flash Fire",
@@ -36025,7 +42234,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Water Absorb",
@@ -36155,6 +42365,37 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -36309,6 +42550,37 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -36479,6 +42751,37 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -36517,7 +42820,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Multiscale",
@@ -36555,7 +42859,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Regenerator",
@@ -36684,6 +42989,37 @@ overrides = {
           "Incinerate",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Sweet Scent",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Outrage",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -36828,6 +43164,30 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Draco Meteor",
+          "U-turn",
+          "Seed Bomb",
+          "Focus Punch",
+          "Thunder Punch",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -36993,6 +43353,30 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Draco Meteor",
+          "U-turn",
+          "Seed Bomb",
+          "Focus Punch",
+          "Thunder Punch",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -37170,6 +43554,30 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Draco Meteor",
+          "U-turn",
+          "Seed Bomb",
+          "Focus Punch",
+          "Thunder Punch",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -37305,6 +43713,36 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "U-turn",
+          "Foul Play",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -37461,6 +43899,36 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "U-turn",
+          "Foul Play",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -37621,6 +44089,36 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "U-turn",
+          "Foul Play",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -37742,6 +44240,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Barrier",
+          "Earth Power",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -37888,6 +44411,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Barrier",
+          "Earth Power",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -38046,6 +44594,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Barrier",
+          "Earth Power",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -38171,6 +44744,25 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -38328,6 +44920,25 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -38465,6 +45076,33 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -38634,6 +45272,33 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -38690,7 +45355,8 @@ overrides = {
         "tms": [
           "Hidden Power",
           "Hidden Force"
-        ]
+        ],
+        "tutors": []
       },
       "abs": [
         "Poison Touch",
@@ -38763,7 +45429,8 @@ overrides = {
         "tms": [
           "Hidden Power",
           "Hidden Force"
-        ]
+        ],
+        "tutors": []
       },
       "abs": [
         "Battle Armor",
@@ -38914,6 +45581,28 @@ overrides = {
           "Play Rough",
           "Grass Knot",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Defog",
+          "Electroweb",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -38971,7 +45660,8 @@ overrides = {
         "tms": [
           "Hidden Power",
           "Hidden Force"
-        ]
+        ],
+        "tutors": []
       },
       "abs": [
         "Battle Armor",
@@ -39125,6 +45815,30 @@ overrides = {
           "Play Rough",
           "Grass Knot",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Cross Poison",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Defog",
+          "Electroweb",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -39240,6 +45954,36 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Swift",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -39387,6 +46131,36 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Swift",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -39554,6 +46328,36 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Swift",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -39664,6 +46468,29 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -39815,6 +46642,29 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -39994,6 +46844,29 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -40114,6 +46987,27 @@ overrides = {
           "Incinerate",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -40262,6 +47156,27 @@ overrides = {
           "Incinerate",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -40406,6 +47321,31 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -40574,6 +47514,31 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -40703,6 +47668,37 @@ overrides = {
           "Grass Knot",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -40852,6 +47848,37 @@ overrides = {
           "Grass Knot",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -41025,6 +48052,37 @@ overrides = {
           "Grass Knot",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -41125,6 +48183,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Scary Face",
+          "Sweet Scent",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -41285,6 +48366,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Scary Face",
+          "Sweet Scent",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -41399,6 +48503,31 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -41566,6 +48695,31 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -41685,6 +48839,34 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -41836,6 +49018,34 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -42003,6 +49213,34 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -42106,6 +49344,30 @@ overrides = {
           "Solar Blade",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -42250,6 +49512,30 @@ overrides = {
           "Solar Blade",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -42384,6 +49670,30 @@ overrides = {
           "Torment",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -42513,6 +49823,37 @@ overrides = {
           "Torment",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -42674,6 +50015,37 @@ overrides = {
           "Torment",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -42839,6 +50211,37 @@ overrides = {
           "Torment",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -42959,6 +50362,33 @@ overrides = {
           "Surf",
           "Strength",
           "Waterfall"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -43123,6 +50553,33 @@ overrides = {
           "Surf",
           "Strength",
           "Waterfall"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -43225,6 +50682,33 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -43374,6 +50858,31 @@ overrides = {
           "Flash Cannon",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Body Press",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -43536,6 +51045,35 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Skill Swap",
+          "Foul Play",
+          "Psychic Noise",
+          "Safeguard",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -43706,6 +51244,35 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Skill Swap",
+          "Foul Play",
+          "Psychic Noise",
+          "Safeguard",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -43859,6 +51426,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -44011,6 +51602,34 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -44159,6 +51778,37 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -44332,6 +51982,37 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -44517,6 +52198,37 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -44643,10 +52355,40 @@ overrides = {
           "Rock Climb",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
-        "Pure Power",
+        "Huge Power",
         " -",
         " -",
         "Stench",
@@ -44805,10 +52547,40 @@ overrides = {
           "Rock Climb",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
-        "Pure Power",
+        "Huge Power",
         " -",
         " -",
         "Stench",
@@ -44940,6 +52712,25 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Electroweb",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -45107,6 +52898,25 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Electroweb",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -45256,6 +53066,35 @@ overrides = {
           "Incinerate",
           "Wild Charge",
           "Torment"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Fire Pledge",
+          "Water Pledge",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Overheat",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -45409,6 +53248,35 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Fire Pledge",
+          "Water Pledge",
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -45561,6 +53429,32 @@ overrides = {
           "Endure",
           "Play Rough",
           "Torment"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Roost",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -45713,6 +53607,32 @@ overrides = {
           "Endure",
           "Play Rough",
           "Torment"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Roost",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -45839,6 +53759,25 @@ overrides = {
           "Rock Climb",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Cross Poison",
+          "Safeguard",
+          "Earth Power",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -46011,6 +53950,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -46179,6 +54140,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -46310,6 +54293,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Screech",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -46469,6 +54472,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Screech",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -46612,6 +54635,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -46771,6 +54814,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -46912,6 +54975,24 @@ overrides = {
           "Flash Cannon",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -47077,6 +55158,24 @@ overrides = {
           "Flash Cannon",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -47228,6 +55327,25 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -47360,6 +55478,40 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -47536,6 +55688,40 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -47687,6 +55873,39 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Foul Play",
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -47812,6 +56031,32 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "U-turn",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Defog",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -47973,6 +56218,32 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "U-turn",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Defog",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -48146,6 +56417,32 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "U-turn",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Defog",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -48293,6 +56590,26 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Earth Power",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -48476,6 +56793,26 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Earth Power",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -48636,6 +56973,29 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Surf"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Swift",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -48824,6 +57184,29 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Surf"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Swift",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -48985,6 +57368,33 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -49141,6 +57551,28 @@ overrides = {
           "Solar Blade",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Cross Poison",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Screech",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -49292,6 +57724,31 @@ overrides = {
           "Grass Knot",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Swift",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -49447,6 +57904,33 @@ overrides = {
           "Incinerate",
           "Solar Blade",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Swift",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -49573,6 +58057,27 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Bounce",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -49747,6 +58252,27 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Bounce",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -49883,6 +58409,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -50052,6 +58600,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -50197,6 +58767,29 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Drill Run",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Gravity",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Lucky Chant",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -50362,6 +58955,29 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Drill Run",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Gravity",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Lucky Chant",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -50490,6 +59106,27 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Counter",
+          "Cross Poison",
+          "Barrier",
+          "Earth Power",
+          "Scary Face",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Chilling Water",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -50658,6 +59295,27 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Counter",
+          "Cross Poison",
+          "Barrier",
+          "Earth Power",
+          "Scary Face",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Chilling Water",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -50795,6 +59453,29 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -50964,6 +59645,29 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -51017,7 +59721,8 @@ overrides = {
             "Mirror Coat"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Adaptability",
@@ -51176,6 +59881,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Sweet Scent",
+          "Muddy Water",
+          "Helping Hand",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -51343,6 +60071,33 @@ overrides = {
           "Incinerate",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Bounce",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -51520,6 +60275,38 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Skill Swap",
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -51642,6 +60429,28 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -51808,6 +60617,28 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -51940,6 +60771,32 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -52104,6 +60961,32 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -52276,6 +61159,29 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Defog",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -52433,6 +61339,34 @@ overrides = {
           "Incinerate",
           "Flash Cannon",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -52604,6 +61538,33 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -52701,7 +61662,14 @@ overrides = {
             "Teleport"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Safeguard",
+          "Detect",
+          "Lucky Chant"
+        ]
       },
       "abs": [
         "Magic Bounce",
@@ -52820,6 +61788,26 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Safeguard",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -52987,6 +61975,32 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Safeguard",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -53124,6 +62138,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -53273,6 +62309,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -53434,6 +62492,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -53545,6 +62625,22 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Safeguard",
+          "Recycle",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -53710,6 +62806,29 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -53860,6 +62979,31 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Bounce",
+          "Cross Poison",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Defense Curl",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Swift",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -54015,6 +63159,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -54149,6 +63318,25 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Sweet Scent",
+          "Muddy Water",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -54275,6 +63463,29 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Defog",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -54421,6 +63632,29 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Defog",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -54596,6 +63830,29 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Defog",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -54704,6 +63961,29 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Thunder Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Body Press",
+          "Psyblade",
+          "Helping Hand",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -54848,6 +64128,29 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Thunder Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Body Press",
+          "Psyblade",
+          "Helping Hand",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -55012,6 +64315,29 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Thunder Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Body Press",
+          "Psyblade",
+          "Helping Hand",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -55049,7 +64375,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Solid Rock",
@@ -55086,7 +64413,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Heatproof",
@@ -55123,7 +64451,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Heatproof",
@@ -55161,7 +64490,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -55199,7 +64529,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -55236,7 +64567,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Drizzle",
@@ -55273,7 +64605,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Drought",
@@ -55311,7 +64644,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Air Lock",
@@ -55349,7 +64683,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Serene Grace",
@@ -55386,7 +64721,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Exploit",
@@ -55520,6 +64856,28 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Worry Seed",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -55671,6 +65029,28 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Worry Seed",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -55830,6 +65210,28 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Worry Seed",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -55959,6 +65361,37 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -56121,6 +65554,37 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -56291,6 +65755,37 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -56421,6 +65916,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -56583,6 +66100,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -56754,6 +66293,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -56854,6 +66415,25 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Defog",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -56986,6 +66566,25 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Defog",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -57130,6 +66729,25 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Defog",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -57266,6 +66884,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Drill Run",
+          "Bounce",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -57431,6 +67071,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Drill Run",
+          "Bounce",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -57536,6 +67198,34 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Cross Poison",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -57698,6 +67388,34 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Cross Poison",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -57828,6 +67546,27 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -57986,6 +67725,27 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -58160,6 +67920,27 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -58278,6 +68059,25 @@ overrides = {
           "Rock Climb",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Cross Poison",
+          "Safeguard",
+          "Earth Power",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -58432,6 +68232,25 @@ overrides = {
           "Rock Climb",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Cross Poison",
+          "Safeguard",
+          "Earth Power",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -58562,6 +68381,31 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -58720,6 +68564,31 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -58864,6 +68733,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -59032,6 +68923,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -59097,7 +69010,8 @@ overrides = {
             "Protect"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Battle Armor",
@@ -59270,6 +69184,34 @@ overrides = {
           "Endure",
           "Grass Knot",
           "Rock Smash"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -59425,6 +69367,32 @@ overrides = {
           "Grass Knot",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Defog",
+          "Seismic Toss",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -59566,6 +69534,31 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Defog",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -59735,6 +69728,31 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Defog",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -59867,6 +69885,25 @@ overrides = {
           "Wild Charge",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Thunder Punch",
+          "Double-Edge",
+          "Helping Hand",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -59995,6 +70032,29 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Swift",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -60163,6 +70223,29 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Focus Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Swift",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -60282,6 +70365,26 @@ overrides = {
           "Grass Knot",
           "Incinerate",
           "Solar Blade"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Bounce",
+          "Fire Punch",
+          "Double-Edge",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -60438,6 +70541,26 @@ overrides = {
           "Grass Knot",
           "Incinerate",
           "Solar Blade"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Bounce",
+          "Fire Punch",
+          "Double-Edge",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -60577,6 +70700,20 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Earth Power",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -60748,6 +70885,22 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Safeguard",
+          "Earth Power",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -60896,6 +71049,33 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -61037,6 +71217,26 @@ overrides = {
           "Torment",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -61206,6 +71406,26 @@ overrides = {
           "Torment",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -61338,6 +71558,35 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -61498,6 +71747,35 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -61643,6 +71921,26 @@ overrides = {
           "Dark Pulse",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Gravity",
+          "Helping Hand",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -61781,6 +72079,31 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -61914,6 +72237,29 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -62079,6 +72425,29 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -62184,6 +72553,34 @@ overrides = {
           "Incinerate",
           "Flash Cannon",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -62336,6 +72733,25 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Cross Poison",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -62504,6 +72920,25 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Cross Poison",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -62649,6 +73084,27 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Body Press",
+          "Psyblade",
+          "Helping Hand",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -62818,6 +73274,27 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Body Press",
+          "Psyblade",
+          "Helping Hand",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -62973,6 +73450,39 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Worry Seed",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -63125,6 +73635,41 @@ overrides = {
           "Incinerate",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -63241,6 +73786,38 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -63373,6 +73950,27 @@ overrides = {
           "Dark Pulse",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Psychic Noise",
+          "Bounce",
+          "Roost",
+          "Double-Edge",
+          "Recycle",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -63512,6 +74110,25 @@ overrides = {
           "Endure",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -63639,6 +74256,25 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Earth Power",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Seismic Toss",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -63798,6 +74434,25 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Earth Power",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Seismic Toss",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -63965,6 +74620,25 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Cross Poison",
+          "Earth Power",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Screech",
+          "Seismic Toss",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -64089,6 +74763,41 @@ overrides = {
           "Torment",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Last Resort",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -64238,6 +74947,25 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Barrier",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -64416,6 +75144,25 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Barrier",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -64536,6 +75283,24 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -64688,6 +75453,24 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -64824,6 +75607,24 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Drill Run",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -64988,6 +75789,24 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Drill Run",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -65134,6 +75953,31 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -65300,6 +76144,31 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -65456,6 +76325,28 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Counter",
+          "Bounce",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heavy Slam",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Chilling Water",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -65605,6 +76496,25 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -65766,6 +76676,27 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -65892,6 +76823,27 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -66038,6 +76990,27 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Focus Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -66196,6 +77169,27 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Focus Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -66358,6 +77352,29 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -66507,6 +77524,26 @@ overrides = {
           "Incinerate",
           "Flash Cannon",
           "Wild Charge"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -66669,6 +77706,38 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -66831,6 +77900,32 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -66983,6 +78078,29 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Focus Punch",
+          "Thunder Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Chilling Water",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -67146,6 +78264,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -67308,6 +78450,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Scary Face",
+          "Recycle",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -67459,6 +78625,32 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Fly"
+        ],
+        "tutors": [
+          "Psychic Noise",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Double-Edge",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -67598,6 +78790,26 @@ overrides = {
           "X-Scissor",
           "Endure",
           "Dark Pulse"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Psychic Noise",
+          "Bounce",
+          "Roost",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -67755,6 +78967,38 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Cross Poison",
+          "Safeguard",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -67905,6 +79149,37 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Skill Swap",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -68063,6 +79338,26 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -68216,6 +79511,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -68362,6 +79681,28 @@ overrides = {
           "Endure",
           "Wild Charge",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Barrier",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -68534,6 +79875,40 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -68688,6 +80063,31 @@ overrides = {
           "Flash Cannon",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Body Press",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -68849,6 +80249,32 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -69003,6 +80429,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -69174,6 +80624,28 @@ overrides = {
           "Wild Charge",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -69228,7 +80700,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -69266,7 +80739,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -69304,7 +80778,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -69342,7 +80817,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Patient",
@@ -69380,7 +80856,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Marvel Scale",
@@ -69418,7 +80895,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Flash Fire",
@@ -69455,7 +80933,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Slow Start",
@@ -69493,7 +80972,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Cursed Body",
@@ -69538,7 +81018,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -69618,6 +81099,47 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Gastro Acid",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -69698,6 +81220,47 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Gastro Acid",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -69735,7 +81298,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Bad Dreams",
@@ -69772,7 +81336,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Serene Grace",
@@ -69817,7 +81382,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Multitype",
@@ -69969,6 +81535,24 @@ overrides = {
           "Solar Blade",
           "Wild Charge",
           "Rock Smash"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Bounce",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Roost",
+          "Recycle",
+          "Psyblade",
+          "Heavy Slam",
+          "Overheat",
+          "Trick Room",
+          "Seismic Toss",
+          "Electroweb",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -70104,6 +81688,38 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Draco Meteor",
+          "Seed Bomb",
+          "Foul Play",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Worry Seed",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -70268,6 +81884,38 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Draco Meteor",
+          "Seed Bomb",
+          "Foul Play",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Worry Seed",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -70448,6 +82096,38 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Grass Pledge",
+          "Frenzy Plant",
+          "Draco Meteor",
+          "Seed Bomb",
+          "Foul Play",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Worry Seed",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -70576,6 +82256,36 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -70729,6 +82439,36 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -70906,6 +82646,36 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Fire Pledge",
+          "Blast Burn",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -71058,6 +82828,37 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -71235,6 +83036,37 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -71428,6 +83260,37 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Water Pledge",
+          "Hydro Cannon",
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -71560,6 +83423,35 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -71724,6 +83616,35 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -71842,6 +83763,25 @@ overrides = {
           "Rock Smash",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -71984,6 +83924,25 @@ overrides = {
           "Rock Smash",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -72142,6 +84101,25 @@ overrides = {
           "Rock Smash",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -72286,6 +84264,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Cross Poison",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -72442,6 +84442,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Cross Poison",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -72573,6 +84595,32 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Focus Punch",
+          "Thunder Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -72736,6 +84784,32 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Focus Punch",
+          "Thunder Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -72883,6 +84957,33 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -73046,6 +85147,33 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -73195,6 +85323,35 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Focus Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -73360,6 +85517,35 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Focus Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -73519,6 +85705,30 @@ overrides = {
           "Play Rough",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Barrier",
+          "Gravity",
+          "Scary Face",
+          "Sweet Scent",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -73686,6 +85896,30 @@ overrides = {
           "Play Rough",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Barrier",
+          "Gravity",
+          "Scary Face",
+          "Sweet Scent",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -73798,6 +86032,28 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -73934,6 +86190,28 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -74082,6 +86360,28 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -74221,6 +86521,24 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Torment"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Signal Beam",
+          "Drill Run",
+          "Bounce",
+          "Double-Edge",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -74388,6 +86706,24 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Torment"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Signal Beam",
+          "Drill Run",
+          "Bounce",
+          "Double-Edge",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -74514,6 +86850,26 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Safeguard",
+          "Earth Power",
+          "Gravity",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -74664,6 +87020,26 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Safeguard",
+          "Earth Power",
+          "Gravity",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -74826,6 +87202,26 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Safeguard",
+          "Earth Power",
+          "Gravity",
+          "Body Press",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -74957,6 +87353,35 @@ overrides = {
           "Solar Blade",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -75120,6 +87545,35 @@ overrides = {
           "Solar Blade",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Bounce",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Lucky Chant",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Seismic Toss",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -75250,6 +87704,24 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -75401,6 +87873,24 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -75557,6 +88047,35 @@ overrides = {
           "Solar Blade",
           "Wild Charge",
           "Surf"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Gravity",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Defense Curl",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -75684,6 +88203,28 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -75828,6 +88369,28 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -75988,6 +88551,28 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -76121,6 +88706,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -76282,6 +88892,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -76451,6 +89086,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Safeguard",
+          "Thunder Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Body Press",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Low Sweep",
+          "Endeavor",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -76590,6 +89250,31 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -76729,6 +89414,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -76833,6 +89542,30 @@ overrides = {
           "Rock Climb",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Cross Poison",
+          "Safeguard",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -76957,6 +89690,30 @@ overrides = {
           "Rock Climb",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Cross Poison",
+          "Safeguard",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -77121,6 +89878,30 @@ overrides = {
           "Rock Climb",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Cross Poison",
+          "Safeguard",
+          "Recycle",
+          "Sweet Scent",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Defog",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -77237,6 +90018,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -77377,6 +90181,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -77533,6 +90360,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -77667,6 +90517,29 @@ overrides = {
           "Torment",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Safeguard",
+          "Knock Off",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Lucky Chant",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -77837,6 +90710,29 @@ overrides = {
           "Torment",
           "Cut",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Safeguard",
+          "Knock Off",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Lucky Chant",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Chilling Water",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -77960,6 +90856,30 @@ overrides = {
           "Rock Climb",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Psychic Noise",
+          "Thunder Punch",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -78120,6 +91040,30 @@ overrides = {
           "Rock Climb",
           "Solar Blade",
           "Cut"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Psychic Noise",
+          "Thunder Punch",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Lucky Chant",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -78263,6 +91207,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -78415,6 +91379,33 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -78579,6 +91570,33 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -78751,6 +91769,33 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -78897,6 +91942,40 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Fire Punch",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -79071,6 +92150,40 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Fire Punch",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -79221,6 +92334,31 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Psychic Noise",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Thunder Punch",
+          "Earth Power",
+          "Double-Edge",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Lucky Chant",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -79372,6 +92510,28 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -79535,6 +92695,28 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -79690,6 +92872,33 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -79857,6 +93066,33 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Gastro Acid",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -80010,6 +93246,29 @@ overrides = {
           "Solar Blade",
           "Torment",
           "Fly"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Roost",
+          "Barrier",
+          "Earth Power",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Trick Room",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -80154,6 +93413,22 @@ overrides = {
           "Dark Pulse",
           "Flash Cannon",
           "Torment"
+        ],
+        "tutors": [
+          "Counter",
+          "Safeguard",
+          "Earth Power",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Natural Gift",
+          "Magic Coat",
+          "Snore"
         ]
       },
       "abs": [
@@ -80314,6 +93589,22 @@ overrides = {
           "Dark Pulse",
           "Flash Cannon",
           "Torment"
+        ],
+        "tutors": [
+          "Counter",
+          "Safeguard",
+          "Earth Power",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Natural Gift",
+          "Magic Coat",
+          "Snore"
         ]
       },
       "abs": [
@@ -80470,6 +93761,30 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -80638,6 +93953,30 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Chilling Water",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -80792,6 +94131,30 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Drill Run",
+          "Bounce",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -80962,6 +94325,30 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Drill Run",
+          "Bounce",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -81105,6 +94492,29 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -81264,6 +94674,29 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -81397,6 +94830,29 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -81558,6 +95014,29 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Knock Off",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Swift",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -81698,6 +95177,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -81858,6 +95361,30 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Barrier",
+          "Double-Edge",
+          "Knock Off",
+          "Recycle",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -82001,6 +95528,33 @@ overrides = {
           "Incinerate",
           "Solar Blade",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -82156,6 +95710,33 @@ overrides = {
           "Incinerate",
           "Solar Blade",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -82331,6 +95912,33 @@ overrides = {
           "Incinerate",
           "Solar Blade",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Foul Play",
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Seismic Toss",
+          "Icy Wind",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -82472,6 +96080,29 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Seismic Toss",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -82637,6 +96268,29 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Seismic Toss",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -82806,6 +96460,29 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Psychic Noise",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Barrier",
+          "Gravity",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Swift",
+          "Seismic Toss",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -82933,6 +96610,22 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -83092,6 +96785,22 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -83216,6 +96925,27 @@ overrides = {
           "Flash Cannon",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -83372,6 +97102,27 @@ overrides = {
           "Flash Cannon",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -83536,6 +97287,27 @@ overrides = {
           "Flash Cannon",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Defense Curl",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -83672,6 +97444,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -83856,6 +97651,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -84017,6 +97835,28 @@ overrides = {
           "Wild Charge",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Bounce",
+          "Roost",
+          "Double-Edge",
+          "Knock Off",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -84152,6 +97992,26 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -84304,6 +98164,26 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -84444,6 +98324,26 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Torment"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -84600,6 +98500,26 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Torment"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Sweet Scent",
+          "Gastro Acid",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -84728,6 +98648,22 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Signal Beam",
+          "Safeguard",
+          "Double-Edge",
+          "Muddy Water",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -84888,6 +98824,22 @@ overrides = {
           "Surf",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Signal Beam",
+          "Safeguard",
+          "Double-Edge",
+          "Muddy Water",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -85029,6 +98981,31 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Lucky Chant",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -85172,6 +99149,22 @@ overrides = {
           "Rock Climb",
           "Wild Charge",
           "Cut"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Bounce",
+          "Scary Face",
+          "Gastro Acid",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -85327,6 +99320,22 @@ overrides = {
           "Rock Climb",
           "Wild Charge",
           "Cut"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Bounce",
+          "Scary Face",
+          "Gastro Acid",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -85462,6 +99471,26 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Gravity",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Heavy Slam",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -85617,6 +99646,26 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Gravity",
+          "Knock Off",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Heavy Slam",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Screech",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -85735,6 +99784,22 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -85877,6 +99942,22 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -86031,6 +100112,22 @@ overrides = {
           "Wild Charge",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -86129,6 +100226,31 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -86291,6 +100413,31 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -86469,6 +100616,31 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Bounce",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Scary Face",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -86611,6 +100783,28 @@ overrides = {
           "Dark Pulse",
           "Flash Cannon",
           "Solar Blade"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -86769,6 +100963,28 @@ overrides = {
           "Dark Pulse",
           "Flash Cannon",
           "Solar Blade"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Signal Beam",
+          "Psychic Noise",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Seismic Toss",
+          "Electroweb",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -86893,6 +101109,22 @@ overrides = {
           "Dark Pulse",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Barrier",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -87037,6 +101269,22 @@ overrides = {
           "Dark Pulse",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Barrier",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -87193,6 +101441,22 @@ overrides = {
           "Dark Pulse",
           "Incinerate",
           "Torment"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Barrier",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -87327,6 +101591,30 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -87486,6 +101774,30 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -87653,6 +101965,30 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Cross Poison",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -87810,6 +102146,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -87984,6 +102342,28 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Drill Run",
+          "Bounce",
+          "Focus Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Fake Tears",
+          "Seismic Toss",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -88135,6 +102515,27 @@ overrides = {
           "Dark Pulse",
           "Flash Cannon",
           "Torment"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Counter",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Screech",
+          "Seismic Toss",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -88262,6 +102663,29 @@ overrides = {
           "Poison Jab",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Signal Beam",
+          "Cross Poison",
+          "Knock Off",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Electroweb",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -88418,6 +102842,29 @@ overrides = {
           "Poison Jab",
           "Dark Pulse",
           "Torment"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Signal Beam",
+          "Cross Poison",
+          "Knock Off",
+          "Gastro Acid",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Screech",
+          "Electroweb",
+          "Chilling Water",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -88572,6 +103019,25 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Drill Run",
+          "Bounce",
+          "Cross Poison",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -88720,6 +103186,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -88892,6 +103380,28 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Bounce",
+          "Focus Punch",
+          "Double-Edge",
+          "Knock Off",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Seismic Toss",
+          "Low Sweep",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -89046,6 +103556,38 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Seismic Toss",
+          "Low Sweep",
+          "Endeavor",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -89194,6 +103736,31 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -89370,6 +103937,31 @@ overrides = {
           "Rock Smash",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Focus Punch",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Earth Power",
+          "Gravity",
+          "Recycle",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Defense Curl",
+          "Heavy Slam",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -89500,6 +104092,26 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -89658,6 +104270,26 @@ overrides = {
           "Rock Smash",
           "Torment",
           "Cut"
+        ],
+        "tutors": [
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Cross Poison",
+          "Thunder Punch",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -89803,6 +104435,27 @@ overrides = {
           "Cut",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Counter",
+          "Drill Run",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Heavy Slam",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -89931,6 +104584,27 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Drill Run",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -90079,6 +104753,27 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Counter",
+          "Drill Run",
+          "Safeguard",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Defog",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -90214,6 +104909,25 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Defog",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -90369,6 +105083,25 @@ overrides = {
           "Cut",
           "Fly",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Foul Play",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Knock Off",
+          "Recycle",
+          "Helping Hand",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Fake Tears",
+          "Defog",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -90529,6 +105262,32 @@ overrides = {
           "Torment",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Foul Play",
+          "Counter",
+          "Focus Punch",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Earth Power",
+          "Knock Off",
+          "Gastro Acid",
+          "Helping Hand",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -90672,6 +105431,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Double-Edge",
+          "Scary Face",
+          "Body Press",
+          "Detect",
+          "Helping Hand",
+          "Heavy Slam",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Electroweb",
+          "Low Sweep",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -90807,6 +105589,33 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "U-turn",
+          "Foul Play",
+          "Safeguard",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -90958,6 +105767,33 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "U-turn",
+          "Foul Play",
+          "Safeguard",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -91129,6 +105965,33 @@ overrides = {
           "Fly",
           "Surf",
           "Strength"
+        ],
+        "tutors": [
+          "Draco Meteor",
+          "U-turn",
+          "Foul Play",
+          "Safeguard",
+          "Roost",
+          "Earth Power",
+          "Double-Edge",
+          "Knock Off",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Defog",
+          "Low Sweep",
+          "Breaking Swipe",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -91255,6 +106118,26 @@ overrides = {
           "Incinerate",
           "Wild Charge",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Defog",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -91417,6 +106300,26 @@ overrides = {
           "Incinerate",
           "Wild Charge",
           "Fly"
+        ],
+        "tutors": [
+          "U-turn",
+          "Signal Beam",
+          "Roost",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Rest",
+          "Toxic",
+          "Brutal Swing",
+          "Defog",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -91455,7 +106358,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Intimidate",
@@ -91493,7 +106397,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Justified",
@@ -91531,7 +106436,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Hyper Cutter",
@@ -91568,7 +106474,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Prankster",
@@ -91614,7 +106521,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Prankster",
@@ -91660,7 +106568,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Turboblaze",
@@ -91698,7 +106607,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Teravolt",
@@ -91736,7 +106646,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Sand Force",
@@ -91782,7 +106693,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Ice Body",
@@ -91830,7 +106742,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Justified",
@@ -91876,7 +106789,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Serene Grace",
@@ -91922,7 +106836,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Exploit",
@@ -91996,7 +106911,8 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
-        ]
+        ],
+        "tutors": []
       },
       "abs": [
         " -",
@@ -92070,7 +106986,8 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
-        ]
+        ],
+        "tutors": []
       },
       "abs": [
         "Drizzle",
@@ -92224,6 +107141,31 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -92379,6 +107321,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -92537,6 +107502,29 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Strength"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Sweet Scent",
+          "Detect",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Healing Wish",
+          "Rest",
+          "Toxic",
+          "Superpower",
+          "Screech",
+          "Low Sweep",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -92681,6 +107669,25 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -92837,6 +107844,25 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Seed Bomb",
+          "Counter",
+          "Drill Run",
+          "Safeguard",
+          "Barrier",
+          "Earth Power",
+          "Gastro Acid",
+          "Muddy Water",
+          "Helping Hand",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -92873,7 +107899,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Huge Power",
@@ -92907,7 +107934,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Thunder Armor",
@@ -92941,7 +107969,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Neutralizing Gas",
@@ -92976,7 +108005,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Volt Absorb",
@@ -93011,7 +108041,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Wonder Guard",
@@ -93045,7 +108076,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Blaze",
@@ -93079,7 +108111,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Refrigerate",
@@ -93114,7 +108147,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -93149,7 +108183,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -93183,7 +108218,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Patient",
@@ -93218,7 +108254,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Flash Fire",
@@ -93252,7 +108289,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Motor Drive",
@@ -93286,7 +108324,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Huge Power",
@@ -93320,7 +108359,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Huge Power",
@@ -93354,7 +108394,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Thunder Armor",
@@ -93388,7 +108429,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Neutralizing Gas",
@@ -93423,7 +108465,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Wonder Guard",
@@ -93457,7 +108500,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Blaze",
@@ -93491,7 +108535,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Refrigerate",
@@ -93526,7 +108571,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Volt Absorb",
@@ -93561,7 +108607,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Reckless",
@@ -93595,7 +108642,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Huge Power",
@@ -93630,7 +108678,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -93664,7 +108713,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Huge Power",
@@ -93699,7 +108749,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Reckless",
@@ -93733,7 +108784,8 @@ overrides = {
             "Concuss"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Huge Power",
@@ -93803,7 +108855,8 @@ overrides = {
             "Sketch"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Quick Draw",
@@ -93837,7 +108890,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Exploit",
@@ -93873,7 +108927,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Exploit",
@@ -93909,7 +108964,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Exploit",
@@ -94051,6 +109107,34 @@ overrides = {
           "Grass Knot",
           "Rock Climb",
           "Rock Smash"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -94195,6 +109279,34 @@ overrides = {
           "Grass Knot",
           "Flash Cannon",
           "Rock Smash"
+        ],
+        "tutors": [
+          "U-turn",
+          "Seed Bomb",
+          "Signal Beam",
+          "Counter",
+          "Psychic Noise",
+          "Drill Run",
+          "Safeguard",
+          "Earth Power",
+          "Double-Edge",
+          "Recycle",
+          "Body Press",
+          "Sweet Scent",
+          "Helping Hand",
+          "Last Resort",
+          "Worry Seed",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Screech",
+          "Swift",
+          "Electroweb",
+          "Endeavor",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -94232,7 +109344,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Serene Grace",
@@ -94269,7 +109382,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Levitate",
@@ -94439,6 +109553,28 @@ overrides = {
           "Wild Charge",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -94609,6 +109745,28 @@ overrides = {
           "Wild Charge",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -94779,6 +109937,28 @@ overrides = {
           "Wild Charge",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -94949,6 +110129,28 @@ overrides = {
           "Wild Charge",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -95119,6 +110321,28 @@ overrides = {
           "Wild Charge",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Signal Beam",
+          "Safeguard",
+          "Double-Edge",
+          "Recycle",
+          "Muddy Water",
+          "Helping Hand",
+          "Heat Wave",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Toxic",
+          "Fake Tears",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -95286,6 +110510,33 @@ overrides = {
           "Incinerate",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Bounce",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -95453,6 +110704,33 @@ overrides = {
           "Incinerate",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Bounce",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -95620,6 +110898,33 @@ overrides = {
           "Incinerate",
           "Torment",
           "Surf"
+        ],
+        "tutors": [
+          "Skill Swap",
+          "Bounce",
+          "Safeguard",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Roost",
+          "Barrier",
+          "Double-Edge",
+          "Muddy Water",
+          "Detect",
+          "Helping Hand",
+          "Heat Wave",
+          "Last Resort",
+          "Lucky Chant",
+          "Rest",
+          "Toxic",
+          "Swift",
+          "Defog",
+          "Electroweb",
+          "Chilling Water",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -95762,6 +111067,26 @@ overrides = {
           "Strength",
           "Waterfall",
           "Dive"
+        ],
+        "tutors": [
+          "Bounce",
+          "Safeguard",
+          "Double-Edge",
+          "Scary Face",
+          "Muddy Water",
+          "Helping Hand",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Outrage",
+          "Superpower",
+          "Screech",
+          "Chilling Water",
+          "Breaking Swipe",
+          "Icy Wind",
+          "Natural Gift",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -95920,6 +111245,40 @@ overrides = {
           "Incinerate",
           "Rock Smash",
           "Strength"
+        ],
+        "tutors": [
+          "U-turn",
+          "Skill Swap",
+          "Counter",
+          "Psychic Noise",
+          "Focus Punch",
+          "Safeguard",
+          "Fire Punch",
+          "Barrier",
+          "Earth Power",
+          "Double-Edge",
+          "Gravity",
+          "Recycle",
+          "Detect",
+          "Psyblade",
+          "Helping Hand",
+          "Heat Wave",
+          "Heavy Slam",
+          "Overheat",
+          "Trick Room",
+          "Rest",
+          "Head Smash",
+          "Toxic",
+          "Superpower",
+          "Brutal Swing",
+          "Screech",
+          "Swift",
+          "Seismic Toss",
+          "Low Sweep",
+          "Natural Gift",
+          "Magic Coat",
+          "Take Down",
+          "Snore"
         ]
       },
       "abs": [
@@ -95957,7 +111316,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Serene Grace",
@@ -95994,7 +111354,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Turboblaze",
@@ -96031,7 +111392,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Teravolt",
@@ -96068,7 +111430,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Justified",
@@ -96104,7 +111467,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Regenerator",
@@ -96141,7 +111505,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Volt Absorb",
@@ -96178,7 +111543,8 @@ overrides = {
             "Gust"
           ]
         ],
-        "tms": []
+        "tms": [],
+        "tutors": []
       },
       "abs": [
         "Intimidate",
@@ -96216,7 +111582,8 @@ overrides = {
       "name": "Karate Chop",
       "num": 1,
       "desc": "The target is attacked with a sharp chop. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Double Slap": {
       "t": "Fairy",
@@ -96280,6 +111647,7 @@ overrides = {
       "num": 5,
       "desc": "Numerous coins are hurled at the target. This attack always results in a critical hit.",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true
     },
     "Fire Punch": {
@@ -96410,7 +111778,8 @@ overrides = {
       "name": "Cut",
       "num": 14,
       "desc": "The target is cut with a scythe or a claw. It can also be used to cut down thin trees.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Gust": {
       "t": "Flying",
@@ -96603,7 +111972,11 @@ overrides = {
       "name": "Devour",
       "num": 29,
       "desc": "The user bears into the target with their gaping maw. Heals the user for damage dealt.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Fire Lash": {
       "t": "Fire",
@@ -96682,8 +112055,8 @@ overrides = {
       "e_id": 0,
       "tar": "allAdjacentFoes",
       "recoil": [
-        10,
-        100
+        1,
+        10
       ]
     },
     "Thrash": {
@@ -96904,7 +112277,11 @@ overrides = {
       "num": 50,
       "desc": "The user attacks everything around it. The user's HP is restored by half the damage taken by those hit.",
       "e_id": 3,
-      "tar": "allAdjacent"
+      "tar": "allAdjacent",
+      "drain": [
+        1,
+        2
+      ]
     },
     "Ember": {
       "t": "Fire",
@@ -97059,8 +112436,8 @@ overrides = {
       "desc": "The target is attacked with a powerful beam. Cannot be used twice in a row.",
       "e_id": 0,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Aqua Cutter": {
@@ -97073,7 +112450,8 @@ overrides = {
       "name": "Aqua Cutter",
       "num": 63,
       "desc": "The user expels pressurized water to slice forward at their target. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Drill Peck": {
       "t": "Flying",
@@ -97101,8 +112479,8 @@ overrides = {
       "desc": "The user grabs the target and puts them in a hold, trapping them for 4 to 5 turns. It also hurts the user slightly.",
       "e_id": 42,
       "recoil": [
-        25,
-        100
+        1,
+        4
       ],
       "secondaries": true
     },
@@ -97165,7 +112543,11 @@ overrides = {
       "name": "Absorb",
       "num": 70,
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Mega Drain": {
       "t": "Grass",
@@ -97177,7 +112559,11 @@ overrides = {
       "name": "Mega Drain",
       "num": 71,
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Leech Seed": {
       "t": "Grass",
@@ -97216,7 +112602,8 @@ overrides = {
       "num": 74,
       "desc": "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Solar Beam": {
       "t": "Grass",
@@ -97548,7 +112935,11 @@ overrides = {
       "name": "Night Shade",
       "num": 100,
       "desc": "The user saps the user's life force, inflicting matching the user's level and healing for the same amount.",
-      "e_id": 82
+      "e_id": 82,
+      "drain": [
+        1,
+        1
+      ]
     },
     "Psychic Noise": {
       "t": "Psychic",
@@ -97606,7 +112997,11 @@ overrides = {
       "name": "Recover",
       "num": 104,
       "desc": "Restoring its own cells, the user restores its own HP by half of its max HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Harden": {
       "t": "Rock",
@@ -97990,7 +113385,11 @@ overrides = {
       "name": "Soft-Boiled",
       "num": 134,
       "desc": "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "High Jump Kick": {
       "t": "Fighting",
@@ -98028,7 +113427,11 @@ overrides = {
       "num": 137,
       "desc": "Consume the enemy team's dreams, healing themselves with damage dealt. Deals huge to sleeping targets, waking them up.",
       "e_id": 3,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "drain": [
+        1,
+        2
+      ]
     },
     "Poison Gas": {
       "t": "Poison",
@@ -98070,7 +113473,11 @@ overrides = {
       "name": "Leech Life",
       "num": 140,
       "desc": "The user drains the target's blood. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Lovely Kiss": {
       "t": "Fairy",
@@ -98215,7 +113622,8 @@ overrides = {
       "name": "Crabhammer",
       "num": 151,
       "desc": "The target is hammered with a large pincer. This may also lower the target's Defense stat.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Explosion": {
       "t": "Normal",
@@ -98241,6 +113649,7 @@ overrides = {
       "num": 153,
       "desc": "The target is raked with sharp claws or scythes for two to five times in quick succession.",
       "e_id": 29,
+      "critRatio": 2,
       "multihit": [
         2,
         5
@@ -98364,6 +113773,7 @@ overrides = {
       "num": 162,
       "desc": "The target is attacked with a slash of claws or blades. Always lands a critical hit.",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true
     },
     "Substitute": {
@@ -98544,7 +113954,8 @@ overrides = {
       "num": 176,
       "desc": "A vortex of air is shot at the target to inflict damage. Critical hits land more easily.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Cotton Spore": {
       "t": "Grass",
@@ -98662,7 +114073,11 @@ overrides = {
       "name": "Draining Kiss",
       "num": 185,
       "desc": "The user steals the target's energy with a kiss, healing themselves with damage dealt.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Belly Drum": {
       "t": "Normal",
@@ -98713,6 +114128,7 @@ overrides = {
       "num": 189,
       "desc": "The user attacks by spraying ink in the target's face. This attack always results in a critical hit and may lower accuracy.",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true,
       "secondaries": true
     },
@@ -98740,8 +114156,8 @@ overrides = {
       "desc": "The user fires an electric blast like a cannon. This attack damages the user.",
       "e_id": 269,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Electro Shot": {
@@ -98879,7 +114295,11 @@ overrides = {
       "name": "Giga Drain",
       "num": 201,
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Endure": {
       "t": "Normal",
@@ -98953,7 +114373,11 @@ overrides = {
       "name": "Milk Drink",
       "num": 207,
       "desc": "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Spark": {
       "t": "Electric",
@@ -99288,7 +114712,11 @@ overrides = {
       "name": "Morning Sun",
       "num": 233,
       "desc": "The user restores its own HP. The amount of HP regained varies with the weather.",
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Synthesis": {
       "t": "Grass",
@@ -99300,7 +114728,11 @@ overrides = {
       "name": "Synthesis",
       "num": 234,
       "desc": "The user restores its own HP. The amount of HP regained varies with the weather.",
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Moonlight": {
       "t": "Fairy",
@@ -99312,7 +114744,11 @@ overrides = {
       "name": "Moonlight",
       "num": 235,
       "desc": "The user restores its own HP. The amount of HP regained varies with the weather.",
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hidden Power": {
       "t": "Normal",
@@ -99337,7 +114773,8 @@ overrides = {
       "num": 237,
       "desc": "The user delivers a double chop with its forearms crossed. Hits all enemies. Critical hits land more easily.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Twister": {
       "t": "Dragon",
@@ -99569,7 +115006,11 @@ overrides = {
       "name": "Swallow",
       "num": 255,
       "desc": "The user swallows a held berry, restoring half its max HP, curing status, and activating the effect of the berry. ",
-      "e_id": 162
+      "e_id": 162,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Heat Wave": {
       "t": "Fire",
@@ -99608,6 +115049,7 @@ overrides = {
       "num": 258,
       "desc": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
       "e_id": 0,
+      "critRatio": 2,
       "secondaries": true,
       "flags": {
         "sound": true
@@ -99724,7 +115166,11 @@ overrides = {
       "name": "Charge",
       "num": 267,
       "desc": "The user boosts the power of the Electric move it uses on the next turn. It also heals the user slightly.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Taunt": {
       "t": "Dark",
@@ -99852,7 +115298,11 @@ overrides = {
       "name": "Recycle",
       "num": 277,
       "desc": "The user scrounges for scraps, healing slightly and recovering a held item used in battle so it can be used again.",
-      "e_id": 184
+      "e_id": 184,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Revenge": {
       "t": "Fighting",
@@ -99966,7 +115416,11 @@ overrides = {
       "name": "Refresh",
       "num": 286,
       "desc": "The user rests to heal slightly and cure itself of a poisoning, burn, or paralysis.",
-      "e_id": 193
+      "e_id": 193,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Grudge": {
       "t": "Ghost",
@@ -100071,6 +115525,7 @@ overrides = {
       "desc": "The user strikes opposing foes by emitting a dazzling flash.",
       "e_id": 0,
       "tar": "allAdjacentFoes",
+      "critRatio": 2,
       "secondaries": true
     },
     "Moonblast": {
@@ -100124,6 +115579,7 @@ overrides = {
       "num": 298,
       "desc": "The user launches a kick that lands a critical hit more easily. It may also leave the target with a burn.",
       "e_id": 200,
+      "critRatio": 2,
       "secondaries": true
     },
     "Esper Wing": {
@@ -100176,7 +115632,11 @@ overrides = {
       "name": "Slack Off",
       "num": 302,
       "desc": "The user slacks off, restoring its own HP by up to half of its maximum HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hyper Voice": {
       "t": "Normal",
@@ -100335,6 +115795,7 @@ overrides = {
       "desc": "The user launches razor-like wind to slash the opposing team. Always critically hits.",
       "e_id": 288,
       "tar": "allAdjacentFoes",
+      "critRatio": 7,
       "willCrit": true
     },
     "Overheat": {
@@ -100716,6 +116177,7 @@ overrides = {
       "desc": "The user hits the target with its tail. It may also poison the target. Critical hits land more easily.",
       "e_id": 209,
       "tar": "allAdjacentFoes",
+      "critRatio": 2,
       "secondaries": true
     },
     "Covet": {
@@ -100770,6 +116232,7 @@ overrides = {
       "num": 345,
       "desc": "The user strikes the target with a fierce blow. This attack damages the user and always results in a critical hit.",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true,
       "recoil": [
         33,
@@ -100802,7 +116265,8 @@ overrides = {
       "name": "Leaf Blade",
       "num": 347,
       "desc": "The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Dragon Dance": {
       "t": "Dragon",
@@ -100896,7 +116360,11 @@ overrides = {
       "name": "Roost",
       "num": 354,
       "desc": "The user lands and rests its body. It restores the user's HP by up to half of its max HP.",
-      "e_id": 214
+      "e_id": 214,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Gravity": {
       "t": "Psychic",
@@ -101373,7 +116841,11 @@ overrides = {
       "name": "Aqua Ring",
       "num": 391,
       "desc": "The user envelops itself in a veil made of water. Heals the user slightly, and continue to regain some HP on each turn. ",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Magnet Rise": {
       "t": "Electric",
@@ -101478,6 +116950,7 @@ overrides = {
       "num": 399,
       "desc": "The user slashes the target the instant an opportunity arises. This attack always critically hits!",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true
     },
     "Aqua Tail": {
@@ -101491,7 +116964,8 @@ overrides = {
       "num": 400,
       "desc": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm. Hits all enemies.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Seed Bomb": {
       "t": "Grass",
@@ -101595,6 +117069,10 @@ overrides = {
       "num": 408,
       "desc": "An energy-draining punch. The user's HP is restored by half the damage taken by the target.",
       "e_id": 3,
+      "drain": [
+        1,
+        2
+      ],
       "flags": {
         "punch": true
       }
@@ -101752,7 +117230,8 @@ overrides = {
       "name": "Shadow Claw",
       "num": 420,
       "desc": "The user slashes the target with a sharp claw made from shadows. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 4
     },
     "Thunder Fang": {
       "t": "Electric",
@@ -101828,7 +117307,8 @@ overrides = {
       "name": "Psycho Cut",
       "num": 426,
       "desc": "The user tears at the target with blades formed by psychic power. Crit hits land more easily and this attack cannot miss.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Zen Headbutt": {
       "t": "Psychic",
@@ -101987,8 +117467,8 @@ overrides = {
       "desc": "The user launches a huge boulder at the target to attack. This attack damages the user.",
       "e_id": 269,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Cross Poison": {
@@ -102002,6 +117482,7 @@ overrides = {
       "num": 439,
       "desc": "A slashing attack with a poisonous blade that may also leave the target poisoned. Always critically hits.",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true,
       "secondaries": true
     },
@@ -102052,7 +117533,8 @@ overrides = {
       "name": "Stone Edge",
       "num": 443,
       "desc": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Captivate": {
       "t": "Fairy",
@@ -102184,7 +117666,8 @@ overrides = {
       "num": 453,
       "desc": "The user calls out its underlings to pummel the enemy team. Critical hits land more easily.",
       "e_id": 0,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Defend Order": {
       "t": "Bug",
@@ -102209,7 +117692,11 @@ overrides = {
       "name": "Heal Order",
       "num": 455,
       "desc": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Head Smash": {
       "t": "Rock",
@@ -102255,8 +117742,8 @@ overrides = {
       "desc": "Drawing power from the stars, the user unleashes a powerful supernova of light. This attack damages the user.",
       "e_id": 269,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Steel Beam": {
@@ -102271,8 +117758,8 @@ overrides = {
       "desc": "The user fires a beam of steel that it collected from its entire body. This attack damages the user.",
       "e_id": 198,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Pollen Puff": {
@@ -102533,6 +118020,7 @@ overrides = {
       "num": 479,
       "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true
     },
     "Flame Burst": {
@@ -102852,7 +118340,11 @@ overrides = {
       "name": "Heal Pulse",
       "num": 504,
       "desc": "The user emits a healing pulse which restores the target's HP by up to half of its max HP.",
-      "e_id": 309
+      "e_id": 309,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hex": {
       "t": "Ghost",
@@ -103092,6 +118584,7 @@ overrides = {
       "num": 523,
       "desc": "The user blows a cold breath on the target. This attack always results in a critical hit.",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true
     },
     "Dragon Tail": {
@@ -103146,8 +118639,8 @@ overrides = {
       "e_id": 6,
       "tar": "allAdjacentFoes",
       "recoil": [
-        25,
-        100
+        1,
+        4
       ],
       "secondaries": true
     },
@@ -103161,7 +118654,8 @@ overrides = {
       "name": "Drill Run",
       "num": 528,
       "desc": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Dual Chop": {
       "t": "Dragon",
@@ -103189,7 +118683,8 @@ overrides = {
       "name": "Heart Stamp",
       "num": 530,
       "desc": "The user unleashes a vicious blow after its cute act makes the target less wary. It may also make the target flinch.",
-      "e_id": 31
+      "e_id": 31,
+      "critRatio": 2
     },
     "Horn Leech": {
       "t": "Grass",
@@ -103201,7 +118696,11 @@ overrides = {
       "name": "Horn Leech",
       "num": 531,
       "desc": "The user drains the target's energy with its horns. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Sacred Sword": {
       "t": "Fighting",
@@ -103571,499 +119070,664 @@ overrides = {
   },
   "abilities": {
     "": {
-      "name": " -"
+      "name": " -",
+      "desc": " -"
     },
     "stench": {
-      "name": "Stench"
+      "name": "Stench",
+      "desc": "The stench may cause the target to flinch."
     },
     "drizzle": {
-      "name": "Drizzle"
+      "name": "Drizzle",
+      "desc": "The Pokémon makes it rain if it appears in battle."
     },
     "speedboost": {
-      "name": "Speed Boost"
+      "name": "Speed Boost",
+      "desc": "Its Speed stat is gradually boosted."
     },
     "battlearmor": {
-      "name": "Battle Armor"
+      "name": "Battle Armor",
+      "desc": "The Pokémon is protected against critical hits."
     },
     "sturdy": {
-      "name": "Sturdy"
+      "name": "Sturdy",
+      "desc": "It cannot be knocked out with one hit."
     },
     "bulletproof": {
-      "name": "Bulletproof"
+      "name": "Bulletproof",
+      "desc": "Blocks \"bomb\" and \"ball\" attacks."
     },
     "corrosion": {
-      "name": "Corrosion"
+      "name": "Corrosion",
+      "desc": "Poison moves are super effective against Steel."
     },
     "sandveil": {
-      "name": "Sand Veil"
+      "name": "Sand Veil",
+      "desc": "Boosts the Pokémon's evasion in a sandstorm."
     },
     "static": {
-      "name": "Static"
+      "name": "Static",
+      "desc": "Contact with the Pokémon may cause paralysis."
     },
     "voltabsorb": {
-      "name": "Volt Absorb"
+      "name": "Volt Absorb",
+      "desc": "Restores HP if hit by an Electric-type move."
     },
     "waterabsorb": {
-      "name": "Water Absorb"
+      "name": "Water Absorb",
+      "desc": "Restores HP if hit by a Water-type move."
     },
     "galvanize": {
-      "name": "Galvanize"
+      "name": "Galvanize",
+      "desc": "Normal-type moves boosted and become Electric-type."
     },
     "cloudnine": {
-      "name": "Cloud Nine"
+      "name": "Cloud Nine",
+      "desc": "Block weather and boost accuracy for field."
     },
     "compoundeyes": {
-      "name": "Compound Eyes"
+      "name": "Compound Eyes",
+      "desc": "The Pokémon's accuracy is boosted."
     },
     "thunderarmor": {
-      "name": "Thunder Armor"
+      "name": "Thunder Armor",
+      "desc": "Raises Attack when hit by a Electric-type move."
     },
     "rkssystem": {
-      "name": "Rks System"
+      "name": "Rks System",
+      "desc": "Changes the Pokémon's type to the foe's move."
     },
     "fluffy": {
-      "name": "Fluffy"
+      "name": "Fluffy",
+      "desc": "Contact moves deal half damage; weak to Fire."
     },
     "flashfire": {
-      "name": "Flash Fire"
+      "name": "Flash Fire",
+      "desc": "It powers up Fire-type moves if it's hit by one."
     },
     "shielddust": {
-      "name": "Shield Dust"
+      "name": "Shield Dust",
+      "desc": "Blocks the added effects of attacks taken."
     },
     "quickdraw": {
-      "name": "Quick Draw"
+      "name": "Quick Draw",
+      "desc": "Enables the Pokémon to move first occasionally."
     },
     "wellbakedbody": {
-      "name": "Well Baked Body"
+      "name": "Well Baked Body",
+      "desc": "Raises Defense when hit by Fire-type moves."
     },
     "intimidate": {
-      "name": "Intimidate"
+      "name": "Intimidate",
+      "desc": "Lowers the foe's Attack stat."
     },
     "shadowtag": {
-      "name": "Shadow Tag"
+      "name": "Shadow Tag",
+      "desc": "Prevents the foe from escaping."
     },
     "roughskin": {
-      "name": "Rough Skin"
+      "name": "Rough Skin",
+      "desc": "Inflicts damage to the attacker on contact."
     },
     "wonderguard": {
-      "name": "Wonder Guard"
+      "name": "Wonder Guard",
+      "desc": "Only supereffective moves will hit."
     },
     "levitate": {
-      "name": "Levitate"
+      "name": "Levitate",
+      "desc": "Gives full immunity to all Ground-type moves."
     },
     "effectspore": {
-      "name": "Effect Spore"
+      "name": "Effect Spore",
+      "desc": "Attacking may poison or cause paralysis or sleep."
     },
     "synchronize": {
-      "name": "Synchronize"
+      "name": "Synchronize",
+      "desc": "Passes a burn, poison, or paralysis to the foe."
     },
     "clearbody": {
-      "name": "Clear Body"
+      "name": "Clear Body",
+      "desc": "Prevent stat drops and shields from weather."
     },
     "naturalcure": {
-      "name": "Natural Cure"
+      "name": "Natural Cure",
+      "desc": "All status problems heal when it switches out."
     },
     "lightningrod": {
-      "name": "Lightning Rod"
+      "name": "Lightning Rod",
+      "desc": "Boosts Special Attack if hit by a Electric-type move."
     },
     "serenegrace": {
-      "name": "Serene Grace"
+      "name": "Serene Grace",
+      "desc": "Boosts the likelihood of added effects appearing."
     },
     "swiftswim": {
-      "name": "Swift Swim"
+      "name": "Swift Swim",
+      "desc": "Resist Water; double Speed in a rainstorm."
     },
     "chlorophyll": {
-      "name": "Chlorophyll"
+      "name": "Chlorophyll",
+      "desc": "Powers up some moves and boosts Speed in sunshine."
     },
     "keensenses": {
-      "name": "Keen Senses"
+      "name": "Keen Senses",
+      "desc": "The Pokémon's accuracy is boosted."
     },
     "trace": {
-      "name": "Trace"
+      "name": "Trace",
+      "desc": "The Pokémon copies a ally or foe's Ability."
     },
     "hugepower": {
-      "name": "Huge Power"
+      "name": "Huge Power",
+      "desc": "Doubles the Pokémon's Attack stat."
     },
     "berserk": {
-      "name": "Berserk"
+      "name": "Berserk",
+      "desc": "Boosts offenses when brought below half health."
     },
     "innerfocus": {
-      "name": "Inner Focus"
+      "name": "Inner Focus",
+      "desc": "Can't flinch. Psychic moves affect Dark types."
     },
     "pixilate": {
-      "name": "Pixilate"
+      "name": "Pixilate",
+      "desc": "Normal-type moves boosted and become Fairy-type."
     },
     "merciless": {
-      "name": "Merciless"
+      "name": "Merciless",
+      "desc": "Boosts offense and defense vs Pokémon with status."
     },
     "magnetpull": {
-      "name": "Magnet Pull"
+      "name": "Magnet Pull",
+      "desc": "Prevents Steel-type Pokémon from escaping."
     },
     "amplifier": {
-      "name": "Amplifier"
+      "name": "Amplifier",
+      "desc": "Immune to sound moves, and boosts sound moves."
     },
     "raindish": {
-      "name": "Rain Dish"
+      "name": "Rain Dish",
+      "desc": "Avoids burns, and slowly regains HP in rain."
     },
     "sandstream": {
-      "name": "Sand Stream"
+      "name": "Sand Stream",
+      "desc": "The Pokémon summons a sandstorm in battle."
     },
     "neutralizinggas": {
-      "name": "Neutralizing Gas"
+      "name": "Neutralizing Gas",
+      "desc": "Neutralizes all abilities on the field."
     },
     "thickfat": {
-      "name": "Thick Fat"
+      "name": "Thick Fat",
+      "desc": "Resist Fire- and Ice-type moves and hail damage."
     },
     "refrigerate": {
-      "name": "Refrigerate"
+      "name": "Refrigerate",
+      "desc": "Normal-type moves boosted and become Ice-type."
     },
     "flamebody": {
-      "name": "Flame Body"
+      "name": "Flame Body",
+      "desc": "Contact with the Pokémon may burn the attacker."
     },
     "runaway": {
-      "name": "Run Away"
+      "name": "Run Away",
+      "desc": "Cannot be trapped. At half health, switch out."
     },
     "windrider": {
-      "name": "Wind Rider"
+      "name": "Wind Rider",
+      "desc": "Blocks wind attacks, raising Attack instead."
     },
     "hypercutter": {
-      "name": "Hyper Cutter"
+      "name": "Hyper Cutter",
+      "desc": "Boosts slicing/claw moves and blocks Attack drops."
     },
     "pickup": {
-      "name": "Pickup"
+      "name": "Pickup",
+      "desc": "Recovers used items when switching out."
     },
     "truant": {
-      "name": "Truant"
+      "name": "Truant",
+      "desc": "Can't use damaging moves on consecutive turns."
     },
     "hustle": {
-      "name": "Hustle"
+      "name": "Hustle",
+      "desc": "Boosts the Attack stat, but lowers accuracy."
     },
     "gooey": {
-      "name": "Gooey"
+      "name": "Gooey",
+      "desc": "Contact with the Pokémon lowers foe's Speed stat."
     },
     "plus": {
-      "name": "Plus"
+      "name": "Plus",
+      "desc": "Ups Sp. Atk if another Pokémon has Plus or Minus."
     },
     "minus": {
-      "name": "Minus"
+      "name": "Minus",
+      "desc": "Ups Sp. Atk if another Pokémon has Plus or Minus."
     },
     "forecast": {
-      "name": "Forecast"
+      "name": "Forecast",
+      "desc": "Castform transforms with the weather."
     },
     "aerilate": {
-      "name": "Aerilate"
+      "name": "Aerilate",
+      "desc": "Normal-type moves boosted and become Flying-type."
     },
     "shedskin": {
-      "name": "Shed Skin"
+      "name": "Shed Skin",
+      "desc": "The Pokémon heals its own status each turn."
     },
     "guts": {
-      "name": "Guts"
+      "name": "Guts",
+      "desc": "Boosts Attack if there is a status problem."
     },
     "marvelscale": {
-      "name": "Marvel Scale"
+      "name": "Marvel Scale",
+      "desc": "Ups Defense if there is a status problem."
     },
     "liquidooze": {
-      "name": "Liquid Ooze"
+      "name": "Liquid Ooze",
+      "desc": "Damages attackers using any draining move."
     },
     "overgrow": {
-      "name": "Overgrow"
+      "name": "Overgrow",
+      "desc": "Boosts Grass-type moves. Doubled in a pinch."
     },
     "blaze": {
-      "name": "Blaze"
+      "name": "Blaze",
+      "desc": "Boosts Fire-type moves. Doubled in a pinch."
     },
     "torrent": {
-      "name": "Torrent"
+      "name": "Torrent",
+      "desc": "Boosts Water-type moves. Doubled in a pinch."
     },
     "swarm": {
-      "name": "Swarm"
+      "name": "Swarm",
+      "desc": "Boosts Bug-type moves. Doubled in a pinch."
     },
     "rockhead": {
-      "name": "Rock Head"
+      "name": "Rock Head",
+      "desc": "Protects the Pokémon from recoil damage."
     },
     "drought": {
-      "name": "Drought"
+      "name": "Drought",
+      "desc": "Turns the sunlight harsh if it is in battle."
     },
     "arenatrap": {
-      "name": "Arena Trap"
+      "name": "Arena Trap",
+      "desc": "Prevents the foe from fleeing."
     },
     "resilient": {
-      "name": "Resilient"
+      "name": "Resilient",
+      "desc": "Blocks the added effects of attacks taken."
     },
     "strongbody": {
-      "name": "Strong Body"
+      "name": "Strong Body",
+      "desc": "Prevents other Pokémon from lowering its stats."
     },
     "purepower": {
-      "name": "Pure Power"
+      "name": "Pure Power",
+      "desc": "Doubles the Pokémon's Special Attack stat."
     },
     "shellarmor": {
-      "name": "Shell Armor"
+      "name": "Shell Armor",
+      "desc": "The Pokémon is protected against critical hits."
     },
     "airlock": {
-      "name": "Air Lock"
+      "name": "Air Lock",
+      "desc": "Block weather and boost accuracy for field."
     },
     "slushrush": {
-      "name": "Slush Rush"
+      "name": "Slush Rush",
+      "desc": "Resist Ice, and doubles Speed in a hailstorm."
     },
     "motordrive": {
-      "name": "Motor Drive"
+      "name": "Motor Drive",
+      "desc": "Raises Speed if hit by an Electric-type move."
     },
     "rivalry": {
-      "name": "Rivalry"
+      "name": "Rivalry",
+      "desc": "Boosts offense and defense vs Pokémon with same type."
     },
     "colossal": {
-      "name": "Colossal"
+      "name": "Colossal",
+      "desc": "Reduces damage taken, but cannot avoid attacks."
     },
     "snowcloak": {
-      "name": "Snow Cloak"
+      "name": "Snow Cloak",
+      "desc": "Raises evasion in a hailstorm."
     },
     "gluttony": {
-      "name": "Gluttony"
+      "name": "Gluttony",
+      "desc": "Encourages the early use of a held Berry."
     },
     "angerpoint": {
-      "name": "Anger Point"
+      "name": "Anger Point",
+      "desc": "Boosts damage and speed if last move failed!"
     },
     "unburden": {
-      "name": "Unburden"
+      "name": "Unburden",
+      "desc": "Raises Speed if a held item is used."
     },
     "heatproof": {
-      "name": "Heatproof"
+      "name": "Heatproof",
+      "desc": "Weakens Fire-type moves and prevents Burns."
     },
     "simple": {
-      "name": "Simple"
+      "name": "Simple",
+      "desc": "The Pokémon is prone to wild stat changes."
     },
     "dryskin": {
-      "name": "Dry Skin"
+      "name": "Dry Skin",
+      "desc": "Reduces HP if it is hot. Water restores HP."
     },
     "exploit": {
-      "name": "Exploit"
+      "name": "Exploit",
+      "desc": "Adjusts power according to a foe's defenses."
     },
     "ironfist": {
-      "name": "Iron Fist"
+      "name": "Iron Fist",
+      "desc": "Boosts punching moves by 1.3x."
     },
     "poisonheal": {
-      "name": "Poison Heal"
+      "name": "Poison Heal",
+      "desc": "Restores HP if the Pokémon is poisoned."
     },
     "adaptability": {
-      "name": "Adaptability"
+      "name": "Adaptability",
+      "desc": "Powers up moves of the same type."
     },
     "skilllink": {
-      "name": "Skill Link"
+      "name": "Skill Link",
+      "desc": "Increases the frequency of multi-strike moves."
     },
     "strongjaw": {
-      "name": "Strong Jaw"
+      "name": "Strong Jaw",
+      "desc": "Greatly boosts biting and jaw moves."
     },
     "solarpower": {
-      "name": "Solar Power"
+      "name": "Solar Power",
+      "desc": "In sunshine, Sp. Atk is boosted but HP decreases."
     },
     "quickfeet": {
-      "name": "Quick Feet"
+      "name": "Quick Feet",
+      "desc": "Boosts Speed if there is a status problem."
     },
     "normalize": {
-      "name": "Normalize"
+      "name": "Normalize",
+      "desc": "User's moves are stronger, Normal-type and Neutral."
     },
     "sniper": {
-      "name": "Sniper"
+      "name": "Sniper",
+      "desc": "Powers up moves if they become critical hits."
     },
     "magicguard": {
-      "name": "Magic Guard"
+      "name": "Magic Guard",
+      "desc": "The Pokémon only takes damage from attacks."
     },
     "noguard": {
-      "name": "No Guard"
+      "name": "No Guard",
+      "desc": "Ensures attacks by or against the Pokémon land."
     },
     "toughclaws": {
-      "name": "Tough Claws"
+      "name": "Tough Claws",
+      "desc": "Boosts the damage of contact moves."
     },
     "technician": {
-      "name": "Technician"
+      "name": "Technician",
+      "desc": "Powers up the Pokémon's weaker moves."
     },
     "furcoat": {
-      "name": "Fur Coat"
+      "name": "Fur Coat",
+      "desc": "Halves physical damage taken."
     },
     "distracting": {
-      "name": "Distracting"
+      "name": "Distracting",
+      "desc": "Lowers the foe's Evasion stat."
     },
     "moldbreaker": {
-      "name": "Mold Breaker"
+      "name": "Mold Breaker",
+      "desc": "Moves are stronger and bypass defensive Abilities."
     },
     "moisturize": {
-      "name": "Moisturize"
+      "name": "Moisturize",
+      "desc": "Normal-type moves boosted and become Water-type."
     },
     "aftermath": {
-      "name": "Aftermath"
+      "name": "Aftermath",
+      "desc": "When user faints, damage all Pokémon in battle."
     },
     "anticipation": {
-      "name": "Anticipation"
+      "name": "Anticipation",
+      "desc": "Boosts evasion against supereffective moves."
     },
     "forewarn": {
-      "name": "Forewarn"
+      "name": "Forewarn",
+      "desc": "Reduces damage to self and allies from critical hits."
     },
     "unaware": {
-      "name": "Unaware"
+      "name": "Unaware",
+      "desc": "Ignores stat changes."
     },
     "tintedlens": {
-      "name": "Tinted Lens"
+      "name": "Tinted Lens",
+      "desc": "Powers up “not very effective\" moves."
     },
     "filter": {
-      "name": "Filter"
+      "name": "Filter",
+      "desc": "Reduces damage from supereffective attacks."
     },
     "slowstart": {
-      "name": "Slow Start"
+      "name": "Slow Start",
+      "desc": "Temporarily halves Attack and Speed."
     },
     "scrappy": {
-      "name": "Scrappy"
+      "name": "Scrappy",
+      "desc": "User's moves hit Ghosts. Prevents attack drops."
     },
     "stormdrain": {
-      "name": "Storm Drain"
+      "name": "Storm Drain",
+      "desc": "Boosts Special Attack when hit by a Water-type move."
     },
     "icebody": {
-      "name": "Ice Body"
+      "name": "Ice Body",
+      "desc": "Gradually regains HP. Boosted in a hailstorm."
     },
     "solidrock": {
-      "name": "Solid Rock"
+      "name": "Solid Rock",
+      "desc": "Reduces damage from supereffective attacks."
     },
     "snowwarning": {
-      "name": "Snow Warning"
+      "name": "Snow Warning",
+      "desc": "The Pokémon summons a hailstorm in battle."
     },
     "honeygather": {
-      "name": "Honey Gather"
+      "name": "Honey Gather",
+      "desc": "Sometimes gather Honey in battle."
     },
     "stakeout": {
-      "name": "Stakeout"
+      "name": "Stakeout",
+      "desc": "Doubles damage dealt to a target on switch in."
     },
     "reckless": {
-      "name": "Reckless"
+      "name": "Reckless",
+      "desc": "Powers up moves that have recoil damage."
     },
     "multitype": {
-      "name": "Multitype"
+      "name": "Multitype",
+      "desc": "Neutralizes all abilities on the field."
     },
     "flowergift": {
-      "name": "Flower Gift"
+      "name": "Flower Gift",
+      "desc": "Boost some moves; powers up party Pokémon in sun."
     },
     "baddreams": {
-      "name": "Bad Dreams"
+      "name": "Bad Dreams",
+      "desc": "Traps and damages sleeping foes in battle."
     },
     "pickpocket": {
-      "name": "Pickpocket"
+      "name": "Pickpocket",
+      "desc": "Steal or remove items when making contact."
     },
     "sheerforce": {
-      "name": "Sheer Force"
+      "name": "Sheer Force",
+      "desc": "Removes added effects to increase move damage."
     },
     "contrary": {
-      "name": "Contrary"
+      "name": "Contrary",
+      "desc": "Makes stat changes have an opposite effect."
     },
     "unnerve": {
-      "name": "Unnerve"
+      "name": "Unnerve",
+      "desc": "Makes the foe nervous and unable to activate Items."
     },
     "defiant": {
-      "name": "Defiant"
+      "name": "Defiant",
+      "desc": "When its stats are lowered its Attack increases."
     },
     "majesty": {
-      "name": "Majesty"
+      "name": "Majesty",
+      "desc": "Reduces damage taken when HP is full."
     },
     "cursedbody": {
-      "name": "Cursed Body"
+      "name": "Cursed Body",
+      "desc": "Disables a move used on the Pokémon."
     },
     "healer": {
-      "name": "Healer"
+      "name": "Healer",
+      "desc": "Heal self and ally each turn. Dodge ally attacks."
     },
     "friendguard": {
-      "name": "Friend Guard"
+      "name": "Friend Guard",
+      "desc": "Reduces damage done to allies."
     },
     "weakarmor": {
-      "name": "Weak Armor"
+      "name": "Weak Armor",
+      "desc": "Physical attacks lower Defense and raise Speed."
     },
     "heavymetal": {
-      "name": "Heavy Metal"
+      "name": "Heavy Metal",
+      "desc": "Boosts Defense and reduces Speed."
     },
     "lightmetal": {
-      "name": "Light Metal"
+      "name": "Light Metal",
+      "desc": "Boosts Speed and reduces Defense."
     },
     "multiscale": {
-      "name": "Multiscale"
+      "name": "Multiscale",
+      "desc": "Reduces damage taken when HP is full."
     },
     "toxicboost": {
-      "name": "Toxic Boost"
+      "name": "Toxic Boost",
+      "desc": "Resist Poison; boosted Attack when poisoned."
     },
     "flareboost": {
-      "name": "Flare Boost"
+      "name": "Flare Boost",
+      "desc": "Powers up special attacks when burned."
     },
     "gourmand": {
-      "name": "Gourmand"
+      "name": "Gourmand",
+      "desc": "May create another Berry or Herb after one is used."
     },
     "icescales": {
-      "name": "Ice Scales"
+      "name": "Ice Scales",
+      "desc": "Halves damage taken from Special moves."
     },
     "moody": {
-      "name": "Moody"
+      "name": "Moody",
+      "desc": "Raises one stat and lowers another."
     },
     "overcoat": {
-      "name": "Overcoat"
+      "name": "Overcoat",
+      "desc": "Shielded from weather, hazards,and contact."
     },
     "poisontouch": {
-      "name": "Poison Touch"
+      "name": "Poison Touch",
+      "desc": "May poison targets when a Pokémon makes contact."
     },
     "regenerator": {
-      "name": "Regenerator"
+      "name": "Regenerator",
+      "desc": "Restores a little HP when withdrawn from battle."
     },
     "savant": {
-      "name": "Savant"
+      "name": "Savant",
+      "desc": "Changes the user's type to that of their move."
     },
     "sandrush": {
-      "name": "Sand Rush"
+      "name": "Sand Rush",
+      "desc": "Resist Rock, and doubles Speed in a sandstorm."
     },
     "wonderskin": {
-      "name": "Wonder Skin"
+      "name": "Wonder Skin",
+      "desc": "Makes status-changing moves more likely to miss."
     },
     "patient": {
-      "name": "Patient"
+      "name": "Patient",
+      "desc": "Boosts move power when the Pokémon moves last."
     },
     "illusion": {
-      "name": "Illusion"
+      "name": "Illusion",
+      "desc": "Comes out disguised as the Pokémon in back."
     },
     "imposter": {
-      "name": "Imposter"
+      "name": "Imposter",
+      "desc": "It transforms itself into the Pokémon it is facing."
     },
     "infiltrator": {
-      "name": "Infiltrator"
+      "name": "Infiltrator",
+      "desc": "Supereffective moves are boosted and pass barriers."
     },
     "contagious": {
-      "name": "Contagious"
+      "name": "Contagious",
+      "desc": "Contact with this Pokémon spreads this Ability."
     },
     "moxie": {
-      "name": "Moxie"
+      "name": "Moxie",
+      "desc": "Boosts Attack after knocking out any Pokémon."
     },
     "justified": {
-      "name": "Justified"
+      "name": "Justified",
+      "desc": "Resist Dark moves, raise Attack when hit by one."
     },
     "rattled": {
-      "name": "Rattled"
+      "name": "Rattled",
+      "desc": "Some move types scare it and harshly boost Speed."
     },
     "magicbounce": {
-      "name": "Magic Bounce"
+      "name": "Magic Bounce",
+      "desc": "Reflects status- changing moves."
     },
     "sapsipper": {
-      "name": "Sap Sipper"
+      "name": "Sap Sipper",
+      "desc": "Boosts Attack when hit by a Grass-type move."
     },
     "prankster": {
-      "name": "Prankster"
+      "name": "Prankster",
+      "desc": "Gives priority to a status move."
     },
     "sandforce": {
-      "name": "Sand Force"
+      "name": "Sand Force",
+      "desc": "Powers up earth moves. Boost doubled in sand."
     },
     "ironbarbs": {
-      "name": "Iron Barbs"
+      "name": "Iron Barbs",
+      "desc": "Inflicts damage to the Pokémon on contact."
     },
     "collective": {
-      "name": "Collective"
+      "name": "Collective",
+      "desc": "Changes the Pokémon's shape when HP is high."
     },
     "illuminate": {
-      "name": "Illuminate"
+      "name": "Illuminate",
+      "desc": "Boosts the accuracy of allies and itself."
     },
     "turboblaze": {
-      "name": "Turboblaze"
+      "name": "Turboblaze",
+      "desc": "Moves are stronger and bypass defensive Abilities."
     },
     "teravolt": {
-      "name": "Teravolt"
+      "name": "Teravolt",
+      "desc": "Moves are stronger and bypass defensive Abilities."
     }
   },
   "encs": {
@@ -137214,9 +152878,9 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.",
-      "location": "Reward from Youngster Kevin, Reward from Clerk  M Fredric, Reward from Lass Dana, Reward from School Kid Alan, Reward from School Kid Sally, Reward from Psychic Gerard, Reward from Psychic Madhu, Reward from Depot Agent Josh, Reward from Dancer Davey, Reward from Artist Pierre, Reward from Maid Alica, Reward from Parasol Lady Gwyneth, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Middle Left Cashier",
+      "location": "Reward from Youngster Kevin - Marvelous Bridge, Reward from Clerk  M Fredric, Reward from Lass Dana, Reward from School Kid Alan, Reward from School Kid Sally, Reward from Psychic Gerard, Reward from Psychic Madhu, Reward from Depot Agent Josh, Reward from Dancer Davey, Reward from Artist Pierre, Reward from Maid Alica, Reward from Parasol Lady Gwyneth, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Middle Left Cashier",
       "rewards": [
-        "Youngster Kevin",
+        "Youngster Kevin - Marvelous Bridge",
         "Clerk  M Fredric",
         "Lass Dana",
         "School Kid Alan",
@@ -137388,16 +153052,16 @@ overrides = {
     "potion": {
       "name": "Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points.",
-      "location": "Reward from Hoopster Bobby, Reward from Cosplayer Cassie, Reward from Linebacker Jonah, Reward from Rival Benga, Reward from Striker Marco, Reward from Hoopster John, Reward from Cosplayer Amy, Reward from Lass Flo",
+      "location": "Reward from Hoopster Bobby, Reward from Cosplayer Cassie - Join Avenue, Reward from Linebacker Jonah, Reward from Rival Benga, Reward from Striker Marco, Reward from Hoopster John, Reward from Cosplayer Amy - Join Avenue, Reward from Lass Flo - Route 7",
       "rewards": [
         "Hoopster Bobby",
-        "Cosplayer Cassie",
+        "Cosplayer Cassie - Join Avenue",
         "Linebacker Jonah",
         "Rival Benga",
         "Striker Marco",
         "Hoopster John",
-        "Cosplayer Amy",
-        "Lass Flo"
+        "Cosplayer Amy - Join Avenue",
+        "Lass Flo - Route 7"
       ]
     },
     "antidote": {
@@ -137411,9 +153075,9 @@ overrides = {
     "burnheal": {
       "name": "Burn Heal",
       "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
-      "location": "Reward from Scientist Dudley",
+      "location": "Reward from Scientist Dudley - Virbank Complex",
       "rewards": [
-        "Scientist Dudley"
+        "Scientist Dudley - Virbank Complex"
       ]
     },
     "iceheal": {
@@ -137429,27 +153093,27 @@ overrides = {
     "parlyzheal": {
       "name": "Parlyz Heal",
       "desc": "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
-      "location": "Reward from Backpacker Walt",
+      "location": "Reward from Backpacker Walt - Desert Resort",
       "rewards": [
-        "Backpacker Walt"
+        "Backpacker Walt - Desert Resort"
       ]
     },
     "fullrestore": {
       "name": "Full Restore",
       "desc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
-      "location": "Reward from Striker Roberto, Reward from Smasher Elena, Reward from Infielder Alex, Reward from Infielder Connor, Reward from Striker Marco, Reward from Linebacker Jonah, Reward from Linebacker Dan, Reward from Hoopster Lamarcus, Reward from Hoopster Bobby, Reward from Nurse Kirsten, Reward from Smasher Aspen, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges",
+      "location": "Reward from Striker Roberto - Driftveil Drawbridge, Reward from Smasher Elena - Driftveil Drawbridge, Reward from Infielder Alex - Nimbasa City, Reward from Infielder Connor - Nimbasa City, Reward from Striker Marco - Nimbasa City, Reward from Linebacker Jonah - Nimbasa City, Reward from Linebacker Dan - Driftveil Drawbridge, Reward from Hoopster Lamarcus - Nimbasa City, Reward from Hoopster Bobby - Nimbasa City, Reward from Nurse Kirsten - Castelia Sewers, Reward from Smasher Aspen - Driftveil Drawbridge, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges",
       "rewards": [
-        "Striker Roberto",
-        "Smasher Elena",
-        "Infielder Alex",
-        "Infielder Connor",
-        "Striker Marco",
-        "Linebacker Jonah",
-        "Linebacker Dan",
-        "Hoopster Lamarcus",
-        "Hoopster Bobby",
-        "Nurse Kirsten",
-        "Smasher Aspen"
+        "Striker Roberto - Driftveil Drawbridge",
+        "Smasher Elena - Driftveil Drawbridge",
+        "Infielder Alex - Nimbasa City",
+        "Infielder Connor - Nimbasa City",
+        "Striker Marco - Nimbasa City",
+        "Linebacker Jonah - Nimbasa City",
+        "Linebacker Dan - Driftveil Drawbridge",
+        "Hoopster Lamarcus - Nimbasa City",
+        "Hoopster Bobby - Nimbasa City",
+        "Nurse Kirsten - Castelia Sewers",
+        "Smasher Aspen - Driftveil Drawbridge"
       ],
       "marts": [
         "Stock No Badges",
@@ -137463,12 +153127,12 @@ overrides = {
     "maxpotion": {
       "name": "Max Potion",
       "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
-      "location": "Reward from Cosplayer Anders, Reward from Girl in Suit Donna, Reward from Pokefan Darcy, Reward from Youngster Nicholas, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Top Right Cashier",
+      "location": "Reward from Cosplayer Anders - Nimbasa City, Reward from Girl in Suit Donna - Nimbasa City, Reward from Pokefan Darcy, Reward from Youngster Nicholas - Route 7, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Top Right Cashier",
       "rewards": [
-        "Cosplayer Anders",
-        "Girl in Suit Donna",
+        "Cosplayer Anders - Nimbasa City",
+        "Girl in Suit Donna - Nimbasa City",
         "Pokefan Darcy",
-        "Youngster Nicholas"
+        "Youngster Nicholas - Route 7"
       ],
       "marts": [
         "Stock No Badges",
@@ -137483,28 +153147,28 @@ overrides = {
     "hyperpotion": {
       "name": "Hyper Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points.",
-      "location": "Reward from Smasher, Reward from Hoopster John, Reward from Guy in Suit Larry, Reward from Hoopster Bobby, Reward from Linebacker Jonah, Reward from Striker Marco, Reward from Cosplayer Miriam",
+      "location": "Reward from Smasher, Reward from Hoopster John - Pokestar Studios, Reward from Guy in Suit Larry - Join Avenue, Reward from Hoopster Bobby, Reward from Linebacker Jonah, Reward from Striker Marco, Reward from Cosplayer Miriam - Join Avenue",
       "rewards": [
         "Smasher",
-        "Hoopster John",
-        "Guy in Suit Larry",
+        "Hoopster John - Pokestar Studios",
+        "Guy in Suit Larry - Join Avenue",
         "Hoopster Bobby",
         "Linebacker Jonah",
         "Striker Marco",
-        "Cosplayer Miriam"
+        "Cosplayer Miriam - Join Avenue"
       ]
     },
     "superpotion": {
       "name": "Super Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points.",
-      "location": "Reward from Cosplayer Jared, Reward from Linebacker Dan, Reward from Policeman Petrel, Reward from Policeman Rosco, Reward from Linebacker Jonah, Reward from Team Plasma Shadow, Reward from Striker Roberto, Reward from Striker Marco, Reward from Hoopster John",
+      "location": "Reward from Cosplayer Jared - Join Avenue, Reward from Linebacker Dan - Castelia City, Reward from Policeman Petrel - Virbank City, Reward from Policeman Rosco - Virbank City, Reward from Linebacker Jonah, Reward from Team Plasma Shadow - Marine Tube, Reward from Striker Roberto, Reward from Striker Marco, Reward from Hoopster John",
       "rewards": [
-        "Cosplayer Jared",
-        "Linebacker Dan",
-        "Policeman Petrel",
-        "Policeman Rosco",
+        "Cosplayer Jared - Join Avenue",
+        "Linebacker Dan - Castelia City",
+        "Policeman Petrel - Virbank City",
+        "Policeman Rosco - Virbank City",
         "Linebacker Jonah",
-        "Team Plasma Shadow",
+        "Team Plasma Shadow - Marine Tube",
         "Striker Roberto",
         "Striker Marco",
         "Hoopster John"
@@ -137554,9 +153218,9 @@ overrides = {
     "moomoomilk": {
       "name": "Moomoo Milk",
       "desc": "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.",
-      "location": "Reward from Waiter Clint, Reward from Waitress Bonita, Reward from Baker Lilly",
+      "location": "Reward from Waiter Clint - Nimbasa City, Reward from Waitress Bonita, Reward from Baker Lilly",
       "rewards": [
-        "Waiter Clint",
+        "Waiter Clint - Nimbasa City",
         "Waitress Bonita",
         "Baker Lilly"
       ]
@@ -137646,10 +153310,10 @@ overrides = {
     "protein": {
       "name": "Protein",
       "desc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
-      "location": "Reward from Linebacker Dan, Reward from Linebacker Bob",
+      "location": "Reward from Linebacker Dan - Nimbasa City, Reward from Linebacker Bob - Nimbasa City",
       "rewards": [
-        "Linebacker Dan",
-        "Linebacker Bob"
+        "Linebacker Dan - Nimbasa City",
+        "Linebacker Bob - Nimbasa City"
       ]
     },
     "unusualcandies": {
@@ -137665,9 +153329,9 @@ overrides = {
     "calcium": {
       "name": "Calcium",
       "desc": "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.",
-      "location": "Reward from Hoopster John",
+      "location": "Reward from Hoopster John - Nimbasa City",
       "rewards": [
-        "Hoopster John"
+        "Hoopster John - Nimbasa City"
       ]
     },
     "rarecandies": {
@@ -137695,9 +153359,9 @@ overrides = {
     "ppmax": {
       "name": "PP Max",
       "desc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon.",
-      "location": "Reward from Veteran Arlen, Reward from Veteran Sayuri",
+      "location": "Reward from Veteran Arlen - Mistralton City, Reward from Veteran Sayuri",
       "rewards": [
-        "Veteran Arlen",
+        "Veteran Arlen - Mistralton City",
         "Veteran Sayuri"
       ]
     },
@@ -137794,24 +153458,24 @@ overrides = {
     "redshard": {
       "name": "Red Shard",
       "desc": "A small red shard. It appears to be from some sort of implement made long ago.",
-      "location": "Reward from Lass Patty, Reward from Hiker Russel, Reward from Hiker Tobias",
+      "location": "Reward from Lass Patty - Nimbasa City, Reward from Hiker Russel, Reward from Hiker Tobias - Relic Passage",
       "rewards": [
-        "Lass Patty",
+        "Lass Patty - Nimbasa City",
         "Hiker Russel",
-        "Hiker Tobias"
+        "Hiker Tobias - Relic Passage"
       ]
     },
     "blueshard": {
       "name": "Blue Shard",
       "desc": "A small blue shard. It appears to be from some sort of implement made long ago.",
-      "location": "Reward from Worker Matthew, Reward from Worker Tyler, Reward from Worker Herman, Reward from Worker Gus, Reward from Harlequin Sanders, Reward from Backpacker Corin",
+      "location": "Reward from Worker Matthew, Reward from Worker Tyler - Driftveil City, Reward from Worker Herman, Reward from Worker Gus - Driftveil City, Reward from Harlequin Sanders, Reward from Backpacker Corin - Reversal Mountain",
       "rewards": [
         "Worker Matthew",
-        "Worker Tyler",
+        "Worker Tyler - Driftveil City",
         "Worker Herman",
-        "Worker Gus",
+        "Worker Gus - Driftveil City",
         "Harlequin Sanders",
-        "Backpacker Corin"
+        "Backpacker Corin - Reversal Mountain"
       ]
     },
     "yellowshard": {
@@ -137909,9 +153573,9 @@ overrides = {
     "pearl": {
       "name": "Pearl",
       "desc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
-      "location": "Reward from Lady Sophie",
+      "location": "Reward from Lady Sophie - Nuvema Town",
       "rewards": [
-        "Lady Sophie"
+        "Lady Sophie - Nuvema Town"
       ]
     },
     "bigpearl": {
@@ -137952,10 +153616,10 @@ overrides = {
     "heartscale": {
       "name": "Heart Scale",
       "desc": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
-      "location": "Reward from Scientist Lucy, Reward from Pokefan Jude",
+      "location": "Reward from Scientist Lucy - Relic Passage, Reward from Pokefan Jude - Celestial Tower",
       "rewards": [
-        "Scientist Lucy",
-        "Pokefan Jude"
+        "Scientist Lucy - Relic Passage",
+        "Pokefan Jude - Celestial Tower"
       ]
     },
     "honey": {
@@ -138021,9 +153685,9 @@ overrides = {
     "rarebone": {
       "name": "Rare Bone",
       "desc": "A bone that is extremely valuable for Pokémon archeology. Fling Power: 130 BP",
-      "location": "Reward from Pkmn Ranger Jaden",
+      "location": "Reward from Pkmn Ranger Jaden - Desert Resort",
       "rewards": [
-        "Pkmn Ranger Jaden"
+        "Pkmn Ranger Jaden - Desert Resort"
       ]
     },
     "shinystone": {
@@ -138123,9 +153787,9 @@ overrides = {
     "fairydust": {
       "name": "Fairy Dust",
       "desc": "An item to be held by a Pokémon. It is a sparkling, enchanted dust that ups the power of Fairy-type moves.",
-      "location": "Reward from Pkmn Ranger Forrest",
+      "location": "Reward from Pkmn Ranger Forrest - Lostlorn Forest",
       "rewards": [
-        "Pkmn Ranger Forrest"
+        "Pkmn Ranger Forrest - Lostlorn Forest"
       ]
     },
     "tricksterherb": {
@@ -138291,10 +153955,10 @@ overrides = {
     "cheriberry": {
       "name": "Cheri Berry",
       "desc": "If held by a Pokémon, it recovers from paralysis.",
-      "location": "Reward from Battle Girl Janie, Reward from Pkmn Ranger Eddie, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Battle Girl Janie - Pokestar Studios, Reward from Pkmn Ranger Eddie - Victory Road, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
-        "Battle Girl Janie",
-        "Pkmn Ranger Eddie"
+        "Battle Girl Janie - Pokestar Studios",
+        "Pkmn Ranger Eddie - Victory Road"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -138304,11 +153968,11 @@ overrides = {
     "chestoberry": {
       "name": "Chesto Berry",
       "desc": "If held by a Pokémon, it recovers from sleep.",
-      "location": "Reward from Musician Boris, Reward from Pkmn Ranger Briana, Reward from Pkmn Ranger Louis, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Musician Boris - Castelia City, Reward from Pkmn Ranger Briana - Chargestone Cave, Reward from Pkmn Ranger Louis - Chargestone Cave, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
-        "Musician Boris",
-        "Pkmn Ranger Briana",
-        "Pkmn Ranger Louis"
+        "Musician Boris - Castelia City",
+        "Pkmn Ranger Briana - Chargestone Cave",
+        "Pkmn Ranger Louis - Chargestone Cave"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -138318,11 +153982,11 @@ overrides = {
     "pechaberry": {
       "name": "Pecha Berry",
       "desc": "If held by a Pokémon, it recovers from poison.",
-      "location": "Reward from Pkmn Ranger Richard, Reward from Pkmn Ranger Serenity, Reward from Black Belt Jeriel, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Pkmn Ranger Richard - Route 6, Reward from Pkmn Ranger Serenity - Lostlorn Forest, Reward from Black Belt Jeriel - Route 12, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
-        "Pkmn Ranger Richard",
-        "Pkmn Ranger Serenity",
-        "Black Belt Jeriel"
+        "Pkmn Ranger Richard - Route 6",
+        "Pkmn Ranger Serenity - Lostlorn Forest",
+        "Black Belt Jeriel - Route 12"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -138332,12 +153996,12 @@ overrides = {
     "rawstberry": {
       "name": "Rawst Berry",
       "desc": "If held by a Pokémon, it recovers from a burn.",
-      "location": "Wild held by Darumaka, Wild held by Darmanitan, Wild held by Darmanitan-Zen, Reward from Pkmn Ranger Lewis, Reward from Pkmn Ranger Eliza, Reward from Pkmn Ranger Elle, Reward from Pkmn Ranger Anja, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Wild held by Darumaka, Wild held by Darmanitan, Wild held by Darmanitan-Zen, Reward from Pkmn Ranger Lewis, Reward from Pkmn Ranger Eliza, Reward from Pkmn Ranger Elle - Victory Road, Reward from Pkmn Ranger Anja - Desert Resort, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
         "Pkmn Ranger Lewis",
         "Pkmn Ranger Eliza",
-        "Pkmn Ranger Elle",
-        "Pkmn Ranger Anja"
+        "Pkmn Ranger Elle - Victory Road",
+        "Pkmn Ranger Anja - Desert Resort"
       ],
       "wilds": [
         "Darumaka",
@@ -138352,11 +154016,11 @@ overrides = {
     "aspearberry": {
       "name": "Aspear Berry",
       "desc": "If held by a Pokémon, it defrosts it.",
-      "location": "Reward from Pkmn Ranger Thalia, Reward from Pkmn Ranger Crofton, Reward from Cyclist Lionel, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Pkmn Ranger Thalia - Route 11, Reward from Pkmn Ranger Crofton - Route 11, Reward from Cyclist Lionel - Village Bridge, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
-        "Pkmn Ranger Thalia",
-        "Pkmn Ranger Crofton",
-        "Cyclist Lionel"
+        "Pkmn Ranger Thalia - Route 11",
+        "Pkmn Ranger Crofton - Route 11",
+        "Cyclist Lionel - Village Bridge"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -138366,10 +154030,10 @@ overrides = {
     "leppaberry": {
       "name": "Leppa Berry",
       "desc": "If held by a Pokémon, it restores a move's PP by 10.",
-      "location": "Reward from Pkmn Ranger Bret, Reward from Pkmn Ranger Malory, Sold at Castelia City Upper Cashier",
+      "location": "Reward from Pkmn Ranger Bret, Reward from Pkmn Ranger Malory - Route 20, Sold at Castelia City Upper Cashier",
       "rewards": [
         "Pkmn Ranger Bret",
-        "Pkmn Ranger Malory"
+        "Pkmn Ranger Malory - Route 20"
       ],
       "marts": [
         "Castelia City Upper Cashier"
@@ -138386,25 +154050,25 @@ overrides = {
     "persimberry": {
       "name": "Persim Berry",
       "desc": "If held by a Pokémon, it recovers from confusion.",
-      "location": "Reward from Pkmn Ranger Johan, Reward from Pkmn Ranger Mikiko, Reward from Pkmn Ranger Lewis, Reward from Pkmn Ranger Eliza",
+      "location": "Reward from Pkmn Ranger Johan - Seaside Cave, Reward from Pkmn Ranger Mikiko - Seaside Cave, Reward from Pkmn Ranger Lewis - Reversal Mountain, Reward from Pkmn Ranger Eliza - Reversal Mountain",
       "rewards": [
-        "Pkmn Ranger Johan",
-        "Pkmn Ranger Mikiko",
-        "Pkmn Ranger Lewis",
-        "Pkmn Ranger Eliza"
+        "Pkmn Ranger Johan - Seaside Cave",
+        "Pkmn Ranger Mikiko - Seaside Cave",
+        "Pkmn Ranger Lewis - Reversal Mountain",
+        "Pkmn Ranger Eliza - Reversal Mountain"
       ]
     },
     "lumberry": {
       "name": "Lum Berry",
       "desc": "If held by a Pokémon, it recovers from any status problem.",
-      "location": "Wild held by Shaymin, Wild held by Shaymin-Sky, Reward from Pkmn Ranger Rick, Reward from Pkmn Ranger Audra, Reward from Pkmn Ranger Terrakion, Reward from Pkmn Ranger Keldeo, Reward from Pkmn Ranger Parker, Reward from Pkmn Ranger Elaine, Reward from Pkmn Ranger Ralph, Reward from Pkmn Ranger Melita, Sold at Stock 8+Badges",
+      "location": "Wild held by Shaymin, Wild held by Shaymin-Sky, Reward from Pkmn Ranger Rick - Route 1, Reward from Pkmn Ranger Audra - Route 1, Reward from Pkmn Ranger Terrakion - Clay Tunnel, Reward from Pkmn Ranger Keldeo - Clay Tunnel, Reward from Pkmn Ranger Parker - Moor of Icirrus, Reward from Pkmn Ranger Elaine - Moor of Icirrus, Reward from Pkmn Ranger Ralph, Reward from Pkmn Ranger Melita, Sold at Stock 8+Badges",
       "rewards": [
-        "Pkmn Ranger Rick",
-        "Pkmn Ranger Audra",
-        "Pkmn Ranger Terrakion",
-        "Pkmn Ranger Keldeo",
-        "Pkmn Ranger Parker",
-        "Pkmn Ranger Elaine",
+        "Pkmn Ranger Rick - Route 1",
+        "Pkmn Ranger Audra - Route 1",
+        "Pkmn Ranger Terrakion - Clay Tunnel",
+        "Pkmn Ranger Keldeo - Clay Tunnel",
+        "Pkmn Ranger Parker - Moor of Icirrus",
+        "Pkmn Ranger Elaine - Moor of Icirrus",
         "Pkmn Ranger Ralph",
         "Pkmn Ranger Melita"
       ],
@@ -138419,15 +154083,15 @@ overrides = {
     "sitrusberry": {
       "name": "Sitrus Berry",
       "desc": "If held by a Pokémon, it heals the user's HP a little.",
-      "location": "Reward from Pkmn Ranger Daryl, Reward from Pkmn Ranger Dianne, Reward from Pkmn Ranger Leaf, Reward from Pkmn Ranger Naoko, Reward from Pkmn Ranger Lena, Reward from Pkmn Ranger Steve, Reward from Backpacker Annie, Reward from Pkmn Ranger Dwayne, Reward from Pkmn Ranger Hillary, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at Lacunosa Town",
+      "location": "Reward from Pkmn Ranger Daryl, Reward from Pkmn Ranger Dianne, Reward from Pkmn Ranger Leaf - Route 20, Reward from Pkmn Ranger Naoko - Route 20, Reward from Pkmn Ranger Lena - Route 23, Reward from Pkmn Ranger Steve - Route 23, Reward from Backpacker Annie - Relic Passage, Reward from Pkmn Ranger Dwayne, Reward from Pkmn Ranger Hillary, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at Lacunosa Town",
       "rewards": [
         "Pkmn Ranger Daryl",
         "Pkmn Ranger Dianne",
-        "Pkmn Ranger Leaf",
-        "Pkmn Ranger Naoko",
-        "Pkmn Ranger Lena",
-        "Pkmn Ranger Steve",
-        "Backpacker Annie",
+        "Pkmn Ranger Leaf - Route 20",
+        "Pkmn Ranger Naoko - Route 20",
+        "Pkmn Ranger Lena - Route 23",
+        "Pkmn Ranger Steve - Route 23",
+        "Backpacker Annie - Relic Passage",
         "Pkmn Ranger Dwayne",
         "Pkmn Ranger Hillary"
       ],
@@ -138440,10 +154104,10 @@ overrides = {
     "figyberry": {
       "name": "Figy Berry",
       "desc": "If held by a Pokémon, it restores by a lot, but causes confusion.",
-      "location": "Reward from Backpacker Alexander, Reward from Pokefan Sachiko",
+      "location": "Reward from Backpacker Alexander - Relic Passage, Reward from Pokefan Sachiko - Route 4",
       "rewards": [
-        "Backpacker Alexander",
-        "Pokefan Sachiko"
+        "Backpacker Alexander - Relic Passage",
+        "Pokefan Sachiko - Route 4"
       ]
     },
     "marangaberry": {
@@ -138454,9 +154118,9 @@ overrides = {
     "casteliacone": {
       "name": "Casteliacone",
       "desc": "Castelia City's specialty, soft-serve ice cream. It restores the HP of one Pokémon by 100 points, even in battle!",
-      "location": "Reward from Harlequin Luigi",
+      "location": "Reward from Harlequin Luigi - Nimbasa City",
       "rewards": [
-        "Harlequin Luigi"
+        "Harlequin Luigi - Nimbasa City"
       ]
     },
     "keeberry": {
@@ -138647,9 +154311,9 @@ overrides = {
     "kebiaberry": {
       "name": "Kebia Berry",
       "desc": "Weakens a supereffective Poison-type attack against the holding Pokémon.",
-      "location": "Reward from Dancer Dirk",
+      "location": "Reward from Dancer Dirk - Virbank City",
       "rewards": [
-        "Dancer Dirk"
+        "Dancer Dirk - Virbank City"
       ]
     },
     "shucaberry": {
@@ -138690,9 +154354,9 @@ overrides = {
     "colburberry": {
       "name": "Colbur Berry",
       "desc": "Weakens a supereffective Dark-type attack against the holding Pokémon.",
-      "location": "Reward from Worker Cairn",
+      "location": "Reward from Worker Cairn - Twist Mountain",
       "rewards": [
-        "Worker Cairn"
+        "Worker Cairn - Twist Mountain"
       ]
     },
     "babiriberry": {
@@ -138713,9 +154377,9 @@ overrides = {
     "ganlonberry": {
       "name": "Ganlon Berry",
       "desc": "If held by a Pokémon, it raises its Defense stat in a pinch. A pinch is 1/2 health.",
-      "location": "Reward from Cyclist Krissa",
+      "location": "Reward from Cyclist Krissa - Route 16",
       "rewards": [
-        "Cyclist Krissa"
+        "Cyclist Krissa - Route 16"
       ]
     },
     "salacberry": {
@@ -138731,9 +154395,9 @@ overrides = {
     "apicotberry": {
       "name": "Apicot Berry",
       "desc": "If held by a Pokémon, it raises its Sp. Def stat in a pinch. A pinch is 1/2 health.",
-      "location": "Reward from Cyclist Hector",
+      "location": "Reward from Cyclist Hector - Route 16",
       "rewards": [
-        "Cyclist Hector"
+        "Cyclist Hector - Route 16"
       ]
     },
     "roseliberry": {
@@ -138744,9 +154408,9 @@ overrides = {
     "starfberry": {
       "name": "Starf Berry",
       "desc": "If held by a Pokémon, it sharply raises one of its stats when reduced below half health.",
-      "location": "Reward from Harlequin Oswald",
+      "location": "Reward from Harlequin Oswald - Twist Mountain",
       "rewards": [
-        "Harlequin Oswald"
+        "Harlequin Oswald - Twist Mountain"
       ]
     },
     "enigmaberry": {
@@ -138767,9 +154431,9 @@ overrides = {
     "jabocaberry": {
       "name": "Jaboca Berry",
       "desc": "If held by a Pokémon and a physical attack lands, the attacker also takes damage.",
-      "location": "Reward from Pkmn Ranger Lois, Sold at SM9 Top Left Cashier",
+      "location": "Reward from Pkmn Ranger Lois - Route 5, Sold at SM9 Top Left Cashier",
       "rewards": [
-        "Pkmn Ranger Lois"
+        "Pkmn Ranger Lois - Route 5"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -138778,10 +154442,10 @@ overrides = {
     "rowapberry": {
       "name": "Rowap Berry",
       "desc": "If held by a Pokémon and a special attack lands, the attacker also takes damage.",
-      "location": "Reward from Smasher Elena, Reward from Psychic Perry, Sold at SM9 Top Left Cashier",
+      "location": "Reward from Smasher Elena - Aspertia Gate, Reward from Psychic Perry - Desert Resort, Sold at SM9 Top Left Cashier",
       "rewards": [
-        "Smasher Elena",
-        "Psychic Perry"
+        "Smasher Elena - Aspertia Gate",
+        "Psychic Perry - Desert Resort"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -138795,9 +154459,9 @@ overrides = {
     "whiteherb": {
       "name": "White Herb",
       "desc": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
-      "location": "Reward from Pkmn Breeder Alice, Sold at SM9 Top Left Cashier",
+      "location": "Reward from Pkmn Breeder Alice - Floccesy Ranch, Sold at SM9 Top Left Cashier",
       "rewards": [
-        "Pkmn Breeder Alice"
+        "Pkmn Breeder Alice - Floccesy Ranch"
       ],
       "marts": [
         "SM9 Top Left Cashier"
@@ -138947,9 +154611,9 @@ overrides = {
     "miracleseed": {
       "name": "Miracle Seed",
       "desc": "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
-      "location": "Reward from Nursery Aide Leah, Sold at Driftveil City Herb Shop",
+      "location": "Reward from Nursery Aide Leah - Virbank Preschool, Sold at Driftveil City Herb Shop",
       "rewards": [
-        "Nursery Aide Leah"
+        "Nursery Aide Leah - Virbank Preschool"
       ],
       "marts": [
         "Driftveil City Herb Shop"
@@ -138968,17 +154632,17 @@ overrides = {
     "magnet": {
       "name": "Magnet",
       "desc": "An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.",
-      "location": "Reward from Youngster Keita",
+      "location": "Reward from Youngster Keita - Virbank Complex",
       "rewards": [
-        "Youngster Keita"
+        "Youngster Keita - Virbank Complex"
       ]
     },
     "mysticwater": {
       "name": "Mystic Water",
       "desc": "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
-      "location": "Reward from Nursery Aide Kimya",
+      "location": "Reward from Nursery Aide Kimya - Route 20",
       "rewards": [
-        "Nursery Aide Kimya"
+        "Nursery Aide Kimya - Route 20"
       ]
     },
     "sharpbeak": {
@@ -138999,9 +154663,9 @@ overrides = {
     "spelltag": {
       "name": "Spell Tag",
       "desc": "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
-      "location": "Reward from Backers Kay & Ali",
+      "location": "Reward from Backers Kay & Ali - Route 5",
       "rewards": [
-        "Backers Kay & Ali"
+        "Backers Kay & Ali - Route 5"
       ]
     },
     "twistedspoon": {
@@ -139111,9 +154775,9 @@ overrides = {
     "wiseglasses": {
       "name": "Wise Glasses",
       "desc": "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
-      "location": "Reward from Youngster Kenny, Sold at Castelia City Upper Cashier",
+      "location": "Reward from Youngster Kenny - Floccesy Ranch, Sold at Castelia City Upper Cashier",
       "rewards": [
-        "Youngster Kenny"
+        "Youngster Kenny - Floccesy Ranch"
       ],
       "marts": [
         "Castelia City Upper Cashier"
@@ -139137,9 +154801,9 @@ overrides = {
     "powerherb": {
       "name": "Power Herb",
       "desc": "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.",
-      "location": "Reward from Harlequin Otto",
+      "location": "Reward from Harlequin Otto - Nimbasa City",
       "rewards": [
-        "Harlequin Otto"
+        "Harlequin Otto - Nimbasa City"
       ]
     },
     "toxicorb": {
@@ -139454,9 +155118,9 @@ overrides = {
     "tm03": {
       "name": "TM03",
       "desc": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
-      "location": "Reward from Psychic Tommy, Sold at Mistralton City TM Dept",
+      "location": "Reward from Psychic Tommy - Desert Resort, Sold at Mistralton City TM Dept",
       "rewards": [
-        "Psychic Tommy"
+        "Psychic Tommy - Desert Resort"
       ],
       "marts": [
         "Mistralton City TM Dept"
@@ -139507,9 +155171,9 @@ overrides = {
     "tm11": {
       "name": "TM11",
       "desc": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
-      "location": "Reward from Johto Leader Falkner",
+      "location": "Reward from Johto Leader Falkner - Route 14",
       "rewards": [
-        "Johto Leader Falkner"
+        "Johto Leader Falkner - Route 14"
       ]
     },
     "tm12": {
@@ -139533,9 +155197,9 @@ overrides = {
     "tm15": {
       "name": "TM15",
       "desc": "The user tears at the target with blades formed by psychic power. Crit hits land more easily and this attack cannot miss.",
-      "location": "Reward from Scientist Cleo, Sold at Nimbasa TM Department",
+      "location": "Reward from Scientist Cleo - Virbank City, Sold at Nimbasa TM Department",
       "rewards": [
-        "Scientist Cleo"
+        "Scientist Cleo - Virbank City"
       ],
       "marts": [
         "Nimbasa TM Department"
@@ -139565,9 +155229,9 @@ overrides = {
     "tm19": {
       "name": "TM19",
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "location": "Reward from Musician Preston",
+      "location": "Reward from Musician Preston - Driftveil City",
       "rewards": [
-        "Musician Preston"
+        "Musician Preston - Driftveil City"
       ]
     },
     "tm20": {
@@ -139616,9 +155280,9 @@ overrides = {
     "tm28": {
       "name": "TM28",
       "desc": "The user burrows, then attacks on the second turn. This attack cannot miss. Will catch a Pokémon trying to swich out!",
-      "location": "Reward from Hoenn Leader Roxanne",
+      "location": "Reward from Hoenn Leader Roxanne - Clay Tunnel",
       "rewards": [
-        "Hoenn Leader Roxanne"
+        "Hoenn Leader Roxanne - Clay Tunnel"
       ]
     },
     "tm29": {
@@ -139629,17 +155293,17 @@ overrides = {
     "tm30": {
       "name": "TM30",
       "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
-      "location": "Reward from Johto Leader Morty",
+      "location": "Reward from Johto Leader Morty - Celestial Tower",
       "rewards": [
-        "Johto Leader Morty"
+        "Johto Leader Morty - Celestial Tower"
       ]
     },
     "tm31": {
       "name": "TM31",
       "desc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
-      "location": "Reward from Motorcyclist Duke",
+      "location": "Reward from Motorcyclist Duke - Driftveil City",
       "rewards": [
-        "Motorcyclist Duke"
+        "Motorcyclist Duke - Driftveil City"
       ]
     },
     "tm32": {
@@ -139686,9 +155350,9 @@ overrides = {
     "tm39": {
       "name": "TM39",
       "desc": "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
-      "location": "Reward from Lass Daya, Sold at Nimbasa TM Department",
+      "location": "Reward from Lass Daya - Virbank Complex, Sold at Nimbasa TM Department",
       "rewards": [
-        "Lass Daya"
+        "Lass Daya - Virbank Complex"
       ],
       "marts": [
         "Nimbasa TM Department"
@@ -139810,9 +155474,9 @@ overrides = {
     "tm62": {
       "name": "TM62",
       "desc": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
-      "location": "Reward from Harlequin Chester",
+      "location": "Reward from Harlequin Chester - Driftveil City",
       "rewards": [
-        "Harlequin Chester"
+        "Harlequin Chester - Driftveil City"
       ]
     },
     "tm63": {
@@ -139951,10 +155615,10 @@ overrides = {
     "tm86": {
       "name": "TM86",
       "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
-      "location": "Reward from Pkmn Breeder Owen, Reward from Pkmn Breeder Micah, Sold at Mistralton City TM Dept",
+      "location": "Reward from Pkmn Breeder Owen, Reward from Pkmn Breeder Micah - Castelia Gardens, Sold at Mistralton City TM Dept",
       "rewards": [
         "Pkmn Breeder Owen",
-        "Pkmn Breeder Micah"
+        "Pkmn Breeder Micah - Castelia Gardens"
       ],
       "marts": [
         "Mistralton City TM Dept"
@@ -139968,17 +155632,17 @@ overrides = {
     "tm88": {
       "name": "TM88",
       "desc": "The user attacks by shooting muddy water at the opposing team. It may also lower the targets' accuracy.",
-      "location": "Reward from Pilot Leonard",
+      "location": "Reward from Pilot Leonard - Mistralton City",
       "rewards": [
-        "Pilot Leonard"
+        "Pilot Leonard - Mistralton City"
       ]
     },
     "tm89": {
       "name": "TM89",
       "desc": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
-      "location": "Reward from Policeman Lester",
+      "location": "Reward from Policeman Lester - Undella Town",
       "rewards": [
-        "Policeman Lester"
+        "Policeman Lester - Undella Town"
       ]
     },
     "tm90": {
@@ -139992,9 +155656,9 @@ overrides = {
     "tm91": {
       "name": "TM91",
       "desc": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
-      "location": "Reward from Hiker Keith",
+      "location": "Reward from Hiker Keith - Relic Passage",
       "rewards": [
-        "Hiker Keith"
+        "Hiker Keith - Relic Passage"
       ]
     },
     "tm92": {
@@ -140551,10 +156215,10 @@ overrides = {
     "ivenhancer": {
       "name": "IV Enhancer",
       "desc": "An item that can be administered to a Pokémon to maximize one of their IVs.",
-      "location": "Reward from Preschooler Mia, Reward from Preschooler Jojo",
+      "location": "Reward from Preschooler Mia - Route 6, Reward from Preschooler Jojo - Route 6",
       "rewards": [
-        "Preschooler Mia",
-        "Preschooler Jojo"
+        "Preschooler Mia - Route 6",
+        "Preschooler Jojo - Route 6"
       ]
     },
     "ivmaximizer": {
@@ -140610,9 +156274,9 @@ overrides = {
     "airballoon": {
       "name": "Air Balloon",
       "desc": "When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.",
-      "location": "Reward from Harlequin Oz, Sold at SM9 Top Left Cashier",
+      "location": "Reward from Harlequin Oz - Nimbasa City, Sold at SM9 Top Left Cashier",
       "rewards": [
-        "Harlequin Oz"
+        "Harlequin Oz - Nimbasa City"
       ],
       "marts": [
         "SM9 Top Left Cashier"
