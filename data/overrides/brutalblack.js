@@ -131,7 +131,7 @@ overrides = {
       },
       "abs": [
         "Thick Fat",
-        "Chlorophyll",
+        "",
         "Chlorophyll"
       ],
       "evos": [
@@ -278,7 +278,7 @@ overrides = {
       },
       "abs": [
         "Thick Fat",
-        "Chlorophyll",
+        "",
         "Chlorophyll"
       ],
       "evos": [
@@ -430,7 +430,7 @@ overrides = {
       },
       "abs": [
         "Thick Fat",
-        "Chlorophyll",
+        "",
         "Chlorophyll"
       ]
     },
@@ -3139,6 +3139,10 @@ overrides = {
             "Rock Climb"
           ],
           [
+            33,
+            "Drill Run"
+          ],
+          [
             37,
             "Earthquake"
           ],
@@ -3261,6 +3265,10 @@ overrides = {
           [
             30,
             "Rock Climb"
+          ],
+          [
+            33,
+            "Drill Run"
           ],
           [
             37,
@@ -4738,6 +4746,10 @@ overrides = {
             "Flamethrower"
           ],
           [
+            30,
+            "Hyper Voice"
+          ],
+          [
             34,
             "Yawn"
           ],
@@ -4747,15 +4759,11 @@ overrides = {
           ],
           [
             44,
-            "Hyper Voice"
+            "Hyper Beam"
           ],
           [
             50,
             "Thunder Wave"
-          ],
-          [
-            60,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -4875,6 +4883,10 @@ overrides = {
             "Flamethrower"
           ],
           [
+            30,
+            "Hyper Voice"
+          ],
+          [
             34,
             "Yawn"
           ],
@@ -4884,15 +4896,11 @@ overrides = {
           ],
           [
             44,
-            "Hyper Voice"
+            "Hyper Beam"
           ],
           [
             50,
             "Thunder Wave"
-          ],
-          [
-            60,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -12580,28 +12588,28 @@ overrides = {
             "Giga Drain"
           ],
           [
+            34,
+            "Psyshock"
+          ],
+          [
             37,
             "Psychic"
           ],
           [
-            43,
+            42,
             "Egg Bomb"
           ],
           [
-            56,
-            "Magical Leaf"
+            50,
+            "Weather Ball"
           ],
           [
-            61,
-            "Explosion"
+            55,
+            "Solar Beam"
           ],
           [
-            70,
-            "Petal Dance"
-          ],
-          [
-            74,
-            "Psycho Boost"
+            60,
+            "Leaf Storm"
           ]
         ],
         "tms": [
@@ -12703,28 +12711,28 @@ overrides = {
             "Giga Drain"
           ],
           [
+            34,
+            "Psyshock"
+          ],
+          [
             37,
             "Psychic"
           ],
           [
-            43,
+            42,
             "Egg Bomb"
           ],
           [
-            56,
-            "Magical Leaf"
+            50,
+            "Weather Ball"
           ],
           [
-            61,
-            "Explosion"
+            55,
+            "Solar Beam"
           ],
           [
-            70,
-            "Petal Dance"
-          ],
-          [
-            74,
-            "Psycho Boost"
+            60,
+            "Leaf Storm"
           ]
         ],
         "tms": [
@@ -17100,7 +17108,7 @@ overrides = {
             "Stone Edge"
           ],
           [
-            65,
+            60,
             "Aqua Tail"
           ],
           [
@@ -17228,7 +17236,7 @@ overrides = {
             "Stone Edge"
           ],
           [
-            65,
+            60,
             "Aqua Tail"
           ],
           [
@@ -17463,15 +17471,11 @@ overrides = {
           ],
           [
             44,
-            "Hyper Voice"
+            "Giga Impact"
           ],
           [
             50,
             "Rest"
-          ],
-          [
-            60,
-            "Giga Impact"
           ]
         ],
         "tms": [
@@ -20083,39 +20087,51 @@ overrides = {
             "Air Cutter"
           ],
           [
+            13,
+            "Psybeam"
+          ],
+          [
             16,
             "Hypnosis"
           ],
           [
             20,
-            "Psybeam"
+            "Roost"
           ],
           [
             23,
-            "Roost"
+            "Psyshock"
           ],
           [
             26,
             "Air Slash"
           ],
           [
-            30,
+            29,
             "Psychic"
           ],
           [
-            35,
+            31,
             "Aeroblast"
           ],
           [
-            39,
+            33,
+            "Aura Sphere"
+          ],
+          [
+            35,
+            "Hurricane"
+          ],
+          [
+            38,
+            "Heat Wave"
+          ],
+          [
+            41,
             "Imprison"
           ],
           [
             44,
-            "Hurricane"
-          ],
-          [
-            49,
             "Psych Up"
           ]
         ],
@@ -20183,7 +20199,7 @@ overrides = {
         "df": 50,
         "sa": 106,
         "sd": 106,
-        "sp": 80
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -20208,39 +20224,51 @@ overrides = {
             "Air Cutter"
           ],
           [
+            13,
+            "Psybeam"
+          ],
+          [
             16,
             "Hypnosis"
           ],
           [
             20,
-            "Psybeam"
+            "Roost"
           ],
           [
             23,
-            "Roost"
+            "Psyshock"
           ],
           [
             26,
             "Air Slash"
           ],
           [
-            30,
+            29,
             "Psychic"
           ],
           [
-            35,
+            31,
             "Aeroblast"
           ],
           [
-            39,
+            33,
+            "Aura Sphere"
+          ],
+          [
+            35,
+            "Hurricane"
+          ],
+          [
+            38,
+            "Heat Wave"
+          ],
+          [
+            41,
             "Imprison"
           ],
           [
             44,
-            "Hurricane"
-          ],
-          [
-            49,
             "Psych Up"
           ]
         ],
@@ -23485,7 +23513,7 @@ overrides = {
       },
       "abs": [
         "Chlorophyll",
-        "Solar Power",
+        "",
         "Early Bird"
       ],
       "evos": [
@@ -23609,7 +23637,7 @@ overrides = {
       },
       "abs": [
         "Chlorophyll",
-        "Solar Power",
+        "",
         "Drought"
       ]
     },
@@ -26107,20 +26135,20 @@ overrides = {
             "Submission"
           ],
           [
-            55,
+            53,
             "Bullet Seed"
           ],
           [
-            60,
-            "Close Combat"
-          ],
-          [
-            65,
+            56,
             "Pin Missile"
           ],
           [
-            65,
+            59,
             "Arm Thrust"
+          ],
+          [
+            62,
+            "Close Combat"
           ],
           [
             80,
@@ -32216,11 +32244,15 @@ overrides = {
           ],
           [
             20,
-            "Slash"
+            "Extreme Speed"
           ],
           [
             23,
             "Crunch"
+          ],
+          [
+            25,
+            "U-turn"
           ],
           [
             27,
@@ -32244,7 +32276,7 @@ overrides = {
           ],
           [
             35,
-            "U-turn"
+            "Flail"
           ],
           [
             37,
@@ -32253,10 +32285,6 @@ overrides = {
           [
             40,
             "Double-Edge"
-          ],
-          [
-            44,
-            "Flail"
           ]
         ],
         "tms": [
@@ -32326,9 +32354,9 @@ overrides = {
       "bs": {
         "hp": 78,
         "at": 100,
-        "df": 61,
+        "df": 71,
         "sa": 90,
-        "sd": 61,
+        "sd": 71,
         "sp": 120
       },
       "learnset_info": {
@@ -32355,11 +32383,15 @@ overrides = {
           ],
           [
             20,
-            "Slash"
+            "Extreme Speed"
           ],
           [
             23,
             "Crunch"
+          ],
+          [
+            25,
+            "U-turn"
           ],
           [
             27,
@@ -32383,7 +32415,7 @@ overrides = {
           ],
           [
             35,
-            "U-turn"
+            "Flail"
           ],
           [
             37,
@@ -32392,10 +32424,6 @@ overrides = {
           [
             40,
             "Double-Edge"
-          ],
-          [
-            44,
-            "Flail"
           ]
         ],
         "tms": [
@@ -33842,9 +33870,9 @@ overrides = {
       "bs": {
         "hp": 50,
         "at": 30,
-        "df": 30,
-        "sa": 75,
-        "sd": 30,
+        "df": 40,
+        "sa": 85,
+        "sd": 40,
         "sp": 85
       },
       "learnset_info": {
@@ -33862,7 +33890,7 @@ overrides = {
             "Bubble Beam"
           ],
           [
-            16,
+            15,
             "Air Cutter"
           ],
           [
@@ -34493,27 +34521,23 @@ overrides = {
             "Giga Drain"
           ],
           [
-            32,
-            "Icy Wind"
-          ],
-          [
-            35,
+            31,
             "Bug Buzz"
           ],
           [
-            38,
+            33,
             "Muddy Water"
           ],
           [
-            40,
+            35,
             "Hurricane"
           ],
           [
-            45,
+            38,
             "Blizzard"
           ],
           [
-            50,
+            42,
             "Hydro Pump"
           ]
         ],
@@ -34619,27 +34643,23 @@ overrides = {
             "Giga Drain"
           ],
           [
-            32,
-            "Icy Wind"
-          ],
-          [
-            35,
+            31,
             "Bug Buzz"
           ],
           [
-            38,
+            33,
             "Muddy Water"
           ],
           [
-            40,
+            35,
             "Hurricane"
           ],
           [
-            45,
+            38,
             "Blizzard"
           ],
           [
-            50,
+            42,
             "Hydro Pump"
           ]
         ],
@@ -41360,6 +41380,10 @@ overrides = {
             "Icicle Crash"
           ],
           [
+            40,
+            "Drill Run"
+          ],
+          [
             44,
             "Earthquake"
           ]
@@ -41470,6 +41494,10 @@ overrides = {
           [
             37,
             "Icicle Crash"
+          ],
+          [
+            40,
+            "Drill Run"
           ],
           [
             44,
@@ -47610,15 +47638,15 @@ overrides = {
           ],
           [
             32,
-            "Ice Punch"
+            "Thunder Punch"
+          ],
+          [
+            32,
+            "Shadow Punch"
           ],
           [
             32,
             "Fire Punch"
-          ],
-          [
-            32,
-            "Thunder Punch"
           ],
           [
             36,
@@ -47630,7 +47658,7 @@ overrides = {
           ],
           [
             44,
-            "Taunt"
+            "Drain Punch"
           ],
           [
             50,
@@ -47765,15 +47793,15 @@ overrides = {
           ],
           [
             32,
+            "Fire Punch"
+          ],
+          [
+            32,
             "Thunder Punch"
           ],
           [
             32,
-            "Ice Punch"
-          ],
-          [
-            32,
-            "Fire Punch"
+            "Shadow Punch"
           ],
           [
             36,
@@ -47926,15 +47954,15 @@ overrides = {
           ],
           [
             32,
-            "Thunder Punch"
-          ],
-          [
-            32,
-            "Ice Punch"
+            "Shadow Punch"
           ],
           [
             32,
             "Fire Punch"
+          ],
+          [
+            32,
+            "Thunder Punch"
           ],
           [
             36,
@@ -53000,6 +53028,10 @@ overrides = {
             "Knock Off"
           ],
           [
+            22,
+            "Sucker Punch"
+          ],
+          [
             26,
             "Screech"
           ],
@@ -53022,10 +53054,6 @@ overrides = {
           [
             48,
             "Toxic Spikes"
-          ],
-          [
-            50,
-            "Sucker Punch"
           ],
           [
             55,
@@ -53074,8 +53102,8 @@ overrides = {
       },
       "abs": [
         "Flare Boost",
-        "Unnerve",
-        "Keen Eye"
+        "",
+        "Unnerve"
       ],
       "evos": [
         "Skuntank"
@@ -53137,6 +53165,10 @@ overrides = {
             "Knock Off"
           ],
           [
+            22,
+            "Sucker Punch"
+          ],
+          [
             26,
             "Screech"
           ],
@@ -53159,10 +53191,6 @@ overrides = {
           [
             48,
             "Toxic Spikes"
-          ],
-          [
-            50,
-            "Sucker Punch"
           ],
           [
             55,
@@ -53215,8 +53243,8 @@ overrides = {
       },
       "abs": [
         "Flare Boost",
-        "Unnerve",
-        "Keen Eye"
+        "",
+        "Unnerve"
       ]
     },
     "Bronzor": {
@@ -54532,15 +54560,11 @@ overrides = {
           ],
           [
             44,
-            "Hyper Voice"
+            "Giga Impact"
           ],
           [
             50,
             "Rest"
-          ],
-          [
-            60,
-            "Giga Impact"
           ]
         ],
         "tms": [
@@ -54972,7 +54996,7 @@ overrides = {
       },
       "abs": [
         "Filter",
-        "Sheer Force",
+        "Shield Dust",
         "Sand Force"
       ],
       "evos": [
@@ -55411,7 +55435,7 @@ overrides = {
           ],
           [
             10,
-            "Karate Chop"
+            "Vacuum Wave"
           ],
           [
             15,
@@ -55422,16 +55446,32 @@ overrides = {
             "Low Kick"
           ],
           [
+            22,
+            "Wake-Up Slap"
+          ],
+          [
             25,
             "Revenge"
+          ],
+          [
+            27,
+            "Brick Break"
           ],
           [
             30,
             "Sucker Punch"
           ],
           [
+            33,
+            "Aura Sphere"
+          ],
+          [
             35,
             "Poison Jab"
+          ],
+          [
+            37,
+            "Sludge Bomb"
           ],
           [
             40,
@@ -55450,8 +55490,16 @@ overrides = {
             "Encore"
           ],
           [
+            54,
+            "Gunk Shot"
+          ],
+          [
             56,
             "Close Combat"
+          ],
+          [
+            58,
+            "Sludge Wave"
           ],
           [
             60,
@@ -55502,7 +55550,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Poison Touch",
+        "Swift Swim",
         "Water Absorb",
         "Poison Touch"
       ],
@@ -55534,9 +55582,9 @@ overrides = {
       "bs": {
         "hp": 83,
         "at": 106,
-        "df": 65,
+        "df": 70,
         "sa": 106,
-        "sd": 65,
+        "sd": 70,
         "sp": 105
       },
       "learnset_info": {
@@ -55551,7 +55599,7 @@ overrides = {
           ],
           [
             10,
-            "Karate Chop"
+            "Vacuum Wave"
           ],
           [
             15,
@@ -55562,16 +55610,32 @@ overrides = {
             "Low Kick"
           ],
           [
+            22,
+            "Wake-Up Slap"
+          ],
+          [
             25,
             "Revenge"
+          ],
+          [
+            27,
+            "Brick Break"
           ],
           [
             30,
             "Sucker Punch"
           ],
           [
+            33,
+            "Aura Sphere"
+          ],
+          [
             35,
             "Poison Jab"
+          ],
+          [
+            37,
+            "Sludge Bomb"
           ],
           [
             40,
@@ -55590,8 +55654,16 @@ overrides = {
             "Encore"
           ],
           [
+            54,
+            "Gunk Shot"
+          ],
+          [
             56,
             "Close Combat"
+          ],
+          [
+            58,
+            "Sludge Wave"
           ],
           [
             60,
@@ -55647,7 +55719,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Poison Touch",
+        "Swift Swim",
         "Water Absorb",
         "Swift Swim"
       ]
@@ -67341,11 +67413,11 @@ overrides = {
           ],
           [
             25,
-            "Stun Spore"
+            "Giga Drain"
           ],
           [
             30,
-            "Giga Drain"
+            "Stun Spore"
           ],
           [
             34,
@@ -67471,11 +67543,11 @@ overrides = {
           ],
           [
             25,
-            "Stun Spore"
+            "Giga Drain"
           ],
           [
             30,
-            "Giga Drain"
+            "Stun Spore"
           ],
           [
             34,
@@ -69734,10 +69806,6 @@ overrides = {
             "Rock Climb"
           ],
           [
-            45,
-            "Fling"
-          ],
-          [
             50,
             "Stone Edge"
           ],
@@ -69780,7 +69848,6 @@ overrides = {
           "Rest",
           "Attract",
           "Round",
-          "Fling",
           "Acrobatics",
           "Shadow Claw",
           "Rock Polish",
@@ -69872,10 +69939,6 @@ overrides = {
             "Rock Climb"
           ],
           [
-            45,
-            "Fling"
-          ],
-          [
             50,
             "Stone Edge"
           ],
@@ -69920,7 +69983,6 @@ overrides = {
           "Attract",
           "Round",
           "Focus Blast",
-          "Fling",
           "Acrobatics",
           "Shadow Claw",
           "Giga Impact",
@@ -71163,6 +71225,10 @@ overrides = {
           [
             60,
             "Psycho Boost"
+          ],
+          [
+            62,
+            "Synchronoise"
           ]
         ],
         "tms": [
@@ -71298,6 +71364,10 @@ overrides = {
           [
             60,
             "Psycho Boost"
+          ],
+          [
+            62,
+            "Synchronoise"
           ]
         ],
         "tms": [
@@ -71433,6 +71503,10 @@ overrides = {
           [
             60,
             "Psycho Boost"
+          ],
+          [
+            62,
+            "Synchronoise"
           ]
         ],
         "tms": [
@@ -76211,6 +76285,7 @@ overrides = {
           "Return",
           "Dig",
           "Double Team",
+          "Water Pulse",
           "Sludge Wave",
           "Sludge Bomb",
           "Sandstorm",
@@ -77586,6 +77661,10 @@ overrides = {
             "Featherdance"
           ],
           [
+            35,
+            "Roost"
+          ],
+          [
             38,
             "Air Slash"
           ],
@@ -77710,6 +77789,10 @@ overrides = {
           [
             32,
             "Featherdance"
+          ],
+          [
+            35,
+            "Roost"
           ],
           [
             38,
@@ -82423,7 +82506,8 @@ overrides = {
       "name": "Karate Chop",
       "num": 1,
       "desc": "The target is attacked with a sharp chop. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Double Slap": {
       "t": "Normal",
@@ -83265,7 +83349,8 @@ overrides = {
       "name": "Drill Peck",
       "num": 64,
       "desc": "A corkscrewing attack with the sharp beak acting as a drill. Critical hits land more easily.",
-      "e_id": 0
+      "e_id": 0,
+      "critRatio": 2
     },
     "Submission": {
       "t": "Fighting",
@@ -83337,7 +83422,11 @@ overrides = {
       "name": "Absorb",
       "num": 70,
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Mega Drain": {
       "t": "Grass",
@@ -83349,7 +83438,11 @@ overrides = {
       "name": "Mega Drain",
       "num": 71,
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Leech Seed": {
       "t": "Grass",
@@ -83388,7 +83481,8 @@ overrides = {
       "num": 74,
       "desc": "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Solar Beam": {
       "t": "Grass",
@@ -83770,7 +83864,11 @@ overrides = {
       "name": "Recover",
       "num": 104,
       "desc": "Restoring its own cells, the user restores its own HP by half of its max HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Harden": {
       "t": "Normal",
@@ -83959,6 +84057,7 @@ overrides = {
       "desc": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
       "e_id": 7,
       "tar": "allAdjacent",
+      "critRatio": 7,
       "willCrit": true
     },
     "Egg Bomb": {
@@ -84152,7 +84251,11 @@ overrides = {
       "name": "Soft-Boiled",
       "num": 134,
       "desc": "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "High Jump Kick": {
       "t": "Fighting",
@@ -84189,7 +84292,11 @@ overrides = {
       "name": "Dream Eater",
       "num": 137,
       "desc": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user's HP.",
-      "e_id": 8
+      "e_id": 8,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Poison Gas": {
       "t": "Poison",
@@ -84231,7 +84338,11 @@ overrides = {
       "name": "Leech Life",
       "num": 140,
       "desc": "The user drains the target's blood. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Lovely Kiss": {
       "t": "Normal",
@@ -84373,7 +84484,8 @@ overrides = {
       "name": "Crabhammer",
       "num": 151,
       "desc": "The target is hammered with a large pincer. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Explosion": {
       "t": "Normal",
@@ -84387,6 +84499,7 @@ overrides = {
       "desc": "The user explodes to inflict damage on those around it. The user faints upon using this move.",
       "e_id": 7,
       "tar": "allAdjacent",
+      "critRatio": 7,
       "willCrit": true
     },
     "Fury Swipes": {
@@ -84518,7 +84631,8 @@ overrides = {
       "name": "Slash",
       "num": 162,
       "desc": "The target is attacked with a slash of claws or blades. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Substitute": {
       "t": "Normal",
@@ -84695,7 +84809,8 @@ overrides = {
       "name": "Aeroblast",
       "num": 176,
       "desc": "A vortex of air is shot at the target to inflict damage. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Cotton Spore": {
       "t": "Grass",
@@ -85017,7 +85132,11 @@ overrides = {
       "name": "Giga Drain",
       "num": 201,
       "desc": "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Endure": {
       "t": "Normal",
@@ -85091,7 +85210,11 @@ overrides = {
       "name": "Milk Drink",
       "num": 207,
       "desc": "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Spark": {
       "t": "Electric",
@@ -85421,7 +85544,11 @@ overrides = {
       "name": "Morning Sun",
       "num": 233,
       "desc": "The user restores its own HP. The amount of HP regained varies with the weather.",
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Synthesis": {
       "t": "Grass",
@@ -85433,7 +85560,11 @@ overrides = {
       "name": "Synthesis",
       "num": 234,
       "desc": "The user restores its own HP. The amount of HP regained varies with the weather.",
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Moonlight": {
       "t": "Normal",
@@ -85445,7 +85576,11 @@ overrides = {
       "name": "Moonlight",
       "num": 235,
       "desc": "The user restores its own HP. The amount of HP regained varies with the weather.",
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hidden Power": {
       "t": "Normal",
@@ -85469,7 +85604,8 @@ overrides = {
       "name": "Cross Chop",
       "num": 237,
       "desc": "The user delivers a double chop with its forearms crossed. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Twister": {
       "t": "Dragon",
@@ -85698,7 +85834,11 @@ overrides = {
       "name": "Swallow",
       "num": 255,
       "desc": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
-      "e_id": 162
+      "e_id": 162,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Heat Wave": {
       "t": "Fire",
@@ -86239,6 +86379,7 @@ overrides = {
       "num": 298,
       "desc": "The user launches a kick that lands a critical hit more easily. It may also leave the target with a burn.",
       "e_id": 200,
+      "critRatio": 2,
       "secondaries": true
     },
     "Mud Sport": {
@@ -86287,7 +86428,11 @@ overrides = {
       "name": "Slack Off",
       "num": 302,
       "desc": "The user slacks off, restoring its own HP by up to half of its maximum HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hyper Voice": {
       "t": "Normal",
@@ -86432,7 +86577,8 @@ overrides = {
       "num": 313,
       "desc": "The user launches razor-like wind to slash the opposing team. Critical hits land more easily.",
       "e_id": 43,
-      "tar": "allAdjacentFoes"
+      "tar": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Overheat": {
       "t": "Fire",
@@ -86807,6 +86953,7 @@ overrides = {
       "num": 341,
       "desc": "The user hits the target with its tail. It may also poison the target. Critical hits land more easily.",
       "e_id": 209,
+      "critRatio": 2,
       "secondaries": true
     },
     "Covet": {
@@ -86885,7 +87032,8 @@ overrides = {
       "name": "Leaf Blade",
       "num": 347,
       "desc": "The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Dragon Dance": {
       "t": "Dragon",
@@ -86975,7 +87123,11 @@ overrides = {
       "name": "Roost",
       "num": 354,
       "desc": "The user lands and rests its body. It restores the user's HP by up to half of its max HP.",
-      "e_id": 214
+      "e_id": 214,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Gravity": {
       "t": "Psychic",
@@ -87530,7 +87682,8 @@ overrides = {
       "name": "Night Slash",
       "num": 399,
       "desc": "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Aqua Tail": {
       "t": "Water",
@@ -87582,7 +87735,8 @@ overrides = {
       "name": "X-Scissor",
       "num": 403,
       "desc": "The user slashes at the target as if they were a pair of scissors. Critical hits land more easily.",
-      "e_id": 0
+      "e_id": 0,
+      "critRatio": 2
     },
     "Bug Buzz": {
       "t": "Bug",
@@ -87648,6 +87802,10 @@ overrides = {
       "num": 408,
       "desc": "An energy-draining punch. The user's HP is restored by half the damage taken by the target.",
       "e_id": 3,
+      "drain": [
+        1,
+        2
+      ],
       "flags": {
         "punch": true
       }
@@ -87805,7 +87963,8 @@ overrides = {
       "name": "Shadow Claw",
       "num": 420,
       "desc": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Thunder Fang": {
       "t": "Electric",
@@ -87881,7 +88040,8 @@ overrides = {
       "name": "Psycho Cut",
       "num": 426,
       "desc": "The user tears at the target with blades formed by psychic power. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Zen Headbutt": {
       "t": "Psychic",
@@ -88045,6 +88205,7 @@ overrides = {
       "num": 439,
       "desc": "A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.",
       "e_id": 209,
+      "critRatio": 2,
       "secondaries": true
     },
     "Gunk Shot": {
@@ -88094,7 +88255,8 @@ overrides = {
       "name": "Stone Edge",
       "num": 443,
       "desc": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Captivate": {
       "t": "Normal",
@@ -88225,7 +88387,8 @@ overrides = {
       "name": "Attack Order",
       "num": 453,
       "desc": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Defend Order": {
       "t": "Bug",
@@ -88250,7 +88413,11 @@ overrides = {
       "name": "Heal Order",
       "num": 455,
       "desc": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Head Smash": {
       "t": "Rock",
@@ -88264,8 +88431,8 @@ overrides = {
       "desc": "The user attacks the target with a hazardous, full-power headbutt. The user also takes terrible damage.",
       "e_id": 198,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Double Hit": {
@@ -88306,7 +88473,8 @@ overrides = {
       "name": "Spacial Rend",
       "num": 459,
       "desc": "The user tears the target along with the space around it. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Lunar Dance": {
       "t": "Psychic",
@@ -88556,6 +88724,7 @@ overrides = {
       "num": 479,
       "desc": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true
     },
     "Flame Burst": {
@@ -88871,7 +89040,11 @@ overrides = {
       "name": "Heal Pulse",
       "num": 504,
       "desc": "The user emits a healing pulse which restores the target's HP by up to half of its max HP.",
-      "e_id": 309
+      "e_id": 309,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hex": {
       "t": "Ghost",
@@ -89107,6 +89280,7 @@ overrides = {
       "num": 523,
       "desc": "The user blows a cold breath on the target. This attack always results in a critical hit.",
       "e_id": 288,
+      "critRatio": 7,
       "willCrit": true
     },
     "Dragon Tail": {
@@ -89170,7 +89344,8 @@ overrides = {
       "name": "Drill Run",
       "num": 528,
       "desc": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Dual Chop": {
       "t": "Dragon",
@@ -89210,7 +89385,11 @@ overrides = {
       "name": "Horn Leech",
       "num": 531,
       "desc": "The user drains the target's energy with its horns. The user's HP is restored by half the damage taken by the target.",
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Sacred Sword": {
       "t": "Fighting",
@@ -89353,8 +89532,8 @@ overrides = {
       "desc": "The user charges its head into its target, using its powerful guard hair. It also damages the user a little.",
       "e_id": 48,
       "recoil": [
-        25,
-        100
+        1,
+        4
       ]
     },
     "Gear Grind": {
@@ -89575,496 +89754,660 @@ overrides = {
   },
   "abilities": {
     "stench": {
-      "name": "Stench"
+      "name": "Stench",
+      "desc": "The stench may cause the target to flinch."
     },
     "drizzle": {
-      "name": "Drizzle"
+      "name": "Drizzle",
+      "desc": "The Pokémon makes it rain if it appears in battle."
     },
     "speedboost": {
-      "name": "Speed Boost"
+      "name": "Speed Boost",
+      "desc": "Its Speed stat is gradually boosted."
     },
     "battlearmor": {
-      "name": "Battle Armor"
+      "name": "Battle Armor",
+      "desc": "The Pokémon is protected against critical hits."
     },
     "sturdy": {
-      "name": "Sturdy"
+      "name": "Sturdy",
+      "desc": "It cannot be knocked out with one hit."
     },
     "damp": {
-      "name": "Damp"
+      "name": "Damp",
+      "desc": "Prevents the use of self-destructing moves."
     },
     "limber": {
-      "name": "Limber"
+      "name": "Limber",
+      "desc": "The Pokémon is protected from paralysis."
     },
     "sandveil": {
-      "name": "Sand Veil"
+      "name": "Sand Veil",
+      "desc": "Boosts the Pokémon's evasion in a sandstorm."
     },
     "static": {
-      "name": "Static"
+      "name": "Static",
+      "desc": "Contact with the Pokémon may cause paralysis."
     },
     "voltabsorb": {
-      "name": "Volt Absorb"
+      "name": "Volt Absorb",
+      "desc": "Restores HP if hit by an Electric-type move."
     },
     "waterabsorb": {
-      "name": "Water Absorb"
+      "name": "Water Absorb",
+      "desc": "Restores HP if hit by a Water-type move."
     },
     "oblivious": {
-      "name": "Oblivious"
+      "name": "Oblivious",
+      "desc": "Prevents it from becoming infatuated."
     },
     "cloudnine": {
-      "name": "Cloud Nine"
+      "name": "Cloud Nine",
+      "desc": "Eliminates the effects of weather."
     },
     "compoundeyes": {
-      "name": "Compound Eyes"
+      "name": "Compound Eyes",
+      "desc": "The Pokémon's accuracy is boosted."
     },
     "insomnia": {
-      "name": "Insomnia"
+      "name": "Insomnia",
+      "desc": "Prevents the Pokémon from falling asleep."
     },
     "colorchange": {
-      "name": "Color Change"
+      "name": "Color Change",
+      "desc": "Changes the Pokémon's type to the foe's move."
     },
     "immunity": {
-      "name": "Immunity"
+      "name": "Immunity",
+      "desc": "Prevents the Pokémon from getting poisoned."
     },
     "flashfire": {
-      "name": "Flash Fire"
+      "name": "Flash Fire",
+      "desc": "It powers up Fire-type moves if it's hit by one."
     },
     "shielddust": {
-      "name": "Shield Dust"
+      "name": "Shield Dust",
+      "desc": "Blocks the added effects of attacks taken."
     },
     "owntempo": {
-      "name": "Own Tempo"
+      "name": "Own Tempo",
+      "desc": "Prevents the Pokémon from becoming confused."
     },
     "suctioncups": {
-      "name": "Suction Cups"
+      "name": "Suction Cups",
+      "desc": "Negates all moves that force switching out."
     },
     "intimidate": {
-      "name": "Intimidate"
+      "name": "Intimidate",
+      "desc": "Lowers the foe's Attack stat."
     },
     "shadowtag": {
-      "name": "Shadow Tag"
+      "name": "Shadow Tag",
+      "desc": "Prevents the foe from escaping."
     },
     "roughskin": {
-      "name": "Rough Skin"
+      "name": "Rough Skin",
+      "desc": "Inflicts damage to the attacker on contact."
     },
     "wonderguard": {
-      "name": "Wonder Guard"
+      "name": "Wonder Guard",
+      "desc": "Only supereffective moves will hit."
     },
     "levitate": {
-      "name": "Levitate"
+      "name": "Levitate",
+      "desc": "Gives full immunity to all Ground-type moves."
     },
     "effectspore": {
-      "name": "Effect Spore"
+      "name": "Effect Spore",
+      "desc": "Contact may poison or cause paralysis or sleep."
     },
     "synchronize": {
-      "name": "Synchronize"
+      "name": "Synchronize",
+      "desc": "Passes a burn, poison, or paralysis to the foe."
     },
     "clearbody": {
-      "name": "Clear Body"
+      "name": "Clear Body",
+      "desc": "Prevents other Pokémon from lowering its stats."
     },
     "naturalcure": {
-      "name": "Natural Cure"
+      "name": "Natural Cure",
+      "desc": "All status problems heal when it switches out."
     },
     "lightningrod": {
-      "name": "Lightning Rod"
+      "name": "Lightning Rod",
+      "desc": "Draws in all Electric-type moves to up Sp. Attack."
     },
     "serenegrace": {
-      "name": "Serene Grace"
+      "name": "Serene Grace",
+      "desc": "Boosts the likelihood of added effects appearing."
     },
     "swiftswim": {
-      "name": "Swift Swim"
+      "name": "Swift Swim",
+      "desc": "Boosts the Pokémon's Speed in rain."
     },
     "chlorophyll": {
-      "name": "Chlorophyll"
+      "name": "Chlorophyll",
+      "desc": "Boosts the Pokémon's Speed in sunshine."
     },
     "illuminate": {
-      "name": "Illuminate"
+      "name": "Illuminate",
+      "desc": "Raises the likelihood of meeting wild Pokémon."
     },
     "trace": {
-      "name": "Trace"
+      "name": "Trace",
+      "desc": "The Pokémon copies a foe's Ability."
     },
     "hugepower": {
-      "name": "Huge Power"
+      "name": "Huge Power",
+      "desc": "Raises the Pokémon's Attack stat."
     },
     "poisonpoint": {
-      "name": "Poison Point"
+      "name": "Poison Point",
+      "desc": "Contact with the Pokémon may poison the attacker."
     },
     "innerfocus": {
-      "name": "Inner Focus"
+      "name": "Inner Focus",
+      "desc": "The Pokémon is protected from flinching."
     },
     "magmaarmor": {
-      "name": "Magma Armor"
+      "name": "Magma Armor",
+      "desc": "Prevents the Pokémon from becoming frozen."
     },
     "waterveil": {
-      "name": "Water Veil"
+      "name": "Water Veil",
+      "desc": "Prevents the Pokémon from getting a burn."
     },
     "magnetpull": {
-      "name": "Magnet Pull"
+      "name": "Magnet Pull",
+      "desc": "Prevents Steel-type Pokémon from escaping."
     },
     "soundproof": {
-      "name": "Soundproof"
+      "name": "Soundproof",
+      "desc": "Gives full immunity to all sound-based moves."
     },
     "raindish": {
-      "name": "Rain Dish"
+      "name": "Rain Dish",
+      "desc": "The Pokémon gradually regains HP in rain."
     },
     "sandstream": {
-      "name": "Sand Stream"
+      "name": "Sand Stream",
+      "desc": "The Pokémon summons a sandstorm in battle."
     },
     "pressure": {
-      "name": "Pressure"
+      "name": "Pressure",
+      "desc": "The Pokémon raises the foe's PP usage."
     },
     "thickfat": {
-      "name": "Thick Fat"
+      "name": "Thick Fat",
+      "desc": "Ups resistance to Fire- and Ice-type moves."
     },
     "earlybird": {
-      "name": "Early Bird"
+      "name": "Early Bird",
+      "desc": "The Pokémon awakens quickly from sleep."
     },
     "flamebody": {
-      "name": "Flame Body"
+      "name": "Flame Body",
+      "desc": "Contact with the Pokémon may burn the attacker."
     },
     "runaway": {
-      "name": "Run Away"
+      "name": "Run Away",
+      "desc": "Enables a sure getaway from wild Pokémon."
     },
     "keeneye": {
-      "name": "Keen Eye"
+      "name": "Keen Eye",
+      "desc": "Prevents other Pokémon from lowering accuracy."
     },
     "hypercutter": {
-      "name": "Hyper Cutter"
+      "name": "Hyper Cutter",
+      "desc": "Prevents other Pokémon from lowering Attack stat."
     },
     "pickup": {
-      "name": "Pickup"
+      "name": "Pickup",
+      "desc": "The Pokémon may pick up items."
     },
     "truant": {
-      "name": "Truant"
+      "name": "Truant",
+      "desc": "Pokémon can't attack on consecutive turns."
     },
     "hustle": {
-      "name": "Hustle"
+      "name": "Hustle",
+      "desc": "Boosts the Attack stat, but lowers accuracy."
     },
     "cutecharm": {
-      "name": "Cute Charm"
+      "name": "Cute Charm",
+      "desc": "Contact with the Pokémon may cause infatuation."
     },
     "plus": {
-      "name": "Plus"
+      "name": "Plus",
+      "desc": "Ups Sp. Atk if another Pokémon has Plus or Minus."
     },
     "minus": {
-      "name": "Minus"
+      "name": "Minus",
+      "desc": "Ups Sp. Atk if another Pokémon has Plus or Minus."
     },
     "forecast": {
-      "name": "Forecast"
+      "name": "Forecast",
+      "desc": "Castform transforms with the weather."
     },
     "stickyhold": {
-      "name": "Sticky Hold"
+      "name": "Sticky Hold",
+      "desc": "Protects the Pokémon from item theft."
     },
     "shedskin": {
-      "name": "Shed Skin"
+      "name": "Shed Skin",
+      "desc": "The Pokémon may heal its own status problems."
     },
     "guts": {
-      "name": "Guts"
+      "name": "Guts",
+      "desc": "Boosts Attack if there is a status problem."
     },
     "marvelscale": {
-      "name": "Marvel Scale"
+      "name": "Marvel Scale",
+      "desc": "Ups Defense if there is a status problem."
     },
     "liquidooze": {
-      "name": "Liquid Ooze"
+      "name": "Liquid Ooze",
+      "desc": "Damages attackers using any draining move."
     },
     "overgrow": {
-      "name": "Overgrow"
+      "name": "Overgrow",
+      "desc": "Powers up Grass-type moves in a pinch."
     },
     "blaze": {
-      "name": "Blaze"
+      "name": "Blaze",
+      "desc": "Powers up Fire-type moves in a pinch."
     },
     "torrent": {
-      "name": "Torrent"
+      "name": "Torrent",
+      "desc": "Powers up Water-type moves in a pinch."
     },
     "swarm": {
-      "name": "Swarm"
+      "name": "Swarm",
+      "desc": "Powers up Bug-type moves in a pinch."
     },
     "rockhead": {
-      "name": "Rock Head"
+      "name": "Rock Head",
+      "desc": "Protects the Pokémon from recoil damage."
     },
     "drought": {
-      "name": "Drought"
+      "name": "Drought",
+      "desc": "Turns the sunlight harsh if it is in battle."
     },
     "arenatrap": {
-      "name": "Arena Trap"
+      "name": "Arena Trap",
+      "desc": "Prevents the foe from fleeing."
     },
     "vitalspirit": {
-      "name": "Vital Spirit"
+      "name": "Vital Spirit",
+      "desc": "Prevents the Pokémon from falling asleep."
     },
     "whitesmoke": {
-      "name": "White Smoke"
+      "name": "White Smoke",
+      "desc": "Prevents other Pokémon from lowering its stats."
     },
     "purepower": {
-      "name": "Pure Power"
+      "name": "Pure Power",
+      "desc": "Raises the Pokémon's Attack stat."
     },
     "shellarmor": {
-      "name": "Shell Armor"
+      "name": "Shell Armor",
+      "desc": "The Pokémon is protected against critical hits."
     },
     "airlock": {
-      "name": "Air Lock"
+      "name": "Air Lock",
+      "desc": "Eliminates the effects of weather."
     },
     "tangledfeet": {
-      "name": "Tangled Feet"
+      "name": "Tangled Feet",
+      "desc": "Raises evasion if the Pokémon is confused."
     },
     "motordrive": {
-      "name": "Motor Drive"
+      "name": "Motor Drive",
+      "desc": "Raises Speed if hit by an Electric-type move."
     },
     "rivalry": {
-      "name": "Rivalry"
+      "name": "Rivalry",
+      "desc": "Deals more damage to a Pokémon of same gender."
     },
     "steadfast": {
-      "name": "Steadfast"
+      "name": "Steadfast",
+      "desc": "Raises Speed each time the Pokémon flinches."
     },
     "snowcloak": {
-      "name": "Snow Cloak"
+      "name": "Snow Cloak",
+      "desc": "Raises evasion in a hailstorm."
     },
     "gluttony": {
-      "name": "Gluttony"
+      "name": "Gluttony",
+      "desc": "Encourages the early use of a held Berry."
     },
     "angerpoint": {
-      "name": "Anger Point"
+      "name": "Anger Point",
+      "desc": "Maxes Attack after taking a critical hit."
     },
     "unburden": {
-      "name": "Unburden"
+      "name": "Unburden",
+      "desc": "Raises Speed if a held item is used."
     },
     "heatproof": {
-      "name": "Heatproof"
+      "name": "Heatproof",
+      "desc": "Weakens the power of Fire-type moves."
     },
     "simple": {
-      "name": "Simple"
+      "name": "Simple",
+      "desc": "The Pokémon is prone to wild stat changes."
     },
     "dryskin": {
-      "name": "Dry Skin"
+      "name": "Dry Skin",
+      "desc": "Reduces HP if it is hot. Water restores HP."
     },
     "download": {
-      "name": "Download"
+      "name": "Download",
+      "desc": "Adjusts power according to a foe's defenses."
     },
     "ironfist": {
-      "name": "Iron Fist"
+      "name": "Iron Fist",
+      "desc": "Boosts the power of punching moves."
     },
     "poisonheal": {
-      "name": "Poison Heal"
+      "name": "Poison Heal",
+      "desc": "Restores HP if the Pokémon is poisoned."
     },
     "adaptability": {
-      "name": "Adaptability"
+      "name": "Adaptability",
+      "desc": "Powers up moves of the same type."
     },
     "skilllink": {
-      "name": "Skill Link"
+      "name": "Skill Link",
+      "desc": "Increases the frequency of multi-strike moves."
     },
     "hydration": {
-      "name": "Hydration"
+      "name": "Hydration",
+      "desc": "Heals status problems if it is raining."
     },
     "solarpower": {
-      "name": "Solar Power"
+      "name": "Solar Power",
+      "desc": "In sunshine, Sp. Atk is boosted but HP decreases."
     },
     "quickfeet": {
-      "name": "Quick Feet"
+      "name": "Quick Feet",
+      "desc": "Boosts Speed if there is a status problem."
     },
     "normalize": {
-      "name": "Normalize"
+      "name": "Normalize",
+      "desc": "All the Pokémon's moves become the Normal type."
     },
     "sniper": {
-      "name": "Sniper"
+      "name": "Sniper",
+      "desc": "Powers up moves if they become critical hits."
     },
     "magicguard": {
-      "name": "Magic Guard"
+      "name": "Magic Guard",
+      "desc": "The Pokémon only takes damage from attacks."
     },
     "noguard": {
-      "name": "No Guard"
+      "name": "No Guard",
+      "desc": "Ensures attacks by or against the Pokémon land."
     },
     "stall": {
-      "name": "Stall"
+      "name": "Stall",
+      "desc": "The Pokémon moves after all other Pokémon do."
     },
     "technician": {
-      "name": "Technician"
+      "name": "Technician",
+      "desc": "Powers up the Pokémon's weaker moves."
     },
     "leafguard": {
-      "name": "Leaf Guard"
+      "name": "Leaf Guard",
+      "desc": "Prevents problems with status in sunny weather."
     },
     "klutz": {
-      "name": "Klutz"
+      "name": "Klutz",
+      "desc": "The Pokémon can't use any held items."
     },
     "moldbreaker": {
-      "name": "Mold Breaker"
+      "name": "Mold Breaker",
+      "desc": "Moves can be used regardless of Abilities."
     },
     "superluck": {
-      "name": "Super Luck"
+      "name": "Super Luck",
+      "desc": "Heightens the critical- hit ratios of moves."
     },
     "aftermath": {
-      "name": "Aftermath"
+      "name": "Aftermath",
+      "desc": "Damages the attacker landing the finishing hit."
     },
     "anticipation": {
-      "name": "Anticipation"
+      "name": "Anticipation",
+      "desc": "Senses a foe's dangerous moves."
     },
     "forewarn": {
-      "name": "Forewarn"
+      "name": "Forewarn",
+      "desc": "Determines what moves a foe has."
     },
     "unaware": {
-      "name": "Unaware"
+      "name": "Unaware",
+      "desc": "Ignores any stat changes in the Pokémon."
     },
     "tintedlens": {
-      "name": "Tinted Lens"
+      "name": "Tinted Lens",
+      "desc": "Powers up “not very effective\" moves."
     },
     "filter": {
-      "name": "Filter"
+      "name": "Filter",
+      "desc": "Reduces damage from supereffective attacks."
     },
     "slowstart": {
-      "name": "Slow Start"
+      "name": "Slow Start",
+      "desc": "Temporarily halves Attack and Speed."
     },
     "scrappy": {
-      "name": "Scrappy"
+      "name": "Scrappy",
+      "desc": "Enables moves to hit Ghost-type Pokémon."
     },
     "stormdrain": {
-      "name": "Storm Drain"
+      "name": "Storm Drain",
+      "desc": "Draws in all Water-type moves to up Sp. Attack."
     },
     "icebody": {
-      "name": "Ice Body"
+      "name": "Ice Body",
+      "desc": "The Pokémon gradually regains HP in a hailstorm."
     },
     "solidrock": {
-      "name": "Solid Rock"
+      "name": "Solid Rock",
+      "desc": "Reduces damage from supereffective attacks."
     },
     "snowwarning": {
-      "name": "Snow Warning"
+      "name": "Snow Warning",
+      "desc": "The Pokémon summons a hailstorm in battle."
     },
     "honeygather": {
-      "name": "Honey Gather"
+      "name": "Honey Gather",
+      "desc": "The Pokémon may gather Honey from somewhere."
     },
     "frisk": {
-      "name": "Frisk"
+      "name": "Frisk",
+      "desc": "The Pokémon can check a foe's held item."
     },
     "reckless": {
-      "name": "Reckless"
+      "name": "Reckless",
+      "desc": "Powers up moves that have recoil damage."
     },
     "multitype": {
-      "name": "Multitype"
+      "name": "Multitype",
+      "desc": "Changes type to match the held Plate."
     },
     "flowergift": {
-      "name": "Flower Gift"
+      "name": "Flower Gift",
+      "desc": "Powers up party Pokémon when it is sunny."
     },
     "baddreams": {
-      "name": "Bad Dreams"
+      "name": "Bad Dreams",
+      "desc": "Reduces a sleeping foe's HP."
     },
     "pickpocket": {
-      "name": "Pickpocket"
+      "name": "Pickpocket",
+      "desc": "Steals an item when hit by another Pokémon."
     },
     "sheerforce": {
-      "name": "Sheer Force"
+      "name": "Sheer Force",
+      "desc": "Removes added effects to increase move damage."
     },
     "contrary": {
-      "name": "Contrary"
+      "name": "Contrary",
+      "desc": "Makes stat changes have an opposite effect."
     },
     "unnerve": {
-      "name": "Unnerve"
+      "name": "Unnerve",
+      "desc": "Makes the foe nervous and unable to eat Berries."
     },
     "defiant": {
-      "name": "Defiant"
+      "name": "Defiant",
+      "desc": "When its stats are lowered its Attack increases."
     },
     "defeatist": {
-      "name": "Defeatist"
+      "name": "Defeatist",
+      "desc": "Lowers stats when HP becomes half or less."
     },
     "cursedbody": {
-      "name": "Cursed Body"
+      "name": "Cursed Body",
+      "desc": "May disable a move used on the Pokémon."
     },
     "healer": {
-      "name": "Healer"
+      "name": "Healer",
+      "desc": "May heal an ally's status conditions."
     },
     "friendguard": {
-      "name": "Friend Guard"
+      "name": "Friend Guard",
+      "desc": "Reduces damage done to allies."
     },
     "weakarmor": {
-      "name": "Weak Armor"
+      "name": "Weak Armor",
+      "desc": "Physical attacks lower Defense and raise Speed."
     },
     "heavymetal": {
-      "name": "Heavy Metal"
+      "name": "Heavy Metal",
+      "desc": "Doubles the Pokémon's weight."
     },
     "lightmetal": {
-      "name": "Light Metal"
+      "name": "Light Metal",
+      "desc": "Halves the Pokémon's weight."
     },
     "multiscale": {
-      "name": "Multiscale"
+      "name": "Multiscale",
+      "desc": "Reduces damage when HP is full."
     },
     "toxicboost": {
-      "name": "Toxic Boost"
+      "name": "Toxic Boost",
+      "desc": "Powers up physical attacks when poisoned."
     },
     "flareboost": {
-      "name": "Flare Boost"
+      "name": "Flare Boost",
+      "desc": "Powers up special attacks when burned."
     },
     "harvest": {
-      "name": "Harvest"
+      "name": "Harvest",
+      "desc": "May create another Berry after one is used."
     },
     "telepathy": {
-      "name": "Telepathy"
+      "name": "Telepathy",
+      "desc": "Anticipates an ally's attack and dodges it."
     },
     "moody": {
-      "name": "Moody"
+      "name": "Moody",
+      "desc": "Raises one stat and lowers another."
     },
     "overcoat": {
-      "name": "Overcoat"
+      "name": "Overcoat",
+      "desc": "Protects the Pokémon from damage from weather."
     },
     "poisontouch": {
-      "name": "Poison Touch"
+      "name": "Poison Touch",
+      "desc": "May poison targets when a Pokémon makes contact."
     },
     "regenerator": {
-      "name": "Regenerator"
+      "name": "Regenerator",
+      "desc": "Restores a little HP when withdrawn from battle."
     },
     "bigpecks": {
-      "name": "Big Pecks"
+      "name": "Big Pecks",
+      "desc": "Protects the Pokémon from Defense-lowering attacks."
     },
     "sandrush": {
-      "name": "Sand Rush"
+      "name": "Sand Rush",
+      "desc": "Boosts the Pokémon's Speed in a sandstorm."
     },
     "wonderskin": {
-      "name": "Wonder Skin"
+      "name": "Wonder Skin",
+      "desc": "Makes status-changing moves more likely to miss."
     },
     "analytic": {
-      "name": "Analytic"
+      "name": "Analytic",
+      "desc": "Boosts move power when the Pokémon moves last."
     },
     "illusion": {
-      "name": "Illusion"
+      "name": "Illusion",
+      "desc": "Comes out disguised as the Pokémon in back."
     },
     "imposter": {
-      "name": "Imposter"
+      "name": "Imposter",
+      "desc": "It transforms itself into the Pokémon it is facing."
     },
     "infiltrator": {
-      "name": "Infiltrator"
+      "name": "Infiltrator",
+      "desc": "Passes through the foe's barrier and strikes."
     },
     "mummy": {
-      "name": "Mummy"
+      "name": "Mummy",
+      "desc": "Contact with this Pokémon spreads this Ability."
     },
     "moxie": {
-      "name": "Moxie"
+      "name": "Moxie",
+      "desc": "Boosts Attack after knocking out any Pokémon."
     },
     "justified": {
-      "name": "Justified"
+      "name": "Justified",
+      "desc": "Raises Attack when hit by a Dark-type move."
     },
     "rattled": {
-      "name": "Rattled"
+      "name": "Rattled",
+      "desc": "Some move types scare it and boost its Speed."
     },
     "magicbounce": {
-      "name": "Magic Bounce"
+      "name": "Magic Bounce",
+      "desc": "Reflects status- changing moves."
     },
     "sapsipper": {
-      "name": "Sap Sipper"
+      "name": "Sap Sipper",
+      "desc": "Boosts Attack when hit by a Grass-type move."
     },
     "prankster": {
-      "name": "Prankster"
+      "name": "Prankster",
+      "desc": "Gives priority to a status move."
     },
     "sandforce": {
-      "name": "Sand Force"
+      "name": "Sand Force",
+      "desc": "Boosts certain moves' power in a sandstorm."
     },
     "ironbarbs": {
-      "name": "Iron Barbs"
+      "name": "Iron Barbs",
+      "desc": "Inflicts damage to the Pokémon on contact."
     },
     "zenmode": {
-      "name": "Zen Mode"
+      "name": "Zen Mode",
+      "desc": "Changes the Pokémon's shape when HP is halved."
     },
     "victorystar": {
-      "name": "Victory Star"
+      "name": "Victory Star",
+      "desc": "Boosts the accuracy of its allies and itself."
     },
     "turboblaze": {
-      "name": "Turboblaze"
+      "name": "Turboblaze",
+      "desc": "Moves can be used regardless of Abilities."
     },
     "teravolt": {
-      "name": "Teravolt"
+      "name": "Teravolt",
+      "desc": "Moves can be used regardless of Abilities."
     }
   },
   "encs": {
@@ -90160,8 +90503,8 @@ overrides = {
         100
       ]
     },
-    "striatoncity": {
-      "name": "Striaton City",
+    "location0": {
+      "name": "Location 0",
       "wilds": [
         "Shroomish",
         "Sunkern",
@@ -90180,9 +90523,8 @@ overrides = {
         "Blastoise",
         "Kingler",
         "Goldeen",
-        "Surskit",
         "Psyduck",
-        "Remoraid"
+        "Lotad"
       ],
       "grass": {
         "rates": [
@@ -90392,7 +90734,7 @@ overrides = {
             "mn": 5
           },
           {
-            "s": "Surskit",
+            "s": "Psyduck",
             "mn": 5
           },
           {
@@ -90419,23 +90761,23 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Psyduck",
+            "s": "Sunkern",
             "mn": 5
           },
           {
-            "s": "Remoraid",
+            "s": "Lotad",
             "mn": 5
           },
           {
-            "s": "Psyduck",
+            "s": "Sunkern",
             "mn": 5
           },
           {
-            "s": "Psyduck",
+            "s": "Sunkern",
             "mn": 5
           },
           {
-            "s": "Psyduck",
+            "s": "Sunkern",
             "mn": 5
           }
         ]
@@ -90805,9 +91147,7 @@ overrides = {
         "Ariados",
         "Kricketune",
         "Venomoth",
-        "Mudkip",
-        "Treecko",
-        "Torchic"
+        "Audino"
       ],
       "grass": {
         "rates": [
@@ -90964,51 +91304,51 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Mudkip",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Mudkip",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Treecko",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Treecko",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Treecko",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Torchic",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Torchic",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Torchic",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Torchic",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Torchic",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Torchic",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Torchic",
+            "s": "Audino",
             "mn": 5
           }
         ]
@@ -91143,9 +91483,9 @@ overrides = {
         "Throh",
         "FarfetchD",
         "Druddigon",
-        "Smoochum",
-        "Magby",
-        "Elekid"
+        "Cyndaquil",
+        "Chikorita",
+        "Totodile"
       ],
       "grass": {
         "rates": [
@@ -91296,51 +91636,51 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Smoochum",
+            "s": "Cyndaquil",
             "mn": 15
           },
           {
-            "s": "Magby",
+            "s": "Chikorita",
             "mn": 15
           },
           {
-            "s": "Smoochum",
+            "s": "Cyndaquil",
             "mn": 15
           },
           {
-            "s": "Magby",
+            "s": "Chikorita",
             "mn": 15
           },
           {
-            "s": "Elekid",
+            "s": "Totodile",
             "mn": 15
           },
           {
-            "s": "Elekid",
+            "s": "Totodile",
             "mn": 15
           },
           {
-            "s": "Elekid",
+            "s": "Totodile",
             "mn": 15
           },
           {
-            "s": "Elekid",
+            "s": "Totodile",
             "mn": 15
           },
           {
-            "s": "Smoochum",
+            "s": "Cyndaquil",
             "mn": 15
           },
           {
-            "s": "Magby",
+            "s": "Chikorita",
             "mn": 15
           },
           {
-            "s": "Elekid",
+            "s": "Totodile",
             "mn": 15
           },
           {
-            "s": "Elekid",
+            "s": "Totodile",
             "mn": 15
           }
         ]
@@ -91366,9 +91706,12 @@ overrides = {
         "Ferrothorn",
         "Roserade",
         "Tangrowth",
-        "Audino",
+        "Marshtomp",
+        "Combusken",
+        "Grovyle",
         "Basculin",
-        "Goldeen",
+        "Remoraid",
+        "Clamperl",
         "Finneon",
         "Chinchou"
       ],
@@ -91521,51 +91864,51 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Audino",
+            "s": "Marshtomp",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Combusken",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Marshtomp",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Combusken",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Grovyle",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Grovyle",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Grovyle",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Grovyle",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Marshtomp",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Combusken",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Grovyle",
             "mn": 20
           },
           {
-            "s": "Audino",
+            "s": "Grovyle",
             "mn": 20
           }
         ]
@@ -91652,29 +91995,24 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Goldeen",
-            "mn": 35,
-            "mx": 55
+            "s": "Remoraid",
+            "mn": 5
           },
           {
-            "s": "Basculin",
-            "mn": 35,
-            "mx": 55
+            "s": "Clamperl",
+            "mn": 5
           },
           {
-            "s": "Goldeen",
-            "mn": 35,
-            "mx": 55
+            "s": "Remoraid",
+            "mn": 5
           },
           {
-            "s": "Goldeen",
-            "mn": 35,
-            "mx": 55
+            "s": "Remoraid",
+            "mn": 5
           },
           {
-            "s": "Goldeen",
-            "mn": 35,
-            "mx": 55
+            "s": "Remoraid",
+            "mn": 5
           }
         ]
       },
@@ -93903,18 +94241,14 @@ overrides = {
           },
           {
             "s": "Slowpoke",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Donphan",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Donphan",
-            "mn": 40
-          },
-          {
-            "s": "Burmy",
             "mn": 30
           },
           {
@@ -93922,28 +94256,32 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Stunfisk",
-            "mn": 40
+            "s": "Burmy",
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
+          },
+          {
+            "s": "Stunfisk",
+            "mn": 30
           }
         ]
       },
@@ -93990,18 +94328,14 @@ overrides = {
           },
           {
             "s": "Slowpoke",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Donphan",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Donphan",
-            "mn": 40
-          },
-          {
-            "s": "Burmy",
             "mn": 30
           },
           {
@@ -94009,28 +94343,32 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Stunfisk",
-            "mn": 40
+            "s": "Burmy",
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
           },
           {
             "s": "Stunfisk",
-            "mn": 40
+            "mn": 30
+          },
+          {
+            "s": "Stunfisk",
+            "mn": 30
           }
         ]
       }
@@ -94038,7 +94376,26 @@ overrides = {
     "reliccastle22": {
       "name": "Relic Castle 22",
       "wilds": [
-        "Claydol"
+        "Shroomish",
+        "Sunkern",
+        "Tangela",
+        "Deerling",
+        "Snover",
+        "Cherubi",
+        "Petilil",
+        "Cottonee",
+        "Maractus",
+        "Tropius",
+        "Audino",
+        "Jellicent",
+        "Corsola",
+        "Empoleon",
+        "Blastoise",
+        "Kingler",
+        "Goldeen",
+        "Surskit",
+        "Psyduck",
+        "Remoraid"
       ],
       "grass": {
         "rates": [
@@ -94057,52 +94414,242 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Claydol",
-            "mn": 47
+            "s": "Shroomish",
+            "mn": 5
           },
           {
-            "s": "Claydol",
-            "mn": 47
+            "s": "Sunkern",
+            "mn": 5
           },
           {
-            "s": "Claydol",
-            "mn": 48
+            "s": "Tangela",
+            "mn": 5
           },
           {
-            "s": "Claydol",
-            "mn": 48
+            "s": "Deerling",
+            "mn": 5
           },
           {
-            "s": "Claydol",
-            "mn": 49
+            "s": "Snover",
+            "mn": 5
           },
           {
-            "s": "Claydol",
-            "mn": 49
+            "s": "Cherubi",
+            "mn": 5
           },
           {
-            "s": "Claydol",
+            "s": "Petilil",
+            "mn": 5
+          },
+          {
+            "s": "Cottonee",
+            "mn": 5
+          },
+          {
+            "s": "Maractus",
+            "mn": 5
+          },
+          {
+            "s": "Tropius",
+            "mn": 5
+          },
+          {
+            "s": "Maractus",
+            "mn": 5
+          },
+          {
+            "s": "Tropius",
+            "mn": 5
+          }
+        ]
+      },
+      "grass_special": {
+        "rates": [
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          5,
+          5,
+          4,
+          4,
+          1,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          }
+        ]
+      },
+      "surf": {
+        "rates": [
+          60,
+          30,
+          5,
+          4,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Jellicent",
             "mn": 50
           },
           {
-            "s": "Claydol",
+            "s": "Corsola",
             "mn": 50
           },
           {
-            "s": "Claydol",
+            "s": "Corsola",
             "mn": 50
           },
           {
-            "s": "Claydol",
+            "s": "Corsola",
             "mn": 50
           },
           {
-            "s": "Claydol",
+            "s": "Corsola",
+            "mn": 50
+          }
+        ]
+      },
+      "surf_special": {
+        "rates": [
+          60,
+          30,
+          5,
+          4,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Empoleon",
             "mn": 50
           },
           {
-            "s": "Claydol",
+            "s": "Blastoise",
             "mn": 50
+          },
+          {
+            "s": "Kingler",
+            "mn": 50
+          },
+          {
+            "s": "Kingler",
+            "mn": 50
+          },
+          {
+            "s": "Kingler",
+            "mn": 50
+          }
+        ]
+      },
+      "super_rod": {
+        "rates": [
+          60,
+          30,
+          5,
+          4,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Goldeen",
+            "mn": 5
+          },
+          {
+            "s": "Surskit",
+            "mn": 5
+          },
+          {
+            "s": "Goldeen",
+            "mn": 5
+          },
+          {
+            "s": "Goldeen",
+            "mn": 5
+          },
+          {
+            "s": "Goldeen",
+            "mn": 5
+          }
+        ]
+      },
+      "super_rod_special": {
+        "rates": [
+          60,
+          30,
+          5,
+          4,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Psyduck",
+            "mn": 5
+          },
+          {
+            "s": "Remoraid",
+            "mn": 5
+          },
+          {
+            "s": "Psyduck",
+            "mn": 5
+          },
+          {
+            "s": "Psyduck",
+            "mn": 5
+          },
+          {
+            "s": "Psyduck",
+            "mn": 5
           }
         ]
       }
@@ -101507,9 +102054,9 @@ overrides = {
         "Zweilous",
         "Gabite",
         "Metang",
-        "Bulbasaur",
-        "Charmander",
-        "Squirtle",
+        "Smoochum",
+        "Magby",
+        "Elekid",
         "Starmie",
         "Slowpoke",
         "Luvdisc",
@@ -101669,51 +102216,51 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Bulbasaur",
+            "s": "Smoochum",
             "mn": 5
           },
           {
-            "s": "Bulbasaur",
+            "s": "Magby",
             "mn": 5
           },
           {
-            "s": "Charmander",
+            "s": "Smoochum",
             "mn": 5
           },
           {
-            "s": "Charmander",
+            "s": "Magby",
             "mn": 5
           },
           {
-            "s": "Charmander",
+            "s": "Elekid",
             "mn": 5
           },
           {
-            "s": "Squirtle",
+            "s": "Elekid",
             "mn": 5
           },
           {
-            "s": "Squirtle",
+            "s": "Elekid",
             "mn": 5
           },
           {
-            "s": "Squirtle",
+            "s": "Elekid",
             "mn": 5
           },
           {
-            "s": "Squirtle",
+            "s": "Smoochum",
             "mn": 5
           },
           {
-            "s": "Squirtle",
+            "s": "Magby",
             "mn": 5
           },
           {
-            "s": "Squirtle",
+            "s": "Elekid",
             "mn": 5
           },
           {
-            "s": "Squirtle",
+            "s": "Elekid",
             "mn": 5
           }
         ]
@@ -101858,9 +102405,7 @@ overrides = {
         "Hoppip",
         "Chatot",
         "FarfetchD",
-        "Cyndaquil",
-        "Chikorita",
-        "Totodile"
+        "Audino"
       ],
       "grass": {
         "rates": [
@@ -101945,51 +102490,51 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Cyndaquil",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Chikorita",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Cyndaquil",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Chikorita",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Totodile",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Totodile",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Totodile",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Totodile",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Cyndaquil",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Chikorita",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Totodile",
+            "s": "Audino",
             "mn": 5
           },
           {
-            "s": "Totodile",
+            "s": "Audino",
             "mn": 5
           }
         ]
@@ -102007,7 +102552,7 @@ overrides = {
         "Venonat",
         "Burmy",
         "Combee",
-        "Nincada",
+        "Surskit",
         "Paras",
         "Joltik",
         "Nidorina",
@@ -102022,9 +102567,9 @@ overrides = {
         "Oddish",
         "Seviper",
         "Gastly",
-        "Turtwig",
-        "Piplup",
-        "Chimchar",
+        "Bulbasaur",
+        "Charmander",
+        "Squirtle",
         "Crawdaunt",
         "Sharpedo",
         "Huntail",
@@ -102089,7 +102634,7 @@ overrides = {
             "mn": 10
           },
           {
-            "s": "Nincada",
+            "s": "Surskit",
             "mn": 10
           },
           {
@@ -102185,51 +102730,51 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Turtwig",
+            "s": "Bulbasaur",
             "mn": 10
           },
           {
-            "s": "Piplup",
+            "s": "Charmander",
             "mn": 10
           },
           {
-            "s": "Turtwig",
+            "s": "Bulbasaur",
             "mn": 10
           },
           {
-            "s": "Piplup",
+            "s": "Charmander",
             "mn": 10
           },
           {
-            "s": "Chimchar",
+            "s": "Squirtle",
             "mn": 10
           },
           {
-            "s": "Chimchar",
+            "s": "Squirtle",
             "mn": 10
           },
           {
-            "s": "Chimchar",
+            "s": "Squirtle",
             "mn": 10
           },
           {
-            "s": "Chimchar",
+            "s": "Squirtle",
             "mn": 10
           },
           {
-            "s": "Turtwig",
+            "s": "Bulbasaur",
             "mn": 10
           },
           {
-            "s": "Piplup",
+            "s": "Charmander",
             "mn": 10
           },
           {
-            "s": "Chimchar",
+            "s": "Squirtle",
             "mn": 10
           },
           {
-            "s": "Chimchar",
+            "s": "Squirtle",
             "mn": 10
           }
         ]
@@ -107634,27 +108179,29 @@ overrides = {
         ]
       }
     },
-    "abundantshrine": {
-      "name": "Abundant Shrine",
+    "striatoncity": {
+      "name": "Striaton City",
       "wilds": [
-        "Vulpix",
-        "Chimecho",
+        "Shroomish",
+        "Sunkern",
+        "Tangela",
+        "Deerling",
+        "Snover",
+        "Cherubi",
+        "Petilil",
         "Cottonee",
-        "Stantler",
-        "Noctowl",
-        "Murkrow",
-        "Bronzong",
+        "Maractus",
+        "Tropius",
         "Audino",
-        "Emolga",
-        "Honchkrow",
-        "Whimsicott",
-        "Ninetales",
-        "Basculin",
-        "Slowpoke",
-        "Slowbro",
-        "Slowking",
+        "Jellicent",
+        "Corsola",
+        "Empoleon",
+        "Blastoise",
+        "Kingler",
         "Goldeen",
-        "Seaking"
+        "Surskit",
+        "Psyduck",
+        "Remoraid"
       ],
       "grass": {
         "rates": [
@@ -107673,52 +108220,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Vulpix",
-            "mn": 47
+            "s": "Shroomish",
+            "mn": 5
           },
           {
-            "s": "Chimecho",
-            "mn": 47
+            "s": "Sunkern",
+            "mn": 5
+          },
+          {
+            "s": "Tangela",
+            "mn": 5
+          },
+          {
+            "s": "Deerling",
+            "mn": 5
+          },
+          {
+            "s": "Snover",
+            "mn": 5
+          },
+          {
+            "s": "Cherubi",
+            "mn": 5
+          },
+          {
+            "s": "Petilil",
+            "mn": 5
           },
           {
             "s": "Cottonee",
-            "mn": 48
+            "mn": 5
           },
           {
-            "s": "Chimecho",
-            "mn": 49
+            "s": "Maractus",
+            "mn": 5
           },
           {
-            "s": "Stantler",
-            "mn": 48
+            "s": "Tropius",
+            "mn": 5
           },
           {
-            "s": "Noctowl",
-            "mn": 48
+            "s": "Maractus",
+            "mn": 5
           },
           {
-            "s": "Murkrow",
-            "mn": 48
-          },
-          {
-            "s": "Bronzong",
-            "mn": 48
-          },
-          {
-            "s": "Noctowl",
-            "mn": 50
-          },
-          {
-            "s": "Bronzong",
-            "mn": 50
-          },
-          {
-            "s": "Noctowl",
-            "mn": 50
-          },
-          {
-            "s": "Bronzong",
-            "mn": 50
+            "s": "Tropius",
+            "mn": 5
           }
         ]
       },
@@ -107739,52 +108286,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Vulpix",
-            "mn": 57
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Chimecho",
-            "mn": 57
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Cottonee",
-            "mn": 58
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Chimecho",
-            "mn": 59
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Stantler",
-            "mn": 58
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Noctowl",
-            "mn": 58
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Murkrow",
-            "mn": 58
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Bronzong",
-            "mn": 58
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Noctowl",
-            "mn": 60
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Bronzong",
-            "mn": 60
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Noctowl",
-            "mn": 60
+            "s": "Audino",
+            "mn": 5
           },
           {
-            "s": "Bronzong",
-            "mn": 60
+            "s": "Audino",
+            "mn": 5
           }
         ]
       },
@@ -107806,51 +108353,51 @@ overrides = {
         "encs": [
           {
             "s": "Audino",
-            "mn": 47
+            "mn": 5
           },
           {
             "s": "Audino",
-            "mn": 47
-          },
-          {
-            "s": "Emolga",
-            "mn": 48
+            "mn": 5
           },
           {
             "s": "Audino",
-            "mn": 48
+            "mn": 5
           },
           {
             "s": "Audino",
-            "mn": 49
+            "mn": 5
           },
           {
             "s": "Audino",
-            "mn": 50
-          },
-          {
-            "s": "Honchkrow",
-            "mn": 50
-          },
-          {
-            "s": "Whimsicott",
-            "mn": 50
+            "mn": 5
           },
           {
             "s": "Audino",
-            "mn": 50
-          },
-          {
-            "s": "Ninetales",
-            "mn": 50
+            "mn": 5
           },
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 5
           },
           {
-            "s": "Ninetales",
-            "mn": 50
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
           }
         ]
       },
@@ -107864,29 +108411,24 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Basculin",
-            "mn": 25,
-            "mx": 55
+            "s": "Jellicent",
+            "mn": 50
           },
           {
-            "s": "Slowpoke",
-            "mn": 25,
-            "mx": 55
+            "s": "Corsola",
+            "mn": 50
           },
           {
-            "s": "Basculin",
-            "mn": 25,
-            "mx": 55
+            "s": "Corsola",
+            "mn": 50
           },
           {
-            "s": "Basculin",
-            "mn": 25,
-            "mx": 55
+            "s": "Corsola",
+            "mn": 50
           },
           {
-            "s": "Basculin",
-            "mn": 25,
-            "mx": 55
+            "s": "Corsola",
+            "mn": 50
           }
         ]
       },
@@ -107900,29 +108442,24 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Slowpoke",
-            "mn": 25,
-            "mx": 60
+            "s": "Empoleon",
+            "mn": 50
           },
           {
-            "s": "Basculin",
-            "mn": 25,
-            "mx": 60
+            "s": "Blastoise",
+            "mn": 50
           },
           {
-            "s": "Slowbro",
-            "mn": 35,
-            "mx": 70
+            "s": "Kingler",
+            "mn": 50
           },
           {
-            "s": "Slowking",
-            "mn": 35,
-            "mx": 70
+            "s": "Kingler",
+            "mn": 50
           },
           {
-            "s": "Slowking",
-            "mn": 35,
-            "mx": 70
+            "s": "Kingler",
+            "mn": 50
           }
         ]
       },
@@ -107937,28 +108474,23 @@ overrides = {
         "encs": [
           {
             "s": "Goldeen",
-            "mn": 35,
-            "mx": 55
+            "mn": 5
           },
           {
-            "s": "Basculin",
-            "mn": 35,
-            "mx": 55
-          },
-          {
-            "s": "Goldeen",
-            "mn": 35,
-            "mx": 55
+            "s": "Surskit",
+            "mn": 5
           },
           {
             "s": "Goldeen",
-            "mn": 35,
-            "mx": 55
+            "mn": 5
           },
           {
             "s": "Goldeen",
-            "mn": 35,
-            "mx": 55
+            "mn": 5
+          },
+          {
+            "s": "Goldeen",
+            "mn": 5
           }
         ]
       },
@@ -107972,29 +108504,371 @@ overrides = {
         ],
         "encs": [
           {
+            "s": "Psyduck",
+            "mn": 5
+          },
+          {
+            "s": "Remoraid",
+            "mn": 5
+          },
+          {
+            "s": "Psyduck",
+            "mn": 5
+          },
+          {
+            "s": "Psyduck",
+            "mn": 5
+          },
+          {
+            "s": "Psyduck",
+            "mn": 5
+          }
+        ]
+      }
+    },
+    "abundantshrine": {
+      "name": "Abundant Shrine",
+      "wilds": [
+        "Shroomish",
+        "Sunkern",
+        "Tangela",
+        "Deerling",
+        "Snover",
+        "Cherubi",
+        "Petilil",
+        "Cottonee",
+        "Maractus",
+        "Tropius",
+        "Audino",
+        "Jellicent",
+        "Corsola",
+        "Empoleon",
+        "Blastoise",
+        "Kingler",
+        "Goldeen",
+        "Surskit",
+        "Psyduck",
+        "Remoraid"
+      ],
+      "grass": {
+        "rates": [
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          5,
+          5,
+          4,
+          4,
+          1,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Shroomish",
+            "mn": 5
+          },
+          {
+            "s": "Sunkern",
+            "mn": 5
+          },
+          {
+            "s": "Tangela",
+            "mn": 5
+          },
+          {
+            "s": "Deerling",
+            "mn": 5
+          },
+          {
+            "s": "Snover",
+            "mn": 5
+          },
+          {
+            "s": "Cherubi",
+            "mn": 5
+          },
+          {
+            "s": "Petilil",
+            "mn": 5
+          },
+          {
+            "s": "Cottonee",
+            "mn": 5
+          },
+          {
+            "s": "Maractus",
+            "mn": 5
+          },
+          {
+            "s": "Tropius",
+            "mn": 5
+          },
+          {
+            "s": "Maractus",
+            "mn": 5
+          },
+          {
+            "s": "Tropius",
+            "mn": 5
+          }
+        ]
+      },
+      "grass_doubles": {
+        "rates": [
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          5,
+          5,
+          4,
+          4,
+          1,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          }
+        ]
+      },
+      "grass_special": {
+        "rates": [
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          5,
+          5,
+          4,
+          4,
+          1,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          },
+          {
+            "s": "Audino",
+            "mn": 5
+          }
+        ]
+      },
+      "surf": {
+        "rates": [
+          60,
+          30,
+          5,
+          4,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Jellicent",
+            "mn": 50
+          },
+          {
+            "s": "Corsola",
+            "mn": 50
+          },
+          {
+            "s": "Corsola",
+            "mn": 50
+          },
+          {
+            "s": "Corsola",
+            "mn": 50
+          },
+          {
+            "s": "Corsola",
+            "mn": 50
+          }
+        ]
+      },
+      "surf_special": {
+        "rates": [
+          60,
+          30,
+          5,
+          4,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Empoleon",
+            "mn": 50
+          },
+          {
+            "s": "Blastoise",
+            "mn": 50
+          },
+          {
+            "s": "Kingler",
+            "mn": 50
+          },
+          {
+            "s": "Kingler",
+            "mn": 50
+          },
+          {
+            "s": "Kingler",
+            "mn": 50
+          }
+        ]
+      },
+      "super_rod": {
+        "rates": [
+          60,
+          30,
+          5,
+          4,
+          1
+        ],
+        "encs": [
+          {
             "s": "Goldeen",
-            "mn": 35,
-            "mx": 60
+            "mn": 5
           },
           {
-            "s": "Basculin",
-            "mn": 35,
-            "mx": 60
+            "s": "Surskit",
+            "mn": 5
           },
           {
-            "s": "Seaking",
-            "mn": 35,
-            "mx": 70
+            "s": "Goldeen",
+            "mn": 5
           },
           {
-            "s": "Seaking",
-            "mn": 45,
-            "mx": 70
+            "s": "Goldeen",
+            "mn": 5
           },
           {
-            "s": "Seaking",
-            "mn": 45,
-            "mx": 70
+            "s": "Goldeen",
+            "mn": 5
+          }
+        ]
+      },
+      "super_rod_special": {
+        "rates": [
+          60,
+          30,
+          5,
+          4,
+          1
+        ],
+        "encs": [
+          {
+            "s": "Psyduck",
+            "mn": 5
+          },
+          {
+            "s": "Remoraid",
+            "mn": 5
+          },
+          {
+            "s": "Psyduck",
+            "mn": 5
+          },
+          {
+            "s": "Psyduck",
+            "mn": 5
+          },
+          {
+            "s": "Psyduck",
+            "mn": 5
           }
         ]
       },
@@ -108232,15 +109106,16 @@ overrides = {
         "Growlithe",
         "Ponyta",
         "Torkoal",
-        "Cherrim",
+        "Heatmor",
         "Houndour",
         "Koffing",
         "Numel",
         "Slugma",
         "Darumaka",
         "Larvesta",
-        "Audino",
-        "Heatmor"
+        "Grotle",
+        "Prinplup",
+        "Monferno"
       ],
       "grass": {
         "rates": [
@@ -108283,27 +109158,27 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Cherrim",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Cherrim",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Cherrim",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Cherrim",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Cherrim",
+            "s": "Heatmor",
             "mn": 30
           },
           {
-            "s": "Cherrim",
+            "s": "Heatmor",
             "mn": 30
           }
         ]
@@ -108391,51 +109266,51 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Audino",
+            "s": "Grotle",
             "mn": 30
           },
           {
-            "s": "Audino",
+            "s": "Prinplup",
             "mn": 30
           },
           {
-            "s": "Audino",
+            "s": "Grotle",
             "mn": 30
           },
           {
-            "s": "Heatmor",
+            "s": "Prinplup",
             "mn": 30
           },
           {
-            "s": "Heatmor",
+            "s": "Monferno",
             "mn": 30
           },
           {
-            "s": "Heatmor",
+            "s": "Monferno",
             "mn": 30
           },
           {
-            "s": "Heatmor",
+            "s": "Monferno",
             "mn": 30
           },
           {
-            "s": "Heatmor",
+            "s": "Monferno",
             "mn": 30
           },
           {
-            "s": "Heatmor",
+            "s": "Grotle",
             "mn": 30
           },
           {
-            "s": "Heatmor",
+            "s": "Prinplup",
             "mn": 30
           },
           {
-            "s": "Heatmor",
+            "s": "Monferno",
             "mn": 30
           },
           {
-            "s": "Heatmor",
+            "s": "Monferno",
             "mn": 30
           }
         ]
