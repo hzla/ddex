@@ -5463,7 +5463,7 @@ function parseEncounterDPPt(u8) {
   };
 }
 
-function parseEncounterHGSS(u8) {
+export function parseEncounterHGSS(u8) {
   const r = new Reader(u8);
   const walkingRate = r.u8();
   const surfRate = r.u8();
@@ -5525,7 +5525,9 @@ function parseEncounterHGSS(u8) {
     superRodPokemon[i] = r.u16();
   }
   const swarmPokemon = new Uint16Array(4);
-  for (let i = 0; i < 4; i += 1) swarmPokemon[i] = r.u16();
+  // Sacred Gold stores 192-byte records with only two swarm entries instead
+  // of the usual four. Keep the regular encounters and leave absent slots zero.
+  for (let i = 0; i < 4 && r.off + 2 <= u8.length; i += 1) swarmPokemon[i] = r.u16();
   return {
     walkingRate,
     surfRate,

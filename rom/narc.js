@@ -189,7 +189,10 @@ export class Narc {
 
     const gmif = parseChunk(r, "GMIF", { allowChunkOverrun });
     const gmifDataStart = gmif.start + 8;
-    let gmifDataEnd = gmif.end;
+    // GMIF is the final chunk. Some ROM editors leave its size stale after
+    // growing files, even though BTAF still points at valid trailing data.
+    // Lenient reads may use that data, but must stay within the actual archive.
+    const gmifDataEnd = allowFileOverrun ? u8.length : gmif.end;
     const gmifDataLen = gmifDataEnd - gmifDataStart;
     assert(gmifDataLen >= 0, "Malformed input: GMIF size invalid");
 
