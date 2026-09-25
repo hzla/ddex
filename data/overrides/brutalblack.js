@@ -59,6 +59,10 @@ overrides = {
             "Toxic"
           ],
           [
+            33,
+            "Knock Off"
+          ],
+          [
             36,
             "Sludge Bomb"
           ],
@@ -79,8 +83,8 @@ overrides = {
             "Synthesis"
           ],
           [
-            56,
-            "Knock Off"
+            55,
+            "Frenzy Plant"
           ],
           [
             60,
@@ -93,10 +97,6 @@ overrides = {
           [
             67,
             "Petal Dance"
-          ],
-          [
-            75,
-            "Frenzy Plant"
           ]
         ],
         "tms": [
@@ -206,6 +206,10 @@ overrides = {
             "Toxic"
           ],
           [
+            33,
+            "Knock Off"
+          ],
+          [
             36,
             "Sludge Bomb"
           ],
@@ -226,8 +230,8 @@ overrides = {
             "Synthesis"
           ],
           [
-            56,
-            "Knock Off"
+            55,
+            "Frenzy Plant"
           ],
           [
             60,
@@ -240,10 +244,6 @@ overrides = {
           [
             67,
             "Petal Dance"
-          ],
-          [
-            75,
-            "Frenzy Plant"
           ]
         ],
         "tms": [
@@ -308,10 +308,10 @@ overrides = {
       ],
       "bs": {
         "hp": 90,
-        "at": 72,
+        "at": 62,
         "df": 93,
         "sa": 115,
-        "sd": 100,
+        "sd": 110,
         "sp": 80
       },
       "learnset_info": {
@@ -353,6 +353,10 @@ overrides = {
             "Toxic"
           ],
           [
+            33,
+            "Knock Off"
+          ],
+          [
             36,
             "Sludge Bomb"
           ],
@@ -373,8 +377,8 @@ overrides = {
             "Synthesis"
           ],
           [
-            56,
-            "Knock Off"
+            55,
+            "Frenzy Plant"
           ],
           [
             60,
@@ -387,10 +391,6 @@ overrides = {
           [
             67,
             "Petal Dance"
-          ],
-          [
-            75,
-            "Frenzy Plant"
           ]
         ],
         "tms": [
@@ -1363,10 +1363,10 @@ overrides = {
       ],
       "bs": {
         "hp": 70,
-        "at": 45,
+        "at": 35,
         "df": 70,
         "sa": 110,
-        "sd": 80,
+        "sd": 90,
         "sp": 90
       },
       "learnset_info": {
@@ -1422,6 +1422,10 @@ overrides = {
           [
             40,
             "Rage Powder"
+          ],
+          [
+            42,
+            "Attack Order"
           ]
         ],
         "tms": [
@@ -1663,15 +1667,15 @@ overrides = {
             "X-Scissor"
           ],
           [
-            40,
+            37,
             "Gunk Shot"
           ],
           [
-            45,
+            42,
             "Horn Drill"
           ],
           [
-            50,
+            44,
             "U-turn"
           ]
         ],
@@ -3739,7 +3743,7 @@ overrides = {
       "abs": [
         "Battle Armor",
         "",
-        "Multiscale"
+        "Filter"
       ]
     },
     "Nidoran-M": {
@@ -6728,16 +6732,16 @@ overrides = {
             "Soak"
           ],
           [
-            50,
+            48,
             "Skill Swap"
+          ],
+          [
+            51,
+            "Hydro Cannon"
           ],
           [
             58,
             "Psycho Boost"
-          ],
-          [
-            58,
-            "Hydro Cannon"
           ]
         ],
         "tms": [
@@ -6860,16 +6864,16 @@ overrides = {
             "Soak"
           ],
           [
-            50,
+            48,
             "Skill Swap"
+          ],
+          [
+            51,
+            "Hydro Cannon"
           ],
           [
             58,
             "Psycho Boost"
-          ],
-          [
-            58,
-            "Hydro Cannon"
           ]
         ],
         "tms": [
@@ -12203,8 +12207,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Sheer Force",
         "Shell Armor",
+        "",
         "Sheer Force"
       ],
       "evos": [
@@ -12322,8 +12326,8 @@ overrides = {
         ]
       },
       "abs": [
-        "Sheer Force",
         "Shell Armor",
+        "",
         "Sheer Force"
       ]
     },
@@ -15110,11 +15114,11 @@ overrides = {
             "Leech Life"
           ],
           [
-            56,
+            51,
             "Meteor Mash"
           ],
           [
-            70,
+            60,
             "U-turn"
           ]
         ],
@@ -15628,12 +15632,20 @@ overrides = {
             "Rock Slide"
           ],
           [
+            35,
+            "Crunch"
+          ],
+          [
             37,
             "Earthquake"
           ],
           [
             42,
             "X-Scissor"
+          ],
+          [
+            45,
+            "Steamroller"
           ],
           [
             47,
@@ -15739,8 +15751,16 @@ overrides = {
             "Rock Slide"
           ],
           [
+            33,
+            "Zen Headbutt"
+          ],
+          [
             36,
             "Body Slam"
+          ],
+          [
+            40,
+            "Crunch"
           ],
           [
             44,
@@ -17108,12 +17128,12 @@ overrides = {
             "Stone Edge"
           ],
           [
-            60,
-            "Aqua Tail"
+            54,
+            "Superpower"
           ],
           [
-            75,
-            "Superpower"
+            58,
+            "Aqua Tail"
           ]
         ],
         "tms": [
@@ -17236,12 +17256,12 @@ overrides = {
             "Stone Edge"
           ],
           [
-            60,
-            "Aqua Tail"
+            54,
+            "Superpower"
           ],
           [
-            75,
-            "Superpower"
+            58,
+            "Aqua Tail"
           ]
         ],
         "tms": [
@@ -18062,27 +18082,27 @@ overrides = {
             "Heat Wave"
           ],
           [
-            55,
+            50,
             "Air Slash"
           ],
           [
-            60,
+            55,
             "Tailwind"
           ],
           [
-            65,
+            58,
             "Aeroblast"
           ],
           [
-            70,
+            62,
             "Roost"
           ],
           [
-            75,
+            65,
             "Draco Meteor"
           ],
           [
-            75,
+            65,
             "Razor Wind"
           ]
         ],
@@ -18190,27 +18210,27 @@ overrides = {
             "Heat Wave"
           ],
           [
-            55,
+            50,
             "Air Slash"
           ],
           [
-            60,
+            55,
             "Tailwind"
           ],
           [
-            65,
+            58,
             "Aeroblast"
           ],
           [
-            70,
+            62,
             "Roost"
           ],
           [
-            75,
+            65,
             "Draco Meteor"
           ],
           [
-            75,
+            65,
             "Razor Wind"
           ]
         ],
@@ -18268,7 +18288,7 @@ overrides = {
       "abs": [
         "Thick Fat",
         "",
-        "Multiscale"
+        "Thick Fat"
       ]
     },
     "Mewtwo": {
@@ -19857,16 +19877,16 @@ overrides = {
             "Follow Me"
           ],
           [
-            40,
-            "Facade"
-          ],
-          [
             44,
             "U-turn"
           ],
           [
             50,
             "Rest"
+          ],
+          [
+            65,
+            "Facade"
           ]
         ],
         "tms": [
@@ -19984,16 +20004,16 @@ overrides = {
             "Follow Me"
           ],
           [
-            40,
-            "Facade"
-          ],
-          [
             44,
             "U-turn"
           ],
           [
             50,
             "Rest"
+          ],
+          [
+            65,
+            "Facade"
           ]
         ],
         "tms": [
@@ -20127,12 +20147,16 @@ overrides = {
             "Heat Wave"
           ],
           [
-            41,
+            40,
             "Imprison"
           ],
           [
-            44,
+            42,
             "Psych Up"
+          ],
+          [
+            44,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -20264,12 +20288,16 @@ overrides = {
             "Heat Wave"
           ],
           [
-            41,
+            40,
             "Imprison"
           ],
           [
-            44,
+            42,
             "Psych Up"
+          ],
+          [
+            44,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -22881,6 +22909,7 @@ overrides = {
           "Fling",
           "Payback",
           "Giga Impact",
+          "Magical Leaf",
           "Bulldoze",
           "Swagger",
           "Natural Gift",
@@ -22892,7 +22921,7 @@ overrides = {
         ]
       },
       "abs": [
-        "Damp",
+        "Rain Dish",
         "Water Absorb",
         "Drizzle"
       ]
@@ -23514,7 +23543,7 @@ overrides = {
       "abs": [
         "Chlorophyll",
         "",
-        "Early Bird"
+        "Drought"
       ],
       "evos": [
         "Sunflora"
@@ -23638,7 +23667,7 @@ overrides = {
       "abs": [
         "Chlorophyll",
         "",
-        "Drought"
+        "Solar Power"
       ]
     },
     "Yanma": {
@@ -23665,7 +23694,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Struggle Bug"
+            "Baton Pass"
           ],
           [
             10,
@@ -23702,6 +23731,10 @@ overrides = {
           [
             40,
             "Dragon Pulse"
+          ],
+          [
+            50,
+            "Attack Order"
           ],
           [
             55,
@@ -23805,12 +23838,20 @@ overrides = {
             "Waterfall"
           ],
           [
+            23,
+            "Drill Run"
+          ],
+          [
             26,
             "Yawn"
           ],
           [
             30,
             "Earthquake"
+          ],
+          [
+            32,
+            "Ice Punch"
           ],
           [
             35,
@@ -23922,12 +23963,20 @@ overrides = {
             "Waterfall"
           ],
           [
+            23,
+            "Drill Run"
+          ],
+          [
             26,
             "Yawn"
           ],
           [
             30,
             "Earthquake"
+          ],
+          [
+            32,
+            "Ice Punch"
           ],
           [
             35,
@@ -25896,11 +25945,11 @@ overrides = {
             "Leech Life"
           ],
           [
-            56,
+            51,
             "Meteor Mash"
           ],
           [
-            70,
+            60,
             "U-turn"
           ]
         ],
@@ -27792,12 +27841,12 @@ overrides = {
             "Heat Wave"
           ],
           [
-            60,
-            "Overheat"
+            55,
+            "Sucker Punch"
           ],
           [
-            65,
-            "Sucker Punch"
+            60,
+            "Overheat"
           ],
           [
             65,
@@ -27924,12 +27973,12 @@ overrides = {
             "Heat Wave"
           ],
           [
-            60,
-            "Overheat"
+            55,
+            "Sucker Punch"
           ],
           [
-            65,
-            "Sucker Punch"
+            60,
+            "Overheat"
           ],
           [
             65,
@@ -32628,14 +32677,14 @@ overrides = {
           ],
           [
             27,
-            "Signal Beam"
+            "U-turn"
           ],
           [
             32,
             "Bug Buzz"
           ],
           [
-            36,
+            35,
             "Aeroblast"
           ],
           [
@@ -32643,8 +32692,12 @@ overrides = {
             "Tailwind"
           ],
           [
-            44,
-            "U-turn"
+            43,
+            "Attack Order"
+          ],
+          [
+            50,
+            "Razor Wind"
           ]
         ],
         "tms": [
@@ -32832,7 +32885,7 @@ overrides = {
       "abs": [
         "Shield Dust",
         "",
-        "Multiscale"
+        "Tinted Lens"
       ]
     },
     "Lotad": {
@@ -33906,6 +33959,10 @@ overrides = {
             "Protect"
           ],
           [
+            27,
+            "U-turn"
+          ],
+          [
             30,
             "Air Slash"
           ],
@@ -33918,16 +33975,24 @@ overrides = {
             "Aeroblast"
           ],
           [
+            40,
+            "Muddy Water"
+          ],
+          [
             42,
             "Roost"
           ],
           [
             46,
-            "Hurricane"
+            "Razor Wind"
           ],
           [
             50,
             "Tailwind"
+          ],
+          [
+            51,
+            "Hydro Cannon"
           ]
         ],
         "tms": [
@@ -34009,7 +34074,7 @@ overrides = {
             "Bubble Beam"
           ],
           [
-            16,
+            15,
             "Air Cutter"
           ],
           [
@@ -34025,6 +34090,10 @@ overrides = {
             "Protect"
           ],
           [
+            27,
+            "U-turn"
+          ],
+          [
             30,
             "Air Slash"
           ],
@@ -34037,16 +34106,24 @@ overrides = {
             "Aeroblast"
           ],
           [
+            40,
+            "Muddy Water"
+          ],
+          [
             42,
             "Roost"
           ],
           [
             46,
-            "Hurricane"
+            "Razor Wind"
           ],
           [
             50,
             "Tailwind"
+          ],
+          [
+            51,
+            "Hydro Cannon"
           ]
         ],
         "tms": [
@@ -35424,8 +35501,12 @@ overrides = {
             "Final Gambit"
           ],
           [
-            70,
+            60,
             "U-turn"
+          ],
+          [
+            65,
+            "Twineedle"
           ]
         ],
         "tms": [
@@ -35530,8 +35611,12 @@ overrides = {
             "Final Gambit"
           ],
           [
-            70,
+            60,
             "U-turn"
+          ],
+          [
+            65,
+            "Twineedle"
           ]
         ],
         "tms": [
@@ -37785,6 +37870,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Facade",
+          "Flame Charge",
           "Rest",
           "Attract",
           "Thief",
@@ -37917,6 +38003,7 @@ overrides = {
           "Double Team",
           "Flamethrower",
           "Facade",
+          "Flame Charge",
           "Rest",
           "Attract",
           "Thief",
@@ -38002,12 +38089,12 @@ overrides = {
             "Aura Sphere"
           ],
           [
-            60,
-            "Zap Cannon"
+            50,
+            "Volt Switch"
           ],
           [
-            70,
-            "Volt Switch"
+            60,
+            "Zap Cannon"
           ]
         ],
         "tms": [
@@ -38088,6 +38175,10 @@ overrides = {
             "Thunder Wave"
           ],
           [
+            25,
+            "Scald"
+          ],
+          [
             27,
             "Discharge"
           ],
@@ -38116,6 +38207,10 @@ overrides = {
             "Fling"
           ],
           [
+            55,
+            "Protect"
+          ],
+          [
             60,
             "Encore"
           ]
@@ -38135,6 +38230,7 @@ overrides = {
           "Attract",
           "Round",
           "Echoed Voice",
+          "Scald",
           "Fling",
           "Charge Beam",
           "Flash",
@@ -40387,12 +40483,16 @@ overrides = {
             "Leaf Blade"
           ],
           [
-            45,
+            44,
             "Needle Arm"
           ],
           [
-            50,
+            48,
             "Close Combat"
+          ],
+          [
+            51,
+            "Sucker Punch"
           ],
           [
             55,
@@ -40401,10 +40501,6 @@ overrides = {
           [
             60,
             "Leaf Storm"
-          ],
-          [
-            65,
-            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -40513,12 +40609,16 @@ overrides = {
             "Leaf Blade"
           ],
           [
-            45,
+            44,
             "Needle Arm"
           ],
           [
-            50,
+            48,
             "Close Combat"
+          ],
+          [
+            51,
+            "Sucker Punch"
           ],
           [
             55,
@@ -40527,10 +40627,6 @@ overrides = {
           [
             60,
             "Leaf Storm"
-          ],
-          [
-            65,
-            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -41398,6 +41494,7 @@ overrides = {
           "Earth Power",
           "Earthquake",
           "Return",
+          "Dig",
           "Double Team",
           "Water Pulse",
           "Sandstorm",
@@ -41516,6 +41613,7 @@ overrides = {
           "Smack Down",
           "Earthquake",
           "Return",
+          "Dig",
           "Double Team",
           "Water Pulse",
           "Sandstorm",
@@ -42778,7 +42876,7 @@ overrides = {
       "abs": [
         "Water Absorb",
         "",
-        "Multiscale"
+        "Filter"
       ]
     },
     "Castform": {
@@ -49336,11 +49434,11 @@ overrides = {
             "Volt Tackle"
           ],
           [
-            60,
+            55,
             "Bolt Strike"
           ],
           [
-            65,
+            60,
             "Sucker Punch"
           ]
         ],
@@ -49469,11 +49567,11 @@ overrides = {
             "Volt Tackle"
           ],
           [
-            60,
+            55,
             "Bolt Strike"
           ],
           [
-            65,
+            60,
             "Sucker Punch"
           ]
         ],
@@ -49602,11 +49700,11 @@ overrides = {
             "Volt Tackle"
           ],
           [
-            60,
+            55,
             "Bolt Strike"
           ],
           [
-            65,
+            60,
             "Sucker Punch"
           ]
         ],
@@ -49744,7 +49842,7 @@ overrides = {
         "df": 65,
         "sa": 125,
         "sd": 105,
-        "sp": 95
+        "sp": 100
       },
       "learnset_info": {
         "learnset": [
@@ -52656,7 +52754,7 @@ overrides = {
             "U-turn"
           ],
           [
-            65,
+            60,
             "Sucker Punch"
           ]
         ],
@@ -55199,11 +55297,11 @@ overrides = {
             "Aqua Tail"
           ],
           [
-            60,
+            57,
             "Superpower"
           ],
           [
-            70,
+            62,
             "Sucker Punch"
           ]
         ],
@@ -55343,11 +55441,11 @@ overrides = {
             "Aqua Tail"
           ],
           [
-            60,
+            57,
             "Superpower"
           ],
           [
-            70,
+            62,
             "Sucker Punch"
           ]
         ],
@@ -55502,7 +55600,7 @@ overrides = {
             "Sludge Wave"
           ],
           [
-            60,
+            67,
             "Reversal"
           ]
         ],
@@ -55666,7 +55764,7 @@ overrides = {
             "Sludge Wave"
           ],
           [
-            60,
+            67,
             "Reversal"
           ]
         ],
@@ -57527,6 +57625,10 @@ overrides = {
             "Dragon Pulse"
           ],
           [
+            50,
+            "Attack Order"
+          ],
+          [
             55,
             "Heat Wave"
           ],
@@ -58345,7 +58447,7 @@ overrides = {
           ],
           [
             44,
-            "Flash Cannon"
+            "Magnet Bomb"
           ],
           [
             46,
@@ -63403,7 +63505,7 @@ overrides = {
           ],
           [
             34,
-            "Surf"
+            "Scald"
           ],
           [
             38,
@@ -63541,7 +63643,7 @@ overrides = {
           ],
           [
             34,
-            "Surf"
+            "Scald"
           ],
           [
             38,
@@ -64489,7 +64591,7 @@ overrides = {
           ],
           [
             44,
-            "Gravity"
+            "Volt Switch"
           ],
           [
             70,
@@ -64607,7 +64709,7 @@ overrides = {
           ],
           [
             44,
-            "Gravity"
+            "Volt Switch"
           ],
           [
             70,
@@ -64725,7 +64827,7 @@ overrides = {
           ],
           [
             44,
-            "Gravity"
+            "Volt Switch"
           ],
           [
             70,
@@ -68913,7 +69015,7 @@ overrides = {
             "Close Combat"
           ],
           [
-            70,
+            65,
             "Sucker Punch"
           ]
         ],
@@ -69064,7 +69166,7 @@ overrides = {
             "Close Combat"
           ],
           [
-            70,
+            65,
             "Sucker Punch"
           ]
         ],
@@ -69859,7 +69961,8 @@ overrides = {
           "U-turn",
           "Natural Gift",
           "Rock Smash",
-          "Cut"
+          "Cut",
+          "Strength"
         ]
       },
       "abs": [
@@ -69997,7 +70100,8 @@ overrides = {
           "Natural Gift",
           "Rock Smash",
           "Cut",
-          "Fly"
+          "Fly",
+          "Strength"
         ]
       },
       "abs": [
@@ -70305,12 +70409,12 @@ overrides = {
             "Aura Sphere"
           ],
           [
-            60,
-            "Night Daze"
+            55,
+            "Sucker Punch"
           ],
           [
-            65,
-            "Sucker Punch"
+            60,
+            "Night Daze"
           ]
         ],
         "tms": [
@@ -70430,12 +70534,12 @@ overrides = {
             "Aura Sphere"
           ],
           [
-            60,
-            "Night Daze"
+            55,
+            "Sucker Punch"
           ],
           [
-            65,
-            "Sucker Punch"
+            60,
+            "Night Daze"
           ]
         ],
         "tms": [
@@ -71904,7 +72008,7 @@ overrides = {
         "Ice"
       ],
       "items": [
-        "None",
+        "Sticky Barb",
         "None",
         "None"
       ],
@@ -73528,6 +73632,10 @@ overrides = {
           [
             60,
             "U-turn"
+          ],
+          [
+            65,
+            "Volt Switch"
           ]
         ],
         "tms": [
@@ -75868,7 +75976,7 @@ overrides = {
         "Steel"
       ],
       "items": [
-        "None",
+        "Iron Ball",
         "None",
         "None"
       ],
@@ -84055,7 +84163,7 @@ overrides = {
       "name": "Self-Destruct",
       "num": 119,
       "desc": "The user attacks everything around it by causing an explosion. The user faints upon using this move.",
-      "e_id": 7,
+      "e_id": 32,
       "tar": "allAdjacent",
       "critRatio": 7,
       "willCrit": true
@@ -84262,7 +84370,7 @@ overrides = {
       "bp": 130,
       "cat": "Physical",
       "pp": 10,
-      "acc": 90,
+      "acc": 95,
       "prio": 0,
       "name": "High Jump Kick",
       "num": 135,
@@ -84497,7 +84605,7 @@ overrides = {
       "name": "Explosion",
       "num": 152,
       "desc": "The user explodes to inflict damage on those around it. The user faints upon using this move.",
-      "e_id": 7,
+      "e_id": 32,
       "tar": "allAdjacent",
       "critRatio": 7,
       "willCrit": true
@@ -86159,7 +86267,7 @@ overrides = {
       "bp": 65,
       "cat": "Physical",
       "pp": 20,
-      "acc": 100,
+      "acc": 101,
       "prio": 0,
       "name": "Knock Off",
       "num": 281,
@@ -89444,7 +89552,7 @@ overrides = {
     },
     "Steamroller": {
       "t": "Bug",
-      "bp": 65,
+      "bp": 90,
       "cat": "Physical",
       "pp": 20,
       "acc": 100,
@@ -93037,7 +93145,7 @@ overrides = {
     "mistraltoncity": {
       "name": "Mistralton City",
       "wilds": [
-        "Raichu",
+        "Ninjask",
         "Chimecho",
         "Azumarill",
         "Leavanny",
@@ -93063,7 +93171,7 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Raichu",
+            "s": "Ninjask",
             "mn": 40
           },
           {
@@ -93116,7 +93224,7 @@ overrides = {
     "reliccastle9": {
       "name": "Relic Castle 9",
       "wilds": [
-        "Raichu",
+        "Ninjask",
         "Chimecho",
         "Azumarill",
         "Leavanny",
@@ -93142,7 +93250,7 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Raichu",
+            "s": "Ninjask",
             "mn": 40
           },
           {
@@ -95354,7 +95462,7 @@ overrides = {
         "Sneasel",
         "Cinccino",
         "Ambipom",
-        "Lickilicky",
+        "Slaking",
         "Kangaskhan",
         "Snorlax",
         "Miltank",
@@ -95455,7 +95563,7 @@ overrides = {
             "mn": 35
           },
           {
-            "s": "Lickilicky",
+            "s": "Slaking",
             "mn": 35
           },
           {
@@ -102045,8 +102153,8 @@ overrides = {
         "Skitty",
         "Meowth",
         "Munchlax",
-        "Slakoth",
-        "Whismur",
+        "Jigglypuff",
+        "Clefairy",
         "Spinda",
         "Dragonair",
         "Pupitar",
@@ -102120,11 +102228,11 @@ overrides = {
             "mn": 3
           },
           {
-            "s": "Slakoth",
+            "s": "Jigglypuff",
             "mn": 3
           },
           {
-            "s": "Whismur",
+            "s": "Clefairy",
             "mn": 3
           },
           {
@@ -102561,7 +102669,7 @@ overrides = {
         "Zubat",
         "Gulpin",
         "Koffing",
-        "Roselia",
+        "Lickitung",
         "Skorupi",
         "Trubbish",
         "Oddish",
@@ -102688,7 +102796,7 @@ overrides = {
             "mn": 15
           },
           {
-            "s": "Roselia",
+            "s": "Lickitung",
             "mn": 15
           },
           {
@@ -104115,23 +104223,23 @@ overrides = {
         "encs": [
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           }
         ]
       },
@@ -104146,23 +104254,23 @@ overrides = {
         "encs": [
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Basculin",
-            "mn": 50
+            "mn": 45
           }
         ]
       },
@@ -104257,51 +104365,51 @@ overrides = {
         "encs": [
           {
             "s": "Rhydon",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Magcargo",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Fraxure",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Fraxure",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           }
         ]
       },
@@ -104323,51 +104431,51 @@ overrides = {
         "encs": [
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           }
         ]
       },
@@ -104411,51 +104519,51 @@ overrides = {
         "encs": [
           {
             "s": "Rhydon",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Magcargo",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Fraxure",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Fraxure",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Marowak",
-            "mn": 50
+            "mn": 45
           }
         ]
       },
@@ -104477,51 +104585,51 @@ overrides = {
         "encs": [
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Aggron",
-            "mn": 50
+            "mn": 45
           }
         ]
       }
@@ -104555,51 +104663,51 @@ overrides = {
         "encs": [
           {
             "s": "Krookodile",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Pupitar",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Hippowdon",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Hippowdon",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Claydol",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Claydol",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Ursaring",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Ursaring",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Ursaring",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Ursaring",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Ursaring",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Ursaring",
-            "mn": 50
+            "mn": 45
           }
         ]
       },
@@ -104621,51 +104729,51 @@ overrides = {
         "encs": [
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Audino",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Stunfisk",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Stunfisk",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Stunfisk",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Stunfisk",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Stunfisk",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Stunfisk",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Stunfisk",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Stunfisk",
-            "mn": 50
+            "mn": 45
           },
           {
             "s": "Stunfisk",
-            "mn": 50
+            "mn": 45
           }
         ]
       },
@@ -104905,9 +105013,9 @@ overrides = {
     "celestialtower": {
       "name": "Celestial Tower",
       "wilds": [
-        "Gothitelle",
-        "Reuniclus",
-        "Beheeyem",
+        "Sigilyph",
+        "Stantler",
+        "Girafarig",
         "Medicham",
         "Bronzong"
       ],
@@ -104928,19 +105036,19 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Gothitelle",
+            "s": "Sigilyph",
             "mn": 45
           },
           {
-            "s": "Reuniclus",
+            "s": "Stantler",
             "mn": 45
           },
           {
-            "s": "Beheeyem",
+            "s": "Girafarig",
             "mn": 45
           },
           {
-            "s": "Beheeyem",
+            "s": "Girafarig",
             "mn": 45
           },
           {
@@ -104981,9 +105089,9 @@ overrides = {
     "celestialtower2": {
       "name": "Celestial Tower 2",
       "wilds": [
-        "Gothitelle",
-        "Reuniclus",
-        "Beheeyem",
+        "Sigilyph",
+        "Stantler",
+        "Girafarig",
         "Medicham",
         "Bronzong"
       ],
@@ -105004,19 +105112,19 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Gothitelle",
+            "s": "Sigilyph",
             "mn": 45
           },
           {
-            "s": "Reuniclus",
+            "s": "Stantler",
             "mn": 45
           },
           {
-            "s": "Beheeyem",
+            "s": "Girafarig",
             "mn": 45
           },
           {
-            "s": "Beheeyem",
+            "s": "Girafarig",
             "mn": 45
           },
           {
@@ -109321,18 +109429,18 @@ overrides = {
       "wilds": [
         "Gloom",
         "Weepinbell",
-        "Exeggcute",
+        "Tangela",
         "Nuzleaf",
         "Sawsbuck",
         "Carnivine",
         "Petilil",
         "Cottonee",
         "Snover",
-        "Foongus",
-        "Tangela",
+        "Roselia",
+        "Exeggcute",
         "Tropius",
         "Murkrow",
-        "Sigilyph",
+        "Gothorita",
         "Vullaby",
         "Elgyem",
         "Purugly",
@@ -109373,7 +109481,7 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Exeggcute",
+            "s": "Tangela",
             "mn": 30
           },
           {
@@ -109401,11 +109509,11 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Foongus",
+            "s": "Roselia",
             "mn": 30
           },
           {
-            "s": "Tangela",
+            "s": "Exeggcute",
             "mn": 30
           },
           {
@@ -109435,7 +109543,7 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Sigilyph",
+            "s": "Gothorita",
             "mn": 30
           },
           {
@@ -110257,23 +110365,19 @@ overrides = {
           },
           {
             "s": "Sharpedo",
-            "mn": 5,
-            "mx": 50
+            "mn": 50
           },
           {
             "s": "Sharpedo",
-            "mn": 5,
-            "mx": 50
+            "mn": 50
           },
           {
             "s": "Sharpedo",
-            "mn": 5,
-            "mx": 50
+            "mn": 50
           },
           {
             "s": "Sharpedo",
-            "mn": 5,
-            "mx": 50
+            "mn": 50
           }
         ]
       },
@@ -112093,9 +112197,10 @@ overrides = {
     "ironball": {
       "name": "Iron Ball",
       "desc": "A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.",
-      "location": "Wild held by Ferrothorn",
+      "location": "Wild held by Ferrothorn, Wild held by Cryogonal",
       "wilds": [
-        "Ferrothorn"
+        "Ferrothorn",
+        "Cryogonal"
       ]
     },
     "laggingtail": {
@@ -112152,8 +112257,9 @@ overrides = {
     "stickybarb": {
       "name": "Sticky Barb",
       "desc": "A held item that damages the holder on every turn. It may latch on to foes and allies that touch the holder.",
-      "location": "Wild held by Ferroseed, Wild held by Ferrothorn",
+      "location": "Wild held by Vanillish, Wild held by Ferroseed, Wild held by Ferrothorn",
       "wilds": [
+        "Vanillish",
         "Ferroseed",
         "Ferrothorn"
       ]
