@@ -1273,6 +1273,10 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         return `Lv ${displayValue} + Atk < Def`;
       case "levelpersonalityhigh":
         return `Lv ${displayValue} + PID >= 5`;
+      case "levelencryptionconstanthigh":
+        return `Lv ${displayValue} + Encryption Constant % 10 >= 5`;
+      case "levelencryptionconstantlow":
+        return `Lv ${displayValue} + Encryption Constant % 10 < 5`;
       case "level requirement + pid greater than 5":
         return `Lv ${displayValue} + PID > 5`;
       case "levelpersonalitylow":
@@ -1323,6 +1327,22 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         return `Lv while knowing ${displayValue}`;
       case "levelmovetype":
         return `Lv while knowing a ${displayValue}-type move`;
+      case "levelaffectionmovetype":
+        return `Lv with 50 Affection + a ${displayValue}-type move`;
+      case "levelinverted":
+        return `Lv ${displayValue} with the console upside down`;
+      case "levelversion":
+        return `Lv in ${displayValue}`;
+      case "levelversionday":
+        return `Lv during Day in ${displayValue}`;
+      case "levelversionnight":
+        return `Lv during Night in ${displayValue}`;
+      case "levelsummit":
+        return "Lv on Mount Lanakila";
+      case "levelwormhole":
+        return "Lv in Ultra Space";
+      case "useitemwormhole":
+        return `${displayValue} in Ultra Space`;
       case "levelparty":
       case "level with party member":
         return `Lv w/ ${displayValue} in party`;
@@ -1392,7 +1412,18 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     var methodNames = evoSource && Array.isArray(evoSource.evoMethods) ? evoSource.evoMethods : null;
     var methodName = methodNames ? methodNames[branchIndex] : null;
     var namedDisplay = this.formatNamedEvolutionBranchDisplay(methodName, displayValue);
-    if (namedDisplay !== null) return namedDisplay;
+    if (namedDisplay !== null) {
+      // Gen 7 stores an additional minimum level alongside item/move/location
+      // conditions. It is independent of the method-specific parameter.
+      var minimumLevel = evoSource && Array.isArray(evoSource.evoLevels)
+        ? Number(evoSource.evoLevels[branchIndex]) : 0;
+      if (minimumLevel > 0 && !/^(?:Lv |L)\d/.test(namedDisplay)) {
+        return namedDisplay.startsWith("Lv ")
+          ? namedDisplay.replace(/^Lv /, `Lv ${minimumLevel} `)
+          : `Lv ${minimumLevel} + ${namedDisplay}`;
+      }
+      return namedDisplay;
+    }
 
     var methodIds = evoSource && Array.isArray(evoSource.evoMethodIds) ? evoSource.evoMethodIds : null;
     var methodId = methodIds ? methodIds[branchIndex] : null;

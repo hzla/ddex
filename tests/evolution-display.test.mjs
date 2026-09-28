@@ -159,3 +159,17 @@ test("all shipped override evolution arrays stay aligned and named methods are r
     }
   }
 });
+
+test('Gen 7 preserves a minimum level alongside a separate condition', () => {
+  assert.equal(formatBranch({evoMethods:['levelHoldNight'],evoMethodIds:[20],evoLevels:[30]}, 'Razor Fang'), 'Lv 30 w/ Razor Fang During Night');
+  assert.equal(formatBranch({evoMethods:['levelVersion'],evoMethodIds:[36],evoLevels:[53]}, 'Ultra Moon'), 'Lv 53 in Ultra Moon');
+  assert.equal(formatBranch({evoMethods:['levelWormhole'],evoMethodIds:[41],evoLevels:[28]}, ''), 'Lv 28 in Ultra Space');
+  assert.equal(formatBranch({evoMethods:['levelDusk'],evoLevels:[25]}, 25), 'Lv 25 During Dusk');
+});
+
+test('Gen 7 conditions use their own meanings instead of Gen 4 numeric meanings', () => {
+  assert.equal(formatBranch({evoMethods:['levelInverted'],evoMethodIds:[28]}, 30), 'Lv 30 with the console upside down');
+  assert.equal(formatBranch({evoMethods:['levelAffectionMoveType'],evoMethodIds:[29]}, 'Fairy'), 'Lv with 50 Affection + a Fairy-type move');
+  assert.equal(formatBranch({evoMethods:['levelDarkParty'],evoMethodIds:[30]}, 32), 'Lv 32 w/ a Dark-type Pokemon in party');
+  assert.equal(formatBranch({evoMethods:['useItemWormhole'],evoMethodIds:[42]}, 'Thunder Stone'), 'Thunder Stone in Ultra Space');
+});

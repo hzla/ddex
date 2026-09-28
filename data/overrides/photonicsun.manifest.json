@@ -1,0 +1,43 @@
+{
+  "title": "Photonic Sun Rebalanced",
+  "game": "usum",
+  "counts": {
+    "trainers": 652,
+    "pokemon": 1978,
+    "placeholder_named_trainers": 133,
+    "automatic_moves": 345,
+    "ambiguous_abilities": 0,
+    "abilities_resolved_with_tinymt": 478,
+    "raw_ev_totals_above_510": 18,
+    "form_inferences": 1,
+    "species_forms": 1011,
+    "moves": 728,
+    "encounter_areas": 74
+  },
+  "code_sha256": "5e6a0f74ff2cc601c2d1b0941c7886e9c0a5876f6b0adf7cfae9579dd6dc2174",
+  "trainer_algorithm": "USUM 1.2 TinyMT32, independent per party member",
+  "trainer_algorithm_verified_code": true,
+  "sha256": {
+    "text": "f59700e79790a378de5df7382e5852262870bf0f8902628b7b7c96077d9c1109",
+    "personal": "3d0326aeff7ecb0276abf6cac5db5a8eef2073405dac6fcc08911505cb50472f",
+    "levelup": "71fc224de254fc9c3ab033db17676a0ca40f17cf578c857704aede0a5b429633",
+    "moves": "be5ac7e948f1a7a3f664b6ed4b6a4c4c68e07873dfd7586ce5d4c9e87fa11145",
+    "mega": "df87e20ec62105786b968e417ddfc3cd630ee64251b0543f11dc05ea25b8b58d",
+    "evolutions": "cab276d963b4cf71cb75096aa4bca53ddee2277b09533b2a11a6870b2f2ca9fa",
+    "eggs": "3929f95fe0efc7c5a92694b4931cf4bcc4364e526c6a3882e25e217843a41cdb",
+    "trdata": "700d91484b914b6e8f13591854e9864df2cfb9e56749d9892f69f511dcc15547",
+    "trpoke": "a349f7fdfe02b40638e33e9ac74f69ff02994a01157c972328b0fbda1460e81b",
+    "zones": "66f9e6642adb34cf5f8ce512d035f843c899e843759fe470515a99ddfb31c279",
+    "worlds": "ee6f73e4cc7c4b19676ac1f5013fd34318fb2666a7812b1179d5721b5db4332e",
+    "encounters": "7635b2b98aaaeb5d4a95384732dffde6ac8dc35098f018a7abc1c7bd0d11d2f2"
+  },
+  "trainer_order_source": "archive ID order (not story progression)",
+  "tutor_mapping_source": "config or standard pk3DS Gen 7 tutor index lists",
+  "limitations": [
+    "Wild tables retain area/table numbers; terrain/script activation is not inferred. SOS/weather slots are retained in encounters.raw.json, not assigned unconditional encounter rates. Static/gift locations are not mapped.",
+    "Story order and battle-script conditions are not extracted.",
+    "Executable changes to ability/move/evolution mechanics require a separate code audit; table data does not establish custom effects.",
+    "SM layouts are supported; this trainer-generation algorithm has only been verified against the supplied USUM 1.2 executable.",
+    "Tutor move mapping defaults to pk3DS lists; configure replacements if the hack changes tutor assignments."
+  ]
+}

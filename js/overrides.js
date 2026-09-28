@@ -77,9 +77,11 @@ var GAME_SOURCE_ALIASES = {
   "platinumreduxhc": "platinumredux",
   "sterlingsilver117": "sterlingsilver",
   "unbound": "pokemonunbound",
+  "pspm": "photonicsun",
 };
 var game = normalizeGameSourceKey(gameParam) || (isRomOverrideActive() ? null : normalizeGameSourceKey(localStorage.game));
 var gameTitles = {
+  "photonicsun": "Photonic Sun Rebalanced",
 	"vintagewhiteplus": "Vintage White+",
 	"blazeblack2redux": "Blaze Black/Volt White 2 Redux",
 	"blindingwhite2": "Blinding White 2",
@@ -539,6 +541,7 @@ function normalizeBackupFormattedSetSpecies(backupData) {
     }
     if (Array.isArray(info.tms)) nextInfo.tms = normalizeMoveList(info.tms);
     if (Array.isArray(info.tutors)) nextInfo.tutors = normalizeMoveList(info.tutors);
+    if (Array.isArray(info.eggMoves)) nextInfo.eggMoves = normalizeMoveList(info.eggMoves);
     if (info.tutorsBySource && typeof info.tutorsBySource === "object" && !Array.isArray(info.tutorsBySource)) {
       nextInfo.tutorsBySource = {};
       for (const [source, moves] of Object.entries(info.tutorsBySource)) {
@@ -2675,13 +2678,14 @@ function overrideItemData(itemOverrides) {
 }
 
 function copyOptionalMoveOverrideFields(target, source) {
-	var optionalFields = ["critRatio", "recoil", "drain", "heal", "willCrit"]
+	var optionalFields = ["critRatio", "recoil", "drain", "heal", "willCrit", "multihit", "target"]
 	for (var i = 0; i < optionalFields.length; i++) {
 		var field = optionalFields[i]
 		if (Object.prototype.hasOwnProperty.call(source, field)) {
 			target[field] = source[field]
 		}
 	}
+	if (source.flags) target.flags = { ...target.flags, ...source.flags }
 }
 
 function overrideMoveData(moveOverrides) {
@@ -2723,7 +2727,7 @@ function overrideMoveData(moveOverrides) {
 
 			// New Fields
 			BattleMovedex[moveId].name = moveData.name
-			BattleMovedex[moveId].num = movCount + customMoveCount
+			BattleMovedex[moveId].num = moveData.num ?? movCount + customMoveCount
 			BattleMovedex[moveId].flags = {}
 			BattleMovedex[moveId].contestType = ""
 			if (Object.prototype.hasOwnProperty.call(moveData, "e_id")) {
@@ -2755,7 +2759,7 @@ function overrideMonData(monOverrides) {
 			customMonCount += 1
 			BattlePokedex[speciesId] = {
 				name: monData.name,
-				num: monCount + customMonCount,
+				num: monData.num ?? monCount + customMonCount,
 				tier: "obtainable",
 				abilities: {},
 				baseStats: {},
@@ -2792,6 +2796,7 @@ function overrideMonData(monOverrides) {
 		BattlePokedex[speciesId].evoMethods = monData.evoMethods
 		BattlePokedex[speciesId].evoParams = monData.evoParams
 		BattlePokedex[speciesId].evoMethodIds = monData.evoMethodIds
+		BattlePokedex[speciesId].evoLevels = monData.evoLevels
 
 		const learnsetInfo =
 			monData.learnset_info && typeof monData.learnset_info === "object"
@@ -2800,6 +2805,7 @@ function overrideMonData(monOverrides) {
 		let lvlUpMoves = Array.isArray(learnsetInfo.learnset) ? learnsetInfo.learnset : []
 		let tms = Array.isArray(learnsetInfo.tms) ? learnsetInfo.tms : []
 		let tutors = Array.isArray(learnsetInfo.tutors) ? learnsetInfo.tutors : []
+		let eggMoves = Array.isArray(learnsetInfo.eggMoves) ? learnsetInfo.eggMoves : []
 
 		if (typeof BattleLearnsets[speciesId] == "undefined" || !BattleLearnsets[speciesId]) {
 			BattleLearnsets[speciesId] = {}
@@ -2822,6 +2828,12 @@ function overrideMonData(monOverrides) {
 			BattleLearnsets[speciesId].learnset[mvId].push(`M`)
 		}
 
+		for (let mv of eggMoves) {
+			let mvId = cleanString(mv)
+			BattleLearnsets[speciesId].learnset[mvId] ||= []
+			BattleLearnsets[speciesId].learnset[mvId].push("E")
+		}
+
 		if (tutors) {
 			for (let mv of tutors) {
 				let mvId = cleanString(mv)
@@ -2837,6 +2849,8 @@ function overrideMonData(monOverrides) {
 
 		// Set optional fields
 		for (let field of [
+			"heightm",
+			"weightkg",
 			"evoLevel",
 			"evoType",
 			"evoCondition",
@@ -2873,7 +2887,7 @@ function overrideMonData(monOverrides) {
 
 function cleanString(str) {
   if (str) {
-    return str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    return str.normalize('NFKD').replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
   } else {
     return "";
   }
