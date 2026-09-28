@@ -22257,13 +22257,13 @@ overrides = {
         "Electivire"
       ],
       "evoMethods": [
-        "Level Requirement"
+        "Item Use"
       ],
       "evoMethodIds": [
-        4
+        8
       ],
       "evoParams": [
-        50
+        "Electirizer"
       ]
     },
     "Magmar": {
@@ -22439,13 +22439,13 @@ overrides = {
         "Magmortar"
       ],
       "evoMethods": [
-        "Level Requirement"
+        "Item Use"
       ],
       "evoMethodIds": [
-        4
+        8
       ],
       "evoParams": [
-        50
+        "Magmarizer"
       ]
     },
     "Pinsir": {
@@ -112408,7 +112408,7 @@ overrides = {
       "name": "Bubble Beam",
       "num": 60,
       "desc": "A spray of bubbles is forcefully ejected at the opposing team. It may also lower their Speed stats.",
-      "e_id": 0,
+      "e_id": 70,
       "secondaries": true
     },
     "Aurora Beam": {
@@ -112847,7 +112847,7 @@ overrides = {
       "name": "Psychic",
       "num": 93,
       "desc": "The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.",
-      "e_id": 22,
+      "e_id": 72,
       "secondaries": true
     },
     "Hypnosis": {
@@ -113527,7 +113527,7 @@ overrides = {
       "name": "Chilling Water",
       "num": 144,
       "desc": "The user showers all foes with water so cold it saps their power. This also lowers the target's Attack stat.",
-      "e_id": 18,
+      "e_id": 68,
       "tar": "allAdjacentFoes",
       "secondaries": true
     },
@@ -113596,7 +113596,7 @@ overrides = {
       "name": "Play Rough",
       "num": 149,
       "desc": "The user roughouses with the target and attacks them. This may also lower the target's Attack stat.",
-      "e_id": 0,
+      "e_id": 68,
       "secondaries": true
     },
     "Acid Armor": {
@@ -114673,7 +114673,7 @@ overrides = {
       "name": "Iron Tail",
       "num": 230,
       "desc": "The user swipes enemy Pokémon with a steel-hard tail. It may also lower targets' Defense stat.",
-      "e_id": 19,
+      "e_id": 69,
       "tar": "allAdjacentFoes",
       "secondaries": true
     },
@@ -114886,7 +114886,7 @@ overrides = {
       "name": "Shadow Ball",
       "num": 246,
       "desc": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
-      "e_id": 22,
+      "e_id": 72,
       "secondaries": true
     },
     "Future Sight": {
@@ -115136,7 +115136,7 @@ overrides = {
       "t": "Normal",
       "bp": 0,
       "cat": "Status",
-      "pp": 3,
+      "pp": 2,
       "acc": 101,
       "prio": 3,
       "name": "Follow Me",
@@ -115497,7 +115497,7 @@ overrides = {
       "name": "Trop Kick",
       "num": 292,
       "desc": "The user lands an intense kick of tropical origins on the target. This also lowers the target's Attack stat.",
-      "e_id": 18,
+      "e_id": 68,
       "secondaries": true
     },
     "Tail Glow": {
@@ -115523,7 +115523,7 @@ overrides = {
       "name": "Dazzling Gleam",
       "num": 294,
       "desc": "The user strikes opposing foes by emitting a dazzling flash.",
-      "e_id": 0,
+      "e_id": 73,
       "tar": "allAdjacentFoes",
       "critRatio": 2,
       "secondaries": true
@@ -115648,7 +115648,7 @@ overrides = {
       "name": "Hyper Voice",
       "num": 303,
       "desc": "The user lets loose a horribly echoing shout. This may also lower the target's Sp. Def stat. ",
-      "e_id": 22,
+      "e_id": 72,
       "tar": "allAdjacentFoes",
       "secondaries": true,
       "flags": {
@@ -115678,7 +115678,7 @@ overrides = {
       "name": "Crush Claw",
       "num": 305,
       "desc": " The user slashes through the target with hard and sharp claws. It also lowers the target's Defense.",
-      "e_id": 19,
+      "e_id": 69,
       "secondaries": true
     },
     "Blast Burn": {
@@ -116011,7 +116011,7 @@ overrides = {
       "name": "Muddy Water",
       "num": 329,
       "desc": "The user attacks by shooting muddy water at the opposing team. It may also lower the targets' accuracy.",
-      "e_id": 23,
+      "e_id": 73,
       "tar": "allAdjacentFoes",
       "secondaries": true
     },
@@ -116822,7 +116822,7 @@ overrides = {
       "cat": "Physical",
       "pp": 5,
       "acc": 100,
-      "prio": 1,
+      "prio": 0,
       "name": "Headlong Rush",
       "num": 390,
       "desc": "The user smashes into the target in a full-body tackle. This also lowers the user’s defenses.",
@@ -117014,7 +117014,7 @@ overrides = {
       "name": "Bug Buzz",
       "num": 404,
       "desc": "The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.",
-      "e_id": 22,
+      "e_id": 72,
       "secondaries": true,
       "flags": {
         "sound": true
@@ -117099,7 +117099,7 @@ overrides = {
       "name": "Focus Blast",
       "num": 410,
       "desc": "The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.",
-      "e_id": 22,
+      "e_id": 72,
       "secondaries": true
     },
     "Energy Ball": {
@@ -117112,7 +117112,7 @@ overrides = {
       "name": "Energy Ball",
       "num": 411,
       "desc": "The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.",
-      "e_id": 22,
+      "e_id": 72,
       "secondaries": true
     },
     "Brave Bird": {
@@ -117294,7 +117294,7 @@ overrides = {
       "name": "Mud Bomb",
       "num": 425,
       "desc": "The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy.",
-      "e_id": 0,
+      "e_id": 73,
       "secondaries": true
     },
     "Psycho Cut": {
@@ -117332,7 +117332,7 @@ overrides = {
       "name": "Mirror Shot",
       "num": 428,
       "desc": "The user looses a flash of energy at the target from its polished body. It may also lower the target's accuracy.",
-      "e_id": 23,
+      "e_id": 73,
       "secondaries": true
     },
     "Flash Cannon": {
@@ -117345,7 +117345,7 @@ overrides = {
       "name": "Flash Cannon",
       "num": 429,
       "desc": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
-      "e_id": 22,
+      "e_id": 72,
       "secondaries": true
     },
     "Rock Climb": {
@@ -118724,7 +118724,7 @@ overrides = {
       "name": "Razor Shell",
       "num": 533,
       "desc": "The user cuts its target with sharp shells. This attack may also lower the target's Defense stat.",
-      "e_id": 19,
+      "e_id": 69,
       "secondaries": true
     },
     "Heat Crash": {
@@ -118750,7 +118750,7 @@ overrides = {
       "name": "Leaf Tornado",
       "num": 535,
       "desc": "The user attacks by encircling targets in sharp leaves. This attack also lowers the target's Attack.",
-      "e_id": 18,
+      "e_id": 68,
       "tar": "allAdjacentFoes",
       "secondaries": true
     },
@@ -135967,7 +135967,7 @@ overrides = {
         "Druddigon",
         "Parasect",
         "Onix",
-        "Golbat",
+        "Heatmor",
         "Dugtrio",
         "Rhydon",
         "Gabite",
@@ -136085,7 +136085,7 @@ overrides = {
             "mx": 34
           },
           {
-            "s": "Golbat",
+            "s": "Heatmor",
             "mn": 32,
             "mx": 34
           },
@@ -152878,20 +152878,20 @@ overrides = {
     "ultraball": {
       "name": "Ultra Ball",
       "desc": "An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.",
-      "location": "Reward from Youngster Kevin - Marvelous Bridge, Reward from Clerk  M Fredric, Reward from Lass Dana, Reward from School Kid Alan, Reward from School Kid Sally, Reward from Psychic Gerard, Reward from Psychic Madhu, Reward from Depot Agent Josh, Reward from Dancer Davey, Reward from Artist Pierre, Reward from Maid Alica, Reward from Parasol Lady Gwyneth, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Middle Left Cashier",
+      "location": "Reward from Youngster Kevin - Nimbasa City, Reward from Clerk  M Fredric - Nimbasa City, Reward from Lass Dana - Nimbasa City, Reward from School Kid Alan - Nimbasa City, Reward from School Kid Sally - Nimbasa City, Reward from Psychic Gerard - Nimbasa City, Reward from Psychic Madhu - Nimbasa City, Reward from Depot Agent Josh - Nimbasa City, Reward from Dancer Davey - Nimbasa City, Reward from Artist Pierre - Nimbasa City, Reward from Maid Alica - Nimbasa City, Reward from Parasol Lady Gwyneth - Nimbasa City, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Middle Left Cashier",
       "rewards": [
-        "Youngster Kevin - Marvelous Bridge",
-        "Clerk  M Fredric",
-        "Lass Dana",
-        "School Kid Alan",
-        "School Kid Sally",
-        "Psychic Gerard",
-        "Psychic Madhu",
-        "Depot Agent Josh",
-        "Dancer Davey",
-        "Artist Pierre",
-        "Maid Alica",
-        "Parasol Lady Gwyneth"
+        "Youngster Kevin - Nimbasa City",
+        "Clerk  M Fredric - Nimbasa City",
+        "Lass Dana - Nimbasa City",
+        "School Kid Alan - Nimbasa City",
+        "School Kid Sally - Nimbasa City",
+        "Psychic Gerard - Nimbasa City",
+        "Psychic Madhu - Nimbasa City",
+        "Depot Agent Josh - Nimbasa City",
+        "Dancer Davey - Nimbasa City",
+        "Artist Pierre - Nimbasa City",
+        "Maid Alica - Nimbasa City",
+        "Parasol Lady Gwyneth - Nimbasa City"
       ],
       "marts": [
         "Stock 7+Badges",
@@ -152944,9 +152944,9 @@ overrides = {
     "diveball": {
       "name": "Dive Ball",
       "desc": "A somewhat different Poké Ball that works especially well on Pokémon that live underwater.",
-      "location": "Reward from Fisherman Devon, Sold at Seigaiha City Upper Cashier",
+      "location": "Reward from Fisherman Devon - Nimbasa City, Sold at Seigaiha City Upper Cashier",
       "rewards": [
-        "Fisherman Devon"
+        "Fisherman Devon - Nimbasa City"
       ],
       "marts": [
         "Seigaiha City Upper Cashier"
@@ -153006,9 +153006,9 @@ overrides = {
     "duskball": {
       "name": "Dusk Ball",
       "desc": "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.",
-      "location": "Reward from Roughneck Fletcher, Sold at Icirrus City Upper Cashier, Sold at Opelucid City Upper Cashier, Sold at Victory Road Upper, Sold at Victory Road Upper 2, Sold at SM9 Middle Left Cashier, Sold at Yamaji Town Upper Cashier",
+      "location": "Reward from Roughneck Fletcher - Nimbasa City, Sold at Icirrus City Upper Cashier, Sold at Opelucid City Upper Cashier, Sold at Victory Road Upper, Sold at Victory Road Upper 2, Sold at SM9 Middle Left Cashier, Sold at Yamaji Town Upper Cashier",
       "rewards": [
-        "Roughneck Fletcher"
+        "Roughneck Fletcher - Nimbasa City"
       ],
       "marts": [
         "Icirrus City Upper Cashier",
@@ -153052,14 +153052,14 @@ overrides = {
     "potion": {
       "name": "Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points.",
-      "location": "Reward from Hoopster Bobby, Reward from Cosplayer Cassie - Join Avenue, Reward from Linebacker Jonah, Reward from Rival Benga, Reward from Striker Marco, Reward from Hoopster John, Reward from Cosplayer Amy - Join Avenue, Reward from Lass Flo - Route 7",
+      "location": "Reward from Hoopster Bobby - Nimbasa City, Reward from Cosplayer Cassie - Join Avenue, Reward from Linebacker Jonah - Nimbasa City, Reward from Rival Benga - Nimbasa City, Reward from Striker Marco - Nimbasa City, Reward from Hoopster John - Nimbasa City, Reward from Cosplayer Amy - Join Avenue, Reward from Lass Flo - Route 7",
       "rewards": [
-        "Hoopster Bobby",
+        "Hoopster Bobby - Nimbasa City",
         "Cosplayer Cassie - Join Avenue",
-        "Linebacker Jonah",
-        "Rival Benga",
-        "Striker Marco",
-        "Hoopster John",
+        "Linebacker Jonah - Nimbasa City",
+        "Rival Benga - Nimbasa City",
+        "Striker Marco - Nimbasa City",
+        "Hoopster John - Nimbasa City",
         "Cosplayer Amy - Join Avenue",
         "Lass Flo - Route 7"
       ]
@@ -153067,9 +153067,9 @@ overrides = {
     "antidote": {
       "name": "Antidote",
       "desc": "A spray-type medicine. It lifts the effect of poison from one Pokémon.",
-      "location": "Reward from Preschooler Evan",
+      "location": "Reward from Preschooler Evan - Nimbasa City",
       "rewards": [
-        "Preschooler Evan"
+        "Preschooler Evan - Nimbasa City"
       ]
     },
     "burnheal": {
@@ -153127,11 +153127,11 @@ overrides = {
     "maxpotion": {
       "name": "Max Potion",
       "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
-      "location": "Reward from Cosplayer Anders - Nimbasa City, Reward from Girl in Suit Donna - Nimbasa City, Reward from Pokefan Darcy, Reward from Youngster Nicholas - Route 7, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Top Right Cashier",
+      "location": "Reward from Cosplayer Anders - Nimbasa City, Reward from Girl in Suit Donna - Nimbasa City, Reward from Pokefan Darcy - Nimbasa City, Reward from Youngster Nicholas - Route 7, Sold at Stock No Badges, Sold at Stock 1+Badges, Sold at Stock 3+Badges, Sold at Stock 5+Badges, Sold at Stock 7+Badges, Sold at Stock 8+Badges, Sold at SM9 Top Right Cashier",
       "rewards": [
         "Cosplayer Anders - Nimbasa City",
         "Girl in Suit Donna - Nimbasa City",
-        "Pokefan Darcy",
+        "Pokefan Darcy - Nimbasa City",
         "Youngster Nicholas - Route 7"
       ],
       "marts": [
@@ -153147,31 +153147,31 @@ overrides = {
     "hyperpotion": {
       "name": "Hyper Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points.",
-      "location": "Reward from Smasher, Reward from Hoopster John - Pokestar Studios, Reward from Guy in Suit Larry - Join Avenue, Reward from Hoopster Bobby, Reward from Linebacker Jonah, Reward from Striker Marco, Reward from Cosplayer Miriam - Join Avenue",
+      "location": "Reward from Smasher - Nimbasa City, Reward from Hoopster John - Chargestone Cave, Reward from Guy in Suit Larry - Join Avenue, Reward from Hoopster Bobby - Nimbasa City, Reward from Linebacker Jonah - Nimbasa City, Reward from Striker Marco - Nimbasa City, Reward from Cosplayer Miriam - Join Avenue",
       "rewards": [
-        "Smasher",
-        "Hoopster John - Pokestar Studios",
+        "Smasher - Nimbasa City",
+        "Hoopster John - Chargestone Cave",
         "Guy in Suit Larry - Join Avenue",
-        "Hoopster Bobby",
-        "Linebacker Jonah",
-        "Striker Marco",
+        "Hoopster Bobby - Nimbasa City",
+        "Linebacker Jonah - Nimbasa City",
+        "Striker Marco - Nimbasa City",
         "Cosplayer Miriam - Join Avenue"
       ]
     },
     "superpotion": {
       "name": "Super Potion",
       "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points.",
-      "location": "Reward from Cosplayer Jared - Join Avenue, Reward from Linebacker Dan - Castelia City, Reward from Policeman Petrel - Virbank City, Reward from Policeman Rosco - Virbank City, Reward from Linebacker Jonah, Reward from Team Plasma Shadow - Marine Tube, Reward from Striker Roberto, Reward from Striker Marco, Reward from Hoopster John",
+      "location": "Reward from Cosplayer Jared - Join Avenue, Reward from Linebacker Dan - Nimbasa City, Reward from Policeman Petrel - Virbank City, Reward from Policeman Rosco - Virbank City, Reward from Linebacker Jonah - Nimbasa City, Reward from Team Plasma Shadow - Nimbasa City, Reward from Striker Roberto - Nimbasa City, Reward from Striker Marco - Nimbasa City, Reward from Hoopster John - Nimbasa City",
       "rewards": [
         "Cosplayer Jared - Join Avenue",
-        "Linebacker Dan - Castelia City",
+        "Linebacker Dan - Nimbasa City",
         "Policeman Petrel - Virbank City",
         "Policeman Rosco - Virbank City",
-        "Linebacker Jonah",
-        "Team Plasma Shadow - Marine Tube",
-        "Striker Roberto",
-        "Striker Marco",
-        "Hoopster John"
+        "Linebacker Jonah - Nimbasa City",
+        "Team Plasma Shadow - Nimbasa City",
+        "Striker Roberto - Nimbasa City",
+        "Striker Marco - Nimbasa City",
+        "Hoopster John - Nimbasa City"
       ]
     },
     "fullheal": {
@@ -153195,9 +153195,9 @@ overrides = {
     "maxrevive": {
       "name": "Max Revive",
       "desc": "A medicine that revives a fainted Pokémon. It fully restores the Pokémon's HP.",
-      "location": "Reward from Doctor Jules",
+      "location": "Reward from Doctor Jules - Nimbasa City",
       "rewards": [
-        "Doctor Jules"
+        "Doctor Jules - Nimbasa City"
       ]
     },
     "freshwater": {
@@ -153218,11 +153218,11 @@ overrides = {
     "moomoomilk": {
       "name": "Moomoo Milk",
       "desc": "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.",
-      "location": "Reward from Waiter Clint - Nimbasa City, Reward from Waitress Bonita, Reward from Baker Lilly",
+      "location": "Reward from Waiter Clint - Nimbasa City, Reward from Waitress Bonita - Nimbasa City, Reward from Baker Lilly - Nimbasa City",
       "rewards": [
         "Waiter Clint - Nimbasa City",
-        "Waitress Bonita",
-        "Baker Lilly"
+        "Waitress Bonita - Nimbasa City",
+        "Baker Lilly - Nimbasa City"
       ]
     },
     "energypowder": {
@@ -153236,9 +153236,9 @@ overrides = {
     "energyroot": {
       "name": "Energy Root",
       "desc": "A very bitter root. It restores the HP of one Pokémon by 200 points.",
-      "location": "Reward from Black Belt Lao, Sold at Driftveil City Herb Shop",
+      "location": "Reward from Black Belt Lao - Nimbasa City, Sold at Driftveil City Herb Shop",
       "rewards": [
-        "Black Belt Lao"
+        "Black Belt Lao - Nimbasa City"
       ],
       "marts": [
         "Driftveil City Herb Shop"
@@ -153337,18 +153337,18 @@ overrides = {
     "rarecandies": {
       "name": "Rare Candies",
       "desc": "A candy that is packed with energy. It raises the level of a single Pokémon by one.",
-      "location": "Reward from Pkmn Breeder Brooke",
+      "location": "Reward from Pkmn Breeder Brooke - Nimbasa City",
       "rewards": [
-        "Pkmn Breeder Brooke"
+        "Pkmn Breeder Brooke - Nimbasa City"
       ]
     },
     "ppup": {
       "name": "PP Up",
       "desc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.",
-      "location": "Reward from Ace Trainer Lucille, Reward from Ace Trainer Charlie",
+      "location": "Reward from Ace Trainer Lucille - Nimbasa City, Reward from Ace Trainer Charlie - Nimbasa City",
       "rewards": [
-        "Ace Trainer Lucille",
-        "Ace Trainer Charlie"
+        "Ace Trainer Lucille - Nimbasa City",
+        "Ace Trainer Charlie - Nimbasa City"
       ]
     },
     "abilitypatch": {
@@ -153359,10 +153359,10 @@ overrides = {
     "ppmax": {
       "name": "PP Max",
       "desc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon.",
-      "location": "Reward from Veteran Arlen - Mistralton City, Reward from Veteran Sayuri",
+      "location": "Reward from Veteran Arlen - Nimbasa City, Reward from Veteran Sayuri - Nimbasa City",
       "rewards": [
-        "Veteran Arlen - Mistralton City",
-        "Veteran Sayuri"
+        "Veteran Arlen - Nimbasa City",
+        "Veteran Sayuri - Nimbasa City"
       ]
     },
     "oldgateau": {
@@ -153458,23 +153458,23 @@ overrides = {
     "redshard": {
       "name": "Red Shard",
       "desc": "A small red shard. It appears to be from some sort of implement made long ago.",
-      "location": "Reward from Lass Patty - Nimbasa City, Reward from Hiker Russel, Reward from Hiker Tobias - Relic Passage",
+      "location": "Reward from Lass Patty - Nimbasa City, Reward from Hiker Russel - Nimbasa City, Reward from Hiker Tobias - Relic Passage",
       "rewards": [
         "Lass Patty - Nimbasa City",
-        "Hiker Russel",
+        "Hiker Russel - Nimbasa City",
         "Hiker Tobias - Relic Passage"
       ]
     },
     "blueshard": {
       "name": "Blue Shard",
       "desc": "A small blue shard. It appears to be from some sort of implement made long ago.",
-      "location": "Reward from Worker Matthew, Reward from Worker Tyler - Driftveil City, Reward from Worker Herman, Reward from Worker Gus - Driftveil City, Reward from Harlequin Sanders, Reward from Backpacker Corin - Reversal Mountain",
+      "location": "Reward from Worker Matthew - Nimbasa City, Reward from Worker Tyler - Driftveil City, Reward from Worker Herman - Driftveil City, Reward from Worker Gus - Driftveil City, Reward from Harlequin Sanders - Royal Unova, Reward from Backpacker Corin - Reversal Mountain",
       "rewards": [
-        "Worker Matthew",
+        "Worker Matthew - Nimbasa City",
         "Worker Tyler - Driftveil City",
-        "Worker Herman",
+        "Worker Herman - Driftveil City",
         "Worker Gus - Driftveil City",
-        "Harlequin Sanders",
+        "Harlequin Sanders - Royal Unova",
         "Backpacker Corin - Reversal Mountain"
       ]
     },
@@ -153496,10 +153496,10 @@ overrides = {
     "maxrepel": {
       "name": "Max Repel",
       "desc": "An item that prevents weak wild Pokémon from appearing for 250 steps after its use.",
-      "location": "Reward from Pkmn Ranger Alain, Reward from Pkmn Ranger Heidi",
+      "location": "Reward from Pkmn Ranger Alain - Nimbasa City, Reward from Pkmn Ranger Heidi - Nimbasa City",
       "rewards": [
-        "Pkmn Ranger Alain",
-        "Pkmn Ranger Heidi"
+        "Pkmn Ranger Alain - Nimbasa City",
+        "Pkmn Ranger Heidi - Nimbasa City"
       ]
     },
     "escaperope": {
@@ -153573,25 +153573,25 @@ overrides = {
     "pearl": {
       "name": "Pearl",
       "desc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
-      "location": "Reward from Lady Sophie - Nuvema Town",
+      "location": "Reward from Lady Sophie - Nimbasa City",
       "rewards": [
-        "Lady Sophie - Nuvema Town"
+        "Lady Sophie - Nimbasa City"
       ]
     },
     "bigpearl": {
       "name": "Big Pearl",
       "desc": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.",
-      "location": "Reward from Socialite Emilia",
+      "location": "Reward from Socialite Emilia - Nimbasa City",
       "rewards": [
-        "Socialite Emilia"
+        "Socialite Emilia - Nimbasa City"
       ]
     },
     "stardust": {
       "name": "Stardust",
       "desc": "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.",
-      "location": "Reward from Rich Boy Anthony",
+      "location": "Reward from Rich Boy Anthony - Nimbasa City",
       "rewards": [
-        "Rich Boy Anthony"
+        "Rich Boy Anthony - Nimbasa City"
       ]
     },
     "starpiece": {
@@ -153982,11 +153982,11 @@ overrides = {
     "pechaberry": {
       "name": "Pecha Berry",
       "desc": "If held by a Pokémon, it recovers from poison.",
-      "location": "Reward from Pkmn Ranger Richard - Route 6, Reward from Pkmn Ranger Serenity - Lostlorn Forest, Reward from Black Belt Jeriel - Route 12, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
+      "location": "Reward from Pkmn Ranger Richard - Route 6, Reward from Pkmn Ranger Serenity - Lostlorn Forest, Reward from Black Belt Jeriel - Pokestar Studios, Sold at Stock 5+Badges, Sold at Stock 7+Badges",
       "rewards": [
         "Pkmn Ranger Richard - Route 6",
         "Pkmn Ranger Serenity - Lostlorn Forest",
-        "Black Belt Jeriel - Route 12"
+        "Black Belt Jeriel - Pokestar Studios"
       ],
       "marts": [
         "Stock 5+Badges",
@@ -155171,9 +155171,9 @@ overrides = {
     "tm11": {
       "name": "TM11",
       "desc": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
-      "location": "Reward from Johto Leader Falkner - Route 14",
+      "location": "Reward from Johto Leader Falkner - Nimbasa City",
       "rewards": [
-        "Johto Leader Falkner - Route 14"
+        "Johto Leader Falkner - Nimbasa City"
       ]
     },
     "tm12": {
@@ -155615,9 +155615,9 @@ overrides = {
     "tm86": {
       "name": "TM86",
       "desc": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
-      "location": "Reward from Pkmn Breeder Owen, Reward from Pkmn Breeder Micah - Castelia Gardens, Sold at Mistralton City TM Dept",
+      "location": "Reward from Pkmn Breeder Owen - Nimbasa City, Reward from Pkmn Breeder Micah - Castelia Gardens, Sold at Mistralton City TM Dept",
       "rewards": [
-        "Pkmn Breeder Owen",
+        "Pkmn Breeder Owen - Nimbasa City",
         "Pkmn Breeder Micah - Castelia Gardens"
       ],
       "marts": [
