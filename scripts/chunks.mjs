@@ -24,6 +24,7 @@ export const scriptChunks = {
     "data/typechart.js",
   ],
   "override-runtime": [
+    "js/pixelmon-runtime.js",
     "js/overrides.js",
     "js/nuzlocke-box.js",
   ],

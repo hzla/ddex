@@ -563,7 +563,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       '<h1><a href="/encounters/' +
       id +
       '" data-target="push" class="subtle">' +
-      location.name +
+      Dex.escapeHTML(location.name) +
       "</a></h1>";
     buf += '<section class="nuzlocke-summary" hidden></section>';
     buf +=
@@ -955,6 +955,14 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
 
     return row + this.renderEncounterCaughtToggle(result);
   },
+  getEncounterConditionsTitle: function (result) {
+    var conditions = result && result.pixelmonConditions;
+    if (!conditions) return "";
+    return Object.keys(conditions).map(function (key) {
+      var value = conditions[key];
+      return key + ": " + (Array.isArray(value) ? value.join(", ") : JSON.stringify(value));
+    }).join("; ");
+  },
   renderResultListItem: function (i, offscreen) {
     var result = this.results[i];
     var indexAttr =
@@ -966,6 +974,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       this.getResultRowClassName(this.results[i]) +
       '"' +
       indexAttr +
+      ' title="' + Dex.escapeHTML(this.getEncounterConditionsTitle(result)) + '"' +
       ">" +
       this.renderResultListItemContent(i, offscreen) +
       "</li>"
@@ -973,6 +982,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
   },
   updateResultListItem: function (rowElement, i) {
     rowElement.className = this.getResultRowClassName(this.results[i]);
+    rowElement.title = this.getEncounterConditionsTitle(this.results[i]);
     rowElement.innerHTML = this.renderResultListItemContent(i);
   },
   buildEncounterDisplayRow: function (encType, monId, baseRateValue, levelRange, extra) {
@@ -1062,11 +1072,16 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
           {
             slotIndex: i,
             sourceEncType: encType,
+            pixelmonRarity: encounter.pixelmonRarity,
+            pixelmonConditions: encounter.pixelmonConditions,
           },
         ),
       );
     }
 
+    if (rows.some(function (row) { return row.pixelmonRarity != null; })) {
+      return rows.map(function (row) { row.rate = String(row.pixelmonRarity ?? "?") + " "; return row; });
+    }
     return this.applyEncounterRateRedistribution(rows, 100);
   },
   buildBaseGrassEncounterRows: function (locationRecord, baseEncType) {
@@ -1553,7 +1568,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       var minLevel = result.min;
       var maxLevel = result.max;
       var encounterLevel = getEncounterPreviewLevel(minLevel, maxLevel);
-      var desc = rateTag || "";
+      var desc = Dex.escapeHTML(rateTag || "");
       var levelValue = "";
       if (encounterLevel > 0) {
         levelValue = "Lv " + encounterLevel;

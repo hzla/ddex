@@ -160,14 +160,14 @@ var PokedexItemPanel = PokedexResultPanel.extend({
   },
   initialize: function (id) {
     if (typeof overrides == "undefined") {
-      overrides = JSON.parse(localStorage.overrides)
+      overrides = getActiveDexOverrides()
     }
     id = toID(id);
     var item = Dex.items.get(id);
 
     overrideData = {}
-    if (localStorage.overrides) {
-      overrideData = JSON.parse(localStorage.overrides).items[id]
+    if (getActiveDexOverrides()) {
+      overrideData = getActiveDexOverrides().items[id]
     } else {
       overrideData = item
     }
@@ -284,8 +284,8 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
     var ability = Dex.abilities.get(id);
 
     overrideData = {}
-    if (localStorage.overrides) {
-      overrideData = JSON.parse(localStorage.overrides).abilities[id]
+    if (getActiveDexOverrides()) {
+      overrideData = getActiveDexOverrides().abilities[id]
     } else {
       overrideData = ability
     }

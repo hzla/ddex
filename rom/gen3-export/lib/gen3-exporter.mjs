@@ -768,6 +768,17 @@ function splitFishingEncounters(encounters) {
   };
 }
 
+function buildGen3EncounterTable(encounters, speciesNames, rates) {
+  const encs = [];
+  const validRates = [];
+  for (const [index, slot] of encounters.entries()) {
+    if (slot.species <= 0 || slot.species >= speciesNames.length) continue;
+    encs.push({ s: speciesNames[slot.species], mn: slot.mn, mx: slot.mx });
+    validRates.push(rates[index]);
+  }
+  return encs.length === encounters.length ? { encs } : { rates: validRates, encs };
+}
+
 function globalGen3Rates() {
   return {
     grass: [20, 20, 10, 10, 10, 10, 5, 5, 4, 4, 1, 1],
@@ -828,8 +839,9 @@ function scoreLevelUpEntries(entries, moveCount) {
 
 function parseWildBlock(reader, pointer, slots) {
   if (!pointer) return null;
+  const start = reader.readPointer(pointer + 4);
+  if (!start || start + slots * 4 > reader.length) return null;
   const encounters = [];
-  const start = pointer + 4;
   for (let slot = 0; slot < slots; slot += 1) {
     encounters.push({
       species: reader.readU16(start + slot * 4 + 2),
@@ -1376,7 +1388,7 @@ class ExportContext {
     if (this._cache.wildEncounters) return this._cache.wildEncounters;
     const anchor = this.layout.anchor("data.pokemon.wild");
     const entries = [];
-    for (let offset = anchor.address; offset + 28 <= this.reader.length; offset += 20) {
+    for (let offset = anchor.address; offset + 20 <= this.reader.length; offset += 20) {
       const bank = this.reader.readU8(offset);
       const map = this.reader.readU8(offset + 1);
       const grassPtr = this.reader.readPointer(offset + 4);
@@ -1657,42 +1669,18 @@ function buildDexOutput(ctx) {
     const entry = wildEntries[index];
     const locationRecord = { name: locationName };
     if (entry.grass) {
-      locationRecord.grass = {
-        encs: entry.grass.encs.filter((slot) => slot.species > 0 && slot.species < speciesNames.length).map((slot) => ({
-          s: speciesNames[slot.species],
-          mn: slot.mn,
-          mx: slot.mx,
-        })),
-      };
+      locationRecord.grass = buildGen3EncounterTable(entry.grass.encs, speciesNames, encs.rates.grass);
     }
     if (entry.surf) {
-      locationRecord.surf = {
-        encs: entry.surf.encs.filter((slot) => slot.species > 0 && slot.species < speciesNames.length).map((slot) => ({
-          s: speciesNames[slot.species],
-          mn: slot.mn,
-          mx: slot.mx,
-        })),
-      };
+      locationRecord.surf = buildGen3EncounterTable(entry.surf.encs, speciesNames, encs.rates.surf);
     }
     if (entry.tree) {
-      locationRecord.rock_smash = {
-        encs: entry.tree.encs.filter((slot) => slot.species > 0 && slot.species < speciesNames.length).map((slot) => ({
-          s: speciesNames[slot.species],
-          mn: slot.mn,
-          mx: slot.mx,
-        })),
-      };
+      locationRecord.rock_smash = buildGen3EncounterTable(entry.tree.encs, speciesNames, encs.rates.rock_smash);
     }
     if (entry.fish) {
       const split = splitFishingEncounters(entry.fish.encs);
       for (const [bucket, encounters] of Object.entries(split)) {
-        locationRecord[bucket] = {
-          encs: encounters.filter((slot) => slot.species > 0 && slot.species < speciesNames.length).map((slot) => ({
-            s: speciesNames[slot.species],
-            mn: slot.mn,
-            mx: slot.mx,
-          })),
-        };
+        locationRecord[bucket] = buildGen3EncounterTable(encounters, speciesNames, encs.rates[bucket]);
       }
     }
     encs[locationId] = locationRecord;

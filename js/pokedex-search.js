@@ -5,6 +5,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
   search: null,
   events: {
     "keyup input.searchbox": "updateSearch",
+    "input input.searchbox": "updateSearch",
     "change input.searchbox": "updateSearch",
     "search input.searchbox": "updateSearch",
     submit: "submit",
@@ -17,6 +18,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
     "click .ddex-more-download-dex": "downloadDexData",
     "click .ddex-more-open-calc": "openCalc",
     "click .ddex-more-sync-calc": "syncCalc",
+    "input .ddex-pixelmon-trainer-search": "filterPixelmonTrainers",
     "click .filter": "removeFilter",
     "mouseover .result a": "hoverlink",
   },
@@ -86,6 +88,10 @@ var PokedexSearchPanel = Panels.Panel.extend({
     buf += '<input type="file" id="rom-upload" accept=".nds,.gba,.toml,application/octet-stream,text/plain" multiple />';
     buf += '<div id="rom-status" style="display:none;"></div>';
     buf += "</div>";
+    buf += '<div id="pixelmon-upload-panel" class="ddex-upload-panel">';
+    buf += '<label class="ddex-rom-upload-trigger" for="pixelmon-upload">Load Pixelmon ZIP</label>';
+    buf += '<input type="file" id="pixelmon-upload" accept=".zip,application/zip,application/x-zip-compressed" />';
+    buf += '<div id="pixelmon-upload-status" role="status" style="display:none;"></div></div>';
     buf += '<div id="override-upload-panel" class="ddex-upload-panel">';
     buf += '<label class="ddex-rom-upload-trigger" for="override-upload">Load Override Files</label>';
     buf += '<input type="file" id="override-upload" accept=".js,.zip,text/javascript,application/javascript,application/zip,application/x-zip-compressed" multiple />';
@@ -93,6 +99,8 @@ var PokedexSearchPanel = Panels.Panel.extend({
     buf += "</div>";
     buf += "</div></div>";
     this.$el.html(buf);
+    this.$el.toggleClass("ddex-more-view", this.isMorePanel);
+    if (this.isMorePanel) this.$(".results").before(this.$(".ddex-search-footer"));
     if (typeof setDexTitleFromStorage === "function") {
       setDexTitleFromStorage();
     }
@@ -173,9 +181,12 @@ var PokedexSearchPanel = Panels.Panel.extend({
     var hasRomLoaded = !!bridgeState.romSourceGen;
     var syncDisabled = !bridgeState.hasCalcData || !bridgeState.hasCalcWindow;
     var calcStatus = bridgeState.status || (bridgeState.hasCalcWindow ? "Calc tab open." : "Calc tab not open.");
-    var romSummary = hasRomLoaded
+    var pixelmon = window.DDEX_PIXELMON_DATA;
+    var romSummary = pixelmon
+      ? "Pixelmon: " + pixelmon.summary.species + " Pokémon/forms, " + pixelmon.summary.moves + " moves, " + pixelmon.summary.trainers + " trainer teams. Gen 8 damage mechanics."
+      : hasRomLoaded
       ? "Loaded ROM source: Gen " + bridgeState.romSourceGen + "."
-      : "Load a Gen 3 or Gen 4 ROM to enable calc export and sync.";
+      : "Load a Gen 3/4 ROM or a ZIP of data/pixelmon to enable calc export and sync.";
     var miningDebug =
       window.DDEX_ROM_MINING_DEBUG ||
       (window.DDEX_ROM_DEBUG && window.DDEX_ROM_DEBUG.miningTable) ||
@@ -193,7 +204,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
 
     var buf = '<section class="ddex-more-panel">';
     buf += '<div class="ddex-more-card">';
-    buf += "<h2>ROM Tools</h2>";
+    buf += "<h2>Dex &amp; Calculator Data</h2>";
     buf += "<p>" + Dex.escapeHTML(romSummary) + "</p>";
     buf += '<div class="ddex-more-actions">';
     buf +=
@@ -215,6 +226,16 @@ var PokedexSearchPanel = Panels.Panel.extend({
     buf += "</div>";
     buf += '<p class="ddex-more-status">' + Dex.escapeHTML(calcStatus) + "</p>";
     buf += "</div>";
+    if (pixelmon) {
+      buf += '<div class="ddex-more-card ddex-pixelmon-card">';
+      buf += '<h2>Pixelmon Trainer Teams</h2>';
+      buf += '<p>Fixed teams and random pools are preserved. Sets with no specified level start at Lv 100 in the calculator; adjust them before calculating.</p>';
+      buf += '<input class="textbox ddex-pixelmon-trainer-search" type="search" aria-label="Filter Pixelmon trainer teams" placeholder="Filter trainers, Pokémon, or moves" />';
+      buf += '<div class="ddex-pixelmon-trainer-list"></div>';
+      buf += '<p>Calculations use Gen 8 rules and the imported stats and moves. Custom Java ability/effect behavior is not simulated. Z/Max power is derived by the calculator. Spawn rarity values are weights, not encounter percentages; biome tags and conditions remain in the exported data.</p>';
+      if (pixelmon.warnings.length) buf += '<details><summary>Import notes (' + pixelmon.warnings.length + ')</summary><ul>' + pixelmon.warnings.map(function (note) { return '<li>' + Dex.escapeHTML(note) + '</li>'; }).join('') + '</ul></details>';
+      buf += '</div>';
+    }
     if (isGen4Rom) {
       buf += '<div class="ddex-more-card">';
       buf += "<h2>Item Info</h2>";
@@ -238,6 +259,26 @@ var PokedexSearchPanel = Panels.Panel.extend({
     }
     buf += "</section>";
     this.$results.html(buf);
+    if (pixelmon) this.filterPixelmonTrainers();
+  },
+  filterPixelmonTrainers: function (event) {
+    var pixelmon = window.DDEX_PIXELMON_DATA;
+    if (!pixelmon) return;
+    var query = String(event ? event.target.value : "").trim().toLowerCase();
+    var trainers = pixelmon.trainers.filter(function (trainer) {
+      return !query || (trainer.name + " " + (trainer.names || []).join(" ") + " " + trainer.pokemon.map(function (pokemon) { return pokemon.spec; }).join(" ")).toLowerCase().indexOf(query) >= 0;
+    });
+    var buf = '<p>Showing ' + Math.min(30, trainers.length) + ' of ' + trainers.length + ' teams. Filter to find more.</p>';
+    trainers.slice(0, 30).forEach(function (trainer) {
+      buf += '<details class="ddex-pixelmon-team"><summary>' + Dex.escapeHTML(trainer.name) + '</summary>';
+      if (trainer.names && trainer.names.length > 1) buf += '<p>Possible names: ' + Dex.escapeHTML(trainer.names.join(', ')) + '</p>';
+      buf += '<p>' + (trainer.random ? 'Random pool; selects ' + trainer.min + '–' + trainer.max + ' Pokémon.' : 'Fixed team.') + '</p><ul>';
+      trainer.pokemon.forEach(function (pokemon) {
+        buf += '<li><a href="/pokemon/' + toID(pokemon.species) + '" data-target="push">' + Dex.escapeHTML(pokemon.species) + '</a><br><span>' + Dex.escapeHTML(pokemon.spec) + '</span></li>';
+      });
+      buf += '</ul></details>';
+    });
+    this.$('.ddex-pixelmon-trainer-list').html(buf);
   },
   updateSearch: function (e) {
     if (!this.search) return;

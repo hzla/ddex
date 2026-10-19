@@ -2669,7 +2669,8 @@ h1 a, h1 a.subtle {
 }
 
 #rom-upload-panel,
-#override-upload-panel {
+#override-upload-panel,
+#pixelmon-upload-panel {
 	margin: 14px 0 0 0;
     padding: 10px 12px;
     border: 1px solid #B38CFF;
@@ -2682,6 +2683,23 @@ h1 a, h1 a.subtle {
     min-height: 21px;
 }
 
+.ddex-pixelmon-team {
+  margin: 10px 0;
+  overflow-wrap: anywhere;
+}
+.ddex-pixelmon-team summary {
+  cursor: pointer;
+}
+.ddex-pixelmon-team li {
+  margin: 8px 0;
+}
+.ddex-pixelmon-trainer-search {
+  width: 100%;
+  box-sizing: border-box;
+}
+#pixelmon-upload {
+  display: none;
+}
 .ddex-rom-upload-trigger {
 	display: flex;
 	align-items: center;
@@ -2723,7 +2741,8 @@ h1 a, h1 a.subtle {
 }
 
 #rom-status,
-#override-upload-status {
+#override-upload-status,
+#pixelmon-upload-status {
 	width: 100%;
 	font-size: 12px;
 	white-space: pre-wrap;
@@ -2731,27 +2750,46 @@ h1 a, h1 a.subtle {
 }
 
 #rom-status.is-error,
-#override-upload-status.is-error {
+#override-upload-status.is-error,
+#pixelmon-upload-status.is-error {
 	color: #b00020;
 }
 
 @media (prefers-color-scheme: dark) {
 	#rom-upload-panel,
-	#override-upload-panel {
+	#override-upload-panel,
+	#pixelmon-upload-panel {
 		background: #202124;
 		border-color: #3a3b3c;
 		color: #e2e2e2;
 	}
 	#rom-status,
-	#override-upload-status {
+	#override-upload-status,
+	#pixelmon-upload-status {
 		color: #c9c9c9;
 	}
 	#rom-status.is-error,
-	#override-upload-status.is-error {
+	#override-upload-status.is-error,
+	#pixelmon-upload-status.is-error {
 		color: #ff8a80;
 	}
 	#rom-upload-panel input[type="file"],
 	#override-upload-panel input[type="file"] {
 		color: #e2e2e2;
 	}
+}
+
+.ddex-fixed-layout .ddex-sidebar-panel.ddex-more-view .results {
+  flex: 0 0 auto;
+}
+.ddex-fixed-layout .ddex-sidebar-panel.ddex-more-view .ddex-search-footer {
+  flex-shrink: 0;
+  margin-top: 0;
+}
+
+.ddex-fixed-layout #pixelmon-upload-status {
+  color: #c9c9c9;
+}
+.ddex-fixed-layout #pixelmon-upload-status.is-error {
+  color: #ff8a80;
 }

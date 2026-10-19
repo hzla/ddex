@@ -60,6 +60,37 @@ Load any Gen 4 Romhack by uploading the .nds file
 
 Once a rom has been loaded, you can view a local Damage Calculator from the More Tab or download the raw javascript calc/dex exported data
 
+### Pixelmon data imports
+
+Choose **Load Pixelmon ZIP** to upload a ZIP of the mod's `data/pixelmon`
+folder. Archives containing `data/pixelmon/`, `pixelmon/`, or its contents
+(`species/`, `moves/`, etc.) are supported. Include both species and moves;
+the importer ignores unrelated Minecraft resources.
+
+The dex imports species/forms, base stats, types, abilities, evolutions,
+learnsets (including each generation's TMs, tutors, and egg moves), move
+values/flags, referenced items, biome spawn records, and NPC trainer sets.
+Browse and filter fixed teams and random pools in **More → Pixelmon Trainer
+Teams**. Spawn tables display numeric rarity weights rather than encounter
+percentages; hover over a row to inspect its spawn conditions. Biome tags
+remain tag names.
+
+**More → Open Calc** opens Dynamic Calc and automatically sends the imported
+stats, moves, and trainer sets using Gen 8 damage, critical hit, type chart,
+and switch-in rules. **Sync Data to Calc** resends the current import. Both dex
+and calculator data are saved in IndexedDB and restored after reload;
+**Reset Data** clears the active import. Existing dex and calc downloads also
+work with the imported data.
+
+Pixelmon's Java ability/effect implementations are not executed by the
+calculator. Supported numerical move metadata is imported; known move and
+ability behavior follows the calculator's Gen 8 engine. Generic Z/Max move
+power/category placeholders are left to that engine. Trainer pool entries
+without explicit levels start at Lv 100 in the calculator;
+adjust them before calculating. Unspecified moves remain empty unless a
+fixed level allows a default learnset to be resolved. No Pokémon graphics
+are included in a data-only ZIP; the dex uses its existing sprite assets.
+
 <img width="314" height="299" alt="Screenshot 2026-05-03 at 1 34 45 PM" src="https://github.com/user-attachments/assets/2d7aed5b-fa54-4eac-93fb-14ddba4aa697" />
 
 ### Local Vercel Dev

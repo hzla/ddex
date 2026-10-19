@@ -324,8 +324,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
     vanillaPokemon = vanillaSpecies[id]
     overrideData = {}
-    if (localStorage.overrides) {
-      overrideData = JSON.parse(localStorage.overrides).poks[pokemon.name]
+    if (getActiveDexOverrides()) {
+      overrideData = getActiveDexOverrides().poks[pokemon.name]
     } else {
       overrideData = pokemon
     }

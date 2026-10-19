@@ -530,7 +530,8 @@ body.ddex-fixed-layout {
 
 .ddex-fixed-layout .ddex-sidebar-panel #reset-cache,
 .ddex-fixed-layout .ddex-sidebar-panel #rom-upload-panel,
-.ddex-fixed-layout .ddex-sidebar-panel #override-upload-panel {
+.ddex-fixed-layout .ddex-sidebar-panel #override-upload-panel,
+.ddex-fixed-layout .ddex-sidebar-panel #pixelmon-upload-panel {
 	position: static;
 	left: auto;
 	bottom: auto;
@@ -545,7 +546,8 @@ body.ddex-fixed-layout {
 }
 
 .ddex-fixed-layout .ddex-sidebar-panel #rom-upload-panel,
-.ddex-fixed-layout .ddex-sidebar-panel #override-upload-panel {
+.ddex-fixed-layout .ddex-sidebar-panel #override-upload-panel,
+.ddex-fixed-layout .ddex-sidebar-panel #pixelmon-upload-panel {
 	height: auto;
 	min-height: 52px;
 	box-sizing: border-box;

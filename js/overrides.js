@@ -243,6 +243,7 @@ async function applyGameOverridesFromCache() {
 }
 
 function clearRomCache() {
+  clearPixelmonImport();
   localStorage.removeItem(ROM_CACHE_FLAG);
   localStorage.removeItem(ROM_SOURCE_GEN_KEY);
   localStorage.removeItem(ROM_KEYS.overrides);
@@ -780,6 +781,7 @@ window.downloadRomBackupData = function (baseName, options) {
 };
 
 function getRomSourceGen() {
+  if (isPixelmonImportActive() && window.DDEX_PIXELMON_DATA) return 8;
   if (window.DDEX_ROM_SOURCE_GEN === 3 || window.DDEX_ROM_SOURCE_GEN === 4) {
     return window.DDEX_ROM_SOURCE_GEN;
   }
@@ -794,6 +796,21 @@ function getRomSourceGen() {
 function getCalcBridgeConfig() {
   const sourceGen = getRomSourceGen();
   if (!sourceGen) return null;
+  if (sourceGen === 8) {
+    return {
+      gen: 8,
+      damageGen: 8,
+      critGen: 8,
+      typeChart: 8,
+      switchIn: 8,
+      gameSwitchIn: 8,
+      sourceType: "full",
+      mechanics: "vanilla",
+      customPoks: true,
+      readIncludes: false,
+      saveExpansion: false,
+    };
+  }
   const romFamily = String(localStorage.romFamily || "").trim().toUpperCase();
   const hasExpandedHgssData = localStorage.getItem(ROM_KEYS.expanded) === "1";
   const isHgeFamilyRom = sourceGen === 4 && romFamily === "HGSS" && hasExpandedHgssData;
@@ -926,13 +943,14 @@ window.DDEXCalcBridge = {
       hasCalcData: !!window.DDEX_ROM_BACKUP_DATA,
       hasDexData: !!getRomOverridePayload(),
       romSourceGen: getRomSourceGen(),
+      sourceKind: isPixelmonImportActive() ? "pixelmon" : "rom",
       status: ddexCalcBridgeState.status,
     };
   },
   openCalc: function () {
     const url = buildCalcBridgeUrl();
     if (!url) {
-      setCalcBridgeStatus("Load a Gen 3 or Gen 4 ROM first.");
+      setCalcBridgeStatus("Load a Gen 3/4 ROM or Pixelmon ZIP first.");
       return false;
     }
     const calcWindow = window.open(url, "ddex-dynamic-calc");
@@ -943,13 +961,14 @@ window.DDEXCalcBridge = {
     ddexCalcBridgeState.calcWindow = calcWindow;
     ddexCalcBridgeState.calcReady = false;
     setCalcBridgeStatus("Opening calc tab...");
+    if (isPixelmonImportActive()) window.DDEXCalcBridge.syncToCalc();
     return true;
   },
   syncToCalc: function () {
     const config = getCalcBridgeConfig();
     const scriptPayload = getCalcBridgeScriptPayload();
     if (!config || !scriptPayload) {
-      setCalcBridgeStatus("Load a ROM with calc export data first.");
+      setCalcBridgeStatus("Load a ROM or Pixelmon ZIP with calc data first.");
       return false;
     }
     const syncPayload = {
@@ -1211,6 +1230,8 @@ async function ensureGen3ExporterLoaded() {
 }
 
 function applyImportedRomPayload(result, options = {}) {
+  clearPixelmonImport();
+  ddexCalcBridgeState.pendingSyncPayload = null;
   const normalizedOverrides = normalizeOverrideSpeciesPayload(result.overrides);
   const rawRomTitle = String(result.title || options.fallbackTitle || "rom").trim() || "rom";
   const displayRomTitle = toTitleCaseWords(rawRomTitle);
@@ -1831,7 +1852,7 @@ async function extractZipEntryBytes(entry, allBytes, view) {
   return bytes;
 }
 
-async function extractZipJsEntries(file) {
+async function extractZipTextEntries(file, options = {}) {
   const buffer = await file.arrayBuffer();
   const allBytes = new Uint8Array(buffer);
   const view = new DataView(buffer);
@@ -1841,6 +1862,7 @@ async function extractZipJsEntries(file) {
   const entryCount = readZipUint16(view, eocdOffset + 10);
   const centralSize = readZipUint32(view, eocdOffset + 12);
   const centralOffset = readZipUint32(view, eocdOffset + 16);
+  if (entryCount === 0xffff || centralSize === 0xffffffff || centralOffset === 0xffffffff) throw new Error("ZIP64 archives are not supported. Zip only data/pixelmon.");
   if (diskNumber || centralDisk) {
     throw new Error("Multi-disk ZIP files are not supported.");
   }
@@ -1851,6 +1873,7 @@ async function extractZipJsEntries(file) {
   const decoder = new TextDecoder("utf-8");
   const entries = [];
   let offset = centralOffset;
+  let totalSize = 0;
   for (let i = 0; i < entryCount; i += 1) {
     if (offset + 46 > allBytes.length || readZipUint32(view, offset) !== 0x02014b50) {
       throw new Error("Invalid ZIP file: central directory entry is malformed.");
@@ -1872,7 +1895,10 @@ async function extractZipJsEntries(file) {
     const nameBytes = allBytes.subarray(nameStart, nameEnd);
     const name = flags & 0x0800 ? decoder.decode(nameBytes) : decodeZipName(nameBytes);
     const isDirectory = /\/$/.test(name) || ((externalAttributes >>> 16) & 0x4000) !== 0;
-    if (!isDirectory && /\.js$/i.test(name)) {
+    if (offset + 46 + nameLength + extraLength + commentLength > centralOffset + centralSize) throw new Error("Invalid ZIP directory bounds.");
+    if (!isDirectory && (options.accept ? options.accept(name) : /\.js$/i.test(name))) {
+      totalSize += uncompressedSize;
+      if (uncompressedSize > (options.maxEntrySize || 64 * 1024 * 1024) || totalSize > (options.maxTotalSize || 128 * 1024 * 1024)) throw new Error("ZIP JSON data exceeds the import size limit.");
       if (compressedSize === 0xffffffff || uncompressedSize === 0xffffffff || localHeaderOffset === 0xffffffff) {
         throw new Error(`ZIP64 entries are not supported: ${name}`);
       }
@@ -1893,6 +1919,7 @@ async function extractZipJsEntries(file) {
   const textEntries = [];
   for (let i = 0; i < entries.length; i += 1) {
     const bytes = await extractZipEntryBytes(entries[i], allBytes, view);
+    if (options.onProgress && (i % 100 === 0 || i === entries.length - 1)) options.onProgress(i + 1, entries.length);
     textEntries.push({
       name: entries[i].name,
       sourceName: entries[i].sourceName,
@@ -1900,6 +1927,10 @@ async function extractZipJsEntries(file) {
     });
   }
   return textEntries;
+}
+
+function extractZipJsEntries(file) {
+  return extractZipTextEntries(file);
 }
 
 function parseUploadedOverrideScript(entry) {
@@ -2291,7 +2322,7 @@ async function hydrateCachedOverrides(routeInfo) {
     return false;
   }
 
-  const appliedRomOverrides = applyRomOverridesFromCache();
+  const appliedRomOverrides = await restorePixelmonImport() || applyRomOverridesFromCache();
   if (!appliedRomOverrides) {
     await applyGameOverridesFromCache();
   }
@@ -2303,13 +2334,15 @@ async function loadRequestedGameOverrides(gameName) {
   if (!gameName) return false;
   const sourceGameName = normalizeGameSourceKey(gameName);
   if (!sourceGameName) return false;
+  const versionQuery = sourceGameName === "badem" ? "?v=1.0.8" : "";
+  clearRomCache();
   game = sourceGameName;
   if (gameTitles[gameName] || gameTitles[sourceGameName]) {
     setGameDexTitle(gameName);
   }
 
   setHideEffectIds(false);
-  const overridesLoaded = await checkAndLoadScript(`/data/overrides/${sourceGameName}.js`, {
+  const overridesLoaded = await checkAndLoadScript(`/data/overrides/${sourceGameName}.js${versionQuery}`, {
     onNotFound: (src) => console.log(`Not found: ${src}`),
   });
   if (!overridesLoaded) return false;
@@ -2324,7 +2357,7 @@ async function loadRequestedGameOverrides(gameName) {
   localStorage.game = sourceGameName;
   console.log("Stored override data in cache");
 
-  await checkAndLoadScript(`/data/overrides/${sourceGameName}_searchindex.js`, {
+  await checkAndLoadScript(`/data/overrides/${sourceGameName}_searchindex.js${versionQuery}`, {
     onLoad: () => {
       applyLocationSearchAliasesToSearchIndex();
       console.log(`search index loaded for ${sourceGameName}`);
@@ -2849,6 +2882,10 @@ function overrideMonData(monOverrides) {
 
 		// Set optional fields
 		for (let field of [
+			"prevo",
+			"eggGroups",
+			"genderRatio",
+			"gender",
 			"heightm",
 			"weightkg",
 			"evoLevel",
