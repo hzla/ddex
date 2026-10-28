@@ -1,0 +1,132 @@
+{
+  "NamedAnchors": [
+    {
+      "Name": "data.pokemon.names",
+      "Address": 2383584,
+      "Format": "[name\"\"11]412"
+    },
+    {
+      "Name": "data.pokemon.moves.names",
+      "Address": 2388116,
+      "Format": "^[name\"\"13]355"
+    },
+    {
+      "Name": "data.abilities.names",
+      "Address": 2423872,
+      "Format": "[name\"\"13]78"
+    },
+    {
+      "Name": "data.trainers.classes.names",
+      "Address": 2352472,
+      "Format": "[name\"\"13]107"
+    },
+    {
+      "Name": "data.pokemon.type.names",
+      "Address": 2421152,
+      "Format": "[name\"\"7]18"
+    },
+    {
+      "Name": "data.items.stats",
+      "Address": 4042792,
+      "Format": "[name\"\"13 unused. index: price: holdeffect.holdeffects param. description<\"\"> keyitemvalue. bagkeyitem. pocket.pocketid type. fieldeffect<> battleusage:: battleeffect<> battleextra::]375"
+    },
+    {
+      "Name": "data.abilities.descriptions",
+      "Address": 2423560,
+      "Format": "[description<\"\">]data.abilities.names"
+    },
+    {
+      "Name": "data.pokemon.moves.descriptions",
+      "Address": 4753128,
+      "Format": "[description<\"\">]data.pokemon.moves.names-1"
+    },
+    {
+      "Name": "data.maps.names",
+      "Address": 4136108,
+      "Format": "[name<\"\">]109"
+    },
+    {
+      "Name": "data.maps.banks",
+      "Address": 7547452,
+      "Format": "[maps<[map<[layout<[width:: height:: borderblock<> blockmap<`blm`> blockdata1<[isCompressed. isSecondary. padding: tileset<> pal<`ucp4:0123456789ABCDEF`> blockset<> animation<> attributes<>]1> blockdata2<[isCompressed. isSecondary. padding: tileset<> pal<`ucp4:0123456789ABCDEF`> blockset<> animation<> attributes<>]1> borderwidth. borderheight. unused:]1> events<[objectCount.100 warpCount.100 scriptCount.100 signpostCount.100 objects<[id. graphics. unused: x:|z y:|z elevation. moveType. range:|t|x::|y:: trainerType: trainerRangeOrBerryID: script<`xse`> flag: unused:]/objectCount> warps<[x:|z y:|z elevation. warpID. map. bank.]/warpCount> scripts<[x:|z y:|z elevation: trigger: index:: script<`xse`>]/scriptCount> signposts<[x:|z y:|z elevation. kind. unused: arg::|h]/signpostCount>]1> mapscripts<[type. pointer<>]!00> connections<[count:: connections<[direction:: offset:: mapGroup. mapNum. unused:]/count>]1> music: layoutID: regionSectionID.data.maps.names+88 cave. weather. mapType. allowBiking. flags.|t|allowEscaping.|allowRunning.|showMapName::: floorNum. battleType.]1>]?>]44"
+    },
+    {
+      "Name": "data.pokemon.stats",
+      "Address": 2443140,
+      "Format": "[hp. attack. def. speed. spatk. spdef. type1.data.pokemon.type.names type2.data.pokemon.type.names catchRate. baseExp. evs:|t|hp:|atk:|def:|spd:|spatk:|spdef: item1:data.items.stats item2:data.items.stats genderratio.genderratiovalues steps2hatch. basehappiness. growthrate.growthrates egg1.egggroups egg2.egggroups ability1.data.abilities.names ability2.data.abilities.names runrate. dex.|t|color:::.bodycolors|noFlip. padding:]data.pokemon.names"
+    },
+    {
+      "Name": "data.pokemon.evolutions",
+      "Address": 7602176,
+      "Format": "[method1:evolutionmethods arg1: species1: unused1: method2:evolutionmethods arg2: species2: unused2: method3:evolutionmethods arg3: species3: unused3: method4:evolutionmethods arg4: species4: unused4: method5:evolutionmethods arg5: species5: unused5: method6:evolutionmethods arg6: species6: unused6: method7:evolutionmethods arg7: species7: unused7: method8:evolutionmethods arg8: species8: unused8:]data.pokemon.names"
+    },
+    {
+      "Name": "data.pokemon.moves.stats.battle",
+      "Address": 2427908,
+      "Format": "[effect.moveeffectoptions power. type.data.pokemon.type.names accuracy. pp. effectAccuracy. target|b[]movetarget priority.|z info|b[]moveinfo unused. unused:]data.pokemon.moves.names"
+    },
+    {
+      "Name": "data.pokemon.moves.levelup",
+      "Address": 2480052,
+      "Format": "[movesFromLevel<[pair:|t|move::::.data.pokemon.moves.names|level:::.]!FFFF>]data.pokemon.names"
+    },
+    {
+      "Name": "data.pokemon.moves.tutors",
+      "Address": 4561760,
+      "Format": "[move:data.pokemon.moves.names]15"
+    },
+    {
+      "Name": "data.pokemon.moves.tutorcompatibility",
+      "Address": 4561790,
+      "Format": "[moves|b[]data.pokemon.moves.tutors]data.pokemon.names"
+    },
+    {
+      "Name": "data.pokemon.moves.tms",
+      "Address": 4565004,
+      "Format": "[move:data.pokemon.moves.names]58"
+    },
+    {
+      "Name": "data.pokemon.moves.tmcompatibility",
+      "Address": 2436040,
+      "Format": "[moves|b[]data.pokemon.moves.tms]data.pokemon.names"
+    },
+    {
+      "Name": "data.pokemon.moves.hms",
+      "Address": 2482196,
+      "Format": "[move:data.pokemon.moves.names]8"
+    },
+    {
+      "Name": "data.trainers.stats",
+      "Address": 2353864,
+      "Format": "[structType.trainerStructType class.data.trainers.classes.names introMusicAndGender.|t|music:::.|female. sprite.graphics.trainers.sprites.front name\"\"12 prizeMoney|=4*(data.trainers.money/class=class)/moneyrate*pokemon/last/level item1:data.items.stats item2:data.items.stats item3:data.items.stats item4:data.items.stats doubleBattle::doublebattleflag ai|b[]traineraibits | pokemonCount:: pokemon<`tpt`>]743"
+    },
+    {
+      "Name": "data.pokemon.wild",
+      "Address": 8202832,
+      "Format": "[bank. map. unused: grass<[rate:: list<[low. high. species:data.pokemon.names]12>]1> surf<[rate:: list<[low. high. species:data.pokemon.names]5>]1> tree<[rate:: list<[low. high. species:data.pokemon.names]5>]1> fish<[rate:: list<[low. high. species:data.pokemon.names]10>]1>]!FFFF"
+    }
+  ],
+  "List": [
+    {
+      "0": [
+        "None",
+        "Happiness",
+        "Happy Day",
+        "Happy Night",
+        "Level",
+        "Trade",
+        "Trade Item",
+        "Stone",
+        "Level High Attack",
+        "Level Attack matches Defense",
+        "Level High Defense",
+        "Level Odd Personality",
+        "Level Even Personality",
+        "Level And New Pokemon",
+        "Level But New Pokemon",
+        "Beauty"
+      ],
+      "Name": "evolutionmethods"
+    }
+  ]
+}

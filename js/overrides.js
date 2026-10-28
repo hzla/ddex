@@ -88,6 +88,8 @@ var gameTitles = {
 	"brutalblack": "Brutal Black",
 	"wishywashywhite2redux": "Wishy Washy White 2 Redux",
 	"badem": "Emerald but Bad",
+	"frd": "Fire Red Deluxe Hard Mode",
+	"frdnormal": "Fire Red Deluxe Normal Mode",
 	"cascadewhite": "Cascade White",
 	"cascadewhite2": "Cascade White",
 	"renegadeplatinum": "Renegade Platinum",
@@ -2334,7 +2336,7 @@ async function loadRequestedGameOverrides(gameName) {
   if (!gameName) return false;
   const sourceGameName = normalizeGameSourceKey(gameName);
   if (!sourceGameName) return false;
-  const versionQuery = sourceGameName === "badem" ? "?v=1.0.8" : "";
+  const versionQuery = sourceGameName === "badem" ? "?v=1.0.8.3-full" : "";
   clearRomCache();
   game = sourceGameName;
   if (gameTitles[gameName] || gameTitles[sourceGameName]) {

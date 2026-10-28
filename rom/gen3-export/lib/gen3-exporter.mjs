@@ -293,7 +293,7 @@ class RomReader {
   }
 }
 
-function decodePcs(data) {
+export function decodePcs(data) {
   const pieces = [];
   for (let index = 0; index < data.length; index += 1) {
     const value = data[index];
@@ -1728,8 +1728,16 @@ export function titleFromName(name) {
     .join(" ") || "ROM";
 }
 
-export function buildGen3ExportArtifacts({ romBytes, tomlText, slug, title }) {
+export function buildGen3ExportArtifacts({ romBytes, tomlText, slug, title, moveNameOverrides = {} }) {
   const ctx = new ExportContext(romBytes, tomlText);
+  const moveNames = ctx.fixedStringTable("data.pokemon.moves.names").slice();
+  for (const [id, name] of Object.entries(moveNameOverrides)) {
+    if (!Number.isInteger(Number(id)) || Number(id) < 1 || Number(id) >= moveNames.length || !name) {
+      throw new Error(`Invalid move-name override: ${id}`);
+    }
+    moveNames[Number(id)] = name;
+  }
+  ctx._cache["fixed:data.pokemon.moves.names"] = moveNames;
   const normalizedSlug = normalizeSlug(slug || title);
   const normalizedTitle = title || titleFromName(slug);
   const calcOutput = buildCalcOutput(ctx, normalizedTitle);

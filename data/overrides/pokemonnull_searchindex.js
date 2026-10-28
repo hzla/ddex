@@ -26,205 +26,205 @@ exports.BattleSearchIndex = [
   [
     "0",
     "location",
-    901,
+    899,
     13
   ],
   [
     "0",
     "location",
-    1028,
+    1026,
     11
   ],
   [
     "0",
     "location",
-    1398,
+    1396,
     11
   ],
   [
     "0",
     "location",
-    1618,
+    1616,
     15
   ],
   [
     "0",
     "location",
-    1619,
+    1617,
     14
   ],
   [
     "0",
     "location",
-    1757,
+    1755,
     12
   ],
   [
     "0",
     "location",
-    1913,
+    1911,
     9
   ],
   [
     "0",
     "location",
-    1960,
+    1958,
     12
   ],
   [
     "0",
-    "location",
-    1966,
-    17
-  ],
-  [
-    "0",
-    "location",
-    1967,
-    13
-  ],
-  [
-    "0",
-    "location",
-    2050,
-    11
-  ],
-  [
-    "0",
-    "location",
-    2051,
-    10
-  ],
-  [
-    "0",
-    "location",
-    2131,
-    14
-  ],
-  [
-    "0",
-    "location",
-    2506,
-    13
-  ],
-  [
-    "0",
-    "location",
-    2541,
-    12
-  ],
-  [
-    "0",
-    "location",
-    2542,
-    13
-  ],
-  [
-    "0",
-    "location",
-    2783,
-    11
-  ],
-  [
-    "0",
-    "location",
-    2785,
-    11
-  ],
-  [
-    "0",
-    "location",
-    2866,
-    22
-  ],
-  [
-    "0",
-    "location",
-    2867,
-    22
-  ],
-  [
-    "0",
-    "location",
-    3136,
-    12
-  ],
-  [
-    "0",
-    "location",
-    3137,
-    17
-  ],
-  [
-    "0",
-    "location",
-    3424,
-    16
-  ],
-  [
-    "0",
-    "location",
-    3425,
-    14
-  ],
-  [
-    "0",
-    "location",
-    3426,
-    19
-  ],
-  [
-    "0",
-    "location",
-    3427,
-    27
-  ],
-  [
-    "0",
-    "location",
-    3428,
-    18
-  ],
-  [
-    "0",
-    "location",
-    3434,
-    13
-  ],
-  [
-    "010",
-    "location",
-    1961,
-    13
-  ],
-  [
-    "020",
-    "location",
-    1962,
-    13
-  ],
-  [
-    "030",
-    "location",
-    1963,
-    13
-  ],
-  [
-    "040",
     "location",
     1964,
-    13
+    17
   ],
   [
-    "050",
+    "0",
     "location",
     1965,
     13
   ],
   [
+    "0",
+    "location",
+    2048,
+    11
+  ],
+  [
+    "0",
+    "location",
+    2049,
+    10
+  ],
+  [
+    "0",
+    "location",
+    2128,
+    14
+  ],
+  [
+    "0",
+    "location",
+    2503,
+    13
+  ],
+  [
+    "0",
+    "location",
+    2538,
+    12
+  ],
+  [
+    "0",
+    "location",
+    2539,
+    13
+  ],
+  [
+    "0",
+    "location",
+    2780,
+    11
+  ],
+  [
+    "0",
+    "location",
+    2782,
+    11
+  ],
+  [
+    "0",
+    "location",
+    2863,
+    22
+  ],
+  [
+    "0",
+    "location",
+    2864,
+    22
+  ],
+  [
+    "0",
+    "location",
+    3133,
+    12
+  ],
+  [
+    "0",
+    "location",
+    3134,
+    17
+  ],
+  [
+    "0",
+    "location",
+    3421,
+    16
+  ],
+  [
+    "0",
+    "location",
+    3422,
+    14
+  ],
+  [
+    "0",
+    "location",
+    3423,
+    19
+  ],
+  [
+    "0",
+    "location",
+    3424,
+    27
+  ],
+  [
+    "0",
+    "location",
+    3425,
+    18
+  ],
+  [
+    "0",
+    "location",
+    3431,
+    13
+  ],
+  [
+    "010",
+    "location",
+    1959,
+    13
+  ],
+  [
+    "020",
+    "location",
+    1960,
+    13
+  ],
+  [
+    "030",
+    "location",
+    1961,
+    13
+  ],
+  [
+    "040",
+    "location",
+    1962,
+    13
+  ],
+  [
+    "050",
+    "location",
+    1963,
+    13
+  ],
+  [
     "1",
     "item",
-    1502,
+    1500,
     9
   ],
   [
@@ -236,19 +236,19 @@ exports.BattleSearchIndex = [
   [
     "1",
     "location",
-    2631,
+    2628,
     18
   ],
   [
     "10",
     "location",
-    1968,
+    1966,
     11
   ],
   [
     "10",
     "pokemon",
-    3634,
+    3631,
     7
   ],
   [
@@ -258,193 +258,193 @@ exports.BattleSearchIndex = [
   [
     "101",
     "location",
-    2504,
+    2501,
     5
   ],
   [
     "102",
     "location",
-    2505,
+    2502,
     5
   ],
   [
     "102grove0",
     "location",
-    2506,
+    2503,
     5
   ],
   [
     "103",
     "location",
-    2507,
+    2504,
     5
   ],
   [
     "104",
     "location",
-    2508,
+    2505,
     5
   ],
   [
     "105",
     "location",
-    2509,
+    2506,
     5
   ],
   [
     "106",
     "location",
-    2510,
+    2507,
     5
   ],
   [
     "107",
     "location",
-    2511,
+    2508,
     5
   ],
   [
     "108",
     "location",
-    2512,
+    2509,
     5
   ],
   [
     "109",
     "location",
-    2513,
+    2510,
     5
   ],
   [
     "110",
     "location",
-    2514,
+    2511,
     5
   ],
   [
     "111",
     "location",
-    2515,
+    2512,
     5
   ],
   [
     "112",
     "location",
-    2516,
+    2513,
     5
   ],
   [
     "113",
     "location",
-    2517,
+    2514,
     5
   ],
   [
     "114",
     "location",
-    2518,
+    2515,
     5
   ],
   [
     "115",
     "location",
-    2519,
+    2516,
     5
   ],
   [
     "116",
     "location",
-    2520,
+    2517,
     5
   ],
   [
     "117",
     "location",
-    2521,
+    2518,
     5
   ],
   [
     "118",
     "location",
-    2522,
+    2519,
     5
   ],
   [
     "119",
     "location",
-    2523,
+    2520,
     5
   ],
   [
     "120",
     "location",
-    2524,
+    2521,
     5
   ],
   [
     "121",
     "location",
-    2525,
+    2522,
     5
   ],
   [
     "122",
     "location",
-    2526,
+    2523,
     5
   ],
   [
     "123",
     "location",
-    2527,
+    2524,
     5
   ],
   [
     "124",
     "location",
-    3362,
+    3359,
     15
   ],
   [
     "125",
     "location",
-    2528,
+    2525,
     5
   ],
   [
     "126",
     "location",
-    2529,
+    2526,
     5
   ],
   [
     "126",
     "location",
-    3363,
+    3360,
     15
   ],
   [
     "127",
     "location",
-    2530,
+    2527,
     5
   ],
   [
     "128",
     "location",
-    2531,
+    2528,
     5
   ],
   [
     "131",
     "location",
-    2532,
+    2529,
     5
   ],
   [
     "134",
     "location",
-    2533,
+    2530,
     5
   ],
   [
@@ -462,31 +462,31 @@ exports.BattleSearchIndex = [
   [
     "1f",
     "location",
-    1193,
+    1191,
     12
   ],
   [
     "1f",
     "location",
-    3436,
+    3433,
     12
   ],
   [
     "1f0",
     "location",
-    1960,
+    1958,
     10
   ],
   [
     "1f1r",
     "location",
-    1818,
+    1816,
     12
   ],
   [
     "1f2r",
     "location",
-    1819,
+    1817,
     12
   ],
   [
@@ -498,97 +498,97 @@ exports.BattleSearchIndex = [
   [
     "2",
     "item",
-    1503,
+    1501,
     9
   ],
   [
     "2",
     "location",
-    2632,
+    2629,
     18
   ],
   [
     "2",
     "move",
-    525,
+    524,
     10
   ],
   [
     "20",
     "location",
-    1969,
+    1967,
     11
   ],
   [
     "2f",
     "location",
-    1194,
+    1192,
     12
   ],
   [
     "3",
     "location",
-    2633,
+    2630,
     18
   ],
   [
     "30",
     "location",
-    1970,
+    1968,
     11
   ],
   [
     "4",
     "item",
-    1504,
+    1502,
     9
   ],
   [
     "4",
     "location",
-    2634,
+    2631,
     18
   ],
   [
     "40",
     "location",
-    1971,
+    1969,
     11
   ],
   [
     "5",
     "location",
-    2635,
+    2632,
     18
   ],
   [
     "6",
     "item",
-    1505,
+    1503,
     9
   ],
   [
     "6",
     "location",
-    2636,
+    2633,
     18
   ],
   [
     "7",
     "location",
-    2637,
+    2634,
     18
   ],
   [
     "7starstrike",
     "move",
-    2864,
+    2861,
     12
   ],
   [
     "8",
     "location",
-    2638,
+    2635,
     18
   ],
   [
@@ -728,13 +728,13 @@ exports.BattleSearchIndex = [
   [
     "absorb",
     "ability",
-    3471,
+    3468,
     4
   ],
   [
     "absorb",
     "ability",
-    3491,
+    3488,
     5
   ],
   [
@@ -792,7 +792,7 @@ exports.BattleSearchIndex = [
   [
     "accuracy",
     "item",
-    3577,
+    3574,
     1
   ],
   [
@@ -820,7 +820,7 @@ exports.BattleSearchIndex = [
   [
     "acid",
     "move",
-    1099,
+    1097,
     6
   ],
   [
@@ -1106,7 +1106,7 @@ exports.BattleSearchIndex = [
   [
     "alchemy",
     "ability",
-    2250,
+    2247,
     7
   ],
   [
@@ -1166,127 +1166,127 @@ exports.BattleSearchIndex = [
   [
     "alola",
     "move",
-    1250,
+    1248,
     10
   ],
   [
     "alola",
     "pokemon",
-    668,
+    666,
     7
   ],
   [
     "alola",
     "pokemon",
-    765,
+    763,
     7
   ],
   [
     "alola",
     "pokemon",
-    871,
+    869,
     9
   ],
   [
     "alola",
     "pokemon",
-    1116,
+    1114,
     7
   ],
   [
     "alola",
     "pokemon",
-    1163,
+    1161,
     5
   ],
   [
     "alola",
     "pokemon",
-    1211,
+    1209,
     8
   ],
   [
     "alola",
     "pokemon",
-    1226,
+    1224,
     6
   ],
   [
     "alola",
     "pokemon",
-    1744,
+    1742,
     7
   ],
   [
     "alola",
     "pokemon",
-    1800,
+    1798,
     6
   ],
   [
     "alola",
     "pokemon",
-    1931,
+    1929,
     3
   ],
   [
     "alola",
     "pokemon",
-    2000,
+    1998,
     9
   ],
   [
     "alola",
     "pokemon",
-    2127,
+    2124,
     7
   ],
   [
     "alola",
     "pokemon",
-    2156,
+    2153,
     7
   ],
   [
     "alola",
     "pokemon",
-    2360,
+    2357,
     6
   ],
   [
     "alola",
     "pokemon",
-    2378,
+    2375,
     8
   ],
   [
     "alola",
     "pokemon",
-    2380,
+    2377,
     7
   ],
   [
     "alola",
     "pokemon",
-    2579,
+    2576,
     9
   ],
   [
     "alola",
     "pokemon",
-    2581,
+    2578,
     9
   ],
   [
     "alola",
     "pokemon",
-    3479,
+    3476,
     6
   ],
   [
     "alolanguardianof",
     "move",
-    1250,
+    1248,
     0
   ],
   [
@@ -1328,7 +1328,7 @@ exports.BattleSearchIndex = [
   [
     "amber",
     "item",
-    2052,
+    2050,
     3
   ],
   [
@@ -1424,7 +1424,7 @@ exports.BattleSearchIndex = [
   [
     "amulet",
     "item",
-    479,
+    478,
     5
   ],
   [
@@ -1460,7 +1460,7 @@ exports.BattleSearchIndex = [
   [
     "anklet",
     "item",
-    2242,
+    2239,
     5
   ],
   [
@@ -1482,13 +1482,13 @@ exports.BattleSearchIndex = [
   [
     "antique",
     "pokemon",
-    2225,
+    2222,
     11
   ],
   [
     "antique",
     "pokemon",
-    2757,
+    2754,
     8
   ],
   [
@@ -1564,25 +1564,25 @@ exports.BattleSearchIndex = [
   [
     "apple",
     "item",
-    3053,
+    3050,
     5
   ],
   [
     "apple",
     "item",
-    3074,
+    3071,
     6
   ],
   [
     "apple",
     "item",
-    3101,
+    3098,
     4
   ],
   [
     "apple",
     "move",
-    1209,
+    1207,
     4
   ],
   [
@@ -1612,31 +1612,31 @@ exports.BattleSearchIndex = [
   [
     "apricorn",
     "item",
-    1217,
+    1215,
     5
   ],
   [
     "apricorn",
     "item",
-    2178,
+    2175,
     4
   ],
   [
     "apricorn",
     "item",
-    2396,
+    2394,
     3
   ],
   [
     "apricorn",
     "item",
-    3529,
+    3526,
     5
   ],
   [
     "apricorn",
     "item",
-    3594,
+    3591,
     6
   ],
   [
@@ -1648,7 +1648,7 @@ exports.BattleSearchIndex = [
   [
     "aqua",
     "pokemon",
-    3107,
+    3104,
     12
   ],
   [
@@ -1798,7 +1798,7 @@ exports.BattleSearchIndex = [
   [
     "aria",
     "move",
-    2870,
+    2867,
     9
   ],
   [
@@ -1814,19 +1814,19 @@ exports.BattleSearchIndex = [
   [
     "arm",
     "move",
-    1271,
+    1269,
     6
   ],
   [
     "arm",
     "move",
-    1976,
+    1974,
     6
   ],
   [
     "arm",
     "move",
-    2693,
+    2690,
     9
   ],
   [
@@ -1846,31 +1846,31 @@ exports.BattleSearchIndex = [
   [
     "armor",
     "ability",
-    1696,
+    1694,
     5
   ],
   [
     "armor",
     "ability",
-    1874,
+    1872,
     6
   ],
   [
     "armor",
     "ability",
-    2273,
+    2270,
     5
   ],
   [
     "armor",
     "ability",
-    2688,
+    2685,
     5
   ],
   [
     "armor",
     "ability",
-    3511,
+    3508,
     4
   ],
   [
@@ -1882,7 +1882,7 @@ exports.BattleSearchIndex = [
   [
     "armor",
     "item",
-    1726,
+    1724,
     9
   ],
   [
@@ -1920,7 +1920,7 @@ exports.BattleSearchIndex = [
   [
     "aroma",
     "ability",
-    1609,
+    1607,
     9
   ],
   [
@@ -1950,19 +1950,19 @@ exports.BattleSearchIndex = [
   [
     "arrowraid",
     "move",
-    2758,
+    2755,
     8
   ],
   [
     "arrows",
     "move",
-    3146,
+    3143,
     8
   ],
   [
     "arrows",
     "move",
-    3326,
+    3323,
     6
   ],
   [
@@ -1990,7 +1990,7 @@ exports.BattleSearchIndex = [
   [
     "ascent",
     "move",
-    711,
+    709,
     6
   ],
   [
@@ -2002,19 +2002,19 @@ exports.BattleSearchIndex = [
   [
     "asgold",
     "ability",
-    1171,
+    1169,
     4
   ],
   [
     "ash",
     "item",
-    2550,
+    2547,
     6
   ],
   [
     "ash",
     "pokemon",
-    1221,
+    1219,
     8
   ],
   [
@@ -2062,25 +2062,25 @@ exports.BattleSearchIndex = [
   [
     "aspectcornerstone",
     "ability",
-    833,
+    831,
     6
   ],
   [
     "aspecthearthflame",
     "ability",
-    834,
+    832,
     6
   ],
   [
     "aspectteal",
     "ability",
-    835,
+    833,
     6
   ],
   [
     "aspectwellspring",
     "ability",
-    836,
+    834,
     6
   ],
   [
@@ -2098,7 +2098,7 @@ exports.BattleSearchIndex = [
   [
     "assault",
     "move",
-    1814,
+    1812,
     6
   ],
   [
@@ -2166,7 +2166,7 @@ exports.BattleSearchIndex = [
   [
     "atk",
     "item",
-    3583,
+    3580,
     3
   ],
   [
@@ -2178,67 +2178,67 @@ exports.BattleSearchIndex = [
   [
     "attack",
     "item",
-    3578,
+    3575,
     1
   ],
   [
     "attack",
     "move",
-    913,
+    911,
     5
   ],
   [
     "attack",
     "move",
-    1071,
+    1069,
     4
   ],
   [
     "attack",
     "move",
-    1357,
+    1355,
     4
   ],
   [
     "attack",
     "move",
-    1932,
+    1930,
     5
   ],
   [
     "attack",
     "move",
-    2336,
+    2333,
     5
   ],
   [
     "attack",
     "move",
-    2573,
+    2570,
     4
   ],
   [
     "attack",
     "move",
-    2780,
+    2777,
     3
   ],
   [
     "attack",
     "move",
-    3321,
+    3318,
     3
   ],
   [
     "attack",
     "move",
-    3547,
+    3544,
     4
   ],
   [
     "attack",
     "pokemon",
-    643,
+    641,
     6
   ],
   [
@@ -2270,13 +2270,13 @@ exports.BattleSearchIndex = [
   [
     "aura",
     "ability",
-    598,
+    596,
     4
   ],
   [
     "aura",
     "ability",
-    890,
+    888,
     5
   ],
   [
@@ -2364,19 +2364,19 @@ exports.BattleSearchIndex = [
   [
     "away",
     "ability",
-    2539,
+    2536,
     3
   ],
   [
     "away",
     "move",
-    457,
+    456,
     4
   ],
   [
     "away",
     "move",
-    932,
+    930,
     6
   ],
   [
@@ -2388,7 +2388,7 @@ exports.BattleSearchIndex = [
   [
     "axe",
     "move",
-    2989,
+    2986,
     5
   ],
   [
@@ -2398,7 +2398,7 @@ exports.BattleSearchIndex = [
   [
     "axel",
     "move",
-    3327,
+    3324,
     6
   ],
   [
@@ -2446,7 +2446,7 @@ exports.BattleSearchIndex = [
   [
     "back",
     "move",
-    1344,
+    1342,
     4
   ],
   [
@@ -2470,7 +2470,7 @@ exports.BattleSearchIndex = [
   [
     "bakedbody",
     "ability",
-    3519,
+    3516,
     4
   ],
   [
@@ -2482,223 +2482,223 @@ exports.BattleSearchIndex = [
   [
     "ball",
     "item",
-    434,
+    433,
     7
   ],
   [
     "ball",
     "item",
-    678,
+    676,
     4
   ],
   [
     "ball",
     "item",
-    741,
+    739,
     5
   ],
   [
     "ball",
     "item",
-    772,
+    770,
     4
   ],
   [
     "ball",
     "item",
-    908,
+    906,
     4
   ],
   [
     "ball",
     "item",
-    1041,
+    1039,
     6
   ],
   [
     "ball",
     "item",
-    1213,
+    1211,
     5
   ],
   [
     "ball",
     "item",
-    1294,
+    1292,
     4
   ],
   [
     "ball",
     "item",
-    1315,
+    1313,
     5
   ],
   [
     "ball",
     "item",
-    1447,
+    1445,
     4
   ],
   [
     "ball",
     "item",
-    1585,
+    1583,
     5
   ],
   [
     "ball",
     "item",
-    1596,
+    1594,
     5
   ],
   [
     "ball",
     "item",
-    1632,
+    1630,
     4
   ],
   [
     "ball",
     "item",
-    1661,
+    1659,
     4
   ],
   [
     "ball",
     "item",
-    1668,
+    1666,
     6
   ],
   [
     "ball",
     "item",
-    1751,
+    1749,
     6
   ],
   [
     "ball",
     "item",
-    1894,
+    1892,
     4
   ],
   [
     "ball",
     "item",
-    1977,
+    1975,
     4
   ],
   [
     "ball",
     "item",
-    1978,
+    1976,
     3
   ],
   [
     "ball",
     "item",
-    2103,
+    2100,
     4
   ],
   [
     "ball",
     "item",
-    2212,
+    2209,
     4
   ],
   [
     "ball",
     "item",
-    2264,
+    2261,
     7
   ],
   [
     "ball",
     "item",
-    2337,
+    2334,
     5
   ],
   [
     "ball",
     "item",
-    2427,
+    2425,
     6
   ],
   [
     "ball",
     "item",
-    2553,
+    2550,
     6
   ],
   [
     "ball",
     "item",
-    2820,
+    2817,
     5
   ],
   [
     "ball",
     "item",
-    2928,
+    2925,
     5
   ],
   [
     "ball",
     "item",
-    3168,
+    3165,
     5
   ],
   [
     "ball",
     "item",
-    3357,
+    3354,
     5
   ],
   [
     "ball",
     "move",
-    818,
+    816,
     7
   ],
   [
     "ball",
     "move",
-    845,
+    843,
     6
   ],
   [
     "ball",
     "move",
-    1266,
+    1264,
     4
   ],
   [
     "ball",
     "move",
-    1393,
+    1391,
     3
   ],
   [
     "ball",
     "move",
-    1882,
+    1880,
     4
   ],
   [
     "ball",
     "move",
-    2326,
+    2323,
     4
   ],
   [
     "ball",
     "move",
-    2662,
+    2659,
     6
   ],
   [
     "ball",
     "move",
-    3513,
+    3510,
     7
   ],
   [
@@ -2728,7 +2728,7 @@ exports.BattleSearchIndex = [
   [
     "bambooshoot",
     "item",
-    3175,
+    3172,
     4
   ],
   [
@@ -2740,37 +2740,37 @@ exports.BattleSearchIndex = [
   [
     "band",
     "item",
-    462,
+    461,
     6
   ],
   [
     "band",
     "item",
-    778,
+    776,
     7
   ],
   [
     "band",
     "item",
-    1014,
+    1012,
     5
   ],
   [
     "band",
     "item",
-    1940,
+    1938,
     6
   ],
   [
     "band",
     "item",
-    2243,
+    2240,
     5
   ],
   [
     "band",
     "item",
-    2417,
+    2415,
     5
   ],
   [
@@ -2804,19 +2804,19 @@ exports.BattleSearchIndex = [
   [
     "bar",
     "item",
-    2353,
+    2350,
     9
   ],
   [
     "barb",
     "item",
-    2198,
+    2195,
     6
   ],
   [
     "barb",
     "item",
-    2982,
+    2979,
     6
   ],
   [
@@ -2842,7 +2842,7 @@ exports.BattleSearchIndex = [
   [
     "barbs",
     "ability",
-    1448,
+    1446,
     4
   ],
   [
@@ -2904,19 +2904,19 @@ exports.BattleSearchIndex = [
   [
     "bash",
     "move",
-    693,
+    691,
     10
   ],
   [
     "bash",
     "move",
-    2302,
+    2299,
     9
   ],
   [
     "bash",
     "move",
-    2776,
+    2773,
     5
   ],
   [
@@ -2934,7 +2934,7 @@ exports.BattleSearchIndex = [
   [
     "battery",
     "item",
-    407,
+    406,
     4
   ],
   [
@@ -3198,7 +3198,7 @@ exports.BattleSearchIndex = [
   [
     "beak",
     "item",
-    2672,
+    2669,
     5
   ],
   [
@@ -3226,67 +3226,67 @@ exports.BattleSearchIndex = [
   [
     "beam",
     "move",
-    419,
+    418,
     6
   ],
   [
     "beam",
     "move",
-    922,
+    920,
     6
   ],
   [
     "beam",
     "move",
-    1381,
+    1379,
     5
   ],
   [
     "beam",
     "move",
-    1394,
+    1392,
     3
   ],
   [
     "beam",
     "move",
-    1815,
+    1813,
     6
   ],
   [
     "beam",
     "move",
-    1896,
+    1894,
     9
   ],
   [
     "beam",
     "move",
-    2723,
+    2720,
     6
   ],
   [
     "beam",
     "move",
-    2753,
+    2750,
     6
   ],
   [
     "beam",
     "move",
-    2850,
+    2847,
     5
   ],
   [
     "beam",
     "move",
-    2968,
+    2965,
     5
   ],
   [
     "beam",
     "move",
-    3341,
+    3338,
     4
   ],
   [
@@ -3304,7 +3304,7 @@ exports.BattleSearchIndex = [
   [
     "beating",
     "move",
-    756,
+    754,
     4
   ],
   [
@@ -3350,25 +3350,25 @@ exports.BattleSearchIndex = [
   [
     "bell",
     "item",
-    2689,
+    2686,
     5
   ],
   [
     "bell",
     "item",
-    2859,
+    2856,
     6
   ],
   [
     "bell",
     "move",
-    1295,
+    1293,
     4
   ],
   [
     "belle",
     "pokemon",
-    2157,
+    2154,
     7
   ],
   [
@@ -3396,13 +3396,13 @@ exports.BattleSearchIndex = [
   [
     "belt",
     "item",
-    879,
+    877,
     6
   ],
   [
     "belt",
     "item",
-    2244,
+    2241,
     5
   ],
   [
@@ -3458,367 +3458,367 @@ exports.BattleSearchIndex = [
   [
     "berry",
     "item",
-    429,
+    428,
     6
   ],
   [
     "berry",
     "item",
-    433,
+    432,
     5
   ],
   [
     "berry",
     "item",
-    442,
+    441,
     6
   ],
   [
     "berry",
     "item",
-    446,
+    445,
     6
   ],
   [
     "berry",
     "item",
-    465,
+    464,
     6
   ],
   [
     "berry",
     "item",
-    496,
+    495,
     4
   ],
   [
     "berry",
     "item",
-    501,
+    500,
     6
   ],
   [
     "berry",
     "item",
-    531,
+    530,
     5
   ],
   [
     "berry",
     "item",
-    586,
+    584,
     6
   ],
   [
     "berry",
     "item",
-    770,
+    768,
     5
   ],
   [
     "berry",
     "item",
-    848,
+    846,
     6
   ],
   [
     "berry",
     "item",
-    931,
+    929,
     4
   ],
   [
     "berry",
     "item",
-    1087,
+    1085,
     6
   ],
   [
     "berry",
     "item",
-    1224,
+    1222,
     5
   ],
   [
     "berry",
     "item",
-    1267,
+    1265,
     5
   ],
   [
     "berry",
     "item",
-    1347,
+    1345,
     6
   ],
   [
     "berry",
     "item",
-    1391,
+    1389,
     6
   ],
   [
     "berry",
     "item",
-    1466,
+    1464,
     6
   ],
   [
     "berry",
     "item",
-    1494,
+    1492,
+    5
+  ],
+  [
+    "berry",
+    "item",
+    1493,
     5
   ],
   [
     "berry",
     "item",
     1495,
-    5
-  ],
-  [
-    "berry",
-    "item",
-    1497,
     3
   ],
   [
     "berry",
     "item",
-    1501,
+    1499,
     6
   ],
   [
     "berry",
     "item",
-    1545,
+    1543,
     6
   ],
   [
     "berry",
     "item",
-    1582,
+    1580,
     5
   ],
   [
     "berry",
     "item",
-    1591,
+    1589,
     6
   ],
   [
     "berry",
     "item",
-    1648,
+    1646,
     3
   ],
   [
     "berry",
     "item",
-    1719,
+    1717,
     4
   ],
   [
     "berry",
     "item",
-    1720,
+    1718,
     6
   ],
   [
     "berry",
     "item",
-    1739,
+    1737,
     7
   ],
   [
     "berry",
     "item",
-    1832,
+    1830,
     5
   ],
   [
     "berry",
     "item",
-    1952,
+    1950,
     5
   ],
   [
     "berry",
     "item",
-    2008,
+    2006,
     5
   ],
   [
     "berry",
     "item",
-    2030,
+    2028,
     4
   ],
   [
     "berry",
     "item",
-    2061,
+    2059,
     4
   ],
   [
     "berry",
     "item",
-    2092,
+    2089,
     6
   ],
   [
     "berry",
     "item",
-    2105,
+    2102,
     6
   ],
   [
     "berry",
     "item",
-    2113,
+    2110,
     6
   ],
   [
     "berry",
     "item",
-    2119,
+    2116,
     5
   ],
   [
     "berry",
     "item",
-    2128,
+    2125,
     6
   ],
   [
     "berry",
     "item",
-    2134,
+    2131,
     6
   ],
   [
     "berry",
     "item",
-    2175,
+    2172,
     5
   ],
   [
     "berry",
     "item",
-    2227,
+    2224,
     5
   ],
   [
     "berry",
     "item",
-    2329,
+    2326,
     6
   ],
   [
     "berry",
     "item",
-    2351,
+    2348,
     6
   ],
   [
     "berry",
     "item",
-    2382,
+    2379,
     5
   ],
   [
     "berry",
     "item",
-    2390,
+    2387,
     4
   ],
   [
     "berry",
     "item",
-    2452,
+    2450,
     5
   ],
   [
     "berry",
     "item",
-    2491,
+    2489,
     6
   ],
   [
     "berry",
     "item",
-    2534,
+    2531,
     5
   ],
   [
     "berry",
     "item",
-    2563,
+    2560,
     5
   ],
   [
     "berry",
     "item",
-    2719,
+    2716,
     5
   ],
   [
     "berry",
     "item",
-    2760,
+    2757,
     6
   ],
   [
     "berry",
     "item",
-    2904,
+    2901,
     6
   ],
   [
     "berry",
     "item",
-    2952,
+    2949,
     5
   ],
   [
     "berry",
     "item",
-    3087,
+    3084,
     6
   ],
   [
     "berry",
     "item",
-    3089,
+    3086,
     5
   ],
   [
     "berry",
     "item",
-    3480,
+    3477,
     5
   ],
   [
     "berry",
     "item",
-    3506,
+    3503,
     6
   ],
   [
     "berry",
     "item",
-    3521,
+    3518,
     6
   ],
   [
     "berry",
     "item",
-    3539,
+    3536,
     4
   ],
   [
     "berry",
     "item",
-    3587,
+    3584,
     5
   ],
   [
@@ -3858,7 +3858,7 @@ exports.BattleSearchIndex = [
   [
     "bf0",
     "location",
-    3426,
+    3423,
     17
   ],
   [
@@ -3888,7 +3888,7 @@ exports.BattleSearchIndex = [
   [
     "bftinyroom0",
     "location",
-    3427,
+    3424,
     17
   ],
   [
@@ -3986,7 +3986,7 @@ exports.BattleSearchIndex = [
   [
     "bike",
     "item",
-    1675,
+    1673,
     4
   ],
   [
@@ -4008,13 +4008,13 @@ exports.BattleSearchIndex = [
   [
     "bird",
     "ability",
-    783,
+    781,
     5
   ],
   [
     "bird",
     "item",
-    1029,
+    1027,
     10
   ],
   [
@@ -4076,7 +4076,7 @@ exports.BattleSearchIndex = [
   [
     "black",
     "pokemon",
-    1537,
+    1535,
     6
   ],
   [
@@ -4122,13 +4122,13 @@ exports.BattleSearchIndex = [
   [
     "blade",
     "move",
-    1566,
+    1564,
     4
   ],
   [
     "blade",
     "move",
-    2851,
+    2848,
     5
   ],
   [
@@ -4140,7 +4140,7 @@ exports.BattleSearchIndex = [
   [
     "blades",
     "move",
-    2263,
+    2260,
     9
   ],
   [
@@ -4152,31 +4152,31 @@ exports.BattleSearchIndex = [
   [
     "blast",
     "move",
-    938,
+    936,
     4
   ],
   [
     "blast",
     "move",
-    1015,
+    1013,
     5
   ],
   [
     "blast",
     "move",
-    2463,
+    2461,
     4
   ],
   [
     "blast",
     "move",
-    3115,
+    3112,
     6
   ],
   [
     "blast",
     "move",
-    3126,
+    3123,
     4
   ],
   [
@@ -4202,7 +4202,7 @@ exports.BattleSearchIndex = [
   [
     "blaze",
     "pokemon",
-    3108,
+    3105,
     12
   ],
   [
@@ -4232,13 +4232,13 @@ exports.BattleSearchIndex = [
   [
     "blessing",
     "move",
-    1655,
+    1653,
     5
   ],
   [
     "blessing",
     "move",
-    2442,
+    2440,
     7
   ],
   [
@@ -4258,7 +4258,7 @@ exports.BattleSearchIndex = [
   [
     "blitz",
     "move",
-    968,
+    966,
     5
   ],
   [
@@ -4272,13 +4272,13 @@ exports.BattleSearchIndex = [
   [
     "blizzard",
     "move",
-    2129,
+    2126,
     5
   ],
   [
     "block",
     "item",
-    2118,
+    2115,
     4
   ],
   [
@@ -4288,13 +4288,13 @@ exports.BattleSearchIndex = [
   [
     "block",
     "move",
-    1296,
+    1294,
     4
   ],
   [
     "block",
     "move",
-    1753,
+    1751,
     3
   ],
   [
@@ -4304,7 +4304,7 @@ exports.BattleSearchIndex = [
   [
     "bloodmoon",
     "pokemon",
-    3400,
+    3397,
     8
   ],
   [
@@ -4314,19 +4314,19 @@ exports.BattleSearchIndex = [
   [
     "blow",
     "move",
-    3533,
+    3530,
     6
   ],
   [
     "blown",
     "move",
-    1849,
+    1847,
     4
   ],
   [
     "blue",
     "pokemon",
-    2934,
+    2931,
     12
   ],
   [
@@ -4472,43 +4472,43 @@ exports.BattleSearchIndex = [
   [
     "body",
     "ability",
-    480,
+    479,
     5
   ],
   [
     "body",
     "ability",
-    584,
+    582,
     6
   ],
   [
     "body",
     "ability",
-    959,
+    957,
     5
   ],
   [
     "body",
     "ability",
-    1057,
+    1055,
     9
   ],
   [
     "body",
     "ability",
-    1395,
+    1393,
     3
   ],
   [
     "body",
     "ability",
-    2123,
+    2120,
     6
   ],
   [
     "body",
     "ability",
-    3519,
+    3516,
     9
   ],
   [
@@ -4522,7 +4522,7 @@ exports.BattleSearchIndex = [
   [
     "boiled",
     "move",
-    2848,
+    2845,
     4
   ],
   [
@@ -4536,13 +4536,13 @@ exports.BattleSearchIndex = [
   [
     "bolt",
     "move",
-    1074,
+    1072,
     6
   ],
   [
     "bolt",
     "pokemon",
-    2356,
+    2353,
     6
   ],
   [
@@ -4560,43 +4560,43 @@ exports.BattleSearchIndex = [
   [
     "bomb",
     "move",
-    799,
+    797,
     3
   ],
   [
     "bomb",
     "move",
-    1712,
+    1710,
     6
   ],
   [
     "bomb",
     "move",
-    1922,
+    1920,
     3
   ],
   [
     "bomb",
     "move",
-    2232,
+    2229,
     10
   ],
   [
     "bomb",
     "move",
-    2647,
+    2644,
     4
   ],
   [
     "bomb",
     "move",
-    2810,
+    2807,
     6
   ],
   [
     "bomb",
     "move",
-    3073,
+    3070,
     5
   ],
   [
@@ -4612,25 +4612,25 @@ exports.BattleSearchIndex = [
   [
     "bond",
     "ability",
-    2102,
+    2099,
     8
   ],
   [
     "bond",
     "move",
-    648,
+    646,
     7
   ],
   [
     "bone",
     "item",
-    2374,
+    2371,
     4
   ],
   [
     "bone",
     "move",
-    2663,
+    2660,
     6
   ],
   [
@@ -4658,7 +4658,7 @@ exports.BattleSearchIndex = [
   [
     "boom",
     "move",
-    2858,
+    2855,
     5
   ],
   [
@@ -4674,25 +4674,25 @@ exports.BattleSearchIndex = [
   [
     "boost",
     "ability",
-    969,
+    967,
     5
   ],
   [
     "boost",
     "ability",
-    2901,
+    2898,
     5
   ],
   [
     "boost",
     "ability",
-    3302,
+    3299,
     5
   ],
   [
     "boost",
     "move",
-    2297,
+    2294,
     6
   ],
   [
@@ -4706,7 +4706,7 @@ exports.BattleSearchIndex = [
   [
     "boots",
     "item",
-    1316,
+    1314,
     9
   ],
   [
@@ -4724,7 +4724,7 @@ exports.BattleSearchIndex = [
   [
     "bottle",
     "item",
-    2276,
+    2273,
     6
   ],
   [
@@ -4734,7 +4734,7 @@ exports.BattleSearchIndex = [
   [
     "bottlecap",
     "item",
-    1158,
+    1156,
     4
   ],
   [
@@ -4744,13 +4744,13 @@ exports.BattleSearchIndex = [
   [
     "boulder",
     "pokemon",
-    1449,
+    1447,
     4
   ],
   [
     "bounce",
     "ability",
-    1689,
+    1687,
     5
   ],
   [
@@ -4768,7 +4768,7 @@ exports.BattleSearchIndex = [
   [
     "boxlink",
     "item",
-    2188,
+    2185,
     4
   ],
   [
@@ -4828,13 +4828,13 @@ exports.BattleSearchIndex = [
   [
     "brace",
     "item",
-    1676,
+    1674,
     5
   ],
   [
     "bracer",
     "item",
-    2245,
+    2242,
     5
   ],
   [
@@ -4884,13 +4884,13 @@ exports.BattleSearchIndex = [
   [
     "break",
     "move",
-    2916,
+    2913,
     6
   ],
   [
     "breaker",
     "ability",
-    1888,
+    1886,
     4
   ],
   [
@@ -4904,13 +4904,13 @@ exports.BattleSearchIndex = [
   [
     "breath",
     "move",
-    712,
+    710,
     6
   ],
   [
     "breath",
     "move",
-    1052,
+    1050,
     5
   ],
   [
@@ -5034,7 +5034,7 @@ exports.BattleSearchIndex = [
   [
     "bubble",
     "ability",
-    3492,
+    3489,
     5
   ],
   [
@@ -5058,7 +5058,7 @@ exports.BattleSearchIndex = [
   [
     "bug",
     "move",
-    3006,
+    3003,
     8
   ],
   [
@@ -5070,7 +5070,7 @@ exports.BattleSearchIndex = [
   [
     "bug",
     "pokemon",
-    2730,
+    2727,
     8
   ],
   [
@@ -5118,7 +5118,7 @@ exports.BattleSearchIndex = [
   [
     "bull",
     "move",
-    2357,
+    2354,
     6
   ],
   [
@@ -5140,7 +5140,7 @@ exports.BattleSearchIndex = [
   [
     "bulu",
     "pokemon",
-    3094,
+    3091,
     4
   ],
   [
@@ -5152,7 +5152,7 @@ exports.BattleSearchIndex = [
   [
     "bundle",
     "pokemon",
-    1450,
+    1448,
     4
   ],
   [
@@ -5208,13 +5208,13 @@ exports.BattleSearchIndex = [
   [
     "burn",
     "move",
-    1396,
+    1394,
     3
   ],
   [
     "burn",
     "pokemon",
-    1105,
+    1103,
     8
   ],
   [
@@ -5236,7 +5236,7 @@ exports.BattleSearchIndex = [
   [
     "burnsthesky",
     "move",
-    1602,
+    1600,
     9
   ],
   [
@@ -5246,19 +5246,19 @@ exports.BattleSearchIndex = [
   [
     "burst",
     "move",
-    960,
+    958,
     5
   ],
   [
     "burst",
     "move",
-    1807,
+    1805,
     5
   ],
   [
     "busted",
     "pokemon",
-    1847,
+    1845,
     7
   ],
   [
@@ -5268,7 +5268,7 @@ exports.BattleSearchIndex = [
   [
     "button",
     "item",
-    802,
+    800,
     5
   ],
   [
@@ -5306,7 +5306,7 @@ exports.BattleSearchIndex = [
   [
     "c2",
     "move",
-    525,
+    524,
     0
   ],
   [
@@ -5320,7 +5320,7 @@ exports.BattleSearchIndex = [
   [
     "cage",
     "move",
-    3154,
+    3151,
     7
   ],
   [
@@ -5370,31 +5370,31 @@ exports.BattleSearchIndex = [
   [
     "camulet",
     "item",
-    479,
+    478,
     0
   ],
   [
     "candy",
     "item",
-    513,
+    512,
     6
   ],
   [
     "candy",
     "item",
-    779,
+    777,
     7
   ],
   [
     "candy",
     "item",
-    2375,
+    2372,
     4
   ],
   [
     "candybar",
     "item",
-    2353,
+    2350,
     4
   ],
   [
@@ -5404,31 +5404,31 @@ exports.BattleSearchIndex = [
   [
     "candyl",
     "item",
-    873,
+    871,
     3
   ],
   [
     "candym",
     "item",
-    874,
+    872,
     3
   ],
   [
     "candys",
     "item",
-    875,
+    873,
     3
   ],
   [
     "candyxl",
     "item",
-    876,
+    874,
     3
   ],
   [
     "candyxs",
     "item",
-    877,
+    875,
     3
   ],
   [
@@ -5440,37 +5440,37 @@ exports.BattleSearchIndex = [
   [
     "cannon",
     "move",
-    780,
+    778,
     7
   ],
   [
     "cannon",
     "move",
-    972,
+    970,
     5
   ],
   [
     "cannon",
     "move",
-    977,
+    975,
     5
   ],
   [
     "cannon",
     "move",
-    1377,
+    1375,
     5
   ],
   [
     "cannon",
     "move",
-    2910,
+    2907,
     5
   ],
   [
     "cannon",
     "move",
-    3606,
+    3603,
     3
   ],
   [
@@ -5482,12 +5482,8 @@ exports.BattleSearchIndex = [
   [
     "cap",
     "item",
-    1158,
+    1156,
     10
-  ],
-  [
-    "cappikachu",
-    "pokemon"
   ],
   [
     "capsakid",
@@ -5514,13 +5510,13 @@ exports.BattleSearchIndex = [
   [
     "card",
     "item",
-    2397,
+    2395,
     3
   ],
   [
     "card",
     "move",
-    3336,
+    3333,
     5
   ],
   [
@@ -5554,19 +5550,19 @@ exports.BattleSearchIndex = [
   [
     "case",
     "item",
-    500,
+    499,
     4
   ],
   [
     "case",
     "item",
-    2213,
+    2210,
     9
   ],
   [
     "case",
     "item",
-    3278,
+    3275,
     2
   ],
   [
@@ -5592,7 +5588,7 @@ exports.BattleSearchIndex = [
   [
     "catalog",
     "item",
-    2494,
+    2492,
     5
   ],
   [
@@ -5610,13 +5606,13 @@ exports.BattleSearchIndex = [
   [
     "cave",
     "location",
-    1820,
+    1818,
     18
   ],
   [
     "cave0",
     "location",
-    1398,
+    1396,
     7
   ],
   [
@@ -5634,7 +5630,7 @@ exports.BattleSearchIndex = [
   [
     "cave1f",
     "location",
-    1192,
+    1190,
     7
   ],
   [
@@ -5646,55 +5642,55 @@ exports.BattleSearchIndex = [
   [
     "caveb1f",
     "location",
-    1193,
+    1191,
     7
   ],
   [
     "caveb2f",
     "location",
-    1194,
+    1192,
     7
   ],
   [
     "caveend0",
     "location",
-    3136,
+    3133,
     5
   ],
   [
     "caveentrance0",
     "location",
-    3137,
+    3134,
     5
   ],
   [
     "cavelowtideentranceroom",
     "location",
-    2707,
+    2704,
     5
   ],
   [
     "cavelowtideiceroom",
     "location",
-    2708,
+    2705,
     5
   ],
   [
     "cavelowtideinnerroom",
     "location",
-    2709,
+    2706,
     5
   ],
   [
     "cavelowtidelowerroom",
     "location",
-    2710,
+    2707,
     5
   ],
   [
     "cavelowtidestairsroom",
     "location",
-    2711,
+    2708,
     5
   ],
   [
@@ -5708,247 +5704,247 @@ exports.BattleSearchIndex = [
   [
     "cavernroom1",
     "location",
-    2631,
+    2628,
     8
   ],
   [
     "cavernroom2",
     "location",
-    2632,
+    2629,
     8
   ],
   [
     "cavernroom3",
     "location",
-    2633,
+    2630,
     8
   ],
   [
     "cavernroom4",
     "location",
-    2634,
+    2631,
     8
   ],
   [
     "cavernroom5",
     "location",
-    2635,
+    2632,
     8
   ],
   [
     "cavernroom6",
     "location",
-    2636,
+    2633,
     8
   ],
   [
     "cavernroom7",
     "location",
-    2637,
+    2634,
     8
   ],
   [
     "cavernroom8",
     "location",
-    2638,
+    2635,
     8
   ],
   [
     "cavestevensroom",
     "location",
-    1195,
+    1193,
     7
   ],
   [
     "caway",
     "move",
-    457,
+    456,
     0
   ],
   [
     "cball",
     "item",
-    434,
+    433,
     0
   ],
   [
     "cband",
     "item",
-    462,
+    461,
     0
   ],
   [
     "cbattery",
     "item",
-    407,
+    406,
     0
   ],
   [
     "cbeam",
     "move",
-    419,
+    418,
     0
   ],
   [
     "cberry",
     "item",
-    429,
+    428,
     0
   ],
   [
     "cberry",
     "item",
-    433,
+    432,
     0
   ],
   [
     "cberry",
     "item",
-    442,
+    441,
     0
   ],
   [
     "cberry",
     "item",
-    446,
+    445,
     0
   ],
   [
     "cberry",
     "item",
-    465,
+    464,
     0
   ],
   [
     "cberry",
     "item",
-    496,
+    495,
     0
   ],
   [
     "cberry",
-    "item",
-    501,
-    0
-  ],
-  [
-    "cberry",
-    "item",
-    531,
-    0
-  ],
-  [
-    "cberry",
-    "item",
-    586,
-    0
-  ],
-  [
-    "cbody",
-    "ability",
-    480,
-    0
-  ],
-  [
-    "cbody",
-    "ability",
-    584,
-    0
-  ],
-  [
-    "ccandy",
-    "item",
-    513,
-    0
-  ],
-  [
-    "ccase",
     "item",
     500,
     0
   ],
   [
+    "cberry",
+    "item",
+    530,
+    0
+  ],
+  [
+    "cberry",
+    "item",
+    584,
+    0
+  ],
+  [
+    "cbody",
+    "ability",
+    479,
+    0
+  ],
+  [
+    "cbody",
+    "ability",
+    582,
+    0
+  ],
+  [
+    "ccandy",
+    "item",
+    512,
+    0
+  ],
+  [
+    "ccase",
+    "item",
+    499,
+    0
+  ],
+  [
     "cchange",
     "ability",
-    503,
+    502,
     0
   ],
   [
     "cchange",
     "move",
-    549,
+    547,
     0
   ],
   [
     "ccharm",
     "ability",
-    588,
+    586,
     0
   ],
   [
     "ccharm",
     "item",
-    399,
+    398,
     0
   ],
   [
     "cchew",
     "ability",
-    580,
+    578,
     0
   ],
   [
     "cchop",
     "move",
-    571,
+    569,
     0
   ],
   [
     "cclaw",
     "move",
-    574,
+    572,
     0
   ],
   [
     "ccloak",
     "item",
-    551,
+    549,
     0
   ],
   [
     "ccombat",
     "move",
-    490,
+    489,
     0
   ],
   [
     "ccourse",
     "move",
-    502,
+    501,
     0
   ],
   [
     "ccrash",
     "move",
-    529,
+    528,
     0
   ],
   [
     "ccrush",
     "move",
-    522,
+    521,
     0
   ],
   [
     "cdown",
     "ability",
-    544,
+    542,
     0
   ],
   [
     "cdrive",
     "item",
-    447,
+    446,
     0
   ],
   [
@@ -5958,7 +5954,7 @@ exports.BattleSearchIndex = [
   [
     "cedge",
     "move",
-    403,
+    402,
     0
   ],
   [
@@ -5980,7 +5976,7 @@ exports.BattleSearchIndex = [
   [
     "cenforcer",
     "move",
-    528,
+    527,
     0
   ],
   [
@@ -6002,73 +5998,73 @@ exports.BattleSearchIndex = [
   [
     "ceyes",
     "ability",
-    515,
+    514,
     0
   ],
   [
     "cfeather",
     "item",
-    487,
+    486,
     0
   ],
   [
     "cfossil",
     "item",
-    475,
+    474,
     0
   ],
   [
     "cfossil",
     "item",
-    550,
+    548,
     0
   ],
   [
     "cgalar",
     "pokemon",
-    536,
+    535,
     0
   ],
   [
     "cgas",
     "move",
-    534,
+    533,
     0
   ],
   [
     "cgorging",
     "pokemon",
-    562,
+    560,
     0
   ],
   [
     "cgrip",
     "move",
-    575,
+    573,
     0
   ],
   [
     "cguard",
     "move",
-    546,
+    544,
     0
   ],
   [
     "cgulping",
     "pokemon",
-    563,
+    561,
     0
   ],
   [
     "chain",
     "ability",
-    3303,
+    3300,
     5
   ],
   [
     "chain",
     "move",
-    1728,
+    1726,
     9
   ],
   [
@@ -6086,19 +6082,19 @@ exports.BattleSearchIndex = [
   [
     "change",
     "ability",
-    503,
+    502,
     5
   ],
   [
     "change",
     "ability",
-    2945,
+    2942,
     6
   ],
   [
     "change",
     "move",
-    549,
+    547,
     5
   ],
   [
@@ -6108,7 +6104,7 @@ exports.BattleSearchIndex = [
   [
     "chant",
     "move",
-    1643,
+    1641,
     5
   ],
   [
@@ -6126,25 +6122,25 @@ exports.BattleSearchIndex = [
   [
     "charge",
     "move",
-    961,
+    959,
     5
   ],
   [
     "charge",
     "move",
-    1291,
+    1289,
     4
   ],
   [
     "charge",
     "move",
-    2098,
+    2095,
     9
   ],
   [
     "charge",
     "move",
-    3541,
+    3538,
     4
   ],
   [
@@ -6178,31 +6174,31 @@ exports.BattleSearchIndex = [
   [
     "charm",
     "ability",
-    588,
+    586,
     4
   ],
   [
     "charm",
     "item",
-    399,
+    398,
     8
   ],
   [
     "charm",
     "item",
-    878,
+    876,
     3
   ],
   [
     "charm",
     "item",
-    2075,
-    4
+    2389,
+    6
   ],
   [
     "charm",
     "item",
-    2705,
+    2702,
     5
   ],
   [
@@ -6232,7 +6228,7 @@ exports.BattleSearchIndex = [
   [
     "checker",
     "item",
-    904,
+    902,
     4
   ],
   [
@@ -6242,13 +6238,13 @@ exports.BattleSearchIndex = [
   [
     "cheeks",
     "move",
-    3007,
+    3004,
     5
   ],
   [
     "cheer",
     "move",
-    713,
+    711,
     6
   ],
   [
@@ -6294,7 +6290,7 @@ exports.BattleSearchIndex = [
   [
     "chew",
     "ability",
-    580,
+    578,
     3
   ],
   [
@@ -6304,7 +6300,7 @@ exports.BattleSearchIndex = [
   [
     "chien",
     "pokemon",
-    3556,
+    3553,
     2
   ],
   [
@@ -6322,7 +6318,7 @@ exports.BattleSearchIndex = [
   [
     "chill",
     "pokemon",
-    1106,
+    1104,
     8
   ],
   [
@@ -6360,7 +6356,7 @@ exports.BattleSearchIndex = [
   [
     "chimney0",
     "location",
-    1913,
+    1911,
     2
   ],
   [
@@ -6406,25 +6402,25 @@ exports.BattleSearchIndex = [
   [
     "chop",
     "move",
-    571,
+    569,
     5
   ],
   [
     "chop",
     "move",
-    758,
+    756,
     4
   ],
   [
     "chop",
     "move",
-    1491,
+    1489,
     6
   ],
   [
     "chop",
     "move",
-    3149,
+    3146,
     6
   ],
   [
@@ -6452,55 +6448,55 @@ exports.BattleSearchIndex = [
   [
     "city",
     "location",
-    863,
+    861,
     10
   ],
   [
     "city",
     "location",
-    1607,
+    1605,
     8
   ],
   [
     "city",
     "location",
-    1905,
+    1903,
     8
   ],
   [
     "city",
     "location",
-    2130,
+    2127,
     9
   ],
   [
     "city",
     "location",
-    2794,
+    2791,
     9
   ],
   [
     "city",
     "location",
-    2860,
+    2857,
     10
   ],
   [
     "city0",
     "location",
-    1028,
+    1026,
     7
   ],
   [
     "city0",
     "location",
-    1757,
+    1755,
     8
   ],
   [
     "city0",
     "location",
-    2541,
+    2538,
     8
   ],
   [
@@ -6512,7 +6508,7 @@ exports.BattleSearchIndex = [
   [
     "ckey",
     "item",
-    386,
+    385,
     0
   ],
   [
@@ -6542,49 +6538,49 @@ exports.BattleSearchIndex = [
   [
     "claw",
     "item",
-    1229,
+    1227,
     4
   ],
   [
     "claw",
     "item",
-    2338,
+    2335,
     5
   ],
   [
     "claw",
     "item",
-    2385,
+    2382,
     5
   ],
   [
     "claw",
     "move",
-    574,
+    572,
     5
   ],
   [
     "claw",
     "move",
-    670,
+    668,
     4
   ],
   [
     "claw",
     "move",
-    714,
+    712,
     6
   ],
   [
     "claw",
     "move",
-    1808,
+    1806,
     5
   ],
   [
     "claw",
     "move",
-    2664,
+    2661,
     6
   ],
   [
@@ -6598,19 +6594,19 @@ exports.BattleSearchIndex = [
   [
     "claws",
     "ability",
-    3297,
+    3294,
     5
   ],
   [
     "claws",
     "move",
-    1348,
+    1346,
     4
   ],
   [
     "clay",
     "item",
-    1597,
+    1595,
     5
   ],
   [
@@ -6620,7 +6616,7 @@ exports.BattleSearchIndex = [
   [
     "cleaner",
     "ability",
-    2626,
+    2623,
     6
   ],
   [
@@ -6642,13 +6638,13 @@ exports.BattleSearchIndex = [
   [
     "cleave",
     "move",
-    1527,
+    1525,
     6
   ],
   [
     "cleave",
     "move",
-    1835,
+    1833,
     6
   ],
   [
@@ -6678,19 +6674,19 @@ exports.BattleSearchIndex = [
   [
     "climb",
     "move",
-    2464,
+    2462,
     4
   ],
   [
     "cloak",
     "ability",
-    2841,
+    2838,
     4
   ],
   [
     "cloak",
     "item",
-    551,
+    549,
     6
   ],
   [
@@ -6708,7 +6704,7 @@ exports.BattleSearchIndex = [
   [
     "cloth",
     "item",
-    2391,
+    2388,
     6
   ],
   [
@@ -6726,7 +6722,7 @@ exports.BattleSearchIndex = [
   [
     "club",
     "item",
-    3142,
+    3139,
     5
   ],
   [
@@ -6738,13 +6734,13 @@ exports.BattleSearchIndex = [
   [
     "cmask",
     "item",
-    530,
+    529,
     0
   ],
   [
     "cmedicine",
     "ability",
-    582,
+    580,
     0
   ],
   [
@@ -6756,31 +6752,31 @@ exports.BattleSearchIndex = [
   [
     "cmega",
     "pokemon",
-    413,
+    412,
     0
   ],
   [
     "cmega",
     "pokemon",
-    440,
+    439,
     0
   ],
   [
     "cmega",
     "pokemon",
-    454,
+    453,
     0
   ],
   [
     "cmega",
     "pokemon",
-    483,
+    482,
     0
   ],
   [
     "cmega",
     "pokemon",
-    555,
+    553,
     0
   ],
   [
@@ -6798,31 +6794,31 @@ exports.BattleSearchIndex = [
   [
     "cmint",
     "item",
-    387,
+    386,
     0
   ],
   [
     "cmx",
     "pokemon",
-    423,
+    422,
     0
   ],
   [
     "cmy",
     "pokemon",
-    424,
+    423,
     0
   ],
   [
     "cneigh",
     "ability",
-    448,
+    447,
     0
   ],
   [
     "cnine",
     "ability",
-    491,
+    490,
     0
   ],
   [
@@ -6836,25 +6832,25 @@ exports.BattleSearchIndex = [
   [
     "coat",
     "ability",
-    1059,
+    1057,
     3
   ],
   [
     "coat",
     "item",
-    1809,
+    1807,
     5
   ],
   [
     "coat",
     "move",
-    1690,
+    1688,
     5
   ],
   [
     "coat",
     "move",
-    1875,
+    1873,
     6
   ],
   [
@@ -6882,7 +6878,7 @@ exports.BattleSearchIndex = [
   [
     "coin",
     "item",
-    1130,
+    1128,
     10
   ],
   [
@@ -6896,7 +6892,7 @@ exports.BattleSearchIndex = [
   [
     "cold",
     "move",
-    2685,
+    2682,
     5
   ],
   [
@@ -6914,13 +6910,13 @@ exports.BattleSearchIndex = [
   [
     "combat",
     "move",
-    490,
+    489,
     5
   ],
   [
     "combat",
     "pokemon",
-    3109,
+    3106,
     12
   ],
   [
@@ -6962,7 +6958,7 @@ exports.BattleSearchIndex = [
   [
     "compaction",
     "ability",
-    3493,
+    3490,
     5
   ],
   [
@@ -6972,7 +6968,7 @@ exports.BattleSearchIndex = [
   [
     "complete",
     "pokemon",
-    3635,
+    3632,
     7
   ],
   [
@@ -7002,7 +6998,7 @@ exports.BattleSearchIndex = [
   [
     "construct",
     "ability",
-    2246,
+    2243,
     5
   ],
   [
@@ -7028,25 +7024,25 @@ exports.BattleSearchIndex = [
   [
     "coof",
     "location",
-    401,
+    400,
     0
   ],
   [
     "cookie",
     "item",
-    1560,
+    1558,
     4
   ],
   [
     "cooriginentrance",
     "location",
-    402,
+    401,
     0
   ],
   [
     "copper",
     "item",
-    2418,
+    2416,
     5
   ],
   [
@@ -7060,13 +7056,13 @@ exports.BattleSearchIndex = [
   [
     "cord",
     "item",
-    1610,
+    1608,
     7
   ],
   [
     "core",
     "item",
-    1230,
+    1228,
     8
   ],
   [
@@ -7080,13 +7076,13 @@ exports.BattleSearchIndex = [
   [
     "cornerstone",
     "ability",
-    833,
+    831,
     12
   ],
   [
     "cornerstone",
     "pokemon",
-    2040,
+    2038,
     7
   ],
   [
@@ -7096,7 +7092,7 @@ exports.BattleSearchIndex = [
   [
     "cornerstonetera",
     "pokemon",
-    2041,
+    2039,
     7
   ],
   [
@@ -7152,12 +7148,8 @@ exports.BattleSearchIndex = [
   [
     "cosplay",
     "pokemon",
-    2158,
+    2155,
     7
-  ],
-  [
-    "cosplaypikachu",
-    "pokemon"
   ],
   [
     "costar",
@@ -7186,7 +7178,7 @@ exports.BattleSearchIndex = [
   [
     "course",
     "move",
-    502,
+    501,
     9
   ],
   [
@@ -7208,49 +7200,49 @@ exports.BattleSearchIndex = [
   [
     "cpao",
     "pokemon",
-    444,
+    443,
     0
   ],
   [
     "cpass",
     "item",
-    521,
+    520,
     0
   ],
   [
     "cpoison",
     "move",
-    572,
+    570,
     0
   ],
   [
     "cpot",
     "item",
-    458,
+    457,
     0
   ],
   [
     "cpot",
     "item",
-    558,
+    556,
     0
   ],
   [
     "cpouch",
     "ability",
-    432,
+    431,
     0
   ],
   [
     "cpower",
     "move",
-    539,
+    538,
     0
   ],
   [
     "cpunch",
     "move",
-    508,
+    507,
     0
   ],
   [
@@ -7288,7 +7280,7 @@ exports.BattleSearchIndex = [
   [
     "crainy",
     "pokemon",
-    395,
+    394,
     0
   ],
   [
@@ -7310,31 +7302,31 @@ exports.BattleSearchIndex = [
   [
     "crash",
     "move",
-    529,
+    528,
     9
   ],
   [
     "crash",
     "move",
-    1307,
+    1305,
     4
   ],
   [
     "crash",
     "move",
-    1409,
+    1407,
     6
   ],
   [
     "crash",
     "move",
-    1649,
+    1647,
     6
   ],
   [
     "crash",
     "move",
-    3508,
+    3505,
     4
   ],
   [
@@ -7344,19 +7336,19 @@ exports.BattleSearchIndex = [
   [
     "cray",
     "move",
-    517,
+    516,
     0
   ],
   [
     "create",
     "move",
-    3413,
+    3410,
     1
   ],
   [
     "creception",
     "move",
-    450,
+    449,
     0
   ],
   [
@@ -7366,7 +7358,7 @@ exports.BattleSearchIndex = [
   [
     "crest",
     "item",
-    1564,
+    1562,
     7
   ],
   [
@@ -7396,25 +7388,25 @@ exports.BattleSearchIndex = [
   [
     "crown",
     "item",
-    2419,
+    2417,
     5
   ],
   [
     "crown",
     "pokemon",
-    1451,
+    1449,
     4
   ],
   [
     "crowned",
     "pokemon",
-    3602,
+    3599,
     6
   ],
   [
     "crowned",
     "pokemon",
-    3604,
+    3601,
     9
   ],
   [
@@ -7424,13 +7416,13 @@ exports.BattleSearchIndex = [
   [
     "crunchies",
     "item",
-    2136,
+    2133,
     6
   ],
   [
     "crush",
     "move",
-    522,
+    521,
     11
   ],
   [
@@ -7458,13 +7450,13 @@ exports.BattleSearchIndex = [
   [
     "cscales",
     "move",
-    471,
+    470,
     0
   ],
   [
     "cscarf",
     "item",
-    463,
+    462,
     0
   ],
   [
@@ -7476,85 +7468,85 @@ exports.BattleSearchIndex = [
   [
     "cshard",
     "item",
-    509,
+    508,
     0
   ],
   [
     "cshield",
     "move",
-    560,
+    558,
     0
   ],
   [
     "csmog",
     "move",
-    481,
+    480,
     0
   ],
   [
     "csnowy",
     "pokemon",
-    396,
+    395,
     0
   ],
   [
     "csoul",
     "move",
-    472,
+    471,
     0
   ],
   [
     "csoulblaze",
     "move",
-    473,
+    472,
     0
   ],
   [
     "cspecs",
     "item",
-    464,
+    463,
     0
   ],
   [
     "cspore",
     "move",
-    547,
+    545,
     0
   ],
   [
     "csunny",
     "pokemon",
-    397,
+    396,
     0
   ],
   [
     "csunshine",
     "pokemon",
-    436,
+    435,
     0
   ],
   [
     "csweet",
     "item",
-    492,
+    491,
     0
   ],
   [
     "ctag",
     "item",
-    478,
+    477,
     0
   ],
   [
     "cthrow",
     "move",
-    468,
+    467,
     0
   ],
   [
     "ctorque",
     "move",
-    505,
+    504,
     0
   ],
   [
@@ -7564,7 +7556,7 @@ exports.BattleSearchIndex = [
   [
     "cube",
     "item",
-    3636,
+    3633,
     7
   ],
   [
@@ -7578,7 +7570,7 @@ exports.BattleSearchIndex = [
   [
     "cudgel",
     "move",
-    1464,
+    1462,
     3
   ],
   [
@@ -7588,25 +7580,25 @@ exports.BattleSearchIndex = [
   [
     "cuff",
     "item",
-    1078,
+    1076,
     8
   ],
   [
     "cups",
     "ability",
-    3018,
+    3015,
     7
   ],
   [
     "cure",
     "ability",
-    1955,
+    1953,
     7
   ],
   [
     "cure",
     "move",
-    2569,
+    2566,
     4
   ],
   [
@@ -7616,7 +7608,7 @@ exports.BattleSearchIndex = [
   [
     "curl",
     "move",
-    632,
+    630,
     7
   ],
   [
@@ -7626,7 +7618,7 @@ exports.BattleSearchIndex = [
   [
     "curse",
     "move",
-    1025,
+    1023,
     7
   ],
   [
@@ -7648,7 +7640,7 @@ exports.BattleSearchIndex = [
   [
     "cut",
     "move",
-    2298,
+    2295,
     6
   ],
   [
@@ -7662,7 +7654,7 @@ exports.BattleSearchIndex = [
   [
     "cutter",
     "ability",
-    1382,
+    1380,
     5
   ],
   [
@@ -7680,31 +7672,31 @@ exports.BattleSearchIndex = [
   [
     "cutter",
     "move",
-    1072,
+    1070,
     4
   ],
   [
     "cutter",
     "move",
-    3076,
+    3073,
     7
   ],
   [
     "cwater",
     "move",
-    449,
+    448,
     0
   ],
   [
     "cx",
     "item",
-    421,
+    420,
     0
   ],
   [
     "cy",
     "item",
-    422,
+    421,
     0
   ],
   [
@@ -7718,7 +7710,7 @@ exports.BattleSearchIndex = [
   [
     "cyu",
     "pokemon",
-    459,
+    458,
     0
   ],
   [
@@ -7728,19 +7720,19 @@ exports.BattleSearchIndex = [
   [
     "dada",
     "pokemon",
-    3611,
+    3608,
     6
   ],
   [
     "dalola",
     "pokemon",
-    668,
+    666,
     0
   ],
   [
     "dalola",
     "pokemon",
-    765,
+    763,
     0
   ],
   [
@@ -7758,67 +7750,67 @@ exports.BattleSearchIndex = [
   [
     "dance",
     "move",
-    715,
+    713,
     6
   ],
   [
     "dance",
     "move",
-    910,
+    908,
     7
   ],
   [
     "dance",
     "move",
-    924,
+    922,
     5
   ],
   [
     "dance",
     "move",
-    1656,
+    1654,
     5
   ],
   [
     "dance",
     "move",
-    2133,
+    2130,
     5
   ],
   [
     "dance",
     "move",
-    2346,
+    2343,
     6
   ],
   [
     "dance",
     "move",
-    2367,
+    2364,
     4
   ],
   [
     "dance",
     "move",
-    2439,
+    2437,
     10
   ],
   [
     "dance",
     "move",
-    3067,
+    3064,
     6
   ],
   [
     "dance",
     "move",
-    3118,
+    3115,
     6
   ],
   [
     "dance",
     "move",
-    3433,
+    3430,
     7
   ],
   [
@@ -7834,7 +7826,7 @@ exports.BattleSearchIndex = [
   [
     "dark",
     "pokemon",
-    2731,
+    2728,
     8
   ],
   [
@@ -7864,7 +7856,7 @@ exports.BattleSearchIndex = [
   [
     "darkness",
     "item",
-    2627,
+    2624,
     8
   ],
   [
@@ -7910,7 +7902,7 @@ exports.BattleSearchIndex = [
   [
     "darts",
     "move",
-    716,
+    714,
     6
   ],
   [
@@ -7924,13 +7916,13 @@ exports.BattleSearchIndex = [
   [
     "dascent",
     "move",
-    711,
+    709,
     0
   ],
   [
     "dattack",
     "pokemon",
-    643,
+    641,
     0
   ],
   [
@@ -7940,7 +7932,7 @@ exports.BattleSearchIndex = [
   [
     "daura",
     "ability",
-    598,
+    596,
     0
   ],
   [
@@ -7950,25 +7942,25 @@ exports.BattleSearchIndex = [
   [
     "dawnwings",
     "pokemon",
-    1973,
+    1971,
     8
   ],
   [
     "day",
     "move",
-    2115,
+    2112,
     3
   ],
   [
     "day",
     "move",
-    3023,
+    3020,
     5
   ],
   [
     "daze",
     "move",
-    1992,
+    1990,
     5
   ],
   [
@@ -7982,145 +7974,145 @@ exports.BattleSearchIndex = [
   [
     "dball",
     "item",
-    678,
+    676,
     0
   ],
   [
     "dball",
     "item",
-    741,
+    739,
     0
   ],
   [
     "dball",
-    "item",
-    772,
-    0
-  ],
-  [
-    "dband",
-    "item",
-    778,
-    0
-  ],
-  [
-    "dbeating",
-    "move",
-    756,
-    0
-  ],
-  [
-    "dberry",
     "item",
     770,
     0
   ],
   [
+    "dband",
+    "item",
+    776,
+    0
+  ],
+  [
+    "dbeating",
+    "move",
+    754,
+    0
+  ],
+  [
+    "dberry",
+    "item",
+    768,
+    0
+  ],
+  [
     "dbond",
     "move",
-    648,
+    646,
     0
   ],
   [
     "dbreath",
     "move",
-    712,
+    710,
     0
   ],
   [
     "dcandy",
     "item",
-    779,
+    777,
     0
   ],
   [
     "dcannon",
     "move",
-    780,
+    778,
     0
   ],
   [
     "dcheer",
     "move",
-    713,
+    711,
     0
   ],
   [
     "dchop",
     "move",
-    758,
+    756,
     0
   ],
   [
     "dclaw",
     "move",
-    670,
+    668,
     0
   ],
   [
     "dclaw",
     "move",
-    714,
+    712,
     0
   ],
   [
     "dcurl",
     "move",
-    632,
+    630,
     0
   ],
   [
     "ddance",
     "move",
-    715,
+    713,
     0
   ],
   [
     "ddarts",
     "move",
-    716,
+    714,
     0
   ],
   [
     "ddefense",
     "pokemon",
-    644,
+    642,
     0
   ],
   [
     "ddesire",
     "move",
-    688,
+    686,
     0
   ],
   [
     "ddisc",
     "item",
-    760,
+    758,
     0
   ],
   [
     "ddrake",
     "move",
-    651,
+    649,
     0
   ],
   [
     "ddrive",
     "item",
-    698,
+    696,
     0
   ],
   [
     "deater",
     "move",
-    742,
+    740,
     0
   ],
   [
     "debris",
     "ability",
-    3304,
+    3301,
     5
   ],
   [
@@ -8146,7 +8138,7 @@ exports.BattleSearchIndex = [
   [
     "dedge",
     "move",
-    691,
+    689,
     0
   ],
   [
@@ -8176,7 +8168,7 @@ exports.BattleSearchIndex = [
   [
     "def",
     "item",
-    3584,
+    3581,
     3
   ],
   [
@@ -8190,19 +8182,19 @@ exports.BattleSearchIndex = [
   [
     "defense",
     "item",
-    3580,
+    3577,
     1
   ],
   [
     "defense",
     "move",
-    1452,
+    1450,
     4
   ],
   [
     "defense",
     "pokemon",
-    644,
+    642,
     6
   ],
   [
@@ -8248,13 +8240,13 @@ exports.BattleSearchIndex = [
   [
     "deluge",
     "move",
-    1445,
+    1443,
     3
   ],
   [
     "denergy",
     "move",
-    717,
+    715,
     0
   ],
   [
@@ -8280,7 +8272,7 @@ exports.BattleSearchIndex = [
   [
     "desire",
     "move",
-    688,
+    686,
     4
   ],
   [
@@ -8298,7 +8290,7 @@ exports.BattleSearchIndex = [
   [
     "destruct",
     "move",
-    2654,
+    2651,
     4
   ],
   [
@@ -8320,13 +8312,13 @@ exports.BattleSearchIndex = [
   [
     "dew",
     "item",
-    2862,
+    2859,
     4
   ],
   [
     "dew",
     "move",
-    1593,
+    1591,
     4
   ],
   [
@@ -8348,49 +8340,49 @@ exports.BattleSearchIndex = [
   [
     "dfang",
     "item",
-    718,
+    716,
     0
   ],
   [
     "dfossil",
     "item",
-    684,
+    682,
     0
   ],
   [
     "dgalar",
     "pokemon",
-    609,
+    607,
     0
   ],
   [
     "dgalar",
     "pokemon",
-    614,
+    612,
     0
   ],
   [
     "dgem",
     "item",
-    600,
+    598,
     0
   ],
   [
     "dgem",
     "item",
-    719,
+    717,
     0
   ],
   [
     "dgleam",
     "move",
-    618,
+    616,
     0
   ],
   [
     "dhammer",
     "move",
-    720,
+    718,
     0
   ],
   [
@@ -8400,19 +8392,19 @@ exports.BattleSearchIndex = [
   [
     "dhisui",
     "pokemon",
-    621,
+    619,
     0
   ],
   [
     "dhit",
     "item",
-    671,
+    669,
     0
   ],
   [
     "dhit",
     "move",
-    692,
+    690,
     0
   ],
   [
@@ -8442,13 +8434,13 @@ exports.BattleSearchIndex = [
   [
     "dibash",
     "move",
-    693,
+    691,
     0
   ],
   [
     "dice",
     "item",
-    1621,
+    1619,
     6
   ],
   [
@@ -8470,7 +8462,7 @@ exports.BattleSearchIndex = [
   [
     "dino",
     "item",
-    1030,
+    1028,
     10
   ],
   [
@@ -8496,7 +8488,7 @@ exports.BattleSearchIndex = [
   [
     "disc",
     "item",
-    760,
+    758,
     7
   ],
   [
@@ -8510,7 +8502,7 @@ exports.BattleSearchIndex = [
   [
     "dish",
     "ability",
-    2368,
+    2365,
     4
   ],
   [
@@ -8524,7 +8516,7 @@ exports.BattleSearchIndex = [
   [
     "dive",
     "move",
-    3328,
+    3325,
     6
   ],
   [
@@ -8538,109 +8530,109 @@ exports.BattleSearchIndex = [
   [
     "dkick",
     "move",
-    694,
+    692,
     0
   ],
   [
     "dkiss",
     "move",
-    732,
+    730,
     0
   ],
   [
     "dknot",
     "item",
-    649,
+    647,
     0
   ],
   [
     "dland",
     "ability",
-    647,
+    645,
     0
   ],
   [
     "dlariat",
     "move",
-    599,
+    597,
     0
   ],
   [
     "dmachine",
     "item",
-    700,
+    698,
     0
   ],
   [
     "dmail",
     "item",
-    743,
+    741,
     0
   ],
   [
     "dmaw",
     "ability",
-    730,
+    728,
     0
   ],
   [
     "dmega",
     "pokemon",
-    605,
+    603,
     0
   ],
   [
     "dmega",
     "pokemon",
-    640,
+    638,
     0
   ],
   [
     "dmega",
     "pokemon",
-    663,
+    661,
     0
   ],
   [
     "dmega",
     "pokemon",
-    706,
+    704,
     0
   ],
   [
     "dmega",
     "pokemon",
+    721,
+    0
+  ],
+  [
+    "dmega",
+    "pokemon",
+    734,
+    0
+  ],
+  [
+    "dmemory",
+    "item",
+    600,
+    0
+  ],
+  [
+    "dmemory",
+    "item",
     723,
-    0
-  ],
-  [
-    "dmega",
-    "pokemon",
-    736,
-    0
-  ],
-  [
-    "dmemory",
-    "item",
-    602,
-    0
-  ],
-  [
-    "dmemory",
-    "item",
-    725,
     0
   ],
   [
     "dmeteor",
     "move",
-    701,
+    699,
     0
   ],
   [
     "dmulch",
     "item",
-    594,
+    592,
     0
   ],
   [
@@ -8658,13 +8650,13 @@ exports.BattleSearchIndex = [
   [
     "dog",
     "ability",
-    1249,
+    1247,
     5
   ],
   [
     "doll",
     "item",
-    2214,
+    2211,
     4
   ],
   [
@@ -8706,19 +8698,19 @@ exports.BattleSearchIndex = [
   [
     "dorder",
     "move",
-    631,
+    629,
     0
   ],
   [
     "dore",
     "item",
-    782,
+    780,
     0
   ],
   [
     "dorigin",
     "pokemon",
-    660,
+    658,
     0
   ],
   [
@@ -8760,7 +8752,7 @@ exports.BattleSearchIndex = [
   [
     "douse",
     "pokemon",
-    1107,
+    1105,
     8
   ],
   [
@@ -8770,25 +8762,25 @@ exports.BattleSearchIndex = [
   [
     "down",
     "ability",
-    544,
+    542,
     6
   ],
   [
     "down",
     "ability",
-    2700,
+    2697,
     7
   ],
   [
     "down",
     "move",
-    2815,
+    2812,
     5
   ],
   [
     "down",
     "move",
-    3084,
+    3081,
     4
   ],
   [
@@ -8808,55 +8800,55 @@ exports.BattleSearchIndex = [
   [
     "dparts",
     "item",
-    652,
+    650,
     0
   ],
   [
     "dpeck",
     "move",
-    749,
+    747,
     0
   ],
   [
     "dplate",
     "item",
-    702,
+    700,
     0
   ],
   [
     "dplate",
     "item",
-    740,
+    738,
     0
   ],
   [
     "dpulse",
     "move",
-    603,
+    601,
     0
   ],
   [
     "dpulse",
     "move",
-    726,
+    724,
     0
   ],
   [
     "dpunch",
     "move",
-    679,
+    677,
     0
   ],
   [
     "dpunch",
     "move",
-    733,
+    731,
     0
   ],
   [
     "dpunch",
     "move",
-    781,
+    779,
     0
   ],
   [
@@ -8894,7 +8886,7 @@ exports.BattleSearchIndex = [
   [
     "drage",
     "move",
-    727,
+    725,
     0
   ],
   [
@@ -8906,7 +8898,7 @@ exports.BattleSearchIndex = [
   [
     "dragon",
     "pokemon",
-    2732,
+    2729,
     8
   ],
   [
@@ -9004,19 +8996,19 @@ exports.BattleSearchIndex = [
   [
     "drain",
     "ability",
-    2995,
+    2992,
     5
   ],
   [
     "drain",
     "move",
-    1124,
+    1122,
     4
   ],
   [
     "drain",
     "move",
-    1778,
+    1776,
     4
   ],
   [
@@ -9030,13 +9022,13 @@ exports.BattleSearchIndex = [
   [
     "drake",
     "item",
-    1031,
+    1029,
     10
   ],
   [
     "drake",
     "move",
-    651,
+    649,
     11
   ],
   [
@@ -9066,7 +9058,7 @@ exports.BattleSearchIndex = [
   [
     "draw",
     "ability",
-    2339,
+    2336,
     5
   ],
   [
@@ -9076,7 +9068,7 @@ exports.BattleSearchIndex = [
   [
     "dream",
     "item",
-    3523,
+    3520,
     7
   ],
   [
@@ -9108,7 +9100,7 @@ exports.BattleSearchIndex = [
   [
     "drench",
     "move",
-    3417,
+    3414,
     5
   ],
   [
@@ -9122,7 +9114,7 @@ exports.BattleSearchIndex = [
   [
     "drift",
     "move",
-    821,
+    819,
     7
   ],
   [
@@ -9132,13 +9124,13 @@ exports.BattleSearchIndex = [
   [
     "drill",
     "move",
-    1358,
+    1356,
     4
   ],
   [
     "drill",
     "move",
-    1383,
+    1381,
     5
   ],
   [
@@ -9152,19 +9144,19 @@ exports.BattleSearchIndex = [
   [
     "drink",
     "move",
-    1839,
+    1837,
     4
   ],
   [
     "drive",
     "ability",
-    1907,
+    1905,
     5
   ],
   [
     "drive",
     "ability",
-    2331,
+    2328,
     5
   ],
   [
@@ -9176,19 +9168,19 @@ exports.BattleSearchIndex = [
   [
     "drive",
     "item",
-    447,
+    446,
     5
   ],
   [
     "drive",
     "item",
-    698,
+    696,
     5
   ],
   [
     "drive",
     "item",
-    2714,
+    2711,
     5
   ],
   [
@@ -9202,13 +9194,13 @@ exports.BattleSearchIndex = [
   [
     "drock",
     "item",
-    595,
+    593,
     0
   ],
   [
     "drop",
     "move",
-    2781,
+    2778,
     3
   ],
   [
@@ -9236,19 +9228,19 @@ exports.BattleSearchIndex = [
   [
     "drun",
     "move",
-    750,
+    748,
     0
   ],
   [
     "drush",
     "move",
-    728,
+    726,
     0
   ],
   [
     "dry",
     "move",
-    1035,
+    1033,
     6
   ],
   [
@@ -9258,103 +9250,103 @@ exports.BattleSearchIndex = [
   [
     "dscale",
     "item",
-    729,
+    727,
     0
   ],
   [
     "dscope",
     "item",
-    653,
+    651,
     0
   ],
   [
     "dshield",
     "ability",
-    615,
+    613,
     0
   ],
   [
     "dshock",
     "move",
-    695,
+    693,
     0
   ],
   [
     "dskin",
     "ability",
-    757,
+    755,
     0
   ],
   [
     "dslap",
     "move",
-    696,
+    694,
     0
   ],
   [
     "dspeed",
     "pokemon",
-    645,
+    643,
     0
   ],
   [
     "dsplicers",
     "item",
-    680,
+    678,
     0
   ],
   [
     "dsscale",
     "item",
-    624,
+    622,
     0
   ],
   [
     "dstone",
     "item",
-    616,
+    614,
     0
   ],
   [
     "dstone",
     "item",
-    774,
+    772,
     0
   ],
   [
     "dstooth",
     "item",
-    625,
+    623,
     0
   ],
   [
     "dstorm",
     "move",
-    661,
+    659,
     0
   ],
   [
     "dstream",
     "ability",
-    641,
+    639,
     0
   ],
   [
     "dtail",
     "move",
-    731,
+    729,
     0
   ],
   [
     "dteam",
     "move",
-    697,
+    695,
     0
   ],
   [
     "dtown",
     "location",
-    654,
+    652,
     0
   ],
   [
@@ -9392,7 +9384,7 @@ exports.BattleSearchIndex = [
   [
     "dunderpass",
     "location",
-    646,
+    644,
     0
   ],
   [
@@ -9422,7 +9414,7 @@ exports.BattleSearchIndex = [
   [
     "dusk",
     "pokemon",
-    1671,
+    1669,
     8
   ],
   [
@@ -9432,7 +9424,7 @@ exports.BattleSearchIndex = [
   [
     "duskmane",
     "pokemon",
-    1974,
+    1972,
     8
   ],
   [
@@ -9450,7 +9442,7 @@ exports.BattleSearchIndex = [
   [
     "dust",
     "ability",
-    2698,
+    2695,
     6
   ],
   [
@@ -9460,19 +9452,19 @@ exports.BattleSearchIndex = [
   [
     "dutyboots",
     "item",
-    1316,
+    1314,
     5
   ],
   [
     "dvoice",
     "move",
-    673,
+    671,
     0
   ],
   [
     "dvoid",
     "move",
-    607,
+    605,
     0
   ],
   [
@@ -9482,7 +9474,7 @@ exports.BattleSearchIndex = [
   [
     "dwingbeat",
     "move",
-    759,
+    757,
     0
   ],
   [
@@ -9508,49 +9500,49 @@ exports.BattleSearchIndex = [
   [
     "dz",
     "item",
-    601,
+    599,
     0
   ],
   [
     "dz",
     "item",
-    619,
+    617,
     0
   ],
   [
     "dz",
     "item",
-    724,
+    722,
     0
   ],
   [
     "dzen",
     "pokemon",
-    610,
+    608,
     0
   ],
   [
     "dzgalar",
     "pokemon",
-    611,
+    609,
     0
   ],
   [
     "eacornerstone",
     "ability",
-    833,
+    831,
     0
   ],
   [
     "eahearthflame",
     "ability",
-    834,
+    832,
     0
   ],
   [
     "ealola",
     "pokemon",
-    871,
+    869,
     0
   ],
   [
@@ -9576,73 +9568,73 @@ exports.BattleSearchIndex = [
   [
     "eateal",
     "ability",
-    835,
+    833,
     0
   ],
   [
     "eater",
     "ability",
-    784,
+    782,
     5
   ],
   [
     "eater",
     "move",
-    742,
+    740,
     5
   ],
   [
     "eawellspring",
     "ability",
-    836,
+    834,
     0
   ],
   [
     "eball",
     "move",
-    818,
+    816,
     0
   ],
   [
     "eball",
     "move",
-    845,
+    843,
     0
   ],
   [
     "ebelt",
     "item",
-    879,
+    877,
     0
   ],
   [
     "eberry",
     "item",
-    848,
+    846,
     0
   ],
   [
     "ebird",
     "ability",
-    783,
+    781,
     0
   ],
   [
     "ebomb",
     "move",
-    799,
+    797,
     0
   ],
   [
     "ebutton",
     "item",
-    802,
+    800,
     0
   ],
   [
     "echarm",
     "item",
-    878,
+    876,
     0
   ],
   [
@@ -9652,7 +9644,7 @@ exports.BattleSearchIndex = [
   [
     "ecl",
     "item",
-    873,
+    871,
     0
   ],
   [
@@ -9664,55 +9656,55 @@ exports.BattleSearchIndex = [
   [
     "ecm",
     "item",
-    874,
+    872,
     0
   ],
   [
     "ecs",
     "item",
-    875,
+    873,
     0
   ],
   [
     "ecxl",
     "item",
-    876,
+    874,
     0
   ],
   [
     "ecxs",
     "item",
-    877,
+    875,
     0
   ],
   [
     "edge",
     "move",
-    403,
+    402,
     9
   ],
   [
     "edge",
     "move",
-    691,
+    689,
     6
   ],
   [
     "edge",
     "move",
-    2990,
+    2987,
     5
   ],
   [
     "edrift",
     "move",
-    821,
+    819,
     0
   ],
   [
     "eeater",
     "ability",
-    784,
+    782,
     0
   ],
   [
@@ -9742,7 +9734,7 @@ exports.BattleSearchIndex = [
   [
     "eeternamax",
     "pokemon",
-    861,
+    859,
     0
   ],
   [
@@ -9760,13 +9752,13 @@ exports.BattleSearchIndex = [
   [
     "eevoboost",
     "move",
-    884,
+    882,
     0
   ],
   [
     "eexit",
     "ability",
-    837,
+    835,
     0
   ],
   [
@@ -9776,25 +9768,25 @@ exports.BattleSearchIndex = [
   [
     "eforce",
     "move",
-    872,
+    870,
     0
   ],
   [
     "egcity",
     "location",
-    863,
+    861,
     0
   ],
   [
     "egem",
     "item",
-    810,
+    808,
     0
   ],
   [
     "egg",
     "item",
-    1644,
+    1642,
     5
   ],
   [
@@ -9804,13 +9796,13 @@ exports.BattleSearchIndex = [
   [
     "ehisui",
     "pokemon",
-    820,
+    818,
     0
   ],
   [
     "eimpulse",
     "move",
-    793,
+    791,
     0
   ],
   [
@@ -9858,7 +9850,7 @@ exports.BattleSearchIndex = [
   [
     "electric",
     "pokemon",
-    2733,
+    2730,
     8
   ],
   [
@@ -9940,7 +9932,7 @@ exports.BattleSearchIndex = [
   [
     "elixir",
     "item",
-    1761,
+    1759,
     3
   ],
   [
@@ -9954,7 +9946,7 @@ exports.BattleSearchIndex = [
   [
     "emblem",
     "item",
-    1697,
+    1695,
     5
   ],
   [
@@ -9988,25 +9980,25 @@ exports.BattleSearchIndex = [
   [
     "emega",
     "pokemon",
-    792,
+    790,
     0
   ],
   [
     "emega",
     "pokemon",
-    832,
+    830,
     0
   ],
   [
     "emega",
     "pokemon",
-    867,
+    865,
     0
   ],
   [
     "ememory",
     "item",
-    811,
+    809,
     0
   ],
   [
@@ -10040,7 +10032,7 @@ exports.BattleSearchIndex = [
   [
     "endingnightmare",
     "move",
-    1981,
+    1979,
     5
   ],
   [
@@ -10056,13 +10048,13 @@ exports.BattleSearchIndex = [
   [
     "energy",
     "move",
-    717,
+    715,
     6
   ],
   [
     "energy",
     "move",
-    1016,
+    1014,
     5
   ],
   [
@@ -10080,19 +10072,19 @@ exports.BattleSearchIndex = [
   [
     "enforcer",
     "move",
-    528,
+    527,
     4
   ],
   [
     "engine",
     "ability",
-    1268,
+    1266,
     6
   ],
   [
     "engine",
     "ability",
-    2964,
+    2961,
     5
   ],
   [
@@ -10102,7 +10094,7 @@ exports.BattleSearchIndex = [
   [
     "enoice",
     "pokemon",
-    801,
+    799,
     0
   ],
   [
@@ -10116,7 +10108,7 @@ exports.BattleSearchIndex = [
   [
     "entranceroom",
     "location",
-    2707,
+    2704,
     16
   ],
   [
@@ -10126,37 +10118,37 @@ exports.BattleSearchIndex = [
   [
     "epack",
     "item",
-    803,
+    801,
     0
   ],
   [
     "eplate",
     "item",
-    785,
+    783,
     0
   ],
   [
     "epowder",
     "item",
-    846,
+    844,
     0
   ],
   [
     "epower",
     "move",
-    786,
+    784,
     0
   ],
   [
     "eroot",
     "item",
-    847,
+    845,
     0
   ],
   [
     "erope",
     "item",
-    853,
+    851,
     0
   ],
   [
@@ -10166,7 +10158,7 @@ exports.BattleSearchIndex = [
   [
     "eruption",
     "move",
-    2965,
+    2962,
     5
   ],
   [
@@ -10180,19 +10172,19 @@ exports.BattleSearchIndex = [
   [
     "eseed",
     "item",
-    812,
+    810,
     0
   ],
   [
     "eshare",
     "item",
-    882,
+    880,
     0
   ],
   [
     "eshot",
     "move",
-    823,
+    821,
     0
   ],
   [
@@ -10202,13 +10194,13 @@ exports.BattleSearchIndex = [
   [
     "espeed",
     "move",
-    885,
+    883,
     0
   ],
   [
     "espell",
     "move",
-    794,
+    792,
     0
   ],
   [
@@ -10222,7 +10214,7 @@ exports.BattleSearchIndex = [
   [
     "espore",
     "ability",
-    798,
+    796,
     0
   ],
   [
@@ -10232,7 +10224,7 @@ exports.BattleSearchIndex = [
   [
     "esurge",
     "ability",
-    813,
+    811,
     0
   ],
   [
@@ -10242,13 +10234,13 @@ exports.BattleSearchIndex = [
   [
     "eternal",
     "pokemon",
-    986,
+    984,
     7
   ],
   [
     "eternamax",
     "pokemon",
-    861,
+    859,
     9
   ],
   [
@@ -10262,7 +10254,7 @@ exports.BattleSearchIndex = [
   [
     "eterrain",
     "move",
-    814,
+    812,
     0
   ],
   [
@@ -10272,19 +10264,19 @@ exports.BattleSearchIndex = [
   [
     "ether",
     "item",
-    1762,
+    1760,
     3
   ],
   [
     "etherian",
     "pokemon",
-    841,
+    839,
     0
   ],
   [
     "eticket",
     "item",
-    851,
+    849,
     0
   ],
   [
@@ -10302,19 +10294,19 @@ exports.BattleSearchIndex = [
   [
     "evoboost",
     "move",
-    884,
+    882,
     7
   ],
   [
     "evoice",
     "move",
-    788,
+    786,
     0
   ],
   [
     "ewing",
     "move",
-    857,
+    855,
     0
   ],
   [
@@ -10332,7 +10324,7 @@ exports.BattleSearchIndex = [
   [
     "exchange",
     "ability",
-    3141,
+    3138,
     7
   ],
   [
@@ -10350,7 +10342,7 @@ exports.BattleSearchIndex = [
   [
     "exit",
     "ability",
-    837,
+    835,
     9
   ],
   [
@@ -10392,7 +10384,7 @@ exports.BattleSearchIndex = [
   [
     "explosion",
     "move",
-    1883,
+    1881,
     5
   ],
   [
@@ -10406,13 +10398,13 @@ exports.BattleSearchIndex = [
   [
     "extender",
     "item",
-    3138,
+    3135,
     7
   ],
   [
     "extract",
     "move",
-    2907,
+    2904,
     5
   ],
   [
@@ -10430,25 +10422,25 @@ exports.BattleSearchIndex = [
   [
     "eye",
     "ability",
-    1498,
+    1496,
     4
   ],
   [
     "eye",
     "ability",
-    1852,
+    1850,
     5
   ],
   [
     "eye",
     "move",
-    1867,
+    1865,
     7
   ],
   [
     "eyes",
     "ability",
-    515,
+    514,
     8
   ],
   [
@@ -10460,13 +10452,13 @@ exports.BattleSearchIndex = [
   [
     "ez",
     "item",
-    797,
+    795,
     0
   ],
   [
     "ez",
     "item",
-    817,
+    815,
     0
   ],
   [
@@ -10490,38 +10482,50 @@ exports.BattleSearchIndex = [
   [
     "f",
     "location",
-    401,
+    400,
+    13
+  ],
+  [
+    "f",
+    "location",
+    1190,
+    12
+  ],
+  [
+    "f",
+    "location",
+    1191,
     13
   ],
   [
     "f",
     "location",
     1192,
+    13
+  ],
+  [
+    "f",
+    "location",
+    1696,
+    13
+  ],
+  [
+    "f",
+    "location",
+    1703,
+    13
+  ],
+  [
+    "f",
+    "location",
+    1867,
     12
   ],
   [
     "f",
     "location",
-    1193,
-    13
-  ],
-  [
-    "f",
-    "location",
-    1194,
-    13
-  ],
-  [
-    "f",
-    "location",
-    1698,
-    13
-  ],
-  [
-    "f",
-    "location",
-    1705,
-    13
+    1868,
+    12
   ],
   [
     "f",
@@ -10538,14 +10542,14 @@ exports.BattleSearchIndex = [
   [
     "f",
     "location",
-    1871,
-    12
+    1912,
+    7
   ],
   [
     "f",
     "location",
-    1872,
-    12
+    1913,
+    7
   ],
   [
     "f",
@@ -10574,43 +10578,31 @@ exports.BattleSearchIndex = [
   [
     "f",
     "location",
-    1918,
-    7
-  ],
-  [
-    "f",
-    "location",
-    1919,
-    7
-  ],
-  [
-    "f",
-    "location",
-    2782,
+    2779,
     10
   ],
   [
     "f",
     "location",
-    2784,
+    2781,
     10
   ],
   [
     "f",
     "location",
-    2786,
+    2783,
     10
   ],
   [
     "f",
     "location",
-    3435,
+    3432,
     12
   ],
   [
     "f",
     "location",
-    3436,
+    3433,
     13
   ],
   [
@@ -10622,25 +10614,25 @@ exports.BattleSearchIndex = [
   [
     "f",
     "pokemon",
-    1428,
+    1426,
     8
   ],
   [
     "f",
     "pokemon",
-    1796,
+    1794,
     8
   ],
   [
     "f",
     "pokemon",
-    1988,
+    1986,
     7
   ],
   [
     "f",
     "pokemon",
-    2048,
+    2046,
     10
   ],
   [
@@ -10652,85 +10644,85 @@ exports.BattleSearchIndex = [
   [
     "f0",
     "location",
-    1960,
+    1958,
     11
   ],
   [
     "f0",
     "location",
-    2783,
+    2780,
     10
   ],
   [
     "f0",
     "location",
-    2785,
+    2782,
     10
   ],
   [
     "f0",
     "location",
-    3428,
+    3425,
     17
   ],
   [
     "f1r",
     "location",
-    1699,
+    1697,
     13
   ],
   [
     "f1r",
-    "location",
-    1702,
-    13
-  ],
-  [
-    "f1r",
-    "location",
-    1816,
-    12
-  ],
-  [
-    "f1r",
-    "location",
-    1818,
-    13
-  ],
-  [
-    "f2r",
     "location",
     1700,
     13
   ],
   [
-    "f2r",
+    "f1r",
     "location",
-    1703,
-    13
-  ],
-  [
-    "f2r",
-    "location",
-    1817,
+    1814,
     12
   ],
   [
-    "f2r",
+    "f1r",
     "location",
-    1819,
+    1816,
     13
   ],
   [
-    "f3r",
+    "f2r",
+    "location",
+    1698,
+    13
+  ],
+  [
+    "f2r",
     "location",
     1701,
     13
   ],
   [
+    "f2r",
+    "location",
+    1815,
+    12
+  ],
+  [
+    "f2r",
+    "location",
+    1817,
+    13
+  ],
+  [
     "f3r",
     "location",
-    1704,
+    1699,
+    13
+  ],
+  [
+    "f3r",
+    "location",
+    1702,
     13
   ],
   [
@@ -10744,13 +10736,13 @@ exports.BattleSearchIndex = [
   [
     "face",
     "ability",
-    1397,
+    1395,
     3
   ],
   [
     "face",
     "move",
-    2600,
+    2597,
     5
   ],
   [
@@ -10766,7 +10758,7 @@ exports.BattleSearchIndex = [
   [
     "fairy",
     "pokemon",
-    2734,
+    2731,
     8
   ],
   [
@@ -10820,7 +10812,7 @@ exports.BattleSearchIndex = [
   [
     "fall",
     "move",
-    982,
+    980,
     6
   ],
   [
@@ -10830,31 +10822,31 @@ exports.BattleSearchIndex = [
   [
     "falls1f1r",
     "location",
-    1816,
+    1814,
     6
   ],
   [
     "falls1f2r",
     "location",
-    1817,
+    1815,
     6
   ],
   [
     "fallsb1f1r",
     "location",
-    1818,
+    1816,
     6
   ],
   [
     "fallsb1f2r",
     "location",
-    1819,
+    1817,
     6
   ],
   [
     "fallsstevenscave",
     "location",
-    1820,
+    1818,
     6
   ],
   [
@@ -10872,67 +10864,67 @@ exports.BattleSearchIndex = [
   [
     "fan",
     "pokemon",
-    2495,
+    2493,
     5
   ],
   [
     "fancy",
     "pokemon",
-    3453,
+    3450,
     8
   ],
   [
     "fang",
     "item",
-    718,
+    716,
     6
   ],
   [
     "fang",
     "item",
-    2386,
+    2383,
     5
   ],
   [
     "fang",
     "move",
-    939,
+    937,
     4
   ],
   [
     "fang",
     "move",
-    1384,
+    1382,
     5
   ],
   [
     "fang",
     "move",
-    1399,
+    1397,
     3
   ],
   [
     "fang",
     "move",
-    2199,
+    2196,
     6
   ],
   [
     "fang",
     "move",
-    3027,
+    3024,
     5
   ],
   [
     "fang",
     "move",
-    3156,
+    3153,
     7
   ],
   [
     "fangs",
     "move",
-    2289,
+    2286,
     7
   ],
   [
@@ -10954,193 +10946,193 @@ exports.BattleSearchIndex = [
   [
     "fat",
     "ability",
-    3143,
+    3140,
     5
   ],
   [
     "fattack",
     "move",
-    913,
+    911,
     0
   ],
   [
     "fattack",
     "move",
-    1071,
+    1069,
     0
   ],
   [
     "faura",
     "ability",
-    890,
+    888,
     0
   ],
   [
     "faway",
     "move",
-    932,
+    930,
     0
   ],
   [
     "fball",
     "item",
-    908,
+    906,
     0
   ],
   [
     "fball",
     "item",
-    1041,
+    1039,
     0
   ],
   [
     "fband",
     "item",
-    1014,
+    1012,
     0
   ],
   [
     "fbeam",
     "move",
-    922,
+    920,
     0
   ],
   [
     "fberry",
     "item",
-    931,
+    929,
     0
   ],
   [
     "fbird",
     "item",
-    1029,
+    1027,
     0
   ],
   [
     "fblast",
     "move",
-    938,
+    936,
     0
   ],
   [
     "fblast",
     "move",
-    1015,
+    1013,
     0
   ],
   [
     "fblitz",
     "move",
-    968,
+    966,
     0
   ],
   [
     "fbody",
     "ability",
-    959,
+    957,
     0
   ],
   [
     "fbolt",
     "move",
-    1074,
+    1072,
     0
   ],
   [
     "fboost",
     "ability",
-    969,
+    967,
     0
   ],
   [
     "fbreath",
     "move",
-    1052,
+    1050,
     0
   ],
   [
     "fburst",
     "move",
-    960,
+    958,
     0
   ],
   [
     "fc0",
     "location",
-    1028,
+    1026,
     0
   ],
   [
     "fcannon",
     "move",
-    972,
+    970,
     0
   ],
   [
     "fcannon",
     "move",
-    977,
+    975,
     0
   ],
   [
     "fcharge",
     "move",
-    961,
+    959,
     0
   ],
   [
     "fchecker",
     "item",
-    904,
+    902,
     0
   ],
   [
     "fcoat",
     "ability",
-    1059,
+    1057,
     0
   ],
   [
     "fcurse",
     "move",
-    1025,
+    1023,
     0
   ],
   [
     "fcutter",
     "move",
-    1072,
+    1070,
     0
   ],
   [
     "fdance",
     "move",
-    910,
+    908,
     0
   ],
   [
     "fdance",
     "move",
-    924,
+    922,
     0
   ],
   [
     "fdino",
     "item",
-    1030,
+    1028,
     0
   ],
   [
     "fdrake",
     "item",
-    1031,
+    1029,
     0
   ],
   [
     "fdry",
     "move",
-    1035,
+    1033,
     0
   ],
   [
@@ -11150,49 +11142,49 @@ exports.BattleSearchIndex = [
   [
     "feather",
     "item",
-    487,
+    486,
     6
   ],
   [
     "feather",
     "item",
-    891,
+    889,
     5
   ],
   [
     "feather",
     "item",
-    1113,
+    1111,
     6
   ],
   [
     "feather",
     "item",
-    1302,
+    1300,
     6
   ],
   [
     "feather",
     "item",
-    1941,
+    1939,
     6
   ],
   [
     "feather",
     "item",
-    2267,
+    2264,
     6
   ],
   [
     "feather",
     "item",
-    2431,
+    2429,
     6
   ],
   [
     "feather",
     "item",
-    3060,
+    3057,
     5
   ],
   [
@@ -11206,13 +11198,13 @@ exports.BattleSearchIndex = [
   [
     "feet",
     "ability",
-    2340,
+    2337,
     5
   ],
   [
     "feet",
     "ability",
-    3091,
+    3088,
     7
   ],
   [
@@ -11230,7 +11222,7 @@ exports.BattleSearchIndex = [
   [
     "fenergy",
     "move",
-    1016,
+    1014,
     0
   ],
   [
@@ -11266,7 +11258,7 @@ exports.BattleSearchIndex = [
   [
     "feternal",
     "pokemon",
-    986,
+    984,
     0
   ],
   [
@@ -11276,109 +11268,109 @@ exports.BattleSearchIndex = [
   [
     "ffall",
     "move",
-    982,
+    980,
     0
   ],
   [
     "ffang",
     "move",
-    939,
+    937,
     0
   ],
   [
     "ffeather",
     "item",
-    891,
+    889,
     0
   ],
   [
     "ffire",
     "ability",
-    973,
+    971,
     0
   ],
   [
     "ffish",
     "item",
-    1032,
+    1030,
     0
   ],
   [
     "fflare",
     "move",
-    1075,
+    1073,
     0
   ],
   [
     "ffrost",
     "move",
-    1038,
+    1036,
     0
   ],
   [
     "fgalar",
     "pokemon",
-    906,
+    904,
     0
   ],
   [
     "fgambit",
     "move",
-    934,
+    932,
     0
   ],
   [
     "fgem",
     "item",
-    892,
+    890,
     0
   ],
   [
     "fgem",
     "item",
-    928,
+    926,
     0
   ],
   [
     "fgem",
     "item",
-    940,
+    938,
     0
   ],
   [
     "fgem",
     "item",
-    1010,
+    1008,
     0
   ],
   [
     "fgift",
     "ability",
-    999,
+    997,
     0
   ],
   [
     "fglare",
     "move",
-    1037,
+    1035,
     0
   ],
   [
     "fguard",
     "ability",
-    1042,
+    1040,
     0
   ],
   [
     "fheal",
     "item",
-    1055,
+    1053,
     0
   ],
   [
     "fhealing",
     "move",
-    993,
+    991,
     0
   ],
   [
@@ -11410,7 +11402,7 @@ exports.BattleSearchIndex = [
   [
     "fighting",
     "pokemon",
-    2735,
+    2732,
     8
   ],
   [
@@ -11444,13 +11436,13 @@ exports.BattleSearchIndex = [
   [
     "fimpression",
     "move",
-    948,
+    946,
     0
   ],
   [
     "finale0",
     "location",
-    3434,
+    3431,
     7
   ],
   [
@@ -11460,13 +11452,13 @@ exports.BattleSearchIndex = [
   [
     "fincense",
     "item",
-    1056,
+    1054,
     0
   ],
   [
     "fini",
     "pokemon",
-    3095,
+    3092,
     4
   ],
   [
@@ -11480,19 +11472,19 @@ exports.BattleSearchIndex = [
   [
     "fire",
     "ability",
-    973,
+    971,
     5
   ],
   [
     "fire",
     "move",
-    1944,
+    1942,
     8
   ],
   [
     "fire",
     "move",
-    2551,
+    2548,
     6
   ],
   [
@@ -11504,13 +11496,13 @@ exports.BattleSearchIndex = [
   [
     "fire",
     "pokemon",
-    1184,
+    1182,
     7
   ],
   [
     "fire",
     "pokemon",
-    2736,
+    2733,
     8
   ],
   [
@@ -11560,7 +11552,7 @@ exports.BattleSearchIndex = [
   [
     "first",
     "move",
-    1777,
+    1775,
     2
   ],
   [
@@ -11570,7 +11562,7 @@ exports.BattleSearchIndex = [
   [
     "fish",
     "item",
-    1032,
+    1030,
     10
   ],
   [
@@ -11584,19 +11576,19 @@ exports.BattleSearchIndex = [
   [
     "fist",
     "ability",
-    1453,
+    1451,
     4
   ],
   [
     "fist",
     "ability",
-    3395,
+    3392,
     6
   ],
   [
     "fist",
     "move",
-    2354,
+    2351,
     4
   ],
   [
@@ -11606,7 +11598,7 @@ exports.BattleSearchIndex = [
   [
     "fists",
     "move",
-    2189,
+    2186,
     6
   ],
   [
@@ -11682,19 +11674,19 @@ exports.BattleSearchIndex = [
   [
     "flare",
     "move",
-    1075,
+    1073,
     6
   ],
   [
     "flare",
     "move",
-    2648,
+    2645,
     4
   ],
   [
     "flare",
     "move",
-    3122,
+    3119,
     6
   ],
   [
@@ -11716,7 +11708,7 @@ exports.BattleSearchIndex = [
   [
     "flash",
     "move",
-    941,
+    939,
     0
   ],
   [
@@ -11770,7 +11762,7 @@ exports.BattleSearchIndex = [
   [
     "flock",
     "move",
-    893,
+    891,
     0
   ],
   [
@@ -11882,25 +11874,25 @@ exports.BattleSearchIndex = [
   [
     "flute",
     "item",
-    2215,
+    2212,
     4
   ],
   [
     "flute",
     "item",
-    2398,
+    2396,
     3
   ],
   [
     "flute",
     "item",
-    3530,
+    3527,
     5
   ],
   [
     "flute",
     "item",
-    3595,
+    3592,
     6
   ],
   [
@@ -11910,7 +11902,7 @@ exports.BattleSearchIndex = [
   [
     "flux",
     "move",
-    1713,
+    1711,
     8
   ],
   [
@@ -11930,7 +11922,7 @@ exports.BattleSearchIndex = [
   [
     "flying",
     "pokemon",
-    2737,
+    2734,
     8
   ],
   [
@@ -11956,85 +11948,85 @@ exports.BattleSearchIndex = [
   [
     "fmail",
     "item",
-    886,
+    884,
     0
   ],
   [
     "fmane",
     "pokemon",
-    1006,
+    1004,
     0
   ],
   [
     "fmbody",
     "ability",
-    1057,
+    1055,
     0
   ],
   [
     "fme",
     "move",
-    1019,
+    1017,
     0
   ],
   [
     "fmega",
     "pokemon",
-    900,
+    898,
     0
   ],
   [
     "fmega",
     "pokemon",
-    917,
+    915,
     0
   ],
   [
     "fmega",
     "pokemon",
-    987,
+    985,
     0
   ],
   [
     "fmega",
     "pokemon",
-    1050,
+    1048,
     0
   ],
   [
     "fmemory",
     "item",
-    894,
+    892,
     0
   ],
   [
     "fmemory",
     "item",
-    929,
+    927,
     0
   ],
   [
     "fmemory",
     "item",
-    942,
+    940,
     0
   ],
   [
     "fmemory",
     "item",
-    1011,
+    1009,
     0
   ],
   [
     "focus",
     "ability",
-    1438,
+    1436,
     5
   ],
   [
     "focus",
     "move",
-    1550,
+    1548,
     5
   ],
   [
@@ -12072,37 +12064,37 @@ exports.BattleSearchIndex = [
   [
     "forb",
     "item",
-    962,
+    960,
     0
   ],
   [
     "force",
     "ability",
-    2574,
+    2571,
     4
   ],
   [
     "force",
     "ability",
-    2686,
+    2683,
     5
   ],
   [
     "force",
     "move",
-    872,
+    870,
     9
   ],
   [
     "force",
     "move",
-    2138,
+    2135,
     7
   ],
   [
     "force",
     "move",
-    2665,
+    2662,
     6
   ],
   [
@@ -12124,7 +12116,7 @@ exports.BattleSearchIndex = [
   [
     "forever",
     "move",
-    1583,
+    1581,
     11
   ],
   [
@@ -12148,55 +12140,55 @@ exports.BattleSearchIndex = [
   [
     "fossil",
     "item",
-    475,
+    474,
     4
   ],
   [
     "fossil",
     "item",
-    550,
+    548,
     5
   ],
   [
     "fossil",
     "item",
-    684,
+    682,
     4
   ],
   [
     "fossil",
     "item",
-    1321,
+    1319,
     5
   ],
   [
     "fossil",
     "item",
-    1469,
+    1467,
     3
   ],
   [
     "fossil",
     "item",
-    2193,
+    2190,
     5
   ],
   [
     "fossil",
     "item",
-    2488,
+    2486,
     4
   ],
   [
     "fossil",
     "item",
-    2562,
+    2559,
     4
   ],
   [
     "fossil",
     "item",
-    2777,
+    2774,
     5
   ],
   [
@@ -12222,73 +12214,73 @@ exports.BattleSearchIndex = [
   [
     "four",
     "pokemon",
-    1756,
+    1754,
     8
   ],
   [
     "fout",
     "move",
-    896,
+    894,
     0
   ],
   [
     "fpalm",
     "move",
-    1022,
+    1020,
     0
   ],
   [
     "fpath",
     "location",
-    925,
+    923,
     0
   ],
   [
     "fplant",
     "move",
-    1039,
+    1037,
     0
   ],
   [
     "fplate",
     "item",
-    951,
+    949,
     0
   ],
   [
     "fplate",
     "item",
-    963,
+    961,
     0
   ],
   [
     "fplay",
     "move",
-    1033,
+    1031,
     0
   ],
   [
     "fpledge",
     "move",
-    943,
+    941,
     0
   ],
   [
     "fpress",
     "move",
-    1012,
+    1010,
     0
   ],
   [
     "fpunch",
     "move",
-    944,
+    942,
     0
   ],
   [
     "fpunch",
     "move",
-    1017,
+    1015,
     0
   ],
   [
@@ -12314,7 +12306,7 @@ exports.BattleSearchIndex = [
   [
     "frend",
     "move",
-    949,
+    947,
     0
   ],
   [
@@ -12328,7 +12320,7 @@ exports.BattleSearchIndex = [
   [
     "frestore",
     "item",
-    1058,
+    1056,
     0
   ],
   [
@@ -12384,13 +12376,13 @@ exports.BattleSearchIndex = [
   [
     "frost",
     "move",
-    1038,
+    1036,
     6
   ],
   [
     "frost",
     "pokemon",
-    2497,
+    2494,
     5
   ],
   [
@@ -12404,103 +12396,103 @@ exports.BattleSearchIndex = [
   [
     "fsash",
     "item",
-    1018,
+    1016,
     0
   ],
   [
     "fshield",
     "move",
-    1000,
+    998,
     0
   ],
   [
     "fshock",
     "move",
-    1036,
+    1034,
     0
   ],
   [
     "fsight",
     "move",
-    1076,
+    1074,
     0
   ],
   [
     "fspin",
     "move",
-    945,
+    943,
     0
   ],
   [
     "fstinger",
     "move",
-    914,
+    912,
     0
   ],
   [
     "fstone",
     "item",
-    946,
+    944,
     0
   ],
   [
     "fstone",
     "item",
-    981,
+    979,
     0
   ],
   [
     "fsurrender",
     "move",
-    902,
+    900,
     0
   ],
   [
     "fsweet",
     "item",
-    1001,
+    999,
     0
   ],
   [
     "fswipe",
     "move",
-    903,
+    901,
     0
   ],
   [
     "fswipes",
     "move",
-    1073,
+    1071,
     0
   ],
   [
     "ft0",
     "location",
-    901,
+    899,
     0
   ],
   [
     "ftail",
     "item",
-    1005,
+    1003,
     0
   ],
   [
     "ftears",
     "move",
-    897,
+    895,
     0
   ],
   [
     "ftrick",
     "move",
-    1002,
+    1000,
     0
   ],
   [
     "fturn",
     "move",
-    979,
+    977,
     0
   ],
   [
@@ -12574,13 +12566,13 @@ exports.BattleSearchIndex = [
   [
     "fury",
     "move",
-    1386,
+    1384,
     10
   ],
   [
     "fury",
     "move",
-    2358,
+    2355,
     6
   ],
   [
@@ -12610,55 +12602,55 @@ exports.BattleSearchIndex = [
   [
     "fveil",
     "ability",
-    1003,
+    1001,
     0
   ],
   [
     "fwater",
     "item",
-    1040,
+    1038,
     0
   ],
   [
     "fwheel",
     "move",
-    965,
+    963,
     0
   ],
   [
     "fwind",
     "move",
-    895,
+    893,
     0
   ],
   [
     "fwrath",
     "move",
-    926,
+    924,
     0
   ],
   [
     "fz",
     "item",
-    888,
+    886,
     0
   ],
   [
     "fz",
     "item",
-    930,
+    928,
     0
   ],
   [
     "fz",
     "item",
-    947,
+    945,
     0
   ],
   [
     "fz",
     "item",
-    1013,
+    1011,
     0
   ],
   [
@@ -12668,13 +12660,13 @@ exports.BattleSearchIndex = [
   [
     "gacid",
     "move",
-    1099,
+    1097,
     0
   ],
   [
     "gagold",
     "ability",
-    1171,
+    1169,
     0
   ],
   [
@@ -12686,109 +12678,109 @@ exports.BattleSearchIndex = [
   [
     "galar",
     "pokemon",
-    536,
+    535,
     7
   ],
   [
     "galar",
     "pokemon",
-    609,
+    607,
     10
   ],
   [
     "galar",
     "pokemon",
-    611,
+    609,
     13
   ],
   [
     "galar",
     "pokemon",
-    614,
+    612,
     8
   ],
   [
     "galar",
     "pokemon",
-    906,
+    904,
     9
   ],
   [
     "galar",
     "pokemon",
-    1612,
+    1610,
     7
   ],
   [
     "galar",
     "pokemon",
-    1801,
+    1799,
     6
   ],
   [
     "galar",
     "pokemon",
-    1890,
+    1888,
     7
   ],
   [
     "galar",
     "pokemon",
-    1911,
+    1909,
     6
   ],
   [
     "galar",
     "pokemon",
-    2229,
+    2226,
     6
   ],
   [
     "galar",
     "pokemon",
-    2372,
+    2369,
     8
   ],
   [
     "galar",
     "pokemon",
-    2801,
+    2798,
     7
   ],
   [
     "galar",
     "pokemon",
-    2805,
+    2802,
     8
   ],
   [
     "galar",
     "pokemon",
-    2807,
+    2804,
     8
   ],
   [
     "galar",
     "pokemon",
-    3010,
+    3007,
     8
   ],
   [
     "galar",
     "pokemon",
-    3518,
+    3515,
     7
   ],
   [
     "galar",
     "pokemon",
-    3608,
+    3605,
     6
   ],
   [
     "galar",
     "pokemon",
-    3621,
+    3618,
     9
   ],
   [
@@ -12806,13 +12798,13 @@ exports.BattleSearchIndex = [
   [
     "gale",
     "move",
-    1908,
+    1906,
     8
   ],
   [
     "galette",
     "item",
-    1652,
+    1650,
     7
   ],
   [
@@ -12834,25 +12826,25 @@ exports.BattleSearchIndex = [
   [
     "galola",
     "pokemon",
-    1116,
+    1114,
     0
   ],
   [
     "galola",
     "pokemon",
-    1163,
+    1161,
     0
   ],
   [
     "galola",
     "pokemon",
-    1211,
+    1209,
     0
   ],
   [
     "galola",
     "pokemon",
-    1226,
+    1224,
     0
   ],
   [
@@ -12866,7 +12858,7 @@ exports.BattleSearchIndex = [
   [
     "gambit",
     "move",
-    934,
+    932,
     5
   ],
   [
@@ -12876,13 +12868,13 @@ exports.BattleSearchIndex = [
   [
     "gapple",
     "move",
-    1209,
+    1207,
     0
   ],
   [
     "gapricorn",
     "item",
-    1217,
+    1215,
     0
   ],
   [
@@ -12928,25 +12920,25 @@ exports.BattleSearchIndex = [
   [
     "gas",
     "ability",
-    1980,
+    1978,
     12
   ],
   [
     "gas",
     "move",
-    534,
+    533,
     9
   ],
   [
     "gas",
     "move",
-    2200,
+    2197,
     6
   ],
   [
     "gash",
     "pokemon",
-    1221,
+    1219,
     0
   ],
   [
@@ -12968,127 +12960,127 @@ exports.BattleSearchIndex = [
   [
     "gateau",
     "item",
-    2053,
+    2051,
     3
   ],
   [
     "gather",
     "ability",
-    1351,
+    1349,
     5
   ],
   [
     "gball",
     "item",
-    1213,
+    1211,
     0
   ],
   [
     "gball",
     "move",
-    1266,
+    1264,
     0
   ],
   [
     "gbcap",
     "item",
-    1158,
+    1156,
     0
   ],
   [
     "gberry",
     "item",
-    1087,
+    1085,
     0
   ],
   [
     "gberry",
     "item",
-    1224,
+    1222,
     0
   ],
   [
     "gburn",
     "pokemon",
-    1105,
+    1103,
     0
   ],
   [
     "gc1f",
     "location",
-    1193,
+    1191,
     0
   ],
   [
     "gc2f",
     "location",
-    1194,
+    1192,
     0
   ],
   [
     "gcf",
     "location",
-    1192,
+    1190,
     0
   ],
   [
     "gchill",
     "pokemon",
-    1106,
+    1104,
     0
   ],
   [
     "gclaw",
     "item",
-    1229,
+    1227,
     0
   ],
   [
     "gcoin",
     "item",
-    1130,
+    1128,
     0
   ],
   [
     "gcore",
     "item",
-    1230,
+    1228,
     0
   ],
   [
     "gcroom",
     "location",
-    1195,
+    1193,
     0
   ],
   [
     "gcuff",
     "item",
-    1078,
+    1076,
     0
   ],
   [
     "gdog",
     "ability",
-    1249,
+    1247,
     0
   ],
   [
     "gdouse",
     "pokemon",
-    1107,
+    1105,
     0
   ],
   [
     "gdrain",
     "move",
-    1124,
+    1122,
     0
   ],
   [
     "gear",
     "move",
-    2701,
+    2698,
     5
   ],
   [
@@ -13108,109 +13100,109 @@ exports.BattleSearchIndex = [
   [
     "gem",
     "item",
-    600,
+    598,
     4
   ],
   [
     "gem",
     "item",
-    719,
+    717,
     6
   ],
   [
     "gem",
     "item",
-    810,
+    808,
     8
   ],
   [
     "gem",
     "item",
-    892,
+    890,
     5
   ],
   [
     "gem",
     "item",
-    928,
+    926,
     8
   ],
   [
     "gem",
     "item",
-    940,
+    938,
     4
   ],
   [
     "gem",
     "item",
-    1010,
+    1008,
     6
   ],
   [
     "gem",
     "item",
-    1120,
+    1118,
     5
   ],
   [
     "gem",
     "item",
-    1198,
+    1196,
     5
   ],
   [
     "gem",
     "item",
-    1237,
+    1235,
     6
   ],
   [
     "gem",
     "item",
-    1400,
+    1398,
     3
   ],
   [
     "gem",
     "item",
-    2014,
+    2012,
     6
   ],
   [
     "gem",
     "item",
-    2201,
+    2198,
     6
   ],
   [
     "gem",
     "item",
-    2290,
+    2287,
     7
   ],
   [
     "gem",
     "item",
-    2465,
+    2463,
     4
   ],
   [
     "gem",
     "item",
-    2969,
+    2966,
     5
   ],
   [
     "gem",
     "item",
-    3495,
+    3492,
     5
   ],
   [
     "gem",
     "move",
-    2247,
+    2244,
     5
   ],
   [
@@ -13278,85 +13270,85 @@ exports.BattleSearchIndex = [
   [
     "geyser",
     "move",
-    2142,
+    2139,
     6
   ],
   [
     "gfeather",
     "item",
-    1113,
+    1111,
     0
   ],
   [
     "gfire",
     "pokemon",
-    1184,
+    1182,
     0
   ],
   [
     "ggem",
     "item",
-    1120,
+    1118,
     0
   ],
   [
     "ggem",
     "item",
-    1198,
+    1196,
     0
   ],
   [
     "ggem",
     "item",
-    1237,
+    1235,
     0
   ],
   [
     "gglide",
     "move",
-    1205,
+    1203,
     0
   ],
   [
     "gglow",
     "move",
-    1152,
+    1150,
     0
   ],
   [
     "ggoggles",
     "item",
-    1156,
+    1154,
     0
   ],
   [
     "ggrind",
     "move",
-    1102,
+    1100,
     0
   ],
   [
     "ghammer",
     "move",
-    1127,
+    1125,
     0
   ],
   [
     "ghavoc",
     "move",
-    1128,
+    1126,
     0
   ],
   [
     "ghisui",
     "pokemon",
-    1173,
+    1171,
     0
   ],
   [
     "ghisui",
     "pokemon",
-    1243,
+    1241,
     0
   ],
   [
@@ -13372,7 +13364,7 @@ exports.BattleSearchIndex = [
   [
     "ghost",
     "pokemon",
-    2738,
+    2735,
     8
   ],
   [
@@ -13398,13 +13390,13 @@ exports.BattleSearchIndex = [
   [
     "gift",
     "ability",
-    999,
+    997,
     6
   ],
   [
     "gift",
     "move",
-    1956,
+    1954,
     7
   ],
   [
@@ -13442,7 +13434,7 @@ exports.BattleSearchIndex = [
   [
     "gimpact",
     "move",
-    1125,
+    1123,
     0
   ],
   [
@@ -13460,7 +13452,7 @@ exports.BattleSearchIndex = [
   [
     "gknot",
     "move",
-    1200,
+    1198,
     0
   ],
   [
@@ -13498,7 +13490,7 @@ exports.BattleSearchIndex = [
   [
     "glance",
     "move",
-    1136,
+    1134,
     0
   ],
   [
@@ -13508,19 +13500,19 @@ exports.BattleSearchIndex = [
   [
     "glare",
     "move",
-    1037,
+    1035,
     8
   ],
   [
     "glarge",
     "pokemon",
-    1186,
+    1184,
     0
   ],
   [
     "glass",
     "item",
-    2438,
+    2436,
     6
   ],
   [
@@ -13532,7 +13524,7 @@ exports.BattleSearchIndex = [
   [
     "glasses",
     "item",
-    3549,
+    3546,
     4
   ],
   [
@@ -13542,13 +13534,13 @@ exports.BattleSearchIndex = [
   [
     "gleam",
     "move",
-    618,
+    616,
     8
   ],
   [
     "glide",
     "move",
-    1205,
+    1203,
     6
   ],
   [
@@ -13586,7 +13578,7 @@ exports.BattleSearchIndex = [
   [
     "globe",
     "item",
-    1663,
+    1661,
     8
   ],
   [
@@ -13596,19 +13588,19 @@ exports.BattleSearchIndex = [
   [
     "glove",
     "item",
-    2311,
+    2308,
     8
   ],
   [
     "glow",
     "move",
-    1152,
+    1150,
     6
   ],
   [
     "glow",
     "move",
-    3079,
+    3076,
     4
   ],
   [
@@ -13618,139 +13610,139 @@ exports.BattleSearchIndex = [
   [
     "gmail",
     "item",
-    1151,
+    1149,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1083,
+    1081,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1092,
+    1090,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1096,
+    1094,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1112,
+    1110,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1140,
+    1138,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1148,
+    1146,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1167,
+    1165,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1170,
+    1168,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1222,
+    1220,
     0
   ],
   [
     "gmega",
     "pokemon",
-    1265,
+    1263,
     0
   ],
   [
     "gmemory",
     "item",
-    1122,
+    1120,
     0
   ],
   [
     "gmemory",
     "item",
-    1201,
+    1199,
     0
   ],
   [
     "gmemory",
     "item",
-    1239,
+    1237,
     0
   ],
   [
     "gmint",
     "item",
-    1114,
+    1112,
     0
   ],
   [
     "gmissile",
     "ability",
-    1256,
+    1254,
     0
   ],
   [
     "gmulch",
     "item",
-    1176,
+    1174,
     0
   ],
   [
     "gmulch",
     "item",
-    1245,
+    1243,
     0
   ],
   [
     "gmz",
     "pokemon",
-    1093,
+    1091,
     0
   ],
   [
     "gneigh",
     "ability",
-    1228,
+    1226,
     0
   ],
   [
     "goalola",
     "move",
-    1250,
+    1248,
     0
   ],
   [
     "goggles",
     "item",
-    1156,
+    1154,
     2
   ],
   [
     "goggles",
     "item",
-    2561,
+    2558,
     6
   ],
   [
@@ -13768,13 +13760,13 @@ exports.BattleSearchIndex = [
   [
     "gold",
     "ability",
-    1171,
+    1169,
     6
   ],
   [
     "gold",
     "item",
-    2420,
+    2418,
     5
   ],
   [
@@ -13860,7 +13852,7 @@ exports.BattleSearchIndex = [
   [
     "gorb",
     "item",
-    1231,
+    1229,
     0
   ],
   [
@@ -13870,13 +13862,13 @@ exports.BattleSearchIndex = [
   [
     "gorging",
     "pokemon",
-    562,
+    560,
     9
   ],
   [
     "gorigin",
     "pokemon",
-    1134,
+    1132,
     0
   ],
   [
@@ -13890,7 +13882,7 @@ exports.BattleSearchIndex = [
   [
     "gotcha",
     "move",
-    1754,
+    1752,
     6
   ],
   [
@@ -13928,25 +13920,25 @@ exports.BattleSearchIndex = [
   [
     "gpelt",
     "ability",
-    1202,
+    1200,
     0
   ],
   [
     "gpledge",
     "move",
-    1203,
+    1201,
     0
   ],
   [
     "gprimal",
     "pokemon",
-    1235,
+    1233,
     0
   ],
   [
     "grace",
     "ability",
-    2656,
+    2653,
     6
   ],
   [
@@ -13964,7 +13956,7 @@ exports.BattleSearchIndex = [
   [
     "grandecity",
     "location",
-    863,
+    861,
     4
   ],
   [
@@ -13996,7 +13988,7 @@ exports.BattleSearchIndex = [
   [
     "grass",
     "pokemon",
-    2739,
+    2736,
     8
   ],
   [
@@ -14130,19 +14122,19 @@ exports.BattleSearchIndex = [
   [
     "grind",
     "move",
-    1102,
+    1100,
     4
   ],
   [
     "grip",
     "move",
-    575,
+    573,
     5
   ],
   [
     "grip",
     "move",
-    3446,
+    3443,
     4
   ],
   [
@@ -14160,13 +14152,13 @@ exports.BattleSearchIndex = [
   [
     "groaming",
     "pokemon",
-    1131,
+    1129,
     0
   ],
   [
     "grod",
     "item",
-    1174,
+    1172,
     0
   ],
   [
@@ -14180,7 +14172,7 @@ exports.BattleSearchIndex = [
   [
     "grotto0",
     "location",
-    3424,
+    3421,
     10
   ],
   [
@@ -14200,7 +14192,7 @@ exports.BattleSearchIndex = [
   [
     "ground",
     "pokemon",
-    2740,
+    2737,
     8
   ],
   [
@@ -14228,31 +14220,31 @@ exports.BattleSearchIndex = [
   [
     "grove0",
     "location",
-    1618,
+    1616,
     10
   ],
   [
     "grove0",
     "location",
-    2050,
+    2048,
     6
   ],
   [
     "grove0",
     "location",
-    2131,
+    2128,
     9
   ],
   [
     "grove0",
     "location",
-    2506,
+    2503,
     8
   ],
   [
     "grove0",
     "location",
-    2542,
+    2539,
     8
   ],
   [
@@ -14294,157 +14286,157 @@ exports.BattleSearchIndex = [
   [
     "grush",
     "move",
-    1138,
+    1136,
     0
   ],
   [
     "gscarf",
     "item",
-    1218,
+    1216,
     0
   ],
   [
     "gseed",
     "item",
-    1206,
+    1204,
     0
   ],
   [
     "gshard",
     "item",
-    1219,
+    1217,
     0
   ],
   [
     "gshock",
     "pokemon",
-    1108,
+    1106,
     0
   ],
   [
     "gshot",
     "move",
-    1258,
+    1256,
     0
   ],
   [
     "gsmall",
     "pokemon",
-    1187,
+    1185,
     0
   ],
   [
     "gspec",
     "item",
-    1251,
+    1249,
     0
   ],
   [
     "gsplit",
     "move",
-    1252,
+    1250,
     0
   ],
   [
     "gsuper",
     "pokemon",
-    1188,
+    1186,
     0
   ],
   [
     "gsupernova",
     "move",
-    1109,
+    1107,
     0
   ],
   [
     "gsurge",
     "ability",
-    1207,
+    1205,
     0
   ],
   [
     "gswap",
     "move",
-    1253,
+    1251,
     0
   ],
   [
     "gtactics",
     "ability",
-    1179,
+    1177,
     0
   ],
   [
     "gteeth",
     "item",
-    1160,
+    1158,
     0
   ],
   [
     "gterrain",
     "move",
-    1208,
+    1206,
     0
   ],
   [
     "gtusk",
     "pokemon",
-    1214,
+    1212,
     0
   ],
   [
     "gtwig",
     "item",
-    1079,
+    1077,
     0
   ],
   [
     "guard",
     "ability",
-    1042,
+    1040,
     6
   ],
   [
     "guard",
     "ability",
-    1568,
+    1566,
     4
   ],
   [
     "guard",
     "ability",
-    1691,
+    1689,
     5
   ],
   [
     "guard",
     "ability",
-    2005,
+    2003,
     2
   ],
   [
     "guard",
     "ability",
-    3557,
+    3554,
     6
   ],
   [
     "guard",
     "move",
-    546,
+    544,
     6
   ],
   [
     "guard",
     "move",
-    2341,
+    2338,
     5
   ],
   [
     "guard",
     "move",
-    3535,
+    3532,
     4
   ],
   [
@@ -14478,7 +14470,7 @@ exports.BattleSearchIndex = [
   [
     "gulping",
     "pokemon",
-    563,
+    561,
     9
   ],
   [
@@ -14492,7 +14484,7 @@ exports.BattleSearchIndex = [
   [
     "gun",
     "move",
-    3496,
+    3493,
     5
   ],
   [
@@ -14502,7 +14494,7 @@ exports.BattleSearchIndex = [
   [
     "gup",
     "move",
-    1103,
+    1101,
     0
   ],
   [
@@ -14524,19 +14516,19 @@ exports.BattleSearchIndex = [
   [
     "gwhistle",
     "move",
-    1204,
+    1202,
     0
   ],
   [
     "gwings",
     "ability",
-    1081,
+    1079,
     0
   ],
   [
     "gwreath",
     "item",
-    1080,
+    1078,
     0
   ],
   [
@@ -14558,25 +14550,25 @@ exports.BattleSearchIndex = [
   [
     "gz",
     "item",
-    1091,
+    1089,
     0
   ],
   [
     "gz",
     "item",
-    1121,
+    1119,
     0
   ],
   [
     "gz",
     "item",
-    1199,
+    1197,
     0
   ],
   [
     "gz",
     "item",
-    1238,
+    1236,
     0
   ],
   [
@@ -14594,7 +14586,7 @@ exports.BattleSearchIndex = [
   [
     "hair",
     "ability",
-    3092,
+    3089,
     8
   ],
   [
@@ -14604,25 +14596,25 @@ exports.BattleSearchIndex = [
   [
     "hammer",
     "move",
-    720,
+    718,
     6
   ],
   [
     "hammer",
     "move",
-    1127,
+    1125,
     7
   ],
   [
     "hammer",
     "move",
-    1401,
+    1399,
     3
   ],
   [
     "hammer",
     "move",
-    3561,
+    3558,
     4
   ],
   [
@@ -14632,31 +14624,31 @@ exports.BattleSearchIndex = [
   [
     "hand",
     "move",
-    1322,
+    1320,
     7
   ],
   [
     "hand",
     "move",
-    3397,
+    3394,
     5
   ],
   [
     "hands",
     "move",
-    1345,
+    1343,
     4
   ],
   [
     "hands",
     "pokemon",
-    1454,
+    1452,
     4
   ],
   [
     "hangry",
     "pokemon",
-    1903,
+    1901,
     7
   ],
   [
@@ -14690,7 +14682,7 @@ exports.BattleSearchIndex = [
   [
     "harm",
     "move",
-    1271,
+    1269,
     0
   ],
   [
@@ -14708,7 +14700,7 @@ exports.BattleSearchIndex = [
   [
     "hattack",
     "move",
-    1357,
+    1355,
     0
   ],
   [
@@ -14726,7 +14718,7 @@ exports.BattleSearchIndex = [
   [
     "havoc",
     "move",
-    1128,
+    1126,
     8
   ],
   [
@@ -14752,109 +14744,109 @@ exports.BattleSearchIndex = [
   [
     "hback",
     "move",
-    1344,
+    1342,
     0
   ],
   [
     "hball",
     "item",
-    1294,
+    1292,
     0
   ],
   [
     "hball",
     "item",
-    1315,
+    1313,
     0
   ],
   [
     "hbeam",
     "move",
-    1381,
+    1379,
     0
   ],
   [
     "hbell",
     "move",
-    1295,
+    1293,
     0
   ],
   [
     "hberry",
     "item",
-    1267,
+    1265,
     0
   ],
   [
     "hberry",
     "item",
-    1347,
+    1345,
     0
   ],
   [
     "hblock",
     "move",
-    1296,
+    1294,
     0
   ],
   [
     "hcannon",
     "move",
-    1377,
+    1375,
     0
   ],
   [
     "hcharge",
     "move",
-    1291,
+    1289,
     0
   ],
   [
     "hclaws",
     "move",
-    1348,
+    1346,
     0
   ],
   [
     "hcrash",
     "move",
-    1307,
+    1305,
     0
   ],
   [
     "hcutter",
     "ability",
-    1382,
+    1380,
     0
   ],
   [
     "hdboots",
     "item",
-    1316,
+    1314,
     0
   ],
   [
     "hdrill",
     "move",
-    1358,
+    1356,
     0
   ],
   [
     "hdrill",
     "move",
-    1383,
+    1381,
     0
   ],
   [
     "head",
     "ability",
-    2466,
+    2464,
     4
   ],
   [
     "head",
     "move",
-    1455,
+    1453,
     4
   ],
   [
@@ -14864,7 +14856,7 @@ exports.BattleSearchIndex = [
   [
     "headbutt",
     "move",
-    3614,
+    3611,
     3
   ],
   [
@@ -14882,7 +14874,7 @@ exports.BattleSearchIndex = [
   [
     "heal",
     "ability",
-    2202,
+    2199,
     6
   ],
   [
@@ -14894,19 +14886,19 @@ exports.BattleSearchIndex = [
   [
     "heal",
     "item",
-    1055,
+    1053,
     4
   ],
   [
     "heal",
     "item",
-    1402,
+    1400,
     3
   ],
   [
     "heal",
     "item",
-    2099,
+    2096,
     8
   ],
   [
@@ -14928,13 +14920,13 @@ exports.BattleSearchIndex = [
   [
     "healing",
     "move",
-    993,
+    991,
     6
   ],
   [
     "healing",
     "move",
-    1481,
+    1479,
     6
   ],
   [
@@ -14960,31 +14952,31 @@ exports.BattleSearchIndex = [
   [
     "heart",
     "ability",
-    2863,
+    2860,
     4
   ],
   [
     "heart",
     "item",
-    3054,
+    3051,
     5
   ],
   [
     "heart",
     "move",
-    3085,
+    3082,
     4
   ],
   [
     "hearthflame",
     "ability",
-    834,
+    832,
     12
   ],
   [
     "hearthflame",
     "pokemon",
-    2042,
+    2040,
     7
   ],
   [
@@ -14994,7 +14986,7 @@ exports.BattleSearchIndex = [
   [
     "hearthflametera",
     "pokemon",
-    2043,
+    2041,
     7
   ],
   [
@@ -15012,7 +15004,7 @@ exports.BattleSearchIndex = [
   [
     "heat",
     "pokemon",
-    2498,
+    2495,
     5
   ],
   [
@@ -15078,7 +15070,7 @@ exports.BattleSearchIndex = [
   [
     "helmet",
     "item",
-    2478,
+    2476,
     5
   ],
   [
@@ -15088,7 +15080,7 @@ exports.BattleSearchIndex = [
   [
     "hengine",
     "ability",
-    1268,
+    1266,
     0
   ],
   [
@@ -15106,31 +15098,31 @@ exports.BattleSearchIndex = [
   [
     "herb",
     "item",
-    1793,
+    1791,
     6
   ],
   [
     "herb",
     "item",
-    1876,
+    1874,
     6
   ],
   [
     "herb",
     "item",
-    2248,
+    2245,
     5
   ],
   [
     "herb",
     "item",
-    2443,
+    2441,
     7
   ],
   [
     "herb",
     "item",
-    3531,
+    3528,
     5
   ],
   [
@@ -15140,13 +15132,13 @@ exports.BattleSearchIndex = [
   [
     "hero",
     "ability",
-    3619,
+    3616,
     6
   ],
   [
     "hero",
     "pokemon",
-    2087,
+    2084,
     7
   ],
   [
@@ -15156,61 +15148,61 @@ exports.BattleSearchIndex = [
   [
     "hfang",
     "move",
-    1384,
+    1382,
     0
   ],
   [
     "hfeather",
     "item",
-    1302,
+    1300,
     0
   ],
   [
     "hfossil",
     "item",
-    1321,
+    1319,
     0
   ],
   [
     "hfury",
     "move",
-    1386,
+    1384,
     0
   ],
   [
     "hgather",
     "ability",
-    1351,
+    1349,
     0
   ],
   [
     "hhand",
     "move",
-    1322,
+    1320,
     0
   ],
   [
     "hhands",
     "move",
-    1345,
+    1343,
     0
   ],
   [
     "hhole",
     "move",
-    1387,
+    1385,
     0
   ],
   [
     "hhorsepower",
     "move",
-    1329,
+    1327,
     0
   ],
   [
     "hhour",
     "move",
-    1273,
+    1271,
     0
   ],
   [
@@ -15220,7 +15212,7 @@ exports.BattleSearchIndex = [
   [
     "hideout1f",
     "location",
-    1698,
+    1696,
     5
   ],
   [
@@ -15232,43 +15224,43 @@ exports.BattleSearchIndex = [
   [
     "hideout2f1r",
     "location",
-    1699,
+    1697,
     5
   ],
   [
     "hideout2f2r",
     "location",
-    1700,
+    1698,
     5
   ],
   [
     "hideout2f3r",
     "location",
-    1701,
+    1699,
     5
   ],
   [
     "hideout3f1r",
     "location",
-    1702,
+    1700,
     5
   ],
   [
     "hideout3f2r",
     "location",
-    1703,
+    1701,
     5
   ],
   [
     "hideout3f3r",
     "location",
-    1704,
+    1702,
     5
   ],
   [
     "hideout4f",
     "location",
-    1705,
+    1703,
     5
   ],
   [
@@ -15308,91 +15300,91 @@ exports.BattleSearchIndex = [
   [
     "hisui",
     "pokemon",
-    621,
+    619,
     9
   ],
   [
     "hisui",
     "pokemon",
-    820,
+    818,
     9
   ],
   [
     "hisui",
     "pokemon",
-    1173,
+    1171,
     6
   ],
   [
     "hisui",
     "pokemon",
-    1243,
+    1241,
     9
   ],
   [
     "hisui",
     "pokemon",
-    1605,
+    1603,
     9
   ],
   [
     "hisui",
     "pokemon",
-    2348,
+    2345,
     8
   ],
   [
     "hisui",
     "pokemon",
-    2571,
+    2568,
     8
   ],
   [
     "hisui",
     "pokemon",
-    2798,
+    2795,
     7
   ],
   [
     "hisui",
     "pokemon",
-    2829,
+    2826,
     7
   ],
   [
     "hisui",
     "pokemon",
-    3350,
+    3347,
     10
   ],
   [
     "hisui",
     "pokemon",
-    3473,
+    3470,
     7
   ],
   [
     "hisui",
     "pokemon",
-    3627,
+    3624,
     7
   ],
   [
     "hisui",
     "pokemon",
-    3629,
+    3626,
     5
   ],
   [
     "hit",
     "item",
-    671,
+    669,
     4
   ],
   [
     "hit",
     "move",
-    692,
+    690,
     6
   ],
   [
@@ -15410,13 +15402,13 @@ exports.BattleSearchIndex = [
   [
     "hjkick",
     "move",
-    1330,
+    1328,
     0
   ],
   [
     "hleech",
     "move",
-    1359,
+    1357,
     0
   ],
   [
@@ -15454,73 +15446,73 @@ exports.BattleSearchIndex = [
   [
     "hmail",
     "item",
-    1274,
+    1272,
     0
   ],
   [
     "hmask",
     "item",
-    1303,
+    1301,
     0
   ],
   [
     "hmega",
     "pokemon",
-    1286,
+    1284,
     0
   ],
   [
     "hmega",
     "pokemon",
-    1312,
+    1310,
     0
   ],
   [
     "hmega",
     "pokemon",
-    1325,
+    1323,
     0
   ],
   [
     "hmega",
     "pokemon",
-    1364,
+    1362,
     0
   ],
   [
     "hmetal",
     "ability",
-    1317,
+    1315,
     0
   ],
   [
     "hmint",
     "item",
-    1280,
+    1278,
     0
   ],
   [
     "ho",
     "pokemon",
-    1270,
+    1268,
     0
   ],
   [
     "hoenn",
     "pokemon",
-    2159,
+    2156,
     7
   ],
   [
     "hoh",
     "pokemon",
-    1352,
+    1350,
     0
   ],
   [
     "hold",
     "ability",
-    2983,
+    2980,
     6
   ],
   [
@@ -15534,7 +15526,7 @@ exports.BattleSearchIndex = [
   [
     "hole",
     "move",
-    1387,
+    1385,
     10
   ],
   [
@@ -15566,7 +15558,7 @@ exports.BattleSearchIndex = [
   [
     "honey",
     "item",
-    1763,
+    1761,
     3
   ],
   [
@@ -15596,7 +15588,7 @@ exports.BattleSearchIndex = [
   [
     "horder",
     "move",
-    1299,
+    1297,
     0
   ],
   [
@@ -15618,7 +15610,7 @@ exports.BattleSearchIndex = [
   [
     "horsepower",
     "move",
-    1329,
+    1327,
     4
   ],
   [
@@ -15648,7 +15640,7 @@ exports.BattleSearchIndex = [
   [
     "hour",
     "move",
-    1273,
+    1271,
     5
   ],
   [
@@ -15658,43 +15650,43 @@ exports.BattleSearchIndex = [
   [
     "hpotion",
     "item",
-    1385,
+    1383,
     0
   ],
   [
     "hpowder",
     "item",
-    1300,
+    1298,
     0
   ],
   [
     "hpower",
     "ability",
-    1369,
+    1367,
     0
   ],
   [
     "hpower",
     "move",
-    1328,
+    1326,
     0
   ],
   [
     "hpress",
     "move",
-    1276,
+    1274,
     0
   ],
   [
     "hpulse",
     "move",
-    1301,
+    1299,
     0
   ],
   [
     "hpump",
     "move",
-    1378,
+    1376,
     0
   ],
   [
@@ -15704,61 +15696,61 @@ exports.BattleSearchIndex = [
   [
     "hrock",
     "item",
-    1313,
+    1311,
     0
   ],
   [
     "hrush",
     "move",
-    1292,
+    1290,
     0
   ],
   [
     "hscale",
     "item",
-    1304,
+    1302,
     0
   ],
   [
     "hslam",
     "move",
-    1318,
+    1316,
     0
   ],
   [
     "hsmash",
     "move",
-    1293,
+    1291,
     0
   ],
   [
     "hstamp",
     "move",
-    1305,
+    1303,
     0
   ],
   [
     "hsteam",
     "move",
-    1379,
+    1377,
     0
   ],
   [
     "hstone",
     "item",
-    1277,
+    1275,
     0
   ],
   [
     "hswap",
     "move",
-    1306,
+    1304,
     0
   ],
   [
     "hswitch",
     "ability",
-    1370,
+    1368,
     0
   ],
   [
@@ -15768,7 +15760,7 @@ exports.BattleSearchIndex = [
   [
     "hunbound",
     "pokemon",
-    1354,
+    1352,
     0
   ],
   [
@@ -15782,7 +15774,7 @@ exports.BattleSearchIndex = [
   [
     "hup",
     "item",
-    1368,
+    1366,
     0
   ],
   [
@@ -15796,25 +15788,25 @@ exports.BattleSearchIndex = [
   [
     "hvoice",
     "move",
-    1388,
+    1386,
     0
   ],
   [
     "hvortex",
     "move",
-    1380,
+    1378,
     0
   ],
   [
     "hwave",
     "move",
-    1314,
+    1312,
     0
   ],
   [
     "hwish",
     "move",
-    1298,
+    1296,
     0
   ],
   [
@@ -15892,67 +15884,67 @@ exports.BattleSearchIndex = [
   [
     "iball",
     "item",
-    1447,
+    1445,
     0
   ],
   [
     "iball",
     "move",
-    1393,
+    1391,
     0
   ],
   [
     "ibarbs",
     "ability",
-    1448,
+    1446,
     0
   ],
   [
     "ibeam",
     "move",
-    1394,
+    1392,
     0
   ],
   [
     "iberry",
     "item",
-    1391,
+    1389,
     0
   ],
   [
     "ibody",
     "ability",
-    1395,
+    1393,
     0
   ],
   [
     "iboulder",
     "pokemon",
-    1449,
+    1447,
     0
   ],
   [
     "ibundle",
     "pokemon",
-    1450,
+    1448,
     0
   ],
   [
     "iburn",
     "move",
-    1396,
+    1394,
     0
   ],
   [
     "ic0",
     "location",
-    1398,
+    1396,
     0
   ],
   [
     "ice",
     "item",
-    1982,
+    1980,
     9
   ],
   [
@@ -15970,7 +15962,7 @@ exports.BattleSearchIndex = [
   [
     "ice",
     "pokemon",
-    2741,
+    2738,
     8
   ],
   [
@@ -16034,7 +16026,7 @@ exports.BattleSearchIndex = [
   [
     "iceroom",
     "location",
-    2708,
+    2705,
     16
   ],
   [
@@ -16072,19 +16064,19 @@ exports.BattleSearchIndex = [
   [
     "icrash",
     "move",
-    1409,
+    1407,
     0
   ],
   [
     "icrown",
     "pokemon",
-    1451,
+    1449,
     0
   ],
   [
     "icudgel",
     "move",
-    1464,
+    1462,
     0
   ],
   [
@@ -16098,49 +16090,49 @@ exports.BattleSearchIndex = [
   [
     "idefense",
     "move",
-    1452,
+    1450,
     0
   ],
   [
     "ideluge",
     "move",
-    1445,
+    1443,
     0
   ],
   [
     "if",
     "pokemon",
-    1428,
+    1426,
     0
   ],
   [
     "iface",
     "ability",
-    1397,
+    1395,
     0
   ],
   [
     "ifang",
     "move",
-    1399,
+    1397,
     0
   ],
   [
     "ifist",
     "ability",
-    1453,
+    1451,
     0
   ],
   [
     "ifocus",
     "ability",
-    1438,
+    1436,
     0
   ],
   [
     "igem",
     "item",
-    1400,
+    1398,
     0
   ],
   [
@@ -16150,37 +16142,37 @@ exports.BattleSearchIndex = [
   [
     "ihammer",
     "move",
-    1401,
+    1399,
     0
   ],
   [
     "ihands",
     "pokemon",
-    1454,
+    1452,
     0
   ],
   [
     "ihead",
     "move",
-    1455,
+    1453,
     0
   ],
   [
     "iheal",
     "item",
-    1402,
+    1400,
     0
   ],
   [
     "ijugulis",
     "pokemon",
-    1456,
+    1454,
     0
   ],
   [
     "ileaves",
     "pokemon",
-    1457,
+    1455,
     0
   ],
   [
@@ -16198,13 +16190,13 @@ exports.BattleSearchIndex = [
   [
     "imemory",
     "item",
-    1403,
+    1401,
     0
   ],
   [
     "imint",
     "item",
-    1421,
+    1419,
     0
   ],
   [
@@ -16214,13 +16206,13 @@ exports.BattleSearchIndex = [
   [
     "imoth",
     "pokemon",
-    1458,
+    1456,
     0
   ],
   [
     "impact",
     "move",
-    1125,
+    1123,
     4
   ],
   [
@@ -16238,7 +16230,7 @@ exports.BattleSearchIndex = [
   [
     "impression",
     "move",
-    948,
+    946,
     5
   ],
   [
@@ -16248,61 +16240,61 @@ exports.BattleSearchIndex = [
   [
     "impulse",
     "move",
-    793,
+    791,
     5
   ],
   [
     "incense",
     "item",
-    1056,
+    1054,
     4
   ],
   [
     "incense",
     "item",
-    1562,
+    1560,
     3
   ],
   [
     "incense",
     "item",
-    1642,
+    1640,
     4
   ],
   [
     "incense",
     "item",
-    2035,
+    2033,
     3
   ],
   [
     "incense",
     "item",
-    2315,
+    2312,
     4
   ],
   [
     "incense",
     "item",
-    2467,
+    2465,
     4
   ],
   [
     "incense",
     "item",
-    2489,
+    2487,
     4
   ],
   [
     "incense",
     "item",
-    2639,
+    2636,
     3
   ],
   [
     "incense",
     "item",
-    3509,
+    3506,
     4
   ],
   [
@@ -16368,7 +16360,7 @@ exports.BattleSearchIndex = [
   [
     "innerroom",
     "location",
-    2709,
+    2706,
     16
   ],
   [
@@ -16402,49 +16394,49 @@ exports.BattleSearchIndex = [
   [
     "iout",
     "ability",
-    1437,
+    1435,
     0
   ],
   [
     "ioverdrive",
     "move",
-    1432,
+    1430,
     0
   ],
   [
     "iparade",
     "move",
-    1429,
+    1427,
     0
   ],
   [
     "iplate",
     "item",
-    1410,
+    1408,
     0
   ],
   [
     "iplate",
     "item",
-    1439,
+    1437,
     0
   ],
   [
     "iplate",
     "item",
-    1459,
+    1457,
     0
   ],
   [
     "ipunch",
     "move",
-    1404,
+    1402,
     0
   ],
   [
     "irock",
     "item",
-    1413,
+    1411,
     0
   ],
   [
@@ -16462,7 +16454,7 @@ exports.BattleSearchIndex = [
   [
     "ironbash",
     "move",
-    693,
+    691,
     6
   ],
   [
@@ -16528,79 +16520,79 @@ exports.BattleSearchIndex = [
   [
     "iscales",
     "ability",
-    1405,
+    1403,
     0
   ],
   [
     "ishard",
     "move",
-    1406,
+    1404,
     0
   ],
   [
     "islandexterior0",
     "location",
-    2866,
+    2863,
     8
   ],
   [
     "islandinterior0",
     "location",
-    2867,
+    2864,
     8
   ],
   [
     "ispear",
     "move",
-    1411,
+    1409,
     0
   ],
   [
     "ispinner",
     "move",
-    1407,
+    1405,
     0
   ],
   [
     "istone",
     "item",
-    1408,
+    1406,
     0
   ],
   [
     "isword",
     "ability",
-    1444,
+    1442,
     0
   ],
   [
     "itail",
     "move",
-    1460,
+    1458,
     0
   ],
   [
     "ithorns",
     "pokemon",
-    1461,
+    1459,
     0
   ],
   [
     "itrain",
     "move",
-    1721,
+    1719,
     4
   ],
   [
     "itreads",
     "pokemon",
-    1462,
+    1460,
     0
   ],
   [
     "ivaliant",
     "pokemon",
-    1463,
+    1461,
     0
   ],
   [
@@ -16614,25 +16606,25 @@ exports.BattleSearchIndex = [
   [
     "iwind",
     "move",
-    1414,
-    0
-  ],
-  [
-    "iz",
-    "item",
     1412,
     0
   ],
   [
     "iz",
     "item",
-    1426,
+    1410,
+    0
+  ],
+  [
+    "iz",
+    "item",
+    1424,
     0
   ],
   [
     "jab",
     "move",
-    2204,
+    2201,
     6
   ],
   [
@@ -16656,13 +16648,13 @@ exports.BattleSearchIndex = [
   [
     "jar",
     "item",
-    2240,
+    2237,
     6
   ],
   [
     "jaw",
     "ability",
-    3004,
+    3001,
     6
   ],
   [
@@ -16676,7 +16668,7 @@ exports.BattleSearchIndex = [
   [
     "jberry",
     "item",
-    1466,
+    1464,
     0
   ],
   [
@@ -16702,13 +16694,13 @@ exports.BattleSearchIndex = [
   [
     "jfossil",
     "item",
-    1469,
+    1467,
     0
   ],
   [
     "jhealing",
     "move",
-    1481,
+    1479,
     0
   ],
   [
@@ -16722,25 +16714,25 @@ exports.BattleSearchIndex = [
   [
     "jkick",
     "move",
-    1479,
+    1477,
     0
   ],
   [
     "jlock",
     "move",
-    1470,
+    1468,
     0
   ],
   [
     "jmint",
     "item",
-    1475,
+    1473,
     0
   ],
   [
     "jo",
     "pokemon",
-    1468,
+    1466,
     0
   ],
   [
@@ -16758,19 +16750,19 @@ exports.BattleSearchIndex = [
   [
     "jpass",
     "location",
-    1467,
+    1465,
     0
   ],
   [
     "jpunch",
     "move",
-    1472,
+    1470,
     0
   ],
   [
     "jr",
     "pokemon",
-    1842,
+    1840,
     4
   ],
   [
@@ -16780,7 +16772,7 @@ exports.BattleSearchIndex = [
   [
     "jugulis",
     "pokemon",
-    1456,
+    1454,
     4
   ],
   [
@@ -16796,7 +16788,7 @@ exports.BattleSearchIndex = [
   [
     "jumpkick",
     "move",
-    1330,
+    1328,
     4
   ],
   [
@@ -16834,7 +16826,7 @@ exports.BattleSearchIndex = [
   [
     "kalos",
     "pokemon",
-    2160,
+    2157,
     7
   ],
   [
@@ -16868,7 +16860,13 @@ exports.BattleSearchIndex = [
   [
     "kberry",
     "item",
-    1494,
+    1492,
+    0
+  ],
+  [
+    "kberry",
+    "item",
+    1493,
     0
   ],
   [
@@ -16880,31 +16878,25 @@ exports.BattleSearchIndex = [
   [
     "kberry",
     "item",
-    1497,
-    0
-  ],
-  [
-    "kberry",
-    "item",
-    1501,
+    1499,
     0
   ],
   [
     "kblack",
     "pokemon",
-    1537,
+    1535,
     0
   ],
   [
     "kchop",
     "move",
-    1491,
+    1489,
     0
   ],
   [
     "kcleave",
     "move",
-    1527,
+    1525,
     0
   ],
   [
@@ -16944,43 +16936,43 @@ exports.BattleSearchIndex = [
   [
     "key",
     "item",
-    386,
+    385,
     4
   ],
   [
     "key",
     "item",
-    1595,
+    1593,
     4
   ],
   [
     "key",
     "item",
-    2644,
+    2641,
     6
   ],
   [
     "key",
     "item",
-    2993,
+    2990,
     7
   ],
   [
     "key",
     "pokemon",
-    3311,
+    3308,
     13
   ],
   [
     "keye",
     "ability",
-    1498,
+    1496,
     0
   ],
   [
     "keystone",
     "item",
-    2037,
+    2035,
     3
   ],
   [
@@ -17014,55 +17006,55 @@ exports.BattleSearchIndex = [
   [
     "kick",
     "move",
-    694,
+    692,
     6
   ],
   [
     "kick",
     "move",
-    1330,
+    1328,
     8
   ],
   [
     "kick",
     "move",
-    1479,
+    1477,
     4
   ],
   [
     "kick",
     "move",
-    1635,
+    1633,
     3
   ],
   [
     "kick",
     "move",
-    1780,
+    1778,
     4
   ],
   [
     "kick",
     "move",
-    2482,
+    2480,
     7
   ],
   [
     "kick",
     "move",
-    3157,
+    3154,
     10
   ],
   [
     "kick",
     "move",
-    3329,
+    3326,
     6
   ],
   [
     "kick",
     "move",
-    3332,
+    3329,
     4
   ],
   [
@@ -17100,19 +17092,19 @@ exports.BattleSearchIndex = [
   [
     "kiss",
     "move",
-    732,
+    730,
     8
   ],
   [
     "kiss",
     "move",
-    1633,
+    1631,
     6
   ],
   [
     "kiss",
     "move",
-    3055,
+    3052,
     5
   ],
   [
@@ -17146,7 +17138,7 @@ exports.BattleSearchIndex = [
   [
     "kmega",
     "pokemon",
-    1490,
+    1488,
     0
   ],
   [
@@ -17156,25 +17148,25 @@ exports.BattleSearchIndex = [
   [
     "knot",
     "item",
-    649,
+    647,
     7
   ],
   [
     "knot",
     "move",
-    1200,
+    1198,
     5
   ],
   [
     "ko",
     "pokemon",
-    1525,
+    1523,
     0
   ],
   [
     "koff",
     "move",
-    1521,
+    1519,
     0
   ],
   [
@@ -17184,7 +17176,7 @@ exports.BattleSearchIndex = [
   [
     "koko",
     "pokemon",
-    3096,
+    3093,
     4
   ],
   [
@@ -17210,7 +17202,7 @@ exports.BattleSearchIndex = [
   [
     "kprimal",
     "pokemon",
-    1535,
+    1533,
     0
   ],
   [
@@ -17220,7 +17212,7 @@ exports.BattleSearchIndex = [
   [
     "kresolute",
     "pokemon",
-    1500,
+    1498,
     0
   ],
   [
@@ -17234,7 +17226,7 @@ exports.BattleSearchIndex = [
   [
     "krock",
     "item",
-    1511,
+    1509,
     0
   ],
   [
@@ -17248,31 +17240,31 @@ exports.BattleSearchIndex = [
   [
     "kshield",
     "move",
-    1512,
+    1510,
     0
   ],
   [
     "ktr1",
     "item",
-    1502,
+    1500,
     0
   ],
   [
     "ktr2",
     "item",
-    1503,
+    1501,
     0
   ],
   [
     "ktr4",
     "item",
-    1504,
+    1502,
     0
   ],
   [
     "ktr6",
     "item",
-    1505,
+    1503,
     0
   ],
   [
@@ -17282,7 +17274,7 @@ exports.BattleSearchIndex = [
   [
     "kwhite",
     "pokemon",
-    1538,
+    1536,
     0
   ],
   [
@@ -17308,13 +17300,13 @@ exports.BattleSearchIndex = [
   [
     "kz",
     "item",
-    1524,
+    1522,
     0
   ],
   [
     "l",
     "item",
-    873,
+    871,
     8
   ],
   [
@@ -17332,13 +17324,13 @@ exports.BattleSearchIndex = [
   [
     "lance",
     "move",
-    1136,
+    1134,
     7
   ],
   [
     "land",
     "ability",
-    647,
+    645,
     8
   ],
   [
@@ -17368,25 +17360,25 @@ exports.BattleSearchIndex = [
   [
     "large",
     "pokemon",
-    1186,
+    1184,
     9
   ],
   [
     "large",
     "pokemon",
-    2308,
+    2305,
     9
   ],
   [
     "lariat",
     "move",
-    599,
+    597,
     7
   ],
   [
     "laroma",
     "ability",
-    1609,
+    1607,
     0
   ],
   [
@@ -17400,7 +17392,7 @@ exports.BattleSearchIndex = [
   [
     "laser",
     "move",
-    2274,
+    2271,
     9
   ],
   [
@@ -17410,7 +17402,7 @@ exports.BattleSearchIndex = [
   [
     "lash",
     "move",
-    941,
+    939,
     4
   ],
   [
@@ -17452,7 +17444,7 @@ exports.BattleSearchIndex = [
   [
     "launcher",
     "ability",
-    1781,
+    1779,
     4
   ],
   [
@@ -17474,133 +17466,133 @@ exports.BattleSearchIndex = [
   [
     "lball",
     "item",
-    1585,
+    1583,
     0
   ],
   [
     "lball",
     "item",
-    1596,
+    1594,
     0
   ],
   [
     "lball",
     "item",
-    1632,
+    1630,
     0
   ],
   [
     "lball",
     "item",
-    1661,
+    1659,
     0
   ],
   [
     "lball",
     "item",
-    1668,
+    1666,
     0
   ],
   [
     "lberry",
     "item",
-    1545,
+    1543,
     0
   ],
   [
     "lberry",
     "item",
-    1582,
+    1580,
     0
   ],
   [
     "lberry",
     "item",
-    1591,
+    1589,
     0
   ],
   [
     "lberry",
     "item",
-    1648,
+    1646,
     0
   ],
   [
     "lblade",
     "move",
-    1566,
+    1564,
     0
   ],
   [
     "lblessing",
     "move",
-    1655,
+    1653,
     0
   ],
   [
     "lchant",
     "move",
-    1643,
+    1641,
     0
   ],
   [
     "lcity",
     "location",
-    1607,
+    1605,
     0
   ],
   [
     "lclay",
     "item",
-    1597,
+    1595,
     0
   ],
   [
     "lcookie",
     "item",
-    1560,
+    1558,
     0
   ],
   [
     "lcord",
     "item",
-    1610,
+    1608,
     0
   ],
   [
     "lcrash",
     "move",
-    1649,
+    1647,
     0
   ],
   [
     "lcrest",
     "item",
-    1564,
+    1562,
     0
   ],
   [
     "ldance",
     "move",
-    1656,
+    1654,
     0
   ],
   [
     "ldew",
     "move",
-    1593,
+    1591,
     0
   ],
   [
     "ldice",
     "item",
-    1621,
+    1619,
     0
   ],
   [
     "ldusk",
     "pokemon",
-    1671,
+    1669,
     0
   ],
   [
@@ -17610,13 +17602,13 @@ exports.BattleSearchIndex = [
   [
     "leaf",
     "move",
-    1687,
+    1685,
     7
   ],
   [
     "leaf",
     "move",
-    2387,
+    2384,
     5
   ],
   [
@@ -17654,7 +17646,7 @@ exports.BattleSearchIndex = [
   [
     "leaves",
     "pokemon",
-    1457,
+    1455,
     4
   ],
   [
@@ -17672,7 +17664,7 @@ exports.BattleSearchIndex = [
   [
     "leech",
     "move",
-    1359,
+    1357,
     4
   ],
   [
@@ -17698,13 +17690,13 @@ exports.BattleSearchIndex = [
   [
     "legg",
     "item",
-    1644,
+    1642,
     0
   ],
   [
     "lele",
     "pokemon",
-    3097,
+    3094,
     4
   ],
   [
@@ -17714,31 +17706,31 @@ exports.BattleSearchIndex = [
   [
     "lens",
     "ability",
-    3174,
+    3171,
     6
   ],
   [
     "lens",
     "item",
-    2249,
+    2246,
     5
   ],
   [
     "lens",
     "item",
-    2612,
+    2609,
     5
   ],
   [
     "lens",
     "item",
-    3536,
+    3533,
     4
   ],
   [
     "lens",
     "item",
-    3625,
+    3622,
     4
   ],
   [
@@ -17764,43 +17756,43 @@ exports.BattleSearchIndex = [
   [
     "lfocus",
     "move",
-    1550,
+    1548,
     0
   ],
   [
     "lg0",
     "location",
-    1618,
+    1616,
     0
   ],
   [
     "lgalar",
     "pokemon",
-    1612,
+    1610,
     0
   ],
   [
     "lgalette",
     "item",
-    1652,
+    1650,
     0
   ],
   [
     "lglobe",
     "item",
-    1663,
+    1661,
     0
   ],
   [
     "lguard",
     "ability",
-    1568,
+    1566,
     0
   ],
   [
     "lhisui",
     "pokemon",
-    1605,
+    1603,
     0
   ],
   [
@@ -17810,7 +17802,7 @@ exports.BattleSearchIndex = [
   [
     "libre",
     "pokemon",
-    2161,
+    2158,
     7
   ],
   [
@@ -17836,7 +17828,7 @@ exports.BattleSearchIndex = [
   [
     "life",
     "move",
-    1576,
+    1574,
     5
   ],
   [
@@ -17854,7 +17846,7 @@ exports.BattleSearchIndex = [
   [
     "light",
     "move",
-    1997,
+    1995,
     5
   ],
   [
@@ -17912,13 +17904,13 @@ exports.BattleSearchIndex = [
   [
     "lincense",
     "item",
-    1562,
+    1560,
     0
   ],
   [
     "lincense",
     "item",
-    1642,
+    1640,
     0
   ],
   [
@@ -17928,13 +17920,13 @@ exports.BattleSearchIndex = [
   [
     "link",
     "ability",
-    2769,
+    2766,
     5
   ],
   [
     "link",
     "item",
-    2188,
+    2185,
     7
   ],
   [
@@ -17984,85 +17976,85 @@ exports.BattleSearchIndex = [
   [
     "lkey",
     "item",
-    1595,
+    1593,
     0
   ],
   [
     "lkick",
     "move",
-    1635,
+    1633,
     0
   ],
   [
     "lkiss",
     "move",
-    1633,
+    1631,
     0
   ],
   [
     "llife",
     "move",
-    1576,
+    1574,
     0
   ],
   [
     "lmega",
     "pokemon",
-    1556,
+    1554,
     0
   ],
   [
     "lmega",
     "pokemon",
-    1559,
+    1557,
     0
   ],
   [
     "lmega",
     "pokemon",
-    1629,
+    1627,
     0
   ],
   [
     "lmega",
     "pokemon",
-    1638,
+    1636,
     0
   ],
   [
     "lmetal",
     "ability",
-    1598,
+    1596,
     0
   ],
   [
     "lmidnight",
     "pokemon",
-    1672,
+    1670,
     0
   ],
   [
     "lmint",
     "item",
-    1563,
+    1561,
     0
   ],
   [
     "lmint",
     "item",
-    1625,
+    1623,
     0
   ],
   [
     "lmoss",
     "item",
-    1651,
+    1649,
     0
   ],
   [
     "lmz",
     "pokemon",
-    1639,
+    1637,
     0
   ],
   [
@@ -18078,13 +18070,13 @@ exports.BattleSearchIndex = [
   [
     "lock",
     "move",
-    893,
+    891,
     5
   ],
   [
     "lock",
     "move",
-    1470,
+    1468,
     3
   ],
   [
@@ -18102,7 +18094,7 @@ exports.BattleSearchIndex = [
   [
     "lon",
     "move",
-    1622,
+    1620,
     0
   ],
   [
@@ -18116,19 +18108,19 @@ exports.BattleSearchIndex = [
   [
     "look",
     "move",
-    1770,
+    1768,
     4
   ],
   [
     "look",
     "move",
-    3112,
+    3109,
     7
   ],
   [
     "looze",
     "ability",
-    1614,
+    1612,
     0
   ],
   [
@@ -18146,19 +18138,19 @@ exports.BattleSearchIndex = [
   [
     "lorb",
     "item",
-    1594,
+    1592,
     0
   ],
   [
     "lorb",
     "item",
-    1664,
+    1662,
     0
   ],
   [
     "loruin",
     "move",
-    1600,
+    1598,
     0
   ],
   [
@@ -18172,7 +18164,7 @@ exports.BattleSearchIndex = [
   [
     "lout",
     "move",
-    1551,
+    1549,
     0
   ],
   [
@@ -18190,13 +18182,13 @@ exports.BattleSearchIndex = [
   [
     "lowerroom",
     "location",
-    2710,
+    2707,
     16
   ],
   [
     "lowkey",
     "pokemon",
-    3311,
+    3308,
     10
   ],
   [
@@ -18210,121 +18202,121 @@ exports.BattleSearchIndex = [
   [
     "lplume",
     "move",
-    1561,
+    1559,
     0
   ],
   [
     "lpunch",
     "item",
-    1645,
+    1643,
     0
   ],
   [
     "lpurge",
     "move",
-    1662,
+    1660,
     0
   ],
   [
     "lreach",
     "ability",
-    1626,
+    1624,
     0
   ],
   [
     "lresort",
     "move",
-    1552,
+    1550,
     0
   ],
   [
     "lrespects",
     "move",
-    1553,
+    1551,
     0
   ],
   [
     "lrod",
     "ability",
-    1599,
+    1597,
     0
   ],
   [
     "lscreen",
     "move",
-    1601,
+    1599,
     0
   ],
   [
     "lseed",
     "move",
-    1577,
+    1575,
     0
   ],
   [
     "lsforever",
     "move",
-    1583,
+    1581,
     0
   ],
   [
     "lstone",
     "item",
-    1569,
+    1567,
     0
   ],
   [
     "lstorm",
     "move",
-    1570,
+    1568,
     0
   ],
   [
     "lsweep",
     "move",
-    1636,
+    1634,
     0
   ],
   [
     "lsweet",
     "item",
-    1634,
+    1632,
     0
   ],
   [
     "lt0",
     "location",
-    1619,
+    1617,
     0
   ],
   [
     "ltail",
     "item",
-    1539,
+    1537,
     0
   ],
   [
     "ltbtsky",
     "move",
-    1602,
+    1600,
     0
   ],
   [
     "ltherian",
     "pokemon",
-    1543,
+    1541,
     0
   ],
   [
     "ltornado",
     "move",
-    1571,
+    1569,
     0
   ],
   [
     "lu",
     "pokemon",
-    3170,
+    3167,
     4
   ],
   [
@@ -18350,7 +18342,7 @@ exports.BattleSearchIndex = [
   [
     "luck",
     "ability",
-    3028,
+    3025,
     5
   ],
   [
@@ -18416,7 +18408,7 @@ exports.BattleSearchIndex = [
   [
     "lunarizer",
     "item",
-    2002,
+    2000,
     1
   ],
   [
@@ -18438,13 +18430,13 @@ exports.BattleSearchIndex = [
   [
     "lure",
     "item",
-    1764,
+    1762,
     3
   ],
   [
     "lure",
     "item",
-    3029,
+    3026,
     5
   ],
   [
@@ -18482,13 +18474,13 @@ exports.BattleSearchIndex = [
   [
     "lvoice",
     "ability",
-    1615,
+    1613,
     0
   ],
   [
     "lwrath",
     "move",
-    1544,
+    1542,
     0
   ],
   [
@@ -18510,31 +18502,31 @@ exports.BattleSearchIndex = [
   [
     "lz",
     "item",
-    1641,
+    1639,
     0
   ],
   [
     "lz",
     "item",
-    1654,
+    1652,
     0
   ],
   [
     "lz",
     "item",
-    1669,
+    1667,
     0
   ],
   [
     "m",
     "item",
-    874,
+    872,
     8
   ],
   [
     "m",
     "pokemon",
-    1989,
+    1987,
     7
   ],
   [
@@ -18552,7 +18544,7 @@ exports.BattleSearchIndex = [
   [
     "machine",
     "item",
-    700,
+    698,
     7
   ],
   [
@@ -18574,13 +18566,13 @@ exports.BattleSearchIndex = [
   [
     "madness",
     "move",
-    1958,
+    1956,
     7
   ],
   [
     "maelstrom",
     "move",
-    1792,
+    1790,
     16
   ],
   [
@@ -18756,73 +18748,73 @@ exports.BattleSearchIndex = [
   [
     "mail",
     "item",
-    743,
+    741,
     5
   ],
   [
     "mail",
     "item",
-    886,
+    884,
     3
   ],
   [
     "mail",
     "item",
-    1151,
+    1149,
     7
   ],
   [
     "mail",
     "item",
-    1274,
+    1272,
     6
   ],
   [
     "mail",
     "item",
-    1771,
+    1769,
     4
   ],
   [
     "mail",
     "item",
-    2062,
+    2060,
     6
   ],
   [
     "mail",
     "item",
-    2434,
+    2432,
     5
   ],
   [
     "mail",
     "item",
-    2666,
+    2663,
     6
   ],
   [
     "mail",
     "item",
-    3330,
+    3327,
     6
   ],
   [
     "mail",
     "item",
-    3510,
+    3507,
     4
   ],
   [
     "mail",
     "item",
-    3562,
+    3559,
     4
   ],
   [
     "majesty",
     "ability",
-    2335,
+    2332,
     7
   ],
   [
@@ -18872,19 +18864,19 @@ exports.BattleSearchIndex = [
   [
     "malola",
     "pokemon",
-    1744,
+    1742,
     0
   ],
   [
     "malola",
     "pokemon",
-    1800,
+    1798,
     0
   ],
   [
     "malola",
     "pokemon",
-    1931,
+    1929,
     0
   ],
   [
@@ -18902,13 +18894,13 @@ exports.BattleSearchIndex = [
   [
     "mane",
     "pokemon",
-    1006,
+    1004,
     7
   ],
   [
     "mane",
     "pokemon",
-    1974,
+    1972,
     12
   ],
   [
@@ -18938,13 +18930,13 @@ exports.BattleSearchIndex = [
   [
     "map",
     "item",
-    2055,
+    2053,
     6
   ],
   [
     "map",
     "item",
-    3298,
+    3295,
     4
   ],
   [
@@ -18970,19 +18962,19 @@ exports.BattleSearchIndex = [
   [
     "marmor",
     "ability",
-    1696,
+    1694,
     0
   ],
   [
     "marmor",
     "ability",
-    1874,
+    1872,
     0
   ],
   [
     "marmor",
     "item",
-    1726,
+    1724,
     0
   ],
   [
@@ -19016,25 +19008,25 @@ exports.BattleSearchIndex = [
   [
     "mash",
     "move",
-    1822,
+    1820,
     6
   ],
   [
     "mask",
     "item",
-    530,
+    529,
     11
   ],
   [
     "mask",
     "item",
-    1303,
+    1301,
     11
   ],
   [
     "mask",
     "item",
-    3520,
+    3517,
     10
   ],
   [
@@ -19044,7 +19036,7 @@ exports.BattleSearchIndex = [
   [
     "massault",
     "move",
-    1814,
+    1812,
     0
   ],
   [
@@ -19066,7 +19058,7 @@ exports.BattleSearchIndex = [
   [
     "mattack",
     "move",
-    1932,
+    1930,
     0
   ],
   [
@@ -19084,19 +19076,19 @@ exports.BattleSearchIndex = [
   [
     "mauvilleentrance",
     "location",
-    1983,
+    1981,
     3
   ],
   [
     "mauvilleinside",
     "location",
-    1984,
+    1982,
     3
   ],
   [
     "maw",
     "ability",
-    730,
+    728,
     7
   ],
   [
@@ -19114,7 +19106,7 @@ exports.BattleSearchIndex = [
   [
     "max",
     "item",
-    2260,
+    2257,
     2
   ],
   [
@@ -19152,199 +19144,199 @@ exports.BattleSearchIndex = [
   [
     "mball",
     "item",
-    1751,
+    1749,
     0
   ],
   [
     "mball",
     "item",
-    1894,
+    1892,
     0
   ],
   [
     "mball",
     "move",
-    1882,
+    1880,
     0
   ],
   [
     "mband",
     "item",
-    1940,
+    1938,
     0
   ],
   [
     "mbeam",
     "move",
-    1815,
+    1813,
     0
   ],
   [
     "mbeam",
     "move",
-    1896,
+    1894,
     0
   ],
   [
     "mberry",
     "item",
-    1719,
+    1717,
     0
   ],
   [
     "mberry",
     "item",
-    1720,
+    1718,
     0
   ],
   [
     "mberry",
     "item",
-    1739,
+    1737,
     0
   ],
   [
     "mberry",
     "item",
-    1832,
+    1830,
     0
   ],
   [
     "mbike",
     "item",
-    1675,
+    1673,
     0
   ],
   [
     "mblock",
     "move",
-    1753,
+    1751,
     0
   ],
   [
     "mblown",
     "move",
-    1849,
+    1847,
     0
   ],
   [
     "mbomb",
     "move",
-    1712,
+    1710,
     0
   ],
   [
     "mbomb",
     "move",
-    1922,
+    1920,
     0
   ],
   [
     "mbounce",
     "ability",
-    1689,
+    1687,
     0
   ],
   [
     "mbrace",
     "item",
-    1676,
+    1674,
     0
   ],
   [
     "mbreaker",
     "ability",
-    1888,
+    1886,
     0
   ],
   [
     "mburst",
     "move",
-    1807,
+    1805,
     0
   ],
   [
     "mbusted",
     "pokemon",
-    1847,
+    1845,
     0
   ],
   [
     "mc0",
     "location",
-    1757,
+    1755,
     0
   ],
   [
     "mc0",
     "location",
-    1913,
+    1911,
     0
   ],
   [
     "mchain",
     "move",
-    1728,
+    1726,
     0
   ],
   [
     "mcity",
     "location",
-    1905,
+    1903,
     0
   ],
   [
     "mclaw",
     "move",
-    1808,
+    1806,
     0
   ],
   [
     "mcleave",
     "move",
-    1835,
+    1833,
     0
   ],
   [
     "mcoat",
     "item",
-    1809,
+    1807,
     0
   ],
   [
     "mcoat",
     "move",
-    1690,
+    1688,
     0
   ],
   [
     "mcoat",
     "move",
-    1875,
+    1873,
     0
   ],
   [
     "mdrain",
     "move",
-    1778,
+    1776,
     0
   ],
   [
     "mdrink",
     "move",
-    1839,
+    1837,
     0
   ],
   [
     "mdrive",
     "ability",
-    1907,
+    1905,
     0
   ],
   [
     "me",
     "move",
-    1019,
+    1017,
     6
   ],
   [
@@ -19374,7 +19366,7 @@ exports.BattleSearchIndex = [
   [
     "medicine",
     "ability",
-    582,
+    580,
     7
   ],
   [
@@ -19482,421 +19474,421 @@ exports.BattleSearchIndex = [
   [
     "mega",
     "pokemon",
-    413,
+    412,
     10
   ],
   [
     "mega",
     "pokemon",
-    440,
+    439,
     10
   ],
   [
     "mega",
     "pokemon",
-    454,
+    453,
     8
   ],
   [
     "mega",
     "pokemon",
-    483,
+    482,
     8
   ],
   [
     "mega",
     "pokemon",
-    555,
+    553,
     12
   ],
   [
     "mega",
     "pokemon",
-    605,
+    603,
     7
   ],
   [
     "mega",
     "pokemon",
-    640,
+    638,
     7
   ],
   [
     "mega",
     "pokemon",
-    663,
+    661,
     7
   ],
   [
     "mega",
     "pokemon",
-    706,
+    704,
     8
   ],
   [
     "mega",
     "pokemon",
-    723,
+    721,
     9
   ],
   [
     "mega",
     "pokemon",
-    736,
+    734,
     6
   ],
   [
     "mega",
     "pokemon",
-    792,
+    790,
     10
   ],
   [
     "mega",
     "pokemon",
-    832,
+    830,
     6
   ],
   [
     "mega",
     "pokemon",
-    867,
+    865,
     9
   ],
   [
     "mega",
     "pokemon",
-    900,
+    898,
     7
   ],
   [
     "mega",
     "pokemon",
-    917,
+    915,
     10
   ],
   [
     "mega",
     "pokemon",
-    987,
+    985,
     7
   ],
   [
     "mega",
     "pokemon",
-    1050,
+    1048,
     8
   ],
   [
     "mega",
     "pokemon",
-    1083,
+    1081,
     7
   ],
   [
     "mega",
     "pokemon",
-    1092,
+    1090,
     8
   ],
   [
     "mega",
     "pokemon",
-    1096,
+    1094,
     9
   ],
   [
     "mega",
     "pokemon",
-    1112,
+    1110,
     6
   ],
   [
     "mega",
     "pokemon",
-    1140,
+    1138,
     6
   ],
   [
     "mega",
     "pokemon",
-    1148,
+    1146,
     8
   ],
   [
     "mega",
     "pokemon",
-    1167,
+    1165,
     9
   ],
   [
     "mega",
     "pokemon",
-    1170,
+    1168,
     6
   ],
   [
     "mega",
     "pokemon",
-    1222,
+    1220,
     8
   ],
   [
     "mega",
     "pokemon",
-    1265,
+    1263,
     8
   ],
   [
     "mega",
     "pokemon",
-    1286,
+    1284,
     8
   ],
   [
     "mega",
     "pokemon",
-    1312,
+    1310,
     7
   ],
   [
     "mega",
     "pokemon",
-    1325,
+    1323,
     9
   ],
   [
     "mega",
     "pokemon",
-    1364,
+    1362,
     8
   ],
   [
     "mega",
     "pokemon",
-    1490,
+    1488,
     10
   ],
   [
     "mega",
     "pokemon",
-    1556,
+    1554,
     6
   ],
   [
     "mega",
     "pokemon",
-    1559,
+    1557,
     6
   ],
   [
     "mega",
     "pokemon",
-    1629,
+    1627,
     7
   ],
   [
     "mega",
     "pokemon",
-    1638,
+    1636,
     7
+  ],
+  [
+    "mega",
+    "pokemon",
+    1681,
+    8
   ],
   [
     "mega",
     "pokemon",
     1683,
-    8
-  ],
-  [
-    "mega",
-    "pokemon",
-    1685,
     16
   ],
   [
     "mega",
     "pokemon",
-    1725,
+    1723,
     7
   ],
   [
     "mega",
     "pokemon",
-    1734,
+    1732,
     9
   ],
   [
     "mega",
     "pokemon",
-    1759,
+    1757,
     6
   ],
   [
     "mega",
     "pokemon",
-    1774,
+    1772,
     8
   ],
   [
     "mega",
     "pokemon",
-    1784,
+    1782,
     8
   ],
   [
     "mega",
     "pokemon",
-    1798,
+    1796,
     8
   ],
   [
     "mega",
     "pokemon",
-    1806,
+    1804,
     9
   ],
   [
     "mega",
     "pokemon",
-    2150,
+    2147,
     7
   ],
   [
     "mega",
     "pokemon",
-    2184,
+    2181,
     6
   ],
   [
     "mega",
     "pokemon",
-    2325,
+    2322,
     6
   ],
   [
     "mega",
     "pokemon",
-    2384,
+    2381,
     8
   ],
   [
     "mega",
     "pokemon",
-    2548,
+    2545,
     7
   ],
   [
     "mega",
     "pokemon",
-    2565,
+    2562,
     9
   ],
   [
     "mega",
     "pokemon",
-    2603,
+    2600,
     8
   ],
   [
     "mega",
     "pokemon",
-    2608,
+    2605,
     6
   ],
   [
     "mega",
     "pokemon",
-    2610,
+    2607,
     9
+  ],
+  [
+    "mega",
+    "pokemon",
+    2614,
+    10
   ],
   [
     "mega",
     "pokemon",
     2617,
+    7
+  ],
+  [
+    "mega",
+    "pokemon",
+    2671,
+    8
+  ],
+  [
+    "mega",
+    "pokemon",
+    2762,
+    8
+  ],
+  [
+    "mega",
+    "pokemon",
+    2799,
+    7
+  ],
+  [
+    "mega",
+    "pokemon",
+    2946,
+    9
+  ],
+  [
+    "mega",
+    "pokemon",
+    2952,
+    7
+  ],
+  [
+    "mega",
+    "pokemon",
+    2970,
+    7
+  ],
+  [
+    "mega",
+    "pokemon",
+    3047,
+    8
+  ],
+  [
+    "mega",
+    "pokemon",
+    3100,
+    9
+  ],
+  [
+    "mega",
+    "pokemon",
+    3350,
+    9
+  ],
+  [
+    "mega",
+    "pokemon",
+    3420,
+    8
+  ],
+  [
+    "mega",
+    "pokemon",
+    3437,
     10
   ],
   [
     "mega",
     "pokemon",
-    2620,
+    3614,
     7
   ],
   [
     "mega",
     "pokemon",
-    2674,
-    8
-  ],
-  [
-    "mega",
-    "pokemon",
-    2765,
-    8
-  ],
-  [
-    "mega",
-    "pokemon",
-    2802,
-    7
-  ],
-  [
-    "mega",
-    "pokemon",
-    2949,
-    9
-  ],
-  [
-    "mega",
-    "pokemon",
-    2955,
-    7
-  ],
-  [
-    "mega",
-    "pokemon",
-    2973,
-    7
-  ],
-  [
-    "mega",
-    "pokemon",
-    3050,
-    8
-  ],
-  [
-    "mega",
-    "pokemon",
-    3103,
-    9
-  ],
-  [
-    "mega",
-    "pokemon",
-    3353,
-    9
-  ],
-  [
-    "mega",
-    "pokemon",
-    3423,
-    8
-  ],
-  [
-    "mega",
-    "pokemon",
-    3440,
-    10
-  ],
-  [
-    "mega",
-    "pokemon",
-    3617,
-    7
-  ],
-  [
-    "mega",
-    "pokemon",
-    3637,
+    3634,
     7
   ],
   [
@@ -19938,37 +19930,37 @@ exports.BattleSearchIndex = [
   [
     "megax",
     "pokemon",
+    422,
+    9
+  ],
+  [
+    "megax",
+    "pokemon",
+    1826,
+    6
+  ],
+  [
+    "megax",
+    "pokemon",
+    2358,
+    6
+  ],
+  [
+    "megay",
+    "pokemon",
     423,
     9
   ],
   [
-    "megax",
+    "megay",
     "pokemon",
-    1828,
-    6
-  ],
-  [
-    "megax",
-    "pokemon",
-    2361,
+    1827,
     6
   ],
   [
     "megay",
     "pokemon",
-    424,
-    9
-  ],
-  [
-    "megay",
-    "pokemon",
-    1829,
-    6
-  ],
-  [
-    "megay",
-    "pokemon",
-    2362,
+    2359,
     6
   ],
   [
@@ -19980,19 +19972,19 @@ exports.BattleSearchIndex = [
   [
     "megaz",
     "pokemon",
-    1093,
+    1091,
     8
   ],
   [
     "megaz",
     "pokemon",
-    1639,
+    1637,
     7
   ],
   [
     "melixir",
     "item",
-    1761,
+    1759,
     0
   ],
   [
@@ -20014,13 +20006,13 @@ exports.BattleSearchIndex = [
   [
     "meltice",
     "item",
-    1982,
+    1980,
     5
   ],
   [
     "memblem",
     "item",
-    1697,
+    1695,
     0
   ],
   [
@@ -20036,97 +20028,97 @@ exports.BattleSearchIndex = [
   [
     "memory",
     "item",
-    602,
+    600,
     4
   ],
   [
     "memory",
     "item",
-    725,
+    723,
     6
   ],
   [
     "memory",
     "item",
-    811,
+    809,
     8
   ],
   [
     "memory",
     "item",
-    894,
+    892,
     5
   ],
   [
     "memory",
     "item",
-    929,
+    927,
     8
   ],
   [
     "memory",
     "item",
-    942,
+    940,
     4
   ],
   [
     "memory",
     "item",
-    1011,
+    1009,
     6
   ],
   [
     "memory",
     "item",
-    1122,
+    1120,
     5
   ],
   [
     "memory",
     "item",
-    1201,
+    1199,
     5
   ],
   [
     "memory",
     "item",
-    1239,
+    1237,
     6
   ],
   [
     "memory",
     "item",
-    1403,
+    1401,
     3
   ],
   [
     "memory",
     "item",
-    2205,
+    2202,
     6
   ],
   [
     "memory",
     "item",
-    2291,
+    2288,
     7
   ],
   [
     "memory",
     "item",
-    2469,
+    2467,
     4
   ],
   [
     "memory",
     "item",
-    2974,
+    2971,
     5
   ],
   [
     "memory",
     "item",
-    3498,
+    3495,
     5
   ],
   [
@@ -20192,19 +20184,19 @@ exports.BattleSearchIndex = [
   [
     "metal",
     "ability",
-    1317,
+    1315,
     5
   ],
   [
     "metal",
     "ability",
-    1598,
+    1596,
     5
   ],
   [
     "metalbody",
     "ability",
-    1057,
+    1055,
     4
   ],
   [
@@ -20238,13 +20230,13 @@ exports.BattleSearchIndex = [
   [
     "meteor",
     "move",
-    701,
+    699,
     5
   ],
   [
     "meteor",
     "pokemon",
-    1859,
+    1857,
     6
   ],
   [
@@ -20286,7 +20278,7 @@ exports.BattleSearchIndex = [
   [
     "mether",
     "item",
-    1762,
+    1760,
     0
   ],
   [
@@ -20328,145 +20320,157 @@ exports.BattleSearchIndex = [
   [
     "mexplosion",
     "move",
-    1883,
+    1881,
     0
   ],
   [
     "meye",
     "ability",
-    1852,
+    1850,
     0
   ],
   [
     "meye",
     "move",
-    1867,
+    1865,
     0
   ],
   [
     "mf",
     "pokemon",
-    1796,
+    1794,
     0
   ],
   [
     "mf1fr",
-    "location",
-    1818,
-    0
-  ],
-  [
-    "mf1fr",
-    "location",
-    1819,
-    0
-  ],
-  [
-    "mfcave",
-    "location",
-    1820,
-    0
-  ],
-  [
-    "mfeather",
-    "item",
-    1941,
-    0
-  ],
-  [
-    "mffr",
     "location",
     1816,
     0
   ],
   [
-    "mffr",
+    "mf1fr",
     "location",
     1817,
     0
   ],
   [
+    "mfcave",
+    "location",
+    1818,
+    0
+  ],
+  [
+    "mfeather",
+    "item",
+    1939,
+    0
+  ],
+  [
+    "mffr",
+    "location",
+    1814,
+    0
+  ],
+  [
+    "mffr",
+    "location",
+    1815,
+    0
+  ],
+  [
     "mfire",
     "move",
-    1944,
+    1942,
     0
   ],
   [
     "mfirst",
     "move",
-    1777,
+    1775,
     0
   ],
   [
     "mflux",
     "move",
-    1713,
+    1711,
     0
   ],
   [
     "mfour",
     "pokemon",
-    1756,
+    1754,
     0
   ],
   [
     "mgalar",
     "pokemon",
-    1801,
+    1799,
     0
   ],
   [
     "mgalar",
     "pokemon",
-    1890,
+    1888,
     0
   ],
   [
     "mgale",
     "move",
-    1908,
+    1906,
     0
   ],
   [
     "mgotcha",
     "move",
-    1754,
+    1752,
     0
   ],
   [
     "mguard",
     "ability",
-    1691,
+    1689,
     0
   ],
   [
     "mhangry",
     "pokemon",
-    1903,
+    1901,
     0
   ],
   [
     "mherb",
     "item",
-    1793,
+    1791,
     0
   ],
   [
     "mherb",
     "item",
-    1876,
+    1874,
     0
   ],
   [
     "mhf",
+    "location",
+    1696,
+    0
+  ],
+  [
+    "mhf",
+    "location",
+    1703,
+    0
+  ],
+  [
+    "mhfr",
+    "location",
+    1697,
+    0
+  ],
+  [
+    "mhfr",
     "location",
     1698,
-    0
-  ],
-  [
-    "mhf",
-    "location",
-    1705,
     0
   ],
   [
@@ -20494,21 +20498,9 @@ exports.BattleSearchIndex = [
     0
   ],
   [
-    "mhfr",
-    "location",
-    1703,
-    0
-  ],
-  [
-    "mhfr",
-    "location",
-    1704,
-    0
-  ],
-  [
     "mhoney",
     "item",
-    1763,
+    1761,
     0
   ],
   [
@@ -20518,7 +20510,7 @@ exports.BattleSearchIndex = [
   [
     "midnight",
     "pokemon",
-    1672,
+    1670,
     8
   ],
   [
@@ -20532,7 +20524,7 @@ exports.BattleSearchIndex = [
   [
     "might",
     "ability",
-    1943,
+    1941,
     8
   ],
   [
@@ -20554,7 +20546,7 @@ exports.BattleSearchIndex = [
   [
     "milk",
     "item",
-    1893,
+    1891,
     6
   ],
   [
@@ -20572,13 +20564,13 @@ exports.BattleSearchIndex = [
   [
     "mime",
     "pokemon",
-    1910,
+    1908,
     2
   ],
   [
     "mimegalar",
     "pokemon",
-    1911,
+    1909,
     2
   ],
   [
@@ -20706,103 +20698,103 @@ exports.BattleSearchIndex = [
   [
     "mint",
     "item",
-    387,
+    386,
     7
   ],
   [
     "mint",
     "item",
-    1114,
+    1112,
     6
   ],
   [
     "mint",
     "item",
-    1280,
+    1278,
     5
   ],
   [
     "mint",
     "item",
-    1421,
+    1419,
     6
   ],
   [
     "mint",
     "item",
-    1475,
+    1473,
     5
   ],
   [
     "mint",
     "item",
-    1563,
+    1561,
     3
   ],
   [
     "mint",
     "item",
-    1625,
+    1623,
     6
   ],
   [
     "mint",
     "item",
-    1838,
+    1836,
     4
   ],
   [
     "mint",
     "item",
-    1887,
+    1885,
     6
   ],
   [
     "mint",
     "item",
-    1951,
+    1949,
     5
   ],
   [
     "mint",
     "item",
-    1959,
+    1957,
     7
   ],
   [
     "mint",
     "item",
-    2343,
+    2340,
     5
   ],
   [
     "mint",
     "item",
-    2376,
+    2373,
     4
   ],
   [
     "mint",
     "item",
-    2415,
+    2413,
     7
   ],
   [
     "mint",
     "item",
-    2592,
+    2589,
     5
   ],
   [
     "mint",
     "item",
-    2657,
+    2654,
     7
   ],
   [
     "mint",
     "item",
-    3169,
+    3166,
     5
   ],
   [
@@ -20844,7 +20836,7 @@ exports.BattleSearchIndex = [
   [
     "mirain",
     "move",
-    1721,
+    1719,
     0
   ],
   [
@@ -20878,13 +20870,13 @@ exports.BattleSearchIndex = [
   [
     "missile",
     "ability",
-    1256,
+    1254,
     4
   ],
   [
     "missile",
     "move",
-    2181,
+    2178,
     3
   ],
   [
@@ -20920,181 +20912,181 @@ exports.BattleSearchIndex = [
   [
     "mjr",
     "pokemon",
-    1842,
+    1840,
     0
   ],
   [
     "mkick",
     "move",
-    1780,
+    1778,
     0
   ],
   [
     "mlauncher",
     "ability",
-    1781,
+    1779,
     0
   ],
   [
     "mleaf",
     "move",
-    1687,
+    1685,
     0
   ],
   [
     "mlook",
     "move",
-    1770,
+    1768,
     0
   ],
   [
     "mlure",
     "item",
-    1764,
+    1762,
     0
   ],
   [
     "mmail",
     "item",
-    1771,
+    1769,
     0
   ],
   [
     "mmash",
     "move",
-    1822,
+    1820,
     0
   ],
   [
     "mmega",
     "pokemon",
-    1683,
+    1681,
     0
   ],
   [
     "mmega",
     "pokemon",
-    1725,
+    1723,
     0
   ],
   [
     "mmega",
     "pokemon",
-    1734,
+    1732,
     0
   ],
   [
     "mmega",
     "pokemon",
-    1759,
+    1757,
     0
   ],
   [
     "mmega",
     "pokemon",
-    1774,
+    1772,
     0
   ],
   [
     "mmega",
     "pokemon",
-    1784,
+    1782,
     0
   ],
   [
     "mmega",
     "pokemon",
-    1798,
+    1796,
     0
   ],
   [
     "mmega",
     "pokemon",
-    1806,
+    1804,
     0
   ],
   [
     "mmeteor",
     "pokemon",
-    1859,
+    1857,
     0
   ],
   [
     "mmgalar",
     "pokemon",
-    1911,
+    1909,
     0
   ],
   [
     "mmight",
     "ability",
-    1943,
+    1941,
     0
   ],
   [
     "mmilk",
     "item",
-    1893,
+    1891,
     0
   ],
   [
     "mmime",
     "pokemon",
-    1910,
+    1908,
     0
   ],
   [
     "mmint",
     "item",
-    1838,
+    1836,
     0
   ],
   [
     "mmint",
     "item",
-    1887,
+    1885,
     0
   ],
   [
     "mmmaelstrom",
     "move",
-    1792,
+    1790,
     0
   ],
   [
     "mmoonsault",
     "move",
-    1727,
+    1725,
     0
   ],
   [
     "mmove",
     "move",
-    1877,
+    1875,
     0
   ],
   [
     "mmushrooms",
     "item",
-    1765,
+    1763,
     0
   ],
   [
     "mmx",
     "pokemon",
-    1828,
+    1826,
     0
   ],
   [
     "mmy",
     "pokemon",
-    1829,
+    1827,
     0
   ],
   [
     "mode",
     "ability",
-    3615,
+    3612,
     3
   ],
   [
@@ -21116,7 +21108,7 @@ exports.BattleSearchIndex = [
   [
     "momega",
     "pokemon",
-    1685,
+    1683,
     0
   ],
   [
@@ -21140,7 +21132,7 @@ exports.BattleSearchIndex = [
   [
     "moon",
     "pokemon",
-    2460,
+    2458,
     7
   ],
   [
@@ -21162,13 +21154,13 @@ exports.BattleSearchIndex = [
   [
     "moonrazemaelstrom",
     "move",
-    1792,
+    1790,
     8
   ],
   [
     "moonsault",
     "move",
-    1727,
+    1725,
     9
   ],
   [
@@ -21186,7 +21178,7 @@ exports.BattleSearchIndex = [
   [
     "moriginal",
     "pokemon",
-    1684,
+    1682,
     0
   ],
   [
@@ -21208,7 +21200,7 @@ exports.BattleSearchIndex = [
   [
     "moss",
     "item",
-    1651,
+    1649,
     8
   ],
   [
@@ -21218,7 +21210,7 @@ exports.BattleSearchIndex = [
   [
     "moth",
     "pokemon",
-    1458,
+    1456,
     4
   ],
   [
@@ -21236,18 +21228,30 @@ exports.BattleSearchIndex = [
   [
     "move",
     "move",
-    1877,
+    1875,
     6
   ],
   [
     "mow",
     "pokemon",
-    2499,
+    2496,
     5
   ],
   [
     "moxie",
     "ability"
+  ],
+  [
+    "mpf",
+    "location",
+    1912,
+    0
+  ],
+  [
+    "mpf",
+    "location",
+    1913,
+    0
   ],
   [
     "mpf",
@@ -21274,123 +21278,111 @@ exports.BattleSearchIndex = [
     0
   ],
   [
-    "mpf",
-    "location",
-    1918,
-    0
-  ],
-  [
-    "mpf",
-    "location",
-    1919,
-    0
-  ],
-  [
     "mpirouette",
     "pokemon",
-    1789,
+    1787,
     0
   ],
   [
     "mplate",
-    "item",
-    1769,
-    0
-  ],
-  [
-    "mplate",
-    "item",
-    1850,
-    0
-  ],
-  [
-    "mpotion",
-    "item",
-    1766,
-    0
-  ],
-  [
-    "mpowder",
-    "item",
-    1810,
-    0
-  ],
-  [
-    "mpowder",
-    "move",
-    1693,
-    0
-  ],
-  [
-    "mpower",
-    "move",
-    1945,
-    0
-  ],
-  [
-    "mpull",
-    "ability",
-    1715,
-    0
-  ],
-  [
-    "mpunch",
-    "move",
-    1679,
-    0
-  ],
-  [
-    "mpunch",
-    "move",
-    1785,
-    0
-  ],
-  [
-    "mpyreexterior",
-    "location",
-    1920,
-    0
-  ],
-  [
-    "mpyresummit",
-    "location",
-    1921,
-    0
-  ],
-  [
-    "mreader",
-    "move",
-    1851,
-    0
-  ],
-  [
-    "mrepel",
     "item",
     1767,
     0
   ],
   [
+    "mplate",
+    "item",
+    1848,
+    0
+  ],
+  [
+    "mpotion",
+    "item",
+    1764,
+    0
+  ],
+  [
+    "mpowder",
+    "item",
+    1808,
+    0
+  ],
+  [
+    "mpowder",
+    "move",
+    1691,
+    0
+  ],
+  [
+    "mpower",
+    "move",
+    1943,
+    0
+  ],
+  [
+    "mpull",
+    "ability",
+    1713,
+    0
+  ],
+  [
+    "mpunch",
+    "move",
+    1677,
+    0
+  ],
+  [
+    "mpunch",
+    "move",
+    1783,
+    0
+  ],
+  [
+    "mpyreexterior",
+    "location",
+    1918,
+    0
+  ],
+  [
+    "mpyresummit",
+    "location",
+    1919,
+    0
+  ],
+  [
+    "mreader",
+    "move",
+    1849,
+    0
+  ],
+  [
+    "mrepel",
+    "item",
+    1765,
+    0
+  ],
+  [
     "mrevive",
     "item",
-    1768,
+    1766,
     0
   ],
   [
     "mrime",
     "pokemon",
-    1912,
+    1910,
     0
   ],
   [
     "mring",
     "item",
-    1786,
+    1784,
     0
   ],
   [
     "mrise",
     "move",
-    1716,
+    1714,
     0
   ],
   [
@@ -21404,7 +21396,7 @@ exports.BattleSearchIndex = [
   [
     "mroom",
     "move",
-    1694,
+    1692,
     0
   ],
   [
@@ -21414,79 +21406,79 @@ exports.BattleSearchIndex = [
   [
     "mscale",
     "ability",
-    1748,
+    1746,
     0
   ],
   [
     "mseed",
     "item",
-    1868,
+    1866,
     0
   ],
   [
     "mseed",
     "item",
-    1884,
+    1882,
     0
   ],
   [
     "mshot",
     "move",
-    1878,
+    1876,
     0
   ],
   [
     "mshot",
     "move",
-    1927,
+    1925,
     0
   ],
   [
     "mslap",
     "move",
-    1928,
+    1926,
     0
   ],
   [
     "msound",
     "move",
-    1811,
+    1809,
     0
   ],
   [
     "mspin",
     "move",
-    1904,
+    1902,
     0
   ],
   [
     "msport",
     "move",
-    1929,
+    1927,
     0
   ],
   [
     "mstone",
     "item",
-    1898,
+    1896,
     0
   ],
   [
     "mstorm",
     "move",
-    1708,
+    1706,
     0
   ],
   [
     "msun",
     "move",
-    1901,
+    1899,
     0
   ],
   [
     "msurge",
     "ability",
-    1885,
+    1883,
     0
   ],
   [
@@ -21496,13 +21488,25 @@ exports.BattleSearchIndex = [
   [
     "mteacup",
     "item",
-    1752,
+    1750,
     0
   ],
   [
     "mterrain",
     "move",
-    1886,
+    1884,
+    0
+  ],
+  [
+    "mtf",
+    "location",
+    1867,
+    0
+  ],
+  [
+    "mtf",
+    "location",
+    1868,
     0
   ],
   [
@@ -21518,27 +21522,15 @@ exports.BattleSearchIndex = [
     0
   ],
   [
-    "mtf",
-    "location",
-    1871,
-    0
-  ],
-  [
-    "mtf",
-    "location",
-    1872,
-    0
-  ],
-  [
     "mticket",
     "item",
-    1946,
+    1944,
     0
   ],
   [
     "mtorque",
     "move",
-    1688,
+    1686,
     0
   ],
   [
@@ -21628,37 +21620,37 @@ exports.BattleSearchIndex = [
   [
     "mulch",
     "item",
-    594,
+    592,
     4
   ],
   [
     "mulch",
     "item",
-    1176,
+    1174,
     5
   ],
   [
     "mulch",
     "item",
-    1245,
+    1243,
     6
   ],
   [
     "mulch",
     "item",
-    2450,
+    2448,
     4
   ],
   [
     "mulch",
     "item",
-    2939,
+    2936,
     6
   ],
   [
     "mulch",
     "item",
-    3041,
+    3038,
     8
   ],
   [
@@ -21720,37 +21712,37 @@ exports.BattleSearchIndex = [
   [
     "mushroom",
     "item",
-    3176,
+    3173,
     4
   ],
   [
     "mushrooms",
     "item",
-    1765,
+    1763,
     3
   ],
   [
     "mwater",
     "item",
-    1947,
+    1945,
     0
   ],
   [
     "mwater",
     "move",
-    1924,
+    1922,
     0
   ],
   [
     "mx",
     "item",
-    1830,
+    1828,
     0
   ],
   [
     "my",
     "item",
-    1831,
+    1829,
     0
   ],
   [
@@ -21776,19 +21768,19 @@ exports.BattleSearchIndex = [
   [
     "mz",
     "item",
-    1745,
+    1743,
     0
   ],
   [
     "mz",
     "item",
-    1826,
+    1824,
     0
   ],
   [
     "mz",
     "item",
-    1845,
+    1843,
     0
   ],
   [
@@ -21810,7 +21802,7 @@ exports.BattleSearchIndex = [
   [
     "nalola",
     "pokemon",
-    2000,
+    1998,
     0
   ],
   [
@@ -21820,7 +21812,7 @@ exports.BattleSearchIndex = [
   [
     "narm",
     "move",
-    1976,
+    1974,
     0
   ],
   [
@@ -21902,49 +21894,49 @@ exports.BattleSearchIndex = [
   [
     "nball",
     "item",
-    1977,
+    1975,
     0
   ],
   [
     "nball",
     "item",
-    1978,
+    1976,
     0
   ],
   [
     "nberry",
     "item",
-    1952,
+    1950,
     0
   ],
   [
     "nberry",
     "item",
-    2008,
+    2006,
     0
   ],
   [
     "ncure",
     "ability",
-    1955,
+    1953,
     0
   ],
   [
     "ndaze",
     "move",
-    1992,
+    1990,
     0
   ],
   [
     "ndmane",
     "pokemon",
-    1974,
+    1972,
     0
   ],
   [
     "ndwings",
     "pokemon",
-    1973,
+    1971,
     0
   ],
   [
@@ -21966,25 +21958,25 @@ exports.BattleSearchIndex = [
   [
     "nectar",
     "item",
-    2179,
+    2176,
     4
   ],
   [
     "nectar",
     "item",
-    2319,
+    2316,
     6
   ],
   [
     "nectar",
     "item",
-    2399,
+    2397,
     3
   ],
   [
     "nectar",
     "item",
-    3596,
+    3593,
     6
   ],
   [
@@ -21994,19 +21986,19 @@ exports.BattleSearchIndex = [
   [
     "neigh",
     "ability",
-    448,
+    447,
     8
   ],
   [
     "neigh",
     "ability",
-    1228,
+    1226,
     4
   ],
   [
     "nenightmare",
     "move",
-    1981,
+    1979,
     0
   ],
   [
@@ -22044,37 +22036,37 @@ exports.BattleSearchIndex = [
   [
     "nf",
     "pokemon",
-    1988,
+    1986,
     0
   ],
   [
     "ngas",
     "ability",
-    1980,
+    1978,
     0
   ],
   [
     "ngem",
     "item",
-    2014,
+    2012,
     0
   ],
   [
     "ngift",
     "move",
-    1956,
+    1954,
     0
   ],
   [
     "nguard",
     "ability",
-    2005,
+    2003,
     0
   ],
   [
     "nice",
     "move",
-    2190,
+    2187,
     4
   ],
   [
@@ -22116,7 +22108,7 @@ exports.BattleSearchIndex = [
   [
     "nightmare",
     "move",
-    1981,
+    1979,
     11
   ],
   [
@@ -22142,7 +22134,7 @@ exports.BattleSearchIndex = [
   [
     "nine",
     "ability",
-    491,
+    490,
     5
   ],
   [
@@ -22160,7 +22152,7 @@ exports.BattleSearchIndex = [
   [
     "nlight",
     "move",
-    1997,
+    1995,
     0
   ],
   [
@@ -22170,49 +22162,49 @@ exports.BattleSearchIndex = [
   [
     "nlunarizer",
     "item",
-    2002,
+    2000,
     0
   ],
   [
     "nm",
     "pokemon",
-    1989,
+    1987,
     0
   ],
   [
     "nmadness",
     "move",
-    1958,
+    1956,
     0
   ],
   [
     "nmauvilleentrance",
     "location",
-    1983,
+    1981,
     0
   ],
   [
     "nmauvilleinside",
     "location",
-    1984,
+    1982,
     0
   ],
   [
     "nmice",
     "item",
-    1982,
+    1980,
     0
   ],
   [
     "nmint",
     "item",
-    1951,
+    1949,
     0
   ],
   [
     "nmint",
     "item",
-    1959,
+    1957,
     0
   ],
   [
@@ -22234,13 +22226,13 @@ exports.BattleSearchIndex = [
   [
     "noice",
     "pokemon",
-    801,
+    799,
     6
   ],
   [
     "noise",
     "move",
-    2292,
+    2289,
     7
   ],
   [
@@ -22294,109 +22286,109 @@ exports.BattleSearchIndex = [
   [
     "nplot",
     "move",
-    1953,
+    1951,
     0
   ],
   [
     "npower",
     "move",
-    1957,
+    1955,
     0
   ],
   [
     "nr0",
-    "location",
-    1966,
-    0
-  ],
-  [
-    "nr0",
-    "location",
-    1967,
-    0
-  ],
-  [
-    "nr010",
-    "location",
-    1961,
-    0
-  ],
-  [
-    "nr020",
-    "location",
-    1962,
-    0
-  ],
-  [
-    "nr030",
-    "location",
-    1963,
-    0
-  ],
-  [
-    "nr040",
     "location",
     1964,
     0
   ],
   [
-    "nr050",
+    "nr0",
     "location",
     1965,
     0
   ],
   [
-    "nr10",
+    "nr010",
     "location",
-    1968,
+    1959,
     0
   ],
   [
-    "nr1f0",
+    "nr020",
     "location",
     1960,
     0
   ],
   [
+    "nr030",
+    "location",
+    1961,
+    0
+  ],
+  [
+    "nr040",
+    "location",
+    1962,
+    0
+  ],
+  [
+    "nr050",
+    "location",
+    1963,
+    0
+  ],
+  [
+    "nr10",
+    "location",
+    1966,
+    0
+  ],
+  [
+    "nr1f0",
+    "location",
+    1958,
+    0
+  ],
+  [
     "nr20",
     "location",
-    1969,
+    1967,
     0
   ],
   [
     "nr30",
     "location",
-    1970,
+    1968,
     0
   ],
   [
     "nr40",
     "location",
-    1971,
+    1969,
     0
   ],
   [
     "nretreat",
     "move",
-    2012,
+    2010,
     0
   ],
   [
     "nroar",
     "move",
-    2003,
+    2001,
     0
   ],
   [
     "nshade",
     "move",
-    1994,
+    1992,
     0
   ],
   [
     "nslash",
     "move",
-    1995,
+    1993,
     0
   ],
   [
@@ -22406,13 +22398,13 @@ exports.BattleSearchIndex = [
   [
     "nsolarizer",
     "item",
-    2019,
+    2017,
     0
   ],
   [
     "ntorque",
     "move",
-    2018,
+    2016,
     0
   ],
   [
@@ -22428,13 +22420,13 @@ exports.BattleSearchIndex = [
   [
     "null",
     "pokemon",
-    3348,
+    3345,
     4
   ],
   [
     "nultra",
     "pokemon",
-    1975,
+    1973,
     0
   ],
   [
@@ -22456,25 +22448,25 @@ exports.BattleSearchIndex = [
   [
     "nz",
     "item",
-    2015,
+    2013,
     0
   ],
   [
     "o",
     "pokemon",
-    1270,
+    1268,
     6
   ],
   [
     "o",
     "pokemon",
-    1468,
+    1466,
     6
   ],
   [
     "o",
     "pokemon",
-    1525,
+    1523,
     5
   ],
   [
@@ -22484,19 +22476,19 @@ exports.BattleSearchIndex = [
   [
     "oamber",
     "item",
-    2052,
+    2050,
     0
   ],
   [
     "oberry",
     "item",
-    2030,
+    2028,
     0
   ],
   [
     "oberry",
     "item",
-    2061,
+    2059,
     0
   ],
   [
@@ -22524,15 +22516,9 @@ exports.BattleSearchIndex = [
     "move"
   ],
   [
-    "ocharm",
-    "item",
-    2075,
-    0
-  ],
-  [
     "ocornerstone",
     "pokemon",
-    2040,
+    2038,
     0
   ],
   [
@@ -22542,7 +22528,7 @@ exports.BattleSearchIndex = [
   [
     "octera",
     "pokemon",
-    2041,
+    2039,
     0
   ],
   [
@@ -22572,49 +22558,49 @@ exports.BattleSearchIndex = [
   [
     "of",
     "pokemon",
-    2048,
+    2046,
     0
   ],
   [
     "ofalchemy",
     "ability",
-    2250,
+    2247,
     5
   ],
   [
     "ofalola",
     "move",
-    1250,
+    1248,
     8
   ],
   [
     "ofdarkness",
     "item",
-    2627,
+    2624,
     6
   ],
   [
     "off",
     "move",
-    1521,
+    1519,
     5
   ],
   [
     "off",
     "move",
-    2789,
+    2786,
     5
   ],
   [
     "oforigin1f",
     "location",
-    401,
+    400,
     4
   ],
   [
     "oforiginentrance",
     "location",
-    402,
+    401,
     4
   ],
   [
@@ -22626,55 +22612,55 @@ exports.BattleSearchIndex = [
   [
     "ofruin",
     "ability",
-    3066,
+    3063,
     5
   ],
   [
     "ofruin",
     "ability",
-    3075,
+    3072,
     7
   ],
   [
     "ofruin",
     "ability",
-    3430,
+    3427,
     6
   ],
   [
     "ofruin",
     "move",
-    1600,
+    1598,
     5
   ],
   [
     "oftime",
     "move",
-    2461,
+    2459,
     4
   ],
   [
     "ofunity",
     "item",
-    2414,
+    2412,
     5
   ],
   [
     "ofwaters",
     "item",
-    2628,
+    2625,
     6
   ],
   [
     "og0",
     "location",
-    2050,
+    2048,
     0
   ],
   [
     "ogateau",
     "item",
-    2053,
+    2051,
     0
   ],
   [
@@ -22712,25 +22698,25 @@ exports.BattleSearchIndex = [
   [
     "oh",
     "pokemon",
-    1352,
+    1350,
     2
   ],
   [
     "ohearthflame",
     "pokemon",
-    2042,
+    2040,
     0
   ],
   [
     "ohtera",
     "pokemon",
-    2043,
+    2041,
     0
   ],
   [
     "oincense",
     "item",
-    2035,
+    2033,
     0
   ],
   [
@@ -22744,7 +22730,7 @@ exports.BattleSearchIndex = [
   [
     "okeystone",
     "item",
-    2037,
+    2035,
     0
   ],
   [
@@ -22778,7 +22764,7 @@ exports.BattleSearchIndex = [
   [
     "omail",
     "item",
-    2062,
+    2060,
     0
   ],
   [
@@ -22796,7 +22782,7 @@ exports.BattleSearchIndex = [
   [
     "on",
     "move",
-    1622,
+    1620,
     4
   ],
   [
@@ -22818,37 +22804,37 @@ exports.BattleSearchIndex = [
   [
     "ooperetta",
     "move",
-    2031,
+    2029,
     0
   ],
   [
     "ooze",
     "ability",
-    1614,
+    1612,
     6
   ],
   [
     "oparcel",
     "item",
-    2025,
+    2023,
     0
   ],
   [
     "opau",
     "pokemon",
-    2068,
+    2066,
     0
   ],
   [
     "operetta",
     "move",
-    2031,
+    2029,
     7
   ],
   [
     "oppom",
     "pokemon",
-    2069,
+    2067,
     0
   ],
   [
@@ -22858,13 +22844,13 @@ exports.BattleSearchIndex = [
   [
     "opulse",
     "ability",
-    2066,
+    2064,
     0
   ],
   [
     "opulse",
     "move",
-    2071,
+    2069,
     0
   ],
   [
@@ -22900,43 +22886,43 @@ exports.BattleSearchIndex = [
   [
     "orb",
     "item",
-    962,
+    960,
     5
   ],
   [
     "orb",
     "item",
-    1231,
+    1229,
     8
   ],
   [
     "orb",
     "item",
-    1594,
+    1592,
     4
   ],
   [
     "orb",
     "item",
-    1664,
+    1662,
     8
   ],
   [
     "orb",
     "item",
-    2400,
+    2398,
     3
   ],
   [
     "orb",
     "item",
-    3128,
+    3125,
     4
   ],
   [
     "orb",
     "item",
-    3305,
+    3302,
     5
   ],
   [
@@ -22952,13 +22938,13 @@ exports.BattleSearchIndex = [
   [
     "order",
     "move",
-    631,
+    629,
     6
   ],
   [
     "order",
     "move",
-    1299,
+    1297,
     4
   ],
   [
@@ -22974,7 +22960,7 @@ exports.BattleSearchIndex = [
   [
     "ore",
     "item",
-    782,
+    780,
     6
   ],
   [
@@ -23000,49 +22986,49 @@ exports.BattleSearchIndex = [
   [
     "origin",
     "pokemon",
-    660,
+    658,
     6
   ],
   [
     "origin",
     "pokemon",
-    1134,
+    1132,
     8
   ],
   [
     "origin",
     "pokemon",
-    2089,
+    2086,
     6
   ],
   [
     "origin1f",
     "location",
-    401,
+    400,
     6
   ],
   [
     "original",
     "pokemon",
-    1684,
+    1682,
     8
   ],
   [
     "original",
     "pokemon",
-    2162,
+    2159,
     7
   ],
   [
     "originalmega",
     "pokemon",
-    1685,
+    1683,
     8
   ],
   [
     "originentrance",
     "location",
-    402,
+    401,
     6
   ],
   [
@@ -23052,7 +23038,7 @@ exports.BattleSearchIndex = [
   [
     "orod",
     "item",
-    2054,
+    2052,
     0
   ],
   [
@@ -23062,13 +23048,13 @@ exports.BattleSearchIndex = [
   [
     "ortreat",
     "move",
-    3323,
+    3320,
     5
   ],
   [
     "osensu",
     "pokemon",
-    2070,
+    2068,
     0
   ],
   [
@@ -23078,79 +23064,79 @@ exports.BattleSearchIndex = [
   [
     "osleuth",
     "move",
-    2038,
+    2036,
     0
   ],
   [
     "osmap",
     "item",
-    2055,
+    2053,
     0
   ],
   [
     "ostone",
     "item",
-    2076,
+    2073,
     0
   ],
   [
     "ot0",
     "location",
-    2051,
+    2049,
     0
   ],
   [
     "otempo",
     "ability",
-    2082,
+    2079,
     0
   ],
   [
     "oup",
     "move",
-    2065,
+    2063,
     0
   ],
   [
     "out",
     "ability",
-    1437,
+    1435,
     7
   ],
   [
     "out",
     "ability",
-    3544,
+    3541,
     4
   ],
   [
     "out",
     "move",
-    896,
+    894,
     4
   ],
   [
     "out",
     "move",
-    1551,
+    1549,
     4
   ],
   [
     "out",
     "move",
-    2593,
+    2590,
     10
   ],
   [
     "out",
     "move",
-    2915,
+    2912,
     4
   ],
   [
     "out",
     "move",
-    3572,
+    3569,
     5
   ],
   [
@@ -23162,10 +23148,6 @@ exports.BattleSearchIndex = [
   [
     "outrage",
     "move"
-  ],
-  [
-    "ovalcharm",
-    "item"
   ],
   [
     "ovalstone",
@@ -23182,7 +23164,7 @@ exports.BattleSearchIndex = [
   [
     "overdrive",
     "move",
-    1432,
+    1430,
     7
   ],
   [
@@ -23196,7 +23178,7 @@ exports.BattleSearchIndex = [
   [
     "overlord",
     "ability",
-    3037,
+    3034,
     7
   ],
   [
@@ -23206,25 +23188,25 @@ exports.BattleSearchIndex = [
   [
     "owellspring",
     "pokemon",
-    2045,
+    2043,
     0
   ],
   [
     "owind",
     "move",
-    2058,
+    2056,
     0
   ],
   [
     "owing",
     "move",
-    2026,
+    2024,
     0
   ],
   [
     "owisp",
     "move",
-    3542,
+    3539,
     4
   ],
   [
@@ -23234,7 +23216,7 @@ exports.BattleSearchIndex = [
   [
     "owtera",
     "pokemon",
-    2046,
+    2044,
     0
   ],
   [
@@ -23248,19 +23230,19 @@ exports.BattleSearchIndex = [
   [
     "pack",
     "item",
-    803,
+    801,
     5
   ],
   [
     "pads",
     "item",
-    2281,
+    2278,
     10
   ],
   [
     "pail",
     "item",
-    3482,
+    3479,
     7
   ],
   [
@@ -23278,25 +23260,25 @@ exports.BattleSearchIndex = [
   [
     "paldea",
     "pokemon",
-    3565,
+    3562,
     6
   ],
   [
     "paldeaaqua",
     "pokemon",
-    3107,
+    3104,
     6
   ],
   [
     "paldeablaze",
     "pokemon",
-    3108,
+    3105,
     6
   ],
   [
     "paldeacombat",
     "pokemon",
-    3109,
+    3106,
     6
   ],
   [
@@ -23310,19 +23292,19 @@ exports.BattleSearchIndex = [
   [
     "palm",
     "move",
-    1022,
+    1020,
     5
   ],
   [
     "palola",
     "pokemon",
-    2127,
+    2124,
     0
   ],
   [
     "palola",
     "pokemon",
-    2156,
+    2153,
     0
   ],
   [
@@ -23340,7 +23322,7 @@ exports.BattleSearchIndex = [
   [
     "pancake",
     "move",
-    2306,
+    2303,
     11
   ],
   [
@@ -23354,7 +23336,7 @@ exports.BattleSearchIndex = [
   [
     "panklet",
     "item",
-    2242,
+    2239,
     0
   ],
   [
@@ -23372,25 +23354,25 @@ exports.BattleSearchIndex = [
   [
     "pantique",
     "pokemon",
-    2225,
+    2222,
     0
   ],
   [
     "pao",
     "pokemon",
-    444,
+    443,
     5
   ],
   [
     "papow",
     "move",
-    2171,
+    2168,
     4
   ],
   [
     "papricorn",
     "item",
-    2178,
+    2175,
     0
   ],
   [
@@ -23400,7 +23382,7 @@ exports.BattleSearchIndex = [
   [
     "parade",
     "move",
-    1429,
+    1427,
     8
   ],
   [
@@ -23418,7 +23400,7 @@ exports.BattleSearchIndex = [
   [
     "parcel",
     "item",
-    2025,
+    2023,
     4
   ],
   [
@@ -23432,7 +23414,7 @@ exports.BattleSearchIndex = [
   [
     "parmor",
     "ability",
-    2273,
+    2270,
     0
   ],
   [
@@ -23442,37 +23424,37 @@ exports.BattleSearchIndex = [
   [
     "partner",
     "pokemon",
-    2163,
+    2160,
     7
   ],
   [
     "parts",
     "item",
-    652,
+    650,
     5
   ],
   [
     "pass",
     "item",
-    521,
+    520,
     7
   ],
   [
     "pass",
     "item",
-    2366,
+    2363,
     7
   ],
   [
     "pass",
     "item",
-    3325,
+    3322,
     3
   ],
   [
     "pass",
     "location",
-    1467,
+    1465,
     6
   ],
   [
@@ -23502,7 +23484,7 @@ exports.BattleSearchIndex = [
   [
     "path",
     "location",
-    925,
+    923,
     5
   ],
   [
@@ -23512,7 +23494,7 @@ exports.BattleSearchIndex = [
   [
     "pau",
     "pokemon",
-    2068,
+    2066,
     8
   ],
   [
@@ -23546,229 +23528,229 @@ exports.BattleSearchIndex = [
   [
     "payload",
     "ability",
-    2479,
+    2477,
     5
   ],
   [
     "pball",
     "item",
-    2103,
+    2100,
     0
   ],
   [
     "pball",
     "item",
-    2212,
+    2209,
     0
   ],
   [
     "pball",
     "item",
-    2264,
+    2261,
     0
   ],
   [
     "pball",
     "move",
-    2326,
+    2323,
     0
   ],
   [
     "pband",
     "item",
-    2243,
+    2240,
     0
   ],
   [
     "pbarb",
     "item",
-    2198,
+    2195,
     0
   ],
   [
     "pbash",
     "move",
-    2302,
+    2299,
     0
   ],
   [
     "pbelle",
     "pokemon",
-    2157,
+    2154,
     0
   ],
   [
     "pbelt",
     "item",
-    2244,
+    2241,
     0
   ],
   [
     "pberry",
     "item",
-    2092,
+    2089,
     0
   ],
   [
     "pberry",
     "item",
-    2105,
+    2102,
     0
   ],
   [
     "pberry",
     "item",
-    2113,
+    2110,
     0
   ],
   [
     "pberry",
     "item",
-    2119,
+    2116,
     0
   ],
   [
     "pberry",
     "item",
-    2128,
+    2125,
     0
   ],
   [
     "pberry",
     "item",
-    2134,
+    2131,
     0
   ],
   [
     "pberry",
     "item",
-    2175,
+    2172,
     0
   ],
   [
     "pberry",
     "item",
-    2227,
+    2224,
     0
   ],
   [
     "pblades",
     "move",
-    2263,
+    2260,
     0
   ],
   [
     "pblink",
     "item",
-    2188,
+    2185,
     0
   ],
   [
     "pblizzard",
     "move",
-    2129,
+    2126,
     0
   ],
   [
     "pblock",
     "item",
-    2118,
+    2115,
     0
   ],
   [
     "pbody",
     "ability",
-    2123,
+    2120,
     0
   ],
   [
     "pbomb",
     "move",
-    2232,
+    2229,
     0
   ],
   [
     "pbond",
     "ability",
-    2102,
+    2099,
     0
   ],
   [
     "pboost",
     "move",
-    2297,
+    2294,
     0
   ],
   [
     "pbottle",
     "item",
-    2276,
+    2273,
     0
   ],
   [
     "pbracer",
     "item",
-    2245,
+    2242,
     0
   ],
   [
     "pcase",
     "item",
-    2213,
+    2210,
     0
   ],
   [
     "pcharge",
     "move",
-    2098,
+    2095,
     0
   ],
   [
     "pcity",
     "location",
-    2130,
+    2127,
     0
   ],
   [
     "pconstruct",
     "ability",
-    2246,
+    2243,
     0
   ],
   [
     "pcosplay",
     "pokemon",
-    2158,
+    2155,
     0
   ],
   [
     "pcrunchies",
     "item",
-    2136,
+    2133,
     0
   ],
   [
     "pcut",
     "move",
-    2298,
+    2295,
     0
   ],
   [
     "pdance",
     "move",
-    2133,
+    2130,
     0
   ],
   [
     "pday",
     "move",
-    2115,
+    2112,
     0
   ],
   [
     "pdoll",
     "item",
-    2214,
+    2211,
     0
   ],
   [
@@ -23804,7 +23786,7 @@ exports.BattleSearchIndex = [
   [
     "peck",
     "move",
-    749,
+    747,
     5
   ],
   [
@@ -23820,7 +23802,7 @@ exports.BattleSearchIndex = [
   [
     "pelt",
     "ability",
-    1202,
+    1200,
     5
   ],
   [
@@ -23882,91 +23864,91 @@ exports.BattleSearchIndex = [
   [
     "pfang",
     "move",
-    2199,
+    2196,
     0
   ],
   [
     "pfangs",
     "move",
-    2289,
+    2286,
     0
   ],
   [
     "pfeather",
     "item",
-    2267,
+    2264,
     0
   ],
   [
     "pfists",
     "move",
-    2189,
+    2186,
     0
   ],
   [
     "pflute",
     "item",
-    2215,
+    2212,
     0
   ],
   [
     "pforce",
     "move",
-    2138,
+    2135,
     0
   ],
   [
     "pfossil",
     "item",
-    2193,
+    2190,
     0
   ],
   [
     "pg0",
     "location",
-    2131,
+    2128,
     0
   ],
   [
     "pgalar",
     "pokemon",
-    2229,
+    2226,
     0
   ],
   [
     "pgas",
     "move",
-    2200,
+    2197,
     0
   ],
   [
     "pgem",
     "item",
-    2201,
+    2198,
     0
   ],
   [
     "pgem",
     "item",
-    2290,
+    2287,
     0
   ],
   [
     "pgem",
     "move",
-    2247,
+    2244,
     0
   ],
   [
     "pgeyser",
     "move",
-    2142,
+    2139,
     0
   ],
   [
     "pglove",
     "item",
-    2311,
+    2308,
     0
   ],
   [
@@ -23984,31 +23966,31 @@ exports.BattleSearchIndex = [
   [
     "phd",
     "pokemon",
-    2164,
+    2161,
     7
   ],
   [
     "pheal",
     "ability",
-    2202,
+    2199,
     0
   ],
   [
     "pheal",
     "item",
-    2099,
+    2096,
     0
   ],
   [
     "pherb",
     "item",
-    2248,
+    2245,
     0
   ],
   [
     "phero",
     "pokemon",
-    2087,
+    2084,
     0
   ],
   [
@@ -24022,7 +24004,7 @@ exports.BattleSearchIndex = [
   [
     "phoenn",
     "pokemon",
-    2159,
+    2156,
     0
   ],
   [
@@ -24076,13 +24058,13 @@ exports.BattleSearchIndex = [
   [
     "piece",
     "item",
-    2957,
+    2954,
     4
   ],
   [
     "piece",
     "item",
-    3551,
+    3548,
     7
   ],
   [
@@ -24168,31 +24150,31 @@ exports.BattleSearchIndex = [
   [
     "pillar1f",
     "location",
-    2782,
+    2779,
     3
   ],
   [
     "pillar2f0",
     "location",
-    2783,
+    2780,
     3
   ],
   [
     "pillar3f",
     "location",
-    2784,
+    2781,
     3
   ],
   [
     "pillar4f0",
     "location",
-    2785,
+    2782,
     3
   ],
   [
     "pillar5f",
     "location",
-    2786,
+    2783,
     3
   ],
   [
@@ -24206,7 +24188,7 @@ exports.BattleSearchIndex = [
   [
     "pincense",
     "item",
-    2315,
+    2312,
     0
   ],
   [
@@ -24252,7 +24234,7 @@ exports.BattleSearchIndex = [
   [
     "pirouette",
     "pokemon",
-    1789,
+    1787,
     8
   ],
   [
@@ -24266,19 +24248,19 @@ exports.BattleSearchIndex = [
   [
     "pjab",
     "move",
-    2204,
+    2201,
     0
   ],
   [
     "pjar",
     "item",
-    2240,
+    2237,
     0
   ],
   [
     "pkalos",
     "pokemon",
-    2160,
+    2157,
     0
   ],
   [
@@ -24288,19 +24270,19 @@ exports.BattleSearchIndex = [
   [
     "plant",
     "move",
-    1039,
+    1037,
     6
   ],
   [
     "plarge",
     "pokemon",
-    2308,
+    2305,
     0
   ],
   [
     "plaser",
     "move",
-    2274,
+    2271,
     0
   ],
   [
@@ -24310,115 +24292,115 @@ exports.BattleSearchIndex = [
   [
     "plate",
     "item",
-    702,
+    700,
     5
   ],
   [
     "plate",
     "item",
-    740,
+    738,
     5
   ],
   [
     "plate",
     "item",
-    785,
+    783,
     5
   ],
   [
     "plate",
     "item",
-    951,
+    949,
     4
   ],
   [
     "plate",
     "item",
-    963,
+    961,
     5
   ],
   [
     "plate",
     "item",
-    1410,
+    1408,
     6
   ],
   [
     "plate",
     "item",
-    1439,
+    1437,
     6
   ],
   [
     "plate",
     "item",
-    1459,
+    1457,
     4
   ],
   [
     "plate",
     "item",
-    1769,
+    1767,
     6
   ],
   [
     "plate",
     "item",
-    1850,
+    1848,
     4
   ],
   [
     "plate",
     "item",
-    2186,
+    2183,
     5
   ],
   [
     "plate",
     "item",
-    2787,
+    2784,
     3
   ],
   [
     "plate",
     "item",
-    2922,
+    2919,
     6
   ],
   [
     "plate",
     "item",
-    2926,
+    2923,
     6
   ],
   [
     "plate",
     "item",
-    2991,
+    2988,
     5
   ],
   [
     "plate",
     "item",
-    3306,
+    3303,
     5
   ],
   [
     "plate",
     "item",
-    3609,
+    3606,
     3
   ],
   [
     "play",
     "move",
-    1033,
+    1031,
     4
   ],
   [
     "play",
     "move",
-    2481,
+    2479,
     4
   ],
   [
@@ -24432,37 +24414,37 @@ exports.BattleSearchIndex = [
   [
     "pledge",
     "move",
-    943,
+    941,
     4
   ],
   [
     "pledge",
     "move",
-    1203,
+    1201,
     5
   ],
   [
     "pledge",
     "move",
-    3499,
+    3496,
     5
   ],
   [
     "plens",
     "item",
-    2249,
+    2246,
     0
   ],
   [
     "plibre",
     "pokemon",
-    2161,
+    2158,
     0
   ],
   [
     "plot",
     "move",
-    1953,
+    1951,
     5
   ],
   [
@@ -24472,7 +24454,7 @@ exports.BattleSearchIndex = [
   [
     "plume",
     "move",
-    1561,
+    1559,
     4
   ],
   [
@@ -24490,73 +24472,73 @@ exports.BattleSearchIndex = [
   [
     "pmax",
     "item",
-    2260,
+    2257,
     0
   ],
   [
     "pmega",
     "pokemon",
-    2150,
+    2147,
     0
   ],
   [
     "pmega",
     "pokemon",
-    2184,
+    2181,
     0
   ],
   [
     "pmega",
     "pokemon",
-    2325,
+    2322,
     0
   ],
   [
     "pmemory",
     "item",
-    2205,
+    2202,
     0
   ],
   [
     "pmemory",
     "item",
-    2291,
+    2288,
     0
   ],
   [
     "pmissile",
     "move",
-    2181,
+    2178,
     0
   ],
   [
     "pnectar",
     "item",
-    2179,
+    2176,
     0
   ],
   [
     "pnectar",
     "item",
-    2319,
+    2316,
     0
   ],
   [
     "pnice",
     "move",
-    2190,
+    2187,
     0
   ],
   [
     "pnoise",
     "move",
-    2292,
+    2289,
     0
   ],
   [
     "poalchemy",
     "ability",
-    2250,
+    2247,
     0
   ],
   [
@@ -24568,7 +24550,7 @@ exports.BattleSearchIndex = [
   [
     "point",
     "ability",
-    2206,
+    2203,
     6
   ],
   [
@@ -24578,7 +24560,7 @@ exports.BattleSearchIndex = [
   [
     "poison",
     "move",
-    572,
+    570,
     5
   ],
   [
@@ -24590,7 +24572,7 @@ exports.BattleSearchIndex = [
   [
     "poison",
     "pokemon",
-    2742,
+    2739,
     8
   ],
   [
@@ -24666,7 +24648,7 @@ exports.BattleSearchIndex = [
   [
     "pokeball",
     "pokemon",
-    3462,
+    3459,
     8
   ],
   [
@@ -24698,13 +24680,13 @@ exports.BattleSearchIndex = [
   [
     "policy",
     "item",
-    3512,
+    3509,
     8
   ],
   [
     "polish",
     "move",
-    2470,
+    2468,
     4
   ],
   [
@@ -24746,7 +24728,7 @@ exports.BattleSearchIndex = [
   [
     "pom",
     "pokemon",
-    2069,
+    2067,
     11
   ],
   [
@@ -24756,7 +24738,7 @@ exports.BattleSearchIndex = [
   [
     "pompom",
     "pokemon",
-    2069,
+    2067,
     8
   ],
   [
@@ -24774,7 +24756,7 @@ exports.BattleSearchIndex = [
   [
     "pop",
     "item",
-    2847,
+    2844,
     4
   ],
   [
@@ -24784,7 +24766,7 @@ exports.BattleSearchIndex = [
   [
     "popstar",
     "pokemon",
-    2165,
+    2162,
     7
   ],
   [
@@ -24794,13 +24776,13 @@ exports.BattleSearchIndex = [
   [
     "porigin",
     "pokemon",
-    2089,
+    2086,
     0
   ],
   [
     "poriginal",
     "pokemon",
-    2162,
+    2159,
     0
   ],
   [
@@ -24818,13 +24800,13 @@ exports.BattleSearchIndex = [
   [
     "pot",
     "item",
-    458,
+    457,
     7
   ],
   [
     "pot",
     "item",
-    558,
+    556,
     7
   ],
   [
@@ -24834,25 +24816,25 @@ exports.BattleSearchIndex = [
   [
     "potion",
     "item",
-    1385,
+    1383,
     5
   ],
   [
     "potion",
     "item",
-    1766,
+    1764,
     3
   ],
   [
     "potion",
     "item",
-    3030,
+    3027,
     5
   ],
   [
     "pouch",
     "ability",
-    432,
+    431,
     5
   ],
   [
@@ -24878,31 +24860,31 @@ exports.BattleSearchIndex = [
   [
     "powder",
     "item",
-    846,
+    844,
     6
   ],
   [
     "powder",
     "item",
-    1300,
+    1298,
     4
   ],
   [
     "powder",
     "item",
-    1810,
+    1808,
     5
   ],
   [
     "powder",
     "item",
-    2342,
+    2339,
     5
   ],
   [
     "powder",
     "item",
-    2747,
+    2744,
     6
   ],
   [
@@ -24912,25 +24894,25 @@ exports.BattleSearchIndex = [
   [
     "powder",
     "move",
-    1693,
+    1691,
     5
   ],
   [
     "powder",
     "move",
-    2207,
+    2204,
     6
   ],
   [
     "powder",
     "move",
-    2355,
+    2352,
     4
   ],
   [
     "powder",
     "move",
-    2795,
+    2792,
     5
   ],
   [
@@ -24944,25 +24926,25 @@ exports.BattleSearchIndex = [
   [
     "power",
     "ability",
-    1369,
+    1367,
     4
   ],
   [
     "power",
     "ability",
-    2316,
+    2313,
     4
   ],
   [
     "power",
     "ability",
-    2852,
+    2849,
     5
   ],
   [
     "power",
     "ability",
-    3545,
+    3542,
     4
   ],
   [
@@ -24974,43 +24956,43 @@ exports.BattleSearchIndex = [
   [
     "power",
     "move",
-    539,
+    538,
     6
   ],
   [
     "power",
     "move",
-    786,
+    784,
     5
   ],
   [
     "power",
     "move",
-    1328,
+    1326,
     6
   ],
   [
     "power",
     "move",
-    1945,
+    1943,
     8
   ],
   [
     "power",
     "move",
-    1957,
+    1955,
     6
   ],
   [
     "power",
     "move",
-    2645,
+    2642,
     6
   ],
   [
     "power",
     "move",
-    2994,
+    2991,
     6
   ],
   [
@@ -25052,7 +25034,7 @@ exports.BattleSearchIndex = [
   [
     "powerring",
     "item",
-    3630,
+    3627,
     1
   ],
   [
@@ -25094,37 +25076,37 @@ exports.BattleSearchIndex = [
   [
     "ppads",
     "item",
-    2281,
+    2278,
     0
   ],
   [
     "ppancake",
     "move",
-    2306,
+    2303,
     0
   ],
   [
     "ppapow",
     "move",
-    2171,
+    2168,
     0
   ],
   [
     "ppartner",
     "pokemon",
-    2163,
+    2160,
     0
   ],
   [
     "pphd",
     "pokemon",
-    2164,
+    2161,
     0
   ],
   [
     "pplate",
     "item",
-    2186,
+    2183,
     0
   ],
   [
@@ -25134,31 +25116,31 @@ exports.BattleSearchIndex = [
   [
     "ppoint",
     "ability",
-    2206,
+    2203,
     0
   ],
   [
     "ppowder",
     "move",
-    2207,
+    2204,
     0
   ],
   [
     "ppower",
     "ability",
-    2316,
+    2313,
     0
   ],
   [
     "ppstar",
     "pokemon",
-    2165,
+    2162,
     0
   ],
   [
     "ppuff",
     "move",
-    2222,
+    2219,
     0
   ],
   [
@@ -25168,13 +25150,13 @@ exports.BattleSearchIndex = [
   [
     "ppuppeteer",
     "ability",
-    2208,
+    2205,
     0
   ],
   [
     "pradar",
     "item",
-    2216,
+    2213,
     0
   ],
   [
@@ -25202,13 +25184,13 @@ exports.BattleSearchIndex = [
   [
     "press",
     "move",
-    1012,
+    1010,
     6
   ],
   [
     "press",
     "move",
-    1276,
+    1274,
     4
   ],
   [
@@ -25222,13 +25204,13 @@ exports.BattleSearchIndex = [
   [
     "primal",
     "pokemon",
-    1235,
+    1233,
     7
   ],
   [
     "primal",
     "pokemon",
-    1535,
+    1533,
     6
   ],
   [
@@ -25274,7 +25256,7 @@ exports.BattleSearchIndex = [
   [
     "prock",
     "ability",
-    2313,
+    2310,
     0
   ],
   [
@@ -25308,133 +25290,133 @@ exports.BattleSearchIndex = [
   [
     "prough",
     "move",
-    2191,
+    2188,
     0
   ],
   [
     "prstar",
     "pokemon",
-    2166,
+    2163,
     0
   ],
   [
     "psalt",
     "ability",
-    2318,
+    2315,
     0
   ],
   [
     "pscale",
     "item",
-    2275,
+    2272,
     0
   ],
   [
     "pscarf",
     "item",
-    2180,
+    2177,
     0
   ],
   [
     "psea",
     "ability",
-    2271,
+    2268,
     0
   ],
   [
     "pseed",
     "item",
-    2293,
+    2290,
     0
   ],
   [
     "pshift",
     "move",
-    2251,
+    2248,
     0
   ],
   [
     "pshift",
     "move",
-    2299,
+    2296,
     0
   ],
   [
     "pshot",
     "move",
-    2104,
+    2101,
     0
   ],
   [
     "psinnoh",
     "pokemon",
-    2167,
+    2164,
     0
   ],
   [
     "psmall",
     "pokemon",
-    2309,
+    2306,
     0
   ],
   [
     "psnow",
     "move",
-    2241,
+    2238,
     0
   ],
   [
     "psong",
     "move",
-    2124,
+    2121,
     0
   ],
   [
     "psplit",
     "move",
-    2085,
+    2082,
     0
   ],
   [
     "psplit",
     "move",
-    2252,
+    2249,
     0
   ],
   [
     "pspot",
     "ability",
-    2253,
+    2250,
     0
   ],
   [
     "psting",
     "move",
-    2209,
+    2206,
     0
   ],
   [
     "pstring",
     "item",
-    2117,
+    2114,
     0
   ],
   [
     "psuper",
     "pokemon",
-    2310,
+    2307,
     0
   ],
   [
     "psurge",
     "ability",
-    2294,
+    2291,
     0
   ],
   [
     "pswap",
     "move",
-    2254,
+    2251,
     0
   ],
   [
@@ -25448,7 +25430,7 @@ exports.BattleSearchIndex = [
   [
     "psyche",
     "move",
-    2678,
+    2675,
     9
   ],
   [
@@ -25464,7 +25446,7 @@ exports.BattleSearchIndex = [
   [
     "psychic",
     "pokemon",
-    2743,
+    2740,
     8
   ],
   [
@@ -25542,103 +25524,103 @@ exports.BattleSearchIndex = [
   [
     "ptail",
     "ability",
-    2278,
+    2275,
     0
   ],
   [
     "ptail",
     "move",
-    2210,
+    2207,
     0
   ],
   [
     "pterrain",
     "move",
-    2295,
+    2292,
     0
   ],
   [
     "ptouch",
     "ability",
-    2211,
+    2208,
     0
   ],
   [
     "ptown",
     "location",
-    2084,
+    2081,
     0
   ],
   [
     "ptoy",
     "item",
-    2217,
+    2214,
     0
   ],
   [
     "ptrick",
     "move",
-    2255,
+    2252,
     0
   ],
   [
     "ptrip",
     "move",
-    2256,
+    2253,
     0
   ],
   [
     "puff",
     "move",
-    2222,
+    2219,
     6
   ],
   [
     "pull",
     "ability",
-    1715,
+    1713,
     6
   ],
   [
     "pulse",
     "ability",
-    2066,
+    2064,
     10
   ],
   [
     "pulse",
     "move",
-    603,
+    601,
     4
   ],
   [
     "pulse",
     "move",
-    726,
+    724,
     6
   ],
   [
     "pulse",
     "move",
-    1301,
+    1299,
     4
   ],
   [
     "pulse",
     "move",
-    2071,
+    2069,
     6
   ],
   [
     "pulse",
     "move",
-    3139,
+    3136,
     7
   ],
   [
     "pulse",
     "move",
-    3500,
+    3497,
     5
   ],
   [
@@ -25654,7 +25636,7 @@ exports.BattleSearchIndex = [
   [
     "pump",
     "move",
-    1378,
+    1376,
     5
   ],
   [
@@ -25676,7 +25658,7 @@ exports.BattleSearchIndex = [
   [
     "punch",
     "item",
-    1645,
+    1643,
     5
   ],
   [
@@ -25688,85 +25670,85 @@ exports.BattleSearchIndex = [
   [
     "punch",
     "move",
-    508,
+    507,
     5
   ],
   [
     "punch",
     "move",
-    679,
+    677,
     5
   ],
   [
     "punch",
     "move",
-    733,
+    731,
     5
   ],
   [
     "punch",
     "move",
-    781,
+    779,
     7
   ],
   [
     "punch",
     "move",
-    944,
+    942,
     4
   ],
   [
     "punch",
     "move",
-    1017,
+    1015,
     5
   ],
   [
     "punch",
     "move",
-    1404,
+    1402,
     3
   ],
   [
     "punch",
     "move",
-    1472,
+    1470,
     3
   ],
   [
     "punch",
     "move",
-    1679,
+    1677,
     4
   ],
   [
     "punch",
     "move",
-    1785,
+    1783,
     4
   ],
   [
     "punch",
     "move",
-    2257,
+    2254,
     7
   ],
   [
     "punch",
     "move",
-    2667,
+    2664,
     6
   ],
   [
     "punch",
     "move",
-    3017,
+    3014,
     6
   ],
   [
     "punch",
     "move",
-    3158,
+    3155,
     7
   ],
   [
@@ -25784,19 +25766,19 @@ exports.BattleSearchIndex = [
   [
     "punova",
     "pokemon",
-    2168,
+    2165,
     0
   ],
   [
     "pup",
     "item",
-    2261,
+    2258,
     0
   ],
   [
     "pup",
     "move",
-    2300,
+    2297,
     0
   ],
   [
@@ -25806,13 +25788,13 @@ exports.BattleSearchIndex = [
   [
     "puppeteer",
     "ability",
-    2208,
+    2205,
     6
   ],
   [
     "pupunch",
     "move",
-    2257,
+    2254,
     0
   ],
   [
@@ -25826,7 +25808,7 @@ exports.BattleSearchIndex = [
   [
     "purge",
     "move",
-    1662,
+    1660,
     6
   ],
   [
@@ -25856,79 +25838,79 @@ exports.BattleSearchIndex = [
   [
     "pveil",
     "ability",
-    2107,
+    2104,
     0
   ],
   [
     "pweight",
     "item",
-    2258,
+    2255,
     0
   ],
   [
     "pwhip",
     "move",
-    2259,
+    2256,
     0
   ],
   [
     "pwoods",
     "location",
-    2132,
+    2129,
     0
   ],
   [
     "pworld",
     "pokemon",
-    2169,
+    2166,
     0
   ],
   [
     "pyre1f",
     "location",
-    1914,
+    1912,
     2
   ],
   [
     "pyre2f",
     "location",
-    1915,
+    1913,
     2
   ],
   [
     "pyre3f",
     "location",
-    1916,
+    1914,
     2
   ],
   [
     "pyre4f",
     "location",
-    1917,
+    1915,
     2
   ],
   [
     "pyre5f",
     "location",
-    1918,
+    1916,
     2
   ],
   [
     "pyre6f",
     "location",
-    1919,
+    1917,
     2
   ],
   [
     "pyreexterior",
     "location",
-    1920,
+    1918,
     2
   ],
   [
     "pyresummit",
     "location",
-    1921,
+    1919,
     2
   ],
   [
@@ -25954,115 +25936,115 @@ exports.BattleSearchIndex = [
   [
     "pz",
     "item",
-    2170,
+    2167,
     0
   ],
   [
     "pz",
     "item",
-    2172,
+    2169,
     0
   ],
   [
     "pz",
     "item",
-    2203,
+    2200,
     0
   ],
   [
     "pz",
     "item",
-    2269,
+    2266,
     0
   ],
   [
     "pz",
     "item",
-    2296,
+    2293,
     0
   ],
   [
     "pz",
     "pokemon",
-    2235,
+    2232,
     0
   ],
   [
     "qattack",
     "move",
-    2336,
+    2333,
     0
   ],
   [
     "qball",
     "item",
-    2337,
+    2334,
     0
   ],
   [
     "qberry",
     "item",
-    2329,
+    2326,
     0
   ],
   [
     "qclaw",
     "item",
-    2338,
+    2335,
     0
   ],
   [
     "qdance",
     "move",
-    2346,
+    2343,
     0
   ],
   [
     "qdraw",
     "ability",
-    2339,
+    2336,
     0
   ],
   [
     "qdrive",
     "ability",
-    2331,
+    2328,
     0
   ],
   [
     "qfeet",
     "ability",
-    2340,
+    2337,
     0
   ],
   [
     "qguard",
     "move",
-    2341,
+    2338,
     0
   ],
   [
     "qhisui",
     "pokemon",
-    2348,
+    2345,
     0
   ],
   [
     "qmajesty",
     "ability",
-    2335,
+    2332,
     0
   ],
   [
     "qmint",
     "item",
-    2343,
+    2340,
     0
   ],
   [
     "qpowder",
     "item",
-    2342,
+    2339,
     0
   ],
   [
@@ -26152,6 +26134,18 @@ exports.BattleSearchIndex = [
   [
     "r",
     "location",
+    1697,
+    15
+  ],
+  [
+    "r",
+    "location",
+    1698,
+    15
+  ],
+  [
+    "r",
+    "location",
     1699,
     15
   ],
@@ -26176,217 +26170,205 @@ exports.BattleSearchIndex = [
   [
     "r",
     "location",
-    1703,
-    15
+    1814,
+    14
   ],
   [
     "r",
     "location",
-    1704,
-    15
+    1815,
+    14
   ],
   [
     "r",
     "location",
     1816,
-    14
+    15
   ],
   [
     "r",
     "location",
     1817,
-    14
-  ],
-  [
-    "r",
-    "location",
-    1818,
-    15
-  ],
-  [
-    "r",
-    "location",
-    1819,
     15
   ],
   [
     "r101",
     "location",
-    2504,
+    2501,
     0
   ],
   [
     "r102",
     "location",
-    2505,
+    2502,
     0
   ],
   [
     "r103",
     "location",
-    2507,
+    2504,
     0
   ],
   [
     "r104",
     "location",
-    2508,
+    2505,
     0
   ],
   [
     "r105",
     "location",
-    2509,
+    2506,
     0
   ],
   [
     "r106",
     "location",
-    2510,
+    2507,
     0
   ],
   [
     "r107",
     "location",
-    2511,
+    2508,
     0
   ],
   [
     "r108",
     "location",
-    2512,
+    2509,
     0
   ],
   [
     "r109",
     "location",
-    2513,
+    2510,
     0
   ],
   [
     "r110",
     "location",
-    2514,
+    2511,
     0
   ],
   [
     "r111",
     "location",
-    2515,
+    2512,
     0
   ],
   [
     "r112",
     "location",
-    2516,
+    2513,
     0
   ],
   [
     "r113",
     "location",
-    2517,
+    2514,
     0
   ],
   [
     "r114",
     "location",
-    2518,
+    2515,
     0
   ],
   [
     "r115",
     "location",
-    2519,
+    2516,
     0
   ],
   [
     "r116",
     "location",
-    2520,
+    2517,
     0
   ],
   [
     "r117",
     "location",
-    2521,
+    2518,
     0
   ],
   [
     "r118",
     "location",
-    2522,
+    2519,
     0
   ],
   [
     "r119",
     "location",
-    2523,
+    2520,
     0
   ],
   [
     "r120",
     "location",
-    2524,
+    2521,
     0
   ],
   [
     "r121",
     "location",
-    2525,
+    2522,
     0
   ],
   [
     "r122",
     "location",
-    2526,
+    2523,
     0
   ],
   [
     "r123",
     "location",
-    2527,
+    2524,
     0
   ],
   [
     "r125",
     "location",
-    2528,
+    2525,
     0
   ],
   [
     "r126",
     "location",
-    2529,
+    2526,
     0
   ],
   [
     "r127",
     "location",
-    2530,
+    2527,
     0
   ],
   [
     "r128",
     "location",
-    2531,
+    2528,
     0
   ],
   [
     "r131",
     "location",
-    2532,
+    2529,
     0
   ],
   [
     "r134",
     "location",
-    2533,
+    2530,
     0
   ],
   [
     "r1g0",
     "location",
-    2506,
+    2503,
     0
   ],
   [
@@ -26404,7 +26386,7 @@ exports.BattleSearchIndex = [
   [
     "radar",
     "item",
-    2216,
+    2213,
     4
   ],
   [
@@ -26414,13 +26396,13 @@ exports.BattleSearchIndex = [
   [
     "rage",
     "move",
-    727,
+    725,
     6
   ],
   [
     "rage",
     "move",
-    3116,
+    3113,
     8
   ],
   [
@@ -26474,7 +26456,7 @@ exports.BattleSearchIndex = [
   [
     "raid",
     "move",
-    2758,
+    2755,
     13
   ],
   [
@@ -26484,7 +26466,7 @@ exports.BattleSearchIndex = [
   [
     "rain",
     "move",
-    1721,
+    1719,
     6
   ],
   [
@@ -26502,25 +26484,25 @@ exports.BattleSearchIndex = [
   [
     "rainy",
     "pokemon",
-    395,
+    394,
     8
   ],
   [
     "ralola",
     "pokemon",
-    2360,
+    2357,
     0
   ],
   [
     "ralola",
     "pokemon",
-    2378,
+    2375,
     0
   ],
   [
     "ralola",
     "pokemon",
-    2380,
+    2377,
     0
   ],
   [
@@ -26546,13 +26528,13 @@ exports.BattleSearchIndex = [
   [
     "rapidstrike",
     "pokemon",
-    3403,
+    3400,
     7
   ],
   [
     "rapricorn",
     "item",
-    2396,
+    2394,
     0
   ],
   [
@@ -26590,7 +26572,7 @@ exports.BattleSearchIndex = [
   [
     "raway",
     "ability",
-    2539,
+    2536,
     0
   ],
   [
@@ -26600,7 +26582,7 @@ exports.BattleSearchIndex = [
   [
     "ray",
     "move",
-    517,
+    516,
     7
   ],
   [
@@ -26638,173 +26620,183 @@ exports.BattleSearchIndex = [
   [
     "rball",
     "item",
-    2427,
+    2425,
     0
   ],
   [
     "rband",
     "item",
-    2417,
+    2415,
     0
   ],
   [
     "rberry",
     "item",
-    2351,
+    2348,
     0
   ],
   [
     "rberry",
     "item",
-    2382,
+    2379,
     0
   ],
   [
     "rberry",
     "item",
-    2390,
+    2387,
     0
   ],
   [
     "rberry",
     "item",
-    2452,
+    2450,
     0
   ],
   [
     "rberry",
     "item",
-    2491,
+    2489,
     0
   ],
   [
     "rberry",
     "item",
-    2534,
+    2531,
     0
   ],
   [
     "rblast",
     "move",
-    2463,
+    2461,
     0
   ],
   [
     "rblessing",
     "move",
-    2442,
+    2440,
     0
   ],
   [
     "rbolt",
     "pokemon",
-    2356,
+    2353,
     0
   ],
   [
     "rbone",
     "item",
-    2374,
+    2371,
     0
   ],
   [
     "rbull",
     "move",
-    2357,
+    2354,
     0
   ],
   [
     "rc0",
     "location",
-    2541,
+    2538,
     0
   ],
   [
     "rcandy",
     "item",
-    2375,
+    2372,
     0
   ],
   [
     "rcard",
     "item",
-    2397,
+    2395,
     0
   ],
   [
     "rcatalog",
     "item",
-    2494,
+    2492,
     0
   ],
   [
     "rcbar",
     "item",
-    2353,
+    2350,
+    0
+  ],
+  [
+    "rcharm",
+    "item",
+    2389,
     0
   ],
   [
     "rclaw",
     "item",
-    2385,
+    2382,
     0
   ],
   [
     "rclimb",
     "move",
-    2464,
+    2462,
     0
   ],
   [
     "rcloth",
     "item",
-    2391,
+    2388,
     0
   ],
   [
     "rcopper",
     "item",
-    2418,
+    2416,
     0
   ],
   [
     "rcrown",
     "item",
-    2419,
+    2417,
     0
   ],
   [
     "rdance",
     "move",
-    2367,
+    2364,
     0
   ],
   [
     "rdance",
     "move",
-    2439,
+    2437,
     0
   ],
   [
     "rdish",
     "ability",
-    2368,
+    2365,
     0
   ],
   [
     "reach",
     "ability",
-    1626,
+    1624,
     4
   ],
   [
     "reader",
     "move",
-    1851,
+    1849,
     4
   ],
   [
     "reapercloth",
+    "item"
+  ],
+  [
+    "recallcharm",
     "item"
   ],
   [
@@ -26814,7 +26806,7 @@ exports.BattleSearchIndex = [
   [
     "reception",
     "move",
-    450,
+    449,
     6
   ],
   [
@@ -26956,13 +26948,13 @@ exports.BattleSearchIndex = [
   [
     "rend",
     "move",
-    949,
+    947,
     8
   ],
   [
     "rend",
     "move",
-    2868,
+    2865,
     7
   ],
   [
@@ -26976,13 +26968,13 @@ exports.BattleSearchIndex = [
   [
     "repel",
     "item",
-    1767,
+    1765,
     3
   ],
   [
     "repel",
     "item",
-    3032,
+    3029,
     5
   ],
   [
@@ -27000,19 +26992,19 @@ exports.BattleSearchIndex = [
   [
     "resolute",
     "pokemon",
-    1500,
+    1498,
     6
   ],
   [
     "resort",
     "move",
-    1552,
+    1550,
     4
   ],
   [
     "respects",
     "move",
-    1553,
+    1551,
     4
   ],
   [
@@ -27022,7 +27014,7 @@ exports.BattleSearchIndex = [
   [
     "restore",
     "item",
-    1058,
+    1056,
     4
   ],
   [
@@ -27032,7 +27024,7 @@ exports.BattleSearchIndex = [
   [
     "retreat",
     "move",
-    2012,
+    2010,
     2
   ],
   [
@@ -27082,109 +27074,109 @@ exports.BattleSearchIndex = [
   [
     "revive",
     "item",
-    1768,
+    1766,
     3
   ],
   [
     "rfan",
     "pokemon",
-    2495,
+    2493,
     0
   ],
   [
     "rfang",
     "item",
-    2386,
+    2383,
     0
   ],
   [
     "rfeather",
     "item",
-    2431,
+    2429,
     0
   ],
   [
     "rfist",
     "move",
-    2354,
+    2351,
     0
   ],
   [
     "rflute",
     "item",
-    2398,
+    2396,
     0
   ],
   [
     "rfossil",
     "item",
-    2488,
+    2486,
     0
   ],
   [
     "rfrost",
     "pokemon",
-    2497,
+    2494,
     0
   ],
   [
     "rfury",
     "move",
-    2358,
+    2355,
     0
   ],
   [
     "rg0",
     "location",
-    2542,
+    2539,
     0
   ],
   [
     "rgalar",
     "pokemon",
-    2372,
+    2369,
     0
   ],
   [
     "rgem",
     "item",
-    2465,
+    2463,
     0
   ],
   [
     "rglass",
     "item",
-    2438,
+    2436,
     0
   ],
   [
     "rgold",
     "item",
-    2420,
+    2418,
     0
   ],
   [
     "rhead",
     "ability",
-    2466,
+    2464,
     0
   ],
   [
     "rheat",
     "pokemon",
-    2498,
+    2495,
     0
   ],
   [
     "rhelmet",
     "item",
-    2478,
+    2476,
     0
   ],
   [
     "rherb",
     "item",
-    2443,
+    2441,
     0
   ],
   [
@@ -27226,7 +27218,7 @@ exports.BattleSearchIndex = [
   [
     "rider",
     "ability",
-    3546,
+    3543,
     4
   ],
   [
@@ -27236,19 +27228,19 @@ exports.BattleSearchIndex = [
   [
     "rime",
     "pokemon",
-    1912,
+    1910,
     2
   ],
   [
     "rincense",
     "item",
-    2467,
+    2465,
     0
   ],
   [
     "rincense",
     "item",
-    2489,
+    2487,
     0
   ],
   [
@@ -27258,13 +27250,13 @@ exports.BattleSearchIndex = [
   [
     "ring",
     "item",
-    1786,
+    1784,
     4
   ],
   [
     "ring",
     "item",
-    3630,
+    3627,
     6
   ],
   [
@@ -27288,7 +27280,7 @@ exports.BattleSearchIndex = [
   [
     "rise",
     "move",
-    1716,
+    1714,
     6
   ],
   [
@@ -27302,7 +27294,7 @@ exports.BattleSearchIndex = [
   [
     "rkick",
     "move",
-    2482,
+    2480,
     0
   ],
   [
@@ -27312,91 +27304,91 @@ exports.BattleSearchIndex = [
   [
     "rleaf",
     "move",
-    2387,
+    2384,
     0
   ],
   [
     "rmail",
     "item",
-    2434,
+    2432,
     0
   ],
   [
     "rmega",
     "pokemon",
-    2384,
+    2381,
     0
   ],
   [
     "rmemory",
     "item",
-    2469,
+    2467,
     0
   ],
   [
     "rmint",
     "item",
-    2376,
+    2373,
     0
   ],
   [
     "rmint",
     "item",
-    2415,
+    2413,
     0
   ],
   [
     "rmoon",
     "pokemon",
-    2460,
+    2458,
     0
   ],
   [
     "rmow",
     "pokemon",
-    2499,
+    2496,
     0
   ],
   [
     "rmulch",
     "item",
-    2450,
+    2448,
     0
   ],
   [
     "rmx",
     "pokemon",
-    2361,
+    2358,
     0
   ],
   [
     "rmy",
     "pokemon",
-    2362,
+    2359,
     0
   ],
   [
     "rnectar",
     "item",
-    2399,
+    2397,
     0
   ],
   [
     "road1f",
     "location",
-    3435,
+    3432,
     7
   ],
   [
     "roadb1f",
     "location",
-    3436,
+    3433,
     7
   ],
   [
     "roaming",
     "pokemon",
-    1131,
+    1129,
     10
   ],
   [
@@ -27406,7 +27398,7 @@ exports.BattleSearchIndex = [
   [
     "roar",
     "move",
-    2003,
+    2001,
     5
   ],
   [
@@ -27420,49 +27412,49 @@ exports.BattleSearchIndex = [
   [
     "rock",
     "ability",
-    2313,
+    2310,
     4
   ],
   [
     "rock",
     "ability",
-    2855,
+    2852,
     5
   ],
   [
     "rock",
     "item",
-    595,
+    593,
     4
   ],
   [
     "rock",
     "item",
-    1313,
+    1311,
     4
   ],
   [
     "rock",
     "item",
-    1413,
+    1411,
     3
   ],
   [
     "rock",
     "item",
-    1511,
+    1509,
     5
   ],
   [
     "rock",
     "item",
-    2824,
+    2821,
     6
   ],
   [
     "rock",
     "move",
-    2963,
+    2960,
     7
   ],
   [
@@ -27474,7 +27466,7 @@ exports.BattleSearchIndex = [
   [
     "rock",
     "pokemon",
-    2744,
+    2741,
     8
   ],
   [
@@ -27484,7 +27476,7 @@ exports.BattleSearchIndex = [
   [
     "rockb1f0",
     "location",
-    1960,
+    1958,
     5
   ],
   [
@@ -27498,43 +27490,43 @@ exports.BattleSearchIndex = [
   [
     "rockdown010",
     "location",
-    1961,
+    1959,
     5
   ],
   [
     "rockdown020",
     "location",
-    1962,
+    1960,
     5
   ],
   [
     "rockdown030",
     "location",
-    1963,
+    1961,
     5
   ],
   [
     "rockdown040",
     "location",
-    1964,
+    1962,
     5
   ],
   [
     "rockdown050",
     "location",
-    1965,
+    1963,
     5
   ],
   [
     "rockentrance0",
     "location",
-    1966,
+    1964,
     5
   ],
   [
     "rockfork0",
     "location",
-    1967,
+    1965,
     5
   ],
   [
@@ -27580,7 +27572,7 @@ exports.BattleSearchIndex = [
   [
     "rockstar",
     "pokemon",
-    2166,
+    2163,
     7
   ],
   [
@@ -27594,25 +27586,25 @@ exports.BattleSearchIndex = [
   [
     "rockup10",
     "location",
-    1968,
+    1966,
     5
   ],
   [
     "rockup20",
     "location",
-    1969,
+    1967,
     5
   ],
   [
     "rockup30",
     "location",
-    1970,
+    1968,
     5
   ],
   [
     "rockup40",
     "location",
-    1971,
+    1969,
     5
   ],
   [
@@ -27630,25 +27622,25 @@ exports.BattleSearchIndex = [
   [
     "rod",
     "ability",
-    1599,
+    1597,
     9
   ],
   [
     "rod",
     "item",
-    1174,
+    1172,
     4
   ],
   [
     "rod",
     "item",
-    2054,
+    2052,
     3
   ],
   [
     "rod",
     "item",
-    3033,
+    3030,
     5
   ],
   [
@@ -27662,7 +27654,7 @@ exports.BattleSearchIndex = [
   [
     "roller",
     "move",
-    2975,
+    2972,
     5
   ],
   [
@@ -27684,85 +27676,85 @@ exports.BattleSearchIndex = [
   [
     "room",
     "location",
-    1195,
+    1193,
     18
   ],
   [
     "room",
     "location",
-    2707,
+    2704,
     24
   ],
   [
     "room",
     "location",
-    2708,
+    2705,
     19
   ],
   [
     "room",
     "location",
-    2709,
+    2706,
     21
   ],
   [
     "room",
     "location",
-    2710,
+    2707,
     21
   ],
   [
     "room",
     "location",
-    2711,
+    2708,
     22
   ],
   [
     "room",
     "move",
-    1694,
+    1692,
     5
   ],
   [
     "room",
     "move",
-    3324,
+    3321,
     5
   ],
   [
     "room",
     "move",
-    3558,
+    3555,
     6
   ],
   [
     "room0",
     "location",
-    3427,
+    3424,
     23
   ],
   [
     "room1",
     "item",
-    1502,
+    1500,
     5
   ],
   [
     "room2",
     "item",
-    1503,
+    1501,
     5
   ],
   [
     "room4",
     "item",
-    1504,
+    1502,
     5
   ],
   [
     "room6",
     "item",
-    1505,
+    1503,
     5
   ],
   [
@@ -27782,7 +27774,7 @@ exports.BattleSearchIndex = [
   [
     "root",
     "item",
-    847,
+    845,
     6
   ],
   [
@@ -27792,13 +27784,13 @@ exports.BattleSearchIndex = [
   [
     "rope",
     "item",
-    853,
+    851,
     6
   ],
   [
     "rorb",
     "item",
-    2400,
+    2398,
     0
   ],
   [
@@ -27820,7 +27812,7 @@ exports.BattleSearchIndex = [
   [
     "rotime",
     "move",
-    2461,
+    2459,
     0
   ],
   [
@@ -27833,10 +27825,6 @@ exports.BattleSearchIndex = [
   ],
   [
     "rotomfan",
-    "pokemon"
-  ],
-  [
-    "rotomform",
     "pokemon"
   ],
   [
@@ -27862,7 +27850,7 @@ exports.BattleSearchIndex = [
   [
     "rough",
     "move",
-    2191,
+    2188,
     4
   ],
   [
@@ -27876,7 +27864,7 @@ exports.BattleSearchIndex = [
   [
     "rounity",
     "item",
-    2414,
+    2412,
     0
   ],
   [
@@ -28010,151 +27998,151 @@ exports.BattleSearchIndex = [
   [
     "rpass",
     "item",
-    2366,
+    2363,
     0
   ],
   [
     "rpayload",
     "ability",
-    2479,
+    2477,
     0
   ],
   [
     "rplay",
     "move",
-    2481,
+    2479,
     0
   ],
   [
     "rpolish",
     "move",
-    2470,
+    2468,
     0
   ],
   [
     "rpowder",
     "move",
-    2355,
+    2352,
     0
   ],
   [
     "rscarf",
     "item",
-    2401,
+    2399,
     0
   ],
   [
     "rservice",
     "item",
-    2486,
+    2484,
     0
   ],
   [
     "rshard",
     "item",
-    2402,
+    2400,
     0
   ],
   [
     "rshell",
     "move",
-    2388,
+    2385,
     0
   ],
   [
     "rshield",
     "item",
-    2543,
+    2540,
     0
   ],
   [
     "rsilver",
     "item",
-    2421,
+    2419,
     0
   ],
   [
     "rskin",
     "ability",
-    2502,
+    2499,
     0
   ],
   [
     "rslide",
     "move",
-    2473,
+    2471,
     0
   ],
   [
     "rsmash",
     "move",
-    2474,
+    2472,
     0
   ],
   [
     "rsong",
     "move",
-    2422,
+    2420,
     0
   ],
   [
     "rspin",
     "move",
-    2373,
+    2370,
     0
   ],
   [
     "rstatue",
     "item",
-    2423,
+    2421,
     0
   ],
   [
     "rsweet",
     "item",
-    2448,
+    2446,
     0
   ],
   [
     "rsword",
     "item",
-    2544,
+    2541,
     0
   ],
   [
     "rsystem",
     "ability",
-    2458,
+    2456,
     0
   ],
   [
     "rtarget",
     "item",
-    2453,
+    2451,
     0
   ],
   [
     "rthrow",
     "move",
-    2475,
+    2473,
     0
   ],
   [
     "rtomb",
     "move",
-    2476,
+    2474,
     0
   ],
   [
     "rtunnel",
     "location",
-    2545,
+    2542,
     0
   ],
   [
     "rtype",
     "move",
-    2404,
+    2402,
     0
   ],
   [
@@ -28174,25 +28162,25 @@ exports.BattleSearchIndex = [
   [
     "ruin",
     "ability",
-    3066,
+    3063,
     7
   ],
   [
     "ruin",
     "ability",
-    3075,
+    3072,
     9
   ],
   [
     "ruin",
     "ability",
-    3430,
+    3427,
     8
   ],
   [
     "ruin",
     "move",
-    1600,
+    1598,
     7
   ],
   [
@@ -28202,7 +28190,7 @@ exports.BattleSearchIndex = [
   [
     "run",
     "move",
-    750,
+    748,
     5
   ],
   [
@@ -28216,13 +28204,13 @@ exports.BattleSearchIndex = [
   [
     "rush",
     "ability",
-    2576,
+    2573,
     4
   ],
   [
     "rush",
     "ability",
-    2814,
+    2811,
     5
   ],
   [
@@ -28234,19 +28222,19 @@ exports.BattleSearchIndex = [
   [
     "rush",
     "move",
-    728,
+    726,
     6
   ],
   [
     "rush",
     "move",
-    1138,
+    1136,
     6
   ],
   [
     "rush",
     "move",
-    1292,
+    1290,
     8
   ],
   [
@@ -28272,61 +28260,61 @@ exports.BattleSearchIndex = [
   [
     "rvase",
     "item",
-    2424,
+    2422,
     0
   ],
   [
     "rvoltage",
     "move",
-    2456,
+    2454,
     0
   ],
   [
     "rwash",
     "pokemon",
-    2500,
+    2497,
     0
   ],
   [
     "rwind",
     "move",
-    2389,
+    2386,
     0
   ],
   [
     "rwrecker",
     "move",
-    2477,
+    2475,
     0
   ],
   [
     "rx",
     "item",
-    2363,
+    2360,
     0
   ],
   [
     "ry",
     "item",
-    2364,
+    2361,
     0
   ],
   [
     "rz",
     "item",
-    2468,
+    2466,
     0
   ],
   [
     "s",
     "item",
-    875,
+    873,
     8
   ],
   [
     "sable",
     "item",
-    2671,
+    2668,
     7
   ],
   [
@@ -28348,7 +28336,7 @@ exports.BattleSearchIndex = [
   [
     "sack",
     "item",
-    2861,
+    2858,
     4
   ],
   [
@@ -28430,25 +28418,25 @@ exports.BattleSearchIndex = [
   [
     "salola",
     "pokemon",
-    2579,
+    2576,
     0
   ],
   [
     "salola",
     "pokemon",
-    2581,
+    2578,
     0
   ],
   [
     "salt",
     "ability",
-    2318,
+    2315,
     9
   ],
   [
     "salt",
     "item",
-    2712,
+    2709,
     5
   ],
   [
@@ -28458,7 +28446,7 @@ exports.BattleSearchIndex = [
   [
     "salts",
     "move",
-    2818,
+    2815,
     8
   ],
   [
@@ -28472,7 +28460,7 @@ exports.BattleSearchIndex = [
   [
     "sand",
     "item",
-    2849,
+    2846,
     4
   ],
   [
@@ -28498,7 +28486,7 @@ exports.BattleSearchIndex = [
   [
     "sands",
     "move",
-    2614,
+    2611,
     9
   ],
   [
@@ -28544,7 +28532,7 @@ exports.BattleSearchIndex = [
   [
     "sandy",
     "pokemon",
-    3568,
+    3565,
     8
   ],
   [
@@ -28558,13 +28546,13 @@ exports.BattleSearchIndex = [
   [
     "santique",
     "pokemon",
-    2757,
+    2754,
     0
   ],
   [
     "sap",
     "move",
-    3002,
+    2999,
     8
   ],
   [
@@ -28574,13 +28562,13 @@ exports.BattleSearchIndex = [
   [
     "sapple",
     "item",
-    3053,
+    3050,
     0
   ],
   [
     "sapple",
     "item",
-    3074,
+    3071,
     0
   ],
   [
@@ -28594,31 +28582,31 @@ exports.BattleSearchIndex = [
   [
     "saraid",
     "move",
-    2758,
+    2755,
     0
   ],
   [
     "saria",
     "move",
-    2870,
+    2867,
     0
   ],
   [
     "sarmor",
     "ability",
-    2688,
+    2685,
     0
   ],
   [
     "sash",
     "item",
-    1018,
+    1016,
     5
   ],
   [
     "sash",
     "item",
-    2550,
+    2547,
     0
   ],
   [
@@ -28628,13 +28616,13 @@ exports.BattleSearchIndex = [
   [
     "sattack",
     "move",
-    2573,
+    2570,
     0
   ],
   [
     "sattack",
     "move",
-    2780,
+    2777,
     0
   ],
   [
@@ -28656,235 +28644,235 @@ exports.BattleSearchIndex = [
   [
     "saxe",
     "move",
-    2989,
+    2986,
     0
   ],
   [
     "sball",
     "item",
-    2553,
+    2550,
     0
   ],
   [
     "sball",
     "item",
-    2820,
+    2817,
     0
   ],
   [
     "sball",
     "item",
-    2928,
+    2925,
     0
   ],
   [
     "sball",
     "move",
-    2662,
+    2659,
     0
   ],
   [
     "sbarb",
     "item",
-    2982,
+    2979,
     0
   ],
   [
     "sbash",
     "move",
-    2776,
+    2773,
     0
   ],
   [
     "sbeak",
     "item",
-    2672,
+    2669,
     0
   ],
   [
     "sbeam",
     "move",
-    2723,
+    2720,
     0
   ],
   [
     "sbeam",
     "move",
-    2753,
+    2750,
     0
   ],
   [
     "sbeam",
     "move",
-    2850,
+    2847,
     0
   ],
   [
     "sbeam",
     "move",
-    2968,
+    2965,
     0
   ],
   [
     "sbell",
     "item",
-    2689,
+    2686,
     0
   ],
   [
     "sbell",
     "item",
-    2859,
+    2856,
     0
   ],
   [
     "sberry",
     "item",
-    2563,
+    2560,
     0
   ],
   [
     "sberry",
     "item",
-    2719,
+    2716,
     0
   ],
   [
     "sberry",
     "item",
-    2760,
+    2757,
     0
   ],
   [
     "sberry",
     "item",
-    2904,
+    2901,
     0
   ],
   [
     "sberry",
     "item",
-    2952,
+    2949,
     0
   ],
   [
     "sblade",
     "move",
-    2851,
+    2848,
     0
   ],
   [
     "sblue",
     "pokemon",
-    2934,
+    2931,
     0
   ],
   [
     "sboiled",
     "move",
-    2848,
+    2845,
     0
   ],
   [
     "sbomb",
     "move",
-    2647,
+    2644,
     0
   ],
   [
     "sbomb",
     "move",
-    2810,
+    2807,
     0
   ],
   [
     "sbomb",
     "move",
-    3073,
+    3070,
     0
   ],
   [
     "sbone",
     "move",
-    2663,
+    2660,
     0
   ],
   [
     "sboom",
     "move",
-    2858,
+    2855,
     0
   ],
   [
     "sboost",
     "ability",
-    2901,
+    2898,
     0
   ],
   [
     "sbreak",
     "move",
-    2916,
+    2913,
     0
   ],
   [
     "sbug",
     "move",
-    3006,
+    3003,
     0
   ],
   [
     "sbug",
     "pokemon",
-    2730,
+    2727,
     0
   ],
   [
     "sc1",
     "location",
-    2631,
+    2628,
     0
   ],
   [
     "sc2",
     "location",
-    2632,
+    2629,
     0
   ],
   [
     "sc3",
     "location",
-    2633,
+    2630,
     0
   ],
   [
     "sc4",
     "location",
-    2634,
+    2631,
     0
   ],
   [
     "sc5",
     "location",
-    2635,
+    2632,
     0
   ],
   [
     "sc6",
     "location",
-    2636,
+    2633,
     0
   ],
   [
     "sc7",
     "location",
-    2637,
+    2634,
     0
   ],
   [
     "sc8",
     "location",
-    2638,
+    2635,
     0
   ],
   [
@@ -28894,43 +28882,43 @@ exports.BattleSearchIndex = [
   [
     "scale",
     "ability",
-    1748,
+    1746,
     6
   ],
   [
     "scale",
     "item",
-    624,
+    622,
     7
   ],
   [
     "scale",
     "item",
-    729,
+    727,
     6
   ],
   [
     "scale",
     "item",
-    1304,
+    1302,
     5
   ],
   [
     "scale",
     "item",
-    2275,
+    2272,
     5
   ],
   [
     "scales",
     "ability",
-    1405,
+    1403,
     3
   ],
   [
     "scales",
     "move",
-    471,
+    470,
     8
   ],
   [
@@ -28944,7 +28932,7 @@ exports.BattleSearchIndex = [
   [
     "scannon",
     "move",
-    2910,
+    2907,
     0
   ],
   [
@@ -28956,37 +28944,37 @@ exports.BattleSearchIndex = [
   [
     "scarf",
     "item",
-    463,
+    462,
     6
   ],
   [
     "scarf",
     "item",
-    1218,
+    1216,
     5
   ],
   [
     "scarf",
     "item",
-    2180,
+    2177,
     4
   ],
   [
     "scarf",
     "item",
-    2401,
+    2399,
     3
   ],
   [
     "scarf",
     "item",
-    2726,
+    2723,
     4
   ],
   [
     "scarf",
     "item",
-    3597,
+    3594,
     6
   ],
   [
@@ -29000,7 +28988,7 @@ exports.BattleSearchIndex = [
   [
     "scent",
     "move",
-    3056,
+    3053,
     5
   ],
   [
@@ -29018,25 +29006,25 @@ exports.BattleSearchIndex = [
   [
     "schange",
     "ability",
-    2945,
+    2942,
     0
   ],
   [
     "scharm",
     "item",
-    2705,
+    2702,
     0
   ],
   [
     "scheeks",
     "move",
-    3007,
+    3004,
     0
   ],
   [
     "school",
     "pokemon",
-    3553,
+    3550,
     10
   ],
   [
@@ -29046,19 +29034,19 @@ exports.BattleSearchIndex = [
   [
     "scissor",
     "move",
-    3582,
+    3579,
     1
   ],
   [
     "scity",
     "location",
-    2794,
+    2791,
     0
   ],
   [
     "scity",
     "location",
-    2860,
+    2857,
     0
   ],
   [
@@ -29076,25 +29064,25 @@ exports.BattleSearchIndex = [
   [
     "sclaw",
     "move",
-    2664,
+    2661,
     0
   ],
   [
     "scleaner",
     "ability",
-    2626,
+    2623,
     0
   ],
   [
     "scloak",
     "ability",
-    2841,
+    2838,
     0
   ],
   [
     "scold",
     "move",
-    2685,
+    2682,
     0
   ],
   [
@@ -29112,13 +29100,13 @@ exports.BattleSearchIndex = [
   [
     "scope",
     "item",
-    653,
+    651,
     5
   ],
   [
     "scope",
     "item",
-    2728,
+    2725,
     5
   ],
   [
@@ -29180,7 +29168,7 @@ exports.BattleSearchIndex = [
   [
     "screen",
     "move",
-    1601,
+    1599,
     5
   ],
   [
@@ -29198,43 +29186,43 @@ exports.BattleSearchIndex = [
   [
     "scteroom",
     "location",
-    2707,
+    2704,
     0
   ],
   [
     "sctiroom",
     "location",
-    2708,
+    2705,
     0
   ],
   [
     "sctiroom",
     "location",
-    2709,
+    2706,
     0
   ],
   [
     "sctlroom",
     "location",
-    2710,
+    2707,
     0
   ],
   [
     "sctsroom",
     "location",
-    2711,
+    2708,
     0
   ],
   [
     "scups",
     "ability",
-    3018,
+    3015,
     0
   ],
   [
     "scure",
     "move",
-    2569,
+    2566,
     0
   ],
   [
@@ -29244,79 +29232,79 @@ exports.BattleSearchIndex = [
   [
     "sdance",
     "move",
-    3067,
+    3064,
     0
   ],
   [
     "sdark",
     "pokemon",
-    2731,
+    2728,
     0
   ],
   [
     "sday",
     "move",
-    3023,
+    3020,
     0
   ],
   [
     "sdestruct",
     "move",
-    2654,
+    2651,
     0
   ],
   [
     "sdew",
     "item",
-    2862,
+    2859,
     0
   ],
   [
     "sdown",
     "ability",
-    2700,
+    2697,
     0
   ],
   [
     "sdown",
     "move",
-    2815,
+    2812,
     0
   ],
   [
     "sdragon",
     "pokemon",
-    2732,
+    2729,
     0
   ],
   [
     "sdrain",
     "ability",
-    2995,
+    2992,
     0
   ],
   [
     "sdrive",
     "item",
-    2714,
+    2711,
     0
   ],
   [
     "sdrop",
     "move",
-    2781,
+    2778,
     0
   ],
   [
     "sdust",
     "ability",
-    2698,
+    2695,
     0
   ],
   [
     "sea",
     "ability",
-    2271,
+    2268,
     10
   ],
   [
@@ -29370,7 +29358,7 @@ exports.BattleSearchIndex = [
   [
     "seamap",
     "item",
-    2055,
+    2053,
     3
   ],
   [
@@ -29384,13 +29372,13 @@ exports.BattleSearchIndex = [
   [
     "seascale",
     "item",
-    624,
+    622,
     4
   ],
   [
     "seatooth",
     "item",
-    625,
+    623,
     4
   ],
   [
@@ -29408,37 +29396,37 @@ exports.BattleSearchIndex = [
   [
     "sedge",
     "move",
-    2990,
+    2987,
     0
   ],
   [
     "seed",
     "item",
-    812,
+    810,
     8
   ],
   [
     "seed",
     "item",
-    1206,
+    1204,
     6
   ],
   [
     "seed",
     "item",
-    1868,
+    1866,
     7
   ],
   [
     "seed",
     "item",
-    1884,
+    1882,
     5
   ],
   [
     "seed",
     "item",
-    2293,
+    2290,
     7
   ],
   [
@@ -29450,19 +29438,19 @@ exports.BattleSearchIndex = [
   [
     "seed",
     "move",
-    1577,
+    1575,
     5
   ],
   [
     "seed",
     "move",
-    2590,
+    2587,
     5
   ],
   [
     "seed",
     "move",
-    3570,
+    3567,
     5
   ],
   [
@@ -29484,7 +29472,7 @@ exports.BattleSearchIndex = [
   [
     "seeker",
     "item",
-    3476,
+    3473,
     2
   ],
   [
@@ -29502,7 +29490,7 @@ exports.BattleSearchIndex = [
   [
     "selectric",
     "pokemon",
-    2733,
+    2730,
     0
   ],
   [
@@ -29512,13 +29500,13 @@ exports.BattleSearchIndex = [
   [
     "sengine",
     "ability",
-    2964,
+    2961,
     0
   ],
   [
     "sensu",
     "pokemon",
-    2070,
+    2068,
     8
   ],
   [
@@ -29540,13 +29528,13 @@ exports.BattleSearchIndex = [
   [
     "seruption",
     "move",
-    2965,
+    2962,
     0
   ],
   [
     "service",
     "item",
-    2486,
+    2484,
     4
   ],
   [
@@ -29564,169 +29552,169 @@ exports.BattleSearchIndex = [
   [
     "sextract",
     "move",
-    2907,
+    2904,
     0
   ],
   [
     "sface",
     "move",
-    2600,
+    2597,
     0
   ],
   [
     "sfairy",
     "pokemon",
-    2734,
+    2731,
     0
   ],
   [
     "sfang",
     "move",
-    3027,
+    3024,
     0
   ],
   [
     "sfeather",
     "item",
-    3060,
+    3057,
     0
   ],
   [
     "sfighting",
     "pokemon",
-    2735,
+    2732,
     0
   ],
   [
     "sfire",
     "move",
-    2551,
+    2548,
     0
   ],
   [
     "sfire",
     "pokemon",
-    2736,
+    2733,
     0
   ],
   [
     "sflare",
     "move",
-    2648,
+    2645,
     0
   ],
   [
     "sflying",
     "pokemon",
-    2737,
+    2734,
     0
   ],
   [
     "sforce",
     "ability",
-    2574,
+    2571,
     0
   ],
   [
     "sforce",
     "ability",
-    2686,
+    2683,
     0
   ],
   [
     "sforce",
     "move",
-    2665,
+    2662,
     0
   ],
   [
     "sfossil",
     "item",
-    2562,
+    2559,
     0
   ],
   [
     "sfossil",
     "item",
-    2777,
+    2774,
     0
   ],
   [
     "sgalar",
     "pokemon",
-    2801,
+    2798,
     0
   ],
   [
     "sgalar",
     "pokemon",
-    2805,
+    2802,
     0
   ],
   [
     "sgalar",
     "pokemon",
-    2807,
+    2804,
     0
   ],
   [
     "sgalar",
     "pokemon",
-    3010,
+    3007,
     0
   ],
   [
     "sgear",
     "move",
-    2701,
+    2698,
     0
   ],
   [
     "sgem",
     "item",
-    2969,
+    2966,
     0
   ],
   [
     "sghost",
     "pokemon",
-    2738,
+    2735,
     0
   ],
   [
     "sgoggles",
     "item",
-    2561,
+    2558,
     0
   ],
   [
     "sgrace",
     "ability",
-    2656,
+    2653,
     0
   ],
   [
     "sgrass",
     "pokemon",
-    2739,
+    2736,
     0
   ],
   [
     "sground",
     "pokemon",
-    2740,
+    2737,
     0
   ],
   [
     "shackle",
     "move",
-    2918,
+    2915,
     6
   ],
   [
     "shade",
     "move",
-    1994,
+    1992,
     5
   ],
   [
@@ -29790,37 +29778,37 @@ exports.BattleSearchIndex = [
   [
     "shard",
     "item",
-    509,
+    508,
     5
   ],
   [
     "shard",
     "item",
-    1219,
+    1217,
     5
   ],
   [
     "shard",
     "item",
-    2402,
+    2400,
     3
   ],
   [
     "shard",
     "item",
-    3598,
+    3595,
     6
   ],
   [
     "shard",
     "move",
-    1406,
+    1404,
     3
   ],
   [
     "share",
     "item",
-    882,
+    880,
     3
   ],
   [
@@ -29862,13 +29850,13 @@ exports.BattleSearchIndex = [
   [
     "sheart",
     "ability",
-    2863,
+    2860,
     0
   ],
   [
     "sheart",
     "item",
-    3054,
+    3051,
     0
   ],
   [
@@ -29908,25 +29896,25 @@ exports.BattleSearchIndex = [
   [
     "shell",
     "ability",
-    3132,
+    3129,
     4
   ],
   [
     "shell",
     "item",
-    2682,
+    2679,
     4
   ],
   [
     "shell",
     "item",
-    2713,
+    2710,
     5
   ],
   [
     "shell",
     "move",
-    2388,
+    2385,
     5
   ],
   [
@@ -29972,13 +29960,13 @@ exports.BattleSearchIndex = [
   [
     "shield",
     "ability",
-    615,
+    613,
     9
   ],
   [
     "shield",
     "ability",
-    2668,
+    2665,
     6
   ],
   [
@@ -29990,31 +29978,31 @@ exports.BattleSearchIndex = [
   [
     "shield",
     "item",
-    2543,
+    2540,
     6
   ],
   [
     "shield",
     "move",
-    560,
+    558,
     6
   ],
   [
     "shield",
     "move",
-    1000,
+    998,
     6
   ],
   [
     "shield",
     "move",
-    1512,
+    1510,
     5
   ],
   [
     "shield",
     "move",
-    2912,
+    2909,
     5
   ],
   [
@@ -30038,19 +30026,19 @@ exports.BattleSearchIndex = [
   [
     "shift",
     "ability",
-    3133,
+    3130,
     4
   ],
   [
     "shift",
     "move",
-    2251,
+    2248,
     5
   ],
   [
     "shift",
     "move",
-    2299,
+    2296,
     6
   ],
   [
@@ -30092,19 +30080,19 @@ exports.BattleSearchIndex = [
   [
     "shisui",
     "pokemon",
-    2571,
+    2568,
     0
   ],
   [
     "shisui",
     "pokemon",
-    2798,
+    2795,
     0
   ],
   [
     "shisui",
     "pokemon",
-    2829,
+    2826,
     0
   ],
   [
@@ -30138,25 +30126,25 @@ exports.BattleSearchIndex = [
   [
     "shock",
     "move",
-    695,
+    693,
     6
   ],
   [
     "shock",
     "move",
-    1036,
+    1034,
     6
   ],
   [
     "shock",
     "move",
-    3159,
+    3156,
     7
   ],
   [
     "shock",
     "pokemon",
-    1108,
+    1106,
     8
   ],
   [
@@ -30166,7 +30154,7 @@ exports.BattleSearchIndex = [
   [
     "shocks",
     "pokemon",
-    2588,
+    2585,
     5
   ],
   [
@@ -30176,7 +30164,7 @@ exports.BattleSearchIndex = [
   [
     "shold",
     "ability",
-    2983,
+    2980,
     0
   ],
   [
@@ -30188,7 +30176,7 @@ exports.BattleSearchIndex = [
   [
     "shoot",
     "item",
-    3175,
+    3172,
     10
   ],
   [
@@ -30204,61 +30192,61 @@ exports.BattleSearchIndex = [
   [
     "shot",
     "move",
-    823,
+    821,
     7
   ],
   [
     "shot",
     "move",
-    1258,
+    1256,
     4
   ],
   [
     "shot",
     "move",
-    1878,
+    1876,
     6
   ],
   [
     "shot",
     "move",
-    1927,
+    1925,
     3
   ],
   [
     "shot",
     "move",
-    2104,
+    2101,
     7
   ],
   [
     "shot",
     "move",
-    2598,
+    2595,
     5
   ],
   [
     "shot",
     "move",
-    2642,
+    2639,
     7
   ],
   [
     "shot",
     "move",
-    2832,
+    2829,
     5
   ],
   [
     "shot",
     "move",
-    3003,
+    3000,
     6
   ],
   [
     "shot",
     "move",
-    3100,
+    3097,
     3
   ],
   [
@@ -30284,37 +30272,37 @@ exports.BattleSearchIndex = [
   [
     "shuriken",
     "move",
-    3501,
+    3498,
     5
   ],
   [
     "si0",
     "location",
-    2866,
+    2863,
     0
   ],
   [
     "si0",
     "location",
-    2867,
+    2864,
     0
   ],
   [
     "sice",
     "pokemon",
-    2741,
+    2738,
     0
   ],
   [
     "sidearm",
     "move",
-    2693,
+    2690,
     5
   ],
   [
     "sight",
     "move",
-    1076,
+    1074,
     6
   ],
   [
@@ -30420,7 +30408,7 @@ exports.BattleSearchIndex = [
   [
     "silver",
     "item",
-    2421,
+    2419,
     5
   ],
   [
@@ -30454,7 +30442,7 @@ exports.BattleSearchIndex = [
   [
     "sincense",
     "item",
-    2639,
+    2636,
     0
   ],
   [
@@ -30480,13 +30468,13 @@ exports.BattleSearchIndex = [
   [
     "sinnoh",
     "pokemon",
-    2167,
+    2164,
     7
   ],
   [
     "sipper",
     "ability",
-    2591,
+    2588,
     3
   ],
   [
@@ -30508,7 +30496,7 @@ exports.BattleSearchIndex = [
   [
     "sjaw",
     "ability",
-    3004,
+    3001,
     0
   ],
   [
@@ -30534,13 +30522,13 @@ exports.BattleSearchIndex = [
   [
     "skey",
     "item",
-    2644,
+    2641,
     0
   ],
   [
     "skey",
     "item",
-    2993,
+    2990,
     0
   ],
   [
@@ -30558,25 +30546,25 @@ exports.BattleSearchIndex = [
   [
     "skin",
     "ability",
-    757,
+    755,
     3
   ],
   [
     "skin",
     "ability",
-    2502,
+    2499,
     5
   ],
   [
     "skin",
     "ability",
-    2683,
+    2680,
     4
   ],
   [
     "skin",
     "ability",
-    3559,
+    3556,
     6
   ],
   [
@@ -30586,7 +30574,7 @@ exports.BattleSearchIndex = [
   [
     "skiss",
     "move",
-    3055,
+    3052,
     0
   ],
   [
@@ -30624,13 +30612,13 @@ exports.BattleSearchIndex = [
   [
     "sky",
     "move",
-    1602,
+    1600,
     17
   ],
   [
     "sky",
     "pokemon",
-    2680,
+    2677,
     7
   ],
   [
@@ -30668,7 +30656,7 @@ exports.BattleSearchIndex = [
   [
     "skystrike",
     "move",
-    3035,
+    3032,
     10
   ],
   [
@@ -30700,43 +30688,43 @@ exports.BattleSearchIndex = [
   [
     "slam",
     "move",
-    1318,
+    1316,
     5
   ],
   [
     "slam",
     "move",
-    3026,
+    3023,
     9
   ],
   [
     "slammer",
     "move",
-    3016,
+    3013,
     7
   ],
   [
     "slap",
     "move",
-    696,
+    694,
     6
   ],
   [
     "slap",
     "move",
-    1928,
+    1926,
     3
   ],
   [
     "slap",
     "move",
-    3081,
+    3078,
     4
   ],
   [
     "slap",
     "move",
-    3484,
+    3481,
     6
   ],
   [
@@ -30752,7 +30740,7 @@ exports.BattleSearchIndex = [
   [
     "slash",
     "move",
-    1995,
+    1993,
     5
   ],
   [
@@ -30770,25 +30758,25 @@ exports.BattleSearchIndex = [
   [
     "slens",
     "item",
-    2612,
+    2609,
     0
   ],
   [
     "sleuth",
     "move",
-    2038,
+    2036,
     4
   ],
   [
     "slide",
     "move",
-    2473,
+    2471,
     4
   ],
   [
     "slide",
     "move",
-    2762,
+    2759,
     6
   ],
   [
@@ -30802,7 +30790,7 @@ exports.BattleSearchIndex = [
   [
     "slink",
     "ability",
-    2769,
+    2766,
     0
   ],
   [
@@ -30848,7 +30836,7 @@ exports.BattleSearchIndex = [
   [
     "sluck",
     "ability",
-    3028,
+    3025,
     0
   ],
   [
@@ -30876,7 +30864,7 @@ exports.BattleSearchIndex = [
   [
     "slure",
     "item",
-    3029,
+    3026,
     0
   ],
   [
@@ -30890,7 +30878,7 @@ exports.BattleSearchIndex = [
   [
     "smack",
     "move",
-    2772,
+    2769,
     7
   ],
   [
@@ -30900,19 +30888,19 @@ exports.BattleSearchIndex = [
   [
     "smail",
     "item",
-    2666,
+    2663,
     0
   ],
   [
     "small",
     "pokemon",
-    1187,
+    1185,
     9
   ],
   [
     "small",
     "pokemon",
-    2309,
+    2306,
     9
   ],
   [
@@ -30922,25 +30910,25 @@ exports.BattleSearchIndex = [
   [
     "smash",
     "move",
-    1293,
+    1291,
     4
   ],
   [
     "smash",
     "move",
-    2474,
+    2472,
     4
   ],
   [
     "smash",
     "move",
-    2643,
+    2640,
     14
   ],
   [
     "smash",
     "move",
-    2694,
+    2691,
     5
   ],
   [
@@ -30950,31 +30938,37 @@ exports.BattleSearchIndex = [
   [
     "smega",
     "pokemon",
-    2548,
+    2545,
     0
   ],
   [
     "smega",
     "pokemon",
-    2565,
+    2562,
     0
   ],
   [
     "smega",
     "pokemon",
-    2603,
+    2600,
     0
   ],
   [
     "smega",
     "pokemon",
-    2608,
+    2605,
     0
   ],
   [
     "smega",
     "pokemon",
-    2610,
+    2607,
+    0
+  ],
+  [
+    "smega",
+    "pokemon",
+    2614,
     0
   ],
   [
@@ -30986,49 +30980,43 @@ exports.BattleSearchIndex = [
   [
     "smega",
     "pokemon",
-    2620,
+    2671,
     0
   ],
   [
     "smega",
     "pokemon",
-    2674,
+    2762,
     0
   ],
   [
     "smega",
     "pokemon",
-    2765,
+    2799,
     0
   ],
   [
     "smega",
     "pokemon",
-    2802,
+    2946,
     0
   ],
   [
     "smega",
     "pokemon",
-    2949,
+    2952,
     0
   ],
   [
     "smega",
     "pokemon",
-    2955,
+    2970,
     0
   ],
   [
     "smega",
     "pokemon",
-    2973,
-    0
-  ],
-  [
-    "smega",
-    "pokemon",
-    3050,
+    3047,
     0
   ],
   [
@@ -31038,19 +31026,19 @@ exports.BattleSearchIndex = [
   [
     "smemory",
     "item",
-    2974,
+    2971,
     0
   ],
   [
     "smint",
     "item",
-    2592,
+    2589,
     0
   ],
   [
     "smint",
     "item",
-    2657,
+    2654,
     0
   ],
   [
@@ -31060,13 +31048,13 @@ exports.BattleSearchIndex = [
   [
     "smog",
     "move",
-    481,
+    480,
     5
   ],
   [
     "smoke",
     "ability",
-    3532,
+    3529,
     5
   ],
   [
@@ -31092,13 +31080,13 @@ exports.BattleSearchIndex = [
   [
     "smulch",
     "item",
-    2939,
+    2936,
     0
   ],
   [
     "smulch",
     "item",
-    3041,
+    3038,
     0
   ],
   [
@@ -31116,7 +31104,7 @@ exports.BattleSearchIndex = [
   [
     "sneak",
     "move",
-    2669,
+    2666,
     6
   ],
   [
@@ -31170,7 +31158,7 @@ exports.BattleSearchIndex = [
   [
     "snow",
     "move",
-    2241,
+    2238,
     6
   ],
   [
@@ -31192,7 +31180,7 @@ exports.BattleSearchIndex = [
   [
     "snowy",
     "pokemon",
-    396,
+    395,
     8
   ],
   [
@@ -31202,7 +31190,7 @@ exports.BattleSearchIndex = [
   [
     "snuggleforever",
     "move",
-    1583,
+    1581,
     4
   ],
   [
@@ -31220,13 +31208,13 @@ exports.BattleSearchIndex = [
   [
     "sodarkness",
     "item",
-    2627,
+    2624,
     0
   ],
   [
     "soff",
     "move",
-    2789,
+    2786,
     0
   ],
   [
@@ -31248,7 +31236,7 @@ exports.BattleSearchIndex = [
   [
     "solarizer",
     "item",
-    2019,
+    2017,
     1
   ],
   [
@@ -31278,19 +31266,19 @@ exports.BattleSearchIndex = [
   [
     "song",
     "move",
-    2124,
+    2121,
     6
   ],
   [
     "song",
     "move",
-    2422,
+    2420,
     5
   ],
   [
     "song",
     "move",
-    3287,
+    3284,
     5
   ],
   [
@@ -31312,19 +31300,19 @@ exports.BattleSearchIndex = [
   [
     "soruin",
     "ability",
-    3066,
+    3063,
     0
   ],
   [
     "soul",
     "move",
-    472,
+    471,
     10
   ],
   [
     "soulblaze",
     "move",
-    473,
+    472,
     10
   ],
   [
@@ -31342,7 +31330,7 @@ exports.BattleSearchIndex = [
   [
     "sound",
     "move",
-    1811,
+    1809,
     5
   ],
   [
@@ -31352,7 +31340,7 @@ exports.BattleSearchIndex = [
   [
     "sout",
     "move",
-    2915,
+    2912,
     0
   ],
   [
@@ -31366,25 +31354,25 @@ exports.BattleSearchIndex = [
   [
     "souvenir",
     "item",
-    2998,
+    2995,
     7
   ],
   [
     "soverlord",
     "ability",
-    3037,
+    3034,
     0
   ],
   [
     "sowaters",
     "item",
-    2628,
+    2625,
     0
   ],
   [
     "sower",
     "ability",
-    2650,
+    2647,
     4
   ],
   [
@@ -31406,25 +31394,25 @@ exports.BattleSearchIndex = [
   [
     "sparksurfer",
     "move",
-    2986,
+    2983,
     6
   ],
   [
     "spatk",
     "item",
-    3583,
+    3580,
     1
   ],
   [
     "spdef",
     "item",
-    3584,
+    3581,
     1
   ],
   [
     "spear",
     "move",
-    1411,
+    1409,
     6
   ],
   [
@@ -31434,7 +31422,7 @@ exports.BattleSearchIndex = [
   [
     "spec",
     "item",
-    1251,
+    1249,
     5
   ],
   [
@@ -31544,7 +31532,7 @@ exports.BattleSearchIndex = [
   [
     "specs",
     "item",
-    464,
+    463,
     6
   ],
   [
@@ -31558,19 +31546,19 @@ exports.BattleSearchIndex = [
   [
     "speed",
     "item",
-    3585,
+    3582,
     1
   ],
   [
     "speed",
     "move",
-    885,
+    883,
     7
   ],
   [
     "speed",
     "pokemon",
-    645,
+    643,
     6
   ],
   [
@@ -31584,7 +31572,7 @@ exports.BattleSearchIndex = [
   [
     "spell",
     "move",
-    794,
+    792,
     5
   ],
   [
@@ -31602,23 +31590,17 @@ exports.BattleSearchIndex = [
   [
     "spf",
     "location",
-    2782,
+    2779,
     0
   ],
   [
     "spf",
     "location",
-    2784,
+    2781,
     0
   ],
   [
     "spf",
-    "location",
-    2786,
-    0
-  ],
-  [
-    "spf0",
     "location",
     2783,
     0
@@ -31626,7 +31608,13 @@ exports.BattleSearchIndex = [
   [
     "spf0",
     "location",
-    2785,
+    2780,
+    0
+  ],
+  [
+    "spf0",
+    "location",
+    2782,
     0
   ],
   [
@@ -31654,7 +31642,7 @@ exports.BattleSearchIndex = [
   [
     "spiece",
     "item",
-    2957,
+    2954,
     0
   ],
   [
@@ -31668,7 +31656,7 @@ exports.BattleSearchIndex = [
   [
     "spikes",
     "move",
-    3308,
+    3305,
     5
   ],
   [
@@ -31678,19 +31666,19 @@ exports.BattleSearchIndex = [
   [
     "spin",
     "move",
-    945,
+    943,
     4
   ],
   [
     "spin",
     "move",
-    1904,
+    1902,
     6
   ],
   [
     "spin",
     "move",
-    2373,
+    2370,
     5
   ],
   [
@@ -31704,7 +31692,7 @@ exports.BattleSearchIndex = [
   [
     "spinner",
     "move",
-    1407,
+    1405,
     3
   ],
   [
@@ -31714,25 +31702,25 @@ exports.BattleSearchIndex = [
   [
     "spinout",
     "move",
-    2593,
+    2590,
     6
   ],
   [
     "spirit",
     "ability",
-    2978,
+    2975,
     6
   ],
   [
     "spirit",
     "ability",
-    3447,
+    3444,
     5
   ],
   [
     "spirit",
     "ability",
-    3487,
+    3484,
     9
   ],
   [
@@ -31750,7 +31738,7 @@ exports.BattleSearchIndex = [
   [
     "spit",
     "ability",
-    2582,
+    2579,
     4
   ],
   [
@@ -31768,7 +31756,7 @@ exports.BattleSearchIndex = [
   [
     "splash",
     "move",
-    2924,
+    2921,
     7
   ],
   [
@@ -31778,31 +31766,31 @@ exports.BattleSearchIndex = [
   [
     "splate",
     "item",
-    2787,
+    2784,
     0
   ],
   [
     "splate",
     "item",
-    2922,
+    2919,
     0
   ],
   [
     "splate",
     "item",
-    2926,
+    2923,
     0
   ],
   [
     "splate",
     "item",
-    2991,
+    2988,
     0
   ],
   [
     "splicers",
     "item",
-    680,
+    678,
     3
   ],
   [
@@ -31816,19 +31804,19 @@ exports.BattleSearchIndex = [
   [
     "split",
     "move",
-    1252,
+    1250,
     5
   ],
   [
     "split",
     "move",
-    2085,
+    2082,
     4
   ],
   [
     "split",
     "move",
-    2252,
+    2249,
     5
   ],
   [
@@ -31838,7 +31826,7 @@ exports.BattleSearchIndex = [
   [
     "spoison",
     "pokemon",
-    2742,
+    2739,
     0
   ],
   [
@@ -31848,19 +31836,19 @@ exports.BattleSearchIndex = [
   [
     "spoon",
     "item",
-    3344,
+    3341,
     7
   ],
   [
     "spop",
     "item",
-    2847,
+    2844,
     0
   ],
   [
     "spore",
     "ability",
-    798,
+    796,
     6
   ],
   [
@@ -31870,25 +31858,25 @@ exports.BattleSearchIndex = [
   [
     "spore",
     "move",
-    547,
+    545,
     6
   ],
   [
     "spore",
     "move",
-    3012,
+    3009,
     4
   ],
   [
     "sport",
     "move",
-    1929,
+    1927,
     3
   ],
   [
     "sport",
     "move",
-    3502,
+    3499,
     5
   ],
   [
@@ -31898,13 +31886,13 @@ exports.BattleSearchIndex = [
   [
     "spot",
     "ability",
-    2253,
+    2250,
     5
   ],
   [
     "spotion",
     "item",
-    3030,
+    3027,
     0
   ],
   [
@@ -31914,43 +31902,43 @@ exports.BattleSearchIndex = [
   [
     "spout",
     "move",
-    3503,
+    3500,
     5
   ],
   [
     "spowder",
     "item",
-    2747,
+    2744,
     0
   ],
   [
     "spowder",
     "move",
-    2795,
+    2792,
     0
   ],
   [
     "spower",
     "ability",
-    2852,
+    2849,
     0
   ],
   [
     "spower",
     "move",
-    2645,
+    2642,
     0
   ],
   [
     "spower",
     "move",
-    2994,
+    2991,
     0
   ],
   [
     "spray",
     "item",
-    3150,
+    3147,
     6
   ],
   [
@@ -31974,25 +31962,25 @@ exports.BattleSearchIndex = [
   [
     "spsyche",
     "move",
-    2678,
+    2675,
     0
   ],
   [
     "spsychic",
     "pokemon",
-    2743,
+    2740,
     0
   ],
   [
     "spunch",
     "move",
-    2667,
+    2664,
     0
   ],
   [
     "spunch",
     "move",
-    3017,
+    3014,
     0
   ],
   [
@@ -32018,331 +32006,331 @@ exports.BattleSearchIndex = [
   [
     "srend",
     "move",
-    2868,
+    2865,
     0
   ],
   [
     "srepel",
     "item",
-    3032,
+    3029,
     0
   ],
   [
     "srock",
     "ability",
-    2855,
+    2852,
     0
   ],
   [
     "srock",
     "item",
-    2824,
+    2821,
     0
   ],
   [
     "srock",
     "move",
-    2963,
+    2960,
     0
   ],
   [
     "srock",
     "pokemon",
-    2744,
+    2741,
     0
   ],
   [
     "srod",
     "item",
-    3033,
+    3030,
     0
   ],
   [
     "sroller",
     "move",
-    2975,
+    2972,
     0
   ],
   [
     "srush",
     "ability",
-    2576,
+    2573,
     0
   ],
   [
     "srush",
     "ability",
-    2814,
+    2811,
     0
   ],
   [
     "ss7sstrike",
     "move",
-    2864,
+    2861,
     0
   ],
   [
     "ssable",
     "item",
-    2671,
+    2668,
     0
   ],
   [
     "ssack",
     "item",
-    2861,
+    2858,
     0
   ],
   [
     "ssalt",
     "item",
-    2712,
+    2709,
     0
   ],
   [
     "ssalts",
     "move",
-    2818,
+    2815,
     0
   ],
   [
     "ssand",
     "item",
-    2849,
+    2846,
     0
   ],
   [
     "ssands",
     "move",
-    2614,
+    2611,
     0
   ],
   [
     "ssap",
     "move",
-    3002,
+    2999,
     0
   ],
   [
     "ssarm",
     "move",
-    2693,
+    2690,
     0
   ],
   [
     "sscarf",
     "item",
-    2726,
+    2723,
     0
   ],
   [
     "sscent",
     "move",
-    3056,
+    3053,
     0
   ],
   [
     "sscope",
     "item",
-    2728,
+    2725,
     0
   ],
   [
     "sseed",
     "move",
-    2590,
+    2587,
     0
   ],
   [
     "sshackle",
     "move",
-    2918,
+    2915,
     0
   ],
   [
     "sshell",
     "item",
-    2682,
+    2679,
     0
   ],
   [
     "sshell",
     "item",
-    2713,
+    2710,
     0
   ],
   [
     "sshield",
     "ability",
-    2668,
+    2665,
     0
   ],
   [
     "sshield",
     "move",
-    2912,
+    2909,
     0
   ],
   [
     "sshocks",
     "pokemon",
-    2588,
+    2585,
     0
   ],
   [
     "sshot",
     "move",
-    2598,
+    2595,
     0
   ],
   [
     "sshot",
     "move",
-    2642,
+    2639,
     0
   ],
   [
     "sshot",
     "move",
-    2832,
+    2829,
     0
   ],
   [
     "sshot",
     "move",
-    3003,
+    3000,
     0
   ],
   [
     "ssipper",
     "ability",
-    2591,
+    2588,
     0
   ],
   [
     "sskin",
     "ability",
-    2683,
+    2680,
     0
   ],
   [
     "ssky",
     "pokemon",
-    2680,
+    2677,
     0
   ],
   [
     "sskystrike",
     "move",
-    3035,
+    3032,
     0
   ],
   [
     "sslam",
     "move",
-    3026,
+    3023,
     0
   ],
   [
     "sslammer",
     "move",
-    3016,
+    3013,
     0
   ],
   [
     "sslide",
     "move",
-    2762,
+    2759,
     0
   ],
   [
     "ssmack",
     "move",
-    2772,
+    2769,
     0
   ],
   [
     "ssmash",
     "move",
-    2694,
+    2691,
     0
   ],
   [
     "ssneak",
     "move",
-    2669,
+    2666,
     0
   ],
   [
     "ssout",
     "move",
-    2593,
+    2590,
     0
   ],
   [
     "ssouvenir",
     "item",
-    2998,
+    2995,
     0
   ],
   [
     "ssower",
     "ability",
-    2650,
+    2647,
     0
   ],
   [
     "ssparksurfer",
     "move",
-    2986,
+    2983,
     0
   ],
   [
     "sspirit",
     "ability",
-    2978,
+    2975,
     0
   ],
   [
     "sspit",
     "ability",
-    2582,
+    2579,
     0
   ],
   [
     "ssplash",
     "move",
-    2924,
+    2921,
     0
   ],
   [
     "sspore",
     "move",
-    3012,
+    3009,
     0
   ],
   [
     "sssmash",
     "move",
-    2643,
+    2640,
     0
   ],
   [
     "sstart",
     "ability",
-    2808,
+    2805,
     0
   ],
   [
     "ssteam",
     "move",
-    2999,
+    2996,
     0
   ],
   [
     "ssteel",
     "pokemon",
-    2745,
+    2742,
     0
   ],
   [
@@ -32352,115 +32340,115 @@ exports.BattleSearchIndex = [
   [
     "sstone",
     "item",
-    2706,
+    2703,
     0
   ],
   [
     "sstone",
     "item",
-    3025,
+    3022,
     0
   ],
   [
     "sstorm",
     "move",
-    2577,
+    2574,
     0
   ],
   [
     "sstorm",
     "move",
-    2931,
+    2928,
     0
   ],
   [
     "sstormshards",
     "move",
-    2923,
+    2920,
     0
   ],
   [
     "sstream",
     "ability",
-    2584,
+    2581,
     0
   ],
   [
     "sstrike",
     "move",
-    2816,
+    2813,
     0
   ],
   [
     "sstrike",
     "move",
-    3024,
+    3021,
     0
   ],
   [
     "sstrikes",
     "move",
-    3040,
+    3037,
     0
   ],
   [
     "ssurfer",
     "ability",
-    3039,
+    3036,
     0
   ],
   [
     "sswap",
     "move",
-    2770,
+    2767,
     0
   ],
   [
     "sswap",
     "move",
-    2902,
+    2899,
     0
   ],
   [
     "ssweet",
     "item",
-    2958,
+    2955,
     0
   ],
   [
     "ssweet",
     "item",
-    3000,
+    2997,
     0
   ],
   [
     "sswim",
     "ability",
-    3061,
+    3058,
     0
   ],
   [
     "sswirl",
     "move",
-    2871,
+    2868,
     0
   ],
   [
     "ssword",
     "move",
-    2552,
+    2549,
     0
   ],
   [
     "ssword",
     "move",
-    2646,
+    2643,
     0
   ],
   [
     "ssyrup",
     "ability",
-    3036,
+    3033,
     0
   ],
   [
@@ -32470,31 +32458,31 @@ exports.BattleSearchIndex = [
   [
     "stag",
     "ability",
-    2670,
+    2667,
     0
   ],
   [
     "stag",
     "item",
-    2903,
+    2900,
     0
   ],
   [
     "stail",
     "move",
-    2684,
+    2681,
     0
   ],
   [
     "stail",
     "pokemon",
-    2624,
+    2621,
     0
   ],
   [
     "stairsroom",
     "location",
-    2711,
+    2708,
     16
   ],
   [
@@ -32508,7 +32496,7 @@ exports.BattleSearchIndex = [
   [
     "stalk",
     "move",
-    2796,
+    2793,
     0
   ],
   [
@@ -32526,7 +32514,7 @@ exports.BattleSearchIndex = [
   [
     "stamp",
     "move",
-    1305,
+    1303,
     5
   ],
   [
@@ -32540,25 +32528,25 @@ exports.BattleSearchIndex = [
   [
     "stantrum",
     "move",
-    2988,
+    2985,
     0
   ],
   [
     "star",
     "ability",
-    3437,
+    3434,
     7
   ],
   [
     "star",
     "pokemon",
-    2165,
+    2162,
     10
   ],
   [
     "star",
     "pokemon",
-    2166,
+    2163,
     11
   ],
   [
@@ -32608,13 +32596,13 @@ exports.BattleSearchIndex = [
   [
     "starstorm",
     "move",
-    3134,
+    3131,
     4
   ],
   [
     "starstrike",
     "move",
-    2864,
+    2861,
     13
   ],
   [
@@ -32624,7 +32612,7 @@ exports.BattleSearchIndex = [
   [
     "start",
     "ability",
-    2808,
+    2805,
     4
   ],
   [
@@ -32638,7 +32626,7 @@ exports.BattleSearchIndex = [
   [
     "statue",
     "item",
-    2423,
+    2421,
     5
   ],
   [
@@ -32652,7 +32640,7 @@ exports.BattleSearchIndex = [
   [
     "stealing7starstrike",
     "move",
-    2864,
+    2861,
     4
   ],
   [
@@ -32662,13 +32650,13 @@ exports.BattleSearchIndex = [
   [
     "steam",
     "move",
-    1379,
+    1377,
     5
   ],
   [
     "steam",
     "move",
-    2999,
+    2996,
     7
   ],
   [
@@ -32692,7 +32680,7 @@ exports.BattleSearchIndex = [
   [
     "steel",
     "pokemon",
-    2745,
+    2742,
     8
   ],
   [
@@ -32750,7 +32738,7 @@ exports.BattleSearchIndex = [
   [
     "stellar",
     "pokemon",
-    3130,
+    3127,
     9
   ],
   [
@@ -32770,19 +32758,19 @@ exports.BattleSearchIndex = [
   [
     "sthief",
     "move",
-    2899,
+    2896,
     0
   ],
   [
     "sthrow",
     "move",
-    2996,
+    2993,
     0
   ],
   [
     "sticket",
     "item",
-    2938,
+    2935,
     0
   ],
   [
@@ -32800,13 +32788,13 @@ exports.BattleSearchIndex = [
   [
     "sting",
     "move",
-    2209,
+    2206,
     6
   ],
   [
     "stinger",
     "move",
-    914,
+    912,
     4
   ],
   [
@@ -32820,7 +32808,7 @@ exports.BattleSearchIndex = [
   [
     "stomb",
     "move",
-    2585,
+    2582,
     0
   ],
   [
@@ -32834,79 +32822,79 @@ exports.BattleSearchIndex = [
   [
     "stone",
     "item",
-    616,
+    614,
     4
   ],
   [
     "stone",
     "item",
-    774,
+    772,
     4
   ],
   [
     "stone",
     "item",
-    946,
+    944,
     4
   ],
   [
     "stone",
     "item",
-    981,
+    979,
     5
   ],
   [
     "stone",
     "item",
-    1277,
+    1275,
     4
   ],
   [
     "stone",
     "item",
-    1408,
+    1406,
     3
   ],
   [
     "stone",
     "item",
-    1569,
+    1567,
     4
   ],
   [
     "stone",
     "item",
-    1898,
+    1896,
     4
   ],
   [
     "stone",
     "item",
-    2076,
+    2073,
     4
   ],
   [
     "stone",
     "item",
-    2706,
+    2703,
     5
   ],
   [
     "stone",
     "item",
-    3025,
+    3022,
     3
   ],
   [
     "stone",
     "item",
-    3160,
+    3157,
     7
   ],
   [
     "stone",
     "item",
-    3504,
+    3501,
     5
   ],
   [
@@ -32942,37 +32930,37 @@ exports.BattleSearchIndex = [
   [
     "storm",
     "move",
-    661,
+    659,
     7
   ],
   [
     "storm",
     "move",
-    1570,
+    1568,
     4
   ],
   [
     "storm",
     "move",
-    1708,
+    1706,
     5
   ],
   [
     "storm",
     "move",
-    2577,
+    2574,
     8
   ],
   [
     "storm",
     "move",
-    2931,
+    2928,
     10
   ],
   [
     "storm",
     "move",
-    3540,
+    3537,
     8
   ],
   [
@@ -32982,7 +32970,7 @@ exports.BattleSearchIndex = [
   [
     "stormshards",
     "move",
-    2923,
+    2920,
     10
   ],
   [
@@ -32992,7 +32980,7 @@ exports.BattleSearchIndex = [
   [
     "stoss",
     "move",
-    2652,
+    2649,
     0
   ],
   [
@@ -33010,19 +32998,19 @@ exports.BattleSearchIndex = [
   [
     "strap",
     "move",
-    2695,
+    2692,
     0
   ],
   [
     "strap",
     "move",
-    2727,
+    2724,
     0
   ],
   [
     "strap",
     "move",
-    2825,
+    2822,
     0
   ],
   [
@@ -33032,13 +33020,13 @@ exports.BattleSearchIndex = [
   [
     "stream",
     "ability",
-    641,
+    639,
     5
   ],
   [
     "stream",
     "ability",
-    2584,
+    2581,
     4
   ],
   [
@@ -33058,37 +33046,37 @@ exports.BattleSearchIndex = [
   [
     "strike",
     "move",
-    2816,
+    2813,
     5
   ],
   [
     "strike",
     "move",
-    2864,
+    2861,
     17
   ],
   [
     "strike",
     "move",
-    3024,
+    3021,
     8
   ],
   [
     "strike",
     "pokemon",
-    3403,
+    3400,
     12
   ],
   [
     "strikes",
     "move",
-    3040,
+    3037,
     7
   ],
   [
     "string",
     "item",
-    2117,
+    2114,
     5
   ],
   [
@@ -33172,7 +33160,7 @@ exports.BattleSearchIndex = [
   [
     "sun",
     "move",
-    1901,
+    1899,
     7
   ],
   [
@@ -33186,7 +33174,7 @@ exports.BattleSearchIndex = [
   [
     "sunny",
     "pokemon",
-    397,
+    396,
     8
   ],
   [
@@ -33196,13 +33184,13 @@ exports.BattleSearchIndex = [
   [
     "sunrazesmash",
     "move",
-    2643,
+    2640,
     7
   ],
   [
     "sunshine",
     "pokemon",
-    436,
+    435,
     7
   ],
   [
@@ -33216,25 +33204,25 @@ exports.BattleSearchIndex = [
   [
     "sup",
     "move",
-    2716,
+    2713,
     0
   ],
   [
     "sup",
     "move",
-    2920,
+    2917,
     0
   ],
   [
     "super",
     "pokemon",
-    1188,
+    1186,
     9
   ],
   [
     "super",
     "pokemon",
-    2310,
+    2307,
     9
   ],
   [
@@ -33256,7 +33244,7 @@ exports.BattleSearchIndex = [
   [
     "supernova",
     "move",
-    1109,
+    1107,
     7
   ],
   [
@@ -33290,7 +33278,7 @@ exports.BattleSearchIndex = [
   [
     "suppercut",
     "move",
-    2788,
+    2785,
     0
   ],
   [
@@ -33304,31 +33292,31 @@ exports.BattleSearchIndex = [
   [
     "surfer",
     "ability",
-    3039,
+    3036,
     5
   ],
   [
     "surge",
     "ability",
-    813,
+    811,
     8
   ],
   [
     "surge",
     "ability",
-    1207,
+    1205,
     6
   ],
   [
     "surge",
     "ability",
-    1885,
+    1883,
     5
   ],
   [
     "surge",
     "ability",
-    2294,
+    2291,
     7
   ],
   [
@@ -33346,7 +33334,7 @@ exports.BattleSearchIndex = [
   [
     "surrender",
     "move",
-    902,
+    900,
     5
   ],
   [
@@ -33356,13 +33344,13 @@ exports.BattleSearchIndex = [
   [
     "sveil",
     "ability",
-    2586,
+    2583,
     0
   ],
   [
     "sveil",
     "ability",
-    3057,
+    3054,
     0
   ],
   [
@@ -33404,31 +33392,31 @@ exports.BattleSearchIndex = [
   [
     "swap",
     "move",
-    1253,
+    1251,
     5
   ],
   [
     "swap",
     "move",
-    1306,
+    1304,
     5
   ],
   [
     "swap",
     "move",
-    2254,
+    2251,
     5
   ],
   [
     "swap",
     "move",
-    2770,
+    2767,
     5
   ],
   [
     "swap",
     "move",
-    2902,
+    2899,
     5
   ],
   [
@@ -33438,43 +33426,43 @@ exports.BattleSearchIndex = [
   [
     "swarning",
     "ability",
-    2843,
+    2840,
     0
   ],
   [
     "swater",
     "pokemon",
-    2746,
+    2743,
     0
   ],
   [
     "swave",
     "move",
-    2715,
+    2712,
     0
   ],
   [
     "swave",
     "move",
-    2811,
+    2808,
     0
   ],
   [
     "sweb",
     "move",
-    2908,
+    2905,
     0
   ],
   [
     "sweb",
     "move",
-    2984,
+    2981,
     0
   ],
   [
     "sweep",
     "move",
-    1636,
+    1634,
     3
   ],
   [
@@ -33486,37 +33474,37 @@ exports.BattleSearchIndex = [
   [
     "sweet",
     "item",
-    492,
+    491,
     6
   ],
   [
     "sweet",
     "item",
-    1001,
+    999,
     6
   ],
   [
     "sweet",
     "item",
-    1634,
+    1632,
     4
   ],
   [
     "sweet",
     "item",
-    2448,
+    2446,
     6
   ],
   [
     "sweet",
     "item",
-    2958,
+    2955,
     4
   ],
   [
     "sweet",
     "item",
-    3000,
+    2997,
     10
   ],
   [
@@ -33546,7 +33534,7 @@ exports.BattleSearchIndex = [
   [
     "swhite",
     "pokemon",
-    2935,
+    2932,
     0
   ],
   [
@@ -33564,13 +33552,13 @@ exports.BattleSearchIndex = [
   [
     "swim",
     "ability",
-    3061,
+    3058,
     5
   ],
   [
     "swind",
     "move",
-    2748,
+    2745,
     0
   ],
   [
@@ -33582,13 +33570,13 @@ exports.BattleSearchIndex = [
   [
     "swing",
     "move",
-    2976,
+    2973,
     0
   ],
   [
     "swing",
     "pokemon",
-    2799,
+    2796,
     0
   ],
   [
@@ -33604,19 +33592,19 @@ exports.BattleSearchIndex = [
   [
     "swipe",
     "move",
-    903,
+    901,
     5
   ],
   [
     "swipes",
     "move",
-    1073,
+    1071,
     4
   ],
   [
     "swirl",
     "move",
-    2871,
+    2868,
     7
   ],
   [
@@ -33626,7 +33614,7 @@ exports.BattleSearchIndex = [
   [
     "switch",
     "ability",
-    1370,
+    1368,
     6
   ],
   [
@@ -33638,7 +33626,7 @@ exports.BattleSearchIndex = [
   [
     "switch",
     "move",
-    3474,
+    3471,
     4
   ],
   [
@@ -33652,25 +33640,25 @@ exports.BattleSearchIndex = [
   [
     "sword",
     "ability",
-    1444,
+    1442,
     8
   ],
   [
     "sword",
     "item",
-    2544,
+    2541,
     6
   ],
   [
     "sword",
     "move",
-    2552,
+    2549,
     6
   ],
   [
     "sword",
     "move",
-    2646,
+    2643,
     6
   ],
   [
@@ -33684,7 +33672,7 @@ exports.BattleSearchIndex = [
   [
     "syellow",
     "pokemon",
-    2936,
+    2933,
     0
   ],
   [
@@ -33710,7 +33698,7 @@ exports.BattleSearchIndex = [
   [
     "syrup",
     "ability",
-    3036,
+    3033,
     10
   ],
   [
@@ -33724,61 +33712,61 @@ exports.BattleSearchIndex = [
   [
     "system",
     "ability",
-    2458,
+    2456,
     3
   ],
   [
     "sz",
     "item",
-    2837,
+    2834,
     0
   ],
   [
     "sz",
     "item",
-    2854,
+    2851,
     0
   ],
   [
     "sz",
     "item",
-    2970,
+    2967,
     0
   ],
   [
     "szonenorth",
     "location",
-    2554,
+    2551,
     0
   ],
   [
     "szonenortheast",
     "location",
-    2555,
+    2552,
     0
   ],
   [
     "szonenorthwest",
     "location",
-    2556,
+    2553,
     0
   ],
   [
     "szonesouth",
     "location",
-    2557,
+    2554,
     0
   ],
   [
     "szonesoutheast",
     "location",
-    2558,
+    2555,
     0
   ],
   [
     "szonesouthwest",
     "location",
-    2559,
+    2556,
     0
   ],
   [
@@ -33796,19 +33784,19 @@ exports.BattleSearchIndex = [
   [
     "tackle",
     "move",
-    3343,
+    3340,
     7
   ],
   [
     "tackle",
     "move",
-    3475,
+    3472,
     4
   ],
   [
     "tactics",
     "ability",
-    1179,
+    1177,
     7
   ],
   [
@@ -33818,19 +33806,19 @@ exports.BattleSearchIndex = [
   [
     "tag",
     "ability",
-    2670,
+    2667,
     6
   ],
   [
     "tag",
     "item",
-    478,
+    477,
     7
   ],
   [
     "tag",
     "item",
-    2903,
+    2900,
     5
   ],
   [
@@ -33842,19 +33830,19 @@ exports.BattleSearchIndex = [
   [
     "tail",
     "ability",
-    2278,
+    2275,
     9
   ],
   [
     "tail",
     "item",
-    1005,
+    1003,
     6
   ],
   [
     "tail",
     "item",
-    1539,
+    1537,
     7
   ],
   [
@@ -33866,31 +33854,31 @@ exports.BattleSearchIndex = [
   [
     "tail",
     "move",
-    731,
+    729,
     6
   ],
   [
     "tail",
     "move",
-    1460,
+    1458,
     4
   ],
   [
     "tail",
     "move",
-    2210,
+    2207,
     6
   ],
   [
     "tail",
     "move",
-    2684,
+    2681,
     4
   ],
   [
     "tail",
     "pokemon",
-    2624,
+    2621,
     6
   ],
   [
@@ -33924,7 +33912,7 @@ exports.BattleSearchIndex = [
   [
     "talk",
     "move",
-    2796,
+    2793,
     5
   ],
   [
@@ -33962,13 +33950,13 @@ exports.BattleSearchIndex = [
   [
     "tantrum",
     "move",
-    2988,
+    2985,
     8
   ],
   [
     "tapple",
     "item",
-    3101,
+    3098,
     0
   ],
   [
@@ -33994,7 +33982,7 @@ exports.BattleSearchIndex = [
   [
     "target",
     "item",
-    2453,
+    2451,
     4
   ],
   [
@@ -34004,13 +33992,13 @@ exports.BattleSearchIndex = [
   [
     "tarrows",
     "move",
-    3146,
+    3143,
     0
   ],
   [
     "tarrows",
     "move",
-    3326,
+    3323,
     0
   ],
   [
@@ -34036,7 +34024,7 @@ exports.BattleSearchIndex = [
   [
     "tattack",
     "move",
-    3321,
+    3318,
     0
   ],
   [
@@ -34062,145 +34050,145 @@ exports.BattleSearchIndex = [
   [
     "taxel",
     "move",
-    3327,
+    3324,
     0
   ],
   [
     "tball",
     "item",
-    3168,
+    3165,
     0
   ],
   [
     "tbeam",
     "move",
-    3341,
+    3338,
     0
   ],
   [
     "tberry",
     "item",
-    3087,
+    3084,
     0
   ],
   [
     "tberry",
     "item",
-    3089,
+    3086,
     0
   ],
   [
     "tblast",
     "move",
-    3115,
+    3112,
     0
   ],
   [
     "tblast",
     "move",
-    3126,
+    3123,
     0
   ],
   [
     "tboost",
     "ability",
-    3302,
+    3299,
     0
   ],
   [
     "tbshoot",
     "item",
-    3175,
+    3172,
     0
   ],
   [
     "tbulu",
     "pokemon",
-    3094,
+    3091,
     0
   ],
   [
     "tc0",
     "location",
-    3136,
+    3133,
     0
   ],
   [
     "tc0",
     "location",
-    3137,
+    3134,
     0
   ],
   [
     "tcage",
     "move",
-    3154,
+    3151,
     0
   ],
   [
     "tcard",
     "move",
-    3336,
+    3333,
     0
   ],
   [
     "tcase",
     "item",
-    3278,
+    3275,
     0
   ],
   [
     "tchain",
     "ability",
-    3303,
+    3300,
     0
   ],
   [
     "tchop",
     "move",
-    3149,
+    3146,
     0
   ],
   [
     "tclaws",
     "ability",
-    3297,
+    3294,
     0
   ],
   [
     "tclub",
     "item",
-    3142,
+    3139,
     0
   ],
   [
     "tcutter",
     "move",
-    3076,
+    3073,
     0
   ],
   [
     "tdance",
     "move",
-    3118,
+    3115,
     0
   ],
   [
     "tdebris",
     "ability",
-    3304,
+    3301,
     0
   ],
   [
     "tdive",
     "move",
-    3328,
+    3325,
     0
   ],
   [
     "tdown",
     "move",
-    3084,
+    3081,
     0
   ],
   [
@@ -34214,25 +34202,25 @@ exports.BattleSearchIndex = [
   [
     "teacup",
     "item",
-    1752,
+    1750,
     11
   ],
   [
     "teacup",
     "item",
-    3394,
+    3391,
     12
   ],
   [
     "teal",
     "ability",
-    835,
+    833,
     12
   ],
   [
     "team",
     "move",
-    697,
+    695,
     6
   ],
   [
@@ -34242,7 +34230,7 @@ exports.BattleSearchIndex = [
   [
     "tears",
     "move",
-    897,
+    895,
     4
   ],
   [
@@ -34272,7 +34260,7 @@ exports.BattleSearchIndex = [
   [
     "teeth",
     "item",
-    1160,
+    1158,
     4
   ],
   [
@@ -34294,7 +34282,7 @@ exports.BattleSearchIndex = [
   [
     "tempo",
     "ability",
-    2082,
+    2079,
     3
   ],
   [
@@ -34312,19 +34300,19 @@ exports.BattleSearchIndex = [
   [
     "tera",
     "pokemon",
+    2039,
+    18
+  ],
+  [
+    "tera",
+    "pokemon",
     2041,
     18
   ],
   [
     "tera",
     "pokemon",
-    2043,
-    18
-  ],
-  [
-    "tera",
-    "pokemon",
-    2046,
+    2044,
     17
   ],
   [
@@ -34362,7 +34350,7 @@ exports.BattleSearchIndex = [
   [
     "terastal",
     "pokemon",
-    3131,
+    3128,
     9
   ],
   [
@@ -34384,25 +34372,25 @@ exports.BattleSearchIndex = [
   [
     "terrain",
     "move",
-    814,
+    812,
     8
   ],
   [
     "terrain",
     "move",
-    1208,
+    1206,
     6
   ],
   [
     "terrain",
     "move",
-    1886,
+    1884,
     5
   ],
   [
     "terrain",
     "move",
-    2295,
+    2292,
     7
   ],
   [
@@ -34420,91 +34408,91 @@ exports.BattleSearchIndex = [
   [
     "texchange",
     "ability",
-    3141,
+    3138,
     0
   ],
   [
     "textender",
     "item",
-    3138,
+    3135,
     0
   ],
   [
     "tfang",
     "move",
-    3156,
+    3153,
     0
   ],
   [
     "tfat",
     "ability",
-    3143,
+    3140,
     0
   ],
   [
     "tfeet",
     "ability",
-    3091,
+    3088,
     0
   ],
   [
     "tfini",
     "pokemon",
-    3095,
+    3092,
     0
   ],
   [
     "tflare",
     "move",
-    3122,
+    3119,
     0
   ],
   [
     "tglow",
     "move",
-    3079,
+    3076,
     0
   ],
   [
     "thair",
     "ability",
-    3092,
+    3089,
     0
   ],
   [
     "thatburnsthesky",
     "move",
-    1602,
+    1600,
     5
   ],
   [
     "theart",
     "move",
-    3085,
+    3082,
     0
   ],
   [
     "therian",
     "pokemon",
-    841,
+    839,
     8
   ],
   [
     "therian",
     "pokemon",
-    1543,
+    1541,
     8
   ],
   [
     "therian",
     "pokemon",
-    3163,
+    3160,
     9
   ],
   [
     "therian",
     "pokemon",
-    3291,
+    3288,
     8
   ],
   [
@@ -34514,7 +34502,7 @@ exports.BattleSearchIndex = [
   [
     "thesky",
     "move",
-    1602,
+    1600,
     14
   ],
   [
@@ -34532,7 +34520,7 @@ exports.BattleSearchIndex = [
   [
     "thief",
     "move",
-    2899,
+    2896,
     8
   ],
   [
@@ -34542,13 +34530,13 @@ exports.BattleSearchIndex = [
   [
     "thisui",
     "pokemon",
-    3350,
+    3347,
     0
   ],
   [
     "thorns",
     "pokemon",
-    1461,
+    1459,
     4
   ],
   [
@@ -34566,7 +34554,7 @@ exports.BattleSearchIndex = [
   [
     "thread",
     "move",
-    3309,
+    3306,
     5
   ],
   [
@@ -34584,25 +34572,25 @@ exports.BattleSearchIndex = [
   [
     "throw",
     "move",
-    468,
+    467,
     6
   ],
   [
     "throw",
     "move",
-    2475,
+    2473,
     4
   ],
   [
     "throw",
     "move",
-    2996,
+    2993,
     5
   ],
   [
     "throw",
     "move",
-    3448,
+    3445,
     5
   ],
   [
@@ -34678,19 +34666,19 @@ exports.BattleSearchIndex = [
   [
     "ticket",
     "item",
-    851,
+    849,
     3
   ],
   [
     "ticket",
     "item",
-    1946,
+    1944,
     6
   ],
   [
     "ticket",
     "item",
-    2938,
+    2935,
     2
   ],
   [
@@ -34700,31 +34688,31 @@ exports.BattleSearchIndex = [
   [
     "tideentranceroom",
     "location",
-    2707,
+    2704,
     12
   ],
   [
     "tideiceroom",
     "location",
-    2708,
+    2705,
     12
   ],
   [
     "tideinnerroom",
     "location",
-    2709,
+    2706,
     12
   ],
   [
     "tidelowerroom",
     "location",
-    2710,
+    2707,
     12
   ],
   [
     "tidestairsroom",
     "location",
-    2711,
+    2708,
     12
   ],
   [
@@ -34738,7 +34726,7 @@ exports.BattleSearchIndex = [
   [
     "time",
     "move",
-    2461,
+    2459,
     6
   ],
   [
@@ -34784,7 +34772,13 @@ exports.BattleSearchIndex = [
   [
     "tkick",
     "move",
-    3157,
+    3154,
+    0
+  ],
+  [
+    "tkick",
+    "move",
+    3326,
     0
   ],
   [
@@ -34794,45 +34788,39 @@ exports.BattleSearchIndex = [
     0
   ],
   [
-    "tkick",
-    "move",
-    3332,
-    0
-  ],
-  [
     "tkoko",
     "pokemon",
-    3096,
+    3093,
     0
   ],
   [
     "tlele",
     "pokemon",
-    3097,
+    3094,
     0
   ],
   [
     "tlens",
     "ability",
-    3174,
+    3171,
     0
   ],
   [
     "tlkey",
     "pokemon",
-    3311,
+    3308,
     0
   ],
   [
     "tlook",
     "move",
-    3112,
+    3109,
     0
   ],
   [
     "tlu",
     "pokemon",
-    3170,
+    3167,
     0
   ],
   [
@@ -35238,13 +35226,13 @@ exports.BattleSearchIndex = [
   [
     "tmail",
     "item",
-    3330,
+    3327,
     0
   ],
   [
     "tmap",
     "item",
-    3298,
+    3295,
     0
   ],
   [
@@ -35254,31 +35242,31 @@ exports.BattleSearchIndex = [
   [
     "tmega",
     "pokemon",
-    3103,
+    3100,
     0
   ],
   [
     "tmega",
     "pokemon",
-    3353,
+    3350,
     0
   ],
   [
     "tmint",
     "item",
-    3169,
+    3166,
     0
   ],
   [
     "tmushroom",
     "item",
-    3176,
+    3173,
     0
   ],
   [
     "tnull",
     "pokemon",
-    3348,
+    3345,
     0
   ],
   [
@@ -35308,25 +35296,25 @@ exports.BattleSearchIndex = [
   [
     "tohero",
     "ability",
-    3619,
+    3616,
     4
   ],
   [
     "tomb",
     "move",
-    2476,
+    2474,
     4
   ],
   [
     "tomb",
     "move",
-    2585,
+    2582,
     4
   ],
   [
     "tooth",
     "item",
-    625,
+    623,
     7
   ],
   [
@@ -35336,13 +35324,13 @@ exports.BattleSearchIndex = [
   [
     "torb",
     "item",
-    3128,
+    3125,
     0
   ],
   [
     "torb",
     "item",
-    3305,
+    3302,
     0
   ],
   [
@@ -35364,7 +35352,7 @@ exports.BattleSearchIndex = [
   [
     "tornado",
     "move",
-    1571,
+    1569,
     4
   ],
   [
@@ -35378,25 +35366,25 @@ exports.BattleSearchIndex = [
   [
     "toroom1",
     "item",
-    1502,
+    1500,
     3
   ],
   [
     "toroom2",
     "item",
-    1503,
+    1501,
     3
   ],
   [
     "toroom4",
     "item",
-    1504,
+    1502,
     3
   ],
   [
     "toroom6",
     "item",
-    1505,
+    1503,
     3
   ],
   [
@@ -35408,25 +35396,25 @@ exports.BattleSearchIndex = [
   [
     "torque",
     "move",
-    505,
+    504,
     6
   ],
   [
     "torque",
     "move",
-    1688,
+    1686,
     7
   ],
   [
     "torque",
     "move",
-    2018,
+    2016,
     7
   ],
   [
     "torque",
     "move",
-    3534,
+    3531,
     6
   ],
   [
@@ -35444,13 +35432,13 @@ exports.BattleSearchIndex = [
   [
     "toruin",
     "ability",
-    3075,
+    3072,
     0
   ],
   [
     "toss",
     "move",
-    2652,
+    2649,
     7
   ],
   [
@@ -35460,7 +35448,7 @@ exports.BattleSearchIndex = [
   [
     "totreat",
     "move",
-    3323,
+    3320,
     0
   ],
   [
@@ -35470,7 +35458,7 @@ exports.BattleSearchIndex = [
   [
     "touch",
     "ability",
-    2211,
+    2208,
     6
   ],
   [
@@ -35480,61 +35468,61 @@ exports.BattleSearchIndex = [
   [
     "tower1f",
     "location",
-    1869,
+    1867,
     6
   ],
   [
     "tower2f",
     "location",
-    1870,
+    1868,
     6
   ],
   [
     "tower3f",
     "location",
-    1871,
+    1869,
     6
   ],
   [
     "tower4f",
     "location",
-    1872,
+    1870,
     6
   ],
   [
     "town",
     "location",
-    654,
+    652,
     7
   ],
   [
     "town",
     "location",
-    2084,
+    2081,
     10
   ],
   [
     "town0",
     "location",
-    901,
+    899,
     9
   ],
   [
     "town0",
     "location",
-    1619,
+    1617,
     10
   ],
   [
     "town0",
     "location",
-    2051,
+    2049,
     6
   ],
   [
     "town0",
     "location",
-    3425,
+    3422,
     10
   ],
   [
@@ -35596,49 +35584,49 @@ exports.BattleSearchIndex = [
   [
     "toy",
     "item",
-    2217,
+    2214,
     4
   ],
   [
     "tpaqua",
     "pokemon",
-    3107,
+    3104,
     0
   ],
   [
     "tpass",
     "item",
-    3325,
+    3322,
     0
   ],
   [
     "tpblaze",
     "pokemon",
-    3108,
+    3105,
     0
   ],
   [
     "tpcombat",
     "pokemon",
-    3109,
+    3106,
     0
   ],
   [
     "tplate",
     "item",
-    3306,
+    3303,
     0
   ],
   [
     "tpulse",
     "move",
-    3139,
+    3136,
     0
   ],
   [
     "tpunch",
     "move",
-    3158,
+    3155,
     0
   ],
   [
@@ -35648,7 +35636,7 @@ exports.BattleSearchIndex = [
   [
     "trage",
     "move",
-    3116,
+    3113,
     0
   ],
   [
@@ -35676,19 +35664,19 @@ exports.BattleSearchIndex = [
   [
     "trap",
     "move",
-    2695,
+    2692,
     5
   ],
   [
     "trap",
     "move",
-    2727,
+    2724,
     4
   ],
   [
     "trap",
     "move",
-    2825,
+    2822,
     4
   ],
   [
@@ -35698,19 +35686,19 @@ exports.BattleSearchIndex = [
   [
     "trash",
     "pokemon",
-    3569,
+    3566,
     8
   ],
   [
     "treads",
     "pokemon",
-    1462,
+    1460,
     4
   ],
   [
     "treat",
     "move",
-    3323,
+    3320,
     7
   ],
   [
@@ -35736,13 +35724,13 @@ exports.BattleSearchIndex = [
   [
     "trick",
     "move",
-    1002,
+    1000,
     6
   ],
   [
     "trick",
     "move",
-    2255,
+    2252,
     5
   ],
   [
@@ -35756,7 +35744,7 @@ exports.BattleSearchIndex = [
   [
     "trip",
     "move",
-    2256,
+    2253,
     5
   ],
   [
@@ -35782,7 +35770,7 @@ exports.BattleSearchIndex = [
   [
     "troom",
     "move",
-    3324,
+    3321,
     0
   ],
   [
@@ -35820,145 +35808,145 @@ exports.BattleSearchIndex = [
   [
     "tshell",
     "ability",
-    3132,
+    3129,
     0
   ],
   [
     "tshift",
     "ability",
-    3133,
+    3130,
     0
   ],
   [
     "tshock",
     "move",
-    3159,
+    3156,
     0
   ],
   [
     "tshot",
     "move",
-    3100,
+    3097,
     0
   ],
   [
     "tslap",
     "move",
-    3081,
+    3078,
     0
   ],
   [
     "tsong",
     "move",
-    3287,
+    3284,
     0
   ],
   [
     "tspikes",
     "move",
-    3308,
+    3305,
     0
   ],
   [
     "tspoon",
     "item",
-    3344,
+    3341,
     0
   ],
   [
     "tspray",
     "item",
-    3150,
+    3147,
     0
   ],
   [
     "tstarstorm",
     "move",
-    3134,
+    3131,
     0
   ],
   [
     "tstellar",
     "pokemon",
-    3130,
+    3127,
     0
   ],
   [
     "tstone",
     "item",
-    3160,
+    3157,
     0
   ],
   [
     "ttackle",
     "move",
-    3343,
+    3340,
     0
   ],
   [
     "tterastal",
     "pokemon",
-    3131,
+    3128,
     0
   ],
   [
     "ttherian",
     "pokemon",
-    3163,
+    3160,
     0
   ],
   [
     "ttherian",
     "pokemon",
-    3291,
+    3288,
     0
   ],
   [
     "tthread",
     "move",
-    3309,
+    3306,
     0
   ],
   [
     "tturvy",
     "move",
-    3285,
+    3282,
     0
   ],
   [
     "ttv",
     "item",
-    3111,
+    3108,
     0
   ],
   [
     "tunnel",
     "location",
-    2545,
+    2542,
     7
   ],
   [
     "tunnel1bf0",
     "location",
-    3426,
+    3423,
     10
   ],
   [
     "tunnel1bftinyroom0",
     "location",
-    3427,
+    3424,
     10
   ],
   [
     "tunnel1f0",
     "location",
-    3428,
+    3425,
     10
   ],
   [
     "tup",
     "move",
-    3166,
+    3163,
     0
   ],
   [
@@ -35968,13 +35956,13 @@ exports.BattleSearchIndex = [
   [
     "turn",
     "move",
-    979,
+    977,
     4
   ],
   [
     "turn",
     "move",
-    3405,
+    3402,
     1
   ],
   [
@@ -35988,43 +35976,43 @@ exports.BattleSearchIndex = [
   [
     "turvy",
     "move",
-    3285,
+    3282,
     5
   ],
   [
     "tusk",
     "pokemon",
-    1214,
+    1212,
     5
   ],
   [
     "tv",
     "item",
-    3111,
+    3108,
     6
   ],
   [
     "twave",
     "move",
-    3161,
+    3158,
     0
   ],
   [
     "twaves",
     "move",
-    3147,
+    3144,
     0
   ],
   [
     "twhip",
     "move",
-    3082,
+    3079,
     0
   ],
   [
     "twig",
     "item",
-    1079,
+    1077,
     8
   ],
   [
@@ -36058,7 +36046,7 @@ exports.BattleSearchIndex = [
   [
     "type",
     "move",
-    2404,
+    2402,
     7
   ],
   [
@@ -36100,55 +36088,55 @@ exports.BattleSearchIndex = [
   [
     "tz",
     "item",
-    3098,
+    3095,
     0
   ],
   [
     "tzero",
     "ability",
-    3127,
+    3124,
     0
   ],
   [
     "u124",
     "location",
-    3362,
+    3359,
     0
   ],
   [
     "u126",
     "location",
-    3363,
+    3360,
     0
   ],
   [
     "uball",
     "item",
-    3357,
+    3354,
     0
   ],
   [
     "ubloodmoon",
     "pokemon",
-    3400,
+    3397,
     0
   ],
   [
     "ufist",
     "ability",
-    3395,
+    3392,
     0
   ],
   [
     "uhand",
     "move",
-    3397,
+    3394,
     0
   ],
   [
     "ultra",
     "pokemon",
-    1975,
+    1973,
     8
   ],
   [
@@ -36162,7 +36150,7 @@ exports.BattleSearchIndex = [
   [
     "umbrella",
     "item",
-    3404,
+    3401,
     7
   ],
   [
@@ -36176,7 +36164,7 @@ exports.BattleSearchIndex = [
   [
     "unbound",
     "pokemon",
-    1354,
+    1352,
     5
   ],
   [
@@ -36186,7 +36174,7 @@ exports.BattleSearchIndex = [
   [
     "underpass",
     "location",
-    646,
+    644,
     6
   ],
   [
@@ -36204,7 +36192,7 @@ exports.BattleSearchIndex = [
   [
     "unity",
     "item",
-    2414,
+    2412,
     7
   ],
   [
@@ -36214,7 +36202,7 @@ exports.BattleSearchIndex = [
   [
     "unova",
     "pokemon",
-    2168,
+    2165,
     7
   ],
   [
@@ -36340,13 +36328,13 @@ exports.BattleSearchIndex = [
   [
     "up",
     "item",
-    1368,
+    1366,
     2
   ],
   [
     "up",
     "item",
-    2261,
+    2258,
     2
   ],
   [
@@ -36370,43 +36358,43 @@ exports.BattleSearchIndex = [
   [
     "up",
     "move",
-    1103,
+    1101,
     4
   ],
   [
     "up",
     "move",
-    2065,
+    2063,
     5
   ],
   [
     "up",
     "move",
-    2300,
+    2297,
     5
   ],
   [
     "up",
     "move",
-    2716,
+    2713,
     5
   ],
   [
     "up",
     "move",
-    2920,
+    2917,
     4
   ],
   [
     "up",
     "move",
-    3166,
+    3163,
     4
   ],
   [
     "up",
     "move",
-    3566,
+    3563,
     4
   ],
   [
@@ -36416,7 +36404,7 @@ exports.BattleSearchIndex = [
   [
     "uppercut",
     "move",
-    2788,
+    2785,
     3
   ],
   [
@@ -36426,7 +36414,7 @@ exports.BattleSearchIndex = [
   [
     "uppunch",
     "move",
-    2257,
+    2254,
     5
   ],
   [
@@ -36436,7 +36424,7 @@ exports.BattleSearchIndex = [
   [
     "upslap",
     "move",
-    3484,
+    3481,
     4
   ],
   [
@@ -36462,13 +36450,13 @@ exports.BattleSearchIndex = [
   [
     "urstrike",
     "pokemon",
-    3403,
+    3400,
     0
   ],
   [
     "uteacup",
     "item",
-    3394,
+    3391,
     0
   ],
   [
@@ -36482,13 +36470,13 @@ exports.BattleSearchIndex = [
   [
     "uturn",
     "move",
-    3405,
+    3402,
     0
   ],
   [
     "uumbrella",
     "item",
-    3404,
+    3401,
     0
   ],
   [
@@ -36498,13 +36486,13 @@ exports.BattleSearchIndex = [
   [
     "uz",
     "item",
-    3358,
+    3355,
     0
   ],
   [
     "vabsorb",
     "ability",
-    3471,
+    3468,
     0
   ],
   [
@@ -36514,13 +36502,13 @@ exports.BattleSearchIndex = [
   [
     "valiant",
     "pokemon",
-    1463,
+    1461,
     4
   ],
   [
     "valola",
     "pokemon",
-    3479,
+    3476,
     0
   ],
   [
@@ -36546,7 +36534,7 @@ exports.BattleSearchIndex = [
   [
     "vase",
     "item",
-    2424,
+    2422,
     5
   ],
   [
@@ -36556,19 +36544,19 @@ exports.BattleSearchIndex = [
   [
     "vcreate",
     "move",
-    3413,
+    3410,
     0
   ],
   [
     "vdance",
     "move",
-    3433,
+    3430,
     0
   ],
   [
     "vdrench",
     "move",
-    3417,
+    3414,
     0
   ],
   [
@@ -36584,31 +36572,31 @@ exports.BattleSearchIndex = [
   [
     "veil",
     "ability",
-    1003,
+    1001,
     6
   ],
   [
     "veil",
     "ability",
-    2107,
+    2104,
     6
   ],
   [
     "veil",
     "ability",
-    2586,
+    2583,
     4
   ],
   [
     "veil",
     "ability",
-    3057,
+    3054,
     5
   ],
   [
     "veil",
     "ability",
-    3505,
+    3502,
     5
   ],
   [
@@ -36690,31 +36678,31 @@ exports.BattleSearchIndex = [
   [
     "vf0",
     "location",
-    3434,
+    3431,
     0
   ],
   [
     "vfancy",
     "pokemon",
-    3453,
+    3450,
     0
   ],
   [
     "vg0",
     "location",
-    3424,
+    3421,
     0
   ],
   [
     "vgrip",
     "move",
-    3446,
+    3443,
     0
   ],
   [
     "vhisui",
     "pokemon",
-    3473,
+    3470,
     0
   ],
   [
@@ -36868,19 +36856,19 @@ exports.BattleSearchIndex = [
   [
     "vmega",
     "pokemon",
-    3423,
+    3420,
     0
   ],
   [
     "vmega",
     "pokemon",
-    3440,
+    3437,
     0
   ],
   [
     "voice",
     "ability",
-    1615,
+    1613,
     6
   ],
   [
@@ -36892,25 +36880,25 @@ exports.BattleSearchIndex = [
   [
     "voice",
     "move",
-    673,
+    671,
     9
   ],
   [
     "voice",
     "move",
-    788,
+    786,
     6
   ],
   [
     "voice",
     "move",
-    1388,
+    1386,
     5
   ],
   [
     "void",
     "move",
-    607,
+    605,
     4
   ],
   [
@@ -36928,7 +36916,7 @@ exports.BattleSearchIndex = [
   [
     "volley",
     "move",
-    3414,
+    3411,
     6
   ],
   [
@@ -36938,7 +36926,7 @@ exports.BattleSearchIndex = [
   [
     "voltage",
     "move",
-    2456,
+    2454,
     6
   ],
   [
@@ -36966,13 +36954,13 @@ exports.BattleSearchIndex = [
   [
     "vortex",
     "move",
-    1380,
+    1378,
     5
   ],
   [
     "voruin",
     "ability",
-    3430,
+    3427,
     0
   ],
   [
@@ -36984,31 +36972,31 @@ exports.BattleSearchIndex = [
   [
     "vpokeball",
     "pokemon",
-    3462,
+    3459,
     0
   ],
   [
     "vr1f",
     "location",
-    3436,
+    3433,
     0
   ],
   [
     "vrf",
     "location",
-    3435,
+    3432,
     0
   ],
   [
     "vseeker",
     "item",
-    3476,
+    3473,
     0
   ],
   [
     "vspirit",
     "ability",
-    3447,
+    3444,
     0
   ],
   [
@@ -37018,49 +37006,49 @@ exports.BattleSearchIndex = [
   [
     "vstar",
     "ability",
-    3437,
+    3434,
     0
   ],
   [
     "vswitch",
     "move",
-    3474,
+    3471,
     0
   ],
   [
     "vt0",
     "location",
-    3425,
+    3422,
     0
   ],
   [
     "vtackle",
     "move",
-    3475,
+    3472,
     0
   ],
   [
     "vtb0",
     "location",
-    3426,
+    3423,
     0
   ],
   [
     "vtbr0",
     "location",
-    3427,
+    3424,
     0
   ],
   [
     "vtf0",
     "location",
-    3428,
+    3425,
     0
   ],
   [
     "vthrow",
     "move",
-    3448,
+    3445,
     0
   ],
   [
@@ -37078,25 +37066,25 @@ exports.BattleSearchIndex = [
   [
     "vvolley",
     "move",
-    3414,
+    3411,
     0
   ],
   [
     "vwave",
     "move",
-    3407,
+    3404,
     0
   ],
   [
     "vwhip",
     "move",
-    3444,
+    3441,
     0
   ],
   [
     "wabsorb",
     "ability",
-    3491,
+    3488,
     0
   ],
   [
@@ -37118,7 +37106,7 @@ exports.BattleSearchIndex = [
   [
     "wake",
     "pokemon",
-    3485,
+    3482,
     7
   ],
   [
@@ -37140,19 +37128,19 @@ exports.BattleSearchIndex = [
   [
     "wapricorn",
     "item",
-    3529,
+    3526,
     0
   ],
   [
     "warmor",
     "ability",
-    3511,
+    3508,
     0
   ],
   [
     "warning",
     "ability",
-    2843,
+    2840,
     4
   ],
   [
@@ -37162,7 +37150,7 @@ exports.BattleSearchIndex = [
   [
     "wash",
     "pokemon",
-    2500,
+    2497,
     5
   ],
   [
@@ -37172,25 +37160,25 @@ exports.BattleSearchIndex = [
   [
     "water",
     "item",
-    1040,
+    1038,
     5
   ],
   [
     "water",
     "item",
-    1947,
+    1945,
     6
   ],
   [
     "water",
     "move",
-    449,
+    448,
     8
   ],
   [
     "water",
     "move",
-    1924,
+    1922,
     5
   ],
   [
@@ -37202,7 +37190,7 @@ exports.BattleSearchIndex = [
   [
     "water",
     "pokemon",
-    2746,
+    2743,
     8
   ],
   [
@@ -37252,7 +37240,7 @@ exports.BattleSearchIndex = [
   [
     "waters",
     "item",
-    2628,
+    2625,
     8
   ],
   [
@@ -37282,7 +37270,7 @@ exports.BattleSearchIndex = [
   [
     "wattack",
     "move",
-    3547,
+    3544,
     0
   ],
   [
@@ -37292,31 +37280,31 @@ exports.BattleSearchIndex = [
   [
     "wave",
     "move",
-    1314,
+    1312,
     4
   ],
   [
     "wave",
     "move",
-    2715,
+    2712,
     5
   ],
   [
     "wave",
     "move",
-    2811,
+    2808,
     6
   ],
   [
     "wave",
     "move",
-    3161,
+    3158,
     7
   ],
   [
     "wave",
     "move",
-    3407,
+    3404,
     6
   ],
   [
@@ -37334,85 +37322,85 @@ exports.BattleSearchIndex = [
   [
     "waves",
     "move",
-    3147,
+    3144,
     8
   ],
   [
     "wball",
     "move",
-    3513,
+    3510,
     0
   ],
   [
     "wbbody",
     "ability",
-    3519,
+    3516,
     0
   ],
   [
     "wberry",
     "item",
-    3480,
+    3477,
     0
   ],
   [
     "wberry",
     "item",
-    3506,
+    3503,
     0
   ],
   [
     "wberry",
     "item",
-    3521,
+    3518,
     0
   ],
   [
     "wberry",
     "item",
-    3539,
+    3536,
     0
   ],
   [
     "wblow",
     "move",
-    3533,
+    3530,
     0
   ],
   [
     "wbubble",
     "ability",
-    3492,
+    3489,
     0
   ],
   [
     "wcharge",
     "move",
-    3541,
+    3538,
     0
   ],
   [
     "wchien",
     "pokemon",
-    3556,
+    3553,
     0
   ],
   [
     "wcompaction",
     "ability",
-    3493,
+    3490,
     0
   ],
   [
     "wcrash",
     "move",
-    3508,
+    3505,
     0
   ],
   [
     "wdream",
     "item",
-    3523,
+    3520,
     0
   ],
   [
@@ -37434,13 +37422,13 @@ exports.BattleSearchIndex = [
   [
     "web",
     "move",
-    2908,
+    2905,
     6
   ],
   [
     "web",
     "move",
-    2984,
+    2981,
     6
   ],
   [
@@ -37462,7 +37450,7 @@ exports.BattleSearchIndex = [
   [
     "weight",
     "item",
-    2258,
+    2255,
     5
   ],
   [
@@ -37472,13 +37460,13 @@ exports.BattleSearchIndex = [
   [
     "wellspring",
     "ability",
-    836,
+    834,
     12
   ],
   [
     "wellspring",
     "pokemon",
-    2045,
+    2043,
     7
   ],
   [
@@ -37488,7 +37476,7 @@ exports.BattleSearchIndex = [
   [
     "wellspringtera",
     "pokemon",
-    2046,
+    2044,
     7
   ],
   [
@@ -37504,49 +37492,49 @@ exports.BattleSearchIndex = [
   [
     "wflute",
     "item",
-    3530,
+    3527,
     0
   ],
   [
     "wgalar",
     "pokemon",
-    3518,
+    3515,
     0
   ],
   [
     "wgem",
     "item",
-    3495,
+    3492,
     0
   ],
   [
     "wglasses",
     "item",
-    3549,
+    3546,
     0
   ],
   [
     "wguard",
     "ability",
-    3557,
+    3554,
     0
   ],
   [
     "wguard",
     "move",
-    3535,
+    3532,
     0
   ],
   [
     "wgun",
     "move",
-    3496,
+    3493,
     0
   ],
   [
     "whammer",
     "move",
-    3561,
+    3558,
     0
   ],
   [
@@ -37558,13 +37546,13 @@ exports.BattleSearchIndex = [
   [
     "wheel",
     "move",
-    965,
+    963,
     5
   ],
   [
     "wherb",
     "item",
-    3531,
+    3528,
     0
   ],
   [
@@ -37574,19 +37562,19 @@ exports.BattleSearchIndex = [
   [
     "whip",
     "move",
-    2259,
+    2256,
     5
   ],
   [
     "whip",
     "move",
-    3082,
+    3079,
     4
   ],
   [
     "whip",
     "move",
-    3444,
+    3441,
     4
   ],
   [
@@ -37616,19 +37604,19 @@ exports.BattleSearchIndex = [
   [
     "whistle",
     "move",
-    1204,
+    1202,
     5
   ],
   [
     "white",
     "pokemon",
-    1538,
+    1536,
     6
   ],
   [
     "white",
     "pokemon",
-    2935,
+    2932,
     12
   ],
   [
@@ -37698,37 +37686,37 @@ exports.BattleSearchIndex = [
   [
     "wincense",
     "item",
-    3509,
+    3506,
     0
   ],
   [
     "wind",
     "move",
-    895,
+    893,
     5
   ],
   [
     "wind",
     "move",
-    1414,
+    1412,
     3
   ],
   [
     "wind",
     "move",
-    2058,
+    2056,
     7
   ],
   [
     "wind",
     "move",
-    2389,
+    2386,
     5
   ],
   [
     "wind",
     "move",
-    2748,
+    2745,
     6
   ],
   [
@@ -37742,25 +37730,25 @@ exports.BattleSearchIndex = [
   [
     "wing",
     "move",
-    857,
+    855,
     5
   ],
   [
     "wing",
     "move",
-    2026,
+    2024,
     8
   ],
   [
     "wing",
     "move",
-    2976,
+    2973,
     5
   ],
   [
     "wing",
     "pokemon",
-    2799,
+    2796,
     7
   ],
   [
@@ -37770,19 +37758,19 @@ exports.BattleSearchIndex = [
   [
     "wingbeat",
     "move",
-    759,
+    757,
     4
   ],
   [
     "wings",
     "ability",
-    1081,
+    1079,
     4
   ],
   [
     "wings",
     "pokemon",
-    1973,
+    1971,
     12
   ],
   [
@@ -37800,7 +37788,7 @@ exports.BattleSearchIndex = [
   [
     "wish",
     "move",
-    1298,
+    1296,
     7
   ],
   [
@@ -37818,7 +37806,7 @@ exports.BattleSearchIndex = [
   [
     "wisp",
     "move",
-    3542,
+    3539,
     5
   ],
   [
@@ -37828,31 +37816,31 @@ exports.BattleSearchIndex = [
   [
     "wlens",
     "item",
-    3536,
+    3533,
     0
   ],
   [
     "wmail",
     "item",
-    3510,
+    3507,
     0
   ],
   [
     "wmail",
     "item",
-    3562,
+    3559,
     0
   ],
   [
     "wmask",
     "item",
-    3520,
+    3517,
     0
   ],
   [
     "wmemory",
     "item",
-    3498,
+    3495,
     0
   ],
   [
@@ -37890,7 +37878,7 @@ exports.BattleSearchIndex = [
   [
     "woods",
     "location",
-    2132,
+    2129,
     9
   ],
   [
@@ -37912,7 +37900,7 @@ exports.BattleSearchIndex = [
   [
     "world",
     "pokemon",
-    2169,
+    2166,
     7
   ],
   [
@@ -37934,61 +37922,61 @@ exports.BattleSearchIndex = [
   [
     "wout",
     "ability",
-    3544,
+    3541,
     0
   ],
   [
     "wout",
     "move",
-    3572,
+    3569,
     0
   ],
   [
     "wowisp",
     "move",
-    3542,
+    3539,
     0
   ],
   [
     "wpail",
     "item",
-    3482,
+    3479,
     0
   ],
   [
     "wpaldea",
     "pokemon",
-    3565,
+    3562,
     0
   ],
   [
     "wpiece",
     "item",
-    3551,
+    3548,
     0
   ],
   [
     "wpledge",
     "move",
-    3499,
+    3496,
     0
   ],
   [
     "wpolicy",
     "item",
-    3512,
+    3509,
     0
   ],
   [
     "wpower",
     "ability",
-    3545,
+    3542,
     0
   ],
   [
     "wpulse",
     "move",
-    3500,
+    3497,
     0
   ],
   [
@@ -37998,31 +37986,31 @@ exports.BattleSearchIndex = [
   [
     "wrath",
     "move",
-    926,
+    924,
     5
   ],
   [
     "wrath",
     "move",
-    1544,
+    1542,
     5
   ],
   [
     "wreath",
     "item",
-    1080,
+    1078,
     8
   ],
   [
     "wrecker",
     "move",
-    2477,
+    2475,
     4
   ],
   [
     "wrider",
     "ability",
-    3546,
+    3543,
     0
   ],
   [
@@ -38032,85 +38020,85 @@ exports.BattleSearchIndex = [
   [
     "wroom",
     "move",
-    3558,
+    3555,
     0
   ],
   [
     "wsandy",
     "pokemon",
-    3568,
+    3565,
     0
   ],
   [
     "wschool",
     "pokemon",
-    3553,
+    3550,
     0
   ],
   [
     "wseed",
     "move",
-    3570,
+    3567,
     0
   ],
   [
     "wshuriken",
     "move",
-    3501,
+    3498,
     0
   ],
   [
     "wskin",
     "ability",
-    3559,
+    3556,
     0
   ],
   [
     "wsmoke",
     "ability",
-    3532,
+    3529,
     0
   ],
   [
     "wspirit",
     "ability",
-    3487,
+    3484,
     0
   ],
   [
     "wsport",
     "move",
-    3502,
+    3499,
     0
   ],
   [
     "wspout",
     "move",
-    3503,
+    3500,
     0
   ],
   [
     "wstone",
     "item",
-    3504,
+    3501,
     0
   ],
   [
     "wstorm",
     "move",
-    3540,
+    3537,
     0
   ],
   [
     "wtorque",
     "move",
-    3534,
+    3531,
     0
   ],
   [
     "wtrash",
     "pokemon",
-    3569,
+    3566,
     0
   ],
   [
@@ -38120,7 +38108,7 @@ exports.BattleSearchIndex = [
   [
     "wup",
     "move",
-    3566,
+    3563,
     0
   ],
   [
@@ -38130,19 +38118,19 @@ exports.BattleSearchIndex = [
   [
     "wuslap",
     "move",
-    3484,
+    3481,
     0
   ],
   [
     "wveil",
     "ability",
-    3505,
+    3502,
     0
   ],
   [
     "wwake",
     "pokemon",
-    3485,
+    3482,
     0
   ],
   [
@@ -38156,43 +38144,43 @@ exports.BattleSearchIndex = [
   [
     "wz",
     "item",
-    3497,
+    3494,
     0
   ],
   [
     "x",
     "item",
-    421,
+    420,
     12
   ],
   [
     "x",
     "item",
-    1830,
-    10
-  ],
-  [
-    "x",
-    "item",
-    2363,
-    10
-  ],
-  [
-    "x",
-    "pokemon",
-    423,
-    13
-  ],
-  [
-    "x",
-    "pokemon",
     1828,
     10
   ],
   [
     "x",
+    "item",
+    2360,
+    10
+  ],
+  [
+    "x",
     "pokemon",
-    2361,
+    422,
+    13
+  ],
+  [
+    "x",
+    "pokemon",
+    1826,
+    10
+  ],
+  [
+    "x",
+    "pokemon",
+    2358,
     10
   ],
   [
@@ -38202,7 +38190,7 @@ exports.BattleSearchIndex = [
   [
     "xaccuracy",
     "item",
-    3577,
+    3574,
     0
   ],
   [
@@ -38212,7 +38200,7 @@ exports.BattleSearchIndex = [
   [
     "xattack",
     "item",
-    3578,
+    3575,
     0
   ],
   [
@@ -38226,7 +38214,7 @@ exports.BattleSearchIndex = [
   [
     "xdefense",
     "item",
-    3580,
+    3577,
     0
   ],
   [
@@ -38236,19 +38224,19 @@ exports.BattleSearchIndex = [
   [
     "xl",
     "item",
-    876,
+    874,
     8
   ],
   [
     "xs",
     "item",
-    877,
+    875,
     8
   ],
   [
     "xsatk",
     "item",
-    3583,
+    3580,
     0
   ],
   [
@@ -38258,13 +38246,13 @@ exports.BattleSearchIndex = [
   [
     "xscissor",
     "move",
-    3582,
+    3579,
     0
   ],
   [
     "xsdef",
     "item",
-    3584,
+    3581,
     0
   ],
   [
@@ -38282,7 +38270,7 @@ exports.BattleSearchIndex = [
   [
     "xspeed",
     "item",
-    3585,
+    3582,
     0
   ],
   [
@@ -38292,37 +38280,37 @@ exports.BattleSearchIndex = [
   [
     "y",
     "item",
-    422,
+    421,
     12
   ],
   [
     "y",
     "item",
-    1831,
-    10
-  ],
-  [
-    "y",
-    "item",
-    2364,
-    10
-  ],
-  [
-    "y",
-    "pokemon",
-    424,
-    13
-  ],
-  [
-    "y",
-    "pokemon",
     1829,
     10
   ],
   [
     "y",
+    "item",
+    2361,
+    10
+  ],
+  [
+    "y",
     "pokemon",
-    2362,
+    423,
+    13
+  ],
+  [
+    "y",
+    "pokemon",
+    1827,
+    10
+  ],
+  [
+    "y",
+    "pokemon",
+    2359,
     10
   ],
   [
@@ -38352,7 +38340,7 @@ exports.BattleSearchIndex = [
   [
     "yapricorn",
     "item",
-    3594,
+    3591,
     0
   ],
   [
@@ -38362,13 +38350,13 @@ exports.BattleSearchIndex = [
   [
     "yberry",
     "item",
-    3587,
+    3584,
     0
   ],
   [
     "yellow",
     "pokemon",
-    2936,
+    2933,
     12
   ],
   [
@@ -38394,13 +38382,13 @@ exports.BattleSearchIndex = [
   [
     "yflute",
     "item",
-    3595,
+    3592,
     0
   ],
   [
     "ynectar",
     "item",
-    3596,
+    3593,
     0
   ],
   [
@@ -38412,19 +38400,19 @@ exports.BattleSearchIndex = [
   [
     "yscarf",
     "item",
-    3597,
+    3594,
     0
   ],
   [
     "yshard",
     "item",
-    3598,
+    3595,
     0
   ],
   [
     "yu",
     "pokemon",
-    459,
+    458,
     3
   ],
   [
@@ -38456,211 +38444,211 @@ exports.BattleSearchIndex = [
   [
     "z",
     "item",
-    601,
+    599,
     9
   ],
   [
     "z",
     "item",
-    619,
+    617,
     8
   ],
   [
     "z",
     "item",
-    724,
+    722,
     9
   ],
   [
     "z",
     "item",
-    797,
+    795,
     6
   ],
   [
     "z",
     "item",
-    817,
+    815,
     9
   ],
   [
     "z",
     "item",
-    888,
+    886,
     7
   ],
   [
     "z",
     "item",
-    930,
+    928,
     10
   ],
   [
     "z",
     "item",
-    947,
+    945,
     6
   ],
   [
     "z",
     "item",
-    1013,
+    1011,
     8
   ],
   [
     "z",
     "item",
-    1091,
+    1089,
     11
   ],
   [
     "z",
     "item",
-    1121,
+    1119,
     8
   ],
   [
     "z",
     "item",
-    1199,
+    1197,
     8
   ],
   [
     "z",
     "item",
-    1238,
+    1236,
     9
   ],
   [
     "z",
     "item",
-    1412,
+    1410,
     5
   ],
   [
     "z",
     "item",
-    1426,
+    1424,
     8
   ],
   [
     "z",
     "item",
-    1524,
+    1522,
     9
   ],
   [
     "z",
     "item",
-    1641,
+    1639,
     11
   ],
   [
     "z",
     "item",
-    1654,
+    1652,
     8
   ],
   [
     "z",
     "item",
-    1669,
+    1667,
     8
   ],
   [
     "z",
     "item",
-    1745,
+    1743,
     10
   ],
   [
     "z",
     "item",
-    1826,
+    1824,
     7
   ],
   [
     "z",
     "item",
-    1845,
+    1843,
     8
   ],
   [
     "z",
     "item",
-    2015,
+    2013,
     9
   ],
   [
     "z",
     "item",
-    2170,
+    2167,
     8
   ],
   [
     "z",
     "item",
-    2172,
+    2169,
     11
   ],
   [
     "z",
     "item",
-    2203,
+    2200,
     9
   ],
   [
     "z",
     "item",
-    2269,
+    2266,
     9
   ],
   [
     "z",
     "item",
-    2296,
+    2293,
     8
   ],
   [
     "z",
     "item",
-    2468,
+    2466,
     7
   ],
   [
     "z",
     "item",
-    2837,
+    2834,
     8
   ],
   [
     "z",
     "item",
-    2854,
+    2851,
     9
   ],
   [
     "z",
     "item",
-    2970,
+    2967,
     8
   ],
   [
     "z",
     "item",
-    3098,
+    3095,
     8
   ],
   [
     "z",
     "item",
-    3358,
+    3355,
     14
   ],
   [
     "z",
     "item",
-    3497,
+    3494,
     8
   ],
   [
@@ -38672,25 +38660,25 @@ exports.BattleSearchIndex = [
   [
     "z",
     "pokemon",
-    1093,
+    1091,
     12
   ],
   [
     "z",
     "pokemon",
-    1639,
+    1637,
     11
   ],
   [
     "z",
     "pokemon",
-    2235,
+    2232,
     7
   ],
   [
     "z10",
     "pokemon",
-    3634,
+    3631,
     0
   ],
   [
@@ -38716,13 +38704,13 @@ exports.BattleSearchIndex = [
   [
     "zap",
     "move",
-    3623,
+    3620,
     4
   ],
   [
     "zap",
     "move",
-    3624,
+    3621,
     5
   ],
   [
@@ -38752,37 +38740,37 @@ exports.BattleSearchIndex = [
   [
     "zcannon",
     "move",
-    3606,
+    3603,
     0
   ],
   [
     "zcomplete",
     "pokemon",
-    3635,
+    3632,
     0
   ],
   [
     "zcrowned",
     "pokemon",
-    3602,
+    3599,
     0
   ],
   [
     "zcrowned",
     "pokemon",
-    3604,
+    3601,
     0
   ],
   [
     "zcube",
     "item",
-    3636,
+    3633,
     0
   ],
   [
     "zdada",
     "pokemon",
-    3611,
+    3608,
     0
   ],
   [
@@ -38796,13 +38784,13 @@ exports.BattleSearchIndex = [
   [
     "zen",
     "pokemon",
-    610,
+    608,
     10
   ],
   [
     "zengalar",
     "pokemon",
-    611,
+    609,
     10
   ],
   [
@@ -38828,7 +38816,7 @@ exports.BattleSearchIndex = [
   [
     "zero",
     "ability",
-    3127,
+    3124,
     8
   ],
   [
@@ -38838,31 +38826,31 @@ exports.BattleSearchIndex = [
   [
     "zgalar",
     "pokemon",
-    3608,
+    3605,
     0
   ],
   [
     "zgalar",
     "pokemon",
-    3621,
+    3618,
     0
   ],
   [
     "zheadbutt",
     "move",
-    3614,
+    3611,
     0
   ],
   [
     "zhisui",
     "pokemon",
-    3627,
+    3624,
     0
   ],
   [
     "zhisui",
     "pokemon",
-    3629,
+    3626,
     0
   ],
   [
@@ -38888,61 +38876,61 @@ exports.BattleSearchIndex = [
   [
     "zlens",
     "item",
-    3625,
+    3622,
     0
   ],
   [
     "zmega",
     "pokemon",
-    3617,
+    3614,
     0
   ],
   [
     "zmega",
     "pokemon",
-    3637,
+    3634,
     0
   ],
   [
     "zmode",
     "ability",
-    3615,
+    3612,
     0
   ],
   [
     "zonenorth",
     "location",
-    2554,
+    2551,
     6
   ],
   [
     "zonenortheast",
     "location",
-    2555,
+    2552,
     6
   ],
   [
     "zonenorthwest",
     "location",
-    2556,
+    2553,
     6
   ],
   [
     "zonesouth",
     "location",
-    2557,
+    2554,
     6
   ],
   [
     "zonesoutheast",
     "location",
-    2558,
+    2555,
     6
   ],
   [
     "zonesouthwest",
     "location",
-    2559,
+    2556,
     6
   ],
   [
@@ -38968,7 +38956,7 @@ exports.BattleSearchIndex = [
   [
     "zplate",
     "item",
-    3609,
+    3606,
     0
   ],
   [
@@ -38978,13 +38966,13 @@ exports.BattleSearchIndex = [
   [
     "zpring",
     "item",
-    3630,
+    3627,
     0
   ],
   [
     "zthero",
     "ability",
-    3619,
+    3616,
     0
   ],
   [
@@ -39022,21 +39010,18 @@ exports.BattleSearchIndex = [
   [
     "zzap",
     "move",
-    3623,
+    3620,
     0
   ],
   [
     "zzap",
     "move",
-    3624,
+    3621,
     0
   ]
 ];
 
 exports.BattleSearchIndexOffset = [
-  "",
-  "",
-  "",
   "",
   "",
   "",
@@ -46762,13 +46747,13 @@ exports.BattleSearchCountIndex = {
   "dragon move": 30,
   "dragon pokemon": 101,
   "electric move": 47,
-  "electric pokemon": 110,
+  "electric pokemon": 107,
   "fairy move": 32,
   "fairy pokemon": 104,
   "fighting move": 55,
   "fighting pokemon": 103,
   "fire move": 45,
-  "fire pokemon": 105,
+  "fire pokemon": 106,
   "flying move": 29,
   "flying pokemon": 168,
   "ghost move": 32,
