@@ -116,6 +116,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -133,6 +134,11 @@ overrides = {
         "Thick Fat",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        34
       ],
       "evos": [
         "Ivysaur"
@@ -263,6 +269,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -280,6 +287,11 @@ overrides = {
         "Thick Fat",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        34
       ],
       "evos": [
         "Venusaur"
@@ -413,6 +425,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -432,6 +445,11 @@ overrides = {
         "Thick Fat",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        34
       ]
     },
     "Charmander": {
@@ -540,6 +558,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -560,6 +579,11 @@ overrides = {
         "Blaze",
         "Solar Power",
         "Solar Power"
+      ],
+      "abilityIds": [
+        66,
+        94,
+        94
       ],
       "evos": [
         "Charmeleon"
@@ -680,6 +704,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -700,6 +725,11 @@ overrides = {
         "Blaze",
         "Solar Power",
         "Solar Power"
+      ],
+      "abilityIds": [
+        66,
+        94,
+        94
       ],
       "evos": [
         "Charizard"
@@ -825,6 +855,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -851,6 +882,11 @@ overrides = {
         "Blaze",
         "Levitate",
         "Solar Power"
+      ],
+      "abilityIds": [
+        66,
+        26,
+        94
       ]
     },
     "Squirtle": {
@@ -953,6 +989,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -971,6 +1008,11 @@ overrides = {
         "Shell Armor",
         "No Guard",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        75,
+        99,
+        44
       ],
       "evos": [
         "Wartortle"
@@ -1084,6 +1126,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -1102,6 +1145,11 @@ overrides = {
         "Shell Armor",
         "No Guard",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        75,
+        99,
+        44
       ],
       "evos": [
         "Blastoise"
@@ -1220,6 +1268,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -1243,6 +1292,11 @@ overrides = {
         "Shell Armor",
         "No Guard",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        75,
+        99,
+        44
       ]
     },
     "Caterpie": {
@@ -1279,12 +1333,19 @@ overrides = {
             "Bug Bite"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shield Dust",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        50
       ],
       "evos": [
         "Metapod"
@@ -1329,12 +1390,19 @@ overrides = {
             "Harden"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shield Dust",
         "",
         "Shed Skin"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        61
       ],
       "evos": [
         "Butterfree"
@@ -1426,6 +1494,10 @@ overrides = {
           [
             42,
             "Attack Order"
+          ],
+          [
+            44,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -1464,6 +1536,11 @@ overrides = {
         "Compound Eyes",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        110
       ]
     },
     "Weedle": {
@@ -1541,12 +1618,19 @@ overrides = {
             "Rage Powder"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Poison Point",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        38,
+        0,
+        50
       ],
       "evos": [
         "Kakuna"
@@ -1592,12 +1676,19 @@ overrides = {
             "Harden"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Poison Point",
         "",
         "Shed Skin"
+      ],
+      "abilityIds": [
+        38,
+        0,
+        61
       ],
       "evos": [
         "Beedrill"
@@ -1717,6 +1808,11 @@ overrides = {
         "Adaptability",
         "",
         "Sniper"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        97
       ]
     },
     "Pidgey": {
@@ -1824,8 +1920,13 @@ overrides = {
       },
       "abs": [
         "No Guard",
-        "Quick Feet",
+        "",
         "Big Pecks"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        145
       ],
       "evos": [
         "Pidgeotto"
@@ -1837,7 +1938,7 @@ overrides = {
         4
       ],
       "evoParams": [
-        16
+        14
       ]
     },
     "Pidgeotto": {
@@ -1945,8 +2046,13 @@ overrides = {
       },
       "abs": [
         "No Guard",
-        "Quick Feet",
+        "",
         "Big Pecks"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        145
       ],
       "evos": [
         "Pidgeot"
@@ -2068,8 +2174,13 @@ overrides = {
       },
       "abs": [
         "No Guard",
-        "Quick Feet",
+        "",
         "Big Pecks"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        145
       ]
     },
     "Rattata": {
@@ -2194,6 +2305,11 @@ overrides = {
         "Guts",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        62,
+        0,
+        55
       ],
       "evos": [
         "Raticate"
@@ -2335,6 +2451,11 @@ overrides = {
         "Guts",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        62,
+        0,
+        55
       ]
     },
     "Spearow": {
@@ -2445,6 +2566,11 @@ overrides = {
         "Intimidate",
         "",
         "Sniper"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        97
       ],
       "evos": [
         "Fearow"
@@ -2569,6 +2695,11 @@ overrides = {
         "Intimidate",
         "",
         "Sniper"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        97
       ]
     },
     "Ekans": {
@@ -2629,6 +2760,10 @@ overrides = {
             "Dragon Claw"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             27,
             "Poison Jab"
           ],
@@ -2683,6 +2818,11 @@ overrides = {
         "Intimidate",
         "Intimidate",
         "Unnerve"
+      ],
+      "abilityIds": [
+        22,
+        22,
+        127
       ],
       "evos": [
         "Arbok"
@@ -2756,6 +2896,10 @@ overrides = {
             "Dragon Claw"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             27,
             "Poison Jab"
           ],
@@ -2813,6 +2957,11 @@ overrides = {
         "Intimidate",
         "Intimidate",
         "Unnerve"
+      ],
+      "abilityIds": [
+        22,
+        22,
+        127
       ]
     },
     "Pikachu": {
@@ -2893,11 +3042,11 @@ overrides = {
             "Thunderbolt"
           ],
           [
-            48,
+            55,
             "Surf"
           ],
           [
-            54,
+            60,
             "Zap Cannon"
           ],
           [
@@ -2921,6 +3070,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -2941,6 +3091,11 @@ overrides = {
         "Static",
         "Static",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        9,
+        9,
+        31
       ],
       "evos": [
         "Raichu"
@@ -3034,11 +3189,11 @@ overrides = {
             "Thunderbolt"
           ],
           [
-            48,
+            55,
             "Surf"
           ],
           [
-            54,
+            60,
             "Zap Cannon"
           ],
           [
@@ -3086,6 +3241,11 @@ overrides = {
         "Mold Breaker",
         "Mold Breaker",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        104,
+        104,
+        31
       ]
     },
     "Sandshrew": {
@@ -3202,6 +3362,11 @@ overrides = {
         "Rough Skin",
         "Sand Rush",
         "Sand Rush"
+      ],
+      "abilityIds": [
+        24,
+        146,
+        146
       ],
       "evos": [
         "Sandslash"
@@ -3335,6 +3500,11 @@ overrides = {
         "Rough Skin",
         "Sand Rush",
         "Sand Force"
+      ],
+      "abilityIds": [
+        24,
+        146,
+        159
       ]
     },
     "Nidoran-F": {
@@ -3454,6 +3624,11 @@ overrides = {
         "Poison Point",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        38,
+        0,
+        55
       ],
       "evos": [
         "Nidorina"
@@ -3588,6 +3763,11 @@ overrides = {
         "Battle Armor",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        55
       ],
       "evos": [
         "Nidoqueen"
@@ -3744,6 +3924,11 @@ overrides = {
         "Battle Armor",
         "",
         "Filter"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        111
       ]
     },
     "Nidoran-M": {
@@ -3879,6 +4064,11 @@ overrides = {
         "Poison Point",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        38,
+        0,
+        55
       ],
       "evos": [
         "Nidorino"
@@ -4027,6 +4217,11 @@ overrides = {
         "Sheer Force",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        55
       ],
       "evos": [
         "Nidoking"
@@ -4198,6 +4393,11 @@ overrides = {
         "Sheer Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        125
       ]
     },
     "Clefairy": {
@@ -4258,6 +4458,10 @@ overrides = {
             "Tri Attack"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Soft-Boiled"
           ],
@@ -4302,6 +4506,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -4324,6 +4529,11 @@ overrides = {
         "Magic Guard",
         "Magic Guard",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        98,
+        98,
+        132
       ],
       "evos": [
         "Clefable"
@@ -4396,6 +4606,10 @@ overrides = {
             "Tri Attack"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Soft-Boiled"
           ],
@@ -4441,6 +4655,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -4465,6 +4680,11 @@ overrides = {
         "Magic Guard",
         "Magic Guard",
         "Unaware"
+      ],
+      "abilityIds": [
+        98,
+        98,
+        109
       ]
     },
     "Vulpix": {
@@ -4556,6 +4776,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Energy Ball",
@@ -4570,6 +4791,11 @@ overrides = {
         "Flash Fire",
         "",
         "Drought"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        70
       ],
       "evos": [
         "Ninetales"
@@ -4678,6 +4904,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Energy Ball",
@@ -4694,6 +4921,11 @@ overrides = {
         "Flash Fire",
         "",
         "Drought"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        70
       ]
     },
     "Jigglypuff": {
@@ -4796,6 +5028,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -4816,9 +5049,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Soundproof",
+        "Analytic",
         "",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        148,
+        0,
+        132
       ],
       "evos": [
         "Wigglytuff"
@@ -4934,6 +5172,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -4956,9 +5195,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Soundproof",
+        "Analytic",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        148,
+        0,
+        119
       ]
     },
     "Zubat": {
@@ -5100,6 +5344,11 @@ overrides = {
         "Inner Focus",
         "Infiltrator",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        39,
+        151,
+        151
       ],
       "evos": [
         "Golbat"
@@ -5256,6 +5505,11 @@ overrides = {
         "Infiltrator",
         "Infiltrator"
       ],
+      "abilityIds": [
+        39,
+        151,
+        151
+      ],
       "evos": [
         "Crobat"
       ],
@@ -5336,6 +5590,10 @@ overrides = {
             "Sludge Bomb"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Synthesis"
           ],
@@ -5378,6 +5636,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -5393,6 +5652,11 @@ overrides = {
         "Chlorophyll",
         "Shield Dust",
         "Run Away"
+      ],
+      "abilityIds": [
+        34,
+        19,
+        50
       ],
       "evos": [
         "Gloom"
@@ -5474,6 +5738,10 @@ overrides = {
             "Sludge Bomb"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Synthesis"
           ],
@@ -5516,6 +5784,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -5532,6 +5801,11 @@ overrides = {
         "Chlorophyll",
         "Shield Dust",
         "Stench"
+      ],
+      "abilityIds": [
+        34,
+        19,
+        1
       ],
       "evos": [
         "Vileplume",
@@ -5617,6 +5891,10 @@ overrides = {
             "Sludge Bomb"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Synthesis"
           ],
@@ -5660,6 +5938,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -5677,6 +5956,11 @@ overrides = {
         "Chlorophyll",
         "Shield Dust",
         "Effect Spore"
+      ],
+      "abilityIds": [
+        34,
+        19,
+        27
       ]
     },
     "Paras": {
@@ -5788,6 +6072,11 @@ overrides = {
         "Water Absorb",
         "",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        0,
+        6
       ],
       "evos": [
         "Parasect"
@@ -5913,6 +6202,11 @@ overrides = {
         "Water Absorb",
         "",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        0,
+        6
       ]
     },
     "Venonat": {
@@ -6018,6 +6312,11 @@ overrides = {
         "Shield Dust",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        50
       ],
       "evos": [
         "Venomoth"
@@ -6138,9 +6437,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Shield Dust",
+        "Poison Heal",
         "",
         "Wonder Skin"
+      ],
+      "abilityIds": [
+        90,
+        0,
+        147
       ]
     },
     "Diglett": {
@@ -6259,6 +6563,11 @@ overrides = {
         "Arena Trap",
         "",
         "Sand Force"
+      ],
+      "abilityIds": [
+        71,
+        0,
+        159
       ],
       "evos": [
         "Dugtrio"
@@ -6393,6 +6702,11 @@ overrides = {
         "Arena Trap",
         "",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        71,
+        0,
+        8
       ]
     },
     "Meowth": {
@@ -6462,10 +6776,6 @@ overrides = {
             "Knock Off"
           ],
           [
-            50,
-            "Beat Up"
-          ],
-          [
             55,
             "Double Hit"
           ],
@@ -6476,6 +6786,10 @@ overrides = {
           [
             62,
             "Night Daze"
+          ],
+          [
+            65,
+            "Beat Up"
           ]
         ],
         "tms": [
@@ -6520,6 +6834,11 @@ overrides = {
         "Technician",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        127
       ],
       "evos": [
         "Persian"
@@ -6601,10 +6920,6 @@ overrides = {
             "Knock Off"
           ],
           [
-            50,
-            "Beat Up"
-          ],
-          [
             55,
             "Double Hit"
           ],
@@ -6615,6 +6930,10 @@ overrides = {
           [
             62,
             "Night Daze"
+          ],
+          [
+            65,
+            "Beat Up"
           ]
         ],
         "tms": [
@@ -6644,7 +6963,7 @@ overrides = {
           "Thief",
           "Round",
           "Echoed Voice",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -6663,6 +6982,11 @@ overrides = {
         "Technician",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        127
       ]
     },
     "Psyduck": {
@@ -6728,6 +7052,10 @@ overrides = {
             "Surf"
           ],
           [
+            39,
+            "Wonder Room"
+          ],
+          [
             44,
             "Soak"
           ],
@@ -6765,6 +7093,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Fling",
@@ -6783,6 +7112,11 @@ overrides = {
         "Quick Feet",
         "Cloud Nine",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        95,
+        13,
+        33
       ],
       "evos": [
         "Golduck"
@@ -6860,6 +7194,10 @@ overrides = {
             "Surf"
           ],
           [
+            39,
+            "Wonder Room"
+          ],
+          [
             44,
             "Soak"
           ],
@@ -6898,6 +7236,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -6919,6 +7258,11 @@ overrides = {
         "Quick Feet",
         "Cloud Nine",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        95,
+        13,
+        33
       ]
     },
     "Mankey": {
@@ -7045,9 +7389,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Inner Focus",
+        "Defiant",
         "",
         "Defiant"
+      ],
+      "abilityIds": [
+        128,
+        0,
+        128
       ],
       "evos": [
         "Primeape"
@@ -7188,9 +7537,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Inner Focus",
+        "Defiant",
         "",
         "Defiant"
+      ],
+      "abilityIds": [
+        128,
+        0,
+        128
       ]
     },
     "Growlithe": {
@@ -7313,9 +7667,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Intimidate",
+        "Justified",
         "Rock Head",
-        "Justified"
+        "Intimidate"
+      ],
+      "abilityIds": [
+        154,
+        69,
+        22
       ],
       "evos": [
         "Arcanine"
@@ -7454,9 +7813,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Intimidate",
+        "Justified",
         "Rock Head",
-        "Justified"
+        "Intimidate"
+      ],
+      "abilityIds": [
+        154,
+        69,
+        22
       ]
     },
     "Poliwag": {
@@ -7558,6 +7922,11 @@ overrides = {
         "Water Absorb",
         "Swift Swim",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        11,
+        33,
+        33
       ],
       "evos": [
         "Poliwhirl"
@@ -7677,6 +8046,11 @@ overrides = {
         "Water Absorb",
         "Swift Swim",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        11,
+        33,
+        33
       ],
       "evos": [
         "Poliwrath",
@@ -7819,6 +8193,11 @@ overrides = {
         "Water Absorb",
         "Swift Swim",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        11,
+        33,
+        33
       ]
     },
     "Abra": {
@@ -7917,7 +8296,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Flash",
           "Thunder Wave",
           "Magical Leaf",
@@ -7932,6 +8311,11 @@ overrides = {
         "Levitate",
         "Magic Guard",
         "Magic Guard"
+      ],
+      "abilityIds": [
+        26,
+        98,
+        98
       ],
       "evos": [
         "Kadabra"
@@ -8042,7 +8426,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Flash",
           "Thunder Wave",
           "Magical Leaf",
@@ -8057,6 +8441,11 @@ overrides = {
         "Levitate",
         "Magic Guard",
         "Magic Guard"
+      ],
+      "abilityIds": [
+        26,
+        98,
+        98
       ],
       "evos": [
         "Alakazam"
@@ -8169,7 +8558,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -8185,6 +8574,11 @@ overrides = {
         "Levitate",
         "Magic Guard",
         "Magic Guard"
+      ],
+      "abilityIds": [
+        26,
+        98,
+        98
       ]
     },
     "Machop": {
@@ -8303,6 +8697,11 @@ overrides = {
         "Guts",
         "No Guard",
         "Steadfast"
+      ],
+      "abilityIds": [
+        62,
+        99,
+        80
       ],
       "evos": [
         "Machoke"
@@ -8433,6 +8832,11 @@ overrides = {
         "Guts",
         "No Guard",
         "Steadfast"
+      ],
+      "abilityIds": [
+        62,
+        99,
+        80
       ],
       "evos": [
         "Machamp"
@@ -8566,6 +8970,11 @@ overrides = {
         "Battle Armor",
         "No Guard",
         "Steadfast"
+      ],
+      "abilityIds": [
+        4,
+        99,
+        80
       ]
     },
     "Bellsprout": {
@@ -8623,6 +9032,10 @@ overrides = {
             "Poison Jab"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             28,
             "Leech Seed"
           ],
@@ -8672,6 +9085,11 @@ overrides = {
         "Chlorophyll",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        82
       ],
       "evos": [
         "Weepinbell"
@@ -8741,6 +9159,10 @@ overrides = {
             "Poison Jab"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             28,
             "Leech Seed"
           ],
@@ -8790,6 +9212,11 @@ overrides = {
         "Chlorophyll",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        82
       ],
       "evos": [
         "Victreebel"
@@ -8859,6 +9286,10 @@ overrides = {
             "Poison Jab"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             28,
             "Leech Seed"
           ],
@@ -8911,6 +9342,11 @@ overrides = {
         "No Guard",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        82
       ]
     },
     "Tentacool": {
@@ -9019,6 +9455,11 @@ overrides = {
         "Clear Body",
         "Unnerve",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        29,
+        127,
+        44
       ],
       "evos": [
         "Tentacruel"
@@ -9141,6 +9582,11 @@ overrides = {
         "Clear Body",
         "Unnerve",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        29,
+        127,
+        44
       ]
     },
     "Geodude": {
@@ -9202,23 +9648,23 @@ overrides = {
             "Rock Climb"
           ],
           [
+            40,
+            "Protect"
+          ],
+          [
             44,
             "Earthquake"
           ],
           [
-            50,
-            "Protect"
+            55,
+            "Rock Wrecker"
           ],
           [
             60,
             "Fissure"
           ],
           [
-            65,
-            "Rock Wrecker"
-          ],
-          [
-            70,
+            62,
             "Stealth Rock"
           ]
         ],
@@ -9241,6 +9687,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Incinerate",
@@ -9260,6 +9707,11 @@ overrides = {
         "Solid Rock",
         "Sturdy",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        116,
+        5,
+        8
       ],
       "evos": [
         "Graveler"
@@ -9333,23 +9785,23 @@ overrides = {
             "Rock Climb"
           ],
           [
+            40,
+            "Protect"
+          ],
+          [
             44,
             "Earthquake"
           ],
           [
-            50,
-            "Protect"
+            55,
+            "Rock Wrecker"
           ],
           [
             60,
             "Fissure"
           ],
           [
-            65,
-            "Rock Wrecker"
-          ],
-          [
-            70,
+            62,
             "Stealth Rock"
           ]
         ],
@@ -9372,6 +9824,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Incinerate",
@@ -9391,6 +9844,11 @@ overrides = {
         "Solid Rock",
         "Sturdy",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        116,
+        5,
+        8
       ],
       "evos": [
         "Golem"
@@ -9464,23 +9922,23 @@ overrides = {
             "Rock Climb"
           ],
           [
+            40,
+            "Protect"
+          ],
+          [
             44,
             "Earthquake"
           ],
           [
-            50,
-            "Protect"
+            55,
+            "Rock Wrecker"
           ],
           [
             60,
             "Fissure"
           ],
           [
-            65,
-            "Rock Wrecker"
-          ],
-          [
-            70,
+            62,
             "Stealth Rock"
           ]
         ],
@@ -9505,6 +9963,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -9526,6 +9985,11 @@ overrides = {
         "Solid Rock",
         "Sturdy",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        116,
+        5,
+        8
       ]
     },
     "Ponyta": {
@@ -9619,6 +10083,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -9636,6 +10101,11 @@ overrides = {
         "Flash Fire",
         "",
         "Flame Body"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        49
       ],
       "evos": [
         "Rapidash"
@@ -9743,6 +10213,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -9762,6 +10233,11 @@ overrides = {
         "Reckless",
         "",
         "Flame Body"
+      ],
+      "abilityIds": [
+        120,
+        0,
+        49
       ]
     },
     "Slowpoke": {
@@ -9858,6 +10334,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -9879,6 +10356,11 @@ overrides = {
         "Oblivious",
         "Regenerator",
         "Regenerator"
+      ],
+      "abilityIds": [
+        12,
+        144,
+        144
       ],
       "evos": [
         "Slowbro",
@@ -9994,6 +10476,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -10019,6 +10502,11 @@ overrides = {
         "Shell Armor",
         "Regenerator",
         "Regenerator"
+      ],
+      "abilityIds": [
+        75,
+        144,
+        144
       ]
     },
     "Magnemite": {
@@ -10110,6 +10598,7 @@ overrides = {
           "Double Team",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Explosion",
@@ -10129,6 +10618,11 @@ overrides = {
         "Levitate",
         "Analytic",
         "Analytic"
+      ],
+      "abilityIds": [
+        26,
+        148,
+        148
       ],
       "evos": [
         "Magneton"
@@ -10233,6 +10727,7 @@ overrides = {
           "Double Team",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Explosion",
@@ -10253,6 +10748,11 @@ overrides = {
         "Levitate",
         "Analytic",
         "Magnet Pull"
+      ],
+      "abilityIds": [
+        26,
+        148,
+        42
       ],
       "evos": [
         "Magnezone"
@@ -10372,6 +10872,11 @@ overrides = {
         "Defiant",
         "",
         "Super Luck"
+      ],
+      "abilityIds": [
+        128,
+        0,
+        105
       ]
     },
     "Doduo": {
@@ -10433,6 +10938,10 @@ overrides = {
             "Drill Peck"
           ],
           [
+            37,
+            "Head Charge"
+          ],
+          [
             40,
             "Blaze Kick"
           ],
@@ -10441,15 +10950,19 @@ overrides = {
             "Rock Climb"
           ],
           [
+            47,
+            "Superpower"
+          ],
+          [
             50,
             "Earthquake"
           ],
           [
-            62,
+            60,
             "Brave Bird"
           ],
           [
-            67,
+            65,
             "Fissure"
           ]
         ],
@@ -10484,6 +10997,11 @@ overrides = {
         "Reckless",
         "",
         "Tangled Feet"
+      ],
+      "abilityIds": [
+        120,
+        0,
+        77
       ],
       "evos": [
         "Dodrio"
@@ -10557,6 +11075,10 @@ overrides = {
             "Drill Peck"
           ],
           [
+            37,
+            "Head Charge"
+          ],
+          [
             40,
             "Blaze Kick"
           ],
@@ -10565,15 +11087,19 @@ overrides = {
             "Rock Climb"
           ],
           [
+            47,
+            "Superpower"
+          ],
+          [
             50,
             "Earthquake"
           ],
           [
-            62,
+            60,
             "Brave Bird"
           ],
           [
-            67,
+            65,
             "Fissure"
           ]
         ],
@@ -10604,6 +11130,7 @@ overrides = {
           "Self-Destruct",
           "Swagger",
           "Pluck",
+          "U-turn",
           "Natural Gift",
           "Fly",
           "Strength"
@@ -10613,6 +11140,11 @@ overrides = {
         "Reckless",
         "",
         "Arena Trap"
+      ],
+      "abilityIds": [
+        120,
+        0,
+        71
       ]
     },
     "Seel": {
@@ -10686,6 +11218,10 @@ overrides = {
             "Surf"
           ],
           [
+            46,
+            "Toxic"
+          ],
+          [
             50,
             "Fake Out"
           ],
@@ -10717,6 +11253,7 @@ overrides = {
           "Round",
           "Echoed Voice",
           "Fling",
+          "Self-Destruct",
           "Swagger",
           "Natural Gift",
           "Surf",
@@ -10728,6 +11265,11 @@ overrides = {
         "Thick Fat",
         "",
         "Ice Body"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        115
       ],
       "evos": [
         "Dewgong"
@@ -10813,6 +11355,10 @@ overrides = {
             "Surf"
           ],
           [
+            46,
+            "Toxic"
+          ],
+          [
             50,
             "Fake Out"
           ],
@@ -10847,6 +11393,7 @@ overrides = {
           "Fling",
           "Giga Impact",
           "Frost Breath",
+          "Self-Destruct",
           "Swagger",
           "Natural Gift",
           "Surf",
@@ -10858,6 +11405,11 @@ overrides = {
         "Thick Fat",
         "",
         "Ice Body"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        115
       ]
     },
     "Grimer": {
@@ -10980,6 +11532,11 @@ overrides = {
         "Water Absorb",
         "Regenerator",
         "Poison Touch"
+      ],
+      "abilityIds": [
+        11,
+        144,
+        143
       ],
       "evos": [
         "Muk"
@@ -11119,6 +11676,11 @@ overrides = {
         "Water Absorb",
         "Regenerator",
         "Poison Touch"
+      ],
+      "abilityIds": [
+        11,
+        144,
+        143
       ]
     },
     "Shellder": {
@@ -11205,6 +11767,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -11218,6 +11781,11 @@ overrides = {
         "Shell Armor",
         "Skill Link",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        92,
+        142
       ],
       "evos": [
         "Cloyster"
@@ -11318,6 +11886,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -11334,6 +11903,11 @@ overrides = {
         "Shell Armor",
         "Skill Link",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        92,
+        142
       ]
     },
     "Gastly": {
@@ -11431,7 +12005,7 @@ overrides = {
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Self-Destruct",
@@ -11445,6 +12019,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Haunter"
@@ -11555,7 +12134,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -11571,6 +12150,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Gengar"
@@ -11685,7 +12269,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -11704,6 +12288,11 @@ overrides = {
         "Levitate",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        23
       ]
     },
     "Onix": {
@@ -11758,11 +12347,7 @@ overrides = {
           ],
           [
             35,
-            "Crunch"
-          ],
-          [
-            35,
-            "Fire Fang"
+            "Ice Fang"
           ],
           [
             35,
@@ -11770,7 +12355,11 @@ overrides = {
           ],
           [
             35,
-            "Ice Fang"
+            "Fire Fang"
+          ],
+          [
+            35,
+            "Crunch"
           ],
           [
             40,
@@ -11816,6 +12405,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -11837,6 +12427,11 @@ overrides = {
         "Rock Head",
         "Sturdy",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        69,
+        5,
+        133
       ],
       "evos": [
         "Steelix"
@@ -11906,6 +12501,10 @@ overrides = {
             "Poison Gas"
           ],
           [
+            25,
+            "Psycho Shift"
+          ],
+          [
             29,
             "Dark Pulse"
           ],
@@ -11968,9 +12567,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Bad Dreams",
         "Magic Guard",
+        "",
         "Illusion"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        149
       ],
       "evos": [
         "Hypno"
@@ -12040,6 +12644,10 @@ overrides = {
             "Poison Gas"
           ],
           [
+            25,
+            "Psycho Shift"
+          ],
+          [
             29,
             "Dark Pulse"
           ],
@@ -12105,9 +12713,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Bad Dreams",
         "Magic Guard",
+        "",
         "Illusion"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        149
       ]
     },
     "Krabby": {
@@ -12210,6 +12823,11 @@ overrides = {
         "Shell Armor",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        125
       ],
       "evos": [
         "Kingler"
@@ -12329,6 +12947,11 @@ overrides = {
         "Shell Armor",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        125
       ]
     },
     "Voltorb": {
@@ -12420,6 +13043,7 @@ overrides = {
           "Self-Destruct",
           "Swagger",
           "Natural Gift",
+          "Flash Cannon",
           "Wild Charge"
         ]
       },
@@ -12427,6 +13051,11 @@ overrides = {
         "Static",
         "Static",
         "Aftermath"
+      ],
+      "abilityIds": [
+        9,
+        9,
+        106
       ],
       "evos": [
         "Electrode"
@@ -12532,6 +13161,7 @@ overrides = {
           "Self-Destruct",
           "Swagger",
           "Natural Gift",
+          "Flash Cannon",
           "Wild Charge"
         ]
       },
@@ -12539,6 +13169,11 @@ overrides = {
         "Static",
         "Static",
         "Aftermath"
+      ],
+      "abilityIds": [
+        9,
+        9,
+        106
       ]
     },
     "Exeggcute": {
@@ -12582,6 +13217,10 @@ overrides = {
           [
             19,
             "Psybeam"
+          ],
+          [
+            22,
+            "Lucky Chant"
           ],
           [
             25,
@@ -12651,6 +13290,11 @@ overrides = {
         "",
         "Harvest"
       ],
+      "abilityIds": [
+        34,
+        0,
+        139
+      ],
       "evos": [
         "Exeggutor"
       ],
@@ -12705,6 +13349,10 @@ overrides = {
           [
             19,
             "Psybeam"
+          ],
+          [
+            22,
+            "Lucky Chant"
           ],
           [
             25,
@@ -12776,6 +13424,11 @@ overrides = {
         "Chlorophyll",
         "",
         "Harvest"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        139
       ]
     },
     "Cubone": {
@@ -12891,6 +13544,11 @@ overrides = {
         "Rock Head",
         "Sand Rush",
         "Battle Armor"
+      ],
+      "abilityIds": [
+        69,
+        146,
+        4
       ],
       "evos": [
         "Marowak"
@@ -13023,6 +13681,11 @@ overrides = {
         "Rock Head",
         "Sand Rush",
         "Battle Armor"
+      ],
+      "abilityIds": [
+        69,
+        146,
+        4
       ]
     },
     "Hitmonlee": {
@@ -13120,6 +13783,11 @@ overrides = {
         "Unburden",
         "",
         "Unburden"
+      ],
+      "abilityIds": [
+        84,
+        0,
+        84
       ]
     },
     "Hitmonchan": {
@@ -13227,6 +13895,11 @@ overrides = {
         "Iron Fist",
         "",
         "Inner Focus"
+      ],
+      "abilityIds": [
+        89,
+        0,
+        39
       ]
     },
     "Lickitung": {
@@ -13344,6 +14017,11 @@ overrides = {
         "Thick Fat",
         "Thick Fat",
         "Cloud Nine"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        13
       ],
       "evos": [
         "Lickilicky"
@@ -13463,6 +14141,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Weezing"
@@ -13584,6 +14267,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Rhyhorn": {
@@ -13708,6 +14396,11 @@ overrides = {
         "Lightning Rod",
         "Solid Rock",
         "Reckless"
+      ],
+      "abilityIds": [
+        31,
+        116,
+        120
       ],
       "evos": [
         "Rhydon"
@@ -13854,6 +14547,11 @@ overrides = {
         "Lightning Rod",
         "Solid Rock",
         "Reckless"
+      ],
+      "abilityIds": [
+        31,
+        116,
+        120
       ],
       "evos": [
         "Rhyperior"
@@ -14014,6 +14712,11 @@ overrides = {
         "Natural Cure",
         "Serene Grace",
         "Healer"
+      ],
+      "abilityIds": [
+        30,
+        32,
+        131
       ]
     },
     "Tangela": {
@@ -14120,6 +14823,11 @@ overrides = {
         "Thick Fat",
         "Regenerator"
       ],
+      "abilityIds": [
+        47,
+        47,
+        144
+      ],
       "evos": [
         "Tangrowth"
       ],
@@ -14194,18 +14902,6 @@ overrides = {
           [
             38,
             "Flail"
-          ],
-          [
-            42,
-            "Last Resort"
-          ],
-          [
-            50,
-            "Thrash"
-          ],
-          [
-            50,
-            "Outrage"
           ]
         ],
         "tms": [
@@ -14242,6 +14938,7 @@ overrides = {
           "Focus Blast",
           "Fling",
           "Incinerate",
+          "Explosion",
           "Shadow Claw",
           "Retaliate",
           "Giga Impact",
@@ -14260,6 +14957,11 @@ overrides = {
         "Thick Fat",
         "Thick Fat",
         "Inner Focus"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        39
       ]
     },
     "Horsea": {
@@ -14312,15 +15014,19 @@ overrides = {
             "Octazooka"
           ],
           [
+            47,
+            "Muddy Water"
+          ],
+          [
             50,
             "Yawn"
           ],
           [
-            70,
+            60,
             "Hydro Cannon"
           ],
           [
-            74,
+            64,
             "Draco Meteor"
           ]
         ],
@@ -14338,6 +15044,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -14352,6 +15059,11 @@ overrides = {
         "Swift Swim",
         "Swift Swim",
         "Damp"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        6
       ],
       "evos": [
         "Seadra"
@@ -14417,15 +15129,19 @@ overrides = {
             "Octazooka"
           ],
           [
+            47,
+            "Muddy Water"
+          ],
+          [
             50,
             "Yawn"
           ],
           [
-            70,
+            60,
             "Hydro Cannon"
           ],
           [
-            74,
+            64,
             "Draco Meteor"
           ]
         ],
@@ -14444,6 +15160,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -14459,6 +15176,11 @@ overrides = {
         "Swift Swim",
         "Swift Swim",
         "Damp"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        6
       ],
       "evos": [
         "Kingdra"
@@ -14548,6 +15270,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Poison Jab",
@@ -14563,6 +15286,11 @@ overrides = {
         "Swift Swim",
         "Lightning Rod",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        33,
+        31,
+        31
       ],
       "evos": [
         "Seaking"
@@ -14653,6 +15381,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -14669,6 +15398,11 @@ overrides = {
         "Swift Swim",
         "Lightning Rod",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        33,
+        31,
+        31
       ]
     },
     "Staryu": {
@@ -14766,6 +15500,7 @@ overrides = {
           "Water Pulse",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Scald",
           "Flash",
@@ -14784,6 +15519,11 @@ overrides = {
         "No Guard",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        148
       ],
       "evos": [
         "Starmie"
@@ -14895,6 +15635,7 @@ overrides = {
           "Water Pulse",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -14917,6 +15658,11 @@ overrides = {
         "No Guard",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        148
       ]
     },
     "Mr. Mime": {
@@ -15049,6 +15795,11 @@ overrides = {
         "Technician",
         "",
         "Technician"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        101
       ]
     },
     "Scyther": {
@@ -15155,6 +15906,11 @@ overrides = {
         "Technician",
         "Technician",
         "Steadfast"
+      ],
+      "abilityIds": [
+        101,
+        101,
+        80
       ],
       "evos": [
         "Scizor"
@@ -15296,6 +16052,11 @@ overrides = {
         "Water Absorb",
         "Trace",
         "Dry Skin"
+      ],
+      "abilityIds": [
+        11,
+        36,
+        87
       ]
     },
     "Electabuzz": {
@@ -15346,15 +16107,15 @@ overrides = {
           ],
           [
             25,
-            "Thunder Punch"
-          ],
-          [
-            25,
             "Fire Punch"
           ],
           [
             25,
             "Ice Punch"
+          ],
+          [
+            25,
+            "Thunder Punch"
           ],
           [
             30,
@@ -15427,6 +16188,11 @@ overrides = {
         "Motor Drive",
         "Vital Spirit"
       ],
+      "abilityIds": [
+        89,
+        78,
+        72
+      ],
       "evos": [
         "Electivire"
       ],
@@ -15437,7 +16203,7 @@ overrides = {
         4
       ],
       "evoParams": [
-        55
+        50
       ]
     },
     "Magmar": {
@@ -15568,6 +16334,11 @@ overrides = {
         "No Guard",
         "Vital Spirit"
       ],
+      "abilityIds": [
+        18,
+        99,
+        72
+      ],
       "evos": [
         "Magmortar"
       ],
@@ -15578,7 +16349,7 @@ overrides = {
         4
       ],
       "evoParams": [
-        55
+        50
       ]
     },
     "Pinsir": {
@@ -15706,6 +16477,11 @@ overrides = {
         "Sheer Force",
         "Mold Breaker",
         "Moxie"
+      ],
+      "abilityIds": [
+        125,
+        104,
+        153
       ]
     },
     "Tauros": {
@@ -15789,6 +16565,10 @@ overrides = {
           [
             65,
             "Head Charge"
+          ],
+          [
+            67,
+            "Fissure"
           ]
         ],
         "tms": [
@@ -15814,6 +16594,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Payback",
@@ -15835,6 +16616,11 @@ overrides = {
         "Sheer Force",
         "Reckless",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        120,
+        125
       ]
     },
     "Magikarp": {
@@ -15903,12 +16689,19 @@ overrides = {
             "Aqua Tail"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Swift Swim",
         "",
         "Rattled"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        155
       ],
       "evos": [
         "Gyarados"
@@ -16012,6 +16805,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Incinerate",
@@ -16035,6 +16829,11 @@ overrides = {
         "Intimidate",
         "",
         "Moxie"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        153
       ]
     },
     "Lapras": {
@@ -16124,6 +16923,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Giga Impact",
@@ -16143,6 +16943,11 @@ overrides = {
         "Shell Armor",
         "",
         "Ice Body"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        115
       ]
     },
     "Ditto": {
@@ -16177,6 +16982,11 @@ overrides = {
         "Limber",
         "",
         "Imposter"
+      ],
+      "abilityIds": [
+        7,
+        0,
+        150
       ]
     },
     "Eevee": {
@@ -16296,7 +17106,7 @@ overrides = {
           "Quash",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -16341,6 +17151,11 @@ overrides = {
         "Adaptability",
         "Adaptability",
         "Anticipation"
+      ],
+      "abilityIds": [
+        91,
+        91,
+        107
       ],
       "evos": [
         "Leafeon",
@@ -16468,6 +17283,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -16487,6 +17303,11 @@ overrides = {
         "Water Absorb",
         "Water Absorb",
         "Hydration"
+      ],
+      "abilityIds": [
+        11,
+        11,
+        93
       ]
     },
     "Jolteon": {
@@ -16578,6 +17399,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -16598,6 +17420,11 @@ overrides = {
         "Volt Absorb",
         "Volt Absorb",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        10,
+        10,
+        95
       ]
     },
     "Flareon": {
@@ -16689,6 +17516,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -16708,6 +17536,11 @@ overrides = {
         "Flash Fire",
         "Flash Fire",
         "Guts"
+      ],
+      "abilityIds": [
+        18,
+        18,
+        62
       ]
     },
     "Porygon": {
@@ -16820,6 +17653,11 @@ overrides = {
         "Analytic",
         "Download",
         "Analytic"
+      ],
+      "abilityIds": [
+        148,
+        88,
+        148
       ],
       "evos": [
         "Porygon2"
@@ -16936,6 +17774,11 @@ overrides = {
         "Shell Armor",
         "Shell Armor",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        75,
+        75,
+        133
       ],
       "evos": [
         "Omastar"
@@ -17055,6 +17898,11 @@ overrides = {
         "Shell Armor",
         "Shell Armor",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        75,
+        75,
+        33
       ]
     },
     "Kabuto": {
@@ -17164,6 +18012,7 @@ overrides = {
           "Natural Gift",
           "Rock Smash",
           "Surf",
+          "Strength",
           "Waterfall"
         ]
       },
@@ -17171,6 +18020,11 @@ overrides = {
         "Rock Head",
         "",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        69,
+        0,
+        133
       ],
       "evos": [
         "Kabutops"
@@ -17300,6 +18154,7 @@ overrides = {
           "Rock Smash",
           "Cut",
           "Surf",
+          "Strength",
           "Waterfall",
           "Dive"
         ]
@@ -17308,6 +18163,11 @@ overrides = {
         "Rock Head",
         "Rock Head",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        69,
+        69,
+        33
       ]
     },
     "Aerodactyl": {
@@ -17426,6 +18286,11 @@ overrides = {
         "Rock Head",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        69,
+        0,
+        127
       ]
     },
     "Snorlax": {
@@ -17524,6 +18389,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -17545,6 +18411,11 @@ overrides = {
         "Thick Fat",
         "Thick Fat",
         "Scrappy"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        113
       ]
     },
     "Articuno": {
@@ -17661,6 +18532,11 @@ overrides = {
         "Pressure",
         "",
         "Snow Cloak"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        81
       ]
     },
     "Zapdos": {
@@ -17780,6 +18656,11 @@ overrides = {
         "Pressure",
         "",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        31
       ]
     },
     "Moltres": {
@@ -17899,6 +18780,11 @@ overrides = {
         "Pressure",
         "",
         "Flame Body"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        49
       ]
     },
     "Dratini": {
@@ -18000,6 +18886,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Thunder Wave",
@@ -18014,6 +18901,11 @@ overrides = {
         "Marvel Scale",
         "",
         "Marvel Scale"
+      ],
+      "abilityIds": [
+        63,
+        0,
+        63
       ],
       "evos": [
         "Dragonair"
@@ -18127,6 +19019,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Thunder Wave",
@@ -18141,6 +19034,11 @@ overrides = {
         "Marvel Scale",
         "",
         "Marvel Scale"
+      ],
+      "abilityIds": [
+        63,
+        0,
+        63
       ],
       "evos": [
         "Dragonite"
@@ -18263,6 +19161,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -18289,6 +19188,11 @@ overrides = {
         "Thick Fat",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        47
       ]
     },
     "Mewtwo": {
@@ -18429,7 +19333,7 @@ overrides = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Stone Edge",
@@ -18451,6 +19355,11 @@ overrides = {
         "Pressure",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        127
       ]
     },
     "Mew": {
@@ -18590,7 +19499,7 @@ overrides = {
           "Quash",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -18635,6 +19544,11 @@ overrides = {
         "Synchronize",
         "",
         ""
+      ],
+      "abilityIds": [
+        28,
+        0,
+        0
       ]
     },
     "Chikorita": {
@@ -18741,6 +19655,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -18757,6 +19672,11 @@ overrides = {
         "Thick Fat",
         "Filter",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        47,
+        111,
+        102
       ],
       "evos": [
         "Bayleef"
@@ -18876,6 +19796,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -18894,6 +19815,11 @@ overrides = {
         "Thick Fat",
         "Filter",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        47,
+        111,
+        102
       ],
       "evos": [
         "Meganium"
@@ -19014,6 +19940,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -19035,6 +19962,11 @@ overrides = {
         "Thick Fat",
         "Filter",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        47,
+        111,
+        102
       ]
     },
     "Cyndaquil": {
@@ -19108,11 +20040,11 @@ overrides = {
           ],
           [
             50,
-            "Helping Hand"
+            "Flare Blitz"
           ],
           [
             55,
-            "Flare Blitz"
+            "Fissure"
           ]
         ],
         "tms": [
@@ -19131,6 +20063,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -19145,6 +20078,11 @@ overrides = {
         "Blaze",
         "Flash Fire",
         "Flash Fire"
+      ],
+      "abilityIds": [
+        66,
+        18,
+        18
       ],
       "evos": [
         "Quilava"
@@ -19231,11 +20169,11 @@ overrides = {
           ],
           [
             50,
-            "Helping Hand"
+            "Flare Blitz"
           ],
           [
             55,
-            "Flare Blitz"
+            "Fissure"
           ]
         ],
         "tms": [
@@ -19256,6 +20194,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -19272,6 +20211,11 @@ overrides = {
         "Blaze",
         "Flash Fire",
         "Flash Fire"
+      ],
+      "abilityIds": [
+        66,
+        18,
+        18
       ],
       "evos": [
         "Typhlosion"
@@ -19358,11 +20302,11 @@ overrides = {
           ],
           [
             50,
-            "Helping Hand"
+            "Flare Blitz"
           ],
           [
             55,
-            "Flare Blitz"
+            "Fissure"
           ]
         ],
         "tms": [
@@ -19386,6 +20330,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Focus Blast",
@@ -19409,6 +20354,11 @@ overrides = {
         "Blaze",
         "Flash Fire",
         "Sand Rush"
+      ],
+      "abilityIds": [
+        66,
+        18,
+        146
       ]
     },
     "Totodile": {
@@ -19513,6 +20463,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Fling",
@@ -19531,6 +20482,11 @@ overrides = {
         "Sheer Force",
         "Rough Skin",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        24,
+        125
       ],
       "evos": [
         "Croconaw"
@@ -19649,6 +20605,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Fling",
@@ -19669,6 +20626,11 @@ overrides = {
         "Sheer Force",
         "Rough Skin",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        24,
+        125
       ],
       "evos": [
         "Feraligatr"
@@ -19789,6 +20751,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -19813,6 +20776,11 @@ overrides = {
         "Sheer Force",
         "Battle Armor",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        4,
+        125
       ]
     },
     "Sentret": {
@@ -19928,6 +20896,11 @@ overrides = {
         "Quick Feet",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        95,
+        0,
+        119
       ],
       "evos": [
         "Furret"
@@ -20062,6 +21035,11 @@ overrides = {
         "Quick Feet",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        95,
+        0,
+        119
       ]
     },
     "Hoothoot": {
@@ -20157,6 +21135,10 @@ overrides = {
           [
             44,
             "Psycho Boost"
+          ],
+          [
+            47,
+            "Psycho Shift"
           ]
         ],
         "tms": [
@@ -20191,6 +21173,11 @@ overrides = {
         "Compound Eyes",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        110
       ],
       "evos": [
         "Noctowl"
@@ -20298,6 +21285,10 @@ overrides = {
           [
             44,
             "Psycho Boost"
+          ],
+          [
+            47,
+            "Psycho Shift"
           ]
         ],
         "tms": [
@@ -20334,6 +21325,11 @@ overrides = {
         "Compound Eyes",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        110
       ]
     },
     "Ledyba": {
@@ -20441,6 +21437,11 @@ overrides = {
         "Shield Dust",
         "Swarm",
         "Rattled"
+      ],
+      "abilityIds": [
+        19,
+        68,
+        155
       ],
       "evos": [
         "Ledian"
@@ -20564,6 +21565,11 @@ overrides = {
         "Shield Dust",
         "Swarm",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        19,
+        68,
+        89
       ]
     },
     "Spinarak": {
@@ -20629,12 +21635,12 @@ overrides = {
             "Rage Powder"
           ],
           [
-            42,
-            "U-turn"
+            40,
+            "Sucker Punch"
           ],
           [
-            47,
-            "Sucker Punch"
+            42,
+            "U-turn"
           ]
         ],
         "tms": [
@@ -20670,6 +21676,11 @@ overrides = {
         "Insomnia",
         "Sniper"
       ],
+      "abilityIds": [
+        148,
+        15,
+        97
+      ],
       "evos": [
         "Ariados"
       ],
@@ -20696,12 +21707,12 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 90,
+        "hp": 80,
         "at": 120,
-        "df": 90,
-        "sa": 60,
-        "sd": 90,
-        "sp": 20
+        "df": 80,
+        "sa": 40,
+        "sd": 80,
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -20746,12 +21757,12 @@ overrides = {
             "Rage Powder"
           ],
           [
-            42,
-            "U-turn"
+            40,
+            "Sucker Punch"
           ],
           [
-            47,
-            "Sucker Punch"
+            42,
+            "U-turn"
           ]
         ],
         "tms": [
@@ -20788,6 +21799,11 @@ overrides = {
         "Analytic",
         "Insomnia",
         "Sniper"
+      ],
+      "abilityIds": [
+        148,
+        15,
+        97
       ]
     },
     "Crobat": {
@@ -20933,6 +21949,11 @@ overrides = {
         "Inner Focus",
         "Infiltrator",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        39,
+        151,
+        151
       ]
     },
     "Chinchou": {
@@ -20998,6 +22019,10 @@ overrides = {
             "Muddy Water"
           ],
           [
+            47,
+            "Volt Switch"
+          ],
+          [
             50,
             "Electroweb"
           ],
@@ -21022,6 +22047,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Charge Beam",
@@ -21040,6 +22066,11 @@ overrides = {
         "Volt Absorb",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        10,
+        11,
+        11
       ],
       "evos": [
         "Lanturn"
@@ -21117,6 +22148,10 @@ overrides = {
             "Muddy Water"
           ],
           [
+            47,
+            "Volt Switch"
+          ],
+          [
             50,
             "Electroweb"
           ],
@@ -21142,6 +22177,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Charge Beam",
@@ -21161,6 +22197,11 @@ overrides = {
         "Volt Absorb",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        10,
+        11,
+        11
       ]
     },
     "Pichu": {
@@ -21240,6 +22281,11 @@ overrides = {
         "Static",
         "",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        9,
+        0,
+        31
       ]
     },
     "Cleffa": {
@@ -21333,6 +22379,11 @@ overrides = {
         "Cute Charm",
         "Magic Guard",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        56,
+        98,
+        132
       ]
     },
     "Igglybuff": {
@@ -21421,6 +22472,11 @@ overrides = {
         "Cute Charm",
         "",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        56,
+        0,
+        132
       ]
     },
     "Togepi": {
@@ -21446,7 +22502,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Growl"
+            "Lucky Chant"
           ],
           [
             1,
@@ -21497,6 +22553,10 @@ overrides = {
             "Tailwind"
           ],
           [
+            60,
+            "Psycho Shift"
+          ],
+          [
             65,
             "Razor Wind"
           ]
@@ -21522,6 +22582,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -21541,6 +22602,11 @@ overrides = {
         "Overcoat",
         "",
         "Super Luck"
+      ],
+      "abilityIds": [
+        142,
+        0,
+        105
       ],
       "evos": [
         "Togetic"
@@ -21578,7 +22644,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Growl"
+            "Lucky Chant"
           ],
           [
             1,
@@ -21629,6 +22695,10 @@ overrides = {
             "Tailwind"
           ],
           [
+            60,
+            "Psycho Shift"
+          ],
+          [
             65,
             "Razor Wind"
           ]
@@ -21657,6 +22727,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -21679,6 +22750,11 @@ overrides = {
         "Thick Fat",
         "",
         "Super Luck"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        105
       ],
       "evos": [
         "Togekiss"
@@ -21756,6 +22832,10 @@ overrides = {
             "Psyshock"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -21820,6 +22900,11 @@ overrides = {
         "Synchronize",
         "Magic Guard",
         "Magic Bounce"
+      ],
+      "abilityIds": [
+        28,
+        98,
+        156
       ],
       "evos": [
         "Xatu"
@@ -21897,6 +22982,10 @@ overrides = {
             "Psyshock"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -21965,6 +23054,11 @@ overrides = {
         "Synchronize",
         "Magic Guard",
         "Magic Bounce"
+      ],
+      "abilityIds": [
+        28,
+        98,
+        156
       ]
     },
     "Mareep": {
@@ -22061,6 +23155,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -22075,6 +23170,11 @@ overrides = {
         "Static",
         "Thick Fat",
         "Plus"
+      ],
+      "abilityIds": [
+        9,
+        47,
+        57
       ],
       "evos": [
         "Flaaffy"
@@ -22184,6 +23284,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -22202,6 +23303,11 @@ overrides = {
         "Static",
         "Thick Fat",
         "Plus"
+      ],
+      "abilityIds": [
+        9,
+        47,
+        57
       ],
       "evos": [
         "Ampharos"
@@ -22313,6 +23419,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -22334,6 +23441,11 @@ overrides = {
         "Mold Breaker",
         "Thick Fat",
         "Plus"
+      ],
+      "abilityIds": [
+        104,
+        47,
+        57
       ]
     },
     "Bellossom": {
@@ -22399,6 +23511,10 @@ overrides = {
             "Flamethrower"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Synthesis"
           ],
@@ -22443,6 +23559,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -22460,6 +23577,11 @@ overrides = {
         "Flash Fire",
         "Chlorophyll",
         "Healer"
+      ],
+      "abilityIds": [
+        18,
+        34,
+        131
       ]
     },
     "Marill": {
@@ -22552,6 +23674,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Fling",
@@ -22570,6 +23693,11 @@ overrides = {
         "Huge Power",
         "Huge Power",
         "Huge Power"
+      ],
+      "abilityIds": [
+        37,
+        37,
+        37
       ],
       "evos": [
         "Azumarill"
@@ -22675,6 +23803,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -22696,6 +23825,11 @@ overrides = {
         "Huge Power",
         "Huge Power",
         "Huge Power"
+      ],
+      "abilityIds": [
+        37,
+        37,
+        37
       ]
     },
     "Sudowoodo": {
@@ -22809,6 +23943,11 @@ overrides = {
         "Solid Rock",
         "Rock Head",
         "Rattled"
+      ],
+      "abilityIds": [
+        116,
+        69,
+        155
       ]
     },
     "Politoed": {
@@ -22924,6 +24063,11 @@ overrides = {
         "Rain Dish",
         "Water Absorb",
         "Drizzle"
+      ],
+      "abilityIds": [
+        44,
+        11,
+        2
       ]
     },
     "Hoppip": {
@@ -23030,6 +24174,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Acrobatics",
@@ -23046,6 +24191,11 @@ overrides = {
         "Prankster",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        151
       ],
       "evos": [
         "Skiploom"
@@ -23164,6 +24314,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Acrobatics",
@@ -23180,6 +24331,11 @@ overrides = {
         "Prankster",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        151
       ],
       "evos": [
         "Jumpluff"
@@ -23299,6 +24455,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Acrobatics",
@@ -23316,6 +24473,11 @@ overrides = {
         "Prankster",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        151
       ]
     },
     "Aipom": {
@@ -23435,6 +24597,11 @@ overrides = {
         "Skill Link",
         "Technician",
         "Skill Link"
+      ],
+      "abilityIds": [
+        92,
+        101,
+        92
       ]
     },
     "Sunkern": {
@@ -23529,6 +24696,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -23544,6 +24712,11 @@ overrides = {
         "Chlorophyll",
         "",
         "Drought"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        70
       ],
       "evos": [
         "Sunflora"
@@ -23652,6 +24825,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -23668,6 +24842,11 @@ overrides = {
         "Chlorophyll",
         "",
         "Solar Power"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        94
       ]
     },
     "Yanma": {
@@ -23745,7 +24924,7 @@ overrides = {
             "U-turn"
           ],
           [
-            75,
+            70,
             "Draco Meteor"
           ]
         ],
@@ -23777,6 +24956,11 @@ overrides = {
         "Speed Boost",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        119
       ],
       "evos": [
         "Yanmega"
@@ -23886,6 +25070,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Flash",
@@ -23902,6 +25087,11 @@ overrides = {
         "Unaware",
         "Water Absorb",
         "Unaware"
+      ],
+      "abilityIds": [
+        109,
+        11,
+        109
       ],
       "evos": [
         "Quagsire"
@@ -24037,6 +25227,11 @@ overrides = {
         "Unaware",
         "Water Absorb",
         "Unaware"
+      ],
+      "abilityIds": [
+        109,
+        11,
+        109
       ]
     },
     "Espeon": {
@@ -24129,6 +25324,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Retaliate",
@@ -24148,6 +25344,11 @@ overrides = {
         "Magic Bounce",
         "Magic Bounce",
         "Magic Bounce"
+      ],
+      "abilityIds": [
+        156,
+        156,
+        156
       ]
     },
     "Umbreon": {
@@ -24238,6 +25439,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Payback",
@@ -24257,6 +25459,11 @@ overrides = {
         "Magic Guard",
         "Magic Guard",
         "Inner Focus"
+      ],
+      "abilityIds": [
+        98,
+        98,
+        39
       ]
     },
     "Murkrow": {
@@ -24355,7 +25562,7 @@ overrides = {
           "Thief",
           "Round",
           "Quash",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Thunder Wave",
@@ -24371,6 +25578,11 @@ overrides = {
         "Prankster",
         "Insomnia",
         "Prankster"
+      ],
+      "abilityIds": [
+        158,
+        15,
+        158
       ],
       "evos": [
         "Honchkrow"
@@ -24481,6 +25693,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -24508,6 +25721,11 @@ overrides = {
         "Regenerator",
         "Shell Armor",
         "Drizzle"
+      ],
+      "abilityIds": [
+        144,
+        75,
+        2
       ]
     },
     "Misdreavus": {
@@ -24573,6 +25791,10 @@ overrides = {
             "Shadow Ball"
           ],
           [
+            46,
+            "Wonder Room"
+          ],
+          [
             50,
             "Future Sight"
           ],
@@ -24606,10 +25828,11 @@ overrides = {
           "Echoed Voice",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Thunder Wave",
+          "Magical Leaf",
           "Dream Eater",
           "Swagger",
           "Natural Gift",
@@ -24620,6 +25843,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Mismagius"
@@ -24666,6 +25894,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Wobbuffet": {
@@ -24712,6 +25945,11 @@ overrides = {
         "Battle Armor",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        23
       ]
     },
     "Girafarig": {
@@ -24836,6 +26074,11 @@ overrides = {
         "Adaptability",
         "",
         "Adaptability"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        91
       ]
     },
     "Pineco": {
@@ -24870,10 +26113,6 @@ overrides = {
           [
             5,
             "Metal Sound"
-          ],
-          [
-            10,
-            "Baton Pass"
           ],
           [
             15,
@@ -24929,6 +26168,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -24946,6 +26186,11 @@ overrides = {
         "Shell Armor",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        142
       ],
       "evos": [
         "Forretress"
@@ -24993,10 +26238,6 @@ overrides = {
           [
             5,
             "Metal Sound"
-          ],
-          [
-            10,
-            "Baton Pass"
           ],
           [
             15,
@@ -25053,6 +26294,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -25074,6 +26316,11 @@ overrides = {
         "Shell Armor",
         "",
         "Sturdy"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        5
       ]
     },
     "Dunsparce": {
@@ -25203,6 +26450,11 @@ overrides = {
         "Thick Fat",
         "",
         "Rattled"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        155
       ]
     },
     "Gligar": {
@@ -25332,8 +26584,13 @@ overrides = {
       },
       "abs": [
         "Immunity",
-        "Rough Skin",
+        "Rattled",
         "Immunity"
+      ],
+      "abilityIds": [
+        17,
+        155,
+        17
       ],
       "evos": [
         "Gliscor"
@@ -25400,11 +26657,7 @@ overrides = {
           ],
           [
             35,
-            "Crunch"
-          ],
-          [
-            35,
-            "Fire Fang"
+            "Ice Fang"
           ],
           [
             35,
@@ -25412,7 +26665,11 @@ overrides = {
           ],
           [
             35,
-            "Ice Fang"
+            "Fire Fang"
+          ],
+          [
+            35,
+            "Crunch"
           ],
           [
             40,
@@ -25459,6 +26716,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -25482,6 +26740,11 @@ overrides = {
         "Rock Head",
         "Sheer Force",
         "Sand Force"
+      ],
+      "abilityIds": [
+        69,
+        125,
+        159
       ]
     },
     "Snubbull": {
@@ -25555,6 +26818,10 @@ overrides = {
             "Submission"
           ],
           [
+            55,
+            "Close Combat"
+          ],
+          [
             62,
             "Facade"
           ],
@@ -25611,6 +26878,11 @@ overrides = {
         "Quick Feet",
         "Guts",
         "Rattled"
+      ],
+      "abilityIds": [
+        95,
+        62,
+        155
       ],
       "evos": [
         "Granbull"
@@ -25696,6 +26968,10 @@ overrides = {
             "Submission"
           ],
           [
+            55,
+            "Close Combat"
+          ],
+          [
             62,
             "Facade"
           ],
@@ -25759,6 +27035,11 @@ overrides = {
         "Quick Feet",
         "Guts",
         "Rattled"
+      ],
+      "abilityIds": [
+        95,
+        62,
+        155
       ]
     },
     "Qwilfish": {
@@ -25796,6 +27077,10 @@ overrides = {
             "Poison Sting"
           ],
           [
+            1,
+            "Pound"
+          ],
+          [
             9,
             "Bubble Beam"
           ],
@@ -25804,12 +27089,20 @@ overrides = {
             "Aqua Jet"
           ],
           [
-            21,
+            20,
+            "Dive"
+          ],
+          [
+            22,
             "Poison Fang"
           ],
           [
             25,
             "Revenge"
+          ],
+          [
+            27,
+            "Poison Jab"
           ],
           [
             29,
@@ -25820,28 +27113,20 @@ overrides = {
             "Waterfall"
           ],
           [
-            37,
-            "Poison Jab"
+            40,
+            "Aqua Tail"
           ],
           [
             42,
             "Destiny Bond"
           ],
           [
-            45,
-            "Aqua Tail"
-          ],
-          [
-            50,
+            44,
             "Gunk Shot"
           ],
           [
-            55,
-            "Icy Wind"
-          ],
-          [
-            60,
-            "Haze"
+            50,
+            "Endure"
           ]
         ],
         "tms": [
@@ -25862,6 +27147,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Explosion",
@@ -25880,6 +27166,11 @@ overrides = {
         "Iron Barbs",
         "Intimidate",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        160,
+        22,
+        33
       ]
     },
     "Scizor": {
@@ -25978,6 +27269,7 @@ overrides = {
           "Giga Impact",
           "Swords Dance",
           "Struggle Bug",
+          "Bulldoze",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -25992,6 +27284,11 @@ overrides = {
         "Technician",
         "Technician",
         "Light Metal"
+      ],
+      "abilityIds": [
+        101,
+        101,
+        135
       ]
     },
     "Shuckle": {
@@ -26111,6 +27408,11 @@ overrides = {
         "Sturdy",
         "Gluttony",
         "Contrary"
+      ],
+      "abilityIds": [
+        5,
+        82,
+        126
       ]
     },
     "Heracross": {
@@ -26249,6 +27551,11 @@ overrides = {
         "Skill Link",
         "Guts",
         "Moxie"
+      ],
+      "abilityIds": [
+        92,
+        62,
+        153
       ]
     },
     "Sneasel": {
@@ -26350,7 +27657,7 @@ overrides = {
           "Round",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -26372,6 +27679,11 @@ overrides = {
         "Technician",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        124
       ],
       "evos": [
         "Weavile"
@@ -26504,6 +27816,11 @@ overrides = {
         "Guts",
         "Quick Feet",
         "Honey Gather"
+      ],
+      "abilityIds": [
+        62,
+        95,
+        118
       ],
       "evos": [
         "Ursaring"
@@ -26641,6 +27958,11 @@ overrides = {
         "Guts",
         "Quick Feet",
         "Unnerve"
+      ],
+      "abilityIds": [
+        62,
+        95,
+        127
       ]
     },
     "Slugma": {
@@ -26720,6 +28042,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -26735,6 +28058,11 @@ overrides = {
         "Water Absorb",
         "Magma Armor",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        11,
+        40,
+        133
       ],
       "evos": [
         "Magcargo"
@@ -26832,6 +28160,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -26854,6 +28183,11 @@ overrides = {
         "Water Absorb",
         "Shell Armor",
         "Simple"
+      ],
+      "abilityIds": [
+        11,
+        75,
+        86
       ]
     },
     "Swinub": {
@@ -26950,6 +28284,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Bulldoze",
           "Rock Slide",
@@ -26963,6 +28298,11 @@ overrides = {
         "Thick Fat",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        47
       ],
       "evos": [
         "Piloswine"
@@ -27072,6 +28412,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Giga Impact",
           "Stone Edge",
@@ -27087,6 +28428,11 @@ overrides = {
         "Thick Fat",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        47
       ],
       "evos": [
         "Mamoswine"
@@ -27154,6 +28500,10 @@ overrides = {
           [
             40,
             "Shadow Ball"
+          ],
+          [
+            50,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -27179,6 +28529,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Will-O-Wisp",
@@ -27198,6 +28549,11 @@ overrides = {
         "Shell Armor",
         "Regenerator",
         "Regenerator"
+      ],
+      "abilityIds": [
+        75,
+        144,
+        144
       ]
     },
     "Remoraid": {
@@ -27262,15 +28618,23 @@ overrides = {
             "Ice Beam"
           ],
           [
-            38,
+            37,
             "Bullet Seed"
           ],
           [
-            42,
+            40,
             "Rock Blast"
           ],
           [
-            60,
+            43,
+            "Spike Cannon"
+          ],
+          [
+            47,
+            "Blast Burn"
+          ],
+          [
+            50,
             "Water Spout"
           ]
         ],
@@ -27311,6 +28675,11 @@ overrides = {
         "Water Absorb",
         "Sniper",
         "Moody"
+      ],
+      "abilityIds": [
+        11,
+        97,
+        141
       ],
       "evos": [
         "Octillery"
@@ -27388,15 +28757,23 @@ overrides = {
             "Ice Beam"
           ],
           [
-            38,
+            37,
             "Bullet Seed"
           ],
           [
-            42,
+            40,
             "Rock Blast"
           ],
           [
-            60,
+            43,
+            "Spike Cannon"
+          ],
+          [
+            47,
+            "Blast Burn"
+          ],
+          [
+            50,
             "Water Spout"
           ]
         ],
@@ -27443,6 +28820,11 @@ overrides = {
         "Water Absorb",
         "Skill Link",
         "Moody"
+      ],
+      "abilityIds": [
+        11,
+        92,
+        141
       ]
     },
     "Delibird": {
@@ -27553,6 +28935,11 @@ overrides = {
         "Technician",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        110
       ]
     },
     "Mantine": {
@@ -27643,6 +29030,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Acrobatics",
@@ -27661,6 +29049,11 @@ overrides = {
         "Swift Swim",
         "Water Absorb",
         "Water Veil"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        41
       ]
     },
     "Skarmory": {
@@ -27776,6 +29169,11 @@ overrides = {
         "Rock Head",
         "Filter",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        69,
+        111,
+        133
       ]
     },
     "Houndour": {
@@ -27882,7 +29280,7 @@ overrides = {
           "Overheat",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Dream Eater",
@@ -27896,6 +29294,11 @@ overrides = {
         "Intimidate",
         "Flash Fire",
         "Unnerve"
+      ],
+      "abilityIds": [
+        22,
+        18,
+        127
       ],
       "evos": [
         "Houndoom"
@@ -28015,7 +29418,7 @@ overrides = {
           "Overheat",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -28031,6 +29434,11 @@ overrides = {
         "Intimidate",
         "Flash Fire",
         "Unnerve"
+      ],
+      "abilityIds": [
+        22,
+        18,
+        127
       ]
     },
     "Kingdra": {
@@ -28084,15 +29492,19 @@ overrides = {
             "Octazooka"
           ],
           [
+            47,
+            "Muddy Water"
+          ],
+          [
             50,
             "Yawn"
           ],
           [
-            70,
+            60,
             "Hydro Cannon"
           ],
           [
-            74,
+            64,
             "Draco Meteor"
           ]
         ],
@@ -28111,6 +29523,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Quash",
@@ -28127,6 +29540,11 @@ overrides = {
         "Swift Swim",
         "",
         "Damp"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        6
       ]
     },
     "Phanpy": {
@@ -28210,6 +29628,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Bulldoze",
@@ -28224,6 +29643,11 @@ overrides = {
         "Battle Armor",
         "Battle Armor",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        4,
+        4,
+        8
       ],
       "evos": [
         "Donphan"
@@ -28320,6 +29744,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Giga Impact",
@@ -28339,6 +29764,11 @@ overrides = {
         "Battle Armor",
         "Battle Armor",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        4,
+        4,
+        8
       ]
     },
     "Porygon2": {
@@ -28451,6 +29881,11 @@ overrides = {
         "Analytic",
         "Download",
         "Analytic"
+      ],
+      "abilityIds": [
+        148,
+        88,
+        148
       ],
       "evos": [
         "Porygon-Z"
@@ -28589,6 +30024,11 @@ overrides = {
         "Intimidate",
         "",
         "Intimidate"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        22
       ]
     },
     "Smeargle": {
@@ -28659,6 +30099,11 @@ overrides = {
         "Own Tempo",
         "Technician",
         "Moody"
+      ],
+      "abilityIds": [
+        20,
+        101,
+        141
       ]
     },
     "Tyrogue": {
@@ -28722,6 +30167,11 @@ overrides = {
         "Guts",
         "",
         "Vital Spirit"
+      ],
+      "abilityIds": [
+        62,
+        0,
+        72
       ],
       "evos": [
         "Hitmonchan",
@@ -28837,6 +30287,7 @@ overrides = {
           "Rock Slide",
           "Self-Destruct",
           "Swagger",
+          "U-turn",
           "Natural Gift",
           "Rock Smash",
           "Strength"
@@ -28846,6 +30297,11 @@ overrides = {
         "Technician",
         "",
         "Steadfast"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        80
       ]
     },
     "Smoochum": {
@@ -28968,6 +30424,11 @@ overrides = {
         "Water Absorb",
         "Trace",
         "Hydration"
+      ],
+      "abilityIds": [
+        11,
+        36,
+        93
       ],
       "evos": [
         "Jynx"
@@ -29106,6 +30567,11 @@ overrides = {
         "Motor Drive",
         "Vital Spirit"
       ],
+      "abilityIds": [
+        89,
+        78,
+        72
+      ],
       "evos": [
         "Electabuzz"
       ],
@@ -29242,6 +30708,11 @@ overrides = {
         "No Guard",
         "Vital Spirit"
       ],
+      "abilityIds": [
+        18,
+        99,
+        72
+      ],
       "evos": [
         "Magmar"
       ],
@@ -29347,6 +30818,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -29370,6 +30842,11 @@ overrides = {
         "Regenerator",
         "Regenerator",
         "Scrappy"
+      ],
+      "abilityIds": [
+        144,
+        144,
+        113
       ]
     },
     "Blissey": {
@@ -29519,6 +30996,11 @@ overrides = {
         "Natural Cure",
         "Serene Grace",
         "Healer"
+      ],
+      "abilityIds": [
+        30,
+        32,
+        131
       ]
     },
     "Raikou": {
@@ -29642,6 +31124,11 @@ overrides = {
         "Pressure",
         "",
         "Volt Absorb"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        10
       ]
     },
     "Entei": {
@@ -29766,6 +31253,11 @@ overrides = {
         "Pressure",
         "",
         "Flash Fire"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        18
       ]
     },
     "Suicune": {
@@ -29887,6 +31379,11 @@ overrides = {
         "Pressure",
         "",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        11
       ]
     },
     "Larvitar": {
@@ -29989,6 +31486,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -30006,6 +31504,11 @@ overrides = {
         "Guts",
         "",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        62,
+        0,
+        8
       ],
       "evos": [
         "Pupitar"
@@ -30121,6 +31624,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -30138,6 +31642,11 @@ overrides = {
         "Battle Armor",
         "",
         "Sand Stream"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        45
       ],
       "evos": [
         "Tyranitar"
@@ -30263,6 +31772,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -30290,6 +31800,11 @@ overrides = {
         "Battle Armor",
         "",
         "Intimidate"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        22
       ]
     },
     "Lugia": {
@@ -30433,6 +31948,11 @@ overrides = {
         "Pressure",
         "",
         "Multiscale"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        136
       ]
     },
     "Ho-Oh": {
@@ -30575,6 +32095,11 @@ overrides = {
         "Pressure",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        144
       ]
     },
     "Celebi": {
@@ -30700,6 +32225,11 @@ overrides = {
         "Natural Cure",
         "",
         ""
+      ],
+      "abilityIds": [
+        30,
+        0,
+        0
       ]
     },
     "Treecko": {
@@ -30810,6 +32340,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -30831,6 +32362,11 @@ overrides = {
         "Technician",
         "Overgrow",
         "Unburden"
+      ],
+      "abilityIds": [
+        101,
+        65,
+        84
       ],
       "evos": [
         "Grovyle"
@@ -30958,6 +32494,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Energy Ball",
@@ -30982,6 +32519,11 @@ overrides = {
         "Technician",
         "Overgrow",
         "Unburden"
+      ],
+      "abilityIds": [
+        101,
+        65,
+        84
       ],
       "evos": [
         "Sceptile"
@@ -31114,6 +32656,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -31141,6 +32684,11 @@ overrides = {
         "Technician",
         "Overgrow",
         "Unburden"
+      ],
+      "abilityIds": [
+        101,
+        65,
+        84
       ]
     },
     "Torchic": {
@@ -31254,6 +32802,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -31274,6 +32823,11 @@ overrides = {
         "Blaze",
         "Reckless",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        66,
+        120,
+        3
       ],
       "evos": [
         "Combusken"
@@ -31402,6 +32956,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Echoed Voice",
@@ -31427,6 +32982,11 @@ overrides = {
         "Blaze",
         "Reckless",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        66,
+        120,
+        3
       ],
       "evos": [
         "Blaziken"
@@ -31559,6 +33119,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Echoed Voice",
@@ -31588,6 +33149,11 @@ overrides = {
         "Blaze",
         "Reckless",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        66,
+        120,
+        3
       ]
     },
     "Mudkip": {
@@ -31697,6 +33263,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -31712,8 +33279,13 @@ overrides = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Mold Breaker",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        104,
+        6
       ],
       "evos": [
         "Marshtomp"
@@ -31839,6 +33411,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -31856,8 +33429,13 @@ overrides = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Mold Breaker",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        104,
+        6
       ],
       "evos": [
         "Swampert"
@@ -31985,6 +33563,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -32005,8 +33584,13 @@ overrides = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Mold Breaker",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        104,
+        6
       ]
     },
     "Poochyena": {
@@ -32107,7 +33691,7 @@ overrides = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Swagger",
@@ -32120,6 +33704,11 @@ overrides = {
         "Intimidate",
         "Quick Feet",
         "Rattled"
+      ],
+      "abilityIds": [
+        22,
+        95,
+        155
       ],
       "evos": [
         "Mightyena"
@@ -32233,7 +33822,7 @@ overrides = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -32248,6 +33837,11 @@ overrides = {
         "Intimidate",
         "Quick Feet",
         "Moxie"
+      ],
+      "abilityIds": [
+        22,
+        95,
+        153
       ]
     },
     "Zigzagoon": {
@@ -32375,6 +33969,11 @@ overrides = {
         "Scrappy",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        95
       ],
       "evos": [
         "Linoone"
@@ -32519,6 +34118,11 @@ overrides = {
         "Scrappy",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        95
       ]
     },
     "Wurmple": {
@@ -32555,12 +34159,19 @@ overrides = {
             "Poison Sting"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shield Dust",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        50
       ],
       "evos": [
         "Silcoon",
@@ -32613,12 +34224,19 @@ overrides = {
             "Poison Sting"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shed Skin",
         "",
         "Shed Skin"
+      ],
+      "abilityIds": [
+        61,
+        0,
+        61
       ],
       "evos": [
         "Beautifly"
@@ -32733,6 +34351,11 @@ overrides = {
         "Swarm",
         "",
         "Rivalry"
+      ],
+      "abilityIds": [
+        68,
+        0,
+        79
       ]
     },
     "Cascoon": {
@@ -32769,12 +34392,19 @@ overrides = {
             "Poison Sting"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shed Skin",
         "",
         "Shed Skin"
+      ],
+      "abilityIds": [
+        61,
+        0,
+        61
       ],
       "evos": [
         "Dustox"
@@ -32820,35 +34450,39 @@ overrides = {
             "Venoshock"
           ],
           [
+            13,
+            "Protect"
+          ],
+          [
             16,
             "Silver Wind"
           ],
           [
             20,
-            "Moonlight"
+            "Roost"
           ],
           [
             23,
             "Smog"
           ],
           [
+            23,
+            "Toxic"
+          ],
+          [
+            25,
+            "Sludge Bomb"
+          ],
+          [
+            25,
+            "Bug Buzz"
+          ],
+          [
             27,
             "U-turn"
           ],
           [
-            32,
-            "Bug Buzz"
-          ],
-          [
-            36,
-            "Sludge Bomb"
-          ],
-          [
-            40,
-            "Toxic"
-          ],
-          [
-            44,
+            35,
             "Sludge Wave"
           ]
         ],
@@ -32886,6 +34520,11 @@ overrides = {
         "Shield Dust",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        110
       ]
     },
     "Lotad": {
@@ -33001,6 +34640,11 @@ overrides = {
         "Swift Swim",
         "",
         "Own Tempo"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        20
       ],
       "evos": [
         "Lombre"
@@ -33134,6 +34778,11 @@ overrides = {
         "Swift Swim",
         "",
         "Own Tempo"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        20
       ],
       "evos": [
         "Ludicolo"
@@ -33270,6 +34919,11 @@ overrides = {
         "Swift Swim",
         "",
         "Own Tempo"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        20
       ]
     },
     "Seedot": {
@@ -33368,6 +35022,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "False Swipe",
@@ -33386,6 +35041,11 @@ overrides = {
         "Chlorophyll",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        124
       ],
       "evos": [
         "Nuzleaf"
@@ -33507,7 +35167,7 @@ overrides = {
           "Energy Ball",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Retaliate",
@@ -33528,6 +35188,11 @@ overrides = {
         "Chlorophyll",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        124
       ],
       "evos": [
         "Shiftry"
@@ -33651,7 +35316,7 @@ overrides = {
           "Energy Ball",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Retaliate",
@@ -33674,6 +35339,11 @@ overrides = {
         "Chlorophyll",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        124
       ]
     },
     "Taillow": {
@@ -33731,6 +35401,10 @@ overrides = {
             "Return"
           ],
           [
+            32,
+            "Double Kick"
+          ],
+          [
             35,
             "U-turn"
           ],
@@ -33753,6 +35427,14 @@ overrides = {
           [
             50,
             "Brave Bird"
+          ],
+          [
+            55,
+            "Razor Wind"
+          ],
+          [
+            62,
+            "Double Hit"
           ]
         ],
         "tms": [
@@ -33783,6 +35465,11 @@ overrides = {
         "Technician",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        113
       ],
       "evos": [
         "Swellow"
@@ -33852,6 +35539,10 @@ overrides = {
             "Return"
           ],
           [
+            32,
+            "Double Kick"
+          ],
+          [
             35,
             "U-turn"
           ],
@@ -33874,6 +35565,14 @@ overrides = {
           [
             50,
             "Brave Bird"
+          ],
+          [
+            55,
+            "Razor Wind"
+          ],
+          [
+            62,
+            "Double Hit"
           ]
         ],
         "tms": [
@@ -33906,6 +35605,11 @@ overrides = {
         "Technician",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        113
       ]
     },
     "Wingull": {
@@ -34025,6 +35729,11 @@ overrides = {
         "Keen Eye",
         "",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        51,
+        0,
+        44
       ],
       "evos": [
         "Pelipper"
@@ -34162,6 +35871,11 @@ overrides = {
         "Air Lock",
         "",
         "Drizzle"
+      ],
+      "abilityIds": [
+        76,
+        0,
+        2
       ]
     },
     "Ralts": {
@@ -34230,6 +35944,10 @@ overrides = {
             "Future Sight"
           ],
           [
+            58,
+            "Heart Swap"
+          ],
+          [
             62,
             "Psycho Boost"
           ]
@@ -34276,6 +35994,11 @@ overrides = {
         "Trace",
         "Trace",
         "Telepathy"
+      ],
+      "abilityIds": [
+        36,
+        36,
+        140
       ],
       "evos": [
         "Kirlia"
@@ -34356,6 +36079,10 @@ overrides = {
             "Future Sight"
           ],
           [
+            58,
+            "Heart Swap"
+          ],
+          [
             62,
             "Psycho Boost"
           ]
@@ -34402,6 +36129,11 @@ overrides = {
         "Trace",
         "Trace",
         "Telepathy"
+      ],
+      "abilityIds": [
+        36,
+        36,
+        140
       ],
       "evos": [
         "Gardevoir",
@@ -34487,6 +36219,10 @@ overrides = {
             "Future Sight"
           ],
           [
+            58,
+            "Heart Swap"
+          ],
+          [
             62,
             "Psycho Boost"
           ]
@@ -34537,6 +36273,11 @@ overrides = {
         "Trace",
         "Trace",
         "Telepathy"
+      ],
+      "abilityIds": [
+        36,
+        36,
+        140
       ]
     },
     "Surskit": {
@@ -34647,6 +36388,11 @@ overrides = {
         "Swift Swim",
         "",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        44
       ],
       "evos": [
         "Masquerain"
@@ -34776,6 +36522,11 @@ overrides = {
         "Compound Eyes",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        127
       ]
     },
     "Shroomish": {
@@ -34858,6 +36609,10 @@ overrides = {
           [
             60,
             "Close Combat"
+          ],
+          [
+            65,
+            "Spore"
           ]
         ],
         "tms": [
@@ -34874,6 +36629,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "False Swipe",
@@ -34889,6 +36645,11 @@ overrides = {
         "Effect Spore",
         "Poison Heal",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        27,
+        90,
+        95
       ],
       "evos": [
         "Breloom"
@@ -34986,7 +36747,7 @@ overrides = {
             "Close Combat"
           ],
           [
-            75,
+            65,
             "Spore"
           ]
         ],
@@ -35008,6 +36769,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -35034,6 +36796,11 @@ overrides = {
         "Technician",
         "Poison Heal",
         "Technician"
+      ],
+      "abilityIds": [
+        101,
+        90,
+        101
       ]
     },
     "Slakoth": {
@@ -35138,6 +36905,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Incinerate",
@@ -35156,6 +36924,11 @@ overrides = {
         "Truant",
         "",
         ""
+      ],
+      "abilityIds": [
+        54,
+        0,
+        0
       ],
       "evos": [
         "Vigoroth"
@@ -35275,6 +37048,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -35296,6 +37070,11 @@ overrides = {
         "Vital Spirit",
         "",
         ""
+      ],
+      "abilityIds": [
+        72,
+        0,
+        0
       ],
       "evos": [
         "Slaking"
@@ -35417,6 +37196,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -35440,6 +37220,11 @@ overrides = {
         "Truant",
         "",
         ""
+      ],
+      "abilityIds": [
+        54,
+        0,
+        0
       ]
     },
     "Nincada": {
@@ -35524,6 +37309,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "False Swipe",
           "Flash",
@@ -35538,6 +37324,11 @@ overrides = {
         "Shield Dust",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        50
       ],
       "evos": [
         "Ninjask"
@@ -35657,6 +37448,11 @@ overrides = {
         "Technician",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        151
       ]
     },
     "Shedinja": {
@@ -35767,6 +37563,11 @@ overrides = {
         "Wonder Guard",
         "",
         "Wonder Guard"
+      ],
+      "abilityIds": [
+        25,
+        0,
+        25
       ]
     },
     "Whismur": {
@@ -35854,6 +37655,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -35868,6 +37670,11 @@ overrides = {
         "Soundproof",
         "",
         "Rattled"
+      ],
+      "abilityIds": [
+        43,
+        0,
+        155
       ],
       "evos": [
         "Loudred"
@@ -35973,6 +37780,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -35992,6 +37800,11 @@ overrides = {
         "Soundproof",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        43,
+        0,
+        113
       ],
       "evos": [
         "Exploud"
@@ -36024,7 +37837,7 @@ overrides = {
         "df": 68,
         "sa": 111,
         "sd": 63,
-        "sp": 98
+        "sp": 103
       },
       "learnset_info": {
         "learnset": [
@@ -36099,6 +37912,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -36107,6 +37921,8 @@ overrides = {
           "Incinerate",
           "Retaliate",
           "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
           "Bulldoze",
           "Rock Slide",
           "Self-Destruct",
@@ -36121,6 +37937,11 @@ overrides = {
         "Compound Eyes",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        113
       ]
     },
     "Makuhita": {
@@ -36146,7 +37967,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mach Punch"
+            "Tackle"
           ],
           [
             1,
@@ -36154,7 +37975,7 @@ overrides = {
           ],
           [
             1,
-            "Tackle"
+            "Mach Punch"
           ],
           [
             10,
@@ -36218,6 +38039,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -36238,6 +38060,11 @@ overrides = {
         "Thick Fat",
         "Guts",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        47,
+        62,
+        125
       ],
       "evos": [
         "Hariyama"
@@ -36275,7 +38102,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Mach Punch"
+            "Tackle"
           ],
           [
             1,
@@ -36283,7 +38110,7 @@ overrides = {
           ],
           [
             1,
-            "Tackle"
+            "Mach Punch"
           ],
           [
             10,
@@ -36348,6 +38175,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -36371,6 +38199,11 @@ overrides = {
         "Thick Fat",
         "Guts",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        47,
+        62,
+        125
       ]
     },
     "Azurill": {
@@ -36447,6 +38280,11 @@ overrides = {
         "Thick Fat",
         "Huge Power",
         "Huge Power"
+      ],
+      "abilityIds": [
+        47,
+        37,
+        37
       ]
     },
     "Nosepass": {
@@ -36535,6 +38373,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Rock Polish",
@@ -36553,6 +38392,11 @@ overrides = {
         "Magnet Pull",
         "Magnet Pull",
         "Sand Force"
+      ],
+      "abilityIds": [
+        42,
+        42,
+        159
       ],
       "evos": [
         "Probopass"
@@ -36676,6 +38520,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -36697,6 +38542,11 @@ overrides = {
         "Magic Guard",
         "",
         "Wonder Skin"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        147
       ],
       "evos": [
         "Delcatty"
@@ -36821,6 +38671,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -36845,6 +38696,11 @@ overrides = {
         "Magic Guard",
         "",
         "Wonder Skin"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        147
       ]
     },
     "Sableye": {
@@ -36954,7 +38810,7 @@ overrides = {
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -36972,6 +38828,11 @@ overrides = {
         "Prankster",
         "",
         "Prankster"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        158
       ]
     },
     "Mawile": {
@@ -37059,6 +38920,10 @@ overrides = {
           [
             65,
             "Guillotine"
+          ],
+          [
+            65,
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -37085,13 +38950,14 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "False Swipe",
           "Fling",
           "Charge Beam",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Stone Edge",
@@ -37110,6 +38976,11 @@ overrides = {
         "Sheer Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        125
       ]
     },
     "Aron": {
@@ -37205,6 +39076,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Shadow Claw",
           "Rock Polish",
@@ -37221,6 +39093,11 @@ overrides = {
         "Battle Armor",
         "Rock Head",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        4,
+        69,
+        134
       ],
       "evos": [
         "Lairon"
@@ -37328,6 +39205,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Shadow Claw",
           "Rock Polish",
@@ -37345,6 +39223,11 @@ overrides = {
         "Battle Armor",
         "Rock Head",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        4,
+        69,
+        134
       ],
       "evos": [
         "Aggron"
@@ -37464,6 +39347,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -37490,6 +39374,11 @@ overrides = {
         "Battle Armor",
         "Rock Head",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        4,
+        69,
+        134
       ]
     },
     "Meditite": {
@@ -37544,7 +39433,7 @@ overrides = {
           ],
           [
             30,
-            "Fire Punch"
+            "Ice Punch"
           ],
           [
             30,
@@ -37552,7 +39441,7 @@ overrides = {
           ],
           [
             30,
-            "Ice Punch"
+            "Fire Punch"
           ],
           [
             35,
@@ -37602,6 +39491,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -37623,6 +39513,11 @@ overrides = {
         "Pure Power",
         "",
         "Telepathy"
+      ],
+      "abilityIds": [
+        74,
+        0,
+        140
       ],
       "evos": [
         "Medicham"
@@ -37689,7 +39584,7 @@ overrides = {
           ],
           [
             30,
-            "Ice Punch"
+            "Fire Punch"
           ],
           [
             30,
@@ -37697,7 +39592,7 @@ overrides = {
           ],
           [
             30,
-            "Fire Punch"
+            "Ice Punch"
           ],
           [
             35,
@@ -37748,6 +39643,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -37771,6 +39667,11 @@ overrides = {
         "Pure Power",
         "",
         "Telepathy"
+      ],
+      "abilityIds": [
+        74,
+        0,
+        140
       ]
     },
     "Electrike": {
@@ -37891,6 +39792,11 @@ overrides = {
         "Intimidate",
         "",
         "Minus"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        58
       ],
       "evos": [
         "Manectric"
@@ -38025,6 +39931,11 @@ overrides = {
         "Intimidate",
         "",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        31
       ]
     },
     "Plusle": {
@@ -38110,6 +40021,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -38127,6 +40039,11 @@ overrides = {
         "Motor Drive",
         "",
         ""
+      ],
+      "abilityIds": [
+        78,
+        0,
+        0
       ]
     },
     "Minun": {
@@ -38228,6 +40145,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -38246,6 +40164,11 @@ overrides = {
         "Volt Absorb",
         "",
         ""
+      ],
+      "abilityIds": [
+        10,
+        0,
+        0
       ]
     },
     "Volbeat": {
@@ -38363,6 +40286,7 @@ overrides = {
           "Thunder Wave",
           "Struggle Bug",
           "Magical Leaf",
+          "X-Scissor",
           "Swagger",
           "U-turn",
           "Natural Gift",
@@ -38373,6 +40297,11 @@ overrides = {
         "Volt Absorb",
         "",
         "Prankster"
+      ],
+      "abilityIds": [
+        10,
+        0,
+        158
       ]
     },
     "Illumise": {
@@ -38484,6 +40413,11 @@ overrides = {
         "Flash Fire",
         "",
         "Prankster"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        158
       ]
     },
     "Roselia": {
@@ -38589,6 +40523,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -38605,6 +40540,11 @@ overrides = {
         "Natural Cure",
         "Poison Point",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        30,
+        38,
+        102
       ],
       "evos": [
         "Roserade"
@@ -38651,6 +40591,10 @@ overrides = {
           [
             1,
             "Poison Gas"
+          ],
+          [
+            10,
+            "Gastro Acid"
           ],
           [
             14,
@@ -38702,6 +40646,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Dream Eater",
@@ -38715,6 +40660,11 @@ overrides = {
         "Regenerator",
         "Regenerator",
         "Regenerator"
+      ],
+      "abilityIds": [
+        144,
+        144,
+        144
       ],
       "evos": [
         "Swalot"
@@ -38761,6 +40711,10 @@ overrides = {
           [
             1,
             "Poison Gas"
+          ],
+          [
+            10,
+            "Gastro Acid"
           ],
           [
             14,
@@ -38814,6 +40768,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -38830,6 +40785,11 @@ overrides = {
         "Regenerator",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        144,
+        0,
+        82
       ]
     },
     "Carvanha": {
@@ -38940,6 +40900,11 @@ overrides = {
         "Speed Boost",
         "",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        3
       ],
       "evos": [
         "Sharpedo"
@@ -39071,6 +41036,11 @@ overrides = {
         "Speed Boost",
         "",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        3
       ]
     },
     "Wailmer": {
@@ -39156,6 +41126,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -39175,6 +41146,11 @@ overrides = {
         "Thick Fat",
         "",
         "Pressure"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        46
       ],
       "evos": [
         "Wailord"
@@ -39273,6 +41249,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -39293,6 +41270,11 @@ overrides = {
         "Levitate",
         "",
         "Pressure"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        46
       ]
     },
     "Numel": {
@@ -39396,6 +41378,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -39414,6 +41397,11 @@ overrides = {
         "Solid Rock",
         "Sheer Force",
         "Own Tempo"
+      ],
+      "abilityIds": [
+        116,
+        125,
+        20
       ],
       "evos": [
         "Camerupt"
@@ -39533,6 +41521,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -39556,6 +41545,11 @@ overrides = {
         "Shell Armor",
         "Sheer Force",
         "Simple"
+      ],
+      "abilityIds": [
+        75,
+        125,
+        86
       ]
     },
     "Torkoal": {
@@ -39647,6 +41641,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -39668,6 +41663,11 @@ overrides = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ]
     },
     "Spoink": {
@@ -39694,15 +41694,15 @@ overrides = {
         "learnset": [
           [
             1,
-            "Pound"
-          ],
-          [
-            1,
             "Foul Play"
           ],
           [
             1,
             "Disable"
+          ],
+          [
+            1,
+            "Lucky Chant"
           ],
           [
             5,
@@ -39790,6 +41790,11 @@ overrides = {
         "",
         "Gluttony"
       ],
+      "abilityIds": [
+        47,
+        0,
+        82
+      ],
       "evos": [
         "Grumpig"
       ],
@@ -39827,15 +41832,15 @@ overrides = {
         "learnset": [
           [
             1,
-            "Pound"
-          ],
-          [
-            1,
             "Foul Play"
           ],
           [
             1,
             "Disable"
+          ],
+          [
+            1,
+            "Lucky Chant"
           ],
           [
             5,
@@ -39929,6 +41934,11 @@ overrides = {
         "Thick Fat",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        82
       ]
     },
     "Spinda": {
@@ -40047,6 +42057,11 @@ overrides = {
         "Adaptability",
         "",
         "Contrary"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        126
       ]
     },
     "Trapinch": {
@@ -40145,6 +42160,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Struggle Bug",
           "Bulldoze",
@@ -40159,6 +42175,11 @@ overrides = {
         "Arena Trap",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        71,
+        0,
+        125
       ],
       "evos": [
         "Vibrava"
@@ -40270,6 +42291,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Struggle Bug",
           "Bulldoze",
@@ -40286,6 +42308,11 @@ overrides = {
         "Levitate",
         "Levitate",
         "Levitate"
+      ],
+      "abilityIds": [
+        26,
+        26,
+        26
       ],
       "evos": [
         "Flygon"
@@ -40402,6 +42429,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Giga Impact",
@@ -40422,6 +42450,11 @@ overrides = {
         "Levitate",
         "Levitate",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        26,
+        26,
+        125
       ]
     },
     "Cacnea": {
@@ -40518,6 +42551,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -40536,6 +42570,11 @@ overrides = {
         "Water Absorb",
         "Sand Rush",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        11,
+        146,
+        11
       ],
       "evos": [
         "Cacturne"
@@ -40645,11 +42684,12 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -40668,6 +42708,11 @@ overrides = {
         "Water Absorb",
         "Sand Rush",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        11,
+        146,
+        8
       ]
     },
     "Swablu": {
@@ -40780,6 +42825,11 @@ overrides = {
         "Cloud Nine",
         "",
         "Cloud Nine"
+      ],
+      "abilityIds": [
+        13,
+        0,
+        13
       ],
       "evos": [
         "Altaria"
@@ -40915,6 +42965,11 @@ overrides = {
         "Cloud Nine",
         "",
         "Filter"
+      ],
+      "abilityIds": [
+        13,
+        0,
+        111
       ]
     },
     "Zangoose": {
@@ -41028,7 +43083,7 @@ overrides = {
           "False Swipe",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -41047,6 +43102,11 @@ overrides = {
         "Toxic Boost",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        137,
+        0,
+        113
       ]
     },
     "Seviper": {
@@ -41108,6 +43168,10 @@ overrides = {
             "Submission"
           ],
           [
+            35,
+            "Gastro Acid"
+          ],
+          [
             38,
             "Poison Jab"
           ],
@@ -41165,6 +43229,11 @@ overrides = {
         "Sheer Force",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        151
       ]
     },
     "Lunatone": {
@@ -41180,7 +43249,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 90,
         "at": 55,
         "df": 70,
         "sa": 125,
@@ -41210,27 +43279,35 @@ overrides = {
             "Hypnosis"
           ],
           [
+            23,
+            "Ancient Power"
+          ],
+          [
             25,
             "Hex"
+          ],
+          [
+            29,
+            "Power Gem"
           ],
           [
             32,
             "Moonlight"
           ],
           [
-            38,
+            34,
             "Shadow Ball"
           ],
           [
-            42,
-            "Power Gem"
+            40,
+            "Will-O-Wisp"
           ],
           [
             46,
             "Earth Power"
           ],
           [
-            60,
+            50,
             "Stealth Rock"
           ]
         ],
@@ -41258,10 +43335,11 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Giga Impact",
           "Rock Polish",
@@ -41283,6 +43361,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Solrock": {
@@ -41298,7 +43381,7 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 90,
         "at": 125,
         "df": 110,
         "sa": 55,
@@ -41384,13 +43467,14 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Overheat",
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Giga Impact",
           "Rock Polish",
@@ -41411,6 +43495,11 @@ overrides = {
         "Levitate",
         "",
         "Drought"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        70
       ]
     },
     "Barboach": {
@@ -41502,6 +43591,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Bulldoze",
@@ -41516,6 +43606,11 @@ overrides = {
         "Adaptability",
         "Adaptability",
         "Hydration"
+      ],
+      "abilityIds": [
+        91,
+        91,
+        93
       ],
       "evos": [
         "Whiscash"
@@ -41621,6 +43716,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -41640,6 +43736,11 @@ overrides = {
         "Adaptability",
         "Adaptability",
         "Drizzle"
+      ],
+      "abilityIds": [
+        91,
+        91,
+        2
       ]
     },
     "Corphish": {
@@ -41745,6 +43846,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Scald",
@@ -41766,6 +43868,11 @@ overrides = {
         "Adaptability",
         "Shell Armor",
         "Adaptability"
+      ],
+      "abilityIds": [
+        91,
+        75,
+        91
       ],
       "evos": [
         "Crawdaunt"
@@ -41886,6 +43993,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Scald",
@@ -41911,6 +44019,11 @@ overrides = {
         "Adaptability",
         "Shell Armor",
         "Illusion"
+      ],
+      "abilityIds": [
+        91,
+        75,
+        149
       ]
     },
     "Baltoy": {
@@ -41976,6 +44089,10 @@ overrides = {
             "Earth Power"
           ],
           [
+            40,
+            "Wonder Room"
+          ],
+          [
             44,
             "Trick Room"
           ],
@@ -42010,6 +44127,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Ally Switch",
           "Charge Beam",
@@ -42033,6 +44151,11 @@ overrides = {
         "",
         ""
       ],
+      "abilityIds": [
+        26,
+        0,
+        0
+      ],
       "evos": [
         "Claydol"
       ],
@@ -42043,7 +44166,7 @@ overrides = {
         4
       ],
       "evoParams": [
-        36
+        34
       ]
     },
     "Claydol": {
@@ -42109,6 +44232,10 @@ overrides = {
             "Earth Power"
           ],
           [
+            40,
+            "Wonder Room"
+          ],
+          [
             44,
             "Trick Room"
           ],
@@ -42144,6 +44271,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Ally Switch",
           "Charge Beam",
@@ -42170,6 +44298,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Lileep": {
@@ -42256,6 +44389,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Rock Polish",
@@ -42273,6 +44407,11 @@ overrides = {
         "Poison Heal",
         "Water Absorb",
         "Storm Drain"
+      ],
+      "abilityIds": [
+        90,
+        11,
+        114
       ],
       "evos": [
         "Cradily"
@@ -42374,6 +44513,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -42396,6 +44536,11 @@ overrides = {
         "Poison Heal",
         "Water Absorb",
         "Storm Drain"
+      ],
+      "abilityIds": [
+        90,
+        11,
+        114
       ]
     },
     "Anorith": {
@@ -42507,6 +44652,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Rock Polish",
@@ -42525,6 +44671,11 @@ overrides = {
         "Battle Armor",
         "Skill Link",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        4,
+        92,
+        33
       ],
       "evos": [
         "Armaldo"
@@ -42650,6 +44801,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Giga Impact",
@@ -42673,6 +44825,11 @@ overrides = {
         "Battle Armor",
         "Skill Link",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        4,
+        92,
+        33
       ]
     },
     "Feebas": {
@@ -42733,6 +44890,10 @@ overrides = {
             "Rest"
           ],
           [
+            60,
+            "Heart Swap"
+          ],
+          [
             65,
             "Hydro Cannon"
           ]
@@ -42751,6 +44912,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -42764,6 +44926,11 @@ overrides = {
         "Swift Swim",
         "",
         "Adaptability"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        91
       ],
       "evos": [
         "Milotic",
@@ -42840,6 +45007,10 @@ overrides = {
             "Rest"
           ],
           [
+            60,
+            "Heart Swap"
+          ],
+          [
             65,
             "Hydro Cannon"
           ]
@@ -42861,6 +45032,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -42877,6 +45049,11 @@ overrides = {
         "Water Absorb",
         "",
         "Filter"
+      ],
+      "abilityIds": [
+        11,
+        0,
+        111
       ]
     },
     "Castform": {
@@ -42902,7 +45079,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Lucky Chant"
           ],
           [
             10,
@@ -42933,8 +45110,16 @@ overrides = {
             "Air Slash"
           ],
           [
+            35,
+            "Volt Switch"
+          ],
+          [
             40,
             "Flamethrower"
+          ],
+          [
+            40,
+            "Thunderbolt"
           ],
           [
             40,
@@ -42945,8 +45130,24 @@ overrides = {
             "Aeroblast"
           ],
           [
-            40,
-            "Thunderbolt"
+            45,
+            "Hydro Cannon"
+          ],
+          [
+            45,
+            "Razor Wind"
+          ],
+          [
+            45,
+            "Overheat"
+          ],
+          [
+            45,
+            "Zap Cannon"
+          ],
+          [
+            50,
+            "Hydro Pump"
           ],
           [
             50,
@@ -42959,10 +45160,6 @@ overrides = {
           [
             50,
             "Blizzard"
-          ],
-          [
-            50,
-            "Hydro Pump"
           ],
           [
             50,
@@ -43000,6 +45197,7 @@ overrides = {
           "Incinerate",
           "Retaliate",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Magical Leaf",
           "Self-Destruct",
@@ -43011,6 +45209,11 @@ overrides = {
         "Forecast",
         "",
         "Trace"
+      ],
+      "abilityIds": [
+        59,
+        0,
+        36
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -43050,6 +45253,10 @@ overrides = {
           [
             1,
             "Knock Off"
+          ],
+          [
+            1,
+            "Shadow Sneak"
           ],
           [
             5,
@@ -43150,6 +45357,11 @@ overrides = {
         "Adaptability",
         "",
         "Illusion"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        149
       ]
     },
     "Shuppet": {
@@ -43188,11 +45400,11 @@ overrides = {
           ],
           [
             7,
-            "Shadow Sneak"
+            "Headbutt"
           ],
           [
             12,
-            "Headbutt"
+            "Shadow Sneak"
           ],
           [
             17,
@@ -43249,7 +45461,7 @@ overrides = {
           "Round",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -43263,6 +45475,11 @@ overrides = {
         "Insomnia",
         "Shadow Tag",
         "Cursed Body"
+      ],
+      "abilityIds": [
+        15,
+        23,
+        130
       ],
       "evos": [
         "Banette"
@@ -43313,11 +45530,11 @@ overrides = {
           ],
           [
             7,
-            "Shadow Sneak"
+            "Headbutt"
           ],
           [
             12,
-            "Headbutt"
+            "Shadow Sneak"
           ],
           [
             17,
@@ -43377,7 +45594,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Giga Impact",
@@ -43393,6 +45610,11 @@ overrides = {
         "Insomnia",
         "Shadow Tag",
         "Cursed Body"
+      ],
+      "abilityIds": [
+        15,
+        23,
+        130
       ]
     },
     "Duskull": {
@@ -43513,7 +45735,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Dream Eater",
@@ -43526,6 +45748,11 @@ overrides = {
         "Levitate",
         "Pressure",
         ""
+      ],
+      "abilityIds": [
+        26,
+        46,
+        0
       ],
       "evos": [
         "Dusclops"
@@ -43661,7 +45888,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -43679,6 +45906,11 @@ overrides = {
         "Cursed Body",
         "Pressure",
         ""
+      ],
+      "abilityIds": [
+        130,
+        46,
+        0
       ],
       "evos": [
         "Dusknoir"
@@ -43793,6 +46025,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -43813,6 +46046,11 @@ overrides = {
         "Thick Fat",
         "",
         "Harvest"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        139
       ]
     },
     "Chimecho": {
@@ -43921,6 +46159,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -43939,6 +46178,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Absol": {
@@ -44089,6 +46333,11 @@ overrides = {
         "Rattled",
         "Justified",
         "Super Luck"
+      ],
+      "abilityIds": [
+        155,
+        154,
+        105
       ]
     },
     "Wynaut": {
@@ -44147,6 +46396,11 @@ overrides = {
         "Shadow Tag",
         "",
         "Telepathy"
+      ],
+      "abilityIds": [
+        23,
+        0,
+        140
       ],
       "evos": [
         "Wobbuffet"
@@ -44230,6 +46484,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Flash",
           "Frost Breath",
@@ -44241,6 +46496,11 @@ overrides = {
         "Inner Focus",
         "",
         "Moody"
+      ],
+      "abilityIds": [
+        39,
+        0,
+        141
       ],
       "evos": [
         "Glalie",
@@ -44314,8 +46574,16 @@ overrides = {
             "Rock Slide"
           ],
           [
+            33,
+            "Head Charge"
+          ],
+          [
             37,
             "Icicle Crash"
+          ],
+          [
+            40,
+            "Superpower"
           ],
           [
             43,
@@ -44324,6 +46592,10 @@ overrides = {
           [
             50,
             "Stone Edge"
+          ],
+          [
+            65,
+            "Head Smash"
           ]
         ],
         "tms": [
@@ -44345,6 +46617,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -44361,9 +46634,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Intimidate",
+        "Rock Head",
         "",
-        "Rock Head"
+        "Intimidate"
+      ],
+      "abilityIds": [
+        69,
+        0,
+        22
       ]
     },
     "Spheal": {
@@ -44460,6 +46738,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Bulldoze",
@@ -44478,6 +46757,11 @@ overrides = {
         "Thick Fat",
         "",
         "Oblivious"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        12
       ],
       "evos": [
         "Sealeo"
@@ -44587,6 +46871,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Bulldoze",
@@ -44605,6 +46890,11 @@ overrides = {
         "Thick Fat",
         "",
         "Oblivious"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        12
       ],
       "evos": [
         "Walrein"
@@ -44719,6 +47009,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Giga Impact",
@@ -44738,6 +47029,11 @@ overrides = {
         "Thick Fat",
         "",
         "Oblivious"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        12
       ]
     },
     "Clamperl": {
@@ -44792,6 +47088,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -44805,6 +47102,11 @@ overrides = {
         "Shell Armor",
         "Swift Swim",
         "Rattled"
+      ],
+      "abilityIds": [
+        75,
+        33,
+        155
       ],
       "evos": [
         "Huntail",
@@ -44907,6 +47209,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -44921,6 +47224,11 @@ overrides = {
         "Shell Armor",
         "Swift Swim",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        75,
+        33,
+        125
       ]
     },
     "Gorebyss": {
@@ -45010,6 +47318,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -45025,6 +47334,11 @@ overrides = {
         "Swift Swim",
         "Shell Armor",
         "Hydration"
+      ],
+      "abilityIds": [
+        33,
+        75,
+        93
       ]
     },
     "Relicanth": {
@@ -45130,6 +47444,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -45150,6 +47465,11 @@ overrides = {
         "Swift Swim",
         "Rock Head",
         "Sturdy"
+      ],
+      "abilityIds": [
+        33,
+        69,
+        5
       ]
     },
     "Luvdisc": {
@@ -45211,6 +47531,10 @@ overrides = {
             "Hydro Pump"
           ],
           [
+            51,
+            "Heart Swap"
+          ],
+          [
             54,
             "Mist Ball"
           ],
@@ -45241,6 +47565,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -45254,6 +47579,11 @@ overrides = {
         "Swift Swim",
         "",
         "Hydration"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        93
       ]
     },
     "Bagon": {
@@ -45354,6 +47684,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -45369,6 +47700,11 @@ overrides = {
         "Rock Head",
         "Sheer Force",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        69,
+        125,
+        125
       ],
       "evos": [
         "Shelgon"
@@ -45481,6 +47817,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -45496,6 +47833,11 @@ overrides = {
         "Rock Head",
         "Shell Armor",
         "Overcoat"
+      ],
+      "abilityIds": [
+        69,
+        75,
+        142
       ],
       "evos": [
         "Salamence"
@@ -45611,6 +47953,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -45631,6 +47974,11 @@ overrides = {
         "Rock Head",
         "Intimidate",
         "Moxie"
+      ],
+      "abilityIds": [
+        69,
+        22,
+        153
       ]
     },
     "Beldum": {
@@ -45708,12 +48056,19 @@ overrides = {
             "Heavy Slam"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Clear Body",
         "Iron Fist",
         "Light Metal"
+      ],
+      "abilityIds": [
+        29,
+        89,
+        135
       ],
       "evos": [
         "Metang"
@@ -45824,6 +48179,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Explosion",
           "Rock Polish",
@@ -45844,6 +48200,11 @@ overrides = {
         "Clear Body",
         "Iron Fist",
         "Light Metal"
+      ],
+      "abilityIds": [
+        29,
+        89,
+        135
       ],
       "evos": [
         "Metagross"
@@ -45954,6 +48315,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -45975,6 +48337,11 @@ overrides = {
         "Clear Body",
         "Iron Fist",
         "Light Metal"
+      ],
+      "abilityIds": [
+        29,
+        89,
+        135
       ]
     },
     "Regirock": {
@@ -46093,6 +48460,11 @@ overrides = {
         "Clear Body",
         "",
         "Sturdy"
+      ],
+      "abilityIds": [
+        29,
+        0,
+        5
       ]
     },
     "Regice": {
@@ -46212,6 +48584,11 @@ overrides = {
         "Clear Body",
         "",
         "Ice Body"
+      ],
+      "abilityIds": [
+        29,
+        0,
+        115
       ]
     },
     "Registeel": {
@@ -46340,6 +48717,11 @@ overrides = {
         "Clear Body",
         "",
         "Light Metal"
+      ],
+      "abilityIds": [
+        29,
+        0,
+        135
       ]
     },
     "Latias": {
@@ -46493,6 +48875,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Latios": {
@@ -46646,6 +49033,11 @@ overrides = {
         "Levitate",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        23
       ]
     },
     "Kyogre": {
@@ -46764,6 +49156,11 @@ overrides = {
         "Drizzle",
         "",
         ""
+      ],
+      "abilityIds": [
+        2,
+        0,
+        0
       ]
     },
     "Groudon": {
@@ -46894,6 +49291,11 @@ overrides = {
         "Drought",
         "",
         ""
+      ],
+      "abilityIds": [
+        70,
+        0,
+        0
       ]
     },
     "Rayquaza": {
@@ -47031,6 +49433,11 @@ overrides = {
         "Air Lock",
         "",
         ""
+      ],
+      "abilityIds": [
+        76,
+        0,
+        0
       ]
     },
     "Jirachi": {
@@ -47165,6 +49572,11 @@ overrides = {
         "Serene Grace",
         "",
         ""
+      ],
+      "abilityIds": [
+        32,
+        0,
+        0
       ]
     },
     "Deoxys": {
@@ -47303,6 +49715,11 @@ overrides = {
         "",
         ""
       ],
+      "abilityIds": [
+        46,
+        0,
+        0
+      ],
       "baseForme": "Base",
       "otherFormes": [
         "Deoxys-Attack",
@@ -47407,6 +49824,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -47424,6 +49842,11 @@ overrides = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ],
       "evos": [
         "Grotle"
@@ -47531,6 +49954,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -47549,6 +49973,11 @@ overrides = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ],
       "evos": [
         "Torterra"
@@ -47661,6 +50090,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -47683,6 +50113,11 @@ overrides = {
         "Shell Armor",
         "",
         "Rock Head"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        69
       ]
     },
     "Chimchar": {
@@ -47736,15 +50171,15 @@ overrides = {
           ],
           [
             32,
-            "Thunder Punch"
-          ],
-          [
-            32,
             "Shadow Punch"
           ],
           [
             32,
             "Fire Punch"
+          ],
+          [
+            32,
+            "Thunder Punch"
           ],
           [
             36,
@@ -47803,6 +50238,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Overheat",
@@ -47825,6 +50261,11 @@ overrides = {
         "Iron Fist",
         "No Guard",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        89
       ],
       "evos": [
         "Monferno"
@@ -47891,15 +50332,15 @@ overrides = {
           ],
           [
             32,
-            "Fire Punch"
-          ],
-          [
-            32,
             "Thunder Punch"
           ],
           [
             32,
             "Shadow Punch"
+          ],
+          [
+            32,
+            "Fire Punch"
           ],
           [
             36,
@@ -47959,6 +50400,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Overheat",
@@ -47986,6 +50428,11 @@ overrides = {
         "Iron Fist",
         "No Guard",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        89
       ],
       "evos": [
         "Infernape"
@@ -48052,15 +50499,15 @@ overrides = {
           ],
           [
             32,
-            "Shadow Punch"
-          ],
-          [
-            32,
             "Fire Punch"
           ],
           [
             32,
             "Thunder Punch"
+          ],
+          [
+            32,
+            "Shadow Punch"
           ],
           [
             36,
@@ -48125,6 +50572,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Overheat",
@@ -48155,6 +50603,11 @@ overrides = {
         "Iron Fist",
         "No Guard",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        89
       ]
     },
     "Piplup": {
@@ -48253,6 +50706,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -48270,8 +50724,13 @@ overrides = {
       },
       "abs": [
         "Swift Swim",
-        "Vital Spirit",
+        "Swift Swim",
         "Defiant"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        128
       ],
       "evos": [
         "Prinplup"
@@ -48383,6 +50842,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -48403,8 +50863,13 @@ overrides = {
       },
       "abs": [
         "Swift Swim",
-        "Vital Spirit",
+        "Swift Swim",
         "Defiant"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        128
       ],
       "evos": [
         "Empoleon"
@@ -48520,6 +50985,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -48545,8 +51011,13 @@ overrides = {
       },
       "abs": [
         "Swift Swim",
-        "Vital Spirit",
+        "Swift Swim",
         "Drizzle"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        2
       ]
     },
     "Starly": {
@@ -48651,6 +51122,11 @@ overrides = {
         "Keen Eye",
         "Reckless",
         "Keen Eye"
+      ],
+      "abilityIds": [
+        51,
+        120,
+        51
       ],
       "evos": [
         "Staravia"
@@ -48768,6 +51244,11 @@ overrides = {
         "Intimidate",
         "Reckless",
         "Reckless"
+      ],
+      "abilityIds": [
+        22,
+        120,
+        120
       ],
       "evos": [
         "Staraptor"
@@ -48887,6 +51368,11 @@ overrides = {
         "Intimidate",
         "Reckless",
         "Reckless"
+      ],
+      "abilityIds": [
+        22,
+        120,
+        120
       ]
     },
     "Bidoof": {
@@ -49005,6 +51491,11 @@ overrides = {
         "Unaware",
         "Unaware",
         "Moody"
+      ],
+      "abilityIds": [
+        109,
+        109,
+        141
       ],
       "evos": [
         "Bibarel"
@@ -49145,6 +51636,11 @@ overrides = {
         "Unaware",
         "Unaware",
         "Simple"
+      ],
+      "abilityIds": [
+        109,
+        109,
+        86
       ]
     },
     "Kricketot": {
@@ -49214,6 +51710,10 @@ overrides = {
             "Hyper Voice"
           ],
           [
+            35,
+            "Twineedle"
+          ],
+          [
             40,
             "U-turn"
           ],
@@ -49222,12 +51722,19 @@ overrides = {
             "Perish Song"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Bulldoze"
+        ]
       },
       "abs": [
         "Technician",
         "Adaptability",
         "Run Away"
+      ],
+      "abilityIds": [
+        101,
+        91,
+        50
       ],
       "evos": [
         "Kricketune"
@@ -49309,6 +51816,10 @@ overrides = {
             "Hyper Voice"
           ],
           [
+            35,
+            "Twineedle"
+          ],
+          [
             40,
             "U-turn"
           ],
@@ -49335,6 +51846,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "False Swipe",
@@ -49342,6 +51854,7 @@ overrides = {
           "Flash",
           "Swords Dance",
           "Struggle Bug",
+          "Bulldoze",
           "X-Scissor",
           "Swagger",
           "Natural Gift",
@@ -49354,6 +51867,11 @@ overrides = {
         "Technician",
         "Adaptability",
         "Technician"
+      ],
+      "abilityIds": [
+        101,
+        91,
+        101
       ]
     },
     "Shinx": {
@@ -49403,15 +51921,19 @@ overrides = {
           ],
           [
             25,
-            "Thunder Fang"
-          ],
-          [
-            25,
             "Fire Fang"
           ],
           [
             25,
             "Ice Fang"
+          ],
+          [
+            25,
+            "Thunder Fang"
+          ],
+          [
+            27,
+            "Head Charge"
           ],
           [
             30,
@@ -49430,7 +51952,19 @@ overrides = {
             "Volt Switch"
           ],
           [
-            50,
+            44,
+            "Thunder"
+          ],
+          [
+            46,
+            "Superpower"
+          ],
+          [
+            49,
+            "Focus Blast"
+          ],
+          [
+            52,
             "Volt Tackle"
           ],
           [
@@ -49459,6 +51993,7 @@ overrides = {
           "Attract",
           "Thief",
           "Round",
+          "Focus Blast",
           "Charge Beam",
           "Flash",
           "Volt Switch",
@@ -49472,8 +52007,13 @@ overrides = {
       },
       "abs": [
         "Rivalry",
-        "Intimidate",
+        "Reckless",
         "Guts"
+      ],
+      "abilityIds": [
+        79,
+        120,
+        62
       ],
       "evos": [
         "Luxio"
@@ -49536,15 +52076,19 @@ overrides = {
           ],
           [
             25,
-            "Thunder Fang"
-          ],
-          [
-            25,
             "Fire Fang"
           ],
           [
             25,
             "Ice Fang"
+          ],
+          [
+            25,
+            "Thunder Fang"
+          ],
+          [
+            27,
+            "Head Charge"
           ],
           [
             30,
@@ -49563,7 +52107,19 @@ overrides = {
             "Volt Switch"
           ],
           [
-            50,
+            44,
+            "Thunder"
+          ],
+          [
+            46,
+            "Superpower"
+          ],
+          [
+            49,
+            "Focus Blast"
+          ],
+          [
+            52,
             "Volt Tackle"
           ],
           [
@@ -49592,6 +52148,7 @@ overrides = {
           "Attract",
           "Thief",
           "Round",
+          "Focus Blast",
           "Charge Beam",
           "Flash",
           "Volt Switch",
@@ -49605,8 +52162,13 @@ overrides = {
       },
       "abs": [
         "No Guard",
-        "Intimidate",
+        "Reckless",
         "Guts"
+      ],
+      "abilityIds": [
+        99,
+        120,
+        62
       ],
       "evos": [
         "Luxray"
@@ -49669,15 +52231,19 @@ overrides = {
           ],
           [
             25,
-            "Thunder Fang"
-          ],
-          [
-            25,
             "Fire Fang"
           ],
           [
             25,
             "Ice Fang"
+          ],
+          [
+            25,
+            "Thunder Fang"
+          ],
+          [
+            27,
+            "Head Charge"
           ],
           [
             30,
@@ -49696,7 +52262,19 @@ overrides = {
             "Volt Switch"
           ],
           [
-            50,
+            44,
+            "Thunder"
+          ],
+          [
+            46,
+            "Superpower"
+          ],
+          [
+            49,
+            "Focus Blast"
+          ],
+          [
+            52,
             "Volt Tackle"
           ],
           [
@@ -49726,6 +52304,7 @@ overrides = {
           "Attract",
           "Thief",
           "Round",
+          "Focus Blast",
           "Charge Beam",
           "Giga Impact",
           "Flash",
@@ -49740,8 +52319,13 @@ overrides = {
       },
       "abs": [
         "No Guard",
-        "Intimidate",
+        "Reckless",
         "Guts"
+      ],
+      "abilityIds": [
+        99,
+        120,
+        62
       ]
     },
     "Budew": {
@@ -49807,6 +52391,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -49822,6 +52407,11 @@ overrides = {
         "Natural Cure",
         "Poison Point",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        30,
+        38,
+        102
       ]
     },
     "Roserade": {
@@ -49928,6 +52518,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -49945,6 +52536,11 @@ overrides = {
         "Natural Cure",
         "Technician",
         "Technician"
+      ],
+      "abilityIds": [
+        30,
+        101,
+        101
       ]
     },
     "Cranidos": {
@@ -50066,6 +52662,11 @@ overrides = {
         "Sheer Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        125
       ],
       "evos": [
         "Rampardos"
@@ -50208,6 +52809,11 @@ overrides = {
         "Sheer Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        125
       ]
     },
     "Shieldon": {
@@ -50310,6 +52916,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Rock Polish",
@@ -50327,6 +52934,11 @@ overrides = {
         "Shield Dust",
         "",
         "Soundproof"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        43
       ],
       "evos": [
         "Bastiodon"
@@ -50442,6 +53054,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Giga Impact",
@@ -50460,6 +53073,11 @@ overrides = {
         "Shield Dust",
         "",
         "Soundproof"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        43
       ]
     },
     "Burmy": {
@@ -50524,12 +53142,19 @@ overrides = {
             "Leaf Storm"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Overcoat",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        142,
+        0,
+        142
       ],
       "evos": [
         "Wormadam",
@@ -50607,6 +53232,10 @@ overrides = {
             "Energy Ball"
           ],
           [
+            44,
+            "Trick Room"
+          ],
+          [
             50,
             "Leaf Storm"
           ]
@@ -50645,6 +53274,11 @@ overrides = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -50764,6 +53398,11 @@ overrides = {
         "Compound Eyes",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        110
       ]
     },
     "Combee": {
@@ -50818,7 +53457,11 @@ overrides = {
           ],
           [
             32,
-            "Bug Buzz"
+            "Attack Order"
+          ],
+          [
+            34,
+            "U-turn"
           ],
           [
             35,
@@ -50826,23 +53469,26 @@ overrides = {
           ],
           [
             38,
-            "Attack Order"
+            "Toxic"
           ],
           [
             42,
             "Heal Order"
-          ],
-          [
-            50,
-            "Toxic"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Honey Gather",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        118,
+        0,
+        55
       ],
       "evos": [
         "Vespiquen"
@@ -50909,7 +53555,11 @@ overrides = {
           ],
           [
             32,
-            "Bug Buzz"
+            "Attack Order"
+          ],
+          [
+            34,
+            "U-turn"
           ],
           [
             35,
@@ -50917,15 +53567,11 @@ overrides = {
           ],
           [
             38,
-            "Attack Order"
+            "Toxic"
           ],
           [
             42,
             "Heal Order"
-          ],
-          [
-            50,
-            "Toxic"
           ]
         ],
         "tms": [
@@ -50963,6 +53609,11 @@ overrides = {
         "Filter",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        111,
+        0,
+        127
       ]
     },
     "Pachirisu": {
@@ -51046,6 +53697,14 @@ overrides = {
           [
             50,
             "Helping Hand"
+          ],
+          [
+            54,
+            "Psycho Boost"
+          ],
+          [
+            58,
+            "Zap Cannon"
           ]
         ],
         "tms": [
@@ -51066,6 +53725,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -51084,6 +53744,11 @@ overrides = {
         "Volt Absorb",
         "",
         "Volt Absorb"
+      ],
+      "abilityIds": [
+        10,
+        0,
+        10
       ]
     },
     "Buizel": {
@@ -51187,6 +53852,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -51205,6 +53871,11 @@ overrides = {
         "Technician",
         "",
         "Water Veil"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        41
       ],
       "evos": [
         "Floatzel"
@@ -51324,6 +53995,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -51345,6 +54017,11 @@ overrides = {
         "Technician",
         "",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        33
       ]
     },
     "Cherubi": {
@@ -51373,12 +54050,24 @@ overrides = {
             "Razor Leaf"
           ],
           [
+            5,
+            "Lucky Chant"
+          ],
+          [
             10,
             "Morning Sun"
           ],
           [
-            25,
+            15,
             "Flame Wheel"
+          ],
+          [
+            20,
+            "Seed Bomb"
+          ],
+          [
+            25,
+            "Blaze Kick"
           ],
           [
             27,
@@ -51390,27 +54079,19 @@ overrides = {
           ],
           [
             33,
-            "Blaze Kick"
-          ],
-          [
-            35,
-            "Seed Bomb"
-          ],
-          [
-            40,
-            "Helping Hand"
-          ],
-          [
-            43,
             "Rock Climb"
           ],
           [
-            46,
+            36,
+            "Flare Blitz"
+          ],
+          [
+            40,
             "Wood Hammer"
           ],
           [
-            50,
-            "Flare Blitz"
+            44,
+            "Helping Hand"
           ]
         ],
         "tms": [
@@ -51425,6 +54106,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -51438,7 +54120,12 @@ overrides = {
       "abs": [
         "Chlorophyll",
         "",
-        ""
+        "Flower Gift"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        122
       ],
       "evos": [
         "Cherrim"
@@ -51480,12 +54167,24 @@ overrides = {
             "Razor Leaf"
           ],
           [
+            5,
+            "Lucky Chant"
+          ],
+          [
             10,
             "Morning Sun"
           ],
           [
-            25,
+            15,
             "Flame Wheel"
+          ],
+          [
+            20,
+            "Seed Bomb"
+          ],
+          [
+            25,
+            "Blaze Kick"
           ],
           [
             27,
@@ -51497,27 +54196,19 @@ overrides = {
           ],
           [
             33,
-            "Blaze Kick"
-          ],
-          [
-            35,
-            "Seed Bomb"
-          ],
-          [
-            40,
-            "Helping Hand"
-          ],
-          [
-            43,
             "Rock Climb"
           ],
           [
-            46,
+            36,
+            "Flare Blitz"
+          ],
+          [
+            40,
             "Wood Hammer"
           ],
           [
-            50,
-            "Flare Blitz"
+            44,
+            "Helping Hand"
           ]
         ],
         "tms": [
@@ -51536,6 +54227,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
@@ -51549,9 +54241,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Flower Gift",
+        "Sap Sipper",
         "",
-        ""
+        "Flower Gift"
+      ],
+      "abilityIds": [
+        157,
+        0,
+        122
       ]
     },
     "Shellos": {
@@ -51643,6 +54340,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -51655,6 +54353,11 @@ overrides = {
         "Poison Heal",
         "Water Absorb",
         "Sand Force"
+      ],
+      "abilityIds": [
+        90,
+        11,
+        159
       ],
       "evos": [
         "Gastrodon"
@@ -51765,6 +54468,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -51785,6 +54489,11 @@ overrides = {
         "Poison Heal",
         "Water Absorb",
         "Sand Force"
+      ],
+      "abilityIds": [
+        90,
+        11,
+        159
       ]
     },
     "Ambipom": {
@@ -51908,6 +54617,11 @@ overrides = {
         "Technician",
         "Skill Link"
       ],
+      "abilityIds": [
+        92,
+        101,
+        92
+      ],
       "evos": [
         "Aipom"
       ],
@@ -51984,6 +54698,10 @@ overrides = {
             "Tailwind"
           ],
           [
+            44,
+            "Aeroblast"
+          ],
+          [
             46,
             "Roost"
           ],
@@ -52019,7 +54737,7 @@ overrides = {
           "Charge Beam",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Flash",
@@ -52037,6 +54755,11 @@ overrides = {
         "Flare Boost",
         "Unburden",
         "Flare Boost"
+      ],
+      "abilityIds": [
+        138,
+        84,
+        138
       ],
       "evos": [
         "Drifblim"
@@ -52114,6 +54837,10 @@ overrides = {
             "Tailwind"
           ],
           [
+            44,
+            "Aeroblast"
+          ],
+          [
             46,
             "Roost"
           ],
@@ -52149,7 +54876,7 @@ overrides = {
           "Charge Beam",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Giga Impact",
@@ -52169,6 +54896,11 @@ overrides = {
         "Flare Boost",
         "Unburden",
         "Flare Boost"
+      ],
+      "abilityIds": [
+        138,
+        84,
+        138
       ]
     },
     "Buneary": {
@@ -52207,6 +54939,10 @@ overrides = {
           [
             10,
             "Double Kick"
+          ],
+          [
+            13,
+            "Mach Punch"
           ],
           [
             16,
@@ -52273,9 +55009,11 @@ overrides = {
           "Dig",
           "Shadow Ball",
           "Double Team",
+          "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Fling",
@@ -52294,6 +55032,11 @@ overrides = {
         "Scrappy",
         "Technician",
         "Limber"
+      ],
+      "abilityIds": [
+        113,
+        101,
+        7
       ],
       "evos": [
         "Lopunny"
@@ -52347,6 +55090,10 @@ overrides = {
             "Double Kick"
           ],
           [
+            13,
+            "Mach Punch"
+          ],
+          [
             16,
             "Headbutt"
           ],
@@ -52364,15 +55111,15 @@ overrides = {
           ],
           [
             33,
-            "Thunder Punch"
-          ],
-          [
-            33,
             "Fire Punch"
           ],
           [
             33,
             "Ice Punch"
+          ],
+          [
+            33,
+            "Thunder Punch"
           ],
           [
             37,
@@ -52415,9 +55162,11 @@ overrides = {
           "Dig",
           "Shadow Ball",
           "Double Team",
+          "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -52439,6 +55188,11 @@ overrides = {
         "Scrappy",
         "Technician",
         "Limber"
+      ],
+      "abilityIds": [
+        113,
+        101,
+        7
       ]
     },
     "Mismagius": {
@@ -52504,6 +55258,10 @@ overrides = {
             "Shadow Ball"
           ],
           [
+            46,
+            "Wonder Room"
+          ],
+          [
             50,
             "Future Sight"
           ],
@@ -52540,11 +55298,12 @@ overrides = {
           "Energy Ball",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
+          "Magical Leaf",
           "Dream Eater",
           "Swagger",
           "Natural Gift",
@@ -52555,6 +55314,11 @@ overrides = {
         "Levitate",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        23
       ]
     },
     "Honchkrow": {
@@ -52655,7 +55419,7 @@ overrides = {
           "Round",
           "Incinerate",
           "Quash",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -52673,6 +55437,11 @@ overrides = {
         "Prankster",
         "Insomnia",
         "Moxie"
+      ],
+      "abilityIds": [
+        158,
+        15,
+        153
       ]
     },
     "Glameow": {
@@ -52800,6 +55569,11 @@ overrides = {
         "Defiant",
         "Keen Eye"
       ],
+      "abilityIds": [
+        47,
+        128,
+        51
+      ],
       "evos": [
         "Purugly"
       ],
@@ -52892,7 +55666,7 @@ overrides = {
             "U-turn"
           ],
           [
-            65,
+            60,
             "Sucker Punch"
           ]
         ],
@@ -52941,6 +55715,11 @@ overrides = {
         "Thick Fat",
         "Defiant",
         "Defiant"
+      ],
+      "abilityIds": [
+        47,
+        128,
+        128
       ]
     },
     "Chingling": {
@@ -53049,6 +55828,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -53065,6 +55845,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Chimecho"
@@ -53202,6 +55987,11 @@ overrides = {
         "Flare Boost",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        138,
+        0,
+        127
       ],
       "evos": [
         "Skuntank"
@@ -53343,6 +56133,11 @@ overrides = {
         "Flare Boost",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        138,
+        0,
+        127
       ]
     },
     "Bronzor": {
@@ -53444,6 +56239,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Payback",
@@ -53465,6 +56261,11 @@ overrides = {
         "Levitate",
         "Heatproof",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        26,
+        85,
+        134
       ],
       "evos": [
         "Bronzong"
@@ -53579,6 +56380,7 @@ overrides = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Explosion",
@@ -53604,6 +56406,11 @@ overrides = {
         "Levitate",
         "Heatproof",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        26,
+        85,
+        134
       ]
     },
     "Bonsly": {
@@ -53709,6 +56516,11 @@ overrides = {
         "Solid Rock",
         "Rock Head",
         "Rattled"
+      ],
+      "abilityIds": [
+        116,
+        69,
+        155
       ],
       "evos": [
         "Sudowoodo"
@@ -53861,6 +56673,11 @@ overrides = {
         "Filter",
         "Technician"
       ],
+      "abilityIds": [
+        43,
+        111,
+        101
+      ],
       "evos": [
         "Mr. Mime"
       ],
@@ -53955,6 +56772,11 @@ overrides = {
         "Serene Grace",
         "Friend Guard"
       ],
+      "abilityIds": [
+        30,
+        32,
+        132
+      ],
       "evos": [
         "Chansey"
       ],
@@ -54036,7 +56858,7 @@ overrides = {
           ],
           [
             46,
-            "Taunt"
+            "Aeroblast"
           ],
           [
             50,
@@ -54082,9 +56904,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Soundproof",
-        "",
+        "Static",
+        "Quick Feet",
         "Big Pecks"
+      ],
+      "abilityIds": [
+        9,
+        95,
+        145
       ]
     },
     "Spiritomb": {
@@ -54146,11 +56973,11 @@ overrides = {
             "Dark Pulse"
           ],
           [
-            60,
+            45,
             "Payback"
           ],
           [
-            65,
+            50,
             "Sucker Punch"
           ]
         ],
@@ -54177,7 +57004,7 @@ overrides = {
           "Round",
           "Quash",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Retaliate",
           "Giga Impact",
@@ -54194,6 +57021,11 @@ overrides = {
         "Unnerve",
         "Magic Bounce",
         "Wonder Guard"
+      ],
+      "abilityIds": [
+        127,
+        156,
+        25
       ]
     },
     "Gible": {
@@ -54299,6 +57131,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -54316,6 +57149,11 @@ overrides = {
         "Sand Veil",
         "",
         "Rough Skin"
+      ],
+      "abilityIds": [
+        8,
+        0,
+        24
       ],
       "evos": [
         "Gabite"
@@ -54433,6 +57271,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -54450,6 +57289,11 @@ overrides = {
         "Rough Skin",
         "Sand Force",
         "Rough Skin"
+      ],
+      "abilityIds": [
+        24,
+        159,
+        24
       ],
       "evos": [
         "Garchomp"
@@ -54569,6 +57413,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Fling",
@@ -54593,6 +57438,11 @@ overrides = {
         "Rough Skin",
         "Sand Force",
         "Rough Skin"
+      ],
+      "abilityIds": [
+        24,
+        159,
+        24
       ]
     },
     "Munchlax": {
@@ -54690,6 +57540,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Incinerate",
@@ -54708,6 +57559,11 @@ overrides = {
         "Thick Fat",
         "Thick Fat",
         "Gluttony"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        82
       ],
       "evos": [
         "Snorlax"
@@ -54823,6 +57679,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -54842,9 +57699,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Inner Focus",
-        "Inner Focus",
+        "Justified",
+        "",
         "Prankster"
+      ],
+      "abilityIds": [
+        154,
+        0,
+        158
       ],
       "evos": [
         "Lucario"
@@ -54966,6 +57828,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -54988,9 +57851,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Inner Focus",
-        "Inner Focus",
-        "Justified"
+        "Justified",
+        "",
+        "Inner Focus"
+      ],
+      "abilityIds": [
+        154,
+        0,
+        39
       ]
     },
     "Hippopotas": {
@@ -55059,11 +57927,15 @@ overrides = {
             "Rest"
           ],
           [
-            55,
+            44,
+            "Stealth Rock"
+          ],
+          [
+            50,
             "Slack Off"
           ],
           [
-            65,
+            60,
             "Fissure"
           ]
         ],
@@ -55083,6 +57955,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Bulldoze",
           "Rock Slide",
@@ -55096,6 +57969,11 @@ overrides = {
         "Filter",
         "Shield Dust",
         "Sand Force"
+      ],
+      "abilityIds": [
+        111,
+        19,
+        159
       ],
       "evos": [
         "Hippowdon"
@@ -55176,11 +58054,15 @@ overrides = {
             "Rest"
           ],
           [
-            55,
+            44,
+            "Stealth Rock"
+          ],
+          [
+            50,
             "Slack Off"
           ],
           [
-            65,
+            60,
             "Fissure"
           ]
         ],
@@ -55201,6 +58083,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Giga Impact",
           "Stone Edge",
@@ -55216,6 +58099,11 @@ overrides = {
         "Filter",
         "Shield Dust",
         "Sand Force"
+      ],
+      "abilityIds": [
+        111,
+        19,
+        159
       ]
     },
     "Skorupi": {
@@ -55346,8 +58234,13 @@ overrides = {
       },
       "abs": [
         "Battle Armor",
-        "Rough Skin",
+        "Rattled",
         "Keen Eye"
+      ],
+      "abilityIds": [
+        4,
+        155,
+        51
       ],
       "evos": [
         "Drapion"
@@ -55497,8 +58390,13 @@ overrides = {
       },
       "abs": [
         "Battle Armor",
-        "Rough Skin",
+        "Rattled",
         "Sniper"
+      ],
+      "abilityIds": [
+        4,
+        155,
+        97
       ]
     },
     "Croagunk": {
@@ -55632,7 +58530,7 @@ overrides = {
           "Round",
           "Focus Blast",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Bulldoze",
@@ -55651,6 +58549,11 @@ overrides = {
         "Swift Swim",
         "Water Absorb",
         "Poison Touch"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        143
       ],
       "evos": [
         "Toxicroak"
@@ -55797,7 +58700,7 @@ overrides = {
           "Round",
           "Focus Blast",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -55820,6 +58723,11 @@ overrides = {
         "Swift Swim",
         "Water Absorb",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        33
       ]
     },
     "Carnivine": {
@@ -55930,6 +58838,11 @@ overrides = {
         "Poison Heal",
         "",
         "Arena Trap"
+      ],
+      "abilityIds": [
+        90,
+        0,
+        71
       ]
     },
     "Finneon": {
@@ -56029,6 +58942,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Payback",
@@ -56046,6 +58960,11 @@ overrides = {
         "Swift Swim",
         "Water Absorb",
         "Water Veil"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        41
       ],
       "evos": [
         "Lumineon"
@@ -56158,6 +59077,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Payback",
@@ -56176,6 +59096,11 @@ overrides = {
         "Swift Swim",
         "Water Absorb",
         "Drizzle"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        2
       ]
     },
     "Mantyke": {
@@ -56286,6 +59211,11 @@ overrides = {
         "Water Absorb",
         "Water Veil"
       ],
+      "abilityIds": [
+        33,
+        11,
+        41
+      ],
       "evos": [
         "Mantine"
       ],
@@ -56366,6 +59296,10 @@ overrides = {
             "Icicle Crash"
           ],
           [
+            46,
+            "Dragon Claw"
+          ],
+          [
             50,
             "Wood Hammer"
           ],
@@ -56379,6 +59313,7 @@ overrides = {
           ]
         ],
         "tms": [
+          "Dragon Claw",
           "Toxic",
           "Hidden Power",
           "Ice Beam",
@@ -56395,6 +59330,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -56411,6 +59347,11 @@ overrides = {
         "Thick Fat",
         "",
         "Soundproof"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        43
       ],
       "evos": [
         "Abomasnow"
@@ -56492,6 +59433,10 @@ overrides = {
             "Icicle Crash"
           ],
           [
+            46,
+            "Dragon Claw"
+          ],
+          [
             50,
             "Wood Hammer"
           ],
@@ -56505,6 +59450,7 @@ overrides = {
           ]
         ],
         "tms": [
+          "Dragon Claw",
           "Toxic",
           "Hidden Power",
           "Ice Beam",
@@ -56525,6 +59471,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
@@ -56548,6 +59495,11 @@ overrides = {
         "Thick Fat",
         "",
         "Snow Warning"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        117
       ]
     },
     "Weavile": {
@@ -56651,7 +59603,7 @@ overrides = {
           "Focus Blast",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -56674,6 +59626,11 @@ overrides = {
         "Technician",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        124
       ]
     },
     "Magnezone": {
@@ -56766,6 +59723,7 @@ overrides = {
           "Double Team",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Explosion",
@@ -56786,6 +59744,11 @@ overrides = {
         "Levitate",
         "Analytic",
         "Magnet Pull"
+      ],
+      "abilityIds": [
+        26,
+        148,
+        42
       ]
     },
     "Lickilicky": {
@@ -56906,6 +59869,11 @@ overrides = {
         "Thick Fat",
         "Thick Fat",
         "Cloud Nine"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        13
       ]
     },
     "Rhyperior": {
@@ -57041,6 +60009,11 @@ overrides = {
         "Rock Head",
         "Solid Rock",
         "Reckless"
+      ],
+      "abilityIds": [
+        69,
+        116,
+        120
       ]
     },
     "Tangrowth": {
@@ -57157,6 +60130,11 @@ overrides = {
         "Thick Fat",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        144
       ]
     },
     "Electivire": {
@@ -57295,6 +60273,11 @@ overrides = {
         "Iron Fist",
         "Motor Drive",
         "Vital Spirit"
+      ],
+      "abilityIds": [
+        89,
+        78,
+        72
       ]
     },
     "Magmortar": {
@@ -57434,6 +60417,11 @@ overrides = {
         "Flash Fire",
         "No Guard",
         "Vital Spirit"
+      ],
+      "abilityIds": [
+        18,
+        99,
+        72
       ]
     },
     "Togekiss": {
@@ -57459,7 +60447,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Growl"
+            "Lucky Chant"
           ],
           [
             1,
@@ -57510,6 +60498,10 @@ overrides = {
             "Tailwind"
           ],
           [
+            60,
+            "Psycho Shift"
+          ],
+          [
             65,
             "Razor Wind"
           ]
@@ -57537,6 +60529,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -57560,6 +60553,11 @@ overrides = {
         "Thick Fat",
         "",
         "Serene Grace"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        32
       ]
     },
     "Yanmega": {
@@ -57637,7 +60635,7 @@ overrides = {
             "U-turn"
           ],
           [
-            75,
+            70,
             "Draco Meteor"
           ]
         ],
@@ -57672,6 +60670,11 @@ overrides = {
         "Speed Boost",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        119
       ]
     },
     "Leafeon": {
@@ -57761,6 +60764,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -57781,6 +60785,11 @@ overrides = {
         "Sap Sipper",
         "Sap Sipper",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        157,
+        157,
+        34
       ]
     },
     "Glaceon": {
@@ -57826,7 +60835,7 @@ overrides = {
           ],
           [
             23,
-            "Quick Attack"
+            "Ice Shard"
           ],
           [
             30,
@@ -57838,7 +60847,7 @@ overrides = {
           ],
           [
             42,
-            "Extrasensory"
+            "Frost Breath"
           ],
           [
             47,
@@ -57846,7 +60855,7 @@ overrides = {
           ],
           [
             52,
-            "Frost Breath"
+            "Extrasensory"
           ],
           [
             60,
@@ -57871,6 +60880,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Retaliate",
@@ -57884,9 +60894,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Shield Dust",
-        "Shield Dust",
+        "Technician",
+        "Technician",
         "Ice Body"
+      ],
+      "abilityIds": [
+        101,
+        101,
+        115
       ]
     },
     "Gliscor": {
@@ -58018,8 +61033,13 @@ overrides = {
       },
       "abs": [
         "Poison Heal",
-        "Rough Skin",
+        "Rattled",
         "Poison Heal"
+      ],
+      "abilityIds": [
+        90,
+        155,
+        90
       ]
     },
     "Mamoswine": {
@@ -58118,6 +61138,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Giga Impact",
           "Stone Edge",
@@ -58133,6 +61154,11 @@ overrides = {
         "Thick Fat",
         "",
         "Snow Cloak"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        81
       ]
     },
     "Porygon-Z": {
@@ -58230,7 +61256,7 @@ overrides = {
           "Thief",
           "Round",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -58246,6 +61272,11 @@ overrides = {
         "Adaptability",
         "Download",
         "Analytic"
+      ],
+      "abilityIds": [
+        91,
+        88,
+        148
       ]
     },
     "Gallade": {
@@ -58390,9 +61421,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Inner Focus",
-        "Inner Focus",
-        "Unburden"
+        "Unburden",
+        "Unburden",
+        "Inner Focus"
+      ],
+      "abilityIds": [
+        84,
+        84,
+        39
       ]
     },
     "Probopass": {
@@ -58483,6 +61519,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -58503,6 +61540,11 @@ overrides = {
         "Levitate",
         "Levitate",
         "Sand Force"
+      ],
+      "abilityIds": [
+        26,
+        26,
+        159
       ]
     },
     "Dusknoir": {
@@ -58628,7 +61670,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -58646,6 +61688,11 @@ overrides = {
         "Levitate",
         "Iron Fist",
         ""
+      ],
+      "abilityIds": [
+        26,
+        89,
+        0
       ]
     },
     "Froslass": {
@@ -58735,9 +61782,10 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -58752,6 +61800,11 @@ overrides = {
         "Levitate",
         "",
         "Snow Cloak"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        81
       ]
     },
     "Rotom": {
@@ -58854,6 +61907,11 @@ overrides = {
         "Levitate",
         "",
         "Telepathy"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        140
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -58987,6 +62045,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Mesprit": {
@@ -59105,6 +62168,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Azelf": {
@@ -59228,6 +62296,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Dialga": {
@@ -59359,6 +62432,11 @@ overrides = {
         "Pressure",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        23
       ]
     },
     "Palkia": {
@@ -59492,6 +62570,11 @@ overrides = {
         "Pressure",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        23
       ]
     },
     "Heatran": {
@@ -59612,6 +62695,11 @@ overrides = {
         "Flash Fire",
         "",
         "Flame Body"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        49
       ]
     },
     "Regigigas": {
@@ -59732,6 +62820,11 @@ overrides = {
         "Slow Start",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        112,
+        0,
+        23
       ]
     },
     "Giratina": {
@@ -59860,6 +62953,11 @@ overrides = {
         "",
         "Telepathy"
       ],
+      "abilityIds": [
+        46,
+        0,
+        140
+      ],
       "baseForme": "Base",
       "otherFormes": [
         "Giratina-Origin"
@@ -59980,6 +63078,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Phione": {
@@ -60079,6 +63182,11 @@ overrides = {
         "Hydration",
         "",
         ""
+      ],
+      "abilityIds": [
+        93,
+        0,
+        0
       ]
     },
     "Manaphy": {
@@ -60195,6 +63303,11 @@ overrides = {
         "Hydration",
         "",
         ""
+      ],
+      "abilityIds": [
+        93,
+        0,
+        0
       ]
     },
     "Darkrai": {
@@ -60299,7 +63412,7 @@ overrides = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -60324,6 +63437,11 @@ overrides = {
         "Bad Dreams",
         "",
         ""
+      ],
+      "abilityIds": [
+        123,
+        0,
+        0
       ]
     },
     "Shaymin": {
@@ -60425,6 +63543,11 @@ overrides = {
         "Natural Cure",
         "",
         ""
+      ],
+      "abilityIds": [
+        30,
+        0,
+        0
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -60592,6 +63715,11 @@ overrides = {
         "Multitype",
         "",
         ""
+      ],
+      "abilityIds": [
+        121,
+        0,
+        0
       ]
     },
     "Victini": {
@@ -60718,7 +63846,7 @@ overrides = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -60737,6 +63865,11 @@ overrides = {
         "Victory Star",
         "",
         ""
+      ],
+      "abilityIds": [
+        162,
+        0,
+        0
       ]
     },
     "Snivy": {
@@ -60856,6 +63989,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -60872,6 +64006,11 @@ overrides = {
         "Overgrow",
         "",
         "Contrary"
+      ],
+      "abilityIds": [
+        65,
+        0,
+        126
       ],
       "evos": [
         "Servine"
@@ -61004,6 +64143,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -61020,6 +64160,11 @@ overrides = {
         "Overgrow",
         "",
         "Contrary"
+      ],
+      "abilityIds": [
+        65,
+        0,
+        126
       ],
       "evos": [
         "Serperior"
@@ -61047,8 +64192,8 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 75,
-        "at": 60,
+        "hp": 85,
+        "at": 70,
         "df": 95,
         "sa": 112,
         "sd": 95,
@@ -61153,6 +64298,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -61173,6 +64319,11 @@ overrides = {
         "Sheer Force",
         "",
         "Contrary"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        126
       ]
     },
     "Tepig": {
@@ -61259,6 +64410,10 @@ overrides = {
           [
             60,
             "Flare Blitz"
+          ],
+          [
+            65,
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -61279,6 +64434,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -61297,6 +64453,11 @@ overrides = {
         "Adaptability",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        47
       ],
       "evos": [
         "Pignite"
@@ -61396,6 +64557,10 @@ overrides = {
           [
             60,
             "Flare Blitz"
+          ],
+          [
+            65,
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -61417,6 +64582,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Echoed Voice",
@@ -61443,6 +64609,11 @@ overrides = {
         "Adaptability",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        47
       ],
       "evos": [
         "Emboar"
@@ -61473,7 +64644,7 @@ overrides = {
         "hp": 110,
         "at": 125,
         "df": 90,
-        "sa": 80,
+        "sa": 70,
         "sd": 90,
         "sp": 55
       },
@@ -61542,6 +64713,10 @@ overrides = {
           [
             60,
             "Flare Blitz"
+          ],
+          [
+            65,
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -61567,6 +64742,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Echoed Voice",
@@ -61595,6 +64771,11 @@ overrides = {
         "Adaptability",
         "",
         "Reckless"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        120
       ]
     },
     "Oshawott": {
@@ -61706,6 +64887,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "False Swipe",
@@ -61728,6 +64910,11 @@ overrides = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ],
       "evos": [
         "Dewott"
@@ -61852,6 +65039,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "False Swipe",
@@ -61874,6 +65062,11 @@ overrides = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ],
       "evos": [
         "Samurott"
@@ -61901,10 +65094,10 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 95,
+        "hp": 90,
         "at": 115,
         "df": 100,
-        "sa": 75,
+        "sa": 80,
         "sd": 80,
         "sp": 85
       },
@@ -61999,6 +65192,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "False Swipe",
@@ -62024,6 +65218,11 @@ overrides = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ]
     },
     "Patrat": {
@@ -62122,6 +65321,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Retaliate",
@@ -62137,6 +65337,11 @@ overrides = {
         "Run Away",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        50,
+        0,
+        148
       ],
       "evos": [
         "Watchog"
@@ -62164,12 +65369,12 @@ overrides = {
         "None"
       ],
       "bs": {
-        "hp": 90,
+        "hp": 80,
         "at": 105,
         "df": 79,
         "sa": 60,
         "sd": 79,
-        "sp": 87
+        "sp": 97
       },
       "learnset_info": {
         "learnset": [
@@ -62252,6 +65457,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -62275,6 +65481,11 @@ overrides = {
         "Compound Eyes",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        148
       ]
     },
     "Lillipup": {
@@ -62313,6 +65524,10 @@ overrides = {
           [
             10,
             "Yawn"
+          ],
+          [
+            13,
+            "Fake Out"
           ],
           [
             16,
@@ -62376,6 +65591,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Retaliate",
           "Giga Impact",
@@ -62389,9 +65605,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Vital Spirit",
+        "Scrappy",
         "",
-        "Run Away"
+        "Sand Rush"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        146
       ],
       "evos": [
         "Herdier"
@@ -62444,6 +65665,10 @@ overrides = {
             "Yawn"
           ],
           [
+            13,
+            "Fake Out"
+          ],
+          [
             16,
             "Retaliate"
           ],
@@ -62505,6 +65730,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -62521,9 +65747,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Intimidate",
-        "Sand Rush",
-        "Scrappy"
+        "Scrappy",
+        "",
+        "Sand Rush"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        146
       ],
       "evos": [
         "Stoutland"
@@ -62574,6 +65805,10 @@ overrides = {
           [
             10,
             "Yawn"
+          ],
+          [
+            13,
+            "Fake Out"
           ],
           [
             16,
@@ -62640,6 +65875,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -62656,9 +65892,14 @@ overrides = {
         ]
       },
       "abs": [
-        "Intimidate",
-        "Sand Rush",
-        "Scrappy"
+        "Scrappy",
+        "",
+        "Sand Rush"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        146
       ]
     },
     "Purrloin": {
@@ -62759,7 +66000,7 @@ overrides = {
           "Thief",
           "Round",
           "Echoed Voice",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Thunder Wave",
@@ -62776,6 +66017,11 @@ overrides = {
         "Prankster",
         "Unburden",
         "Prankster"
+      ],
+      "abilityIds": [
+        158,
+        84,
+        158
       ],
       "evos": [
         "Liepard"
@@ -62889,7 +66135,7 @@ overrides = {
           "Thief",
           "Round",
           "Echoed Voice",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Giga Impact",
@@ -62908,6 +66154,11 @@ overrides = {
         "Prankster",
         "Unburden",
         "Prankster"
+      ],
+      "abilityIds": [
+        158,
+        84,
+        158
       ]
     },
     "Pansage": {
@@ -63034,6 +66285,11 @@ overrides = {
         "Overgrow",
         "",
         "Overgrow"
+      ],
+      "abilityIds": [
+        65,
+        0,
+        65
       ],
       "evos": [
         "Simisage"
@@ -63177,6 +66433,11 @@ overrides = {
         "Overgrow",
         "",
         "Overgrow"
+      ],
+      "abilityIds": [
+        65,
+        0,
+        65
       ]
     },
     "Pansear": {
@@ -63302,6 +66563,11 @@ overrides = {
         "Blaze",
         "",
         "Blaze"
+      ],
+      "abilityIds": [
+        66,
+        0,
+        66
       ],
       "evos": [
         "Simisear"
@@ -63444,6 +66710,11 @@ overrides = {
         "Blaze",
         "",
         "Blaze"
+      ],
+      "abilityIds": [
+        66,
+        0,
+        66
       ]
     },
     "Panpour": {
@@ -63570,6 +66841,11 @@ overrides = {
         "Torrent",
         "",
         "Torrent"
+      ],
+      "abilityIds": [
+        67,
+        0,
+        67
       ],
       "evos": [
         "Simipour"
@@ -63713,6 +66989,11 @@ overrides = {
         "Torrent",
         "",
         "Torrent"
+      ],
+      "abilityIds": [
+        67,
+        0,
+        67
       ]
     },
     "Munna": {
@@ -63777,6 +67058,10 @@ overrides = {
             "Trick"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Psystrike"
           ],
@@ -63787,6 +67072,10 @@ overrides = {
           [
             44,
             "Future Sight"
+          ],
+          [
+            47,
+            "Psycho Shift"
           ],
           [
             65,
@@ -63813,6 +67102,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Charge Beam",
@@ -63831,6 +67121,11 @@ overrides = {
         "Magic Bounce",
         "Analytic",
         "Telepathy"
+      ],
+      "abilityIds": [
+        156,
+        148,
+        140
       ],
       "evos": [
         "Musharna"
@@ -63907,6 +67202,10 @@ overrides = {
             "Trick"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Psystrike"
           ],
@@ -63917,6 +67216,10 @@ overrides = {
           [
             44,
             "Future Sight"
+          ],
+          [
+            47,
+            "Psycho Shift"
           ],
           [
             65,
@@ -63944,6 +67247,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Charge Beam",
@@ -63963,6 +67267,11 @@ overrides = {
         "Magic Bounce",
         "Analytic",
         "Telepathy"
+      ],
+      "abilityIds": [
+        156,
+        148,
+        140
       ]
     },
     "Pidove": {
@@ -64031,6 +67340,10 @@ overrides = {
             "Shadow Sneak"
           ],
           [
+            50,
+            "Acrobatics"
+          ],
+          [
             60,
             "Brave Bird"
           ]
@@ -64048,6 +67361,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Self-Destruct",
@@ -64063,6 +67377,11 @@ overrides = {
         "",
         "Rivalry"
       ],
+      "abilityIds": [
+        84,
+        0,
+        79
+      ],
       "evos": [
         "Tranquill"
       ],
@@ -64073,7 +67392,7 @@ overrides = {
         4
       ],
       "evoParams": [
-        16
+        14
       ]
     },
     "Tranquill": {
@@ -64142,6 +67461,10 @@ overrides = {
             "Shadow Sneak"
           ],
           [
+            50,
+            "Acrobatics"
+          ],
+          [
             60,
             "Brave Bird"
           ]
@@ -64159,6 +67482,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Self-Destruct",
@@ -64173,6 +67497,11 @@ overrides = {
         "Unburden",
         "",
         "Rivalry"
+      ],
+      "abilityIds": [
+        84,
+        0,
+        79
       ],
       "evos": [
         "Unfezant"
@@ -64254,6 +67583,10 @@ overrides = {
             "Shadow Sneak"
           ],
           [
+            50,
+            "Acrobatics"
+          ],
+          [
             60,
             "Brave Bird"
           ]
@@ -64272,8 +67605,10 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
+          "Acrobatics",
           "Shadow Claw",
           "Giga Impact",
           "Magical Leaf",
@@ -64289,6 +67624,11 @@ overrides = {
         "Unburden",
         "",
         "Super Luck"
+      ],
+      "abilityIds": [
+        84,
+        0,
+        105
       ]
     },
     "Blitzle": {
@@ -64385,6 +67725,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Charge Beam",
           "Flash",
@@ -64399,6 +67740,11 @@ overrides = {
         "Reckless",
         "Motor Drive",
         "Rock Head"
+      ],
+      "abilityIds": [
+        120,
+        78,
+        69
       ],
       "evos": [
         "Zebstrika"
@@ -64508,6 +67854,7 @@ overrides = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Charge Beam",
@@ -64526,6 +67873,11 @@ overrides = {
         "Reckless",
         "Motor Drive",
         "Rock Head"
+      ],
+      "abilityIds": [
+        120,
+        78,
+        69
       ]
     },
     "Roggenrola": {
@@ -64613,6 +67965,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Rock Polish",
@@ -64632,6 +67985,11 @@ overrides = {
         "Sturdy",
         "Solid Rock",
         "Sand Force"
+      ],
+      "abilityIds": [
+        5,
+        116,
+        159
       ],
       "evos": [
         "Boldore"
@@ -64731,6 +68089,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Rock Polish",
@@ -64750,6 +68109,11 @@ overrides = {
         "Sturdy",
         "Solid Rock",
         "Sand Force"
+      ],
+      "abilityIds": [
+        5,
+        116,
+        159
       ],
       "evos": [
         "Gigalith"
@@ -64851,6 +68215,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -64871,6 +68236,11 @@ overrides = {
         "Sturdy",
         "Solid Rock",
         "Sand Force"
+      ],
+      "abilityIds": [
+        5,
+        116,
+        159
       ]
     },
     "Woobat": {
@@ -64982,7 +68352,7 @@ overrides = {
           "Energy Ball",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Flash",
           "Thunder Wave",
           "Gyro Ball",
@@ -65000,6 +68370,11 @@ overrides = {
         "Unaware",
         "",
         "Simple"
+      ],
+      "abilityIds": [
+        109,
+        0,
+        86
       ],
       "evos": [
         "Swoobat"
@@ -65124,7 +68499,7 @@ overrides = {
           "Energy Ball",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -65143,6 +68518,11 @@ overrides = {
         "Sheer Force",
         "",
         "Simple"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        86
       ]
     },
     "Drilbur": {
@@ -65242,6 +68622,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Shadow Claw",
@@ -65261,6 +68642,11 @@ overrides = {
         "Sand Rush",
         "Mold Breaker",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        146,
+        104,
+        104
       ],
       "evos": [
         "Excadrill"
@@ -65374,6 +68760,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -65395,6 +68782,11 @@ overrides = {
         "Sand Rush",
         "Mold Breaker",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        146,
+        104,
+        104
       ]
     },
     "Audino": {
@@ -65447,6 +68839,10 @@ overrides = {
             "Hyper Beam"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Soft-Boiled"
           ],
@@ -65495,6 +68891,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -65518,6 +68915,11 @@ overrides = {
         "Regenerator",
         "Regenerator",
         "Magic Bounce"
+      ],
+      "abilityIds": [
+        144,
+        144,
+        156
       ]
     },
     "Timburr": {
@@ -65623,6 +69025,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -65644,6 +69047,11 @@ overrides = {
         "Iron Fist",
         "Sheer Force",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        125,
+        89
       ],
       "evos": [
         "Gurdurr"
@@ -65761,6 +69169,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -65782,6 +69191,11 @@ overrides = {
         "Iron Fist",
         "Sheer Force",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        125,
+        89
       ],
       "evos": [
         "Conkeldurr"
@@ -65902,6 +69316,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -65925,6 +69340,11 @@ overrides = {
         "Iron Fist",
         "Sheer Force",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        125,
+        89
       ]
     },
     "Tympole": {
@@ -66015,6 +69435,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -66027,6 +69448,11 @@ overrides = {
         "Swift Swim",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        11
       ],
       "evos": [
         "Palpitoad"
@@ -66130,6 +69556,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -66144,6 +69571,11 @@ overrides = {
         "Swift Swim",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        11
       ],
       "evos": [
         "Seismitoad"
@@ -66253,6 +69685,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -66275,6 +69708,11 @@ overrides = {
         "Swift Swim",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        11
       ]
     },
     "Throh": {
@@ -66368,6 +69806,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -66391,6 +69830,11 @@ overrides = {
         "Mold Breaker",
         "",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        104,
+        0,
+        104
       ]
     },
     "Sawk": {
@@ -66488,6 +69932,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -66511,6 +69956,11 @@ overrides = {
         "Mold Breaker",
         "",
         "Sturdy"
+      ],
+      "abilityIds": [
+        104,
+        0,
+        5
       ]
     },
     "Sewaddle": {
@@ -66601,6 +70051,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Payback",
@@ -66618,6 +70069,11 @@ overrides = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ],
       "evos": [
         "Swadloon"
@@ -66720,6 +70176,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Payback",
@@ -66737,6 +70194,11 @@ overrides = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ],
       "evos": [
         "Leavanny"
@@ -66842,6 +70304,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "False Swipe",
@@ -66867,6 +70330,11 @@ overrides = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ]
     },
     "Venipede": {
@@ -66958,6 +70426,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Gyro Ball",
@@ -66973,6 +70442,11 @@ overrides = {
         "Speed Boost",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        95
       ],
       "evos": [
         "Whirlipede"
@@ -67076,6 +70550,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Gyro Ball",
@@ -67091,6 +70566,11 @@ overrides = {
         "Speed Boost",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        95
       ],
       "evos": [
         "Scolipede"
@@ -67197,6 +70677,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Giga Impact",
@@ -67218,6 +70699,11 @@ overrides = {
         "Speed Boost",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        95
       ]
     },
     "Cottonee": {
@@ -67227,7 +70713,7 @@ overrides = {
         "Grass"
       ],
       "items": [
-        "Moon Stone",
+        "None",
         "None",
         "None"
       ],
@@ -67315,6 +70801,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -67330,6 +70817,11 @@ overrides = {
         "Prankster",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        34
       ],
       "evos": [
         "Whimsicott"
@@ -67462,6 +70954,11 @@ overrides = {
         "Prankster",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        34
       ]
     },
     "Petilil": {
@@ -67471,7 +70968,7 @@ overrides = {
         "Grass"
       ],
       "items": [
-        "Sun Stone",
+        "None",
         "None",
         "None"
       ],
@@ -67542,6 +71039,10 @@ overrides = {
             "Petal Dance"
           ],
           [
+            55,
+            "Heart Swap"
+          ],
+          [
             60,
             "Leaf Storm"
           ],
@@ -67565,6 +71066,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -67580,6 +71082,11 @@ overrides = {
         "Chlorophyll",
         "Own Tempo",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        34,
+        20,
+        102
       ],
       "evos": [
         "Lilligant"
@@ -67672,6 +71179,10 @@ overrides = {
             "Petal Dance"
           ],
           [
+            55,
+            "Heart Swap"
+          ],
+          [
             60,
             "Leaf Storm"
           ],
@@ -67696,6 +71207,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -67713,6 +71225,11 @@ overrides = {
         "Chlorophyll",
         "Own Tempo",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        34,
+        20,
+        102
       ]
     },
     "Basculin": {
@@ -67771,11 +71288,11 @@ overrides = {
           ],
           [
             25,
-            "Ice Fang"
+            "Aurora Beam"
           ],
           [
             25,
-            "Aurora Beam"
+            "Ice Fang"
           ],
           [
             30,
@@ -67828,6 +71345,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -67842,6 +71360,11 @@ overrides = {
         "Adaptability",
         "",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        104
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -67876,7 +71399,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Knock Off"
           ],
           [
             1,
@@ -67966,7 +71489,7 @@ overrides = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Stone Edge",
@@ -67982,6 +71505,11 @@ overrides = {
         "Intimidate",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        110
       ],
       "evos": [
         "Krokorok"
@@ -68020,7 +71548,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Knock Off"
           ],
           [
             1,
@@ -68113,7 +71641,7 @@ overrides = {
           "Round",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -68133,6 +71661,11 @@ overrides = {
         "Intimidate",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        110
       ],
       "evos": [
         "Krookodile"
@@ -68171,7 +71704,7 @@ overrides = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Knock Off"
           ],
           [
             1,
@@ -68203,11 +71736,11 @@ overrides = {
           ],
           [
             30,
-            "Fire Punch"
+            "Thunder Punch"
           ],
           [
             30,
-            "Thunder Punch"
+            "Fire Punch"
           ],
           [
             33,
@@ -68270,7 +71803,7 @@ overrides = {
           "Focus Blast",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -68292,6 +71825,11 @@ overrides = {
         "Intimidate",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        110
       ]
     },
     "Darumaka": {
@@ -68408,6 +71946,11 @@ overrides = {
         "Sheer Force",
         "Iron Fist",
         "Inner Focus"
+      ],
+      "abilityIds": [
+        125,
+        89,
+        39
       ],
       "evos": [
         "Darmanitan"
@@ -68549,6 +72092,11 @@ overrides = {
         "",
         "Zen Mode"
       ],
+      "abilityIds": [
+        125,
+        0,
+        161
+      ],
       "baseForme": "Base",
       "otherFormes": [
         "Darmanitan-Zen"
@@ -68660,6 +72208,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Magical Leaf",
@@ -68673,6 +72222,11 @@ overrides = {
         "Water Absorb",
         "Iron Barbs",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        11,
+        160,
+        8
       ]
     },
     "Dwebble": {
@@ -68746,6 +72300,10 @@ overrides = {
             "Earthquake"
           ],
           [
+            51,
+            "Stealth Rock"
+          ],
+          [
             54,
             "Stone Edge"
           ],
@@ -68771,6 +72329,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Shadow Claw",
           "Rock Polish",
@@ -68792,6 +72351,11 @@ overrides = {
         "Shell Armor",
         "",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        133
       ],
       "evos": [
         "Crustle"
@@ -68877,6 +72441,10 @@ overrides = {
             "Earthquake"
           ],
           [
+            51,
+            "Stealth Rock"
+          ],
+          [
             54,
             "Stone Edge"
           ],
@@ -68904,6 +72472,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Shadow Claw",
           "Giga Impact",
@@ -68926,6 +72495,11 @@ overrides = {
         "Shell Armor",
         "",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        133
       ]
     },
     "Scraggy": {
@@ -69041,6 +72615,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -69065,6 +72640,11 @@ overrides = {
         "Intimidate",
         "Battle Armor",
         "Intimidate"
+      ],
+      "abilityIds": [
+        22,
+        4,
+        22
       ],
       "evos": [
         "Scrafty"
@@ -69219,6 +72799,11 @@ overrides = {
         "Intimidate",
         "Battle Armor",
         "Intimidate"
+      ],
+      "abilityIds": [
+        22,
+        4,
+        22
       ]
     },
     "Sigilyph": {
@@ -69354,6 +72939,11 @@ overrides = {
         "Magic Guard",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        110
       ]
     },
     "Yamask": {
@@ -69449,7 +73039,7 @@ overrides = {
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Magical Leaf",
@@ -69463,6 +73053,11 @@ overrides = {
         "Mummy",
         "",
         ""
+      ],
+      "abilityIds": [
+        152,
+        0,
+        0
       ],
       "evos": [
         "Cofagrigus"
@@ -69572,7 +73167,7 @@ overrides = {
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -69588,6 +73183,11 @@ overrides = {
         "Mummy",
         "",
         ""
+      ],
+      "abilityIds": [
+        152,
+        0,
+        0
       ]
     },
     "Tirtouga": {
@@ -69691,6 +73291,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Rock Polish",
@@ -69710,6 +73311,11 @@ overrides = {
         "Shell Armor",
         "",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        33
       ],
       "evos": [
         "Carracosta"
@@ -69826,6 +73432,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -69847,6 +73454,11 @@ overrides = {
         "Shell Armor",
         "",
         "Solid Rock"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        116
       ]
     },
     "Archen": {
@@ -69949,6 +73561,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Acrobatics",
           "Shadow Claw",
@@ -69969,6 +73582,11 @@ overrides = {
         "Klutz",
         "",
         ""
+      ],
+      "abilityIds": [
+        103,
+        0,
+        0
       ],
       "evos": [
         "Archeops"
@@ -70084,6 +73702,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Acrobatics",
@@ -70108,6 +73727,11 @@ overrides = {
         "Run Away",
         "",
         ""
+      ],
+      "abilityIds": [
+        50,
+        0,
+        0
       ]
     },
     "Trubbish": {
@@ -70217,6 +73841,11 @@ overrides = {
         "",
         "Aftermath"
       ],
+      "abilityIds": [
+        85,
+        0,
+        106
+      ],
       "evos": [
         "Garbodor"
       ],
@@ -70227,7 +73856,7 @@ overrides = {
         4
       ],
       "evoParams": [
-        36
+        35
       ]
     },
     "Garbodor": {
@@ -70344,6 +73973,11 @@ overrides = {
         "Heatproof",
         "",
         "Aftermath"
+      ],
+      "abilityIds": [
+        85,
+        0,
+        106
       ]
     },
     "Zorua": {
@@ -70405,6 +74039,10 @@ overrides = {
             "Dark Pulse"
           ],
           [
+            45,
+            "Fake Out"
+          ],
+          [
             50,
             "Aura Sphere"
           ],
@@ -70441,7 +74079,7 @@ overrides = {
           "Round",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Swords Dance",
@@ -70457,6 +74095,11 @@ overrides = {
         "Infiltrator",
         "",
         "Illusion"
+      ],
+      "abilityIds": [
+        151,
+        0,
+        149
       ],
       "evos": [
         "Zoroark"
@@ -70530,6 +74173,10 @@ overrides = {
             "Dark Pulse"
           ],
           [
+            45,
+            "Fake Out"
+          ],
+          [
             50,
             "Aura Sphere"
           ],
@@ -70571,7 +74218,7 @@ overrides = {
           "Focus Blast",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -70590,6 +74237,11 @@ overrides = {
         "Infiltrator",
         "",
         "Illusion"
+      ],
+      "abilityIds": [
+        151,
+        0,
+        149
       ]
     },
     "Minccino": {
@@ -70707,6 +74359,11 @@ overrides = {
         "",
         "Skill Link"
       ],
+      "abilityIds": [
+        92,
+        0,
+        92
+      ],
       "evos": [
         "Cinccino"
       ],
@@ -70819,6 +74476,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -70837,6 +74495,11 @@ overrides = {
         "Skill Link",
         "",
         "Skill Link"
+      ],
+      "abilityIds": [
+        92,
+        0,
+        92
       ]
     },
     "Gothita": {
@@ -70898,6 +74561,10 @@ overrides = {
             "Fake Tears"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -70948,7 +74615,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -70964,6 +74631,11 @@ overrides = {
         "Magic Bounce",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        156,
+        0,
+        23
       ],
       "evos": [
         "Gothorita"
@@ -71037,6 +74709,10 @@ overrides = {
             "Fake Tears"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -71087,7 +74763,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -71103,6 +74779,11 @@ overrides = {
         "Magic Bounce",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        156,
+        0,
+        23
       ],
       "evos": [
         "Gothitelle"
@@ -71176,6 +74857,10 @@ overrides = {
             "Fake Tears"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -71229,7 +74914,7 @@ overrides = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -71246,6 +74931,11 @@ overrides = {
         "Magic Bounce",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        156,
+        0,
+        23
       ]
     },
     "Solosis": {
@@ -71307,6 +74997,10 @@ overrides = {
             "Gravity"
           ],
           [
+            34,
+            "Wonder Room"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -71354,9 +75048,10 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Flash",
           "Thunder Wave",
@@ -71373,6 +75068,11 @@ overrides = {
         "Magic Guard",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        144
       ],
       "evos": [
         "Duosion"
@@ -71446,6 +75146,10 @@ overrides = {
             "Gravity"
           ],
           [
+            34,
+            "Wonder Room"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -71493,9 +75197,10 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Flash",
           "Thunder Wave",
@@ -71512,6 +75217,11 @@ overrides = {
         "Magic Guard",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        144
       ],
       "evos": [
         "Reuniclus"
@@ -71585,6 +75295,10 @@ overrides = {
             "Gravity"
           ],
           [
+            34,
+            "Wonder Room"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -71633,11 +75347,12 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Giga Impact",
           "Flash",
@@ -71658,6 +75373,11 @@ overrides = {
         "Magic Guard",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        144
       ]
     },
     "Ducklett": {
@@ -71753,6 +75473,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -71767,6 +75488,11 @@ overrides = {
         "No Guard",
         "",
         "Hydration"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        93
       ],
       "evos": [
         "Swanna"
@@ -71875,6 +75601,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -71890,6 +75617,11 @@ overrides = {
         "No Guard",
         "",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        132
       ]
     },
     "Vanillite": {
@@ -71974,6 +75706,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Frost Breath",
@@ -71985,8 +75718,13 @@ overrides = {
       },
       "abs": [
         "Water Absorb",
-        "Weak Armor",
+        "Rattled",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        11,
+        155,
+        133
       ],
       "evos": [
         "Vanillish"
@@ -72084,6 +75822,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Frost Breath",
@@ -72095,8 +75834,13 @@ overrides = {
       },
       "abs": [
         "Water Absorb",
-        "Weak Armor",
+        "Rattled",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        11,
+        155,
+        133
       ],
       "evos": [
         "Vanilluxe"
@@ -72129,7 +75873,7 @@ overrides = {
         "df": 85,
         "sa": 120,
         "sd": 105,
-        "sp": 99
+        "sp": 104
       },
       "learnset_info": {
         "learnset": [
@@ -72196,6 +75940,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -72208,8 +75953,13 @@ overrides = {
       },
       "abs": [
         "Water Absorb",
-        "Weak Armor",
+        "Rattled",
         "Snow Cloak"
+      ],
+      "abilityIds": [
+        11,
+        155,
+        81
       ]
     },
     "Deerling": {
@@ -72310,6 +76060,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -72328,6 +76079,11 @@ overrides = {
         "Adaptability",
         "",
         "Serene Grace"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        32
       ],
       "evos": [
         "Sawsbuck"
@@ -72441,6 +76197,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -72463,6 +76220,11 @@ overrides = {
         "Adaptability",
         "",
         "Serene Grace"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        32
       ]
     },
     "Emolga": {
@@ -72568,6 +76330,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Charge Beam",
@@ -72586,6 +76349,11 @@ overrides = {
         "Motor Drive",
         "",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        78,
+        0,
+        31
       ]
     },
     "Karrablast": {
@@ -72681,6 +76449,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "False Swipe",
@@ -72697,6 +76466,11 @@ overrides = {
         "Infiltrator",
         "",
         "No Guard"
+      ],
+      "abilityIds": [
+        151,
+        0,
+        99
       ],
       "evos": [
         "Escavalier"
@@ -72806,6 +76580,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
@@ -72825,6 +76600,11 @@ overrides = {
         "Shell Armor",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        142
       ]
     },
     "Foongus": {
@@ -72930,6 +76710,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Payback",
@@ -72944,6 +76725,11 @@ overrides = {
         "Regenerator",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        144,
+        0,
+        144
       ],
       "evos": [
         "Amoonguss"
@@ -73062,6 +76848,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Payback",
@@ -73077,6 +76864,11 @@ overrides = {
         "Regenerator",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        144,
+        0,
+        144
       ]
     },
     "Frillish": {
@@ -73170,6 +76962,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Scald",
@@ -73189,6 +76982,11 @@ overrides = {
         "Water Absorb",
         "Rain Dish",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        44,
+        6
       ],
       "evos": [
         "Jellicent"
@@ -73295,6 +77093,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Scald",
@@ -73315,6 +77114,11 @@ overrides = {
         "Water Absorb",
         "Rain Dish",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        44,
+        6
       ]
     },
     "Alomomola": {
@@ -73413,6 +77217,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Magical Leaf",
@@ -73427,6 +77232,11 @@ overrides = {
         "Regenerator",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        144,
+        0,
+        144
       ]
     },
     "Joltik": {
@@ -73506,6 +77316,14 @@ overrides = {
           [
             60,
             "U-turn"
+          ],
+          [
+            65,
+            "Volt Switch"
+          ],
+          [
+            67,
+            "Zap Cannon"
           ]
         ],
         "tms": [
@@ -73532,6 +77350,7 @@ overrides = {
           "X-Scissor",
           "Poison Jab",
           "Swagger",
+          "U-turn",
           "Natural Gift",
           "Wild Charge",
           "Cut"
@@ -73541,6 +77360,11 @@ overrides = {
         "Compound Eyes",
         "Unnerve",
         "Swarm"
+      ],
+      "abilityIds": [
+        14,
+        127,
+        68
       ],
       "evos": [
         "Galvantula"
@@ -73636,6 +77460,10 @@ overrides = {
           [
             65,
             "Volt Switch"
+          ],
+          [
+            67,
+            "Zap Cannon"
           ]
         ],
         "tms": [
@@ -73665,6 +77493,7 @@ overrides = {
           "X-Scissor",
           "Poison Jab",
           "Swagger",
+          "U-turn",
           "Natural Gift",
           "Wild Charge",
           "Cut"
@@ -73674,6 +77503,11 @@ overrides = {
         "Compound Eyes",
         "Unnerve",
         "Swarm"
+      ],
+      "abilityIds": [
+        14,
+        127,
+        68
       ]
     },
     "Ferroseed": {
@@ -73767,6 +77601,7 @@ overrides = {
           "Double Team",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Energy Ball",
           "Explosion",
@@ -73786,6 +77621,11 @@ overrides = {
         "Iron Barbs",
         "",
         ""
+      ],
+      "abilityIds": [
+        160,
+        0,
+        0
       ],
       "evos": [
         "Ferrothorn"
@@ -73895,6 +77735,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Energy Ball",
           "Explosion",
@@ -73921,6 +77762,11 @@ overrides = {
         "Iron Barbs",
         "",
         ""
+      ],
+      "abilityIds": [
+        160,
+        0,
+        0
       ]
     },
     "Klink": {
@@ -74009,6 +77855,7 @@ overrides = {
           "Sandstorm",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Payback",
@@ -74026,6 +77873,11 @@ overrides = {
         "Levitate",
         "",
         "Clear Body"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        29
       ],
       "evos": [
         "Klang"
@@ -74126,6 +77978,7 @@ overrides = {
           "Sandstorm",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Payback",
@@ -74143,6 +77996,11 @@ overrides = {
         "Levitate",
         "",
         "Clear Body"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        29
       ],
       "evos": [
         "Klinklang"
@@ -74244,6 +78102,7 @@ overrides = {
           "Sandstorm",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Payback",
@@ -74263,6 +78122,11 @@ overrides = {
         "Levitate",
         "",
         "Clear Body"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        29
       ]
     },
     "Tynamo": {
@@ -74347,20 +78211,31 @@ overrides = {
             "Volt Switch"
           ],
           [
-            60,
-            "Gunk Shot"
+            55,
+            "Gastro Acid"
           ],
           [
             60,
             "Sludge Wave"
+          ],
+          [
+            60,
+            "Gunk Shot"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Eelektrik"
@@ -74427,11 +78302,11 @@ overrides = {
           ],
           [
             30,
-            "Sludge Bomb"
+            "Poison Jab"
           ],
           [
             30,
-            "Poison Jab"
+            "Sludge Bomb"
           ],
           [
             35,
@@ -74458,12 +78333,16 @@ overrides = {
             "Volt Switch"
           ],
           [
-            60,
-            "Gunk Shot"
+            55,
+            "Gastro Acid"
           ],
           [
             60,
             "Sludge Wave"
+          ],
+          [
+            60,
+            "Gunk Shot"
           ]
         ],
         "tms": [
@@ -74481,6 +78360,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Charge Beam",
           "Acrobatics",
@@ -74498,6 +78378,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Eelektross"
@@ -74595,12 +78480,16 @@ overrides = {
             "Volt Switch"
           ],
           [
-            60,
-            "Gunk Shot"
+            55,
+            "Gastro Acid"
           ],
           [
             60,
             "Sludge Wave"
+          ],
+          [
+            60,
+            "Gunk Shot"
           ]
         ],
         "tms": [
@@ -74627,6 +78516,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Charge Beam",
           "Acrobatics",
@@ -74652,6 +78542,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Elgyem": {
@@ -74759,7 +78654,7 @@ overrides = {
           "Ally Switch",
           "Energy Ball",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Flash",
           "Volt Switch",
           "Thunder Wave",
@@ -74776,6 +78671,11 @@ overrides = {
         "Levitate",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        148
       ],
       "evos": [
         "Beheeyem"
@@ -74896,7 +78796,7 @@ overrides = {
           "Ally Switch",
           "Energy Ball",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Volt Switch",
@@ -74914,6 +78814,11 @@ overrides = {
         "Levitate",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        148
       ]
     },
     "Litwick": {
@@ -75017,7 +78922,7 @@ overrides = {
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Dream Eater",
@@ -75030,6 +78935,11 @@ overrides = {
         "Flash Fire",
         "Flame Body",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        18,
+        49,
+        23
       ],
       "evos": [
         "Lampent"
@@ -75145,7 +79055,7 @@ overrides = {
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Dream Eater",
@@ -75158,6 +79068,11 @@ overrides = {
         "Flash Fire",
         "Levitate",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        18,
+        26,
+        23
       ],
       "evos": [
         "Chandelure"
@@ -75274,7 +79189,7 @@ overrides = {
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -75288,6 +79203,11 @@ overrides = {
         "Flash Fire",
         "Levitate",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        18,
+        26,
+        23
       ]
     },
     "Axew": {
@@ -75396,6 +79316,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Fling",
@@ -75416,6 +79337,11 @@ overrides = {
         "Unnerve",
         "Mold Breaker",
         "Unnerve"
+      ],
+      "abilityIds": [
+        127,
+        104,
+        127
       ],
       "evos": [
         "Fraxure"
@@ -75537,6 +79463,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Fling",
@@ -75559,6 +79486,11 @@ overrides = {
         "Unnerve",
         "Mold Breaker",
         "Unnerve"
+      ],
+      "abilityIds": [
+        127,
+        104,
+        127
       ],
       "evos": [
         "Haxorus"
@@ -75683,6 +79615,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "False Swipe",
@@ -75710,6 +79643,11 @@ overrides = {
         "Unnerve",
         "Mold Breaker",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        127,
+        104,
+        125
       ]
     },
     "Cubchoo": {
@@ -75807,6 +79745,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -75825,6 +79764,11 @@ overrides = {
         "Sheer Force",
         "Swift Swim",
         "Rattled"
+      ],
+      "abilityIds": [
+        125,
+        33,
+        155
       ],
       "evos": [
         "Beartic"
@@ -75940,6 +79884,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -75966,6 +79911,11 @@ overrides = {
         "Sheer Force",
         "Swift Swim",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        125,
+        33,
+        33
       ]
     },
     "Cryogonal": {
@@ -76051,6 +80001,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Acrobatics",
           "Explosion",
@@ -76066,6 +80017,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Shelmet": {
@@ -76162,6 +80118,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Struggle Bug",
@@ -76173,6 +80130,11 @@ overrides = {
         "Shell Armor",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        142
       ],
       "evos": [
         "Accelgor"
@@ -76286,6 +80248,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
@@ -76300,6 +80263,11 @@ overrides = {
         "Adaptability",
         "",
         "Illusion"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        149
       ]
     },
     "Stunfisk": {
@@ -76401,6 +80369,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Payback",
@@ -76418,6 +80387,11 @@ overrides = {
         "Water Absorb",
         "",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        11,
+        0,
+        8
       ]
     },
     "Mienfoo": {
@@ -76513,6 +80487,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -76537,6 +80512,11 @@ overrides = {
         "Inner Focus",
         "Regenerator",
         "Reckless"
+      ],
+      "abilityIds": [
+        39,
+        144,
+        120
       ],
       "evos": [
         "Mienshao"
@@ -76645,6 +80625,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -76670,6 +80651,11 @@ overrides = {
         "Inner Focus",
         "Regenerator",
         "Reckless"
+      ],
+      "abilityIds": [
+        39,
+        144,
+        120
       ]
     },
     "Druddigon": {
@@ -76731,28 +80717,32 @@ overrides = {
             "Thunder Punch"
           ],
           [
+            35,
+            "Dragon Claw"
+          ],
+          [
             37,
             "Crunch"
           ],
           [
             40,
-            "Dragon Claw"
-          ],
-          [
-            44,
             "Submission"
           ],
           [
-            50,
+            44,
             "Close Combat"
+          ],
+          [
+            44,
+            "Dragon Rush"
+          ],
+          [
+            50,
+            "Stealth Rock"
           ],
           [
             55,
             "Superpower"
-          ],
-          [
-            65,
-            "Stealth Rock"
           ]
         ],
         "tms": [
@@ -76781,6 +80771,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -76808,6 +80799,11 @@ overrides = {
         "Rough Skin",
         "Solid Rock",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        24,
+        116,
+        104
       ]
     },
     "Golett": {
@@ -76936,6 +80932,11 @@ overrides = {
         "Iron Fist",
         "No Guard",
         "No Guard"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        99
       ],
       "evos": [
         "Golurk"
@@ -77084,6 +81085,11 @@ overrides = {
         "Iron Fist",
         "No Guard",
         "No Guard"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        99
       ]
     },
     "Pawniard": {
@@ -77189,7 +81195,7 @@ overrides = {
           "Round",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -77210,6 +81216,11 @@ overrides = {
         "Defiant",
         "Inner Focus",
         "Pressure"
+      ],
+      "abilityIds": [
+        128,
+        39,
+        46
       ],
       "evos": [
         "Bisharp"
@@ -77329,7 +81340,7 @@ overrides = {
           "Focus Blast",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -77352,6 +81363,11 @@ overrides = {
         "Defiant",
         "Inner Focus",
         "Sturdy"
+      ],
+      "abilityIds": [
+        128,
+        39,
+        5
       ]
     },
     "Bouffalant": {
@@ -77445,6 +81461,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -77468,6 +81485,11 @@ overrides = {
         "Rock Head",
         "",
         "Soundproof"
+      ],
+      "abilityIds": [
+        69,
+        0,
+        43
       ]
     },
     "Rufflet": {
@@ -77565,6 +81587,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Sky Drop",
           "Shadow Claw",
@@ -77585,6 +81608,11 @@ overrides = {
         "Rock Head",
         "Reckless",
         "Hustle"
+      ],
+      "abilityIds": [
+        69,
+        120,
+        55
       ],
       "evos": [
         "Braviary"
@@ -77695,6 +81723,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Sky Drop",
           "Shadow Claw",
@@ -77716,6 +81745,11 @@ overrides = {
         "Rock Head",
         "Reckless",
         "Hustle"
+      ],
+      "abilityIds": [
+        69,
+        120,
+        55
       ]
     },
     "Vullaby": {
@@ -77781,6 +81815,10 @@ overrides = {
             "Dark Pulse"
           ],
           [
+            44,
+            "Aeroblast"
+          ],
+          [
             46,
             "Foul Play"
           ],
@@ -77817,7 +81855,7 @@ overrides = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Swagger",
@@ -77834,6 +81872,11 @@ overrides = {
         "Shield Dust",
         "Prankster",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        19,
+        158,
+        133
       ],
       "evos": [
         "Mandibuzz"
@@ -77911,6 +81954,10 @@ overrides = {
             "Dark Pulse"
           ],
           [
+            44,
+            "Aeroblast"
+          ],
+          [
             46,
             "Foul Play"
           ],
@@ -77948,7 +81995,7 @@ overrides = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -77966,6 +82013,11 @@ overrides = {
         "Shield Dust",
         "Prankster",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        19,
+        158,
+        133
       ]
     },
     "Heatmor": {
@@ -78088,6 +82140,11 @@ overrides = {
         "Flash Fire",
         "",
         "White Smoke"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        73
       ]
     },
     "Durant": {
@@ -78183,6 +82240,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Shadow Claw",
@@ -78206,6 +82264,11 @@ overrides = {
         "Swarm",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        68,
+        0,
+        55
       ]
     },
     "Deino": {
@@ -78316,6 +82379,11 @@ overrides = {
         "Sheer Force",
         "",
         ""
+      ],
+      "abilityIds": [
+        125,
+        0,
+        0
       ],
       "evos": [
         "Zweilous"
@@ -78438,6 +82506,11 @@ overrides = {
         "Sheer Force",
         "",
         ""
+      ],
+      "abilityIds": [
+        125,
+        0,
+        0
       ],
       "evos": [
         "Hydreigon"
@@ -78578,6 +82651,11 @@ overrides = {
         "Levitate",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        125
       ]
     },
     "Larvesta": {
@@ -78676,6 +82754,7 @@ overrides = {
           "Facade",
           "Flame Charge",
           "Rest",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -78692,6 +82771,11 @@ overrides = {
         "Flash Fire",
         "Swarm",
         "Swarm"
+      ],
+      "abilityIds": [
+        18,
+        68,
+        68
       ],
       "evos": [
         "Volcarona"
@@ -78804,6 +82888,7 @@ overrides = {
           "Facade",
           "Flame Charge",
           "Rest",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -78823,6 +82908,11 @@ overrides = {
         "Flash Fire",
         "Swarm",
         "Drought"
+      ],
+      "abilityIds": [
+        18,
+        68,
+        70
       ]
     },
     "Cobalion": {
@@ -78922,6 +83012,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Focus Blast",
           "False Swipe",
@@ -78948,6 +83039,11 @@ overrides = {
         "Justified",
         "",
         ""
+      ],
+      "abilityIds": [
+        154,
+        0,
+        0
       ]
     },
     "Terrakion": {
@@ -79045,6 +83141,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Focus Blast",
           "False Swipe",
@@ -79070,6 +83167,11 @@ overrides = {
         "Justified",
         "",
         ""
+      ],
+      "abilityIds": [
+        154,
+        0,
+        0
       ]
     },
     "Virizion": {
@@ -79170,6 +83272,7 @@ overrides = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
@@ -79194,6 +83297,11 @@ overrides = {
         "Justified",
         "",
         ""
+      ],
+      "abilityIds": [
+        154,
+        0,
+        0
       ]
     },
     "Tornadus": {
@@ -79314,7 +83422,7 @@ overrides = {
           "Sky Drop",
           "Incinerate",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Grass Knot",
@@ -79330,6 +83438,11 @@ overrides = {
         "Prankster",
         "",
         "Defiant"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        128
       ]
     },
     "Thundurus": {
@@ -79452,7 +83565,7 @@ overrides = {
           "Charge Beam",
           "Sky Drop",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Volt Switch",
@@ -79472,6 +83585,11 @@ overrides = {
         "Prankster",
         "",
         "Defiant"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        128
       ]
     },
     "Reshiram": {
@@ -79609,6 +83727,11 @@ overrides = {
         "Turboblaze",
         "",
         ""
+      ],
+      "abilityIds": [
+        163,
+        0,
+        0
       ]
     },
     "Zekrom": {
@@ -79747,6 +83870,11 @@ overrides = {
         "Teravolt",
         "",
         ""
+      ],
+      "abilityIds": [
+        164,
+        0,
+        0
       ]
     },
     "Landorus": {
@@ -79886,6 +84014,11 @@ overrides = {
         "Sand Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        159,
+        0,
+        125
       ]
     },
     "Kyurem": {
@@ -80017,6 +84150,11 @@ overrides = {
         "Pressure",
         "",
         ""
+      ],
+      "abilityIds": [
+        46,
+        0,
+        0
       ]
     },
     "Keldeo": {
@@ -80140,6 +84278,11 @@ overrides = {
         "Justified",
         "",
         ""
+      ],
+      "abilityIds": [
+        154,
+        0,
+        0
       ]
     },
     "Meloetta": {
@@ -80256,7 +84399,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -80280,6 +84423,11 @@ overrides = {
         "Serene Grace",
         "",
         ""
+      ],
+      "abilityIds": [
+        32,
+        0,
+        0
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -80433,6 +84581,11 @@ overrides = {
         "Download",
         "",
         ""
+      ],
+      "abilityIds": [
+        88,
+        0,
+        0
       ]
     },
     "Deoxys-Attack": {
@@ -80570,6 +84723,11 @@ overrides = {
         "Pressure",
         "",
         ""
+      ],
+      "abilityIds": [
+        46,
+        0,
+        0
       ],
       "baseSpecies": "Deoxys",
       "forme": "Attack"
@@ -80718,6 +84876,11 @@ overrides = {
         "",
         ""
       ],
+      "abilityIds": [
+        46,
+        0,
+        0
+      ],
       "baseSpecies": "Deoxys",
       "forme": "Defense"
     },
@@ -80857,6 +85020,11 @@ overrides = {
         "",
         ""
       ],
+      "abilityIds": [
+        46,
+        0,
+        0
+      ],
       "baseSpecies": "Deoxys",
       "forme": "Speed"
     },
@@ -80917,6 +85085,10 @@ overrides = {
           [
             40,
             "Earthquake"
+          ],
+          [
+            44,
+            "Trick Room"
           ]
         ],
         "tms": [
@@ -80956,6 +85128,11 @@ overrides = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ],
       "baseSpecies": "Wormadam",
       "forme": "Sandy"
@@ -81019,6 +85196,10 @@ overrides = {
             "Flash Cannon"
           ],
           [
+            44,
+            "Trick Room"
+          ],
+          [
             50,
             "Metal Burst"
           ]
@@ -81056,6 +85237,11 @@ overrides = {
         "Overcoat",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        142,
+        0,
+        142
       ],
       "baseSpecies": "Wormadam",
       "forme": "Trash"
@@ -81160,6 +85346,11 @@ overrides = {
         "Serene Grace",
         "",
         ""
+      ],
+      "abilityIds": [
+        32,
+        0,
+        0
       ],
       "baseSpecies": "Shaymin",
       "forme": "Sky"
@@ -81290,6 +85481,11 @@ overrides = {
         "",
         "Levitate"
       ],
+      "abilityIds": [
+        26,
+        0,
+        26
+      ],
       "baseSpecies": "Giratina",
       "forme": "Origin"
     },
@@ -81393,6 +85589,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "baseSpecies": "Rotom",
       "forme": "Heat"
@@ -81498,6 +85699,11 @@ overrides = {
         "",
         "Drizzle"
       ],
+      "abilityIds": [
+        26,
+        0,
+        2
+      ],
       "baseSpecies": "Rotom",
       "forme": "Wash"
     },
@@ -81601,6 +85807,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "baseSpecies": "Rotom",
       "forme": "Frost"
@@ -81706,6 +85917,11 @@ overrides = {
         "",
         ""
       ],
+      "abilityIds": [
+        78,
+        0,
+        0
+      ],
       "baseSpecies": "Rotom",
       "forme": "Fan"
     },
@@ -81809,6 +86025,11 @@ overrides = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "baseSpecies": "Rotom",
       "forme": "Mow"
@@ -81925,6 +86146,11 @@ overrides = {
         "",
         ""
       ],
+      "abilityIds": [
+        59,
+        0,
+        0
+      ],
       "baseSpecies": "Castform",
       "forme": "Sunny"
     },
@@ -82039,6 +86265,11 @@ overrides = {
         "Forecast",
         "",
         "Drizzle"
+      ],
+      "abilityIds": [
+        59,
+        0,
+        2
       ],
       "baseSpecies": "Castform",
       "forme": "Rainy"
@@ -82155,6 +86386,11 @@ overrides = {
         "",
         ""
       ],
+      "abilityIds": [
+        59,
+        0,
+        0
+      ],
       "baseSpecies": "Castform",
       "forme": "Snowy"
     },
@@ -82214,11 +86450,11 @@ overrides = {
           ],
           [
             25,
-            "Aurora Beam"
+            "Ice Fang"
           ],
           [
             25,
-            "Ice Fang"
+            "Aurora Beam"
           ],
           [
             30,
@@ -82271,6 +86507,7 @@ overrides = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -82285,6 +86522,11 @@ overrides = {
         "Adaptability",
         "",
         "Drizzle"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        2
       ],
       "baseSpecies": "Basculin",
       "forme": "Blue-Striped"
@@ -82445,6 +86687,11 @@ overrides = {
         "",
         "Zen Mode"
       ],
+      "abilityIds": [
+        125,
+        0,
+        161
+      ],
       "baseSpecies": "Darmanitan",
       "forme": "Zen"
     },
@@ -82562,7 +86809,7 @@ overrides = {
           "Fling",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -82586,6 +86833,11 @@ overrides = {
         "Serene Grace",
         "",
         ""
+      ],
+      "abilityIds": [
+        32,
+        0,
+        0
       ],
       "baseSpecies": "Meloetta",
       "forme": "Pirouette"
@@ -87550,7 +91802,7 @@ overrides = {
       "cat": "Status",
       "pp": 30,
       "acc": 101,
-      "prio": 0,
+      "prio": 1,
       "name": "Lucky Chant",
       "num": 380,
       "desc": "The user chants an incantation toward the sky, preventing opposing Pokémon from landing critical hits.",
@@ -88888,7 +93140,7 @@ overrides = {
     },
     "Synchronoise": {
       "t": "Psychic",
-      "bp": 70,
+      "bp": 160,
       "cat": "Special",
       "pp": 15,
       "acc": 100,
@@ -93147,7 +97399,7 @@ overrides = {
       "wilds": [
         "Ninjask",
         "Chimecho",
-        "Azumarill",
+        "Absol",
         "Leavanny",
         "Lopunny",
         "Lucario",
@@ -93179,7 +97431,7 @@ overrides = {
             "mn": 40
           },
           {
-            "s": "Azumarill",
+            "s": "Absol",
             "mn": 40
           },
           {
@@ -93226,7 +97478,7 @@ overrides = {
       "wilds": [
         "Ninjask",
         "Chimecho",
-        "Azumarill",
+        "Absol",
         "Leavanny",
         "Lopunny",
         "Lucario",
@@ -93258,7 +97510,7 @@ overrides = {
             "mn": 40
           },
           {
-            "s": "Azumarill",
+            "s": "Absol",
             "mn": 40
           },
           {
@@ -94017,10 +98269,16 @@ overrides = {
     "reliccastle17": {
       "name": "Relic Castle 17",
       "wilds": [
-        "Krokorok",
-        "Sandslash",
-        "Cofagrigus",
-        "Onix"
+        "Murkrow",
+        "Gothorita",
+        "Vullaby",
+        "Elgyem",
+        "Purugly",
+        "Baltoy",
+        "Sneasel",
+        "Bronzor",
+        "Zweilous",
+        "Wobbuffet"
       ],
       "grass": {
         "rates": [
@@ -94039,52 +98297,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Krokorok",
-            "mn": 47
+            "s": "Murkrow",
+            "mn": 30
           },
           {
-            "s": "Sandslash",
-            "mn": 47
+            "s": "Gothorita",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 48
+            "s": "Vullaby",
+            "mn": 30
           },
           {
-            "s": "Onix",
-            "mn": 48
+            "s": "Elgyem",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 48
+            "s": "Purugly",
+            "mn": 30
           },
           {
-            "s": "Sandslash",
-            "mn": 49
+            "s": "Baltoy",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 49
+            "s": "Sneasel",
+            "mn": 30
           },
           {
-            "s": "Onix",
-            "mn": 49
+            "s": "Bronzor",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 49
+            "s": "Zweilous",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 50
+            "s": "Wobbuffet",
+            "mn": 30
           },
           {
-            "s": "Krokorok",
-            "mn": 50
+            "s": "Zweilous",
+            "mn": 30
           },
           {
-            "s": "Cofagrigus",
-            "mn": 50
+            "s": "Wobbuffet",
+            "mn": 30
           }
         ]
       }
@@ -94324,7 +98582,7 @@ overrides = {
         "Forretress",
         "Slowpoke",
         "Donphan",
-        "Burmy",
+        "Probopass",
         "Stunfisk"
       ],
       "grass": {
@@ -94360,11 +98618,11 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Burmy",
+            "s": "Probopass",
             "mn": 30
           },
           {
-            "s": "Burmy",
+            "s": "Probopass",
             "mn": 30
           },
           {
@@ -94411,7 +98669,7 @@ overrides = {
         "Forretress",
         "Slowpoke",
         "Donphan",
-        "Burmy",
+        "Probopass",
         "Stunfisk"
       ],
       "grass": {
@@ -94447,11 +98705,11 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Burmy",
+            "s": "Probopass",
             "mn": 30
           },
           {
-            "s": "Burmy",
+            "s": "Probopass",
             "mn": 30
           },
           {
@@ -95460,14 +99718,15 @@ overrides = {
         "Jynx",
         "Delibird",
         "Sneasel",
-        "Cinccino",
-        "Ambipom",
-        "Slaking",
-        "Kangaskhan",
-        "Snorlax",
-        "Miltank",
-        "Clefable",
-        "Wigglytuff",
+        "Murkrow",
+        "Gothorita",
+        "Vullaby",
+        "Elgyem",
+        "Purugly",
+        "Baltoy",
+        "Bronzor",
+        "Zweilous",
+        "Wobbuffet",
         "Audino"
       ],
       "grass": {
@@ -95512,13 +99771,11 @@ overrides = {
           },
           {
             "s": "Jynx",
-            "mn": 1,
-            "mx": 35
+            "mn": 35
           },
           {
             "s": "Jynx",
-            "mn": 1,
-            "mx": 35
+            "mn": 35
           },
           {
             "s": "Delibird",
@@ -95555,51 +99812,51 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Cinccino",
+            "s": "Murkrow",
             "mn": 35
           },
           {
-            "s": "Ambipom",
+            "s": "Gothorita",
             "mn": 35
           },
           {
-            "s": "Slaking",
+            "s": "Vullaby",
             "mn": 35
           },
           {
-            "s": "Kangaskhan",
+            "s": "Elgyem",
             "mn": 35
           },
           {
-            "s": "Snorlax",
+            "s": "Purugly",
             "mn": 35
           },
           {
-            "s": "Miltank",
+            "s": "Baltoy",
             "mn": 35
           },
           {
-            "s": "Clefable",
+            "s": "Sneasel",
             "mn": 35
           },
           {
-            "s": "Clefable",
+            "s": "Bronzor",
             "mn": 35
           },
           {
-            "s": "Wigglytuff",
+            "s": "Zweilous",
             "mn": 35
           },
           {
-            "s": "Wigglytuff",
+            "s": "Wobbuffet",
             "mn": 35
           },
           {
-            "s": "Wigglytuff",
+            "s": "Zweilous",
             "mn": 35
           },
           {
-            "s": "Wigglytuff",
+            "s": "Wobbuffet",
             "mn": 35
           }
         ]
@@ -96115,12 +100372,12 @@ overrides = {
       "wilds": [
         "Steelix",
         "Mamoswine",
-        "Sudowoodo",
-        "Gigalith",
-        "Golem",
+        "Excadrill",
+        "Dugtrio",
+        "Mawile",
         "Cryogonal",
         "Beartic",
-        "Glalie",
+        "Sableye",
         "Audino",
         "Magcargo"
       ],
@@ -96149,15 +100406,15 @@ overrides = {
             "mn": 50
           },
           {
-            "s": "Sudowoodo",
+            "s": "Excadrill",
             "mn": 50
           },
           {
-            "s": "Gigalith",
+            "s": "Dugtrio",
             "mn": 50
           },
           {
-            "s": "Golem",
+            "s": "Mawile",
             "mn": 50
           },
           {
@@ -96173,19 +100430,19 @@ overrides = {
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           }
         ]
@@ -96262,12 +100519,12 @@ overrides = {
       "wilds": [
         "Steelix",
         "Mamoswine",
-        "Sudowoodo",
-        "Gigalith",
-        "Golem",
+        "Excadrill",
+        "Dugtrio",
+        "Mawile",
         "Cryogonal",
         "Beartic",
-        "Glalie",
+        "Sableye",
         "Audino",
         "Magcargo"
       ],
@@ -96296,15 +100553,15 @@ overrides = {
             "mn": 50
           },
           {
-            "s": "Sudowoodo",
+            "s": "Excadrill",
             "mn": 50
           },
           {
-            "s": "Gigalith",
+            "s": "Dugtrio",
             "mn": 50
           },
           {
-            "s": "Golem",
+            "s": "Mawile",
             "mn": 50
           },
           {
@@ -96320,19 +100577,19 @@ overrides = {
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           }
         ]
@@ -96409,12 +100666,12 @@ overrides = {
       "wilds": [
         "Steelix",
         "Mamoswine",
-        "Sudowoodo",
-        "Gigalith",
-        "Golem",
+        "Excadrill",
+        "Dugtrio",
+        "Mawile",
         "Cryogonal",
         "Beartic",
-        "Glalie",
+        "Sableye",
         "Audino",
         "Magcargo"
       ],
@@ -96443,15 +100700,15 @@ overrides = {
             "mn": 50
           },
           {
-            "s": "Sudowoodo",
+            "s": "Excadrill",
             "mn": 50
           },
           {
-            "s": "Gigalith",
+            "s": "Dugtrio",
             "mn": 50
           },
           {
-            "s": "Golem",
+            "s": "Mawile",
             "mn": 50
           },
           {
@@ -96467,19 +100724,19 @@ overrides = {
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           }
         ]
@@ -96556,12 +100813,12 @@ overrides = {
       "wilds": [
         "Steelix",
         "Mamoswine",
-        "Sudowoodo",
-        "Gigalith",
-        "Golem",
+        "Excadrill",
+        "Dugtrio",
+        "Mawile",
         "Cryogonal",
         "Beartic",
-        "Glalie",
+        "Sableye",
         "Audino",
         "Magcargo"
       ],
@@ -96590,15 +100847,15 @@ overrides = {
             "mn": 50
           },
           {
-            "s": "Sudowoodo",
+            "s": "Excadrill",
             "mn": 50
           },
           {
-            "s": "Gigalith",
+            "s": "Dugtrio",
             "mn": 50
           },
           {
-            "s": "Golem",
+            "s": "Mawile",
             "mn": 50
           },
           {
@@ -96614,19 +100871,19 @@ overrides = {
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           },
           {
-            "s": "Glalie",
+            "s": "Sableye",
             "mn": 50
           }
         ]
@@ -96704,8 +100961,9 @@ overrides = {
         "Kingdra",
         "Druddigon",
         "Tropius",
-        "Arbok",
+        "Lapras",
         "Kangaskhan",
+        "Arbok",
         "Audino",
         "Rampardos"
       ],
@@ -96742,11 +101000,11 @@ overrides = {
             "mn": 55
           },
           {
-            "s": "Arbok",
+            "s": "Lapras",
             "mn": 55
           },
           {
-            "s": "Arbok",
+            "s": "Lapras",
             "mn": 55
           },
           {
@@ -101109,12 +105367,13 @@ overrides = {
         "Scyther",
         "Manectric",
         "Ampharos",
-        "Mawile",
+        "Bronzong",
         "Forretress",
         "Bisharp",
         "Eelektross",
         "Stunfisk",
         "Audino",
+        "Mawile",
         "Snorlax",
         "Seaking",
         "Tentacruel",
@@ -101149,7 +105408,7 @@ overrides = {
             "mn": 40
           },
           {
-            "s": "Mawile",
+            "s": "Bronzong",
             "mn": 40
           },
           {
@@ -101215,39 +105474,39 @@ overrides = {
             "mn": 40
           },
           {
-            "s": "Bisharp",
+            "s": "Mawile",
             "mn": 40
           },
           {
-            "s": "Bisharp",
+            "s": "Mawile",
             "mn": 40
           },
           {
-            "s": "Bisharp",
+            "s": "Mawile",
             "mn": 40
           },
           {
-            "s": "Bisharp",
+            "s": "Mawile",
             "mn": 40
           },
           {
-            "s": "Bisharp",
+            "s": "Mawile",
             "mn": 40
           },
           {
-            "s": "Bisharp",
+            "s": "Mawile",
             "mn": 40
           },
           {
-            "s": "Bisharp",
+            "s": "Mawile",
             "mn": 40
           },
           {
-            "s": "Bisharp",
+            "s": "Mawile",
             "mn": 40
           },
           {
-            "s": "Bisharp",
+            "s": "Mawile",
             "mn": 40
           }
         ]
@@ -103019,18 +107278,19 @@ overrides = {
         "Roggenrola",
         "Bonsly",
         "Dwebble",
-        "Sandshrew",
         "Onix",
+        "Rhyhorn",
         "Nosepass",
         "Aron",
         "Lunatone",
         "Solrock",
-        "Rhyhorn",
+        "Larvitar",
         "Sableye",
+        "Sandshrew",
         "Relicanth",
         "Cloyster",
         "Wooper",
-        "Qwilfish"
+        "Drilbur"
       ],
       "grass": {
         "rates": [
@@ -103065,11 +107325,11 @@ overrides = {
             "mn": 10
           },
           {
-            "s": "Sandshrew",
+            "s": "Onix",
             "mn": 10
           },
           {
-            "s": "Onix",
+            "s": "Rhyhorn",
             "mn": 10
           },
           {
@@ -103089,7 +107349,7 @@ overrides = {
             "mn": 10
           },
           {
-            "s": "Rhyhorn",
+            "s": "Larvitar",
             "mn": 10
           },
           {
@@ -103267,23 +107527,23 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           },
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           },
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           },
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           },
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           }
         ]
@@ -103296,18 +107556,19 @@ overrides = {
         "Roggenrola",
         "Bonsly",
         "Dwebble",
-        "Sandshrew",
         "Onix",
+        "Rhyhorn",
         "Nosepass",
         "Aron",
         "Lunatone",
         "Solrock",
-        "Rhyhorn",
+        "Larvitar",
         "Sableye",
+        "Sandshrew",
         "Relicanth",
         "Cloyster",
         "Wooper",
-        "Qwilfish"
+        "Drilbur"
       ],
       "grass": {
         "rates": [
@@ -103342,11 +107603,11 @@ overrides = {
             "mn": 10
           },
           {
-            "s": "Sandshrew",
+            "s": "Onix",
             "mn": 10
           },
           {
-            "s": "Onix",
+            "s": "Rhyhorn",
             "mn": 10
           },
           {
@@ -103366,7 +107627,7 @@ overrides = {
             "mn": 10
           },
           {
-            "s": "Rhyhorn",
+            "s": "Larvitar",
             "mn": 10
           },
           {
@@ -103544,23 +107805,23 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           },
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           },
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           },
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           },
           {
-            "s": "Qwilfish",
+            "s": "Drilbur",
             "mn": 10
           }
         ]
@@ -103572,7 +107833,7 @@ overrides = {
         "Palpitoad",
         "Cubone",
         "Donphan",
-        "Piloswine",
+        "Dunsparce",
         "Numel",
         "Hippopotas",
         "Doduo",
@@ -103615,7 +107876,7 @@ overrides = {
             "mn": 25
           },
           {
-            "s": "Piloswine",
+            "s": "Dunsparce",
             "mn": 25
           },
           {
@@ -104340,12 +108601,12 @@ overrides = {
     "mistraltoncave": {
       "name": "Mistralton Cave",
       "wilds": [
-        "Rhydon",
-        "Magcargo",
         "Aggron",
+        "Magcargo",
         "Fraxure",
         "Marowak",
-        "Audino"
+        "Audino",
+        "Rhydon"
       ],
       "grass": {
         "rates": [
@@ -104364,7 +108625,7 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Rhydon",
+            "s": "Aggron",
             "mn": 45
           },
           {
@@ -104442,39 +108703,39 @@ overrides = {
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           }
         ]
@@ -104494,12 +108755,12 @@ overrides = {
     "mistraltoncave2": {
       "name": "Mistralton Cave 2",
       "wilds": [
-        "Rhydon",
-        "Magcargo",
         "Aggron",
+        "Magcargo",
         "Fraxure",
         "Marowak",
-        "Audino"
+        "Audino",
+        "Rhydon"
       ],
       "grass": {
         "rates": [
@@ -104518,7 +108779,7 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Rhydon",
+            "s": "Aggron",
             "mn": 45
           },
           {
@@ -104596,39 +108857,39 @@ overrides = {
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           },
           {
-            "s": "Aggron",
+            "s": "Rhydon",
             "mn": 45
           }
         ]
@@ -104639,7 +108900,7 @@ overrides = {
       "wilds": [
         "Krookodile",
         "Pupitar",
-        "Hippowdon",
+        "Gliscor",
         "Claydol",
         "Ursaring",
         "Audino",
@@ -104670,11 +108931,11 @@ overrides = {
             "mn": 45
           },
           {
-            "s": "Hippowdon",
+            "s": "Gliscor",
             "mn": 45
           },
           {
-            "s": "Hippowdon",
+            "s": "Gliscor",
             "mn": 45
           },
           {
@@ -105744,14 +110005,14 @@ overrides = {
         "Flygon",
         "Banette",
         "Kecleon",
-        "Dunsparce",
+        "Aipom",
         "Granbull",
         "Yanmega",
         "Weavile",
         "Ursaring",
         "Stantler",
         "Porygon2",
-        "Sunflora",
+        "Gliscor",
         "Audino",
         "Wobbuffet"
       ],
@@ -105838,7 +110099,7 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Dunsparce",
+            "s": "Aipom",
             "mn": 60
           },
           {
@@ -105870,19 +110131,19 @@ overrides = {
             "mn": 60
           },
           {
-            "s": "Sunflora",
+            "s": "Gliscor",
             "mn": 60
           },
           {
-            "s": "Sunflora",
+            "s": "Gliscor",
             "mn": 60
           },
           {
-            "s": "Sunflora",
+            "s": "Gliscor",
             "mn": 60
           },
           {
-            "s": "Sunflora",
+            "s": "Gliscor",
             "mn": 60
           }
         ]
@@ -106546,14 +110807,14 @@ overrides = {
         "Magnezone",
         "Arcanine",
         "Ninetales",
-        "Primeape",
+        "Electrode",
         "FarfetchD",
         "Dodrio",
         "Pidgeot",
         "Marowak",
-        "Hypno",
+        "Exeggutor",
         "Audino",
-        "Electrode"
+        "Primeape"
       ],
       "grass": {
         "rates": [
@@ -106646,7 +110907,7 @@ overrides = {
             "mn": 65
           },
           {
-            "s": "Primeape",
+            "s": "Electrode",
             "mn": 65
           },
           {
@@ -106670,19 +110931,19 @@ overrides = {
             "mn": 65
           },
           {
-            "s": "Hypno",
+            "s": "Exeggutor",
             "mn": 65
           },
           {
-            "s": "Hypno",
+            "s": "Exeggutor",
             "mn": 65
           },
           {
-            "s": "Hypno",
+            "s": "Exeggutor",
             "mn": 65
           },
           {
-            "s": "Hypno",
+            "s": "Exeggutor",
             "mn": 65
           }
         ]
@@ -106716,39 +110977,39 @@ overrides = {
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           }
         ]
@@ -106764,14 +111025,14 @@ overrides = {
         "Magnezone",
         "Arcanine",
         "Ninetales",
-        "Primeape",
+        "Electrode",
         "FarfetchD",
         "Dodrio",
         "Pidgeot",
         "Marowak",
-        "Hypno",
+        "Exeggutor",
         "Audino",
-        "Electrode"
+        "Primeape"
       ],
       "grass": {
         "rates": [
@@ -106864,7 +111125,7 @@ overrides = {
             "mn": 65
           },
           {
-            "s": "Primeape",
+            "s": "Electrode",
             "mn": 65
           },
           {
@@ -106888,19 +111149,19 @@ overrides = {
             "mn": 65
           },
           {
-            "s": "Hypno",
+            "s": "Exeggutor",
             "mn": 65
           },
           {
-            "s": "Hypno",
+            "s": "Exeggutor",
             "mn": 65
           },
           {
-            "s": "Hypno",
+            "s": "Exeggutor",
             "mn": 65
           },
           {
-            "s": "Hypno",
+            "s": "Exeggutor",
             "mn": 65
           }
         ]
@@ -106934,39 +111195,39 @@ overrides = {
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           },
           {
-            "s": "Electrode",
+            "s": "Primeape",
             "mn": 65
           }
         ]
@@ -109427,28 +113688,25 @@ overrides = {
     "lostlornforest": {
       "name": "Lostlorn Forest",
       "wilds": [
-        "Gloom",
         "Weepinbell",
+        "Roselia",
+        "Gloom",
         "Tangela",
         "Nuzleaf",
         "Sawsbuck",
-        "Carnivine",
         "Petilil",
         "Cottonee",
+        "Carnivine",
         "Snover",
-        "Roselia",
         "Exeggcute",
         "Tropius",
-        "Murkrow",
-        "Gothorita",
-        "Vullaby",
-        "Elgyem",
-        "Purugly",
-        "Baltoy",
-        "Sneasel",
-        "Bronzor",
-        "Zweilous",
-        "Wobbuffet",
+        "Cinccino",
+        "Ambipom",
+        "Slaking",
+        "Kangaskhan",
+        "Loudred",
+        "Miltank",
+        "Porygon2",
         "Scyther",
         "Heracross",
         "Pinsir",
@@ -109473,11 +113731,15 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Gloom",
+            "s": "Weepinbell",
             "mn": 30
           },
           {
-            "s": "Weepinbell",
+            "s": "Roselia",
+            "mn": 30
+          },
+          {
+            "s": "Gloom",
             "mn": 30
           },
           {
@@ -109493,10 +113755,6 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Carnivine",
-            "mn": 30
-          },
-          {
             "s": "Petilil",
             "mn": 30
           },
@@ -109505,11 +113763,11 @@ overrides = {
             "mn": 30
           },
           {
-            "s": "Snover",
+            "s": "Carnivine",
             "mn": 30
           },
           {
-            "s": "Roselia",
+            "s": "Snover",
             "mn": 30
           },
           {
@@ -109539,52 +113797,52 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Murkrow",
-            "mn": 30
+            "s": "Cinccino",
+            "mn": 35
           },
           {
-            "s": "Gothorita",
-            "mn": 30
+            "s": "Ambipom",
+            "mn": 35
           },
           {
-            "s": "Vullaby",
-            "mn": 30
+            "s": "Slaking",
+            "mn": 35
           },
           {
-            "s": "Elgyem",
-            "mn": 30
+            "s": "Kangaskhan",
+            "mn": 35
           },
           {
-            "s": "Purugly",
-            "mn": 30
+            "s": "Loudred",
+            "mn": 35
           },
           {
-            "s": "Baltoy",
-            "mn": 30
+            "s": "Miltank",
+            "mn": 35
           },
           {
-            "s": "Sneasel",
-            "mn": 30
+            "s": "Sawsbuck",
+            "mn": 35
           },
           {
-            "s": "Bronzor",
-            "mn": 30
+            "s": "Sawsbuck",
+            "mn": 35
           },
           {
-            "s": "Zweilous",
-            "mn": 30
+            "s": "Porygon2",
+            "mn": 35
           },
           {
-            "s": "Wobbuffet",
-            "mn": 30
+            "s": "Porygon2",
+            "mn": 35
           },
           {
-            "s": "Zweilous",
-            "mn": 30
+            "s": "Porygon2",
+            "mn": 35
           },
           {
-            "s": "Wobbuffet",
-            "mn": 30
+            "s": "Porygon2",
+            "mn": 35
           }
         ]
       },
@@ -109812,6 +114070,7 @@ overrides = {
         "Luvdisc",
         "Wailord",
         "Poliwhirl",
+        "Lapras",
         "Swanna"
       ],
       "grass": {
@@ -110115,7 +114374,7 @@ overrides = {
         ],
         "encs": [
           {
-            "s": "Swanna",
+            "s": "Lapras",
             "mn": 40
           },
           {
@@ -110123,15 +114382,15 @@ overrides = {
             "mn": 40
           },
           {
-            "s": "Swanna",
+            "s": "Lapras",
             "mn": 40
           },
           {
-            "s": "Swanna",
+            "s": "Lapras",
             "mn": 40
           },
           {
-            "s": "Swanna",
+            "s": "Lapras",
             "mn": 40
           }
         ]
@@ -110531,7 +114790,7 @@ overrides = {
       "location": ""
     },
     "pokeball": {
-      "name": "Poke Ball",
+      "name": "Poké Ball",
       "desc": "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.",
       "location": ""
     },
@@ -110864,7 +115123,7 @@ overrides = {
       "location": ""
     },
     "pokedoll": {
-      "name": "Poke Doll",
+      "name": "Poké Doll",
       "desc": "A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
       "location": ""
     },
@@ -110955,18 +115214,14 @@ overrides = {
     "sunstone": {
       "name": "Sun Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
-      "location": "Wild held by Petilil",
-      "wilds": [
-        "Petilil"
-      ]
+      "location": ""
     },
     "moonstone": {
       "name": "Moon Stone",
       "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
-      "location": "Wild held by Cleffa, Wild held by Cottonee",
+      "location": "Wild held by Cleffa",
       "wilds": [
-        "Cleffa",
-        "Cottonee"
+        "Cleffa"
       ]
     },
     "firestone": {
@@ -112981,7 +117236,7 @@ overrides = {
       "location": ""
     },
     "pokeradar": {
-      "name": "Poke Radar",
+      "name": "Poké Radar",
       "desc": "A tool that can search out Pokémon that are hiding in grass. Its battery is recharged as you walk.",
       "location": ""
     },
@@ -113720,7 +117975,7 @@ overrides = {
       "location": ""
     },
     "poketoy": {
-      "name": "Poke Toy",
+      "name": "Poké Toy",
       "desc": "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
       "location": ""
     },
